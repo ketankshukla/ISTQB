@@ -19,6 +19,7 @@ A collection of comprehensive, exam-focused self-study courses for ISTQB certifi
 | `ct-api-course/` | CT-API — API Testing | v1.0 | 40 | 90 min | 65% |
 | `ct-at-course/` | CT-AT — Agile Testing | v1.0 | 40 | 60 min | 65% |
 | `ct-ai-course/` | CT-AI — AI Testing | v1.0 | 40 | 60 min | 65% |
+| `ct-ut-course/` | CT-UT — Usability Testing | v1.0 | 40 | 60 min | 65% |
 
 See `ISTQB_Certification_Paths.md` for recommended certification paths based on your role and experience.
 
@@ -45,6 +46,7 @@ The courses are written for software professionals who need structured, efficien
 11. **Testing REST, SOAP, or GraphQL APIs?** Take `ct-api-course/` (API Testing)
 12. **Working in agile and need testing expertise?** Take `ct-at-course/` (Agile Testing)
 13. **Testing AI/ML-based systems?** Take `ct-ai-course/` (AI Testing)
+14. **Testing for usability and user experience?** Take `ct-ut-course/` (Usability Testing)
 
 ---
 
@@ -254,6 +256,21 @@ ISTQB/
 |   |-- 06_using_ai_for_testing/
 |   |-- case_studies/
 |   |-- mock_exams/
+|
+|-- ct-ut-course/                           Usability Testing (CT-UT v1.0)
+|   |-- README.md
+|   |-- STUDY_PLAN.md
+|   |-- EXAM_STRATEGY.md
+|   |-- GLOSSARY.md
+|   |-- PROGRESS_TRACKER.md
+|   |-- 01_introduction_to_usability_and_ux/
+|   |-- 02_usability_testing_process/
+|   |-- 03_usability_evaluation_methods/
+|   |-- 04_accessibility_and_inclusive_design/
+|   |-- 05_tools_metrics_and_reporting/
+|   |-- 06_organizational_aspects/
+|   |-- case_studies/
+|   |-- mock_exams/
 ```
 
 Each course follows the same proven structure:
@@ -295,6 +312,7 @@ Realistic, integrated case studies that force you to combine multiple techniques
 - **CT-API**: REST/SOAP/GraphQL fundamentals, API test design, automation, security, performance, contract testing
 - **CT-AT**: Agile principles, Scrum/Kanban/XP, whole-team testing, BDD/ATDD/TDD, automation in agile, DevOps, scaling
 - **CT-AI**: AI/ML fundamentals, AI SDLC, testing AI systems, ML model evaluation, fairness/robustness/explainability, AI for testing
+- **CT-UT**: Usability/UX principles, testing process, evaluation methods, accessibility, inclusive design, metrics, organizational aspects
 
 ### Mock Exams
 
@@ -343,7 +361,8 @@ Three complete mock exams per course matching the real exam format:
 | CT-API | 120 | 120 | 240 |
 | CT-AT | 120 | 120 | 240 |
 | CT-AI | 120 | 120 | 240 |
-| **Combined** | **1296** | **1650** | **2946+** |
+| CT-UT | 120 | 120 | 240 |
+| **Combined** | **1416** | **1770** | **3186+** |
 
 All questions are original, written in authentic ISTQB style, and include complete rationales.
 
