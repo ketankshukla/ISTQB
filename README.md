@@ -1,14 +1,32 @@
-# ISTQB CTFL v4.0 Self-Study Course
+# ISTQB Certification Self-Study Courses
 
-A comprehensive, exam-focused self-study course for the **ISTQB Certified Tester Foundation Level (CTFL) v4.0** certification. Built entirely in Markdown for easy reading on GitHub or any text editor.
+A collection of comprehensive, exam-focused self-study courses for ISTQB certifications. All courses are built in Markdown for easy reading on GitHub or any text editor.
+
+## Available Courses
+
+| Course | Certification | Syllabus | Questions | Duration | Pass Mark |
+|--------|-------------|----------|-----------|----------|-----------|
+| `ctfl-course/` | CTFL v4.0 — Foundation Level | v4.0 (2024) | 40 | 60 min | 65% |
+| `ctfl-at-course/` | CTFL-AT — Agile Tester | v4.0 | 40 | 60 min | 65% |
+| `ctal-ta-course/` | CTAL-TA — Advanced Test Analyst | v4.0 | 60 | 180 min | 65% |
+| `gen-ai-course/` | CT-GenAI — AI in Testing | v1.1 | 40 | 60 min | 65% |
+
+See `ISTQB_Certification_Paths.md` for recommended certification paths based on your role and experience.
 
 ---
 
 ## About This Project
 
-This repository contains a complete training course designed to prepare you for the ISTQB CTFL v4.0 exam with a target score of 90%+. It covers all 6 syllabus chapters, all 64 learning objectives, and all 14 business outcomes.
+This repository contains complete training courses designed to prepare you for ISTQB certification exams. Each course covers all syllabus chapters, learning objectives, and business outcomes with a target score of 90%+.
 
-The course is written for experienced software engineers who understand development but need structured, efficient preparation for the certification exam.
+The courses are written for software professionals who need structured, efficient preparation for certification exams.
+
+## Quick Start
+
+1. **New to testing?** Start with `ctfl-course/` (Foundation Level)
+2. **Working in agile teams?** Add `ctfl-at-course/` (Agile Tester)
+3. **Experienced test analyst?** Take `ctal-ta-course/` (Advanced Test Analyst)
+4. **Using AI/LLMs in testing?** Take `gen-ai-course/` (AI in Testing)
 
 ---
 
@@ -29,185 +47,152 @@ The course is written for experienced software engineers who understand developm
 ## Repository Structure
 
 ```
-ISTQB-CTFL/
+ISTQB/
 |
-|-- README.md                       This file (project overview)
-|-- CTFL_COURSE_BUILD_PROMPT.md     Build specification used to generate the course
-|-- <reference PDF>                  Official self-study guide (v4.0, 2024)
+|-- README.md                           This file (project overview)
+|-- ISTQB_Certification_Paths.md        Certification roadmap and learning paths
+|-- CTFL_COURSE_BUILD_PROMPT.md         Build specification used to generate the course
 |
-|-- course/
-    |-- README.md                   Course overview and how-to-use guide
-    |-- STUDY_PLAN.md              4-week study schedule targeting 90%+
-    |-- EXAM_STRATEGY.md           Exam tactics, time budgeting, K-level patterns
-    |-- GLOSSARY.md                100+ key ISTQB terms with original definitions
-    |-- PROGRESS_TRACKER.md        Learner checklist for tracking completion and scores
-    |-- COVERAGE_REPORT.md         Verification that all 64 LOs are covered
-    |
-    |-- 01_fundamentals_of_testing/
-    |   |-- README.md              Chapter map, LOs, K-levels, exam weighting
-    |   |-- lessons.md             Full instructional content (sections 1.1-1.5)
-    |   |-- exam_traps.md          Common mistakes and ISTQB-favorite distinctions
-    |   |-- practice_questions.md  17 original questions with rationales
-    |
-    |-- 02_testing_throughout_sdlc/
-    |   |-- README.md
-    |   |-- lessons.md             Sections 2.1-2.3
-    |   |-- exam_traps.md
-    |   |-- practice_questions.md  17 original questions with rationales
-    |
-    |-- 03_static_testing/
-    |   |-- README.md
-    |   |-- lessons.md             Sections 3.1-3.2
-    |   |-- exam_traps.md
-    |   |-- practice_questions.md  17 original questions with rationales
-    |
-    |-- 04_test_analysis_and_design/
-    |   |-- README.md
-    |   |-- lessons.md             Sections 4.1-4.5
-    |   |-- worked_examples.md     Step-by-step EP, BVA, decision tables,
-    |   |                          state transition, coverage, ATDD
-    |   |-- exam_traps.md
-    |   |-- practice_questions.md  22 original questions with rationales
-    |
-    |-- 05_managing_test_activities/
-    |   |-- README.md
-    |   |-- lessons.md             Sections 5.1-5.5
-    |   |-- worked_examples.md     Risk analysis, defect reports, prioritization
-    |   |-- exam_traps.md
-    |   |-- practice_questions.md  18 original questions with rationales
-    |
-    |-- 06_test_tools/
-    |   |-- README.md
-    |   |-- lessons.md             Sections 6.1-6.2
-    |   |-- exam_traps.md
-    |   |-- practice_questions.md  15 original questions with rationales
-    |
-    |-- case_studies/
-    |   |-- case_study_1_ecommerce_checkout.md
-    |   |-- case_study_2_atm.md
-    |   |-- case_study_3_loan_application.md
-    |   |-- case_study_4_login_lockout.md
-    |
-    |-- mock_exams/
-        |-- mock_exam_1.md
-        |-- mock_exam_1_answers.md
-        |-- mock_exam_2.md
-        |-- mock_exam_2_answers.md
-        |-- mock_exam_3.md
-        |-- mock_exam_3_answers.md
+|-- ctfl-course/                        Foundation Level (CTFL v4.0)
+|   |-- README.md
+|   |-- STUDY_PLAN.md
+|   |-- EXAM_STRATEGY.md
+|   |-- GLOSSARY.md
+|   |-- PROGRESS_TRACKER.md
+|   |-- COVERAGE_REPORT.md
+|   |-- 01_fundamentals_of_testing/
+|   |-- 02_testing_throughout_sdlc/
+|   |-- 03_static_testing/
+|   |-- 04_test_analysis_and_design/
+|   |-- 05_managing_test_activities/
+|   |-- 06_test_tools/
+|   |-- case_studies/
+|   |-- mock_exams/
+|
+|-- ctfl-at-course/                     Agile Tester (CTFL-AT v4.0)
+|   |-- README.md
+|   |-- STUDY_PLAN.md
+|   |-- EXAM_STRATEGY.md
+|   |-- GLOSSARY.md
+|   |-- PROGRESS_TRACKER.md
+|   |-- 01_agile_testing_fundamentals/
+|   |-- 02_agile_testing_methods_techniques/
+|   |-- 03_agile_testing_tools_automation/
+|   |-- case_studies/
+|   |-- mock_exams/
+|
+|-- ctal-ta-course/                     Advanced Test Analyst (CTAL-TA v4.0)
+|   |-- README.md
+|   |-- STUDY_PLAN.md
+|   |-- EXAM_STRATEGY.md
+|   |-- GLOSSARY.md
+|   |-- PROGRESS_TRACKER.md
+|   |-- 01_testing_process/
+|   |-- 02_test_design_techniques/
+|   |-- 03_quality_characteristics/
+|   |-- 04_reviews/
+|   |-- 05_test_tools_and_automation/
+|   |-- case_studies/
+|   |-- mock_exams/
+|
+|-- gen-ai-course/                      AI in Testing (CT-GenAI v1.1)
+|   |-- README.md
+|   |-- STUDY_PLAN.md
+|   |-- EXAM_STRATEGY.md
+|   |-- GLOSSARY.md
+|   |-- PROGRESS_TRACKER.md
+|   |-- 01_introduction_to_genai_for_testing/
+|   |-- 02_prompt_engineering_for_testing/
+|   |-- 03_managing_risks_of_genai/
+|   |-- 04_llm_powered_solutions/
+|   |-- 05_deploying_and_integrating_genai/
+|   |-- case_studies/
+|   |-- mock_exams/
 ```
+
+Each course follows the same proven structure:
+- **Chapter README** — Exam weighting, learning objectives, K-levels
+- **lessons.md** — Full instructional content with examples and worked problems
+- **exam_traps.md** — Common mistakes and ISTQB-favorite distinctions
+- **practice_questions.md** — 15-25 original questions with full rationales
+- **case_studies/** — Integrated scenarios combining multiple chapters
+- **mock_exams/** — Full-length timed practice exams with answer keys
 
 ---
 
 ## What Is Included
 
-### Chapter Content (Phases 1-6)
+Every course in this repository follows the same proven structure:
 
-Each of the 6 chapters contains:
+### Chapter Content
+
+Each chapter contains:
 
 - **Lessons** -- Plain-English explanations of every learning objective, with concrete examples from realistic software systems, diagrams (ASCII/tables), and cross-references to related topics
 - **Exam Traps** -- The specific distinctions ISTQB loves to test and the mistakes candidates commonly make
-- **Practice Questions** -- 15-22 original, ISTQB-style questions per chapter, each tagged with its learning objective and K-level, with full rationales explaining why the correct answer is right and why each distractor is wrong
+- **Practice Questions** -- 15-25 original, ISTQB-style questions per chapter, each tagged with its learning objective and K-level, with full rationales explaining why the correct answer is right and why each distractor is wrong
 
-### Worked Examples (Chapters 4 and 5)
+### Case Studies
 
-For every K3 (apply) objective, the course provides:
+Realistic, integrated case studies that force you to combine multiple techniques:
 
-- At least 3 fully worked, step-by-step examples showing the technique applied from requirement to finished test cases
-- Equivalence partitioning, boundary value analysis, decision table testing, state transition testing, statement/branch coverage, ATDD, risk analysis, defect reports, and test prioritization
+- **CTFL**: E-commerce checkout, ATM withdrawal, loan application, login lockout
+- **CTFL-AT**: Agile team transformation, sprint testing, BDD implementation, CI/CD testing
+- **CTAL-TA**: E-commerce test design, healthcare quality characteristics, reviews and tool implementation
+- **CT-GenAI**: Prompt engineering pipeline, risk assessment framework, organizational adoption roadmap
 
-### Case Studies (Phase 7)
+### Mock Exams
 
-Four realistic, integrated case studies that force you to combine multiple techniques on the same feature:
-
-1. **E-Commerce Checkout** -- pricing rules, payment validation, order workflow
-2. **ATM Cash Withdrawal** -- PIN authentication, withdrawal limits, cash dispensing
-3. **Online Loan Application** -- eligibility rules, interest rate calculation, age validation
-4. **User Login and Account Lockout** -- credential validation, lockout state machine, session management
-
-Each case study includes requirements, user stories, EP/BVA/decision table/state transition analysis, a risk-based test approach, a code coverage calculation, a sample defect report, and reflection questions with worked solutions.
-
-### Mock Exams (Phase 8)
-
-Three complete 40-question mock exams matching the real exam format:
+Three complete mock exams per course matching the real exam format:
 
 - Chapter weighting aligned to the official distribution
-- Mix of K1, K2, and K3 questions
-- Non-overlapping question sets (no repeated questions across exams)
-- Separate answer-key files with full rationales for every question
+- Mix of K1, K2, and K3/K4 questions where applicable
+- Non-overlapping question sets
+- Separate answer-key files with full rationales
 - Score interpretation guide
 
 ### Support Materials
 
-- **STUDY_PLAN.md** -- A realistic 4-week schedule with daily activities and scoring milestones
-- **EXAM_STRATEGY.md** -- K-level question patterns, time budgeting (90 sec/question), technique attack strategies, distractor elimination tactics, and a pre-exam checklist
-- **GLOSSARY.md** -- 100+ key ISTQB terms defined in original words
+- **STUDY_PLAN.md** -- A realistic schedule with daily activities and scoring milestones
+- **EXAM_STRATEGY.md** -- K-level question patterns, time budgeting, technique attack strategies, distractor elimination tactics
+- **GLOSSARY.md** -- Key ISTQB terms defined with testing context
 - **PROGRESS_TRACKER.md** -- Checkboxes for tracking chapter completion, practice scores, and mock exam results
 
 ---
 
-## How to Use This Course
+## How to Use These Courses
 
-1. **Start with** `course/STUDY_PLAN.md` to understand the recommended 4-week schedule
-2. **Work through chapters 1-6 in order** -- read lessons, study exam traps, then attempt practice questions
-3. **For Chapters 4 and 5**, work through `worked_examples.md` by hand before checking solutions
-4. **After Chapters 4-5**, complete the 4 case studies to integrate techniques end-to-end
-5. **In Week 4**, take mock exams under timed conditions (60 min, closed book)
+1. **Choose your course** based on your current certification level and role
+2. **Start with `STUDY_PLAN.md`** to understand the recommended schedule
+3. **Work through chapters in order** -- read lessons, study exam traps, then attempt practice questions
+4. **Complete case studies** to integrate techniques end-to-end
+5. **Take mock exams** under timed conditions (closed book)
 6. **The day before your exam**, review `EXAM_STRATEGY.md` and the glossary
 
 ---
 
-## Question Bank
+## Question Bank Totals
 
-| Source | Count |
-|--------|-------|
-| Chapter 1 practice | 17 |
-| Chapter 2 practice | 17 |
-| Chapter 3 practice | 17 |
-| Chapter 4 practice | 22 |
-| Chapter 5 practice | 18 |
-| Chapter 6 practice | 15 |
-| Mock Exam 1 | 40 |
-| Mock Exam 2 | 40 |
-| Mock Exam 3 | 40 |
-| **Total** | **226** |
+| Course | Practice Questions | Mock Exam Questions | Total |
+|--------|-------------------|---------------------|-------|
+| CTFL | 106 | 120 | 226 |
+| CTFL-AT | 60 | 120 | 180 |
+| CTAL-TA | 100 | 120 | 220 |
+| CT-GenAI | 80 | 120 | 200 |
+| **Combined** | **346** | **480** | **826+** |
 
 All questions are original, written in authentic ISTQB style, and include complete rationales.
 
 ---
 
-## Syllabus Coverage
-
-All **64 learning objectives** across all 6 chapters are covered. See `course/COVERAGE_REPORT.md` for the complete mapping of each LO to its corresponding file.
-
-| Chapter | LOs | Exam Weight |
-|---------|-----|-------------|
-| 1 -- Fundamentals of Testing | 14 | ~20% (8 questions) |
-| 2 -- Testing Throughout the SDLC | 10 | ~12.5% (5 questions) |
-| 3 -- Static Testing | 8 | ~12.5% (5 questions) |
-| 4 -- Test Analysis and Design | 14 | ~27.5% (11-12 questions) |
-| 5 -- Managing the Test Activities | 16 | ~22.5% (8-9 questions) |
-| 6 -- Test Tools | 2 | ~5% (2 questions) |
-| **Total** | **64** | **100%** |
-
----
-
 ## Design Principles
 
-- **Exam-focused** -- Content is structured around what the exam actually tests, not general QA knowledge
-- **CTFL v4.0 only** -- All content aligns to the current syllabus version (not the older v3.1)
-- **Original content** -- Every explanation, example, and question is written in original words; nothing is copied verbatim from any source
-- **Self-contained** -- A learner should be able to pass the exam using only this course
-- **Technique-heavy** -- Chapters 4 and 5 receive disproportionate practice material because they account for ~50% of the exam and contain all K3 (application) objectives
-- **No emojis** -- Clean, professional Markdown throughout
-
----
-
-## Prerequisites
-
-- No prior testing or QA experience required
-- Basic understanding of software development concepts (code, requirements, deployment) is assumed
-- Familiarity with at least one programming language helps for Chapter 4 coverage examples
+- **Exam-focused** -- Content is structured around what the exam actually tests, not general knowledge
+- **Syllabus-aligned** -- All content maps to current syllabus versions
+- **Original content** -- Every explanation, example, and question is written in original words
+- **Self-contained** -- A learner should be able to pass the exam using only the course materials
+- **Technique-heavy** -- Higher-weighted chapters receive disproportionate practice material
+- **Professional** -- Clean, professional Markdown throughout
 
 ---
 
