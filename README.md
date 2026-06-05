@@ -18,6 +18,7 @@ A collection of comprehensive, exam-focused self-study courses for ISTQB certifi
 | `ct-genai-course/` | CT-GenAI — AI in Testing | v1.1 | 40 | 60 min | 65% |
 | `ct-api-course/` | CT-API — API Testing | v1.0 | 40 | 90 min | 65% |
 | `ct-at-course/` | CT-AT — Agile Testing | v1.0 | 40 | 60 min | 65% |
+| `ct-ai-course/` | CT-AI — AI Testing | v1.0 | 40 | 60 min | 65% |
 
 See `ISTQB_Certification_Paths.md` for recommended certification paths based on your role and experience.
 
@@ -43,6 +44,7 @@ The courses are written for software professionals who need structured, efficien
 10. **Using AI/LLMs in testing?** Take `ct-genai-course/` (AI in Testing)
 11. **Testing REST, SOAP, or GraphQL APIs?** Take `ct-api-course/` (API Testing)
 12. **Working in agile and need testing expertise?** Take `ct-at-course/` (Agile Testing)
+13. **Testing AI/ML-based systems?** Take `ct-ai-course/` (AI Testing)
 
 ---
 
@@ -237,6 +239,21 @@ ISTQB/
 |   |-- 06_advanced_agile_topics/
 |   |-- case_studies/
 |   |-- mock_exams/
+|
+|-- ct-ai-course/                           AI Testing (CT-AI v1.0)
+|   |-- README.md
+|   |-- STUDY_PLAN.md
+|   |-- EXAM_STRATEGY.md
+|   |-- GLOSSARY.md
+|   |-- PROGRESS_TRACKER.md
+|   |-- 01_introduction_to_ai_and_ml/
+|   |-- 02_ai_in_the_sdlc/
+|   |-- 03_testing_ai_based_systems/
+|   |-- 04_testing_ml_models/
+|   |-- 05_ai_quality_characteristics_and_risks/
+|   |-- 06_using_ai_for_testing/
+|   |-- case_studies/
+|   |-- mock_exams/
 ```
 
 Each course follows the same proven structure:
@@ -277,6 +294,7 @@ Realistic, integrated case studies that force you to combine multiple techniques
 - **CT-GenAI**: Prompt engineering pipeline, risk assessment framework, organizational adoption roadmap
 - **CT-API**: REST/SOAP/GraphQL fundamentals, API test design, automation, security, performance, contract testing
 - **CT-AT**: Agile principles, Scrum/Kanban/XP, whole-team testing, BDD/ATDD/TDD, automation in agile, DevOps, scaling
+- **CT-AI**: AI/ML fundamentals, AI SDLC, testing AI systems, ML model evaluation, fairness/robustness/explainability, AI for testing
 
 ### Mock Exams
 
@@ -324,7 +342,8 @@ Three complete mock exams per course matching the real exam format:
 | CT-GenAI | 80 | 120 | 200 |
 | CT-API | 120 | 120 | 240 |
 | CT-AT | 120 | 120 | 240 |
-| **Combined** | **1176** | **1530** | **2706+** |
+| CT-AI | 120 | 120 | 240 |
+| **Combined** | **1296** | **1650** | **2946+** |
 
 All questions are original, written in authentic ISTQB style, and include complete rationales.
 
