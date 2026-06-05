@@ -16,6 +16,7 @@ A collection of comprehensive, exam-focused self-study courses for ISTQB certifi
 | `ctal-at-course/` | CTAL-AT — Advanced Agile Technical Tester | v4.0 | 40 | 90 min | 65% |
 | `ct-tae-course/` | CT-TAE — Test Automation Engineer | v4.0 | 40 | 90 min | 65% |
 | `ct-genai-course/` | CT-GenAI — AI in Testing | v1.1 | 40 | 60 min | 65% |
+| `ct-api-course/` | CT-API — API Testing | v1.0 | 40 | 90 min | 65% |
 
 See `ISTQB_Certification_Paths.md` for recommended certification paths based on your role and experience.
 
@@ -39,6 +40,7 @@ The courses are written for software professionals who need structured, efficien
 8. **Working in agile with technical testing?** Take `ctal-at-course/` (Advanced Agile Technical Tester)
 9. **Building or leading test automation?** Take `ct-tae-course/` (Test Automation Engineer)
 10. **Using AI/LLMs in testing?** Take `ct-genai-course/` (AI in Testing)
+11. **Testing REST, SOAP, or GraphQL APIs?** Take `ct-api-course/` (API Testing)
 
 ---
 
@@ -203,6 +205,21 @@ ISTQB/
 |   |-- 05_deploying_and_integrating_genai/
 |   |-- case_studies/
 |   |-- mock_exams/
+|
+|-- ct-api-course/                         API Testing (CT-API v1.0)
+|   |-- README.md
+|   |-- STUDY_PLAN.md
+|   |-- EXAM_STRATEGY.md
+|   |-- GLOSSARY.md
+|   |-- PROGRESS_TRACKER.md
+|   |-- 01_introduction_to_api_testing/
+|   |-- 02_api_test_analysis_and_design/
+|   |-- 03_api_test_implementation_and_execution/
+|   |-- 04_api_test_automation/
+|   |-- 05_api_security_and_performance_testing/
+|   |-- 06_contract_testing_and_advanced_topics/
+|   |-- case_studies/
+|   |-- mock_exams/
 ```
 
 Each course follows the same proven structure:
@@ -241,6 +258,7 @@ Realistic, integrated case studies that force you to combine multiple techniques
 - **CTAL-AT**: Agile transformation, TDD/BDD/ATDD, test automation, CI/CD, continuous testing
 - **CTAL-TAE**: Test automation strategy, TAA design, framework selection, CI/CD integration, metrics and ROI
 - **CT-GenAI**: Prompt engineering pipeline, risk assessment framework, organizational adoption roadmap
+- **CT-API**: REST/SOAP/GraphQL fundamentals, API test design, automation, security, performance, contract testing
 
 ### Mock Exams
 
@@ -286,7 +304,8 @@ Three complete mock exams per course matching the real exam format:
 | CTAL-AT | 100 | 120 | 220 |
 | CTAL-TAE | 120 | 120 | 240 |
 | CT-GenAI | 80 | 120 | 200 |
-| **Combined** | **936** | **1290** | **2226+** |
+| CT-API | 120 | 120 | 240 |
+| **Combined** | **1056** | **1410** | **2466+** |
 
 All questions are original, written in authentic ISTQB style, and include complete rationales.
 
