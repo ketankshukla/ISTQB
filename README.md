@@ -11,6 +11,7 @@ A collection of comprehensive, exam-focused self-study courses for ISTQB certifi
 | `ctfl-mbt-course/` | CTFL-MBT — Model-Based Tester | v1.0 | 40 | 60 min | 65% |
 | `ctfl-gt-course/` | CTFL-GT — Gambling Industry Tester | v1.0 | 40 | 60 min | 65% |
 | `ctal-ta-course/` | CTAL-TA — Advanced Test Analyst | v4.0 | 60 | 180 min | 65% |
+| `ctal-tm-course/` | CTAL-TM — Advanced Test Manager | v4.0 | 65 | 180 min | 65% |
 | `gen-ai-course/` | CT-GenAI — AI in Testing | v1.1 | 40 | 60 min | 65% |
 
 See `ISTQB_Certification_Paths.md` for recommended certification paths based on your role and experience.
@@ -30,7 +31,8 @@ The courses are written for software professionals who need structured, efficien
 3. **Using model-based testing?** Add `ctfl-mbt-course/` (Model-Based Tester)
 4. **Working in iGaming or gambling?** Take `ctfl-gt-course/` (Gambling Industry Tester)
 5. **Experienced test analyst?** Take `ctal-ta-course/` (Advanced Test Analyst)
-6. **Using AI/LLMs in testing?** Take `gen-ai-course/` (AI in Testing)
+6. **Leading a test team?** Take `ctal-tm-course/` (Advanced Test Manager)
+7. **Using AI/LLMs in testing?** Take `gen-ai-course/` (AI in Testing)
 
 ---
 
@@ -124,6 +126,18 @@ ISTQB/
 |   |-- 04_reviews/
 |   |-- 05_test_tools_and_automation/
 |   |-- case_studies/
+|
+|-- ctal-tm-course/                     Advanced Test Manager (CTAL-TM v4.0)
+|   |-- README.md
+|   |-- STUDY_PLAN.md
+|   |-- EXAM_STRATEGY.md
+|   |-- GLOSSARY.md
+|   |-- PROGRESS_TRACKER.md
+|   |-- 01_testing_process/
+|   |-- 02_test_management/
+|   |-- 03_reviews/
+|   |-- 04_test_tools_and_automation/
+|   |-- case_studies/
 |   |-- mock_exams/
 |
 |-- gen-ai-course/                      AI in Testing (CT-GenAI v1.1)
@@ -172,6 +186,7 @@ Realistic, integrated case studies that force you to combine multiple techniques
 - **CTFL-MBT**: ATM state machine modeling, e-commerce decision tables, MBT tool selection
 - **CTFL-GT**: Slot game testing, sports betting compliance, multi-jurisdiction regulatory audit
 - **CTAL-TA**: E-commerce test design, healthcare quality characteristics, reviews and tool implementation
+- **CTAL-TM**: Test strategy planning, risk-based testing, test team transformation
 - **CT-GenAI**: Prompt engineering pipeline, risk assessment framework, organizational adoption roadmap
 
 ### Mock Exams
@@ -213,8 +228,9 @@ Three complete mock exams per course matching the real exam format:
 | CTFL-MBT | 85 | 120 | 205 |
 | CTFL-GT | 80 | 120 | 200 |
 | CTAL-TA | 100 | 120 | 220 |
+| CTAL-TM | 85 | 195 | 280 |
 | CT-GenAI | 80 | 120 | 200 |
-| **Combined** | **511** | **720** | **1231+** |
+| **Combined** | **596** | **915** | **1511+** |
 
 All questions are original, written in authentic ISTQB style, and include complete rationales.
 
