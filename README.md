@@ -15,7 +15,7 @@ A collection of comprehensive, exam-focused self-study courses for ISTQB certifi
 | `ctal-tta-course/` | CTAL-TTA — Advanced Technical Test Analyst | v4.0 | 45 | 120 min | 65% |
 | `ctal-at-course/` | CTAL-AT — Advanced Agile Technical Tester | v4.0 | 40 | 90 min | 65% |
 | `ct-tae-course/` | CT-TAE — Test Automation Engineer | v4.0 | 40 | 90 min | 65% |
-| `gen-ai-course/` | CT-GenAI — AI in Testing | v1.1 | 40 | 60 min | 65% |
+| `ct-genai-course/` | CT-GenAI — AI in Testing | v1.1 | 40 | 60 min | 65% |
 
 See `ISTQB_Certification_Paths.md` for recommended certification paths based on your role and experience.
 
@@ -38,7 +38,7 @@ The courses are written for software professionals who need structured, efficien
 7. **Technical test specialist?** Take `ctal-tta-course/` (Advanced Technical Test Analyst)
 8. **Working in agile with technical testing?** Take `ctal-at-course/` (Advanced Agile Technical Tester)
 9. **Building or leading test automation?** Take `ct-tae-course/` (Test Automation Engineer)
-10. **Using AI/LLMs in testing?** Take `gen-ai-course/` (AI in Testing)
+10. **Using AI/LLMs in testing?** Take `ct-genai-course/` (AI in Testing)
 
 ---
 
@@ -190,7 +190,7 @@ ISTQB/
 |   |-- case_studies/
 |   |-- mock_exams/
 |
-|-- gen-ai-course/                      AI in Testing (CT-GenAI v1.1)
+|-- ct-genai-course/                      AI in Testing (CT-GenAI v1.1)
 |   |-- README.md
 |   |-- STUDY_PLAN.md
 |   |-- EXAM_STRATEGY.md

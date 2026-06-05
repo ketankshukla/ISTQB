@@ -19,7 +19,7 @@ This course provides comprehensive preparation for the ISTQB Certified Tester â€
 ## Course Structure
 
 ```
-gen-ai-course/
+ct-genai-course/
   README.md                              <-- You are here
   STUDY_PLAN.md                          2-3 week study plan
   EXAM_STRATEGY.md                       Exam tactics, time budgeting, distractor elimination
