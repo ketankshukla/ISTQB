@@ -22,6 +22,7 @@ A collection of comprehensive, exam-focused self-study courses for ISTQB certifi
 | `ct-ut-course/` | CT-UT — Usability Testing | v1.0 | 40 | 60 min | 65% |
 | `ct-mbt-course/` | CT-MBT — Model-Based Testing | v1.0 | 40 | 60 min | 65% |
 | `ct-pt-course/` | CT-PT — Performance Testing | v1.0 | 40 | 60 min | 65% |
+| `ct-bd-course/` | CT-BD — Big Data Testing | v1.0 | 40 | 60 min | 65% |
 
 See `ISTQB_Certification_Paths.md` for recommended certification paths based on your role and experience.
 
@@ -51,6 +52,7 @@ The courses are written for software professionals who need structured, efficien
 14. **Testing for usability and user experience?** Take `ct-ut-course/` (Usability Testing)
 15. **Using model-based testing?** Take `ct-mbt-course/` (Model-Based Testing)
 16. **Testing application performance and capacity?** Take `ct-pt-course/` (Performance Testing)
+17. **Testing Big Data platforms and data quality?** Take `ct-bd-course/` (Big Data Testing)
 
 ---
 
@@ -305,6 +307,21 @@ ISTQB/
 |   |-- 06_performance_testing_tools_and_automation/
 |   |-- case_studies/
 |   |-- mock_exams/
+|
+|-- ct-bd-course/                            Big Data Testing (CT-BD v1.0)
+|   |-- README.md
+|   |-- STUDY_PLAN.md
+|   |-- EXAM_STRATEGY.md
+|   |-- GLOSSARY.md
+|   |-- PROGRESS_TRACKER.md
+|   |-- 01_introduction_to_big_data_testing/
+|   |-- 02_big_data_architecture_and_components/
+|   |-- 03_data_quality_testing/
+|   |-- 04_functional_testing_of_big_data_applications/
+|   |-- 05_performance_and_scalability_testing_for_big_data/
+|   |-- 06_big_data_testing_tools_and_automation/
+|   |-- case_studies/
+|   |-- mock_exams/
 ```
 
 Each course follows the same proven structure:
@@ -349,6 +366,7 @@ Realistic, integrated case studies that force you to combine multiple techniques
 - **CT-UT**: Usability/UX principles, testing process, evaluation methods, accessibility, inclusive design, metrics, organizational aspects
 - **CT-MBT**: MBT fundamentals, modeling types (state machines, decision tables, process models), test selection criteria, test implementation, deployment, tool support
 - **CT-PT**: Performance testing fundamentals, test types (load, stress, endurance, spike, volume, scalability), test planning and design, execution and monitoring, analysis and reporting, tools and automation
+- **CT-BD**: Big Data testing fundamentals, architecture and components (Hadoop, Spark, NoSQL), data quality dimensions, ETL/ELT testing, performance and scalability testing, tools and automation
 
 ### Mock Exams
 
@@ -400,7 +418,8 @@ Three complete mock exams per course matching the real exam format:
 | CT-UT | 120 | 120 | 240 |
 | CT-MBT | 120 | 120 | 240 |
 | CT-PT | 120 | 120 | 240 |
-| **Combined** | **1656** | **2010** | **3666+** |
+| CT-BD | 120 | 120 | 240 |
+| **Combined** | **1776** | **2130** | **3906+** |
 
 All questions are original, written in authentic ISTQB style, and include complete rationales.
 
