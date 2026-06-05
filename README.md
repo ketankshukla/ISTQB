@@ -8,6 +8,7 @@ A collection of comprehensive, exam-focused self-study courses for ISTQB certifi
 |--------|-------------|----------|-----------|----------|-----------|
 | `ctfl-course/` | CTFL v4.0 — Foundation Level | v4.0 (2024) | 40 | 60 min | 65% |
 | `ctfl-at-course/` | CTFL-AT — Agile Tester | v4.0 | 40 | 60 min | 65% |
+| `ctfl-mbt-course/` | CTFL-MBT — Model-Based Tester | v1.0 | 40 | 60 min | 65% |
 | `ctal-ta-course/` | CTAL-TA — Advanced Test Analyst | v4.0 | 60 | 180 min | 65% |
 | `gen-ai-course/` | CT-GenAI — AI in Testing | v1.1 | 40 | 60 min | 65% |
 
@@ -25,8 +26,9 @@ The courses are written for software professionals who need structured, efficien
 
 1. **New to testing?** Start with `ctfl-course/` (Foundation Level)
 2. **Working in agile teams?** Add `ctfl-at-course/` (Agile Tester)
-3. **Experienced test analyst?** Take `ctal-ta-course/` (Advanced Test Analyst)
-4. **Using AI/LLMs in testing?** Take `gen-ai-course/` (AI in Testing)
+3. **Using model-based testing?** Add `ctfl-mbt-course/` (Model-Based Tester)
+4. **Experienced test analyst?** Take `ctal-ta-course/` (Advanced Test Analyst)
+5. **Using AI/LLMs in testing?** Take `gen-ai-course/` (AI in Testing)
 
 ---
 
@@ -78,6 +80,20 @@ ISTQB/
 |   |-- 01_agile_testing_fundamentals/
 |   |-- 02_agile_testing_methods_techniques/
 |   |-- 03_agile_testing_tools_automation/
+|   |-- case_studies/
+|   |-- mock_exams/
+|
+|-- ctfl-mbt-course/                    Model-Based Tester (CTFL-MBT v1.0)
+|   |-- README.md
+|   |-- STUDY_PLAN.md
+|   |-- EXAM_STRATEGY.md
+|   |-- GLOSSARY.md
+|   |-- PROGRESS_TRACKER.md
+|   |-- 01_introduction_to_mbt/
+|   |-- 02_mbt_modeling/
+|   |-- 03_test_generation_selection_criteria/
+|   |-- 04_mbt_execution_analysis/
+|   |-- 05_mbt_tools_automation/
 |   |-- case_studies/
 |   |-- mock_exams/
 |
@@ -138,6 +154,7 @@ Realistic, integrated case studies that force you to combine multiple techniques
 
 - **CTFL**: E-commerce checkout, ATM withdrawal, loan application, login lockout
 - **CTFL-AT**: Agile team transformation, sprint testing, BDD implementation, CI/CD testing
+- **CTFL-MBT**: ATM state machine modeling, e-commerce decision tables, MBT tool selection
 - **CTAL-TA**: E-commerce test design, healthcare quality characteristics, reviews and tool implementation
 - **CT-GenAI**: Prompt engineering pipeline, risk assessment framework, organizational adoption roadmap
 
@@ -177,9 +194,10 @@ Three complete mock exams per course matching the real exam format:
 |--------|-------------------|---------------------|-------|
 | CTFL | 106 | 120 | 226 |
 | CTFL-AT | 60 | 120 | 180 |
+| CTFL-MBT | 85 | 120 | 205 |
 | CTAL-TA | 100 | 120 | 220 |
 | CT-GenAI | 80 | 120 | 200 |
-| **Combined** | **346** | **480** | **826+** |
+| **Combined** | **431** | **600** | **1031+** |
 
 All questions are original, written in authentic ISTQB style, and include complete rationales.
 
