@@ -17,6 +17,7 @@ A collection of comprehensive, exam-focused self-study courses for ISTQB certifi
 | `ct-tae-course/` | CT-TAE — Test Automation Engineer | v4.0 | 40 | 90 min | 65% |
 | `ct-genai-course/` | CT-GenAI — AI in Testing | v1.1 | 40 | 60 min | 65% |
 | `ct-api-course/` | CT-API — API Testing | v1.0 | 40 | 90 min | 65% |
+| `ct-at-course/` | CT-AT — Agile Testing | v1.0 | 40 | 60 min | 65% |
 
 See `ISTQB_Certification_Paths.md` for recommended certification paths based on your role and experience.
 
@@ -41,6 +42,7 @@ The courses are written for software professionals who need structured, efficien
 9. **Building or leading test automation?** Take `ct-tae-course/` (Test Automation Engineer)
 10. **Using AI/LLMs in testing?** Take `ct-genai-course/` (AI in Testing)
 11. **Testing REST, SOAP, or GraphQL APIs?** Take `ct-api-course/` (API Testing)
+12. **Working in agile and need testing expertise?** Take `ct-at-course/` (Agile Testing)
 
 ---
 
@@ -220,6 +222,21 @@ ISTQB/
 |   |-- 06_contract_testing_and_advanced_topics/
 |   |-- case_studies/
 |   |-- mock_exams/
+|
+|-- ct-at-course/                          Agile Testing (CT-AT v1.0)
+|   |-- README.md
+|   |-- STUDY_PLAN.md
+|   |-- EXAM_STRATEGY.md
+|   |-- GLOSSARY.md
+|   |-- PROGRESS_TRACKER.md
+|   |-- 01_agile_principles_and_mindset/
+|   |-- 02_agile_testing/
+|   |-- 03_testing_techniques_in_agile/
+|   |-- 04_test_automation_in_agile/
+|   |-- 05_tools_in_agile/
+|   |-- 06_advanced_agile_topics/
+|   |-- case_studies/
+|   |-- mock_exams/
 ```
 
 Each course follows the same proven structure:
@@ -259,6 +276,7 @@ Realistic, integrated case studies that force you to combine multiple techniques
 - **CTAL-TAE**: Test automation strategy, TAA design, framework selection, CI/CD integration, metrics and ROI
 - **CT-GenAI**: Prompt engineering pipeline, risk assessment framework, organizational adoption roadmap
 - **CT-API**: REST/SOAP/GraphQL fundamentals, API test design, automation, security, performance, contract testing
+- **CT-AT**: Agile principles, Scrum/Kanban/XP, whole-team testing, BDD/ATDD/TDD, automation in agile, DevOps, scaling
 
 ### Mock Exams
 
@@ -305,7 +323,8 @@ Three complete mock exams per course matching the real exam format:
 | CTAL-TAE | 120 | 120 | 240 |
 | CT-GenAI | 80 | 120 | 200 |
 | CT-API | 120 | 120 | 240 |
-| **Combined** | **1056** | **1410** | **2466+** |
+| CT-AT | 120 | 120 | 240 |
+| **Combined** | **1176** | **1530** | **2706+** |
 
 All questions are original, written in authentic ISTQB style, and include complete rationales.
 
