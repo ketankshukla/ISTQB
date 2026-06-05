@@ -20,6 +20,7 @@ A collection of comprehensive, exam-focused self-study courses for ISTQB certifi
 | `ct-at-course/` | CT-AT — Agile Testing | v1.0 | 40 | 60 min | 65% |
 | `ct-ai-course/` | CT-AI — AI Testing | v1.0 | 40 | 60 min | 65% |
 | `ct-ut-course/` | CT-UT — Usability Testing | v1.0 | 40 | 60 min | 65% |
+| `ct-mbt-course/` | CT-MBT — Model-Based Testing | v1.0 | 40 | 60 min | 65% |
 
 See `ISTQB_Certification_Paths.md` for recommended certification paths based on your role and experience.
 
@@ -47,6 +48,7 @@ The courses are written for software professionals who need structured, efficien
 12. **Working in agile and need testing expertise?** Take `ct-at-course/` (Agile Testing)
 13. **Testing AI/ML-based systems?** Take `ct-ai-course/` (AI Testing)
 14. **Testing for usability and user experience?** Take `ct-ut-course/` (Usability Testing)
+15. **Using model-based testing?** Take `ct-mbt-course/` (Model-Based Testing)
 
 ---
 
@@ -271,6 +273,21 @@ ISTQB/
 |   |-- 06_organizational_aspects/
 |   |-- case_studies/
 |   |-- mock_exams/
+|
+|-- ct-mbt-course/                           Model-Based Testing (CT-MBT v1.0)
+|   |-- README.md
+|   |-- STUDY_PLAN.md
+|   |-- EXAM_STRATEGY.md
+|   |-- GLOSSARY.md
+|   |-- PROGRESS_TRACKER.md
+|   |-- 01_introduction_to_mbt/
+|   |-- 02_mbt_modeling/
+|   |-- 03_test_selection_criteria/
+|   |-- 04_test_implementation_and_execution/
+|   |-- 05_evaluating_and_deploying_mbt/
+|   |-- 06_mbt_tool_support/
+|   |-- case_studies/
+|   |-- mock_exams/
 ```
 
 Each course follows the same proven structure:
@@ -313,6 +330,7 @@ Realistic, integrated case studies that force you to combine multiple techniques
 - **CT-AT**: Agile principles, Scrum/Kanban/XP, whole-team testing, BDD/ATDD/TDD, automation in agile, DevOps, scaling
 - **CT-AI**: AI/ML fundamentals, AI SDLC, testing AI systems, ML model evaluation, fairness/robustness/explainability, AI for testing
 - **CT-UT**: Usability/UX principles, testing process, evaluation methods, accessibility, inclusive design, metrics, organizational aspects
+- **CT-MBT**: MBT fundamentals, modeling types (state machines, decision tables, process models), test selection criteria, test implementation, deployment, tool support
 
 ### Mock Exams
 
@@ -362,7 +380,8 @@ Three complete mock exams per course matching the real exam format:
 | CT-AT | 120 | 120 | 240 |
 | CT-AI | 120 | 120 | 240 |
 | CT-UT | 120 | 120 | 240 |
-| **Combined** | **1416** | **1770** | **3186+** |
+| CT-MBT | 120 | 120 | 240 |
+| **Combined** | **1536** | **1890** | **3426+** |
 
 All questions are original, written in authentic ISTQB style, and include complete rationales.
 
