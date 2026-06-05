@@ -14,6 +14,7 @@ A collection of comprehensive, exam-focused self-study courses for ISTQB certifi
 | `ctal-tm-course/` | CTAL-TM — Advanced Test Manager | v4.0 | 65 | 180 min | 65% |
 | `ctal-tta-course/` | CTAL-TTA — Advanced Technical Test Analyst | v4.0 | 45 | 120 min | 65% |
 | `ctal-at-course/` | CTAL-AT — Advanced Agile Technical Tester | v4.0 | 40 | 90 min | 65% |
+| `ctal-tae-course/` | CTAL-TAE — Test Automation Engineer | v4.0 | 40 | 90 min | 65% |
 | `gen-ai-course/` | CT-GenAI — AI in Testing | v1.1 | 40 | 60 min | 65% |
 
 See `ISTQB_Certification_Paths.md` for recommended certification paths based on your role and experience.
@@ -36,7 +37,8 @@ The courses are written for software professionals who need structured, efficien
 6. **Leading a test team?** Take `ctal-tm-course/` (Advanced Test Manager)
 7. **Technical test specialist?** Take `ctal-tta-course/` (Advanced Technical Test Analyst)
 8. **Working in agile with technical testing?** Take `ctal-at-course/` (Advanced Agile Technical Tester)
-9. **Using AI/LLMs in testing?** Take `gen-ai-course/` (AI in Testing)
+9. **Building or leading test automation?** Take `ctal-tae-course/` (Test Automation Engineer)
+10. **Using AI/LLMs in testing?** Take `gen-ai-course/` (AI in Testing)
 
 ---
 
@@ -173,6 +175,21 @@ ISTQB/
 |   |-- case_studies/
 |   |-- mock_exams/
 |
+|-- ctal-tae-course/                     Test Automation Engineer (CTAL-TAE v4.0)
+|   |-- README.md
+|   |-- STUDY_PLAN.md
+|   |-- EXAM_STRATEGY.md
+|   |-- GLOSSARY.md
+|   |-- PROGRESS_TRACKER.md
+|   |-- 01_introduction_to_test_automation/
+|   |-- 02_preparing_for_test_automation/
+|   |-- 03_test_automation_architecture/
+|   |-- 04_designing_and_developing_tas/
+|   |-- 05_deployment_and_reporting/
+|   |-- 06_transitioning_and_maintenance/
+|   |-- case_studies/
+|   |-- mock_exams/
+|
 |-- gen-ai-course/                      AI in Testing (CT-GenAI v1.1)
 |   |-- README.md
 |   |-- STUDY_PLAN.md
@@ -222,6 +239,7 @@ Realistic, integrated case studies that force you to combine multiple techniques
 - **CTAL-TM**: Test strategy planning, risk-based testing, test team transformation
 - **CTAL-TTA**: Risk-based white-box testing, static/dynamic analysis, non-functional testing
 - **CTAL-AT**: Agile transformation, TDD/BDD/ATDD, test automation, CI/CD, continuous testing
+- **CTAL-TAE**: Test automation strategy, TAA design, framework selection, CI/CD integration, metrics and ROI
 - **CT-GenAI**: Prompt engineering pipeline, risk assessment framework, organizational adoption roadmap
 
 ### Mock Exams
@@ -266,8 +284,9 @@ Three complete mock exams per course matching the real exam format:
 | CTAL-TM | 85 | 195 | 280 |
 | CTAL-TTA | 120 | 135 | 255 |
 | CTAL-AT | 100 | 120 | 220 |
+| CTAL-TAE | 120 | 120 | 240 |
 | CT-GenAI | 80 | 120 | 200 |
-| **Combined** | **816** | **1170** | **1986+** |
+| **Combined** | **936** | **1290** | **2226+** |
 
 All questions are original, written in authentic ISTQB style, and include complete rationales.
 
