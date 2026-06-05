@@ -14,7 +14,7 @@ A collection of comprehensive, exam-focused self-study courses for ISTQB certifi
 | `ctal-tm-course/` | CTAL-TM — Advanced Test Manager | v4.0 | 65 | 180 min | 65% |
 | `ctal-tta-course/` | CTAL-TTA — Advanced Technical Test Analyst | v4.0 | 45 | 120 min | 65% |
 | `ctal-at-course/` | CTAL-AT — Advanced Agile Technical Tester | v4.0 | 40 | 90 min | 65% |
-| `ctal-tae-course/` | CTAL-TAE — Test Automation Engineer | v4.0 | 40 | 90 min | 65% |
+| `ct-tae-course/` | CTAL-TAE — Test Automation Engineer | v4.0 | 40 | 90 min | 65% |
 | `gen-ai-course/` | CT-GenAI — AI in Testing | v1.1 | 40 | 60 min | 65% |
 
 See `ISTQB_Certification_Paths.md` for recommended certification paths based on your role and experience.
@@ -37,7 +37,7 @@ The courses are written for software professionals who need structured, efficien
 6. **Leading a test team?** Take `ctal-tm-course/` (Advanced Test Manager)
 7. **Technical test specialist?** Take `ctal-tta-course/` (Advanced Technical Test Analyst)
 8. **Working in agile with technical testing?** Take `ctal-at-course/` (Advanced Agile Technical Tester)
-9. **Building or leading test automation?** Take `ctal-tae-course/` (Test Automation Engineer)
+9. **Building or leading test automation?** Take `ct-tae-course/` (Test Automation Engineer)
 10. **Using AI/LLMs in testing?** Take `gen-ai-course/` (AI in Testing)
 
 ---
@@ -175,7 +175,7 @@ ISTQB/
 |   |-- case_studies/
 |   |-- mock_exams/
 |
-|-- ctal-tae-course/                     Test Automation Engineer (CTAL-TAE v4.0)
+|-- ct-tae-course/                     Test Automation Engineer (CTAL-TAE v4.0)
 |   |-- README.md
 |   |-- STUDY_PLAN.md
 |   |-- EXAM_STRATEGY.md
