@@ -23,6 +23,7 @@ A collection of comprehensive, exam-focused self-study courses for ISTQB certifi
 | `ct-mbt-course/` | CT-MBT — Model-Based Testing | v1.0 | 40 | 60 min | 65% |
 | `ct-pt-course/` | CT-PT — Performance Testing | v1.0 | 40 | 60 min | 65% |
 | `ct-bd-course/` | CT-BD — Big Data Testing | v1.0 | 40 | 60 min | 65% |
+| `ct-sec-course/` | CT-SEC — Security Testing | v1.0 | 40 | 60 min | 65% |
 
 See `ISTQB_Certification_Paths.md` for recommended certification paths based on your role and experience.
 
@@ -53,6 +54,7 @@ The courses are written for software professionals who need structured, efficien
 15. **Using model-based testing?** Take `ct-mbt-course/` (Model-Based Testing)
 16. **Testing application performance and capacity?** Take `ct-pt-course/` (Performance Testing)
 17. **Testing Big Data platforms and data quality?** Take `ct-bd-course/` (Big Data Testing)
+18. **Testing application security and vulnerabilities?** Take `ct-sec-course/` (Security Testing)
 
 ---
 
@@ -322,6 +324,21 @@ ISTQB/
 |   |-- 06_big_data_testing_tools_and_automation/
 |   |-- case_studies/
 |   |-- mock_exams/
+|
+|-- ct-sec-course/                            Security Testing (CT-SEC v1.0)
+|   |-- README.md
+|   |-- STUDY_PLAN.md
+|   |-- EXAM_STRATEGY.md
+|   |-- GLOSSARY.md
+|   |-- PROGRESS_TRACKER.md
+|   |-- 01_introduction_to_security_testing/
+|   |-- 02_security_testing_concepts_and_principles/
+|   |-- 03_threat_modeling_and_risk_analysis/
+|   |-- 04_security_test_design_and_techniques/
+|   |-- 05_security_test_execution_and_evaluation/
+|   |-- 06_security_testing_tools_and_automation/
+|   |-- case_studies/
+|   |-- mock_exams/
 ```
 
 Each course follows the same proven structure:
@@ -367,6 +384,7 @@ Realistic, integrated case studies that force you to combine multiple techniques
 - **CT-MBT**: MBT fundamentals, modeling types (state machines, decision tables, process models), test selection criteria, test implementation, deployment, tool support
 - **CT-PT**: Performance testing fundamentals, test types (load, stress, endurance, spike, volume, scalability), test planning and design, execution and monitoring, analysis and reporting, tools and automation
 - **CT-BD**: Big Data testing fundamentals, architecture and components (Hadoop, Spark, NoSQL), data quality dimensions, ETL/ELT testing, performance and scalability testing, tools and automation
+- **CT-SEC**: Security testing fundamentals, CIA triad, security principles and controls, threat modeling (STRIDE, DREAD, attack trees), risk analysis, penetration testing, authentication/authorization testing, input validation, SAST/DAST/IAST/SCA tools, CI/CD security integration
 
 ### Mock Exams
 
@@ -419,7 +437,8 @@ Three complete mock exams per course matching the real exam format:
 | CT-MBT | 120 | 120 | 240 |
 | CT-PT | 120 | 120 | 240 |
 | CT-BD | 120 | 120 | 240 |
-| **Combined** | **1776** | **2130** | **3906+** |
+| CT-SEC | 120 | 120 | 240 |
+| **Combined** | **1896** | **2250** | **4146+** |
 
 All questions are original, written in authentic ISTQB style, and include complete rationales.
 
