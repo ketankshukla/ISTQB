@@ -22,7 +22,7 @@ Complete self-study course for the ISTQB CTAL-TAE certification exam.
 ## Course Structure
 
 ```
-ctal-tae-course/
+ct-tae-course/
 |-- README.md                           This file — course overview and map
 |-- STUDY_PLAN.md                       4-week and accelerated study schedules
 |-- EXAM_STRATEGY.md                    Tactics, time management, and trap avoidance
