@@ -13,6 +13,7 @@ A collection of comprehensive, exam-focused self-study courses for ISTQB certifi
 | `ctal-ta-course/` | CTAL-TA — Advanced Test Analyst | v4.0 | 60 | 180 min | 65% |
 | `ctal-tm-course/` | CTAL-TM — Advanced Test Manager | v4.0 | 65 | 180 min | 65% |
 | `ctal-tta-course/` | CTAL-TTA — Advanced Technical Test Analyst | v4.0 | 45 | 120 min | 65% |
+| `ctal-at-course/` | CTAL-AT — Advanced Agile Technical Tester | v4.0 | 40 | 90 min | 65% |
 | `gen-ai-course/` | CT-GenAI — AI in Testing | v1.1 | 40 | 60 min | 65% |
 
 See `ISTQB_Certification_Paths.md` for recommended certification paths based on your role and experience.
@@ -34,7 +35,8 @@ The courses are written for software professionals who need structured, efficien
 5. **Experienced test analyst?** Take `ctal-ta-course/` (Advanced Test Analyst)
 6. **Leading a test team?** Take `ctal-tm-course/` (Advanced Test Manager)
 7. **Technical test specialist?** Take `ctal-tta-course/` (Advanced Technical Test Analyst)
-8. **Using AI/LLMs in testing?** Take `gen-ai-course/` (AI in Testing)
+8. **Working in agile with technical testing?** Take `ctal-at-course/` (Advanced Agile Technical Tester)
+9. **Using AI/LLMs in testing?** Take `gen-ai-course/` (AI in Testing)
 
 ---
 
@@ -157,6 +159,20 @@ ISTQB/
 |   |-- case_studies/
 |   |-- mock_exams/
 |
+|-- ctal-at-course/                     Advanced Agile Technical Tester (CTAL-AT v4.0)
+|   |-- README.md
+|   |-- STUDY_PLAN.md
+|   |-- EXAM_STRATEGY.md
+|   |-- GLOSSARY.md
+|   |-- PROGRESS_TRACKER.md
+|   |-- 01_agile_principles_and_context/
+|   |-- 02_tdd_bdd_atdd/
+|   |-- 03_test_automation_in_agile/
+|   |-- 04_cicd_devops/
+|   |-- 05_testing_techniques_in_agile/
+|   |-- case_studies/
+|   |-- mock_exams/
+|
 |-- gen-ai-course/                      AI in Testing (CT-GenAI v1.1)
 |   |-- README.md
 |   |-- STUDY_PLAN.md
@@ -205,6 +221,7 @@ Realistic, integrated case studies that force you to combine multiple techniques
 - **CTAL-TA**: E-commerce test design, healthcare quality characteristics, reviews and tool implementation
 - **CTAL-TM**: Test strategy planning, risk-based testing, test team transformation
 - **CTAL-TTA**: Risk-based white-box testing, static/dynamic analysis, non-functional testing
+- **CTAL-AT**: Agile transformation, TDD/BDD/ATDD, test automation, CI/CD, continuous testing
 - **CT-GenAI**: Prompt engineering pipeline, risk assessment framework, organizational adoption roadmap
 
 ### Mock Exams
@@ -248,8 +265,9 @@ Three complete mock exams per course matching the real exam format:
 | CTAL-TA | 100 | 120 | 220 |
 | CTAL-TM | 85 | 195 | 280 |
 | CTAL-TTA | 120 | 135 | 255 |
+| CTAL-AT | 100 | 120 | 220 |
 | CT-GenAI | 80 | 120 | 200 |
-| **Combined** | **716** | **1050** | **1766+** |
+| **Combined** | **816** | **1170** | **1986+** |
 
 All questions are original, written in authentic ISTQB style, and include complete rationales.
 
@@ -283,4 +301,4 @@ This is an independent study resource. It is not affiliated with, endorsed by, o
 
 ## License
 
-This course content is provided for personal study purposes. The reference PDF included in this repository is copyrighted by its author and publisher; it is included here for personal reference only and should not be redistributed.
+This course content is provided for personal study purposes.
