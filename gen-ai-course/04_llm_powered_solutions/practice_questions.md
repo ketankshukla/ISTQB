@@ -175,6 +175,43 @@ D. Public APIs are always cheaper than fine-tuning
 
 ---
 
+### Q16 (GenAI-4.1.2, K2)
+
+A team needs to build a test assistant that can answer questions about 500 internal API specifications that are updated weekly. The assistant must cite the exact specification section in its answers. Data sensitivity is moderate (internal APIs, not customer data).
+
+Which architecture is MOST appropriate?
+
+A. Fine-tuning a foundation model on all 500 specifications
+B. RAG with a vector database containing chunked API specifications
+C. Direct API calls with the full specification pasted into each prompt
+D. Building a custom model from scratch using the API specs as training data
+
+---
+
+### Q17 (GenAI-4.2.2, K2)
+
+Which of the following is a key LLMOps practice for ensuring reproducibility of AI-generated test artifacts?
+
+A. Randomly varying prompt text for each generation to increase diversity
+B. Version-controlling prompts, tracking model versions, and logging generation parameters
+C. Using the latest model version automatically without notification
+D. Allowing each tester to use their personal LLM accounts for testing tasks
+
+---
+
+### Q18 (GenAI-4.1.2, K2)
+
+An organization has strict data residency requirements, a team of ML engineers, and a need to process thousands of test-related queries daily. They want to minimize ongoing per-query costs after an initial investment.
+
+Which architectural approach BEST fits these constraints?
+
+A. Public LLM API with enterprise agreement
+B. On-premise deployment of an open-weight model
+C. RAG with a managed cloud vector database
+D. Fine-tuned model hosted on a shared cloud provider
+
+---
+
 ## Answers and Rationales
 
 ### Q1
@@ -251,3 +288,18 @@ D. Public APIs are always cheaper than fine-tuning
 **Answer: A**
 
 **Rationale:** Frequent changes to standards require frequent retraining of fine-tuned models, which is costly and slow. RAG would handle this better by simply updating documents. B, C, and D are factually incorrect.
+
+### Q16
+**Answer: B**
+
+**Rationale:** RAG is the best fit because: (1) documents change weekly, (2) the assistant must cite exact sections (source grounding is a RAG strength), and (3) 500 specifications likely exceed context window limits for direct API calls. Fine-tuning (A, D) would require retraining weekly. Direct API calls (C) would exceed context limits.
+
+### Q17
+**Answer: B**
+
+**Rationale:** Version-controlling prompts, tracking model versions, and logging generation parameters are core LLMOps practices for reproducibility. Randomly varying prompts (A) destroys reproducibility. Using latest models without notification (C) makes results unpredictable. Personal accounts (D) create governance and security risks.
+
+### Q18
+**Answer: B**
+
+**Rationale:** Strict data residency rules out public APIs (A) and shared cloud providers (D). Thousands of daily queries make per-token API costs prohibitive at scale. On-premise deployment (B) requires upfront hardware investment (CapEx) but minimizes ongoing per-query costs. The ML engineering team can handle deployment and maintenance.

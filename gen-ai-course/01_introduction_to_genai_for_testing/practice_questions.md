@@ -187,6 +187,67 @@ D. Eliminating the need for test environment configuration
 
 ---
 
+### Q16 (GenAI-1.1.1, K1)
+
+Which of the following BEST describes deep learning?
+
+A. A programming paradigm where developers write explicit if-then rules for AI behavior
+B. A subset of machine learning using neural networks with multiple layers that learn hierarchical representations
+C. A technique for manually labeling every possible input-output pair in a dataset
+D. A method for compressing large datasets into smaller summary statistics
+
+---
+
+### Q17 (GenAI-1.1.3, K2)
+
+A tester needs to analyze a user requirements document that is approximately 120,000 words long. The tester wants to ask an LLM to identify all testable requirements in a single prompt.
+
+Which limitation is MOST relevant to this task?
+
+A. Hallucination
+B. Context window constraint
+C. Non-determinism
+D. Bias in training data
+
+---
+
+### Q18 (GenAI-1.2.2, K2)
+
+A test team has been using an LLM to generate API test scripts. The team lead notices that some generated scripts reference deprecated API endpoints that were removed in the latest framework version (released two months ago).
+
+Which core principle of using GenAI in testing does this situation MOST directly illustrate the importance of?
+
+A. Know the model's limits (knowledge cutoff)
+B. Privacy and security first
+C. Iterative refinement
+D. Human-in-the-loop
+
+---
+
+### Q19 (GenAI-1.3.1, K2)
+
+An LLM is asked to generate test cases for a form with three fields: Age (18-65), Income ($0-$500,000), and Employment Status (Employed, Self-Employed, Unemployed, Student, Retired). The model generates test cases that cover Age boundary values and Income boundary values but generates no test cases combining multiple fields.
+
+Which limitation is PRIMARILY demonstrated?
+
+A. Hallucination
+B. Reasoning error (combinatorial oversight)
+C. Context window constraint
+D. Bias
+
+---
+
+### Q20 (GenAI-1.2.1, K1)
+
+Which of the following is a VALID capability of generative AI in defect reporting?
+
+A. Automatically fixing production defects without human approval
+B. Drafting bug reports from observed failure descriptions and screenshots
+C. Guaranteeing that all drafted bug reports are 100% accurate
+D. Replacing the need for a defect tracking system
+
+---
+
 ## Answers and Rationales
 
 ### Q1
@@ -263,3 +324,28 @@ D. Eliminating the need for test environment configuration
 **Answer: B**
 
 **Rationale:** Generating automation code from natural language is a core GenAI capability. A and D overstate autonomy. C overstates quality — generated code always requires human review.
+
+### Q16
+**Answer: B**
+
+**Rationale:** Deep learning is defined as a subset of ML that uses neural networks with multiple layers to learn hierarchical data representations. A describes rule-based programming. C describes an impractical manual approach. D describes data compression, which is unrelated to deep learning.
+
+### Q17
+**Answer: B**
+
+**Rationale:** A 120,000-word document far exceeds the context window of most LLMs (typically 4K-200K tokens; 120,000 words is approximately 160,000+ tokens). The primary limitation is the context window constraint. Hallucination, non-determinism, and bias are secondary concerns here.
+
+### Q18
+**Answer: A**
+
+**Rationale:** The deprecated endpoints indicate the model's training data predates the recent framework release. This directly illustrates the "know the model's limits" principle, specifically the knowledge cutoff limitation. While human-in-the-loop (D) would catch this, the root cause is the model's lack of current knowledge. The tester should have provided current API documentation in the prompt.
+
+### Q19
+**Answer: B**
+
+**Rationale:** The model correctly identified individual field boundary values but failed to consider interactions between fields (combinatorial testing). This is a reasoning error — the model did not hallucinate, exceed context, or show bias. It simply failed to reason about the combinatorial space of multi-field interactions.
+
+### Q20
+**Answer: B**
+
+**Rationale:** Drafting bug reports from failure descriptions is a well-established GenAI capability. A overstates autonomy (production fixes require human approval). C overstates quality (no output is guaranteed accurate). D overstates capability (defect tracking systems are still needed).

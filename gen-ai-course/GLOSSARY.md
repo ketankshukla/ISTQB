@@ -182,4 +182,133 @@ A database optimized for storing and querying high-dimensional embeddings, enabl
 ## Z
 
 **Zero-Shot Prompting**
-Asking an LLM to perform a task without providing any examples in the prompt, relying entirely on the model's pre-trained knowledge.
+Asking an LLM to perform a task without providing any examples in the prompt, relying entirely on the model's pre-trained knowledge. Fast but unpredictable. Best for simple, well-represented tasks. For production testing artifacts, usually requires additional structure such as constraints or format specifications.
+
+---
+
+## Additional Terms for CT-GenAI Exam Preparation
+
+**Catastrophic Forgetting**
+A phenomenon where a fine-tuned model loses previously learned capabilities from its original training. Example: A model fine-tuned on automotive test cases might perform worse on general software testing tasks.
+
+**Constrained Generation**
+Techniques that limit what an LLM can output to prevent hallucinations or off-topic responses. Example constraints for testing: "Only reference APIs listed in the Input section" or "Do not include test cases for features not mentioned in the requirements."
+
+**Data Drift**
+The degradation of a model's performance over time due to changes in the underlying data distribution. In testing, this means prompts that worked well six months ago may produce lower-quality outputs as models update or domain knowledge evolves.
+
+**Decoder-Only Model**
+A transformer architecture that processes input left-to-right and generates output token-by-token. Examples: GPT series. Best for generation tasks. The standard architecture for GenAI in testing.
+
+**Differential Privacy**
+A mathematical framework for sharing information about a dataset while withholding information about individuals. Used in synthetic data generation to prevent re-identification. Adds calibrated noise to data or queries.
+
+**Encoder-Only Model**
+A transformer architecture that processes input bidirectionally for understanding tasks. Example: BERT. Typically used discriminatively (classification, named entity recognition) even though the architecture can support generation.
+
+**Environmental Impact (of AI)**
+The energy consumption and carbon emissions associated with training and running large AI models. Testing teams can reduce impact by using smaller models for appropriate tasks, caching results, and optimizing prompts to reduce token usage.
+
+**Feedback Loop Bias**
+When model outputs are reused as training data, errors and biases can reinforce themselves over time. In testing, if biased AI-generated test cases are accepted and later used to fine-tune models, the bias becomes embedded.
+
+**Foundation Model vs. Application Model**
+A foundation model is the general-purpose base (e.g., GPT-4). An application model is a fine-tuned or adapted version for a specific domain. Testing teams typically start with foundation models via APIs before considering domain adaptation.
+
+**Guardrails (Technical)**
+Technical controls that constrain model outputs. Examples: output filters, constrained decoding, content policies, and input validation. In testing systems, guardrails prevent the generation of dangerous test cases or exposure of sensitive information.
+
+**Hallucination Types**
+- **Factual:** Inventing requirements, APIs, or standards that do not exist
+- **Source:** Citing non-existent documents or research papers
+- **Logical:** Producing internally inconsistent reasoning (e.g., stating a field accepts 0-100 then generating a test case for 150 as valid)
+- **Code:** Generating syntactically valid code that references non-existent methods or libraries
+
+**HIPAA (Health Insurance Portability and Accountability Act)**
+US legislation protecting patient health information privacy and security. Testing teams in healthcare must ensure no PHI enters LLM prompts without Business Associate Agreements and proper safeguards.
+
+**ISO 42001**
+An international standard for AI management systems. Provides a framework for establishing, implementing, maintaining, and continually improving AI management systems within organizations. Relevant for organizations adopting GenAI at scale.
+
+**Knowledge Cutoff**
+The date beyond which an LLM has no training data. A model with a January 2024 cutoff does not know about features, frameworks, or regulations released after that date. Always provide current documentation in prompts for testing tasks.
+
+**LLM-as-Judge**
+Using one LLM to evaluate or score the outputs of another LLM. Useful for initial quality screening but requires validation against human judgment. Not a substitute for human review in safety-critical testing.
+
+**LoRA (Low-Rank Adaptation)**
+A parameter-efficient fine-tuning technique that updates only a small number of parameters rather than the entire model. Makes fine-tuning feasible on smaller hardware. Testing teams might use LoRA to adapt a model to their specific test case formats.
+
+**Model Inversion Attack**
+A technique to reconstruct training data from model outputs. A privacy risk when models are fine-tuned on proprietary test cases or code. Organizations should assess this risk before fine-tuning on sensitive testing artifacts.
+
+**Negative Constraints in Prompting**
+Telling the model what NOT to do. Often as important as positive instructions. Example: "Do NOT include test cases for the admin panel. Focus only on customer-facing features."
+
+**On-Premise Deployment**
+Running AI models entirely within an organization's own infrastructure. Required for strict data residency, HIPAA, PCI-DSS, or air-gapped environments. Requires GPU hardware and ML engineering expertise. Cost model shifts from per-token (OpEx) to hardware (CapEx).
+
+**PCI-DSS (Payment Card Industry Data Security Standard)**
+A standard for organizations that handle credit card data. No cardholder data can be included in LLM prompts. Use only official PCI test card numbers for testing scenarios.
+
+**Prompt Chaining**
+Breaking complex tasks into a sequence of simpler prompts where output of one feeds into the next. Essential for testing tasks that exceed context windows or require multi-stage reasoning (requirements → test conditions → test cases → test data).
+
+**Prompt Library**
+A curated, version-controlled collection of tested and validated prompts for specific testing tasks. Best practice for organizations scaling GenAI use. Should include: prompt text, expected output format, use case description, quality metrics, and known limitations.
+
+**Prompt Version Control**
+Managing prompts with the same rigor as source code. Prompts are stored in Git, changes are reviewed, and versions are tagged. Essential for reproducibility, audit trails, and regression testing of prompt changes.
+
+**Pseudonymization**
+Replacing direct identifiers with pseudonyms so individuals cannot be identified without additional information. Weaker than anonymization — re-identification is possible with external data. Not sufficient for all regulatory requirements.
+
+**RAG (Retrieval-Augmented Generation) vs. Fine-Tuning**
+- **RAG:** Retrieves knowledge dynamically. Best for frequently changing information (requirements, documentation). No retraining needed.
+- **Fine-Tuning:** Embeds knowledge into model weights. Best for stable, proprietary knowledge and consistent formatting. Requires retraining when knowledge changes.
+
+**Reasoning Error vs. Hallucination**
+- **Hallucination:** The model invents facts that don't exist (wrong premise)
+- **Reasoning Error:** The model uses correct facts but draws incorrect conclusions (flawed logic)
+Reasoning errors are harder to detect because the output looks factually grounded.
+
+**Regression Testing (for Prompts)**
+Re-testing the same task with a modified prompt to ensure output quality has not degraded. Part of prompt engineering best practices. Essential when updating prompts for production testing workflows.
+
+**Re-identification Risk**
+The possibility that anonymized or synthetic data can be linked back to real individuals using external knowledge. A major concern when using LLMs to generate test data, as models trained on public data may enable re-identification.
+
+**Role/Context in Prompting**
+The part of a prompt that defines who the LLM should act as and what domain it operates in. Activates relevant knowledge patterns in the model's training data. Effective roles for testing: "You are a senior QA engineer specializing in [domain]."
+
+**Shadow AI**
+Unauthorized use of AI tools by employees without IT or organizational approval. One of the fastest-growing security risks. Mitigated through AI governance policies, training, and approved tool catalogs.
+
+**Source Grounding**
+Requiring a model to cite specific passages from provided documents. Forces the model to anchor outputs to verified text, reducing hallucinations and improving traceability. Essential for regulatory and compliance testing.
+
+**Synthetic Data Generation**
+Creating artificial data that preserves statistical properties without exposing real information. Techniques include: rule-based generation, statistical modeling, GANs, and LLM-based generation with differential privacy. Always validate synthetic data for re-identification risk.
+
+**System Prompt vs. User Prompt**
+- **System prompt:** Sets global behavior for the entire session (the "employee handbook")
+- **User prompt:** A specific query within that session ("today's assignment")
+System prompts are typically invisible to end users and are supported by OpenAI and Anthropic APIs.
+
+**Temperature (Practical Guidance)**
+- 0.0-0.2: Highly deterministic. Best for test case generation, test data with fixed schemas, and regulatory test interpretation.
+- 0.3-0.5: Moderate diversity. Best for generating varied but correct test scenarios.
+- 0.6-0.9: Creative. Best for brainstorming edge cases (with heavy review).
+- 1.0+: Very random. Rarely appropriate for testing artifacts.
+
+**Test Data Bias**
+When generated test data systematically underrepresents certain demographics, user types, or edge cases. Leads to biased software that works for some users and fails for others. Mitigated through inclusive prompt design and diverse review teams.
+
+**Token Economics**
+The relationship between token usage and cost. Input tokens + output tokens = total cost. Strategies to reduce token usage: concise prompts, prompt templates, caching, and smaller models for simpler tasks.
+
+**Traceability Matrix (AI-Enhanced)**
+A document linking requirements to test cases. For AI-generated test cases, the traceability matrix should also include: prompt version, model version, generation date, and human reviewer. Essential for regulatory compliance and audit readiness.
+
+**Vector Database**
+A database optimized for storing and querying high-dimensional vector embeddings. Core component of RAG architectures. Examples: Pinecone, Weaviate, Chroma, Milvus, pgvector (PostgreSQL extension).

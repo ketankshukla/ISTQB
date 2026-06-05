@@ -220,6 +220,54 @@ D. Sharing all data freely + disabling output filters
 
 ---
 
+### Q16 (GenAI-3.2.1, K2)
+
+A testing team uses an LLM to analyze production error logs that contain customer email addresses, account IDs, and transaction amounts. The team uses a public LLM API with a standard consumer account.
+
+Which risk is MOST directly created by this practice?
+
+A. Reasoning error in the log analysis output
+B. Privacy violation through training data retention
+C. Non-determinism causing inconsistent analysis results
+D. Bias in the interpretation of error patterns
+
+---
+
+### Q17 (GenAI-3.3.1, K1)
+
+Which of the following is a strategy to REDUCE the environmental impact of using GenAI in testing?
+
+A. Always use the largest available model for every task to maximize accuracy
+B. Run prompts at high temperature to generate more outputs in a single call
+C. Use smaller models for simple tasks and cache frequently requested outputs
+D. Process all testing tasks in parallel regardless of urgency
+
+---
+
+### Q18 (GenAI-3.1.2, K2)
+
+A team notices that an LLM consistently generates test cases that focus on young, tech-savvy users while rarely covering accessibility scenarios for elderly users or users with disabilities.
+
+Which mitigation strategy is MOST appropriate?
+
+A. Lower the temperature to make outputs more deterministic
+B. Include explicit constraints in prompts requesting diverse user profiles and accessibility coverage
+C. Switch to a different LLM provider with a larger context window
+D. Reduce the number of test cases generated to focus only on the most common user type
+
+---
+
+### Q19 (GenAI-3.2.2, K2)
+
+Which of the following is the MOST effective mitigation for indirect prompt injection attacks in a testing tool that uses RAG?
+
+A. Requiring human review of all LLM outputs
+B. Sanitizing and validating all documents before they enter the vector database
+C. Using a lower temperature setting for generation
+D. Limiting the number of retrieved documents per query
+
+---
+
 ## Answers and Rationales
 
 ### Q1
@@ -300,14 +348,19 @@ D. Sharing all data freely + disabling output filters
 ### Q16
 **Answer: B**
 
-**Rationale:** Right-sizing models and caching are valid efficiency strategies. Using the largest model, running multiple times, and disabling cooling are all counterproductive or dangerous.
+**Rationale:** Production error logs containing customer email addresses, account IDs, and transaction amounts constitute PII and sensitive financial data. Using a public LLM API with a standard consumer account creates a privacy violation because the data may be retained for training purposes. While reasoning errors (A), non-determinism (C), and bias (D) are real risks, the MOST DIRECT risk created by this specific practice is privacy violation through data exposure.
 
 ### Q17
-**Answer: A**
+**Answer: C**
 
-**Rationale:** Detailed documentation of AI use, inputs, validation, and approval is essential for regulatory compliance. Open-source doesn't guarantee compliance. Avoiding AI is impractical. Vendor certifications alone are insufficient without internal records.
+**Rationale:** Using smaller models for simple tasks and caching outputs reduces computational load and energy consumption. A increases impact by using unnecessarily large models. B increases token usage without improving efficiency. D may increase peak load without reducing total impact.
 
 ### Q18
-**Answer: A**
+**Answer: B**
 
-**Rationale:** Data minimization addresses privacy; input validation addresses security. This combination correctly targets both risk categories. The other options either worsen risks or provide no protection.
+**Rationale:** The scenario describes test data bias — underrepresentation of elderly users and users with disabilities. The most appropriate mitigation is inclusive prompt design, explicitly requesting diverse user profiles and accessibility coverage. Lowering temperature (A) does not address bias. Switching providers (C) does not guarantee better representation. Reducing test cases (D) would worsen the problem.
+
+### Q19
+**Answer: B**
+
+**Rationale:** Indirect prompt injection occurs when malicious content is embedded in documents that are later retrieved by RAG. Sanitizing and validating documents BEFORE they enter the vector database prevents malicious instructions from being retrieved and passed to the LLM. Human review (A) catches outputs but does not prevent injection at the source. Lower temperature (C) and limiting retrieved documents (D) do not address the root cause.

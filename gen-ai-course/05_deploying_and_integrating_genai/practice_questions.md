@@ -140,6 +140,45 @@ D. Transfer the reluctant testers to non-testing roles
 
 ---
 
+### Q13 (GenAI-5.1.1, K2)
+
+A large organization wants to adopt GenAI for testing across all 8 product teams simultaneously. The CIO believes this will maximize efficiency gains and wants to skip the pilot phase.
+
+What is the MOST significant risk of this approach?
+
+A. The pilot phase is required by the EU AI Act for all AI deployments
+B. Without pilot validation, problems will affect all teams simultaneously with no proven mitigation strategies
+C. Public LLM APIs cannot handle traffic from 8 teams at once
+D. Testers will be overpaid if GenAI makes them too efficient
+
+---
+
+### Q14 (GenAI-5.2.2, K2)
+
+During the Scaling phase, an organization needs to ensure that AI-generated test cases meet the same quality standards regardless of which team generated them.
+
+Which governance measure is MOST effective for this purpose?
+
+A. Allow each team to choose their own LLM provider and prompting style
+B. Establish organization-wide prompt templates, evaluation criteria, and mandatory quality gates
+C. Rely on individual testers to remember the quality standards from training
+D. Only use GenAI for documentation, not for test case generation
+
+---
+
+### Q15 (GenAI-5.1.2, K2)
+
+A testing team is in the Pilot phase. They have successfully demonstrated that GenAI can generate test cases 40% faster with no increase in defect escape rate. However, three senior testers refuse to use the tool, citing concerns about job security.
+
+What is the MOST appropriate next step before moving to the Scaling phase?
+
+A. Proceed to Scaling immediately since the metrics prove the tool works
+B. Address the change management concerns through involvement, communication, and clear career paths
+C. Remove the resistant testers from the team
+D. Abandon the GenAI initiative to maintain team harmony
+
+---
+
 ## Answers and Rationales
 
 ### Q1
@@ -201,3 +240,18 @@ D. Transfer the reluctant testers to non-testing roles
 **Answer: A**
 
 **Rationale:** Demonstrating value through pilots while respecting expertise is constructive change management. Force, abandonment, and reassignment are ineffective or harmful.
+
+### Q13
+**Answer: B**
+
+**Rationale:** Skipping the pilot phase means any problems (hallucination rates, integration issues, workflow disruption, resistance) will affect all 8 teams simultaneously rather than being contained and resolved in a controlled pilot. The EU AI Act (A) does not universally require pilots. API capacity (C) and overpayment (D) are irrelevant distractors.
+
+### Q14
+**Answer: B**
+
+**Rationale:** Organization-wide standards (templates, evaluation criteria, quality gates) ensure consistency across teams. Allowing each team to choose freely (A) creates inconsistency. Relying on memory (C) is unreliable. Restricting GenAI to documentation (D) abandons the demonstrated value of test case generation.
+
+### Q15
+**Answer: B**
+
+**Rationale:** Change management concerns must be addressed before scaling. Metrics prove technical viability, but adoption requires organizational acceptance. Involving resistant testers, communicating career paths, and demonstrating that GenAI augments (not replaces) their expertise is the correct approach. Removing testers (C) or abandoning the initiative (D) are extremes. Proceeding without addressing resistance (A) will cause scaling failure.
