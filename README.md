@@ -21,6 +21,7 @@ A collection of comprehensive, exam-focused self-study courses for ISTQB certifi
 | `ct-ai-course/` | CT-AI — AI Testing | v1.0 | 40 | 60 min | 65% |
 | `ct-ut-course/` | CT-UT — Usability Testing | v1.0 | 40 | 60 min | 65% |
 | `ct-mbt-course/` | CT-MBT — Model-Based Testing | v1.0 | 40 | 60 min | 65% |
+| `ct-pt-course/` | CT-PT — Performance Testing | v1.0 | 40 | 60 min | 65% |
 
 See `ISTQB_Certification_Paths.md` for recommended certification paths based on your role and experience.
 
@@ -49,6 +50,7 @@ The courses are written for software professionals who need structured, efficien
 13. **Testing AI/ML-based systems?** Take `ct-ai-course/` (AI Testing)
 14. **Testing for usability and user experience?** Take `ct-ut-course/` (Usability Testing)
 15. **Using model-based testing?** Take `ct-mbt-course/` (Model-Based Testing)
+16. **Testing application performance and capacity?** Take `ct-pt-course/` (Performance Testing)
 
 ---
 
@@ -288,6 +290,21 @@ ISTQB/
 |   |-- 06_mbt_tool_support/
 |   |-- case_studies/
 |   |-- mock_exams/
+|
+|-- ct-pt-course/                            Performance Testing (CT-PT v1.0)
+|   |-- README.md
+|   |-- STUDY_PLAN.md
+|   |-- EXAM_STRATEGY.md
+|   |-- GLOSSARY.md
+|   |-- PROGRESS_TRACKER.md
+|   |-- 01_introduction_to_performance_testing/
+|   |-- 02_types_of_performance_testing/
+|   |-- 03_performance_test_planning_and_design/
+|   |-- 04_performance_test_execution_and_monitoring/
+|   |-- 05_performance_test_analysis_and_reporting/
+|   |-- 06_performance_testing_tools_and_automation/
+|   |-- case_studies/
+|   |-- mock_exams/
 ```
 
 Each course follows the same proven structure:
@@ -331,6 +348,7 @@ Realistic, integrated case studies that force you to combine multiple techniques
 - **CT-AI**: AI/ML fundamentals, AI SDLC, testing AI systems, ML model evaluation, fairness/robustness/explainability, AI for testing
 - **CT-UT**: Usability/UX principles, testing process, evaluation methods, accessibility, inclusive design, metrics, organizational aspects
 - **CT-MBT**: MBT fundamentals, modeling types (state machines, decision tables, process models), test selection criteria, test implementation, deployment, tool support
+- **CT-PT**: Performance testing fundamentals, test types (load, stress, endurance, spike, volume, scalability), test planning and design, execution and monitoring, analysis and reporting, tools and automation
 
 ### Mock Exams
 
@@ -381,7 +399,8 @@ Three complete mock exams per course matching the real exam format:
 | CT-AI | 120 | 120 | 240 |
 | CT-UT | 120 | 120 | 240 |
 | CT-MBT | 120 | 120 | 240 |
-| **Combined** | **1536** | **1890** | **3426+** |
+| CT-PT | 120 | 120 | 240 |
+| **Combined** | **1656** | **2010** | **3666+** |
 
 All questions are original, written in authentic ISTQB style, and include complete rationales.
 
