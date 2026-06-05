@@ -9,6 +9,7 @@ A collection of comprehensive, exam-focused self-study courses for ISTQB certifi
 | `ctfl-course/` | CTFL v4.0 — Foundation Level | v4.0 (2024) | 40 | 60 min | 65% |
 | `ctfl-at-course/` | CTFL-AT — Agile Tester | v4.0 | 40 | 60 min | 65% |
 | `ctfl-mbt-course/` | CTFL-MBT — Model-Based Tester | v1.0 | 40 | 60 min | 65% |
+| `ctfl-gt-course/` | CTFL-GT — Gambling Industry Tester | v1.0 | 40 | 60 min | 65% |
 | `ctal-ta-course/` | CTAL-TA — Advanced Test Analyst | v4.0 | 60 | 180 min | 65% |
 | `gen-ai-course/` | CT-GenAI — AI in Testing | v1.1 | 40 | 60 min | 65% |
 
@@ -27,8 +28,9 @@ The courses are written for software professionals who need structured, efficien
 1. **New to testing?** Start with `ctfl-course/` (Foundation Level)
 2. **Working in agile teams?** Add `ctfl-at-course/` (Agile Tester)
 3. **Using model-based testing?** Add `ctfl-mbt-course/` (Model-Based Tester)
-4. **Experienced test analyst?** Take `ctal-ta-course/` (Advanced Test Analyst)
-5. **Using AI/LLMs in testing?** Take `gen-ai-course/` (AI in Testing)
+4. **Working in iGaming or gambling?** Take `ctfl-gt-course/` (Gambling Industry Tester)
+5. **Experienced test analyst?** Take `ctal-ta-course/` (Advanced Test Analyst)
+6. **Using AI/LLMs in testing?** Take `gen-ai-course/` (AI in Testing)
 
 ---
 
@@ -97,6 +99,19 @@ ISTQB/
 |   |-- case_studies/
 |   |-- mock_exams/
 |
+|-- ctfl-gt-course/                     Gambling Industry Tester (CTFL-GT v1.0)
+|   |-- README.md
+|   |-- STUDY_PLAN.md
+|   |-- EXAM_STRATEGY.md
+|   |-- GLOSSARY.md
+|   |-- PROGRESS_TRACKER.md
+|   |-- 01_gambling_industry_fundamentals/
+|   |-- 02_game_mathematics_and_rng/
+|   |-- 03_compliance_player_protection/
+|   |-- 04_gambling_testing_types_tools/
+|   |-- case_studies/
+|   |-- mock_exams/
+|
 |-- ctal-ta-course/                     Advanced Test Analyst (CTAL-TA v4.0)
 |   |-- README.md
 |   |-- STUDY_PLAN.md
@@ -155,6 +170,7 @@ Realistic, integrated case studies that force you to combine multiple techniques
 - **CTFL**: E-commerce checkout, ATM withdrawal, loan application, login lockout
 - **CTFL-AT**: Agile team transformation, sprint testing, BDD implementation, CI/CD testing
 - **CTFL-MBT**: ATM state machine modeling, e-commerce decision tables, MBT tool selection
+- **CTFL-GT**: Slot game testing, sports betting compliance, multi-jurisdiction regulatory audit
 - **CTAL-TA**: E-commerce test design, healthcare quality characteristics, reviews and tool implementation
 - **CT-GenAI**: Prompt engineering pipeline, risk assessment framework, organizational adoption roadmap
 
@@ -195,9 +211,10 @@ Three complete mock exams per course matching the real exam format:
 | CTFL | 106 | 120 | 226 |
 | CTFL-AT | 60 | 120 | 180 |
 | CTFL-MBT | 85 | 120 | 205 |
+| CTFL-GT | 80 | 120 | 200 |
 | CTAL-TA | 100 | 120 | 220 |
 | CT-GenAI | 80 | 120 | 200 |
-| **Combined** | **431** | **600** | **1031+** |
+| **Combined** | **511** | **720** | **1231+** |
 
 All questions are original, written in authentic ISTQB style, and include complete rationales.
 
