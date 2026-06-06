@@ -24,6 +24,7 @@ A collection of comprehensive, exam-focused self-study courses for ISTQB certifi
 | `ct-pt-course/` | CT-PT — Performance Testing | v1.0 | 40 | 60 min | 65% |
 | `ct-bd-course/` | CT-BD — Big Data Testing | v1.0 | 40 | 60 min | 65% |
 | `ct-sec-course/` | CT-SEC — Security Testing | v1.0 | 40 | 60 min | 65% |
+| `ct-act-course/` | CT-AcT — Acceptance Testing | v1.0 | 40 | 60 min | 65% |
 
 See `ISTQB_Certification_Paths.md` for recommended certification paths based on your role and experience.
 
@@ -55,6 +56,7 @@ The courses are written for software professionals who need structured, efficien
 16. **Testing application performance and capacity?** Take `ct-pt-course/` (Performance Testing)
 17. **Testing Big Data platforms and data quality?** Take `ct-bd-course/` (Big Data Testing)
 18. **Testing application security and vulnerabilities?** Take `ct-sec-course/` (Security Testing)
+19. **Performing acceptance testing and UAT?** Take `ct-act-course/` (Acceptance Testing)
 
 ---
 
@@ -339,6 +341,21 @@ ISTQB/
 |   |-- 06_security_testing_tools_and_automation/
 |   |-- case_studies/
 |   |-- mock_exams/
+|
+|-- ct-act-course/                            Acceptance Testing (CT-AcT v1.0)
+|   |-- README.md
+|   |-- STUDY_PLAN.md
+|   |-- EXAM_STRATEGY.md
+|   |-- GLOSSARY.md
+|   |-- PROGRESS_TRACKER.md
+|   |-- 01_introduction_to_acceptance_testing/
+|   |-- 02_acceptance_testing_in_the_sdlc/
+|   |-- 03_business_acceptance_testing/
+|   |-- 04_contract_acceptance_testing/
+|   |-- 05_regulation_acceptance_testing/
+|   |-- 06_acceptance_testing_tools_and_automation/
+|   |-- case_studies/
+|   |-- mock_exams/
 ```
 
 Each course follows the same proven structure:
@@ -385,6 +402,7 @@ Realistic, integrated case studies that force you to combine multiple techniques
 - **CT-PT**: Performance testing fundamentals, test types (load, stress, endurance, spike, volume, scalability), test planning and design, execution and monitoring, analysis and reporting, tools and automation
 - **CT-BD**: Big Data testing fundamentals, architecture and components (Hadoop, Spark, NoSQL), data quality dimensions, ETL/ELT testing, performance and scalability testing, tools and automation
 - **CT-SEC**: Security testing fundamentals, CIA triad, security principles and controls, threat modeling (STRIDE, DREAD, attack trees), risk analysis, penetration testing, authentication/authorization testing, input validation, SAST/DAST/IAST/SCA tools, CI/CD security integration
+- **CT-AcT**: Acceptance testing fundamentals, acceptance testing in SDLC (agile, V-model, incremental), business acceptance testing (BAT, UAT, acceptance criteria, ATDD, BDD), contract acceptance testing (CAT, SLAs, outsourcing), regulation acceptance testing (RAT, compliance, accessibility, data protection), acceptance testing tools (BDD tools, test management, traceability, virtualization)
 
 ### Mock Exams
 
@@ -438,7 +456,8 @@ Three complete mock exams per course matching the real exam format:
 | CT-PT | 120 | 120 | 240 |
 | CT-BD | 120 | 120 | 240 |
 | CT-SEC | 120 | 120 | 240 |
-| **Combined** | **1896** | **2250** | **4146+** |
+| CT-AcT | 120 | 120 | 240 |
+| **Combined** | **2016** | **2370** | **4386+** |
 
 All questions are original, written in authentic ISTQB style, and include complete rationales.
 
