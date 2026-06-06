@@ -41,11 +41,20 @@ This document maps the complete ISTQB certification landscape and provides recom
 | **CT-PT** | Performance testing: load, stress, endurance, spike testing, monitoring, bottleneck analysis | High | CTFL → CT-PT |
 | **CT-API** | API testing: REST/GraphQL/SOAP, contract testing, security, performance, automation | High | CTFL → CT-API |
 | **CT-MBT** | Model-based testing at specialist depth: advanced models, coverage criteria, tool chains | Medium | CTFL-MBT → CT-MBT |
-| **CT-AT** | Automotive testing: ISO 26262 (functional safety), ASPICE, hardware-in-the-loop, ASIL ratings | Medium (niche but premium pay) | CTFL → CT-AT |
+| **CT-AI** | AI testing: testing AI-based systems, ML model evaluation, fairness, robustness, explainability, AI for testing | High | CTFL → CT-AI |
+| **CT-AT** | Agile testing: agile principles, whole-team testing, BDD/ATDD/TDD, test automation in agile, DevOps | Medium | CTFL → CT-AT |
+| **CT-AuT** | Automotive software testing: ISO 26262 (functional safety), ASPICE, hardware-in-the-loop, ASIL ratings | Medium (niche but premium pay) | CTFL → CT-AuT |
 | **CT-UT** | Usability & accessibility testing: WCAG, UX heuristics, assistive technology testing, cognitive walkthroughs | Medium | CTFL → CT-UT |
 | **CT-AcT** | Acceptance testing: ATDD, BDD, story testing, user acceptance, contract acceptance | Medium | CTFL → CT-AcT |
-| **CT-BD** | Behavior-driven development: Gherkin, living documentation, specification by example, collaboration | Medium | CTFL → CT-BD |
+| **CT-BD** | Big Data testing: Hadoop/Spark/NoSQL architecture, data quality dimensions, ETL/ELT testing, performance | Medium | CTFL → CT-BD |
 | **CT-GenAI** | AI/GenAI in testing: prompt engineering, LLM risks, architecture, adoption roadmap | Emerging/High Growth | CTFL → CT-GenAI |
+| **CT-GaMe** | Game testing: game mechanics, RNG, platforms, multiplayer, compliance, performance, localization | Medium | CTFL → CT-GaMe |
+| **CT-MAT** | Mobile application testing: device fragmentation, OS versions, network conditions, gestures, app stores | High | CTFL → CT-MAT |
+| **CT-QDO** | Quality in DevOps: CI/CD quality gates, shift-left, monitoring, observability, pipeline testing | High | CTFL → CT-QDO |
+| **CT-STE** | Security test engineering: asset protection, security audits, threat adaptation, advanced security controls | High | CTFL → CT-STE |
+| **CT-TAS** | Test automation strategy: planning, ROI, organizational adoption, tool selection, maintainability | High | CTFL → CT-TAS |
+| **CT-ATLaS** | Agile test leadership at scale: scaling quality, distributed teams, SAFe, organizational agility | Medium | CTFL → CT-ATLaS |
+| **CT-FT** | Finance testing: financial domain knowledge, trading systems, risk management, regulatory compliance | Emerging | CTFL → CT-FT |
 
 ---
 
@@ -148,12 +157,36 @@ Best for: Test leads and managers who need to plan, estimate, and steer testing 
 | Security-focused | CT-SEC | CTAL-TTA |
 | Performance-focused | CT-PT | CTAL-TTA |
 | Using AI/LLMs daily | CT-GenAI | CT-TAE to operationalize |
-| Automotive/OEM | CT-AT | CTAL-TTA |
+| Automotive/OEM | CT-AuT | CTAL-TTA |
 | iGaming/lottery | CTFL-GT | CT-SEC |
+| Mobile app tester | CT-MAT | CT-API |
+| DevOps/CI-CD | CT-QDO | CT-TAE |
+| Finance/fintech | CT-FT | CT-SEC |
+| Game testing | CT-GaMe | CT-UT |
+| AI systems testing | CT-AI | CT-GenAI |
 
 ---
 
 ## Notes
+
+## Missing / Planned Courses
+
+The following ISTQB certifications are **not yet created** in this repository:
+
+| Certification | Status | Priority |
+|-------------|--------|----------|
+| CT-FT — Finance Testing | Not created | High (new release May 2026) |
+| CT-QDO — Quality in DevOps | Not created | High |
+| CT-MAT — Mobile Application Testing | Not created | High |
+| CT-TAS — Test Automation Strategy | Not created | High |
+| CT-ATLaS — Agile Test Leadership at Scale | Not created | Medium |
+| CT-STE — Security Test Engineer | Not created | Medium |
+| CT-AuT — Automotive Software Tester | Not created | Medium |
+| CT-GaMe — Game Testing | Not created | Medium |
+
+Also note:
+- **CT-AI v2.0** is now available (replaces v1.0). Our course is based on v1.0 and should be updated.
+- **CT-BD (Big Data Testing)** is included but may not be an official ISTQB certification.
 
 - Last updated: June 2026
 - Syllabus versions change. Verify current versions at [istqb.org](https://istqb.org) before registering.
