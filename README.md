@@ -26,6 +26,7 @@ A collection of comprehensive, exam-focused self-study courses for ISTQB certifi
 | `ct-sec-course/` | CT-SEC — Security Testing | v1.0 | 40 | 60 min | 65% |
 | `ct-act-course/` | CT-AcT — Acceptance Testing | v1.0 | 40 | 60 min | 65% |
 | `ct-ft-course/` | CT-FT — Finance Testing | v1.0 | 40 | 60 min | 65% |
+| `ct-qdo-course/` | CT-QDO — Quality in DevOps | v1.0 | 40 | 60 min | 65% |
 
 See `ISTQB_Certification_Paths.md` for recommended certification paths based on your role and experience.
 
@@ -59,6 +60,7 @@ The courses are written for software professionals who need structured, efficien
 18. **Testing application security and vulnerabilities?** Take `ct-sec-course/` (Security Testing)
 19. **Performing acceptance testing and UAT?** Take `ct-act-course/` (Acceptance Testing)
 20. **Testing in financial services?** Take `ct-ft-course/` (Finance Testing)
+21. **Working in DevOps and need quality practices?** Take `ct-qdo-course/` (Quality in DevOps)
 
 ---
 
@@ -373,6 +375,21 @@ ISTQB/
 |   |-- 06_finance_testing_tools_and_automation/
 |   |-- case_studies/
 |   |-- mock_exams/
+|
+|-- ct-qdo-course/                            Quality in DevOps (CT-QDO v1.0)
+|   |-- README.md
+|   |-- STUDY_PLAN.md
+|   |-- EXAM_STRATEGY.md
+|   |-- GLOSSARY.md
+|   |-- PROGRESS_TRACKER.md
+|   |-- 01_introduction_to_devops_and_quality/
+|   |-- 02_cicd_pipeline_testing/
+|   |-- 03_shift_left_testing_practices/
+|   |-- 04_monitoring_observability_and_feedback/
+|   |-- 05_infrastructure_and_environment_testing/
+|   |-- 06_devops_quality_tools_and_automation/
+|   |-- case_studies/
+|   |-- mock_exams/
 ```
 
 Each course follows the same proven structure:
@@ -421,6 +438,7 @@ Realistic, integrated case studies that force you to combine multiple techniques
 - **CT-SEC**: Security testing fundamentals, CIA triad, security principles and controls, threat modeling (STRIDE, DREAD, attack trees), risk analysis, penetration testing, authentication/authorization testing, input validation, SAST/DAST/IAST/SCA tools, CI/CD security integration
 - **CT-AcT**: Acceptance testing fundamentals, acceptance testing in SDLC (agile, V-model, incremental), business acceptance testing (BAT, UAT, acceptance criteria, ATDD, BDD), contract acceptance testing (CAT, SLAs, outsourcing), regulation acceptance testing (RAT, compliance, accessibility, data protection), acceptance testing tools (BDD tools, test management, traceability, virtualization)
 - **CT-FT**: Finance testing fundamentals, financial domain and systems (banking, trading, payments, insurance), regulatory compliance (SOX, MiFID II, Basel, AML/KYC, PCI-DSS), financial calculations (interest, amortization, derivatives Greeks, VaR, FX), trading and banking system testing (OMS, algorithmic trading, payment processing, reconciliation, settlement), finance testing tools (data generation, market data simulators, FIX, reconciliation platforms)
+- **CT-QDO**: DevOps culture and CALMS, CI/CD pipeline testing (quality gates, deployment strategies, rollback), shift-left testing (TDD, BDD, contract testing, static analysis), monitoring and observability (metrics, logs, traces, SLOs, error budgets, chaos engineering), infrastructure and environment testing (IaC, containers, Kubernetes, parity, DR), DevOps quality tools and automation
 
 ### Mock Exams
 
@@ -476,7 +494,8 @@ Three complete mock exams per course matching the real exam format:
 | CT-SEC | 120 | 120 | 240 |
 | CT-AcT | 120 | 120 | 240 |
 | CT-FT | 120 | 120 | 240 |
-| **Combined** | **2136** | **2490** | **4626+** |
+| CT-QDO | 120 | 120 | 240 |
+| **Combined** | **2256** | **2610** | **4866+** |
 
 All questions are original, written in authentic ISTQB style, and include complete rationales.
 
