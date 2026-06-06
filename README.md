@@ -29,6 +29,7 @@ A collection of comprehensive, exam-focused self-study courses for ISTQB certifi
 | `ct-qdo-course/` | CT-QDO — Quality in DevOps | v1.0 | 40 | 60 min | 65% |
 | `ct-mat-course/` | CT-MAT — Mobile Application Testing | v1.0 | 40 | 60 min | 65% |
 | `ct-tas-course/` | CT-TAS — Test Automation Strategy | v1.0 | 40 | 60 min | 65% |
+| `ct-atlas-course/` | CT-ATLaS — Agile Test Leadership at Scale | v1.0 | 40 | 60 min | 65% |
 
 See `ISTQB_Certification_Paths.md` for recommended certification paths based on your role and experience.
 
@@ -65,6 +66,7 @@ The courses are written for software professionals who need structured, efficien
 21. **Working in DevOps and need quality practices?** Take `ct-qdo-course/` (Quality in DevOps)
 22. **Testing mobile apps?** Take `ct-mat-course/` (Mobile Application Testing)
 23. **Planning test automation strategy?** Take `ct-tas-course/` (Test Automation Strategy)
+24. **Leading agile testing at scale?** Take `ct-atlas-course/` (Agile Test Leadership at Scale)
 
 ---
 
@@ -424,6 +426,21 @@ ISTQB/
 |   |-- 06_organizational_and_human_factors/
 |   |-- case_studies/
 |   |-- mock_exams/
+|
+|-- ct-atlas-course/                          Agile Test Leadership at Scale (CT-ATLaS v1.0)
+|   |-- README.md
+|   |-- STUDY_PLAN.md
+|   |-- EXAM_STRATEGY.md
+|   |-- GLOSSARY.md
+|   |-- PROGRESS_TRACKER.md
+|   |-- 01_introduction_to_agile_test_leadership_at_scale/
+|   |-- 02_scaling_agile_testing/
+|   |-- 03_test_leadership_and_management/
+|   |-- 04_quality_metrics_and_reporting/
+|   |-- 05_test_automation_at_scale/
+|   |-- 06_organizational_culture_and_quality/
+|   |-- case_studies/
+|   |-- mock_exams/
 ```
 
 Each course follows the same proven structure:
@@ -475,6 +492,7 @@ Realistic, integrated case studies that force you to combine multiple techniques
 - **CT-QDO**: DevOps culture and CALMS, CI/CD pipeline testing (quality gates, deployment strategies, rollback), shift-left testing (TDD, BDD, contract testing, static analysis), monitoring and observability (metrics, logs, traces, SLOs, error budgets, chaos engineering), infrastructure and environment testing (IaC, containers, Kubernetes, parity, DR), DevOps quality tools and automation
 - **CT-MAT**: Mobile testing fundamentals (native, hybrid, web, fragmentation), mobile platforms and architecture (iOS, Android, lifecycles, permissions), functional testing (UI, gestures, navigation, compatibility, installation), non-functional testing (performance, battery, security, usability, accessibility), test automation (Appium, Espresso, XCUITest, POM, cross-platform), tools and environment (Android Studio, Xcode, ADB, device farms, TestFlight, beta testing)
 - **CT-TAS**: Test automation strategy fundamentals, planning and ROI (business case, cost-benefit, risk, test selection), architecture and design (TAA, framework types, design patterns, test data, tool selection), implementation and deployment (coding standards, CI/CD, reporting, parallel execution, failure analysis), maintenance and evolution (corrective/adaptive/perfective/preventive, refactoring, version control, retirement), organizational and human factors (skills, training, team models, change management, metrics)
+- **CT-ATLaS**: Agile at scale (SAFe, LeSS, Spotify), scaling agile testing (multi-team planning, integration testing, environments, DoD), test leadership and management (servant leadership, coaching, mentoring, Tuckman model, impediments), quality metrics and reporting (leading/lagging indicators, DORA, dashboards), test automation at scale (shared frameworks, CI/CD orchestration, governance), organizational culture and quality (psychological safety, quality mindset, collaboration, Kaizen)
 
 ### Mock Exams
 
@@ -533,7 +551,8 @@ Three complete mock exams per course matching the real exam format:
 | CT-QDO | 120 | 120 | 240 |
 | CT-MAT | 120 | 120 | 240 |
 | CT-TAS | 120 | 120 | 240 |
-| **Combined** | **2496** | **2850** | **5346+** |
+| CT-ATLaS | 120 | 120 | 240 |
+| **Combined** | **2616** | **2970** | **5586+** |
 
 All questions are original, written in authentic ISTQB style, and include complete rationales.
 
