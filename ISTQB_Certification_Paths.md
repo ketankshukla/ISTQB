@@ -14,6 +14,9 @@ This document maps the complete ISTQB certification landscape and provides recom
 | **CTFL-AT** | Agile testing principles: agile values, agile testing practices, continuous testing, BDD/ATDD, exploratory testing | Teams using Scrum, Kanban, SAFe, or other agile frameworks | None |
 | **CTFL-MBT** | Model-based testing: state transition, decision tables, combinatorial testing, model coverage | Teams using formal models, state-based testing, BDD with models | None |
 | **CTFL-GT** | Gambling industry testing: RNG, game math, compliance, player protection, responsible gaming | iGaming, lottery, casino software testing | None |
+| **CTFL-PT** | Foundation performance testing: load, stress, spike, endurance, scalability, volume, monitoring, bottleneck analysis | Testers new to performance testing | None |
+| **CTFL-SEC** | Foundation security testing: CIA triad, threats, vulnerabilities, SAST, DAST, penetration testing basics, OWASP | Testers new to security testing | None |
+| **CTFL-AuT** | Foundation automotive testing: ECUs, vehicle networks, ISO 26262 basics, ASIL, ASPICE, MIL/SIL/PIL/HIL | Testers new to automotive software testing | None |
 
 **Rule:** You must hold ONE Foundation Level certification before attempting any Advanced or Specialist certification.
 
@@ -164,6 +167,9 @@ Best for: Test leads and managers who need to plan, estimate, and steer testing 
 | Finance/fintech | CT-FT | CT-SEC |
 | Game testing | CT-GaMe | CT-UT |
 | AI systems testing | CT-AI | CT-GenAI |
+| New to performance testing | CTFL-PT | CT-PT |
+| New to security testing | CTFL-SEC | CT-SEC |
+| New to automotive testing | CTFL-AuT | CT-AuT |
 
 ---
 
@@ -175,14 +181,7 @@ The following ISTQB certifications are **not yet created** in this repository:
 
 | Certification | Status | Priority |
 |-------------|--------|----------|
-| CT-FT — Finance Testing | Not created | High (new release May 2026) |
-| CT-QDO — Quality in DevOps | Not created | High |
-| CT-MAT — Mobile Application Testing | Not created | High |
-| CT-TAS — Test Automation Strategy | Not created | High |
-| CT-ATLaS — Agile Test Leadership at Scale | Not created | Medium |
-| CT-STE — Security Test Engineer | Not created | Medium |
-| CT-AuT — Automotive Software Tester | Not created | Medium |
-| CT-GaMe — Game Testing | Not created | Medium |
+| None — all requested courses are complete | Created | — |
 
 Also note:
 - **CT-AI v2.0** is now available (replaces v1.0). Our course is based on v1.0 and should be updated.

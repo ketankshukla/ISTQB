@@ -33,6 +33,9 @@ A collection of comprehensive, exam-focused self-study courses for ISTQB certifi
 | `ct-ste-course/` | CT-STE — Security Test Engineering | v1.0 | 40 | 60 min | 65% |
 | `ct-aut-course/` | CT-AuT — Automotive Software Testing | v1.0 | 40 | 60 min | 65% |
 | `ct-game-course/` | CT-GaMe — Game Testing | v1.0 | 40 | 60 min | 65% |
+| `ctfl-pt-course/` | CTFL-PT — Foundation Level Performance Testing | v1.0 | 20 | 40 min | 65% |
+| `ctfl-sec-course/` | CTFL-SEC — Foundation Level Security Testing | v1.0 | 20 | 40 min | 65% |
+| `ctfl-aut-course/` | CTFL-AuT — Foundation Level Automotive Software Testing | v1.0 | 20 | 40 min | 65% |
 
 See `ISTQB_Certification_Paths.md` for recommended certification paths based on your role and experience.
 
@@ -73,6 +76,9 @@ The courses are written for software professionals who need structured, efficien
 25. **Engineering security tests and DevSecOps?** Take `ct-ste-course/` (Security Test Engineering)
 26. **Testing automotive software and ECUs?** Take `ct-aut-course/` (Automotive Software Testing)
 27. **Testing video games and game engines?** Take `ct-game-course/` (Game Testing)
+28. **New to performance testing?** Take `ctfl-pt-course/` (Foundation Level Performance Testing)
+29. **New to security testing?** Take `ctfl-sec-course/` (Foundation Level Security Testing)
+30. **New to automotive testing?** Take `ctfl-aut-course/` (Foundation Level Automotive Software Testing)
 
 ---
 
@@ -492,6 +498,51 @@ ISTQB/
 |   |-- 06_test_automation_and_tools/
 |   |-- case_studies/
 |   |-- mock_exams/
+|
+|-- ctfl-pt-course/                          Foundation Level Performance Testing (CTFL-PT v1.0)
+|   |-- README.md
+|   |-- STUDY_PLAN.md
+|   |-- EXAM_STRATEGY.md
+|   |-- GLOSSARY.md
+|   |-- PROGRESS_TRACKER.md
+|   |-- 01_introduction_to_performance_testing/
+|   |-- 02_performance_test_types_and_objectives/
+|   |-- 03_performance_testing_process/
+|   |-- 04_performance_test_design/
+|   |-- 05_performance_test_execution_and_monitoring/
+|   |-- 06_performance_analysis_and_reporting/
+|   |-- case_studies/
+|   |-- mock_exams/
+|
+|-- ctfl-sec-course/                         Foundation Level Security Testing (CTFL-SEC v1.0)
+|   |-- README.md
+|   |-- STUDY_PLAN.md
+|   |-- EXAM_STRATEGY.md
+|   |-- GLOSSARY.md
+|   |-- PROGRESS_TRACKER.md
+|   |-- 01_introduction_to_security_testing/
+|   |-- 02_security_testing_principles/
+|   |-- 03_security_testing_techniques/
+|   |-- 04_security_testing_process/
+|   |-- 05_security_testing_tools/
+|   |-- 06_security_testing_in_the_sdlc/
+|   |-- case_studies/
+|   |-- mock_exams/
+|
+|-- ctfl-aut-course/                         Foundation Level Automotive Software Testing (CTFL-AuT v1.0)
+|   |-- README.md
+|   |-- STUDY_PLAN.md
+|   |-- EXAM_STRATEGY.md
+|   |-- GLOSSARY.md
+|   |-- PROGRESS_TRACKER.md
+|   |-- 01_introduction_to_automotive_testing/
+|   |-- 02_automotive_software_basics/
+|   |-- 03_automotive_testing_process/
+|   |-- 04_automotive_testing_techniques/
+|   |-- 05_automotive_test_environment/
+|   |-- 06_automotive_quality_and_standards/
+|   |-- case_studies/
+|   |-- mock_exams/
 ```
 
 Each course follows the same proven structure:
@@ -547,6 +598,9 @@ Realistic, integrated case studies that force you to combine multiple techniques
 - **CT-STE**: Security test engineering fundamentals (CIA triad, threat actors, OWASP Top 10), security testing planning and strategy (risk assessment, scope, white/black/grey-box, compliance), security testing techniques (SAST, DAST, IAST, SCA, fuzzing, code review, penetration testing), security test automation (CI/CD integration, security-as-code, false positive management), security test execution and analysis (vulnerability validation, CVSS, reporting, remediation verification), security testing in the SDLC (SSDLC, threat modeling STRIDE/DREAD, DevSecOps, security debt)
 - **CT-AuT**: Automotive software testing fundamentals (ECUs, vehicle networks, safety-critical characteristics), automotive standards and regulations (ISO 26262, ASIL, ASPICE, AUTOSAR), automotive software development and testing (V-model, test levels, traceability, CM, OTA, regression), testing techniques for automotive (static analysis, boundary value, equivalence partitioning, state transition, fault injection), test environment and tools (SIL, PIL, HIL, CANoe, UDS, diagnostics, calibration), quality metrics and reporting (coverage, defect metrics, audit readiness)
 - **CT-GaMe**: Game testing fundamentals (genres, platforms, player experience), game development lifecycle (milestones, alpha/beta/gold, agile, live service), functional game testing (mechanics, UI, AI, multiplayer, save/load, progression), non-functional game testing (performance, stability, compatibility, accessibility, localization), platform and compliance testing (TRC, XR, Lotcheck, ratings, online services, monetization), test automation and tools (frameworks, CI/CD, telemetry, bug tracking)
+- **CTFL-PT**: Performance testing fundamentals (response time, throughput, resource utilization), performance test types (load, stress, spike, endurance, scalability, volume), performance testing process (planning, environment, data, execution, analysis), performance test design (scenarios, workload models, metrics), performance test execution and monitoring (tools, anomaly detection), performance analysis and reporting (bottleneck identification, recommendations)
+- **CTFL-SEC**: Security testing fundamentals (CIA triad, threats, vulnerabilities, risks), security testing principles (controls, risk-based testing, STRIDE), security testing techniques (SAST, DAST, penetration testing, code review, fuzzing), security testing process (planning, execution, risk assessment, reporting), security testing tools (SAST, DAST, scanners, selection criteria), security testing in the SDLC (SSDLC, shift-left, DevSecOps, continuous monitoring)
+- **CTFL-AuT**: Automotive testing fundamentals (ECUs, vehicle networks, safety-critical characteristics), automotive software basics (CAN, LIN, FlexRay, Ethernet, ASIL levels), automotive testing process (planning, traceability, test levels, verification/validation), automotive testing techniques (dynamic testing, coverage, fault injection, back-to-back), automotive test environment (MIL, SIL, PIL, HIL, tools), automotive quality and standards (ISO 26262, ASPICE, AUTOSAR, metrics)
 
 ### Mock Exams
 
@@ -609,7 +663,10 @@ Three complete mock exams per course matching the real exam format:
 | CT-STE | 120 | 120 | 240 |
 | CT-AuT | 120 | 120 | 240 |
 | CT-GaMe | 120 | 120 | 240 |
-| **Combined** | **2976** | **3330** | **6306+** |
+| CTFL-PT | 120 | 60 | 180 |
+| CTFL-SEC | 120 | 60 | 180 |
+| CTFL-AuT | 120 | 60 | 180 |
+| **Combined** | **3336** | **3510** | **6846+** |
 
 All questions are original, written in authentic ISTQB style, and include complete rationales.
 
