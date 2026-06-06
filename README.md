@@ -27,6 +27,7 @@ A collection of comprehensive, exam-focused self-study courses for ISTQB certifi
 | `ct-act-course/` | CT-AcT — Acceptance Testing | v1.0 | 40 | 60 min | 65% |
 | `ct-ft-course/` | CT-FT — Finance Testing | v1.0 | 40 | 60 min | 65% |
 | `ct-qdo-course/` | CT-QDO — Quality in DevOps | v1.0 | 40 | 60 min | 65% |
+| `ct-mat-course/` | CT-MAT — Mobile Application Testing | v1.0 | 40 | 60 min | 65% |
 
 See `ISTQB_Certification_Paths.md` for recommended certification paths based on your role and experience.
 
@@ -61,6 +62,7 @@ The courses are written for software professionals who need structured, efficien
 19. **Performing acceptance testing and UAT?** Take `ct-act-course/` (Acceptance Testing)
 20. **Testing in financial services?** Take `ct-ft-course/` (Finance Testing)
 21. **Working in DevOps and need quality practices?** Take `ct-qdo-course/` (Quality in DevOps)
+22. **Testing mobile apps?** Take `ct-mat-course/` (Mobile Application Testing)
 
 ---
 
@@ -390,6 +392,21 @@ ISTQB/
 |   |-- 06_devops_quality_tools_and_automation/
 |   |-- case_studies/
 |   |-- mock_exams/
+|
+|-- ct-mat-course/                            Mobile Application Testing (CT-MAT v1.0)
+|   |-- README.md
+|   |-- STUDY_PLAN.md
+|   |-- EXAM_STRATEGY.md
+|   |-- GLOSSARY.md
+|   |-- PROGRESS_TRACKER.md
+|   |-- 01_introduction_to_mobile_testing/
+|   |-- 02_mobile_platforms_and_architecture/
+|   |-- 03_mobile_functional_testing/
+|   |-- 04_mobile_non_functional_testing/
+|   |-- 05_mobile_test_automation/
+|   |-- 06_mobile_testing_tools_and_environment/
+|   |-- case_studies/
+|   |-- mock_exams/
 ```
 
 Each course follows the same proven structure:
@@ -439,6 +456,7 @@ Realistic, integrated case studies that force you to combine multiple techniques
 - **CT-AcT**: Acceptance testing fundamentals, acceptance testing in SDLC (agile, V-model, incremental), business acceptance testing (BAT, UAT, acceptance criteria, ATDD, BDD), contract acceptance testing (CAT, SLAs, outsourcing), regulation acceptance testing (RAT, compliance, accessibility, data protection), acceptance testing tools (BDD tools, test management, traceability, virtualization)
 - **CT-FT**: Finance testing fundamentals, financial domain and systems (banking, trading, payments, insurance), regulatory compliance (SOX, MiFID II, Basel, AML/KYC, PCI-DSS), financial calculations (interest, amortization, derivatives Greeks, VaR, FX), trading and banking system testing (OMS, algorithmic trading, payment processing, reconciliation, settlement), finance testing tools (data generation, market data simulators, FIX, reconciliation platforms)
 - **CT-QDO**: DevOps culture and CALMS, CI/CD pipeline testing (quality gates, deployment strategies, rollback), shift-left testing (TDD, BDD, contract testing, static analysis), monitoring and observability (metrics, logs, traces, SLOs, error budgets, chaos engineering), infrastructure and environment testing (IaC, containers, Kubernetes, parity, DR), DevOps quality tools and automation
+- **CT-MAT**: Mobile testing fundamentals (native, hybrid, web, fragmentation), mobile platforms and architecture (iOS, Android, lifecycles, permissions), functional testing (UI, gestures, navigation, compatibility, installation), non-functional testing (performance, battery, security, usability, accessibility), test automation (Appium, Espresso, XCUITest, POM, cross-platform), tools and environment (Android Studio, Xcode, ADB, device farms, TestFlight, beta testing)
 
 ### Mock Exams
 
@@ -495,7 +513,8 @@ Three complete mock exams per course matching the real exam format:
 | CT-AcT | 120 | 120 | 240 |
 | CT-FT | 120 | 120 | 240 |
 | CT-QDO | 120 | 120 | 240 |
-| **Combined** | **2256** | **2610** | **4866+** |
+| CT-MAT | 120 | 120 | 240 |
+| **Combined** | **2376** | **2730** | **5106+** |
 
 All questions are original, written in authentic ISTQB style, and include complete rationales.
 
