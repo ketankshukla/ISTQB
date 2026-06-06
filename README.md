@@ -32,6 +32,7 @@ A collection of comprehensive, exam-focused self-study courses for ISTQB certifi
 | `ct-atlas-course/` | CT-ATLaS — Agile Test Leadership at Scale | v1.0 | 40 | 60 min | 65% |
 | `ct-ste-course/` | CT-STE — Security Test Engineering | v1.0 | 40 | 60 min | 65% |
 | `ct-aut-course/` | CT-AuT — Automotive Software Testing | v1.0 | 40 | 60 min | 65% |
+| `ct-game-course/` | CT-GaMe — Game Testing | v1.0 | 40 | 60 min | 65% |
 
 See `ISTQB_Certification_Paths.md` for recommended certification paths based on your role and experience.
 
@@ -71,6 +72,7 @@ The courses are written for software professionals who need structured, efficien
 24. **Leading agile testing at scale?** Take `ct-atlas-course/` (Agile Test Leadership at Scale)
 25. **Engineering security tests and DevSecOps?** Take `ct-ste-course/` (Security Test Engineering)
 26. **Testing automotive software and ECUs?** Take `ct-aut-course/` (Automotive Software Testing)
+27. **Testing video games and game engines?** Take `ct-game-course/` (Game Testing)
 
 ---
 
@@ -475,6 +477,21 @@ ISTQB/
 |   |-- 06_quality_metrics_and_reporting/
 |   |-- case_studies/
 |   |-- mock_exams/
+|
+|-- ct-game-course/                            Game Testing (CT-GaMe v1.0)
+|   |-- README.md
+|   |-- STUDY_PLAN.md
+|   |-- EXAM_STRATEGY.md
+|   |-- GLOSSARY.md
+|   |-- PROGRESS_TRACKER.md
+|   |-- 01_introduction_to_game_testing/
+|   |-- 02_game_development_lifecycle/
+|   |-- 03_functional_game_testing/
+|   |-- 04_non_functional_game_testing/
+|   |-- 05_platform_and_compliance_testing/
+|   |-- 06_test_automation_and_tools/
+|   |-- case_studies/
+|   |-- mock_exams/
 ```
 
 Each course follows the same proven structure:
@@ -529,6 +546,7 @@ Realistic, integrated case studies that force you to combine multiple techniques
 - **CT-ATLaS**: Agile at scale (SAFe, LeSS, Spotify), scaling agile testing (multi-team planning, integration testing, environments, DoD), test leadership and management (servant leadership, coaching, mentoring, Tuckman model, impediments), quality metrics and reporting (leading/lagging indicators, DORA, dashboards), test automation at scale (shared frameworks, CI/CD orchestration, governance), organizational culture and quality (psychological safety, quality mindset, collaboration, Kaizen)
 - **CT-STE**: Security test engineering fundamentals (CIA triad, threat actors, OWASP Top 10), security testing planning and strategy (risk assessment, scope, white/black/grey-box, compliance), security testing techniques (SAST, DAST, IAST, SCA, fuzzing, code review, penetration testing), security test automation (CI/CD integration, security-as-code, false positive management), security test execution and analysis (vulnerability validation, CVSS, reporting, remediation verification), security testing in the SDLC (SSDLC, threat modeling STRIDE/DREAD, DevSecOps, security debt)
 - **CT-AuT**: Automotive software testing fundamentals (ECUs, vehicle networks, safety-critical characteristics), automotive standards and regulations (ISO 26262, ASIL, ASPICE, AUTOSAR), automotive software development and testing (V-model, test levels, traceability, CM, OTA, regression), testing techniques for automotive (static analysis, boundary value, equivalence partitioning, state transition, fault injection), test environment and tools (SIL, PIL, HIL, CANoe, UDS, diagnostics, calibration), quality metrics and reporting (coverage, defect metrics, audit readiness)
+- **CT-GaMe**: Game testing fundamentals (genres, platforms, player experience), game development lifecycle (milestones, alpha/beta/gold, agile, live service), functional game testing (mechanics, UI, AI, multiplayer, save/load, progression), non-functional game testing (performance, stability, compatibility, accessibility, localization), platform and compliance testing (TRC, XR, Lotcheck, ratings, online services, monetization), test automation and tools (frameworks, CI/CD, telemetry, bug tracking)
 
 ### Mock Exams
 
@@ -590,7 +608,8 @@ Three complete mock exams per course matching the real exam format:
 | CT-ATLaS | 120 | 120 | 240 |
 | CT-STE | 120 | 120 | 240 |
 | CT-AuT | 120 | 120 | 240 |
-| **Combined** | **2856** | **3210** | **6066+** |
+| CT-GaMe | 120 | 120 | 240 |
+| **Combined** | **2976** | **3330** | **6306+** |
 
 All questions are original, written in authentic ISTQB style, and include complete rationales.
 
