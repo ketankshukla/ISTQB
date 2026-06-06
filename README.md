@@ -25,6 +25,7 @@ A collection of comprehensive, exam-focused self-study courses for ISTQB certifi
 | `ct-bd-course/` | CT-BD — Big Data Testing | v1.0 | 40 | 60 min | 65% |
 | `ct-sec-course/` | CT-SEC — Security Testing | v1.0 | 40 | 60 min | 65% |
 | `ct-act-course/` | CT-AcT — Acceptance Testing | v1.0 | 40 | 60 min | 65% |
+| `ct-ft-course/` | CT-FT — Finance Testing | v1.0 | 40 | 60 min | 65% |
 
 See `ISTQB_Certification_Paths.md` for recommended certification paths based on your role and experience.
 
@@ -57,6 +58,7 @@ The courses are written for software professionals who need structured, efficien
 17. **Testing Big Data platforms and data quality?** Take `ct-bd-course/` (Big Data Testing)
 18. **Testing application security and vulnerabilities?** Take `ct-sec-course/` (Security Testing)
 19. **Performing acceptance testing and UAT?** Take `ct-act-course/` (Acceptance Testing)
+20. **Testing in financial services?** Take `ct-ft-course/` (Finance Testing)
 
 ---
 
@@ -356,6 +358,21 @@ ISTQB/
 |   |-- 06_acceptance_testing_tools_and_automation/
 |   |-- case_studies/
 |   |-- mock_exams/
+|
+|-- ct-ft-course/                             Finance Testing (CT-FT v1.0)
+|   |-- README.md
+|   |-- STUDY_PLAN.md
+|   |-- EXAM_STRATEGY.md
+|   |-- GLOSSARY.md
+|   |-- PROGRESS_TRACKER.md
+|   |-- 01_introduction_to_finance_testing/
+|   |-- 02_financial_domain_and_systems/
+|   |-- 03_regulatory_compliance_and_risk_management/
+|   |-- 04_testing_financial_calculations_and_algorithms/
+|   |-- 05_testing_trading_and_banking_systems/
+|   |-- 06_finance_testing_tools_and_automation/
+|   |-- case_studies/
+|   |-- mock_exams/
 ```
 
 Each course follows the same proven structure:
@@ -403,6 +420,7 @@ Realistic, integrated case studies that force you to combine multiple techniques
 - **CT-BD**: Big Data testing fundamentals, architecture and components (Hadoop, Spark, NoSQL), data quality dimensions, ETL/ELT testing, performance and scalability testing, tools and automation
 - **CT-SEC**: Security testing fundamentals, CIA triad, security principles and controls, threat modeling (STRIDE, DREAD, attack trees), risk analysis, penetration testing, authentication/authorization testing, input validation, SAST/DAST/IAST/SCA tools, CI/CD security integration
 - **CT-AcT**: Acceptance testing fundamentals, acceptance testing in SDLC (agile, V-model, incremental), business acceptance testing (BAT, UAT, acceptance criteria, ATDD, BDD), contract acceptance testing (CAT, SLAs, outsourcing), regulation acceptance testing (RAT, compliance, accessibility, data protection), acceptance testing tools (BDD tools, test management, traceability, virtualization)
+- **CT-FT**: Finance testing fundamentals, financial domain and systems (banking, trading, payments, insurance), regulatory compliance (SOX, MiFID II, Basel, AML/KYC, PCI-DSS), financial calculations (interest, amortization, derivatives Greeks, VaR, FX), trading and banking system testing (OMS, algorithmic trading, payment processing, reconciliation, settlement), finance testing tools (data generation, market data simulators, FIX, reconciliation platforms)
 
 ### Mock Exams
 
@@ -457,7 +475,8 @@ Three complete mock exams per course matching the real exam format:
 | CT-BD | 120 | 120 | 240 |
 | CT-SEC | 120 | 120 | 240 |
 | CT-AcT | 120 | 120 | 240 |
-| **Combined** | **2016** | **2370** | **4386+** |
+| CT-FT | 120 | 120 | 240 |
+| **Combined** | **2136** | **2490** | **4626+** |
 
 All questions are original, written in authentic ISTQB style, and include complete rationales.
 
