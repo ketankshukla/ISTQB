@@ -1,12 +1,47 @@
-# Chapter 5 — Practice Questions
+<!-- ISTQB-BEAUTIFY-V1 -->
+<style>
+html, body {
+  background-color: #000000 !important;
+  color: #F5F5F5 !important;
+}
+body {
+  font-size: 19px !important;
+  line-height: 1.85 !important;
+  font-family: 'Segoe UI', 'Trebuchet MS', Verdana, sans-serif !important;
+  padding: 24px 44px !important;
+  letter-spacing: 0.2px;
+}
+h1 { color: #FFD700 !important; font-size: 2.7em !important; font-weight: 800 !important; border-bottom: 3px solid #FF5252 !important; padding-bottom: 0.25em; }
+h2 { color: #00E5FF !important; font-size: 2.05em !important; font-weight: 800 !important; border-bottom: 2px solid #00E5FF !important; padding-bottom: 0.2em; }
+h3 { color: #69F0AE !important; font-size: 1.6em !important; font-weight: 700 !important; }
+h4 { color: #FF80AB !important; font-size: 1.35em !important; font-weight: 700 !important; }
+h5 { color: #FFAB40 !important; font-size: 1.2em !important; font-weight: 700 !important; }
+h6 { color: #B388FF !important; font-size: 1.1em !important; font-weight: 700 !important; }
+p, li, td, th, span, div { font-size: 1em !important; color: #F5F5F5 !important; }
+strong, b { color: #FFEB3B !important; }
+em, i { color: #FF8A65 !important; }
+a { color: #40C4FF !important; text-decoration: underline; }
+a:hover { color: #80D8FF !important; }
+code { color: #FF4081 !important; background: transparent !important; font-size: 0.95em !important; }
+pre { background: transparent !important; border: 1px solid #555 !important; border-radius: 8px; padding: 14px !important; }
+pre code { color: #80CBC4 !important; }
+blockquote { color: #B0BEC5 !important; border-left: 5px solid #FFD700 !important; background: transparent !important; padding-left: 18px; font-style: italic; }
+table { border-collapse: collapse !important; background: transparent !important; }
+th { color: #FFD700 !important; border: 2px solid #00E5FF !important; background: transparent !important; padding: 8px 12px !important; }
+td { color: #F5F5F5 !important; border: 1px solid #607D8B !important; background: transparent !important; padding: 8px 12px !important; }
+hr { border: none; border-top: 2px dashed #FF5252 !important; margin: 1.5em 0; }
+ul li::marker { color: #69F0AE !important; font-size: 1.1em; }
+ol li::marker { color: #00E5FF !important; font-weight: bold; }
+</style>
+# ❓ Chapter 5 — Practice Questions
 
 18 original ISTQB-style questions covering Chapter 5 learning objectives.
 
 ---
 
-## Questions
+## ❓ Questions
 
-### Q1 (FL-5.1.1, K2)
+### 🔷 Q1 (FL-5.1.1, K2)
 
 Which of the following is NOT typically included in a test plan?
 
@@ -17,7 +52,7 @@ D. Resource requirements and schedule
 
 ---
 
-### Q2 (FL-5.1.2, K1)
+### 🔷 Q2 (FL-5.1.2, K1)
 
 How does a tester add value during iteration planning in Agile?
 
@@ -28,7 +63,7 @@ D. By replacing the product owner in prioritizing features
 
 ---
 
-### Q3 (FL-5.1.3, K2)
+### 🔷 Q3 (FL-5.1.3, K2)
 
 Which of the following is an example of an EXIT criterion for system testing?
 
@@ -39,7 +74,7 @@ D. Requirements documents are available for review
 
 ---
 
-### Q4 (FL-5.1.3, K2)
+### 🔷 Q4 (FL-5.1.3, K2)
 
 In Agile terminology, the Definition of Ready (DoR) corresponds to which concept in traditional testing?
 
@@ -50,7 +85,7 @@ D. Defect priority
 
 ---
 
-### Q5 (FL-5.1.4, K1)
+### 🔷 Q5 (FL-5.1.4, K1)
 
 A Scrum team uses Planning Poker to estimate the testing effort for user stories. This is an example of which type of estimation technique?
 
@@ -61,7 +96,7 @@ D. Code-based estimation
 
 ---
 
-### Q6 (FL-5.1.5, K3)
+### 🔷 Q6 (FL-5.1.5, K3)
 
 A test team has 100 test cases but can only execute 60 due to time constraints. They decide to run all tests covering the payment module first (highest business risk), then authentication tests, and finally UI tests.
 
@@ -74,7 +109,7 @@ D. Code-coverage-based prioritization
 
 ---
 
-### Q7 (FL-5.1.6, K1)
+### 🔷 Q7 (FL-5.1.6, K1)
 
 According to the test pyramid model, which layer should contain the MOST tests?
 
@@ -85,7 +120,7 @@ D. Acceptance tests
 
 ---
 
-### Q8 (FL-5.1.7, K2)
+### 🔷 Q8 (FL-5.1.7, K2)
 
 In the testing quadrants model, which quadrant contains performance testing and security testing?
 
@@ -96,7 +131,7 @@ D. Q4 (technology-facing, critiquing the product)
 
 ---
 
-### Q9 (FL-5.2.1, K2)
+### 🔷 Q9 (FL-5.2.1, K2)
 
 A product risk has been assessed with a likelihood of 4 (out of 5) and an impact of 2 (out of 5). Another risk has likelihood 2 and impact 5. Which risk has the higher risk level?
 
@@ -107,7 +142,7 @@ D. The second risk (likelihood 2, impact 5) because 10 > 8
 
 ---
 
-### Q10 (FL-5.2.2, K2)
+### 🔷 Q10 (FL-5.2.2, K2)
 
 Which of the following is a PROJECT risk (not a product risk)?
 
@@ -118,7 +153,7 @@ D. Security vulnerabilities may allow unauthorized data access
 
 ---
 
-### Q11 (FL-5.2.2, K2)
+### 🔷 Q11 (FL-5.2.2, K2)
 
 Which of the following is a PRODUCT risk?
 
@@ -129,7 +164,7 @@ D. The project budget may be cut by management
 
 ---
 
-### Q12 (FL-5.2.3, K2)
+### 🔷 Q12 (FL-5.2.3, K2)
 
 How does product risk analysis influence testing?
 
@@ -140,7 +175,7 @@ D. It replaces the need for a test strategy
 
 ---
 
-### Q13 (FL-5.3.1, K1)
+### 🔷 Q13 (FL-5.3.1, K1)
 
 Which of the following is a commonly used test metric?
 
@@ -151,7 +186,7 @@ D. Number of meetings attended by the test manager
 
 ---
 
-### Q14 (FL-5.3.2, K2)
+### 🔷 Q14 (FL-5.3.2, K2)
 
 A test completion report at the end of system testing should include which of the following?
 
@@ -162,7 +197,7 @@ D. Only the number of defects found
 
 ---
 
-### Q15 (FL-5.4.1, K2)
+### 🔷 Q15 (FL-5.4.1, K2)
 
 How does configuration management support testing?
 
@@ -173,7 +208,7 @@ D. It replaces the need for a test environment
 
 ---
 
-### Q16 (FL-5.5.1, K3)
+### 🔷 Q16 (FL-5.5.1, K3)
 
 A tester finds that clicking "Submit Order" with an empty shopping cart causes a blank white page. Which of the following is the BEST title for the defect report?
 
@@ -184,7 +219,7 @@ D. "Cart issue"
 
 ---
 
-### Q17 (FL-5.5.1, K3)
+### 🔷 Q17 (FL-5.5.1, K3)
 
 In a defect report, what is the difference between severity and priority?
 
@@ -195,7 +230,7 @@ D. Severity only applies to critical defects; priority applies to all defects
 
 ---
 
-### Q18 (FL-5.5.1, K3)
+### 🔷 Q18 (FL-5.5.1, K3)
 
 A defect report states: "The login does not work." Which essential information is MISSING that would make this report more useful?
 
@@ -208,124 +243,124 @@ D. The project budget
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1 — Answer: B
+### ✔️ Q1 — Answer: B
 
 - **B is correct.** Source code is the test object, not content of the test plan. The test plan describes the testing approach.
 - A is wrong: Test objectives and scope ARE in the plan.
 - C is wrong: Entry/exit criteria ARE in the plan.
 - D is wrong: Resources and schedule ARE in the plan.
 
-### Q2 — Answer: B
+### ✔️ Q2 — Answer: B
 
 - **B is correct.** Testers contribute by estimating test effort, identifying dependencies, and raising testability issues.
 - A is wrong: Testers do not write production code.
 - C is wrong: Release approval is a management/stakeholder decision.
 - D is wrong: Testers do not replace the product owner.
 
-### Q3 — Answer: C
+### ✔️ Q3 — Answer: C
 
 - **C is correct.** "All critical/high defects resolved" is a condition for declaring testing COMPLETE (exit criterion).
 - A is wrong: Environment availability is an entry criterion.
 - B is wrong: Test case approval is an entry criterion.
 - D is wrong: Requirements availability is an entry criterion.
 
-### Q4 — Answer: B
+### ✔️ Q4 — Answer: B
 
 - **B is correct.** DoR defines what must be ready before work (testing) begins — this is the same concept as entry criteria.
 - A is wrong: Exit criteria correspond to Definition of Done (DoD).
 - C, D are unrelated.
 
-### Q5 — Answer: B
+### ✔️ Q5 — Answer: B
 
 - **B is correct.** Planning Poker relies on expert judgment from team members, making it an expert-based technique.
 - A is wrong: Metrics-based uses historical data, not team votes.
 - C, D are not recognized ISTQB estimation categories.
 
-### Q6 — Answer: C
+### ✔️ Q6 — Answer: C
 
 - **C is correct.** Executing highest-business-risk tests first is risk-based prioritization.
 - A is wrong: Not random.
 - B is wrong: Not alphabetical.
 - D is wrong: Not based on code coverage metrics.
 
-### Q7 — Answer: C
+### ✔️ Q7 — Answer: C
 
 - **C is correct.** The test pyramid places the most tests at the base (unit/component tests) because they are fast, cheap, and provide rapid feedback.
 - A is wrong: UI tests should be fewest (top of pyramid).
 - B is wrong: Integration tests are in the middle layer.
 - D is wrong: Acceptance tests are at or near the top.
 
-### Q8 — Answer: D
+### ✔️ Q8 — Answer: D
 
 - **D is correct.** Q4 is technology-facing (non-functional/technical quality) and critiquing the product (evaluating, not guiding development). Performance and security testing fit here.
 - A is wrong: Q1 is unit tests and TDD.
 - B is wrong: Q2 is functional/story tests.
 - C is wrong: Q3 is exploratory and usability testing.
 
-### Q9 — Answer: D
+### ✔️ Q9 — Answer: D
 
 - **D is correct.** Risk 1: 4 x 2 = 8. Risk 2: 2 x 5 = 10. Risk 2 has the higher risk level (10 > 8).
 - A is wrong: Higher likelihood alone does not mean higher risk.
 - B is wrong: The values are 8 and 10, not equal.
 - C is wrong: They are not the same (8 vs 10).
 
-### Q10 — Answer: C
+### ✔️ Q10 — Answer: C
 
 - **C is correct.** Staff leaving is a project risk (threatens the project timeline/resources).
 - A is wrong: Incorrect results = product quality risk.
 - B is wrong: Crashing under load = product quality risk.
 - D is wrong: Security vulnerabilities = product quality risk.
 
-### Q11 — Answer: C
+### ✔️ Q11 — Answer: C
 
 - **C is correct.** An algorithm producing incorrect results is a quality defect in the product (product risk).
 - A is wrong: Coding delays = project risk.
 - B is wrong: Tool incompatibility = project risk.
 - D is wrong: Budget cuts = project risk.
 
-### Q12 — Answer: C
+### ✔️ Q12 — Answer: C
 
 - **C is correct.** Risk analysis directs more testing effort and rigor to higher-risk areas and ensures they are tested earlier.
 - A is wrong: Risk analysis supports planning; it does not eliminate it.
 - B is wrong: All areas should be tested; risk determines the depth.
 - D is wrong: Risk analysis informs strategy; it does not replace it.
 
-### Q13 — Answer: B
+### ✔️ Q13 — Answer: B
 
 - **B is correct.** Defects found per severity is a standard defect metric used in testing.
 - A, C, D are not test metrics.
 
-### Q14 — Answer: B
+### ✔️ Q14 — Answer: B
 
 - **B is correct.** A completion report summarizes activities, quality assessment, residual risks, and release recommendations.
 - A is wrong: Only showing passes gives an incomplete and misleading picture.
 - C is wrong: Source code is not part of test reports.
 - D is wrong: Just a defect count lacks context and assessment.
 
-### Q15 — Answer: B
+### ✔️ Q15 — Answer: B
 
 - **B is correct.** CM ensures version control of testware, enabling reproducibility and consistency.
 - A is wrong: CM does not eliminate regression testing.
 - C is wrong: CM does not fix defects.
 - D is wrong: CM does not replace test environments.
 
-### Q16 — Answer: B
+### ✔️ Q16 — Answer: B
 
 - **B is correct.** A good defect title is specific, descriptive, and communicates the problem clearly in one line.
 - A is wrong: "Bug found" is too vague.
 - C is wrong: "The system is broken" is vague and emotional.
 - D is wrong: "Cart issue" lacks specifics about the behavior.
 
-### Q17 — Answer: B
+### ✔️ Q17 — Answer: B
 
 - **B is correct.** Severity = technical impact (how bad is it technically). Priority = business urgency (how soon must it be fixed).
 - A is wrong: They measure different things and can differ (high severity, low priority is possible).
 - C is wrong: Severity is typically assessed by testers; priority by management.
 - D is wrong: Both apply to all defects, not just critical ones.
 
-### Q18 — Answer: B
+### ✔️ Q18 — Answer: B
 
 - **B is correct.** The report lacks steps to reproduce, what was expected, and what actually happened — the most critical information for a developer to investigate.
 - A, C, D are irrelevant to defect reporting.

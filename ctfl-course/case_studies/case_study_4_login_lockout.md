@@ -1,41 +1,76 @@
-# Case Study 4: User Login and Account Lockout
+<!-- ISTQB-BEAUTIFY-V1 -->
+<style>
+html, body {
+  background-color: #000000 !important;
+  color: #F5F5F5 !important;
+}
+body {
+  font-size: 19px !important;
+  line-height: 1.85 !important;
+  font-family: 'Segoe UI', 'Trebuchet MS', Verdana, sans-serif !important;
+  padding: 24px 44px !important;
+  letter-spacing: 0.2px;
+}
+h1 { color: #FFD700 !important; font-size: 2.7em !important; font-weight: 800 !important; border-bottom: 3px solid #FF5252 !important; padding-bottom: 0.25em; }
+h2 { color: #00E5FF !important; font-size: 2.05em !important; font-weight: 800 !important; border-bottom: 2px solid #00E5FF !important; padding-bottom: 0.2em; }
+h3 { color: #69F0AE !important; font-size: 1.6em !important; font-weight: 700 !important; }
+h4 { color: #FF80AB !important; font-size: 1.35em !important; font-weight: 700 !important; }
+h5 { color: #FFAB40 !important; font-size: 1.2em !important; font-weight: 700 !important; }
+h6 { color: #B388FF !important; font-size: 1.1em !important; font-weight: 700 !important; }
+p, li, td, th, span, div { font-size: 1em !important; color: #F5F5F5 !important; }
+strong, b { color: #FFEB3B !important; }
+em, i { color: #FF8A65 !important; }
+a { color: #40C4FF !important; text-decoration: underline; }
+a:hover { color: #80D8FF !important; }
+code { color: #FF4081 !important; background: transparent !important; font-size: 0.95em !important; }
+pre { background: transparent !important; border: 1px solid #555 !important; border-radius: 8px; padding: 14px !important; }
+pre code { color: #80CBC4 !important; }
+blockquote { color: #B0BEC5 !important; border-left: 5px solid #FFD700 !important; background: transparent !important; padding-left: 18px; font-style: italic; }
+table { border-collapse: collapse !important; background: transparent !important; }
+th { color: #FFD700 !important; border: 2px solid #00E5FF !important; background: transparent !important; padding: 8px 12px !important; }
+td { color: #F5F5F5 !important; border: 1px solid #607D8B !important; background: transparent !important; padding: 8px 12px !important; }
+hr { border: none; border-top: 2px dashed #FF5252 !important; margin: 1.5em 0; }
+ul li::marker { color: #69F0AE !important; font-size: 1.1em; }
+ol li::marker { color: #00E5FF !important; font-weight: bold; }
+</style>
+# 📂 Case Study 4: User Login and Account Lockout
 
-## System Description
+## ⭐ System Description
 
 A web application has a login system with security features including account lockout after multiple failed attempts, password complexity requirements, and session management.
 
 ---
 
-## Requirements Specification
+## 📑 Requirements Specification
 
-### REQ-LOGIN-001: Credentials
+### 🔷 REQ-LOGIN-001: Credentials
 - Username: email address format (must contain @ and a valid domain)
 - Password: 8-64 characters, must contain at least one uppercase letter, one lowercase letter, one digit, and one special character
 
-### REQ-LOGIN-002: Authentication
+### 🔷 REQ-LOGIN-002: Authentication
 - Valid username + valid password -> login successful, redirect to dashboard
 - Valid username + invalid password -> "Invalid credentials" (generic message)
 - Invalid/unknown username -> same "Invalid credentials" message (do not reveal whether account exists)
 
-### REQ-LOGIN-003: Account Lockout
+### 🔷 REQ-LOGIN-003: Account Lockout
 - After 5 consecutive failed login attempts for the same account, lock the account for 30 minutes
 - Display message "Account locked. Try again after 30 minutes."
 - After lockout expires, the attempt counter resets
 - A successful login at any point before lockout resets the counter
 
-### REQ-LOGIN-004: Session Management
+### 🗂️ REQ-LOGIN-004: Session Management
 - Session timeout: 30 minutes of inactivity
 - Maximum concurrent sessions per user: 3
 - If a 4th session is initiated, the oldest session is terminated
 
-### REQ-LOGIN-005: Password Reset
+### 🔷 REQ-LOGIN-005: Password Reset
 - "Forgot password" link sends a reset email to the registered address
 - Reset link expires after 24 hours
 - Reset link can only be used once
 
 ---
 
-## User Stories
+## ⭐ User Stories
 
 **US-1: Secure Login**
 ```
@@ -64,9 +99,9 @@ Acceptance Criteria:
 
 ---
 
-## Applying Test Techniques
+## 🎯 Applying Test Techniques
 
-### 1. Equivalence Partitioning on Username Field
+### ➗ 1. Equivalence Partitioning on Username Field
 
 | Partition | Description | Example | Valid/Invalid |
 |-----------|-------------|---------|---------------|
@@ -77,7 +112,7 @@ Acceptance Criteria:
 | P5 | Empty field | "" | Invalid |
 | P6 | Contains spaces | "user @domain.com" | Invalid (format) |
 
-### 2. Equivalence Partitioning on Password Field
+### ➗ 2. Equivalence Partitioning on Password Field
 
 | Partition | Description | Example | Valid/Invalid |
 |-----------|-------------|---------|---------------|
@@ -91,7 +126,7 @@ Acceptance Criteria:
 | P8 | Missing special character | "Passw0rds" | Invalid (format) |
 | P9 | Empty field | "" | Invalid |
 
-### 3. Boundary Value Analysis on Password Length
+### 📏 3. Boundary Value Analysis on Password Length
 
 | Value | Length | Expected | Boundary |
 |-------|--------|----------|----------|
@@ -100,7 +135,7 @@ Acceptance Criteria:
 | 64 chars | 64 | Valid (if complexity met) | Upper boundary |
 | 65 chars | 65 | Invalid: too long | Above upper |
 
-### 4. State Transition for Account Lockout (REQ-LOGIN-003)
+### 🔄 4. State Transition for Account Lockout (REQ-LOGIN-003)
 
 **States:**
 - S0: Active (0 failed attempts)
@@ -148,7 +183,7 @@ Acceptance Criteria:
 
 All 14 transitions covered in 9 test cases. (Several can be combined into longer paths.)
 
-### 5. Decision Table for Login Outcome
+### 🗂️ 5. Decision Table for Login Outcome
 
 **Conditions:**
 - C1: Username format valid?
@@ -187,7 +222,7 @@ Notes: R2 and R3 both show "Invalid credentials" (intentionally identical to avo
 
 ---
 
-## Risk-Based Test Approach
+## ⚠️ Risk-Based Test Approach
 
 | ID | Risk | Likelihood | Impact | Level |
 |----|------|------------|--------|-------|
@@ -208,7 +243,7 @@ Notes: R2 and R3 both show "Invalid credentials" (intentionally identical to avo
 
 ---
 
-## Statement/Branch Coverage Example
+## 💡 Statement/Branch Coverage Example
 
 **Lockout check code:**
 
@@ -260,7 +295,7 @@ Notes: R2 and R3 both show "Invalid credentials" (intentionally identical to avo
 
 ---
 
-## Sample Test Plan Excerpt
+## 🗓️ Sample Test Plan Excerpt
 
 **Scope:** Login module (REQ-LOGIN-001 through REQ-LOGIN-005)
 
@@ -279,7 +314,7 @@ Notes: R2 and R3 both show "Invalid credentials" (intentionally identical to avo
 
 ---
 
-## Sample Defect Report
+## 🐞 Sample Defect Report
 
 ```
 ID:             BUG-LOGIN-205
@@ -308,7 +343,7 @@ Related Req: REQ-LOGIN-002
 
 ---
 
-## Reflection Questions
+## ❓ Reflection Questions
 
 1. Why is the state transition technique particularly well-suited for testing the lockout mechanism?
 
@@ -320,7 +355,7 @@ Related Req: REQ-LOGIN-002
 
 ---
 
-## Worked Solutions
+## ⭐ Worked Solutions
 
 **1.** The lockout mechanism is inherently stateful — the system behaves differently depending on how many previous failures have occurred. State transition testing naturally models this counting behavior, making it easy to verify that: (a) the counter increments correctly, (b) the counter resets on success, (c) the lockout triggers at exactly 5, not 4 or 6, (d) the lockout duration is correct, and (e) recovery works properly. Without modeling states, you might miss transitions like "successful login after 3 failures resets counter."
 

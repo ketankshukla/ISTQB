@@ -1,10 +1,45 @@
-# Chapter 5 — Managing the Test Activities: Lessons
+<!-- ISTQB-BEAUTIFY-V1 -->
+<style>
+html, body {
+  background-color: #000000 !important;
+  color: #F5F5F5 !important;
+}
+body {
+  font-size: 19px !important;
+  line-height: 1.85 !important;
+  font-family: 'Segoe UI', 'Trebuchet MS', Verdana, sans-serif !important;
+  padding: 24px 44px !important;
+  letter-spacing: 0.2px;
+}
+h1 { color: #FFD700 !important; font-size: 2.7em !important; font-weight: 800 !important; border-bottom: 3px solid #FF5252 !important; padding-bottom: 0.25em; }
+h2 { color: #00E5FF !important; font-size: 2.05em !important; font-weight: 800 !important; border-bottom: 2px solid #00E5FF !important; padding-bottom: 0.2em; }
+h3 { color: #69F0AE !important; font-size: 1.6em !important; font-weight: 700 !important; }
+h4 { color: #FF80AB !important; font-size: 1.35em !important; font-weight: 700 !important; }
+h5 { color: #FFAB40 !important; font-size: 1.2em !important; font-weight: 700 !important; }
+h6 { color: #B388FF !important; font-size: 1.1em !important; font-weight: 700 !important; }
+p, li, td, th, span, div { font-size: 1em !important; color: #F5F5F5 !important; }
+strong, b { color: #FFEB3B !important; }
+em, i { color: #FF8A65 !important; }
+a { color: #40C4FF !important; text-decoration: underline; }
+a:hover { color: #80D8FF !important; }
+code { color: #FF4081 !important; background: transparent !important; font-size: 0.95em !important; }
+pre { background: transparent !important; border: 1px solid #555 !important; border-radius: 8px; padding: 14px !important; }
+pre code { color: #80CBC4 !important; }
+blockquote { color: #B0BEC5 !important; border-left: 5px solid #FFD700 !important; background: transparent !important; padding-left: 18px; font-style: italic; }
+table { border-collapse: collapse !important; background: transparent !important; }
+th { color: #FFD700 !important; border: 2px solid #00E5FF !important; background: transparent !important; padding: 8px 12px !important; }
+td { color: #F5F5F5 !important; border: 1px solid #607D8B !important; background: transparent !important; padding: 8px 12px !important; }
+hr { border: none; border-top: 2px dashed #FF5252 !important; margin: 1.5em 0; }
+ul li::marker { color: #69F0AE !important; font-size: 1.1em; }
+ol li::marker { color: #00E5FF !important; font-weight: bold; }
+</style>
+# 📘 Chapter 5 — Managing the Test Activities: Lessons
 
 ---
 
-## 5.1 Test Planning
+## 🗓️ 5.1 Test Planning
 
-### Purpose and Content of a Test Plan (FL-5.1.1, K2)
+### 🗓️ Purpose and Content of a Test Plan (FL-5.1.1, K2)
 
 A test plan is the document that describes the scope, approach, resources, schedule, and activities for testing. It serves as the main communication vehicle for the testing effort.
 
@@ -30,7 +65,7 @@ A test plan is the document that describes the scope, approach, resources, sched
 
 **Context matters:** In sequential models, the test plan is often a single detailed document created early. In Agile, test planning is lighter and continuous — the test strategy may be captured in a brief team agreement, with details emerging per iteration/sprint.
 
-### Tester's Contribution to Planning (FL-5.1.2, K1)
+### 🗓️ Tester's Contribution to Planning (FL-5.1.2, K1)
 
 Testers add value during iteration and release planning by:
 
@@ -42,7 +77,7 @@ Testers add value during iteration and release planning by:
 - Contributing to Definition of Done (DoD) — ensuring adequate testing is included in "done"
 - Proposing which regression tests need to run for the release
 
-### Entry Criteria and Exit Criteria (FL-5.1.3, K2)
+### ✅ Entry Criteria and Exit Criteria (FL-5.1.3, K2)
 
 **Entry criteria (Definition of Ready for testing):** Conditions that must be met BEFORE a test activity can begin:
 - Test environment is set up and accessible
@@ -62,7 +97,7 @@ Testers add value during iteration and release planning by:
 
 In Agile, these translate directly to **DoR** (entry) and **DoD** (exit) for user stories and sprints.
 
-### Estimation Techniques (FL-5.1.4, K1)
+### 🎯 Estimation Techniques (FL-5.1.4, K1)
 
 Common approaches to estimating testing effort:
 
@@ -88,7 +123,7 @@ Common approaches to estimating testing effort:
 - Discussion rounds converge toward consensus
 - Reduces bias from dominant voices
 
-### Test Case Prioritization (FL-5.1.5, K3)
+### 🔷 Test Case Prioritization (FL-5.1.5, K3)
 
 When time or resources are limited, not all tests can be executed. Prioritization decides which tests run first.
 
@@ -115,7 +150,7 @@ When time or resources are limited, not all tests can be executed. Prioritizatio
 - Regulatory requirements
 - Dependencies (some tests must run before others)
 
-### The Test Pyramid (FL-5.1.6, K1)
+### 🔷 The Test Pyramid (FL-5.1.6, K1)
 
 The test pyramid is a model recommending the distribution of test effort across levels:
 
@@ -145,7 +180,7 @@ The test pyramid is a model recommending the distribution of test effort across 
 
 **Anti-pattern: "Ice cream cone"** — too many slow UI tests, too few fast unit tests. Results in slow feedback and high maintenance cost.
 
-### Testing Quadrants (FL-5.1.7, K2)
+### 🔷 Testing Quadrants (FL-5.1.7, K2)
 
 The testing quadrants model (Brian Marick) categorizes tests along two dimensions:
 
@@ -185,9 +220,9 @@ The testing quadrants model (Brian Marick) categorizes tests along two dimension
 
 ---
 
-## 5.2 Risk Management
+## ⚠️ 5.2 Risk Management
 
-### Risk Definition (FL-5.2.1, K2)
+### ⚠️ Risk Definition (FL-5.2.1, K2)
 
 A **risk** is a factor that could result in future negative consequences. Every risk has two components:
 
@@ -203,7 +238,7 @@ Risks with high likelihood AND high impact demand the most attention.
 | **High Likelihood** | Critical risk — highest priority | Moderate risk |
 | **Low Likelihood** | Moderate risk | Low risk — lowest priority |
 
-### Project Risks vs Product Risks (FL-5.2.2, K2)
+### ⚠️ Project Risks vs Product Risks (FL-5.2.2, K2)
 
 **Project risks** affect the project's ability to achieve its objectives:
 - Staff shortages or skill gaps
@@ -226,7 +261,7 @@ Risks with high likelihood AND high impact demand the most attention.
 
 **Key distinction:** Project risks threaten the project SCHEDULE/BUDGET/SCOPE. Product risks threaten the QUALITY of the delivered system.
 
-### Product Risk Analysis (FL-5.2.3, K2)
+### 🔬 Product Risk Analysis (FL-5.2.3, K2)
 
 Product risk analysis involves:
 
@@ -241,7 +276,7 @@ Product risk analysis involves:
 - Risk levels influence **test level selection** — critical risks may need testing at multiple levels
 - Risk levels determine **test technique selection** — high-risk complex logic may warrant decision table testing + BVA + state transition combined
 
-### Product Risk Control / Risk-Based Testing (FL-5.2.4, K2)
+### ⚠️ Product Risk Control / Risk-Based Testing (FL-5.2.4, K2)
 
 Risk-based testing uses product risk analysis results to:
 - **Plan testing:** Allocate effort proportionally to risk level
@@ -257,9 +292,9 @@ Risk-based testing uses product risk analysis results to:
 
 ---
 
-## 5.3 Test Monitoring, Test Control, and Test Completion
+## ⭐ 5.3 Test Monitoring, Test Control, and Test Completion
 
-### Metrics Used in Testing (FL-5.3.1, K1)
+### 📊 Metrics Used in Testing (FL-5.3.1, K1)
 
 Common test metrics:
 
@@ -284,7 +319,7 @@ Common test metrics:
 - Open vs closed defect curve
 - Pass rate trend
 
-### Test Reports (FL-5.3.2, K2)
+### 📝 Test Reports (FL-5.3.2, K2)
 
 **Test progress report (interim):**
 - Produced during test execution
@@ -298,7 +333,7 @@ Common test metrics:
 - Audience: stakeholders, management, potentially customers
 - Content: summary of activities, deviations from plan, coverage achieved, outstanding defects, residual risks, assessment of quality, recommendations (ship/no-ship)
 
-### Communicating Test Status (FL-5.3.3, K2)
+### 🔷 Communicating Test Status (FL-5.3.3, K2)
 
 Effective communication of test status:
 - Tailor the message to the audience (executives want a high-level summary; developers want technical detail)
@@ -310,7 +345,7 @@ Effective communication of test status:
 
 ---
 
-## 5.4 Configuration Management (FL-5.4.1, K2)
+## ⚙️ 5.4 Configuration Management (FL-5.4.1, K2)
 
 Configuration management (CM) ensures that all work products (including testware) are uniquely identified, version-controlled, tracked, and protected from unauthorized changes.
 
@@ -331,9 +366,9 @@ Configuration management (CM) ensures that all work products (including testware
 
 ---
 
-## 5.5 Defect Management (FL-5.5.1, K3)
+## 🐞 5.5 Defect Management (FL-5.5.1, K3)
 
-### The Defect Report
+### 🐞 The Defect Report
 
 A defect report documents a failure or anomaly found during testing. It serves multiple purposes:
 - Communicates the problem to developers for fixing
@@ -341,7 +376,7 @@ A defect report documents a failure or anomaly found during testing. It serves m
 - Enables tracking of defect lifecycle
 - Supports post-project analysis and process improvement
 
-### Content of a Defect Report
+### 🐞 Content of a Defect Report
 
 A complete defect report typically includes:
 
@@ -364,7 +399,7 @@ A complete defect report typically includes:
 | Assigned to | Developer or team responsible for investigation |
 | Related test case | Link to the test case that found it |
 
-### Defect Workflow
+### 🐞 Defect Workflow
 
 A typical defect lifecycle:
 
@@ -384,7 +419,7 @@ New -> Open -> In Progress -> Fixed -> Ready for Retest -> Closed
 - **Reopened:** Confirmation testing failed; the fix did not work
 - **Rejected:** Not a valid defect (expected behavior, cannot reproduce, duplicate)
 
-### Severity vs Priority
+### 🔷 Severity vs Priority
 
 These are distinct and do not always align:
 
@@ -400,7 +435,7 @@ These are distinct and do not always align:
 
 ---
 
-## Cross-References
+## ⭐ Cross-References
 
 - Test planning connects to Chapter 1.4 (test process and activities)
 - Risk-based testing connects to Chapter 4 (choosing which techniques to apply)

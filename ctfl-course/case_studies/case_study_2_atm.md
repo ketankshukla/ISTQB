@@ -1,45 +1,80 @@
-# Case Study 2: ATM Cash Withdrawal
+<!-- ISTQB-BEAUTIFY-V1 -->
+<style>
+html, body {
+  background-color: #000000 !important;
+  color: #F5F5F5 !important;
+}
+body {
+  font-size: 19px !important;
+  line-height: 1.85 !important;
+  font-family: 'Segoe UI', 'Trebuchet MS', Verdana, sans-serif !important;
+  padding: 24px 44px !important;
+  letter-spacing: 0.2px;
+}
+h1 { color: #FFD700 !important; font-size: 2.7em !important; font-weight: 800 !important; border-bottom: 3px solid #FF5252 !important; padding-bottom: 0.25em; }
+h2 { color: #00E5FF !important; font-size: 2.05em !important; font-weight: 800 !important; border-bottom: 2px solid #00E5FF !important; padding-bottom: 0.2em; }
+h3 { color: #69F0AE !important; font-size: 1.6em !important; font-weight: 700 !important; }
+h4 { color: #FF80AB !important; font-size: 1.35em !important; font-weight: 700 !important; }
+h5 { color: #FFAB40 !important; font-size: 1.2em !important; font-weight: 700 !important; }
+h6 { color: #B388FF !important; font-size: 1.1em !important; font-weight: 700 !important; }
+p, li, td, th, span, div { font-size: 1em !important; color: #F5F5F5 !important; }
+strong, b { color: #FFEB3B !important; }
+em, i { color: #FF8A65 !important; }
+a { color: #40C4FF !important; text-decoration: underline; }
+a:hover { color: #80D8FF !important; }
+code { color: #FF4081 !important; background: transparent !important; font-size: 0.95em !important; }
+pre { background: transparent !important; border: 1px solid #555 !important; border-radius: 8px; padding: 14px !important; }
+pre code { color: #80CBC4 !important; }
+blockquote { color: #B0BEC5 !important; border-left: 5px solid #FFD700 !important; background: transparent !important; padding-left: 18px; font-style: italic; }
+table { border-collapse: collapse !important; background: transparent !important; }
+th { color: #FFD700 !important; border: 2px solid #00E5FF !important; background: transparent !important; padding: 8px 12px !important; }
+td { color: #F5F5F5 !important; border: 1px solid #607D8B !important; background: transparent !important; padding: 8px 12px !important; }
+hr { border: none; border-top: 2px dashed #FF5252 !important; margin: 1.5em 0; }
+ul li::marker { color: #69F0AE !important; font-size: 1.1em; }
+ol li::marker { color: #00E5FF !important; font-weight: bold; }
+</style>
+# 📂 Case Study 2: ATM Cash Withdrawal
 
-## System Description
+## ⭐ System Description
 
 A bank ATM (Automated Teller Machine) allows customers to withdraw cash from their accounts. The ATM validates the card and PIN, checks available balance, dispenses cash, and updates the account.
 
 ---
 
-## Requirements Specification
+## 📑 Requirements Specification
 
-### REQ-ATM-001: Card Validation
+### 🔷 REQ-ATM-001: Card Validation
 The ATM shall accept cards with a valid magnetic stripe or chip. Cards that are expired, reported stolen, or unreadable shall be rejected with an appropriate message.
 
-### REQ-ATM-002: PIN Authentication
+### 🔷 REQ-ATM-002: PIN Authentication
 - The customer must enter a 4-digit PIN
 - Maximum 3 incorrect PIN attempts before the card is retained
 - After each incorrect attempt, the system displays remaining attempts
 - After successful PIN entry, the customer accesses the main menu
 
-### REQ-ATM-003: Withdrawal Amounts
+### 🔷 REQ-ATM-003: Withdrawal Amounts
 - Minimum withdrawal: $20
 - Maximum withdrawal per transaction: $500
 - Withdrawal must be in multiples of $20
 - Daily withdrawal limit: $1000 (cumulative across transactions)
 
-### REQ-ATM-004: Balance Check
+### 🔷 REQ-ATM-004: Balance Check
 - The withdrawal amount must not exceed the available account balance
 - If insufficient funds, display "Insufficient balance" and return to menu
 
-### REQ-ATM-005: Cash Dispensing
+### 🔷 REQ-ATM-005: Cash Dispensing
 - The ATM dispenses the requested amount in the largest denomination available
 - If the ATM cannot dispense the exact amount (insufficient bills), display an error and offer the nearest lower amount
 - Update the account balance immediately after dispensing
 
-### REQ-ATM-006: Receipt
+### 🔷 REQ-ATM-006: Receipt
 - The customer is asked "Would you like a receipt?"
 - If yes, print a receipt showing: date, time, amount withdrawn, remaining balance
 - If no or timeout (30 seconds), eject card without receipt
 
 ---
 
-## User Stories
+## ⭐ User Stories
 
 **US-1: Withdraw Cash**
 ```
@@ -56,9 +91,9 @@ Acceptance Criteria:
 
 ---
 
-## Applying Test Techniques
+## 🎯 Applying Test Techniques
 
-### 1. Equivalence Partitioning on Withdrawal Amount (REQ-ATM-003)
+### ➗ 1. Equivalence Partitioning on Withdrawal Amount (REQ-ATM-003)
 
 **Partitions for amount:**
 
@@ -80,7 +115,7 @@ Acceptance Criteria:
 | TC4 | $75 | Error: not multiple of $20 | P4 |
 | TC5 | -$50 | Error: invalid input | P5 |
 
-### 2. Boundary Value Analysis on Withdrawal Limits
+### 📏 2. Boundary Value Analysis on Withdrawal Limits
 
 **Transaction boundaries ($20 minimum, $500 maximum):**
 
@@ -99,7 +134,7 @@ Acceptance Criteria:
 | $980 | $40 | $1020 | Invalid: daily limit exceeded |
 | $0 | $500 | $500 | Valid (within limit) |
 
-### 3. Decision Table for Withdrawal Authorization
+### 🗂️ 3. Decision Table for Withdrawal Authorization
 
 **Conditions:**
 - C1: PIN correct?
@@ -125,7 +160,7 @@ Acceptance Criteria:
 
 **After collapsing: 5 rules -> 5 test cases.**
 
-### 4. State Transition for PIN Entry (REQ-ATM-002)
+### 🔄 4. State Transition for PIN Entry (REQ-ATM-002)
 
 **States:**
 - S1: Card Inserted (waiting for PIN)
@@ -165,7 +200,7 @@ Acceptance Criteria:
 
 ---
 
-## Risk-Based Test Approach
+## ⚠️ Risk-Based Test Approach
 
 | ID | Risk | Likelihood | Impact | Level | Testing Action |
 |----|------|------------|--------|-------|----------------|
@@ -180,7 +215,7 @@ Acceptance Criteria:
 
 ---
 
-## Statement/Branch Coverage Example
+## 💡 Statement/Branch Coverage Example
 
 **Simplified withdrawal validation code:**
 
@@ -220,7 +255,7 @@ Acceptance Criteria:
 
 ---
 
-## Sample Defect Report
+## 🐞 Sample Defect Report
 
 ```
 ID:             BUG-ATM-042
@@ -258,7 +293,7 @@ Related Req: REQ-ATM-003 (daily limit $1000)
 
 ---
 
-## Reflection Questions
+## ❓ Reflection Questions
 
 1. Why must BVA be applied to the DAILY limit separately from the per-transaction limit?
 
@@ -270,7 +305,7 @@ Related Req: REQ-ATM-003 (daily limit $1000)
 
 ---
 
-## Worked Solutions
+## ⭐ Worked Solutions
 
 **1.** The per-transaction limit ($500) and daily limit ($1000) are independent constraints with different boundaries. A customer might make a $500 withdrawal (within per-transaction limit) and then another $500 (also within per-transaction limit), but together they hit the daily limit. BVA at the daily boundary catches defects where the cumulative check is missing or incorrect. Without it, you might pass all per-transaction tests but miss cumulative failures.
 

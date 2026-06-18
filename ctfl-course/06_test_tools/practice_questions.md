@@ -1,12 +1,47 @@
-# Chapter 6 — Practice Questions
+<!-- ISTQB-BEAUTIFY-V1 -->
+<style>
+html, body {
+  background-color: #000000 !important;
+  color: #F5F5F5 !important;
+}
+body {
+  font-size: 19px !important;
+  line-height: 1.85 !important;
+  font-family: 'Segoe UI', 'Trebuchet MS', Verdana, sans-serif !important;
+  padding: 24px 44px !important;
+  letter-spacing: 0.2px;
+}
+h1 { color: #FFD700 !important; font-size: 2.7em !important; font-weight: 800 !important; border-bottom: 3px solid #FF5252 !important; padding-bottom: 0.25em; }
+h2 { color: #00E5FF !important; font-size: 2.05em !important; font-weight: 800 !important; border-bottom: 2px solid #00E5FF !important; padding-bottom: 0.2em; }
+h3 { color: #69F0AE !important; font-size: 1.6em !important; font-weight: 700 !important; }
+h4 { color: #FF80AB !important; font-size: 1.35em !important; font-weight: 700 !important; }
+h5 { color: #FFAB40 !important; font-size: 1.2em !important; font-weight: 700 !important; }
+h6 { color: #B388FF !important; font-size: 1.1em !important; font-weight: 700 !important; }
+p, li, td, th, span, div { font-size: 1em !important; color: #F5F5F5 !important; }
+strong, b { color: #FFEB3B !important; }
+em, i { color: #FF8A65 !important; }
+a { color: #40C4FF !important; text-decoration: underline; }
+a:hover { color: #80D8FF !important; }
+code { color: #FF4081 !important; background: transparent !important; font-size: 0.95em !important; }
+pre { background: transparent !important; border: 1px solid #555 !important; border-radius: 8px; padding: 14px !important; }
+pre code { color: #80CBC4 !important; }
+blockquote { color: #B0BEC5 !important; border-left: 5px solid #FFD700 !important; background: transparent !important; padding-left: 18px; font-style: italic; }
+table { border-collapse: collapse !important; background: transparent !important; }
+th { color: #FFD700 !important; border: 2px solid #00E5FF !important; background: transparent !important; padding: 8px 12px !important; }
+td { color: #F5F5F5 !important; border: 1px solid #607D8B !important; background: transparent !important; padding: 8px 12px !important; }
+hr { border: none; border-top: 2px dashed #FF5252 !important; margin: 1.5em 0; }
+ul li::marker { color: #69F0AE !important; font-size: 1.1em; }
+ol li::marker { color: #00E5FF !important; font-weight: bold; }
+</style>
+# ❓ Chapter 6 — Practice Questions
 
 15 original ISTQB-style questions covering Chapter 6 learning objectives.
 
 ---
 
-## Questions
+## ❓ Questions
 
-### Q1 (FL-6.1.1, K1)
+### 🔷 Q1 (FL-6.1.1, K1)
 
 Which category of test tool would BEST support the measurement of statement and branch coverage?
 
@@ -17,7 +52,7 @@ D. Performance testing tool
 
 ---
 
-### Q2 (FL-6.1.1, K1)
+### 🔷 Q2 (FL-6.1.1, K1)
 
 A tester needs a tool to check source code for violations of coding standards without executing the code. Which tool category is MOST appropriate?
 
@@ -28,7 +63,7 @@ D. Test data generation tool
 
 ---
 
-### Q3 (FL-6.1.1, K1)
+### 🔷 Q3 (FL-6.1.1, K1)
 
 Which tool category supports planning test activities, managing test cases, tracking test execution, and generating progress reports?
 
@@ -39,7 +74,7 @@ D. Load testing tool
 
 ---
 
-### Q4 (FL-6.1.1, K1)
+### 🔷 Q4 (FL-6.1.1, K1)
 
 A team needs to generate large volumes of realistic test data that complies with privacy regulations. Which tool category is MOST relevant?
 
@@ -50,7 +85,7 @@ D. Static analysis tool
 
 ---
 
-### Q5 (FL-6.1.1, K1)
+### 🔷 Q5 (FL-6.1.1, K1)
 
 Which of the following tool categories is MOST relevant for evaluating system behavior under heavy load?
 
@@ -61,7 +96,7 @@ D. Code coverage tool
 
 ---
 
-### Q6 (FL-6.2.1, K2)
+### 🔷 Q6 (FL-6.2.1, K2)
 
 Which of the following is a BENEFIT of test automation?
 
@@ -72,7 +107,7 @@ D. It removes the need for skilled testers
 
 ---
 
-### Q7 (FL-6.2.1, K2)
+### 🔷 Q7 (FL-6.2.1, K2)
 
 Which of the following is a RISK associated with test automation?
 
@@ -83,7 +118,7 @@ D. Tests can run overnight without supervision
 
 ---
 
-### Q8 (FL-6.2.1, K2)
+### 🔷 Q8 (FL-6.2.1, K2)
 
 A company automated its entire regression suite six months ago. Recently, the UI was redesigned, and now 60% of the automated tests fail because they cannot find the expected UI elements.
 
@@ -96,7 +131,7 @@ D. The benefit of consistency
 
 ---
 
-### Q9 (FL-6.2.1, K2)
+### 🔷 Q9 (FL-6.2.1, K2)
 
 Which type of testing is LEAST suitable for full automation?
 
@@ -107,7 +142,7 @@ D. Smoke testing of a build
 
 ---
 
-### Q10 (FL-6.2.1, K2)
+### 🔷 Q10 (FL-6.2.1, K2)
 
 Which statement about test automation is CORRECT?
 
@@ -118,7 +153,7 @@ D. Test automation eliminates the need for a test strategy
 
 ---
 
-### Q11 (FL-6.2.1, K2)
+### 🔷 Q11 (FL-6.2.1, K2)
 
 A development team runs automated unit tests on every code commit as part of their CI pipeline. What is the PRIMARY benefit of this practice?
 
@@ -129,7 +164,7 @@ D. It eliminates the need for code reviews
 
 ---
 
-### Q12 (FL-6.1.1, K1)
+### 🔷 Q12 (FL-6.1.1, K1)
 
 Which of the following is an example of how DevOps/CI/CD pipeline tools support testing?
 
@@ -140,7 +175,7 @@ D. They write test cases automatically from requirements
 
 ---
 
-### Q13 (FL-6.2.1, K2)
+### 🔷 Q13 (FL-6.2.1, K2)
 
 What is meant by "flaky tests" in the context of test automation?
 
@@ -151,7 +186,7 @@ D. Tests that cover non-functional requirements
 
 ---
 
-### Q14 (FL-6.2.1, K2)
+### 🔷 Q14 (FL-6.2.1, K2)
 
 A team is deciding which tests to automate. Which factor would MOST strongly favor automation?
 
@@ -162,7 +197,7 @@ D. The test scenario changes with every release
 
 ---
 
-### Q15 (FL-6.2.1, K2)
+### 🔷 Q15 (FL-6.2.1, K2)
 
 A manager claims that after implementing test automation, the team no longer needs testers because the tools do all the work. Which statement BEST responds to this claim?
 
@@ -175,105 +210,105 @@ D. Automation tools can perform usability testing better than humans
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1 — Answer: B
+### ✔️ Q1 — Answer: B
 
 - **B is correct.** Test execution and coverage tools measure code coverage (statement, branch) during test execution.
 - A is wrong: Test management tracks test cases and progress, not code coverage.
 - C is wrong: Static analysis examines code without execution (finds standards violations, not runtime coverage).
 - D is wrong: Performance tools measure speed/load, not code coverage.
 
-### Q2 — Answer: C
+### ✔️ Q2 — Answer: C
 
 - **C is correct.** Static analysis tools examine code without executing it, checking for standard violations, potential bugs, and code quality issues.
 - A is wrong: Execution tools run tests (dynamic).
 - B is wrong: Performance tools measure runtime behavior.
 - D is wrong: Test data tools generate input data.
 
-### Q3 — Answer: B
+### ✔️ Q3 — Answer: B
 
 - **B is correct.** Test management tools support planning, test case management, execution tracking, and reporting.
 - A is wrong: Static analysis checks code.
 - C is wrong: Coverage tools measure code coverage.
 - D is wrong: Load testing tools measure performance.
 
-### Q4 — Answer: C
+### ✔️ Q4 — Answer: C
 
 - **C is correct.** Test data generation tools (a subcategory of test design/implementation tools) create realistic, compliant test data.
 - A is wrong: Management tools track tests, not generate data.
 - B is wrong: Defect tools track bugs.
 - D is wrong: Static analysis examines code.
 
-### Q5 — Answer: C
+### ✔️ Q5 — Answer: C
 
 - **C is correct.** Performance testing tools (load generators, monitoring) evaluate system behavior under heavy load.
 - A is wrong: Static analysis does not execute code.
 - B is wrong: Management tools track progress.
 - D is wrong: Coverage tools measure code exercised.
 
-### Q6 — Answer: B
+### ✔️ Q6 — Answer: B
 
 - **B is correct.** Faster regression execution and faster developer feedback are primary benefits of automation.
 - A is wrong: Automation does not eliminate test planning needs.
 - C is wrong: No technique guarantees finding all defects.
 - D is wrong: Skilled testers are still needed for design, analysis, and maintenance.
 
-### Q7 — Answer: C
+### ✔️ Q7 — Answer: C
 
 - **C is correct.** High initial investment and ongoing maintenance are well-known risks of test automation.
 - A is wrong: Faster execution is a benefit, not a risk.
 - B is wrong: Consistency is a benefit, not a risk.
 - D is wrong: Overnight execution is a benefit, not a risk.
 
-### Q8 — Answer: B
+### ✔️ Q8 — Answer: B
 
 - **B is correct.** When the UI changes, fragile automated tests break and require expensive updates — this is the maintenance risk.
 - A, C, D describe benefits, not risks.
 
-### Q9 — Answer: C
+### ✔️ Q9 — Answer: C
 
 - **C is correct.** Exploratory testing requires human creativity, adaptation, and observation — it cannot be fully automated.
 - A is wrong: Regression testing of stable features is ideal for automation.
 - B is wrong: Data-driven testing is well-suited to automation.
 - D is wrong: Smoke tests are commonly automated.
 
-### Q10 — Answer: C
+### ✔️ Q10 — Answer: C
 
 - **C is correct.** Automation provides repeatable regression checks efficiently but cannot replace tests needing human judgment.
 - A is wrong: Not all tests should be automated.
 - B is wrong: Organizations of any size can benefit.
 - D is wrong: A test strategy is always needed.
 
-### Q11 — Answer: B
+### ✔️ Q11 — Answer: B
 
 - **B is correct.** CI with automated tests on every commit provides immediate feedback if changes break existing functionality.
 - A is wrong: Unit tests do not replace system testing.
 - C is wrong: Nothing guarantees zero defects.
 - D is wrong: Code reviews serve a different purpose (static testing by humans).
 
-### Q12 — Answer: B
+### ✔️ Q12 — Answer: B
 
 - **B is correct.** CI/CD tools trigger automated tests on commits and provide rapid feedback — their primary testing benefit.
 - A is wrong: Exploratory testing cannot be performed by CI tools.
 - C is wrong: Test environments are still needed.
 - D is wrong: Requirements-to-test generation is a separate tool category.
 
-### Q13 — Answer: B
+### ✔️ Q13 — Answer: B
 
 - **B is correct.** Flaky tests pass/fail inconsistently without code changes, causing confusion and eroding trust in the test suite.
 - A is wrong: Consistently passing tests are reliable, not flaky.
 - C is wrong: Newness does not define flakiness.
 - D is wrong: Non-functional test coverage is unrelated.
 
-### Q14 — Answer: C
+### ✔️ Q14 — Answer: C
 
 - **C is correct.** Tests that run frequently (every sprint regression) benefit most from automation due to high repetition and ROI.
 - A is wrong: One-time tests have poor automation ROI.
 - B is wrong: Subjective judgment tests are poorly suited to automation.
 - D is wrong: Frequently changing tests have high maintenance cost.
 
-### Q15 — Answer: B
+### ✔️ Q15 — Answer: B
 
 - **B is correct.** Automation handles repetitive execution, but testers are essential for design, exploratory testing, analysis, and maintaining the framework.
 - A is wrong: Testers are always needed.

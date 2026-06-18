@@ -1,14 +1,49 @@
-# Chapter 6 — Test Tools: Lessons
+<!-- ISTQB-BEAUTIFY-V1 -->
+<style>
+html, body {
+  background-color: #000000 !important;
+  color: #F5F5F5 !important;
+}
+body {
+  font-size: 19px !important;
+  line-height: 1.85 !important;
+  font-family: 'Segoe UI', 'Trebuchet MS', Verdana, sans-serif !important;
+  padding: 24px 44px !important;
+  letter-spacing: 0.2px;
+}
+h1 { color: #FFD700 !important; font-size: 2.7em !important; font-weight: 800 !important; border-bottom: 3px solid #FF5252 !important; padding-bottom: 0.25em; }
+h2 { color: #00E5FF !important; font-size: 2.05em !important; font-weight: 800 !important; border-bottom: 2px solid #00E5FF !important; padding-bottom: 0.2em; }
+h3 { color: #69F0AE !important; font-size: 1.6em !important; font-weight: 700 !important; }
+h4 { color: #FF80AB !important; font-size: 1.35em !important; font-weight: 700 !important; }
+h5 { color: #FFAB40 !important; font-size: 1.2em !important; font-weight: 700 !important; }
+h6 { color: #B388FF !important; font-size: 1.1em !important; font-weight: 700 !important; }
+p, li, td, th, span, div { font-size: 1em !important; color: #F5F5F5 !important; }
+strong, b { color: #FFEB3B !important; }
+em, i { color: #FF8A65 !important; }
+a { color: #40C4FF !important; text-decoration: underline; }
+a:hover { color: #80D8FF !important; }
+code { color: #FF4081 !important; background: transparent !important; font-size: 0.95em !important; }
+pre { background: transparent !important; border: 1px solid #555 !important; border-radius: 8px; padding: 14px !important; }
+pre code { color: #80CBC4 !important; }
+blockquote { color: #B0BEC5 !important; border-left: 5px solid #FFD700 !important; background: transparent !important; padding-left: 18px; font-style: italic; }
+table { border-collapse: collapse !important; background: transparent !important; }
+th { color: #FFD700 !important; border: 2px solid #00E5FF !important; background: transparent !important; padding: 8px 12px !important; }
+td { color: #F5F5F5 !important; border: 1px solid #607D8B !important; background: transparent !important; padding: 8px 12px !important; }
+hr { border: none; border-top: 2px dashed #FF5252 !important; margin: 1.5em 0; }
+ul li::marker { color: #69F0AE !important; font-size: 1.1em; }
+ol li::marker { color: #00E5FF !important; font-weight: bold; }
+</style>
+# 📘 Chapter 6 — Test Tools: Lessons
 
 ---
 
-## 6.1 Tool Support for Testing (FL-6.1.1, K1)
+## 🛠️ 6.1 Tool Support for Testing (FL-6.1.1, K1)
 
-### Categories of Test Tools
+### 🛠️ Categories of Test Tools
 
 Test tools support various activities throughout the test process. The CTFL v4.0 syllabus groups them into categories based on the activity they support:
 
-#### Test Management Tools
+#### 🛠️ Test Management Tools
 
 **Purpose:** Plan, organize, track, and report on testing activities.
 
@@ -21,7 +56,7 @@ Test tools support various activities throughout the test process. The CTFL v4.0
 
 **Examples of capabilities:** Test case repository, execution logging, coverage tracking, dashboard reporting.
 
-#### Static Testing Tools
+#### 🔍 Static Testing Tools
 
 **Purpose:** Support static analysis and reviews without executing code.
 
@@ -34,7 +69,7 @@ Test tools support various activities throughout the test process. The CTFL v4.0
 
 **Examples of capabilities:** Lint analysis, cyclomatic complexity measurement, dead code detection, data flow analysis.
 
-#### Test Design and Implementation Tools
+#### 🎨 Test Design and Implementation Tools
 
 **Purpose:** Support the creation of test cases, test data, and test procedures.
 
@@ -44,7 +79,7 @@ Test tools support various activities throughout the test process. The CTFL v4.0
 - Combinatorial test design (pairwise, orthogonal arrays)
 - Requirement coverage analysis (which requirements lack tests)
 
-#### Test Execution and Coverage Tools
+#### 📊 Test Execution and Coverage Tools
 
 **Purpose:** Run tests and measure execution coverage.
 
@@ -54,7 +89,7 @@ Test tools support various activities throughout the test process. The CTFL v4.0
 - Test harnesses and drivers for component testing
 - Continuous integration tools that trigger test runs on code commits
 
-#### Non-Functional Testing Tools
+#### 🛠️ Non-Functional Testing Tools
 
 **Purpose:** Test quality characteristics beyond functional correctness.
 
@@ -64,7 +99,7 @@ Test tools support various activities throughout the test process. The CTFL v4.0
 - Accessibility testing (WCAG compliance checking)
 - Usability testing (session recording, heatmaps)
 
-#### DevOps and CI/CD Pipeline Tools
+#### 🛠️ DevOps and CI/CD Pipeline Tools
 
 **Purpose:** Integrate testing into the automated delivery pipeline.
 
@@ -74,7 +109,7 @@ Test tools support various activities throughout the test process. The CTFL v4.0
 - Infrastructure provisioning (test environments on demand)
 - Container orchestration for test environments
 
-#### Collaboration Tools
+#### 🛠️ Collaboration Tools
 
 **Purpose:** Support communication and collaboration in testing.
 
@@ -84,7 +119,7 @@ Test tools support various activities throughout the test process. The CTFL v4.0
 - Requirements management and traceability
 - Team communication channels (integrated with test results)
 
-### Tool Applicability Across Test Activities
+### 🛠️ Tool Applicability Across Test Activities
 
 | Test Activity | Tool Category |
 |---------------|---------------|
@@ -98,9 +133,9 @@ Test tools support various activities throughout the test process. The CTFL v4.0
 
 ---
 
-## 6.2 Benefits and Risks of Test Automation (FL-6.2.1, K2)
+## ⚠️ 6.2 Benefits and Risks of Test Automation (FL-6.2.1, K2)
 
-### Benefits of Test Automation
+### 🔷 Benefits of Test Automation
 
 **Efficiency benefits:**
 - **Reduced manual effort:** Repetitive tests run unattended, freeing testers for more valuable activities (exploratory testing, test design)
@@ -119,7 +154,7 @@ Test tools support various activities throughout the test process. The CTFL v4.0
 - **Complex data combinations:** Can test more input combinations than a manual tester could
 - **Multi-environment testing:** Can run the same suite across multiple browsers, OS versions, or configurations simultaneously
 
-### Risks and Limitations of Test Automation
+### ⚠️ Risks and Limitations of Test Automation
 
 **Initial costs:**
 - **High upfront investment:** Building an automation framework, writing scripts, and maintaining infrastructure requires significant effort
@@ -141,7 +176,7 @@ Test tools support various activities throughout the test process. The CTFL v4.0
 - **Not all tests are worth automating:** Tests that run rarely, change frequently, or require complex setup may be cheaper to run manually
 - **Automation does not find defects on its own:** A human must analyze failures, investigate root causes, and design new tests
 
-### When to Automate (Decision Factors)
+### 🗂️ When to Automate (Decision Factors)
 
 | Factor | Automate | Keep Manual |
 |--------|----------|-------------|
@@ -156,7 +191,7 @@ Test tools support various activities throughout the test process. The CTFL v4.0
 
 ---
 
-## Cross-References
+## ⭐ Cross-References
 
 - CI/CD and DevOps tools connect to Chapter 2.1.4 (DevOps and testing)
 - Coverage tools connect to Chapter 4.3 (white-box testing and coverage measurement)

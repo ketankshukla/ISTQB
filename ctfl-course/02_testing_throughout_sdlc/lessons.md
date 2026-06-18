@@ -1,10 +1,45 @@
-# Chapter 2 — Testing Throughout the SDLC: Lessons
+<!-- ISTQB-BEAUTIFY-V1 -->
+<style>
+html, body {
+  background-color: #000000 !important;
+  color: #F5F5F5 !important;
+}
+body {
+  font-size: 19px !important;
+  line-height: 1.85 !important;
+  font-family: 'Segoe UI', 'Trebuchet MS', Verdana, sans-serif !important;
+  padding: 24px 44px !important;
+  letter-spacing: 0.2px;
+}
+h1 { color: #FFD700 !important; font-size: 2.7em !important; font-weight: 800 !important; border-bottom: 3px solid #FF5252 !important; padding-bottom: 0.25em; }
+h2 { color: #00E5FF !important; font-size: 2.05em !important; font-weight: 800 !important; border-bottom: 2px solid #00E5FF !important; padding-bottom: 0.2em; }
+h3 { color: #69F0AE !important; font-size: 1.6em !important; font-weight: 700 !important; }
+h4 { color: #FF80AB !important; font-size: 1.35em !important; font-weight: 700 !important; }
+h5 { color: #FFAB40 !important; font-size: 1.2em !important; font-weight: 700 !important; }
+h6 { color: #B388FF !important; font-size: 1.1em !important; font-weight: 700 !important; }
+p, li, td, th, span, div { font-size: 1em !important; color: #F5F5F5 !important; }
+strong, b { color: #FFEB3B !important; }
+em, i { color: #FF8A65 !important; }
+a { color: #40C4FF !important; text-decoration: underline; }
+a:hover { color: #80D8FF !important; }
+code { color: #FF4081 !important; background: transparent !important; font-size: 0.95em !important; }
+pre { background: transparent !important; border: 1px solid #555 !important; border-radius: 8px; padding: 14px !important; }
+pre code { color: #80CBC4 !important; }
+blockquote { color: #B0BEC5 !important; border-left: 5px solid #FFD700 !important; background: transparent !important; padding-left: 18px; font-style: italic; }
+table { border-collapse: collapse !important; background: transparent !important; }
+th { color: #FFD700 !important; border: 2px solid #00E5FF !important; background: transparent !important; padding: 8px 12px !important; }
+td { color: #F5F5F5 !important; border: 1px solid #607D8B !important; background: transparent !important; padding: 8px 12px !important; }
+hr { border: none; border-top: 2px dashed #FF5252 !important; margin: 1.5em 0; }
+ul li::marker { color: #69F0AE !important; font-size: 1.1em; }
+ol li::marker { color: #00E5FF !important; font-weight: bold; }
+</style>
+# 📘 Chapter 2 — Testing Throughout the SDLC: Lessons
 
 ---
 
-## 2.1 Testing in the Context of a Software Development Lifecycle
+## 🔁 2.1 Testing in the Context of a Software Development Lifecycle
 
-### Impact of the SDLC on Testing (FL-2.1.1, K2)
+### 🔁 Impact of the SDLC on Testing (FL-2.1.1, K2)
 
 The chosen software development lifecycle (SDLC) model has a profound effect on how testing is organized, when it occurs, and how it is managed. Key impacts include:
 
@@ -14,7 +49,7 @@ The chosen software development lifecycle (SDLC) model has a profound effect on 
 - **Use of independent testers:** Large sequential projects often use separate test teams. Agile teams typically embed testers within cross-functional teams.
 - **Documentation level:** Sequential models produce extensive test documentation. Agile models favor lightweight documentation and working testware.
 
-### SDLC Models
+### 🔁 SDLC Models
 
 **Sequential models** (Waterfall, V-model):
 - Phases are completed one at a time in a fixed sequence
@@ -28,7 +63,7 @@ The chosen software development lifecycle (SDLC) model has a profound effect on 
 - Regression testing becomes increasingly important as the system grows with each iteration
 - Good for: evolving requirements, fast feedback, rapid delivery
 
-### Good Testing Practices for All SDLC Models (FL-2.1.2, K1)
+### ❓ Good Testing Practices for All SDLC Models (FL-2.1.2, K1)
 
 Regardless of which SDLC model is used, certain testing practices should always apply:
 
@@ -38,7 +73,7 @@ Regardless of which SDLC model is used, certain testing practices should always 
 - Testers should be involved in reviewing work products as soon as drafts are available (shift-left)
 - The earlier testers are involved, the better — early feedback improves the quality of the test basis
 
-### Test-First Approaches (FL-2.1.3, K1)
+### 🔷 Test-First Approaches (FL-2.1.3, K1)
 
 Test-first approaches write tests before writing the code that must satisfy those tests:
 
@@ -63,7 +98,7 @@ Test-first approaches write tests before writing the code that must satisfy thos
 - Tools (like Cucumber, SpecFlow) automate these specifications into executable tests
 - BDD scenarios serve as living documentation
 
-### DevOps and Testing (FL-2.1.4, K2)
+### 🔷 DevOps and Testing (FL-2.1.4, K2)
 
 DevOps is a cultural and organizational approach that unifies development and operations to achieve continuous delivery and rapid feedback. Its impact on testing:
 
@@ -85,7 +120,7 @@ Risks of DevOps for testing:
 - Pipeline complexity can make it hard to diagnose failures
 - Requires significant investment in test automation infrastructure
 
-### The Shift-Left Approach (FL-2.1.5, K2)
+### 🔷 The Shift-Left Approach (FL-2.1.5, K2)
 
 Shift-left means moving testing activities earlier in the SDLC. Examples:
 
@@ -101,7 +136,7 @@ Shift-left means moving testing activities earlier in the SDLC. Examples:
 - Reduces the "big bang" of finding many defects late in system or acceptance testing
 - Aligns with Principle 3 (early testing saves time and money)
 
-### Retrospectives and Process Improvement (FL-2.1.6, K2)
+### 🔷 Retrospectives and Process Improvement (FL-2.1.6, K2)
 
 A retrospective is a meeting held at the end of an iteration, release, or project phase where the team reflects on what went well, what did not go well, and what can be improved.
 
@@ -119,13 +154,13 @@ A retrospective is a meeting held at the end of an iteration, release, or projec
 
 ---
 
-## 2.2 Test Levels and Test Types
+## 🪜 2.2 Test Levels and Test Types
 
-### Test Levels (FL-2.2.1, K2)
+### 🪜 Test Levels (FL-2.2.1, K2)
 
 A test level is a group of test activities organized and managed together, corresponding to a stage of development. Each level has its own objectives, test basis, test objects, typical defects, and responsible parties.
 
-#### Component Testing (Unit Testing)
+#### 🔸 Component Testing (Unit Testing)
 
 | Aspect | Description |
 |--------|-------------|
@@ -137,7 +172,7 @@ A test level is a group of test activities organized and managed together, corre
 | Environment | Development environment, often using test frameworks (JUnit, pytest, etc.) |
 | Isolation | Stubs and mocks replace dependencies |
 
-#### Component Integration Testing
+#### 🔸 Component Integration Testing
 
 | Aspect | Description |
 |--------|-------------|
@@ -148,7 +183,7 @@ A test level is a group of test activities organized and managed together, corre
 | Who | Developers |
 | Environment | Development/integration environment |
 
-#### System Testing
+#### 🔸 System Testing
 
 | Aspect | Description |
 |--------|-------------|
@@ -159,7 +194,7 @@ A test level is a group of test activities organized and managed together, corre
 | Who | Independent testers or dedicated test team |
 | Environment | Test environment resembling production as closely as possible |
 
-#### System Integration Testing
+#### 🔸 System Integration Testing
 
 | Aspect | Description |
 |--------|-------------|
@@ -170,7 +205,7 @@ A test level is a group of test activities organized and managed together, corre
 | Who | Testers, system integrators |
 | Environment | Integration environment with access to external systems or simulators |
 
-#### Acceptance Testing
+#### 🔸 Acceptance Testing
 
 | Aspect | Description |
 |--------|-------------|
@@ -181,7 +216,7 @@ A test level is a group of test activities organized and managed together, corre
 | Who | Users, customers, business representatives |
 | Forms | User acceptance testing (UAT), operational acceptance testing (OAT), contractual acceptance testing, regulatory acceptance testing, alpha testing, beta testing |
 
-### Test Types (FL-2.2.2, K2)
+### 🧪 Test Types (FL-2.2.2, K2)
 
 Test types categorize tests by WHAT quality characteristic they evaluate. Test types can be applied at any test level.
 
@@ -209,7 +244,7 @@ Test types categorize tests by WHAT quality characteristic they evaluate. Test t
 - Measures code coverage (statement, branch, path)
 - Can also be applied at system level (testing architecture, system data flows)
 
-### Confirmation Testing vs Regression Testing (FL-2.2.3, K2)
+### 🔷 Confirmation Testing vs Regression Testing (FL-2.2.3, K2)
 
 These two are related to changes but serve different purposes:
 
@@ -225,13 +260,13 @@ These two are related to changes but serve different purposes:
 
 ---
 
-## 2.3 Maintenance Testing
+## ⭐ 2.3 Maintenance Testing
 
-### What is Maintenance Testing? (FL-2.3.1, K2)
+### 🔷 What is Maintenance Testing? (FL-2.3.1, K2)
 
 Maintenance testing is testing performed on an existing, operational system after it has been modified or when its environment changes. It is not a test level — it is testing triggered by maintenance activities.
 
-### Triggers for Maintenance Testing
+### 🔷 Triggers for Maintenance Testing
 
 Maintenance testing is needed when:
 
@@ -240,14 +275,14 @@ Maintenance testing is needed when:
 - **Retirement** — when a system is being decommissioned, testing may verify that data migration or archival is correct and that dependent systems are unaffected
 - **Hot fixes** — urgent production patches that need rapid testing under time pressure
 
-### The Scope of Maintenance Testing
+### 🔷 The Scope of Maintenance Testing
 
 The scope depends on:
 - The size and risk of the change
 - The size and complexity of the existing system
 - The quality of existing testware (can existing tests be reused?)
 
-### Impact Analysis
+### 🔬 Impact Analysis
 
 Before performing maintenance testing, an **impact analysis** is conducted to determine:
 
@@ -265,7 +300,7 @@ Impact analysis helps ensure that maintenance testing is efficient — focusing 
 
 ---
 
-## Cross-References
+## ⭐ Cross-References
 
 - Test levels connect to Chapter 4 (specific techniques used at each level) and Chapter 5 (test planning per level)
 - DevOps and CI/CD connect to Chapter 6 (test tools and automation)

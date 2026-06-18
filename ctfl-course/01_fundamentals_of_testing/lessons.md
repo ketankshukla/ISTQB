@@ -1,10 +1,45 @@
-# Chapter 1 — Fundamentals of Testing: Lessons
+<!-- ISTQB-BEAUTIFY-V1 -->
+<style>
+html, body {
+  background-color: #000000 !important;
+  color: #F5F5F5 !important;
+}
+body {
+  font-size: 19px !important;
+  line-height: 1.85 !important;
+  font-family: 'Segoe UI', 'Trebuchet MS', Verdana, sans-serif !important;
+  padding: 24px 44px !important;
+  letter-spacing: 0.2px;
+}
+h1 { color: #FFD700 !important; font-size: 2.7em !important; font-weight: 800 !important; border-bottom: 3px solid #FF5252 !important; padding-bottom: 0.25em; }
+h2 { color: #00E5FF !important; font-size: 2.05em !important; font-weight: 800 !important; border-bottom: 2px solid #00E5FF !important; padding-bottom: 0.2em; }
+h3 { color: #69F0AE !important; font-size: 1.6em !important; font-weight: 700 !important; }
+h4 { color: #FF80AB !important; font-size: 1.35em !important; font-weight: 700 !important; }
+h5 { color: #FFAB40 !important; font-size: 1.2em !important; font-weight: 700 !important; }
+h6 { color: #B388FF !important; font-size: 1.1em !important; font-weight: 700 !important; }
+p, li, td, th, span, div { font-size: 1em !important; color: #F5F5F5 !important; }
+strong, b { color: #FFEB3B !important; }
+em, i { color: #FF8A65 !important; }
+a { color: #40C4FF !important; text-decoration: underline; }
+a:hover { color: #80D8FF !important; }
+code { color: #FF4081 !important; background: transparent !important; font-size: 0.95em !important; }
+pre { background: transparent !important; border: 1px solid #555 !important; border-radius: 8px; padding: 14px !important; }
+pre code { color: #80CBC4 !important; }
+blockquote { color: #B0BEC5 !important; border-left: 5px solid #FFD700 !important; background: transparent !important; padding-left: 18px; font-style: italic; }
+table { border-collapse: collapse !important; background: transparent !important; }
+th { color: #FFD700 !important; border: 2px solid #00E5FF !important; background: transparent !important; padding: 8px 12px !important; }
+td { color: #F5F5F5 !important; border: 1px solid #607D8B !important; background: transparent !important; padding: 8px 12px !important; }
+hr { border: none; border-top: 2px dashed #FF5252 !important; margin: 1.5em 0; }
+ul li::marker { color: #69F0AE !important; font-size: 1.1em; }
+ol li::marker { color: #00E5FF !important; font-weight: bold; }
+</style>
+# 📘 Chapter 1 — Fundamentals of Testing: Lessons
 
 ---
 
-## 1.1 What is Testing?
+## ⭐ 1.1 What is Testing?
 
-### Test Objectives (FL-1.1.1, K1)
+### 🎯 Test Objectives (FL-1.1.1, K1)
 
 Testing is not simply "finding bugs." It serves multiple purposes that vary depending on the context, the test level, and the software development lifecycle model in use. The typical objectives of testing include:
 
@@ -19,7 +54,7 @@ Testing is not simply "finding bugs." It serves multiple purposes that vary depe
 
 The relative importance of these objectives shifts depending on context. For example, in component testing the primary goal may be to find as many defects as possible. In acceptance testing the primary goal may be to confirm the system works as intended and build confidence for release.
 
-### Testing vs Debugging (FL-1.1.2, K2)
+### 🐞 Testing vs Debugging (FL-1.1.2, K2)
 
 Testing and debugging are distinct activities performed by different roles:
 
@@ -36,9 +71,9 @@ Testing can trigger failures but does not fix them. Debugging fixes defects but 
 
 ---
 
-## 1.2 Why is Testing Necessary?
+## ⭐ 1.2 Why is Testing Necessary?
 
-### Testing's Contribution to Success (FL-1.2.1, K2)
+### 🔷 Testing's Contribution to Success (FL-1.2.1, K2)
 
 Testing contributes to the success of software projects in several ways:
 
@@ -48,7 +83,7 @@ Testing contributes to the success of software projects in several ways:
 - **Verification and validation** of the system at each test level increases the likelihood that the delivered product meets its requirements and stakeholder needs.
 - **Regulatory and contractual compliance** may legally require testing, and failing to comply can result in lawsuits, fines, or loss of certification.
 
-### Testing and Quality Assurance (FL-1.2.2, K1)
+### 💎 Testing and Quality Assurance (FL-1.2.2, K1)
 
 Testing and quality assurance (QA) are related but not synonymous:
 
@@ -61,7 +96,7 @@ Testing and quality assurance (QA) are related but not synonymous:
 
 **Quality control (QC)** is the product-focused checking activity. Testing is a form of QC. QA encompasses QC but also includes process improvement, standards adherence, and audit activities.
 
-### Errors, Defects, Failures, and Root Causes (FL-1.2.3, K2)
+### 🐞 Errors, Defects, Failures, and Root Causes (FL-1.2.3, K2)
 
 This causal chain is fundamental to ISTQB terminology:
 
@@ -87,39 +122,39 @@ Error (human mistake)
 
 ---
 
-## 1.3 Testing Principles (FL-1.3.1, K2)
+## 📜 1.3 Testing Principles (FL-1.3.1, K2)
 
 The ISTQB identifies seven fundamental principles that guide all testing activities. You must be able to explain each one:
 
-### Principle 1: Testing shows the presence, not the absence, of defects
+### 📜 Principle 1: Testing shows the presence, not the absence, of defects
 
 Testing can demonstrate that defects exist but cannot prove that there are zero defects remaining. Even after extensive testing, the software may still contain unfound defects. Testing reduces the probability of undiscovered defects but never eliminates it entirely.
 
-### Principle 2: Exhaustive testing is impossible
+### 📜 Principle 2: Exhaustive testing is impossible
 
 Testing every possible combination of inputs, preconditions, and paths is infeasible for all but the most trivial systems. A simple form with 5 fields, each accepting 100 values, has 10 billion combinations. Instead of attempting exhaustive testing, testers use risk analysis, prioritization, and test techniques to focus effort where it matters most.
 
-### Principle 3: Early testing saves time and money
+### 📜 Principle 3: Early testing saves time and money
 
 Defects found earlier in the lifecycle are cheaper and easier to fix. A requirement defect caught during review costs a fraction of what the same defect costs if found in system testing or production. This principle underpins the shift-left approach. Testing activities (including static testing and reviews) should begin as early as possible.
 
-### Principle 4: Defects cluster together
+### 📜 Principle 4: Defects cluster together
 
 A small number of modules or components typically contain the majority of defects discovered during pre-release testing or are responsible for the majority of operational failures. This is sometimes called the Pareto principle applied to defects. Testers can use this knowledge to focus testing effort on high-risk areas and modules with historically high defect rates.
 
-### Principle 5: Tests wear out (the pesticide paradox)
+### 📜 Principle 5: Tests wear out (the pesticide paradox)
 
 If the same tests are repeated over and over, they eventually stop finding new defects — like pesticides that become ineffective as insects develop resistance. To counter this, tests must be regularly reviewed, revised, and supplemented with new tests. Exploratory testing and new test data help maintain effectiveness.
 
-### Principle 6: Testing is context dependent
+### 📜 Principle 6: Testing is context dependent
 
 There is no single universal approach to testing. The way testing is done depends on the context: the type of system, regulatory requirements, the development lifecycle model, the risk profile, the organization, and the business domain. Testing a medical device is very different from testing a mobile game.
 
-### Principle 7: Absence-of-defects fallacy
+### 📜 Principle 7: Absence-of-defects fallacy
 
 Finding and fixing defects does not help if the system does not meet user needs. A system can be thoroughly tested, have zero known defects, and still be useless if it was built to the wrong requirements or if it fails to address what users actually want. Verification (built right) without validation (built the right thing) is insufficient.
 
-### Mnemonic: "Every Exam Expects Diligent People To Agree"
+### 🎓 Mnemonic: "Every Exam Expects Diligent People To Agree"
 
 | Letter | Principle |
 |--------|-----------|
@@ -133,9 +168,9 @@ Finding and fixing defects does not help if the system does not meet user needs.
 
 ---
 
-## 1.4 Test Activities, Testware, and Test Roles
+## ⭐ 1.4 Test Activities, Testware, and Test Roles
 
-### The Test Process in Context (FL-1.4.2, K2)
+### 🔷 The Test Process in Context (FL-1.4.2, K2)
 
 There is no single universal test process. The test process for a given project is influenced by:
 
@@ -149,7 +184,7 @@ There is no single universal test process. The test process for a given project 
 
 Despite this variability, there is a common set of test activities that applies regardless of context.
 
-### Test Activities and Tasks (FL-1.4.1, K2)
+### 🔷 Test Activities and Tasks (FL-1.4.1, K2)
 
 The test process consists of the following main activity groups. They may be performed sequentially, iteratively, in parallel, or in any combination depending on the lifecycle model:
 
@@ -197,7 +232,7 @@ The test process consists of the following main activity groups. They may be per
 - Analyze lessons learned and improve the process (retrospectives)
 - Identify which testware to keep, update, or discard
 
-### Testware (FL-1.4.3, K2)
+### 🔷 Testware (FL-1.4.3, K2)
 
 Testware consists of all the work products created during the test process. Different test activities produce different testware:
 
@@ -210,7 +245,7 @@ Testware consists of all the work products created during the test process. Diff
 | Execution | Test logs, defect reports, test results |
 | Completion | Test summary report, action items, lessons learned, archived testware |
 
-### Traceability (FL-1.4.4, K2)
+### 🔗 Traceability (FL-1.4.4, K2)
 
 Maintaining traceability means establishing and documenting the links between:
 - Requirements/user stories (test basis)
@@ -226,7 +261,7 @@ Maintaining traceability means establishing and documenting the links between:
 - Provides evidence for audits and regulatory compliance
 - Improves the clarity of test reports by linking results back to business objectives
 
-### Roles in Testing (FL-1.4.5, K2)
+### 🔷 Roles in Testing (FL-1.4.5, K2)
 
 The CTFL v4.0 syllabus identifies two principal role categories:
 
@@ -246,9 +281,9 @@ In Agile, these roles may be combined or distributed across the whole team rathe
 
 ---
 
-## 1.5 Essential Skills and Good Practices
+## ❓ 1.5 Essential Skills and Good Practices
 
-### Generic Testing Skills (FL-1.5.1, K1)
+### 🔷 Generic Testing Skills (FL-1.5.1, K1)
 
 Effective testing requires a blend of technical and interpersonal skills:
 
@@ -263,7 +298,7 @@ Effective testing requires a blend of technical and interpersonal skills:
 
 Testers often deliver bad news (defects, risks, low quality). Communicating these findings constructively — focusing on the product rather than the person — is essential for maintaining positive working relationships.
 
-### The Whole-Team Approach (FL-1.5.2, K1)
+### 🔷 The Whole-Team Approach (FL-1.5.2, K1)
 
 The whole-team approach is a principle from Agile and Extreme Programming where:
 
@@ -281,7 +316,7 @@ Benefits:
 
 The whole-team approach does not eliminate the need for testing expertise — it distributes quality responsibility while still benefiting from specialist testing knowledge.
 
-### Independence of Testing (FL-1.5.3, K2)
+### 🔷 Independence of Testing (FL-1.5.3, K2)
 
 Independence refers to how separate the testing role is from the development role. The CTFL v4.0 syllabus identifies levels of independence (from low to high):
 
@@ -306,7 +341,7 @@ The optimal level of independence depends on context. Most organizations use a b
 
 ---
 
-## Cross-References
+## ⭐ Cross-References
 
 - The test process activities (1.4) connect directly to Chapter 5 (Managing the Test Activities), which covers planning, monitoring, and control in greater depth.
 - Testing principles (1.3) recur throughout the entire syllabus — for example, "defects cluster" relates to risk-based testing (Chapter 5), and "context dependent" relates to test levels and types (Chapter 2).

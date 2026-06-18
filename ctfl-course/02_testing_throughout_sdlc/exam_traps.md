@@ -1,8 +1,43 @@
-# Chapter 2 — Exam Traps
+<!-- ISTQB-BEAUTIFY-V1 -->
+<style>
+html, body {
+  background-color: #000000 !important;
+  color: #F5F5F5 !important;
+}
+body {
+  font-size: 19px !important;
+  line-height: 1.85 !important;
+  font-family: 'Segoe UI', 'Trebuchet MS', Verdana, sans-serif !important;
+  padding: 24px 44px !important;
+  letter-spacing: 0.2px;
+}
+h1 { color: #FFD700 !important; font-size: 2.7em !important; font-weight: 800 !important; border-bottom: 3px solid #FF5252 !important; padding-bottom: 0.25em; }
+h2 { color: #00E5FF !important; font-size: 2.05em !important; font-weight: 800 !important; border-bottom: 2px solid #00E5FF !important; padding-bottom: 0.2em; }
+h3 { color: #69F0AE !important; font-size: 1.6em !important; font-weight: 700 !important; }
+h4 { color: #FF80AB !important; font-size: 1.35em !important; font-weight: 700 !important; }
+h5 { color: #FFAB40 !important; font-size: 1.2em !important; font-weight: 700 !important; }
+h6 { color: #B388FF !important; font-size: 1.1em !important; font-weight: 700 !important; }
+p, li, td, th, span, div { font-size: 1em !important; color: #F5F5F5 !important; }
+strong, b { color: #FFEB3B !important; }
+em, i { color: #FF8A65 !important; }
+a { color: #40C4FF !important; text-decoration: underline; }
+a:hover { color: #80D8FF !important; }
+code { color: #FF4081 !important; background: transparent !important; font-size: 0.95em !important; }
+pre { background: transparent !important; border: 1px solid #555 !important; border-radius: 8px; padding: 14px !important; }
+pre code { color: #80CBC4 !important; }
+blockquote { color: #B0BEC5 !important; border-left: 5px solid #FFD700 !important; background: transparent !important; padding-left: 18px; font-style: italic; }
+table { border-collapse: collapse !important; background: transparent !important; }
+th { color: #FFD700 !important; border: 2px solid #00E5FF !important; background: transparent !important; padding: 8px 12px !important; }
+td { color: #F5F5F5 !important; border: 1px solid #607D8B !important; background: transparent !important; padding: 8px 12px !important; }
+hr { border: none; border-top: 2px dashed #FF5252 !important; margin: 1.5em 0; }
+ul li::marker { color: #69F0AE !important; font-size: 1.1em; }
+ol li::marker { color: #00E5FF !important; font-weight: bold; }
+</style>
+# 🪤 Chapter 2 — Exam Traps
 
 ---
 
-## Trap 1: Test Levels vs Test Types
+## 🪤 Trap 1: Test Levels vs Test Types
 
 This is one of the most commonly confused pairs in the entire syllabus:
 
@@ -18,7 +53,7 @@ Test types can be applied at ANY test level. For example:
 
 ---
 
-## Trap 2: Confirmation Testing vs Regression Testing
+## 🪤 Trap 2: Confirmation Testing vs Regression Testing
 
 | Confirmation Testing | Regression Testing |
 |---------------------|-------------------|
@@ -34,7 +69,7 @@ You need BOTH after every fix.
 
 ---
 
-## Trap 3: The V-Model Pairing
+## 🪤 Trap 3: The V-Model Pairing
 
 In the V-model, each development phase on the left maps to a test level on the right:
 
@@ -49,7 +84,7 @@ In the V-model, each development phase on the left maps to a test level on the r
 
 ---
 
-## Trap 4: Component Integration vs System Integration
+## 🪤 Trap 4: Component Integration vs System Integration
 
 - **Component integration testing** = testing interfaces BETWEEN COMPONENTS within the same system (internal)
 - **System integration testing** = testing interfaces BETWEEN SYSTEMS or with external services (external)
@@ -58,7 +93,7 @@ In the V-model, each development phase on the left maps to a test level on the r
 
 ---
 
-## Trap 5: Shift-Left Does Not Mean Skip Later Testing
+## 🪤 Trap 5: Shift-Left Does Not Mean Skip Later Testing
 
 Shift-left means starting testing activities EARLIER. It does NOT mean:
 - Skipping system testing or acceptance testing
@@ -73,7 +108,7 @@ It DOES mean:
 
 ---
 
-## Trap 6: TDD vs ATDD vs BDD
+## 🪤 Trap 6: TDD vs ATDD vs BDD
 
 | Approach | Level | Who | Format |
 |----------|-------|-----|--------|
@@ -87,7 +122,7 @@ It DOES mean:
 
 ---
 
-## Trap 7: DevOps — What Testing Gains and Loses
+## 🪤 Trap 7: DevOps — What Testing Gains and Loses
 
 **Gains:**
 - Fast feedback through CI/CD pipelines
@@ -103,7 +138,7 @@ It DOES mean:
 
 ---
 
-## Trap 8: Acceptance Testing Subtypes
+## 🪤 Trap 8: Acceptance Testing Subtypes
 
 The exam may ask you to distinguish:
 
@@ -118,7 +153,7 @@ The exam may ask you to distinguish:
 
 ---
 
-## Trap 9: Maintenance Testing Triggers
+## 🪤 Trap 9: Maintenance Testing Triggers
 
 The exam may list scenarios and ask if they trigger maintenance testing:
 
@@ -132,7 +167,7 @@ The exam may list scenarios and ask if they trigger maintenance testing:
 
 ---
 
-## Trap 10: Retrospectives Are Not Post-Mortems
+## 🪤 Trap 10: Retrospectives Are Not Post-Mortems
 
 - A **retrospective** happens at the end of each iteration (regularly, not just once)
 - A **post-mortem** is a one-time analysis after a project ends or a major incident occurs
@@ -141,7 +176,7 @@ The exam focuses on retrospectives as a mechanism for CONTINUOUS process improve
 
 ---
 
-## Trap 11: "For Every Development Activity, There Is a Corresponding Test Activity"
+## 🪤 Trap 11: "For Every Development Activity, There Is a Corresponding Test Activity"
 
 This is a good practice that applies to ALL SDLC models (not just the V-model). In Agile:
 - Story refinement -> test analysis

@@ -1,33 +1,68 @@
-# Case Study 3: Online Loan Application
+<!-- ISTQB-BEAUTIFY-V1 -->
+<style>
+html, body {
+  background-color: #000000 !important;
+  color: #F5F5F5 !important;
+}
+body {
+  font-size: 19px !important;
+  line-height: 1.85 !important;
+  font-family: 'Segoe UI', 'Trebuchet MS', Verdana, sans-serif !important;
+  padding: 24px 44px !important;
+  letter-spacing: 0.2px;
+}
+h1 { color: #FFD700 !important; font-size: 2.7em !important; font-weight: 800 !important; border-bottom: 3px solid #FF5252 !important; padding-bottom: 0.25em; }
+h2 { color: #00E5FF !important; font-size: 2.05em !important; font-weight: 800 !important; border-bottom: 2px solid #00E5FF !important; padding-bottom: 0.2em; }
+h3 { color: #69F0AE !important; font-size: 1.6em !important; font-weight: 700 !important; }
+h4 { color: #FF80AB !important; font-size: 1.35em !important; font-weight: 700 !important; }
+h5 { color: #FFAB40 !important; font-size: 1.2em !important; font-weight: 700 !important; }
+h6 { color: #B388FF !important; font-size: 1.1em !important; font-weight: 700 !important; }
+p, li, td, th, span, div { font-size: 1em !important; color: #F5F5F5 !important; }
+strong, b { color: #FFEB3B !important; }
+em, i { color: #FF8A65 !important; }
+a { color: #40C4FF !important; text-decoration: underline; }
+a:hover { color: #80D8FF !important; }
+code { color: #FF4081 !important; background: transparent !important; font-size: 0.95em !important; }
+pre { background: transparent !important; border: 1px solid #555 !important; border-radius: 8px; padding: 14px !important; }
+pre code { color: #80CBC4 !important; }
+blockquote { color: #B0BEC5 !important; border-left: 5px solid #FFD700 !important; background: transparent !important; padding-left: 18px; font-style: italic; }
+table { border-collapse: collapse !important; background: transparent !important; }
+th { color: #FFD700 !important; border: 2px solid #00E5FF !important; background: transparent !important; padding: 8px 12px !important; }
+td { color: #F5F5F5 !important; border: 1px solid #607D8B !important; background: transparent !important; padding: 8px 12px !important; }
+hr { border: none; border-top: 2px dashed #FF5252 !important; margin: 1.5em 0; }
+ul li::marker { color: #69F0AE !important; font-size: 1.1em; }
+ol li::marker { color: #00E5FF !important; font-weight: bold; }
+</style>
+# 📂 Case Study 3: Online Loan Application
 
-## System Description
+## ⭐ System Description
 
 A financial services company offers personal loans through an online application form. The system collects applicant information, performs eligibility checks, calculates an interest rate, and produces a loan offer or rejection.
 
 ---
 
-## Requirements Specification
+## 📑 Requirements Specification
 
-### REQ-LOAN-001: Applicant Age
+### 🔷 REQ-LOAN-001: Applicant Age
 - Minimum age: 21 years
 - Maximum age: 65 years
 - Age is calculated from date of birth to current date
 
-### REQ-LOAN-002: Loan Amount
+### 🔷 REQ-LOAN-002: Loan Amount
 - Minimum loan: $5,000
 - Maximum loan: $50,000
 - Must be in increments of $1,000
 
-### REQ-LOAN-003: Loan Term
+### 🔷 REQ-LOAN-003: Loan Term
 - Minimum term: 12 months
 - Maximum term: 60 months
 - Must be in increments of 6 months (12, 18, 24, 30, 36, 42, 48, 54, 60)
 
-### REQ-LOAN-004: Employment Status
+### 🔷 REQ-LOAN-004: Employment Status
 - Applicant must be employed (full-time, part-time, or self-employed)
 - Unemployed applicants are immediately rejected
 
-### REQ-LOAN-005: Interest Rate Calculation
+### 🔷 REQ-LOAN-005: Interest Rate Calculation
 The interest rate depends on the combination of loan amount and credit score:
 
 | Credit Score | Loan $5K-$20K | Loan $20K+ |
@@ -37,17 +72,17 @@ The interest rate depends on the combination of loan amount and credit score:
 | Fair (550-649) | 12.9% | 14.9% |
 | Poor (below 550) | Rejected | Rejected |
 
-### REQ-LOAN-006: Monthly Payment Display
+### 🔷 REQ-LOAN-006: Monthly Payment Display
 The system shall display the calculated monthly payment using standard amortization formula before the applicant confirms.
 
-### REQ-LOAN-007: Application Submission
+### 🔷 REQ-LOAN-007: Application Submission
 - All required fields must be completed before submission
 - Upon successful submission, display application reference number
 - Send confirmation email with offer details
 
 ---
 
-## User Stories
+## ⭐ User Stories
 
 **US-1: Apply for Loan**
 ```
@@ -64,9 +99,9 @@ Acceptance Criteria:
 
 ---
 
-## Applying Test Techniques
+## 🎯 Applying Test Techniques
 
-### 1. Equivalence Partitioning on Age (REQ-LOAN-001)
+### ➗ 1. Equivalence Partitioning on Age (REQ-LOAN-001)
 
 | Partition | Range | Expected | Valid/Invalid |
 |-----------|-------|----------|---------------|
@@ -75,7 +110,7 @@ Acceptance Criteria:
 | P3 | Age > 65 | Rejected: too old | Invalid |
 | P4 | Invalid DOB (future date, impossible date) | Validation error | Invalid |
 
-### 2. Equivalence Partitioning on Loan Amount (REQ-LOAN-002)
+### ➗ 2. Equivalence Partitioning on Loan Amount (REQ-LOAN-002)
 
 | Partition | Range | Expected | Valid/Invalid |
 |-----------|-------|----------|---------------|
@@ -84,7 +119,7 @@ Acceptance Criteria:
 | P3 | Amount > $50,000 | Error: above maximum | Invalid |
 | P4 | Not multiple of $1,000 (e.g., $7,500) | Error: invalid increment | Invalid |
 
-### 3. BVA on Loan Amount
+### 🔷 3. BVA on Loan Amount
 
 | Value | Expected | Boundary Position |
 |-------|----------|-------------------|
@@ -93,7 +128,7 @@ Acceptance Criteria:
 | $50,000 | Valid maximum | Upper boundary |
 | $51,000 | Invalid (above max) | Above upper |
 
-### 4. BVA on Credit Score Thresholds (for interest rate)
+### 🔷 4. BVA on Credit Score Thresholds (for interest rate)
 
 | Value | Expected Rate Category | Boundary |
 |-------|------------------------|----------|
@@ -104,7 +139,7 @@ Acceptance Criteria:
 | 749 | Good | Just below 750 |
 | 750 | Excellent (5.9% / 6.9%) | At 750 boundary |
 
-### 5. Decision Table for Interest Rate (REQ-LOAN-005)
+### 🗂️ 5. Decision Table for Interest Rate (REQ-LOAN-005)
 
 **Conditions:**
 - C1: Credit score category (Excellent / Good / Fair / Poor)
@@ -132,7 +167,7 @@ Acceptance Criteria:
 | TC6 | 600 | $35,000 | 14.9% |
 | TC7 | 500 | $10,000 | Rejected |
 
-### 6. State Transition for Application Process
+### 🔄 6. State Transition for Application Process
 
 **States:**
 - S1: Form Entry (applicant filling in details)
@@ -161,7 +196,7 @@ Acceptance Criteria:
 
 ---
 
-## Risk-Based Test Approach
+## ⚠️ Risk-Based Test Approach
 
 | ID | Risk | Likelihood | Impact | Level |
 |----|------|------------|--------|-------|
@@ -182,7 +217,7 @@ Acceptance Criteria:
 
 ---
 
-## Statement/Branch Coverage Example
+## 💡 Statement/Branch Coverage Example
 
 **Interest rate lookup code:**
 
@@ -236,7 +271,7 @@ Acceptance Criteria:
 
 ---
 
-## Sample Defect Report
+## 🐞 Sample Defect Report
 
 ```
 ID:             BUG-LOAN-118
@@ -258,7 +293,7 @@ Related Req: REQ-LOAN-001
 
 ---
 
-## Reflection Questions
+## ❓ Reflection Questions
 
 1. The interest rate boundary at $20,000 loan amount — should a $20,000 loan get the lower-tier rate or the higher-tier rate? How would you test this ambiguity?
 
@@ -270,7 +305,7 @@ Related Req: REQ-LOAN-001
 
 ---
 
-## Worked Solutions
+## ⭐ Worked Solutions
 
 **1.** REQ-LOAN-005 shows the boundary as "$5K-$20K" vs "$20K+". This is ambiguous: does $20,000 exactly fall in the first category or the second? A good tester would: (a) file a defect against the requirement for ambiguity, (b) test $20,000 specifically and observe which rate is applied, (c) test $19,999 and $20,001 as BVA boundaries. This is a classic case where BVA reveals a requirements ambiguity that EP alone would miss.
 

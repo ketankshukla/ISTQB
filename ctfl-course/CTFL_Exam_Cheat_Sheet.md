@@ -1,10 +1,45 @@
-# CTFL v4.0 Exam Cheat Sheet
+<!-- ISTQB-BEAUTIFY-V1 -->
+<style>
+html, body {
+  background-color: #000000 !important;
+  color: #F5F5F5 !important;
+}
+body {
+  font-size: 19px !important;
+  line-height: 1.85 !important;
+  font-family: 'Segoe UI', 'Trebuchet MS', Verdana, sans-serif !important;
+  padding: 24px 44px !important;
+  letter-spacing: 0.2px;
+}
+h1 { color: #FFD700 !important; font-size: 2.7em !important; font-weight: 800 !important; border-bottom: 3px solid #FF5252 !important; padding-bottom: 0.25em; }
+h2 { color: #00E5FF !important; font-size: 2.05em !important; font-weight: 800 !important; border-bottom: 2px solid #00E5FF !important; padding-bottom: 0.2em; }
+h3 { color: #69F0AE !important; font-size: 1.6em !important; font-weight: 700 !important; }
+h4 { color: #FF80AB !important; font-size: 1.35em !important; font-weight: 700 !important; }
+h5 { color: #FFAB40 !important; font-size: 1.2em !important; font-weight: 700 !important; }
+h6 { color: #B388FF !important; font-size: 1.1em !important; font-weight: 700 !important; }
+p, li, td, th, span, div { font-size: 1em !important; color: #F5F5F5 !important; }
+strong, b { color: #FFEB3B !important; }
+em, i { color: #FF8A65 !important; }
+a { color: #40C4FF !important; text-decoration: underline; }
+a:hover { color: #80D8FF !important; }
+code { color: #FF4081 !important; background: transparent !important; font-size: 0.95em !important; }
+pre { background: transparent !important; border: 1px solid #555 !important; border-radius: 8px; padding: 14px !important; }
+pre code { color: #80CBC4 !important; }
+blockquote { color: #B0BEC5 !important; border-left: 5px solid #FFD700 !important; background: transparent !important; padding-left: 18px; font-style: italic; }
+table { border-collapse: collapse !important; background: transparent !important; }
+th { color: #FFD700 !important; border: 2px solid #00E5FF !important; background: transparent !important; padding: 8px 12px !important; }
+td { color: #F5F5F5 !important; border: 1px solid #607D8B !important; background: transparent !important; padding: 8px 12px !important; }
+hr { border: none; border-top: 2px dashed #FF5252 !important; margin: 1.5em 0; }
+ul li::marker { color: #69F0AE !important; font-size: 1.1em; }
+ol li::marker { color: #00E5FF !important; font-weight: bold; }
+</style>
+# 📄 CTFL v4.0 Exam Cheat Sheet
 
 One-page reference for the day before / morning of your exam.
 
 ---
 
-## Seven Testing Principles (K1)
+## 📜 Seven Testing Principles (K1)
 
 1. Testing shows the presence of defects, not their absence
 2. Exhaustive testing is impossible → use risk and priorities
@@ -16,7 +51,7 @@ One-page reference for the day before / morning of your exam.
 
 ---
 
-## Test Levels (K2)
+## 🪜 Test Levels (K2)
 
 | Level | Who | Focus | Environment |
 |-------|-----|-------|-------------|
@@ -29,7 +64,7 @@ One-page reference for the day before / morning of your exam.
 
 ---
 
-## Test Types (K2)
+## 🧪 Test Types (K2)
 
 | Type | Verifies |
 |------|----------|
@@ -40,7 +75,7 @@ One-page reference for the day before / morning of your exam.
 
 ---
 
-## Static Testing (K2/K3)
+## 🔍 Static Testing (K2/K3)
 
 - **Reviews**: Manual examination of work products (requirements, code, tests)
   - Informal: no process, no documentation
@@ -54,33 +89,33 @@ One-page reference for the day before / morning of your exam.
 
 ---
 
-## Test Techniques (K3 — Expect to Calculate)
+## 🎯 Test Techniques (K3 — Expect to Calculate)
 
-### Equivalence Partitioning (EP)
+### ➗ Equivalence Partitioning (EP)
 - Divide inputs into classes where system behaves the same way
 - Valid partitions + Invalid partitions
 - Pick ONE value from each partition
 
-### Boundary Value Analysis (BVA)
+### 📏 Boundary Value Analysis (BVA)
 - Test at the boundaries: min, min+1, max, max-1
 - 2-value (min, max) vs 3-value (min-1, min, max, max+1) — ISTQB uses **2-value (min, max)** as standard BVA
 
-### Decision Table Testing
+### 🗂️ Decision Table Testing
 - Conditions (yes/no) → Actions
 - Full table = 2^n rules for n binary conditions
 - Collapse rules with "don't care" (-)
 
-### State Transition Testing
+### 🔄 State Transition Testing
 - States + Events + Transitions + Actions
 - **0-switch**: single transition coverage
 - **1-switch**: pairs of consecutive transitions (n-1 pairs for n transitions)
 
-### Use Case Testing
+### 👤 Use Case Testing
 - Follows user goals (actor + flow: main + alternatives + exceptions)
 
 ---
 
-## Coverage Types (K2)
+## 📊 Coverage Types (K2)
 
 | Coverage | What it measures |
 |----------|------------------|
@@ -92,9 +127,9 @@ One-page reference for the day before / morning of your exam.
 
 ---
 
-## Test Management (K2)
+## 🗂️ Test Management (K2)
 
-### Four Test Activities
+### 🔷 Four Test Activities
 1. Test planning
 2. Test monitoring and control
 3. Test analysis
@@ -105,12 +140,12 @@ One-page reference for the day before / morning of your exam.
 
 **Test estimation techniques**: Expert-based ( Delphi / Wideband ), Past-project-based (estimating by analogy), Metrics-based (formula)
 
-### Risk-Based Testing
+### ⚠️ Risk-Based Testing
 - Product risks: what might go wrong with the software (defects, failures)
 - Project risks: what might go wrong with the project (staffing, schedule, tools)
 - Likelihood x Impact = Priority
 
-### Defect Reporting (must contain)
+### 🐞 Defect Reporting (must contain)
 - Title / Summary
 - Description / Steps to reproduce
 - Expected result
@@ -119,7 +154,7 @@ One-page reference for the day before / morning of your exam.
 - Environment
 - Attachments
 
-### Exit Criteria (when to stop testing)
+### ✅ Exit Criteria (when to stop testing)
 - Test coverage achieved
 - Defect density below threshold
 - All severity 1 defects resolved
@@ -127,7 +162,7 @@ One-page reference for the day before / morning of your exam.
 
 ---
 
-## Configuration Management (K2)
+## ⚙️ Configuration Management (K2)
 
 - Version control of all test items
 - Traceability between requirements → tests → defects
@@ -135,7 +170,7 @@ One-page reference for the day before / morning of your exam.
 
 ---
 
-## Test Tools (K2)
+## 🛠️ Test Tools (K2)
 
 | Category | Examples |
 |----------|----------|
@@ -150,7 +185,7 @@ One-page reference for the day before / morning of your exam.
 
 ---
 
-## Key Formulas
+## 🧮 Key Formulas
 
 | Metric | Formula |
 |--------|---------|
@@ -161,7 +196,7 @@ One-page reference for the day before / morning of your exam.
 
 ---
 
-## Exam Tactics
+## 🎓 Exam Tactics
 
 - **40 questions, 60 minutes** = 90 seconds per question
 - **K1 (remember)**: Straight recall — don't overthink
@@ -174,7 +209,7 @@ One-page reference for the day before / morning of your exam.
 
 ---
 
-## Common Traps on Exam Day
+## 🪤 Common Traps on Exam Day
 
 - "Testing proves correctness" → FALSE (principle 1)
 - "100% coverage = no defects" → FALSE (coverage != quality)

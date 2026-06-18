@@ -1,8 +1,43 @@
-# Chapter 4 — Exam Traps
+<!-- ISTQB-BEAUTIFY-V1 -->
+<style>
+html, body {
+  background-color: #000000 !important;
+  color: #F5F5F5 !important;
+}
+body {
+  font-size: 19px !important;
+  line-height: 1.85 !important;
+  font-family: 'Segoe UI', 'Trebuchet MS', Verdana, sans-serif !important;
+  padding: 24px 44px !important;
+  letter-spacing: 0.2px;
+}
+h1 { color: #FFD700 !important; font-size: 2.7em !important; font-weight: 800 !important; border-bottom: 3px solid #FF5252 !important; padding-bottom: 0.25em; }
+h2 { color: #00E5FF !important; font-size: 2.05em !important; font-weight: 800 !important; border-bottom: 2px solid #00E5FF !important; padding-bottom: 0.2em; }
+h3 { color: #69F0AE !important; font-size: 1.6em !important; font-weight: 700 !important; }
+h4 { color: #FF80AB !important; font-size: 1.35em !important; font-weight: 700 !important; }
+h5 { color: #FFAB40 !important; font-size: 1.2em !important; font-weight: 700 !important; }
+h6 { color: #B388FF !important; font-size: 1.1em !important; font-weight: 700 !important; }
+p, li, td, th, span, div { font-size: 1em !important; color: #F5F5F5 !important; }
+strong, b { color: #FFEB3B !important; }
+em, i { color: #FF8A65 !important; }
+a { color: #40C4FF !important; text-decoration: underline; }
+a:hover { color: #80D8FF !important; }
+code { color: #FF4081 !important; background: transparent !important; font-size: 0.95em !important; }
+pre { background: transparent !important; border: 1px solid #555 !important; border-radius: 8px; padding: 14px !important; }
+pre code { color: #80CBC4 !important; }
+blockquote { color: #B0BEC5 !important; border-left: 5px solid #FFD700 !important; background: transparent !important; padding-left: 18px; font-style: italic; }
+table { border-collapse: collapse !important; background: transparent !important; }
+th { color: #FFD700 !important; border: 2px solid #00E5FF !important; background: transparent !important; padding: 8px 12px !important; }
+td { color: #F5F5F5 !important; border: 1px solid #607D8B !important; background: transparent !important; padding: 8px 12px !important; }
+hr { border: none; border-top: 2px dashed #FF5252 !important; margin: 1.5em 0; }
+ul li::marker { color: #69F0AE !important; font-size: 1.1em; }
+ol li::marker { color: #00E5FF !important; font-weight: bold; }
+</style>
+# 🪤 Chapter 4 — Exam Traps
 
 ---
 
-## Trap 1: Counting EP Partitions — Do Not Forget Invalid Partitions
+## 🪤 Trap 1: Counting EP Partitions — Do Not Forget Invalid Partitions
 
 The exam often asks "What is the minimum number of test cases to achieve full EP coverage?"
 
@@ -20,7 +55,7 @@ If the question specifies additional invalid types (e.g., non-numeric), add thos
 
 ---
 
-## Trap 2: Two-Value vs Three-Value BVA
+## 🪤 Trap 2: Two-Value vs Three-Value BVA
 
 CTFL v4.0 defaults to **two-value BVA**:
 - Test the boundary AND its nearest neighbor outside the partition
@@ -33,7 +68,7 @@ Three-value BVA tests boundary, neighbor inside, AND neighbor outside:
 
 ---
 
-## Trap 3: BVA Requires EP First
+## 🪤 Trap 3: BVA Requires EP First
 
 BVA is NOT an independent technique — it EXTENDS equivalence partitioning. You must:
 1. First identify equivalence partitions
@@ -44,7 +79,7 @@ BVA is NOT an independent technique — it EXTENDS equivalence partitioning. You
 
 ---
 
-## Trap 4: Decision Table — Maximum Rules vs Actual Rules
+## 🪤 Trap 4: Decision Table — Maximum Rules vs Actual Rules
 
 - Maximum possible rules = 2^n (where n = number of binary conditions)
 - Actual required rules may be LESS if "don't care" conditions allow collapsing
@@ -54,7 +89,7 @@ BVA is NOT an independent technique — it EXTENDS equivalence partitioning. You
 
 ---
 
-## Trap 5: State Transition — Transitions vs States
+## 🪤 Trap 5: State Transition — Transitions vs States
 
 - **0-switch coverage** = cover all valid TRANSITIONS (not states)
 - The minimum test cases for 0-switch = minimum paths needed to traverse all transitions
@@ -65,7 +100,7 @@ BVA is NOT an independent technique — it EXTENDS equivalence partitioning. You
 
 ---
 
-## Trap 6: Statement Coverage vs Branch Coverage
+## 📊 Trap 6: Statement Coverage vs Branch Coverage
 
 | | Statement Coverage | Branch Coverage |
 |---|---|---|
@@ -79,7 +114,7 @@ BVA is NOT an independent technique — it EXTENDS equivalence partitioning. You
 
 ---
 
-## Trap 7: Counting Branches
+## 🪤 Trap 7: Counting Branches
 
 Each decision point creates branches:
 - Simple `if` (no else): 2 branches (true path + implicit false path that skips the body)
@@ -92,7 +127,7 @@ Each decision point creates branches:
 
 ---
 
-## Trap 8: Experience-Based vs Systematic Techniques
+## 🪤 Trap 8: Experience-Based vs Systematic Techniques
 
 - Experience-based techniques (error guessing, exploratory, checklist) **complement** systematic techniques — they do NOT replace them
 - The exam will never accept "use only exploratory testing" as a best answer when systematic coverage is needed
@@ -102,7 +137,7 @@ Each decision point creates branches:
 
 ---
 
-## Trap 9: Exploratory Testing Is NOT Ad Hoc
+## 🪤 Trap 9: Exploratory Testing Is NOT Ad Hoc
 
 Key ISTQB distinction:
 - **Exploratory testing** = structured by test charters and time-boxes; results are documented
@@ -112,7 +147,7 @@ Key ISTQB distinction:
 
 ---
 
-## Trap 10: ATDD — Tests Are Written BEFORE Development
+## 🪤 Trap 10: ATDD — Tests Are Written BEFORE Development
 
 The defining feature of ATDD:
 - Acceptance tests are created BEFORE the code is written
@@ -123,7 +158,7 @@ The defining feature of ATDD:
 
 ---
 
-## Trap 11: Acceptance Criteria Formats
+## 🪤 Trap 11: Acceptance Criteria Formats
 
 Two formats are recognized:
 - **Rule-oriented:** Bullet-point conditions (declarative)
@@ -133,7 +168,7 @@ Two formats are recognized:
 
 ---
 
-## Trap 12: EP Partition Independence
+## 🪤 Trap 12: EP Partition Independence
 
 When testing multiple invalid partitions, **test only ONE invalid partition per test case** while keeping all other inputs valid.
 
@@ -143,7 +178,7 @@ When testing multiple invalid partitions, **test only ONE invalid partition per 
 
 ---
 
-## Trap 13: Decision Table — "Don't Care" Is Not "False"
+## 🪤 Trap 13: Decision Table — "Don't Care" Is Not "False"
 
 In a decision table:
 - "T" means the condition must be TRUE for this rule
@@ -154,7 +189,7 @@ In a decision table:
 
 ---
 
-## Trap 14: Invalid Transitions in State Testing
+## 🪤 Trap 14: Invalid Transitions in State Testing
 
 State transition testing should include tests for INVALID transitions:
 - Attempting events that should NOT be possible in the current state
@@ -164,7 +199,7 @@ State transition testing should include tests for INVALID transitions:
 
 ---
 
-## Trap 15: Coverage Metrics Are Percentages, Not Absolutes
+## 📊 Trap 15: Coverage Metrics Are Percentages, Not Absolutes
 
 When the exam asks "What is the statement coverage achieved?":
 - Formula: (statements exercised / total executable statements) x 100%

@@ -1,8 +1,43 @@
-# Chapter 6 — Exam Traps
+<!-- ISTQB-BEAUTIFY-V1 -->
+<style>
+html, body {
+  background-color: #000000 !important;
+  color: #F5F5F5 !important;
+}
+body {
+  font-size: 19px !important;
+  line-height: 1.85 !important;
+  font-family: 'Segoe UI', 'Trebuchet MS', Verdana, sans-serif !important;
+  padding: 24px 44px !important;
+  letter-spacing: 0.2px;
+}
+h1 { color: #FFD700 !important; font-size: 2.7em !important; font-weight: 800 !important; border-bottom: 3px solid #FF5252 !important; padding-bottom: 0.25em; }
+h2 { color: #00E5FF !important; font-size: 2.05em !important; font-weight: 800 !important; border-bottom: 2px solid #00E5FF !important; padding-bottom: 0.2em; }
+h3 { color: #69F0AE !important; font-size: 1.6em !important; font-weight: 700 !important; }
+h4 { color: #FF80AB !important; font-size: 1.35em !important; font-weight: 700 !important; }
+h5 { color: #FFAB40 !important; font-size: 1.2em !important; font-weight: 700 !important; }
+h6 { color: #B388FF !important; font-size: 1.1em !important; font-weight: 700 !important; }
+p, li, td, th, span, div { font-size: 1em !important; color: #F5F5F5 !important; }
+strong, b { color: #FFEB3B !important; }
+em, i { color: #FF8A65 !important; }
+a { color: #40C4FF !important; text-decoration: underline; }
+a:hover { color: #80D8FF !important; }
+code { color: #FF4081 !important; background: transparent !important; font-size: 0.95em !important; }
+pre { background: transparent !important; border: 1px solid #555 !important; border-radius: 8px; padding: 14px !important; }
+pre code { color: #80CBC4 !important; }
+blockquote { color: #B0BEC5 !important; border-left: 5px solid #FFD700 !important; background: transparent !important; padding-left: 18px; font-style: italic; }
+table { border-collapse: collapse !important; background: transparent !important; }
+th { color: #FFD700 !important; border: 2px solid #00E5FF !important; background: transparent !important; padding: 8px 12px !important; }
+td { color: #F5F5F5 !important; border: 1px solid #607D8B !important; background: transparent !important; padding: 8px 12px !important; }
+hr { border: none; border-top: 2px dashed #FF5252 !important; margin: 1.5em 0; }
+ul li::marker { color: #69F0AE !important; font-size: 1.1em; }
+ol li::marker { color: #00E5FF !important; font-weight: bold; }
+</style>
+# 🪤 Chapter 6 — Exam Traps
 
 ---
 
-## Trap 1: Automation Does NOT Replace Manual Testing
+## 🪤 Trap 1: Automation Does NOT Replace Manual Testing
 
 The exam will NEVER accept an answer that says automation replaces all manual testing. Automation complements manual testing; each has its place:
 
@@ -13,7 +48,7 @@ The exam will NEVER accept an answer that says automation replaces all manual te
 
 ---
 
-## Trap 2: Automation Does NOT Find Defects By Itself
+## 🪤 Trap 2: Automation Does NOT Find Defects By Itself
 
 Automated tests only detect failures when:
 1. The test was designed to check the correct condition
@@ -26,7 +61,7 @@ A passing automated test does NOT prove quality — it only proves that the spec
 
 ---
 
-## Trap 3: Benefits vs Risks — Know Both Sides
+## 🪤 Trap 3: Benefits vs Risks — Know Both Sides
 
 The exam may ask for benefits OR risks. Be ready to identify which is which:
 
@@ -38,7 +73,7 @@ The exam may ask for benefits OR risks. Be ready to identify which is which:
 
 ---
 
-## Trap 4: Tool Categories — Match Tool to Activity
+## 🪤 Trap 4: Tool Categories — Match Tool to Activity
 
 Know which tool category supports which test activity:
 
@@ -56,7 +91,7 @@ Know which tool category supports which test activity:
 
 ---
 
-## Trap 5: Not All Tests Are Worth Automating
+## 🪤 Trap 5: Not All Tests Are Worth Automating
 
 Automation is NOT appropriate for:
 - Tests run only once (the automation effort exceeds the benefit)
@@ -68,7 +103,7 @@ Automation is NOT appropriate for:
 
 ---
 
-## Trap 6: CI/CD Is a DevOps Practice, Not Just a Tool
+## ❓ Trap 6: CI/CD Is a DevOps Practice, Not Just a Tool
 
 The exam connects CI/CD to both Chapter 2 (DevOps) and Chapter 6 (tools). Know that:
 - CI/CD is an APPROACH (continuous integration, continuous delivery)
@@ -79,7 +114,7 @@ The exam connects CI/CD to both Chapter 2 (DevOps) and Chapter 6 (tools). Know t
 
 ---
 
-## Trap 7: Static Analysis Finds Issues Without Execution
+## 🪤 Trap 7: Static Analysis Finds Issues Without Execution
 
 Static analysis tools:
 - Examine code without running it
@@ -91,7 +126,7 @@ Static analysis tools:
 
 ---
 
-## Trap 8: Flaky Tests Erode Confidence
+## 🪤 Trap 8: Flaky Tests Erode Confidence
 
 A "flaky" test passes sometimes and fails sometimes without any code change. This is a known risk of automation:
 - Developers start ignoring test results ("it's probably just flaky")

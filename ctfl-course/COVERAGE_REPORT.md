@@ -1,10 +1,45 @@
-# Phase 9 — Final Verification: Coverage Report
+<!-- ISTQB-BEAUTIFY-V1 -->
+<style>
+html, body {
+  background-color: #000000 !important;
+  color: #F5F5F5 !important;
+}
+body {
+  font-size: 19px !important;
+  line-height: 1.85 !important;
+  font-family: 'Segoe UI', 'Trebuchet MS', Verdana, sans-serif !important;
+  padding: 24px 44px !important;
+  letter-spacing: 0.2px;
+}
+h1 { color: #FFD700 !important; font-size: 2.7em !important; font-weight: 800 !important; border-bottom: 3px solid #FF5252 !important; padding-bottom: 0.25em; }
+h2 { color: #00E5FF !important; font-size: 2.05em !important; font-weight: 800 !important; border-bottom: 2px solid #00E5FF !important; padding-bottom: 0.2em; }
+h3 { color: #69F0AE !important; font-size: 1.6em !important; font-weight: 700 !important; }
+h4 { color: #FF80AB !important; font-size: 1.35em !important; font-weight: 700 !important; }
+h5 { color: #FFAB40 !important; font-size: 1.2em !important; font-weight: 700 !important; }
+h6 { color: #B388FF !important; font-size: 1.1em !important; font-weight: 700 !important; }
+p, li, td, th, span, div { font-size: 1em !important; color: #F5F5F5 !important; }
+strong, b { color: #FFEB3B !important; }
+em, i { color: #FF8A65 !important; }
+a { color: #40C4FF !important; text-decoration: underline; }
+a:hover { color: #80D8FF !important; }
+code { color: #FF4081 !important; background: transparent !important; font-size: 0.95em !important; }
+pre { background: transparent !important; border: 1px solid #555 !important; border-radius: 8px; padding: 14px !important; }
+pre code { color: #80CBC4 !important; }
+blockquote { color: #B0BEC5 !important; border-left: 5px solid #FFD700 !important; background: transparent !important; padding-left: 18px; font-style: italic; }
+table { border-collapse: collapse !important; background: transparent !important; }
+th { color: #FFD700 !important; border: 2px solid #00E5FF !important; background: transparent !important; padding: 8px 12px !important; }
+td { color: #F5F5F5 !important; border: 1px solid #607D8B !important; background: transparent !important; padding: 8px 12px !important; }
+hr { border: none; border-top: 2px dashed #FF5252 !important; margin: 1.5em 0; }
+ul li::marker { color: #69F0AE !important; font-size: 1.1em; }
+ol li::marker { color: #00E5FF !important; font-weight: bold; }
+</style>
+# 📋 Phase 9 — Final Verification: Coverage Report
 
-## All 64 Learning Objectives — Coverage Map
+## 📊 All 64 Learning Objectives — Coverage Map
 
 Every learning objective from the CTFL v4.0 syllabus is listed below with the file(s) that cover it.
 
-### Chapter 1 — Fundamentals of Testing (14 LOs)
+### 🏗️ Chapter 1 — Fundamentals of Testing (14 LOs)
 
 | LO | Description | K | Covered In |
 |----|-------------|---|------------|
@@ -23,7 +58,7 @@ Every learning objective from the CTFL v4.0 syllabus is listed below with the fi
 | FL-1.5.2 | Recall advantages of whole-team approach | K1 | 01/lessons.md (1.5) |
 | FL-1.5.3 | Distinguish benefits/drawbacks of independence | K2 | 01/lessons.md (1.5) |
 
-### Chapter 2 — Testing Throughout the SDLC (10 LOs)
+### 🔁 Chapter 2 — Testing Throughout the SDLC (10 LOs)
 
 | LO | Description | K | Covered In |
 |----|-------------|---|------------|
@@ -38,7 +73,7 @@ Every learning objective from the CTFL v4.0 syllabus is listed below with the fi
 | FL-2.2.3 | Distinguish confirmation from regression testing | K2 | 02/lessons.md (2.2) |
 | FL-2.3.1 | Summarize maintenance testing and triggers | K2 | 02/lessons.md (2.3) |
 
-### Chapter 3 — Static Testing (8 LOs)
+### 🔍 Chapter 3 — Static Testing (8 LOs)
 
 | LO | Description | K | Covered In |
 |----|-------------|---|------------|
@@ -51,7 +86,7 @@ Every learning objective from the CTFL v4.0 syllabus is listed below with the fi
 | FL-3.2.4 | Compare review types | K2 | 03/lessons.md (3.2) |
 | FL-3.2.5 | Recall success factors for reviews | K1 | 03/lessons.md (3.2) |
 
-### Chapter 4 — Test Analysis and Design (14 LOs)
+### 🔬 Chapter 4 — Test Analysis and Design (14 LOs)
 
 | LO | Description | K | Covered In |
 |----|-------------|---|------------|
@@ -70,7 +105,7 @@ Every learning objective from the CTFL v4.0 syllabus is listed below with the fi
 | FL-4.5.2 | Classify acceptance criteria formats | K2 | 04/lessons.md (4.5) |
 | FL-4.5.3 | Use ATDD to derive test cases | K3 | 04/lessons.md (4.5), worked_examples.md |
 
-### Chapter 5 — Managing the Test Activities (16 LOs)
+### 🔷 Chapter 5 — Managing the Test Activities (16 LOs)
 
 | LO | Description | K | Covered In |
 |----|-------------|---|------------|
@@ -91,7 +126,7 @@ Every learning objective from the CTFL v4.0 syllabus is listed below with the fi
 | FL-5.4.1 | Summarize how CM supports testing | K2 | 05/lessons.md (5.4) |
 | FL-5.5.1 | Prepare a defect report | K3 | 05/lessons.md (5.5), worked_examples.md |
 
-### Chapter 6 — Test Tools (2 LOs)
+### 🛠️ Chapter 6 — Test Tools (2 LOs)
 
 | LO | Description | K | Covered In |
 |----|-------------|---|------------|
@@ -100,7 +135,7 @@ Every learning objective from the CTFL v4.0 syllabus is listed below with the fi
 
 ---
 
-## LO Count Summary
+## 📌 LO Count Summary
 
 | Chapter | LOs Required | LOs Covered | Status |
 |---------|--------------|-------------|--------|
@@ -114,7 +149,7 @@ Every learning objective from the CTFL v4.0 syllabus is listed below with the fi
 
 ---
 
-## Question Bank Count
+## ❓ Question Bank Count
 
 | Source | Questions |
 |--------|-----------|
@@ -133,7 +168,7 @@ Target: 200+ questions. **MET (226 questions).**
 
 ---
 
-## Deliverables Checklist
+## ⭐ Deliverables Checklist
 
 | Deliverable | Status |
 |-------------|--------|
@@ -154,7 +189,7 @@ Target: 200+ questions. **MET (226 questions).**
 
 ---
 
-## Mock Exam Chapter Weighting Verification
+## 📝 Mock Exam Chapter Weighting Verification
 
 | Chapter | Target Weight | Mock 1 Qs | Mock 2 Qs | Mock 3 Qs |
 |---------|--------------|-----------|-----------|-----------|
@@ -170,7 +205,7 @@ Chapter weighting approximately matches the real exam distribution with emphasis
 
 ---
 
-## Gaps and Notes
+## ⭐ Gaps and Notes
 
 - **No gaps identified.** All 64 LOs are covered in lesson content.
 - All K3 objectives have worked examples (3+ each) and application-style practice questions (5+ each).

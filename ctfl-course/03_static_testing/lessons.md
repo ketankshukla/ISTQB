@@ -1,10 +1,45 @@
-# Chapter 3 — Static Testing: Lessons
+<!-- ISTQB-BEAUTIFY-V1 -->
+<style>
+html, body {
+  background-color: #000000 !important;
+  color: #F5F5F5 !important;
+}
+body {
+  font-size: 19px !important;
+  line-height: 1.85 !important;
+  font-family: 'Segoe UI', 'Trebuchet MS', Verdana, sans-serif !important;
+  padding: 24px 44px !important;
+  letter-spacing: 0.2px;
+}
+h1 { color: #FFD700 !important; font-size: 2.7em !important; font-weight: 800 !important; border-bottom: 3px solid #FF5252 !important; padding-bottom: 0.25em; }
+h2 { color: #00E5FF !important; font-size: 2.05em !important; font-weight: 800 !important; border-bottom: 2px solid #00E5FF !important; padding-bottom: 0.2em; }
+h3 { color: #69F0AE !important; font-size: 1.6em !important; font-weight: 700 !important; }
+h4 { color: #FF80AB !important; font-size: 1.35em !important; font-weight: 700 !important; }
+h5 { color: #FFAB40 !important; font-size: 1.2em !important; font-weight: 700 !important; }
+h6 { color: #B388FF !important; font-size: 1.1em !important; font-weight: 700 !important; }
+p, li, td, th, span, div { font-size: 1em !important; color: #F5F5F5 !important; }
+strong, b { color: #FFEB3B !important; }
+em, i { color: #FF8A65 !important; }
+a { color: #40C4FF !important; text-decoration: underline; }
+a:hover { color: #80D8FF !important; }
+code { color: #FF4081 !important; background: transparent !important; font-size: 0.95em !important; }
+pre { background: transparent !important; border: 1px solid #555 !important; border-radius: 8px; padding: 14px !important; }
+pre code { color: #80CBC4 !important; }
+blockquote { color: #B0BEC5 !important; border-left: 5px solid #FFD700 !important; background: transparent !important; padding-left: 18px; font-style: italic; }
+table { border-collapse: collapse !important; background: transparent !important; }
+th { color: #FFD700 !important; border: 2px solid #00E5FF !important; background: transparent !important; padding: 8px 12px !important; }
+td { color: #F5F5F5 !important; border: 1px solid #607D8B !important; background: transparent !important; padding: 8px 12px !important; }
+hr { border: none; border-top: 2px dashed #FF5252 !important; margin: 1.5em 0; }
+ul li::marker { color: #69F0AE !important; font-size: 1.1em; }
+ol li::marker { color: #00E5FF !important; font-weight: bold; }
+</style>
+# 📘 Chapter 3 — Static Testing: Lessons
 
 ---
 
-## 3.1 Static Testing Basics
+## 🔍 3.1 Static Testing Basics
 
-### Work Products Examinable by Static Testing (FL-3.1.1, K1)
+### 🎓 Work Products Examinable by Static Testing (FL-3.1.1, K1)
 
 Static testing examines work products WITHOUT executing the software. Almost any work product that can be read by a human or analyzed by a tool can be subjected to static testing:
 
@@ -39,7 +74,7 @@ Static testing examines work products WITHOUT executing the software. Almost any
 
 **Key point:** Static testing applies to work products that CANNOT be tested dynamically (you cannot "execute" a requirements document or a test plan). This gives static testing a unique and complementary role alongside dynamic testing.
 
-### The Value of Static Testing (FL-3.1.2, K2)
+### 🔍 The Value of Static Testing (FL-3.1.2, K2)
 
 Static testing provides significant value to a project:
 
@@ -71,7 +106,7 @@ Static testing provides significant value to a project:
 - Static testing can prevent defects from ever entering the code (by catching them in specs)
 - Dynamic testing can only detect defects after they exist in executable form
 
-### Comparing Static and Dynamic Testing (FL-3.1.3, K2)
+### 🔍 Comparing Static and Dynamic Testing (FL-3.1.3, K2)
 
 | Aspect | Static Testing | Dynamic Testing |
 |--------|---------------|-----------------|
@@ -92,9 +127,9 @@ Static testing provides significant value to a project:
 
 ---
 
-## 3.2 Feedback and Review Process
+## 🔎 3.2 Feedback and Review Process
 
-### Benefits of Early and Frequent Stakeholder Feedback (FL-3.2.1, K1)
+### 🔷 Benefits of Early and Frequent Stakeholder Feedback (FL-3.2.1, K1)
 
 Getting feedback from stakeholders early and often through reviews provides:
 
@@ -105,7 +140,7 @@ Getting feedback from stakeholders early and often through reviews provides:
 - **Fewer late-stage surprises:** Consistent feedback reduces the likelihood of major rework during acceptance testing
 - **Clearer acceptance criteria:** Feedback on early drafts helps refine what "done" means
 
-### The Review Process Activities (FL-3.2.2, K2)
+### 🔎 The Review Process Activities (FL-3.2.2, K2)
 
 A formal review process (especially for technical reviews and inspections) consists of these activities:
 
@@ -139,7 +174,7 @@ A formal review process (especially for technical reviews and inspections) consi
 - The status of the work product is updated
 - If needed, a re-review is performed to verify fixes (especially in inspections)
 
-### Review Roles and Responsibilities (FL-3.2.3, K1)
+### 🔎 Review Roles and Responsibilities (FL-3.2.3, K1)
 
 | Role | Responsibilities |
 |------|-----------------|
@@ -152,11 +187,11 @@ A formal review process (especially for technical reviews and inspections) consi
 
 In practice, one person may fill multiple roles (except that the author should not also be the moderator or the only reviewer).
 
-### Review Types (FL-3.2.4, K2)
+### 🧪 Review Types (FL-3.2.4, K2)
 
 The CTFL v4.0 syllabus defines four review types, ranging from informal to highly formal:
 
-#### Informal Review
+#### 🔎 Informal Review
 
 | Aspect | Description |
 |--------|-------------|
@@ -167,7 +202,7 @@ The CTFL v4.0 syllabus defines four review types, ranging from informal to highl
 | Purpose | Quick feedback, catching obvious issues |
 | Meeting | Optional (often just a conversation) |
 
-#### Walkthrough
+#### 🔸 Walkthrough
 
 | Aspect | Description |
 |--------|-------------|
@@ -179,7 +214,7 @@ The CTFL v4.0 syllabus defines four review types, ranging from informal to highl
 | Key feature | **Author-led** — the author walks through the material |
 | Meeting | Yes, led by the author |
 
-#### Technical Review
+#### 🔎 Technical Review
 
 | Aspect | Description |
 |--------|-------------|
@@ -191,7 +226,7 @@ The CTFL v4.0 syllabus defines four review types, ranging from informal to highl
 | Key feature | **Peer-led by technical experts** (not necessarily the author) |
 | Meeting | Yes, facilitated by a trained moderator or technical lead |
 
-#### Inspection
+#### 🔸 Inspection
 
 | Aspect | Description |
 |--------|-------------|
@@ -203,7 +238,7 @@ The CTFL v4.0 syllabus defines four review types, ranging from informal to highl
 | Key features | **Moderator-led**; formal entry/exit criteria; individual preparation is mandatory; follow-up verifies fixes; metrics collected for process improvement |
 | Meeting | Yes, moderated formally |
 
-### Comparison Table
+### 🔷 Comparison Table
 
 | Feature | Informal | Walkthrough | Technical Review | Inspection |
 |---------|----------|-------------|-----------------|------------|
@@ -214,14 +249,14 @@ The CTFL v4.0 syllabus defines four review types, ranging from informal to highl
 | Follow-up on fixes | No | No | Sometimes | Yes (formal) |
 | Main purpose | Quick check | Understanding + defects | Technical quality + consensus | Maximum defect detection + process improvement |
 
-### Mnemonic for Review Types: "I Walk To Inspect"
+### 🧪 Mnemonic for Review Types: "I Walk To Inspect"
 
 - **I**nformal — least formal, buddy check
 - **W**alkthrough — author walks you through
 - **T**echnical review — technical experts review
 - **I**nspection — most formal, moderator-led, metrics
 
-### Success Factors for Reviews (FL-3.2.5, K1)
+### 🔎 Success Factors for Reviews (FL-3.2.5, K1)
 
 For reviews to be effective, the following factors contribute to success:
 
@@ -238,7 +273,7 @@ For reviews to be effective, the following factors contribute to success:
 
 ---
 
-## Cross-References
+## ⭐ Cross-References
 
 - Static testing (reviews) is the primary mechanism for shift-left (Section 2.1.5)
 - The review process activities parallel the general test process activities (Chapter 1.4)

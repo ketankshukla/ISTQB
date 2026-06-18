@@ -1,8 +1,43 @@
-# Chapter 5 — Exam Traps
+<!-- ISTQB-BEAUTIFY-V1 -->
+<style>
+html, body {
+  background-color: #000000 !important;
+  color: #F5F5F5 !important;
+}
+body {
+  font-size: 19px !important;
+  line-height: 1.85 !important;
+  font-family: 'Segoe UI', 'Trebuchet MS', Verdana, sans-serif !important;
+  padding: 24px 44px !important;
+  letter-spacing: 0.2px;
+}
+h1 { color: #FFD700 !important; font-size: 2.7em !important; font-weight: 800 !important; border-bottom: 3px solid #FF5252 !important; padding-bottom: 0.25em; }
+h2 { color: #00E5FF !important; font-size: 2.05em !important; font-weight: 800 !important; border-bottom: 2px solid #00E5FF !important; padding-bottom: 0.2em; }
+h3 { color: #69F0AE !important; font-size: 1.6em !important; font-weight: 700 !important; }
+h4 { color: #FF80AB !important; font-size: 1.35em !important; font-weight: 700 !important; }
+h5 { color: #FFAB40 !important; font-size: 1.2em !important; font-weight: 700 !important; }
+h6 { color: #B388FF !important; font-size: 1.1em !important; font-weight: 700 !important; }
+p, li, td, th, span, div { font-size: 1em !important; color: #F5F5F5 !important; }
+strong, b { color: #FFEB3B !important; }
+em, i { color: #FF8A65 !important; }
+a { color: #40C4FF !important; text-decoration: underline; }
+a:hover { color: #80D8FF !important; }
+code { color: #FF4081 !important; background: transparent !important; font-size: 0.95em !important; }
+pre { background: transparent !important; border: 1px solid #555 !important; border-radius: 8px; padding: 14px !important; }
+pre code { color: #80CBC4 !important; }
+blockquote { color: #B0BEC5 !important; border-left: 5px solid #FFD700 !important; background: transparent !important; padding-left: 18px; font-style: italic; }
+table { border-collapse: collapse !important; background: transparent !important; }
+th { color: #FFD700 !important; border: 2px solid #00E5FF !important; background: transparent !important; padding: 8px 12px !important; }
+td { color: #F5F5F5 !important; border: 1px solid #607D8B !important; background: transparent !important; padding: 8px 12px !important; }
+hr { border: none; border-top: 2px dashed #FF5252 !important; margin: 1.5em 0; }
+ul li::marker { color: #69F0AE !important; font-size: 1.1em; }
+ol li::marker { color: #00E5FF !important; font-weight: bold; }
+</style>
+# 🪤 Chapter 5 — Exam Traps
 
 ---
 
-## Trap 1: Project Risk vs Product Risk
+## 🪤 Trap 1: Project Risk vs Product Risk
 
 This is a favorite ISTQB distinction:
 
@@ -15,7 +50,7 @@ Another scenario: "The payment module may have security vulnerabilities." Answer
 
 ---
 
-## Trap 2: Entry Criteria vs Exit Criteria
+## 🪤 Trap 2: Entry Criteria vs Exit Criteria
 
 - **Entry criteria** = preconditions to START testing (test environment ready, test basis available, code deployed)
 - **Exit criteria** = conditions to STOP testing (coverage achieved, no critical defects open, report produced)
@@ -26,7 +61,7 @@ Another scenario: "The payment module may have security vulnerabilities." Answer
 
 ---
 
-## Trap 3: Severity vs Priority
+## 🪤 Trap 3: Severity vs Priority
 
 | | Severity | Priority |
 |---|---|---|
@@ -38,7 +73,7 @@ Another scenario: "The payment module may have security vulnerabilities." Answer
 
 ---
 
-## Trap 4: Risk Level Calculation
+## 🪤 Trap 4: Risk Level Calculation
 
 Risk level = Likelihood x Impact
 
@@ -48,7 +83,7 @@ Risk level = Likelihood x Impact
 
 ---
 
-## Trap 5: Test Pyramid — Direction Matters
+## 🪤 Trap 5: Test Pyramid — Direction Matters
 
 - **Base (bottom):** MANY fast, cheap unit/component tests
 - **Top:** FEW slow, expensive UI/E2E tests
@@ -59,7 +94,7 @@ Risk level = Likelihood x Impact
 
 ---
 
-## Trap 6: Testing Quadrants — All Four Are Needed
+## 🪤 Trap 6: Testing Quadrants — All Four Are Needed
 
 No single quadrant is sufficient:
 - Q1 (technology-facing, support) — guides development
@@ -73,7 +108,7 @@ No single quadrant is sufficient:
 
 ---
 
-## Trap 7: Metrics Are for Information, Not Punishment
+## 🪤 Trap 7: Metrics Are for Information, Not Punishment
 
 The ISTQB perspective: metrics should provide objective information for decision-making. They should NOT be used to judge individual performance (e.g., "this developer has the most bugs — they must be fired").
 
@@ -81,7 +116,7 @@ The ISTQB perspective: metrics should provide objective information for decision
 
 ---
 
-## Trap 8: Test Reports — Audience Matters
+## 🪤 Trap 8: Test Reports — Audience Matters
 
 | Report Type | Audience | Content Focus |
 |-------------|----------|---------------|
@@ -92,7 +127,7 @@ The ISTQB perspective: metrics should provide objective information for decision
 
 ---
 
-## Trap 9: Configuration Management — What It Covers
+## 🪤 Trap 9: Configuration Management — What It Covers
 
 CM covers ALL work products, including testware:
 - Source code
@@ -105,7 +140,7 @@ CM covers ALL work products, including testware:
 
 ---
 
-## Trap 10: Defect Report — Must Include Expected AND Actual Result
+## 🪤 Trap 10: Defect Report — Must Include Expected AND Actual Result
 
 A defect report without both expected and actual results is INCOMPLETE:
 - **Expected result** — what SHOULD have happened (based on requirements)
@@ -115,7 +150,7 @@ A defect report without both expected and actual results is INCOMPLETE:
 
 ---
 
-## Trap 11: Estimation — Expert vs Metrics-Based
+## 🪤 Trap 11: Estimation — Expert vs Metrics-Based
 
 - **Expert-based** (Planning Poker, Wideband Delphi) = relies on human judgment
 - **Metrics-based** = relies on historical data from past projects
@@ -124,7 +159,7 @@ A defect report without both expected and actual results is INCOMPLETE:
 
 ---
 
-## Trap 12: Risk-Based Testing Does Not Mean Testing Only High-Risk Areas
+## 🪤 Trap 12: Risk-Based Testing Does Not Mean Testing Only High-Risk Areas
 
 Risk-based testing means PROPORTIONAL effort:
 - High-risk areas: extensive testing (many techniques, early execution)
@@ -135,7 +170,7 @@ Risk-based testing means PROPORTIONAL effort:
 
 ---
 
-## Trap 13: The Test Plan Is a Living Document
+## 🪤 Trap 13: The Test Plan Is a Living Document
 
 In Agile contexts, the test plan is NOT a one-time document created at the start:
 - It evolves as the project progresses

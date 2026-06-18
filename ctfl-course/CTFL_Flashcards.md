@@ -1,10 +1,45 @@
-# CTFL v4.0 Flashcards
+<!-- ISTQB-BEAUTIFY-V1 -->
+<style>
+html, body {
+  background-color: #000000 !important;
+  color: #F5F5F5 !important;
+}
+body {
+  font-size: 19px !important;
+  line-height: 1.85 !important;
+  font-family: 'Segoe UI', 'Trebuchet MS', Verdana, sans-serif !important;
+  padding: 24px 44px !important;
+  letter-spacing: 0.2px;
+}
+h1 { color: #FFD700 !important; font-size: 2.7em !important; font-weight: 800 !important; border-bottom: 3px solid #FF5252 !important; padding-bottom: 0.25em; }
+h2 { color: #00E5FF !important; font-size: 2.05em !important; font-weight: 800 !important; border-bottom: 2px solid #00E5FF !important; padding-bottom: 0.2em; }
+h3 { color: #69F0AE !important; font-size: 1.6em !important; font-weight: 700 !important; }
+h4 { color: #FF80AB !important; font-size: 1.35em !important; font-weight: 700 !important; }
+h5 { color: #FFAB40 !important; font-size: 1.2em !important; font-weight: 700 !important; }
+h6 { color: #B388FF !important; font-size: 1.1em !important; font-weight: 700 !important; }
+p, li, td, th, span, div { font-size: 1em !important; color: #F5F5F5 !important; }
+strong, b { color: #FFEB3B !important; }
+em, i { color: #FF8A65 !important; }
+a { color: #40C4FF !important; text-decoration: underline; }
+a:hover { color: #80D8FF !important; }
+code { color: #FF4081 !important; background: transparent !important; font-size: 0.95em !important; }
+pre { background: transparent !important; border: 1px solid #555 !important; border-radius: 8px; padding: 14px !important; }
+pre code { color: #80CBC4 !important; }
+blockquote { color: #B0BEC5 !important; border-left: 5px solid #FFD700 !important; background: transparent !important; padding-left: 18px; font-style: italic; }
+table { border-collapse: collapse !important; background: transparent !important; }
+th { color: #FFD700 !important; border: 2px solid #00E5FF !important; background: transparent !important; padding: 8px 12px !important; }
+td { color: #F5F5F5 !important; border: 1px solid #607D8B !important; background: transparent !important; padding: 8px 12px !important; }
+hr { border: none; border-top: 2px dashed #FF5252 !important; margin: 1.5em 0; }
+ul li::marker { color: #69F0AE !important; font-size: 1.1em; }
+ol li::marker { color: #00E5FF !important; font-weight: bold; }
+</style>
+# 🃏 CTFL v4.0 Flashcards
 
 Use these for quick drills. Read the **Q** side, answer aloud, then flip to **A**.
 
 ---
 
-## Seven Principles
+## 📜 Seven Principles
 
 **Q1:** What does the first testing principle state about defects?
 **A:** Testing shows the presence of defects, not their absence.
@@ -26,7 +61,7 @@ Use these for quick drills. Read the **Q** side, answer aloud, then flip to **A*
 
 ---
 
-## Test Levels
+## 🪜 Test Levels
 
 **Q7:** Who typically performs component testing?
 **A:** Developers, in the development environment.
@@ -45,7 +80,7 @@ Use these for quick drills. Read the **Q** side, answer aloud, then flip to **A*
 
 ---
 
-## Test Types
+## 🧪 Test Types
 
 **Q12:** What does functional testing verify?
 **A:** What the system does — its functions and features against requirements.
@@ -64,7 +99,7 @@ Use these for quick drills. Read the **Q** side, answer aloud, then flip to **A*
 
 ---
 
-## Static Testing
+## 🔍 Static Testing
 
 **Q17:** What is the difference between reviews and static analysis?
 **A:** Reviews are manual examination of work products; static analysis is automated tool-based code examination without execution.
@@ -86,7 +121,7 @@ Use these for quick drills. Read the **Q** side, answer aloud, then flip to **A*
 
 ---
 
-## Test Design Techniques
+## 🎯 Test Design Techniques
 
 **Q23:** What is equivalence partitioning?
 **A:** Dividing inputs into classes where the system is expected to behave the same way; one test per partition.
@@ -114,7 +149,7 @@ Use these for quick drills. Read the **Q** side, answer aloud, then flip to **A*
 
 ---
 
-## Coverage
+## 📊 Coverage
 
 **Q31:** What does statement coverage measure?
 **A:** The percentage of executable statements that have been executed.
@@ -130,7 +165,7 @@ Use these for quick drills. Read the **Q** side, answer aloud, then flip to **A*
 
 ---
 
-## Test Management
+## 🗂️ Test Management
 
 **Q35:** Name the seven test activities in order.
 **A:** Planning, Monitoring & Control, Analysis, Design, Implementation, Execution, Completion.
@@ -167,7 +202,7 @@ Use these for quick drills. Read the **Q** side, answer aloud, then flip to **A*
 
 ---
 
-## Configuration Management
+## ⚙️ Configuration Management
 
 **Q46:** What is a baseline in configuration management?
 **A:** An approved version of a work product that serves as the basis for further development.
@@ -177,7 +212,7 @@ Use these for quick drills. Read the **Q** side, answer aloud, then flip to **A*
 
 ---
 
-## Test Tools
+## 🛠️ Test Tools
 
 **Q48:** What is the main purpose of a test management tool?
 **A:** To manage test assets (plans, cases, executions), defects, and reporting.
@@ -196,7 +231,7 @@ Use these for quick drills. Read the **Q** side, answer aloud, then flip to **A*
 
 ---
 
-## Key Definitions
+## ⭐ Key Definitions
 
 **Q53:** What is validation?
 **A:** Checking that we built the right product (meets user needs).
@@ -224,7 +259,7 @@ Use these for quick drills. Read the **Q** side, answer aloud, then flip to **A*
 
 ---
 
-## Roles & Responsibilities
+## ⭐ Roles & Responsibilities
 
 **Q61:** What is the main responsibility of a test manager?
 **A:** Planning, organizing, directing, and controlling testing activities; resource and schedule management.
@@ -240,7 +275,7 @@ Use these for quick drills. Read the **Q** side, answer aloud, then flip to **A*
 
 ---
 
-## Quality Characteristics (ISO 25010)
+## 💎 Quality Characteristics (ISO 25010)
 
 **Q65:** Name four functional suitability sub-characteristics.
 **A:** Functional completeness, functional correctness, functional appropriateness.
@@ -268,7 +303,7 @@ Use these for quick drills. Read the **Q** side, answer aloud, then flip to **A*
 
 ---
 
-## Maintenance Testing
+## ⭐ Maintenance Testing
 
 **Q73:** What triggers maintenance testing?
 **A:** Modifications (planned enhancements, patches), migration to new environments, retirement.
@@ -278,14 +313,14 @@ Use these for quick drills. Read the **Q** side, answer aloud, then flip to **A*
 
 ---
 
-## Keyword-Driven Testing
+## ⭐ Keyword-Driven Testing
 
 **Q75:** What is keyword-driven testing?
 **A:** A scripting technique where test cases use keywords (actions) that map to reusable script functions, separating test logic from implementation.
 
 ---
 
-## Shift-Left and DevOps
+## ⭐ Shift-Left and DevOps
 
 **Q76:** What does "shift-left" mean in testing?
 **A:** Moving testing activities earlier in the SDLC — starting during requirements and design rather than after coding.
@@ -298,7 +333,7 @@ Use these for quick drills. Read the **Q** side, answer aloud, then flip to **A*
 
 ---
 
-## Exam-Specific Reminders
+## 🎓 Exam-Specific Reminders
 
 **Q79:** What K-levels are tested in CTFL v4.0?
 **A:** K1 (remember), K2 (understand), K3 (apply).
@@ -320,7 +355,7 @@ Use these for quick drills. Read the **Q** side, answer aloud, then flip to **A*
 
 ---
 
-## Common Distractor Patterns
+## ⭐ Common Distractor Patterns
 
 **Q85:** "Testing proves the software is correct." True or false?
 **A:** False. Testing can only show the presence of defects, not prove correctness.
@@ -342,7 +377,7 @@ Use these for quick drills. Read the **Q** side, answer aloud, then flip to **A*
 
 ---
 
-## Quick Calculations
+## ⭐ Quick Calculations
 
 **Q91:** A system has a valid range of 18-65 for age. Using standard BVA, which values should be tested?
 **A:** 18 and 65.

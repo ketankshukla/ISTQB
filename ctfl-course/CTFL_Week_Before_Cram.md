@@ -1,10 +1,45 @@
-# CTFL v4.0 — Week Before Exam Cram Plan
+<!-- ISTQB-BEAUTIFY-V1 -->
+<style>
+html, body {
+  background-color: #000000 !important;
+  color: #F5F5F5 !important;
+}
+body {
+  font-size: 19px !important;
+  line-height: 1.85 !important;
+  font-family: 'Segoe UI', 'Trebuchet MS', Verdana, sans-serif !important;
+  padding: 24px 44px !important;
+  letter-spacing: 0.2px;
+}
+h1 { color: #FFD700 !important; font-size: 2.7em !important; font-weight: 800 !important; border-bottom: 3px solid #FF5252 !important; padding-bottom: 0.25em; }
+h2 { color: #00E5FF !important; font-size: 2.05em !important; font-weight: 800 !important; border-bottom: 2px solid #00E5FF !important; padding-bottom: 0.2em; }
+h3 { color: #69F0AE !important; font-size: 1.6em !important; font-weight: 700 !important; }
+h4 { color: #FF80AB !important; font-size: 1.35em !important; font-weight: 700 !important; }
+h5 { color: #FFAB40 !important; font-size: 1.2em !important; font-weight: 700 !important; }
+h6 { color: #B388FF !important; font-size: 1.1em !important; font-weight: 700 !important; }
+p, li, td, th, span, div { font-size: 1em !important; color: #F5F5F5 !important; }
+strong, b { color: #FFEB3B !important; }
+em, i { color: #FF8A65 !important; }
+a { color: #40C4FF !important; text-decoration: underline; }
+a:hover { color: #80D8FF !important; }
+code { color: #FF4081 !important; background: transparent !important; font-size: 0.95em !important; }
+pre { background: transparent !important; border: 1px solid #555 !important; border-radius: 8px; padding: 14px !important; }
+pre code { color: #80CBC4 !important; }
+blockquote { color: #B0BEC5 !important; border-left: 5px solid #FFD700 !important; background: transparent !important; padding-left: 18px; font-style: italic; }
+table { border-collapse: collapse !important; background: transparent !important; }
+th { color: #FFD700 !important; border: 2px solid #00E5FF !important; background: transparent !important; padding: 8px 12px !important; }
+td { color: #F5F5F5 !important; border: 1px solid #607D8B !important; background: transparent !important; padding: 8px 12px !important; }
+hr { border: none; border-top: 2px dashed #FF5252 !important; margin: 1.5em 0; }
+ul li::marker { color: #69F0AE !important; font-size: 1.1em; }
+ol li::marker { color: #00E5FF !important; font-weight: bold; }
+</style>
+# ⏰ CTFL v4.0 — Week Before Exam Cram Plan
 
 A day-by-day schedule for the final 7 days before your CTFL exam. Each day is designed to fit in 1.5–2 hours of focused study.
 
 ---
 
-## Day 7 (One Week Out) — Foundations & Principles
+## 📜 Day 7 (One Week Out) — Foundations & Principles
 
 **Goal:** Lock in the seven principles, test levels, test types, and the error/defect/failure chain.
 
@@ -24,7 +59,7 @@ A day-by-day schedule for the final 7 days before your CTFL exam. Each day is de
 
 ---
 
-## Day 6 — SDLC & Test Levels
+## 🪜 Day 6 — SDLC & Test Levels
 
 **Goal:** Master test levels, maintenance testing, and shift-left concepts.
 
@@ -44,7 +79,7 @@ A day-by-day schedule for the final 7 days before your CTFL exam. Each day is de
 
 ---
 
-## Day 5 — Static Testing & Reviews
+## 🔍 Day 5 — Static Testing & Reviews
 
 **Goal:** Know the review types, roles, and static analysis tool capabilities cold.
 
@@ -64,7 +99,7 @@ A day-by-day schedule for the final 7 days before your CTFL exam. Each day is de
 
 ---
 
-## Day 4 — Test Techniques (The Heavy Day)
+## 🎯 Day 4 — Test Techniques (The Heavy Day)
 
 **Goal:** Be able to calculate EP, BVA, decision tables, and state transitions without hesitation.
 
@@ -85,7 +120,7 @@ A day-by-day schedule for the final 7 days before your CTFL exam. Each day is de
 
 ---
 
-## Day 3 — Test Management & Coverage
+## 📊 Day 3 — Test Management & Coverage
 
 **Goal:** Master test activities, estimation, risk, defect reporting, and exit criteria.
 
@@ -105,7 +140,7 @@ A day-by-day schedule for the final 7 days before your CTFL exam. Each day is de
 
 ---
 
-## Day 2 — Tools & Quality Characteristics
+## 🛠️ Day 2 — Tools & Quality Characteristics
 
 **Goal:** Finalize tool categories, ISO 25010 characteristics, and configuration management.
 
@@ -127,7 +162,7 @@ A day-by-day schedule for the final 7 days before your CTFL exam. Each day is de
 
 ---
 
-## Day 1 (The Day Before) — Light Review & Confidence
+## 🔎 Day 1 (The Day Before) — Light Review & Confidence
 
 **Goal:** Refresh memory without cramming. Build confidence. Sleep well.
 
@@ -146,7 +181,7 @@ A day-by-day schedule for the final 7 days before your CTFL exam. Each day is de
 
 ---
 
-## Exam Day Morning
+## 🎓 Exam Day Morning
 
 **Before leaving:**
 - Read `CTFL_Exam_Cheat_Sheet.md` one more time
@@ -163,7 +198,7 @@ A day-by-day schedule for the final 7 days before your CTFL exam. Each day is de
 
 ---
 
-## Score Targets
+## ⭐ Score Targets
 
 | Practice Set | Target | Meaning |
 |--------------|--------|---------|
@@ -176,7 +211,7 @@ If you are scoring below 14/20 on mocks by Day 2, spend extra time on the chapte
 
 ---
 
-## What to Bring to the Test Center
+## ⭐ What to Bring to the Test Center
 
 - Valid government-issued photo ID
 - Exam registration confirmation (email or printout)

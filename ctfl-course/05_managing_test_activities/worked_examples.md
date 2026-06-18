@@ -1,12 +1,47 @@
-# Chapter 5 — Worked Examples
+<!-- ISTQB-BEAUTIFY-V1 -->
+<style>
+html, body {
+  background-color: #000000 !important;
+  color: #F5F5F5 !important;
+}
+body {
+  font-size: 19px !important;
+  line-height: 1.85 !important;
+  font-family: 'Segoe UI', 'Trebuchet MS', Verdana, sans-serif !important;
+  padding: 24px 44px !important;
+  letter-spacing: 0.2px;
+}
+h1 { color: #FFD700 !important; font-size: 2.7em !important; font-weight: 800 !important; border-bottom: 3px solid #FF5252 !important; padding-bottom: 0.25em; }
+h2 { color: #00E5FF !important; font-size: 2.05em !important; font-weight: 800 !important; border-bottom: 2px solid #00E5FF !important; padding-bottom: 0.2em; }
+h3 { color: #69F0AE !important; font-size: 1.6em !important; font-weight: 700 !important; }
+h4 { color: #FF80AB !important; font-size: 1.35em !important; font-weight: 700 !important; }
+h5 { color: #FFAB40 !important; font-size: 1.2em !important; font-weight: 700 !important; }
+h6 { color: #B388FF !important; font-size: 1.1em !important; font-weight: 700 !important; }
+p, li, td, th, span, div { font-size: 1em !important; color: #F5F5F5 !important; }
+strong, b { color: #FFEB3B !important; }
+em, i { color: #FF8A65 !important; }
+a { color: #40C4FF !important; text-decoration: underline; }
+a:hover { color: #80D8FF !important; }
+code { color: #FF4081 !important; background: transparent !important; font-size: 0.95em !important; }
+pre { background: transparent !important; border: 1px solid #555 !important; border-radius: 8px; padding: 14px !important; }
+pre code { color: #80CBC4 !important; }
+blockquote { color: #B0BEC5 !important; border-left: 5px solid #FFD700 !important; background: transparent !important; padding-left: 18px; font-style: italic; }
+table { border-collapse: collapse !important; background: transparent !important; }
+th { color: #FFD700 !important; border: 2px solid #00E5FF !important; background: transparent !important; padding: 8px 12px !important; }
+td { color: #F5F5F5 !important; border: 1px solid #607D8B !important; background: transparent !important; padding: 8px 12px !important; }
+hr { border: none; border-top: 2px dashed #FF5252 !important; margin: 1.5em 0; }
+ul li::marker { color: #69F0AE !important; font-size: 1.1em; }
+ol li::marker { color: #00E5FF !important; font-weight: bold; }
+</style>
+# 💡 Chapter 5 — Worked Examples
 
 Step-by-step examples for risk analysis, test prioritization, and defect reports.
 
 ---
 
-## PRODUCT RISK ANALYSIS — Worked Examples
+## 💡 PRODUCT RISK ANALYSIS — Worked Examples
 
-### Example RA-1: E-Commerce Payment Module
+### 💡 Example RA-1: E-Commerce Payment Module
 
 **Context:** A team is about to begin system testing for a new payment processing module. They conduct a product risk analysis session.
 
@@ -52,7 +87,7 @@ Step-by-step examples for risk analysis, test prioritization, and defect reports
 
 ---
 
-### Example RA-2: User Registration Feature
+### 💡 Example RA-2: User Registration Feature
 
 **Risks identified:**
 
@@ -72,7 +107,7 @@ Step-by-step examples for risk analysis, test prioritization, and defect reports
 
 ---
 
-### Example RA-3: Risk-Based Test Prioritization
+### 💡 Example RA-3: Risk-Based Test Prioritization
 
 **Scenario:** A sprint has 5 user stories. Only 3 days of testing time are available. The team prioritizes based on product risk:
 
@@ -88,9 +123,9 @@ If time runs out, the highest-risk stories have already been tested. The team do
 
 ---
 
-## DEFECT REPORT — Worked Examples
+## 💡 DEFECT REPORT — Worked Examples
 
-### Example DR-1: Incorrect Discount Calculation
+### 💡 Example DR-1: Incorrect Discount Calculation
 
 ```
 DEFECT REPORT
@@ -139,7 +174,7 @@ NOTES:
 
 ---
 
-### Example DR-2: Application Crash on Empty Search
+### 💡 Example DR-2: Application Crash on Empty Search
 
 ```
 DEFECT REPORT
@@ -188,7 +223,7 @@ NOTES:
 
 ---
 
-### Example DR-3: Minor UI Defect
+### 💡 Example DR-3: Minor UI Defect
 
 ```
 DEFECT REPORT
@@ -231,7 +266,7 @@ NOTES:
 
 ---
 
-## KEY PRINCIPLES FOR WRITING GOOD DEFECT REPORTS
+## 📜 KEY PRINCIPLES FOR WRITING GOOD DEFECT REPORTS
 
 1. **One defect per report.** Do not combine multiple issues.
 2. **Reproducible steps.** Another person should be able to reproduce the defect by following your steps exactly.
@@ -244,9 +279,9 @@ NOTES:
 
 ---
 
-## TEST CASE PRIORITIZATION — Worked Example
+## 💡 TEST CASE PRIORITIZATION — Worked Example
 
-### Example TP-1: Regression Suite Prioritization
+### 💡 Example TP-1: Regression Suite Prioritization
 
 **Scenario:** A regression suite has 50 test cases. Due to a shortened sprint, only 30 can be executed. Prioritize using risk-based criteria.
 

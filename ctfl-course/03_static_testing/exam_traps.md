@@ -1,8 +1,43 @@
-# Chapter 3 — Exam Traps
+<!-- ISTQB-BEAUTIFY-V1 -->
+<style>
+html, body {
+  background-color: #000000 !important;
+  color: #F5F5F5 !important;
+}
+body {
+  font-size: 19px !important;
+  line-height: 1.85 !important;
+  font-family: 'Segoe UI', 'Trebuchet MS', Verdana, sans-serif !important;
+  padding: 24px 44px !important;
+  letter-spacing: 0.2px;
+}
+h1 { color: #FFD700 !important; font-size: 2.7em !important; font-weight: 800 !important; border-bottom: 3px solid #FF5252 !important; padding-bottom: 0.25em; }
+h2 { color: #00E5FF !important; font-size: 2.05em !important; font-weight: 800 !important; border-bottom: 2px solid #00E5FF !important; padding-bottom: 0.2em; }
+h3 { color: #69F0AE !important; font-size: 1.6em !important; font-weight: 700 !important; }
+h4 { color: #FF80AB !important; font-size: 1.35em !important; font-weight: 700 !important; }
+h5 { color: #FFAB40 !important; font-size: 1.2em !important; font-weight: 700 !important; }
+h6 { color: #B388FF !important; font-size: 1.1em !important; font-weight: 700 !important; }
+p, li, td, th, span, div { font-size: 1em !important; color: #F5F5F5 !important; }
+strong, b { color: #FFEB3B !important; }
+em, i { color: #FF8A65 !important; }
+a { color: #40C4FF !important; text-decoration: underline; }
+a:hover { color: #80D8FF !important; }
+code { color: #FF4081 !important; background: transparent !important; font-size: 0.95em !important; }
+pre { background: transparent !important; border: 1px solid #555 !important; border-radius: 8px; padding: 14px !important; }
+pre code { color: #80CBC4 !important; }
+blockquote { color: #B0BEC5 !important; border-left: 5px solid #FFD700 !important; background: transparent !important; padding-left: 18px; font-style: italic; }
+table { border-collapse: collapse !important; background: transparent !important; }
+th { color: #FFD700 !important; border: 2px solid #00E5FF !important; background: transparent !important; padding: 8px 12px !important; }
+td { color: #F5F5F5 !important; border: 1px solid #607D8B !important; background: transparent !important; padding: 8px 12px !important; }
+hr { border: none; border-top: 2px dashed #FF5252 !important; margin: 1.5em 0; }
+ul li::marker { color: #69F0AE !important; font-size: 1.1em; }
+ol li::marker { color: #00E5FF !important; font-weight: bold; }
+</style>
+# 🪤 Chapter 3 — Exam Traps
 
 ---
 
-## Trap 1: Static Testing Finds Defects, Dynamic Testing Finds Failures
+## 🪤 Trap 1: Static Testing Finds Defects, Dynamic Testing Finds Failures
 
 This is the single most important distinction in Chapter 3:
 
@@ -13,7 +48,7 @@ This is the single most important distinction in Chapter 3:
 
 ---
 
-## Trap 2: Walkthrough vs Inspection — Who Leads?
+## 🪤 Trap 2: Walkthrough vs Inspection — Who Leads?
 
 | Review Type | Led By |
 |-------------|--------|
@@ -24,7 +59,7 @@ This is the single most important distinction in Chapter 3:
 
 ---
 
-## Trap 3: Where Are Most Defects Found in a Formal Review?
+## 🪤 Trap 3: Where Are Most Defects Found in a Formal Review?
 
 Most defects are found during **individual preparation** (step 3), NOT during the review meeting. The meeting is for discussion, clarification, and consensus — but the hard work of finding defects happens when each reviewer studies the material alone.
 
@@ -32,7 +67,7 @@ Most defects are found during **individual preparation** (step 3), NOT during th
 
 ---
 
-## Trap 4: Informal Review vs Walkthrough
+## 🪤 Trap 4: Informal Review vs Walkthrough
 
 Both are low formality, but they differ:
 
@@ -43,7 +78,7 @@ Both are low formality, but they differ:
 
 ---
 
-## Trap 5: What Static Testing Can Find That Dynamic Testing Cannot
+## 🪤 Trap 5: What Static Testing Can Find That Dynamic Testing Cannot
 
 Static testing uniquely detects:
 - Requirements ambiguities and contradictions
@@ -57,7 +92,7 @@ Static testing uniquely detects:
 
 ---
 
-## Trap 6: Static Analysis vs Reviews
+## 🪤 Trap 6: Static Analysis vs Reviews
 
 Both are forms of static testing, but:
 
@@ -72,7 +107,7 @@ Both are forms of static testing, but:
 
 ---
 
-## Trap 7: Entry Criteria for Inspections
+## 🪤 Trap 7: Entry Criteria for Inspections
 
 Inspections have formal entry criteria that must be met BEFORE the review can proceed:
 
@@ -85,7 +120,7 @@ Inspections have formal entry criteria that must be met BEFORE the review can pr
 
 ---
 
-## Trap 8: Review Metrics Are an Inspection Feature
+## 🪤 Trap 8: Review Metrics Are an Inspection Feature
 
 Only inspections formally collect and track metrics for process improvement:
 - Number of defects found per page/per hour
@@ -97,7 +132,7 @@ Only inspections formally collect and track metrics for process improvement:
 
 ---
 
-## Trap 9: Technical Review vs Inspection
+## 🪤 Trap 9: Technical Review vs Inspection
 
 Both are moderately-to-highly formal, but key differences:
 
@@ -114,7 +149,7 @@ Both are moderately-to-highly formal, but key differences:
 
 ---
 
-## Trap 10: The Author's Role in Reviews
+## 🪤 Trap 10: The Author's Role in Reviews
 
 - In a **walkthrough**: the author LEADS and PRESENTS
 - In a **technical review**: the author PARTICIPATES but does not lead
@@ -124,7 +159,7 @@ Both are moderately-to-highly formal, but key differences:
 
 ---
 
-## Trap 11: Success Factor — Culture
+## 🪤 Trap 11: Success Factor — Culture
 
 The most important success factor is organizational culture:
 - Defect findings must be treated as constructive feedback, not personal criticism
@@ -135,7 +170,7 @@ The most important success factor is organizational culture:
 
 ---
 
-## Trap 12: Static Testing Is NOT Optional
+## 🪤 Trap 12: Static Testing Is NOT Optional
 
 The exam may present static testing as equally important to dynamic testing. It is NOT a lesser or optional activity. In fact:
 - Static testing can find defects that dynamic testing CANNOT find (requirements ambiguities)

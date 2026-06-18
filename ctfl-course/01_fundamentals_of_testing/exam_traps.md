@@ -1,10 +1,45 @@
-# Chapter 1 — Exam Traps
+<!-- ISTQB-BEAUTIFY-V1 -->
+<style>
+html, body {
+  background-color: #000000 !important;
+  color: #F5F5F5 !important;
+}
+body {
+  font-size: 19px !important;
+  line-height: 1.85 !important;
+  font-family: 'Segoe UI', 'Trebuchet MS', Verdana, sans-serif !important;
+  padding: 24px 44px !important;
+  letter-spacing: 0.2px;
+}
+h1 { color: #FFD700 !important; font-size: 2.7em !important; font-weight: 800 !important; border-bottom: 3px solid #FF5252 !important; padding-bottom: 0.25em; }
+h2 { color: #00E5FF !important; font-size: 2.05em !important; font-weight: 800 !important; border-bottom: 2px solid #00E5FF !important; padding-bottom: 0.2em; }
+h3 { color: #69F0AE !important; font-size: 1.6em !important; font-weight: 700 !important; }
+h4 { color: #FF80AB !important; font-size: 1.35em !important; font-weight: 700 !important; }
+h5 { color: #FFAB40 !important; font-size: 1.2em !important; font-weight: 700 !important; }
+h6 { color: #B388FF !important; font-size: 1.1em !important; font-weight: 700 !important; }
+p, li, td, th, span, div { font-size: 1em !important; color: #F5F5F5 !important; }
+strong, b { color: #FFEB3B !important; }
+em, i { color: #FF8A65 !important; }
+a { color: #40C4FF !important; text-decoration: underline; }
+a:hover { color: #80D8FF !important; }
+code { color: #FF4081 !important; background: transparent !important; font-size: 0.95em !important; }
+pre { background: transparent !important; border: 1px solid #555 !important; border-radius: 8px; padding: 14px !important; }
+pre code { color: #80CBC4 !important; }
+blockquote { color: #B0BEC5 !important; border-left: 5px solid #FFD700 !important; background: transparent !important; padding-left: 18px; font-style: italic; }
+table { border-collapse: collapse !important; background: transparent !important; }
+th { color: #FFD700 !important; border: 2px solid #00E5FF !important; background: transparent !important; padding: 8px 12px !important; }
+td { color: #F5F5F5 !important; border: 1px solid #607D8B !important; background: transparent !important; padding: 8px 12px !important; }
+hr { border: none; border-top: 2px dashed #FF5252 !important; margin: 1.5em 0; }
+ul li::marker { color: #69F0AE !important; font-size: 1.1em; }
+ol li::marker { color: #00E5FF !important; font-weight: bold; }
+</style>
+# 🪤 Chapter 1 — Exam Traps
 
 These are the specific distinctions, tricky phrasings, and common mistakes that ISTQB loves to test in Chapter 1 questions. Study these carefully.
 
 ---
 
-## Trap 1: Error vs Defect vs Failure
+## 🪤 Trap 1: Error vs Defect vs Failure
 
 The exam frequently tests whether you can correctly classify a scenario:
 
@@ -21,7 +56,7 @@ The exam frequently tests whether you can correctly classify a scenario:
 
 ---
 
-## Trap 2: Testing vs Debugging
+## 🪤 Trap 2: Testing vs Debugging
 
 The exam tests that you know these are distinct activities:
 
@@ -32,7 +67,7 @@ The exam tests that you know these are distinct activities:
 
 ---
 
-## Trap 3: Testing vs Quality Assurance
+## 🪤 Trap 3: Testing vs Quality Assurance
 
 Candidates often confuse these:
 
@@ -44,7 +79,7 @@ Candidates often confuse these:
 
 ---
 
-## Trap 4: The Seven Principles — Precise Wording
+## 🪤 Trap 4: The Seven Principles — Precise Wording
 
 - **Principle 1** says testing shows the PRESENCE of defects. It does NOT say testing shows the absence. Any answer claiming testing proves software is defect-free is wrong.
 - **Principle 2** (exhaustive testing is impossible) does NOT mean testing is pointless. It means we must use techniques to focus effort.
@@ -55,7 +90,7 @@ Candidates often confuse these:
 
 ---
 
-## Trap 5: Test Objectives Are Context-Dependent
+## 🪤 Trap 5: Test Objectives Are Context-Dependent
 
 The exam may present different test scenarios and ask you to identify the PRIMARY objective:
 
@@ -68,7 +103,7 @@ The exam may present different test scenarios and ask you to identify the PRIMAR
 
 ---
 
-## Trap 6: Test Activities — Analysis vs Design vs Implementation
+## 🪤 Trap 6: Test Activities — Analysis vs Design vs Implementation
 
 These three are frequently confused:
 
@@ -82,7 +117,7 @@ These three are frequently confused:
 
 ---
 
-## Trap 7: Traceability Direction
+## 🪤 Trap 7: Traceability Direction
 
 Traceability is bidirectional:
 - Forward traceability: requirement -> test case (ensures every requirement is tested)
@@ -92,7 +127,7 @@ Traceability is bidirectional:
 
 ---
 
-## Trap 8: Test Management Role vs Testing Role
+## 🪤 Trap 8: Test Management Role vs Testing Role
 
 - The **management role** plans, monitors, and controls. It does NOT write test cases.
 - The **testing role** analyzes, designs, implements, and executes. It does NOT own the overall test plan.
@@ -101,7 +136,7 @@ Traceability is bidirectional:
 
 ---
 
-## Trap 9: Independence — Benefits AND Drawbacks
+## 🪤 Trap 9: Independence — Benefits AND Drawbacks
 
 The exam loves to test that you know BOTH sides:
 
@@ -112,7 +147,7 @@ The exam loves to test that you know BOTH sides:
 
 ---
 
-## Trap 10: Whole-Team Approach Does Not Eliminate Testers
+## 🪤 Trap 10: Whole-Team Approach Does Not Eliminate Testers
 
 The whole-team approach means everyone shares responsibility for quality. It does NOT mean:
 - Dedicated testers are unnecessary
@@ -126,7 +161,7 @@ It DOES mean:
 
 ---
 
-## Trap 11: Root Cause vs Defect
+## 🪤 Trap 11: Root Cause vs Defect
 
 - A **defect** is the immediate flaw in the work product
 - A **root cause** is the underlying reason the error happened in the first place
@@ -137,7 +172,7 @@ The exam may ask: "What is the purpose of root cause analysis?" Answer: To preve
 
 ---
 
-## Quick-Reference: What Each Principle is NOT
+## 📜 Quick-Reference: What Each Principle is NOT
 
 | Principle | What it does NOT say |
 |-----------|---------------------|

@@ -1,134 +1,169 @@
-# Mock Exam 3 — Answer Key
+<!-- ISTQB-BEAUTIFY-V1 -->
+<style>
+html, body {
+  background-color: #000000 !important;
+  color: #F5F5F5 !important;
+}
+body {
+  font-size: 19px !important;
+  line-height: 1.85 !important;
+  font-family: 'Segoe UI', 'Trebuchet MS', Verdana, sans-serif !important;
+  padding: 24px 44px !important;
+  letter-spacing: 0.2px;
+}
+h1 { color: #FFD700 !important; font-size: 2.7em !important; font-weight: 800 !important; border-bottom: 3px solid #FF5252 !important; padding-bottom: 0.25em; }
+h2 { color: #00E5FF !important; font-size: 2.05em !important; font-weight: 800 !important; border-bottom: 2px solid #00E5FF !important; padding-bottom: 0.2em; }
+h3 { color: #69F0AE !important; font-size: 1.6em !important; font-weight: 700 !important; }
+h4 { color: #FF80AB !important; font-size: 1.35em !important; font-weight: 700 !important; }
+h5 { color: #FFAB40 !important; font-size: 1.2em !important; font-weight: 700 !important; }
+h6 { color: #B388FF !important; font-size: 1.1em !important; font-weight: 700 !important; }
+p, li, td, th, span, div { font-size: 1em !important; color: #F5F5F5 !important; }
+strong, b { color: #FFEB3B !important; }
+em, i { color: #FF8A65 !important; }
+a { color: #40C4FF !important; text-decoration: underline; }
+a:hover { color: #80D8FF !important; }
+code { color: #FF4081 !important; background: transparent !important; font-size: 0.95em !important; }
+pre { background: transparent !important; border: 1px solid #555 !important; border-radius: 8px; padding: 14px !important; }
+pre code { color: #80CBC4 !important; }
+blockquote { color: #B0BEC5 !important; border-left: 5px solid #FFD700 !important; background: transparent !important; padding-left: 18px; font-style: italic; }
+table { border-collapse: collapse !important; background: transparent !important; }
+th { color: #FFD700 !important; border: 2px solid #00E5FF !important; background: transparent !important; padding: 8px 12px !important; }
+td { color: #F5F5F5 !important; border: 1px solid #607D8B !important; background: transparent !important; padding: 8px 12px !important; }
+hr { border: none; border-top: 2px dashed #FF5252 !important; margin: 1.5em 0; }
+ul li::marker { color: #69F0AE !important; font-size: 1.1em; }
+ol li::marker { color: #00E5FF !important; font-weight: bold; }
+</style>
+# 📝 Mock Exam 3 — Answer Key
 
 ---
 
-### Q1 — Answer: C
+### ✔️ Q1 — Answer: C
 The pesticide paradox states that repeating the same tests eventually stops finding new defects. Tests must be refreshed and supplemented.
 
-### Q2 — Answer: B
+### ✔️ Q2 — Answer: B
 Root cause analysis identifies the fundamental reason an error occurred (e.g., unclear process, inadequate training) to prevent recurrence. It is NOT about blame.
 
-### Q3 — Answer: C
+### ✔️ Q3 — Answer: C
 The whole-team approach fosters shared responsibility and faster feedback. It does NOT eliminate testing skills or slow development.
 
-### Q4 — Answer: C
+### ✔️ Q4 — Answer: C
 Component (unit) testing isolates individual components using stubs and mocks to replace dependencies.
 
-### Q5 — Answer: B
+### ✔️ Q5 — Answer: B
 OAT validates operational needs: backup/restore, disaster recovery, installation, maintenance procedures. UAT validates business user needs. Performance testing covers load.
 
-### Q6 — Answer: C
+### ✔️ Q6 — Answer: C
 Iterative and incremental models build the system in repeated cycles, each delivering a working increment. Waterfall and V-model are sequential.
 
-### Q7 — Answer: B
+### ✔️ Q7 — Answer: B
 Involving testers early in story refinement to identify issues before development is a shift-left practice.
 
-### Q8 — Answer: B
+### ✔️ Q8 — Answer: B
 Static testing (no execution, finds defects directly) and dynamic testing (executes code, finds failures) are complementary. Both are needed.
 
-### Q9 — Answer: B
+### ✔️ Q9 — Answer: B
 The facilitator (moderator) leads the review meeting and ensures the process is followed correctly.
 
-### Q10 — Answer: C
+### ✔️ Q10 — Answer: C
 A supportive culture where findings are constructive (not personal attacks) is the most important success factor for reviews.
 
-### Q11 — Answer: C
+### ✔️ Q11 — Answer: C
 4 partitions (<1, 1-1000, >1000, non-integer) = 4 minimum test cases (one representative from each partition).
 
-### Q12 — Answer: A
+### ✔️ Q12 — Answer: A
 Two-value BVA for [1, 1000]: lower boundary = 0 (invalid), 1 (valid). Upper boundary = 1000 (valid), 1001 (invalid). Set: {0, 1, 1000, 1001}.
 
-### Q13 — Answer: A
+### ✔️ Q13 — Answer: A
 With 3 conditions, 2^3 = 8 rules total. Only 1 rule (all TRUE) leads to "Approved." The other 7 all lead to "Rejected." Since any FALSE in any condition produces the same outcome, all 7 rejection rules can theoretically be collapsed. However, for ISTQB purposes: the 7 non-approved rules can be represented more compactly but individual collapsed rules may still be needed for each "first FALSE" condition. The key insight: all combinations except TTT -> Rejected, so they collapse significantly.
 
-### Q14 — Answer: B
+### ✔️ Q14 — Answer: B
 An invalid transition is one that should NOT be possible in the current state. Testing it verifies the system correctly rejects the impossible event.
 
-### Q15 — Answer: B
+### ✔️ Q15 — Answer: B
 Statement coverage = (8 exercised / 10 total) x 100% = 80%.
 
-### Q16 — Answer: C
+### ✔️ Q16 — Answer: C
 Branches: Line 2 T/F (2) + Line 3 T/F (2) = 4 branches.
 - TC1: age=20, hasLicense=true -> L2T, L3T -> "can drive"
 - TC2: age=20, hasLicense=false -> L2T, L3F -> "get license first"
 - TC3: age=16, any -> L2F -> "too young"
 3 test cases cover all 4 branches.
 
-### Q17 — Answer: C
+### ✔️ Q17 — Answer: C
 Decision table testing is designed specifically for complex business rules with multiple interacting conditions. EP handles single-input partitioning; state transition handles state-based behavior.
 
-### Q18 — Answer: B
+### ✔️ Q18 — Answer: B
 Exploratory testing is simultaneous design, execution, and learning — structured by charters and time-boxes. It is NOT random or unplanned.
 
-### Q19 — Answer: B
+### ✔️ Q19 — Answer: B
 Given/When/Then is the Gherkin format associated with BDD. "As a / I want / So that" is the user story format.
 
-### Q20 — Answer: B
+### ✔️ Q20 — Answer: B
 Deriving tests from acceptance criteria before development, with collaborative definition by all roles, is ATDD.
 
-### Q21 — Answer: C
+### ✔️ Q21 — Answer: C
 A test plan contains objectives, scope, approach, schedule, resources, entry/exit criteria, and risk mitigation strategies.
 
-### Q22 — Answer: B
+### ✔️ Q22 — Answer: B
 Wideband Delphi uses anonymous independent estimates followed by discussion rounds to converge on consensus. Planning Poker reveals estimates simultaneously with cards.
 
-### Q23 — Answer: B
+### ✔️ Q23 — Answer: B
 Risk-based prioritization executes tests covering the highest-risk features first, ensuring critical areas are tested even if time runs out.
 
-### Q24 — Answer: A
+### ✔️ Q24 — Answer: A
 Q1 (technology-facing, supporting the team) contains unit tests, component tests, and TDD — fast automated tests that guide development.
 
-### Q25 — Answer: B
+### ✔️ Q25 — Answer: B
 Risk level = Likelihood x Impact = 4 x 4 = 16.
 
-### Q26 — Answer: B
+### ✔️ Q26 — Answer: B
 Security vulnerabilities are a product risk (product quality threat). A, C, D are project risks (schedule, staffing, tooling).
 
-### Q27 — Answer: B
+### ✔️ Q27 — Answer: B
 Test progress reports target the test team and project manager with current test status vs plan, including blockers and risks.
 
-### Q28 — Answer: B
+### ✔️ Q28 — Answer: B
 Risk-based testing allocates effort proportionally: more thorough testing for higher-risk features, basic coverage for lower-risk ones.
 
-### Q29 — Answer: C
+### ✔️ Q29 — Answer: C
 Severity and priority are independent dimensions. A high-severity crash in a rarely-used feature can legitimately have low business priority if a workaround exists.
 
-### Q30 — Answer: B
+### ✔️ Q30 — Answer: B
 CM records exact versions of code, data, and environment, enabling accurate reproduction of reported defects.
 
-### Q31 — Answer: C
+### ✔️ Q31 — Answer: C
 Automated code checking without execution (for standards, dead code, security patterns) is static analysis.
 
-### Q32 — Answer: C
+### ✔️ Q32 — Answer: C
 Fragile tests that break with UI changes and require expensive maintenance are a well-known risk of automation. A, B, D are benefits.
 
-### Q33 — Answer: B
+### ✔️ Q33 — Answer: B
 Automated tests only verify what they are programmed to check. They cannot replace human creativity (exploratory testing), usability judgment, or ad hoc observation.
 
-### Q34 — Answer: C
+### ✔️ Q34 — Answer: C
 Test management tools track progress, manage test case repositories, and generate reports.
 
-### Q35 — Answer: B
+### ✔️ Q35 — Answer: B
 The valid partition is the range of accepted values: -40 to 120. A, C, D are invalid partitions.
 
-### Q36 — Answer: A
+### ✔️ Q36 — Answer: A
 Two-value BVA for [-40, 120]: lower boundary = -41 (invalid), -40 (valid). Upper boundary = 120 (valid), 121 (invalid). Set: {-41, -40, 120, 121}.
 
-### Q37 — Answer: B
+### ✔️ Q37 — Answer: B
 The traffic light has 3 transitions forming a simple cycle: Red->Green->Yellow->Red. A single test case traversing the full cycle (Red->Green->Yellow->Red) covers all 3 transitions. Minimum: 1 test case.
 
-### Q38 — Answer: B
+### ✔️ Q38 — Answer: B
 Reviewing requirements and writing tests before development is a quintessential shift-left activity. A, C, D are opposite or counterproductive.
 
-### Q39 — Answer: C
+### ✔️ Q39 — Answer: C
 "Steps to reproduce" describes the specific actions needed to trigger the failure. Expected result states what should happen; severity/priority rate the defect.
 
-### Q40 — Answer: B
+### ✔️ Q40 — Answer: B
 100% branch coverage guarantees 100% statement coverage. Exercising every branch direction (TRUE and FALSE for all decisions) necessarily visits all reachable executable statements.
 
 ---
 
-## Score Interpretation
+## ⭐ Score Interpretation
 
 | Score | Assessment |
 |-------|-----------|

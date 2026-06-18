@@ -1,12 +1,47 @@
-# Chapter 2 — Practice Questions
+<!-- ISTQB-BEAUTIFY-V1 -->
+<style>
+html, body {
+  background-color: #000000 !important;
+  color: #F5F5F5 !important;
+}
+body {
+  font-size: 19px !important;
+  line-height: 1.85 !important;
+  font-family: 'Segoe UI', 'Trebuchet MS', Verdana, sans-serif !important;
+  padding: 24px 44px !important;
+  letter-spacing: 0.2px;
+}
+h1 { color: #FFD700 !important; font-size: 2.7em !important; font-weight: 800 !important; border-bottom: 3px solid #FF5252 !important; padding-bottom: 0.25em; }
+h2 { color: #00E5FF !important; font-size: 2.05em !important; font-weight: 800 !important; border-bottom: 2px solid #00E5FF !important; padding-bottom: 0.2em; }
+h3 { color: #69F0AE !important; font-size: 1.6em !important; font-weight: 700 !important; }
+h4 { color: #FF80AB !important; font-size: 1.35em !important; font-weight: 700 !important; }
+h5 { color: #FFAB40 !important; font-size: 1.2em !important; font-weight: 700 !important; }
+h6 { color: #B388FF !important; font-size: 1.1em !important; font-weight: 700 !important; }
+p, li, td, th, span, div { font-size: 1em !important; color: #F5F5F5 !important; }
+strong, b { color: #FFEB3B !important; }
+em, i { color: #FF8A65 !important; }
+a { color: #40C4FF !important; text-decoration: underline; }
+a:hover { color: #80D8FF !important; }
+code { color: #FF4081 !important; background: transparent !important; font-size: 0.95em !important; }
+pre { background: transparent !important; border: 1px solid #555 !important; border-radius: 8px; padding: 14px !important; }
+pre code { color: #80CBC4 !important; }
+blockquote { color: #B0BEC5 !important; border-left: 5px solid #FFD700 !important; background: transparent !important; padding-left: 18px; font-style: italic; }
+table { border-collapse: collapse !important; background: transparent !important; }
+th { color: #FFD700 !important; border: 2px solid #00E5FF !important; background: transparent !important; padding: 8px 12px !important; }
+td { color: #F5F5F5 !important; border: 1px solid #607D8B !important; background: transparent !important; padding: 8px 12px !important; }
+hr { border: none; border-top: 2px dashed #FF5252 !important; margin: 1.5em 0; }
+ul li::marker { color: #69F0AE !important; font-size: 1.1em; }
+ol li::marker { color: #00E5FF !important; font-weight: bold; }
+</style>
+# ❓ Chapter 2 — Practice Questions
 
 15 original ISTQB-style questions covering Chapter 2 learning objectives.
 
 ---
 
-## Questions
+## ❓ Questions
 
-### Q1 (FL-2.1.1, K2)
+### 🔷 Q1 (FL-2.1.1, K2)
 
 A company uses the V-model for developing safety-critical software. Which statement BEST describes how this SDLC model affects testing?
 
@@ -17,7 +52,7 @@ D. Test automation is required at all levels
 
 ---
 
-### Q2 (FL-2.1.2, K1)
+### 🔷 Q2 (FL-2.1.2, K1)
 
 Which of the following is a good testing practice that applies regardless of the chosen SDLC model?
 
@@ -28,7 +63,7 @@ D. Test documentation is unnecessary in iterative models
 
 ---
 
-### Q3 (FL-2.1.3, K1)
+### 🔷 Q3 (FL-2.1.3, K1)
 
 In Test-Driven Development (TDD), what is the correct sequence of steps?
 
@@ -39,7 +74,7 @@ D. Write code -> refactor -> write test
 
 ---
 
-### Q4 (FL-2.1.3, K1)
+### 🔷 Q4 (FL-2.1.3, K1)
 
 Which test-first approach involves developers, testers, and business representatives collaborating to define acceptance tests before development begins?
 
@@ -50,7 +85,7 @@ D. Exploratory testing
 
 ---
 
-### Q5 (FL-2.1.4, K2)
+### 🔷 Q5 (FL-2.1.4, K2)
 
 How does a DevOps approach PRIMARILY affect testing?
 
@@ -61,7 +96,7 @@ D. It removes the need for regression testing
 
 ---
 
-### Q6 (FL-2.1.5, K2)
+### 🔷 Q6 (FL-2.1.5, K2)
 
 Which of the following is an example of the shift-left approach?
 
@@ -72,7 +107,7 @@ D. Running performance tests only in production
 
 ---
 
-### Q7 (FL-2.1.6, K2)
+### 🔷 Q7 (FL-2.1.6, K2)
 
 A Scrum team holds a retrospective at the end of each sprint. During the retrospective, the team notes that defects in date-handling logic have appeared in the last three sprints.
 
@@ -85,7 +120,7 @@ D. Assign blame to the developer who wrote the date logic
 
 ---
 
-### Q8 (FL-2.2.1, K2)
+### 🔷 Q8 (FL-2.2.1, K2)
 
 Which test level focuses on verifying that the interfaces between components within the same system work correctly?
 
@@ -96,7 +131,7 @@ D. Acceptance testing
 
 ---
 
-### Q9 (FL-2.2.1, K2)
+### 🔷 Q9 (FL-2.2.1, K2)
 
 An e-commerce company is testing whether its payment system correctly communicates with an external bank API. At which test level does this testing occur?
 
@@ -107,7 +142,7 @@ D. System testing
 
 ---
 
-### Q10 (FL-2.2.1, K2)
+### 🔷 Q10 (FL-2.2.1, K2)
 
 During acceptance testing, the PRIMARY objective is to:
 
@@ -118,7 +153,7 @@ D. Verify that all internal interfaces work correctly
 
 ---
 
-### Q11 (FL-2.2.2, K2)
+### 🔷 Q11 (FL-2.2.2, K2)
 
 A test team is evaluating the response time of a web application under 1000 concurrent users. This is an example of:
 
@@ -129,7 +164,7 @@ D. Confirmation testing
 
 ---
 
-### Q12 (FL-2.2.2, K2)
+### 🔷 Q12 (FL-2.2.2, K2)
 
 Which statement about test types is CORRECT?
 
@@ -140,7 +175,7 @@ D. White-box testing is a test level, not a test type
 
 ---
 
-### Q13 (FL-2.2.3, K2)
+### 🔷 Q13 (FL-2.2.3, K2)
 
 After a developer fixes a defect in the search functionality, a tester re-executes the specific test case that originally revealed the failure. The test now passes. What type of testing did the tester perform?
 
@@ -151,7 +186,7 @@ D. Exploratory testing
 
 ---
 
-### Q14 (FL-2.2.3, K2)
+### 🔷 Q14 (FL-2.2.3, K2)
 
 After the same defect fix described in Q13, the test team also runs the full automated test suite covering the product catalog, shopping cart, and checkout flow. What type of testing is this?
 
@@ -162,7 +197,7 @@ D. Component testing
 
 ---
 
-### Q15 (FL-2.3.1, K2)
+### 🔷 Q15 (FL-2.3.1, K2)
 
 An organization is migrating its customer database from an on-premise server to a cloud platform. Testing is needed to verify that data integrity is maintained and that dependent applications continue to function correctly.
 
@@ -175,7 +210,7 @@ D. Regression testing of the development pipeline
 
 ---
 
-### Q16 (FL-2.3.1, K2)
+### 🔷 Q16 (FL-2.3.1, K2)
 
 What is the PRIMARY purpose of impact analysis in the context of maintenance testing?
 
@@ -186,7 +221,7 @@ D. To determine whether to cancel the project
 
 ---
 
-### Q17 (FL-2.1.5, K2)
+### 🔷 Q17 (FL-2.1.5, K2)
 
 Which of the following is NOT a benefit of the shift-left approach?
 
@@ -199,118 +234,118 @@ D. Defect amplification is reduced because root causes are addressed sooner
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1 — Answer: B
+### ✔️ Q1 — Answer: B
 
 - **B is correct.** In the V-model, each development phase (requirements, design, coding) has a corresponding test level, and test planning begins during the associated development phase.
 - A is wrong: In the V-model, test planning and design start during development phases, not after all coding.
 - C is wrong: The V-model includes all test levels, not just acceptance.
 - D is wrong: Automation is not mandated by the V-model.
 
-### Q2 — Answer: C
+### ✔️ Q2 — Answer: C
 
 - **C is correct.** This is explicitly stated in the CTFL syllabus as a good practice for all SDLC models.
 - A is wrong: Not all testing needs to be automated.
 - B is wrong: Early tester involvement is a good practice (shift-left).
 - D is wrong: Documentation level varies but is never "unnecessary."
 
-### Q3 — Answer: B
+### ✔️ Q3 — Answer: B
 
 - **B is correct.** TDD follows: write a failing test -> write minimal code to pass -> refactor.
 - A, C, D represent incorrect orderings.
 
-### Q4 — Answer: B
+### ✔️ Q4 — Answer: B
 
 - **B is correct.** ATDD involves three roles (developer, tester, business) collaborating to define acceptance tests before coding.
 - A is wrong: TDD is developer-focused at the unit level.
 - C is wrong: Not a real recognized approach.
 - D is wrong: Exploratory testing is not test-first.
 
-### Q5 — Answer: B
+### ✔️ Q5 — Answer: B
 
 - **B is correct.** DevOps integrates automated testing into CI/CD pipelines for fast, continuous feedback.
 - A is wrong: DevOps does not eliminate all manual testing.
 - C is wrong: DevOps does not replace testers with developers.
 - D is wrong: Regression testing is MORE important in DevOps, not eliminated.
 
-### Q6 — Answer: B
+### ✔️ Q6 — Answer: B
 
 - **B is correct.** Reviewing requirements and writing tests before development is a classic shift-left activity.
 - A is wrong: Sequential late testing is the opposite of shift-left.
 - C is wrong: Deferring testing is the opposite of shift-left.
 - D is wrong: Testing only in production is shift-right, not shift-left.
 
-### Q7 — Answer: B
+### ✔️ Q7 — Answer: B
 
 - **B is correct.** Retrospectives drive process improvement by identifying root causes and introducing preventive measures.
 - A is wrong: Ignoring recurring patterns defeats the purpose of retrospectives.
 - C is wrong: Stopping testing is counterproductive.
 - D is wrong: Retrospectives focus on process improvement, not blame.
 
-### Q8 — Answer: B
+### ✔️ Q8 — Answer: B
 
 - **B is correct.** Component integration testing verifies interfaces between components within the same system.
 - A is wrong: Component testing tests units in isolation.
 - C is wrong: System integration testing tests interfaces between systems.
 - D is wrong: Acceptance testing validates user/business needs.
 
-### Q9 — Answer: C
+### ✔️ Q9 — Answer: C
 
 - **C is correct.** Testing the interface between your system and an external bank API is system integration testing.
 - B is wrong: Component integration is internal to one system.
 - D is wrong: System testing focuses on the complete system's behavior, not specifically on external interfaces.
 
-### Q10 — Answer: C
+### ✔️ Q10 — Answer: C
 
 - **C is correct.** Acceptance testing primarily validates that the system meets user/stakeholder needs and is fit for purpose.
 - A is wrong: Code coverage is a white-box concern, typically at component level.
 - B is wrong: Finding defects in components is the objective of component testing.
 - D is wrong: Interface verification is an integration testing objective.
 
-### Q11 — Answer: B
+### ✔️ Q11 — Answer: B
 
 - **B is correct.** Response time under load is a non-functional quality characteristic (performance).
 - A is wrong: Functional testing checks what the system does, not how fast.
 - C is wrong: White-box testing examines internal structure.
 - D is wrong: Confirmation testing re-tests a fixed defect.
 
-### Q12 — Answer: C
+### ✔️ Q12 — Answer: C
 
 - **C is correct.** Test types (functional, non-functional, black-box, white-box) can be applied at any test level.
 - A is wrong: Functional testing applies at all levels.
 - B is wrong: Non-functional testing can happen alongside or before functional testing.
 - D is wrong: White-box testing is a test type, not a level.
 
-### Q13 — Answer: B
+### ✔️ Q13 — Answer: B
 
 - **B is correct.** Re-executing the specific failed test after a fix to confirm the fix works is confirmation testing (re-testing).
 - A is wrong: Regression testing checks for unintended side effects, not the specific fix.
 - C is wrong: Smoke testing checks basic build stability.
 - D is wrong: Exploratory testing is unscripted, charter-based exploration.
 
-### Q14 — Answer: C
+### ✔️ Q14 — Answer: C
 
 - **C is correct.** Running previously passing tests in other areas after a change to detect unintended side effects is regression testing.
 - A is wrong: Confirmation testing only re-runs the specific failed test.
 - B is wrong: This is not acceptance testing.
 - D is wrong: This is not limited to component level.
 
-### Q15 — Answer: B
+### ✔️ Q15 — Answer: B
 
 - **B is correct.** Testing triggered by a platform migration of an existing operational system is maintenance testing.
 - A is wrong: This is not a new system; it is an existing one being migrated.
 - C is wrong: This is broader than component testing.
 - D is wrong: This is not about the development pipeline.
 
-### Q16 — Answer: B
+### ✔️ Q16 — Answer: B
 
 - **B is correct.** Impact analysis determines what areas could be affected by a change and what testing is required.
 - A is wrong: Staffing decisions are part of test planning, not impact analysis.
 - C is wrong: Defect counting is test monitoring.
 - D is wrong: Project cancellation is a management decision.
 
-### Q17 — Answer: C
+### ✔️ Q17 — Answer: C
 
 - **C is correct (this is NOT a benefit).** Shift-left cannot guarantee all defects are found before coding — no approach can guarantee finding all defects (Principle 1).
 - A is wrong (it IS a benefit): Finding defects earlier reduces cost.

@@ -1,6 +1,41 @@
-# Case Study 1: E-Commerce Checkout
+<!-- ISTQB-BEAUTIFY-V1 -->
+<style>
+html, body {
+  background-color: #000000 !important;
+  color: #F5F5F5 !important;
+}
+body {
+  font-size: 19px !important;
+  line-height: 1.85 !important;
+  font-family: 'Segoe UI', 'Trebuchet MS', Verdana, sans-serif !important;
+  padding: 24px 44px !important;
+  letter-spacing: 0.2px;
+}
+h1 { color: #FFD700 !important; font-size: 2.7em !important; font-weight: 800 !important; border-bottom: 3px solid #FF5252 !important; padding-bottom: 0.25em; }
+h2 { color: #00E5FF !important; font-size: 2.05em !important; font-weight: 800 !important; border-bottom: 2px solid #00E5FF !important; padding-bottom: 0.2em; }
+h3 { color: #69F0AE !important; font-size: 1.6em !important; font-weight: 700 !important; }
+h4 { color: #FF80AB !important; font-size: 1.35em !important; font-weight: 700 !important; }
+h5 { color: #FFAB40 !important; font-size: 1.2em !important; font-weight: 700 !important; }
+h6 { color: #B388FF !important; font-size: 1.1em !important; font-weight: 700 !important; }
+p, li, td, th, span, div { font-size: 1em !important; color: #F5F5F5 !important; }
+strong, b { color: #FFEB3B !important; }
+em, i { color: #FF8A65 !important; }
+a { color: #40C4FF !important; text-decoration: underline; }
+a:hover { color: #80D8FF !important; }
+code { color: #FF4081 !important; background: transparent !important; font-size: 0.95em !important; }
+pre { background: transparent !important; border: 1px solid #555 !important; border-radius: 8px; padding: 14px !important; }
+pre code { color: #80CBC4 !important; }
+blockquote { color: #B0BEC5 !important; border-left: 5px solid #FFD700 !important; background: transparent !important; padding-left: 18px; font-style: italic; }
+table { border-collapse: collapse !important; background: transparent !important; }
+th { color: #FFD700 !important; border: 2px solid #00E5FF !important; background: transparent !important; padding: 8px 12px !important; }
+td { color: #F5F5F5 !important; border: 1px solid #607D8B !important; background: transparent !important; padding: 8px 12px !important; }
+hr { border: none; border-top: 2px dashed #FF5252 !important; margin: 1.5em 0; }
+ul li::marker { color: #69F0AE !important; font-size: 1.1em; }
+ol li::marker { color: #00E5FF !important; font-weight: bold; }
+</style>
+# 📂 Case Study 1: E-Commerce Checkout
 
-## System Description
+## ⭐ System Description
 
 An online electronics retailer has a checkout system with the following features:
 - Customers add items to a shopping cart and proceed to checkout
@@ -10,37 +45,37 @@ An online electronics retailer has a checkout system with the following features
 
 ---
 
-## Requirements Specification
+## 📑 Requirements Specification
 
-### REQ-CHK-001: Order Subtotal
+### 🔷 REQ-CHK-001: Order Subtotal
 The system shall calculate the order subtotal as the sum of (item price x quantity) for all items in the cart.
 
-### REQ-CHK-002: Discount Rules
+### 🔷 REQ-CHK-002: Discount Rules
 - Orders $100 or more receive a 10% discount on the subtotal
 - Orders $200 or more receive a 15% discount on the subtotal
 - Loyalty Gold members receive an additional 5% discount (applied after the order-value discount)
 - Maximum combined discount is capped at 20%
 
-### REQ-CHK-003: Tax Calculation
+### 🔷 REQ-CHK-003: Tax Calculation
 Sales tax of 8% is applied to the discounted subtotal.
 
-### REQ-CHK-004: Shipping
+### 🔷 REQ-CHK-004: Shipping
 - Orders under $50 (after discount): $9.99 shipping
 - Orders $50 to $149.99 (after discount): $4.99 shipping
 - Orders $150 or more (after discount): free shipping
 
-### REQ-CHK-005: Payment Validation
+### 🔷 REQ-CHK-005: Payment Validation
 - Credit card number must be 16 digits
 - Expiration date must be in the future
 - CVV must be exactly 3 digits
 - Store credit balance must be sufficient to cover the total
 
-### REQ-CHK-006: Order Confirmation
+### 🔷 REQ-CHK-006: Order Confirmation
 Upon successful payment, the system shall display a confirmation page with order number and send a confirmation email within 60 seconds.
 
 ---
 
-## User Stories
+## ⭐ User Stories
 
 **US-1: Apply Discount**
 ```
@@ -69,9 +104,9 @@ Acceptance Criteria:
 
 ---
 
-## Applying Test Techniques
+## 🎯 Applying Test Techniques
 
-### 1. Equivalence Partitioning on Discount Rules (REQ-CHK-002)
+### ➗ 1. Equivalence Partitioning on Discount Rules (REQ-CHK-002)
 
 **Input: Order subtotal (before discount)**
 
@@ -100,7 +135,7 @@ Acceptance Criteria:
 | TC5 | $250.00 | Gold | 15% + 5% = 19.25% effective | P3 + P5 |
 | TC6 | $0.00 | Non-Gold | Error | P4 + P6 |
 
-### 2. Boundary Value Analysis on Discount Thresholds
+### 📏 2. Boundary Value Analysis on Discount Thresholds
 
 **Boundaries at $100 (discount threshold):**
 
@@ -125,7 +160,7 @@ Acceptance Criteria:
 
 Note: With the given rules (15% order + 5% loyalty applied sequentially), the effective rate is: 1 - (0.85 x 0.95) = 19.25%, which is under 20%. The cap would only trigger if loyalty discount were higher.
 
-### 3. Decision Table for Combined Discount Logic
+### 🗂️ 3. Decision Table for Combined Discount Logic
 
 **Conditions:**
 - C1: Subtotal >= $200?
@@ -145,7 +180,7 @@ Note: With the given rules (15% order + 5% loyalty applied sequentially), the ef
 
 **Test cases: 5 (one per rule)**
 
-### 4. State Transition for Order Process
+### 🔄 4. State Transition for Order Process
 
 **States:**
 - S1: Cart (items in cart, not checked out)
@@ -181,9 +216,9 @@ All 8 transitions covered in 4 test cases.
 
 ---
 
-## Risk-Based Test Approach
+## ⚠️ Risk-Based Test Approach
 
-### Product Risks Identified
+### ⚠️ Product Risks Identified
 
 | ID | Risk | Likelihood (1-5) | Impact (1-5) | Level |
 |----|------|-------------------|---------------|-------|
@@ -194,7 +229,7 @@ All 8 transitions covered in 4 test cases.
 | R5 | Confirmation email not sent | 2 | 3 | 6 Medium |
 | R6 | Order number not unique | 1 | 4 | 4 Low |
 
-### Testing Priority
+### 🔷 Testing Priority
 
 1. R1 (discount): EP + BVA + decision table (comprehensive)
 2. R2 (payment): EP on card fields + error guessing
@@ -205,7 +240,7 @@ All 8 transitions covered in 4 test cases.
 
 ---
 
-## Statement/Branch Coverage Example
+## 💡 Statement/Branch Coverage Example
 
 **Simplified discount calculation code:**
 
@@ -251,7 +286,7 @@ Minimum: 4 test cases for 100% branch coverage (8/8 branches).
 
 ---
 
-## Sample Test Plan Excerpt
+## 🗓️ Sample Test Plan Excerpt
 
 **Scope:** Checkout module (REQ-CHK-001 through REQ-CHK-006)
 
@@ -271,7 +306,7 @@ Minimum: 4 test cases for 100% branch coverage (8/8 branches).
 
 ---
 
-## Sample Defect Report
+## 🐞 Sample Defect Report
 
 ```
 ID:             BUG-3001
@@ -292,7 +327,7 @@ Related Req: REQ-CHK-002 ("additional 5% applied AFTER the order-value discount"
 
 ---
 
-## Reflection Questions
+## ❓ Reflection Questions
 
 1. Why is BVA particularly important for the shipping calculation? (Hint: the shipping boundaries depend on the POST-discount amount, not the subtotal.)
 
@@ -304,7 +339,7 @@ Related Req: REQ-CHK-002 ("additional 5% applied AFTER the order-value discount"
 
 ---
 
-## Worked Solutions to Reflection Questions
+## ❓ Worked Solutions to Reflection Questions
 
 **1.** BVA is critical for shipping because a customer whose subtotal is $155 but receives a 10% discount ($15.50 off) now has a post-discount amount of $139.50. This falls in the $4.99 shipping tier, not free shipping. Testing at the boundaries of the post-discount amount (not the pre-discount subtotal) catches defects where shipping is calculated from the wrong value.
 

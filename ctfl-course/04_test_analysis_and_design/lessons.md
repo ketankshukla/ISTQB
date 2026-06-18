@@ -1,12 +1,47 @@
-# Chapter 4 — Test Analysis and Design: Lessons
+<!-- ISTQB-BEAUTIFY-V1 -->
+<style>
+html, body {
+  background-color: #000000 !important;
+  color: #F5F5F5 !important;
+}
+body {
+  font-size: 19px !important;
+  line-height: 1.85 !important;
+  font-family: 'Segoe UI', 'Trebuchet MS', Verdana, sans-serif !important;
+  padding: 24px 44px !important;
+  letter-spacing: 0.2px;
+}
+h1 { color: #FFD700 !important; font-size: 2.7em !important; font-weight: 800 !important; border-bottom: 3px solid #FF5252 !important; padding-bottom: 0.25em; }
+h2 { color: #00E5FF !important; font-size: 2.05em !important; font-weight: 800 !important; border-bottom: 2px solid #00E5FF !important; padding-bottom: 0.2em; }
+h3 { color: #69F0AE !important; font-size: 1.6em !important; font-weight: 700 !important; }
+h4 { color: #FF80AB !important; font-size: 1.35em !important; font-weight: 700 !important; }
+h5 { color: #FFAB40 !important; font-size: 1.2em !important; font-weight: 700 !important; }
+h6 { color: #B388FF !important; font-size: 1.1em !important; font-weight: 700 !important; }
+p, li, td, th, span, div { font-size: 1em !important; color: #F5F5F5 !important; }
+strong, b { color: #FFEB3B !important; }
+em, i { color: #FF8A65 !important; }
+a { color: #40C4FF !important; text-decoration: underline; }
+a:hover { color: #80D8FF !important; }
+code { color: #FF4081 !important; background: transparent !important; font-size: 0.95em !important; }
+pre { background: transparent !important; border: 1px solid #555 !important; border-radius: 8px; padding: 14px !important; }
+pre code { color: #80CBC4 !important; }
+blockquote { color: #B0BEC5 !important; border-left: 5px solid #FFD700 !important; background: transparent !important; padding-left: 18px; font-style: italic; }
+table { border-collapse: collapse !important; background: transparent !important; }
+th { color: #FFD700 !important; border: 2px solid #00E5FF !important; background: transparent !important; padding: 8px 12px !important; }
+td { color: #F5F5F5 !important; border: 1px solid #607D8B !important; background: transparent !important; padding: 8px 12px !important; }
+hr { border: none; border-top: 2px dashed #FF5252 !important; margin: 1.5em 0; }
+ul li::marker { color: #69F0AE !important; font-size: 1.1em; }
+ol li::marker { color: #00E5FF !important; font-weight: bold; }
+</style>
+# 📘 Chapter 4 — Test Analysis and Design: Lessons
 
 ---
 
-## 4.1 Test Techniques Overview (FL-4.1.1, K2)
+## 🎯 4.1 Test Techniques Overview (FL-4.1.1, K2)
 
 Test techniques are systematic methods for deriving test cases. They are grouped into three categories:
 
-### Black-Box Test Techniques (Specification-Based)
+### 🎯 Black-Box Test Techniques (Specification-Based)
 
 - Derive test cases from the **external specification** of the component or system
 - No knowledge of internal code structure is needed
@@ -14,7 +49,7 @@ Test techniques are systematic methods for deriving test cases. They are grouped
 - Common techniques: Equivalence Partitioning, Boundary Value Analysis, Decision Table Testing, State Transition Testing
 - Applicable at all test levels but especially dominant at system and acceptance testing
 
-### White-Box Test Techniques (Structure-Based)
+### 🎯 White-Box Test Techniques (Structure-Based)
 
 - Derive test cases from the **internal structure** (source code, architecture, data flows)
 - Require knowledge of how the code is implemented
@@ -23,7 +58,7 @@ Test techniques are systematic methods for deriving test cases. They are grouped
 - Most commonly applied at component and component integration testing
 - Can also be applied at system level (e.g., testing architectural data flows)
 
-### Experience-Based Test Techniques
+### 🎯 Experience-Based Test Techniques
 
 - Derive test cases from the **tester's knowledge, experience, and intuition**
 - Rely on the tester's understanding of common error patterns, the system, and the domain
@@ -31,7 +66,7 @@ Test techniques are systematic methods for deriving test cases. They are grouped
 - Common techniques: Error Guessing, Exploratory Testing, Checklist-Based Testing
 - Complement (do not replace) systematic techniques
 
-### When to Use Which Category
+### 🔷 When to Use Which Category
 
 | Situation | Best Category |
 |-----------|---------------|
@@ -42,9 +77,9 @@ Test techniques are systematic methods for deriving test cases. They are grouped
 
 ---
 
-## 4.2 Black-Box Test Techniques
+## 🎯 4.2 Black-Box Test Techniques
 
-### Equivalence Partitioning (EP) (FL-4.2.1, K3)
+### ➗ Equivalence Partitioning (EP) (FL-4.2.1, K3)
 
 **Concept:** Divide the input domain into groups (partitions) where all values within a partition are expected to be handled identically by the system. If the system handles one value in a partition correctly, it should handle all values in that partition correctly. This reduces the number of test cases needed.
 
@@ -71,7 +106,7 @@ Minimum test cases for coverage: 4 (one from each partition).
 - Partitions apply to outputs as well as inputs
 - Multiple inputs can be combined: valid partitions can be tested together, but each invalid partition should be tested separately (one invalid at a time)
 
-### Boundary Value Analysis (BVA) (FL-4.2.2, K3)
+### 📏 Boundary Value Analysis (BVA) (FL-4.2.2, K3)
 
 **Concept:** Defects tend to cluster at the boundaries of equivalence partitions. BVA focuses testing effort on these boundary values. It is always used as an extension of EP — you first identify partitions, then test at their boundaries.
 
@@ -97,7 +132,7 @@ Minimum test cases for coverage: 4 (one from each partition).
 - For a single range [min, max], two-value BVA produces 4 test values: min-1, min, max, max+1
 - Boundaries exist between EVERY pair of adjacent partitions
 
-### Decision Table Testing (FL-4.2.3, K3)
+### 🗂️ Decision Table Testing (FL-4.2.3, K3)
 
 **Concept:** A decision table captures complex business rules that involve combinations of conditions. It systematically identifies all possible combinations of conditions and their corresponding actions (outcomes).
 
@@ -128,7 +163,7 @@ Minimum test cases for coverage: 4 (one from each partition).
 - Know how to identify "don't care" conditions and collapse rules
 - Decision tables are ideal when business logic has multiple interacting conditions
 
-### State Transition Testing (FL-4.2.4, K3)
+### 🔄 State Transition Testing (FL-4.2.4, K3)
 
 **Concept:** Systems that behave differently depending on their current state and the events that occur can be modeled using a state transition diagram. Tests are derived from valid and invalid transitions between states.
 
@@ -156,9 +191,9 @@ Minimum test cases for coverage: 4 (one from each partition).
 
 ---
 
-## 4.3 White-Box Test Techniques
+## 🎯 4.3 White-Box Test Techniques
 
-### Statement Testing and Statement Coverage (FL-4.3.1, K3)
+### 📊 Statement Testing and Statement Coverage (FL-4.3.1, K3)
 
 **Statement coverage** measures the percentage of executable statements in the code that have been exercised by the test suite:
 
@@ -186,7 +221,7 @@ Statement coverage = (Number of statements exercised / Total number of executabl
 - If a decision has only been tested as TRUE, the FALSE branch may contain an unexecuted path
 - Statement coverage does not guarantee branch coverage
 
-### Branch Testing and Branch Coverage (FL-4.3.2, K3)
+### 📊 Branch Testing and Branch Coverage (FL-4.3.2, K3)
 
 **Branch coverage** measures the percentage of branches (decision outcomes) that have been exercised:
 
@@ -222,7 +257,7 @@ Branches:
 - Each `if-elif-else` chain: count the number of possible outcomes
 - Loops (`while`, `for`): 2 branches (entering the loop body, and not entering/exiting)
 
-### The Value of White-Box Testing (FL-4.3.3, K2)
+### 🔷 The Value of White-Box Testing (FL-4.3.3, K2)
 
 - **Objectivity:** Coverage metrics provide an objective measure of how thoroughly the code has been tested
 - **Finds hidden defects:** Tests code paths that may not be explicitly specified in requirements (e.g., error handling, default cases)
@@ -232,9 +267,9 @@ Branches:
 
 ---
 
-## 4.4 Experience-Based Test Techniques
+## 🎯 4.4 Experience-Based Test Techniques
 
-### Error Guessing (FL-4.4.1, K2)
+### 🔷 Error Guessing (FL-4.4.1, K2)
 
 **Concept:** The tester uses their knowledge of:
 - Common programming errors (off-by-one, null pointer, division by zero)
@@ -262,7 +297,7 @@ Branches:
 
 **Weaknesses:** Effectiveness depends entirely on the tester's experience and intuition. Hard to measure coverage. Not repeatable by less-experienced testers.
 
-### Exploratory Testing (FL-4.4.2, K2)
+### 🔷 Exploratory Testing (FL-4.4.2, K2)
 
 **Concept:** Test design, test execution, and learning happen simultaneously. The tester explores the system dynamically, using observations from previous tests to guide the next tests in real time.
 
@@ -284,7 +319,7 @@ Branches:
 - The tester continuously adapts their approach based on what they learn during the session
 - It is most effective when performed by experienced testers
 
-### Checklist-Based Testing (FL-4.4.3, K2)
+### 🔷 Checklist-Based Testing (FL-4.4.3, K2)
 
 **Concept:** The tester designs, implements, and executes tests based on a pre-existing checklist of test conditions or verification points.
 
@@ -307,9 +342,9 @@ Branches:
 
 ---
 
-## 4.5 Collaboration-Based Test Approaches
+## ⭐ 4.5 Collaboration-Based Test Approaches
 
-### Collaborative User Story Writing (FL-4.5.1, K2)
+### 🔷 Collaborative User Story Writing (FL-4.5.1, K2)
 
 User stories are a lightweight way of capturing requirements in Agile projects. They are most effective when written **collaboratively** using the "Three Amigos" (or "Three Cs") approach:
 
@@ -336,7 +371,7 @@ So that [benefit/value].
 - Ensures acceptance criteria are testable and unambiguous
 - Brings a quality mindset to the conversation
 
-### Acceptance Criteria (FL-4.5.2, K2)
+### ✅ Acceptance Criteria (FL-4.5.2, K2)
 
 Acceptance criteria define the conditions that a user story must satisfy for it to be considered complete. They serve as the basis for acceptance testing.
 
@@ -365,7 +400,7 @@ And the cart total updates to reflect the new item
 - Independent of implementation details (what, not how)
 - Complete (cover positive and negative scenarios, boundaries)
 
-### Acceptance Test-Driven Development (ATDD) (FL-4.5.3, K3)
+### 🔷 Acceptance Test-Driven Development (ATDD) (FL-4.5.3, K3)
 
 **Concept:** Acceptance tests are written BEFORE development starts, based on the acceptance criteria. These tests drive the development process and serve as executable specifications.
 
@@ -391,7 +426,7 @@ And the cart total updates to reflect the new item
 
 ---
 
-## Cross-References
+## ⭐ Cross-References
 
 - Black-box techniques (4.2) are used at system and acceptance testing (Chapter 2.2)
 - White-box techniques (4.3) are most common at component testing (Chapter 2.2)

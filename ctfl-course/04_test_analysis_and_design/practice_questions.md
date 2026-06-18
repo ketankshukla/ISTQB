@@ -1,12 +1,47 @@
-# Chapter 4 — Practice Questions
+<!-- ISTQB-BEAUTIFY-V1 -->
+<style>
+html, body {
+  background-color: #000000 !important;
+  color: #F5F5F5 !important;
+}
+body {
+  font-size: 19px !important;
+  line-height: 1.85 !important;
+  font-family: 'Segoe UI', 'Trebuchet MS', Verdana, sans-serif !important;
+  padding: 24px 44px !important;
+  letter-spacing: 0.2px;
+}
+h1 { color: #FFD700 !important; font-size: 2.7em !important; font-weight: 800 !important; border-bottom: 3px solid #FF5252 !important; padding-bottom: 0.25em; }
+h2 { color: #00E5FF !important; font-size: 2.05em !important; font-weight: 800 !important; border-bottom: 2px solid #00E5FF !important; padding-bottom: 0.2em; }
+h3 { color: #69F0AE !important; font-size: 1.6em !important; font-weight: 700 !important; }
+h4 { color: #FF80AB !important; font-size: 1.35em !important; font-weight: 700 !important; }
+h5 { color: #FFAB40 !important; font-size: 1.2em !important; font-weight: 700 !important; }
+h6 { color: #B388FF !important; font-size: 1.1em !important; font-weight: 700 !important; }
+p, li, td, th, span, div { font-size: 1em !important; color: #F5F5F5 !important; }
+strong, b { color: #FFEB3B !important; }
+em, i { color: #FF8A65 !important; }
+a { color: #40C4FF !important; text-decoration: underline; }
+a:hover { color: #80D8FF !important; }
+code { color: #FF4081 !important; background: transparent !important; font-size: 0.95em !important; }
+pre { background: transparent !important; border: 1px solid #555 !important; border-radius: 8px; padding: 14px !important; }
+pre code { color: #80CBC4 !important; }
+blockquote { color: #B0BEC5 !important; border-left: 5px solid #FFD700 !important; background: transparent !important; padding-left: 18px; font-style: italic; }
+table { border-collapse: collapse !important; background: transparent !important; }
+th { color: #FFD700 !important; border: 2px solid #00E5FF !important; background: transparent !important; padding: 8px 12px !important; }
+td { color: #F5F5F5 !important; border: 1px solid #607D8B !important; background: transparent !important; padding: 8px 12px !important; }
+hr { border: none; border-top: 2px dashed #FF5252 !important; margin: 1.5em 0; }
+ul li::marker { color: #69F0AE !important; font-size: 1.1em; }
+ol li::marker { color: #00E5FF !important; font-weight: bold; }
+</style>
+# ❓ Chapter 4 — Practice Questions
 
 22 original ISTQB-style questions. This chapter has extra questions due to its high exam weight and K3 content.
 
 ---
 
-## Questions
+## ❓ Questions
 
-### Q1 (FL-4.1.1, K2)
+### 🔷 Q1 (FL-4.1.1, K2)
 
 Which statement BEST distinguishes black-box techniques from white-box techniques?
 
@@ -17,7 +52,7 @@ D. Black-box techniques always find more defects than white-box techniques
 
 ---
 
-### Q2 (FL-4.2.1, K3)
+### 🔷 Q2 (FL-4.2.1, K3)
 
 A form field accepts an integer quantity between 5 and 50 (inclusive). Identify the equivalence partitions and determine the minimum number of test cases for EP coverage.
 
@@ -28,7 +63,7 @@ D. 1 test case (any value in the valid range)
 
 ---
 
-### Q3 (FL-4.2.1, K3)
+### 🔷 Q3 (FL-4.2.1, K3)
 
 An input field accepts a person's name. The valid rule is: 2 to 40 alphabetic characters (no digits, no special characters). Which of the following is NOT a valid equivalence partition for invalid inputs?
 
@@ -39,7 +74,7 @@ D. Name with more than 40 characters
 
 ---
 
-### Q4 (FL-4.2.2, K3)
+### 🔷 Q4 (FL-4.2.2, K3)
 
 A field accepts integer values from 10 to 99 (inclusive). Using two-value boundary value analysis, which set of test values should be used?
 
@@ -50,7 +85,7 @@ D. 9, 10, 11, 98, 99, 100
 
 ---
 
-### Q5 (FL-4.2.2, K3)
+### 🔷 Q5 (FL-4.2.2, K3)
 
 An online store offers free shipping for orders of $75.00 or more. The minimum order value is $1.00. Using two-value BVA on the free-shipping boundary, which values test that specific boundary?
 
@@ -61,7 +96,7 @@ D. $74.00 and $76.00
 
 ---
 
-### Q6 (FL-4.2.3, K3)
+### 🔷 Q6 (FL-4.2.3, K3)
 
 A decision table has 4 binary conditions. Before any simplification, what is the maximum number of rules (columns) in the full decision table?
 
@@ -72,7 +107,7 @@ D. 32
 
 ---
 
-### Q7 (FL-4.2.3, K3)
+### 🔷 Q7 (FL-4.2.3, K3)
 
 Consider the following business rules for a flight booking discount:
 
@@ -89,7 +124,7 @@ D. 8
 
 ---
 
-### Q8 (FL-4.2.4, K3)
+### 🔷 Q8 (FL-4.2.4, K3)
 
 A media player has 3 states: Stopped, Playing, Paused. The valid transitions are:
 - Stopped -> Playing (press Play)
@@ -107,7 +142,7 @@ D. 2
 
 ---
 
-### Q9 (FL-4.2.4, K3)
+### 🔷 Q9 (FL-4.2.4, K3)
 
 Using the same media player from Q8, which of the following is an INVALID transition that should be tested as a negative test case?
 
@@ -118,7 +153,7 @@ D. Paused -> Stopped
 
 ---
 
-### Q10 (FL-4.3.1, K3)
+### 🔷 Q10 (FL-4.3.1, K3)
 
 Consider the following code:
 
@@ -144,7 +179,7 @@ D. 4
 
 ---
 
-### Q11 (FL-4.3.2, K3)
+### 🔷 Q11 (FL-4.3.2, K3)
 
 Using the same code from Q10, what is the minimum number of test cases needed to achieve 100% branch coverage?
 
@@ -155,7 +190,7 @@ D. 4
 
 ---
 
-### Q12 (FL-4.3.2, K3)
+### 🔷 Q12 (FL-4.3.2, K3)
 
 Consider the following code:
 
@@ -182,7 +217,7 @@ D. 6
 
 ---
 
-### Q13 (FL-4.3.2, K3)
+### 🔷 Q13 (FL-4.3.2, K3)
 
 Using the code from Q12, which set of test inputs achieves 100% branch coverage?
 
@@ -193,7 +228,7 @@ D. x = 0
 
 ---
 
-### Q14 (FL-4.3.3, K2)
+### 🔷 Q14 (FL-4.3.3, K2)
 
 Which statement BEST describes the value of white-box testing?
 
@@ -204,7 +239,7 @@ D. It guarantees that all defects will be found
 
 ---
 
-### Q15 (FL-4.4.1, K2)
+### 🔷 Q15 (FL-4.4.1, K2)
 
 A tester knows from past experience that the login module of a similar system had problems handling usernames with leading/trailing spaces. The tester specifically creates test cases with spaces around the username.
 
@@ -217,7 +252,7 @@ D. State transition testing
 
 ---
 
-### Q16 (FL-4.4.2, K2)
+### 🔷 Q16 (FL-4.4.2, K2)
 
 A tester is given a 90-minute time-box and the charter: "Explore the payment processing module with various credit card types, focusing on error handling for declined transactions."
 
@@ -230,7 +265,7 @@ D. Ad hoc testing
 
 ---
 
-### Q17 (FL-4.4.3, K2)
+### 🔷 Q17 (FL-4.4.3, K2)
 
 Which statement about checklist-based testing is CORRECT?
 
@@ -241,7 +276,7 @@ D. Checklists eliminate the need for any other testing technique
 
 ---
 
-### Q18 (FL-4.5.1, K2)
+### 🔷 Q18 (FL-4.5.1, K2)
 
 In collaborative user story writing, the "Three Amigos" approach involves which three roles?
 
@@ -252,7 +287,7 @@ D. Test manager, test lead, test analyst
 
 ---
 
-### Q19 (FL-4.5.2, K2)
+### 🔷 Q19 (FL-4.5.2, K2)
 
 Which of the following is an example of scenario-oriented acceptance criteria?
 
@@ -263,7 +298,7 @@ D. "All input fields must be validated"
 
 ---
 
-### Q20 (FL-4.5.3, K3)
+### 🔷 Q20 (FL-4.5.3, K3)
 
 In ATDD, when are the acceptance tests created relative to the development of the feature?
 
@@ -274,7 +309,7 @@ D. Only after defects are found in production
 
 ---
 
-### Q21 (FL-4.2.1, K3)
+### 🔷 Q21 (FL-4.2.1, K3)
 
 A field accepts a percentage discount between 0% and 50% (inclusive, whole numbers only). A tester identifies these equivalence partitions:
 - P1: values less than 0
@@ -294,7 +329,7 @@ D. No, because 0 is an invalid value
 
 ---
 
-### Q22 (FL-4.3.1, K3)
+### 🔷 Q22 (FL-4.3.1, K3)
 
 Consider the following code:
 
@@ -322,49 +357,49 @@ D. 50%
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1 — Answer: B
+### ✔️ Q1 — Answer: B
 
 - **B is correct.** Black-box techniques use specifications (external behavior); white-box uses internal code structure.
 - A is wrong: It is exactly backwards.
 - C is wrong: Both can be used at multiple levels.
 - D is wrong: Neither always finds more; they are complementary.
 
-### Q2 — Answer: C
+### ✔️ Q2 — Answer: C
 
 - **C is correct.** Partitions: below 5 (invalid), 5-50 (valid), above 50 (invalid), non-integer (invalid) = 4 partitions = 4 minimum test cases.
 - A is wrong: Misses invalid partitions.
 - B is wrong: Misses non-integer invalid partition.
 - D is wrong: Only covers the valid partition.
 
-### Q3 — Answer: C
+### ✔️ Q3 — Answer: C
 
 - **C is correct.** A name with exactly 20 alphabetic characters falls WITHIN the valid range (2-40) and is therefore a VALID partition, not an invalid one.
 - A is wrong: Fewer than 2 chars is a valid invalid partition.
 - B is wrong: Digits in name is a valid invalid partition.
 - D is wrong: More than 40 chars is a valid invalid partition.
 
-### Q4 — Answer: A
+### ✔️ Q4 — Answer: A
 
 - **A is correct.** Two-value BVA for range [10, 99]: lower boundary pair = 9 (invalid), 10 (valid); upper boundary pair = 99 (valid), 100 (invalid). Test values: {9, 10, 99, 100}.
 - B is wrong: Missing the values just outside boundaries (9, 100).
 - C is wrong: 0 and 999 are not the nearest neighbors to the boundaries.
 - D is wrong: This is three-value BVA (6 values), not two-value (4 values).
 
-### Q5 — Answer: A
+### ✔️ Q5 — Answer: A
 
 - **A is correct.** The free-shipping boundary is at $75.00. Two-value BVA tests the boundary ($75.00 = free shipping) and its nearest neighbor below ($74.99 = no free shipping).
 - B is wrong: These test the minimum order boundary, not the free-shipping boundary.
 - C is wrong: $1.00 is the min order boundary; this pair skips the critical neighbor.
 - D is wrong: $74.00 and $76.00 are not the nearest neighbors to the $75.00 boundary.
 
-### Q6 — Answer: C
+### ✔️ Q6 — Answer: C
 
 - **C is correct.** 4 binary conditions -> 2^4 = 16 maximum rules.
 - A, B, D are incorrect calculations.
 
-### Q7 — Answer: B
+### ✔️ Q7 — Answer: B
 
 - **B is correct.** 
   - Rule 1: Frequent flyer = T, > 14 days = T -> 15% discount
@@ -375,7 +410,7 @@ D. 50%
 - C is wrong: This would be the full table without collapsing.
 - D is wrong: 2^3 would be for 3 conditions; there are only 2 here.
 
-### Q8 — Answer: A
+### ✔️ Q8 — Answer: A
 
 - **A is correct.** 5 valid transitions can be covered by 3 test paths:
   - Path 1: Stopped -> Playing -> Paused -> Playing (covers transitions 1, 2, 4)
@@ -387,17 +422,17 @@ D. 50%
   - Minimum is 3 paths.
 - B, C, D are incorrect.
 
-### Q9 — Answer: C
+### ✔️ Q9 — Answer: C
 
 - **C is correct.** "Stopped -> Paused" is not listed as a valid transition. You cannot pause from the Stopped state (nothing is playing).
 - A, B, D are all valid transitions listed in the specification.
 
-### Q10 — Answer: A
+### ✔️ Q10 — Answer: A
 
 - **A is correct.** One test case with amount=1500, isExpress=true executes ALL statements (lines 2,3,4,6,7,9). Both if-conditions are true, so both bodies execute. 100% statement coverage with 1 test case.
 - B, C, D overestimate for statement coverage.
 
-### Q11 — Answer: B
+### ✔️ Q11 — Answer: B
 
 - **B is correct.** Branches: line 3 T/F (2) + line 6 T/F (2) = 4 branches.
   - TC1: amount=1500, isExpress=true -> line 3 TRUE, line 6 TRUE (covers 2 branches)
@@ -406,7 +441,7 @@ D. 50%
 - A is wrong: One test case covers at most 2 of 4 branches.
 - C, D overestimate.
 
-### Q12 — Answer: C
+### ✔️ Q12 — Answer: C
 
 - **C is correct.** 
   - Line 2 decision: TRUE (x>0), FALSE (x<=0) = 2 branches
@@ -414,7 +449,7 @@ D. 50%
   - Total: 4 branches.
 - A, B, D are incorrect counts.
 
-### Q13 — Answer: C
+### ✔️ Q13 — Answer: C
 
 - **C is correct.** To cover all 4 branches:
   - x=150: line 2 TRUE, line 3 TRUE -> "high"
@@ -425,61 +460,61 @@ D. 50%
 - B covers 3 branches (misses line 3 FALSE).
 - D covers only 1 branch (line 2 FALSE — note: x=0 means x>0 is false).
 
-### Q14 — Answer: B
+### ✔️ Q14 — Answer: B
 
 - **B is correct.** White-box testing measures coverage objectively and can detect defects in code paths not explicitly described in requirements.
 - A is wrong: White-box complements, does not replace, black-box.
 - C is wrong: Useful in all contexts, not only safety-critical.
 - D is wrong: No technique guarantees finding all defects.
 
-### Q15 — Answer: C
+### ✔️ Q15 — Answer: C
 
 - **C is correct.** The tester is using past knowledge of specific error patterns to guess where defects might occur — this is error guessing.
 - A is wrong: EP partitions the entire domain systematically.
 - B is wrong: BVA focuses on boundaries of ranges.
 - D is wrong: State transition models state changes.
 
-### Q16 — Answer: C
+### ✔️ Q16 — Answer: C
 
 - **C is correct.** A time-boxed session with a test charter where the tester explores dynamically is exploratory testing.
 - A is wrong: No checklist is mentioned.
 - B is wrong: No decision table is being constructed.
 - D is wrong: Ad hoc testing has no charter or structure; this session has both.
 
-### Q17 — Answer: B
+### ✔️ Q17 — Answer: B
 
 - **B is correct.** Checklists provide high-level guidance (what to check), and the tester determines the specific approach for each item.
 - A is wrong: Checklists are high-level, not detailed procedures.
 - C is wrong: Checklists can be used for any type of testing.
 - D is wrong: Checklists complement other techniques.
 
-### Q18 — Answer: B
+### ✔️ Q18 — Answer: B
 
 - **B is correct.** The Three Amigos are: business representative (product owner), developer, and tester.
 - A, C, D do not match the Three Amigos concept.
 
-### Q19 — Answer: B
+### ✔️ Q19 — Answer: B
 
 - **B is correct.** Given/When/Then format is the scenario-oriented (Gherkin) format for acceptance criteria.
 - A is wrong: This is a rule-oriented criterion (declarative statement).
 - C is wrong: This is a non-functional requirement, rule-oriented.
 - D is wrong: This is a rule-oriented criterion.
 
-### Q20 — Answer: C
+### ✔️ Q20 — Answer: C
 
 - **C is correct.** In ATDD, acceptance tests are created BEFORE development begins, based on collaboratively defined acceptance criteria.
 - A is wrong: Creating tests after development is not ATDD.
 - B is wrong: System testing phase is too late for ATDD.
 - D is wrong: ATDD is proactive, not reactive to production defects.
 
-### Q21 — Answer: B
+### ✔️ Q21 — Answer: B
 
 - **B is correct.** EP requires one representative value per partition. Since 0 and 25 are both in the same valid partition P2 (0-50), only one is needed. Testing 0 separately would be BVA (boundary testing), not an EP requirement.
 - A is wrong: Boundary values are a BVA concern, not an EP concern.
 - C is wrong: 0 is in the same partition as 25 (P2: 0-50).
 - D is wrong: 0 is within the valid range and is therefore valid.
 
-### Q22 — Answer: B
+### ✔️ Q22 — Answer: B
 
 - **B is correct.** Executable statements: lines 2, 3, 4, 6, 7, 9 = 6 total.
   - With a=30, b=25: result=55.

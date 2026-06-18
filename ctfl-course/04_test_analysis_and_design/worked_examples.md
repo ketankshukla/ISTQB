@@ -1,12 +1,47 @@
-# Chapter 4 — Worked Examples
+<!-- ISTQB-BEAUTIFY-V1 -->
+<style>
+html, body {
+  background-color: #000000 !important;
+  color: #F5F5F5 !important;
+}
+body {
+  font-size: 19px !important;
+  line-height: 1.85 !important;
+  font-family: 'Segoe UI', 'Trebuchet MS', Verdana, sans-serif !important;
+  padding: 24px 44px !important;
+  letter-spacing: 0.2px;
+}
+h1 { color: #FFD700 !important; font-size: 2.7em !important; font-weight: 800 !important; border-bottom: 3px solid #FF5252 !important; padding-bottom: 0.25em; }
+h2 { color: #00E5FF !important; font-size: 2.05em !important; font-weight: 800 !important; border-bottom: 2px solid #00E5FF !important; padding-bottom: 0.2em; }
+h3 { color: #69F0AE !important; font-size: 1.6em !important; font-weight: 700 !important; }
+h4 { color: #FF80AB !important; font-size: 1.35em !important; font-weight: 700 !important; }
+h5 { color: #FFAB40 !important; font-size: 1.2em !important; font-weight: 700 !important; }
+h6 { color: #B388FF !important; font-size: 1.1em !important; font-weight: 700 !important; }
+p, li, td, th, span, div { font-size: 1em !important; color: #F5F5F5 !important; }
+strong, b { color: #FFEB3B !important; }
+em, i { color: #FF8A65 !important; }
+a { color: #40C4FF !important; text-decoration: underline; }
+a:hover { color: #80D8FF !important; }
+code { color: #FF4081 !important; background: transparent !important; font-size: 0.95em !important; }
+pre { background: transparent !important; border: 1px solid #555 !important; border-radius: 8px; padding: 14px !important; }
+pre code { color: #80CBC4 !important; }
+blockquote { color: #B0BEC5 !important; border-left: 5px solid #FFD700 !important; background: transparent !important; padding-left: 18px; font-style: italic; }
+table { border-collapse: collapse !important; background: transparent !important; }
+th { color: #FFD700 !important; border: 2px solid #00E5FF !important; background: transparent !important; padding: 8px 12px !important; }
+td { color: #F5F5F5 !important; border: 1px solid #607D8B !important; background: transparent !important; padding: 8px 12px !important; }
+hr { border: none; border-top: 2px dashed #FF5252 !important; margin: 1.5em 0; }
+ul li::marker { color: #69F0AE !important; font-size: 1.1em; }
+ol li::marker { color: #00E5FF !important; font-weight: bold; }
+</style>
+# 💡 Chapter 4 — Worked Examples
 
 Step-by-step examples for all K3 techniques. Work through each one by hand before checking the solution.
 
 ---
 
-## EQUIVALENCE PARTITIONING — Worked Examples
+## 💡 EQUIVALENCE PARTITIONING — Worked Examples
 
-### Example EP-1: Online Ticket Quantity
+### 💡 Example EP-1: Online Ticket Quantity
 
 **Requirement:** An online ticket booking system accepts a quantity of tickets between 1 and 10 (inclusive). The quantity must be a positive integer.
 
@@ -38,7 +73,7 @@ Step-by-step examples for all K3 techniques. Work through each one by hand befor
 
 ---
 
-### Example EP-2: Shipping Discount by Order Value
+### 💡 Example EP-2: Shipping Discount by Order Value
 
 **Requirement:** A store applies shipping discounts based on order value:
 - Orders under $50: no discount (full shipping fee)
@@ -65,7 +100,7 @@ Step-by-step examples for all K3 techniques. Work through each one by hand befor
 
 ---
 
-### Example EP-3: Username Validation
+### 💡 Example EP-3: Username Validation
 
 **Requirement:** Username must be 3 to 20 characters, containing only letters and digits, starting with a letter.
 
@@ -84,9 +119,9 @@ Step-by-step examples for all K3 techniques. Work through each one by hand befor
 
 ---
 
-## BOUNDARY VALUE ANALYSIS — Worked Examples
+## 💡 BOUNDARY VALUE ANALYSIS — Worked Examples
 
-### Example BVA-1: Age Field (Two-Value BVA)
+### 💡 Example BVA-1: Age Field (Two-Value BVA)
 
 **Requirement:** An insurance form accepts age values from 18 to 65 (inclusive integers).
 
@@ -107,7 +142,7 @@ Step-by-step examples for all K3 techniques. Work through each one by hand befor
 
 ---
 
-### Example BVA-2: Password Length
+### 💡 Example BVA-2: Password Length
 
 **Requirement:** Password must be between 8 and 30 characters (inclusive).
 
@@ -124,7 +159,7 @@ Step-by-step examples for all K3 techniques. Work through each one by hand befor
 
 ---
 
-### Example BVA-3: Combined EP + BVA — Ticket Quantity
+### 💡 Example BVA-3: Combined EP + BVA — Ticket Quantity
 
 **Requirement:** Quantity 1 to 10 (integers).
 
@@ -143,9 +178,9 @@ Note: This is a SUBSET of what EP alone would require (EP needs one value per pa
 
 ---
 
-## DECISION TABLE TESTING — Worked Examples
+## 💡 DECISION TABLE TESTING — Worked Examples
 
-### Example DT-1: Online Store Free Shipping and Loyalty Discount
+### 💡 Example DT-1: Online Store Free Shipping and Loyalty Discount
 
 **Business rules:**
 - If the order total is $100+ AND the customer has a loyalty card, they get free shipping AND a 10% discount
@@ -189,7 +224,7 @@ Actions:
 
 ---
 
-### Example DT-2: Login with Collapsing
+### 💡 Example DT-2: Login with Collapsing
 
 **Business rules:**
 - Valid username AND valid password -> Login successful
@@ -224,7 +259,7 @@ Actions:
 
 ---
 
-### Example DT-3: Insurance Premium (3 Conditions)
+### 💡 Example DT-3: Insurance Premium (3 Conditions)
 
 **Conditions:**
 - C1: Age >= 25?
@@ -257,9 +292,9 @@ R7* = Age < 25, no clean record, don't care about tenure -> 5% surcharge
 
 ---
 
-## STATE TRANSITION TESTING — Worked Examples
+## 💡 STATE TRANSITION TESTING — Worked Examples
 
-### Example ST-1: ATM PIN Entry
+### 💡 Example ST-1: ATM PIN Entry
 
 **Description:** An ATM allows 3 attempts to enter the correct PIN. After 3 incorrect attempts, the card is blocked.
 
@@ -327,7 +362,7 @@ All 7 transitions covered with 5 test cases. (Some paths share initial transitio
 
 ---
 
-### Example ST-2: Online Order Status
+### 💡 Example ST-2: Online Order Status
 
 **States:** New, Confirmed, Shipped, Delivered, Cancelled
 
@@ -358,7 +393,7 @@ TC1 covers 3 transitions, TC2 covers 1, TC3 covers 1. Total: 3 test cases for 0-
 
 ---
 
-### Example ST-3: User Account Lock (with Counter)
+### 💡 Example ST-3: User Account Lock (with Counter)
 
 **Requirement:** After 5 failed login attempts within 30 minutes, account is locked for 15 minutes.
 
@@ -370,9 +405,9 @@ This can be modeled with states S0 (active), S1-S4 (1-4 failures), S5 (locked).
 
 ---
 
-## STATEMENT AND BRANCH COVERAGE — Worked Examples
+## 💡 STATEMENT AND BRANCH COVERAGE — Worked Examples
 
-### Example WB-1: Simple If-Statement
+### 💡 Example WB-1: Simple If-Statement
 
 ```
 1: function calculateDiscount(total, isMember) {
@@ -413,7 +448,7 @@ This can be modeled with states S0 (active), S1-S4 (1-4 failures), S5 (locked).
 
 ---
 
-### Example WB-2: If-Else Chain
+### 💡 Example WB-2: If-Else Chain
 
 ```
 1: function getGrade(score) {
@@ -445,7 +480,7 @@ This can be modeled with states S0 (active), S1-S4 (1-4 failures), S5 (locked).
 
 ---
 
-### Example WB-3: Loop with Early Exit
+### 💡 Example WB-3: Loop with Early Exit
 
 ```
 1: function findFirst(array, target) {
@@ -476,9 +511,9 @@ Together: all 4 branches covered.
 
 ---
 
-## ATDD — Worked Examples
+## 💡 ATDD — Worked Examples
 
-### Example ATDD-1: Shopping Cart Maximum Quantity
+### 💡 Example ATDD-1: Shopping Cart Maximum Quantity
 
 **User Story:**
 ```
@@ -514,7 +549,7 @@ From AC4 (real-time update):
 
 ---
 
-### Example ATDD-2: Password Reset (Given/When/Then)
+### 💡 Example ATDD-2: Password Reset (Given/When/Then)
 
 **User Story:**
 ```
@@ -560,7 +595,7 @@ And the user can log in with the new password
 
 ---
 
-### Example ATDD-3: Flight Booking Seat Selection
+### 💡 Example ATDD-3: Flight Booking Seat Selection
 
 **User Story:**
 ```
@@ -587,7 +622,7 @@ So that I can choose a window or aisle seat.
 
 ---
 
-## Summary: Technique Selection Guide
+## 🎯 Summary: Technique Selection Guide
 
 | Technique | Best For | Key Deliverable |
 |-----------|----------|-----------------|

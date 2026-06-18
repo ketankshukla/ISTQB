@@ -1,10 +1,45 @@
-# CTFL v4.0 Glossary
+<!-- ISTQB-BEAUTIFY-V1 -->
+<style>
+html, body {
+  background-color: #000000 !important;
+  color: #F5F5F5 !important;
+}
+body {
+  font-size: 19px !important;
+  line-height: 1.85 !important;
+  font-family: 'Segoe UI', 'Trebuchet MS', Verdana, sans-serif !important;
+  padding: 24px 44px !important;
+  letter-spacing: 0.2px;
+}
+h1 { color: #FFD700 !important; font-size: 2.7em !important; font-weight: 800 !important; border-bottom: 3px solid #FF5252 !important; padding-bottom: 0.25em; }
+h2 { color: #00E5FF !important; font-size: 2.05em !important; font-weight: 800 !important; border-bottom: 2px solid #00E5FF !important; padding-bottom: 0.2em; }
+h3 { color: #69F0AE !important; font-size: 1.6em !important; font-weight: 700 !important; }
+h4 { color: #FF80AB !important; font-size: 1.35em !important; font-weight: 700 !important; }
+h5 { color: #FFAB40 !important; font-size: 1.2em !important; font-weight: 700 !important; }
+h6 { color: #B388FF !important; font-size: 1.1em !important; font-weight: 700 !important; }
+p, li, td, th, span, div { font-size: 1em !important; color: #F5F5F5 !important; }
+strong, b { color: #FFEB3B !important; }
+em, i { color: #FF8A65 !important; }
+a { color: #40C4FF !important; text-decoration: underline; }
+a:hover { color: #80D8FF !important; }
+code { color: #FF4081 !important; background: transparent !important; font-size: 0.95em !important; }
+pre { background: transparent !important; border: 1px solid #555 !important; border-radius: 8px; padding: 14px !important; }
+pre code { color: #80CBC4 !important; }
+blockquote { color: #B0BEC5 !important; border-left: 5px solid #FFD700 !important; background: transparent !important; padding-left: 18px; font-style: italic; }
+table { border-collapse: collapse !important; background: transparent !important; }
+th { color: #FFD700 !important; border: 2px solid #00E5FF !important; background: transparent !important; padding: 8px 12px !important; }
+td { color: #F5F5F5 !important; border: 1px solid #607D8B !important; background: transparent !important; padding: 8px 12px !important; }
+hr { border: none; border-top: 2px dashed #FF5252 !important; margin: 1.5em 0; }
+ul li::marker { color: #69F0AE !important; font-size: 1.1em; }
+ol li::marker { color: #00E5FF !important; font-weight: bold; }
+</style>
+# 📖 CTFL v4.0 Glossary
 
 All definitions below are written in original words, aligned with official ISTQB terminology for the v4.0 syllabus. Terms are organized alphabetically for quick reference.
 
 ---
 
-## A
+## ⭐ A
 
 **Acceptance criteria** — The conditions that a user story or requirement must satisfy to be considered complete and acceptable to stakeholders. Used as the basis for acceptance testing.
 
@@ -26,7 +61,7 @@ All definitions below are written in original words, aligned with official ISTQB
 
 ---
 
-## B
+## ⭐ B
 
 **Basis test set** — The minimum set of test cases needed to achieve a specified coverage criterion.
 
@@ -50,7 +85,7 @@ All definitions below are written in original words, aligned with official ISTQB
 
 ---
 
-## C
+## ⭐ C
 
 **Checklist-based testing** — An experience-based technique where the tester uses a high-level list of items to check, conditions to verify, or aspects to evaluate during testing.
 
@@ -76,7 +111,7 @@ All definitions below are written in original words, aligned with official ISTQB
 
 ---
 
-## D
+## ⭐ D
 
 **Data-driven testing** — A scripting technique where test input data and expected results are stored in a table or file, and a single test script iterates through the data.
 
@@ -104,7 +139,7 @@ All definitions below are written in original words, aligned with official ISTQB
 
 ---
 
-## E
+## ⭐ E
 
 **Entry criteria** — The preconditions that must be fulfilled before a test activity can begin. In Agile, often expressed as the Definition of Ready.
 
@@ -124,7 +159,7 @@ All definitions below are written in original words, aligned with official ISTQB
 
 ---
 
-## F
+## ⭐ F
 
 **Failure** — An observable deviation of the system from its expected behavior during execution. A failure is caused by a defect being triggered at runtime.
 
@@ -136,13 +171,13 @@ All definitions below are written in original words, aligned with official ISTQB
 
 ---
 
-## G-H
+## ⭐ G-H
 
 **Heuristic** — A practical, experience-based approach or rule of thumb used to guide problem-solving or testing when formal methods are impractical.
 
 ---
 
-## I
+## ⭐ I
 
 **Impact analysis** — Assessment of the effect of a proposed change on the system and its tests, identifying what areas may be affected and what testing is needed.
 
@@ -158,7 +193,7 @@ All definitions below are written in original words, aligned with official ISTQB
 
 ---
 
-## K
+## ⭐ K
 
 **Keyword-driven testing** — A testing approach where test cases are defined using action keywords (e.g., "Enter," "Click," "Verify") combined with test data, enabling non-programmers to design tests.
 
@@ -166,13 +201,13 @@ All definitions below are written in original words, aligned with official ISTQB
 
 ---
 
-## L
+## ⭐ L
 
 **Load testing** — A type of performance testing that evaluates system behavior under expected and peak load conditions.
 
 ---
 
-## M
+## ⭐ M
 
 **Maintenance testing** — Testing triggered by changes to or retirement of an existing operational system (patches, migrations, upgrades, or hot fixes).
 
@@ -182,7 +217,7 @@ All definitions below are written in original words, aligned with official ISTQB
 
 ---
 
-## N
+## ⭐ N
 
 **Negative testing** — Testing aimed at showing that the system handles invalid inputs or unexpected conditions gracefully (e.g., error messages, rejections).
 
@@ -190,7 +225,7 @@ All definitions below are written in original words, aligned with official ISTQB
 
 ---
 
-## P
+## ⭐ P
 
 **Pair testing** — A testing approach where two team members work together at one workstation to test the same feature, combining their perspectives.
 
@@ -210,7 +245,7 @@ All definitions below are written in original words, aligned with official ISTQB
 
 ---
 
-## Q
+## ⭐ Q
 
 **Quality** — The degree to which a work product satisfies stated and implied needs of its stakeholders.
 
@@ -220,7 +255,7 @@ All definitions below are written in original words, aligned with official ISTQB
 
 ---
 
-## R
+## ⭐ R
 
 **Regression testing** — Re-executing tests on previously tested functionality after changes have been made, to detect unintended side effects.
 
@@ -242,7 +277,7 @@ All definitions below are written in original words, aligned with official ISTQB
 
 ---
 
-## S
+## ⭐ S
 
 **Scripted testing** — Testing performed by following pre-written, detailed test procedures step by step.
 
@@ -278,7 +313,7 @@ All definitions below are written in original words, aligned with official ISTQB
 
 ---
 
-## T
+## ⭐ T
 
 **TDD (Test-Driven Development)** — A development practice where automated unit tests are written before the code, driving design through repeated cycles of test-write-code-refactor.
 
@@ -352,7 +387,7 @@ All definitions below are written in original words, aligned with official ISTQB
 
 ---
 
-## U
+## ⭐ U
 
 **Usability testing** — Testing that evaluates how easy and satisfying the system is to use for its intended audience.
 
@@ -362,7 +397,7 @@ All definitions below are written in original words, aligned with official ISTQB
 
 ---
 
-## V
+## ⭐ V
 
 **V-model** — A sequential development model showing a correspondence between each development phase (left side) and its associated testing phase (right side).
 
@@ -372,7 +407,7 @@ All definitions below are written in original words, aligned with official ISTQB
 
 ---
 
-## W
+## ⭐ W
 
 **Walkthrough** — A type of review where the author guides participants through a work product, explaining it step by step. Less formal than an inspection but more structured than an informal review.
 
@@ -382,7 +417,7 @@ All definitions below are written in original words, aligned with official ISTQB
 
 ---
 
-## 0-switch / 1-switch Coverage
+## 📊 0-switch / 1-switch Coverage
 
 **0-switch coverage** — Achieving coverage of every valid single transition in a state-transition diagram (covering each arc once).
 
