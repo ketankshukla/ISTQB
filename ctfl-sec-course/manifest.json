@@ -1,0 +1,208 @@
+{
+  "course": "CTFL-SEC — Certified Tester Foundation Level Security Testing",
+  "folder": "ctfl-sec-course",
+  "groups": [
+    {
+      "section": "🏁 Start Here",
+      "items": [
+        {
+          "title": "🌟 Course Overview",
+          "path": "README.md"
+        },
+        {
+          "title": "🗓️ Study Plan",
+          "path": "STUDY_PLAN.md"
+        },
+        {
+          "title": "📈 Progress Tracker",
+          "path": "PROGRESS_TRACKER.md"
+        },
+        {
+          "title": "♟️ Exam Strategy",
+          "path": "EXAM_STRATEGY.md"
+        }
+      ]
+    },
+    {
+      "section": "🎓 Reference",
+      "items": [
+        {
+          "title": "📖 Glossary",
+          "path": "GLOSSARY.md"
+        }
+      ]
+    },
+    {
+      "section": "🌟 Ch.1 - Introduction To Security Testing",
+      "items": [
+        {
+          "title": "🌟 Overview",
+          "path": "01_introduction_to_security_testing/README.md"
+        },
+        {
+          "title": "📘 Lessons",
+          "path": "01_introduction_to_security_testing/lessons.md"
+        },
+        {
+          "title": "🪤 Exam Traps",
+          "path": "01_introduction_to_security_testing/exam_traps.md"
+        },
+        {
+          "title": "❓ Practice Questions",
+          "path": "01_introduction_to_security_testing/practice_questions.md"
+        }
+      ]
+    },
+    {
+      "section": "🔒 Ch.2 - Security Testing Principles",
+      "items": [
+        {
+          "title": "🌟 Overview",
+          "path": "02_security_testing_principles/README.md"
+        },
+        {
+          "title": "📘 Lessons",
+          "path": "02_security_testing_principles/lessons.md"
+        },
+        {
+          "title": "🪤 Exam Traps",
+          "path": "02_security_testing_principles/exam_traps.md"
+        },
+        {
+          "title": "❓ Practice Questions",
+          "path": "02_security_testing_principles/practice_questions.md"
+        }
+      ]
+    },
+    {
+      "section": "🎯 Ch.3 - Security Testing Techniques",
+      "items": [
+        {
+          "title": "🌟 Overview",
+          "path": "03_security_testing_techniques/README.md"
+        },
+        {
+          "title": "📘 Lessons",
+          "path": "03_security_testing_techniques/lessons.md"
+        },
+        {
+          "title": "🪤 Exam Traps",
+          "path": "03_security_testing_techniques/exam_traps.md"
+        },
+        {
+          "title": "❓ Practice Questions",
+          "path": "03_security_testing_techniques/practice_questions.md"
+        }
+      ]
+    },
+    {
+      "section": "🔄 Ch.4 - Security Testing Process",
+      "items": [
+        {
+          "title": "🌟 Overview",
+          "path": "04_security_testing_process/README.md"
+        },
+        {
+          "title": "📘 Lessons",
+          "path": "04_security_testing_process/lessons.md"
+        },
+        {
+          "title": "🪤 Exam Traps",
+          "path": "04_security_testing_process/exam_traps.md"
+        },
+        {
+          "title": "❓ Practice Questions",
+          "path": "04_security_testing_process/practice_questions.md"
+        }
+      ]
+    },
+    {
+      "section": "🛠️ Ch.5 - Security Testing Tools",
+      "items": [
+        {
+          "title": "🌟 Overview",
+          "path": "05_security_testing_tools/README.md"
+        },
+        {
+          "title": "📘 Lessons",
+          "path": "05_security_testing_tools/lessons.md"
+        },
+        {
+          "title": "🪤 Exam Traps",
+          "path": "05_security_testing_tools/exam_traps.md"
+        },
+        {
+          "title": "❓ Practice Questions",
+          "path": "05_security_testing_tools/practice_questions.md"
+        }
+      ]
+    },
+    {
+      "section": "🔁 Ch.6 - Security Testing In The SDLC",
+      "items": [
+        {
+          "title": "🌟 Overview",
+          "path": "06_security_testing_in_the_sdlc/README.md"
+        },
+        {
+          "title": "📘 Lessons",
+          "path": "06_security_testing_in_the_sdlc/lessons.md"
+        },
+        {
+          "title": "🪤 Exam Traps",
+          "path": "06_security_testing_in_the_sdlc/exam_traps.md"
+        },
+        {
+          "title": "❓ Practice Questions",
+          "path": "06_security_testing_in_the_sdlc/practice_questions.md"
+        }
+      ]
+    },
+    {
+      "section": "📂 Case Studies",
+      "items": [
+        {
+          "title": "📂 Case 1 - Web Application Security Assessment",
+          "path": "case_studies/case_study_1_web_application_security_assessment.md"
+        },
+        {
+          "title": "📂 Case 2 - Mobile App Security Testing",
+          "path": "case_studies/case_study_2_mobile_app_security_testing.md"
+        },
+        {
+          "title": "📂 Case 3 - API Security Testing",
+          "path": "case_studies/case_study_3_api_security_testing.md"
+        }
+      ]
+    },
+    {
+      "section": "📝 Mock Exams",
+      "items": [
+        {
+          "title": "📝 Mock Exam 1",
+          "path": "mock_exams/mock_exam_1.md"
+        },
+        {
+          "title": "✔️ Mock Exam 1 - Answer Key",
+          "path": "mock_exams/mock_exam_1_answer_key.md"
+        },
+        {
+          "title": "📝 Mock Exam 2",
+          "path": "mock_exams/mock_exam_2.md"
+        },
+        {
+          "title": "✔️ Mock Exam 2 - Answer Key",
+          "path": "mock_exams/mock_exam_2_answer_key.md"
+        },
+        {
+          "title": "📝 Mock Exam 3",
+          "path": "mock_exams/mock_exam_3.md"
+        },
+        {
+          "title": "✔️ Mock Exam 3 - Answer Key",
+          "path": "mock_exams/mock_exam_3_answer_key.md"
+        }
+      ]
+    }
+  ]
+}

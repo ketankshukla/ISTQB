@@ -1,0 +1,184 @@
+{
+  "courses": [
+    {
+      "code": "CT-AI",
+      "folder": "ct-ai-course",
+      "title": "CT-AI — Certified Tester in AI Testing",
+      "level": "Specialist Modules"
+    },
+    {
+      "code": "CT-API",
+      "folder": "ct-api-course",
+      "title": "CT-API — Certified Tester in API Testing",
+      "level": "Specialist Modules"
+    },
+    {
+      "code": "CT-AT",
+      "folder": "ct-at-course",
+      "title": "CT-AT — Certified Tester in Agile Testing",
+      "level": "Specialist Modules"
+    },
+    {
+      "code": "CT-ATLAS",
+      "folder": "ct-atlas-course",
+      "title": "CT-ATLaS — Certified Tester in Agile Test Leadership at Scale",
+      "level": "Specialist Modules"
+    },
+    {
+      "code": "CT-AUT",
+      "folder": "ct-aut-course",
+      "title": "CT-AuT — Certified Tester in Automotive Software Testing",
+      "level": "Specialist Modules"
+    },
+    {
+      "code": "CT-FT",
+      "folder": "ct-ft-course",
+      "title": "CT-FT — Certified Tester in Finance Testing",
+      "level": "Specialist Modules"
+    },
+    {
+      "code": "CT-GAME",
+      "folder": "ct-game-course",
+      "title": "CT-GaMe — Certified Tester in Game Testing",
+      "level": "Specialist Modules"
+    },
+    {
+      "code": "CT-MAT",
+      "folder": "ct-mat-course",
+      "title": "CT-MAT — Certified Tester in Mobile Application Testing",
+      "level": "Specialist Modules"
+    },
+    {
+      "code": "CT-MBT",
+      "folder": "ct-mbt-course",
+      "title": "CT-MBT — Certified Tester in Model-Based Testing",
+      "level": "Specialist Modules"
+    },
+    {
+      "code": "CT-PT",
+      "folder": "ct-pt-course",
+      "title": "CT-PT — Certified Tester in Performance Testing",
+      "level": "Specialist Modules"
+    },
+    {
+      "code": "CT-QDO",
+      "folder": "ct-qdo-course",
+      "title": "CT-QDO — Certified Tester in Quality in DevOps",
+      "level": "Specialist Modules"
+    },
+    {
+      "code": "CT-STE",
+      "folder": "ct-ste-course",
+      "title": "CT-STE — Certified Tester in Security Test Engineering",
+      "level": "Specialist Modules"
+    },
+    {
+      "code": "CT-TAS",
+      "folder": "ct-tas-course",
+      "title": "CT-TAS — Certified Tester in Test Automation Strategy",
+      "level": "Specialist Modules"
+    },
+    {
+      "code": "CT-UT",
+      "folder": "ct-ut-course",
+      "title": "CT-UT — Certified Tester in Usability Testing",
+      "level": "Specialist Modules"
+    },
+    {
+      "code": "CT-TAE",
+      "folder": "ct-tae-course",
+      "title": "CTAL-TAE — Certified Tester Advanced Level Test Automation Engineer (v4.0)",
+      "level": "Specialist Modules"
+    },
+    {
+      "code": "CTFL-AUT",
+      "folder": "ctfl-aut-course",
+      "title": "CTFL-AuT — Certified Tester Foundation Level Automotive Software Testing",
+      "level": "Foundation Level — Extensions"
+    },
+    {
+      "code": "CTFL-PT",
+      "folder": "ctfl-pt-course",
+      "title": "CTFL-PT — Certified Tester Foundation Level Performance Testing",
+      "level": "Foundation Level — Extensions"
+    },
+    {
+      "code": "CTFL-SEC",
+      "folder": "ctfl-sec-course",
+      "title": "CTFL-SEC — Certified Tester Foundation Level Security Testing",
+      "level": "Foundation Level — Extensions"
+    },
+    {
+      "code": "CT-ACT",
+      "folder": "ct-act-course",
+      "title": "ISTQB CT-AcT — Acceptance Testing",
+      "level": "Specialist Modules"
+    },
+    {
+      "code": "CT-BD",
+      "folder": "ct-bd-course",
+      "title": "ISTQB CT-BD — Big Data Testing",
+      "level": "Specialist Modules"
+    },
+    {
+      "code": "CT-GENAI",
+      "folder": "ct-genai-course",
+      "title": "ISTQB CT-GenAI v1.1 — Complete Self-Study Course",
+      "level": "Specialist Modules"
+    },
+    {
+      "code": "CT-SEC",
+      "folder": "ct-sec-course",
+      "title": "ISTQB CT-SEC — Security Testing",
+      "level": "Specialist Modules"
+    },
+    {
+      "code": "CTAL-AT",
+      "folder": "ctal-at-course",
+      "title": "ISTQB CTAL-AT — Advanced Agile Technical Tester Self-Study Course",
+      "level": "Advanced Level"
+    },
+    {
+      "code": "CTAL-TA",
+      "folder": "ctal-ta-course",
+      "title": "ISTQB CTAL-TA v4.0 — Advanced Test Analyst Self-Study Course",
+      "level": "Advanced Level"
+    },
+    {
+      "code": "CTAL-TM",
+      "folder": "ctal-tm-course",
+      "title": "ISTQB CTAL-TM — Advanced Test Manager Self-Study Course",
+      "level": "Advanced Level"
+    },
+    {
+      "code": "CTAL-TTA",
+      "folder": "ctal-tta-course",
+      "title": "ISTQB CTAL-TTA — Advanced Technical Test Analyst Self-Study Course",
+      "level": "Advanced Level"
+    },
+    {
+      "code": "CTFL",
+      "folder": "ctfl-course",
+      "title": "ISTQB CTFL v4.0 — Complete Self-Study Course",
+      "level": "Foundation Level (Core)"
+    },
+    {
+      "code": "CTFL-AT",
+      "folder": "ctfl-at-course",
+      "title": "ISTQB CTFL-AT v4.0 — Agile Tester Self-Study Course",
+      "level": "Foundation Level — Extensions"
+    },
+    {
+      "code": "CTFL-GT",
+      "folder": "ctfl-gt-course",
+      "title": "ISTQB CTFL-GT — Gambling Industry Tester Self-Study Course",
+      "level": "Foundation Level — Extensions"
+    },
+    {
+      "code": "CTFL-MBT",
+      "folder": "ctfl-mbt-course",
+      "title": "ISTQB CTFL-MBT — Model-Based Tester Self-Study Course",
+      "level": "Foundation Level — Extensions"
+    }
+  ]
+}

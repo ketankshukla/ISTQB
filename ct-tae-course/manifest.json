@@ -1,0 +1,208 @@
+{
+  "course": "CTAL-TAE — Certified Tester Advanced Level Test Automation Engineer (v4.0)",
+  "folder": "ct-tae-course",
+  "groups": [
+    {
+      "section": "🏁 Start Here",
+      "items": [
+        {
+          "title": "🌟 Course Overview",
+          "path": "README.md"
+        },
+        {
+          "title": "🗓️ Study Plan",
+          "path": "STUDY_PLAN.md"
+        },
+        {
+          "title": "📈 Progress Tracker",
+          "path": "PROGRESS_TRACKER.md"
+        },
+        {
+          "title": "♟️ Exam Strategy",
+          "path": "EXAM_STRATEGY.md"
+        }
+      ]
+    },
+    {
+      "section": "🎓 Reference",
+      "items": [
+        {
+          "title": "📖 Glossary",
+          "path": "GLOSSARY.md"
+        }
+      ]
+    },
+    {
+      "section": "⚙️ Ch.1 - Introduction To Test Automation",
+      "items": [
+        {
+          "title": "🌟 Overview",
+          "path": "01_introduction_to_test_automation/README.md"
+        },
+        {
+          "title": "📘 Lessons",
+          "path": "01_introduction_to_test_automation/lessons.md"
+        },
+        {
+          "title": "🪤 Exam Traps",
+          "path": "01_introduction_to_test_automation/exam_traps.md"
+        },
+        {
+          "title": "❓ Practice Questions",
+          "path": "01_introduction_to_test_automation/practice_questions.md"
+        }
+      ]
+    },
+    {
+      "section": "⚙️ Ch.2 - Preparing For Test Automation",
+      "items": [
+        {
+          "title": "🌟 Overview",
+          "path": "02_preparing_for_test_automation/README.md"
+        },
+        {
+          "title": "📘 Lessons",
+          "path": "02_preparing_for_test_automation/lessons.md"
+        },
+        {
+          "title": "🪤 Exam Traps",
+          "path": "02_preparing_for_test_automation/exam_traps.md"
+        },
+        {
+          "title": "❓ Practice Questions",
+          "path": "02_preparing_for_test_automation/practice_questions.md"
+        }
+      ]
+    },
+    {
+      "section": "⚙️ Ch.3 - Test Automation Architecture",
+      "items": [
+        {
+          "title": "🌟 Overview",
+          "path": "03_test_automation_architecture/README.md"
+        },
+        {
+          "title": "📘 Lessons",
+          "path": "03_test_automation_architecture/lessons.md"
+        },
+        {
+          "title": "🪤 Exam Traps",
+          "path": "03_test_automation_architecture/exam_traps.md"
+        },
+        {
+          "title": "❓ Practice Questions",
+          "path": "03_test_automation_architecture/practice_questions.md"
+        }
+      ]
+    },
+    {
+      "section": "🎯 Ch.4 - Designing And Developing Tas",
+      "items": [
+        {
+          "title": "🌟 Overview",
+          "path": "04_designing_and_developing_tas/README.md"
+        },
+        {
+          "title": "📘 Lessons",
+          "path": "04_designing_and_developing_tas/lessons.md"
+        },
+        {
+          "title": "🪤 Exam Traps",
+          "path": "04_designing_and_developing_tas/exam_traps.md"
+        },
+        {
+          "title": "❓ Practice Questions",
+          "path": "04_designing_and_developing_tas/practice_questions.md"
+        }
+      ]
+    },
+    {
+      "section": "📚 Ch.5 - Deployment And Reporting",
+      "items": [
+        {
+          "title": "🌟 Overview",
+          "path": "05_deployment_and_reporting/README.md"
+        },
+        {
+          "title": "📘 Lessons",
+          "path": "05_deployment_and_reporting/lessons.md"
+        },
+        {
+          "title": "🪤 Exam Traps",
+          "path": "05_deployment_and_reporting/exam_traps.md"
+        },
+        {
+          "title": "❓ Practice Questions",
+          "path": "05_deployment_and_reporting/practice_questions.md"
+        }
+      ]
+    },
+    {
+      "section": "🤖 Ch.6 - Transitioning And Maintenance",
+      "items": [
+        {
+          "title": "🌟 Overview",
+          "path": "06_transitioning_and_maintenance/README.md"
+        },
+        {
+          "title": "📘 Lessons",
+          "path": "06_transitioning_and_maintenance/lessons.md"
+        },
+        {
+          "title": "🪤 Exam Traps",
+          "path": "06_transitioning_and_maintenance/exam_traps.md"
+        },
+        {
+          "title": "❓ Practice Questions",
+          "path": "06_transitioning_and_maintenance/practice_questions.md"
+        }
+      ]
+    },
+    {
+      "section": "📂 Case Studies",
+      "items": [
+        {
+          "title": "📂 Case 1 - Legacy Automation",
+          "path": "case_studies/case_study_1_legacy_automation.md"
+        },
+        {
+          "title": "📂 Case 2 - Framework Selection",
+          "path": "case_studies/case_study_2_framework_selection.md"
+        },
+        {
+          "title": "📂 Case 3 - CI CD Integration",
+          "path": "case_studies/case_study_3_ci_cd_integration.md"
+        }
+      ]
+    },
+    {
+      "section": "📝 Mock Exams",
+      "items": [
+        {
+          "title": "📝 Mock Exam 1",
+          "path": "mock_exams/mock_exam_1.md"
+        },
+        {
+          "title": "✔️ Mock Exam 1 - Answer Key",
+          "path": "mock_exams/mock_exam_1_answer_key.md"
+        },
+        {
+          "title": "📝 Mock Exam 2",
+          "path": "mock_exams/mock_exam_2.md"
+        },
+        {
+          "title": "✔️ Mock Exam 2 - Answer Key",
+          "path": "mock_exams/mock_exam_2_answer_key.md"
+        },
+        {
+          "title": "📝 Mock Exam 3",
+          "path": "mock_exams/mock_exam_3.md"
+        },
+        {
+          "title": "✔️ Mock Exam 3 - Answer Key",
+          "path": "mock_exams/mock_exam_3_answer_key.md"
+        }
+      ]
+    }
+  ]
+}

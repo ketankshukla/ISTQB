@@ -1,0 +1,166 @@
+{
+  "course": "ISTQB CTFL-GT — Gambling Industry Tester Self-Study Course",
+  "folder": "ctfl-gt-course",
+  "groups": [
+    {
+      "section": "🏁 Start Here",
+      "items": [
+        {
+          "title": "🌟 Course Overview",
+          "path": "README.md"
+        },
+        {
+          "title": "🗓️ Study Plan",
+          "path": "STUDY_PLAN.md"
+        },
+        {
+          "title": "📈 Progress Tracker",
+          "path": "PROGRESS_TRACKER.md"
+        },
+        {
+          "title": "♟️ Exam Strategy",
+          "path": "EXAM_STRATEGY.md"
+        }
+      ]
+    },
+    {
+      "section": "🎓 Reference",
+      "items": [
+        {
+          "title": "📖 Glossary",
+          "path": "GLOSSARY.md"
+        }
+      ]
+    },
+    {
+      "section": "🏗️ Ch.1 - Gambling Industry Fundamentals",
+      "items": [
+        {
+          "title": "🌟 Overview",
+          "path": "01_gambling_industry_fundamentals/README.md"
+        },
+        {
+          "title": "📘 Lessons",
+          "path": "01_gambling_industry_fundamentals/lessons.md"
+        },
+        {
+          "title": "🪤 Exam Traps",
+          "path": "01_gambling_industry_fundamentals/exam_traps.md"
+        },
+        {
+          "title": "❓ Practice Questions",
+          "path": "01_gambling_industry_fundamentals/practice_questions.md"
+        }
+      ]
+    },
+    {
+      "section": "📚 Ch.2 - Game Mathematics And Rng",
+      "items": [
+        {
+          "title": "🌟 Overview",
+          "path": "02_game_mathematics_and_rng/README.md"
+        },
+        {
+          "title": "📘 Lessons",
+          "path": "02_game_mathematics_and_rng/lessons.md"
+        },
+        {
+          "title": "🪤 Exam Traps",
+          "path": "02_game_mathematics_and_rng/exam_traps.md"
+        },
+        {
+          "title": "❓ Practice Questions",
+          "path": "02_game_mathematics_and_rng/practice_questions.md"
+        }
+      ]
+    },
+    {
+      "section": "📚 Ch.3 - Compliance Player Protection",
+      "items": [
+        {
+          "title": "🌟 Overview",
+          "path": "03_compliance_player_protection/README.md"
+        },
+        {
+          "title": "📘 Lessons",
+          "path": "03_compliance_player_protection/lessons.md"
+        },
+        {
+          "title": "🪤 Exam Traps",
+          "path": "03_compliance_player_protection/exam_traps.md"
+        },
+        {
+          "title": "❓ Practice Questions",
+          "path": "03_compliance_player_protection/practice_questions.md"
+        }
+      ]
+    },
+    {
+      "section": "🛠️ Ch.4 - Gambling Testing Types Tools",
+      "items": [
+        {
+          "title": "🌟 Overview",
+          "path": "04_gambling_testing_types_tools/README.md"
+        },
+        {
+          "title": "📘 Lessons",
+          "path": "04_gambling_testing_types_tools/lessons.md"
+        },
+        {
+          "title": "🪤 Exam Traps",
+          "path": "04_gambling_testing_types_tools/exam_traps.md"
+        },
+        {
+          "title": "❓ Practice Questions",
+          "path": "04_gambling_testing_types_tools/practice_questions.md"
+        }
+      ]
+    },
+    {
+      "section": "📂 Case Studies",
+      "items": [
+        {
+          "title": "📂 Case 1 - Slot Game Testing",
+          "path": "case_studies/case_study_1_slot_game_testing.md"
+        },
+        {
+          "title": "📂 Case 2 - Sports Betting Platform",
+          "path": "case_studies/case_study_2_sports_betting_platform.md"
+        },
+        {
+          "title": "📂 Case 3 - Regulatory Compliance Audit",
+          "path": "case_studies/case_study_3_regulatory_compliance_audit.md"
+        }
+      ]
+    },
+    {
+      "section": "📝 Mock Exams",
+      "items": [
+        {
+          "title": "📝 Mock Exam 1",
+          "path": "mock_exams/mock_exam_1.md"
+        },
+        {
+          "title": "✔️ Mock Exam 1 - Answer Key",
+          "path": "mock_exams/mock_exam_1_answer_key.md"
+        },
+        {
+          "title": "📝 Mock Exam 2",
+          "path": "mock_exams/mock_exam_2.md"
+        },
+        {
+          "title": "✔️ Mock Exam 2 - Answer Key",
+          "path": "mock_exams/mock_exam_2_answer_key.md"
+        },
+        {
+          "title": "📝 Mock Exam 3",
+          "path": "mock_exams/mock_exam_3.md"
+        },
+        {
+          "title": "✔️ Mock Exam 3 - Answer Key",
+          "path": "mock_exams/mock_exam_3_answer_key.md"
+        }
+      ]
+    }
+  ]
+}

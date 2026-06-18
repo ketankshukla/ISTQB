@@ -1,0 +1,208 @@
+{
+  "course": "CT-TAS — Certified Tester in Test Automation Strategy",
+  "folder": "ct-tas-course",
+  "groups": [
+    {
+      "section": "🏁 Start Here",
+      "items": [
+        {
+          "title": "🌟 Course Overview",
+          "path": "README.md"
+        },
+        {
+          "title": "🗓️ Study Plan",
+          "path": "STUDY_PLAN.md"
+        },
+        {
+          "title": "📈 Progress Tracker",
+          "path": "PROGRESS_TRACKER.md"
+        },
+        {
+          "title": "♟️ Exam Strategy",
+          "path": "EXAM_STRATEGY.md"
+        }
+      ]
+    },
+    {
+      "section": "🎓 Reference",
+      "items": [
+        {
+          "title": "📖 Glossary",
+          "path": "GLOSSARY.md"
+        }
+      ]
+    },
+    {
+      "section": "⚙️ Ch.1 - Introduction To Test Automation Strategy",
+      "items": [
+        {
+          "title": "🌟 Overview",
+          "path": "01_introduction_to_test_automation_strategy/README.md"
+        },
+        {
+          "title": "📘 Lessons",
+          "path": "01_introduction_to_test_automation_strategy/lessons.md"
+        },
+        {
+          "title": "🪤 Exam Traps",
+          "path": "01_introduction_to_test_automation_strategy/exam_traps.md"
+        },
+        {
+          "title": "❓ Practice Questions",
+          "path": "01_introduction_to_test_automation_strategy/practice_questions.md"
+        }
+      ]
+    },
+    {
+      "section": "⚙️ Ch.2 - Test Automation Planning And Roi",
+      "items": [
+        {
+          "title": "🌟 Overview",
+          "path": "02_test_automation_planning_and_roi/README.md"
+        },
+        {
+          "title": "📘 Lessons",
+          "path": "02_test_automation_planning_and_roi/lessons.md"
+        },
+        {
+          "title": "🪤 Exam Traps",
+          "path": "02_test_automation_planning_and_roi/exam_traps.md"
+        },
+        {
+          "title": "❓ Practice Questions",
+          "path": "02_test_automation_planning_and_roi/practice_questions.md"
+        }
+      ]
+    },
+    {
+      "section": "🎯 Ch.3 - Test Automation Architecture And Design",
+      "items": [
+        {
+          "title": "🌟 Overview",
+          "path": "03_test_automation_architecture_and_design/README.md"
+        },
+        {
+          "title": "📘 Lessons",
+          "path": "03_test_automation_architecture_and_design/lessons.md"
+        },
+        {
+          "title": "🪤 Exam Traps",
+          "path": "03_test_automation_architecture_and_design/exam_traps.md"
+        },
+        {
+          "title": "❓ Practice Questions",
+          "path": "03_test_automation_architecture_and_design/practice_questions.md"
+        }
+      ]
+    },
+    {
+      "section": "⚙️ Ch.4 - Test Automation Implementation And Deployment",
+      "items": [
+        {
+          "title": "🌟 Overview",
+          "path": "04_test_automation_implementation_and_deployment/README.md"
+        },
+        {
+          "title": "📘 Lessons",
+          "path": "04_test_automation_implementation_and_deployment/lessons.md"
+        },
+        {
+          "title": "🪤 Exam Traps",
+          "path": "04_test_automation_implementation_and_deployment/exam_traps.md"
+        },
+        {
+          "title": "❓ Practice Questions",
+          "path": "04_test_automation_implementation_and_deployment/practice_questions.md"
+        }
+      ]
+    },
+    {
+      "section": "⚙️ Ch.5 - Test Automation Maintenance And Evolution",
+      "items": [
+        {
+          "title": "🌟 Overview",
+          "path": "05_test_automation_maintenance_and_evolution/README.md"
+        },
+        {
+          "title": "📘 Lessons",
+          "path": "05_test_automation_maintenance_and_evolution/lessons.md"
+        },
+        {
+          "title": "🪤 Exam Traps",
+          "path": "05_test_automation_maintenance_and_evolution/exam_traps.md"
+        },
+        {
+          "title": "❓ Practice Questions",
+          "path": "05_test_automation_maintenance_and_evolution/practice_questions.md"
+        }
+      ]
+    },
+    {
+      "section": "📚 Ch.6 - Organizational And Human Factors",
+      "items": [
+        {
+          "title": "🌟 Overview",
+          "path": "06_organizational_and_human_factors/README.md"
+        },
+        {
+          "title": "📘 Lessons",
+          "path": "06_organizational_and_human_factors/lessons.md"
+        },
+        {
+          "title": "🪤 Exam Traps",
+          "path": "06_organizational_and_human_factors/exam_traps.md"
+        },
+        {
+          "title": "❓ Practice Questions",
+          "path": "06_organizational_and_human_factors/practice_questions.md"
+        }
+      ]
+    },
+    {
+      "section": "📂 Case Studies",
+      "items": [
+        {
+          "title": "📂 Case 1 - Enterprise Automation Adoption",
+          "path": "case_studies/case_study_1_enterprise_automation_adoption.md"
+        },
+        {
+          "title": "📂 Case 2 - Legacy System Automation",
+          "path": "case_studies/case_study_2_legacy_system_automation.md"
+        },
+        {
+          "title": "📂 Case 3 - Cicd Automation Transformation",
+          "path": "case_studies/case_study_3_cicd_automation_transformation.md"
+        }
+      ]
+    },
+    {
+      "section": "📝 Mock Exams",
+      "items": [
+        {
+          "title": "📝 Mock Exam 1",
+          "path": "mock_exams/mock_exam_1.md"
+        },
+        {
+          "title": "✔️ Mock Exam 1 - Answer Key",
+          "path": "mock_exams/mock_exam_1_answer_key.md"
+        },
+        {
+          "title": "📝 Mock Exam 2",
+          "path": "mock_exams/mock_exam_2.md"
+        },
+        {
+          "title": "✔️ Mock Exam 2 - Answer Key",
+          "path": "mock_exams/mock_exam_2_answer_key.md"
+        },
+        {
+          "title": "📝 Mock Exam 3",
+          "path": "mock_exams/mock_exam_3.md"
+        },
+        {
+          "title": "✔️ Mock Exam 3 - Answer Key",
+          "path": "mock_exams/mock_exam_3_answer_key.md"
+        }
+      ]
+    }
+  ]
+}

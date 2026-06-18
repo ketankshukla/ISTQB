@@ -1,0 +1,187 @@
+{
+  "course": "ISTQB CTFL-MBT — Model-Based Tester Self-Study Course",
+  "folder": "ctfl-mbt-course",
+  "groups": [
+    {
+      "section": "🏁 Start Here",
+      "items": [
+        {
+          "title": "🌟 Course Overview",
+          "path": "README.md"
+        },
+        {
+          "title": "🗓️ Study Plan",
+          "path": "STUDY_PLAN.md"
+        },
+        {
+          "title": "📈 Progress Tracker",
+          "path": "PROGRESS_TRACKER.md"
+        },
+        {
+          "title": "♟️ Exam Strategy",
+          "path": "EXAM_STRATEGY.md"
+        }
+      ]
+    },
+    {
+      "section": "🎓 Reference",
+      "items": [
+        {
+          "title": "📖 Glossary",
+          "path": "GLOSSARY.md"
+        }
+      ]
+    },
+    {
+      "section": "🌟 Ch.1 - Introduction To Mbt",
+      "items": [
+        {
+          "title": "🌟 Overview",
+          "path": "01_introduction_to_mbt/README.md"
+        },
+        {
+          "title": "📘 Lessons",
+          "path": "01_introduction_to_mbt/lessons.md"
+        },
+        {
+          "title": "🪤 Exam Traps",
+          "path": "01_introduction_to_mbt/exam_traps.md"
+        },
+        {
+          "title": "❓ Practice Questions",
+          "path": "01_introduction_to_mbt/practice_questions.md"
+        }
+      ]
+    },
+    {
+      "section": "📐 Ch.2 - Mbt Modeling",
+      "items": [
+        {
+          "title": "🌟 Overview",
+          "path": "02_mbt_modeling/README.md"
+        },
+        {
+          "title": "📘 Lessons",
+          "path": "02_mbt_modeling/lessons.md"
+        },
+        {
+          "title": "🪤 Exam Traps",
+          "path": "02_mbt_modeling/exam_traps.md"
+        },
+        {
+          "title": "❓ Practice Questions",
+          "path": "02_mbt_modeling/practice_questions.md"
+        }
+      ]
+    },
+    {
+      "section": "🧪 Ch.3 - Test Generation Selection Criteria",
+      "items": [
+        {
+          "title": "🌟 Overview",
+          "path": "03_test_generation_selection_criteria/README.md"
+        },
+        {
+          "title": "📘 Lessons",
+          "path": "03_test_generation_selection_criteria/lessons.md"
+        },
+        {
+          "title": "🪤 Exam Traps",
+          "path": "03_test_generation_selection_criteria/exam_traps.md"
+        },
+        {
+          "title": "❓ Practice Questions",
+          "path": "03_test_generation_selection_criteria/practice_questions.md"
+        }
+      ]
+    },
+    {
+      "section": "🎯 Ch.4 - Mbt Execution Analysis",
+      "items": [
+        {
+          "title": "🌟 Overview",
+          "path": "04_mbt_execution_analysis/README.md"
+        },
+        {
+          "title": "📘 Lessons",
+          "path": "04_mbt_execution_analysis/lessons.md"
+        },
+        {
+          "title": "🪤 Exam Traps",
+          "path": "04_mbt_execution_analysis/exam_traps.md"
+        },
+        {
+          "title": "❓ Practice Questions",
+          "path": "04_mbt_execution_analysis/practice_questions.md"
+        }
+      ]
+    },
+    {
+      "section": "🛠️ Ch.5 - Mbt Tools Automation",
+      "items": [
+        {
+          "title": "🌟 Overview",
+          "path": "05_mbt_tools_automation/README.md"
+        },
+        {
+          "title": "📘 Lessons",
+          "path": "05_mbt_tools_automation/lessons.md"
+        },
+        {
+          "title": "🪤 Exam Traps",
+          "path": "05_mbt_tools_automation/exam_traps.md"
+        },
+        {
+          "title": "❓ Practice Questions",
+          "path": "05_mbt_tools_automation/practice_questions.md"
+        }
+      ]
+    },
+    {
+      "section": "📂 Case Studies",
+      "items": [
+        {
+          "title": "📂 Case 1 - ATM State Machine",
+          "path": "case_studies/case_study_1_atm_state_machine.md"
+        },
+        {
+          "title": "📂 Case 2 - E-commerce Decision Tables",
+          "path": "case_studies/case_study_2_ecommerce_decision_tables.md"
+        },
+        {
+          "title": "📂 Case 3 - Mbt Tool Selection",
+          "path": "case_studies/case_study_3_mbt_tool_selection.md"
+        }
+      ]
+    },
+    {
+      "section": "📝 Mock Exams",
+      "items": [
+        {
+          "title": "📝 Mock Exam 1",
+          "path": "mock_exams/mock_exam_1.md"
+        },
+        {
+          "title": "✔️ Mock Exam 1 - Answer Key",
+          "path": "mock_exams/mock_exam_1_answer_key.md"
+        },
+        {
+          "title": "📝 Mock Exam 2",
+          "path": "mock_exams/mock_exam_2.md"
+        },
+        {
+          "title": "✔️ Mock Exam 2 - Answer Key",
+          "path": "mock_exams/mock_exam_2_answer_key.md"
+        },
+        {
+          "title": "📝 Mock Exam 3",
+          "path": "mock_exams/mock_exam_3.md"
+        },
+        {
+          "title": "✔️ Mock Exam 3 - Answer Key",
+          "path": "mock_exams/mock_exam_3_answer_key.md"
+        }
+      ]
+    }
+  ]
+}
