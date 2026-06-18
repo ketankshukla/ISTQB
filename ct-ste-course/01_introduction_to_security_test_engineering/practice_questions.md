@@ -1,8 +1,8 @@
-# Chapter 1 — Introduction to Security Test Engineering: Practice Questions
+# ❓ Chapter 1 — Introduction to Security Test Engineering: Practice Questions
 
 ---
 
-### Q1 (STE-1.1, K1)
+### 🔷 Q1 (STE-1.1, K1)
 
 Security test engineering focuses on:
 
@@ -13,7 +13,7 @@ D. Only usability
 
 ---
 
-### Q2 (STE-1.2, K1)
+### 🔷 Q2 (STE-1.2, K1)
 
 The CIA triad does NOT include:
 
@@ -24,7 +24,7 @@ D. Scalability
 
 ---
 
-### Q3 (STE-1.2, K2)
+### 🔷 Q3 (STE-1.2, K2)
 
 Verifying that only authorized users can view patient records tests:
 
@@ -35,7 +35,7 @@ D. Accountability
 
 ---
 
-### Q4 (STE-1.3, K1)
+### 🔷 Q4 (STE-1.3, K1)
 
 A nation-state threat actor is typically characterized by:
 
@@ -46,7 +46,7 @@ D. Only accidental actions
 
 ---
 
-### Q5 (STE-1.1, K2)
+### 🔷 Q5 (STE-1.1, K2)
 
 Penetration testing is:
 
@@ -57,7 +57,7 @@ D. Only for compliance
 
 ---
 
-### Q6 (STE-1.2, K2)
+### 🔷 Q6 (STE-1.2, K2)
 
 Ensuring data is not improperly altered tests:
 
@@ -68,7 +68,7 @@ D. Authentication
 
 ---
 
-### Q7 (STE-1.3, K1)
+### 🔷 Q7 (STE-1.3, K1)
 
 An insider threat is:
 
@@ -79,7 +79,7 @@ D. Only nation-states
 
 ---
 
-### Q8 (STE-1.4, K1)
+### 🔷 Q8 (STE-1.4, K1)
 
 OWASP Top 10 A03 (Injection) primarily involves:
 
@@ -90,7 +90,7 @@ D. Only session management
 
 ---
 
-### Q9 (STE-1.1, K2)
+### 🔷 Q9 (STE-1.1, K2)
 
 Security testing differs from functional testing because:
 
@@ -101,7 +101,7 @@ D. It only requires manual testing
 
 ---
 
-### Q10 (STE-1.2, K2)
+### 🔷 Q10 (STE-1.2, K2)
 
 Non-repudiation ensures:
 
@@ -112,7 +112,7 @@ D. Only administrators have access
 
 ---
 
-### Q11 (STE-1.3, K1)
+### 🔷 Q11 (STE-1.3, K1)
 
 A script kiddie is characterized by:
 
@@ -123,7 +123,7 @@ D. Insider access
 
 ---
 
-### Q12 (STE-1.4, K1)
+### 🔷 Q12 (STE-1.4, K1)
 
 OWASP A01 (Broken Access Control) is tested by:
 
@@ -134,7 +134,7 @@ D. Only session timeout
 
 ---
 
-### Q13 (STE-1.1, K2)
+### 🔷 Q13 (STE-1.1, K2)
 
 Compliance validation in security testing verifies:
 
@@ -145,7 +145,7 @@ D. Only usability
 
 ---
 
-### Q14 (STE-1.2, K2)
+### 🔷 Q14 (STE-1.2, K2)
 
 Availability testing includes:
 
@@ -156,7 +156,7 @@ D. Only access controls
 
 ---
 
-### Q15 (STE-1.3, K1)
+### 🔷 Q15 (STE-1.3, K1)
 
 A hacktivist is motivated by:
 
@@ -167,7 +167,7 @@ D. Only accidental damage
 
 ---
 
-### Q16 (STE-1.4, K1)
+### 🔷 Q16 (STE-1.4, K1)
 
 OWASP A06 (Vulnerable Components) is tested by:
 
@@ -178,7 +178,7 @@ D. Only load testing
 
 ---
 
-### Q17 (STE-1.1, K2)
+### 🔷 Q17 (STE-1.1, K2)
 
 Risk assessment in security testing:
 
@@ -189,7 +189,7 @@ D. Only for compliance
 
 ---
 
-### Q18 (STE-1.2, K2)
+### 🔷 Q18 (STE-1.2, K2)
 
 Authorization is distinguished from authentication because authorization:
 
@@ -200,7 +200,7 @@ D. Only encrypts data
 
 ---
 
-### Q19 (STE-1.3, K1)
+### 🔷 Q19 (STE-1.3, K1)
 
 Criminal threat actors are primarily motivated by:
 
@@ -211,7 +211,7 @@ D. National security
 
 ---
 
-### Q20 (STE-1.4, K1)
+### 🔷 Q20 (STE-1.4, K1)
 
 OWASP A07 (Auth Failures) includes:
 
@@ -222,84 +222,84 @@ D. Only encryption
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** Security = vulnerabilities + controls.
 
-### Q2
+### 🔷 Q2
 **Answer: D**
 **Rationale:** CIA = confidentiality, integrity, availability.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** Access control = confidentiality.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** Nation-state = high capability, espionage.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Penetration ⊂ security testing.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Integrity = no improper alteration.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Insider = legitimate user abuse.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Injection = input as command.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** Security = malicious/unexpected inputs.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** Non-repudiation = provable actions.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Script kiddie = existing tools, low skill.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Access control = privilege escalation.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Compliance = regulatory requirements.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Availability = DoS + load.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Hacktivist = political/ideological.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Components = dependency versions.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Risk = impact + likelihood.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Auth = what user can do.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Criminal = financial.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** Auth failures = passwords, brute force, sessions.

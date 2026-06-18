@@ -1,4 +1,4 @@
-# Mock Exam 2 — Answer Key
+# 📝 Mock Exam 2 — Answer Key
 
 | Q | Answer | Rationale |
 |---|--------|-----------|
@@ -43,7 +43,7 @@
 | 39 | A | 2-value BVA: min-1, min, max, max+1 = 1899, 1900, 2024, 2025. |
 | 40 | D | First-year time saved = 500 - (300 + 40) = 160 hours. |
 
-## Score Interpretation
+## ⭐ Score Interpretation
 
 | Score | Interpretation |
 |-------|-------------|

@@ -1,10 +1,10 @@
-# Chapter 3 — Performance Testing Process: Lessons
+# 📘 Chapter 3 — Performance Testing Process: Lessons
 
 ---
 
-## 3.1 Test Planning
+## 🗓️ 3.1 Test Planning
 
-### Steps
+### 🔷 Steps
 
 | Step | Activity | Output |
 |------|----------|--------|
@@ -15,7 +15,7 @@
 | 5 | Plan environment | Hardware, network, data |
 | 6 | Schedule | Timeline, resources |
 
-### Success Criteria Examples
+### 💡 Success Criteria Examples
 
 | Metric | Target |
 |--------|--------|
@@ -26,9 +26,9 @@
 
 ---
 
-## 3.2 Test Environment Setup
+## ⭐ 3.2 Test Environment Setup
 
-### Environment Types
+### 🧪 Environment Types
 
 | Type | Use | Risk |
 |------|-----|------|
@@ -37,7 +37,7 @@
 | **Cloud** | Elastic, scalable | Configuration differences |
 | **Containerized** | Consistent, portable | May not match production |
 
-### Key Considerations
+### 🔷 Key Considerations
 
 | Aspect | Consideration |
 |--------|-------------|
@@ -49,7 +49,7 @@
 
 ---
 
-## 3.3 Test Data Preparation
+## 🗃️ 3.3 Test Data Preparation
 
 | Data Type | Preparation |
 |-----------|-------------|
@@ -58,7 +58,7 @@
 | **Database state** | Populate with production-like volume |
 | **Cache warmup** | Pre-load cache before test |
 
-### Data Volume
+### 🗃️ Data Volume
 
 | Test Type | Data Requirement |
 |-----------|---------------|
@@ -68,9 +68,9 @@
 
 ---
 
-## 3.4 Test Execution
+## ⭐ 3.4 Test Execution
 
-### Execution Steps
+### 🔷 Execution Steps
 
 1. **Baseline** — Measure without load
 2. **Ramp-up** — Gradually increase load
@@ -79,7 +79,7 @@
 5. **Ramp-down** — Reduce load
 6. **Cooldown** — Measure recovery
 
-### Monitoring During Execution
+### 🔷 Monitoring During Execution
 
 | Metric | Tool | Alert Threshold |
 |--------|------|-----------------|
@@ -91,9 +91,9 @@
 
 ---
 
-## 3.5 Result Analysis
+## 🔬 3.5 Result Analysis
 
-### Analysis Steps
+### 🔬 Analysis Steps
 
 1. **Validate data** — Check for errors or outliers
 2. **Compare to baseline** — Identify deviations
@@ -101,7 +101,7 @@
 4. **Correlate metrics** — Link cause and effect
 5. **Determine root cause** — Why is performance poor?
 
-### Common Bottlenecks
+### 🔷 Common Bottlenecks
 
 | Bottleneck | Symptom | Cause |
 |------------|---------|-------|
@@ -113,7 +113,7 @@
 
 ---
 
-## 3.6 Reporting
+## 📝 3.6 Reporting
 
 | Report Section | Content |
 |---------------|---------|
@@ -126,9 +126,9 @@
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Test Plan
+### 💡 Worked Example 1: Test Plan
 
 | Element | Detail |
 |---------|--------|
@@ -139,7 +139,7 @@
 | Environment | Production-like staging |
 | Schedule | 2 weeks |
 
-### Worked Example 2: Bottleneck Identification
+### 💡 Worked Example 2: Bottleneck Identification
 
 | Observation | Analysis | Bottleneck |
 |-------------|----------|------------|
@@ -147,7 +147,7 @@
 | Response time linear increase | Disk queue length high | Disk I/O |
 | Response time flat then jumps | Memory at 100%, paging | Memory |
 
-### Worked Example 3: Report Summary
+### 💡 Worked Example 3: Report Summary
 
 ```
 Test: Load Test - Product Launch

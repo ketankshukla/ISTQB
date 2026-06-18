@@ -1,6 +1,6 @@
-# Case Study 3 — Microservices Testing Strategy
+# 📂 Case Study 3 — Microservices Testing Strategy
 
-## Context
+## ⭐ Context
 
 You are the Test Architect for HealthHub, a healthcare platform with 20+ microservices. The monolith was broken down last year, but testing hasn't adapted.
 
@@ -21,7 +21,7 @@ You are the Test Architect for HealthHub, a healthcare platform with 20+ microse
 
 ---
 
-## Task 1: Test Strategy
+## ♟️ Task 1: Test Strategy
 
 **Question:** Design a testing strategy for the microservices.
 
@@ -43,7 +43,7 @@ You are the Test Architect for HealthHub, a healthcare platform with 20+ microse
 
 ---
 
-## Task 2: Contract Testing
+## ⭐ Task 2: Contract Testing
 
 **Question:** Implement contract tests for Patient Service and Appointment Service.
 
@@ -73,7 +73,7 @@ def test_get_patient():
 
 ---
 
-## Task 3: Test Data and Compliance
+## 🗃️ Task 3: Test Data and Compliance
 
 **Question:** Handle HIPAA-compliant test data.
 
@@ -95,7 +95,7 @@ def test_get_patient():
 
 ---
 
-## Task 4: Environment Strategy
+## ♟️ Task 4: Environment Strategy
 
 **Question:** Design cost-effective test environments.
 

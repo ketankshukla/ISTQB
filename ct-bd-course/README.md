@@ -1,8 +1,8 @@
-# ISTQB CT-BD — Big Data Testing
+# 🗃️ ISTQB CT-BD — Big Data Testing
 
 A comprehensive, self-contained course for the **ISTQB Certified Tester in Big Data Testing (CT-BD)** certification.
 
-## Exam Facts
+## 🎓 Exam Facts
 
 | Parameter | Value |
 |-----------|-------|
@@ -15,7 +15,7 @@ A comprehensive, self-contained course for the **ISTQB Certified Tester in Big D
 | **Open/closed book** | Closed book |
 | **Prerequisite** | CTFL (Foundation Level) v4.0 |
 
-## Course Structure
+## ⭐ Course Structure
 
 | Chapter | Topic | Est. Weight |
 |---------|-------|-------------|
@@ -33,7 +33,7 @@ A comprehensive, self-contained course for the **ISTQB Certified Tester in Big D
 - `GLOSSARY.md` — Key terms and definitions
 - `PROGRESS_TRACKER.md` — Checklist for tracking completion
 
-## How to Use This Course
+## ⭐ How to Use This Course
 
 1. **Start with** `STUDY_PLAN.md` to choose a schedule
 2. **Work through chapters** in order — read `lessons.md`, study `exam_traps.md`, then attempt `practice_questions.md`
@@ -41,14 +41,14 @@ A comprehensive, self-contained course for the **ISTQB Certified Tester in Big D
 4. **Take mock exams** under timed conditions (closed book)
 5. **Review `EXAM_STRATEGY.md`** the day before your exam
 
-## Target Audience
+## ⭐ Target Audience
 
 - Software testers preparing for the ISTQB CT-BD exam
 - QA engineers working with big data platforms (Hadoop, Spark, NoSQL)
 - Data engineers and data quality analysts
 - Anyone needing structured, exam-focused big data testing knowledge
 
-## Question Bank Summary
+## ❓ Question Bank Summary
 
 | Source | Questions |
 |--------|-----------|
@@ -59,7 +59,7 @@ A comprehensive, self-contained course for the **ISTQB Certified Tester in Big D
 
 All questions include full rationales.
 
-## Syllabus Coverage
+## 📊 Syllabus Coverage
 
 This course covers every learning objective in the ISTQB CT-BD syllabus:
 
@@ -71,12 +71,12 @@ This course covers every learning objective in the ISTQB CT-BD syllabus:
 - Performance testing for big data (benchmarking, throughput, latency)
 - Testing tools and automation frameworks for big data
 
-## Prerequisites
+## ⭐ Prerequisites
 
 - ISTQB CTFL certification (or equivalent knowledge)
 - Basic understanding of databases and data concepts
 - Familiarity with testing terminology and test process
 
-## Disclaimer
+## 🤖 Disclaimer
 
 This is an independent study resource. It is not affiliated with, endorsed by, or produced by ISTQB. The official syllabus and sample exams are available from [istqb.org](https://www.istqb.org).

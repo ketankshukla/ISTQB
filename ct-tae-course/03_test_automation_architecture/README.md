@@ -1,6 +1,6 @@
-# Chapter 3 — The Test Automation Architecture
+# ⚙️ Chapter 3 — The Test Automation Architecture
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~20% (~8 questions out of 40)
 - **K-levels:** K2 (understand), K3 (apply), K4 (analyze)
@@ -8,7 +8,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -20,7 +20,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts
+## ⭐ Key Concepts
 
 - TAA layers: test generation, test definition, test execution, test adaptation
 - Interfaces between layers and SUT

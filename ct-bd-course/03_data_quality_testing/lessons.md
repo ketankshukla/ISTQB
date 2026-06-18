@@ -1,10 +1,10 @@
-# Chapter 3 — Data Quality Testing: Lessons
+# 📘 Chapter 3 — Data Quality Testing: Lessons
 
 ---
 
-## 3.1 Data Quality Dimensions
+## 💎 3.1 Data Quality Dimensions
 
-### Completeness
+### 🔷 Completeness
 
 **Definition:** The proportion of data that is present compared to what is expected.
 
@@ -30,7 +30,7 @@ Result: FAIL (below 95% threshold)
 
 ---
 
-### Accuracy
+### 🔷 Accuracy
 
 **Definition:** The degree to which data correctly represents the real-world entity or event it describes.
 
@@ -50,7 +50,7 @@ Result: FAIL (8 invalid records)
 
 ---
 
-### Consistency
+### 🔷 Consistency
 
 **Definition:** The degree to which data values are uniform across datasets and over time.
 
@@ -70,7 +70,7 @@ Result: FAIL (12 discrepancies)
 
 ---
 
-### Timeliness
+### 🔷 Timeliness
 
 **Definition:** The degree to which data is available when needed and represents current reality.
 
@@ -89,7 +89,7 @@ Result: FAIL (exceeds 15-minute SLA)
 
 ---
 
-### Validity
+### 🔷 Validity
 
 **Definition:** The degree to which data conforms to defined formats, types, ranges, and allowed values.
 
@@ -110,7 +110,7 @@ Result: FAIL (4 invalid values)
 
 ---
 
-### Uniqueness
+### 🔷 Uniqueness
 
 **Definition:** The degree to which there are no unintended duplicate records.
 
@@ -128,13 +128,13 @@ Result: FAIL (75 duplicates)
 
 ---
 
-## 3.2 Data Profiling
+## 🗃️ 3.2 Data Profiling
 
-### What is Data Profiling?
+### 🗃️ What is Data Profiling?
 
 Data profiling is the process of examining, analyzing, and reviewing data to understand its structure, content, and quality characteristics.
 
-### Profiling Techniques
+### 🎯 Profiling Techniques
 
 **Column Profiling:**
 - Data type distribution
@@ -165,7 +165,7 @@ Data profiling is the process of examining, analyzing, and reviewing data to und
 - Record size distribution
 - Growth rate
 
-### Using Profiling for Testing
+### 🔷 Using Profiling for Testing
 
 1. **Baseline creation:** Profile source data before testing
 2. **Anomaly detection:** Compare current profile to baseline
@@ -174,9 +174,9 @@ Data profiling is the process of examining, analyzing, and reviewing data to und
 
 ---
 
-## 3.3 Data Validation Rules
+## 🗃️ 3.3 Data Validation Rules
 
-### Types of Validation Rules
+### 🧪 Types of Validation Rules
 
 **Column-Level Rules:**
 - NOT NULL (completeness)
@@ -199,7 +199,7 @@ Data profiling is the process of examining, analyzing, and reviewing data to und
 - System of record validation
 - Duplicate detection across systems
 
-### Writing Testable Validation Rules
+### 🔷 Writing Testable Validation Rules
 
 **Good rule:**
 ```
@@ -214,7 +214,7 @@ Rule: Data should be good quality
 Testable: ???
 ```
 
-### Validation Rule Testing Framework
+### 🔷 Validation Rule Testing Framework
 
 ```
 For each rule:
@@ -228,9 +228,9 @@ For each rule:
 
 ---
 
-## 3.4 Data Cleansing
+## 🗃️ 3.4 Data Cleansing
 
-### Cleansing Techniques
+### 🎯 Cleansing Techniques
 
 **Standardization:**
 - Convert to consistent formats (e.g., dates to ISO 8601)
@@ -254,7 +254,7 @@ For each rule:
 - Remove records that fail critical validation rules
 - Route bad records to error tables for manual review
 
-### Testing Data Cleansing
+### 🗃️ Testing Data Cleansing
 
 **Test the cleansing logic:**
 ```
@@ -279,9 +279,9 @@ Expected: Not in main table, present in error_table with reason
 
 ---
 
-## 3.5 Quality Thresholds and Acceptance Criteria
+## ✅ 3.5 Quality Thresholds and Acceptance Criteria
 
-### Setting Realistic Thresholds
+### 🔷 Setting Realistic Thresholds
 
 Not all data can be 100% clean. Thresholds should reflect:
 - Source system quality
@@ -298,7 +298,7 @@ Not all data can be 100% clean. Thresholds should reflect:
 | Validity | 99.9% | 98% |
 | Uniqueness | 100% | 99% |
 
-### Continuous Quality Monitoring
+### 💎 Continuous Quality Monitoring
 
 Data quality should be monitored continuously, not just tested once.
 
@@ -316,9 +316,9 @@ Consistency: 88.5% (target: 95%) → FAIL
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Data Quality Rule Testing
+### 💡 Worked Example 1: Data Quality Rule Testing
 
 **Scenario:** An e-commerce order table.
 
@@ -332,7 +332,7 @@ Consistency: 88.5% (target: 95%) → FAIL
 | customer_id exists in customers | `SELECT COUNT(*) FROM orders o LEFT JOIN customers c ON o.customer_id = c.customer_id WHERE c.customer_id IS NULL` | 0 | 45 orphan orders | FAIL |
 | total = SUM(line_items) | `SELECT order_id FROM orders o JOIN (SELECT order_id, SUM(price*qty) as calc FROM line_items GROUP BY order_id) l ON o.order_id = l.order_id WHERE ABS(o.total - l.calc) > 0.01` | Empty | 8 mismatches | FAIL |
 
-### Worked Example 2: Data Profiling Results
+### 💡 Worked Example 2: Data Profiling Results
 
 **Scenario:** Profile a customer table with 1,000,000 records.
 
@@ -359,7 +359,7 @@ Consistency: 88.5% (target: 95%) → FAIL
 3. Implement phone standardization (remove non-numeric characters)
 4. Deduplicate investigation: are 50,000 duplicate names truly different people?
 
-### Worked Example 3: Schema Evolution
+### 💡 Worked Example 3: Schema Evolution
 
 **Scenario:** A JSON event schema evolves over time.
 

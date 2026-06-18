@@ -1,6 +1,6 @@
-# Chapter 5 — Platform and Compliance Testing: Exam Traps
+# 🪤 Chapter 5 — Platform and Compliance Testing: Exam Traps
 
-## Trap 1: Certification is Just a Formality
+## 🪤 Trap 1: Certification is Just a Formality
 
 **Trap:** Certification has strict requirements; failure means delay or rejection.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Ratings Apply Only to Explicit Content
+## 🪤 Trap 2: Ratings Apply Only to Explicit Content
 
 **Trap:** Ratings cover implied content, context, and intensity, not just explicit material.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Online Services Testing is Optional
+## 🪤 Trap 3: Online Services Testing is Optional
 
 **Trap:** Online services (trophies, leaderboards, multiplayer) must be tested; they're part of cert.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Store Monetization Doesn't Need Testing
+## 🪤 Trap 4: Store Monetization Doesn't Need Testing
 
 **Trap:** Purchase flows must be tested for correctness, security, and platform compliance.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Day-One Patch Means No Need for Disc Quality
+## 🪤 Trap 5: Day-One Patch Means No Need for Disc Quality
 
 **Trap:** Disc/cartridge build must be stable; not all players have internet for day-one patch.
 

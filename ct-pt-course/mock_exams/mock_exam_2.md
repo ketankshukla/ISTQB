@@ -1,11 +1,11 @@
-# CT-PT Mock Exam 2
+# 📝 CT-PT Mock Exam 2
 
 **Instructions:**
 - 40 questions, 60 minutes, single best answer, no negative marking
 
 ---
 
-### Q1
+### 🔷 Q1
 
 A system has response times: 1s, 1s, 1s, 1s, 10s. Which statement is TRUE?
 
@@ -16,7 +16,7 @@ D. Minimum = 10s
 
 ---
 
-### Q2
+### 🔷 Q2
 
 A team has a CPU bottleneck. They immediately order 2x the CPU cores. Without also optimizing the code, this approach:
 
@@ -27,7 +27,7 @@ D. Is free
 
 ---
 
-### Q3
+### 🔷 Q3
 
 A technical performance report for developers should include:
 
@@ -38,7 +38,7 @@ D. Employee satisfaction scores
 
 ---
 
-### Q4
+### 🔷 Q4
 
 Correlation analysis in performance testing involves:
 
@@ -49,7 +49,7 @@ D. Calculating the average response time
 
 ---
 
-### Q5
+### 🔷 Q5
 
 A throughput of 200 TPS at 1,000 users and 210 TPS at 2,000 users indicates:
 
@@ -60,7 +60,7 @@ D. The test is too short
 
 ---
 
-### Q6
+### 🔷 Q6
 
 When reporting performance results, recommendations should be:
 
@@ -71,7 +71,7 @@ D. Written only for technical audiences
 
 ---
 
-### Q7
+### 🔷 Q7
 
 Which is a software tuning approach?
 
@@ -82,7 +82,7 @@ D. Buying a faster CPU
 
 ---
 
-### Q8
+### 🔷 Q8
 
 A system shows slow response times, but the application server CPU is only 35%. The database server CPU is 90%. The bottleneck is likely:
 
@@ -93,7 +93,7 @@ D. The load generator
 
 ---
 
-### Q9
+### 🔷 Q9
 
 The steady state phase of a performance test is when:
 
@@ -104,7 +104,7 @@ D. Only one user is active
 
 ---
 
-### Q10
+### 🔷 Q10
 
 Database lock contention is indicated by:
 
@@ -115,7 +115,7 @@ D. Fast query execution times
 
 ---
 
-### Q11
+### 🔷 Q11
 
 Ramp-down in a performance test is used to:
 
@@ -126,7 +126,7 @@ D. Reset the database
 
 ---
 
-### Q12
+### 🔷 Q12
 
 Swap usage increasing during a performance test indicates:
 
@@ -137,7 +137,7 @@ D. Network bandwidth issues
 
 ---
 
-### Q13
+### 🔷 Q13
 
 Which is a valid bottleneck analysis step?
 
@@ -148,7 +148,7 @@ D. Restart the server and hope it fixes itself
 
 ---
 
-### Q14
+### 🔷 Q14
 
 A test environment should be checked for stability before testing because:
 
@@ -159,7 +159,7 @@ D. It ensures the environment is slower
 
 ---
 
-### Q15
+### 🔷 Q15
 
 Garbage collection (GC) pauses in a Java application are monitored because:
 
@@ -170,7 +170,7 @@ D. They are irrelevant to performance
 
 ---
 
-### Q16
+### 🔷 Q16
 
 Connection pool exhaustion is indicated by:
 
@@ -181,7 +181,7 @@ D. High network throughput
 
 ---
 
-### Q17
+### 🔷 Q17
 
 A team skips the warm-up phase to save time. The risk is:
 
@@ -192,7 +192,7 @@ D. The system will crash
 
 ---
 
-### Q18
+### 🔷 Q18
 
 Network saturation is indicated by:
 
@@ -203,7 +203,7 @@ D. Fast response times
 
 ---
 
-### Q19
+### 🔷 Q19
 
 Data reset between performance test runs is important because:
 
@@ -214,7 +214,7 @@ D. It deletes all production data
 
 ---
 
-### Q20
+### 🔷 Q20
 
 Which combination of metrics is MOST useful for identifying a database bottleneck?
 
@@ -225,7 +225,7 @@ D. The weather and time of day
 
 ---
 
-### Q21
+### 🔷 Q21
 
 A workload model for an e-commerce site shows 60% of users are browsers, 25% searchers, and 15% buyers. This is an example of:
 
@@ -236,7 +236,7 @@ D. Ramp-up configuration
 
 ---
 
-### Q22
+### 🔷 Q22
 
 An SLA states "95% of search requests must complete within 2 seconds." The appropriate KPI is:
 
@@ -247,7 +247,7 @@ D. Maximum response time < 2 seconds
 
 ---
 
-### Q23
+### 🔷 Q23
 
 Acceptance criteria for a performance test should be:
 
@@ -258,7 +258,7 @@ D. Based only on the tester's opinion
 
 ---
 
-### Q24
+### 🔷 Q24
 
 Which is a PRIMARY requirement for performance test data?
 
@@ -269,7 +269,7 @@ D. Must be manually entered for accuracy
 
 ---
 
-### Q25
+### 🔷 Q25
 
 If database queries slow down as the database size increases, this is likely a:
 
@@ -280,7 +280,7 @@ D. Configuration issue
 
 ---
 
-### Q26
+### 🔷 Q26
 
 The number of virtual users required for a test depends PRIMARILY on:
 
@@ -291,7 +291,7 @@ D. The size of the test environment
 
 ---
 
-### Q27
+### 🔷 Q27
 
 A closed workload model is characterized by:
 
@@ -302,7 +302,7 @@ D. No think time between transactions
 
 ---
 
-### Q28
+### 🔷 Q28
 
 An open workload model is characterized by:
 
@@ -313,7 +313,7 @@ D. No concurrent users
 
 ---
 
-### Q29
+### 🔷 Q29
 
 Before a test run, it is important to:
 
@@ -324,7 +324,7 @@ D. Skip environment checks to save time
 
 ---
 
-### Q30
+### 🔷 Q30
 
 Monitoring the load generator during a test is important to:
 
@@ -335,7 +335,7 @@ D. Check network cabling
 
 ---
 
-### Q31
+### 🔷 Q31
 
 A component isolation test involves:
 
@@ -346,7 +346,7 @@ D. Removing components from the system
 
 ---
 
-### Q32
+### 🔷 Q32
 
 Which is a valid reason to stop a performance test early?
 
@@ -357,7 +357,7 @@ D. The load generator is working well
 
 ---
 
-### Q33
+### 🔷 Q33
 
 The difference between concurrent users and simultaneous users is:
 
@@ -368,7 +368,7 @@ D. Simultaneous users include only administrators
 
 ---
 
-### Q34
+### 🔷 Q34
 
 Which is an example of an arrival pattern?
 
@@ -379,7 +379,7 @@ D. A fixed number of users repeating forever
 
 ---
 
-### Q35
+### 🔷 Q35
 
 Average response time is LESS useful than percentiles because:
 
@@ -390,7 +390,7 @@ D. It only works for web applications
 
 ---
 
-### Q36
+### 🔷 Q36
 
 A stress test shows 5% errors at 3x normal load. The BEST interpretation is:
 
@@ -401,7 +401,7 @@ D. The test should be stopped immediately
 
 ---
 
-### Q37
+### 🔷 Q37
 
 Which is a characteristic of endurance testing?
 
@@ -412,7 +412,7 @@ D. Testing with minimal data
 
 ---
 
-### Q38
+### 🔷 Q38
 
 Configuration testing in performance testing means:
 
@@ -423,7 +423,7 @@ D. Testing only default configurations
 
 ---
 
-### Q39
+### 🔷 Q39
 
 A load test run shows P95 login = 1.2s, P95 transfer = 8.5s, error rate = 3%. The conclusion should be:
 
@@ -434,7 +434,7 @@ D. Error rate is acceptable for all scenarios
 
 ---
 
-### Q40
+### 🔷 Q40
 
 Which statement about performance testing is TRUE?
 
@@ -445,4 +445,4 @@ D. Performance testing requires production data at all times
 
 ---
 
-## End of Mock Exam 2
+## 📝 End of Mock Exam 2

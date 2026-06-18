@@ -1,8 +1,8 @@
-# Chapter 3 — Data Quality Testing: Practice Questions
+# ❓ Chapter 3 — Data Quality Testing: Practice Questions
 
 ---
 
-### Q1 (BD-3.1, K2)
+### 🔷 Q1 (BD-3.1, K2)
 
 A dataset has 15% missing values in the "phone_number" field. This is a problem with:
 
@@ -13,7 +13,7 @@ D. Timeliness
 
 ---
 
-### Q2 (BD-3.1, K2)
+### 🔷 Q2 (BD-3.1, K2)
 
 A customer record shows birth_date = "2050-01-01". This is a problem with:
 
@@ -24,7 +24,7 @@ D. Uniqueness
 
 ---
 
-### Q3 (BD-3.1, K2)
+### 🔷 Q3 (BD-3.1, K2)
 
 The total in an order table does not equal the sum of its line items. This is a problem with:
 
@@ -35,7 +35,7 @@ D. Uniqueness
 
 ---
 
-### Q4 (BD-3.1, K2)
+### 🔷 Q4 (BD-3.1, K2)
 
 Data in a reporting system is 48 hours old when the SLA requires 1 hour freshness. This is a problem with:
 
@@ -46,7 +46,7 @@ D. Validity
 
 ---
 
-### Q5 (BD-3.1, K2)
+### 🔷 Q5 (BD-3.1, K2)
 
 An email field contains values like "not-an-email" and "12345". This is a problem with:
 
@@ -57,7 +57,7 @@ D. Consistency
 
 ---
 
-### Q6 (BD-3.1, K2)
+### 🔷 Q6 (BD-3.1, K2)
 
 Two customer records have the same email address but different names and birth dates. This is likely a problem with:
 
@@ -68,7 +68,7 @@ D. Timeliness
 
 ---
 
-### Q7 (BD-3.2, K2)
+### 🔷 Q7 (BD-3.2, K2)
 
 Data profiling is PRIMARILY used to:
 
@@ -79,7 +79,7 @@ D. Delete bad data
 
 ---
 
-### Q8 (BD-3.3, K2)
+### 🔷 Q8 (BD-3.3, K2)
 
 Which is an example of a column-level validation rule?
 
@@ -90,7 +90,7 @@ D. Source row count = target row count
 
 ---
 
-### Q9 (BD-3.3, K3)
+### 🔷 Q9 (BD-3.3, K3)
 
 A cross-field validation rule states: "if status = 'shipped', then tracking_number must not be null." To test this:
 
@@ -101,7 +101,7 @@ D. Delete all records without tracking_number
 
 ---
 
-### Q10 (BD-3.4, K2)
+### 🔷 Q10 (BD-3.4, K2)
 
 Data cleansing should be tested by verifying:
 
@@ -112,7 +112,7 @@ D. The speed of the cleansing job
 
 ---
 
-### Q11 (BD-3.1, K2)
+### 🔷 Q11 (BD-3.1, K2)
 
 The degree to which data conforms to defined formats, types, and ranges is:
 
@@ -123,7 +123,7 @@ D. Consistency
 
 ---
 
-### Q12 (BD-3.5, K2)
+### 🔷 Q12 (BD-3.5, K2)
 
 A data quality threshold is BEST described as:
 
@@ -134,7 +134,7 @@ D. A strict requirement for 100% clean data
 
 ---
 
-### Q13 (BD-3.2, K2)
+### 🔷 Q13 (BD-3.2, K2)
 
 A column profile shows email field has 10% null, 5% invalid format, and 85% valid. The FIRST step is:
 
@@ -145,7 +145,7 @@ D. Ignore the null values
 
 ---
 
-### Q14 (BD-3.3, K3)
+### 🔷 Q14 (BD-3.3, K3)
 
 A referential integrity rule states every order.customer_id must exist in customers.customer_id. The test is:
 
@@ -156,7 +156,7 @@ D. SELECT orders where customer_id IS NULL
 
 ---
 
-### Q15 (BD-3.4, K2)
+### 🔷 Q15 (BD-3.4, K2)
 
 Deduplication testing should verify:
 
@@ -167,7 +167,7 @@ D. Fuzzy matching is never used
 
 ---
 
-### Q16 (BD-3.1, K2)
+### 🔷 Q16 (BD-3.1, K2)
 
 A field labeled "price" contains text values like "N/A" and "TBD". This is primarily a:
 
@@ -178,7 +178,7 @@ D. Uniqueness issue
 
 ---
 
-### Q17 (BD-3.5, K2)
+### 🔷 Q17 (BD-3.5, K2)
 
 For a critical field like customer_id, the completeness threshold should typically be:
 
@@ -189,7 +189,7 @@ D. 99.9% or 100%
 
 ---
 
-### Q18 (BD-3.3, K2)
+### 🔷 Q18 (BD-3.3, K2)
 
 An aggregate consistency rule validates:
 
@@ -200,7 +200,7 @@ D. User interface design
 
 ---
 
-### Q19 (BD-3.2, K2)
+### 🔷 Q19 (BD-3.2, K2)
 
 Temporal consistency means:
 
@@ -211,7 +211,7 @@ D. Data is always recent
 
 ---
 
-### Q20 (BD-3.5, K3)
+### 🔷 Q20 (BD-3.5, K3)
 
 A pipeline receives 1,000,000 records with 500 invalid emails (0.05%). The business accepts up to 0.1% invalid emails. The appropriate action is:
 
@@ -222,104 +222,104 @@ D. Stop the pipeline permanently
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** 15% missing values = completeness issue (data is not present).
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** Future birth date = does not represent reality = accuracy issue.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** Total ≠ sum of parts = inter-record consistency issue.
 
-### Q4
+### 🔷 Q4
 **Answer: C**
 
 **Rationale:** 48 hours old vs. 1 hour SLA = timeliness issue.
 
-### Q5
+### 🔷 Q5
 **Answer: C**
 
 **Rationale:** Invalid format = does not conform to defined format = validity issue.
 
-### Q6
+### 🔷 Q6
 **Answer: C**
 
 **Rationale:** Same email with different details = likely unintended duplicates = uniqueness issue.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** Profiling = understanding structure, content, and quality characteristics.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** Column-level rule = applies to a single column (age range). A is row-level, C is table-level, D is cross-system.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** Cross-field rule = test the conditional relationship AND ensure non-matching records are unaffected.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** Cleansing tests must verify both bad data correction AND good data preservation.
 
-### Q11
+### 🔷 Q11
 **Answer: C**
 
 **Rationale:** Conformance to formats, types, ranges = validity.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** Threshold = acceptable quality level balancing business needs vs. perfection cost.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** Profiling informs testing. Use results to define targeted completeness and validity tests.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** Referential integrity = find orders where customer_id doesn't exist in customers table.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** Deduplication = remove true duplicates, preserve distinct records.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 
 **Rationale:** Text in numeric field = wrong data type = validity issue.
 
-### Q17
+### 🔷 Q17
 **Answer: D**
 
 **Rationale:** Critical fields like customer_id should have near-100% completeness.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 
 **Rationale:** Aggregate consistency = summary matches detail (e.g., total = sum of line items).
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** Temporal consistency = data doesn't contradict historical records over time.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 
 **Rationale:** 0.05% < 0.1% threshold = accept batch, route errors, report to source.

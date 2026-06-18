@@ -1,6 +1,6 @@
-# Chapter 3 — Test Selection Criteria: Exam Traps
+# 🪤 Chapter 3 — Test Selection Criteria: Exam Traps
 
-## Trap 1: Thinking State Coverage Is Sufficient
+## 📊 Trap 1: Thinking State Coverage Is Sufficient
 
 **Trap:** State coverage only visits each state. It does not test transitions or paths. Transition coverage is stronger.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Confusing Transition Coverage and Transition Pair Coverage
+## 📊 Trap 2: Confusing Transition Coverage and Transition Pair Coverage
 
 **Trap:** Transition coverage = each transition once. Transition pair = each adjacent pair of transitions.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Thinking Full Path Coverage Is Always Achievable
+## 📊 Trap 3: Thinking Full Path Coverage Is Always Achievable
 
 **Trap:** Models with loops have infinite paths. Full path coverage is usually infeasible and is limited to bounded lengths or simple paths.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Thinking Random Testing Is Always Inferior
+## 🪤 Trap 4: Thinking Random Testing Is Always Inferior
 
 **Trap:** Random testing can find defects systematic approaches miss. It is a valid complement, not a replacement.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Confusing Equivalence Partitioning and Boundary Value Testing
+## 🪤 Trap 5: Confusing Equivalence Partitioning and Boundary Value Testing
 
 **Trap:** Equivalence partitioning selects one representative from each partition. Boundary value testing tests at the edges between partitions.
 

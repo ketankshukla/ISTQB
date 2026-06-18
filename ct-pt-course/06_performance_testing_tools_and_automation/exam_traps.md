@@ -1,6 +1,6 @@
-# Chapter 6 — Performance Testing Tools and Automation: Exam Traps
+# 🪤 Chapter 6 — Performance Testing Tools and Automation: Exam Traps
 
-## Trap 1: Thinking Recorded Scripts Are Ready to Run
+## 🪤 Trap 1: Thinking Recorded Scripts Are Ready to Run
 
 **Trap:** Recorded scripts require cleanup, parameterization, and correlation before they can be used for load testing.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Confusing Commercial and Open-Source Tool Selection
+## 🪤 Trap 2: Confusing Commercial and Open-Source Tool Selection
 
 **Trap:** The "best" tool depends on requirements, not on whether it's commercial or open-source.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Thinking Cloud Testing Is Always Cheaper
+## 🪤 Trap 3: Thinking Cloud Testing Is Always Cheaper
 
 **Trap:** Cloud testing has per-use costs. For frequent testing, on-premises may be more cost-effective. For occasional large tests, cloud is often cheaper.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Running Performance Tests Without a Performance Gate in CI/CD
+## 🪤 Trap 4: Running Performance Tests Without a Performance Gate in CI/CD
 
 **Trap:** Without automated performance gates, performance regressions slip into production unnoticed.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Forgetting to Parameterize Test Data
+## 🪤 Trap 5: Forgetting to Parameterize Test Data
 
 **Trap:** All virtual users using the same data creates unrealistic cache behavior and database conflicts.
 

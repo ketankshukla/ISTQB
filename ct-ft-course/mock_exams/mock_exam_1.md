@@ -1,10 +1,10 @@
-# CT-FT Mock Exam 1
+# 📝 CT-FT Mock Exam 1
 
 **Instructions:** 40 questions, 60 minutes, single best answer.
 
 ---
 
-### Q1-Q10
+### 🔷 Q1-Q10
 
 1. The PRIMARY objective of finance testing is: A) UI design B) Ensure financial systems are accurate, compliant, secure, and performant C) Reduce costs D) Speed up development — **Ensure financial systems are accurate, compliant, secure, and performant**
 2. A core banking system component that calculates interest is: A) Fee Engine B) Interest Engine C) Loan Management D) General Ledger — **Interest Engine**
@@ -19,7 +19,7 @@
 
 ---
 
-### Q11-Q20
+### 🔷 Q11-Q20
 
 11. A Suspicious Activity Report is filed under: A) SOX B) AML C) PCI-DSS D) GDPR — **AML**
 12. Dirty price of a bond: A) Only clean price B) Clean price plus accrued interest C) Only coupon D) Only face value — **Clean price plus accrued interest**
@@ -34,7 +34,7 @@
 
 ---
 
-### Q21-Q30
+### 🔷 Q21-Q30
 
 21. FOK order: A) Partial fill, cancel rest B) Execute all immediately or cancel C) Open until EOD D) Execute at close — **Execute all immediately or cancel**
 22. Iceberg order: A) Only in cold markets B) Shows only portion of size C) Filled immediately D) Only for bonds — **Shows only portion of size**
@@ -49,7 +49,7 @@
 
 ---
 
-### Q31-Q40
+### 🔷 Q31-Q40
 
 31. Production financial data in testing must be: A) Copied exactly B) Masked/anonymized C) Shared with all D) Unencrypted — **Masked/anonymized**
 32. Historical replay used for: A) New strategies B) Regression and past conditions C) Replacing live D) Social media — **Regression and past conditions**
@@ -64,4 +64,4 @@
 
 ---
 
-## End of Mock Exam 1
+## 📝 End of Mock Exam 1

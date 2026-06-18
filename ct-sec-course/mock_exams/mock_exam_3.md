@@ -1,10 +1,10 @@
-# CT-SEC Mock Exam 3
+# 📝 CT-SEC Mock Exam 3
 
 **Instructions:** 40 questions, 60 minutes, single best answer.
 
 ---
 
-### Q1-Q10
+### 🔷 Q1-Q10
 
 1. The CIA triad includes: A) Authentication, Authorization, Auditing B) Confidentiality, Integrity, Availability C) Authentication, Integrity, Authorization D) Availability, Authorization, Auditing — **Confidentiality, Integrity, Availability**
 2. Encryption of stored data primarily protects: A) Integrity B) Availability C) Confidentiality D) Authentication — **Confidentiality**
@@ -19,7 +19,7 @@
 
 ---
 
-### Q11-Q20
+### 🔷 Q11-Q20
 
 11. Preventive control example: A) IDS alert B) Firewall blocking C) Backup restoration D) Audit log — **Firewall blocking**
 12. Detective control example: A) Encryption B) IDS alert C) Account lockout D) Input validation — **IDS alert**
@@ -34,7 +34,7 @@
 
 ---
 
-### Q21-Q30
+### 🔷 Q21-Q30
 
 21. Threat modeling purpose: A) Replace testing B) Identify threats early C) Remove all threats D) Increase complexity — **Identify threats early**
 22. DREAD: Damage measures: A) Reproducibility B) How much damage C) Ease of exploit D) Users affected — **How much damage**
@@ -49,7 +49,7 @@
 
 ---
 
-### Q31-Q40
+### 🔷 Q31-Q40
 
 31. Penetration testing: Black box means: A) Full knowledge B) No knowledge C) Partial knowledge D) Source code access — **No knowledge**
 32. Penetration testing: White box means: A) No knowledge B) Full knowledge C) Partial knowledge D) Only network access — **Full knowledge**
@@ -64,4 +64,4 @@
 
 ---
 
-## End of Mock Exam 3
+## 📝 End of Mock Exam 3

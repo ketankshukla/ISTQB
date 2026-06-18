@@ -1,12 +1,12 @@
-# Chapter 3 — Managing Risks of GenAI in Software Testing
+# ⚠️ Chapter 3 — Managing Risks of GenAI in Software Testing
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Approximately 8-10 questions** out of 40 (20-25% of the exam)
 - K-levels: K2 (understand) and K3 (apply)
 - Strong overlap with Chapter 2 in practical scenarios
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 | LO | Section | Description | K-Level |
 |----|---------|-------------|---------|
@@ -19,7 +19,7 @@
 | GenAI-3.4.1 | 3.4 | Recall AI regulations, standards, and best practice frameworks | K1 |
 | GenAI-3.4.2 | 3.4 | Explain how regulations affect GenAI use in testing | K2 |
 
-## Chapter Map
+## ⭐ Chapter Map
 
 - `lessons.md` — Full instructional content covering sections 3.1 through 3.4
 - `exam_traps.md` — Common mistakes and ISTQB-favorite distinctions for this chapter

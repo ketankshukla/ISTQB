@@ -1,4 +1,4 @@
-# Mock Exam 3 — Answer Key
+# 📝 Mock Exam 3 — Answer Key
 
 | Q | Answer | Rationale |
 |---|--------|-----------|
@@ -43,7 +43,7 @@
 | 39 | B | Communication = tailored |
 | 40 | B | Change = understand + demo |
 
-## Score Interpretation
+## ⭐ Score Interpretation
 
 | Score | Interpretation |
 |-------|-------------|

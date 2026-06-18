@@ -1,6 +1,6 @@
-# Case Study 1 — Prompt Engineering Pipeline for E-Commerce Testing
+# 📂 Case Study 1 — Prompt Engineering Pipeline for E-Commerce Testing
 
-## Context
+## ⭐ Context
 
 You are a senior test analyst at an e-commerce company called "ShopFast" that processes $2B in annual transactions. The development team is building a new checkout flow for the upcoming holiday season peak (projected 5x normal traffic). The checkout flow has the following requirements:
 
@@ -19,9 +19,9 @@ Your team of 8 testers has 3 weeks to design and execute checkout testing before
 
 ---
 
-## Tasks
+## ⭐ Tasks
 
-### Task 1: Design an Effective Prompt (Chapter 2)
+### 🎨 Task 1: Design an Effective Prompt (Chapter 2)
 
 Write a complete prompt that includes all six components of an effective prompt (role, task, input, constraints, examples, format). Target: test case generation for the guest checkout path with credit card payment.
 
@@ -31,7 +31,7 @@ Write a complete prompt that includes all six components of an effective prompt 
 - What constraints ensure comprehensive coverage of validation, security, and business rules?
 - What example format ensures consistency with your team's test management tool (TestRail)?
 
-### Task 2: Select Prompt Techniques (Chapter 2)
+### 🎯 Task 2: Select Prompt Techniques (Chapter 2)
 
 For each of the following sub-tasks, recommend the most appropriate prompt engineering technique and justify your choice:
 
@@ -41,7 +41,7 @@ C. Explaining why a particular generated test case might miss the tax calculatio
 D. Converting the generated test cases into a structured JSON format for import into TestRail
 E. Analyzing which of the 8 requirements areas (guest checkout, registered checkout, payment, shipping, discounts, tax, validation, security) has the weakest test coverage after initial generation
 
-### Task 3: Evaluate and Refine (Chapters 2 and 3)
+### 🔷 Task 3: Evaluate and Refine (Chapters 2 and 3)
 
 An LLM generates the following test case for the checkout flow:
 
@@ -57,15 +57,15 @@ Expected Result: Order is placed successfully with a warning
 
 Evaluate this output against all six quality criteria (correctness, completeness, consistency, relevance, feasibility, absence of hallucinations). Identify at least two problems per applicable criterion. Write a refined prompt constraint that would prevent these problems, and explain which GenAI limitation each problem represents.
 
-### Task 4: Risk Assessment (Chapter 3)
+### ⚠️ Task 4: Risk Assessment (Chapter 3)
 
 Identify the top three risks of using an LLM to generate test cases for this checkout flow, and propose specific mitigations for each. Consider both technical risks (hallucinations, reasoning errors) and organizational risks (privacy, security, compliance).
 
 ---
 
-## Model Answers
+## ✔️ Model Answers
 
-### Task 1 Model Answer
+### ✔️ Task 1 Model Answer
 
 ```
 Role: You are a senior QA engineer specializing in e-commerce payment systems 
@@ -116,7 +116,7 @@ Format: Return ALL test cases as a single markdown table with the columns shown 
 
 ---
 
-### Task 2 Model Answer
+### ✔️ Task 2 Model Answer
 
 **A. Basic happy-path test cases:** Zero-shot prompting. Guest checkout with a single item and credit card is a well-understood domain. The model has extensive training on e-commerce test cases. A clear, structured prompt with constraints will produce good results without examples.
 
@@ -130,7 +130,7 @@ Format: Return ALL test cases as a single markdown table with the columns shown 
 
 ---
 
-### Task 3 Model Answer
+### ✔️ Task 3 Model Answer
 
 **Evaluation against quality criteria:**
 
@@ -176,7 +176,7 @@ For all payment validation test cases:
 
 ---
 
-### Task 4 Model Answer
+### ✔️ Task 4 Model Answer
 
 **Risk 1: Hallucination in payment test cases**
 - **Description:** The LLM might invent non-existent validation rules, incorrect payment gateway behaviors, or fake test card numbers that don't follow Luhn checksum rules.

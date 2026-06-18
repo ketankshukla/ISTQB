@@ -1,14 +1,14 @@
-# Chapter 5 — Automotive Test Environment: Lessons
+# 📘 Chapter 5 — Automotive Test Environment: Lessons
 
 ---
 
-## 5.1 MIL (Model-in-the-Loop)
+## 📐 5.1 MIL (Model-in-the-Loop)
 
-### Description
+### 🔷 Description
 
 Testing control algorithms using simulation models without real hardware or compiled code.
 
-### Characteristics
+### 🔷 Characteristics
 
 | Aspect | Detail |
 |--------|--------|
@@ -20,13 +20,13 @@ Testing control algorithms using simulation models without real hardware or comp
 
 ---
 
-## 5.2 SIL (Software-in-the-Loop)
+## ⭐ 5.2 SIL (Software-in-the-Loop)
 
-### Description
+### 🔷 Description
 
 Testing compiled production code on a PC host (not target hardware).
 
-### Characteristics
+### 🔷 Characteristics
 
 | Aspect | Detail |
 |--------|--------|
@@ -38,13 +38,13 @@ Testing compiled production code on a PC host (not target hardware).
 
 ---
 
-## 5.3 PIL (Processor-in-the-Loop)
+## ⭐ 5.3 PIL (Processor-in-the-Loop)
 
-### Description
+### 🔷 Description
 
 Testing compiled code on the actual target processor, but with simulated environment.
 
-### Characteristics
+### 🔷 Characteristics
 
 | Aspect | Detail |
 |--------|--------|
@@ -56,13 +56,13 @@ Testing compiled code on the actual target processor, but with simulated environ
 
 ---
 
-## 5.4 HIL (Hardware-in-the-Loop)
+## ⭐ 5.4 HIL (Hardware-in-the-Loop)
 
-### Description
+### 🔷 Description
 
 Testing real ECU hardware with a simulator providing realistic sensor and actuator signals.
 
-### Characteristics
+### 🔷 Characteristics
 
 | Aspect | Detail |
 |--------|--------|
@@ -72,7 +72,7 @@ Testing real ECU hardware with a simulator providing realistic sensor and actuat
 | **Tools** | dSPACE, Vector (CANoe), National Instruments |
 | **Use case** | System integration, regression testing |
 
-### HIL Components
+### 🔷 HIL Components
 
 | Component | Function |
 |-----------|----------|
@@ -84,7 +84,7 @@ Testing real ECU hardware with a simulator providing realistic sensor and actuat
 
 ---
 
-## 5.5 Tools
+## 🛠️ 5.5 Tools
 
 | Tool | Purpose | Type |
 |------|---------|------|
@@ -96,7 +96,7 @@ Testing real ECU hardware with a simulator providing realistic sensor and actuat
 
 ---
 
-## 5.6 Environment Selection
+## ⭐ 5.6 Environment Selection
 
 | Goal | Environment | Reason |
 |------|-------------|--------|
@@ -108,9 +108,9 @@ Testing real ECU hardware with a simulator providing realistic sensor and actuat
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Environment Selection
+### 💡 Worked Example 1: Environment Selection
 
 | Scenario | Environment | Why |
 |----------|-------------|-----|
@@ -120,7 +120,7 @@ Testing real ECU hardware with a simulator providing realistic sensor and actuat
 | Test ECU with sensors | HIL | Real hardware |
 | Final sign-off | Vehicle | Real validation |
 
-### Worked Example 2: HIL Setup
+### 💡 Worked Example 2: HIL Setup
 
 | Component | Description |
 |-----------|-------------|
@@ -130,7 +130,7 @@ Testing real ECU hardware with a simulator providing realistic sensor and actuat
 | IO | Brake pedal, wheel speed sensors |
 | Tests | ABS activation, fault handling |
 
-### Worked Example 3: Cost-Benefit
+### 💡 Worked Example 3: Cost-Benefit
 
 | Environment | Cost | Speed | Fidelity | Best For |
 |-------------|------|-------|----------|----------|

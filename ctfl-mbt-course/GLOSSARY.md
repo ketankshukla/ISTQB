@@ -1,8 +1,8 @@
-# CTFL-MBT Glossary
+# 📖 CTFL-MBT Glossary
 
 ---
 
-## A
+## ⭐ A
 
 **Abstract Test Case**
 A test case derived from a model that may need further refinement or concretization before it can be executed.
@@ -12,14 +12,14 @@ A behavior or operation that occurs when a transition is taken in a state machin
 
 ---
 
-## B
+## ⭐ B
 
 **Boundary Testing**
 Testing at the boundaries of partitions derived from a model.
 
 ---
 
-## C
+## ⭐ C
 
 **Concrete Test Case**
 An executable test case with specific input values and expected results.
@@ -29,7 +29,7 @@ A rule or condition that defines which elements of a model must be exercised by 
 
 ---
 
-## D
+## ⭐ D
 
 **Decision Table**
 A tabular representation of conditions and actions used to model business rules and generate test cases.
@@ -39,7 +39,7 @@ The number of defects found per unit of testing effort.
 
 ---
 
-## E
+## ⭐ E
 
 **Event**
 A trigger that causes a transition from one state to another in a state machine.
@@ -49,28 +49,28 @@ A test case that can be run against the system under test.
 
 ---
 
-## F
+## ⭐ F
 
 **Full State Coverage**
 A coverage criterion requiring that every state in a state machine is visited at least once.
 
 ---
 
-## G
+## ⭐ G
 
 **Guard Condition**
 A Boolean condition that must be true for a transition to be enabled.
 
 ---
 
-## I
+## ⭐ I
 
 **Infeasible Path**
 A path through a model that cannot be executed in the real system due to implementation constraints.
 
 ---
 
-## M
+## ⭐ M
 
 **Model**
 An abstract representation of the behavior or structure of a system under test.
@@ -83,7 +83,7 @@ The degree to which elements of a model (states, transitions, paths) are exercis
 
 ---
 
-## P
+## ⭐ P
 
 **Path**
 A sequence of transitions through a state machine from an initial state to a final state.
@@ -93,7 +93,7 @@ A coverage criterion requiring that specific paths through a model are exercised
 
 ---
 
-## S
+## ⭐ S
 
 **Selection Criterion**
 A rule used to determine which test cases to generate from a model.
@@ -112,7 +112,7 @@ A family of coverage criteria based on sequences of transitions (0-switch, 1-swi
 
 ---
 
-## T
+## ⭐ T
 
 **Test Case Generation**
 The process of deriving test cases from a model using selection criteria.
@@ -131,7 +131,7 @@ A coverage criterion requiring that every pair of consecutive transitions is exe
 
 ---
 
-## U
+## ⭐ U
 
 **Unreachable State**
 A state in a model that cannot be reached from the initial state through any sequence of transitions.

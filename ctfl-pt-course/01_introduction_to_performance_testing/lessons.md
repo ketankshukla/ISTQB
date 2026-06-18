@@ -1,14 +1,14 @@
-# Chapter 1 — Introduction to Performance Testing: Lessons
+# 📘 Chapter 1 — Introduction to Performance Testing: Lessons
 
 ---
 
-## 1.1 What is Performance Testing?
+## ⚡ 1.1 What is Performance Testing?
 
-### Definition
+### 🔷 Definition
 
 Performance testing is testing to determine the responsiveness, throughput, reliability, and/or scalability of a system under a particular workload.
 
-### Key Objectives
+### 🎯 Key Objectives
 
 | Objective | Question Answered |
 |-----------|-------------------|
@@ -19,9 +19,9 @@ Performance testing is testing to determine the responsiveness, throughput, reli
 
 ---
 
-## 1.2 Why Performance Testing Matters
+## ⚡ 1.2 Why Performance Testing Matters
 
-### Business Impact
+### 🔷 Business Impact
 
 | Scenario | Consequence |
 |----------|-------------|
@@ -30,16 +30,16 @@ Performance testing is testing to determine the responsiveness, throughput, reli
 | **Gaming server lag** | Player churn, bad reviews |
 | **Healthcare system delay** | Patient safety risks |
 
-### Cost of Poor Performance
+### ⚡ Cost of Poor Performance
 
 - Direct: Lost sales, SLA penalties
 - Indirect: Damaged reputation, customer acquisition costs
 
 ---
 
-## 1.3 Key Performance Metrics
+## 📊 1.3 Key Performance Metrics
 
-### Response Time
+### 🔷 Response Time
 
 | Component | Description |
 |-----------|-------------|
@@ -48,13 +48,13 @@ Performance testing is testing to determine the responsiveness, throughput, reli
 | **Server processing** | Application logic + database |
 | **Rendering** | Client-side display time |
 
-### Throughput
+### 🔷 Throughput
 
 - **Transactions per second (TPS):** Number of completed transactions
 - **Requests per second (RPS):** Number of requests handled
 - **Hits per second:** Web server requests
 
-### Resource Utilization
+### 🔷 Resource Utilization
 
 | Resource | Metric | Healthy Range |
 |----------|--------|---------------|
@@ -65,9 +65,9 @@ Performance testing is testing to determine the responsiveness, throughput, reli
 
 ---
 
-## 1.4 Factors Affecting Performance
+## ⚡ 1.4 Factors Affecting Performance
 
-### Hardware
+### 🔷 Hardware
 
 | Factor | Impact |
 |--------|--------|
@@ -76,7 +76,7 @@ Performance testing is testing to determine the responsiveness, throughput, reli
 | **Disk type (HDD vs SSD)** | I/O latency |
 | **Network bandwidth** | Data transfer speed |
 
-### Software
+### 🔷 Software
 
 | Factor | Impact |
 |--------|--------|
@@ -85,7 +85,7 @@ Performance testing is testing to determine the responsiveness, throughput, reli
 | **Caching strategy** | Reduced processing |
 | **Concurrency model** | Thread handling |
 
-### Data
+### 🗃️ Data
 
 | Factor | Impact |
 |--------|--------|
@@ -95,7 +95,7 @@ Performance testing is testing to determine the responsiveness, throughput, reli
 
 ---
 
-## 1.5 When Performance Testing is Needed
+## ⚡ 1.5 When Performance Testing is Needed
 
 | Phase | Activity |
 |-------|----------|
@@ -107,9 +107,9 @@ Performance testing is testing to determine the responsiveness, throughput, reli
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Response Time Budget
+### 💡 Worked Example 1: Response Time Budget
 
 | Step | Budget |
 |------|--------|
@@ -121,14 +121,14 @@ Performance testing is testing to determine the responsiveness, throughput, reli
 | Browser rendering | 200 ms |
 | **Total** | **700 ms** |
 
-### Worked Example 2: Throughput Calculation
+### 💡 Worked Example 2: Throughput Calculation
 
 - 10,000 users, 2 requests/user/hour
 - Peak factor: 3x
 - Peak requests: 60,000/hour = 16.7 TPS
 - Target: Support 20 TPS with headroom
 
-### Worked Example 3: Resource Utilization
+### 💡 Worked Example 3: Resource Utilization
 
 - CPU at 85% during peak
 - Memory at 90%

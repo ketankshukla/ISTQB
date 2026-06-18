@@ -1,10 +1,10 @@
-# Chapter 2 — Test Automation Planning and ROI: Lessons
+# 📘 Chapter 2 — Test Automation Planning and ROI: Lessons
 
 ---
 
-## 2.1 Business Case for Automation
+## ⚙️ 2.1 Business Case for Automation
 
-### Components
+### 🔷 Components
 
 | Section | Content |
 |---------|---------|
@@ -18,7 +18,7 @@
 | **Risks** | What could go wrong and mitigation |
 | **Milestones** | Timeline and measurable deliverables |
 
-### Current State Analysis
+### 🔄 Current State Analysis
 
 **Questions to answer:**
 - How long does regression testing take?
@@ -29,15 +29,15 @@
 
 ---
 
-## 2.2 ROI Calculation
+## ⭐ 2.2 ROI Calculation
 
-### Simple ROI Formula
+### 🧮 Simple ROI Formula
 
 ```
 ROI = (Benefits - Costs) / Costs × 100%
 ```
 
-### Costs to Include
+### 🔷 Costs to Include
 
 | Category | Examples |
 |----------|----------|
@@ -45,7 +45,7 @@ ROI = (Benefits - Costs) / Costs × 100%
 | **Ongoing** | Maintenance (30-50% of initial effort per year), tool renewals, infrastructure |
 | **Hidden** | Opportunity cost (what else could team do?), learning curve productivity loss |
 
-### Benefits to Quantify
+### 🔷 Benefits to Quantify
 
 | Benefit | Calculation |
 |---------|-------------|
@@ -55,7 +55,7 @@ ROI = (Benefits - Costs) / Costs × 100%
 | **Reduced human error** | Cost of defects caused by manual test execution mistakes |
 | **Increased coverage** | Risk reduction from testing previously untested areas |
 
-### Worked Example
+### 💡 Worked Example
 
 **Scenario:** Automate 200 regression tests.
 
@@ -76,7 +76,7 @@ ROI = (Benefits - Costs) / Costs × 100%
 
 ---
 
-## 2.3 Risk Assessment
+## ⚠️ 2.3 Risk Assessment
 
 | Risk | Likelihood | Impact | Mitigation |
 |------|-----------|--------|------------|
@@ -89,9 +89,9 @@ ROI = (Benefits - Costs) / Costs × 100%
 
 ---
 
-## 2.4 Test Selection for Automation
+## ⚙️ 2.4 Test Selection for Automation
 
-### Selection Criteria
+### ✅ Selection Criteria
 
 | Criterion | Weight | Rationale |
 |-----------|--------|-----------|
@@ -101,7 +101,7 @@ ROI = (Benefits - Costs) / Costs × 100%
 | **Complexity** | Medium | Complex manual execution benefits from automation |
 | **Execution time** | Medium | Long manual tests save more time when automated |
 
-### Automation Candidates
+### ⚙️ Automation Candidates
 
 **High priority:**
 - Smoke tests (run on every build)
@@ -118,9 +118,9 @@ ROI = (Benefits - Costs) / Costs × 100%
 
 ---
 
-## 2.5 Resource Planning
+## 🗓️ 2.5 Resource Planning
 
-### Roles
+### 🔷 Roles
 
 | Role | Responsibilities |
 |------|-----------------|
@@ -130,7 +130,7 @@ ROI = (Benefits - Costs) / Costs × 100%
 | **Developer** | Unit tests, testability improvements |
 | **DevOps engineer** | CI/CD integration, environment management |
 
-### Team Structure Options
+### 🔷 Team Structure Options
 
 | Model | Pros | Cons |
 |-------|------|------|
@@ -140,9 +140,9 @@ ROI = (Benefits - Costs) / Costs × 100%
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Business Case Document
+### 💡 Worked Example 1: Business Case Document
 
 **Scenario:** Propose automation for a healthcare application.
 
@@ -175,7 +175,7 @@ ROI: ($950,000 - $440,000) / $440,000 = 116% over 3 years
 Break-even: Month 14
 ```
 
-### Worked Example 2: Risk Mitigation Plan
+### 💡 Worked Example 2: Risk Mitigation Plan
 
 **Scenario:** A team wants to automate but the application UI changes every sprint.
 
@@ -186,7 +186,7 @@ Break-even: Month 14
 | Low ROI | Measure and report; adjust scope if ROI doesn't materialize |
 | Team frustration | Celebrate wins; show time savings data |
 
-### Worked Example 3: Test Prioritization Matrix
+### 💡 Worked Example 3: Test Prioritization Matrix
 
 **Scenario:** Select which tests to automate first.
 

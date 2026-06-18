@@ -1,8 +1,8 @@
-# Chapter 5 — Regulation Acceptance Testing: Practice Questions
+# ❓ Chapter 5 — Regulation Acceptance Testing: Practice Questions
 
 ---
 
-### Q1 (AcT-5.1, K2)
+### 🔷 Q1 (AcT-5.1, K2)
 
 Regulation Acceptance Testing (RAT) is performed to verify:
 
@@ -13,7 +13,7 @@ D. Only user interface design
 
 ---
 
-### Q2 (AcT-5.2, K2)
+### 🔷 Q2 (AcT-5.2, K2)
 
 Which is a common regulatory requirement for software systems?
 
@@ -24,7 +24,7 @@ D. Only programming languages
 
 ---
 
-### Q3 (AcT-5.3, K2)
+### 🔷 Q3 (AcT-5.3, K2)
 
 WCAG 2.1 Level AA is:
 
@@ -35,7 +35,7 @@ D. Not a real standard
 
 ---
 
-### Q4 (AcT-5.3, K2)
+### 🔷 Q4 (AcT-5.3, K2)
 
 Testing that a website works with a screen reader is:
 
@@ -46,7 +46,7 @@ D. Load testing
 
 ---
 
-### Q5 (AcT-5.4, K2)
+### 🔷 Q5 (AcT-5.4, K2)
 
 Under GDPR, the "right to erasure" means:
 
@@ -57,7 +57,7 @@ D. Testers can erase test data
 
 ---
 
-### Q6 (AcT-5.4, K2)
+### 🔷 Q6 (AcT-5.4, K2)
 
 PCI-DSS applies to systems that:
 
@@ -68,7 +68,7 @@ D. Only mobile applications
 
 ---
 
-### Q7 (AcT-5.5, K2)
+### 🔷 Q7 (AcT-5.5, K2)
 
 An external audit is conducted by:
 
@@ -79,7 +79,7 @@ D. Only the project manager
 
 ---
 
-### Q8 (AcT-5.2, K2)
+### 🔷 Q8 (AcT-5.2, K2)
 
 HIPAA compliance testing would be required for:
 
@@ -90,7 +90,7 @@ D. A social media platform
 
 ---
 
-### Q9 (AcT-5.3, K2)
+### 🔷 Q9 (AcT-5.3, K2)
 
 Keyboard-only navigation testing validates which WCAG principle?
 
@@ -101,7 +101,7 @@ D. Robust
 
 ---
 
-### Q10 (AcT-5.4, K2)
+### 🔷 Q10 (AcT-5.4, K2)
 
 A user requests their data in a machine-readable format. This tests GDPR:
 
@@ -112,7 +112,7 @@ D. Right to object
 
 ---
 
-### Q11 (AcT-5.2, K2)
+### 🔷 Q11 (AcT-5.2, K2)
 
 Compliance testing should include:
 
@@ -123,7 +123,7 @@ D. Only the user interface
 
 ---
 
-### Q12 (AcT-5.5, K2)
+### 🔷 Q12 (AcT-5.5, K2)
 
 A surveillance audit is:
 
@@ -134,7 +134,7 @@ D. Only for financial systems
 
 ---
 
-### Q13 (AcT-5.3, K2)
+### 🔷 Q13 (AcT-5.3, K2)
 
 Color contrast ratio testing is part of:
 
@@ -145,7 +145,7 @@ D. Usability testing only
 
 ---
 
-### Q14 (AcT-5.4, K2)
+### 🔷 Q14 (AcT-5.4, K2)
 
 Under GDPR, organizations must notify the supervisory authority of a data breach within:
 
@@ -156,7 +156,7 @@ D. 1 year
 
 ---
 
-### Q15 (AcT-5.1, K2)
+### 🔷 Q15 (AcT-5.1, K2)
 
 Industry-specific regulations like ISO 26262 (automotive) are important because:
 
@@ -167,7 +167,7 @@ D. They are only for large companies
 
 ---
 
-### Q16 (AcT-5.2, K2)
+### 🔷 Q16 (AcT-5.2, K2)
 
 Process compliance in RAT means verifying:
 
@@ -178,7 +178,7 @@ D. Only the documentation
 
 ---
 
-### Q17 (AcT-5.3, K2)
+### 🔷 Q17 (AcT-5.3, K2)
 
 Testing with users who have disabilities is:
 
@@ -189,7 +189,7 @@ D. Only for healthcare systems
 
 ---
 
-### Q18 (AcT-5.4, K2)
+### 🔷 Q18 (AcT-5.4, K2)
 
 Data minimization under GDPR means:
 
@@ -200,7 +200,7 @@ D. Minimizing database size
 
 ---
 
-### Q19 (AcT-5.5, K2)
+### 🔷 Q19 (AcT-5.5, K2)
 
 Evidence for a compliance audit typically includes:
 
@@ -211,7 +211,7 @@ D. Only user feedback
 
 ---
 
-### Q20 (AcT-5.2, K3)
+### 🔷 Q20 (AcT-5.2, K3)
 
 A new regulation is enacted that affects your system. The FIRST step in RAT should be:
 
@@ -222,104 +222,104 @@ D. Ask users what they think
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** RAT = verify compliance with laws, regulations, standards.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** Common regulatory requirements = data protection, accessibility, industry standards.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** WCAG AA = intermediate level commonly required by regulations.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** Screen reader testing = accessibility acceptance testing.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** Right to erasure = request deletion of personal data.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** PCI-DSS = payment card data security standard.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** External audit = independent third party.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** HIPAA = US healthcare patient data protection.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** Keyboard navigation = operable principle.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** Machine-readable data export = right to data portability.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 
 **Rationale:** Compliance = system, processes, and documentation.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** Surveillance audit = periodic ongoing compliance verification.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** Color contrast = accessibility acceptance testing.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** GDPR breach notification = within 72 hours.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** Non-compliance = market access blocked, liability created.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 
 **Rationale:** Process compliance = processes meet regulatory requirements.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 
 **Rationale:** Testing with disabled users = valuable accessibility testing.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 
 **Rationale:** Data minimization = only collect necessary data.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** Audit evidence = test results, configs, access controls, training, policies.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 
 **Rationale:** First step = gap analysis between current state and new requirements.

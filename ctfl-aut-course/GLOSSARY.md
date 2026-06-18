@@ -1,69 +1,69 @@
-# CTFL-AuT Glossary
+# 📖 CTFL-AuT Glossary
 
-## A
+## ⭐ A
 
 - **ASIL (Automotive Safety Integrity Level)** — Risk classification for automotive hazards (A to D)
 - **AUTOSAR** — Standardized automotive software architecture
 
-## C
+## ⭐ C
 
 - **CAN (Controller Area Network)** — Vehicle bus standard for ECU communication
 - **CANoe** — Tool for simulation and analysis of CAN networks
 
-## D
+## ⭐ D
 
 - **Diagnostic trouble code (DTC)** — Standardized fault code in vehicle diagnostics
 
-## E
+## ⭐ E
 
 - **ECU (Electronic Control Unit)** — Embedded computer controlling a vehicle function
 
-## F
+## ⭐ F
 
 - **FlexRay** — High-speed deterministic vehicle bus protocol
 - **Functional safety** — Part of safety related to E/E systems operating correctly
 
-## H
+## ⭐ H
 
 - **HIL (Hardware-in-the-Loop)** — Testing with real ECU and simulated environment
 
-## I
+## ⭐ I
 
 - **ISO 26262** — Functional safety standard for road vehicles
 
-## L
+## ⭐ L
 
 - **LIN (Local Interconnect Network)** — Low-cost vehicle bus for door/seat systems
 
-## M
+## ⭐ M
 
 - **MIL (Model-in-the-Loop)** — Testing with simulation model only
 - **MC/DC (Modified Condition/Decision Coverage)** — Coverage criterion for safety-critical code
 
-## O
+## ⭐ O
 
 - **OBD (On-Board Diagnostics)** — Self-diagnostic and reporting capability in vehicles
 
-## P
+## ⭐ P
 
 - **PIL (Processor-in-the-Loop)** — Testing compiled code on target processor
 - **ASPICE** — Automotive process assessment and improvement model
 
-## S
+## ⭐ S
 
 - **Safety-critical** — System whose failure could cause harm
 - **SIL (Software-in-the-Loop)** — Testing compiled code on host PC
 - **UDS (Unified Diagnostic Services)** — Diagnostic communication protocol
 
-## T
+## ⭐ T
 
 - **Traceability** — Ability to trace requirements through test cases to results
 
-## V
+## ⭐ V
 
 - **V-model** — Development model with corresponding test levels
 - **Vehicle bus** — Communication system connecting ECUs in a vehicle
 
-## X
+## ⭐ X
 
 - **XIL** — Generic term for MIL, SIL, PIL, and HIL test environments

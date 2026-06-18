@@ -1,4 +1,4 @@
-# CT-AI Mock Exam 2
+# 📝 CT-AI Mock Exam 2
 
 **Instructions:**
 - 40 questions
@@ -8,7 +8,7 @@
 
 ---
 
-### Q1
+### 🔷 Q1
 
 Which of the following describes an HTTP PATCH request?
 
@@ -19,7 +19,7 @@ D. Delete a resource
 
 ---
 
-### Q2
+### 🔷 Q2
 
 A 503 Service Unavailable status code indicates:
 
@@ -30,7 +30,7 @@ D. The client is not authorized
 
 ---
 
-### Q3
+### 🔷 Q3
 
 In a microservices architecture, APIs are typically:
 
@@ -41,7 +41,7 @@ D. Replaced by direct database access
 
 ---
 
-### Q4
+### 🔷 Q4
 
 OpenAPI (formerly Swagger) is used to:
 
@@ -52,7 +52,7 @@ D. Encrypt API communications
 
 ---
 
-### Q5
+### 🔷 Q5
 
 For a numeric parameter with valid range 10-100, boundary value tests should include:
 
@@ -63,7 +63,7 @@ D. Random values between 10 and 100
 
 ---
 
-### Q6
+### 🔷 Q6
 
 A test creates a user account, modifies it, and should delete it afterward. Even if the test fails, the account should be deleted. The BEST approach is:
 
@@ -74,7 +74,7 @@ D. Reuse the same account for all tests
 
 ---
 
-### Q7
+### 🔷 Q7
 
 A team tests an API that calls a third-party shipping service. To make tests reliable, they should:
 
@@ -85,7 +85,7 @@ D. Skip testing the shipping integration
 
 ---
 
-### Q8
+### 🔷 Q8
 
 Which assertion should be included when verifying an API response?
 
@@ -96,7 +96,7 @@ D. Only the request time
 
 ---
 
-### Q9
+### 🔷 Q9
 
 Karate is an API testing framework that uses:
 
@@ -107,7 +107,7 @@ D. SQL queries
 
 ---
 
-### Q10
+### 🔷 Q10
 
 In a well-designed TAS, assertions should be placed in:
 
@@ -118,7 +118,7 @@ D. Configuration files
 
 ---
 
-### Q11
+### 🔷 Q11
 
 Explicit waits in test scripts are preferred over fixed sleeps because:
 
@@ -129,7 +129,7 @@ D. They eliminate the need for error handling
 
 ---
 
-### Q12
+### 🔷 Q12
 
 A team has 300 UI tests, 50 integration tests, and 30 unit tests. Their suite takes 4 hours to run. The BEST improvement is:
 
@@ -140,7 +140,7 @@ D. Hire more testers to maintain the tests
 
 ---
 
-### Q13
+### 🔷 Q13
 
 A defect that causes incorrect data to be displayed but does not crash the system is classified as:
 
@@ -151,7 +151,7 @@ D. Critical severity
 
 ---
 
-### Q14
+### 🔷 Q14
 
 Which metric would BEST indicate that the software quality is improving during testing?
 
@@ -162,7 +162,7 @@ D. Test environment setup time decreases
 
 ---
 
-### Q15
+### 🔷 Q15
 
 In risk-based testing, risk priority is typically calculated as:
 
@@ -173,7 +173,7 @@ D. Impact - Likelihood
 
 ---
 
-### Q16
+### 🔷 Q16
 
 A test automation framework costs $60,000 to develop. It saves $30,000 per year in manual testing effort. The payback period is approximately:
 
@@ -184,7 +184,7 @@ D. 6 years
 
 ---
 
-### Q17
+### 🔷 Q17
 
 Which of the following is a POOR candidate for test automation?
 
@@ -195,7 +195,7 @@ D. A data-driven test with 100 variations
 
 ---
 
-### Q18
+### 🔷 Q18
 
 A system has a security vulnerability that could allow unauthorized access but is difficult to exploit. It should be classified as:
 
@@ -206,7 +206,7 @@ D. Low severity, low priority
 
 ---
 
-### Q19
+### 🔷 Q19
 
 Which of the following is the MOST formal type of review?
 
@@ -217,7 +217,7 @@ D. Inspection
 
 ---
 
-### Q20
+### 🔷 Q20
 
 In the review process, the stage where reviewers individually examine the document before the meeting is called:
 
@@ -228,7 +228,7 @@ D. Rework
 
 ---
 
-### Q21
+### 🔷 Q21
 
 A team automates a new project using TDD from day one. This is:
 
@@ -239,7 +239,7 @@ D. Big-bang deployment
 
 ---
 
-### Q22
+### 🔷 Q22
 
 Updating a test script to accommodate a renamed button on the SUT is:
 
@@ -250,7 +250,7 @@ D. No maintenance
 
 ---
 
-### Q23
+### 🔷 Q23
 
 Refactoring a test script to improve readability and reduce duplication is:
 
@@ -261,7 +261,7 @@ D. Retirement
 
 ---
 
-### Q24
+### 🔷 Q24
 
 A test should be retired when:
 
@@ -272,7 +272,7 @@ D. It was written by a former employee
 
 ---
 
-### Q25
+### 🔷 Q25
 
 Legacy automation is BEST described as:
 
@@ -283,7 +283,7 @@ D. Manual testing that has been documented
 
 ---
 
-### Q26
+### 🔷 Q26
 
 A team puts UI locators directly in every test script. When the UI changes, 50 tests break. The root cause is:
 
@@ -294,7 +294,7 @@ D. The application has too many defects
 
 ---
 
-### Q27
+### 🔷 Q27
 
 In a CI pipeline, which stage should typically run FIRST?
 
@@ -305,7 +305,7 @@ D. Performance load testing
 
 ---
 
-### Q28
+### 🔷 Q28
 
 The relationship between ATDD, BDD, and TDD is BEST described as:
 
@@ -316,7 +316,7 @@ D. Only TDD is appropriate for agile teams
 
 ---
 
-### Q29
+### 🔷 Q29
 
 SonarQube is an example of:
 
@@ -327,7 +327,7 @@ D. A test management tool
 
 ---
 
-### Q30
+### 🔷 Q30
 
 A team tests a platform by simulating 50,000 concurrent users to verify response times remain under 1 second. This is:
 
@@ -338,7 +338,7 @@ D. Security testing
 
 ---
 
-### Q31
+### 🔷 Q31
 
 Which of the following would be detected during static analysis?
 
@@ -349,7 +349,7 @@ D. The actual defect density after test execution
 
 ---
 
-### Q32
+### 🔷 Q32
 
 A misspelled company name on the login page is embarrassing but does not affect functionality. It should be classified as:
 
@@ -360,7 +360,7 @@ D. Low severity, low priority
 
 ---
 
-### Q33
+### 🔷 Q33
 
 The PRIMARY purpose of a test strategy is to:
 
@@ -371,7 +371,7 @@ D. Document the results of testing
 
 ---
 
-### Q34
+### 🔷 Q34
 
 A Page Object Model (POM) in UI automation is used to:
 
@@ -382,7 +382,7 @@ D. Execute tests in parallel
 
 ---
 
-### Q35
+### 🔷 Q35
 
 A test manager is planning a risk-based testing approach. The FIRST step should be to:
 
@@ -393,7 +393,7 @@ D. Report risks to stakeholders
 
 ---
 
-### Q36
+### 🔷 Q36
 
 A 50-page requirements document is reviewed in 5 hours and 20 defects are found. The review efficiency is:
 
@@ -404,7 +404,7 @@ D. 0.4 defects per hour
 
 ---
 
-### Q37
+### 🔷 Q37
 
 Which of the following is the BEST example of an entry criterion for system testing?
 
@@ -415,7 +415,7 @@ D. The product is ready for release
 
 ---
 
-### Q38
+### 🔷 Q38
 
 Which test is the BEST candidate for automation?
 
@@ -426,7 +426,7 @@ D. A test for requirements that change daily
 
 ---
 
-### Q39
+### 🔷 Q39
 
 Which of the following is a non-functional testing concern?
 
@@ -437,7 +437,7 @@ D. Confirming that users receive confirmation emails
 
 ---
 
-### Q40
+### 🔷 Q40
 
 A test manager's PRIMARY responsibility is to:
 
@@ -448,4 +448,4 @@ D. Develop the application code
 
 ---
 
-## End of Mock Exam 2
+## 📝 End of Mock Exam 2

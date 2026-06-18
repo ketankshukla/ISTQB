@@ -1,8 +1,8 @@
-# Chapter 1 — Introduction to Game Testing: Practice Questions
+# ❓ Chapter 1 — Introduction to Game Testing: Practice Questions
 
 ---
 
-### Q1 (GaMe-1.1, K1)
+### 🎮 Q1 (GaMe-1.1, K1)
 
 AAA games are characterized by:
 
@@ -13,7 +13,7 @@ D. Only puzzle genres
 
 ---
 
-### Q2 (GaMe-1.2, K1)
+### 🎮 Q2 (GaMe-1.2, K1)
 
 Compliance QA focuses on:
 
@@ -24,7 +24,7 @@ D. Only story writing
 
 ---
 
-### Q3 (GaMe-1.3, K1)
+### 🎮 Q3 (GaMe-1.3, K1)
 
 An RPG (Role-Playing Game) typically includes:
 
@@ -35,7 +35,7 @@ D. Only puzzle boards
 
 ---
 
-### Q4 (GaMe-1.4, K1)
+### 🎮 Q4 (GaMe-1.4, K1)
 
 Console games require:
 
@@ -46,7 +46,7 @@ D. Only mobile testing
 
 ---
 
-### Q5 (GaMe-1.5, K2)
+### 🎮 Q5 (GaMe-1.5, K2)
 
 Playtesting differs from QA testing because:
 
@@ -57,7 +57,7 @@ D. Only happens after release
 
 ---
 
-### Q6 (GaMe-1.1, K1)
+### 🎮 Q6 (GaMe-1.1, K1)
 
 Indie games are typically:
 
@@ -68,7 +68,7 @@ D. Only for VR
 
 ---
 
-### Q7 (GaMe-1.2, K1)
+### 🎮 Q7 (GaMe-1.2, K1)
 
 Localization QA tests:
 
@@ -79,7 +79,7 @@ D. Only graphics quality
 
 ---
 
-### Q8 (GaMe-1.3, K1)
+### 🎮 Q8 (GaMe-1.3, K1)
 
 An FPS (First-Person Shooter) testing focus includes:
 
@@ -90,7 +90,7 @@ D. Only racing physics
 
 ---
 
-### Q9 (GaMe-1.4, K1)
+### 🎮 Q9 (GaMe-1.4, K1)
 
 Mobile game testing must address:
 
@@ -101,7 +101,7 @@ D. Only VR motion sickness
 
 ---
 
-### Q10 (GaMe-1.5, K2)
+### 🎮 Q10 (GaMe-1.5, K2)
 
 Player experience attributes include:
 
@@ -112,7 +112,7 @@ D. Only network speed
 
 ---
 
-### Q11 (GaMe-1.1, K1)
+### 🎮 Q11 (GaMe-1.1, K1)
 
 A game producer is responsible for:
 
@@ -123,7 +123,7 @@ D. Only testing bugs
 
 ---
 
-### Q12 (GaMe-1.2, K1)
+### 🎮 Q12 (GaMe-1.2, K1)
 
 Certification QA occurs:
 
@@ -134,7 +134,7 @@ D. Only during beta
 
 ---
 
-### Q13 (GaMe-1.3, K1)
+### 🎮 Q13 (GaMe-1.3, K1)
 
 A platformer game focuses on:
 
@@ -145,7 +145,7 @@ D. Only vehicle handling
 
 ---
 
-### Q14 (GaMe-1.4, K1)
+### 🎮 Q14 (GaMe-1.4, K1)
 
 VR game testing must include:
 
@@ -156,7 +156,7 @@ D. Only audio volume
 
 ---
 
-### Q15 (GaMe-1.5, K2)
+### 🎮 Q15 (GaMe-1.5, K2)
 
 Fun in game testing is evaluated through:
 
@@ -167,7 +167,7 @@ D. Only compliance checklists
 
 ---
 
-### Q16 (GaMe-1.1, K1)
+### 🎮 Q16 (GaMe-1.1, K1)
 
 The game industry includes:
 
@@ -178,7 +178,7 @@ D. Only puzzle games
 
 ---
 
-### Q17 (GaMe-1.2, K1)
+### 🎮 Q17 (GaMe-1.2, K1)
 
 A smoke test in game development:
 
@@ -189,7 +189,7 @@ D. Only tests fire levels
 
 ---
 
-### Q18 (GaMe-1.3, K1)
+### 🎮 Q18 (GaMe-1.3, K1)
 
 An MMO (Massively Multiplayer Online) game requires testing of:
 
@@ -200,7 +200,7 @@ D. Only tutorial levels
 
 ---
 
-### Q19 (GaMe-1.4, K1)
+### 🎮 Q19 (GaMe-1.4, K1)
 
 Cloud gaming requires testing of:
 
@@ -211,7 +211,7 @@ D. Only controller pairing
 
 ---
 
-### Q20 (GaMe-1.5, K2)
+### 🎮 Q20 (GaMe-1.5, K2)
 
 Quality attributes specific to games include:
 
@@ -222,84 +222,84 @@ D. Only documentation
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** AAA = high budget + large team.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** Compliance = platform requirements.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** RPG = progression + story + exploration.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** Console = certification required.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Playtesting = player feedback + fun.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Indie = small team + limited budget.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Localization = translation + culture.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** FPS = hit detection + physics + sync.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** Mobile = fragmentation + touch + battery.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** Player experience = fun + fairness + clarity + feedback + flow.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Producer = schedule + budget + milestones.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Certification = final pass before submission.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Platformer = jumping + timing + levels.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** VR = comfort + motion sickness.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Fun = playtesting with audience.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Industry = console + PC + mobile + VR + cloud.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Smoke = quick build verification.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** MMO = server + persistence + economy.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Cloud = latency + network.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** Game quality = gameplay + visuals + audio + perf + stability + usability + compatibility + compliance.

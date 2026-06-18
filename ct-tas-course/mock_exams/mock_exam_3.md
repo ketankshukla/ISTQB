@@ -1,10 +1,10 @@
-# CT-TAS Mock Exam 3
+# 📝 CT-TAS Mock Exam 3
 
 **Instructions:** 40 questions, 60 minutes, single best answer.
 
 ---
 
-### Q1-Q10
+### 🔷 Q1-Q10
 
 1. Automation strategy: A) Scripts B) High-level plan C) Tools D) Data — **High-level plan**
 2. Pyramid: A) Mostly UI B) Mostly unit C) All manual D) Only integration — **Mostly unit**
@@ -19,7 +19,7 @@
 
 ---
 
-### Q11-Q20
+### 🔷 Q11-Q20
 
 11. ROI formula: A) Costs/Benefits B) (Benefits - Costs)/Costs C) Benefits/Costs D) Costs - Benefits — **(Benefits - Costs)/Costs**
 12. Maintenance omitted: A) Conservative B) Overly optimistic C) Missing line D) Only agile — **Overly optimistic**
@@ -34,7 +34,7 @@
 
 ---
 
-### Q21-Q30
+### 🔷 Q21-Q30
 
 21. Corrective: A) Perf B) Fix broken C) Security D) Docs — **Fix broken**
 22. Refactor: A) Broken B) Proactively improve C) Yearly D) New — **Proactively improve**
@@ -49,7 +49,7 @@
 
 ---
 
-### Q31-Q40
+### 🔷 Q31-Q40
 
 31. Coding + testing: A) Coding only B) Both C) Manual D) Mgmt — **Both**
 32. Pair programming: A) Seniors B) Skill transfer C) Review D) Docs — **Skill transfer**
@@ -64,4 +64,4 @@
 
 ---
 
-## End of Mock Exam 3
+## 📝 End of Mock Exam 3

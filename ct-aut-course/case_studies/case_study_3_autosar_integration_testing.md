@@ -1,6 +1,6 @@
-# Case Study 3 — AUTOSAR Integration Testing
+# 📂 Case Study 3 — AUTOSAR Integration Testing
 
-## Context
+## ⭐ Context
 
 You are the Integration Test Lead for an AUTOSAR-based body control module.
 
@@ -10,7 +10,7 @@ You are the Integration Test Lead for an AUTOSAR-based body control module.
 
 ---
 
-## Task 1: Test Architecture
+## ⭐ Task 1: Test Architecture
 
 **Question:** Design integration test architecture.
 
@@ -26,7 +26,7 @@ You are the Integration Test Lead for an AUTOSAR-based body control module.
 
 ---
 
-## Task 2: SWC Test Design
+## 🎨 Task 2: SWC Test Design
 
 **Question:** Test a door lock SWC.
 
@@ -48,7 +48,7 @@ You are the Integration Test Lead for an AUTOSAR-based body control module.
 
 ---
 
-## Task 3: Network Testing
+## ⭐ Task 3: Network Testing
 
 **Question:** Test network communication.
 
@@ -69,7 +69,7 @@ You are the Integration Test Lead for an AUTOSAR-based body control module.
 
 ---
 
-## Task 4: Regression Strategy
+## ♟️ Task 4: Regression Strategy
 
 **Question:** Plan regression for ongoing development.
 

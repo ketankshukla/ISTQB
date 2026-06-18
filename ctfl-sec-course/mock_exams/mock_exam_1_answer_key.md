@@ -1,6 +1,6 @@
-# CTFL-SEC Mock Exam 1 — Answer Key
+# 📝 CTFL-SEC Mock Exam 1 — Answer Key
 
-## Answers
+## ✔️ Answers
 
 | Question | Answer | Topic |
 |----------|--------|-------|
@@ -25,7 +25,7 @@
 | Q19 | B | High risk |
 | Q20 | B | Continuous monitoring |
 
-## Score Interpretation
+## ⭐ Score Interpretation
 
 | Score | Status |
 |-------|--------|

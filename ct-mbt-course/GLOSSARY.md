@@ -1,10 +1,10 @@
-# CT-MBT Glossary
+# 📖 CT-MBT Glossary
 
 Key terms and definitions for the CT-MBT exam, organized by chapter relevance.
 
 ---
 
-## MBT Fundamentals
+## 🏗️ MBT Fundamentals
 
 **Model-Based Testing (MBT)**
 Testing in which test cases are derived in whole or in part from a model that describes some aspect of the system under test.
@@ -29,7 +29,7 @@ Rules or algorithms used to select a subset of possible test cases from a model.
 
 ---
 
-## MBT Modeling
+## 📐 MBT Modeling
 
 **State Transition Model / State Machine**
 A model showing states of a system and transitions between them triggered by events or conditions.
@@ -81,7 +81,7 @@ Parts of the SUT behavior that are important for testing and should be represent
 
 ---
 
-## Test Selection Criteria
+## ✅ Test Selection Criteria
 
 **Coverage Criterion**
 A rule defining what must be covered by tests. Examples: state coverage, transition coverage.
@@ -115,7 +115,7 @@ The number of steps/transitions in a test case. Longer tests may find more compl
 
 ---
 
-## Test Implementation and Execution
+## ⭐ Test Implementation and Execution
 
 **Abstract Test Case**
 A test case described at the model level without concrete data or implementation details.
@@ -143,7 +143,7 @@ A tool that imitates the behavior of the SUT or its environment for testing purp
 
 ---
 
-## Evaluating and Deploying MBT
+## ⭐ Evaluating and Deploying MBT
 
 **Return on Investment (ROI)**
 A measure of the financial benefit of MBT compared to its cost. Factors: model creation effort, test maintenance savings, defect detection value.
@@ -168,7 +168,7 @@ Measurements used to evaluate MBT adoption: defect detection rate, test coverage
 
 ---
 
-## MBT Tool Support
+## 🛠️ MBT Tool Support
 
 **Modeling Tool**
 A tool for creating, editing, and validating models. Examples: Enterprise Architect, Papyrus, Visual Paradigm.
@@ -196,7 +196,7 @@ Tracking changes to models alongside code changes using version control systems.
 
 ---
 
-## Abbreviations
+## ⭐ Abbreviations
 
 | Abbreviation | Meaning |
 |-------------|---------|

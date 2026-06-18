@@ -1,6 +1,6 @@
-# Chapter 5 — Test Tools and Automation
+# 🛠️ Chapter 5 — Test Tools and Automation
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~20% (~12 questions out of 60)
 - **K-levels:** K2 (understand), K3 (apply)
@@ -8,7 +8,7 @@
 
 ---
 
-## Chapter Map
+## ⭐ Chapter Map
 
 | Section | Topic | K-Level | Exam Importance |
 |---------|-------|---------|-----------------|
@@ -22,7 +22,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -36,7 +36,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts to Master
+## ⭐ Key Concepts to Master
 
 - Test tool categories: execution, performance, management, static analysis, data preparation
 - Data-driven vs. keyword-driven automation frameworks

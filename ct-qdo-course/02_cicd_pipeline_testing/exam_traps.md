@@ -1,6 +1,6 @@
-# Chapter 2 — CI/CD Pipeline Testing: Exam Traps
+# 🪤 Chapter 2 — CI/CD Pipeline Testing: Exam Traps
 
-## Trap 1: Running All Tests at Every Stage
+## 🪤 Trap 1: Running All Tests at Every Stage
 
 **Trap:** Unit tests are fast; integration and acceptance tests are slow. Run fast tests early, slow tests later.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Confusing Blue-Green with Canary
+## 🪤 Trap 2: Confusing Blue-Green with Canary
 
 **Trap:** Blue-green = two full environments, instant switch. Canary = gradual traffic shift to new version.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Thinking Quality Gates Are Optional
+## 🪤 Trap 3: Thinking Quality Gates Are Optional
 
 **Trap:** Quality gates prevent defective code from progressing. Bypassing them defeats the purpose.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Ignoring Rollback Testing
+## 🪤 Trap 4: Ignoring Rollback Testing
 
 **Trap:** Rollback must be tested, not just documented. Failed rollbacks can be worse than the original issue.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Confusing Feature Flags with Deployment
+## 🪤 Trap 5: Confusing Feature Flags with Deployment
 
 **Trap:** Deploying code behind a flag is not the same as releasing the feature. Both states (on/off) must be tested.
 

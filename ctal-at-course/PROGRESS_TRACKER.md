@@ -1,12 +1,12 @@
-# CTAL-AT Progress Tracker
+# 📈 CTAL-AT Progress Tracker
 
-## How to Use This Tracker
+## ⭐ How to Use This Tracker
 
 Check off each item as you complete it. Target: complete all items before your exam date.
 
 ---
 
-## Chapter 1 — Agile Principles and Context
+## 📜 Chapter 1 — Agile Principles and Context
 
 - [ ] Read `README.md`
 - [ ] Read `lessons.md`
@@ -15,7 +15,7 @@ Check off each item as you complete it. Target: complete all items before your e
 - [ ] Score: ___ / 20
 - [ ] Review all wrong answers
 
-## Chapter 2 — TDD, BDD, ATDD
+## ⭐ Chapter 2 — TDD, BDD, ATDD
 
 - [ ] Read `README.md`
 - [ ] Read `lessons.md`
@@ -24,7 +24,7 @@ Check off each item as you complete it. Target: complete all items before your e
 - [ ] Score: ___ / 20
 - [ ] Review all wrong answers
 
-## Chapter 3 — Test Automation in Agile
+## ⚙️ Chapter 3 — Test Automation in Agile
 
 - [ ] Read `README.md`
 - [ ] Read `lessons.md`
@@ -33,7 +33,7 @@ Check off each item as you complete it. Target: complete all items before your e
 - [ ] Score: ___ / 20
 - [ ] Review all wrong answers
 
-## Chapter 4 — CI/CD and DevOps
+## 🔧 Chapter 4 — CI/CD and DevOps
 
 - [ ] Read `README.md`
 - [ ] Read `lessons.md`
@@ -42,7 +42,7 @@ Check off each item as you complete it. Target: complete all items before your e
 - [ ] Score: ___ / 20
 - [ ] Review all wrong answers
 
-## Chapter 5 — Testing Techniques in Agile
+## 🎯 Chapter 5 — Testing Techniques in Agile
 
 - [ ] Read `README.md`
 - [ ] Read `lessons.md`
@@ -51,13 +51,13 @@ Check off each item as you complete it. Target: complete all items before your e
 - [ ] Score: ___ / 20
 - [ ] Review all wrong answers
 
-## Case Studies
+## ⭐ Case Studies
 
 - [ ] Read `case_study_1_agile_transformation.md`
 - [ ] Read `case_study_2_test_automation_cicd.md`
 - [ ] Read `case_study_3_continuous_testing.md`
 
-## Mock Exams
+## 📝 Mock Exams
 
 - [ ] Attempt `mock_exam_1.md` under timed conditions (90 min)
 - [ ] Score: ___ / 40
@@ -71,7 +71,7 @@ Check off each item as you complete it. Target: complete all items before your e
 - [ ] Score: ___ / 40
 - [ ] Review all wrong answers
 
-## Final Preparation
+## ⭐ Final Preparation
 
 - [ ] Re-read `EXAM_STRATEGY.md`
 - [ ] Re-read `GLOSSARY.md`
@@ -81,7 +81,7 @@ Check off each item as you complete it. Target: complete all items before your e
 
 ---
 
-## Score Targets
+## ⭐ Score Targets
 
 | Activity | Target | Notes |
 |----------|--------|-------|

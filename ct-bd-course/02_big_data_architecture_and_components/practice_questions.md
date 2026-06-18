@@ -1,8 +1,8 @@
-# Chapter 2 — Big Data Architecture and Components: Practice Questions
+# ❓ Chapter 2 — Big Data Architecture and Components: Practice Questions
 
 ---
 
-### Q1 (BD-2.1, K2)
+### 🔷 Q1 (BD-2.1, K2)
 
 In HDFS, the NameNode is responsible for:
 
@@ -13,7 +13,7 @@ D. Scheduling YARN containers
 
 ---
 
-### Q2 (BD-2.1, K2)
+### 🔷 Q2 (BD-2.1, K2)
 
 HDFS stores multiple copies of each block primarily to:
 
@@ -24,7 +24,7 @@ D. Enable schema-on-read
 
 ---
 
-### Q3 (BD-2.2, K2)
+### 🔷 Q3 (BD-2.2, K2)
 
 A PRIMARY advantage of Apache Spark over MapReduce is:
 
@@ -35,7 +35,7 @@ D. Spark only supports Scala
 
 ---
 
-### Q4 (BD-2.2, K2)
+### 🔷 Q4 (BD-2.2, K2)
 
 In Spark, a DataFrame is:
 
@@ -46,7 +46,7 @@ D. A type of NoSQL database
 
 ---
 
-### Q5 (BD-2.3, K2)
+### 🔷 Q5 (BD-2.3, K2)
 
 A tool designed for bulk data transfer between Hadoop and relational databases is:
 
@@ -57,7 +57,7 @@ D. Spark SQL
 
 ---
 
-### Q6 (BD-2.3, K2)
+### 🔷 Q6 (BD-2.3, K2)
 
 Kafka is PRIMARILY used for:
 
@@ -68,7 +68,7 @@ D. Relational database backups
 
 ---
 
-### Q7 (BD-2.4, K2)
+### 🔷 Q7 (BD-2.4, K2)
 
 MongoDB is an example of a:
 
@@ -79,7 +79,7 @@ D. Graph database
 
 ---
 
-### Q8 (BD-2.4, K2)
+### 🔷 Q8 (BD-2.4, K2)
 
 Cassandra is BEST suited for:
 
@@ -90,7 +90,7 @@ D. Ad-hoc SQL analytics
 
 ---
 
-### Q9 (BD-2.3, K3)
+### 🔷 Q9 (BD-2.3, K3)
 
 A pipeline that processes data as it arrives (e.g., clickstream events) is using:
 
@@ -101,7 +101,7 @@ D. Scheduled processing
 
 ---
 
-### Q10 (BD-2.1, K2)
+### 🔷 Q10 (BD-2.1, K2)
 
 MapReduce consists of which phases?
 
@@ -112,7 +112,7 @@ D. Read, Write, Delete
 
 ---
 
-### Q11 (BD-2.2, K2)
+### 🔷 Q11 (BD-2.2, K2)
 
 Spark transformations are:
 
@@ -123,7 +123,7 @@ D. Not fault-tolerant
 
 ---
 
-### Q12 (BD-2.4, K2)
+### 🔷 Q12 (BD-2.4, K2)
 
 Redis is BEST described as a:
 
@@ -134,7 +134,7 @@ D. Relational database
 
 ---
 
-### Q13 (BD-2.3, K2)
+### 🔷 Q13 (BD-2.3, K2)
 
 Flume is PRIMARILY designed for:
 
@@ -145,7 +145,7 @@ D. Data warehouse ETL
 
 ---
 
-### Q14 (BD-2.1, K2)
+### 🔷 Q14 (BD-2.1, K2)
 
 In Hadoop, YARN is responsible for:
 
@@ -156,7 +156,7 @@ D. Running SQL queries
 
 ---
 
-### Q15 (BD-2.4, K2)
+### 🔷 Q15 (BD-2.4, K2)
 
 Neo4j is BEST suited for:
 
@@ -167,7 +167,7 @@ D. Time-series analytics
 
 ---
 
-### Q16 (BD-2.2, K3)
+### 🔷 Q16 (BD-2.2, K3)
 
 A Spark job uses `groupByKey` followed by `reduce`. The test should verify:
 
@@ -178,7 +178,7 @@ D. The driver program's memory usage only
 
 ---
 
-### Q17 (BD-2.3, K2)
+### 🔷 Q17 (BD-2.3, K2)
 
 Data ingestion testing should verify all EXCEPT:
 
@@ -189,7 +189,7 @@ D. Bad records are handled according to defined rules
 
 ---
 
-### Q18 (BD-2.1, K2)
+### 🔷 Q18 (BD-2.1, K2)
 
 The default HDFS block size is:
 
@@ -200,7 +200,7 @@ D. 1GB
 
 ---
 
-### Q19 (BD-2.4, K2)
+### 🔷 Q19 (BD-2.4, K2)
 
 A system needs to store product catalogs where each product has different attributes. The BEST NoSQL choice is likely:
 
@@ -211,7 +211,7 @@ D. Graph database
 
 ---
 
-### Q20 (BD-2.3, K3)
+### 🔷 Q20 (BD-2.3, K3)
 
 Testing a Sqoop incremental import should verify:
 
@@ -222,104 +222,104 @@ D. Network cable quality
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** NameNode manages metadata (directory tree, block locations). DataNodes store actual blocks.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** HDFS replication (default 3x) provides fault tolerance against node failures.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** Spark's in-memory processing makes iterative workloads much faster than MapReduce's disk-based approach.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** DataFrame = distributed collection with named columns and schema.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** Sqoop = bulk transfer between Hadoop and relational databases.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** Kafka = distributed event streaming platform for real-time data.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** MongoDB stores JSON-like documents = document store.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** Cassandra = column-family store optimized for write-heavy, time-series workloads.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** Processing data as it arrives = stream processing.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** MapReduce phases = Map, Shuffle/Sort, Reduce.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 
 **Rationale:** Spark transformations are lazy (build execution plan). Actions trigger execution.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** Redis = key-value store.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** Flume = streaming log data collection and aggregation.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** YARN = cluster resource management and job scheduling.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** Neo4j = graph database optimized for relationship traversal.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 
 **Rationale:** `groupByKey` + `reduce` = test correct aggregation and no lost keys during shuffle.
 
-### Q17
+### 🔷 Q17
 **Answer: C**
 
 **Rationale:** BI dashboard color scheme = not an ingestion test concern.
 
-### Q18
+### 🔷 Q18
 **Answer: C**
 
 **Rationale:** Default HDFS block size = 128MB.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** Different attributes per product = flexible schema = document store (MongoDB).
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 
 **Rationale:** Incremental import = only new/changed rows since last import.

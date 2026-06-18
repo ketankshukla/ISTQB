@@ -1,6 +1,6 @@
-# Chapter 3 — API Test Implementation and Execution: Exam Traps
+# 🪤 Chapter 3 — API Test Implementation and Execution: Exam Traps
 
-## Trap 1: Hard-Coding Credentials in Test Scripts
+## 🪤 Trap 1: Hard-Coding Credentials in Test Scripts
 
 **Trap:** API keys, tokens, and passwords must never be hard-coded. Use environment variables or secret managers.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Sharing Test Data Between Tests
+## 🪤 Trap 2: Sharing Test Data Between Tests
 
 **Trap:** Tests should be independent. Sharing test data creates ordering dependencies and makes debugging difficult.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Testing Against Production Directly
+## 🪤 Trap 3: Testing Against Production Directly
 
 **Trap:** Tests that create/modify data should never run against production. Use dedicated test environments.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Ignoring Response Headers
+## 🪤 Trap 4: Ignoring Response Headers
 
 **Trap:** Headers contain important information (Content-Type, rate limits, caching). Assertions should verify relevant headers.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Assuming External Services Are Always Available
+## 🪤 Trap 5: Assuming External Services Are Always Available
 
 **Trap:** External service dependencies make tests unreliable. Use mocks for external APIs.
 

@@ -1,4 +1,4 @@
-# Mock Exam 1 — Answer Key
+# 📝 Mock Exam 1 — Answer Key
 
 | Q | Answer | Rationale |
 |---|--------|-----------|
@@ -48,7 +48,7 @@
 | 44 | B | Payback period = $50,000 / $40,000 = 1.25 years. |
 | 45 | B | A successful framework is maintainable, reliable, and provides fast feedback. |
 
-## Score Interpretation
+## ⭐ Score Interpretation
 
 | Score | Interpretation |
 |-------|-------------|

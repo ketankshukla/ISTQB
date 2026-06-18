@@ -1,6 +1,6 @@
-# Chapter 5 — Test Automation Maintenance and Evolution
+# ⚙️ Chapter 5 — Test Automation Maintenance and Evolution
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~15% (~6 questions out of 40)
 - **K-levels:** K2, K3
@@ -8,7 +8,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -21,7 +21,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts
+## ⭐ Key Concepts
 
 - Corrective, adaptive, perfective maintenance
 - Refactoring patterns

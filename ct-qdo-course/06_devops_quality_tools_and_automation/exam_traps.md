@@ -1,6 +1,6 @@
-# Chapter 6 — DevOps Quality Tools and Automation: Exam Traps
+# 🪤 Chapter 6 — DevOps Quality Tools and Automation: Exam Traps
 
-## Trap 1: Selecting Tools Based on Hype Alone
+## 🪤 Trap 1: Selecting Tools Based on Hype Alone
 
 **Trap:** Tool selection must consider team skills, existing stack, and actual needs. Popular doesn't mean right.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Ignoring Test Report Value
+## 🪤 Trap 2: Ignoring Test Report Value
 
 **Trap:** Test reports aren't just pass/fail. They provide trends, coverage, and debugging information.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Sharing Test Databases Between Runs
+## 🪤 Trap 3: Sharing Test Databases Between Runs
 
 **Trap:** Shared test databases cause flaky tests from leftover data. Ephemeral/isolated data is better.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Treating All Tests the Same in CI
+## 🪤 Trap 4: Treating All Tests the Same in CI
 
 **Trap:** Fast tests should run early, slow tests later. Running everything together wastes time.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Forgetting Flaky Test Management
+## 🪤 Trap 5: Forgetting Flaky Test Management
 
 **Trap:** Flaky tests erode trust in CI. They must be identified, quarantined, and fixed.
 

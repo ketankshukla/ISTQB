@@ -1,10 +1,10 @@
-# Chapter 5 — Regulation Acceptance Testing (RAT): Lessons
+# 📘 Chapter 5 — Regulation Acceptance Testing (RAT): Lessons
 
 ---
 
-## 5.1 Regulation Acceptance Testing Overview
+## 🌟 5.1 Regulation Acceptance Testing Overview
 
-### What is RAT?
+### 🔷 What is RAT?
 
 **Regulation Acceptance Testing (RAT)** is acceptance testing performed to verify compliance with laws, regulations, standards, and internal policies.
 
@@ -15,7 +15,7 @@
 - Reputational damage
 - Contractual obligations
 
-### Types of Regulatory Requirements
+### 🧪 Types of Regulatory Requirements
 
 **Legal requirements:**
 - Data protection (GDPR, CCPA, PIPEDA)
@@ -33,9 +33,9 @@
 
 ---
 
-## 5.2 Compliance Testing Approaches
+## ⭐ 5.2 Compliance Testing Approaches
 
-### Compliance Test Design
+### 🎨 Compliance Test Design
 
 **1. Identify applicable regulations:**
 - Industry analysis (healthcare, finance, retail)
@@ -56,7 +56,7 @@ GDPR Article 17 (Right to erasure)
 - Evidence requirements
 - Audit trail requirements
 
-### Compliance Testing Types
+### 🧪 Compliance Testing Types
 
 | Type | Description | Example |
 |------|-------------|---------|
@@ -67,9 +67,9 @@ GDPR Article 17 (Right to erasure)
 
 ---
 
-## 5.3 Accessibility Acceptance Testing
+## 🤝 5.3 Accessibility Acceptance Testing
 
-### WCAG 2.1 Principles (POUR)
+### 📜 WCAG 2.1 Principles (POUR)
 
 **Perceivable:**
 - Text alternatives for images
@@ -92,7 +92,7 @@ GDPR Article 17 (Right to erasure)
 - Compatible with assistive technology
 - Valid HTML/markup
 
-### Accessibility Testing Techniques
+### 🎯 Accessibility Testing Techniques
 
 **Automated scanning:**
 - axe DevTools
@@ -110,7 +110,7 @@ GDPR Article 17 (Right to erasure)
 - Testing with users who have disabilities
 - Task completion with assistive technology
 
-### Accessibility Acceptance Criteria Example
+### 💡 Accessibility Acceptance Criteria Example
 
 ```
 - All images have descriptive alt text (WCAG 1.1.1)
@@ -124,9 +124,9 @@ GDPR Article 17 (Right to erasure)
 
 ---
 
-## 5.4 Data Protection Acceptance Testing
+## 🗃️ 5.4 Data Protection Acceptance Testing
 
-### GDPR Compliance Testing
+### 🔷 GDPR Compliance Testing
 
 **Key GDPR requirements and tests:**
 
@@ -143,7 +143,7 @@ GDPR Article 17 (Right to erasure)
 | Privacy by design | Verify privacy features built in, not added on |
 | Data Protection Impact Assessment | Verify DPIA completed for high-risk processing |
 
-### PCI-DSS Acceptance Testing
+### 🤝 PCI-DSS Acceptance Testing
 
 **For systems handling payment card data:**
 
@@ -164,9 +164,9 @@ GDPR Article 17 (Right to erasure)
 
 ---
 
-## 5.5 Audit and Certification
+## ⭐ 5.5 Audit and Certification
 
-### Types of Audits
+### 🧪 Types of Audits
 
 **Internal audit:**
 - Conducted by organization's own audit team
@@ -183,7 +183,7 @@ GDPR Article 17 (Right to erasure)
 - Results in certificate (e.g., ISO 27001)
 - Typically annual surveillance audits
 
-### Audit Evidence
+### 🔷 Audit Evidence
 
 **Evidence types for acceptance:**
 - Test results and reports
@@ -194,7 +194,7 @@ GDPR Article 17 (Right to erasure)
 - Incident logs
 - Change management records
 
-### Certification Process
+### 🔷 Certification Process
 
 ```
 1. Gap analysis (current state vs. standard requirements)
@@ -208,9 +208,9 @@ GDPR Article 17 (Right to erasure)
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: GDPR Acceptance Test Plan
+### 💡 Worked Example 1: GDPR Acceptance Test Plan
 
 **System:** Customer loyalty platform
 
@@ -226,7 +226,7 @@ GDPR Article 17 (Right to erasure)
 | 32 | Security | Security assessment | Encryption, access controls, audit logging in place |
 | 33 | Breach notification | Simulate data breach | Notification to DPA within 72 hours, users within 72 hours |
 
-### Worked Example 2: WCAG 2.1 AA Compliance Test
+### 💡 Worked Example 2: WCAG 2.1 AA Compliance Test
 
 **System:** Government services website
 
@@ -246,7 +246,7 @@ GDPR Article 17 (Right to erasure)
 
 **Re-test:** All criteria PASS → Accessibility acceptance achieved.
 
-### Worked Example 3: Industry Regulation Scenario
+### 💡 Worked Example 3: Industry Regulation Scenario
 
 **System:** Medical device software (IEC 62304)
 

@@ -1,10 +1,10 @@
-# Chapter 2 — Usability Testing Process: Lessons
+# 📘 Chapter 2 — Usability Testing Process: Lessons
 
 ---
 
-## 2.1 Types of Usability Testing
+## 🧪 2.1 Types of Usability Testing
 
-### Formative Usability Testing
+### 🖱️ Formative Usability Testing
 
 **Definition:** Testing conducted during the design and development phases to identify and fix usability problems early.
 
@@ -25,7 +25,7 @@
 - After major design changes
 - Before significant development investment
 
-### Summative Usability Testing
+### 🖱️ Summative Usability Testing
 
 **Definition:** Testing conducted on the final (or near-final) product to evaluate it against defined criteria.
 
@@ -47,7 +47,7 @@
 - For regulatory compliance
 - To validate design improvements
 
-### Comparison
+### 🔷 Comparison
 
 | Aspect | Formative | Summative |
 |--------|-----------|-----------|
@@ -60,9 +60,9 @@
 
 ---
 
-## 2.2 Planning the Test
+## 🗓️ 2.2 Planning the Test
 
-### Define Test Objectives
+### 🎯 Define Test Objectives
 
 **Example Objectives:**
 - "Identify navigation problems in the checkout process"
@@ -76,7 +76,7 @@
 - Relevant (aligned with business goals)
 - Time-bound (within the test scope)
 
-### Define Scope and Method
+### 🔷 Define Scope and Method
 
 **Questions to Answer:**
 - What parts of the product will be tested?
@@ -93,7 +93,7 @@
 | Remote unmoderated | Large sample, quantitative data | No probing, limited context |
 | Guerrilla testing | Quick feedback, low budget | Limited rigor |
 
-### Define the User Profile
+### 🔷 Define the User Profile
 
 **Who Should Be Tested?**
 - Representative of the actual user population
@@ -107,7 +107,7 @@
 - Technical proficiency
 - Accessibility needs (if relevant)
 
-### Determine Sample Size
+### 🔷 Determine Sample Size
 
 **Formative Testing:**
 - 5 users typically find 85% of usability problems (Nielsen's research)
@@ -121,9 +121,9 @@
 
 ---
 
-## 2.3 Preparation
+## ⭐ 2.3 Preparation
 
-### Create Test Scenarios and Tasks
+### 🎬 Create Test Scenarios and Tasks
 
 **Scenario:**
 - A realistic context that sets up the task
@@ -151,7 +151,7 @@
 | Track an order | Medium | Post-purchase experience |
 | Return an item | Hard | Complex workflow |
 
-### Prepare the Test Environment
+### 🔷 Prepare the Test Environment
 
 **Lab Testing:**
 - Quiet room with minimal distractions
@@ -172,7 +172,7 @@
 - Post-test questionnaire (SUS, task ratings)
 - Prototype or test version of the product
 
-### Pilot Testing
+### 🔷 Pilot Testing
 
 **Purpose:**
 - Verify tasks are clear and achievable
@@ -187,9 +187,9 @@
 
 ---
 
-## 2.4 Execution
+## ⭐ 2.4 Execution
 
-### Informed Consent
+### 🔷 Informed Consent
 
 **Before any testing, participants must:**
 - Understand the purpose of the test
@@ -204,7 +204,7 @@
 - "Your feedback will help us improve the product"
 - "You can stop at any time"
 
-### Moderation Techniques
+### 🎯 Moderation Techniques
 
 **Think-Aloud Protocol:**
 - Ask participants to verbalize their thoughts as they work
@@ -230,7 +230,7 @@
 - More natural task performance
 - Requires good memory of thought process
 
-### Data Collection
+### 🗃️ Data Collection
 
 **Quantitative Data:**
 - Task success rate (completed / attempted)
@@ -256,9 +256,9 @@
 
 ---
 
-## 2.5 Analysis
+## 🔬 2.5 Analysis
 
-### Analyzing Quantitative Data
+### 🗃️ Analyzing Quantitative Data
 
 **Task Success Rate:**
 ```
@@ -282,7 +282,7 @@ Error Rate = (Number of errors) / (Number of opportunities for error) x 100%
 - Result is a score between 0 and 100
 - Average SUS score across all products is ~68
 
-### Analyzing Qualitative Data
+### 🗃️ Analyzing Qualitative Data
 
 **Affinity Diagramming:**
 1. Write each observation on a sticky note
@@ -307,9 +307,9 @@ Error Rate = (Number of errors) / (Number of opportunities for error) x 100%
 
 ---
 
-## 2.6 Reporting
+## 📝 2.6 Reporting
 
-### Report Structure
+### 📝 Report Structure
 
 **1. Executive Summary:**
 - Key findings in 1-2 paragraphs
@@ -345,7 +345,7 @@ Error Rate = (Number of errors) / (Number of opportunities for error) x 100%
 - Test script
 - Screenshot examples
 
-### Audience-Appropriate Reporting
+### 📝 Audience-Appropriate Reporting
 
 **For Developers:**
 - Technical details, specific UI element references
@@ -364,9 +364,9 @@ Error Rate = (Number of errors) / (Number of opportunities for error) x 100%
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Planning a Formative Test
+### 💡 Worked Example 1: Planning a Formative Test
 
 **Product:** Mobile banking app
 **Objective:** Identify problems in the bill payment feature
@@ -385,7 +385,7 @@ Error Rate = (Number of errors) / (Number of opportunities for error) x 100%
 - Week 3: Conduct 6 sessions (1 hour each)
 - Week 4: Analyze and report
 
-### Worked Example 2: Severity Rating
+### 💡 Worked Example 2: Severity Rating
 
 **Issue:** "Users could not find the 'Forgot Password' link"
 
@@ -397,7 +397,7 @@ Error Rate = (Number of errors) / (Number of opportunities for error) x 100%
 
 **Priority:** High — affects core functionality, high frequency, easy to fix
 
-### Worked Example 3: SUS Calculation
+### 💡 Worked Example 3: SUS Calculation
 
 **Participant responses (1-5 scale):**
 

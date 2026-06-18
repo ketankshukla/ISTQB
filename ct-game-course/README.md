@@ -1,10 +1,10 @@
-# CT-GaMe — Certified Tester in Game Testing
+# 🎮 CT-GaMe — Certified Tester in Game Testing
 
 Complete self-study course for the ISTQB CT-GaMe certification exam.
 
 ---
 
-## Exam Facts
+## 🎓 Exam Facts
 
 | Parameter | Value |
 |-----------|-------|
@@ -18,7 +18,7 @@ Complete self-study course for the ISTQB CT-GaMe certification exam.
 
 ---
 
-## Course Structure
+## ⭐ Course Structure
 
 | Chapter | Topic | Est. Weight |
 |---------|-------|-------------|
@@ -31,7 +31,7 @@ Complete self-study course for the ISTQB CT-GaMe certification exam.
 
 ---
 
-## How to Use This Course
+## ⭐ How to Use This Course
 
 1. **Read `STUDY_PLAN.md`** for a realistic 4-week schedule
 2. **Work through chapters in order** — read lessons, study exam traps, attempt practice questions
@@ -41,7 +41,7 @@ Complete self-study course for the ISTQB CT-GaMe certification exam.
 
 ---
 
-## Target Audience
+## ⭐ Target Audience
 
 - Testers working in game development
 - QA professionals transitioning to game testing
@@ -49,7 +49,7 @@ Complete self-study course for the ISTQB CT-GaMe certification exam.
 
 ---
 
-## Question Bank Summary
+## ❓ Question Bank Summary
 
 | Source | Questions |
 |--------|-----------|
@@ -59,13 +59,13 @@ Complete self-study course for the ISTQB CT-GaMe certification exam.
 
 ---
 
-## Syllabus Coverage
+## 📊 Syllabus Coverage
 
 This course covers all chapters and learning objectives in the ISTQB CT-GaMe v1.0 syllabus.
 
 ---
 
-## Prerequisites
+## ⭐ Prerequisites
 
 - ISTQB Foundation Level (CTFL) certification or equivalent knowledge
 - Basic understanding of software development and testing
@@ -73,6 +73,6 @@ This course covers all chapters and learning objectives in the ISTQB CT-GaMe v1.
 
 ---
 
-## Disclaimer
+## 🤖 Disclaimer
 
 This is an independent study resource. It is not affiliated with, endorsed by, or produced by ISTQB or any ISTQB member board. ISTQB and Certified Tester are registered trademarks. The official syllabus and sample exams are available from [istqb.org](https://www.istqb.org).

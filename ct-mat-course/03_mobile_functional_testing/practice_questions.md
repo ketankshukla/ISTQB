@@ -1,8 +1,8 @@
-# Chapter 3 — Mobile Functional Testing: Practice Questions
+# ❓ Chapter 3 — Mobile Functional Testing: Practice Questions
 
 ---
 
-### Q1 (MAT-3.1, K2)
+### 🔷 Q1 (MAT-3.1, K2)
 
 The minimum recommended touch target size per Material Design is:
 
@@ -13,7 +13,7 @@ D. 96 × 96 dp
 
 ---
 
-### Q2 (MAT-3.2, K2)
+### 🔷 Q2 (MAT-3.2, K2)
 
 A swipe gesture should be tested for:
 
@@ -24,7 +24,7 @@ D. Only on large screens
 
 ---
 
-### Q3 (MAT-3.3, K2)
+### 🔷 Q3 (MAT-3.3, K2)
 
 When a user rotates the phone during form entry, the app should:
 
@@ -35,7 +35,7 @@ D. Only change orientation after submission
 
 ---
 
-### Q4 (MAT-3.4, K2)
+### 🔷 Q4 (MAT-3.4, K2)
 
 Compatibility testing should cover:
 
@@ -46,7 +46,7 @@ D. Only emulators
 
 ---
 
-### Q5 (MAT-3.1, K2)
+### 🔷 Q5 (MAT-3.1, K2)
 
 Responsive design in mobile ensures:
 
@@ -57,7 +57,7 @@ D. Only landscape mode works
 
 ---
 
-### Q6 (MAT-3.2, K3)
+### 🔷 Q6 (MAT-3.2, K3)
 
 Testing pinch-to-zoom should verify:
 
@@ -68,7 +68,7 @@ D. Only with two specific fingers
 
 ---
 
-### Q7 (MAT-3.3, K2)
+### 🔷 Q7 (MAT-3.3, K2)
 
 App update testing should include:
 
@@ -79,7 +79,7 @@ D. Only screenshots
 
 ---
 
-### Q8 (MAT-3.4, K2)
+### 🔷 Q8 (MAT-3.4, K2)
 
 A push notification when the app is terminated should:
 
@@ -90,7 +90,7 @@ D. Only appear if the user is logged in
 
 ---
 
-### Q9 (MAT-3.1, K2)
+### 🔷 Q9 (MAT-3.1, K2)
 
 Text truncation on small screens is a:
 
@@ -101,7 +101,7 @@ D. Expected behavior for all apps
 
 ---
 
-### Q10 (MAT-3.2, K2)
+### 🔷 Q10 (MAT-3.2, K2)
 
 Long-press typically triggers:
 
@@ -112,7 +112,7 @@ D. Notification center
 
 ---
 
-### Q11 (MAT-3.3, K2)
+### 🔷 Q11 (MAT-3.3, K2)
 
 Deep linking with a standard HTTPS URL is called:
 
@@ -123,7 +123,7 @@ D. Only push notification
 
 ---
 
-### Q12 (MAT-3.4, K2)
+### 🔷 Q12 (MAT-3.4, K2)
 
 Gesture testing near screen edges is important because:
 
@@ -134,7 +134,7 @@ D. Only for games
 
 ---
 
-### Q13 (MAT-3.1, K2)
+### 🔷 Q13 (MAT-3.1, K2)
 
 Installation testing should verify:
 
@@ -145,7 +145,7 @@ D. Only app store rating
 
 ---
 
-### Q14 (MAT-3.2, K2)
+### 🔷 Q14 (MAT-3.2, K2)
 
 An app update that changes database schema must include:
 
@@ -156,7 +156,7 @@ D. Only bug fixes
 
 ---
 
-### Q15 (MAT-3.3, K2)
+### 🔷 Q15 (MAT-3.3, K2)
 
 Pull-to-refresh should be tested for:
 
@@ -167,7 +167,7 @@ D. Only on iOS
 
 ---
 
-### Q16 (MAT-3.4, K3)
+### 🔷 Q16 (MAT-3.4, K3)
 
 A navigation drawer (hamburger menu) is more common on:
 
@@ -178,7 +178,7 @@ D. Neither
 
 ---
 
-### Q17 (MAT-3.1, K2)
+### 🔷 Q17 (MAT-3.1, K2)
 
 When testing on a device with a notch/Dynamic Island:
 
@@ -189,7 +189,7 @@ D. Only test notifications
 
 ---
 
-### Q18 (MAT-3.2, K2)
+### 🔷 Q18 (MAT-3.2, K2)
 
 Accessibility alternatives to gestures include:
 
@@ -200,7 +200,7 @@ D. Only haptic feedback
 
 ---
 
-### Q19 (MAT-3.3, K2)
+### 🔷 Q19 (MAT-3.3, K2)
 
 Testing app behavior when push notifications are disabled should verify:
 
@@ -211,7 +211,7 @@ D. Only login functionality
 
 ---
 
-### Q20 (MAT-3.4, K2)
+### 🔷 Q20 (MAT-3.4, K2)
 
 A compatibility matrix helps:
 
@@ -222,84 +222,84 @@ D. Only manage inventory
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** Material Design minimum = 48 × 48 dp.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** Swipe = direction, velocity, distance, edge cases.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** Rotation = preserve data, adjust layout.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** Compatibility = range of devices, OS, sizes.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Responsive = adapts to screen sizes.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Pinch = in, out, limit, smoothness.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Updates = test migration from previous versions.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Terminated app = queued or wake on launch.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** Truncation = layout defect.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** Long-press = context menu/selection.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** HTTPS deep link = Universal/App Link.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Edge gestures may conflict with system.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Install = first launch, onboarding, permissions.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Schema change = migration script needed.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Pull-to-refresh = threshold, feedback, update.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Hamburger drawer = more common Android.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Notch = verify safe areas respected.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Accessibility = buttons for screen readers.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Disabled notifications = app functions normally.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** Matrix = systematic device/OS/feature coverage.

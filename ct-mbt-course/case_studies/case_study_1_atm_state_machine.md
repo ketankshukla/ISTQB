@@ -1,6 +1,6 @@
-# Case Study 1 — ATM State Machine
+# 📂 Case Study 1 — ATM State Machine
 
-## Context
+## ⭐ Context
 
 You are the Test Lead for BankSecure, developing a new ATM system. The team has decided to use model-based testing for the core transaction workflow.
 
@@ -9,7 +9,7 @@ You are the Test Lead for BankSecure, developing a new ATM system. The team has 
 **Team:** 3 testers, 2 developers, 1 business analyst
 **Timeline:** 6 months to release
 
-## The Model
+## 📐 The Model
 
 The team has created the following UML state machine for the ATM:
 
@@ -64,7 +64,7 @@ T29: S13 → S1 (event: card removed)
 
 ---
 
-## Task 1: Coverage Analysis
+## 📊 Task 1: Coverage Analysis
 
 **Question:** Calculate the minimum number of test cases needed for state coverage and transition coverage.
 
@@ -117,7 +117,7 @@ And so on... Transition coverage requires more careful path planning but is achi
 
 ---
 
-## Task 2: Selection Criteria Design
+## 🎨 Task 2: Selection Criteria Design
 
 **Question:** Design test selection criteria for different risk levels.
 
@@ -158,7 +158,7 @@ And so on... Transition coverage requires more careful path planning but is achi
 
 ---
 
-## Task 3: Concretization
+## ⭐ Task 3: Concretization
 
 **Question:** Create a concrete test case from an abstract test for withdrawal.
 
@@ -229,7 +229,7 @@ Postcondition: Card balance = $4,800; receipt printed
 
 ---
 
-## Task 4: Failure Analysis
+## 🔬 Task 4: Failure Analysis
 
 **Question:** A withdrawal test fails. The ATM shows "Processing..." indefinitely. Analyze possible causes.
 

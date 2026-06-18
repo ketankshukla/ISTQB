@@ -1,6 +1,6 @@
-# Case Study 1 — E-Commerce Platform Acceptance
+# 📂 Case Study 1 — E-Commerce Platform Acceptance
 
-## Context
+## ⭐ Context
 
 You are the Acceptance Test Lead for ShopMax, a retail company launching a new e-commerce platform to replace their 10-year-old legacy system.
 
@@ -22,7 +22,7 @@ You are the Acceptance Test Lead for ShopMax, a retail company launching a new e
 
 ---
 
-## Task 1: Acceptance Test Planning
+## 🗓️ Task 1: Acceptance Test Planning
 
 **Question:** Create an acceptance test plan for the e-commerce platform.
 
@@ -59,7 +59,7 @@ You are the Acceptance Test Lead for ShopMax, a retail company launching a new e
 
 ---
 
-## Task 2: User Stories and Acceptance Criteria
+## ✅ Task 2: User Stories and Acceptance Criteria
 
 **Question:** Write acceptance criteria for the checkout user story.
 
@@ -110,7 +110,7 @@ Feature: Checkout
 
 ---
 
-## Task 3: UAT Execution and Defect Management
+## 🐞 Task 3: UAT Execution and Defect Management
 
 **Question:** During UAT, the following issues are found. Classify, prioritize, and plan resolution.
 
@@ -132,7 +132,7 @@ Feature: Checkout
 
 ---
 
-## Task 4: Go-Live Decision
+## 🗂️ Task 4: Go-Live Decision
 
 **Question:** Evaluate readiness for go-live based on the following data.
 

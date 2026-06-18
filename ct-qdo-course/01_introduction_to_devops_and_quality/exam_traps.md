@@ -1,6 +1,6 @@
-# Chapter 1 — Introduction to DevOps and Quality: Exam Traps
+# 🪤 Chapter 1 — Introduction to DevOps and Quality: Exam Traps
 
-## Trap 1: Thinking DevOps is Only About Tools
+## 🪤 Trap 1: Thinking DevOps is Only About Tools
 
 **Trap:** DevOps is primarily a cultural movement. Tools enable it, but culture (CALMS) is foundational.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Confusing CI with CD
+## 🪤 Trap 2: Confusing CI with CD
 
 **Trap:** Continuous Integration = build and test. Continuous Delivery/Deployment = release to production. Different concepts.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Thinking DevOps Eliminates Testing
+## 🪤 Trap 3: Thinking DevOps Eliminates Testing
 
 **Trap:** DevOps shifts testing left and automates it, but does not eliminate the need for quality assurance.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Confusing Shift-Left with Shift-Right
+## 🪤 Trap 4: Confusing Shift-Left with Shift-Right
 
 **Trap:** Shift-left = testing earlier in lifecycle. Shift-right = testing and monitoring in production.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Ignoring the Three Ways
+## 🪤 Trap 5: Ignoring the Three Ways
 
 **Trap:** The Three Ways (Flow, Feedback, Learning) are core to DevOps. Each has specific testing implications.
 

@@ -1,6 +1,6 @@
-# Chapter 6 — Mobile Testing Tools and Environment: Exam Traps
+# 🪤 Chapter 6 — Mobile Testing Tools and Environment: Exam Traps
 
-## Trap 1: Thinking Device Farms Replace All Real Devices
+## 🪤 Trap 1: Thinking Device Farms Replace All Real Devices
 
 **Trap:** Device farms provide access but may have queueing delays and limited hardware features. Own key devices for debugging.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Confusing TestFlight Internal and External Testing
+## 🪤 Trap 2: Confusing TestFlight Internal and External Testing
 
 **Trap:** Internal = team members (up to 100). External = public beta (up to 10,000). Different purposes and review requirements.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Ignoring Production Performance Data
+## 🪤 Trap 3: Ignoring Production Performance Data
 
 **Trap:** Xcode Organizer and Android Vitals provide real production performance. Ignoring them misses real-world issues.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Using ADB Only for Installation
+## 🪤 Trap 4: Using ADB Only for Installation
 
 **Trap:** ADB is powerful for logs, screenshots, input simulation, and system inspection. Underutilizing it limits debugging.
 
@@ -64,7 +64,7 @@ D. Only missing network data
 
 ---
 
-## Trap 5: Treating Beta Testing as Optional
+## 🪤 Trap 5: Treating Beta Testing as Optional
 
 **Trap:** Beta testing catches real-world issues (network, devices, user behavior) that lab testing misses.
 

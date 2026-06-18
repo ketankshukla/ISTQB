@@ -1,6 +1,6 @@
-# CTAL-TM Exam Strategy
+# ♟️ CTAL-TM Exam Strategy
 
-## Exam Format
+## 🎓 Exam Format
 
 - **65 multiple-choice questions** in 180 minutes
 - **65% pass mark** (42 correct answers)
@@ -9,7 +9,7 @@
 
 ---
 
-## Chapter Weighting (Estimated)
+## 🔢 Chapter Weighting (Estimated)
 
 | Chapter | Topic | Estimated Weight | Questions |
 |---------|-------|-----------------|-----------|
@@ -23,7 +23,7 @@
 
 ---
 
-## K-Level Question Patterns
+## ❓ K-Level Question Patterns
 
 | K-Level | What It Tests | Question Style | Example |
 |---------|--------------|----------------|---------|
@@ -38,7 +38,7 @@
 
 ---
 
-## Time Budgeting
+## ⭐ Time Budgeting
 
 | Section | Time | Action |
 |---------|------|--------|
@@ -51,28 +51,28 @@
 
 ---
 
-## Chapter-Specific Tactics
+## 🎓 Chapter-Specific Tactics
 
-### Chapter 1 — Testing Process
+### 🔷 Chapter 1 — Testing Process
 
 - **K2 trap:** Know the difference between test planning, monitoring, and control activities
 - **K3 trap:** Be able to select appropriate test monitoring metrics for a given situation
 - **Tactic:** Focus on what activities occur in each phase and who performs them
 
-### Chapter 2 — Test Management
+### 🗂️ Chapter 2 — Test Management
 
 - **K3 trap:** Estimation techniques (bottom-up, top-down, Wideband Delphi) — know when to use each
 - **K4 trap:** Risk-based testing prioritization — be able to calculate risk priority
 - **K3 trap:** Test organization structures (independent vs. integrated) — know pros and cons
 - **Tactic:** Practice the estimation and risk calculation examples until you can do them without looking
 
-### Chapter 3 — Reviews
+### 🔎 Chapter 3 — Reviews
 
 - **K2 trap:** Know the difference between informal reviews, walkthroughs, technical reviews, and inspections
 - **K3 trap:** The test manager's role in planning and managing reviews
 - **Tactic:** Focus on the review process stages and the test manager's responsibilities
 
-### Chapter 4 — Test Tools and Automation
+### 🛠️ Chapter 4 — Test Tools and Automation
 
 - **K2 trap:** Tool categories and selection criteria
 - **K3 trap:** ROI calculation for test tools and automation
@@ -81,7 +81,7 @@
 
 ---
 
-## Common Distractor Patterns
+## ⭐ Common Distractor Patterns
 
 1. **Confusing test monitoring with test control** — Monitoring collects information; control takes corrective action based on that information
 2. **Confusing bottom-up and top-down estimation** — Bottom-up = sum of component estimates; top-down = allocate overall estimate to components
@@ -92,7 +92,7 @@
 
 ---
 
-## Day-Before Checklist
+## 📋 Day-Before Checklist
 
 - [ ] Review all `exam_traps.md` files (45 min)
 - [ ] Skim `GLOSSARY.md` for forgotten terms (20 min)
@@ -103,7 +103,7 @@
 
 ---
 
-## During the Exam
+## 🎓 During the Exam
 
 1. **Read the scenario first** — For scenario questions, read the situation before reading the question
 2. **Identify the question type** — K2 (fact), K3 (apply), or K4 (analyze) — this tells you how deeply to think

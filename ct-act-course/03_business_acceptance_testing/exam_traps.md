@@ -1,6 +1,6 @@
-# Chapter 3 — Business Acceptance Testing: Exam Traps
+# 🪤 Chapter 3 — Business Acceptance Testing: Exam Traps
 
-## Trap 1: Confusing Acceptance Criteria with Test Cases
+## 🪤 Trap 1: Confusing Acceptance Criteria with Test Cases
 
 **Trap:** Acceptance criteria define WHAT should happen (business rules). Test cases define HOW to verify (specific steps and data).
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Thinking UAT Can Use Development Data
+## 🪤 Trap 2: Thinking UAT Can Use Development Data
 
 **Trap:** UAT needs realistic, production-like data. Development/test data often lacks the complexity and volume of real data.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Confusing ATDD with Traditional Testing
+## 🪤 Trap 3: Confusing ATDD with Traditional Testing
 
 **Trap:** ATDD defines acceptance tests BEFORE development. Traditional approaches write tests after or during development.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Ignoring the Three Amigos
+## 🪤 Trap 4: Ignoring the Three Amigos
 
 **Trap:** BDD/ATDD requires collaboration between business, development, and testing. One person writing criteria alone misses perspectives.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Thinking Sign-off Means Perfect
+## 🪤 Trap 5: Thinking Sign-off Means Perfect
 
 **Trap:** Sign-off can happen with known issues if business accepts the risk. Perfection is not required.
 

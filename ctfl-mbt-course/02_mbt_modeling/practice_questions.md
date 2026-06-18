@@ -1,8 +1,8 @@
-# Chapter 2 — MBT Modeling: Practice Questions
+# ❓ Chapter 2 — MBT Modeling: Practice Questions
 
 ---
 
-### Q1 (MBT-2.1, K2)
+### 🔷 Q1 (MBT-2.1, K2)
 
 In a state machine, a transition is triggered by:
 
@@ -13,7 +13,7 @@ D. A guard condition
 
 ---
 
-### Q2 (MBT-2.1, K3)
+### 🔷 Q2 (MBT-2.1, K3)
 
 A state machine has 5 states and 7 transitions. What is the minimum number of test cases needed for 0-switch coverage (state coverage)?
 
@@ -24,7 +24,7 @@ D. 12
 
 ---
 
-### Q3 (MBT-2.1, K2)
+### 🔷 Q3 (MBT-2.1, K2)
 
 A guard condition in a state machine:
 
@@ -35,7 +35,7 @@ D. Is the starting state of the machine
 
 ---
 
-### Q4 (MBT-2.2, K2)
+### 🔷 Q4 (MBT-2.2, K2)
 
 A decision table has 4 binary conditions. How many rules are in the full table before removing impossible rules?
 
@@ -46,7 +46,7 @@ D. 20
 
 ---
 
-### Q5 (MBT-2.2, K3)
+### 🔷 Q5 (MBT-2.2, K3)
 
 In a decision table, two rules have identical conditions and identical actions. These rules are:
 
@@ -57,7 +57,7 @@ D. Boundary rules
 
 ---
 
-### Q6 (MBT-2.1, K3)
+### 🔷 Q6 (MBT-2.1, K3)
 
 Which model type is MOST appropriate for testing a system with complex state-dependent behavior?
 
@@ -68,7 +68,7 @@ D. Entity-relationship diagram
 
 ---
 
-### Q7 (MBT-2.2, K2)
+### 🔷 Q7 (MBT-2.2, K2)
 
 In a decision table, "Order total > $100" is:
 
@@ -79,7 +79,7 @@ D. An event
 
 ---
 
-### Q8 (MBT-2.1, K2)
+### 🔷 Q8 (MBT-2.1, K2)
 
 An action in a state machine is:
 
@@ -90,7 +90,7 @@ D. The starting point of the machine
 
 ---
 
-### Q9 (MBT-2.2, K3)
+### 🔷 Q9 (MBT-2.2, K3)
 
 A decision table has conditions: A (2 values), B (3 values), C (2 values). After analysis, 2 rules are identified as impossible. How many valid test cases are needed?
 
@@ -101,7 +101,7 @@ D. 6
 
 ---
 
-### Q10 (MBT-2.3, K2)
+### 🔷 Q10 (MBT-2.3, K2)
 
 Which specification is BEST suited for modeling with a decision table?
 
@@ -112,7 +112,7 @@ D. "Data flows from input to processing to output"
 
 ---
 
-### Q11 (MBT-2.1, K3)
+### 🔷 Q11 (MBT-2.1, K3)
 
 For 1-switch coverage (transition coverage) in a state machine, the minimum number of test cases must cover:
 
@@ -123,7 +123,7 @@ D. Every possible path
 
 ---
 
-### Q12 (MBT-2.4, K2)
+### 🔷 Q12 (MBT-2.4, K2)
 
 Model validation is important because:
 
@@ -134,7 +134,7 @@ D. It makes the model more complex
 
 ---
 
-### Q13 (MBT-2.2, K2)
+### 🔷 Q13 (MBT-2.2, K2)
 
 A "don't care" condition in a decision table means:
 
@@ -145,7 +145,7 @@ D. The condition is impossible
 
 ---
 
-### Q14 (MBT-2.1, K2)
+### 🔷 Q14 (MBT-2.1, K2)
 
 A state machine diagram is being created for a login system. Which element represents "User enters password"?
 
@@ -156,7 +156,7 @@ D. An action
 
 ---
 
-### Q15 (MBT-2.3, K2)
+### 🔷 Q15 (MBT-2.3, K2)
 
 A use case model is MOST appropriate for:
 
@@ -167,7 +167,7 @@ D. Testing data transformations
 
 ---
 
-### Q16 (MBT-2.1, K3)
+### 🔷 Q16 (MBT-2.1, K3)
 
 A state machine has states: Idle, Active, Suspended, Terminated. Which is the event and which is the guard in: "Timeout occurs after 30 minutes of inactivity → transition from Active to Suspended"?
 
@@ -178,7 +178,7 @@ D. Event: Inactivity; Guard: Timeout
 
 ---
 
-### Q17 (MBT-2.2, K3)
+### 🔷 Q17 (MBT-2.2, K3)
 
 A decision table for loan approval has: Credit Score (High/Medium/Low), Income (Sufficient/Insufficient), Existing Debt (Yes/No). How many rules are in the full table?
 
@@ -189,7 +189,7 @@ D. 18
 
 ---
 
-### Q18 (MBT-2.1, K2)
+### 🔷 Q18 (MBT-2.1, K2)
 
 An entry action in a state machine is performed:
 
@@ -200,7 +200,7 @@ D. Only at system startup
 
 ---
 
-### Q19 (MBT-2.2, K2)
+### 🔷 Q19 (MBT-2.2, K2)
 
 Which of the following is NOT a component of a decision table?
 
@@ -211,7 +211,7 @@ D. Transition
 
 ---
 
-### Q20 (MBT-2.4, K2)
+### 🔷 Q20 (MBT-2.4, K2)
 
 When validating a state machine model, the MOST important check is:
 
@@ -222,104 +222,104 @@ D. That the model generates the maximum number of tests
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** Events trigger transitions in state machines.
 
-### Q2
+### 🔷 Q2
 **Answer: A**
 
 **Rationale:** 0-switch coverage requires visiting every state at least once. Minimum = number of states = 5.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** Guard conditions must be true for a transition to be enabled.
 
-### Q4
+### 🔷 Q4
 **Answer: C**
 
 **Rationale:** For n binary conditions, rules = 2^n. For 4 conditions: 2^4 = 16.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** Identical conditions and actions = redundant rules. They can be merged.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** State-dependent behavior is best modeled with state machines.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** "Order total > $100" is a condition, not an action.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** Actions are behaviors performed when entering, leaving, or transitioning between states.
 
-### Q9
+### 🔷 Q9
 **Answer: A**
 
 **Rationale:** Full table: 2 × 3 × 2 = 12 rules. After removing 2 impossible: 12 - 2 = 10 valid test cases.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** Business rules with multiple interacting conditions are best modeled with decision tables.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 
 **Rationale:** 1-switch coverage = every transition exercised at least once.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** Model quality directly impacts test quality. A bad model generates bad tests.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** "Don't care" means the condition's value doesn't affect the action for that rule.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** "User enters password" is an event that triggers a transition.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** Use cases model user interactions with the system.
 
-### Q16
+### 🔷 Q16
 **Answer: A**
 
 **Rationale:** Event is "Timeout"; guard is "30 minutes of inactivity".
 
-### Q17
+### 🔷 Q17
 **Answer: C**
 
 **Rationale:** Rules = 3 × 2 × 2 = 12. Multiply the values of each condition.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 
 **Rationale:** Entry actions are performed when entering a state.
 
-### Q19
+### 🔷 Q19
 **Answer: D**
 
 **Rationale:** Transition is a state machine component, not a decision table component.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 
 **Rationale:** The model must accurately reflect the real system's behavior to generate valid tests.

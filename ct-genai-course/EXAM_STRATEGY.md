@@ -1,6 +1,6 @@
-# CT-GenAI v1.1 Exam Strategy
+# ♟️ CT-GenAI v1.1 Exam Strategy
 
-## Exam Format at a Glance
+## 🎓 Exam Format at a Glance
 
 | Parameter | Value |
 |-----------|-------|
@@ -13,7 +13,7 @@
 
 ---
 
-## Chapter Weighting (approximate)
+## ⭐ Chapter Weighting (approximate)
 
 | Chapter | Focus | Estimated Weight |
 |---------|-------|------------------|
@@ -27,21 +27,21 @@
 
 ---
 
-## K-Level Question Patterns
+## ❓ K-Level Question Patterns
 
-### K1 (Remember)
+### 🔷 K1 (Remember)
 
 - Tests recall of facts, definitions, and lists
 - Pattern: "Which of the following is a characteristic of...?" or "What is the definition of X?"
 - Strategy: Pure memorization. Use mnemonics and flashcards for terms like "hallucination," "RAG," "fine-tuning," "zero-shot prompting."
 
-### K2 (Understand)
+### 🔷 K2 (Understand)
 
 - Tests comprehension and the ability to explain, classify, compare, or give examples
 - Pattern: "Which statement BEST describes..." or "What is the MAIN difference between X and Y?"
 - Strategy: Focus on distinctions (e.g., zero-shot vs few-shot prompting, fine-tuning vs RAG, discriminative vs generative models). Know why things matter, not just what they are.
 
-### K3 (Apply)
+### 🔷 K3 (Apply)
 
 - Tests the ability to use a technique or procedure in a given scenario
 - Pattern: Provides a testing scenario and asks you to select the best prompt, identify the risk, or recommend an architecture
@@ -49,7 +49,7 @@
 
 ---
 
-## Time Budgeting
+## ⭐ Time Budgeting
 
 - **Available:** 60 minutes for 40 questions = 90 seconds per question
 - **K1/K2 questions:** Aim for 45-60 seconds each. These are read-and-recognize.
@@ -59,7 +59,7 @@
 
 ---
 
-## Distractor Patterns Common in CT-GenAI
+## 🤖 Distractor Patterns Common in CT-GenAI
 
 1. **Overstating GenAI capabilities.** Answers that claim GenAI can "guarantee" test coverage, "eliminate" human testers, or "fully replace" manual test design are almost always wrong.
 
@@ -73,26 +73,26 @@
 
 ---
 
-## Specific Tactics
+## 🎓 Specific Tactics
 
-### For Prompt Engineering Questions
+### ❓ For Prompt Engineering Questions
 - If asked which prompt technique is best, look for answers that include **context, constraints, and expected output format**.
 - Chain-of-thought is appropriate for reasoning tasks; few-shot is appropriate when examples help clarify the pattern.
 - "Evaluate and refine" is the standard iterative cycle — single-shot without review is usually wrong.
 
-### For Risk Management Questions
+### ❓ For Risk Management Questions
 - Privacy risks are mitigated by **anonymization, data minimization, on-premise deployment, and contractual controls** — not by "trusting the vendor."
 - Bias is addressed by **diverse training data, fairness metrics, and human review** — not by simply "using a better model."
 - Regulatory compliance (EU AI Act, etc.) requires **documentation, transparency, and risk classification** — not just "following best practices."
 
-### For Architecture Questions
+### ❓ For Architecture Questions
 - RAG is preferred when the knowledge base changes frequently or must remain private.
 - Fine-tuning is preferred when the model needs specialized behavior or tone on a stable domain.
 - LLMOps covers the full lifecycle: data management, model training, evaluation, deployment, monitoring, and governance.
 
 ---
 
-## Day-Before Checklist
+## 📋 Day-Before Checklist
 
 - [ ] Review all `exam_traps.md` files (one per chapter)
 - [ ] Skim `GLOSSARY.md` for any terms you still hesitate on
@@ -100,7 +100,7 @@
 - [ ] Do 10 quick K1 questions to build confidence
 - [ ] Sleep 7+ hours
 
-## Exam Day
+## 🎓 Exam Day
 
 - Arrive 15 minutes early (or launch the online exam platform early)
 - Bring only required ID; no notes, no phone
@@ -110,7 +110,7 @@
 
 ---
 
-## Expanded Chapter-Specific Tactics
+## 🎓 Expanded Chapter-Specific Tactics
 
 **Chapter 1 — Introduction to GenAI (~15-20%, ~6-8 questions)**
 - Focus on discriminative vs. generative distinction — this appears in 2-3 questions per exam
@@ -171,7 +171,7 @@
 
 ---
 
-## Advanced Time Management
+## 🗂️ Advanced Time Management
 
 **The 40-Question Math:**
 - 40 questions × 1.5 minutes average = 60 minutes exactly
@@ -197,7 +197,7 @@
 
 ---
 
-## Day-Before Preparation (Expanded)
+## ⭐ Day-Before Preparation (Expanded)
 
 **The Day Before the Exam:**
 - [ ] Review all exam_traps.md files (one per chapter) — focus on the most common traps (1 hour)

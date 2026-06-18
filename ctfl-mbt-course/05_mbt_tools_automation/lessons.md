@@ -1,10 +1,10 @@
-# Chapter 5 — MBT Tools and Automation: Lessons
+# 📘 Chapter 5 — MBT Tools and Automation: Lessons
 
 ---
 
-## 5.1 MBT Tool Categories
+## 🛠️ 5.1 MBT Tool Categories
 
-### 1. Model Editors
+### 📐 1. Model Editors
 
 **Purpose:** Create, edit, and visualize models.
 
@@ -19,7 +19,7 @@
 - **Specialized MBT tools:** GraphWalker, TestCast, Conformiq
 - **Open source:** PlantUML, Graphviz
 
-### 2. Test Generators
+### 🔷 2. Test Generators
 
 **Purpose:** Automatically generate test cases from models based on selection criteria.
 
@@ -34,7 +34,7 @@
 - **Conformiq:** Commercial MBT tool with test generation
 - **TestCast:** Model-based test generation
 
-### 3. Test Execution Frameworks
+### 🔷 3. Test Execution Frameworks
 
 **Purpose:** Execute generated tests and record results.
 
@@ -49,7 +49,7 @@
 - Custom execution engines provided by MBT tools
 - CI/CD pipeline integration (Jenkins, GitLab CI)
 
-### 4. Coverage Analyzers
+### 📊 4. Coverage Analyzers
 
 **Purpose:** Measure and report coverage achieved by generated tests.
 
@@ -60,7 +60,7 @@
 - Coverage trend analysis
 - Gap identification (uncovered elements)
 
-### 5. Traceability Tools
+### 🛠️ 5. Traceability Tools
 
 **Purpose:** Link requirements to model elements to generated tests.
 
@@ -72,9 +72,9 @@
 
 ---
 
-## 5.2 Tool Selection Criteria
+## ✅ 5.2 Tool Selection Criteria
 
-### Key Selection Factors
+### 🔷 Key Selection Factors
 
 **1. Model Notation Support**
 - Does the tool support the model types you need? (state machines, decision tables, process models)
@@ -107,7 +107,7 @@
 - Training costs
 - Infrastructure requirements
 
-### Selection Process
+### 🔷 Selection Process
 
 1. **Identify Requirements:** What model types, coverage criteria, and integrations do you need?
 2. **Shortlist Tools:** Research 3-5 tools that meet basic requirements
@@ -118,9 +118,9 @@
 
 ---
 
-## 5.3 Integration with CI/CD and Test Management
+## 🗂️ 5.3 Integration with CI/CD and Test Management
 
-### CI/CD Integration
+### 🔗 CI/CD Integration
 
 **Benefits:**
 - Automatically generate tests when models change
@@ -134,7 +134,7 @@
 - Publish coverage reports as build artifacts
 - Fail builds if coverage drops below threshold
 
-### Test Management Integration
+### 🗂️ Test Management Integration
 
 **Benefits:**
 - Store generated tests in test management tool
@@ -144,7 +144,7 @@
 
 ---
 
-## 5.4 Tool Limitations
+## 🛠️ 5.4 Tool Limitations
 
 **1. Learning Curve:**
 - MBT tools require training in both the tool and modeling concepts
@@ -166,7 +166,7 @@
 - Commercial MBT tools can be expensive
 - Open-source tools may lack support or features
 
-### When Manual MBT May Be Preferable
+### 🔷 When Manual MBT May Be Preferable
 
 - Small projects where tool setup is not cost-effective
 - Teams with strong modeling skills but limited tool budget
@@ -175,7 +175,7 @@
 
 ---
 
-## Worked Example: Tool Selection
+## 💡 Worked Example: Tool Selection
 
 **Scenario:** A team of 8 testers wants to adopt MBT for testing a state-dependent payment processing system.
 

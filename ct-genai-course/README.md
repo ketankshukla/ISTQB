@@ -1,10 +1,10 @@
-# ISTQB CT-GenAI v1.1 — Complete Self-Study Course
+# 📚 ISTQB CT-GenAI v1.1 — Complete Self-Study Course
 
-## Overview
+## 🌟 Overview
 
 This course provides comprehensive preparation for the ISTQB Certified Tester — Testing with Generative AI (CT-GenAI) v1.1 examination. It is designed for testers, test managers, and software professionals who want to effectively apply Large Language Models (LLMs) and Generative AI techniques across the entire testing lifecycle.
 
-## Exam Facts
+## 🎓 Exam Facts
 
 | Item | Detail |
 |------|--------|
@@ -16,7 +16,7 @@ This course provides comprehensive preparation for the ISTQB Certified Tester �
 | Chapters | 5 |
 | Prerequisite | ISTQB CTFL v4.0 (or earlier) |
 
-## Course Structure
+## ⭐ Course Structure
 
 ```
 ct-genai-course/
@@ -34,7 +34,7 @@ ct-genai-course/
   mock_exams/                            3 full-length 40-question mock exams + answer keys
 ```
 
-## How to Use This Course
+## ⭐ How to Use This Course
 
 1. **Read the STUDY_PLAN.md** to understand the recommended schedule and sequence.
 2. **Work through chapters 1-5 in order.** Each chapter folder contains:
@@ -46,7 +46,7 @@ ct-genai-course/
 4. **Take mock exams** under timed conditions (60 minutes, no notes).
 5. **Review EXAM_STRATEGY.md** the day before your exam.
 
-## Target Audience
+## ⭐ Target Audience
 
 - Testers, test analysts, and test automation engineers seeking to leverage GenAI
 - Test managers defining AI-assisted testing strategies
@@ -54,7 +54,7 @@ ct-genai-course/
 - Quality managers and project managers overseeing AI adoption
 - Anyone targeting a high score (90%+) on the CT-GenAI v1.1 exam
 
-## Key Principles
+## 📜 Key Principles
 
 - Every learning objective (LO) from the CT-GenAI v1.1 syllabus is covered
 - K-levels (K1/K2/K3) are shown for each objective so you know the expected depth

@@ -1,4 +1,4 @@
-# Mock Exam 3 — Answer Key
+# 📝 Mock Exam 3 — Answer Key
 
 | Q | Answer | Rationale |
 |---|--------|-----------|
@@ -43,7 +43,7 @@
 | 39 | B | SpecFlow = .NET BDD tool |
 | 40 | B | Service virtualization = simulate dependencies |
 
-## Score Interpretation
+## ⭐ Score Interpretation
 
 | Score | Interpretation |
 |-------|-------------|

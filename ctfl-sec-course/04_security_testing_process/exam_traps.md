@@ -1,6 +1,6 @@
-# Chapter 4 — Security Testing Process: Exam Traps
+# 🪤 Chapter 4 — Security Testing Process: Exam Traps
 
-## Trap 1: Security Testing Needs No Planning
+## 🪤 Trap 1: Security Testing Needs No Planning
 
 **Trap:** Security testing requires formal planning with scope, objectives, and constraints.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: All Findings are Critical
+## 🪤 Trap 2: All Findings are Critical
 
 **Trap:** Findings must be risk-assessed; not everything is critical.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Security Reports Only List Vulnerabilities
+## 🪤 Trap 3: Security Reports Only List Vulnerabilities
 
 **Trap:** Reports need evidence, risk ratings, and remediation steps.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Security Testing is Separate from Main Test Process
+## 🪤 Trap 4: Security Testing is Separate from Main Test Process
 
 **Trap:** Security testing should be integrated throughout the test lifecycle.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: CVSS Score is the Only Risk Measure
+## 🪤 Trap 5: CVSS Score is the Only Risk Measure
 
 **Trap:** CVSS provides a base score; environmental factors also matter.
 

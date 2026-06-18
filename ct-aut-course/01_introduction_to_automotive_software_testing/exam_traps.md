@@ -1,6 +1,6 @@
-# Chapter 1 — Introduction to Automotive Software Testing: Exam Traps
+# 🪤 Chapter 1 — Introduction to Automotive Software Testing: Exam Traps
 
-## Trap 1: Treating Automotive Software Like Enterprise Software
+## 🪤 Trap 1: Treating Automotive Software Like Enterprise Software
 
 **Trap:** Automotive software has real-time, safety, and long-lifecycle requirements that enterprise software doesn't.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Thinking All Vehicle Networks are the Same
+## 🪤 Trap 2: Thinking All Vehicle Networks are the Same
 
 **Trap:** CAN, LIN, FlexRay, and Ethernet have different speeds, topologies, and use cases.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Confusing the V-Model with Waterfall
+## 🪤 Trap 3: Confusing the V-Model with Waterfall
 
 **Trap:** The V-Model is a framework showing test/development correspondence, not necessarily a rigid sequential process.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Ignoring Traceability
+## 🪤 Trap 4: Ignoring Traceability
 
 **Trap:** Without traceability, you can't prove coverage or manage changes in safety-critical systems.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Assuming All ECUs are Equally Critical
+## 🪤 Trap 5: Assuming All ECUs are Equally Critical
 
 **Trap:** Body control (windows, seats) has different safety requirements than brake or steering control.
 

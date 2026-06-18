@@ -1,10 +1,10 @@
-# Chapter 4 — Automotive Testing Techniques: Lessons
+# 📘 Chapter 4 — Automotive Testing Techniques: Lessons
 
 ---
 
-## 4.1 Dynamic Testing Techniques
+## 🎯 4.1 Dynamic Testing Techniques
 
-### Equivalence Partitioning
+### ➗ Equivalence Partitioning
 
 | Input Range | Partition | Test Value |
 |-------------|-----------|------------|
@@ -12,14 +12,14 @@
 | Speed > 120 km/h | Invalid | 150 |
 | Speed < 0 | Invalid | -10 |
 
-### Boundary Value Analysis
+### 📏 Boundary Value Analysis
 
 | Boundary | Test Value |
 |----------|------------|
 | 0 | 0, 1, -1 |
 | 120 | 120, 121, 119 |
 
-### State Transition Testing
+### 🔄 State Transition Testing
 
 | State | Event | Next State | Action |
 |-------|-------|------------|--------|
@@ -29,23 +29,23 @@
 
 ---
 
-## 4.2 Code Coverage
+## 📊 4.2 Code Coverage
 
-### Statement Coverage
+### 📊 Statement Coverage
 
 | Definition | Every executable statement executed at least once |
 |------------|---------------------------------------------------|
 | **Strength** | Basic, easy to achieve |
 | **Weakness** | Misses missing branches |
 
-### Branch Coverage
+### 📊 Branch Coverage
 
 | Definition | Every decision branch (true/false) executed |
 |------------|---------------------------------------------|
 | **Strength** | Tests both outcomes of decisions |
 | **Weakness** | Misses compound conditions |
 
-### MC/DC (Modified Condition/Decision Coverage)
+### 📊 MC/DC (Modified Condition/Decision Coverage)
 
 | Definition | Each condition independently affects decision outcome |
 |------------|------------------------------------------------------|
@@ -53,7 +53,7 @@
 | **Strength** | Thorough testing of compound conditions |
 | **Weakness** | Requires many test cases |
 
-### Coverage Requirements by ASIL
+### 📊 Coverage Requirements by ASIL
 
 | ASIL | Statement | Branch | MC/DC |
 |------|-----------|--------|-------|
@@ -65,13 +65,13 @@
 
 ---
 
-## 4.3 Fault Injection Testing
+## ⭐ 4.3 Fault Injection Testing
 
-### Definition
+### 🔷 Definition
 
 Deliberately introducing faults to test error handling and robustness.
 
-### Types
+### 🧪 Types
 
 | Type | Fault | Purpose |
 |------|-------|---------|
@@ -80,7 +80,7 @@ Deliberately introducing faults to test error handling and robustness.
 | **Communication** | Corrupt messages | Test protocol robustness |
 | **Environment** | Extreme temperatures | Test operating limits |
 
-### Example
+### 💡 Example
 
 | Fault Injected | Expected Response |
 |----------------|---------------------|
@@ -90,13 +90,13 @@ Deliberately introducing faults to test error handling and robustness.
 
 ---
 
-## 4.4 Back-to-Back Testing
+## ⭐ 4.4 Back-to-Back Testing
 
-### Definition
+### 🔷 Definition
 
 Comparing outputs from different implementations or environments for the same inputs.
 
-### Scenarios
+### 🎬 Scenarios
 
 | Reference | Test Subject | Purpose |
 |-----------|-------------|---------|
@@ -106,13 +106,13 @@ Comparing outputs from different implementations or environments for the same in
 
 ---
 
-## 4.5 Regression Testing
+## ⭐ 4.5 Regression Testing
 
-### Purpose
+### 🔷 Purpose
 
 Ensure changes do not break existing functionality.
 
-### Automotive Considerations
+### 🔷 Automotive Considerations
 
 | Aspect | Consideration |
 |--------|-------------|
@@ -123,9 +123,9 @@ Ensure changes do not break existing functionality.
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: MC/DC Test Cases
+### 💡 Worked Example 1: MC/DC Test Cases
 
 | Condition A | Condition B | Decision | Test Case |
 |-------------|-------------|----------|-----------|
@@ -135,7 +135,7 @@ Ensure changes do not break existing functionality.
 
 Each condition independently affects the outcome.
 
-### Worked Example 2: Fault Injection Scenario
+### 💡 Worked Example 2: Fault Injection Scenario
 
 | Fault | System Response | Assessment |
 |-------|-----------------|------------|
@@ -143,7 +143,7 @@ Each condition independently affects the outcome.
 | CAN bus off | Enter limp mode | PASS |
 | Power fluctuation | Reset and reinitialize | PASS |
 
-### Worked Example 3: Back-to-Back Comparison
+### 💡 Worked Example 3: Back-to-Back Comparison
 
 | Input | MIL Output | SIL Output | Match |
 |-------|------------|------------|-------|

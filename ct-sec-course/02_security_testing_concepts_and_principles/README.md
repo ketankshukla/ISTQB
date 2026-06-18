@@ -1,6 +1,6 @@
-# Chapter 2 — Security Testing Concepts and Principles
+# 📜 Chapter 2 — Security Testing Concepts and Principles
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~15% (~6 questions out of 40)
 - **K-levels:** K2 (understand), K3 (apply)
@@ -8,7 +8,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -20,7 +20,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts
+## ⭐ Key Concepts
 
 - Defense in depth
 - Least privilege, separation of duties

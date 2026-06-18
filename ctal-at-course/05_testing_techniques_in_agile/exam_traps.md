@@ -1,6 +1,6 @@
-# Chapter 5 — Testing Techniques in Agile: Exam Traps
+# 🪤 Chapter 5 — Testing Techniques in Agile: Exam Traps
 
-## Trap 1: Thinking Exploratory Testing Is Random or Unstructured
+## 🪤 Trap 1: Thinking Exploratory Testing Is Random or Unstructured
 
 **Trap:** Exploratory testing is not random clicking. It is a skilled, structured approach where the tester simultaneously designs and executes tests based on learning.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Confusing SBTM with Unmanaged Exploratory Testing
+## 🪤 Trap 2: Confusing SBTM with Unmanaged Exploratory Testing
 
 **Trap:** SBTM adds structure (charters, time boxes, debriefs) to exploratory testing. It is not the same as ad-hoc testing.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Thinking Pairwise Testing Finds All Defects
+## 🪤 Trap 3: Thinking Pairwise Testing Finds All Defects
 
 **Trap:** Pairwise testing covers all pairs but not all combinations. It assumes most defects are caused by pairs, not higher-order interactions. It is not appropriate for safety-critical systems.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Thinking Non-Functional Testing Doesn't Fit in Agile
+## 🪤 Trap 4: Thinking Non-Functional Testing Doesn't Fit in Agile
 
 **Trap:** Non-functional testing (performance, security) must be integrated into agile, not deferred to the end. Performance smoke tests in CI, security scans on every build, and sprint-level checks are essential.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Confusing Q1-Q4 Quadrants
+## 🪤 Trap 5: Confusing Q1-Q4 Quadrants
 
 **Trap:** Q1/Q2 are business-facing. Q3/Q4 are technology-facing. Q1/Q4 support programming. Q2/Q3 critique the product.
 

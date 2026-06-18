@@ -1,6 +1,6 @@
-# Chapter 5 — Security Test Execution and Evaluation
+# 🔒 Chapter 5 — Security Test Execution and Evaluation
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~15% (~6 questions out of 40)
 - **K-levels:** K2 (understand), K3 (apply)
@@ -8,7 +8,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -21,7 +21,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts
+## ⭐ Key Concepts
 
 - CVSS v3.1 base, temporal, environmental metrics
 - Vulnerability prioritization

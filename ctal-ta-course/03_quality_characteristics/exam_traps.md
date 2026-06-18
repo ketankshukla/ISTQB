@@ -1,6 +1,6 @@
-# Chapter 3 — Quality Characteristics: Exam Traps
+# 🪤 Chapter 3 — Quality Characteristics: Exam Traps
 
-## Trap 1: Confusing Accuracy with Suitability
+## 🪤 Trap 1: Confusing Accuracy with Suitability
 
 **Trap:** Accuracy tests whether results are CORRECT. Suitability tests whether all needed FUNCTIONS are present.
 
@@ -22,7 +22,7 @@
 
 ---
 
-## Trap 2: Confusing Confidentiality with Integrity
+## 🪤 Trap 2: Confusing Confidentiality with Integrity
 
 **Trap:** Confidentiality means data is not seen by unauthorized users. Integrity means data is not modified by unauthorized users.
 
@@ -44,7 +44,7 @@
 
 ---
 
-## Trap 3: Thinking Fault Tolerance and Recoverability Are the Same
+## 🪤 Trap 3: Thinking Fault Tolerance and Recoverability Are the Same
 
 **Trap:** Fault tolerance means the system continues operating during a failure. Recoverability means the system can be restored after a failure.
 
@@ -66,7 +66,7 @@
 
 ---
 
-## Trap 4: Confusing Load Testing with Stress Testing
+## 🪤 Trap 4: Confusing Load Testing with Stress Testing
 
 **Trap:** Load testing tests at expected load. Stress testing tests beyond expected load.
 
@@ -88,7 +88,7 @@
 
 ---
 
-## Trap 5: Thinking Maintainability Is Only About Code
+## 🪤 Trap 5: Thinking Maintainability Is Only About Code
 
 **Trap:** Maintainability includes documentation, architecture, testability, and configuration — not just clean code.
 
@@ -110,7 +110,7 @@
 
 ---
 
-## Trap 6: Forgetting Availability Is a Reliability Sub-characteristic
+## 🪤 Trap 6: Forgetting Availability Is a Reliability Sub-characteristic
 
 **Trap:** Availability is often confused with efficiency or treated as a separate top-level characteristic.
 
@@ -132,7 +132,7 @@
 
 ---
 
-## Trap 7: Confusing Interoperability with Portability
+## 🪤 Trap 7: Confusing Interoperability with Portability
 
 **Trap:** Interoperability is about exchanging data with OTHER systems. Portability is about running on DIFFERENT environments.
 
@@ -154,7 +154,7 @@
 
 ---
 
-## Trap 8: Thinking Non-Functional Testing Doesn't Use Black-Box Techniques
+## 🪤 Trap 8: Thinking Non-Functional Testing Doesn't Use Black-Box Techniques
 
 **Trap:** Many non-functional tests use the same specification-based techniques as functional tests.
 

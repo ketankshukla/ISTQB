@@ -1,6 +1,6 @@
-# Chapter 3 — Mobile Functional Testing: Exam Traps
+# 🪤 Chapter 3 — Mobile Functional Testing: Exam Traps
 
-## Trap 1: Testing Only on Emulators
+## 🪤 Trap 1: Testing Only on Emulators
 
 **Trap:** Emulators don't perfectly replicate real device behavior (performance, gestures, sensors). Real device testing is essential.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Ignoring Small Screen Sizes
+## 🪤 Trap 2: Ignoring Small Screen Sizes
 
 **Trap:** Testing only on large phones misses layout issues on smaller screens where many users still exist.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Testing Orientation Only Once
+## 🪤 Trap 3: Testing Orientation Only Once
 
 **Trap:** Orientation changes can happen at any time. Test during user interactions, not just on launch.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Confusing Universal Links with Custom Schemes
+## 🪤 Trap 4: Confusing Universal Links with Custom Schemes
 
 **Trap:** Universal/App Links use standard HTTPS URLs; custom schemes use app-specific prefixes. Different fallback behavior.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Forgetting Update Migration Testing
+## 🪤 Trap 5: Forgetting Update Migration Testing
 
 **Trap:** Users update from old versions. Data and settings must migrate correctly.
 

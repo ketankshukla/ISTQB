@@ -1,6 +1,6 @@
-# Chapter 5 — Regulation Acceptance Testing: Exam Traps
+# 🪤 Chapter 5 — Regulation Acceptance Testing: Exam Traps
 
-## Trap 1: Confusing RAT with Security Testing
+## 🪤 Trap 1: Confusing RAT with Security Testing
 
 **Trap:** RAT validates compliance with regulations. Security testing finds vulnerabilities. They overlap but have different objectives.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Thinking Compliance Is Only IT's Responsibility
+## 🪤 Trap 2: Thinking Compliance Is Only IT's Responsibility
 
 **Trap:** Compliance requires business, legal, and IT collaboration. Business processes, data handling, and user training are all part of compliance.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Confusing WCAG Levels
+## 🪤 Trap 3: Confusing WCAG Levels
 
 **Trap:** WCAG has three conformance levels (A, AA, AAA). Most regulations require AA. Testing for A only may miss requirements.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Ignoring Process Compliance
+## 🪤 Trap 4: Ignoring Process Compliance
 
 **Trap:** RAT includes verifying processes (change management, training, documentation), not just the system.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Thinking Once Certified, Always Compliant
+## 🪤 Trap 5: Thinking Once Certified, Always Compliant
 
 **Trap:** Compliance is ongoing. Systems and regulations change. Regular audits and surveillance are needed.
 

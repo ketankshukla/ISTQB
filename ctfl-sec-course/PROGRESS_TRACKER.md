@@ -1,6 +1,6 @@
-# CTFL-SEC Progress Tracker
+# 📈 CTFL-SEC Progress Tracker
 
-## Root Files
+## ⭐ Root Files
 
 - [x] README.md
 - [x] STUDY_PLAN.md
@@ -8,7 +8,7 @@
 - [x] GLOSSARY.md
 - [x] PROGRESS_TRACKER.md
 
-## Chapters
+## ⭐ Chapters
 
 - [x] Chapter 1 — Introduction to Security Testing
   - [x] README.md
@@ -41,13 +41,13 @@
   - [x] exam_traps.md
   - [x] practice_questions.md (score: ___/20)
 
-## Case Studies
+## ⭐ Case Studies
 
 - [x] Case Study 1 — Web Application Security Assessment
 - [x] Case Study 2 — Mobile App Security Testing
 - [x] Case Study 3 — API Security Testing
 
-## Mock Exams
+## 📝 Mock Exams
 
 | Exam | Score | Target |
 |------|-------|--------|
@@ -55,7 +55,7 @@
 | Mock 2 | ___/20 | 14+ (70%) |
 | Mock 3 | ___/20 | 16+ (80%) |
 
-## Final Preparation
+## ⭐ Final Preparation
 
 - [ ] All chapter practice questions complete
 - [ ] All case studies complete

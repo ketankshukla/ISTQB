@@ -1,10 +1,10 @@
-# ISTQB CTAL-AT — Advanced Agile Technical Tester Self-Study Course
+# 📚 ISTQB CTAL-AT — Advanced Agile Technical Tester Self-Study Course
 
 A complete, exam-ready self-study course for the ISTQB CTAL-AT (Certified Tester Advanced Level — Agile Technical Tester) certification.
 
 ---
 
-## Exam Facts
+## 🎓 Exam Facts
 
 | Parameter | Value |
 |-----------|-------|
@@ -18,7 +18,7 @@ A complete, exam-ready self-study course for the ISTQB CTAL-AT (Certified Tester
 
 ---
 
-## Course Structure
+## ⭐ Course Structure
 
 ```
 ctal-at-course/
@@ -74,7 +74,7 @@ ctal-at-course/
 
 ---
 
-## How to Use This Course
+## ⭐ How to Use This Course
 
 1. **Start with `STUDY_PLAN.md`** — pick the 3-week or 4-week track.
 2. **Work through chapters in order** — read `lessons.md`, then `exam_traps.md`, then attempt `practice_questions.md`.
@@ -84,7 +84,7 @@ ctal-at-course/
 
 ---
 
-## Target Audience
+## ⭐ Target Audience
 
 - Testers working in agile teams preparing for CTAL-AT certification
 - Technical testers transitioning to agile environments
@@ -93,7 +93,7 @@ ctal-at-course/
 
 ---
 
-## Prerequisites
+## ⭐ Prerequisites
 
 - ISTQB CTFL Foundation Level certification (required for the exam)
 - Basic understanding of agile principles (Scrum, Kanban)
@@ -101,7 +101,7 @@ ctal-at-course/
 
 ---
 
-## File Map
+## ⭐ File Map
 
 | File | Purpose |
 |------|---------|

@@ -1,10 +1,10 @@
-# CT-AuT Mock Exam 2
+# 📝 CT-AuT Mock Exam 2
 
 **Instructions:** 40 questions, 60 minutes, single best answer.
 
 ---
 
-### Q1-Q10
+### 🔷 Q1-Q10
 
 1. SIL: A) Target ECU B) Host PC C) Only vehicle D) Only HIL — **Host PC**
 2. HIL: A) Only unit B) Real ECU + simulated env C) Only review D) Only static — **Real ECU + simulated env**
@@ -19,7 +19,7 @@
 
 ---
 
-### Q11-Q20
+### 🔷 Q11-Q20
 
 11. Calibration: A) Part of code B) Adjusted without code; version controlled C) Only production D) Only color — **Adjusted without code; version controlled**
 12. vTESTstudio: A) Only drawing B) Test design + automation C) Only email D) Only web — **Test design + automation**
@@ -34,7 +34,7 @@
 
 ---
 
-### Q21-Q30
+### 🔷 Q21-Q30
 
 21. Statement coverage: A) Only function calls B) % executable statements executed C) Only decisions D) Only errors — **% executable statements executed**
 22. MC/DC: A) ASIL A B) ASIL C/D C) Only hardware D) Only system — **ASIL C/D**
@@ -49,7 +49,7 @@
 
 ---
 
-### Q31-Q40
+### 🔷 Q31-Q40
 
 31. Automation rate: A) Only manual B) Automated / total C) Only speed D) Only cost — **Automated / total**
 32. Audit readiness: A) Last-minute docs B) Continuous traceability + coverage + changes C) Only results D) Only approval — **Continuous traceability + coverage + changes**
@@ -64,4 +64,4 @@
 
 ---
 
-## End of Mock Exam 2
+## 📝 End of Mock Exam 2

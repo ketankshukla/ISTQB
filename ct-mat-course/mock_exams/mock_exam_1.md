@@ -1,10 +1,10 @@
-# CT-MAT Mock Exam 1
+# 📝 CT-MAT Mock Exam 1
 
 **Instructions:** 40 questions, 60 minutes, single best answer.
 
 ---
 
-### Q1-Q10
+### 🔷 Q1-Q10
 
 1. Mobile testing objective: A) Only UI B) Ensure correct function across devices, OS, conditions C) Reduce costs D) Eliminate bugs — **Ensure correct function across devices, OS, conditions**
 2. Native iOS built with: A) Java B) Swift/Objective-C C) HTML D) Python — **Swift/Objective-C**
@@ -19,7 +19,7 @@
 
 ---
 
-### Q11-Q20
+### 🔷 Q11-Q20
 
 11. Interruption testing: A) Only unit B) Calls, notifications, battery, switching C) Only DB D) Only server — **Calls, notifications, battery, switching**
 12. Google Play internal testing: A) Public B) Small group before wider release C) Automated only D) iOS only — **Small group before wider release**
@@ -34,7 +34,7 @@
 
 ---
 
-### Q21-Q30
+### 🔷 Q21-Q30
 
 21. iOS lifecycle manager: A) ViewController B) AppDelegate C) Activity D) Fragment — **AppDelegate**
 22. Android onPause: A) Install B) Loses focus C) Restart D) Crash — **Loses focus**
@@ -49,7 +49,7 @@
 
 ---
 
-### Q31-Q40
+### 🔷 Q31-Q40
 
 31. Appium: A) iOS only B) Cross-platform WebDriver C) Android build D) Performance — **Cross-platform WebDriver**
 32. POM separates: A) Data from cases B) Logic from locators C) Only runner D) Only reporting — **Logic from locators**
@@ -64,4 +64,4 @@
 
 ---
 
-## End of Mock Exam 1
+## 📝 End of Mock Exam 1

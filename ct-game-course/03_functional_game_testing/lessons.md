@@ -1,14 +1,14 @@
-# Chapter 3 — Functional Game Testing: Lessons
+# 📘 Chapter 3 — Functional Game Testing: Lessons
 
 ---
 
-## 3.1 Core Mechanics Testing
+## ⭐ 3.1 Core Mechanics Testing
 
-### Definition
+### 🔷 Definition
 
 Core mechanics are the fundamental interactive systems that define gameplay.
 
-### Testing Approach
+### 🔷 Testing Approach
 
 | Element | Tests |
 |---------|-------|
@@ -18,7 +18,7 @@ Core mechanics are the fundamental interactive systems that define gameplay.
 | **Inventory** | Add, remove, equip, drop, sort |
 | **Abilities** | Activate, cooldown, combo, resource cost |
 
-### Boundary and Edge Cases
+### 📏 Boundary and Edge Cases
 
 | Scenario | Test |
 |----------|------|
@@ -30,9 +30,9 @@ Core mechanics are the fundamental interactive systems that define gameplay.
 
 ---
 
-## 3.2 UI and Menu Testing
+## ⭐ 3.2 UI and Menu Testing
 
-### Navigation
+### 🔷 Navigation
 
 | Test | Verification |
 |------|-------------|
@@ -41,7 +41,7 @@ Core mechanics are the fundamental interactive systems that define gameplay.
 | Focus management | Highlight moves correctly with input |
 | Cancel/Back | Returns to previous screen |
 
-### Data Display
+### 🗃️ Data Display
 
 | Element | Check |
 |---------|-------|
@@ -50,7 +50,7 @@ Core mechanics are the fundamental interactive systems that define gameplay.
 | **Minimap** | Accurate player and objective positions |
 | **Tooltips** | Correct information, no truncation |
 
-### Edge Cases
+### 🔷 Edge Cases
 
 | Scenario | Expected |
 |----------|----------|
@@ -61,9 +61,9 @@ Core mechanics are the fundamental interactive systems that define gameplay.
 
 ---
 
-## 3.3 AI Testing
+## 🤖 3.3 AI Testing
 
-### Behavior Trees
+### 🔷 Behavior Trees
 
 | Node Type | Test |
 |-----------|------|
@@ -71,7 +71,7 @@ Core mechanics are the fundamental interactive systems that define gameplay.
 | **Sequence** | All steps execute in order |
 | **Decorator** | Conditions correctly gate behavior |
 
-### AI Test Scenarios
+### 🤖 AI Test Scenarios
 
 | Scenario | Expected Behavior |
 |----------|-------------------|
@@ -81,7 +81,7 @@ Core mechanics are the fundamental interactive systems that define gameplay.
 | Friendly fire | AI avoids hitting allies |
 | Obstructed path | AI finds alternate route |
 
-### Difficulty Levels
+### 🪜 Difficulty Levels
 
 | Difficulty | AI Behavior Change |
 |------------|-------------------|
@@ -91,9 +91,9 @@ Core mechanics are the fundamental interactive systems that define gameplay.
 
 ---
 
-## 3.4 Multiplayer Testing
+## 💡 3.4 Multiplayer Testing
 
-### Synchronization
+### 🔷 Synchronization
 
 | Aspect | Test |
 |--------|------|
@@ -102,7 +102,7 @@ Core mechanics are the fundamental interactive systems that define gameplay.
 | **Reconciliation** | Client prediction corrects gracefully |
 | **Host migration** | Game continues if host drops |
 
-### Network Conditions
+### 🔷 Network Conditions
 
 | Condition | Test |
 |-----------|------|
@@ -111,7 +111,7 @@ Core mechanics are the fundamental interactive systems that define gameplay.
 | **Jitter** | Smooth interpolation |
 | **Disconnect** | Proper handling, no crash |
 
-### Cheat Prevention
+### 🔷 Cheat Prevention
 
 | Cheat | Countermeasure |
 |-------|---------------|
@@ -122,9 +122,9 @@ Core mechanics are the fundamental interactive systems that define gameplay.
 
 ---
 
-## 3.5 Save/Load Testing
+## ⭐ 3.5 Save/Load Testing
 
-### Save Data Scope
+### 🗃️ Save Data Scope
 
 | Data Type | Test |
 |-----------|------|
@@ -133,7 +133,7 @@ Core mechanics are the fundamental interactive systems that define gameplay.
 | **Settings** | Graphics, audio, controls |
 | **Time** | Play time, timestamps |
 
-### Edge Cases
+### 🔷 Edge Cases
 
 | Scenario | Test |
 |----------|------|
@@ -145,9 +145,9 @@ Core mechanics are the fundamental interactive systems that define gameplay.
 
 ---
 
-## 3.6 Progression and Economy
+## 📈 3.6 Progression and Economy
 
-### Progression Systems
+### 📈 Progression Systems
 
 | System | Tests |
 |--------|-------|
@@ -156,7 +156,7 @@ Core mechanics are the fundamental interactive systems that define gameplay.
 | **Unlocks** | Conditions met = unlock available |
 | **Achievements** | Trigger correctly, no premature unlock |
 
-### Economy Systems
+### 🔷 Economy Systems
 
 | Element | Tests |
 |---------|-------|
@@ -167,9 +167,9 @@ Core mechanics are the fundamental interactive systems that define gameplay.
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Combat System Test
+### 💡 Worked Example 1: Combat System Test
 
 **Scenario:** Test an RPG combat system.
 
@@ -182,7 +182,7 @@ Core mechanics are the fundamental interactive systems that define gameplay.
 | Elemental resistance | Fire spell vs fire enemy | Reduced or zero damage |
 | Death | Reduce enemy HP to 0 | Death animation, loot drops, XP awarded |
 
-### Worked Example 2: Multiplayer Lag Test
+### 💡 Worked Example 2: Multiplayer Lag Test
 
 **Scenario:** Test FPS multiplayer under poor network.
 
@@ -192,7 +192,7 @@ Core mechanics are the fundamental interactive systems that define gameplay.
 | 10% packet loss | Rapid movement | Smooth position | Interpolation handles gaps |
 | Host quits | Game continues | Migrates to new host | Host migration works |
 
-### Worked Example 3: Save/Load Regression
+### 💡 Worked Example 3: Save/Load Regression
 
 **Scenario:** Verify save compatibility after update.
 

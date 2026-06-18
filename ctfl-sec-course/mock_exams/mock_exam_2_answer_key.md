@@ -1,6 +1,6 @@
-# CTFL-SEC Mock Exam 2 — Answer Key
+# 📝 CTFL-SEC Mock Exam 2 — Answer Key
 
-## Answers
+## ✔️ Answers
 
 | Question | Answer | Topic |
 |----------|--------|-------|
@@ -25,7 +25,7 @@
 | Q19 | B | Critical risk |
 | Q20 | B | Encryption |
 
-## Score Interpretation
+## ⭐ Score Interpretation
 
 | Score | Status |
 |-------|--------|

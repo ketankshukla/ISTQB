@@ -1,6 +1,6 @@
-# Chapter 5 — Performance and Scalability Testing for Big Data: Exam Traps
+# 🪤 Chapter 5 — Performance and Scalability Testing for Big Data: Exam Traps
 
-## Trap 1: Confusing Throughput and Latency
+## 🪤 Trap 1: Confusing Throughput and Latency
 
 **Trap:** Throughput = volume per time. Latency = time per unit. A system can have high throughput but high latency.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Assuming Linear Scalability
+## 🪤 Trap 2: Assuming Linear Scalability
 
 **Trap:** Doubling cluster size rarely doubles throughput due to coordination, shuffle, and network overhead.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Ignoring Data Skew
+## 🪤 Trap 3: Ignoring Data Skew
 
 **Trap:** Uneven data distribution can make a job run slowly even if overall cluster resources are available.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Testing Performance Without Baselines
+## 🪤 Trap 4: Testing Performance Without Baselines
 
 **Trap:** Without a baseline, you can't tell if performance is good or bad, or if changes improved or degraded it.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Confusing Horizontal and Vertical Scaling
+## 🪤 Trap 5: Confusing Horizontal and Vertical Scaling
 
 **Trap:** Horizontal scaling = add machines. Vertical scaling = add power to existing machines.
 

@@ -1,6 +1,6 @@
-# Case Study 1 — Test Strategy and Planning
+# 📂 Case Study 1 — Test Strategy and Planning
 
-## Context
+## ⭐ Context
 
 You are the Test Manager for HealthBridge, a healthcare software company developing a new patient records system. The project has the following characteristics:
 
@@ -12,7 +12,7 @@ You are the Test Manager for HealthBridge, a healthcare software company develop
 - **Technology:** React frontend, Java Spring Boot backend, PostgreSQL database, AWS cloud
 - **Current status:** Requirements are 80% complete. Development starts in 2 weeks.
 
-## Task 1: Test Organization
+## ⭐ Task 1: Test Organization
 
 **Question:** What test organization structure would you recommend, and why?
 
@@ -35,7 +35,7 @@ You are the Test Manager for HealthBridge, a healthcare software company develop
 
 ---
 
-## Task 2: Test Estimation
+## 🔢 Task 2: Test Estimation
 
 **Question:** Estimate the testing effort for this project.
 
@@ -74,7 +74,7 @@ Testing effort = 2,400 × 0.35 = 840 person-days
 
 ---
 
-## Task 3: Risk-Based Test Strategy
+## ♟️ Task 3: Risk-Based Test Strategy
 
 **Question:** Identify the top 5 product risks and propose how testing will mitigate them.
 
@@ -96,7 +96,7 @@ Testing effort = 2,400 × 0.35 = 840 person-days
 
 ---
 
-## Task 4: Entry and Exit Criteria
+## ✅ Task 4: Entry and Exit Criteria
 
 **Question:** Define entry and exit criteria for system testing.
 
@@ -122,7 +122,7 @@ Testing effort = 2,400 × 0.35 = 840 person-days
 
 ---
 
-## Task 5: Tool Selection
+## 🛠️ Task 5: Tool Selection
 
 **Question:** Which tools would you select for this project, and why?
 

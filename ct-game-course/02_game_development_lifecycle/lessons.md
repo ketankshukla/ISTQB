@@ -1,10 +1,10 @@
-# Chapter 2 — Game Development Lifecycle: Lessons
+# 📘 Chapter 2 — Game Development Lifecycle: Lessons
 
 ---
 
-## 2.1 Development Phases
+## ⭐ 2.1 Development Phases
 
-### Pre-Production
+### 🔷 Pre-Production
 
 | Activity | Testing Role |
 |----------|-------------|
@@ -12,7 +12,7 @@
 | Design document | Review for testability |
 | Technical planning | Plan test architecture, tools |
 
-### Production
+### 🔷 Production
 
 | Activity | Testing Role |
 |----------|-------------|
@@ -21,7 +21,7 @@
 | Feature development | Feature testing |
 | Integration | System integration testing |
 
-### Post-Production
+### 🔷 Post-Production
 
 | Activity | Testing Role |
 |----------|-------------|
@@ -31,33 +31,33 @@
 
 ---
 
-## 2.2 Milestones
+## ⭐ 2.2 Milestones
 
-### Vertical Slice
+### 🔷 Vertical Slice
 
 - Polished demo representing final quality
 - Used to secure funding or publisher approval
 - Testing: Core mechanics, visual quality, performance target
 
-### First Playable / Alpha
+### 🔷 First Playable / Alpha
 
 - All core features implemented
 - Playable from start to finish (with bugs)
 - Testing: Full playthrough, major bug finding
 
-### Feature Complete / Beta
+### 🔷 Feature Complete / Beta
 
 - All features implemented, content may be incomplete
 - Focus on fixing bugs, not adding features
 - Testing: Regression, balance, polish
 
-### Release Candidate / Gold
+### 🔷 Release Candidate / Gold
 
 - Build that could be released
 - Submitted to platform holder for certification
 - Testing: Final verification, cert pass
 
-### Post-Launch
+### 🔷 Post-Launch
 
 - Day-one patch
 - Live updates, DLC
@@ -65,7 +65,7 @@
 
 ---
 
-## 2.3 Testing Activities by Phase
+## ⭐ 2.3 Testing Activities by Phase
 
 | Phase | Testing Focus | Deliverable |
 |-------|-------------|-------------|
@@ -80,9 +80,9 @@
 
 ---
 
-## 2.4 Agile in Game Development
+## 🏃 2.4 Agile in Game Development
 
-### Scrum Adaptations
+### 🔷 Scrum Adaptations
 
 | Standard Scrum | Game Adaptation |
 |---------------|-----------------|
@@ -91,13 +91,13 @@
 | Product owner | Game director / lead designer |
 | Daily standup | Often includes playtest feedback |
 
-### Kanban for Live Ops
+### 🔷 Kanban for Live Ops
 
 - Continuous flow of updates
 - No fixed sprints
 - Testing: Rapid patch verification, hotfix testing
 
-### Hybrid Approaches
+### 🔷 Hybrid Approaches
 
 - Pre-production: Agile (iterative prototype)
 - Production: Milestone-driven
@@ -105,9 +105,9 @@
 
 ---
 
-## 2.5 Build Management
+## 🗂️ 2.5 Build Management
 
-### Build Types
+### 🧪 Build Types
 
 | Build | Purpose | Testing |
 |-------|---------|---------|
@@ -116,7 +116,7 @@
 | **Staging build** | Internal release candidate | Regression, cert prep |
 | **Release build** | Public release | Final verification |
 
-### Version Control for Games
+### 🎮 Version Control for Games
 
 | Challenge | Solution |
 |-----------|----------|
@@ -126,15 +126,15 @@
 
 ---
 
-## 2.6 Live Service Games
+## 🎮 2.6 Live Service Games
 
-### Characteristics
+### 🔷 Characteristics
 
 - Continuous updates (seasons, events)
 - Player retention focus
 - Monetization (battle pass, cosmetics)
 
-### Testing Implications
+### 🔷 Testing Implications
 
 | Aspect | Testing |
 |--------|---------|
@@ -146,9 +146,9 @@
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Milestone Test Planning
+### 💡 Worked Example 1: Milestone Test Planning
 
 **Scenario:** Plan testing for an RPG reaching alpha.
 
@@ -160,7 +160,7 @@
 | Save/load | All locations, all states |
 | Performance | Stable 30 FPS in all areas |
 
-### Worked Example 2: Build Verification
+### 💡 Worked Example 2: Build Verification
 
 **Scenario:** BVT for a new daily build.
 
@@ -172,7 +172,7 @@
 | Save and load | < 5 sec | State preserved |
 | Quit to title | < 5 sec | Clean exit |
 
-### Worked Example 3: Live Service Patch
+### 💡 Worked Example 3: Live Service Patch
 
 **Scenario:** Test a balance patch for a multiplayer shooter.
 

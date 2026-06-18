@@ -1,6 +1,6 @@
-# Chapter 4 — Test Implementation and Execution: Exam Traps
+# 🪤 Chapter 4 — Test Implementation and Execution: Exam Traps
 
-## Trap 1: Thinking Abstract Tests Can Be Executed Directly
+## 🪤 Trap 1: Thinking Abstract Tests Can Be Executed Directly
 
 **Trap:** Abstract tests must be concretized (mapped to SUT with specific data) before execution.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Assuming a Test Failure Always Means an SUT Bug
+## 🪤 Trap 2: Assuming a Test Failure Always Means an SUT Bug
 
 **Trap:** Test failures can be caused by model defects, concretization errors, environment issues, or test tool bugs.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Thinking the Model Is Always a Perfect Oracle
+## 🪤 Trap 3: Thinking the Model Is Always a Perfect Oracle
 
 **Trap:** The model serves as the oracle only if it is correct. A wrong model gives wrong expected results.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Confusing Manual and Automated Execution Benefits
+## 🪤 Trap 4: Confusing Manual and Automated Execution Benefits
 
 **Trap:** Manual execution is for exploration and judgment; automated execution is for repetition and scale. They complement each other.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Forgetting Environment Issues as a Failure Cause
+## 🪤 Trap 5: Forgetting Environment Issues as a Failure Cause
 
 **Trap:** Test failures are often caused by environment setup (missing data, unavailable services) rather than SUT or model bugs.
 

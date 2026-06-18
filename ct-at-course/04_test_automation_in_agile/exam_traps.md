@@ -1,6 +1,6 @@
-# Chapter 4 — Test Automation in Agile: Exam Traps
+# 🪤 Chapter 4 — Test Automation in Agile: Exam Traps
 
-## Trap 1: Thinking Automation Replaces All Manual Testing
+## 🪤 Trap 1: Thinking Automation Replaces All Manual Testing
 
 **Trap:** Automation is a complement to manual testing, not a replacement. Exploratory testing, usability testing, and subjective evaluation still require humans.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Automating at the Wrong Level
+## 🪤 Trap 2: Automating at the Wrong Level
 
 **Trap:** Automating everything at the UI level creates slow, brittle suites. Push tests down to the API or unit level where possible.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Ignoring Maintenance Costs in ROI
+## 🪤 Trap 3: Ignoring Maintenance Costs in ROI
 
 **Trap:** Automation requires ongoing maintenance (typically 30-70% of total effort). Ignoring this leads to overestimated ROI.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Not Integrating Tests into CI/CD
+## 🪤 Trap 4: Not Integrating Tests into CI/CD
 
 **Trap:** Automated tests that only run manually provide little value. They must be integrated into the CI/CD pipeline for fast, automatic feedback.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Automating Unstable Features
+## 🪤 Trap 5: Automating Unstable Features
 
 **Trap:** Automating tests for features with changing requirements leads to frequent rework and low ROI. Wait until requirements stabilize.
 

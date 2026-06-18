@@ -1,4 +1,4 @@
-# CTAL-TAE Mock Exam 2
+# 📝 CTAL-TAE Mock Exam 2
 
 **Instructions:**
 - 40 questions
@@ -8,7 +8,7 @@
 
 ---
 
-### Q1
+### 🔷 Q1
 
 Which of the following is a PRIMARY difference between test automation and automated testing?
 
@@ -19,7 +19,7 @@ D. Automated testing requires more programming skills
 
 ---
 
-### Q2
+### 🔷 Q2
 
 A team releases every week. Their manual regression takes 3 days. The BEST approach is:
 
@@ -30,7 +30,7 @@ D. Hire more manual testers
 
 ---
 
-### Q3
+### 🔷 Q3
 
 A team uses expert judgment based on personal experience with similar projects. This is:
 
@@ -41,7 +41,7 @@ D. Experience-based estimation
 
 ---
 
-### Q4
+### 🔷 Q4
 
 Which of the following describes an integrated test organization?
 
@@ -52,7 +52,7 @@ D. Testers are external consultants hired for the project
 
 ---
 
-### Q5
+### 🔷 Q5
 
 Which of the following is a PRIMARY characteristic of a matrix test organization?
 
@@ -63,7 +63,7 @@ D. Testers are embedded in development teams with no test manager
 
 ---
 
-### Q6
+### 🔷 Q6
 
 Which of the following is a characteristic of a technical review?
 
@@ -74,7 +74,7 @@ D. Management attends to monitor progress
 
 ---
 
-### Q7
+### 🔷 Q7
 
 SonarQube is an example of:
 
@@ -85,7 +85,7 @@ D. A test management tool
 
 ---
 
-### Q8
+### 🔷 Q8
 
 A team tests a platform by simulating 50,000 concurrent users to verify response times remain under 1 second. This is:
 
@@ -96,7 +96,7 @@ D. Security testing
 
 ---
 
-### Q9
+### 🔷 Q9
 
 Which of the following would be detected during static analysis?
 
@@ -107,7 +107,7 @@ D. The actual defect density after test execution
 
 ---
 
-### Q10
+### 🔷 Q10
 
 A misspelled company name on the login page is embarrassing but does not affect functionality. It should be classified as:
 
@@ -118,7 +118,7 @@ D. Low severity, low priority
 
 ---
 
-### Q11
+### 🔷 Q11
 
 The PRIMARY purpose of a test strategy is to:
 
@@ -129,7 +129,7 @@ D. Document the results of testing
 
 ---
 
-### Q12
+### 🔷 Q12
 
 A Page Object Model (POM) in UI automation is used to:
 
@@ -140,7 +140,7 @@ D. Execute tests in parallel
 
 ---
 
-### Q13
+### 🔷 Q13
 
 A test manager is planning a risk-based testing approach. The FIRST step should be to:
 
@@ -151,7 +151,7 @@ D. Report risks to stakeholders
 
 ---
 
-### Q14
+### 🔷 Q14
 
 A 50-page requirements document is reviewed in 5 hours and 20 defects are found. The review efficiency is:
 
@@ -162,7 +162,7 @@ D. 0.4 defects per hour
 
 ---
 
-### Q15
+### 🔷 Q15
 
 Which of the following is the BEST example of an entry criterion for system testing?
 
@@ -173,7 +173,7 @@ D. The product is ready for release
 
 ---
 
-### Q16
+### 🔷 Q16
 
 Which test is the BEST candidate for automation?
 
@@ -184,7 +184,7 @@ D. A test for a feature with changing requirements
 
 ---
 
-### Q17
+### 🔷 Q17
 
 Which of the following is a non-functional testing concern?
 
@@ -195,7 +195,7 @@ D. Confirming that users receive confirmation emails
 
 ---
 
-### Q18
+### 🔷 Q18
 
 A test manager's PRIMARY responsibility is to:
 
@@ -206,7 +206,7 @@ D. Develop the application code
 
 ---
 
-### Q19
+### 🔷 Q19
 
 In a risk assessment, a risk with likelihood = 2 and impact = 5 has a risk priority of:
 
@@ -217,7 +217,7 @@ D. 10
 
 ---
 
-### Q20
+### 🔷 Q20
 
 A product risk is:
 
@@ -228,7 +228,7 @@ D. A risk that key staff will leave
 
 ---
 
-### Q21
+### 🔷 Q21
 
 A team implements a keyword-driven automation framework. Business analysts can write tests using keywords while engineers maintain the implementation. This approach:
 
@@ -239,7 +239,7 @@ D. Is only suitable for unit testing
 
 ---
 
-### Q22
+### 🔷 Q22
 
 ROI for a test tool is calculated as:
 
@@ -250,7 +250,7 @@ D. Costs / Benefits
 
 ---
 
-### Q23
+### 🔷 Q23
 
 Which of the following is a PRIMARY responsibility of a test manager?
 
@@ -261,7 +261,7 @@ D. Defining the user interface design
 
 ---
 
-### Q24
+### 🔷 Q24
 
 A testing team wants to verify that an RNG produces uniformly distributed numbers between 1 and 100. The best approach is:
 
@@ -272,7 +272,7 @@ D. Checking the source code comments
 
 ---
 
-### Q25
+### 🔷 Q25
 
 A testing team wants to improve the maintainability of their UI automation. They should adopt:
 
@@ -283,7 +283,7 @@ D. Fewer automated tests
 
 ---
 
-### Q26
+### 🔷 Q26
 
 Which of the following describes the PRIMARY benefit of independent testing?
 
@@ -294,7 +294,7 @@ D. Better domain knowledge of the system
 
 ---
 
-### Q27
+### 🔷 Q27
 
 A test manager is planning a project with well-understood requirements and a stable technology stack. Which estimation technique is MOST appropriate?
 
@@ -305,7 +305,7 @@ D. Random guessing
 
 ---
 
-### Q28
+### 🔷 Q28
 
 Which of the following is a PRIMARY purpose of a test plan?
 
@@ -316,7 +316,7 @@ D. To document the results of all testing
 
 ---
 
-### Q29
+### 🔷 Q29
 
 A testing team is evaluating whether to purchase a commercial test tool or use an open-source alternative. The PRIMARY factor should be:
 
@@ -327,7 +327,7 @@ D. Whether competitors use the same tool
 
 ---
 
-### Q30
+### 🔷 Q30
 
 Which of the following is a PRIMARY difference between severity and priority?
 
@@ -338,7 +338,7 @@ D. Severity is only used in agile projects
 
 ---
 
-### Q31
+### 🔷 Q31
 
 A test manager is planning a project with tight deadlines and limited resources. Which test approach is MOST appropriate?
 
@@ -349,7 +349,7 @@ D. Skip testing and release immediately
 
 ---
 
-### Q32
+### 🔷 Q32
 
 Which of the following is a PRIMARY purpose of a test summary report?
 
@@ -360,7 +360,7 @@ D. To assign blame for defects found
 
 ---
 
-### Q33
+### 🔷 Q33
 
 A test manager notices that the test execution schedule is falling behind due to environment unavailability. The MOST appropriate control action is:
 
@@ -371,7 +371,7 @@ D. Skip the remaining tests and report success
 
 ---
 
-### Q34
+### 🔷 Q34
 
 Which of the following is a PRIMARY characteristic of an independent test organization?
 
@@ -382,7 +382,7 @@ D. Testers are embedded in development teams
 
 ---
 
-### Q35
+### 🔷 Q35
 
 A test manager is considering keeping testing integrated within the development team. The PRIMARY advantage is:
 
@@ -393,7 +393,7 @@ D. More formal processes
 
 ---
 
-### Q36
+### 🔷 Q36
 
 Which of the following is a PRIMARY purpose of entry criteria?
 
@@ -404,7 +404,7 @@ D. To define the tools to be used
 
 ---
 
-### Q37
+### 🔷 Q37
 
 A test manager is calculating ROI for a test tool. The tool costs $30,000 and saves $20,000 per year. The payback period is approximately:
 
@@ -415,7 +415,7 @@ D. 4 years
 
 ---
 
-### Q38
+### 🔷 Q38
 
 Which of the following is a PRIMARY consideration when planning regression testing?
 
@@ -426,7 +426,7 @@ D. Focusing only on cosmetic issues
 
 ---
 
-### Q39
+### 🔷 Q39
 
 In a CI pipeline, which stage should typically run FIRST?
 
@@ -437,7 +437,7 @@ D. Performance load testing
 
 ---
 
-### Q40
+### 🔷 Q40
 
 The relationship between ATDD, BDD, and TDD is BEST described as:
 
@@ -448,4 +448,4 @@ D. Only TDD is appropriate for agile teams
 
 ---
 
-## End of Mock Exam 2
+## 📝 End of Mock Exam 2

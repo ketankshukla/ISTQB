@@ -1,6 +1,6 @@
-# Chapter 3 — Shift-Left Testing Practices: Exam Traps
+# ❓ Chapter 3 — Shift-Left Testing Practices: Exam Traps
 
-## Trap 1: Confusing TDD with Traditional Test-After
+## 🪤 Trap 1: Confusing TDD with Traditional Test-After
 
 **Trap:** TDD = test first, then code. Traditional = code first, then test.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Thinking Contract Testing Replaces Integration Testing
+## 🪤 Trap 2: Thinking Contract Testing Replaces Integration Testing
 
 **Trap:** Contract tests verify API compatibility. Integration tests verify actual behavior. They complement each other.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Ignoring Static Analysis Results
+## 🪤 Trap 3: Ignoring Static Analysis Results
 
 **Trap:** Static analysis finds issues early. Ignoring results misses security and quality issues.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Thinking Code Review is Only for Seniors
+## 🪤 Trap 4: Thinking Code Review is Only for Seniors
 
 **Trap:** Junior developers can and should review code. Code review is about catching issues and sharing knowledge, not hierarchy.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Confusing BDD with Just Test Automation
+## 🪤 Trap 5: Confusing BDD with Just Test Automation
 
 **Trap:** BDD is about collaboration and shared understanding. The automation is a byproduct, not the goal.
 

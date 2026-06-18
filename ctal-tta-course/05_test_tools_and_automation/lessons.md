@@ -1,10 +1,10 @@
-# Chapter 5 — Test Tools and Automation: Lessons
+# 📘 Chapter 5 — Test Tools and Automation: Lessons
 
 ---
 
-## 5.1 Tool Categories for Technical Testing
+## 🛠️ 5.1 Tool Categories for Technical Testing
 
-### Unit Test Frameworks
+### 🔷 Unit Test Frameworks
 
 Unit test frameworks support the creation and execution of unit tests for individual components.
 
@@ -28,7 +28,7 @@ Unit test frameworks support the creation and execution of unit tests for indivi
 - **Mocking/Stubs:** Replace dependencies with controlled implementations
 - **Test Discovery:** Automatically find and run tests
 
-### Coverage Tools
+### 📊 Coverage Tools
 
 Coverage tools measure how much of the code is executed during testing.
 
@@ -42,7 +42,7 @@ Coverage tools measure how much of the code is executed during testing.
 | **dotCover** | .NET | Statement, branch |
 | **BullseyeCoverage** | C/C++ | Statement, branch, MC/DC |
 
-### Static Analysis Tools
+### 🔍 Static Analysis Tools
 
 See Chapter 3 for detailed coverage. Key tools for technical testing:
 
@@ -55,7 +55,7 @@ See Chapter 3 for detailed coverage. Key tools for technical testing:
 | **Checkmarx** | Multi | Security (SAST) |
 | **Fortify** | Multi | Security (SAST) |
 
-### Dynamic Analysis Tools
+### 🔬 Dynamic Analysis Tools
 
 See Chapter 4 for detailed coverage. Key tools:
 
@@ -67,7 +67,7 @@ See Chapter 4 for detailed coverage. Key tools:
 | **Visual Studio Profiler** | .NET, C++ | CPU, memory |
 | **Chrome DevTools** | JavaScript | CPU, memory, network |
 
-### Performance Testing Tools
+### 🛠️ Performance Testing Tools
 
 | Tool | Type | Focus |
 |------|------|-------|
@@ -77,7 +77,7 @@ See Chapter 4 for detailed coverage. Key tools:
 | **k6** | Open source | Modern load testing, developer-friendly |
 | **Locust** | Open source | Python-based, distributed |
 
-### Security Testing Tools
+### 🛠️ Security Testing Tools
 
 | Tool | Type | Focus |
 |------|------|-------|
@@ -88,9 +88,9 @@ See Chapter 4 for detailed coverage. Key tools:
 
 ---
 
-## 5.2 Test Automation Frameworks
+## ⚙️ 5.2 Test Automation Frameworks
 
-### Types of Frameworks
+### 🧪 Types of Frameworks
 
 **1. Linear Scripting (Record/Replay):**
 - Record user actions and replay them
@@ -128,7 +128,7 @@ See Chapter 4 for detailed coverage. Key tools:
 - Executable specifications
 - **Use:** Agile teams, requirements clarification
 
-### Framework Components
+### 🔷 Framework Components
 
 **Core Components:**
 1. **Test Script Library:** The actual test scripts
@@ -143,7 +143,7 @@ See Chapter 4 for detailed coverage. Key tools:
 - **Test Database:** Isolated database for tests
 - **Docker Containers:** Consistent test environments
 
-### Framework Selection Criteria
+### ✅ Framework Selection Criteria
 
 | Factor | Consideration |
 |--------|-------------|
@@ -156,9 +156,9 @@ See Chapter 4 for detailed coverage. Key tools:
 
 ---
 
-## 5.3 CI/CD Integration
+## 🔗 5.3 CI/CD Integration
 
-### Continuous Integration (CI)
+### 🔗 Continuous Integration (CI)
 
 CI is the practice of merging all developers' working copies to a shared mainline several times a day.
 
@@ -187,7 +187,7 @@ Run API tests
 Report results
 ```
 
-### Continuous Delivery/Deployment (CD)
+### 🔷 Continuous Delivery/Deployment (CD)
 
 CD extends CI by automatically deploying code to staging or production after passing tests.
 
@@ -199,7 +199,7 @@ CD extends CI by automatically deploying code to staging or production after pas
 5. Performance tests pass (if applicable)
 6. Security scan passes
 
-### CI/CD Tools
+### 🛠️ CI/CD Tools
 
 | Tool | Type | Features |
 |------|------|----------|
@@ -210,7 +210,7 @@ CD extends CI by automatically deploying code to staging or production after pas
 | **CircleCI** | Commercial | Cloud-based, fast, Docker support |
 | **Travis CI** | Commercial | GitHub integration, YAML config |
 
-### Pipeline Configuration Example (Conceptual)
+### 💡 Pipeline Configuration Example (Conceptual)
 
 ```yaml
 stages:
@@ -249,9 +249,9 @@ deploy_staging:
 
 ---
 
-## 5.4 Tool Metrics and Success Criteria
+## ✅ 5.4 Tool Metrics and Success Criteria
 
-### Measuring Tool Effectiveness
+### 🛠️ Measuring Tool Effectiveness
 
 **Adoption Metrics:**
 - Number of active users/teams using the tool
@@ -273,7 +273,7 @@ deploy_staging:
 - Defect escape rate
 - Mean time to detect (MTTD)
 
-### Success Criteria for Tool Adoption
+### ✅ Success Criteria for Tool Adoption
 
 | Tool Type | Success Criteria |
 |-----------|-----------------|
@@ -283,7 +283,7 @@ deploy_staging:
 | Performance tool | Performance regressions detected before release |
 | Security tool | No high/critical vulnerabilities in production |
 
-### When a Tool Is Not Working
+### 🛠️ When a Tool Is Not Working
 
 **Signs:**
 - Users avoid the tool or bypass it
@@ -299,9 +299,9 @@ deploy_staging:
 
 ---
 
-## 5.5 Tool Selection for Technical Testing
+## 🛠️ 5.5 Tool Selection for Technical Testing
 
-### Selection Process
+### 🔷 Selection Process
 
 **Step 1: Define Requirements**
 - What testing activities need tool support?
@@ -330,7 +330,7 @@ deploy_staging:
 - Gather user feedback
 - Update configurations and rules
 
-### Tool Integration Strategy
+### ♟️ Tool Integration Strategy
 
 **IDE Integration:**
 - Developers see issues as they code
@@ -347,9 +347,9 @@ deploy_staging:
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Framework Selection
+### 💡 Worked Example 1: Framework Selection
 
 **Scenario:** A team of 5 Java developers and 2 QA engineers needs to automate API and UI testing.
 
@@ -370,7 +370,7 @@ deploy_staging:
 
 **Recommendation:** Cucumber with REST Assured and Selenium — BDD readable by QA, Java-based for developers, good CI integration.
 
-### Worked Example 2: CI Pipeline Design
+### 💡 Worked Example 2: CI Pipeline Design
 
 **Scenario:** A .NET application needs automated testing in CI.
 
@@ -391,7 +391,7 @@ deploy_staging:
 - SonarQube: 0 critical/blocker issues
 - Integration tests: 100% pass
 
-### Worked Example 3: Tool ROI Calculation
+### 💡 Worked Example 3: Tool ROI Calculation
 
 **Scenario:** Implementing a static analysis tool.
 

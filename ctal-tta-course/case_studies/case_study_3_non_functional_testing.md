@@ -1,6 +1,6 @@
-# Case Study 3 — Non-Functional Testing
+# 📂 Case Study 3 — Non-Functional Testing
 
-## Context
+## ⭐ Context
 
 You are the Technical Test Analyst for ShopMax, an e-commerce platform preparing for the holiday shopping season. Last year, the site crashed on Black Friday, resulting in $2M in lost sales.
 
@@ -15,7 +15,7 @@ You are the Technical Test Analyst for ShopMax, an e-commerce platform preparing
 - No useful error messages for users
 - Recovery took 4 hours
 
-## Task 1: Performance Test Strategy
+## ♟️ Task 1: Performance Test Strategy
 
 **Question:** Design a comprehensive performance test strategy for the holiday season.
 
@@ -55,7 +55,7 @@ You are the Technical Test Analyst for ShopMax, an e-commerce platform preparing
 
 ---
 
-## Task 2: Security Testing for E-Commerce
+## 🔒 Task 2: Security Testing for E-Commerce
 
 **Question:** Design security testing for the payment and checkout flow.
 
@@ -88,7 +88,7 @@ You are the Technical Test Analyst for ShopMax, an e-commerce platform preparing
 
 ---
 
-## Task 3: Reliability and Recovery Testing
+## ⭐ Task 3: Reliability and Recovery Testing
 
 **Question:** Design reliability tests to prevent last year's 4-hour outage.
 
@@ -132,7 +132,7 @@ This year target: < 1 hour total outage during holiday season
 
 ---
 
-## Task 4: Compatibility Testing
+## ⭐ Task 4: Compatibility Testing
 
 **Question:** Design compatibility testing for the e-commerce site.
 
@@ -166,7 +166,7 @@ This year target: < 1 hour total outage during holiday season
 
 ---
 
-## Task 5: Monitoring and Alerting
+## ⭐ Task 5: Monitoring and Alerting
 
 **Question:** Define monitoring and alerting for the holiday season.
 

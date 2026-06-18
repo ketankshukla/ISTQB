@@ -1,6 +1,6 @@
-# Case Study 1 — Risk-Based Testing and White-Box Techniques
+# 📂 Case Study 1 — Risk-Based Testing and White-Box Techniques
 
-## Context
+## ⭐ Context
 
 You are the Technical Test Analyst for HealthBridge, a healthcare software company developing a new patient records system. The system includes:
 
@@ -9,7 +9,7 @@ You are the Technical Test Analyst for HealthBridge, a healthcare software compa
 - **Billing module:** Calculates and processes insurance claims
 - **Integration layer:** Connects to external pharmacies and labs
 
-## Task 1: Technical Risk Identification
+## ⚠️ Task 1: Technical Risk Identification
 
 **Question:** Identify the top 5 technical risks for this system.
 
@@ -25,7 +25,7 @@ You are the Technical Test Analyst for HealthBridge, a healthcare software compa
 
 ---
 
-## Task 2: White-Box Technique Selection
+## 🎯 Task 2: White-Box Technique Selection
 
 **Question:** For each identified risk, select appropriate white-box or technical test techniques.
 
@@ -41,7 +41,7 @@ You are the Technical Test Analyst for HealthBridge, a healthcare software compa
 
 ---
 
-## Task 3: Coverage Analysis
+## 📊 Task 3: Coverage Analysis
 
 **Question:** The `calculateInsuranceClaim` function has the following code:
 ```
@@ -99,7 +99,7 @@ Minimum = 4 test cases.
 
 ---
 
-## Task 4: Static Analysis Recommendations
+## 🔍 Task 4: Static Analysis Recommendations
 
 **Question:** What static analysis checks would you recommend for this healthcare system?
 
@@ -115,7 +115,7 @@ Minimum = 4 test cases.
 
 ---
 
-## Task 5: Test Tool Selection
+## 🛠️ Task 5: Test Tool Selection
 
 **Question:** Select tools for the testing activities identified.
 

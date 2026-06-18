@@ -1,10 +1,10 @@
-# Chapter 1 — Introduction to Automotive Software Testing: Lessons
+# 📘 Chapter 1 — Introduction to Automotive Software Testing: Lessons
 
 ---
 
-## 1.1 Automotive Software Landscape
+## ⭐ 1.1 Automotive Software Landscape
 
-### Modern Vehicle Architecture
+### 🔷 Modern Vehicle Architecture
 
 A modern vehicle contains 70-100+ Electronic Control Units (ECUs) connected via multiple networks.
 
@@ -17,7 +17,7 @@ A modern vehicle contains 70-100+ Electronic Control Units (ECUs) connected via 
 | **ADAS** | Adaptive cruise, lane keeping, parking | 5-10 |
 | **Safety** | Airbags, ABS, ESP | 5-10 |
 
-### Software Growth
+### 🔷 Software Growth
 
 - Modern vehicles contain 100+ million lines of code
 - More than a Boeing 787 or modern smartphone
@@ -25,16 +25,16 @@ A modern vehicle contains 70-100+ Electronic Control Units (ECUs) connected via 
 
 ---
 
-## 1.2 ECUs and Vehicle Networks
+## ⭐ 1.2 ECUs and Vehicle Networks
 
-### ECU (Electronic Control Unit)
+### 🔷 ECU (Electronic Control Unit)
 
 - Embedded computer with microcontroller
 - Runs real-time operating system (RTOS)
 - Connected to sensors and actuators
 - Communicates over vehicle networks
 
-### Vehicle Networks
+### 🔷 Vehicle Networks
 
 | Network | Speed | Use Case | Topology |
 |---------|-------|----------|----------|
@@ -44,7 +44,7 @@ A modern vehicle contains 70-100+ Electronic Control Units (ECUs) connected via 
 | **FlexRay** | Up to 10 Mbps | Braking, steering | Dual channel |
 | **Ethernet** | 100 Mbps - 1 Gbps | ADAS, infotainment, OTA | Star |
 
-### Communication Patterns
+### 🔷 Communication Patterns
 
 | Pattern | Description |
 |---------|-------------|
@@ -54,9 +54,9 @@ A modern vehicle contains 70-100+ Electronic Control Units (ECUs) connected via 
 
 ---
 
-## 1.3 Safety-Critical Software
+## ⭐ 1.3 Safety-Critical Software
 
-### Characteristics
+### 🔷 Characteristics
 
 | Characteristic | Implication for Testing |
 |---------------|------------------------|
@@ -66,7 +66,7 @@ A modern vehicle contains 70-100+ Electronic Control Units (ECUs) connected via 
 | **High reliability** | Extremely low failure rates required |
 | **Long lifecycle** | 10-15 years in production |
 
-### Risk of Software Failures
+### ⚠️ Risk of Software Failures
 
 | System | Failure Consequence |
 |--------|---------------------|
@@ -77,9 +77,9 @@ A modern vehicle contains 70-100+ Electronic Control Units (ECUs) connected via 
 
 ---
 
-## 1.4 Automotive V-Model
+## 📐 1.4 Automotive V-Model
 
-### Phases
+### 🔷 Phases
 
 ```
 System Requirements → System Design → Software Requirements → Software Design → Implementation
@@ -87,7 +87,7 @@ System Requirements → System Design → Software Requirements → Software Des
    System Tests ←     Integration Tests ←    Software Tests ←   Unit Tests ←    Code
 ```
 
-### Correspondence
+### 🔷 Correspondence
 
 | Left Side (Development) | Right Side (Testing) |
 |-------------------------|---------------------|
@@ -100,9 +100,9 @@ System Requirements → System Design → Software Requirements → Software Des
 
 ---
 
-## 1.5 Traceability
+## 🔗 1.5 Traceability
 
-### Why Traceability Matters
+### 🔗 Why Traceability Matters
 
 | Benefit | Description |
 |---------|-------------|
@@ -111,7 +111,7 @@ System Requirements → System Design → Software Requirements → Software Des
 | **Compliance** | Prove to auditors that safety requirements are verified |
 | **Debugging** | Trace test failures back to requirements |
 
-### Traceability Matrix
+### 🔗 Traceability Matrix
 
 | Requirement | Design | Code | Test Case | Result |
 |-------------|--------|------|-----------|--------|
@@ -120,9 +120,9 @@ System Requirements → System Design → Software Requirements → Software Des
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Network Selection
+### 💡 Worked Example 1: Network Selection
 
 **Scenario:** Choose network for a door control system.
 
@@ -136,7 +136,7 @@ System Requirements → System Design → Software Requirements → Software Des
 - Low cost, sufficient for door functions
 - Master-slave architecture fits door ECU topology
 
-### Worked Example 2: V-Model Mapping
+### 💡 Worked Example 2: V-Model Mapping
 
 **Scenario:** Map an adaptive cruise control feature through the V-model.
 
@@ -147,7 +147,7 @@ System Requirements → System Design → Software Requirements → Software Des
 | Software design | Speed control algorithm | Software integration: Test algorithm with sensor data |
 | Unit design | PID controller module | Unit test: Verify PID output |
 
-### Worked Example 3: Traceability Impact
+### 💡 Worked Example 3: Traceability Impact
 
 **Scenario:** Requirement "brake light illuminates within 100ms" changes to 50ms.
 

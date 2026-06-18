@@ -1,6 +1,6 @@
-# Case Study 2 — Medical AI Diagnostic
+# 📂 Case Study 2 — Medical AI Diagnostic
 
-## Context
+## ⭐ Context
 
 You are the Quality Assurance Lead for MedAI, a healthcare startup developing an AI system to detect skin cancer from photographs.
 
@@ -22,7 +22,7 @@ You are the Quality Assurance Lead for MedAI, a healthcare startup developing an
 - No testing on pediatric patients
 - Physician liability if AI misses a cancer
 
-## Task 1: Critiquing the 99% Accuracy Claim
+## 🤖 Task 1: Critiquing the 99% Accuracy Claim
 
 **Question:** Analyze why 99% accuracy may be misleading and what metrics should be used.
 
@@ -54,7 +54,7 @@ You are the Quality Assurance Lead for MedAI, a healthcare startup developing an
 
 ---
 
-## Task 2: Fairness and Robustness Testing
+## 🤖 Task 2: Fairness and Robustness Testing
 
 **Question:** Design comprehensive fairness and robustness tests.
 
@@ -86,7 +86,7 @@ You are the Quality Assurance Lead for MedAI, a healthcare startup developing an
 
 ---
 
-## Task 3: Test Oracle Design for Medical AI
+## 🎨 Task 3: Test Oracle Design for Medical AI
 
 **Question:** Design test oracles for a system where "correct" diagnosis may be uncertain even for experts.
 
@@ -113,7 +113,7 @@ You are the Quality Assurance Lead for MedAI, a healthcare startup developing an
 
 ---
 
-## Task 4: Explainability Requirements
+## 📑 Task 4: Explainability Requirements
 
 **Question:** The system must explain its findings to physicians. Design the explainability testing.
 
@@ -153,7 +153,7 @@ Limitations:
 
 ---
 
-## Task 5: Risk Management
+## ⚠️ Task 5: Risk Management
 
 **Question:** Identify the highest risks and mitigation strategies.
 

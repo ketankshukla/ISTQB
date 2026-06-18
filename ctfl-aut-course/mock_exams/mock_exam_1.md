@@ -1,10 +1,10 @@
-# CTFL-AuT Mock Exam 1
+# 📝 CTFL-AuT Mock Exam 1
 
 **Instructions:** 20 questions, 40 minutes. Single best answer.
 
 ---
 
-### Q1
+### 🔷 Q1
 
 Automotive software is typically:
 
@@ -15,7 +15,7 @@ D. Only web services
 
 ---
 
-### Q2
+### 🔷 Q2
 
 CAN bus is used for:
 
@@ -26,7 +26,7 @@ D. Only ADAS cameras
 
 ---
 
-### Q3
+### 🔷 Q3
 
 ASIL D represents:
 
@@ -37,7 +37,7 @@ D. Only body control
 
 ---
 
-### Q4
+### 🔷 Q4
 
 MIL testing is performed:
 
@@ -48,7 +48,7 @@ D. Only on production ECUs
 
 ---
 
-### Q5
+### 🔷 Q5
 
 ISO 26262 addresses:
 
@@ -59,7 +59,7 @@ D. Only tire pressure
 
 ---
 
-### Q6
+### 🔷 Q6
 
 HIL testing uses:
 
@@ -70,7 +70,7 @@ D. Only production vehicles
 
 ---
 
-### Q7
+### 🔷 Q7
 
 ASIL is determined by:
 
@@ -81,7 +81,7 @@ D. Only developer experience
 
 ---
 
-### Q8
+### 🔷 Q8
 
 An infotainment ECU is classified as:
 
@@ -92,7 +92,7 @@ D. Only real-time
 
 ---
 
-### Q9
+### 🔷 Q9
 
 The automotive software lifecycle is typically:
 
@@ -103,7 +103,7 @@ D. 6 months
 
 ---
 
-### Q10
+### 🔷 Q10
 
 AUTOSAR provides:
 
@@ -114,7 +114,7 @@ D. Only seat materials
 
 ---
 
-### Q11
+### 🔷 Q11
 
 For ASIL D software, the minimum required coverage is:
 
@@ -125,7 +125,7 @@ D. Only statement
 
 ---
 
-### Q12
+### 🔷 Q12
 
 Verification asks:
 
@@ -136,7 +136,7 @@ D. Only about cost
 
 ---
 
-### Q13
+### 🔷 Q13
 
 FlexRay is used for:
 
@@ -147,7 +147,7 @@ D. Only climate control
 
 ---
 
-### Q14
+### 🔷 Q14
 
 ASPICE is:
 
@@ -158,7 +158,7 @@ D. Only a test tool
 
 ---
 
-### Q15
+### 🔷 Q15
 
 Fault injection testing:
 
@@ -169,7 +169,7 @@ D. Only for development
 
 ---
 
-### Q16
+### 🔷 Q16
 
 LIN bus is used for:
 
@@ -180,7 +180,7 @@ D. Only brake systems
 
 ---
 
-### Q17
+### 🔷 Q17
 
 Back-to-back testing compares:
 
@@ -191,7 +191,7 @@ D. Only two tools
 
 ---
 
-### Q18
+### 🔷 Q18
 
 Traceability in automotive testing:
 
@@ -202,7 +202,7 @@ D. Only for testers
 
 ---
 
-### Q19
+### 🔷 Q19
 
 A powertrain ECU controls:
 
@@ -213,7 +213,7 @@ D. Only mirrors
 
 ---
 
-### Q20
+### 🔷 Q20
 
 For algorithm development, the most appropriate level is:
 
@@ -224,7 +224,7 @@ D. PIL
 
 ---
 
-## Answer Key
+## ✔️ Answer Key
 
 | Q | Answer | Q | Answer | Q | Answer | Q | Answer |
 |---|--------|---|--------|---|--------|---|--------|

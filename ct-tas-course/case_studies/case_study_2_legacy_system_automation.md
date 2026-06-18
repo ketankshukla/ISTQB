@@ -1,6 +1,6 @@
-# Case Study 2 — Legacy System Automation Strategy
+# 📂 Case Study 2 — Legacy System Automation Strategy
 
-## Context
+## ⭐ Context
 
 You are the QA Manager for HeritageBank, which runs a 20-year-old COBOL banking system with a modern web frontend.
 
@@ -18,7 +18,7 @@ You are the QA Manager for HeritageBank, which runs a 20-year-old COBOL banking 
 
 ---
 
-## Task 1: Feasibility Assessment
+## ⭐ Task 1: Feasibility Assessment
 
 **Question:** Assess what can and cannot be automated.
 
@@ -44,7 +44,7 @@ You are the QA Manager for HeritageBank, which runs a 20-year-old COBOL banking 
 
 ---
 
-## Task 2: Architecture Design
+## 🎨 Task 2: Architecture Design
 
 **Question:** Design a TAA that handles both modern and legacy.
 
@@ -78,7 +78,7 @@ Framework/
 
 ---
 
-## Task 3: Team and Training
+## 🤖 Task 3: Team and Training
 
 **Question:** Plan team structure and training.
 
@@ -104,7 +104,7 @@ Framework/
 
 ---
 
-## Task 4: Implementation Roadmap
+## ⭐ Task 4: Implementation Roadmap
 
 **Question:** Create a phased implementation plan.
 

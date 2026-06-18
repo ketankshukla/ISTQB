@@ -1,14 +1,14 @@
-# Chapter 6 — Using AI for Testing: Lessons
+# 📘 Chapter 6 — Using AI for Testing: Lessons
 
 ---
 
-## 6.1 AI-Powered Test Generation
+## 🤖 6.1 AI-Powered Test Generation
 
-### What Is AI Test Generation?
+### 🤖 What Is AI Test Generation?
 
 **AI test generation** uses machine learning to automatically create test cases from various sources: requirements, code, user behavior, or existing tests.
 
-### Types of AI Test Generation
+### 🧪 Types of AI Test Generation
 
 **1. Requirements-Based Test Generation:**
 - AI analyzes natural language requirements and generates test cases
@@ -58,7 +58,7 @@ def calculate_discount(price, age):
 - Identifies which existing tests should be updated
 - Suggests new tests for untested changed code
 
-### Benefits and Limitations
+### 🔷 Benefits and Limitations
 
 **Benefits:**
 - Faster test creation
@@ -75,9 +75,9 @@ def calculate_discount(price, age):
 
 ---
 
-## 6.2 AI-Powered Test Analysis and Optimization
+## 🔬 6.2 AI-Powered Test Analysis and Optimization
 
-### Intelligent Test Prioritization
+### 🔷 Intelligent Test Prioritization
 
 **Problem:** Regression suites grow large and take too long to run.
 
@@ -89,7 +89,7 @@ def calculate_discount(price, age):
 
 **Benefit:** Faster fault detection, shorter CI/CD pipelines.
 
-### Intelligent Test Selection
+### 🔷 Intelligent Test Selection
 
 **Problem:** Running all tests on every code change is expensive.
 
@@ -100,7 +100,7 @@ def calculate_discount(price, age):
 
 **Benefit:** Faster feedback, reduced CI/CD costs.
 
-### Test Result Analysis
+### 🔬 Test Result Analysis
 
 **AI can analyze test results to:**
 - Identify flaky tests (tests that fail intermittently without code changes)
@@ -119,13 +119,13 @@ AI analysis:
 
 ---
 
-## 6.3 Defect Prediction
+## 🐞 6.3 Defect Prediction
 
-### What Is Defect Prediction?
+### 🐞 What Is Defect Prediction?
 
 **Defect prediction** uses AI to identify which parts of an application are most likely to contain defects, allowing testers to focus their efforts.
 
-### How Defect Prediction Works
+### 🐞 How Defect Prediction Works
 
 **Input Features:**
 - Code complexity metrics (cyclomatic complexity, lines of code)
@@ -138,7 +138,7 @@ AI analysis:
 - Risk score for each module or file
 - Ranking of most likely defect locations
 
-### Applications in Testing
+### 🔷 Applications in Testing
 
 **1. Risk-Based Testing:**
 - Focus testing on high-risk areas
@@ -153,7 +153,7 @@ AI analysis:
 - Assess whether defect risk is acceptable for release
 - Identify whether additional testing is needed
 
-### Limitations
+### 🔷 Limitations
 
 - **Historical bias:** Predicts based on past patterns; new types of defects may be missed
 - **Correlational, not causal:** High-risk scores do not guarantee defects
@@ -162,20 +162,20 @@ AI analysis:
 
 ---
 
-## 6.4 Visual Testing with AI
+## 🤖 6.4 Visual Testing with AI
 
-### What Is Visual Testing?
+### 🔷 What Is Visual Testing?
 
 **Visual testing** uses computer vision and AI to detect UI changes and regressions by comparing screenshots.
 
-### How AI Visual Testing Works
+### 🤖 How AI Visual Testing Works
 
 1. **Baseline Capture:** Capture screenshots of the application in a known good state
 2. **Comparison:** AI compares new screenshots against baselines
 3. **Difference Detection:** AI highlights visual differences
 4. **Smart Filtering:** AI ignores expected differences (dynamic content, animations)
 
-### Benefits Over Traditional Approaches
+### 🔷 Benefits Over Traditional Approaches
 
 | Aspect | Manual Visual Testing | Traditional Pixel Comparison | AI Visual Testing |
 |--------|----------------------|------------------------------|-------------------|
@@ -185,7 +185,7 @@ AI analysis:
 | Content awareness | Yes | No | Yes |
 | Can ignore dynamic content | Yes | No | Yes |
 
-### AI Advantages
+### 🤖 AI Advantages
 
 - **Content-aware comparison:** Understands that text changed, not just that pixels changed
 - **Layout detection:** Detects if elements moved but content is the same
@@ -195,13 +195,13 @@ AI analysis:
 
 ---
 
-## 6.5 Autonomous Testing
+## ⭐ 6.5 Autonomous Testing
 
-### What Is Autonomous Testing?
+### 🔷 What Is Autonomous Testing?
 
 **Autonomous testing** uses AI to independently explore an application, generate tests, execute them, and analyze results — with minimal human intervention.
 
-### Levels of Autonomy
+### 🪜 Levels of Autonomy
 
 **Level 1 — Assisted Testing:**
 - AI suggests tests, humans create and execute them
@@ -225,7 +225,7 @@ AI analysis:
 - AI independently determines what to test, how to test, and whether quality is sufficient
 - Theoretical — does not exist in practice today
 
-### Current Capabilities
+### 🔷 Current Capabilities
 
 **What AI Can Do Today:**
 - Generate unit tests from code
@@ -243,9 +243,9 @@ AI analysis:
 
 ---
 
-## 6.6 Selecting and Evaluating AI Testing Tools
+## 🛠️ 6.6 Selecting and Evaluating AI Testing Tools
 
-### Selection Criteria
+### ✅ Selection Criteria
 
 **1. Fit for Purpose:**
 - Does the tool solve your specific testing problem?
@@ -273,7 +273,7 @@ AI analysis:
 - Does the tool send your code or data to external servers?
 - How is proprietary information protected?
 
-### Evaluating AI Test Results
+### 🤖 Evaluating AI Test Results
 
 **1. Validate AI-Generated Tests:**
 - Check that generated tests are correct and relevant
@@ -296,9 +296,9 @@ AI analysis:
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: AI Test Generation Evaluation
+### 💡 Worked Example 1: AI Test Generation Evaluation
 
 **Scenario:** An AI tool generates 100 test cases for a login feature.
 
@@ -321,7 +321,7 @@ AI analysis:
 - 3 tests are valid but low value
 - **Conclusion:** Human review is essential. AI generates many good tests but also some noise.
 
-### Worked Example 2: Intelligent Test Prioritization
+### 💡 Worked Example 2: Intelligent Test Prioritization
 
 **Scenario:** A regression suite has 500 tests. A code change affects 3 modules.
 
@@ -336,7 +336,7 @@ AI analysis:
 
 **Benefit:** If defects exist in changed modules, they are found in minutes instead of hours.
 
-### Worked Example 3: Autonomous Testing Assessment
+### 💡 Worked Example 3: Autonomous Testing Assessment
 
 **Scenario:** Evaluate whether an autonomous testing tool is appropriate for a banking application.
 

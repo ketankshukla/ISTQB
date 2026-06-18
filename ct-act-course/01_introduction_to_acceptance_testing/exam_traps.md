@@ -1,6 +1,6 @@
-# Chapter 1 — Introduction to Acceptance Testing: Exam Traps
+# 🪤 Chapter 1 — Introduction to Acceptance Testing: Exam Traps
 
-## Trap 1: Confusing Acceptance Testing with System Testing
+## 🪤 Trap 1: Confusing Acceptance Testing with System Testing
 
 **Trap:** Acceptance testing validates business needs; system testing validates technical specifications. They have different objectives, audiences, and criteria.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Thinking Acceptance Criteria Are Just System Requirements
+## 🪤 Trap 2: Thinking Acceptance Criteria Are Just System Requirements
 
 **Trap:** Acceptance criteria are business-focused and testable by users. System requirements are technical and detailed.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Confusing Alpha and Beta Testing
+## 🪤 Trap 3: Confusing Alpha and Beta Testing
 
 **Trap:** Alpha = internal, controlled, developer's site. Beta = external, real-world, user's site.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Thinking Acceptance Testing Is Only UAT
+## 🪤 Trap 4: Thinking Acceptance Testing Is Only UAT
 
 **Trap:** Acceptance testing includes UAT, OAT, CAT, and RAT. UAT is just one type.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Ignoring Stakeholder Roles
+## 🪤 Trap 5: Ignoring Stakeholder Roles
 
 **Trap:** Business representatives define criteria and make acceptance decisions. Developers and testers support but don't decide.
 

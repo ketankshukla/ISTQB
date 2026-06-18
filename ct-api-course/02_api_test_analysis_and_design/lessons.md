@@ -1,10 +1,10 @@
-# Chapter 2 — API Test Analysis and Design: Lessons
+# 📘 Chapter 2 — API Test Analysis and Design: Lessons
 
 ---
 
-## 2.1 Deriving Test Conditions from API Specifications
+## 🔌 2.1 Deriving Test Conditions from API Specifications
 
-### Sources of Test Conditions
+### 🔷 Sources of Test Conditions
 
 **1. OpenAPI / Swagger Specifications:**
 - Endpoints and HTTP methods
@@ -28,7 +28,7 @@
 - Timeout values
 - Error handling requirements
 
-### Example: Deriving Test Conditions from OpenAPI
+### 💡 Example: Deriving Test Conditions from OpenAPI
 
 **Specification:**
 ```yaml
@@ -85,13 +85,13 @@ paths:
 
 ---
 
-## 2.2 Equivalence Partitioning for APIs
+## ➗ 2.2 Equivalence Partitioning for APIs
 
-### Concept
+### 🔷 Concept
 
 Equivalence partitioning divides input data into groups where the system is expected to behave similarly. One test from each partition is sufficient.
 
-### Applying EP to API Parameters
+### 🔌 Applying EP to API Parameters
 
 **Example: API parameter `age` (integer, 18-120)**
 
@@ -111,7 +111,7 @@ Equivalence partitioning divides input data into groups where the system is expe
 | Invalid (not in enum) | "deleted" | "deleted" |
 | Invalid (null) | null | null |
 
-### Combining Partitions
+### 🔷 Combining Partitions
 
 When testing APIs with multiple parameters, consider:
 - **Weak robust testing:** One invalid parameter at a time (keeps test count manageable)
@@ -120,13 +120,13 @@ When testing APIs with multiple parameters, consider:
 
 ---
 
-## 2.3 Boundary Value Analysis for APIs
+## 📏 2.3 Boundary Value Analysis for APIs
 
-### Concept
+### 🔷 Concept
 
 Errors often occur at boundaries. Test values at the edges of equivalence partitions.
 
-### BVA for Numeric Parameters
+### 🔷 BVA for Numeric Parameters
 
 For a parameter with range [min, max], test:
 - min - 1
@@ -147,7 +147,7 @@ For a parameter with range [min, max], test:
 | At max | 100 | 200 OK (100 items) |
 | Above max | 101 | 400 Bad Request |
 
-### BVA for String Parameters
+### 🔷 BVA for String Parameters
 
 For a string with length constraints:
 - Empty string (if not allowed)
@@ -168,7 +168,7 @@ For a string with length constraints:
 | Max length | 20 chars | 20 |
 | Too long | 21 chars | 21 |
 
-### BVA for Arrays
+### 🔷 BVA for Arrays
 
 - Empty array (if not allowed)
 - 1 element
@@ -178,9 +178,9 @@ For a string with length constraints:
 
 ---
 
-## 2.4 Positive vs. Negative Testing
+## ⭐ 2.4 Positive vs. Negative Testing
 
-### Positive Testing
+### 🔷 Positive Testing
 
 Tests that use valid inputs and verify the API behaves as expected.
 
@@ -189,7 +189,7 @@ Tests that use valid inputs and verify the API behaves as expected.
 - Valid order with all required fields → 201 Created
 - Valid search query → 200 OK with results
 
-### Negative Testing
+### 🔷 Negative Testing
 
 Tests that use invalid inputs and verify the API handles errors appropriately.
 
@@ -199,7 +199,7 @@ Tests that use invalid inputs and verify the API handles errors appropriately.
 - Request to non-existent resource → 404 Not Found
 - Request that violates business rules → 409 Conflict or 422 Unprocessable
 
-### Importance of Negative Testing for APIs
+### 🔌 Importance of Negative Testing for APIs
 
 - **Security:** Negative tests reveal injection vulnerabilities
 - **Robustness:** APIs must handle bad input gracefully
@@ -208,13 +208,13 @@ Tests that use invalid inputs and verify the API handles errors appropriately.
 
 ---
 
-## 2.5 State Transition Testing for APIs
+## 🔄 2.5 State Transition Testing for APIs
 
-### When to Use
+### 🔷 When to Use
 
 APIs with sessions, workflows, or stateful operations (e.g., order status, payment processing).
 
-### Example: Order Status Workflow
+### 💡 Example: Order Status Workflow
 
 ```
 [Created] --submit--> [Submitted] --process--> [Processing] --ship--> [Shipped] --deliver--> [Delivered]
@@ -243,9 +243,9 @@ APIs with sessions, workflows, or stateful operations (e.g., order status, payme
 
 ---
 
-## 2.6 Error Guessing for APIs
+## 🔌 2.6 Error Guessing for APIs
 
-### Common API Errors to Guess
+### 🔌 Common API Errors to Guess
 
 **1. Authentication/Authorization:**
 - Missing token
@@ -275,9 +275,9 @@ APIs with sessions, workflows, or stateful operations (e.g., order status, payme
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Equivalence Partitioning
+### 💡 Worked Example 1: Equivalence Partitioning
 
 **Scenario:** API accepts a `priority` parameter with values: low, medium, high, critical.
 
@@ -297,7 +297,7 @@ APIs with sessions, workflows, or stateful operations (e.g., order status, payme
 6. priority = 123 → 400 Bad Request
 7. priority = null → 400 Bad Request
 
-### Worked Example 2: Boundary Value Analysis
+### 💡 Worked Example 2: Boundary Value Analysis
 
 **Scenario:** API accepts `amount` (decimal, 0.01 to 999,999.99) for a bank transfer.
 
@@ -313,7 +313,7 @@ APIs with sessions, workflows, or stateful operations (e.g., order status, payme
 | At maximum | 999,999.99 | 200 OK |
 | Above maximum | 1,000,000.00 | 400 Bad Request |
 
-### Worked Example 3: Combining EP and BVA
+### 💡 Worked Example 3: Combining EP and BVA
 
 **Scenario:** User registration API with parameters: `age` (integer, 18-100), `email` (valid format), `password` (8-50 chars).
 

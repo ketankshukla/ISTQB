@@ -1,12 +1,12 @@
-# Chapter 3 — Usability Evaluation Methods: Lessons
+# 📘 Chapter 3 — Usability Evaluation Methods: Lessons
 
 ---
 
-## 3.1 User-Based Evaluation Methods
+## ⭐ 3.1 User-Based Evaluation Methods
 
 User-based methods involve actual or representative users interacting with the product.
 
-### Think-Aloud Protocol
+### 🔷 Think-Aloud Protocol
 
 **Description:** Participants verbalize their thoughts, feelings, and reasoning while performing tasks.
 
@@ -36,7 +36,7 @@ User-based methods involve actual or representative users interacting with the p
 - Ask "What are you thinking?" if the participant goes silent
 - Do not answer questions — instead ask "What would you expect to happen?"
 
-### Co-Discovery
+### 🔷 Co-Discovery
 
 **Description:** Two participants work together on tasks and discuss their thought process naturally.
 
@@ -61,7 +61,7 @@ User-based methods involve actual or representative users interacting with the p
 - When think-aloud feels too artificial
 - Testing with children or less verbal participants
 
-### Retrospective Testing
+### 🔷 Retrospective Testing
 
 **Description:** Participants complete tasks silently, then review a recording and comment.
 
@@ -86,7 +86,7 @@ User-based methods involve actual or representative users interacting with the p
 - When think-aloud significantly changes behavior
 - Testing with experts whose workflow should not be disrupted
 
-### Moderated vs. Unmoderated Testing
+### 🔷 Moderated vs. Unmoderated Testing
 
 **Moderated Testing:**
 - A facilitator is present (in-person or remote)
@@ -104,11 +104,11 @@ User-based methods involve actual or representative users interacting with the p
 
 ---
 
-## 3.2 Expert-Based Evaluation Methods
+## ⭐ 3.2 Expert-Based Evaluation Methods
 
 Expert-based methods use usability specialists to evaluate the product without users.
 
-### Heuristic Evaluation
+### 🔷 Heuristic Evaluation
 
 **Description:** Experts evaluate an interface against established usability principles (heuristics).
 
@@ -140,7 +140,7 @@ Expert-based methods use usability specialists to evaluate the product without u
 - Quick checks between user testing rounds
 - When user testing is not feasible
 
-### Cognitive Walkthrough
+### 🔷 Cognitive Walkthrough
 
 **Description:** Experts simulate a user's problem-solving process at each step of a task to evaluate learnability.
 
@@ -170,7 +170,7 @@ Expert-based methods use usability specialists to evaluate the product without u
 - Testing walk-up-and-use interfaces
 - When the primary concern is first-time learnability
 
-### Guideline Review (Guideline-Based Review)
+### 🔎 Guideline Review (Guideline-Based Review)
 
 **Description:** Experts evaluate a product against a specific set of documented guidelines or standards.
 
@@ -203,7 +203,7 @@ Expert-based methods use usability specialists to evaluate the product without u
 - Accessibility audits
 - Ensuring platform consistency
 
-### Pluralistic Walkthrough
+### 🔷 Pluralistic Walkthrough
 
 **Description:** A review method involving users, developers, and usability specialists working together.
 
@@ -233,9 +233,9 @@ Expert-based methods use usability specialists to evaluate the product without u
 
 ---
 
-## 3.3 Method Comparison and Selection
+## ⭐ 3.3 Method Comparison and Selection
 
-### Comparison Matrix
+### 🔷 Comparison Matrix
 
 | Criterion | Think-Aloud | Heuristic Eval | Cognitive Walkthrough | Guideline Review |
 |-----------|-------------|----------------|----------------------|------------------|
@@ -250,7 +250,7 @@ Expert-based methods use usability specialists to evaluate the product without u
 | Satisfaction focus | Yes | Limited | Limited | Limited |
 | Real user data | Yes | No | No | No |
 
-### Selection Guidelines
+### 🔷 Selection Guidelines
 
 **Choose User-Based Methods When:**
 - You need to understand real user behavior
@@ -275,9 +275,9 @@ Expert-based methods use usability specialists to evaluate the product without u
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Method Selection
+### 💡 Worked Example 1: Method Selection
 
 **Scenario:** A startup has a limited budget and needs quick feedback on a mobile app prototype before their next funding round.
 
@@ -289,7 +289,7 @@ Expert-based methods use usability specialists to evaluate the product without u
 
 **Follow-up:** After fixing heuristic issues, conduct a small user test (5 users) to validate before the funding presentation.
 
-### Worked Example 2: Cognitive Walkthrough Application
+### 💡 Worked Example 2: Cognitive Walkthrough Application
 
 **Scenario:** Evaluate whether a new user can successfully sign up for an account.
 
@@ -315,7 +315,7 @@ Expert-based methods use usability specialists to evaluate the product without u
 
 **Summary:** Two potential learnability issues identified for new users.
 
-### Worked Example 3: Heuristic Evaluation Findings
+### 💡 Worked Example 3: Heuristic Evaluation Findings
 
 **Product:** E-commerce checkout process
 

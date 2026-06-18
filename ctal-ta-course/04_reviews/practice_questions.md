@@ -1,8 +1,8 @@
-# Chapter 4 — Reviews: Practice Questions
+# ❓ Chapter 4 — Reviews: Practice Questions
 
 ---
 
-### Q1 (TA-4.1, K2)
+### 🔷 Q1 (TA-4.1, K2)
 
 Which review type is MOST appropriate for a quick peer check of a draft requirements document before formal review?
 
@@ -13,7 +13,7 @@ D. Informal Review
 
 ---
 
-### Q2 (TA-4.1, K2)
+### 🔷 Q2 (TA-4.1, K2)
 
 In which review type does the AUTHOR typically present and explain the work product to the participants?
 
@@ -24,7 +24,7 @@ D. Technical Review
 
 ---
 
-### Q3 (TA-4.2, K2)
+### 🔷 Q3 (TA-4.2, K2)
 
 During which stage of the review process do reviewers examine the document independently before the meeting?
 
@@ -35,7 +35,7 @@ D. Rework
 
 ---
 
-### Q4 (TA-4.3, K2)
+### 🔷 Q4 (TA-4.3, K2)
 
 Who is responsible for FACILITATING the review meeting and ensuring it stays focused?
 
@@ -46,7 +46,7 @@ D. The Scribe
 
 ---
 
-### Q5 (TA-4.2, K2)
+### 🔷 Q5 (TA-4.2, K2)
 
 In an inspection, what should the author do when reviewers identify issues?
 
@@ -57,7 +57,7 @@ D. Dismiss issues that are considered minor
 
 ---
 
-### Q6 (TA-4.1, K2)
+### 🔷 Q6 (TA-4.1, K2)
 
 Which review type is MOST formal, typically uses checklists, collects metrics, and requires trained participants?
 
@@ -68,7 +68,7 @@ D. Inspection
 
 ---
 
-### Q7 (TA-4.2, K3)
+### 🔷 Q7 (TA-4.2, K3)
 
 During a technical review meeting, participants start discussing detailed solutions for each defect identified. The meeting is running over time and many defects remain unreviewed. What should the moderator do?
 
@@ -79,7 +79,7 @@ D. Cancel the rest of the meeting
 
 ---
 
-### Q8 (TA-4.3, K2)
+### 🔷 Q8 (TA-4.3, K2)
 
 The project manager decides whether to conduct a review, allocates resources, and monitors review effectiveness. This describes the role of:
 
@@ -90,7 +90,7 @@ D. Reviewer
 
 ---
 
-### Q9 (TA-4.4, K2)
+### 🔷 Q9 (TA-4.4, K2)
 
 Which of the following is a KEY success factor for effective reviews?
 
@@ -101,7 +101,7 @@ D. As many reviewers as possible participate
 
 ---
 
-### Q10 (TA-4.1, K2)
+### 🔷 Q10 (TA-4.1, K2)
 
 A safety-critical aviation software component requires the most thorough possible review with full traceability and metrics. Which review type is MOST appropriate?
 
@@ -112,7 +112,7 @@ D. Inspection
 
 ---
 
-### Q11 (TA-4.2, K2)
+### 🔷 Q11 (TA-4.2, K2)
 
 Which stage of the review process involves the author fixing the defects identified during the review meeting?
 
@@ -123,7 +123,7 @@ D. Rework
 
 ---
 
-### Q12 (TA-4.3, K2)
+### 🔷 Q12 (TA-4.3, K2)
 
 Who is responsible for recording all issues, defects, and action items during a formal review meeting?
 
@@ -134,7 +134,7 @@ D. The Scribe
 
 ---
 
-### Q13 (TA-4.4, K2)
+### 🔷 Q13 (TA-4.4, K2)
 
 A review of a 200-page requirements document is planned. Which action is MOST likely to improve review effectiveness?
 
@@ -145,7 +145,7 @@ D. Skip the preparation stage to save time
 
 ---
 
-### Q14 (TA-4.2, K2)
+### 🔷 Q14 (TA-4.2, K2)
 
 Entry criteria for a formal review include all of the following EXCEPT:
 
@@ -156,7 +156,7 @@ D. The author has prepared solutions for all anticipated defects
 
 ---
 
-### Q15 (TA-4.1, K2)
+### 🔷 Q15 (TA-4.1, K2)
 
 Which review type is BEST suited for educating new team members about a complex design while also finding defects?
 
@@ -167,79 +167,79 @@ D. Inspection
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: D**
 
 **Rationale:** An informal review is a quick peer check with minimal process, ideal for early drafts before formal review.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** In a walkthrough, the author leads the session, presenting and explaining the document. In inspections, a moderator leads. In informal reviews, there may be no meeting.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** Preparation (individual review) is when reviewers examine the document independently before the meeting. This is essential for technical reviews and inspections.
 
-### Q4
+### 🔷 Q4
 **Answer: C**
 
 **Rationale:** The moderator facilitates the meeting, manages time, and keeps the discussion focused. The manager decides resources. The author created the document. The scribe records issues.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** In inspections, the author listens to comments and answers factual questions but does not defend the document. Defending is counterproductive to defect detection.
 
-### Q6
+### 🔷 Q6
 **Answer: D**
 
 **Rationale:** Inspection is the most formal review type. It uses checklists, collects metrics, requires trained participants, and follows a strict process with entry/exit criteria.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** A key principle of reviews is to focus on identifying defects, not solving them. Solutions are discussed during rework or in separate problem-solving sessions.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** The manager decides whether to review, allocates resources, and monitors effectiveness. The moderator facilitates. The author creates the work product. Reviewers examine the product.
 
-### Q9
+### 🔷 Q9
 **Answer: C**
 
 **Rationale:** Focusing on finding defects (not solving them) keeps meetings efficient. Author defense (A), unprepared reviewers (B), and too many participants (D) are all pitfalls.
 
-### Q10
+### 🔷 Q10
 **Answer: D**
 
 **Rationale:** Safety-critical software requires the most formal review type — inspection — with full traceability, metrics, checklists, and trained inspectors.
 
-### Q11
+### 🔷 Q11
 **Answer: D**
 
 **Rationale:** Rework is the stage where the author fixes identified defects. Planning sets up the review. Preparation is individual examination. The review meeting identifies defects.
 
-### Q12
+### 🔷 Q12
 **Answer: D**
 
 **Rationale:** The scribe records all issues, defects, and action items during the meeting. This ensures accurate documentation and frees other participants to focus on review.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** Reviewing in manageable chunks (typically 20-50 pages per session) improves effectiveness. Single long sessions (A) reduce attention. One reviewer (C) misses perspectives. Skipping preparation (D) wastes meeting time.
 
-### Q14
+### 🔷 Q14
 **Answer: D**
 
 **Rationale:** Preparing solutions for anticipated defects is not an entry criterion and may bias the review. Entry criteria focus on document completeness, standards compliance, and readiness.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** Walkthroughs are well-suited for education — the author presents the design, explains it, and participants learn while also finding defects.

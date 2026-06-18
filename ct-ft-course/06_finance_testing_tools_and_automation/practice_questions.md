@@ -1,8 +1,8 @@
-# Chapter 6 — Finance Testing Tools and Automation: Practice Questions
+# ❓ Chapter 6 — Finance Testing Tools and Automation: Practice Questions
 
 ---
 
-### Q1 (FT-6.1, K2)
+### 🔷 Q1 (FT-6.1, K2)
 
 Production financial data used in testing must be:
 
@@ -13,7 +13,7 @@ D. Stored without encryption
 
 ---
 
-### Q2 (FT-6.2, K2)
+### 🔷 Q2 (FT-6.2, K2)
 
 Historical market data replay is used for:
 
@@ -24,7 +24,7 @@ D. Social media analysis
 
 ---
 
-### Q3 (FT-6.3, K2)
+### 🔷 Q3 (FT-6.3, K2)
 
 A reconciliation tool identifies a "break" when:
 
@@ -35,7 +35,7 @@ D. A user logs out
 
 ---
 
-### Q4 (FT-6.4, K2)
+### 🔷 Q4 (FT-6.4, K2)
 
 FIX protocol is primarily used for:
 
@@ -46,7 +46,7 @@ D. Video streaming
 
 ---
 
-### Q5 (FT-6.1, K2)
+### 🔷 Q5 (FT-6.1, K2)
 
 Synthetic test data generation is preferred when:
 
@@ -57,7 +57,7 @@ D. The system has no calculations
 
 ---
 
-### Q6 (FT-6.2, K2)
+### 🔷 Q6 (FT-6.2, K2)
 
 A market data simulator that generates prices based on statistical models is:
 
@@ -68,7 +68,7 @@ D. A payment gateway
 
 ---
 
-### Q7 (FT-6.3, K2)
+### 🔷 Q7 (FT-6.3, K2)
 
 Duco is an example of a:
 
@@ -79,7 +79,7 @@ D. Trading exchange
 
 ---
 
-### Q8 (FT-6.4, K2)
+### 🔷 Q8 (FT-6.4, K2)
 
 QuickFIX is:
 
@@ -90,7 +90,7 @@ D. A UI automation tool
 
 ---
 
-### Q9 (FT-6.5, K2)
+### 🔷 Q9 (FT-6.5, K2)
 
 Golden source comparison in finance testing means:
 
@@ -101,7 +101,7 @@ D. Using only production data
 
 ---
 
-### Q10 (FT-6.6, K2)
+### 🔷 Q10 (FT-6.6, K2)
 
 In a regulated CI/CD pipeline, production deployment should:
 
@@ -112,7 +112,7 @@ D. Skip testing to save time
 
 ---
 
-### Q11 (FT-6.1, K2)
+### 🔷 Q11 (FT-6.1, K2)
 
 Referential integrity in test data means:
 
@@ -123,7 +123,7 @@ D. Data is compressed
 
 ---
 
-### Q12 (FT-6.2, K2)
+### 🔷 Q12 (FT-6.2, K2)
 
 Stress testing a trading algorithm with a scenario simulator models:
 
@@ -134,7 +134,7 @@ D. Employee login behavior
 
 ---
 
-### Q13 (FT-6.3, K2)
+### 🔷 Q13 (FT-6.3, K2)
 
 Manual matching in reconciliation is required when:
 
@@ -145,7 +145,7 @@ D. The system is offline
 
 ---
 
-### Q14 (FT-6.4, K2)
+### 🔷 Q14 (FT-6.4, K2)
 
 In FIX protocol, message type "D" represents:
 
@@ -156,7 +156,7 @@ D. Heartbeat
 
 ---
 
-### Q15 (FT-6.5, K2)
+### 🔷 Q15 (FT-6.5, K2)
 
 Round-trip testing in finance systems verifies:
 
@@ -167,7 +167,7 @@ D. Only the login process
 
 ---
 
-### Q16 (FT-6.6, K2)
+### 🔷 Q16 (FT-6.6, K2)
 
 A quality gate in a regulated CI/CD pipeline might require:
 
@@ -178,7 +178,7 @@ D. Only that the deployment is fast
 
 ---
 
-### Q17 (FT-6.1, K2)
+### 🔷 Q17 (FT-6.1, K2)
 
 Which tool is commonly used for data masking?
 
@@ -189,7 +189,7 @@ D. Cucumber
 
 ---
 
-### Q18 (FT-6.2, K2)
+### 🔷 Q18 (FT-6.2, K2)
 
 Backtesting a trading strategy means:
 
@@ -200,7 +200,7 @@ D. Testing only during market hours
 
 ---
 
-### Q19 (FT-6.3, K2)
+### 🔷 Q19 (FT-6.3, K2)
 
 A tolerance match in reconciliation accepts records when:
 
@@ -211,7 +211,7 @@ D. They have the same user ID
 
 ---
 
-### Q20 (FT-6.4, K2)
+### 🔷 Q20 (FT-6.4, K2)
 
 FIX session recovery after a network interruption involves:
 
@@ -222,84 +222,84 @@ D. Creating a new session
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** Production data must be masked/anonymized for privacy and security.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** Historical replay reproduces actual past market conditions for regression.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** A break occurs when records don't match within defined tolerances.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** FIX is the standard protocol for electronic trading.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Synthetic data avoids privacy issues with real customer data.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Synthetic generators create prices from statistical models, not historical data.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Duco is a cloud-based reconciliation platform.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** QuickFIX is an open-source FIX engine.
 
-### Q9
+### 🔷 Q9
 **Answer: A**
 **Rationale:** Golden source = trusted reference for comparison.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** Regulated environments require separate approval for production deployment.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Referential integrity preserves relationships between related tables.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Scenario simulators model extreme events for stress testing.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Manual matching resolves breaks that automated rules can't handle.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** FIX msg type 35=D is New Order - Single.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Round-trip testing covers the full transaction lifecycle.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Quality gates in regulated pipelines include tests, security, and reviews.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Delphix is a data masking and virtualization tool.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Backtesting evaluates strategy against historical data.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Tolerance match accepts records within a defined acceptable difference.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** FIX recovery uses Resend Request to fill sequence gaps.

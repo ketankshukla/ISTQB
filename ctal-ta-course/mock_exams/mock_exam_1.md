@@ -1,4 +1,4 @@
-# CTAL-TA Mock Exam 1
+# 📝 CTAL-TA Mock Exam 1
 
 **Instructions:**
 - 40 questions
@@ -8,7 +8,7 @@
 
 ---
 
-### Q1
+### 🔷 Q1
 
 In a sequential (waterfall) lifecycle, test design typically occurs during which phase?
 
@@ -19,7 +19,7 @@ D. Testing phase
 
 ---
 
-### Q2
+### 🔷 Q2
 
 A test analyst identifies that a requirement for password length is ambiguous. What is the MOST appropriate action?
 
@@ -30,7 +30,7 @@ D. Skip testing the password feature
 
 ---
 
-### Q3
+### 🔷 Q3
 
 A system accepts ages from 18 to 65. Using 2-value BVA, which values should be tested?
 
@@ -41,7 +41,7 @@ D. 18, 40, 65
 
 ---
 
-### Q4
+### 🔷 Q4
 
 A decision table has 4 binary conditions. How many rules are in the full table before removing impossible rules?
 
@@ -52,7 +52,7 @@ D. 20
 
 ---
 
-### Q5
+### 🔷 Q5
 
 In state transition testing, 1-switch coverage means:
 
@@ -63,7 +63,7 @@ D. Every invalid transition is tested
 
 ---
 
-### Q6
+### 🔷 Q6
 
 Which review type is MOST formal and typically uses checklists, trained participants, and metrics collection?
 
@@ -74,7 +74,7 @@ D. Inspection
 
 ---
 
-### Q7
+### 🔷 Q7
 
 During an inspection, the author should:
 
@@ -85,7 +85,7 @@ D. Dismiss minor issues as not worth fixing
 
 ---
 
-### Q8
+### 🔷 Q8
 
 A system guarantees 99.9% uptime. This requirement addresses which quality characteristic?
 
@@ -96,7 +96,7 @@ D. Maintainability
 
 ---
 
-### Q9
+### 🔷 Q9
 
 A tester verifies that a user cannot access another user's account without authorization. This validates:
 
@@ -107,7 +107,7 @@ D. Authenticity
 
 ---
 
-### Q10
+### 🔷 Q10
 
 Which test type is MOST appropriate for finding the maximum load a system can handle before failing?
 
@@ -118,7 +118,7 @@ D. Volume Testing
 
 ---
 
-### Q11
+### 🔷 Q11
 
 In a keyword-driven framework, test cases are written as:
 
@@ -129,7 +129,7 @@ D. SQL queries
 
 ---
 
-### Q12
+### 🔷 Q12
 
 A test management tool typically provides:
 
@@ -140,7 +140,7 @@ D. Automated UI test execution
 
 ---
 
-### Q13
+### 🔷 Q13
 
 For multiple input conditions, BVA should be applied:
 
@@ -151,7 +151,7 @@ D. Only after all conditions have been tested with EP
 
 ---
 
-### Q14
+### 🔷 Q14
 
 A use case has 1 main flow, 2 alternative flows, and 3 exception flows. What is the MINIMUM number of test cases to cover all flows?
 
@@ -162,7 +162,7 @@ D. 7
 
 ---
 
-### Q15
+### 🔷 Q15
 
 Which of the following is a PRIMARY difference between test analysis and test design?
 
@@ -173,7 +173,7 @@ D. Test analysis is optional; test design is mandatory
 
 ---
 
-### Q16
+### 🔷 Q16
 
 The moderator's role in a formal review is to:
 
@@ -184,7 +184,7 @@ D. Decide whether the review should happen
 
 ---
 
-### Q17
+### 🔷 Q17
 
 A system has two fields: X (1-10) and Y (1-10). Using single-fault 2-value BVA, how many test cases are needed?
 
@@ -195,7 +195,7 @@ D. 16
 
 ---
 
-### Q18
+### 🔷 Q18
 
 Which automation approach produces the most maintainable scripts for a frequently changing web UI?
 
@@ -206,7 +206,7 @@ D. Manual testing with screenshots
 
 ---
 
-### Q19
+### 🔷 Q19
 
 A system must run on iOS, Android, and Windows Mobile. This requirement addresses:
 
@@ -217,7 +217,7 @@ D. Suitability
 
 ---
 
-### Q20
+### 🔷 Q20
 
 In session-based test management (SBTM), a test charter defines:
 
@@ -228,7 +228,7 @@ D. The entry criteria for test execution
 
 ---
 
-### Q21
+### 🔷 Q21
 
 A system calculates sales tax at 8% for orders shipped to California. A test verifies that a $200 order produces $16.00 tax. This validates:
 
@@ -239,7 +239,7 @@ D. Maintainability
 
 ---
 
-### Q22
+### 🔷 Q22
 
 Which metric measures the average time between system failures?
 
@@ -250,7 +250,7 @@ D. Response Time
 
 ---
 
-### Q23
+### 🔷 Q23
 
 A team introduces a new test automation tool. The FIRST recommended step is:
 
@@ -261,7 +261,7 @@ D. Build a custom tool from scratch
 
 ---
 
-### Q24
+### 🔷 Q24
 
 In a data-driven framework, test data is typically stored:
 
@@ -272,7 +272,7 @@ D. In the application's production database
 
 ---
 
-### Q25
+### 🔷 Q25
 
 Static analysis tools are used to:
 
@@ -283,7 +283,7 @@ D. Simulate concurrent user load
 
 ---
 
-### Q26
+### 🔷 Q26
 
 A review where the author presents the document to stakeholders for education and consensus is:
 
@@ -294,7 +294,7 @@ D. Technical Review
 
 ---
 
-### Q27
+### 🔷 Q27
 
 A system must handle a sudden increase from 100 to 10,000 users in 2 minutes. The appropriate test type is:
 
@@ -305,7 +305,7 @@ D. Endurance Testing
 
 ---
 
-### Q28
+### 🔷 Q28
 
 Which of the following is a valid partition for an "Priority" field with values Low, Medium, High?
 
@@ -316,7 +316,7 @@ D. Valid: Numeric values; Invalid: Text values
 
 ---
 
-### Q29
+### 🔷 Q29
 
 Error guessing is BEST described as:
 
@@ -327,7 +327,7 @@ D. A technique using pairwise combinations
 
 ---
 
-### Q30
+### 🔷 Q30
 
 A decision table has 3 conditions: A (2 values), B (3 values), C (2 values). How many rules are needed for full coverage before removing impossible rules?
 
@@ -338,7 +338,7 @@ D. 24
 
 ---
 
-### Q31
+### 🔷 Q31
 
 The entry criterion "Build must pass smoke tests" is an example of:
 
@@ -349,7 +349,7 @@ D. Resumption criterion
 
 ---
 
-### Q32
+### 🔷 Q32
 
 In an inspection, metrics such as defect density and preparation time are typically:
 
@@ -360,7 +360,7 @@ D. Shared publicly with all stakeholders
 
 ---
 
-### Q33
+### 🔷 Q33
 
 A system continues to serve requests when a database server fails because a standby server takes over. This demonstrates:
 
@@ -371,7 +371,7 @@ D. Efficiency
 
 ---
 
-### Q34
+### 🔷 Q34
 
 Which of the following is a COMMON risk in test automation?
 
@@ -382,7 +382,7 @@ D. Test automation guarantees zero defects in production
 
 ---
 
-### Q35
+### 🔷 Q35
 
 A test team notices that defect detection rate is declining while test execution is on schedule. The MOST appropriate action is:
 
@@ -393,7 +393,7 @@ D. Remove passed test cases to save time
 
 ---
 
-### Q36
+### 🔷 Q36
 
 For a range [100, 999], 3-value BVA tests which values?
 
@@ -404,7 +404,7 @@ D. 99, 101, 997, 1001
 
 ---
 
-### Q37
+### 🔷 Q37
 
 A system exports data in JSON, XML, and CSV formats for partner integration. This testing validates:
 
@@ -415,7 +415,7 @@ D. Accuracy
 
 ---
 
-### Q38
+### 🔷 Q38
 
 Which of the following is NOT a stage of the review process?
 
@@ -426,7 +426,7 @@ D. Rework
 
 ---
 
-### Q39
+### 🔷 Q39
 
 A system requires 8-character passwords with at least one uppercase, one lowercase, and one digit. Using EP, how many invalid partitions exist at minimum?
 
@@ -437,7 +437,7 @@ D. 5
 
 ---
 
-### Q40
+### 🔷 Q40
 
 ROI for test automation is typically:
 
@@ -448,4 +448,4 @@ D. Not measurable for software testing
 
 ---
 
-## End of Mock Exam 1
+## 📝 End of Mock Exam 1

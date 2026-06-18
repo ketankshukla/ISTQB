@@ -1,8 +1,8 @@
-# Chapter 1 — Introduction to Big Data Testing: Practice Questions
+# ❓ Chapter 1 — Introduction to Big Data Testing: Practice Questions
 
 ---
 
-### Q1 (BD-1.1, K1)
+### 🔷 Q1 (BD-1.1, K1)
 
 Which of the following is one of the 5 Vs of Big Data?
 
@@ -13,7 +13,7 @@ D. Visualization
 
 ---
 
-### Q2 (BD-1.1, K2)
+### 🔷 Q2 (BD-1.1, K2)
 
 A retail company processes 50TB of transaction data daily, with data arriving from web, mobile, and in-store POS systems in structured, JSON, and log formats. This BEST demonstrates:
 
@@ -24,7 +24,7 @@ D. Only Volume
 
 ---
 
-### Q3 (BD-1.2, K2)
+### 🔷 Q3 (BD-1.2, K2)
 
 JSON log files from web servers are an example of:
 
@@ -35,7 +35,7 @@ D. Relational data
 
 ---
 
-### Q4 (BD-1.2, K2)
+### 🔷 Q4 (BD-1.2, K2)
 
 Social media posts in free-form text are an example of:
 
@@ -46,7 +46,7 @@ D. Tabular data
 
 ---
 
-### Q5 (BD-1.3, K2)
+### 🔷 Q5 (BD-1.3, K2)
 
 A data lake applies schema:
 
@@ -57,7 +57,7 @@ D. Only for structured data
 
 ---
 
-### Q6 (BD-1.3, K2)
+### 🔷 Q6 (BD-1.3, K2)
 
 A data warehouse applies schema:
 
@@ -68,7 +68,7 @@ D. Only for unstructured data
 
 ---
 
-### Q7 (BD-1.4, K2)
+### 🔷 Q7 (BD-1.4, K2)
 
 Which is a PRIMARY difference between traditional testing and Big Data testing?
 
@@ -79,7 +79,7 @@ D. Traditional testing does not use databases
 
 ---
 
-### Q8 (BD-1.4, K2)
+### 🔷 Q8 (BD-1.4, K2)
 
 In Big Data testing, validating that "all source transactions arrived in the target system" is an example of:
 
@@ -90,7 +90,7 @@ D. Security testing
 
 ---
 
-### Q9 (BD-1.5, K2)
+### 🔷 Q9 (BD-1.5, K2)
 
 A Big Data pipeline receives 2% of records with invalid timestamps. The MOST appropriate test approach is:
 
@@ -101,7 +101,7 @@ D. Stop all data ingestion
 
 ---
 
-### Q10 (BD-1.5, K2)
+### 🔷 Q10 (BD-1.5, K2)
 
 Schema-on-read introduces a testing challenge because:
 
@@ -112,7 +112,7 @@ D. It only works for structured data
 
 ---
 
-### Q11 (BD-1.1, K1)
+### 🔷 Q11 (BD-1.1, K1)
 
 The "V" in the 5 Vs that refers to data quality, accuracy, and trustworthiness is:
 
@@ -123,7 +123,7 @@ D. Value
 
 ---
 
-### Q12 (BD-1.2, K2)
+### 🔷 Q12 (BD-1.2, K2)
 
 A relational database table with fixed columns and data types contains:
 
@@ -134,7 +134,7 @@ D. Binary data
 
 ---
 
-### Q13 (BD-1.3, K2)
+### 🔷 Q13 (BD-1.3, K2)
 
 Which is a PRIMARY characteristic of a data warehouse?
 
@@ -145,7 +145,7 @@ D. Used only by data scientists
 
 ---
 
-### Q14 (BD-1.4, K2)
+### 🔷 Q14 (BD-1.4, K2)
 
 Testing a MapReduce job that runs across 50 nodes requires special attention to:
 
@@ -156,7 +156,7 @@ D. Mobile responsiveness
 
 ---
 
-### Q15 (BD-1.5, K2)
+### 🔷 Q15 (BD-1.5, K2)
 
 Shift-left testing in a Big Data context means:
 
@@ -167,7 +167,7 @@ D. Testing only the user interface
 
 ---
 
-### Q16 (BD-1.1, K2)
+### 🔷 Q16 (BD-1.1, K2)
 
 The "Value" V in Big Data refers to:
 
@@ -178,7 +178,7 @@ D. The volume of data stored
 
 ---
 
-### Q17 (BD-1.2, K2)
+### 🔷 Q17 (BD-1.2, K2)
 
 Video files stored for content analysis are:
 
@@ -189,7 +189,7 @@ D. Metadata
 
 ---
 
-### Q18 (BD-1.3, K2)
+### 🔷 Q18 (BD-1.3, K2)
 
 A data scientist needs to explore raw clickstream data to build a new machine learning model. The BEST storage solution is:
 
@@ -200,7 +200,7 @@ D. Spreadsheet
 
 ---
 
-### Q19 (BD-1.4, K2)
+### 🔷 Q19 (BD-1.4, K2)
 
 Validating that `SUM(sales_amount)` in the source equals `SUM(sales_amount)` in the target is:
 
@@ -211,7 +211,7 @@ D. Unit testing
 
 ---
 
-### Q20 (BD-1.5, K2)
+### 🔷 Q20 (BD-1.5, K2)
 
 Which is a challenge specific to Big Data testing?
 
@@ -222,104 +222,104 @@ D. Using JUnit
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** The 5 Vs are Volume, Velocity, Variety, Veracity, and Value. Velocity is one of them.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** 50TB daily = Volume; arriving continuously from multiple sources = Velocity; multiple formats (structured, JSON, logs) = Variety.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** JSON has structure (key-value pairs) but is flexible = semi-structured.
 
-### Q4
+### 🔷 Q4
 **Answer: C**
 
 **Rationale:** Free-form text has no predefined structure = unstructured.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** Data lake = schema-on-read (applied when data is accessed).
 
-### Q6
+### 🔷 Q6
 **Answer: A**
 
 **Rationale:** Data warehouse = schema-on-write (structure defined before loading).
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** Big Data scale makes row-by-row comparison impractical. Sampling and aggregation are used.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** "All source arrived in target" = ingestion completeness testing.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** Big Data systems must handle imperfect data gracefully. Test the error handling rules.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** Schema-on-read = different consumers may interpret data differently. Each schema assumption must be validated.
 
-### Q11
+### 🔷 Q11
 **Answer: C**
 
 **Rationale:** Veracity = quality, accuracy, and trustworthiness of data.
 
-### Q12
+### 🔷 Q12
 **Answer: C**
 
 **Rationale:** Relational table with fixed schema = structured data.
 
-### Q13
+### 🔷 Q13
 **Answer: C**
 
 **Rationale:** Data warehouse = processed, structured data for reporting.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** Distributed processing requires validating that partial results combine correctly.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** Shift-left = test early and often at each stage.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 
 **Rationale:** Value = usefulness and insights derived from data.
 
-### Q17
+### 🔷 Q17
 **Answer: C**
 
 **Rationale:** Video files have no predefined structure = unstructured.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 
 **Rationale:** Raw data exploration for ML = data lake (schema-on-read, flexible).
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** SUM comparison = aggregation-based reconciliation (not row-by-row).
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 
 **Rationale:** TB-scale test data generation is a Big Data-specific challenge.

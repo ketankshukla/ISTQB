@@ -1,10 +1,10 @@
-# Chapter 6 — Non-Functional Testing: Lessons
+# 📘 Chapter 6 — Non-Functional Testing: Lessons
 
 ---
 
-## 6.1 Performance Testing
+## ⚡ 6.1 Performance Testing
 
-### Performance Testing Types
+### 🧪 Performance Testing Types
 
 **1. Load Testing:**
 - Tests system behavior under expected user load
@@ -41,7 +41,7 @@
 - Database performance with millions of records
 - **Goal:** Does the system handle large datasets efficiently?
 
-### Performance Metrics
+### 📊 Performance Metrics
 
 | Metric | Definition | Target Example |
 |--------|-----------|----------------|
@@ -52,7 +52,7 @@
 | Error Rate | Percentage of failed requests | < 0.1% |
 | Concurrent Users | Number of simultaneous active users | Support 10,000 |
 
-### Performance Test Environment
+### ⚡ Performance Test Environment
 
 **Requirements:**
 - Production-like hardware and network
@@ -65,7 +65,7 @@
 - **Scaled-down environment:** Smaller but proportionally representative
 - **Cloud-based on-demand:** Spin up for testing, tear down after
 
-### Performance Test Design
+### 🎨 Performance Test Design
 
 **1. Define Performance Requirements:**
 - Response time thresholds
@@ -97,9 +97,9 @@
 
 ---
 
-## 6.2 Security Testing
+## 🔒 6.2 Security Testing
 
-### Security Testing Types
+### 🧪 Security Testing Types
 
 **1. SAST (Static Application Security Testing):**
 - Analyzes source code without execution
@@ -131,7 +131,7 @@
 - **When:** During development and testing
 - **Tools:** AFL, Peach Fuzzer, libFuzzer
 
-### Common Security Vulnerabilities
+### 🔒 Common Security Vulnerabilities
 
 | Vulnerability | Description | Test Technique |
 |---------------|-------------|----------------|
@@ -144,7 +144,7 @@
 | Security Misconfiguration | Default settings, unnecessary features, error messages | Configuration review, hardening checklists |
 | Broken Access Control | Users accessing resources beyond their permissions | Role-based access testing, privilege escalation tests |
 
-### Security Testing Process
+### 🔒 Security Testing Process
 
 **Phase 1: Planning**
 - Define scope (what to test, what to exclude)
@@ -173,9 +173,9 @@
 
 ---
 
-## 6.3 Reliability Testing
+## ⭐ 6.3 Reliability Testing
 
-### Reliability Concepts
+### 🔷 Reliability Concepts
 
 **Reliability:** The ability of a system to operate without failure under given conditions for a given time.
 
@@ -187,7 +187,7 @@ Where:
 - MTBF = Mean Time Between Failures
 - MTTR = Mean Time To Repair/Recover
 
-### Reliability Testing Types
+### 🧪 Reliability Testing Types
 
 **1. Availability Testing:**
 - Measures uptime vs. downtime
@@ -213,7 +213,7 @@ Where:
 - Validates data integrity after recovery
 - **Technique:** Restore from backups to clean environment
 
-### Reliability Metrics
+### 📊 Reliability Metrics
 
 | Metric | Definition | Example Target |
 |--------|-----------|----------------|
@@ -224,9 +224,9 @@ Where:
 
 ---
 
-## 6.4 Compatibility Testing
+## ⭐ 6.4 Compatibility Testing
 
-### Compatibility Testing Types
+### 🧪 Compatibility Testing Types
 
 **1. Browser Compatibility:**
 - Test on different browsers (Chrome, Firefox, Safari, Edge)
@@ -253,7 +253,7 @@ Where:
 - Works on different network speeds (3G, 4G, 5G, Wi-Fi)
 - Handles intermittent connectivity
 
-### Compatibility Testing Strategy
+### ♟️ Compatibility Testing Strategy
 
 **Matrix Approach:**
 
@@ -271,9 +271,9 @@ Where:
 
 ---
 
-## 6.5 Usability and Accessibility Testing
+## 🖱️ 6.5 Usability and Accessibility Testing
 
-### Usability Testing
+### 🖱️ Usability Testing
 
 Usability testing evaluates how easy the system is to learn and use.
 
@@ -290,7 +290,7 @@ Usability testing evaluates how easy the system is to learn and use.
 - Test keyboard navigation and shortcuts
 - Test response times for interactive elements
 
-### Accessibility Testing
+### 🔷 Accessibility Testing
 
 Accessibility testing ensures the application can be used by people with disabilities.
 
@@ -309,9 +309,9 @@ Accessibility testing ensures the application can be used by people with disabil
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Performance Test Design
+### 💡 Worked Example 1: Performance Test Design
 
 **Scenario:** An e-commerce site must handle Black Friday traffic.
 
@@ -331,7 +331,7 @@ Accessibility testing ensures the application can be used by people with disabil
 | Soak | 30,000 users | 72 hours | Detect memory leaks |
 | Spike | 1,000 → 50,000 in 2 min | 15 min | Handle sudden traffic burst |
 
-### Worked Example 2: Security Test Scenarios
+### 💡 Worked Example 2: Security Test Scenarios
 
 **Scenario:** Test a web application login system.
 
@@ -344,7 +344,7 @@ Accessibility testing ensures the application can be used by people with disabil
 | Direct URL access | Manual | Unauthorized access blocked |
 | Password strength | Static review | Minimum complexity enforced |
 
-### Worked Example 3: Reliability Calculation
+### 💡 Worked Example 3: Reliability Calculation
 
 **Given:**
 - System runs for 720 hours

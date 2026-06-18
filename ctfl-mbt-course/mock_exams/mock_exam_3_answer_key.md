@@ -1,4 +1,4 @@
-# Mock Exam 3 — Answer Key
+# 📝 Mock Exam 3 — Answer Key
 
 | Q | Answer | Rationale |
 |---|--------|-----------|
@@ -43,7 +43,7 @@
 | 39 | B | Scenario outlines allow the same scenario to run with multiple data sets. |
 | 40 | B | CI = merge and test frequently. CD = ensure code is always deployable. |
 
-## Score Interpretation
+## ⭐ Score Interpretation
 
 | Score | Interpretation |
 |-------|-------------|

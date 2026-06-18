@@ -1,11 +1,11 @@
-# CT-BD Mock Exam 2
+# 📝 CT-BD Mock Exam 2
 
 **Instructions:**
 - 40 questions, 60 minutes, single best answer, no negative marking
 
 ---
 
-### Q1
+### 🔷 Q1
 
 Unstructured data includes:
 
@@ -16,7 +16,7 @@ D. CSV files
 
 ---
 
-### Q2
+### 🔷 Q2
 
 A data warehouse applies schema:
 
@@ -27,7 +27,7 @@ D. Only for unstructured data
 
 ---
 
-### Q3
+### 🔷 Q3
 
 In Hadoop, YARN is responsible for:
 
@@ -38,7 +38,7 @@ D. Running SQL queries
 
 ---
 
-### Q4
+### 🔷 Q4
 
 A DataFrame in Spark is:
 
@@ -49,7 +49,7 @@ D. A type of NoSQL database
 
 ---
 
-### Q5
+### 🔷 Q5
 
 Sqoop is used for:
 
@@ -60,7 +60,7 @@ D. Network monitoring
 
 ---
 
-### Q6
+### 🔷 Q6
 
 Cassandra is BEST suited for:
 
@@ -71,7 +71,7 @@ D. Ad-hoc SQL analytics
 
 ---
 
-### Q7
+### 🔷 Q7
 
 A closed workload model is characterized by:
 
@@ -82,7 +82,7 @@ D. No think time between transactions
 
 ---
 
-### Q8
+### 🔷 Q8
 
 MapReduce consists of which phases?
 
@@ -93,7 +93,7 @@ D. Read, Write, Delete
 
 ---
 
-### Q9
+### 🔷 Q9
 
 Spark transformations are:
 
@@ -104,7 +104,7 @@ D. Not fault-tolerant
 
 ---
 
-### Q10
+### 🔷 Q10
 
 Neo4j is BEST suited for:
 
@@ -115,7 +115,7 @@ D. Time-series analytics
 
 ---
 
-### Q11
+### 🔷 Q11
 
 The degree to which data correctly represents the real-world entity is:
 
@@ -126,7 +126,7 @@ D. Timeliness
 
 ---
 
-### Q12
+### 🔷 Q12
 
 Data that is uniform across datasets and over time demonstrates:
 
@@ -137,7 +137,7 @@ D. Validity
 
 ---
 
-### Q13
+### 🔷 Q13
 
 A data quality threshold is BEST described as:
 
@@ -148,7 +148,7 @@ D. A strict requirement for 100% clean data
 
 ---
 
-### Q14
+### 🔷 Q14
 
 A referential integrity rule states every order.customer_id must exist in customers.customer_id. The test is:
 
@@ -159,7 +159,7 @@ D. SELECT orders where customer_id IS NULL
 
 ---
 
-### Q15
+### 🔷 Q15
 
 A field labeled "price" contains text values like "N/A" and "TBD". This is primarily a:
 
@@ -170,7 +170,7 @@ D. Uniqueness issue
 
 ---
 
-### Q16
+### 🔷 Q16
 
 An aggregate consistency rule validates:
 
@@ -181,7 +181,7 @@ D. User interface design
 
 ---
 
-### Q17
+### 🔷 Q17
 
 Temporal consistency means:
 
@@ -192,7 +192,7 @@ D. Data is always recent
 
 ---
 
-### Q18
+### 🔷 Q18
 
 In ETL, transformation occurs:
 
@@ -203,7 +203,7 @@ D. Never
 
 ---
 
-### Q19
+### 🔷 Q19
 
 Testing ETL extraction should verify:
 
@@ -214,7 +214,7 @@ D. Only network speed
 
 ---
 
-### Q20
+### 🔷 Q20
 
 Report reconciliation involves:
 
@@ -225,7 +225,7 @@ D. Testing the printer output
 
 ---
 
-### Q21
+### 🔷 Q21
 
 A team runs performance tests manually once per month. They frequently discover performance regressions in production. The BEST improvement is:
 
@@ -236,7 +236,7 @@ D. Only test after production deployment
 
 ---
 
-### Q22
+### 🔷 Q22
 
 A recorded performance test script typically requires:
 
@@ -247,7 +247,7 @@ D. Only more users
 
 ---
 
-### Q23
+### 🔷 Q23
 
 Which scripting approach gives the most control and maintainability?
 
@@ -258,7 +258,7 @@ D. Scripts that include all browser resources
 
 ---
 
-### Q24
+### 🔷 Q24
 
 A performance gate in CI/CD is:
 
@@ -269,7 +269,7 @@ D. A network firewall
 
 ---
 
-### Q25
+### 🔷 Q25
 
 Which is a PRIMARY advantage of cloud-based performance testing?
 
@@ -280,7 +280,7 @@ D. It only works for small applications
 
 ---
 
-### Q26
+### 🔷 Q26
 
 A throughput of 200 TPS at 1,000 users and 210 TPS at 2,000 users indicates:
 
@@ -291,7 +291,7 @@ D. The test is too short
 
 ---
 
-### Q27
+### 🔷 Q27
 
 Adding an index to a slow database query is an example of:
 
@@ -302,7 +302,7 @@ D. Architecture tuning
 
 ---
 
-### Q28
+### 🔷 Q28
 
 A management performance report should PRIMARILY include:
 
@@ -313,7 +313,7 @@ D. Code-level method timings
 
 ---
 
-### Q29
+### 🔷 Q29
 
 Data skew can be mitigated by:
 
@@ -324,7 +324,7 @@ D. Using only one node
 
 ---
 
-### Q30
+### 🔷 Q30
 
 Vertical scaling means:
 
@@ -335,7 +335,7 @@ D. Using a distributed file system
 
 ---
 
-### Q31
+### 🔷 Q31
 
 Excessive garbage collection in a Java-based Big Data application suggests:
 
@@ -346,7 +346,7 @@ D. Network efficiency
 
 ---
 
-### Q32
+### 🔷 Q32
 
 A system processes 100 records/sec on 1 server and 180 records/sec on 2 servers. This demonstrates:
 
@@ -357,7 +357,7 @@ D. Perfect scalability
 
 ---
 
-### Q33
+### 🔷 Q33
 
 QuerySurge is PRIMARILY used for:
 
@@ -368,7 +368,7 @@ D. Streaming data ingestion
 
 ---
 
-### Q34
+### 🔷 Q34
 
 pytest-spark is used for:
 
@@ -379,7 +379,7 @@ D. Visualizing Spark jobs
 
 ---
 
-### Q35
+### 🔷 Q35
 
 Schema compatibility checking in CI/CD ensures:
 
@@ -390,7 +390,7 @@ D. That the network is fast
 
 ---
 
-### Q36
+### 🔷 Q36
 
 A hash-based comparison of datasets works by:
 
@@ -401,7 +401,7 @@ D. Comparing file names
 
 ---
 
-### Q37
+### 🔷 Q37
 
 A data observability platform is used for:
 
@@ -412,7 +412,7 @@ D. Managing user accounts
 
 ---
 
-### Q38
+### 🔷 Q38
 
 Spark Testing Base is a library for:
 
@@ -423,7 +423,7 @@ D. Scheduling Spark jobs
 
 ---
 
-### Q39
+### 🔷 Q39
 
 A CI/CD pipeline for a data pipeline should include all EXCEPT:
 
@@ -434,7 +434,7 @@ D. Manual data entry validation
 
 ---
 
-### Q40
+### 🔷 Q40
 
 The PRIMARY difference between speed testing and load testing is:
 
@@ -445,4 +445,4 @@ D. Load testing is only for databases
 
 ---
 
-## End of Mock Exam 2
+## 📝 End of Mock Exam 2

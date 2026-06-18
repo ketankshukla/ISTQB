@@ -1,14 +1,14 @@
-# Chapter 5 — Infrastructure and Environment Testing: Lessons
+# 📘 Chapter 5 — Infrastructure and Environment Testing: Lessons
 
 ---
 
-## 5.1 Infrastructure as Code (IaC) Testing
+## ⭐ 5.1 Infrastructure as Code (IaC) Testing
 
-### What is IaC?
+### 🔷 What is IaC?
 
 Infrastructure as Code is the practice of managing and provisioning infrastructure through machine-readable definition files rather than physical hardware configuration.
 
-### Common IaC Tools
+### 🛠️ Common IaC Tools
 
 | Tool | Type | Best For |
 |------|------|----------|
@@ -17,7 +17,7 @@ Infrastructure as Code is the practice of managing and provisioning infrastructu
 | **Ansible** | Procedural, agentless | Configuration and application deployment |
 | **Pulumi** | Declarative, programmable | Teams preferring general-purpose languages |
 
-### IaC Testing Levels
+### 🪜 IaC Testing Levels
 
 **Static analysis:**
 - Linting (terraform validate, cfn-lint)
@@ -41,9 +41,9 @@ Infrastructure as Code is the practice of managing and provisioning infrastructu
 
 ---
 
-## 5.2 Container and Kubernetes Testing
+## 🤖 5.2 Container and Kubernetes Testing
 
-### Container Image Testing
+### 🤖 Container Image Testing
 
 | Test | Purpose | Tool |
 |------|---------|------|
@@ -52,7 +52,7 @@ Infrastructure as Code is the practice of managing and provisioning infrastructu
 | **Layer audit** | Minimize layers for efficiency | docker history |
 | **Secret scan** | Detect embedded credentials | truffleHog, git-secrets |
 
-### Kubernetes Manifest Testing
+### 🔷 Kubernetes Manifest Testing
 
 **Static checks:**
 - `kubectl apply --dry-run=client` — validate syntax
@@ -65,7 +65,7 @@ Infrastructure as Code is the practice of managing and provisioning infrastructu
 - Test readiness and liveness probes
 - Validate resource limits and requests
 
-### Helm Chart Testing
+### 🔷 Helm Chart Testing
 
 - `helm lint` — check chart syntax
 - `helm template` — render and inspect generated manifests
@@ -73,9 +73,9 @@ Infrastructure as Code is the practice of managing and provisioning infrastructu
 
 ---
 
-## 5.3 Environment Parity
+## ⭐ 5.3 Environment Parity
 
-### Why Parity Matters
+### 🔷 Why Parity Matters
 
 | Aspect | Dev | Test | Prod |
 |--------|-----|------|------|
@@ -85,13 +85,13 @@ Infrastructure as Code is the practice of managing and provisioning infrastructu
 | Environment variables | Same structure | Same structure | Same structure |
 | Network topology | Simplified | Production-like | Full |
 
-### Drift Detection
+### 🔷 Drift Detection
 
 - Compare actual infrastructure state to IaC definitions
 - Alert when manual changes are detected
 - Tools: Terraform drift detection, AWS Config, Azure Policy
 
-### Testing Parity
+### 🔷 Testing Parity
 
 1. **Automated comparison:** Script compares environment configurations
 2. **Smoke tests:** Same tests run in all environments
@@ -99,9 +99,9 @@ Infrastructure as Code is the practice of managing and provisioning infrastructu
 
 ---
 
-## 5.4 Configuration Management Testing
+## ⚙️ 5.4 Configuration Management Testing
 
-### Configuration Sources
+### ⚙️ Configuration Sources
 
 | Source | Example | Risk |
 |--------|---------|------|
@@ -110,7 +110,7 @@ Infrastructure as Code is the practice of managing and provisioning infrastructu
 | Secret managers | AWS Secrets Manager, Vault | Unauthorized access |
 | Feature flags | LaunchDarkly, Unleash | Wrong flag state |
 
-### Testing Approaches
+### 🔷 Testing Approaches
 
 - **Validation:** All required configs present and valid
 - **Default checks:** No dangerous defaults (e.g., debug mode off in prod)
@@ -119,15 +119,15 @@ Infrastructure as Code is the practice of managing and provisioning infrastructu
 
 ---
 
-## 5.5 Network and Security Policy Testing
+## 🔒 5.5 Network and Security Policy Testing
 
-### Network Policy Testing
+### 🔷 Network Policy Testing
 
 - Verify allowed traffic paths (pod-to-pod, ingress, egress)
 - Test denied paths produce expected blocks
 - Validate load balancer and ingress configuration
 
-### Security Policy Testing
+### 🔒 Security Policy Testing
 
 - RBAC (Role-Based Access Control) permissions
 - Pod Security Standards (PSS) / Pod Security Policies (PSP)
@@ -135,9 +135,9 @@ Infrastructure as Code is the practice of managing and provisioning infrastructu
 
 ---
 
-## 5.6 Disaster Recovery Testing
+## ⭐ 5.6 Disaster Recovery Testing
 
-### DR Scenarios
+### 🎬 DR Scenarios
 
 | Scenario | Test | Target |
 |----------|------|--------|
@@ -146,7 +146,7 @@ Infrastructure as Code is the practice of managing and provisioning infrastructu
 | **Complete environment loss** | Rebuild from IaC + backups | RTO < 4 hours |
 | **Ransomware attack** | Isolate, restore clean backups | RTO < 8 hours |
 
-### DR Testing Best Practices
+### ❓ DR Testing Best Practices
 
 - Schedule regular DR drills (quarterly)
 - Document and time every step
@@ -156,9 +156,9 @@ Infrastructure as Code is the practice of managing and provisioning infrastructu
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Terraform Testing
+### 💡 Worked Example 1: Terraform Testing
 
 **Scenario:** Validate a Terraform module for an AWS VPC.
 
@@ -172,7 +172,7 @@ Infrastructure as Code is the practice of managing and provisioning infrastructu
    - Test internet gateway attachment
 5. **Cleanup:** `terraform destroy` — all resources removed
 
-### Worked Example 2: Container Security Scan
+### 💡 Worked Example 2: Container Security Scan
 
 **Scenario:** Scan a Java application Docker image.
 
@@ -189,7 +189,7 @@ Infrastructure as Code is the practice of managing and provisioning infrastructu
 - Remove unnecessary packages (curl, wget)
 - Update log4j to patched version
 
-### Worked Example 3: Environment Parity Check
+### 💡 Worked Example 3: Environment Parity Check
 
 **Scenario:** A bug only occurs in production, not in staging.
 

@@ -1,8 +1,8 @@
-# Chapter 4 — Automotive Testing Techniques: Practice Questions
+# ❓ Chapter 4 — Automotive Testing Techniques: Practice Questions
 
 ---
 
-### Q1 (AuT-4.1, K2)
+### 🔷 Q1 (AuT-4.1, K2)
 
 Equivalence partitioning divides inputs into:
 
@@ -13,7 +13,7 @@ D. Only string values
 
 ---
 
-### Q2 (AuT-4.2, K2)
+### 🔷 Q2 (AuT-4.2, K2)
 
 MC/DC coverage is required for:
 
@@ -24,7 +24,7 @@ D. Only body control
 
 ---
 
-### Q3 (AuT-4.3, K2)
+### 🔷 Q3 (AuT-4.3, K2)
 
 Fault injection testing:
 
@@ -35,7 +35,7 @@ D. Only for development
 
 ---
 
-### Q4 (AuT-4.4, K2)
+### 🔷 Q4 (AuT-4.4, K2)
 
 Back-to-back testing compares:
 
@@ -46,7 +46,7 @@ D. Only two tools
 
 ---
 
-### Q5 (AuT-4.5, K2)
+### 🔷 Q5 (AuT-4.5, K2)
 
 Regression testing ensures:
 
@@ -57,7 +57,7 @@ D. Only old features work
 
 ---
 
-### Q6 (AuT-4.1, K2)
+### 🔷 Q6 (AuT-4.1, K2)
 
 Boundary value analysis tests:
 
@@ -68,7 +68,7 @@ D. Only maximum values
 
 ---
 
-### Q7 (AuT-4.2, K2)
+### 🔷 Q7 (AuT-4.2, K2)
 
 Branch coverage tests:
 
@@ -79,7 +79,7 @@ D. Only loops
 
 ---
 
-### Q8 (AuT-4.3, K2)
+### 🔷 Q8 (AuT-4.3, K2)
 
 A sensor disconnect fault injection tests:
 
@@ -90,7 +90,7 @@ D. Only calibration
 
 ---
 
-### Q9 (AuT-4.4, K2)
+### 🔷 Q9 (AuT-4.4, K2)
 
 MIL vs SIL back-to-back testing verifies:
 
@@ -101,7 +101,7 @@ D. Only UI behavior
 
 ---
 
-### Q10 (AuT-4.5, K2)
+### 🔷 Q10 (AuT-4.5, K2)
 
 After a calibration change:
 
@@ -112,7 +112,7 @@ D. Only old tests are needed
 
 ---
 
-### Q11 (AuT-4.1, K2)
+### 🔷 Q11 (AuT-4.1, K2)
 
 State transition testing is useful for:
 
@@ -123,7 +123,7 @@ D. Only databases
 
 ---
 
-### Q12 (AuT-4.2, K2)
+### 🔷 Q12 (AuT-4.2, K2)
 
 Statement coverage is:
 
@@ -134,7 +134,7 @@ D. Only for low ASIL
 
 ---
 
-### Q13 (AuT-4.3, K2)
+### 🔷 Q13 (AuT-4.3, K2)
 
 Communication fault injection might:
 
@@ -145,7 +145,7 @@ D. Only test compression
 
 ---
 
-### Q14 (AuT-4.4, K2)
+### 🔷 Q14 (AuT-4.4, K2)
 
 Back-to-back mismatch means:
 
@@ -156,7 +156,7 @@ D. Only acceptable variation
 
 ---
 
-### Q15 (AuT-4.5, K2)
+### 🔷 Q15 (AuT-4.5, K2)
 
 Regression testing scope in automotive:
 
@@ -167,7 +167,7 @@ D. Only manual tests
 
 ---
 
-### Q16 (AuT-4.1, K2)
+### 🔷 Q16 (AuT-4.1, K2)
 
 For a speed limit of 120 km/h, boundary tests include:
 
@@ -178,7 +178,7 @@ D. Only 121
 
 ---
 
-### Q17 (AuT-4.2, K2)
+### 🔷 Q17 (AuT-4.2, K2)
 
 MC/DC requires that each condition:
 
@@ -189,7 +189,7 @@ D. Only be false
 
 ---
 
-### Q18 (AuT-4.3, K2)
+### 🔷 Q18 (AuT-4.3, K2)
 
 Environmental fault injection might:
 
@@ -200,7 +200,7 @@ D. Only test displays
 
 ---
 
-### Q19 (AuT-4.4, K2)
+### 🔷 Q19 (AuT-4.4, K2)
 
 PIL vs SIL back-to-back verifies:
 
@@ -211,7 +211,7 @@ D. Only network speed
 
 ---
 
-### Q20 (AuT-4.2, K3)
+### 🔷 Q20 (AuT-4.2, K3)
 
 For ASIL D software, the minimum required coverage is:
 
@@ -222,84 +222,84 @@ D. Only statement
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** EP = valid + invalid partitions.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** MC/DC = ASIL C and D.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** Fault injection = test error handling.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** Back-to-back = reference vs implementation.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Regression = no breakage.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** BVA = boundary + near values.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Branch = both true + false.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Sensor disconnect = fallback behavior.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** MIL vs SIL = code implements model.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** Calibration change = regression test.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** State transition = states + events.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Statement = basic coverage.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Communication fault = corrupt messages.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Mismatch = investigate cause.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Regression scope = affected ECUs + interfaces.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** BVA = 119, 120, 121.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** MC/DC = independent condition effect.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Environmental fault = extreme temperatures.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** PIL vs SIL = target compiler.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** ASIL D = statement + branch + MC/DC.

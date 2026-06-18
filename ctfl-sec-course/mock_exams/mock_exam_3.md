@@ -1,10 +1,10 @@
-# CTFL-SEC Mock Exam 3
+# 📝 CTFL-SEC Mock Exam 3
 
 **Instructions:** 20 questions, 40 minutes. Single best answer.
 
 ---
 
-### Q1
+### 🔷 Q1
 
 Integrity means:
 
@@ -15,7 +15,7 @@ D. Only backup
 
 ---
 
-### Q2
+### 🔷 Q2
 
 Audit trails are:
 
@@ -26,7 +26,7 @@ D. Only encryption
 
 ---
 
-### Q3
+### 🔷 Q3
 
 Phishing attacks primarily target:
 
@@ -37,7 +37,7 @@ D. Only hardware
 
 ---
 
-### Q4
+### 🔷 Q4
 
 A CVSS base score measures:
 
@@ -48,7 +48,7 @@ D. Only environmental factors
 
 ---
 
-### Q5
+### 🔷 Q5
 
 SQLMap is used for:
 
@@ -59,7 +59,7 @@ D. Only authentication testing
 
 ---
 
-### Q6
+### 🔷 Q6
 
 Man-in-the-Middle attacks violate:
 
@@ -70,7 +70,7 @@ D. Only authorization
 
 ---
 
-### Q7
+### 🔷 Q7
 
 SAST is performed during:
 
@@ -81,7 +81,7 @@ D. Only maintenance
 
 ---
 
-### Q8
+### 🔷 Q8
 
 Grey box penetration testing:
 
@@ -92,7 +92,7 @@ D. Only uses automated tools
 
 ---
 
-### Q9
+### 🔷 Q9
 
 Security in the Definition of Done means:
 
@@ -103,7 +103,7 @@ D. Only UI tests pass
 
 ---
 
-### Q10
+### 🔷 Q10
 
 RASP (Runtime Application Self-Protection):
 
@@ -114,7 +114,7 @@ D. Only tests networks
 
 ---
 
-### Q11
+### 🔷 Q11
 
 Brute force attacks target:
 
@@ -125,7 +125,7 @@ D. Only CSS
 
 ---
 
-### Q12
+### 🔷 Q12
 
 A vulnerability scanning tool:
 
@@ -136,7 +136,7 @@ D. Only tests physical security
 
 ---
 
-### Q13
+### 🔷 Q13
 
 Security testing in the CI/CD pipeline:
 
@@ -147,7 +147,7 @@ D. Only for testing
 
 ---
 
-### Q14
+### 🔷 Q14
 
 Elevation of privilege violates:
 
@@ -158,7 +158,7 @@ D. Only integrity
 
 ---
 
-### Q15
+### 🔷 Q15
 
 Secure password storage uses:
 
@@ -169,7 +169,7 @@ D. Only SHA-1
 
 ---
 
-### Q16
+### 🔷 Q16
 
 Spoofing in STRIDE violates:
 
@@ -180,7 +180,7 @@ D. Only confidentiality
 
 ---
 
-### Q17
+### 🔷 Q17
 
 Container scanning in CI/CD:
 
@@ -191,7 +191,7 @@ D. Only checks network ports
 
 ---
 
-### Q18
+### 🔷 Q18
 
 A low-likelihood, high-impact risk may be:
 
@@ -202,7 +202,7 @@ D. Only for insurance
 
 ---
 
-### Q19
+### 🔷 Q19
 
 CSRF (Cross-Site Request Forgery) attacks:
 
@@ -213,7 +213,7 @@ D. Only modify URLs
 
 ---
 
-### Q20
+### 🔷 Q20
 
 The primary purpose of security testing is:
 
@@ -224,7 +224,7 @@ D. Only to document processes
 
 ---
 
-## Answer Key
+## ✔️ Answer Key
 
 | Q | Answer | Q | Answer | Q | Answer | Q | Answer |
 |---|--------|---|--------|---|--------|---|--------|

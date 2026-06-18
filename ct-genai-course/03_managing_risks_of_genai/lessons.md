@@ -1,10 +1,10 @@
-# Chapter 3 — Managing Risks of GenAI: Lessons
+# 📘 Chapter 3 — Managing Risks of GenAI: Lessons
 
 ---
 
-## 3.1 Hallucinations, Reasoning Errors, and Biases
+## ⭐ 3.1 Hallucinations, Reasoning Errors, and Biases
 
-### Understanding Hallucinations (GenAI-3.1.1, K2)
+### 🤖 Understanding Hallucinations (GenAI-3.1.1, K2)
 
 A **hallucination** occurs when an LLM generates content that appears plausible and confident but is factually incorrect, nonsensical, or unrelated to the input. Hallucinations are one of the most significant risks when using GenAI for testing.
 
@@ -58,7 +58,7 @@ Bias doesn't just affect social outcomes; it directly degrades test quality:
 **The feedback loop of bias:**
 When biased test outputs are accepted and used, they train testers to expect biased patterns. When these outputs are later used as training data for fine-tuned models, the bias becomes embedded. Breaking this loop requires active, intentional effort: diverse review teams, inclusive prompts, and adversarial testing.
 
-### Understanding Reasoning Errors (GenAI-3.1.1, K2)
+### 🤖 Understanding Reasoning Errors (GenAI-3.1.1, K2)
 
 **Reasoning errors** are mistakes in the logical steps an LLM takes to arrive at an answer, distinct from factual hallucinations.
 
@@ -75,7 +75,7 @@ When biased test outputs are accepted and used, they train testers to expect bia
 - Coverage calculations may be inaccurate.
 - Risk assessments may misweight factors.
 
-### Understanding Bias (GenAI-3.1.1, K2)
+### 🤖 Understanding Bias (GenAI-3.1.1, K2)
 
 **Bias** in GenAI refers to systematic and repeatable tendencies in model outputs that produce unfair, skewed, or unrepresentative results.
 
@@ -92,7 +92,7 @@ When biased test outputs are accepted and used, they train testers to expect bia
 - **Prioritization bias:** Risk assessments may undervalue features used by minority user segments.
 - **Language bias:** Non-English requirements or test data may be processed less accurately.
 
-### Mitigations for Hallucinations, Reasoning Errors, and Biases (GenAI-3.1.2, K2)
+### 🤖 Mitigations for Hallucinations, Reasoning Errors, and Biases (GenAI-3.1.2, K2)
 
 **Mitigating Hallucinations — A Layered Defense:**
 
@@ -170,9 +170,9 @@ Bias mitigation requires both technical and organizational measures:
 
 ---
 
-## 3.2 Data Privacy and Security Risks
+## ⚠️ 3.2 Data Privacy and Security Risks
 
-### Understanding Privacy and Security Risks (GenAI-3.2.1, K2)
+### ⚠️ Understanding Privacy and Security Risks (GenAI-3.2.1, K2)
 
 Using GenAI in testing introduces significant data privacy and security risks that must be actively managed.
 
@@ -212,7 +212,7 @@ Testing is particularly exposed to privacy risks because testing activities natu
 - **Shadow AI:** Employees using unauthorized public LLMs for work tasks without IT or security oversight. This is one of the fastest-growing security risks in organizations.
   - *Testing example:* A junior tester uses their personal ChatGPT account to analyze production error logs containing customer data. The organization has no visibility into this data sharing and cannot enforce retention or deletion policies.
 
-### Mitigations for Privacy and Security Risks (GenAI-3.2.2, K2)
+### ⚠️ Mitigations for Privacy and Security Risks (GenAI-3.2.2, K2)
 
 **Privacy Mitigations:**
 
@@ -235,9 +235,9 @@ Testing is particularly exposed to privacy risks because testing activities natu
 
 ---
 
-## 3.3 Energy Consumption and Environmental Impact
+## ⭐ 3.3 Energy Consumption and Environmental Impact
 
-### Understanding Environmental Impact (GenAI-3.3.1, K2)
+### 🤖 Understanding Environmental Impact (GenAI-3.3.1, K2)
 
 Training and running large AI models consumes significant energy and has environmental implications.
 
@@ -254,7 +254,7 @@ Training and running large AI models consumes significant energy and has environ
 - Test teams using GenAI contribute to organizational energy use and should optimize their consumption.
 - Some jurisdictions are introducing sustainability reporting requirements for AI systems.
 
-### Strategies to Reduce Environmental Impact (GenAI-3.3.2, K2)
+### 🤖 Strategies to Reduce Environmental Impact (GenAI-3.3.2, K2)
 
 1. **Right-size models:** Use smaller, more efficient models when they meet the task requirements. Not every testing task requires the largest available LLM.
 2. **Efficient prompting:** Shorter, well-crafted prompts reduce token count and inference cost/energy.
@@ -267,9 +267,9 @@ Training and running large AI models consumes significant energy and has environ
 
 ---
 
-## 3.4 AI Regulations, Standards, and Best Practice Frameworks
+## ❓ 3.4 AI Regulations, Standards, and Best Practice Frameworks
 
-### Recalling Key Regulations and Standards (GenAI-3.4.1, K1)
+### 🤖 Recalling Key Regulations and Standards (GenAI-3.4.1, K1)
 
 You must be able to recall the following frameworks and their relevance to GenAI in testing:
 
@@ -302,7 +302,7 @@ You must be able to recall the following frameworks and their relevance to GenAI
 - **OWASP LLM Top 10:** Security risks specific to LLM applications (prompt injection, insecure output handling, training data poisoning, etc.)
 - **Partnership on AI Tenets:** Industry best practices for responsible AI development and deployment
 
-### How Regulations Affect GenAI Use in Testing (GenAI-3.4.2, K2)
+### 🤖 How Regulations Affect GenAI Use in Testing (GenAI-3.4.2, K2)
 
 **Documentation and traceability:**
 Regulations increasingly require that organizations document:

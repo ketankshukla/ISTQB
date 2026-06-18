@@ -1,6 +1,6 @@
-# Chapter 1 — Testing Process: Exam Traps
+# 🪤 Chapter 1 — Testing Process: Exam Traps
 
-## Trap 1: Confusing Test Monitoring with Test Control
+## 🪤 Trap 1: Confusing Test Monitoring with Test Control
 
 **Trap:** Monitoring collects information. Control takes action based on that information.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Confusing Entry Criteria with Exit Criteria
+## 🪤 Trap 2: Confusing Entry Criteria with Exit Criteria
 
 **Trap:** Entry criteria must be met to START testing. Exit criteria must be met to STOP testing.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Confusing Test Policy, Strategy, Plan, and Approach
+## ♟️ Trap 3: Confusing Test Policy, Strategy, Plan, and Approach
 
 **Trap:** Policy = organizational. Strategy = program/project. Plan = detailed. Approach = implementation.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Thinking Test Completion Is Just Reporting Results
+## 🪤 Trap 4: Thinking Test Completion Is Just Reporting Results
 
 **Trap:** Test completion includes evaluating objectives, archiving testware, and documenting lessons learned — not just reporting.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Confusing Product Risks with Project Risks
+## 🪤 Trap 5: Confusing Product Risks with Project Risks
 
 **Trap:** Product risks relate to the quality of the software. Project risks relate to the success of the project.
 

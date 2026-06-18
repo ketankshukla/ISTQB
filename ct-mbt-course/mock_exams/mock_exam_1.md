@@ -1,11 +1,11 @@
-# CT-MBT Mock Exam 1
+# 📝 CT-MBT Mock Exam 1
 
 **Instructions:**
 - 40 questions, 60 minutes, single best answer, no negative marking
 
 ---
 
-### Q1
+### 🔷 Q1
 
 Model-Based Testing is defined as testing in which test cases are derived:
 
@@ -16,7 +16,7 @@ D. Randomly without any structure
 
 ---
 
-### Q2
+### 🔷 Q2
 
 Formative usability testing is conducted:
 
@@ -27,7 +27,7 @@ D. By end users in production
 
 ---
 
-### Q3
+### 🔷 Q3
 
 According to ISO 9241-11, usability is defined in terms of:
 
@@ -38,7 +38,7 @@ D. Functionality, performance, and security
 
 ---
 
-### Q4
+### 🔷 Q4
 
 In offline MBT, test cases are:
 
@@ -49,7 +49,7 @@ D. Created manually after execution
 
 ---
 
-### Q5
+### 🔷 Q5
 
 A state transition model is MOST appropriate for testing:
 
@@ -60,7 +60,7 @@ D. A static website
 
 ---
 
-### Q6
+### 🔷 Q6
 
 A decision table is BEST used to model:
 
@@ -71,7 +71,7 @@ D. Database schemas
 
 ---
 
-### Q7
+### 🔷 Q7
 
 State coverage requires that:
 
@@ -82,7 +82,7 @@ D. Every guard condition is false
 
 ---
 
-### Q8
+### 🔷 Q8
 
 Transition coverage is stronger than state coverage because it:
 
@@ -93,7 +93,7 @@ D. Is easier to achieve
 
 ---
 
-### Q9
+### 🔷 Q9
 
 Boundary value testing on a model guard condition (age >= 18) would include:
 
@@ -104,7 +104,7 @@ D. Only ages within the valid partition
 
 ---
 
-### Q10
+### 🔷 Q10
 
 An abstract test case is:
 
@@ -115,7 +115,7 @@ D. The same as a concrete test case
 
 ---
 
-### Q11
+### 🔷 Q11
 
 Concretization is the process of:
 
@@ -126,7 +126,7 @@ D. Analyzing test results
 
 ---
 
-### Q12
+### 🔷 Q12
 
 In MBT, the model often serves as:
 
@@ -137,7 +137,7 @@ D. The deployment pipeline
 
 ---
 
-### Q13
+### 🔷 Q13
 
 A PRIMARY benefit of MBT that contributes to ROI is:
 
@@ -148,7 +148,7 @@ D. No need for test tools
 
 ---
 
-### Q14
+### 🔷 Q14
 
 The payback period for an MBT investment is:
 
@@ -159,7 +159,7 @@ D. The time to train all testers
 
 ---
 
-### Q15
+### 🔷 Q15
 
 A pilot project for MBT should be:
 
@@ -170,7 +170,7 @@ D. A project with no stakeholder support
 
 ---
 
-### Q16
+### 🔷 Q16
 
 Incremental deployment of MBT means:
 
@@ -181,7 +181,7 @@ D. Deploying all tools at once
 
 ---
 
-### Q17
+### 🔷 Q17
 
 A tool that creates, edits, and validates models is a:
 
@@ -192,7 +192,7 @@ D. Defect tracking tool
 
 ---
 
-### Q18
+### 🔷 Q18
 
 When selecting an MBT tool, the MOST important criterion is:
 
@@ -203,7 +203,7 @@ D. The tool's price alone
 
 ---
 
-### Q19
+### 🔷 Q19
 
 The PRIMARY purpose of a test plan is to:
 
@@ -214,7 +214,7 @@ D. Document the results of all testing
 
 ---
 
-### Q20
+### 🔷 Q20
 
 A defect that causes incorrect data to be displayed but does not crash the system is classified as:
 
@@ -225,7 +225,7 @@ D. Critical severity
 
 ---
 
-### Q21
+### 🔷 Q21
 
 A test completion activity is:
 
@@ -236,7 +236,7 @@ D. Identifying test conditions
 
 ---
 
-### Q22
+### 🔷 Q22
 
 Which review type is led by the author of the document and may serve educational purposes?
 
@@ -247,7 +247,7 @@ D. Inspection
 
 ---
 
-### Q23
+### 🔷 Q23
 
 A test manager collects weekly metrics on test execution progress. This is an example of:
 
@@ -258,7 +258,7 @@ D. Test implementation
 
 ---
 
-### Q24
+### 🔷 Q24
 
 In an inspection, who is typically NOT present during the review meeting?
 
@@ -269,7 +269,7 @@ D. The scribe
 
 ---
 
-### Q25
+### 🔷 Q25
 
 Which test organization structure allows testers to maintain testing skills through a functional manager while meeting project needs?
 
@@ -280,7 +280,7 @@ D. Outsourced testing only
 
 ---
 
-### Q26
+### 🔷 Q26
 
 Which describes the PRIMARY benefit of independent testing?
 
@@ -291,7 +291,7 @@ D. Better domain knowledge of the system
 
 ---
 
-### Q27
+### 🔷 Q27
 
 A test manager is planning a project with well-understood requirements and a stable technology stack. Which estimation technique is MOST appropriate?
 
@@ -302,7 +302,7 @@ D. Random guessing
 
 ---
 
-### Q28
+### 🔷 Q28
 
 Which is a PRIMARY purpose of a test plan?
 
@@ -313,7 +313,7 @@ D. To document the results of all testing
 
 ---
 
-### Q29
+### 🔷 Q29
 
 A testing team is evaluating whether to purchase a commercial test tool or use an open-source alternative. The PRIMARY factor should be:
 
@@ -324,7 +324,7 @@ D. Whether competitors use the same tool
 
 ---
 
-### Q30
+### 🔷 Q30
 
 Which is a PRIMARY difference between severity and priority?
 
@@ -335,7 +335,7 @@ D. Severity is only used in agile projects
 
 ---
 
-### Q31
+### 🔷 Q31
 
 A testing team wants to verify that an RNG produces uniformly distributed numbers between 1 and 100. The best approach is:
 
@@ -346,7 +346,7 @@ D. Checking the source code comments
 
 ---
 
-### Q32
+### 🔷 Q32
 
 A team implements a keyword-driven automation framework. Business analysts can write tests using keywords while engineers maintain the implementation. This approach:
 
@@ -357,7 +357,7 @@ D. Is only suitable for unit testing
 
 ---
 
-### Q33
+### 🔷 Q33
 
 ROI for a test tool is calculated as:
 
@@ -368,7 +368,7 @@ D. Costs / Benefits
 
 ---
 
-### Q34
+### 🔷 Q34
 
 Which is a PRIMARY responsibility of a test manager?
 
@@ -379,7 +379,7 @@ D. Defining the user interface design
 
 ---
 
-### Q35
+### 🔷 Q35
 
 A test manager notices that the test execution schedule is falling behind due to environment unavailability. The MOST appropriate control action is:
 
@@ -390,7 +390,7 @@ D. Skip the remaining tests and report success
 
 ---
 
-### Q36
+### 🔷 Q36
 
 Which is a PRIMARY characteristic of an independent test organization?
 
@@ -401,7 +401,7 @@ D. Testers are embedded in development teams
 
 ---
 
-### Q37
+### 🔷 Q37
 
 A test manager is considering keeping testing integrated within the development team. The PRIMARY advantage is:
 
@@ -412,7 +412,7 @@ D. More formal processes
 
 ---
 
-### Q38
+### 🔷 Q38
 
 Which is a PRIMARY purpose of entry criteria?
 
@@ -423,7 +423,7 @@ D. To define the tools to be used
 
 ---
 
-### Q39
+### 🔷 Q39
 
 A test manager is calculating ROI for a test tool. The tool costs $30,000 and saves $20,000 per year. The payback period is approximately:
 
@@ -434,7 +434,7 @@ D. 4 years
 
 ---
 
-### Q40
+### 🔷 Q40
 
 Which is a PRIMARY consideration when planning regression testing?
 
@@ -445,4 +445,4 @@ D. Focusing only on cosmetic issues
 
 ---
 
-## End of Mock Exam 1
+## 📝 End of Mock Exam 1

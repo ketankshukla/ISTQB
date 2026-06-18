@@ -1,4 +1,4 @@
-# CTAL-TTA Mock Exam 2
+# 📝 CTAL-TTA Mock Exam 2
 
 **Instructions:**
 - 45 questions
@@ -8,7 +8,7 @@
 
 ---
 
-### Q1
+### 🔷 Q1
 
 Which of the following is an example of test control?
 
@@ -19,7 +19,7 @@ D. Reviewing requirements for testability
 
 ---
 
-### Q2
+### 🔷 Q2
 
 What is the cyclomatic complexity of a function with 3 `if` statements and no loops?
 
@@ -30,7 +30,7 @@ D. 8
 
 ---
 
-### Q3
+### 🔷 Q3
 
 Which of the following is a test monitoring metric?
 
@@ -41,7 +41,7 @@ D. Number of developers on the project
 
 ---
 
-### Q4
+### 🔷 Q4
 
 Which coverage criterion is stronger than branch coverage but weaker than path coverage?
 
@@ -52,7 +52,7 @@ D. There is no such criterion
 
 ---
 
-### Q5
+### 🔷 Q5
 
 A team estimates testing effort by taking total development effort (200 person-days) and applying a historical percentage (40%). This is:
 
@@ -63,7 +63,7 @@ D. Parametric estimation
 
 ---
 
-### Q6
+### 🔷 Q6
 
 A test tool costs $20,000 to purchase. Training costs $8,000. Implementation costs $12,000. Annual maintenance is $4,000. The 2-year total cost of ownership is:
 
@@ -74,7 +74,7 @@ D. $44,000
 
 ---
 
-### Q7
+### 🔷 Q7
 
 In a risk assessment, a risk with likelihood = 4 and impact = 3 has a risk priority of:
 
@@ -85,7 +85,7 @@ D. 4
 
 ---
 
-### Q8
+### 🔷 Q8
 
 A testing team found 180 defects during testing. After release, 20 more defects were reported by users. The Defect Detection Percentage (DDP) is approximately:
 
@@ -96,7 +96,7 @@ D. 180%
 
 ---
 
-### Q9
+### 🔷 Q9
 
 Which of the following is a characteristic of a technical review?
 
@@ -107,7 +107,7 @@ D. Management attends to monitor progress
 
 ---
 
-### Q10
+### 🔷 Q10
 
 SonarQube is an example of:
 
@@ -118,7 +118,7 @@ D. A test management tool
 
 ---
 
-### Q11
+### 🔷 Q11
 
 A team tests a platform by simulating 50,000 concurrent users to verify response times remain under 1 second. This is:
 
@@ -129,7 +129,7 @@ D. Security testing
 
 ---
 
-### Q12
+### 🔷 Q12
 
 Which of the following would be detected during static analysis?
 
@@ -140,7 +140,7 @@ D. The actual defect density after test execution
 
 ---
 
-### Q13
+### 🔷 Q13
 
 A misspelled company name on the login page is embarrassing but does not affect functionality. It should be classified as:
 
@@ -151,7 +151,7 @@ D. Low severity, low priority
 
 ---
 
-### Q14
+### 🔷 Q14
 
 The PRIMARY purpose of a test strategy is to:
 
@@ -162,7 +162,7 @@ D. Document the results of testing
 
 ---
 
-### Q15
+### 🔷 Q15
 
 A Page Object Model (POM) in UI automation is used to:
 
@@ -173,7 +173,7 @@ D. Execute tests in parallel
 
 ---
 
-### Q16
+### 🔷 Q16
 
 A test manager is planning a risk-based testing approach. The FIRST step should be to:
 
@@ -184,7 +184,7 @@ D. Report risks to stakeholders
 
 ---
 
-### Q17
+### 🔷 Q17
 
 A 50-page requirements document is reviewed in 5 hours and 20 defects are found. The review efficiency is:
 
@@ -195,7 +195,7 @@ D. 0.4 defects per hour
 
 ---
 
-### Q18
+### 🔷 Q18
 
 Which of the following is the BEST example of an entry criterion for system testing?
 
@@ -206,7 +206,7 @@ D. The product is ready for release
 
 ---
 
-### Q19
+### 🔷 Q19
 
 In the review process, who is responsible for ensuring all identified defects are addressed?
 
@@ -217,7 +217,7 @@ D. The scribe
 
 ---
 
-### Q20
+### 🔷 Q20
 
 Which test is the BEST candidate for automation?
 
@@ -228,7 +228,7 @@ D. A test for a feature with changing requirements
 
 ---
 
-### Q21
+### 🔷 Q21
 
 Which of the following is a non-functional testing concern?
 
@@ -239,7 +239,7 @@ D. Confirming that free spins trigger with 3 scatters
 
 ---
 
-### Q22
+### 🔷 Q22
 
 A test manager's PRIMARY responsibility is to:
 
@@ -250,7 +250,7 @@ D. Develop the application code
 
 ---
 
-### Q23
+### 🔷 Q23
 
 In a risk assessment, a risk with likelihood = 2 and impact = 5 has a risk priority of:
 
@@ -261,7 +261,7 @@ D. 10
 
 ---
 
-### Q24
+### 🔷 Q24
 
 A project risk is:
 
@@ -272,7 +272,7 @@ D. A risk specific to test execution
 
 ---
 
-### Q25
+### 🔷 Q25
 
 Which of the following is a product risk?
 
@@ -283,7 +283,7 @@ D. Budget is cut by 20%
 
 ---
 
-### Q26
+### 🔷 Q26
 
 Wideband Delphi estimation is MOST useful when:
 
@@ -294,7 +294,7 @@ D. The schedule is already fixed
 
 ---
 
-### Q27
+### 🔷 Q27
 
 Which of the following is a PRIMARY purpose of a test summary report?
 
@@ -305,7 +305,7 @@ D. To assign blame for defects found
 
 ---
 
-### Q28
+### 🔷 Q28
 
 A testing team wants to verify that an RNG produces uniformly distributed numbers between 1 and 100. The best approach is:
 
@@ -316,7 +316,7 @@ D. Checking the source code comments
 
 ---
 
-### Q29
+### 🔷 Q29
 
 Which of the following is a key difference between TDD and BDD?
 
@@ -327,7 +327,7 @@ D. TDD requires more documentation than BDD
 
 ---
 
-### Q30
+### 🔷 Q30
 
 A test manager notices that the test execution schedule is falling behind due to environment unavailability. The MOST appropriate control action is:
 
@@ -338,7 +338,7 @@ D. Skip the remaining tests and report success
 
 ---
 
-### Q31
+### 🔷 Q31
 
 Which of the following describes an integrated test organization?
 
@@ -349,7 +349,7 @@ D. Testers are external consultants hired for the project
 
 ---
 
-### Q32
+### 🔷 Q32
 
 Which of the following is a PRIMARY characteristic of a matrix test organization?
 
@@ -360,7 +360,7 @@ D. Testers are embedded in development teams with no test manager
 
 ---
 
-### Q33
+### 🔷 Q33
 
 Failure Mode and Effect Analysis (FMEA) is a technique used for:
 
@@ -371,7 +371,7 @@ D. Managing test team schedules
 
 ---
 
-### Q34
+### 🔷 Q34
 
 A test manager is considering whether to automate regression tests for a web application. The regression suite currently takes 3 weeks manually and is executed 6 times per year. The MOST compelling reason to automate is:
 
@@ -382,7 +382,7 @@ D. Because management requested it
 
 ---
 
-### Q35
+### 🔷 Q35
 
 Which of the following is the BEST description of a test manager's role in reviews?
 
@@ -393,7 +393,7 @@ D. The test manager writes all documents that are reviewed
 
 ---
 
-### Q36
+### 🔷 Q36
 
 A test manager is managing a team with low morale due to repetitive manual testing. The MOST effective action is to:
 
@@ -404,7 +404,7 @@ D. Reduce the quality standards to make testing easier
 
 ---
 
-### Q37
+### 🔷 Q37
 
 A proof of concept (PoC) for a test tool is conducted to:
 
@@ -415,7 +415,7 @@ D. Obtain a discount from the vendor
 
 ---
 
-### Q38
+### 🔷 Q38
 
 Which of the following is a PRIMARY purpose of entry criteria?
 
@@ -426,7 +426,7 @@ D. To define the tools to be used
 
 ---
 
-### Q39
+### 🔷 Q39
 
 A test manager is calculating the cost of quality. The cost of testing is $100,000. The cost of defects found in production is estimated at $300,000. Which conclusion is MOST appropriate?
 
@@ -437,7 +437,7 @@ D. Production defects are acceptable
 
 ---
 
-### Q40
+### 🔷 Q40
 
 A test team is conducting a technical review of a design document. Which role is responsible for facilitating the review meeting?
 
@@ -448,7 +448,7 @@ D. The project sponsor
 
 ---
 
-### Q41
+### 🔷 Q41
 
 A test manager is planning a project with a novel technology that the organization has not used before. The MOST appropriate estimation technique is:
 
@@ -459,7 +459,7 @@ D. Expert judgment from a single estimator
 
 ---
 
-### Q42
+### 🔷 Q42
 
 Which of the following is a PRIMARY characteristic of a successful test automation framework?
 
@@ -470,7 +470,7 @@ D. It requires no documentation
 
 ---
 
-### Q43
+### 🔷 Q43
 
 A test manager receives a defect report that states: "The system sometimes crashes when saving large files." The manager should request:
 
@@ -481,7 +481,7 @@ D. A new test case for small files
 
 ---
 
-### Q44
+### 🔷 Q44
 
 Which of the following is a PRIMARY advantage of using a test management tool?
 
@@ -492,7 +492,7 @@ D. It replaces the need for a test manager
 
 ---
 
-### Q45
+### 🔷 Q45
 
 A test manager is planning a project where requirements are unclear and likely to change frequently. Which estimation technique is LEAST appropriate?
 
@@ -503,4 +503,4 @@ D. Experience-based estimation
 
 ---
 
-## End of Mock Exam 2
+## 📝 End of Mock Exam 2

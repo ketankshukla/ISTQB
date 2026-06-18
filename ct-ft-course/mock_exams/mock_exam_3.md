@@ -1,10 +1,10 @@
-# CT-FT Mock Exam 3
+# 📝 CT-FT Mock Exam 3
 
 **Instructions:** 40 questions, 60 minutes, single best answer.
 
 ---
 
-### Q1-Q10
+### 🔷 Q1-Q10
 
 1. Finance testing includes: A) Only UI B) Accuracy, compliance, security C) Only speed D) Only colors — **Accuracy, compliance, security**
 2. Core banking processes: A) Only trading B) Deposits, withdrawals, transfers C) Only insurance D) Only FX — **Deposits, withdrawals, transfers**
@@ -19,7 +19,7 @@
 
 ---
 
-### Q11-Q20
+### 🔷 Q11-Q20
 
 11. Reconciliation break: A) Match B) Mismatch C) Profit D) New hire — **Mismatch**
 12. FIX protocol: A) Web B) Trading C) Email D) Video — **Trading**
@@ -34,7 +34,7 @@
 
 ---
 
-### Q21-Q30
+### 🔷 Q21-Q30
 
 21. Interchange fee: A) Customer pays B) Acquirer to issuer C) Government D) Network to merchant — **Acquirer to issuer**
 22. Settlement vs clearing: A) Same B) Clearing = match; Settlement = transfer C) Opposite D) Unrelated — **Clearing = match; Settlement = transfer**
@@ -49,7 +49,7 @@
 
 ---
 
-### Q31-Q40
+### 🔷 Q31-Q40
 
 31. Tolerance match: A) Exact B) Within acceptable difference C) Same date D) Same user — **Within acceptable difference**
 32. FIX recovery: A) Restart B) Resend Request C) Ignore D) New session — **Resend Request**
@@ -64,4 +64,4 @@
 
 ---
 
-## End of Mock Exam 3
+## 📝 End of Mock Exam 3

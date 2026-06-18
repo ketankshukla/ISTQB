@@ -1,6 +1,6 @@
-# Chapter 3 — Regulatory Compliance and Risk Management
+# ⚠️ Chapter 3 — Regulatory Compliance and Risk Management
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~20% (~8 questions out of 40)
 - **K-levels:** K1, K2, K3
@@ -8,7 +8,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -21,7 +21,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts
+## ⭐ Key Concepts
 
 - SOX (Sarbanes-Oxley Act)
 - MiFID II

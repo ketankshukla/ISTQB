@@ -1,6 +1,6 @@
-# Chapter 6 — Contract Testing and Advanced Topics: Exam Traps
+# 🪤 Chapter 6 — Contract Testing and Advanced Topics: Exam Traps
 
-## Trap 1: Confusing Contract Testing with Integration Testing
+## 🪤 Trap 1: Confusing Contract Testing with Integration Testing
 
 **Trap:** Contract testing verifies the contract (request/response format) independently. Integration testing verifies both services work together.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Adding Required Fields Is Backward Compatible
+## 🪤 Trap 2: Adding Required Fields Is Backward Compatible
 
 **Trap:** Adding required fields to responses is a breaking change. Existing clients may not expect the new field. Adding optional fields is backward compatible.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Thinking URL Versioning Is the Only Approach
+## 🪤 Trap 3: Thinking URL Versioning Is the Only Approach
 
 **Trap:** URL, header, and query parameter versioning are all valid approaches. URL versioning is most common and visible.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Schema Validation Is Only for Request Bodies
+## 🪤 Trap 4: Schema Validation Is Only for Request Bodies
 
 **Trap:** Schema validation should apply to both request and response bodies, as well as URL parameters and headers where applicable.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Contract Testing Replaces All Integration Testing
+## 🪤 Trap 5: Contract Testing Replaces All Integration Testing
 
 **Trap:** Contract testing complements but does not replace integration testing. Integration tests still catch issues that contract tests miss (e.g., actual data consistency, side effects).
 

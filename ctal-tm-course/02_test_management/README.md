@@ -1,6 +1,6 @@
-# Chapter 2 — Test Management
+# 🗂️ Chapter 2 — Test Management
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~45% (~29 questions out of 65)
 - **K-levels:** K2 (understand), K3 (apply), K4 (analyze)
@@ -8,7 +8,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -21,7 +21,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts
+## ⭐ Key Concepts
 
 - Test organization: independent, integrated, matrix-based
 - Estimation: bottom-up, top-down, Wideband Delphi, experience-based

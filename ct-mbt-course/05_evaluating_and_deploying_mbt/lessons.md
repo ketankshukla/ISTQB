@@ -1,10 +1,10 @@
-# Chapter 5 — Evaluating and Deploying MBT: Lessons
+# 📘 Chapter 5 — Evaluating and Deploying MBT: Lessons
 
 ---
 
-## 5.1 ROI of Model-Based Testing
+## 📐 5.1 ROI of Model-Based Testing
 
-### Cost Factors
+### 🔷 Cost Factors
 
 **Initial Costs:**
 - **Tool acquisition/licensing:** MBT modeling and generation tools
@@ -19,7 +19,7 @@
 - **Concretization maintenance:** Updating mappings as SUT evolves
 - **Skill retention:** Keeping team modeling skills current
 
-### Benefit Factors
+### 🔷 Benefit Factors
 
 **Test Design Efficiency:**
 - Automated test generation reduces manual test design effort
@@ -42,7 +42,7 @@
 - Higher confidence in tested behavior
 - Reduced risk of untested paths
 
-### ROI Calculation
+### 🔷 ROI Calculation
 
 **Formula:**
 ```
@@ -70,7 +70,7 @@ ROI = (Benefits - Costs) / Costs x 100%
 **Year 1 ROI:** ($180,000 - $90,000) / $90,000 = 100%
 **Year 2 ROI:** ($180,000 - $45,000) / $45,000 = 300%
 
-### Payback Period
+### 🔷 Payback Period
 
 **Definition:** The time required to recover the initial investment.
 
@@ -86,13 +86,13 @@ Payback Period: $65,000 / $135,000 ≈ 0.48 years ≈ 6 months
 
 ---
 
-## 5.2 Pilot Projects
+## ⭐ 5.2 Pilot Projects
 
-### What Is a Pilot Project?
+### 🔷 What Is a Pilot Project?
 
 A small-scale initial project used to evaluate MBT in a controlled setting before wider deployment.
 
-### Why Use a Pilot?
+### 🔷 Why Use a Pilot?
 
 - **Reduce risk:** Learn lessons on a small project before committing organization-wide
 - **Prove value:** Demonstrate ROI with real numbers
@@ -100,7 +100,7 @@ A small-scale initial project used to evaluate MBT in a controlled setting befor
 - **Identify issues:** Discover tool limitations, process gaps, training needs
 - **Gain stakeholder buy-in:** Show tangible results to management
 
-### Selecting a Pilot Project
+### 🔷 Selecting a Pilot Project
 
 **Good Pilot Characteristics:**
 - **Right size:** Not too small (no benefit) or too large (too risky)
@@ -115,7 +115,7 @@ A small-scale initial project used to evaluate MBT in a controlled setting befor
 - Team resistant to change
 - No time for learning curve
 
-### Pilot Execution Steps
+### 🔷 Pilot Execution Steps
 
 **1. Define Objectives:**
 - What do we want to learn? (tool fit, process, ROI)
@@ -143,9 +143,9 @@ A small-scale initial project used to evaluate MBT in a controlled setting befor
 
 ---
 
-## 5.3 Deployment Strategies
+## ⭐ 5.3 Deployment Strategies
 
-### Incremental Deployment
+### 🔷 Incremental Deployment
 
 **Definition:** Introducing MBT gradually, starting with a small project or team and expanding over time.
 
@@ -168,7 +168,7 @@ A small-scale initial project used to evaluate MBT in a controlled setting befor
 - May create inconsistency between teams
 - Some projects may not benefit for years
 
-### Big-Bang Deployment
+### 🔷 Big-Bang Deployment
 
 **Definition:** Introducing MBT across the entire organization or all projects at once.
 
@@ -189,7 +189,7 @@ A small-scale initial project used to evaluate MBT in a controlled setting befor
 - May overwhelm teams
 - Requires strong change management
 
-### Recommended Approach
+### 🔷 Recommended Approach
 
 **For Most Organizations:** Incremental deployment with a pilot first.
 
@@ -203,9 +203,9 @@ A small-scale initial project used to evaluate MBT in a controlled setting befor
 
 ---
 
-## 5.4 Organizational Factors
+## ⭐ 5.4 Organizational Factors
 
-### Skills
+### 🔷 Skills
 
 **Required Skills:**
 - **Modeling:** Understanding of modeling notations (UML, BPMN)
@@ -219,7 +219,7 @@ A small-scale initial project used to evaluate MBT in a controlled setting befor
 - Practice on pilot projects
 - Communities of practice
 
-### Culture
+### 🔷 Culture
 
 **Supportive Culture Factors:**
 - Innovation openness
@@ -239,7 +239,7 @@ A small-scale initial project used to evaluate MBT in a controlled setting befor
 - Make it safe to experiment
 - Reward learning and improvement
 
-### Process Maturity
+### 🔷 Process Maturity
 
 **Low Maturity:**
 - Ad-hoc testing processes
@@ -261,7 +261,7 @@ A small-scale initial project used to evaluate MBT in a controlled setting befor
 
 **Implication:** Higher maturity makes MBT adoption easier, but MBT can also help improve maturity.
 
-### Tool Infrastructure
+### 🛠️ Tool Infrastructure
 
 **Required Infrastructure:**
 - Modeling tools
@@ -277,9 +277,9 @@ A small-scale initial project used to evaluate MBT in a controlled setting befor
 
 ---
 
-## 5.5 Metrics for MBT Success
+## 📊 5.5 Metrics for MBT Success
 
-### Process Metrics
+### 📊 Process Metrics
 
 **Model Coverage:**
 - Percentage of states covered
@@ -296,7 +296,7 @@ A small-scale initial project used to evaluate MBT in a controlled setting befor
 - Pass/fail rates
 - Execution time
 
-### Product Metrics
+### 📊 Product Metrics
 
 **Defect Detection:**
 - Number of defects found by MBT-generated tests
@@ -307,7 +307,7 @@ A small-scale initial project used to evaluate MBT in a controlled setting befor
 - Number of defects found in production that were missed by MBT
 - Trend over time (should decrease as models improve)
 
-### Business Metrics
+### 📊 Business Metrics
 
 **Effort Reduction:**
 - Hours saved in test design
@@ -322,7 +322,7 @@ A small-scale initial project used to evaluate MBT in a controlled setting befor
 - Actual vs. projected ROI
 - Payback period achieved
 
-### Quality Metrics
+### 📊 Quality Metrics
 
 **Model Quality:**
 - Number of model defects found
@@ -336,9 +336,9 @@ A small-scale initial project used to evaluate MBT in a controlled setting befor
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: ROI Calculation
+### 💡 Worked Example 1: ROI Calculation
 
 **Scenario:** A team of 5 testers manually designs and maintains 800 test cases. They are considering MBT.
 
@@ -385,7 +385,7 @@ A small-scale initial project used to evaluate MBT in a controlled setting befor
 
 **Year 1 ROI:** ($36,000 - $14,000) / $14,000 = 157%
 
-### Worked Example 2: Pilot Project Selection
+### 💡 Worked Example 2: Pilot Project Selection
 
 **Scenario:** An insurance company wants to pilot MBT. They have three candidate projects.
 
@@ -402,7 +402,7 @@ A small-scale initial project used to evaluate MBT in a controlled setting befor
 
 **Recommendation:** Project B is the best pilot. Stable, well-understood, right size.
 
-### Worked Example 3: Deployment Decision
+### 💡 Worked Example 3: Deployment Decision
 
 **Scenario:** A 50-person test organization across 8 teams wants to adopt MBT.
 

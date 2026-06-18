@@ -1,6 +1,6 @@
-# Chapter 3 — Automotive Testing Process: Exam Traps
+# 🪤 Chapter 3 — Automotive Testing Process: Exam Traps
 
-## Trap 1: Vehicle Testing Replaces All Other Levels
+## 🪤 Trap 1: Vehicle Testing Replaces All Other Levels
 
 **Trap:** Each test level serves a unique purpose; all are needed.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Traceability is Only for Documentation
+## 🪤 Trap 2: Traceability is Only for Documentation
 
 **Trap:** Traceability enables coverage analysis, impact analysis, and audit evidence.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: SIL and HIL Test the Same Things
+## 🪤 Trap 3: SIL and HIL Test the Same Things
 
 **Trap:** SIL tests software on PC; HIL tests ECU hardware with simulated environment.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Verification and Validation are the Same
+## 🪤 Trap 4: Verification and Validation are the Same
 
 **Trap:** Verification = did we build it right? Validation = did we build the right thing?
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Static Testing is Optional for Low ASIL
+## 🪤 Trap 5: Static Testing is Optional for Low ASIL
 
 **Trap:** Static testing (reviews, analysis) benefits all ASIL levels.
 

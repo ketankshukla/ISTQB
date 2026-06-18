@@ -1,6 +1,6 @@
-# Chapter 6 — Automotive Quality and Standards: Exam Traps
+# 🪤 Chapter 6 — Automotive Quality and Standards: Exam Traps
 
-## Trap 1: ISO 26262 is Only About Software
+## 🪤 Trap 1: ISO 26262 is Only About Software
 
 **Trap:** ISO 26262 covers system, hardware, and software; Part 6 is software-specific.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: ASPICE is a Test Standard
+## 🪤 Trap 2: ASPICE is a Test Standard
 
 **Trap:** ASPICE is a process assessment model covering all development, not just testing.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: AUTOSAR Eliminates Testing
+## 🪤 Trap 3: AUTOSAR Eliminates Testing
 
 **Trap:** AUTOSAR standardizes architecture but doesn't eliminate the need for testing.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: High Coverage Guarantees Quality
+## 📊 Trap 4: High Coverage Guarantees Quality
 
 **Trap:** Coverage measures test thoroughness, not correctness or absence of defects.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Audits Only Check Documents
+## 🪤 Trap 5: Audits Only Check Documents
 
 **Trap:** Audits check process adherence, evidence, and actual practices, not just paperwork.
 

@@ -1,8 +1,8 @@
-# Chapter 2 — Performance Test Types and Objectives: Practice Questions
+# ❓ Chapter 2 — Performance Test Types and Objectives: Practice Questions
 
 ---
 
-### Q1 (PT-2.1, K2)
+### 🔷 Q1 (PT-2.1, K2)
 
 Load testing evaluates:
 
@@ -13,7 +13,7 @@ D. Only security
 
 ---
 
-### Q2 (PT-2.2, K2)
+### 🔷 Q2 (PT-2.2, K2)
 
 Stress testing finds:
 
@@ -24,7 +24,7 @@ D. Only UI issues
 
 ---
 
-### Q3 (PT-2.3, K2)
+### 🔷 Q3 (PT-2.3, K2)
 
 Spike testing uses:
 
@@ -35,7 +35,7 @@ D. Only decreasing load
 
 ---
 
-### Q4 (PT-2.4, K2)
+### 🔷 Q4 (PT-2.4, K2)
 
 Endurance testing detects:
 
@@ -46,7 +46,7 @@ D. Only security flaws
 
 ---
 
-### Q5 (PT-2.5, K2)
+### 🔷 Q5 (PT-2.5, K2)
 
 Scalability testing evaluates:
 
@@ -57,7 +57,7 @@ D. Only documentation
 
 ---
 
-### Q6 (PT-2.6, K2)
+### 🔷 Q6 (PT-2.6, K2)
 
 Volume testing uses:
 
@@ -68,7 +68,7 @@ D. Only images
 
 ---
 
-### Q7 (PT-2.1, K2)
+### 🔷 Q7 (PT-2.1, K2)
 
 A ticket sale opening is best tested with:
 
@@ -79,7 +79,7 @@ D. Scalability testing
 
 ---
 
-### Q8 (PT-2.2, K2)
+### 🔷 Q8 (PT-2.2, K2)
 
 Stress testing also evaluates:
 
@@ -90,7 +90,7 @@ D. Only color schemes
 
 ---
 
-### Q9 (PT-2.3, K2)
+### 🔷 Q9 (PT-2.3, K2)
 
 A flash sale scenario requires:
 
@@ -101,7 +101,7 @@ D. Only volume testing
 
 ---
 
-### Q10 (PT-2.4, K2)
+### 🔷 Q10 (PT-2.4, K2)
 
 A 24/7 monitoring system needs:
 
@@ -112,7 +112,7 @@ D. Only stress testing
 
 ---
 
-### Q11 (PT-2.5, K2)
+### 🔷 Q11 (PT-2.5, K2)
 
 Horizontal scaling means:
 
@@ -123,7 +123,7 @@ D. Only changing software
 
 ---
 
-### Q12 (PT-2.6, K2)
+### 🔷 Q12 (PT-2.6, K2)
 
 A data migration validation needs:
 
@@ -134,7 +134,7 @@ D. Only stress testing
 
 ---
 
-### Q13 (PT-2.1, K2)
+### 🔷 Q13 (PT-2.1, K2)
 
 SLA verification uses:
 
@@ -145,7 +145,7 @@ D. Only endurance testing
 
 ---
 
-### Q14 (PT-2.2, K2)
+### 🔷 Q14 (PT-2.2, K2)
 
 The breakpoint is:
 
@@ -156,7 +156,7 @@ D. Only the normal load
 
 ---
 
-### Q15 (PT-2.3, K2)
+### 🔷 Q15 (PT-2.3, K2)
 
 Spike testing differs from stress testing because:
 
@@ -167,7 +167,7 @@ D. Only for networks
 
 ---
 
-### Q16 (PT-2.4, K2)
+### 🔷 Q16 (PT-2.4, K2)
 
 Endurance testing should run for:
 
@@ -178,7 +178,7 @@ D. Only 10 minutes
 
 ---
 
-### Q17 (PT-2.5, K2)
+### 🔷 Q17 (PT-2.5, K2)
 
 Vertical scaling means:
 
@@ -189,7 +189,7 @@ D. Only adding users
 
 ---
 
-### Q18 (PT-2.6, K2)
+### 🔷 Q18 (PT-2.6, K2)
 
 A big data application needs:
 
@@ -200,7 +200,7 @@ D. Only load testing
 
 ---
 
-### Q19 (PT-2.7, K2)
+### 🔷 Q19 (PT-2.7, K2)
 
 Think time in a workload model represents:
 
@@ -211,7 +211,7 @@ D. Only network latency
 
 ---
 
-### Q20 (PT-2.1, K3)
+### 🔷 Q20 (PT-2.1, K3)
 
 A new website expecting 10,000 concurrent users should first undergo:
 
@@ -222,84 +222,84 @@ D. Only endurance testing
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** Load = expected/normal load.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** Stress = breaking point + beyond normal.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** Spike = sudden extreme increase.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** Endurance = leaks + stability over time.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Scalability = handling growth with resources.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Volume = large data amounts.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Ticket sale = sudden burst = spike.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Stress = recovery + degradation.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** Flash sale = spike testing.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** 24/7 = endurance for stability.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Horizontal = more servers.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Data migration = volume testing.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** SLA = load under expected.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Breakpoint = sharp degradation.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Spike = sudden bursts; stress = sustained.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Endurance = hours to days.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Vertical = upgrade hardware.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Big data = volume testing.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Think time = user pause.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** Expected users = load testing first.

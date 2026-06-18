@@ -1,10 +1,10 @@
-# Chapter 3 — Mobile Functional Testing: Lessons
+# 📘 Chapter 3 — Mobile Functional Testing: Lessons
 
 ---
 
-## 3.1 UI and Layout Testing
+## ⭐ 3.1 UI and Layout Testing
 
-### Touch Targets
+### 🔷 Touch Targets
 
 | Guideline | Minimum Size | Rationale |
 |-----------|-------------|-----------|
@@ -16,7 +16,7 @@
 - Check spacing between targets (prevent accidental taps)
 - Test with "fat finger" simulation
 
-### Screen Sizes and Densities
+### 🔷 Screen Sizes and Densities
 
 | Category | iOS | Android |
 |----------|-----|---------|
@@ -31,7 +31,7 @@
 - Ensure no truncation or overlap
 - Test in split-screen / multi-window modes
 
-### Responsive Design
+### 🎨 Responsive Design
 
 - **Auto Layout (iOS):** Constraints adapt to size classes
 - **ConstraintLayout (Android):** Flexible positioning
@@ -39,9 +39,9 @@
 
 ---
 
-## 3.2 Touch Input and Gestures
+## ⭐ 3.2 Touch Input and Gestures
 
-### Common Gestures
+### 🔷 Common Gestures
 
 | Gesture | Action | Testing Focus |
 |---------|--------|---------------|
@@ -53,7 +53,7 @@
 | **Rotate** | Rotate object | Angle accuracy |
 | **Pull-to-refresh** | Refresh content | Threshold, visual feedback |
 
-### Testing Considerations
+### 🔷 Testing Considerations
 
 - **Gesture conflicts:** Swipe to dismiss vs swipe to scroll
 - **Edge cases:** Gestures near screen edges (notch, home indicator)
@@ -61,9 +61,9 @@
 
 ---
 
-## 3.3 Navigation and Orientation
+## ⭐ 3.3 Navigation and Orientation
 
-### Navigation Patterns
+### 🔷 Navigation Patterns
 
 | Pattern | iOS | Android |
 |---------|-----|---------|
@@ -72,7 +72,7 @@
 | **Stack navigation** | Push/pop with back button | Up/back in app bar |
 | **Bottom sheet** | Common for actions | Common for actions |
 
-### Orientation Testing
+### 🔷 Orientation Testing
 
 **Portrait to Landscape:**
 - Layout rearrangement
@@ -88,9 +88,9 @@
 
 ---
 
-## 3.4 Compatibility Testing
+## ⭐ 3.4 Compatibility Testing
 
-### Device Selection Strategy
+### ♟️ Device Selection Strategy
 
 | Criteria | Selection Method |
 |----------|-----------------|
@@ -100,7 +100,7 @@
 | **Manufacturers** | Include variety (Samsung, Xiaomi, Google, OnePlus) |
 | **Hardware features** | Devices with/without fingerprint, notch, etc. |
 
-### Compatibility Matrix
+### 🔷 Compatibility Matrix
 
 | Feature | iPhone 14 | iPhone SE | Samsung S23 | Xiaomi Redmi |
 |---------|-----------|-----------|-------------|--------------|
@@ -111,9 +111,9 @@
 
 ---
 
-## 3.5 Installation and Update Testing
+## ⭐ 3.5 Installation and Update Testing
 
-### Installation Scenarios
+### 🎬 Installation Scenarios
 
 | Scenario | Test Focus |
 |----------|-----------|
@@ -122,7 +122,7 @@
 | **Update with breaking changes** | Data conversion, user notification |
 | **Rollback** | Reinstall older version, data handling |
 
-### App Store Testing
+### 🔷 App Store Testing
 
 - **Metadata:** Screenshots, descriptions, keywords accurate
 - **In-app purchases:** Restore purchases, subscription status
@@ -130,9 +130,9 @@
 
 ---
 
-## 3.6 Push Notifications and Deep Links
+## ⭐ 3.6 Push Notifications and Deep Links
 
-### Push Notification Testing
+### 🔷 Push Notification Testing
 
 | Aspect | Test Cases |
 |--------|------------|
@@ -142,7 +142,7 @@
 | **Permissions** | Granted, denied, revoked |
 | **Rich notifications** | Buttons, images, custom UI |
 
-### Deep Link / Universal Link Testing
+### 🔷 Deep Link / Universal Link Testing
 
 | Type | iOS | Android |
 |------|-----|---------|
@@ -157,9 +157,9 @@
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Gesture Testing
+### 💡 Worked Example 1: Gesture Testing
 
 **Scenario:** A photo gallery app supports pinch-to-zoom and swipe-to-dismiss.
 
@@ -171,7 +171,7 @@
 | Gesture conflict | Pinch while swiping | One gesture recognized; no crash |
 | Accessibility | Enable VoiceOver/TalkBack | Alternative zoom controls available |
 
-### Worked Example 2: Compatibility Matrix
+### 💡 Worked Example 2: Compatibility Matrix
 
 **Scenario:** An e-commerce app must work on 8 test devices.
 
@@ -186,7 +186,7 @@
 | Samsung Galaxy Tab | Android 13 | Medium | Tablet layout |
 | OnePlus 11 | Android 14 | Low | OxygenOS differences |
 
-### Worked Example 3: Deep Link Validation
+### 💡 Worked Example 3: Deep Link Validation
 
 **Scenario:** Marketing sends email with link to product page.
 

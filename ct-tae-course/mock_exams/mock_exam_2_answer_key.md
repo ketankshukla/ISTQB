@@ -1,4 +1,4 @@
-# Mock Exam 2 — Answer Key
+# 📝 Mock Exam 2 — Answer Key
 
 | Q | Answer | Rationale |
 |---|--------|-----------|
@@ -43,7 +43,7 @@
 | 39 | B | Unit tests are the fastest and should run first (fail fast). |
 | 40 | B | ATDD (acceptance), BDD (scenario), and TDD (unit) are complementary at different levels. |
 
-## Score Interpretation
+## ⭐ Score Interpretation
 
 | Score | Interpretation |
 |-------|-------------|

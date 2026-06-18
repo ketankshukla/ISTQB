@@ -1,8 +1,8 @@
-# Chapter 4 — Test Implementation and Execution: Practice Questions
+# ❓ Chapter 4 — Test Implementation and Execution: Practice Questions
 
 ---
 
-### Q1 (MBT-4.1, K2)
+### 🔷 Q1 (MBT-4.1, K2)
 
 An abstract test case is:
 
@@ -13,7 +13,7 @@ D. The same as a concrete test case
 
 ---
 
-### Q2 (MBT-4.2, K2)
+### 🔷 Q2 (MBT-4.2, K2)
 
 Concretization is the process of:
 
@@ -24,7 +24,7 @@ D. Analyzing test results
 
 ---
 
-### Q3 (MBT-4.4, K2)
+### 🔷 Q3 (MBT-4.4, K2)
 
 In MBT, the model often serves as:
 
@@ -35,7 +35,7 @@ D. The deployment pipeline
 
 ---
 
-### Q4 (MBT-4.5, K2)
+### 🔷 Q4 (MBT-4.5, K2)
 
 A test fails. The SUT behaves as specified in requirements, but the model predicted different behavior. The root cause is likely:
 
@@ -46,7 +46,7 @@ D. An environment issue
 
 ---
 
-### Q5 (MBT-4.3, K2)
+### 🔷 Q5 (MBT-4.3, K2)
 
 Simulator-based test execution is MOST appropriate when:
 
@@ -57,7 +57,7 @@ D. The model is not yet complete
 
 ---
 
-### Q6 (MBT-4.2, K2)
+### 🔷 Q6 (MBT-4.2, K2)
 
 Which is NOT part of the concretization process?
 
@@ -68,7 +68,7 @@ D. Defining expected results for the SUT
 
 ---
 
-### Q7 (MBT-4.5, K3)
+### 🔷 Q7 (MBT-4.5, K3)
 
 An MBT test suddenly fails after a UI redesign. The SUT logic is unchanged. The FIRST thing to check is:
 
@@ -79,7 +79,7 @@ D. The database schema
 
 ---
 
-### Q8 (MBT-4.4, K2)
+### 🔷 Q8 (MBT-4.4, K2)
 
 A non-deterministic system is one where:
 
@@ -90,7 +90,7 @@ D. The system never produces output
 
 ---
 
-### Q9 (MBT-4.3, K2)
+### 🔷 Q9 (MBT-4.3, K2)
 
 Automated test execution is BEST for:
 
@@ -101,7 +101,7 @@ D. One-time tests
 
 ---
 
-### Q10 (MBT-4.2, K2)
+### 🔷 Q10 (MBT-4.2, K2)
 
 A concrete test case includes all of the following EXCEPT:
 
@@ -112,7 +112,7 @@ D. Expected observable results
 
 ---
 
-### Q11 (MBT-4.5, K2)
+### 🔷 Q11 (MBT-4.5, K2)
 
 If a test fails and the model, concretization, and environment are all correct, the failure indicates:
 
@@ -123,7 +123,7 @@ D. The oracle is wrong
 
 ---
 
-### Q12 (MBT-4.4, K2)
+### 🔷 Q12 (MBT-4.4, K2)
 
 A statistical oracle is useful when:
 
@@ -134,7 +134,7 @@ D. There are no inputs
 
 ---
 
-### Q13 (MBT-4.1, K3)
+### 🔷 Q13 (MBT-4.1, K3)
 
 A test case describes: "From Login state, enter valid credentials, expect Dashboard state." Without specific username/password, this is:
 
@@ -145,7 +145,7 @@ D. A bug report
 
 ---
 
-### Q14 (MBT-4.2, K2)
+### 🔷 Q14 (MBT-4.2, K2)
 
 Automated concretization is beneficial because it:
 
@@ -156,7 +156,7 @@ D. Works only for manual tests
 
 ---
 
-### Q15 (MBT-4.5, K3)
+### 🔷 Q15 (MBT-4.5, K3)
 
 A previously passing test fails after a new build, but no code changed in the tested area. The investigation should FIRST check:
 
@@ -167,7 +167,7 @@ D. Whether to abandon MBT
 
 ---
 
-### Q16 (MBT-4.3, K2)
+### 🔷 Q16 (MBT-4.3, K2)
 
 Manual test execution is MOST appropriate for:
 
@@ -178,7 +178,7 @@ D. Performance load testing
 
 ---
 
-### Q17 (MBT-4.4, K2)
+### 🔷 Q17 (MBT-4.4, K2)
 
 Which is a limitation of using the model as the oracle?
 
@@ -189,7 +189,7 @@ D. It cannot be automated
 
 ---
 
-### Q18 (MBT-4.2, K2)
+### 🔷 Q18 (MBT-4.2, K2)
 
 During concretization, preconditions are added to:
 
@@ -200,7 +200,7 @@ D. Document the model structure
 
 ---
 
-### Q19 (MBT-4.5, K2)
+### 🔷 Q19 (MBT-4.5, K2)
 
 A metamorphic oracle checks:
 
@@ -211,7 +211,7 @@ D. Database connections only
 
 ---
 
-### Q20 (MBT-4.1, K2)
+### 🔷 Q20 (MBT-4.1, K2)
 
 The PRIMARY difference between abstract and concrete test cases is:
 
@@ -222,104 +222,104 @@ D. Concrete tests do not need expected results
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** Abstract test = model level, no specific data or implementation details.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** Concretization = transforming abstract tests into executable concrete tests.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** Model often serves as oracle for predicting expected results.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** SUT correct but model predicted differently = model defect.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** Simulators = when SUT unavailable or real-world testing dangerous/expensive.
 
-### Q6
+### 🔷 Q6
 **Answer: C**
 
 **Rationale:** Creating the initial model is modeling, not concretization.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** UI redesign = concretization mappings (element locators) likely broken.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** Non-deterministic = same input may produce different outputs.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** Automated execution = best for regression and large suites.
 
-### Q10
+### 🔷 Q10
 **Answer: C**
 
 **Rationale:** Abstract model notation is not part of concrete test cases.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 
 **Rationale:** Model, concretization, environment all correct = SUT defect.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** Statistical oracle = for probabilistic/non-deterministic behavior.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** No specific data = abstract test case.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** Automated concretization = consistent mapping, re-runnable.
 
-### Q15
+### 🔷 Q15
 **Answer: A**
 
 **Rationale:** No code change in tested area = check data/environment dependencies.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 
 **Rationale:** Manual = exploratory scenarios requiring human judgment.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 
 **Rationale:** Model oracle limitation = if model is wrong, expected results are wrong.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 
 **Rationale:** Preconditions = set up required state before execution.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** Metamorphic oracle = relationships between inputs/outputs across executions.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 
 **Rationale:** Concrete = specific data and SUT mappings; abstract = generic.

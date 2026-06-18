@@ -1,14 +1,14 @@
-# Chapter 1 — Introduction to Security Test Engineering: Lessons
+# 📘 Chapter 1 — Introduction to Security Test Engineering: Lessons
 
 ---
 
-## 1.1 What is Security Test Engineering?
+## 🔒 1.1 What is Security Test Engineering?
 
-### Definition
+### 🔷 Definition
 
 Security test engineering is the systematic process of testing software to identify vulnerabilities, verify security controls, and ensure the application resists attacks.
 
-### Scope
+### 🔷 Scope
 
 | Activity | Description |
 |----------|-------------|
@@ -17,7 +17,7 @@ Security test engineering is the systematic process of testing software to ident
 | **Risk assessment** | Prioritize issues by business impact |
 | **Compliance validation** | Verify regulatory requirements (PCI-DSS, GDPR) |
 
-### Security Testing vs Functional Testing
+### 🔒 Security Testing vs Functional Testing
 
 | Aspect | Functional Testing | Security Testing |
 |--------|-------------------|-----------------|
@@ -28,27 +28,27 @@ Security test engineering is the systematic process of testing software to ident
 
 ---
 
-## 1.2 The CIA Triad
+## ⭐ 1.2 The CIA Triad
 
-### Confidentiality
+### 🔷 Confidentiality
 
 - **Definition:** Only authorized parties can access data
 - **Testing focus:** Encryption, access controls, authentication
 - **Example test:** Can user A see user B's data?
 
-### Integrity
+### 🔷 Integrity
 
 - **Definition:** Data is not altered improperly
 - **Testing focus:** Tamper detection, input validation, checksums
 - **Example test:** Can an attacker modify a price in a request?
 
-### Availability
+### 🤖 Availability
 
 - **Definition:** Systems are accessible when needed
 - **Testing focus:** DoS resilience, load handling, failover
 - **Example test:** Does the system remain responsive under heavy load?
 
-### Extended Security Properties
+### 🔒 Extended Security Properties
 
 | Property | Description |
 |----------|-------------|
@@ -59,9 +59,9 @@ Security test engineering is the systematic process of testing software to ident
 
 ---
 
-## 1.3 Threat Actors
+## ⭐ 1.3 Threat Actors
 
-### Types
+### 🧪 Types
 
 | Actor | Motivation | Capability | Example |
 |-------|-----------|------------|---------|
@@ -71,7 +71,7 @@ Security test engineering is the systematic process of testing software to ident
 | **Nation-state** | Espionage, sabotage | High | APT, supply chain attacks |
 | **Insider** | Revenge, profit, negligence | Variable | Data exfiltration |
 
-### Threat Modeling Implication
+### 📐 Threat Modeling Implication
 
 Different actors require different defenses:
 - Script kiddies: Patch known vulnerabilities
@@ -79,7 +79,7 @@ Different actors require different defenses:
 
 ---
 
-## 1.4 OWASP Top 10 Overview
+## 🌟 1.4 OWASP Top 10 Overview
 
 | Rank | Risk | Testing Relevance |
 |------|------|-------------------|
@@ -96,9 +96,9 @@ Different actors require different defenses:
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: CIA Triad Test Cases
+### 💡 Worked Example 1: CIA Triad Test Cases
 
 **Scenario:** Online banking application.
 
@@ -110,7 +110,7 @@ Different actors require different defenses:
 | Authentication | Verify MFA is required for high-value transfers |
 | Authorization | Verify teller role cannot approve loans |
 
-### Worked Example 2: Threat Actor Analysis
+### 💡 Worked Example 2: Threat Actor Analysis
 
 **Scenario:** Healthcare application storing patient records.
 
@@ -120,7 +120,7 @@ Different actors require different defenses:
 | Insider | Unauthorized data access | RBAC, audit logs, DLP |
 | Nation-state | Targeted espionage | Air-gapped systems, zero-trust |
 
-### Worked Example 3: Security Testing Scope
+### 💡 Worked Example 3: Security Testing Scope
 
 **Scenario:** E-commerce checkout flow.
 

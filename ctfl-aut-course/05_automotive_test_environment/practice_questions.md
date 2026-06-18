@@ -1,8 +1,8 @@
-# Chapter 5 — Automotive Test Environment: Practice Questions
+# ❓ Chapter 5 — Automotive Test Environment: Practice Questions
 
 ---
 
-### Q1 (AuT-5.1, K2)
+### 🔷 Q1 (AuT-5.1, K2)
 
 MIL testing uses:
 
@@ -13,7 +13,7 @@ D. Only vehicle prototypes
 
 ---
 
-### Q2 (AuT-5.2, K2)
+### 🔷 Q2 (AuT-5.2, K2)
 
 SIL testing runs code on:
 
@@ -24,7 +24,7 @@ D. Only on HIL rig
 
 ---
 
-### Q3 (AuT-5.3, K2)
+### 🔷 Q3 (AuT-5.3, K2)
 
 PIL testing verifies:
 
@@ -35,7 +35,7 @@ D. Only memory size
 
 ---
 
-### Q4 (AuT-5.4, K2)
+### 🔷 Q4 (AuT-5.4, K2)
 
 HIL testing uses:
 
@@ -46,7 +46,7 @@ D. Only manual testing
 
 ---
 
-### Q5 (AuT-5.5, K2)
+### 🔷 Q5 (AuT-5.5, K2)
 
 CANoe supports:
 
@@ -57,7 +57,7 @@ D. Only Ethernet
 
 ---
 
-### Q6 (AuT-5.1, K2)
+### 🔷 Q6 (AuT-5.1, K2)
 
 MIL is best for:
 
@@ -68,7 +68,7 @@ D. Only regression testing
 
 ---
 
-### Q7 (AuT-5.2, K2)
+### 🔷 Q7 (AuT-5.2, K2)
 
 SIL is best for:
 
@@ -79,7 +79,7 @@ D. Only prototype testing
 
 ---
 
-### Q8 (AuT-5.3, K2)
+### 🔷 Q8 (AuT-5.3, K2)
 
 PIL is needed when:
 
@@ -90,7 +90,7 @@ D. Only for infotainment
 
 ---
 
-### Q9 (AuT-5.4, K2)
+### 🔷 Q9 (AuT-5.4, K2)
 
 HIL fault insertion simulates:
 
@@ -101,7 +101,7 @@ D. Only user errors
 
 ---
 
-### Q10 (AuT-5.6, K2)
+### 🔷 Q10 (AuT-5.6, K2)
 
 Vehicle testing is best for:
 
@@ -112,7 +112,7 @@ D. Only compiler checks
 
 ---
 
-### Q11 (AuT-5.1, K2)
+### 🔷 Q11 (AuT-5.1, K2)
 
 MIL fidelity is:
 
@@ -123,7 +123,7 @@ D. Only high
 
 ---
 
-### Q12 (AuT-5.2, K2)
+### 🔷 Q12 (AuT-5.2, K2)
 
 SIL fidelity is:
 
@@ -134,7 +134,7 @@ D. Only low
 
 ---
 
-### Q13 (AuT-5.4, K2)
+### 🔷 Q13 (AuT-5.4, K2)
 
 A plant model in HIL simulates:
 
@@ -145,7 +145,7 @@ D. Only the user interface
 
 ---
 
-### Q14 (AuT-5.5, K2)
+### 🔷 Q14 (AuT-5.5, K2)
 
 dSPACE is used for:
 
@@ -156,7 +156,7 @@ D. Only static analysis
 
 ---
 
-### Q15 (AuT-5.6, K2)
+### 🔷 Q15 (AuT-5.6, K2)
 
 For compiler verification, the best environment is:
 
@@ -167,7 +167,7 @@ D. Vehicle
 
 ---
 
-### Q16 (AuT-5.4, K2)
+### 🔷 Q16 (AuT-5.4, K2)
 
 Real-time simulator in HIL:
 
@@ -178,7 +178,7 @@ D. Only manages tests
 
 ---
 
-### Q17 (AuT-5.2, K2)
+### 🔷 Q17 (AuT-5.2, K2)
 
 SIL testing cost is:
 
@@ -189,7 +189,7 @@ D. Only high
 
 ---
 
-### Q18 (AuT-5.3, K2)
+### 🔷 Q18 (AuT-5.3, K2)
 
 PIL requires:
 
@@ -200,7 +200,7 @@ D. Only a vehicle
 
 ---
 
-### Q19 (AuT-5.4, K2)
+### 🔷 Q19 (AuT-5.4, K2)
 
 HIL testing is more repeatable than vehicle testing because:
 
@@ -211,7 +211,7 @@ D. Only because it's cheaper
 
 ---
 
-### Q20 (AuT-5.6, K3)
+### 🔷 Q20 (AuT-5.6, K3)
 
 For integration testing of a brake ECU with ABS, the most appropriate environment is:
 
@@ -222,84 +222,84 @@ D. Vehicle
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** MIL = simulation models only.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** SIL = PC host.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** PIL = target compiler + processor.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** HIL = real ECU + simulated environment.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** CANoe = CAN + LIN + FlexRay + Ethernet + MOST.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** MIL = algorithm design.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** SIL = software verification.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** PIL = target-specific behavior.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** HIL fault = sensor + actuator faults.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** Vehicle = final validation.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** MIL = lowest fidelity.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** SIL = medium fidelity.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Plant model = vehicle physics.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** dSPACE = HIL + prototyping.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Compiler = PIL.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Real-time simulator = runs plant model real-time.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** SIL = low cost (PC).
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** PIL = target processor board.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** HIL = controlled environment = repeatable.
 
-### Q20
+### 🔷 Q20
 **Answer: C**
 **Rationale:** Brake ECU integration = HIL.

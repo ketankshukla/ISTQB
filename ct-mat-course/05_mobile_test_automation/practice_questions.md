@@ -1,8 +1,8 @@
-# Chapter 5 — Mobile Test Automation: Practice Questions
+# ❓ Chapter 5 — Mobile Test Automation: Practice Questions
 
 ---
 
-### Q1 (MAT-5.1, K2)
+### 🔷 Q1 (MAT-5.1, K2)
 
 Appium is best described as:
 
@@ -13,7 +13,7 @@ D. A performance monitoring tool
 
 ---
 
-### Q2 (MAT-5.2, K2)
+### 🔷 Q2 (MAT-5.2, K2)
 
 The Page Object Model separates:
 
@@ -24,7 +24,7 @@ D. Only the reporting
 
 ---
 
-### Q3 (MAT-5.3, K2)
+### 🔷 Q3 (MAT-5.3, K2)
 
 Accessibility IDs as locators are preferred because:
 
@@ -35,7 +35,7 @@ D. They are only for Android
 
 ---
 
-### Q4 (MAT-5.4, K2)
+### 🔷 Q4 (MAT-5.4, K2)
 
 An iOS Simulator cannot test:
 
@@ -46,7 +46,7 @@ D. Text input
 
 ---
 
-### Q5 (MAT-5.1, K2)
+### 🔷 Q5 (MAT-5.1, K2)
 
 Espresso is designed for:
 
@@ -57,7 +57,7 @@ D. Performance testing
 
 ---
 
-### Q6 (MAT-5.2, K3)
+### 🔷 Q6 (MAT-5.2, K3)
 
 A cross-platform automation strategy using shared test code:
 
@@ -68,7 +68,7 @@ D. Only works for Android
 
 ---
 
-### Q7 (MAT-5.3, K2)
+### 🔷 Q7 (MAT-5.3, K2)
 
 Firebase Test Lab provides:
 
@@ -79,7 +79,7 @@ D. Only manual testing
 
 ---
 
-### Q8 (MAT-5.4, K2)
+### 🔷 Q8 (MAT-5.4, K2)
 
 Real devices are MOST important for testing:
 
@@ -90,7 +90,7 @@ D. Only emulators
 
 ---
 
-### Q9 (MAT-5.1, K2)
+### 🔷 Q9 (MAT-5.1, K2)
 
 XCUITest is Apple's framework for:
 
@@ -101,7 +101,7 @@ D. Database testing
 
 ---
 
-### Q10 (MAT-5.2, K2)
+### 🔷 Q10 (MAT-5.2, K2)
 
 Flaky mobile UI tests are often caused by:
 
@@ -112,7 +112,7 @@ D. Only OS versions
 
 ---
 
-### Q11 (MAT-5.3, K2)
+### 🔷 Q11 (MAT-5.3, K2)
 
 The recommended locator strategy for cross-platform stability is:
 
@@ -123,7 +123,7 @@ D. Color
 
 ---
 
-### Q12 (MAT-5.4, K2)
+### 🔷 Q12 (MAT-5.4, K2)
 
 Disabling system animations during tests:
 
@@ -134,7 +134,7 @@ D. Only affects Android
 
 ---
 
-### Q13 (MAT-5.1, K2)
+### 🔷 Q13 (MAT-5.1, K2)
 
 Detox is particularly suited for:
 
@@ -145,7 +145,7 @@ D. Only database testing
 
 ---
 
-### Q14 (MAT-5.2, K2)
+### 🔷 Q14 (MAT-5.2, K2)
 
 Retrying a flaky test 10 times without fixing the root cause:
 
@@ -156,7 +156,7 @@ D. Only affects reporting
 
 ---
 
-### Q15 (MAT-5.3, K2)
+### 🔷 Q15 (MAT-5.3, K2)
 
 The test pyramid for mobile suggests:
 
@@ -167,7 +167,7 @@ D. Only manual tests
 
 ---
 
-### Q16 (MAT-5.4, K2)
+### 🔷 Q16 (MAT-5.4, K2)
 
 Cloud device farms are useful for:
 
@@ -178,7 +178,7 @@ D. Only security testing
 
 ---
 
-### Q17 (MAT-5.1, K2)
+### 🔷 Q17 (MAT-5.1, K2)
 
 Explicit waits in automation:
 
@@ -189,7 +189,7 @@ D. Only work on Android
 
 ---
 
-### Q18 (MAT-5.2, K2)
+### 🔷 Q18 (MAT-5.2, K2)
 
 A Page Object class should:
 
@@ -200,7 +200,7 @@ D. Only contain test data
 
 ---
 
-### Q19 (MAT-5.3, K2)
+### 🔷 Q19 (MAT-5.3, K2)
 
 UI Automator (Android) is best for:
 
@@ -211,7 +211,7 @@ D. Only web apps
 
 ---
 
-### Q20 (MAT-5.4, K2)
+### 🔷 Q20 (MAT-5.4, K2)
 
 Mocking network responses in mobile tests:
 
@@ -222,84 +222,84 @@ D. Only works for iOS
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** Appium = cross-platform WebDriver framework.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** POM = separates logic from locators/actions.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** Accessibility IDs = stable + improve accessibility.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** Simulator cannot test push notifications or camera.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Espresso = Android UI with sync.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Shared code simplifies but may need branches.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Firebase = cloud real/virtual devices.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Real devices = hardware features + performance.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** XCUITest = iOS UI testing.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** Flakiness = animations, timing, network.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Accessibility ID = most stable locator.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Disable animations = reduce timing flakiness.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Detox = React Native gray-box.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Retries mask issues and waste time.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Pyramid = unit > integration > UI.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Cloud farms = many devices without ownership.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Explicit waits = condition-based, reliable.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Page Object = locators + actions for one screen.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** UI Automator = cross-app interactions.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** Mocking = removes network variability.

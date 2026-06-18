@@ -1,10 +1,10 @@
-# Chapter 2 — Game Mathematics and RNG Testing: Lessons
+# 📘 Chapter 2 — Game Mathematics and RNG Testing: Lessons
 
 ---
 
-## 2.1 Probability and Odds in Gambling
+## 🎰 2.1 Probability and Odds in Gambling
 
-### Basic Probability
+### 🔷 Basic Probability
 
 **Probability** is the measure of the likelihood that an event will occur. In gambling, probability determines the expected frequency of outcomes.
 
@@ -17,7 +17,7 @@ Probability = Number of Favorable Outcomes / Total Number of Possible Outcomes
 - A fair six-sided die: Probability of rolling a 3 = 1/6 ≈ 16.67%
 - A standard deck of cards: Probability of drawing an Ace = 4/52 = 1/13 ≈ 7.69%
 
-### Independent Events
+### 🔷 Independent Events
 
 Most gambling outcomes are **independent** — one outcome does not affect the next.
 
@@ -26,7 +26,7 @@ Most gambling outcomes are **independent** — one outcome does not affect the n
 - Each roll of a die is independent.
 - Each shuffle of a deck in online blackjack (using RNG) is independent.
 
-### Calculating Combined Probabilities
+### 🔷 Calculating Combined Probabilities
 
 **AND (both events occur):**
 ```
@@ -47,7 +47,7 @@ P(A or B) = P(A) + P(B)  [for mutually exclusive events]
 - P(1) = 1/6, P(6) = 1/6
 - P(1 or 6) = 1/6 + 1/6 = 2/6 = 1/3 ≈ 33.33%
 
-### Odds
+### 🔷 Odds
 
 **Odds** express the ratio of the probability of an event occurring to the probability of it not occurring.
 
@@ -80,9 +80,9 @@ Decimal Odds = 1 / Probability
 
 ---
 
-## 2.2 Return to Player (RTP) Calculation
+## ⭐ 2.2 Return to Player (RTP) Calculation
 
-### From a Paytable
+### 🔷 From a Paytable
 
 To calculate RTP from a slot machine paytable, you need:
 1. The probability of each winning combination
@@ -93,7 +93,7 @@ To calculate RTP from a slot machine paytable, you need:
 RTP = Σ (Probability of Combination × Payout for Combination) / (Cost per Spin) × 100
 ```
 
-### Worked Example: Simple Slot Machine
+### 💡 Worked Example: Simple Slot Machine
 
 **Game Rules:**
 - 3 reels, each with 10 symbols
@@ -149,7 +149,7 @@ Wait — $1.25 exceeds the $1 stake. This would mean the player has an advantage
 
 Let me recalculate with a more realistic example:
 
-### Realistic Worked Example
+### 💡 Realistic Worked Example
 
 **Game Rules:**
 - 3 reels, each with 20 symbols
@@ -209,7 +209,7 @@ Any 2 Cherries:
 
 This is very low for a real slot (typical is 92-98%). But the math method is correct.
 
-### Theoretical vs. Actual RTP
+### 🔷 Theoretical vs. Actual RTP
 
 **Theoretical RTP:**
 - Calculated from the game's mathematical model (reel strips, paytable, rules)
@@ -228,9 +228,9 @@ This is very low for a real slot (typical is 92-98%). But the math method is cor
 
 ---
 
-## 2.3 Random Number Generators (RNG)
+## ⭐ 2.3 Random Number Generators (RNG)
 
-### What is an RNG?
+### 🔷 What is an RNG?
 
 A **Random Number Generator (RNG)** is a device or algorithm that produces a sequence of numbers that lacks any predictable pattern.
 
@@ -243,7 +243,7 @@ A **Random Number Generator (RNG)** is a device or algorithm that produces a seq
 - PRNGs must be cryptographically secure and properly seeded
 - Physical casinos may use HRNGs for mechanical games or PRNGs for electronic games
 
-### Properties of a Suitable RNG for Gambling
+### 🎰 Properties of a Suitable RNG for Gambling
 
 **1. Randomness:**
 - The output sequence must pass statistical tests for randomness
@@ -265,7 +265,7 @@ A **Random Number Generator (RNG)** is a device or algorithm that produces a seq
 - With the same seed, the PRNG must produce the same sequence
 - This allows testers to reproduce specific game outcomes for debugging
 
-### RNG Testing Methods
+### 🔷 RNG Testing Methods
 
 **1. Statistical Randomness Tests:**
 
@@ -296,7 +296,7 @@ A **Random Number Generator (RNG)** is a device or algorithm that produces a seq
 - Verify the RNG does not repeat its sequence within operational use
 - Modern PRNGs have periods of 2^19937 or larger (effectively infinite for gambling purposes)
 
-### RNG Certification Process
+### 🔷 RNG Certification Process
 
 **Step 1: Source Code Review**
 - Independent lab reviews the RNG algorithm implementation
@@ -321,9 +321,9 @@ A **Random Number Generator (RNG)** is a device or algorithm that produces a seq
 
 ---
 
-## 2.4 Game Mathematics Verification
+## 🎮 2.4 Game Mathematics Verification
 
-### PAR Sheets
+### 🔷 PAR Sheets
 
 A **PAR Sheet (Probability Accounting Report)** is the mathematical blueprint of a slot machine or gambling game.
 
@@ -342,7 +342,7 @@ A **PAR Sheet (Probability Accounting Report)** is the mathematical blueprint of
 - Any deviation indicates a software defect or manipulation
 - Regulators require PAR sheets for game approval
 
-### Reel Strip Testing
+### 🔷 Reel Strip Testing
 
 **What is a Reel Strip?**
 - The ordered list of symbols on each reel of a slot machine
@@ -361,7 +361,7 @@ Reel 2: [Bar, 7, Cherry, Blank, Cherry, Bar, Blank, 7, Cherry, Blank]
 Reel 3: [Cherry, Bar, 7, Blank, Blank, Cherry, Bar, 7, Cherry, Blank]
 ```
 
-### Odds Verification in Sports Betting
+### 🔷 Odds Verification in Sports Betting
 
 **Testing Requirements:**
 - Verify that displayed odds match the underlying probability model
@@ -378,9 +378,9 @@ A typical overround is 5-10%, representing the operator's profit margin.
 
 ---
 
-## 2.5 Expected Value and House Edge Calculation
+## ⭐ 2.5 Expected Value and House Edge Calculation
 
-### Expected Value (EV)
+### 🔷 Expected Value (EV)
 
 **Formula:**
 ```
@@ -400,7 +400,7 @@ EV = Σ (Probability of Outcome × Value of Outcome)
 - EV = -$0.0271 per $1 bet
 - House edge = 2.71%
 
-### House Edge from Game Rules
+### 🎮 House Edge from Game Rules
 
 **Blackjack (simplified):**
 - Player wins even money on blackjack, beats dealer's non-blackjack
@@ -415,9 +415,9 @@ EV = Σ (Probability of Outcome × Value of Outcome)
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Calculating RTP
+### 💡 Worked Example 1: Calculating RTP
 
 **Game:** 5-reel slot, cost $1 per spin
 **Reels:** 20 symbols each
@@ -454,7 +454,7 @@ EV = Σ (Probability of Outcome × Value of Outcome)
 
 This is very low; in practice, many more winning combinations would exist.
 
-### Worked Example 2: RNG Uniformity Test
+### 💡 Worked Example 2: RNG Uniformity Test
 
 An RNG generates integers from 1 to 100. Over 10,000 outputs:
 
@@ -467,7 +467,7 @@ An RNG generates integers from 1 to 100. Over 10,000 outputs:
 
 The chi-square test compares observed vs. expected. If chi-square exceeds the critical value, the RNG fails the uniformity test.
 
-### Worked Example 3: Overround in Sports Betting
+### 💡 Worked Example 3: Overround in Sports Betting
 
 A football match offers:
 - Home win: 2.10 decimal odds

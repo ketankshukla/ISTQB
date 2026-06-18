@@ -1,6 +1,6 @@
-# Chapter 6 — Test Automation and Tools: Exam Traps
+# 🪤 Chapter 6 — Test Automation and Tools: Exam Traps
 
-## Trap 1: Automating Everything
+## 🪤 Trap 1: Automating Everything
 
 **Trap:** Games need extensive manual/exploratory testing for feel, fun, and emergent behavior.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Screenshot Comparison with Zero Tolerance
+## 🪤 Trap 2: Screenshot Comparison with Zero Tolerance
 
 **Trap:** Particle effects, animations, and timing differences cause false positives.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: CI/CD is Only for Code
+## 🪤 Trap 3: CI/CD is Only for Code
 
 **Trap:** Game CI/CD must also build assets, run smoke tests, and validate content.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Telemetry Doesn't Need Testing
+## 🪤 Trap 4: Telemetry Doesn't Need Testing
 
 **Trap:** Incorrect telemetry leads to bad business decisions; events must be verified.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Bug Severity is the Only Priority Factor
+## 🪤 Trap 5: Bug Severity is the Only Priority Factor
 
 **Trap:** Frequency, impact, and fix cost also determine priority.
 

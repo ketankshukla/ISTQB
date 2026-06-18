@@ -1,6 +1,6 @@
-# CTFL-PT Mock Exam 1 — Answer Key
+# 📝 CTFL-PT Mock Exam 1 — Answer Key
 
-## Answers
+## ✔️ Answers
 
 | Question | Answer | Topic |
 |----------|--------|-------|
@@ -25,7 +25,7 @@
 | Q19 | B | Ramp-up |
 | Q20 | B | Test selection |
 
-## Score Interpretation
+## ⭐ Score Interpretation
 
 | Score | Status |
 |-------|--------|

@@ -1,6 +1,6 @@
-# CT-BD Glossary
+# 📖 CT-BD Glossary
 
-## Chapter 1 — Introduction to Big Data Testing
+## 🌟 Chapter 1 — Introduction to Big Data Testing
 
 **Big Data:** Datasets that are too large or complex for traditional data processing applications to handle.
 
@@ -21,7 +21,7 @@
 
 **Data Warehouse:** A structured repository of integrated data optimized for reporting and analysis
 
-## Chapter 2 — Big Data Architecture and Components
+## 🗃️ Chapter 2 — Big Data Architecture and Components
 
 **Hadoop:** An open-source framework for distributed storage and processing of large datasets
 
@@ -49,7 +49,7 @@
 
 **Data Storage:** Persisting data in a repository for future access
 
-## Chapter 3 — Data Quality Testing
+## 💎 Chapter 3 — Data Quality Testing
 
 **Data Quality:** The degree to which data meets the requirements of its intended use
 
@@ -73,7 +73,7 @@
 
 **Schema-on-Write:** Data structure is defined before writing (e.g., relational databases)
 
-## Chapter 4 — Functional Testing of Big Data Applications
+## 🗃️ Chapter 4 — Functional Testing of Big Data Applications
 
 **ETL Testing:** Testing the extract, transform, and load processes for correctness
 
@@ -93,7 +93,7 @@
 
 **OLAP (Online Analytical Processing):** Computing method that allows users to easily extract and query data for business intelligence
 
-## Chapter 5 — Performance and Scalability Testing
+## ⚡ Chapter 5 — Performance and Scalability Testing
 
 **Benchmark:** A standard against which the performance of a system can be measured
 
@@ -111,7 +111,7 @@
 
 **Shuffle:** The redistribution of data across partitions in distributed processing (e.g., MapReduce shuffle)
 
-## Chapter 6 — Big Data Testing Tools and Automation
+## 🛠️ Chapter 6 — Big Data Testing Tools and Automation
 
 **Hive:** A data warehouse infrastructure built on top of Hadoop for providing data summarization, query, and analysis
 

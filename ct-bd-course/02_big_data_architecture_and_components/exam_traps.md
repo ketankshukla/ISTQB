@@ -1,6 +1,6 @@
-# Chapter 2 — Big Data Architecture and Components: Exam Traps
+# 🪤 Chapter 2 — Big Data Architecture and Components: Exam Traps
 
-## Trap 1: Confusing HDFS Block Replication with RAID
+## 🪤 Trap 1: Confusing HDFS Block Replication with RAID
 
 **Trap:** HDFS replication (storing copies on different nodes) is for fault tolerance, not performance striping like RAID.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Thinking MapReduce and Spark Are Identical
+## 🪤 Trap 2: Thinking MapReduce and Spark Are Identical
 
 **Trap:** Spark is faster than MapReduce for many workloads due to in-memory processing, but they serve similar distributed processing purposes.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Confusing NoSQL Database Types
+## 🪤 Trap 3: Confusing NoSQL Database Types
 
 **Trap:** Each NoSQL type (key-value, document, column, graph) has specific use cases. Choosing the wrong type is a common exam trap.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Ignoring Data Locality in Testing
+## 🪤 Trap 4: Ignoring Data Locality in Testing
 
 **Trap:** Hadoop optimizes for data locality (moving computation to data). Tests should verify that jobs run on nodes where data resides.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Confusing Batch and Stream Processing
+## 🪤 Trap 5: Confusing Batch and Stream Processing
 
 **Trap:** Batch processes accumulated data; stream processes data as it arrives. Testing approaches differ significantly.
 

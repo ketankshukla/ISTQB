@@ -1,12 +1,12 @@
-# CT-MBT Progress Tracker
+# 📈 CT-MBT Progress Tracker
 
 Use this checklist to track your progress through the course. Check each item when completed.
 
 ---
 
-## Chapter Progress
+## 📈 Chapter Progress
 
-### Chapter 1 — Introduction to Model-Based Testing
+### 🌟 Chapter 1 — Introduction to Model-Based Testing
 - [ ] Read `README.md`
 - [ ] Read `lessons.md`
 - [ ] Read `exam_traps.md`
@@ -14,7 +14,7 @@ Use this checklist to track your progress through the course. Check each item wh
 - [ ] Re-do missed questions until 100% correct
 - [ ] Score: ___/20
 
-### Chapter 2 — MBT Modeling
+### 📐 Chapter 2 — MBT Modeling
 - [ ] Read `README.md`
 - [ ] Read `lessons.md`
 - [ ] Read `exam_traps.md`
@@ -22,7 +22,7 @@ Use this checklist to track your progress through the course. Check each item wh
 - [ ] Re-do missed questions until 100% correct
 - [ ] Score: ___/20
 
-### Chapter 3 — Test Selection Criteria
+### ✅ Chapter 3 — Test Selection Criteria
 - [ ] Read `README.md`
 - [ ] Read `lessons.md`
 - [ ] Read `exam_traps.md`
@@ -30,7 +30,7 @@ Use this checklist to track your progress through the course. Check each item wh
 - [ ] Re-do missed questions until 100% correct
 - [ ] Score: ___/20
 
-### Chapter 4 — Test Implementation and Execution
+### 🔷 Chapter 4 — Test Implementation and Execution
 - [ ] Read `README.md`
 - [ ] Read `lessons.md`
 - [ ] Read `exam_traps.md`
@@ -38,7 +38,7 @@ Use this checklist to track your progress through the course. Check each item wh
 - [ ] Re-do missed questions until 100% correct
 - [ ] Score: ___/20
 
-### Chapter 5 — Evaluating and Deploying MBT
+### 🔷 Chapter 5 — Evaluating and Deploying MBT
 - [ ] Read `README.md`
 - [ ] Read `lessons.md`
 - [ ] Read `exam_traps.md`
@@ -46,7 +46,7 @@ Use this checklist to track your progress through the course. Check each item wh
 - [ ] Re-do missed questions until 100% correct
 - [ ] Score: ___/20
 
-### Chapter 6 — MBT Tool Support
+### 🛠️ Chapter 6 — MBT Tool Support
 - [ ] Read `README.md`
 - [ ] Read `lessons.md`
 - [ ] Read `exam_traps.md`
@@ -56,7 +56,7 @@ Use this checklist to track your progress through the course. Check each item wh
 
 ---
 
-## Case Studies
+## ⭐ Case Studies
 
 - [ ] Complete Case Study 1: ATM State Machine
 - [ ] Complete Case Study 2: E-Commerce Decision Table
@@ -64,21 +64,21 @@ Use this checklist to track your progress through the course. Check each item wh
 
 ---
 
-## Mock Exams
+## 📝 Mock Exams
 
-### Mock Exam 1
+### 📝 Mock Exam 1
 - [ ] Take under timed conditions (60 minutes)
 - [ ] Score: ___/40 (target: 28+)
 - [ ] Review all incorrect answers and rationales
 - [ ] Identify weak chapters
 
-### Mock Exam 2
+### 📝 Mock Exam 2
 - [ ] Re-study weak chapters from Mock 1
 - [ ] Take under timed conditions (60 minutes)
 - [ ] Score: ___/40 (target: 32+)
 - [ ] Review all incorrect answers and rationales
 
-### Mock Exam 3
+### 📝 Mock Exam 3
 - [ ] Re-study any remaining weak areas
 - [ ] Take under timed conditions (60 minutes)
 - [ ] Score: ___/40 (target: 34+)
@@ -86,7 +86,7 @@ Use this checklist to track your progress through the course. Check each item wh
 
 ---
 
-## Final Preparation
+## ⭐ Final Preparation
 
 - [ ] Review all `exam_traps.md` summaries
 - [ ] Review `GLOSSARY.md` for terms you still find unclear
@@ -96,7 +96,7 @@ Use this checklist to track your progress through the course. Check each item wh
 
 ---
 
-## Score Targets
+## ⭐ Score Targets
 
 | Milestone | Minimum | Ready |
 |-----------|---------|-------|
@@ -107,7 +107,7 @@ Use this checklist to track your progress through the course. Check each item wh
 
 ---
 
-## Exam Day
+## 🎓 Exam Day
 
 - [ ] Date of exam: ___________
 - [ ] Score achieved: ___/40
@@ -116,7 +116,7 @@ Use this checklist to track your progress through the course. Check each item wh
 
 ---
 
-## Notes
+## 🗒️ Notes
 
 Use this space for your own notes:
 

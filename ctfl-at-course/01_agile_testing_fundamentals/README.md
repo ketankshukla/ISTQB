@@ -1,6 +1,6 @@
-# Chapter 1 — Agile Testing Fundamentals
+# 🏗️ Chapter 1 — Agile Testing Fundamentals
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~35% (~14 questions out of 40)
 - **K-levels:** K2 (understand), K3 (apply)
@@ -8,7 +8,7 @@
 
 ---
 
-## Chapter Map
+## ⭐ Chapter Map
 
 | Section | Topic | K-Level | Exam Importance |
 |---------|-------|---------|-----------------|
@@ -20,7 +20,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -33,7 +33,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts to Master
+## ⭐ Key Concepts to Master
 
 - The 4 values and 12 principles of the Agile Manifesto
 - How agile values affect testing practices
@@ -44,7 +44,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Exam Tips
+## 🎓 Exam Tips
 
 - Expect questions testing your understanding of agile values vs. traditional practices
 - Know how each agile principle relates to testing

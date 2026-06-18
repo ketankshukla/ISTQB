@@ -1,10 +1,10 @@
-# CT-UT Glossary
+# 📖 CT-UT Glossary
 
 Key terms and definitions for the CT-UT exam, organized by chapter relevance.
 
 ---
 
-## Usability Fundamentals
+## 🏗️ Usability Fundamentals
 
 **Usability**
 The extent to which a product can be used by specified users to achieve specified goals with effectiveness, efficiency, and satisfaction in a specified context of use (ISO 9241-11).
@@ -44,7 +44,7 @@ Any perceivable cue that indicates what actions are possible and how they should
 
 ---
 
-## Usability Testing
+## 🖱️ Usability Testing
 
 **Formative Usability Testing**
 Testing conducted during design and development to identify and fix usability problems early. Goal: improve the product.
@@ -87,7 +87,7 @@ The users, tasks, equipment, and physical and social environments in which a pro
 
 ---
 
-## Evaluation Methods
+## ⭐ Evaluation Methods
 
 **Heuristic Evaluation**
 An expert review method where evaluators assess an interface against established usability principles (heuristics).
@@ -121,7 +121,7 @@ A technique to evaluate the findability of topics in a website or app's informat
 
 ---
 
-## Accessibility
+## ⭐ Accessibility
 
 **Accessibility**
 The degree to which a product or system can be used by people with the widest range of characteristics and capabilities.
@@ -164,7 +164,7 @@ The design of products and environments to be usable by all people, to the great
 
 ---
 
-## Disabilities
+## ⭐ Disabilities
 
 **Visual Disability**
 Includes blindness, low vision, color blindness, and sensitivity to glare.
@@ -183,7 +183,7 @@ Includes inability to speak, speech that is difficult to understand, and stutter
 
 ---
 
-## Organizational Terms
+## ⭐ Organizational Terms
 
 **UX Researcher**
 A professional who studies users, their needs, and behaviors to inform design decisions.
@@ -202,7 +202,7 @@ A justification for a project or initiative that compares costs and benefits.
 
 ---
 
-## Abbreviations
+## ⭐ Abbreviations
 
 | Abbreviation | Meaning |
 |-------------|---------|

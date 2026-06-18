@@ -1,6 +1,6 @@
-# CTAL-TA v4.0 Exam Strategy
+# ♟️ CTAL-TA v4.0 Exam Strategy
 
-## Exam Format at a Glance
+## 🎓 Exam Format at a Glance
 
 | Parameter | Value |
 |-----------|-------|
@@ -13,7 +13,7 @@
 
 ---
 
-## Chapter Weighting
+## ⭐ Chapter Weighting
 
 | Chapter | Focus | Estimated Weight | Question Range |
 |---------|-------|------------------|----------------|
@@ -27,21 +27,21 @@
 
 ---
 
-## K-Level Question Patterns
+## ❓ K-Level Question Patterns
 
-### K2 (Understand)
+### 🔷 K2 (Understand)
 
 - Tests comprehension, comparison, classification, and explanation
 - Pattern: "Which statement BEST describes...?" or "What is the MAIN difference between X and Y?"
 - Strategy: Focus on distinctions (e.g., EP vs. BVA, white-box vs. black-box, walkthrough vs. inspection). Know why things matter, not just what they are.
 
-### K3 (Apply)
+### 🔷 K3 (Apply)
 
 - Tests the ability to use a technique or procedure in a given scenario
 - Pattern: Provides a specification or requirement and asks you to apply EP, BVA, DT, or ST
 - Strategy: Practice applying techniques until the steps are automatic. For EP/BVA, you must identify partitions and values quickly. For decision tables, you must identify conditions, actions, and rules.
 
-### K4 (Analyze)
+### 🔷 K4 (Analyze)
 
 - Tests the ability to analyze and evaluate a situation or document
 - Pattern: Analyze a specification for test conditions, evaluate coverage, or select techniques based on context
@@ -49,7 +49,7 @@
 
 ---
 
-## Time Budgeting
+## ⭐ Time Budgeting
 
 | Question Type | Time per Question | Strategy |
 |--------------|-------------------|----------|
@@ -72,7 +72,7 @@
 
 ---
 
-## Chapter-Specific Tactics
+## 🎓 Chapter-Specific Tactics
 
 **Chapter 1 — Testing Process (~15%)**
 - Understand the testing activities in the software lifecycle (planning, monitoring, control, analysis, design, implementation, execution, completion)
@@ -118,7 +118,7 @@
 
 ---
 
-## Common Distractor Patterns
+## ⭐ Common Distractor Patterns
 
 1. **Confusing EP and BVA:** BVA tests the boundaries of partitions; EP tests representative values within partitions.
 2. **Counting rules wrong in decision tables:** For n binary conditions, there are 2^n rules. Don't forget to account for conditions with more than 2 values.
@@ -131,7 +131,7 @@
 
 ---
 
-## Guessing Strategy
+## ♟️ Guessing Strategy
 
 - There is NO penalty for wrong answers. ALWAYS answer every question.
 - If you must guess, eliminate the most obviously wrong answers first.
@@ -141,7 +141,7 @@
 
 ---
 
-## Day-Before Checklist
+## 📋 Day-Before Checklist
 
 - [ ] Review all `exam_traps.md` files (one per chapter)
 - [ ] Skim `GLOSSARY.md` for any terms you still hesitate on
@@ -151,7 +151,7 @@
 - [ ] Confirm your exam time, location, and ID requirements
 - [ ] Get adequate rest — the exam is 3 hours and requires sustained concentration
 
-## Exam Day
+## 🎓 Exam Day
 
 - Arrive 15 minutes early (or launch online platform early)
 - Bring only required ID; no notes, no phone

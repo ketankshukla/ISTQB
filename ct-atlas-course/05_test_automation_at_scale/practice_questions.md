@@ -1,8 +1,8 @@
-# Chapter 5 — Test Automation at Scale: Practice Questions
+# ❓ Chapter 5 — Test Automation at Scale: Practice Questions
 
 ---
 
-### Q1 (ATLaS-5.1, K2)
+### 🔷 Q1 (ATLaS-5.1, K2)
 
 A shared automation framework provides:
 
@@ -13,7 +13,7 @@ D. Only for one team
 
 ---
 
-### Q2 (ATLaS-5.2, K2)
+### 🔷 Q2 (ATLaS-5.2, K2)
 
 Contract tests between teams:
 
@@ -24,7 +24,7 @@ D. Only test performance
 
 ---
 
-### Q3 (ATLaS-5.3, K2)
+### 🔷 Q3 (ATLaS-5.3, K2)
 
 Test data at scale should:
 
@@ -35,7 +35,7 @@ D. Only be manual
 
 ---
 
-### Q4 (ATLaS-5.4, K2)
+### 🔷 Q4 (ATLaS-5.4, K2)
 
 Pipeline orchestration at scale should:
 
@@ -46,7 +46,7 @@ D. Only run manually
 
 ---
 
-### Q5 (ATLaS-5.1, K2)
+### 🔷 Q5 (ATLaS-5.1, K2)
 
 Light-touch governance for automation means:
 
@@ -57,7 +57,7 @@ D. Only team control
 
 ---
 
-### Q6 (ATLaS-5.2, K2)
+### 🔷 Q6 (ATLaS-5.2, K2)
 
 An automation guild is:
 
@@ -68,7 +68,7 @@ D. Only for developers
 
 ---
 
-### Q7 (ATLaS-5.3, K2)
+### 🔷 Q7 (ATLaS-5.3, K2)
 
 Per-test setup and teardown of data:
 
@@ -79,7 +79,7 @@ D. Only for manual tests
 
 ---
 
-### Q8 (ATLaS-5.4, K2)
+### 🔷 Q8 (ATLaS-5.4, K2)
 
 Integration pipelines should run:
 
@@ -90,7 +90,7 @@ D. Only for releases
 
 ---
 
-### Q9 (ATLaS-5.1, K2)
+### 🔷 Q9 (ATLaS-5.1, K2)
 
 Shared framework ownership by a central team risks:
 
@@ -101,7 +101,7 @@ D. Only lower costs
 
 ---
 
-### Q10 (ATLaS-5.2, K2)
+### 🔷 Q10 (ATLaS-5.2, K2)
 
 Cross-team artifact sharing in CI/CD:
 
@@ -112,7 +112,7 @@ D. Only increases storage
 
 ---
 
-### Q11 (ATLaS-5.3, K2)
+### 🔷 Q11 (ATLaS-5.3, K2)
 
 Test data versioning means:
 
@@ -123,7 +123,7 @@ D. Only for databases
 
 ---
 
-### Q12 (ATLaS-5.4, K2)
+### 🔷 Q12 (ATLaS-5.4, K2)
 
 Parallel execution of team pipelines:
 
@@ -134,7 +134,7 @@ D. Only works for microservices
 
 ---
 
-### Q13 (ATLaS-5.1, K2)
+### 🔷 Q13 (ATLaS-5.1, K2)
 
 A federated framework model:
 
@@ -145,7 +145,7 @@ D. Only team control
 
 ---
 
-### Q14 (ATLaS-5.2, K2)
+### 🔷 Q14 (ATLaS-5.2, K2)
 
 Mock servers for API dependencies:
 
@@ -156,7 +156,7 @@ D. Only for performance tests
 
 ---
 
-### Q15 (ATLaS-5.3, K2)
+### 🔷 Q15 (ATLaS-5.3, K2)
 
 Shared test data pools should be:
 
@@ -167,7 +167,7 @@ D. Only manual
 
 ---
 
-### Q16 (ATLaS-5.4, K2)
+### 🔷 Q16 (ATLaS-5.4, K2)
 
 Release pipelines at scale validate:
 
@@ -178,7 +178,7 @@ D. Only documentation
 
 ---
 
-### Q17 (ATLaS-5.1, K2)
+### 🔷 Q17 (ATLaS-5.1, K2)
 
 Automation governance should include:
 
@@ -189,7 +189,7 @@ D. Only headcounts
 
 ---
 
-### Q18 (ATLaS-5.2, K2)
+### 🔷 Q18 (ATLaS-5.2, K2)
 
 Pipeline templates for teams:
 
@@ -200,7 +200,7 @@ D. Only increase costs
 
 ---
 
-### Q19 (ATLaS-5.3, K2)
+### 🔷 Q19 (ATLaS-5.3, K2)
 
 Unique identifiers per test run:
 
@@ -211,7 +211,7 @@ D. Only for UI tests
 
 ---
 
-### Q20 (ATLaS-5.4, K2)
+### 🔷 Q20 (ATLaS-5.4, K2)
 
 Automation ROI at scale should measure:
 
@@ -222,84 +222,84 @@ D. Only training hours
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** Shared framework = consistency + reuse.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** Contract tests = independent verification.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** Synthetic/anonymized = privacy + no conflicts.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** Orchestration = coordinate pipelines.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Light-touch = guidelines + autonomy.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Guild = community sharing practices.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Per-test = isolation.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Integration = after team builds.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** Central = bottleneck risk.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** Artifact sharing = downstream testing.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Data versioning = track with code.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Parallel = faster.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Federated = core + contributors.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Mocks = independent testing.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Refresh = prevent conflicts.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Release = full system.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Governance = standards + security + perf.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Templates = starting point + customization.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Unique IDs = no conflicts.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** ROI = time saved + defects + releases.

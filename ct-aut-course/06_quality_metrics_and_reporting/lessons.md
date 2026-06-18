@@ -1,10 +1,10 @@
-# Chapter 6 — Quality Metrics and Reporting: Lessons
+# 📘 Chapter 6 — Quality Metrics and Reporting: Lessons
 
 ---
 
-## 6.1 Code Coverage Metrics
+## 📊 6.1 Code Coverage Metrics
 
-### Types
+### 🧪 Types
 
 | Metric | Definition | ASIL Requirement |
 |--------|-----------|------------------|
@@ -12,19 +12,19 @@
 | **Branch coverage** | % of decision branches executed | ASIL B+ |
 | **MC/DC (Modified Condition/Decision Coverage)** | Each condition independently affects outcome | ASIL C/D |
 
-### Statement Coverage
+### 📊 Statement Coverage
 
 - Formula: (Executed statements / Total statements) × 100
 - Target: 100% for safety-critical code
 - Gaps indicate untested code paths
 
-### Branch Coverage
+### 📊 Branch Coverage
 
 - Formula: (Executed branches / Total branches) × 100
 - Target: 100% for ASIL B+
 - Catches missing else paths
 
-### MC/DC
+### 🔷 MC/DC
 
 - Each condition in a decision must independently affect the outcome
 - Example: `if (A && B)` requires:
@@ -35,24 +35,24 @@
 
 ---
 
-## 6.2 Defect Metrics
+## 🐞 6.2 Defect Metrics
 
-### Defect Density
+### 🐞 Defect Density
 
 - Formula: Defects per KLOC (thousand lines of code)
 - Compare across modules to identify risky areas
 
-### Defect Detection Rate
+### 🐞 Defect Detection Rate
 
 - Formula: Defects found / total defects (including post-release)
 - Higher rate = better pre-release testing
 
-### Defect Removal Efficiency
+### 🐞 Defect Removal Efficiency
 
 - Formula: Defects found pre-release / Total defects
 - Target: > 90% for safety-critical software
 
-### Defect Aging
+### 🐞 Defect Aging
 
 | Age | Action |
 |-----|--------|
@@ -62,7 +62,7 @@
 
 ---
 
-## 6.3 Test Execution Metrics
+## 📊 6.3 Test Execution Metrics
 
 | Metric | Formula | Purpose |
 |--------|---------|---------|
@@ -71,7 +71,7 @@
 | **Automation rate** | Automated / Total × 100 | Efficiency indicator |
 | **Mean time to fix** | Total fix time / Number of defects | Responsiveness |
 
-### Coverage vs Pass Rate
+### 📊 Coverage vs Pass Rate
 
 - High coverage + low pass rate = many bugs found (testing is effective)
 - High coverage + high pass rate = quality is good
@@ -79,9 +79,9 @@
 
 ---
 
-## 6.4 Coverage Analysis
+## 📊 6.4 Coverage Analysis
 
-### Analyzing Coverage Gaps
+### 📊 Analyzing Coverage Gaps
 
 | Gap Type | Cause | Action |
 |----------|-------|--------|
@@ -90,7 +90,7 @@
 | **Tool limitation** | Optimized code not instrumentable | Manual verification |
 | **Excluded code** | Third-party, generated | Document exclusion |
 
-### Coverage Report Content
+### 📋 Coverage Report Content
 
 | Section | Description |
 |---------|-------------|
@@ -101,9 +101,9 @@
 
 ---
 
-## 6.5 Test Reporting
+## 📝 6.5 Test Reporting
 
-### Report Types
+### 🧪 Report Types
 
 | Audience | Content | Frequency |
 |----------|---------|-----------|
@@ -113,7 +113,7 @@
 | **Customer/OEM** | High-level status, open issues | Per release |
 | **Auditor** | Traceability, coverage evidence, process compliance | On demand |
 
-### Report Structure
+### 📝 Report Structure
 
 1. Executive summary
 2. Test scope and environment
@@ -125,9 +125,9 @@
 
 ---
 
-## 6.6 Audit Readiness
+## ⭐ 6.6 Audit Readiness
 
-### What Auditors Look For
+### 🔷 What Auditors Look For
 
 | Area | Evidence |
 |------|----------|
@@ -137,7 +137,7 @@
 | **Defect management** | Closed-loop defect tracking |
 | **Change control** | Approved changes with impact analysis |
 
-### Preparation
+### 🔷 Preparation
 
 - Maintain traceability in real-time
 - Archive test results with configuration info
@@ -147,9 +147,9 @@
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Coverage Calculation
+### 💡 Worked Example 1: Coverage Calculation
 
 **Scenario:** Module has 100 statements, 20 branches, 4 conditions.
 
@@ -161,7 +161,7 @@
 
 **For ASIL D:** All three coverage types must reach 100%.
 
-### Worked Example 2: Defect Analysis
+### 💡 Worked Example 2: Defect Analysis
 
 **Scenario:** Analysis of defects found in a release.
 
@@ -173,7 +173,7 @@
 
 **Action:** Infotainment has higher density but lower safety impact. Still investigate root cause.
 
-### Worked Example 3: Audit Evidence
+### 💡 Worked Example 3: Audit Evidence
 
 **Scenario:** Prepare for ISO 26262 audit.
 

@@ -1,4 +1,4 @@
-# Mock Exam 3 — Answer Key
+# 📝 Mock Exam 3 — Answer Key
 
 | Q | Answer | Rationale |
 |---|--------|-----------|
@@ -43,7 +43,7 @@
 | 39 | A | 2-value BVA: min-1, min, max, max+1 = 1899, 1900, 2024, 2025. |
 | 40 | A | Year 1: 500 - (300 + 50) = 150 hours saved. Already positive in year 1. Year 2+: 500 - 50 = 450 hours saved. |
 
-## Score Interpretation
+## ⭐ Score Interpretation
 
 | Score | Interpretation |
 |-------|-------------|

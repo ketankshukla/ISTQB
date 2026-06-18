@@ -1,6 +1,6 @@
-# Chapter 4 — Non-Functional Game Testing: Exam Traps
+# 🪤 Chapter 4 — Non-Functional Game Testing: Exam Traps
 
-## Trap 1: Testing Performance Only on High-End Hardware
+## 🪤 Trap 1: Testing Performance Only on High-End Hardware
 
 **Trap:** Games must meet performance targets on minimum spec hardware.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Assuming Stability After Short Sessions
+## 🪤 Trap 2: Assuming Stability After Short Sessions
 
 **Trap:** Memory leaks and crashes often appear only after extended play.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Localization is Just Translation
+## 🪤 Trap 3: Localization is Just Translation
 
 **Trap:** Localization includes text fitting, audio, cultural appropriateness, and formatting.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Accessibility is Optional
+## 🪤 Trap 4: Accessibility is Optional
 
 **Trap:** Accessibility expands audience and may be legally required; it's not optional.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: 30 FPS is Always Acceptable
+## 🪤 Trap 5: 30 FPS is Always Acceptable
 
 **Trap:** Target frame rate depends on genre and platform. VR needs 90+ FPS; competitive shooters need 60+ FPS.
 

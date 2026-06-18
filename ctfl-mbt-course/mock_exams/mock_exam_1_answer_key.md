@@ -1,4 +1,4 @@
-# Mock Exam 1 — Answer Key
+# 📝 Mock Exam 1 — Answer Key
 
 | Q | Answer | Rationale |
 |---|--------|-----------|
@@ -43,7 +43,7 @@
 | 39 | B | Exchanging data with external systems is interoperability. |
 | 40 | B | ROI is typically negative in year 1 due to initial development, becoming positive later. |
 
-## Score Interpretation
+## ⭐ Score Interpretation
 
 | Score | Interpretation |
 |-------|-------------|

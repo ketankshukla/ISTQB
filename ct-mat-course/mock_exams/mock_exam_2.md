@@ -1,10 +1,10 @@
-# CT-MAT Mock Exam 2
+# 📝 CT-MAT Mock Exam 2
 
 **Instructions:** 40 questions, 60 minutes, single best answer.
 
 ---
 
-### Q1-Q10
+### 🔷 Q1-Q10
 
 1. Cold start target: A) 5s B) 3s C) 10s D) 1min — **3s**
 2. Battery drain cause: A) Only screen B) Background tasks C) Only size D) Only speed — **Background tasks**
@@ -19,7 +19,7 @@
 
 ---
 
-### Q11-Q20
+### 🔷 Q11-Q20
 
 11. Reduce Motion: A) Ignore B) Disable animations C) Text only D) Sound only — **Disable animations**
 12. Certificate pinning: A) Slow B) Prevents MITM C) UI bugs D) Memory leaks — **Prevents MITM**
@@ -34,7 +34,7 @@
 
 ---
 
-### Q21-Q30
+### 🔷 Q21-Q30
 
 21. Android Profiler: A) Compile B) CPU, memory, network, battery C) UI D) Docs — **CPU, memory, network, battery**
 22. Firebase Test Lab: A) iOS only B) Cloud Android/iOS C) Desktop D) Manual — **Cloud Android/iOS**
@@ -49,7 +49,7 @@
 
 ---
 
-### Q31-Q40
+### 🔷 Q31-Q40
 
 31. TestFlight Internal: A) Public B) 100 team members C) One device D) Reviewers — **100 team members**
 32. Battery Historian: A) CPU B) Battery breakdown C) Logs D) Crashes — **Battery breakdown**
@@ -64,4 +64,4 @@
 
 ---
 
-## End of Mock Exam 2
+## 📝 End of Mock Exam 2

@@ -1,6 +1,6 @@
-# Chapter 2 — Test Automation Planning and ROI: Exam Traps
+# 🪤 Chapter 2 — Test Automation Planning and ROI: Exam Traps
 
-## Trap 1: Expecting Immediate ROI
+## 🪤 Trap 1: Expecting Immediate ROI
 
 **Trap:** Automation is a long-term investment. Year 1 typically shows negative ROI due to setup costs.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Ignoring Maintenance Costs
+## 🪤 Trap 2: Ignoring Maintenance Costs
 
 **Trap:** Maintenance is 30-50% of initial effort annually. Ignoring it makes ROI unrealistic.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Automating Low-Value Tests
+## 🪤 Trap 3: Automating Low-Value Tests
 
 **Trap:** Not all tests provide equal value. Automating rarely-run tests has poor ROI.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Calculating ROI with Only Time Savings
+## 🪤 Trap 4: Calculating ROI with Only Time Savings
 
 **Trap:** ROI should include quality improvements (fewer production defects), faster time-to-market, and risk reduction.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Planning Without Risk Assessment
+## 🪤 Trap 5: Planning Without Risk Assessment
 
 **Trap:** Every automation project has risks. Not planning for them leads to surprises and failure.
 

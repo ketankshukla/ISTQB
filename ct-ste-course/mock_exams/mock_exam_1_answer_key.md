@@ -1,4 +1,4 @@
-# Mock Exam 1 — Answer Key
+# 📝 Mock Exam 1 — Answer Key
 
 | Q | Answer | Rationale |
 |---|--------|-----------|
@@ -43,7 +43,7 @@
 | 39 | B | Regression = fixed don't recur |
 | 40 | B | Incremental = changed files |
 
-## Score Interpretation
+## ⭐ Score Interpretation
 
 | Score | Interpretation |
 |-------|-------------|

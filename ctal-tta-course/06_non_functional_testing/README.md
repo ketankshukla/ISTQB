@@ -1,6 +1,6 @@
-# Chapter 6 — Non-Functional Testing
+# 🚀 Chapter 6 — Non-Functional Testing
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~25% (~11-12 questions out of 45)
 - **K-levels:** K2 (understand), K3 (apply), K4 (analyze)
@@ -8,7 +8,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -20,7 +20,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts
+## ⭐ Key Concepts
 
 - Performance: load, stress, soak, spike, scalability testing
 - Security: SAST, DAST, penetration testing, vulnerability scanning

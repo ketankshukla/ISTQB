@@ -1,12 +1,12 @@
-# CTAL-TM Progress Tracker
+# 📈 CTAL-TM Progress Tracker
 
-## How to Use This Tracker
+## ⭐ How to Use This Tracker
 
 Check off each item as you complete it. Target: complete all items before your exam date.
 
 ---
 
-## Chapter 1 — Testing Process
+## ⭐ Chapter 1 — Testing Process
 
 - [ ] Read `README.md`
 - [ ] Read `lessons.md`
@@ -15,7 +15,7 @@ Check off each item as you complete it. Target: complete all items before your e
 - [ ] Score: ___ / 25
 - [ ] Review all wrong answers
 
-## Chapter 2 — Test Management
+## 🗂️ Chapter 2 — Test Management
 
 - [ ] Read `README.md`
 - [ ] Read `lessons.md`
@@ -24,7 +24,7 @@ Check off each item as you complete it. Target: complete all items before your e
 - [ ] Score: ___ / 25
 - [ ] Review all wrong answers
 
-## Chapter 3 — Reviews
+## 🔎 Chapter 3 — Reviews
 
 - [ ] Read `README.md`
 - [ ] Read `lessons.md`
@@ -33,7 +33,7 @@ Check off each item as you complete it. Target: complete all items before your e
 - [ ] Score: ___ / 25
 - [ ] Review all wrong answers
 
-## Chapter 4 — Test Tools and Automation
+## 🛠️ Chapter 4 — Test Tools and Automation
 
 - [ ] Read `README.md`
 - [ ] Read `lessons.md`
@@ -42,13 +42,13 @@ Check off each item as you complete it. Target: complete all items before your e
 - [ ] Score: ___ / 25
 - [ ] Review all wrong answers
 
-## Case Studies
+## ⭐ Case Studies
 
 - [ ] Read `case_study_1_test_strategy_planning.md`
 - [ ] Read `case_study_2_risk_based_testing.md`
 - [ ] Read `case_study_3_test_team_transformation.md`
 
-## Mock Exams
+## 📝 Mock Exams
 
 - [ ] Attempt `mock_exam_1.md` under timed conditions (180 min)
 - [ ] Score: ___ / 65
@@ -62,7 +62,7 @@ Check off each item as you complete it. Target: complete all items before your e
 - [ ] Score: ___ / 65
 - [ ] Review all wrong answers
 
-## Final Preparation
+## ⭐ Final Preparation
 
 - [ ] Re-read `EXAM_STRATEGY.md`
 - [ ] Re-read `GLOSSARY.md`
@@ -72,7 +72,7 @@ Check off each item as you complete it. Target: complete all items before your e
 
 ---
 
-## Score Targets
+## ⭐ Score Targets
 
 | Activity | Target | Notes |
 |----------|--------|-------|

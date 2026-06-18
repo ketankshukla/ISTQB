@@ -1,6 +1,6 @@
-# Chapter 2 — Preparing for Test Automation: Exam Traps
+# 🪤 Chapter 2 — Preparing for Test Automation: Exam Traps
 
-## Trap 1: Confusing PoC with PoV
+## 🪤 Trap 1: Confusing PoC with PoV
 
 **Trap:** PoC verifies technical feasibility. PoV demonstrates business value. They are not the same.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Ignoring TCO and Focusing Only on License Cost
+## 🪤 Trap 2: Ignoring TCO and Focusing Only on License Cost
 
 **Trap:** The initial license price is only part of the cost. Training, infrastructure, maintenance, and support must be included.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Selecting a Tool Based on Popularity Alone
+## 🪤 Trap 3: Selecting a Tool Based on Popularity Alone
 
 **Trap:** The most popular tool is not necessarily the best fit for a specific context. Technical fit, team skills, and integration needs matter more.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Thinking a PoC Proves Business Value
+## 🪤 Trap 4: Thinking a PoC Proves Business Value
 
 **Trap:** A PoC proves the tool CAN work technically. It does NOT prove it SHOULD be adopted from a business perspective.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Automating Everything Without Scope Definition
+## 🪤 Trap 5: Automating Everything Without Scope Definition
 
 **Trap:** Without clear scope definition, automation efforts grow uncontrollably, leading to over-budget and delayed projects.
 

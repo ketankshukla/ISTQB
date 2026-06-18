@@ -1,10 +1,10 @@
-# Chapter 2 — White-Box Test Techniques: Lessons
+# 📘 Chapter 2 — White-Box Test Techniques: Lessons
 
 ---
 
-## 2.1 Control Flow Testing
+## ⭐ 2.1 Control Flow Testing
 
-### Control Flow Graphs (CFG)
+### 🔷 Control Flow Graphs (CFG)
 
 A control flow graph represents the flow of control through a program. It shows all paths that might be traversed through a program during its execution.
 
@@ -16,7 +16,7 @@ A control flow graph represents the flow of control through a program. It shows 
 - **Start node:** The entry point of the program or function
 - **End node:** The exit point
 
-### Drawing a Control Flow Graph
+### 🔷 Drawing a Control Flow Graph
 
 **Example Code:**
 ```
@@ -53,9 +53,9 @@ A control flow graph represents the flow of control through a program. It shows 
 
 ---
 
-## 2.2 Code Coverage Measures
+## 📊 2.2 Code Coverage Measures
 
-### Statement Coverage
+### 📊 Statement Coverage
 
 **Definition:** Every executable statement in the code is executed at least once.
 
@@ -104,7 +104,7 @@ Total = 5 executable statements.
 
 ---
 
-### Branch Coverage (Decision Coverage)
+### 📊 Branch Coverage (Decision Coverage)
 
 **Definition:** Every decision in the code has taken all possible outcomes (true and false) at least once.
 
@@ -166,7 +166,7 @@ No, 2 test cases cannot achieve 100% branch coverage for this code. Minimum is 3
 
 ---
 
-### Path Coverage
+### 📊 Path Coverage
 
 **Definition:** Every possible path through the code is executed at least once.
 
@@ -185,7 +185,7 @@ Total paths = 3
 
 ---
 
-### Coverage Hierarchy
+### 📊 Coverage Hierarchy
 
 ```
 Path Coverage (strongest)
@@ -207,13 +207,13 @@ Statement Coverage (weakest)
 
 ---
 
-## 2.3 Cyclomatic Complexity
+## ⭐ 2.3 Cyclomatic Complexity
 
-### Definition
+### 🔷 Definition
 
 Cyclomatic complexity is a measure of the structural complexity of code. It measures the number of linearly independent paths through a program.
 
-### Calculation Methods
+### 🔷 Calculation Methods
 
 **Method 1: Using the graph formula**
 ```
@@ -238,7 +238,7 @@ V(G) = Number of predicate nodes (nodes with out-degree > 1) + 1
 V(G) = Number of regions in the control flow graph
 ```
 
-### Worked Example
+### 💡 Worked Example
 
 **Code:**
 ```
@@ -291,7 +291,7 @@ V(G) = E - N + 2P = 7 - 6 + 2(1) = 3
 - Cyclomatic complexity = 3 means there are 3 linearly independent paths
 - This means minimum 3 test cases are needed for path coverage
 
-### Complexity Interpretation
+### 🔷 Complexity Interpretation
 
 | Complexity | Risk Level | Action |
 |-----------|-----------|--------|
@@ -302,9 +302,9 @@ V(G) = E - N + 2P = 7 - 6 + 2(1) = 3
 
 ---
 
-## 2.4 Data Flow Testing
+## 🗃️ 2.4 Data Flow Testing
 
-### Definitions
+### 🔷 Definitions
 
 **Definition (DEF):** A location where a variable is assigned a value.
 ```
@@ -321,7 +321,7 @@ if (x > 0)    // USE of x (predicate use)
 
 **Definition-Use Pair (DU Pair):** A pair of locations where a variable is defined and then later used, with no intervening redefinition.
 
-### Types of Uses
+### 🧪 Types of Uses
 
 **1. Computation Use (C-use):** The variable is used in a computation or output.
 ```
@@ -335,7 +335,7 @@ if (x > 0)    // P-use of x
 while (x < 10) // P-use of x
 ```
 
-### Data Flow Coverage Criteria
+### 📊 Data Flow Coverage Criteria
 
 **All-Defs Coverage:** Every definition of every variable is exercised at least once.
 
@@ -343,7 +343,7 @@ while (x < 10) // P-use of x
 
 **All-DU-Paths Coverage:** Every simple path from every definition to every use is exercised.
 
-### Worked Example
+### 💡 Worked Example
 
 **Code:**
 ```
@@ -379,9 +379,9 @@ while (x < 10) // P-use of x
 
 ---
 
-## 2.5 MC/DC (Modified Condition/Decision Coverage)
+## 📊 2.5 MC/DC (Modified Condition/Decision Coverage)
 
-### What Is MC/DC?
+### 🔷 What Is MC/DC?
 
 Modified Condition/Decision Coverage is a rigorous coverage criterion required for safety-critical systems (DO-178C, ISO 26262). It requires that:
 
@@ -389,13 +389,13 @@ Modified Condition/Decision Coverage is a rigorous coverage criterion required f
 2. Every condition in a decision takes all possible outcomes (true/false)
 3. **Each condition independently affects the decision's outcome** — changing only that condition while holding others constant changes the decision result
 
-### Why MC/DC?
+### 🔷 Why MC/DC?
 
 - More thorough than branch coverage
 - Ensures each condition is correctly implemented
 - Required for safety-critical software (aviation, automotive, medical)
 
-### Worked Example
+### 💡 Worked Example
 
 **Decision:** `A AND B`
 
@@ -463,7 +463,7 @@ For condition C:
 
 **MC/DC minimum test cases:** Can be achieved with 4 test cases (n+1 for n conditions, but sometimes can be optimized).
 
-### Coverage Comparison
+### 📊 Coverage Comparison
 
 | Criterion | Rigor | Test Cases for n conditions |
 |-----------|-------|---------------------------|
@@ -474,9 +474,9 @@ For condition C:
 
 ---
 
-## 2.6 Selecting White-Box Techniques
+## 🎯 2.6 Selecting White-Box Techniques
 
-### When to Use Each Technique
+### 🎯 When to Use Each Technique
 
 **Statement Coverage:**
 - Minimum acceptable coverage for non-critical systems
@@ -503,7 +503,7 @@ For condition C:
 - Very thorough but requires many test cases
 - Ensures each condition is correctly implemented
 
-### Worked Examples Summary
+### 💡 Worked Examples Summary
 
 **Example 1: Coverage Calculation**
 

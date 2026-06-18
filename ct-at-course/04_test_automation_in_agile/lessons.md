@@ -1,10 +1,10 @@
-# Chapter 4 — Test Automation in Agile: Lessons
+# 📘 Chapter 4 — Test Automation in Agile: Lessons
 
 ---
 
-## 4.1 Role of Test Automation in Agile
+## ⚙️ 4.1 Role of Test Automation in Agile
 
-### Why Automation Is Essential in Agile
+### ⚙️ Why Automation Is Essential in Agile
 
 **Fast Feedback:**
 - Automated tests run in minutes or seconds
@@ -26,7 +26,7 @@
 - Testers focus on exploratory testing, usability, and risk analysis
 - Testers design better tests rather than repeatedly executing them
 
-### What Automation Does NOT Do
+### ⚙️ What Automation Does NOT Do
 
 **Automation does NOT:**
 - Replace all manual testing
@@ -39,9 +39,9 @@
 
 ---
 
-## 4.2 What to Automate
+## ⚙️ 4.2 What to Automate
 
-### Good Candidates for Automation
+### ⚙️ Good Candidates for Automation
 
 **1. Regression Tests:**
 - Tests that verify existing functionality still works
@@ -73,7 +73,7 @@
 - Automation ensures consistency
 - Better than manual repetition
 
-### Poor Candidates for Automation
+### ⚙️ Poor Candidates for Automation
 
 **1. Exploratory Testing:**
 - Requires human creativity and judgment
@@ -102,9 +102,9 @@
 
 ---
 
-## 4.3 Automation Strategy in Agile
+## ♟️ 4.3 Automation Strategy in Agile
 
-### The Automation Pyramid in Agile
+### ⚙️ The Automation Pyramid in Agile
 
 **Unit Tests (70% of automation):**
 - Written by developers during development
@@ -127,7 +127,7 @@
 - Most brittle and expensive to maintain
 - CI pipeline runs on pull requests and nightly
 
-### The Automation Quadrants
+### ⚙️ The Automation Quadrants
 
 Applying the Agile Testing Quadrants to automation:
 
@@ -151,7 +151,7 @@ Applying the Agile Testing Quadrants to automation:
 - Security scans (tool-driven)
 - Automated monitoring and alerting
 
-### Automation Principles for Agile
+### 📜 Automation Principles for Agile
 
 **1. Automate at the lowest level possible:**
 - Push tests down the pyramid
@@ -181,9 +181,9 @@ Applying the Agile Testing Quadrants to automation:
 
 ---
 
-## 4.4 CI/CD Integration
+## 🔗 4.4 CI/CD Integration
 
-### Continuous Integration Pipeline
+### 🔗 Continuous Integration Pipeline
 
 **Typical Pipeline Stages:**
 
@@ -218,7 +218,7 @@ Performance Tests (scheduled)
 Production Deploy (manual or automated)
 ```
 
-### Quality Gates
+### 💎 Quality Gates
 
 **Automated Gates:**
 - All unit tests pass
@@ -233,7 +233,7 @@ Production Deploy (manual or automated)
 - Security review (for high-risk changes)
 - Performance baseline met
 
-### Fast Feedback
+### 🔷 Fast Feedback
 
 **Fail Fast Principle:**
 - Run fastest tests first (unit tests)
@@ -251,9 +251,9 @@ Production Deploy (manual or automated)
 
 ---
 
-## 4.5 Maintainability Patterns
+## 🤖 4.5 Maintainability Patterns
 
-### Page Object Model (POM)
+### 📐 Page Object Model (POM)
 
 **Problem:** UI locators (XPath, CSS selectors) scattered across hundreds of tests. One UI change breaks 50 tests.
 
@@ -284,7 +284,7 @@ public void testLogin() {
 
 **Benefit:** If the login button ID changes, only the Page Object needs updating. All 50 tests using the Page Object automatically adapt.
 
-### Separation of Concerns
+### 🔷 Separation of Concerns
 
 **Structure:**
 ```
@@ -314,7 +314,7 @@ config/
 - Test data is easy to update
 - Configuration is environment-agnostic
 
-### Configuration Externalization
+### ⚙️ Configuration Externalization
 
 ```python
 # config.py
@@ -332,9 +332,9 @@ BROWSER = os.getenv("BROWSER", "chrome")
 
 ---
 
-## 4.6 Automation ROI
+## ⚙️ 4.6 Automation ROI
 
-### Calculating ROI
+### 🔷 Calculating ROI
 
 **Formula:**
 ```
@@ -365,7 +365,7 @@ ROI = (Benefits - Costs) / Costs
 | Net annual benefit | 520 - 40 = 480 hours |
 | Payback period | 100 / 480 = 0.21 years (~2.5 months) |
 
-### When Automation ROI Is Poor
+### ⚙️ When Automation ROI Is Poor
 
 - One-time tests
 - Frequently changing UI
@@ -375,9 +375,9 @@ ROI = (Benefits - Costs) / Costs
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Automation Strategy Decision
+### 💡 Worked Example 1: Automation Strategy Decision
 
 **Scenario:** A team wants to automate testing for a new e-commerce application.
 
@@ -399,7 +399,7 @@ ROI = (Benefits - Costs) / Costs
 4. Perform manual exploratory testing for UX and edge cases
 5. Schedule performance tests for peak load scenarios
 
-### Worked Example 2: CI/CD Pipeline Design
+### 💡 Worked Example 2: CI/CD Pipeline Design
 
 **Scenario:** A team wants to implement CI/CD for a web application.
 
@@ -451,7 +451,7 @@ deploy-production:
 - No critical security vulnerabilities
 - Manual approval for staging and production
 
-### Worked Example 3: Maintainability Improvement
+### 💡 Worked Example 3: Maintainability Improvement
 
 **Before (Poor Maintainability):**
 ```python

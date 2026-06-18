@@ -1,14 +1,14 @@
-# Chapter 3 — Shift-Left Testing Practices: Lessons
+# 📘 Chapter 3 — Shift-Left Testing Practices: Lessons
 
 ---
 
-## 3.1 Shift-Left Testing
+## ⭐ 3.1 Shift-Left Testing
 
-### What is Shift-Left?
+### 🔷 What is Shift-Left?
 
 Shift-left testing moves testing activities earlier in the development lifecycle — from after coding to during requirements, design, and coding phases.
 
-### Benefits
+### 🔷 Benefits
 
 | Aspect | Traditional (Shift-Right) | Shift-Left |
 |--------|---------------------------|------------|
@@ -17,7 +17,7 @@ Shift-left testing moves testing activities earlier in the development lifecycle
 | Rework | Significant | Minimal |
 | Team collaboration | Siloed | Integrated |
 
-### Shift-Left Activities
+### 🔷 Shift-Left Activities
 
 - **Requirements phase:** Review acceptance criteria, identify ambiguities
 - **Design phase:** Review architecture for testability, identify integration points
@@ -27,9 +27,9 @@ Shift-left testing moves testing activities earlier in the development lifecycle
 
 ---
 
-## 3.2 TDD and BDD
+## ⭐ 3.2 TDD and BDD
 
-### Test-Driven Development (TDD)
+### 🔷 Test-Driven Development (TDD)
 
 **Cycle:**
 1. Write a failing test
@@ -41,7 +41,7 @@ Shift-left testing moves testing activities earlier in the development lifecycle
 - High unit test coverage by design
 - Safe refactoring with regression protection
 
-### Behavior-Driven Development (BDD)
+### 🔷 Behavior-Driven Development (BDD)
 
 **Format:** Given-When-Then scenarios written in business language
 
@@ -60,7 +60,7 @@ Feature: User Registration
 - Living documentation that never goes stale
 - Automated acceptance tests from specifications
 
-### BDD Tools
+### 🛠️ BDD Tools
 
 | Tool | Language/Platform |
 |------|-------------------|
@@ -71,13 +71,13 @@ Feature: User Registration
 
 ---
 
-## 3.3 Contract Testing
+## ⭐ 3.3 Contract Testing
 
-### Purpose
+### 🔷 Purpose
 
 Contract testing verifies that services can communicate with each other by testing the contracts (API agreements) between consumer and provider.
 
-### How It Works
+### 🔷 How It Works
 
 **Consumer-driven:**
 1. Consumer defines expected request/response
@@ -85,7 +85,7 @@ Contract testing verifies that services can communicate with each other by testi
 3. Provider verifies it can satisfy the contract
 4. Both sides test independently
 
-### Tools
+### 🛠️ Tools
 
 | Tool | Framework | Notes |
 |------|-----------|-------|
@@ -93,7 +93,7 @@ Contract testing verifies that services can communicate with each other by testi
 | **Spring Cloud Contract** | Java/JVM | Consumer and provider in JVM ecosystem |
 | **PactFlow** | SaaS | Managed Pact broker with CI/CD integration |
 
-### Example
+### 💡 Example
 
 ```json
 {
@@ -114,7 +114,7 @@ Contract testing verifies that services can communicate with each other by testi
 }
 ```
 
-### When to Use
+### 🔷 When to Use
 
 - **Microservices:** Many inter-service dependencies
 - **Parallel development:** Consumer and provider developed simultaneously
@@ -122,15 +122,15 @@ Contract testing verifies that services can communicate with each other by testi
 
 ---
 
-## 3.4 Static Analysis and Linters
+## 🔍 3.4 Static Analysis and Linters
 
-### Static Application Security Testing (SAST)
+### 🔍 Static Application Security Testing (SAST)
 
 - Analyzes source code for vulnerabilities without execution
 - Runs in CI pipeline on every commit
 - Detects: SQL injection, XSS, hardcoded secrets, unsafe dependencies
 
-### Linters and Formatters
+### 🔷 Linters and Formatters
 
 | Tool | Purpose |
 |------|---------|
@@ -139,7 +139,7 @@ Contract testing verifies that services can communicate with each other by testi
 | **Checkstyle** | Java style and bug pattern checking |
 | **Black/Ruff** | Python formatting and linting |
 
-### Integration in Pipeline
+### 🔗 Integration in Pipeline
 
 ```yaml
 stages:
@@ -161,22 +161,22 @@ sast:
 
 ---
 
-## 3.5 Code Review and Pair Programming
+## 🔎 3.5 Code Review and Pair Programming
 
-### Code Review Practices
+### ❓ Code Review Practices
 
 - **Required before merge:** All code reviewed by at least one other developer
 - **Checklist:** Security, performance, test coverage, maintainability
 - **Automated support:** Static analysis results included in PR
 - **Timebox:** Reviews completed within 4 hours
 
-### Pair Programming
+### 🤖 Pair Programming
 
 - **Driver:** Writes code
 - **Navigator:** Reviews and strategizes
 - **Benefits:** Real-time code review, knowledge sharing, fewer defects
 
-### Mob Programming
+### 🔷 Mob Programming
 
 - Whole team works on same code together
 - One driver, rest navigate
@@ -184,9 +184,9 @@ sast:
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Shift-Left Implementation
+### 💡 Worked Example 1: Shift-Left Implementation
 
 **Scenario:** A team finds 40% of defects during system testing. They want to shift left.
 
@@ -204,7 +204,7 @@ sast:
 
 **Result:** Defects found in system test drop to 15%; overall quality improves.
 
-### Worked Example 2: Contract Test Design
+### 💡 Worked Example 2: Contract Test Design
 
 **Scenario:** An e-commerce order service calls a payment service.
 
@@ -230,7 +230,7 @@ def test_honors_contract():
     pact.verify()
 ```
 
-### Worked Example 3: Static Analysis Gate
+### 💡 Worked Example 3: Static Analysis Gate
 
 **Scenario:** SonarQube quality gate configuration.
 

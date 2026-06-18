@@ -1,17 +1,17 @@
-# Chapter 4 — Testing Machine Learning Models: Lessons
+# 📘 Chapter 4 — Testing Machine Learning Models: Lessons
 
 ---
 
-## 4.1 Key ML Evaluation Metrics
+## 📊 4.1 Key ML Evaluation Metrics
 
-### Why Metrics Matter
+### 📊 Why Metrics Matter
 
 Metrics quantify how well a model performs. Choosing the right metric is critical because:
 - Different metrics tell different stories
 - The "best" metric depends on the problem and business goals
 - No single metric is sufficient for all cases
 
-### Confusion Matrix
+### 🔷 Confusion Matrix
 
 The **confusion matrix** is the foundation for most classification metrics:
 
@@ -27,7 +27,7 @@ Actual  Positive    TP         FN
 **False Positive (FP):** Incorrectly predicted positive (Type I error)
 **False Negative (FN):** Incorrectly predicted negative (Type II error)
 
-### Accuracy
+### 🔷 Accuracy
 
 **Formula:** Accuracy = (TP + TN) / (TP + TN + FP + FN)
 
@@ -37,7 +37,7 @@ Actual  Positive    TP         FN
 
 **When NOT to use:** Imbalanced datasets. Example: If 95% of emails are not spam, a model that always predicts "not spam" achieves 95% accuracy but catches 0% of spam.
 
-### Precision
+### 🔷 Precision
 
 **Formula:** Precision = TP / (TP + FP)
 
@@ -47,7 +47,7 @@ Actual  Positive    TP         FN
 - Example: Medical screening — you do not want to tell healthy people they are sick
 - Example: Fraud detection — you do not want to block legitimate transactions
 
-### Recall (Sensitivity / True Positive Rate)
+### 🔷 Recall (Sensitivity / True Positive Rate)
 
 **Formula:** Recall = TP / (TP + FN)
 
@@ -57,7 +57,7 @@ Actual  Positive    TP         FN
 - Example: Cancer detection — missing a cancer case is dangerous
 - Example: Fraud detection — missing actual fraud costs money
 
-### F1-Score
+### 🔷 F1-Score
 
 **Formula:** F1 = 2 × (Precision × Recall) / (Precision + Recall)
 
@@ -67,7 +67,7 @@ Actual  Positive    TP         FN
 
 **Trade-off:** Improving precision often decreases recall, and vice versa. F1 captures the balance.
 
-### Specificity (True Negative Rate)
+### 🔷 Specificity (True Negative Rate)
 
 **Formula:** Specificity = TN / (TN + FP)
 
@@ -75,7 +75,7 @@ Actual  Positive    TP         FN
 
 **When it matters:** When correctly identifying negatives is important.
 
-### AUC-ROC
+### 🔷 AUC-ROC
 
 **ROC Curve:** Plots True Positive Rate (recall) vs. False Positive Rate at various threshold settings.
 
@@ -86,7 +86,7 @@ Actual  Positive    TP         FN
 
 **When to use:** When you want to evaluate performance across all thresholds. Useful for comparing models independent of the classification threshold.
 
-### Metric Selection Guide
+### 📊 Metric Selection Guide
 
 | Scenario | Recommended Metric | Why |
 |----------|-------------------|-----|
@@ -99,9 +99,9 @@ Actual  Positive    TP         FN
 
 ---
 
-## 4.2 Overfitting and Underfitting
+## ⭐ 4.2 Overfitting and Underfitting
 
-### Overfitting
+### 🔷 Overfitting
 
 **Definition:** The model learns the training data too well, including noise and outliers. It performs well on training data but poorly on new data.
 
@@ -123,7 +123,7 @@ Actual  Positive    TP         FN
 - Use early stopping
 - Apply cross-validation
 
-### Underfitting
+### 🔷 Underfitting
 
 **Definition:** The model is too simple to capture the underlying pattern in the data.
 
@@ -144,7 +144,7 @@ Actual  Positive    TP         FN
 - Reduce regularization
 - Train longer
 
-### Visualizing the Trade-off
+### 🔷 Visualizing the Trade-off
 
 ```
 Error
@@ -165,9 +165,9 @@ Error
 
 ---
 
-## 4.3 Cross-Validation
+## ⭐ 4.3 Cross-Validation
 
-### What Is Cross-Validation?
+### 🔷 What Is Cross-Validation?
 
 **Cross-validation** is a technique to assess how well a model generalizes to independent data.
 
@@ -176,7 +176,7 @@ Error
 - Cross-validation gives a more robust estimate of performance
 - Helps detect overfitting
 
-### K-Fold Cross-Validation
+### 🔷 K-Fold Cross-Validation
 
 **Process:**
 1. Split data into k equal subsets (folds)
@@ -206,7 +206,7 @@ Final score = average of 5 validation scores
 - k=10: Standard choice, good balance
 - k=N (leave-one-out): Used for very small datasets
 
-### Stratified Cross-Validation
+### 🔷 Stratified Cross-Validation
 
 **Problem:** Random folds may not preserve class distribution.
 
@@ -216,9 +216,9 @@ Final score = average of 5 validation scores
 
 ---
 
-## 4.4 Bias and Variance
+## ⭐ 4.4 Bias and Variance
 
-### Bias
+### 🔷 Bias
 
 **Definition:** The error introduced by approximating a real-world problem with a simplified model.
 
@@ -227,7 +227,7 @@ Final score = average of 5 validation scores
 - Systematic errors regardless of training data
 - Example: Using a linear model for non-linear data
 
-### Variance
+### 🔷 Variance
 
 **Definition:** The amount the model's predictions change for different training data.
 
@@ -236,7 +236,7 @@ Final score = average of 5 validation scores
 - Small changes in training data cause large changes in predictions
 - Model captures noise as if it were signal
 
-### The Bias-Variance Tradeoff
+### 🔷 The Bias-Variance Tradeoff
 
 ```
 Total Error = Bias² + Variance + Irreducible Error
@@ -257,9 +257,9 @@ Total Error = Bias² + Variance + Irreducible Error
 
 ---
 
-## 4.5 Training, Validation, and Test Data
+## 🤖 4.5 Training, Validation, and Test Data
 
-### The Golden Rule
+### 🔷 The Golden Rule
 
 **NEVER use test data during training, validation, or model selection.**
 
@@ -281,7 +281,7 @@ Total Error = Bias² + Variance + Irreducible Error
 - Typically 10-15% of data
 - Should represent the distribution the model will see in production
 
-### Common Mistakes
+### 🔷 Common Mistakes
 
 **1. Data Leakage:**
 - Preprocessing the entire dataset before splitting
@@ -299,9 +299,9 @@ Total Error = Bias² + Variance + Irreducible Error
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Metric Calculation
+### 💡 Worked Example 1: Metric Calculation
 
 **Scenario:** A fraud detection model makes the following predictions on 1000 transactions:
 - True Positives: 80 (correctly caught fraud)
@@ -325,7 +325,7 @@ Total Error = Bias² + Variance + Irreducible Error
 - Precision of 61.5% means many legitimate transactions are blocked — customer friction
 - The bank must decide which error is more acceptable
 
-### Worked Example 2: Diagnosing Overfitting
+### 💡 Worked Example 2: Diagnosing Overfitting
 
 **Scenario:** A model's performance:
 - Training accuracy: 98%
@@ -344,7 +344,7 @@ Total Error = Bias² + Variance + Irreducible Error
 4. Use data augmentation
 5. Apply early stopping
 
-### Worked Example 3: Cross-Validation in Practice
+### 💡 Worked Example 3: Cross-Validation in Practice
 
 **Scenario:** A dataset has 500 samples. The team uses 5-fold cross-validation.
 

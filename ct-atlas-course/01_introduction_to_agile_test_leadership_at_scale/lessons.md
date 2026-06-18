@@ -1,14 +1,14 @@
-# Chapter 1 — Introduction to Agile Test Leadership at Scale: Lessons
+# 📘 Chapter 1 — Introduction to Agile Test Leadership at Scale: Lessons
 
 ---
 
-## 1.1 What is Agile at Scale?
+## 🏃 1.1 What is Agile at Scale?
 
-### Definition
+### 🔷 Definition
 
 Agile at scale is the application of agile principles and practices across multiple teams, programs, or the entire enterprise. It addresses coordination, alignment, and quality when more than a few teams work together.
 
-### Why Scale?
+### 🔷 Why Scale?
 
 | Challenge | Why It Happens |
 |-----------|--------------|
@@ -18,7 +18,7 @@ Agile at scale is the application of agile principles and practices across multi
 | **Visibility** | Management can't see overall progress |
 | **Quality** | Integration issues emerge when teams combine work |
 
-### Agile Manifesto at Scale
+### 🏃 Agile Manifesto at Scale
 
 The same values apply, but practices adapt:
 - **Individuals and interactions:** Cross-team communication, communities of practice
@@ -28,9 +28,9 @@ The same values apply, but practices adapt:
 
 ---
 
-## 1.2 Scaling Frameworks
+## ⭐ 1.2 Scaling Frameworks
 
-### SAFe (Scaled Agile Framework)
+### 🏃 SAFe (Scaled Agile Framework)
 
 | Element | Description |
 |---------|-------------|
@@ -46,7 +46,7 @@ The same values apply, but practices adapt:
 - System demos validate end-to-end quality
 - Hardening sprints may include final system validation
 
-### LeSS (Large-Scale Scrum)
+### 🔷 LeSS (Large-Scale Scrum)
 
 | Element | Description |
 |---------|-------------|
@@ -60,7 +60,7 @@ The same values apply, but practices adapt:
 - Cross-team coordination on integration
 - Shared Definition of Done across all teams
 
-### Spotify Model
+### 📐 Spotify Model
 
 | Element | Description |
 |---------|-------------|
@@ -76,9 +76,9 @@ The same values apply, but practices adapt:
 
 ---
 
-## 1.3 Test Leadership at Scale
+## ⭐ 1.3 Test Leadership at Scale
 
-### Roles
+### 🔷 Roles
 
 | Role | Focus |
 |------|-------|
@@ -87,7 +87,7 @@ The same values apply, but practices adapt:
 | **RTE (SAFe)** | Facilitate ART; ensure integration and quality |
 | **Chapter Lead** | Develop testing capability across squads |
 
-### Responsibilities
+### 🔷 Responsibilities
 
 - **Strategy:** Define quality approach across teams
 - **Coordination:** Ensure integration points are tested
@@ -97,9 +97,9 @@ The same values apply, but practices adapt:
 
 ---
 
-## 1.4 Coordination Needs
+## ⭐ 1.4 Coordination Needs
 
-### Areas Requiring Coordination
+### 🔷 Areas Requiring Coordination
 
 | Area | Coordination Mechanism |
 |------|----------------------|
@@ -111,9 +111,9 @@ The same values apply, but practices adapt:
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Framework Selection
+### 💡 Worked Example 1: Framework Selection
 
 **Scenario:** A 200-person product group needs to scale agile.
 
@@ -129,7 +129,7 @@ The same values apply, but practices adapt:
 - Need explicit coordination for high integration complexity
 - Management comfortable with defined roles
 
-### Worked Example 2: Test Leadership Model
+### 💡 Worked Example 2: Test Leadership Model
 
 **Scenario:** 10 agile teams building a banking platform.
 
@@ -141,7 +141,7 @@ The same values apply, but practices adapt:
 | ART | System Team | Integration testing, pipeline health |
 | Enterprise | Test chapter lead | Standards, training, tooling |
 
-### Worked Example 3: Coordination Mechanism
+### 💡 Worked Example 3: Coordination Mechanism
 
 **Scenario:** Three teams share a test environment.
 

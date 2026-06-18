@@ -1,14 +1,14 @@
-# Chapter 3 — Test Leadership and Management: Lessons
+# 📘 Chapter 3 — Test Leadership and Management: Lessons
 
 ---
 
-## 3.1 Servant Leadership in Testing
+## ⭐ 3.1 Servant Leadership in Testing
 
-### Definition
+### 🔷 Definition
 
 Servant leadership inverts the traditional power pyramid. The leader serves the team by removing obstacles, providing resources, and enabling success.
 
-### Principles
+### 📜 Principles
 
 | Principle | Testing Application |
 |-----------|---------------------|
@@ -18,7 +18,7 @@ Servant leadership inverts the traditional power pyramid. The leader serves the 
 | **Growth** | Develop team members into leaders |
 | **Community** | Build connections across teams |
 
-### Actions
+### 🔷 Actions
 
 - Remove blockers (environment access, tool licenses, training)
 - Shield team from organizational noise
@@ -28,27 +28,27 @@ Servant leadership inverts the traditional power pyramid. The leader serves the 
 
 ---
 
-## 3.2 Coaching, Mentoring, and Managing
+## ⭐ 3.2 Coaching, Mentoring, and Managing
 
-### Coaching
+### 🔷 Coaching
 
 - **Focus:** Drawing out solutions from the coachee
 - **Question:** "How would you approach testing this feature?"
 - **Goal:** Develop critical thinking and problem-solving
 
-### Mentoring
+### 🔷 Mentoring
 
 - **Focus:** Sharing experience and advice
 - **Statement:** "When I faced this, I tried X and learned Y"
 - **Goal:** Accelerate learning through guidance
 
-### Managing
+### 🔷 Managing
 
 - **Focus:** Ensuring objectives are met
 - **Direction:** "We need Y coverage by Z date"
 - **Goal:** Deliver outcomes within constraints
 
-### When to Use Each
+### 🔷 When to Use Each
 
 | Situation | Approach |
 |-----------|----------|
@@ -60,9 +60,9 @@ Servant leadership inverts the traditional power pyramid. The leader serves the 
 
 ---
 
-## 3.3 Building Quality Culture
+## 💎 3.3 Building Quality Culture
 
-### Culture Elements
+### 🔷 Culture Elements
 
 | Element | What It Looks Like |
 |---------|-------------------|
@@ -72,7 +72,7 @@ Servant leadership inverts the traditional power pyramid. The leader serves the 
 | **Transparency** | Quality metrics visible to all |
 | **Customer focus** | Testing validates real user value |
 
-### Leadership Actions
+### 🔷 Leadership Actions
 
 - **Model the behavior:** Write tests, participate in code review
 - **Celebrate quality wins:** Recognize defect prevention, not just bug finding
@@ -81,9 +81,9 @@ Servant leadership inverts the traditional power pyramid. The leader serves the 
 
 ---
 
-## 3.4 Impediment Management
+## 🗂️ 3.4 Impediment Management
 
-### Common Impediments
+### 🔷 Common Impediments
 
 | Category | Examples |
 |----------|----------|
@@ -92,7 +92,7 @@ Servant leadership inverts the traditional power pyramid. The leader serves the 
 | **People** | Skills gaps, conflicting priorities, turnover |
 | **Organizational** | Budget constraints, siloed departments |
 
-### Escalation Path
+### 🔷 Escalation Path
 
 1. **Team level:** Team resolves (automation fix, pairing)
 2. **ART level:** RTE facilitates (environment, cross-team)
@@ -100,9 +100,9 @@ Servant leadership inverts the traditional power pyramid. The leader serves the 
 
 ---
 
-## 3.5 Team Development
+## ⭐ 3.5 Team Development
 
-### Tuckman Model
+### 📐 Tuckman Model
 
 | Stage | Characteristics | Leadership Approach |
 |-------|-----------------|---------------------|
@@ -112,7 +112,7 @@ Servant leadership inverts the traditional power pyramid. The leader serves the 
 | **Performing** | Self-organizing, high performance | Empower, step back |
 | **Adjourning** | Team disbands, reflection | Celebrate, capture learnings |
 
-### Applying to Test Teams at Scale
+### 🔷 Applying to Test Teams at Scale
 
 - New team: Forming → provide clear test practices
 - Established team: Norming/Performing → challenge with new techniques
@@ -120,9 +120,9 @@ Servant leadership inverts the traditional power pyramid. The leader serves the 
 
 ---
 
-## 3.6 Developing Test Professionals
+## ⭐ 3.6 Developing Test Professionals
 
-### Career Paths
+### 🔷 Career Paths
 
 | Path | Progression | Skills Developed |
 |------|-------------|------------------|
@@ -131,7 +131,7 @@ Servant leadership inverts the traditional power pyramid. The leader serves the 
 | **Specialist** | Tester → Security/Performance/Accessibility Specialist | Deep domain expertise |
 | **Coaching** | Tester → Test Coach → Enterprise Coach | Facilitation, influence, transformation |
 
-### Development Activities
+### 🔷 Development Activities
 
 - Rotation across teams for broader exposure
 - Conference attendance and presentation
@@ -141,9 +141,9 @@ Servant leadership inverts the traditional power pyramid. The leader serves the 
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Servant Leadership Decision
+### 💡 Worked Example 1: Servant Leadership Decision
 
 **Scenario:** A test lead discovers their team is blocked by slow environment provisioning (3-week wait).
 
@@ -156,7 +156,7 @@ Servant leadership inverts the traditional power pyramid. The leader serves the 
 4. Advocate for budget in next planning cycle
 5. Check back weekly until resolved
 
-### Worked Example 2: Coaching Conversation
+### 💡 Worked Example 2: Coaching Conversation
 
 **Scenario:** A tester asks "Should I automate this test?"
 
@@ -166,7 +166,7 @@ Servant leadership inverts the traditional power pyramid. The leader serves the 
 - "What would be the maintenance effort?"
 - "Based on your analysis, what do you think?"
 
-### Worked Example 3: Impediment Resolution
+### 💡 Worked Example 3: Impediment Resolution
 
 **Scenario:** Flaky tests cause 30% of CI builds to fail.
 

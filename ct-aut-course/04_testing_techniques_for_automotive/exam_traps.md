@@ -1,6 +1,6 @@
-# Chapter 4 — Testing Techniques for Automotive: Exam Traps
+# 🪤 Chapter 4 — Testing Techniques for Automotive: Exam Traps
 
-## Trap 1: Using Only Functional Testing for Safety-Critical Code
+## 🪤 Trap 1: Using Only Functional Testing for Safety-Critical Code
 
 **Trap:** Safety-critical code needs structural coverage (branch, MC/DC) and fault injection, not just functional tests.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Boundary Values at Type Limits Only
+## 🪤 Trap 2: Boundary Values at Type Limits Only
 
 **Trap:** Boundary values are at specification limits, not just data type limits.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Ignoring Invalid Equivalence Partitions
+## 🪤 Trap 3: Ignoring Invalid Equivalence Partitions
 
 **Trap:** Invalid partitions often reveal robustness issues.
 
@@ -48,7 +48,7 @@ D. Only L (low mode)
 
 ---
 
-## Trap 4: Testing Only Happy Path State Transitions
+## 🪤 Trap 4: Testing Only Happy Path State Transitions
 
 **Trap:** State machines must be tested for error paths, guard conditions, and unexpected events.
 
@@ -64,7 +64,7 @@ D. Only L (low mode)
 
 ---
 
-## Trap 5: Fault Injection Replaces Normal Testing
+## 🪤 Trap 5: Fault Injection Replaces Normal Testing
 
 **Trap:** Fault injection supplements but doesn't replace normal functional and structural testing.
 

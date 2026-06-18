@@ -1,10 +1,10 @@
-# Chapter 4 — Functional Testing of Big Data Applications: Lessons
+# 📘 Chapter 4 — Functional Testing of Big Data Applications: Lessons
 
 ---
 
-## 4.1 ETL and ELT Testing
+## ⭐ 4.1 ETL and ELT Testing
 
-### ETL (Extract, Transform, Load)
+### 🔷 ETL (Extract, Transform, Load)
 
 **Process:**
 1. **Extract:** Read data from source systems
@@ -18,7 +18,7 @@
 - Transformation correctness (rules applied accurately)
 - Load accuracy (target matches transformed data)
 
-### ELT (Extract, Load, Transform)
+### 🔷 ELT (Extract, Load, Transform)
 
 **Process:**
 1. **Extract:** Read data from source systems
@@ -33,7 +33,7 @@
 - Performance of on-demand transformations
 - Schema flexibility handling
 
-### ETL vs. ELT Comparison
+### 🔷 ETL vs. ELT Comparison
 
 | Aspect | ETL | ELT |
 |--------|-----|-----|
@@ -46,9 +46,9 @@
 
 ---
 
-## 4.2 Testing ETL Pipelines
+## ⭐ 4.2 Testing ETL Pipelines
 
-### Stage 1: Extraction Testing
+### 🔷 Stage 1: Extraction Testing
 
 **Tests:**
 - Row count: Source count = Extracted count
@@ -65,7 +65,7 @@ Test: wc -l customers_extract.csv = 1,000,001 (including header)
 Result: PASS
 ```
 
-### Stage 2: Transformation Testing
+### 🔷 Stage 2: Transformation Testing
 
 **Tests:**
 - Each transformation rule produces correct output
@@ -86,7 +86,7 @@ Result: PASS
 | Aggregate: SUM(sales) by region | [(North, 100), (North, 200), (South, 150)] | [(North, 300), (South, 150)] | PASS |
 | Default: missing category → "Unknown" | null | "Unknown" | PASS |
 
-### Stage 3: Load Testing
+### 🔷 Stage 3: Load Testing
 
 **Tests:**
 - Target row count matches transformed row count
@@ -96,7 +96,7 @@ Result: PASS
 - Partitioning correct
 - Indexing effective
 
-### End-to-End Reconciliation
+### 🔷 End-to-End Reconciliation
 
 **The golden rule:** Source totals must equal target totals (after transformations).
 
@@ -118,9 +118,9 @@ Result: PASS
 
 ---
 
-## 4.3 Testing Spark/MapReduce Jobs
+## ⭐ 4.3 Testing Spark/MapReduce Jobs
 
-### Unit Testing Transformations
+### 🔷 Unit Testing Transformations
 
 Test individual functions in isolation before running on the cluster.
 
@@ -135,7 +135,7 @@ assert calculate_revenue(0, 100, 0.1) == 0
 assert calculate_revenue(10, 100, 0) == 1000
 ```
 
-### Integration Testing Jobs
+### 🔗 Integration Testing Jobs
 
 Test the full job with sample data on a small cluster or local mode.
 
@@ -152,7 +152,7 @@ Compare actual output to expected output
 All rows match: PASS
 ```
 
-### Regression Testing
+### 🔷 Regression Testing
 
 When a job is modified, ensure existing behavior is preserved.
 
@@ -164,9 +164,9 @@ When a job is modified, ensure existing behavior is preserved.
 
 ---
 
-## 4.4 Testing Reports and Dashboards
+## 📝 4.4 Testing Reports and Dashboards
 
-### Report Validation Types
+### 🧪 Report Validation Types
 
 **Structured report testing:**
 - Row/column counts match expected
@@ -181,7 +181,7 @@ When a job is modified, ensure existing behavior is preserved.
 - Filters update all visualizations
 - Export function produces correct files
 
-### Report Reconciliation
+### 📝 Report Reconciliation
 
 **Approach:** Compare report values to source data.
 
@@ -194,7 +194,7 @@ Source result: $1,250,000
 Reconciliation: PASS (0% variance)
 ```
 
-### Testing OLAP Cubes
+### 🔷 Testing OLAP Cubes
 
 **OLAP operations to test:**
 - **Roll-up:** Aggregate from detail to summary (e.g., day → month → year)
@@ -213,9 +213,9 @@ Drill-down test:
 
 ---
 
-## 4.5 Data Lineage Testing
+## 🗃️ 4.5 Data Lineage Testing
 
-### What is Data Lineage?
+### 🗃️ What is Data Lineage?
 
 Data lineage is the ability to trace data from its origin through all transformations to its final destination.
 
@@ -225,7 +225,7 @@ Data lineage is the ability to trace data from its origin through all transforma
 - Debugging (where did this value come from?)
 - Compliance (GDPR, audit requirements)
 
-### Lineage Testing Approaches
+### 🔷 Lineage Testing Approaches
 
 **Forward lineage:** Follow data from source to target.
 ```
@@ -244,7 +244,7 @@ Report: Monthly sales = $1,000,000
 → Source: 1,000 transactions totaling $1,000,000
 ```
 
-### Testing Lineage Tools
+### 🛠️ Testing Lineage Tools
 
 **Manual lineage testing:**
 - Review transformation code
@@ -266,9 +266,9 @@ Report: Monthly sales = $1,000,000
 
 ---
 
-## 4.6 Incremental vs. Full Load Testing
+## ⭐ 4.6 Incremental vs. Full Load Testing
 
-### Full Load
+### 🔷 Full Load
 
 **Definition:** All data from source is loaded to target, typically replacing existing data.
 
@@ -278,7 +278,7 @@ Report: Monthly sales = $1,000,000
 - No duplicate records
 - Load time within SLA
 
-### Incremental Load
+### 🔷 Incremental Load
 
 **Definition:** Only new or changed records since the last load are processed.
 
@@ -308,9 +308,9 @@ Test: Two rows exist, dates are contiguous, only one row has end_date=null
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: ETL Pipeline Test Design
+### 💡 Worked Example 1: ETL Pipeline Test Design
 
 **Scenario:** A pipeline loads daily sales data from POS to data warehouse.
 
@@ -330,7 +330,7 @@ POS MySQL → Sqoop → HDFS → Spark → Parquet → Hive → BI Report
 | Load | Schema compliance | All columns present with correct types | Yes |
 | Report | Daily total | Report total = Hive `SUM(revenue) WHERE date='2024-06-15'` | Match |
 
-### Worked Example 2: Transformation Rule Validation
+### 💡 Worked Example 2: Transformation Rule Validation
 
 **Scenario:** A customer dimension table is built from multiple sources.
 
@@ -346,7 +346,7 @@ POS MySQL → Sqoop → HDFS → Spark → Parquet → Hive → BI Report
 | Country | country_code="US" | country="United States" | Lookup table |
 | Country | country_code="ZZ" | country="Unknown" | Invalid code handling |
 
-### Worked Example 3: Report Drill-Down Test
+### 💡 Worked Example 3: Report Drill-Down Test
 
 **Scenario:** Test a sales dashboard.
 

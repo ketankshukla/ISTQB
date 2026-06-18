@@ -1,10 +1,10 @@
-# Chapter 1 — Introduction to Automotive Testing: Lessons
+# 📘 Chapter 1 — Introduction to Automotive Testing: Lessons
 
 ---
 
-## 1.1 Automotive Software Landscape
+## ⭐ 1.1 Automotive Software Landscape
 
-### Characteristics
+### 🔷 Characteristics
 
 | Characteristic | Description |
 |----------------|-------------|
@@ -15,7 +15,7 @@
 | **Long lifecycle** | Vehicles on road for 10-15 years |
 | **Harsh environment** | Temperature, vibration, EMI |
 
-### Software Growth
+### 🔷 Software Growth
 
 | Era | Lines of Code | ECU Count |
 |-----|---------------|-----------|
@@ -26,13 +26,13 @@
 
 ---
 
-## 1.2 Electronic Control Units (ECUs)
+## ⭐ 1.2 Electronic Control Units (ECUs)
 
-### Definition
+### 🔷 Definition
 
 An ECU is an embedded computer that controls a specific vehicle function.
 
-### ECU Types
+### 🧪 ECU Types
 
 | Type | Examples | Criticality |
 |------|----------|-------------|
@@ -43,7 +43,7 @@ An ECU is an embedded computer that controls a specific vehicle function.
 | **ADAS** | Lane keeping, adaptive cruise | High |
 | **Passive safety** | Airbags, seatbelt tensioners | High |
 
-### ECU Architecture
+### 🔷 ECU Architecture
 
 | Layer | Components |
 |-------|-----------|
@@ -54,9 +54,9 @@ An ECU is an embedded computer that controls a specific vehicle function.
 
 ---
 
-## 1.3 Vehicle Networks
+## ⭐ 1.3 Vehicle Networks
 
-### Network Types
+### 🧪 Network Types
 
 | Network | Speed | Use Case |
 |---------|-------|----------|
@@ -66,7 +66,7 @@ An ECU is an embedded computer that controls a specific vehicle function.
 | **Ethernet** | 100+ Mbps | ADAS, infotainment, diagnostics |
 | **MOST** | 150 Mbps | Infotainment |
 
-### Network Topology
+### 🔷 Network Topology
 
 ```
 [Gateway ECU]
@@ -79,13 +79,13 @@ An ECU is an embedded computer that controls a specific vehicle function.
 
 ---
 
-## 1.4 Safety-Critical Software
+## ⭐ 1.4 Safety-Critical Software
 
-### Definition
+### 🔷 Definition
 
 Software whose failure could lead to injury, death, or significant property damage.
 
-### Characteristics
+### 🔷 Characteristics
 
 | Aspect | Requirement |
 |--------|-------------|
@@ -95,7 +95,7 @@ Software whose failure could lead to injury, death, or significant property dama
 | **Redundancy** | Backup systems for critical functions |
 | **Traceability** | Requirements linked to tests |
 
-### Examples
+### 💡 Examples
 
 | Function | Failure Consequence |
 |----------|---------------------|
@@ -106,7 +106,7 @@ Software whose failure could lead to injury, death, or significant property dama
 
 ---
 
-## 1.5 Differences from General Software Testing
+## ⭐ 1.5 Differences from General Software Testing
 
 | Aspect | General Software | Automotive Software |
 |--------|-----------------|----------------------|
@@ -120,7 +120,7 @@ Software whose failure could lead to injury, death, or significant property dama
 
 ---
 
-## 1.6 Standards Overview
+## 🌟 1.6 Standards Overview
 
 | Standard | Purpose |
 |----------|---------|
@@ -131,9 +131,9 @@ Software whose failure could lead to injury, death, or significant property dama
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: ECU Classification
+### 💡 Worked Example 1: ECU Classification
 
 | ECU | Function | Criticality | ASIL |
 |-----|----------|-------------|------|
@@ -142,7 +142,7 @@ Software whose failure could lead to injury, death, or significant property dama
 | ABS | Anti-lock braking | High | D |
 | Door control | Locks, windows | Medium | A/B |
 
-### Worked Example 2: Network Selection
+### 💡 Worked Example 2: Network Selection
 
 | Function | Requirements | Network |
 |----------|-------------|---------|
@@ -151,7 +151,7 @@ Software whose failure could lead to injury, death, or significant property dama
 | Camera data | High bandwidth | Ethernet |
 | Brake control | Deterministic, fast | FlexRay |
 
-### Worked Example 3: Safety Impact Analysis
+### 💡 Worked Example 3: Safety Impact Analysis
 
 | Failure | Consequence | ASIL |
 |---------|-------------|------|

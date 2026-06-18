@@ -1,10 +1,10 @@
-# Chapter 3 — Regulatory Compliance and Risk Management: Lessons
+# 📘 Chapter 3 — Regulatory Compliance and Risk Management: Lessons
 
 ---
 
-## 3.1 Major Financial Regulations
+## ⭐ 3.1 Major Financial Regulations
 
-### SOX (Sarbanes-Oxley Act) — US
+### 🔷 SOX (Sarbanes-Oxley Act) — US
 
 **Scope:** Public companies in the US
 **Key provisions:**
@@ -18,7 +18,7 @@
 - Access controls must prevent unauthorized modifications
 - Segregation of duties must be enforced
 
-### MiFID II (Markets in Financial Instruments Directive) — EU
+### 🔷 MiFID II (Markets in Financial Instruments Directive) — EU
 
 **Scope:** Investment firms and trading venues in the EU
 **Key provisions:**
@@ -33,7 +33,7 @@
 - Best execution algorithms must be validated
 - Order rejection reasons must be logged
 
-### Basel III
+### 🔷 Basel III
 
 **Scope:** Banks globally
 **Key provisions:**
@@ -48,7 +48,7 @@
 - Liquidity reports must be generated correctly
 - Counterparty credit risk must be calculated
 
-### EMIR (European Market Infrastructure Regulation)
+### 🔷 EMIR (European Market Infrastructure Regulation)
 
 **Scope:** OTC derivatives in the EU
 **Key provisions:**
@@ -63,9 +63,9 @@
 
 ---
 
-## 3.2 AML and KYC
+## ⭐ 3.2 AML and KYC
 
-### KYC (Know Your Customer)
+### 🔷 KYC (Know Your Customer)
 
 **Process:**
 1. **Customer Identification Program (CIP):** Verify identity using documents
@@ -78,7 +78,7 @@
 - PEP (Politically Exposed Person) screening
 - Sanctions list screening (OFAC, UN)
 
-### AML (Anti-Money Laundering)
+### 🔷 AML (Anti-Money Laundering)
 
 **Monitoring:**
 - Transaction threshold alerts ($10,000+ in US)
@@ -93,7 +93,7 @@
 
 ---
 
-## 3.3 PCI-DSS for Financial Systems
+## ⭐ 3.3 PCI-DSS for Financial Systems
 
 **12 Requirements:**
 1. Install and maintain firewall configurations
@@ -117,7 +117,7 @@
 
 ---
 
-## 3.4 Types of Financial Risk
+## 🧪 3.4 Types of Financial Risk
 
 | Risk Type | Description | Testing Focus |
 |-----------|-------------|---------------|
@@ -130,15 +130,15 @@
 
 ---
 
-## 3.5 Compliance Testing Approaches
+## ⭐ 3.5 Compliance Testing Approaches
 
-### Control Testing
+### 🔷 Control Testing
 
 Verify that internal controls are designed and operating effectively:
 - **Design effectiveness:** Does the control address the risk?
 - **Operating effectiveness:** Does the control work in practice?
 
-### Regression Testing for Regulatory Changes
+### 🔷 Regression Testing for Regulatory Changes
 
 When regulations change:
 1. Identify affected systems and reports
@@ -146,7 +146,7 @@ When regulations change:
 3. Update test data to reflect new scenarios
 4. Execute and validate
 
-### Audit Support Testing
+### 🔷 Audit Support Testing
 
 - Reproduce system behavior for auditors
 - Provide traceability from requirements to tests
@@ -154,9 +154,9 @@ When regulations change:
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: SOX Control Testing
+### 💡 Worked Example 1: SOX Control Testing
 
 **Scenario:** A SOX control requires that only authorized users can post journal entries to the general ledger.
 
@@ -168,7 +168,7 @@ When regulations change:
    - Attempt to post without approval → should be blocked
    - Verify audit log records who created and who approved
 
-### Worked Example 2: MiFID II Transaction Reporting
+### 💡 Worked Example 2: MiFID II Transaction Reporting
 
 **Scenario:** An investment firm must report all executed trades to the regulator within T+1.
 
@@ -184,7 +184,7 @@ When regulations change:
 4. Confirm reports are generated and transmitted within T+1
 5. Test that instrument identifiers use the correct format (ISIN, LEI)
 
-### Worked Example 3: AML Alert Testing
+### 💡 Worked Example 3: AML Alert Testing
 
 **Scenario:** A bank's AML system flags cash deposits over $10,000 within a 24-hour period.
 

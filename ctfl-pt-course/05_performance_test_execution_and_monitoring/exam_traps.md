@@ -1,6 +1,6 @@
-# Chapter 5 — Performance Test Execution and Monitoring: Exam Traps
+# 🪤 Chapter 5 — Performance Test Execution and Monitoring: Exam Traps
 
-## Trap 1: Monitoring Only the Application Server
+## 🪤 Trap 1: Monitoring Only the Application Server
 
 **Trap:** Must monitor all tiers: web, app, database, network, and client.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Anomalies Should Be Ignored
+## 🪤 Trap 2: Anomalies Should Be Ignored
 
 **Trap:** Anomalies often indicate real issues that need investigation.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Test Environment Doesn't Need Documentation
+## 🪤 Trap 3: Test Environment Doesn't Need Documentation
 
 **Trap:** Undocumented environments lead to irreproducible results.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: One Monitoring Tool is Enough
+## 🪤 Trap 4: One Monitoring Tool is Enough
 
 **Trap:** Different tools capture different metrics; APM + system monitor + database monitor are often needed.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Tests Can Run Without Smoke Test
+## 🪤 Trap 5: Tests Can Run Without Smoke Test
 
 **Trap:** Smoke tests validate scripts and environment before full test execution.
 

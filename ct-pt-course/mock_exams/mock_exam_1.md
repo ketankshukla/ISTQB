@@ -1,11 +1,11 @@
-# CT-PT Mock Exam 1
+# 📝 CT-PT Mock Exam 1
 
 **Instructions:**
 - 40 questions, 60 minutes, single best answer, no negative marking
 
 ---
 
-### Q1
+### 🔷 Q1
 
 Performance testing is PRIMARILY concerned with:
 
@@ -16,7 +16,7 @@ D. Checking compliance with security standards
 
 ---
 
-### Q2
+### 🔷 Q2
 
 Response time is BEST defined as:
 
@@ -27,7 +27,7 @@ D. The duration of a performance test
 
 ---
 
-### Q3
+### 🔷 Q3
 
 Throughput is measured in:
 
@@ -38,7 +38,7 @@ D. Number of concurrent users
 
 ---
 
-### Q4
+### 🔷 Q4
 
 Load testing is PRIMARILY used to:
 
@@ -49,7 +49,7 @@ D. Test with extremely large datasets
 
 ---
 
-### Q5
+### 🔷 Q5
 
 Stress testing is BEST described as:
 
@@ -60,7 +60,7 @@ D. Testing with sudden bursts of traffic
 
 ---
 
-### Q6
+### 🔷 Q6
 
 Endurance (soak) testing is MOST likely to detect:
 
@@ -71,7 +71,7 @@ D. Database indexing issues
 
 ---
 
-### Q7
+### 🔷 Q7
 
 Spike testing is appropriate when:
 
@@ -82,7 +82,7 @@ D. The system needs to handle gradual user growth
 
 ---
 
-### Q8
+### 🔷 Q8
 
 Volume testing focuses on:
 
@@ -93,7 +93,7 @@ D. Hardware configuration variations
 
 ---
 
-### Q9
+### 🔷 Q9
 
 Scalability testing is used to determine:
 
@@ -104,7 +104,7 @@ D. The exact breaking point of the system
 
 ---
 
-### Q10
+### 🔷 Q10
 
 The 95th percentile (P95) response time means:
 
@@ -115,7 +115,7 @@ D. 95 requests took this response time
 
 ---
 
-### Q11
+### 🔷 Q11
 
 Which metric is LEAST appropriate for a response time SLA?
 
@@ -126,7 +126,7 @@ D. 95th percentile response time
 
 ---
 
-### Q12
+### 🔷 Q12
 
 A workload model specifies all of the following EXCEPT:
 
@@ -137,7 +137,7 @@ D. Arrival patterns (ramp-up, steady state)
 
 ---
 
-### Q13
+### 🔷 Q13
 
 Throughput is BEST measured as:
 
@@ -148,7 +148,7 @@ D. The percentage of CPU utilization
 
 ---
 
-### Q14
+### 🔷 Q14
 
 For performance testing, test data should be:
 
@@ -159,7 +159,7 @@ D. Always copied directly from production without modification
 
 ---
 
-### Q15
+### 🔷 Q15
 
 A stepped load profile is characterized by:
 
@@ -170,7 +170,7 @@ D. Only ramp-up with no steady state
 
 ---
 
-### Q16
+### 🔷 Q16
 
 The purpose of a warm-up phase before performance testing is to:
 
@@ -181,7 +181,7 @@ D. Slow down the test execution
 
 ---
 
-### Q17
+### 🔷 Q17
 
 A CPU queue length greater than 2 per core typically indicates:
 
@@ -192,7 +192,7 @@ D. Optimal performance
 
 ---
 
-### Q18
+### 🔷 Q18
 
 Memory growing unbounded during an endurance test is a strong indicator of:
 
@@ -203,7 +203,7 @@ D. Network saturation
 
 ---
 
-### Q19
+### 🔷 Q19
 
 Which metric indicates a disk I/O bottleneck?
 
@@ -214,7 +214,7 @@ D. Memory at 60%
 
 ---
 
-### Q20
+### 🔷 Q20
 
 A bottleneck is BEST described as:
 
@@ -225,7 +225,7 @@ D. The database server only
 
 ---
 
-### Q21
+### 🔷 Q21
 
 A P95 response time of 3 seconds means:
 
@@ -236,7 +236,7 @@ D. 95 requests took 3 seconds
 
 ---
 
-### Q22
+### 🔷 Q22
 
 The 5 Whys technique is used for:
 
@@ -247,7 +247,7 @@ D. Calculating throughput
 
 ---
 
-### Q23
+### 🔷 Q23
 
 Adding an index to a slow database query is an example of:
 
@@ -258,7 +258,7 @@ D. Architecture tuning
 
 ---
 
-### Q24
+### 🔷 Q24
 
 Increasing the JVM heap size is an example of:
 
@@ -269,7 +269,7 @@ D. Architecture tuning
 
 ---
 
-### Q25
+### 🔷 Q25
 
 Throughput plateauing while response time increases indicates:
 
@@ -280,7 +280,7 @@ D. The load generator is broken
 
 ---
 
-### Q26
+### 🔷 Q26
 
 A management performance report should PRIMARILY include:
 
@@ -291,7 +291,7 @@ D. Code-level method timings
 
 ---
 
-### Q27
+### 🔷 Q27
 
 Apache JMeter is an example of:
 
@@ -302,7 +302,7 @@ D. A network monitoring tool
 
 ---
 
-### Q28
+### 🔷 Q28
 
 Correlation in performance testing scripts is used to:
 
@@ -313,7 +313,7 @@ D. Generate random data
 
 ---
 
-### Q29
+### 🔷 Q29
 
 Parameterization in a performance test script means:
 
@@ -324,7 +324,7 @@ D. Recording user actions
 
 ---
 
-### Q30
+### 🔷 Q30
 
 A performance gate in CI/CD is:
 
@@ -335,7 +335,7 @@ D. A network firewall
 
 ---
 
-### Q31
+### 🔷 Q31
 
 Which is a PRIMARY advantage of cloud-based performance testing?
 
@@ -346,7 +346,7 @@ D. It only works for small applications
 
 ---
 
-### Q32
+### 🔷 Q32
 
 A recorded performance test script typically requires:
 
@@ -357,7 +357,7 @@ D. Only more users
 
 ---
 
-### Q33
+### 🔷 Q33
 
 Which scripting approach gives the most control and maintainability?
 
@@ -368,7 +368,7 @@ D. Scripts that include all browser resources
 
 ---
 
-### Q34
+### 🔷 Q34
 
 Distributed testing means:
 
@@ -379,7 +379,7 @@ D. Running tests at random times
 
 ---
 
-### Q35
+### 🔷 Q35
 
 A team tests at expected peak load and achieves acceptable results. They have completed:
 
@@ -390,7 +390,7 @@ D. All types of performance testing
 
 ---
 
-### Q36
+### 🔷 Q36
 
 A system handles 1,000 users on 1 server and 1,800 users on 2 servers. This demonstrates:
 
@@ -401,7 +401,7 @@ D. Perfect scalability
 
 ---
 
-### Q37
+### 🔷 Q37
 
 The PRIMARY difference between load and stress testing is:
 
@@ -412,7 +412,7 @@ D. Load testing finds memory leaks
 
 ---
 
-### Q38
+### 🔷 Q38
 
 Think time in a performance test script should:
 
@@ -423,7 +423,7 @@ D. Only be used in stress tests
 
 ---
 
-### Q39
+### 🔷 Q39
 
 A "connection timeout" error during a load test MOST likely indicates:
 
@@ -434,7 +434,7 @@ D. The load generator has extra capacity
 
 ---
 
-### Q40
+### 🔷 Q40
 
 Which tuning approach should typically be tried FIRST?
 
@@ -445,4 +445,4 @@ D. Replace the database vendor
 
 ---
 
-## End of Mock Exam 1
+## 📝 End of Mock Exam 1

@@ -1,4 +1,4 @@
-# Mock Exam 1 — Answer Key
+# 📝 Mock Exam 1 — Answer Key
 
 | Q | Answer | Rationale |
 |---|--------|-----------|
@@ -43,7 +43,7 @@
 | 39 | B | Accessibility = automated + manual + user testing |
 | 40 | B | Cucumber = BDD tool for acceptance tests |
 
-## Score Interpretation
+## ⭐ Score Interpretation
 
 | Score | Interpretation |
 |-------|-------------|

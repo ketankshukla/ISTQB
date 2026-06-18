@@ -1,6 +1,6 @@
-# Chapter 3 — Testing Software Quality Characteristics
+# 💎 Chapter 3 — Testing Software Quality Characteristics
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~25% (~15 questions out of 60)
 - **K-levels:** K2 (understand), K3 (apply)
@@ -8,7 +8,7 @@
 
 ---
 
-## Chapter Map
+## ⭐ Chapter Map
 
 | Section | Topic | K-Level | Exam Importance |
 |---------|-------|---------|-----------------|
@@ -24,7 +24,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -38,7 +38,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts to Master
+## ⭐ Key Concepts to Master
 
 - The 8 ISO 25010 quality characteristics: Accuracy, Suitability, Interoperability, Security, Reliability, Efficiency, Maintainability, Portability
 - Sub-characteristics within each (e.g., Security: confidentiality, integrity, availability)
@@ -50,7 +50,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Exam Tips
+## 🎓 Exam Tips
 
 - Expect scenario-based questions asking you to select the appropriate quality characteristic to test
 - Security, Reliability, and Efficiency are the most heavily tested characteristics

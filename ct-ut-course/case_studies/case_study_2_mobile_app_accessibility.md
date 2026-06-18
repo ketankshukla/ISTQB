@@ -1,6 +1,6 @@
-# Case Study 2 — Mobile App Accessibility
+# 📂 Case Study 2 — Mobile App Accessibility
 
-## Context
+## ⭐ Context
 
 You are the Accessibility Test Lead for HealthTrack, a health monitoring mobile app.
 
@@ -26,7 +26,7 @@ You are the Accessibility Test Lead for HealthTrack, a health monitoring mobile 
 - Must meet WCAG 2.1 Level AA
 - Healthcare apps have higher accessibility expectations
 
-## Task 1: Disability Analysis
+## 🔬 Task 1: Disability Analysis
 
 **Question:** Identify how different disabilities affect app usage and what to test for each.
 
@@ -44,7 +44,7 @@ You are the Accessibility Test Lead for HealthTrack, a health monitoring mobile 
 
 ---
 
-## Task 2: VoiceOver Testing
+## ⭐ Task 2: VoiceOver Testing
 
 **Question:** Test the medication reminder feature with VoiceOver.
 
@@ -78,7 +78,7 @@ You are the Accessibility Test Lead for HealthTrack, a health monitoring mobile 
 
 ---
 
-## Task 3: Motor Accessibility Testing
+## ⭐ Task 3: Motor Accessibility Testing
 
 **Question:** Evaluate the app for users with motor impairments.
 
@@ -107,7 +107,7 @@ You are the Accessibility Test Lead for HealthTrack, a health monitoring mobile 
 
 ---
 
-## Task 4: Cognitive Accessibility
+## ⭐ Task 4: Cognitive Accessibility
 
 **Question:** Evaluate the app for users with cognitive impairments.
 
@@ -136,7 +136,7 @@ You are the Accessibility Test Lead for HealthTrack, a health monitoring mobile 
 
 ---
 
-## Task 5: Remediation Plan
+## 🗓️ Task 5: Remediation Plan
 
 **Question:** Create a prioritized remediation plan with timeline.
 

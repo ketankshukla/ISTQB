@@ -1,6 +1,6 @@
-# CT-AuT Study Plan
+# 🗓️ CT-AuT Study Plan
 
-## Standard Schedule (4 Weeks)
+## 📅 Standard Schedule (4 Weeks)
 
 | Week | Focus | Activities |
 |------|-------|------------|
@@ -9,7 +9,7 @@
 | 3 | Chapters 5-6 | Read lessons, study exam traps, complete practice questions |
 | 4 | Integration | Case studies, Mock Exam 1, review weak areas, Mock Exams 2-3 |
 
-## Daily Study Technique
+## 📚 Daily Study Technique
 
 1. **Read** the lessons for the target chapter
 2. **Review** exam traps (these are the distinctions the exam tests)
@@ -17,7 +17,7 @@
 4. **Score** and review every incorrect answer — understand the rationale
 5. **Update** PROGRESS_TRACKER.md
 
-## Scoring Milestones
+## ⭐ Scoring Milestones
 
 | Milestone | Target Score |
 |-----------|-------------|
@@ -27,7 +27,7 @@
 | Mock Exam 2 | 80%+ |
 | Mock Exam 3 | 85%+ |
 
-## Exam Day Checklist
+## 🎓 Exam Day Checklist
 
 - [ ] All chapters completed
 - [ ] All practice questions scored 85%+

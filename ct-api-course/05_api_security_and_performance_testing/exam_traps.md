@@ -1,6 +1,6 @@
-# Chapter 5 — API Security and Performance Testing: Exam Traps
+# 🪤 Chapter 5 — API Security and Performance Testing: Exam Traps
 
-## Trap 1: Confusing Authentication and Authorization
+## 🪤 Trap 1: Confusing Authentication and Authorization
 
 **Trap:** Authentication = verifying identity (who are you?). Authorization = verifying permissions (what can you do?).
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Thinking HTTPS Is Enough for Security
+## 🪤 Trap 2: Thinking HTTPS Is Enough for Security
 
 **Trap:** HTTPS encrypts data in transit but does not protect against all API vulnerabilities (injection, broken access control, excessive data exposure).
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Confusing Load and Stress Testing
+## 🪤 Trap 3: Confusing Load and Stress Testing
 
 **Trap:** Load = expected load. Stress = beyond normal capacity to find breaking points.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Ignoring Rate Limit Testing
+## 🪤 Trap 4: Ignoring Rate Limit Testing
 
 **Trap:** Rate limits are part of the API contract. They must be tested to verify correct behavior and proper error responses.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Testing Only with Valid Tokens
+## 🪤 Trap 5: Testing Only with Valid Tokens
 
 **Trap:** Security testing must include invalid, expired, missing, and tampered tokens/credentials.
 

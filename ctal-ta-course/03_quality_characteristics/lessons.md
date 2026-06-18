@@ -1,10 +1,10 @@
-# Chapter 3 — Testing Software Quality Characteristics: Lessons
+# 📘 Chapter 3 — Testing Software Quality Characteristics: Lessons
 
 ---
 
-## 3.1 Quality Characteristics Overview
+## 🌟 3.1 Quality Characteristics Overview
 
-### ISO 25010 Quality Model
+### 💎 ISO 25010 Quality Model
 
 The ISO/IEC 25010 standard defines a quality model for software products. It organizes software quality into 8 characteristics, each with sub-characteristics.
 
@@ -40,9 +40,9 @@ The ISO/IEC 25010 standard defines a quality model for software products. It org
 
 ---
 
-## 3.2 Accuracy Testing
+## ⭐ 3.2 Accuracy Testing
 
-### What is Accuracy? (K2)
+### 🔷 What is Accuracy? (K2)
 
 Accuracy is the degree to which a product provides the **correct results** with the required precision.
 
@@ -76,9 +76,9 @@ Accuracy is the degree to which a product provides the **correct results** with 
 
 ---
 
-## 3.3 Suitability Testing
+## ⭐ 3.3 Suitability Testing
 
-### What is Suitability? (K2)
+### 🔷 What is Suitability? (K2)
 
 Suitability is the degree to which a product provides functions that meet stated and implied needs of users when used under specified conditions.
 
@@ -111,9 +111,9 @@ Suitability is the degree to which a product provides functions that meet stated
 
 ---
 
-## 3.4 Interoperability Testing
+## ⭐ 3.4 Interoperability Testing
 
-### What is Interoperability? (K2)
+### 🔷 What is Interoperability? (K2)
 
 Interoperability is the degree to which a product can exchange information with other products and mutually use the information that has been exchanged.
 
@@ -148,9 +148,9 @@ Interoperability is the degree to which a product can exchange information with 
 
 ---
 
-## 3.5 Security Testing
+## 🔒 3.5 Security Testing
 
-### What is Security? (K2, K3)
+### 🔒 What is Security? (K2, K3)
 
 Security is the degree to which a product protects information and data so that persons or other products have the degree of data access appropriate to their types and levels of authorization.
 
@@ -222,9 +222,9 @@ Security is the degree to which a product protects information and data so that 
 
 ---
 
-## 3.6 Reliability Testing
+## ⭐ 3.6 Reliability Testing
 
-### What is Reliability? (K2, K3)
+### 🔷 What is Reliability? (K2, K3)
 
 Reliability is the degree to which a product performs specified functions under specified conditions for a specified period of time.
 
@@ -286,9 +286,9 @@ Reliability is the degree to which a product performs specified functions under 
 
 ---
 
-## 3.7 Efficiency Testing
+## ⭐ 3.7 Efficiency Testing
 
-### What is Efficiency? (K2, K3)
+### 🔷 What is Efficiency? (K2, K3)
 
 Efficiency (Performance Efficiency) is the performance relative to the amount of resources used under stated conditions.
 
@@ -356,9 +356,9 @@ Efficiency (Performance Efficiency) is the performance relative to the amount of
 
 ---
 
-## 3.8 Maintainability Testing
+## 🤖 3.8 Maintainability Testing
 
-### What is Maintainability? (K2)
+### 🤖 What is Maintainability? (K2)
 
 Maintainability is the degree of effectiveness and efficiency with which a product can be modified to improve it, correct it, or adapt it to changes in environment, requirements, or functional specifications.
 
@@ -415,9 +415,9 @@ Maintainability is the degree of effectiveness and efficiency with which a produ
 
 ---
 
-## 3.9 Portability Testing
+## ⭐ 3.9 Portability Testing
 
-### What is Portability? (K2)
+### 🔷 What is Portability? (K2)
 
 Portability is the degree of effectiveness and efficiency with which a product can be transferred from one hardware, software, or other operational usage environment to another.
 
@@ -463,9 +463,9 @@ Portability is the degree of effectiveness and efficiency with which a product c
 
 ---
 
-## Worked Examples — Applying Chapter 3 Concepts
+## 💡 Worked Examples — Applying Chapter 3 Concepts
 
-### Worked Example 1: Selecting Quality Characteristics
+### 💡 Worked Example 1: Selecting Quality Characteristics
 
 **Scenario:** A hospital is deploying a new patient monitoring system. The system must:
 1. Correctly calculate medication dosages based on patient weight
@@ -494,7 +494,7 @@ Portability is the degree of effectiveness and efficiency with which a product c
 
 ---
 
-### Worked Example 2: Security Testing Scenario
+### 💡 Worked Example 2: Security Testing Scenario
 
 **Scenario:** An online banking application has the following features:
 - User login with username and password
@@ -521,7 +521,7 @@ Portability is the degree of effectiveness and efficiency with which a product c
 
 ---
 
-### Worked Example 3: Performance Testing Design
+### 💡 Worked Example 3: Performance Testing Design
 
 **Scenario:** An e-commerce website must handle Black Friday traffic. Expected peak: 50,000 concurrent users, 5,000 orders per minute, 95% of page loads under 2 seconds.
 

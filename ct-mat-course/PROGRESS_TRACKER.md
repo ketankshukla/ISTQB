@@ -1,6 +1,6 @@
-# CT-MAT Progress Tracker
+# 📈 CT-MAT Progress Tracker
 
-## Root Files
+## ⭐ Root Files
 
 - [x] README.md
 - [x] STUDY_PLAN.md
@@ -8,7 +8,7 @@
 - [x] GLOSSARY.md
 - [x] PROGRESS_TRACKER.md
 
-## Chapters
+## ⭐ Chapters
 
 - [ ] Chapter 1 — Introduction to Mobile Testing
   - [ ] README.md
@@ -41,13 +41,13 @@
   - [ ] exam_traps.md
   - [ ] practice_questions.md (score: ___/20)
 
-## Case Studies
+## ⭐ Case Studies
 
 - [ ] Case Study 1 — E-Commerce Mobile App Launch
 - [ ] Case Study 2 — Banking App Security and Compliance
 - [ ] Case Study 3 — Cross-Platform Social Media App
 
-## Mock Exams
+## 📝 Mock Exams
 
 | Exam | Score | Target |
 |------|-------|--------|
@@ -55,7 +55,7 @@
 | Mock 2 | ___/40 | 28+ (70%) |
 | Mock 3 | ___/40 | 32+ (80%) |
 
-## Final Preparation
+## ⭐ Final Preparation
 
 - [ ] All chapter practice questions complete
 - [ ] All case studies complete

@@ -1,6 +1,6 @@
-# Chapter 2 — Scaling Agile Testing: Exam Traps
+# 🪤 Chapter 2 — Scaling Agile Testing: Exam Traps
 
-## Trap 1: Each Team Tests Independently Without Integration
+## 🪤 Trap 1: Each Team Tests Independently Without Integration
 
 **Trap:** Team-level quality doesn't guarantee system quality. Integration and system testing are essential.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: One Definition of Done Fits All Teams
+## 🪤 Trap 2: One Definition of Done Fits All Teams
 
 **Trap:** Teams have different contexts. A baseline DoD with team-specific additions is more practical.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Using Production Data in Shared Test Environments
+## 🪤 Trap 3: Using Production Data in Shared Test Environments
 
 **Trap:** Production data in shared environments causes privacy risks and conflicts.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Ignoring Dependencies Until Integration
+## 🪤 Trap 4: Ignoring Dependencies Until Integration
 
 **Trap:** Dependencies discovered late cause delays. Identify and mitigate early.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Manual Regression at Scale
+## 🪤 Trap 5: Manual Regression at Scale
 
 **Trap:** Manual regression across multiple teams is too slow and error-prone. Automation is essential.
 

@@ -1,11 +1,11 @@
-# CTFL-GT Glossary
+# 📖 CTFL-GT Glossary
 
-## A
+## ⭐ A
 
 **Ante**
 A mandatory bet required from all players before a hand begins, common in poker games.
 
-## B
+## ⭐ B
 
 **Betting Limit**
 The minimum and maximum amounts a player can wager on a single bet. Part of responsible gaming controls.
@@ -19,7 +19,7 @@ A card game where players aim to have a hand value closer to 21 than the dealer 
 **Baccarat**
 A card game where players bet on whether the player's hand or the banker's hand will have a value closer to 9.
 
-## C
+## ⭐ C
 
 **Casino**
 A facility or online platform offering gambling games including slots, table games, and live dealer games.
@@ -33,12 +33,12 @@ Testing to verify that a gambling product meets the regulatory requirements of t
 **CRUKS (Central Register Exclusion of Games of Chance)**
 The Dutch national self-exclusion register.
 
-## D
+## ⭐ D
 
 **Deposit Limit**
 A player protection measure allowing players to set a maximum amount they can deposit into their account over a specified period.
 
-## E
+## ⭐ E
 
 **eCOGRA (eCommerce and Online Gaming Regulation and Assurance)**
 An independent testing agency that certifies online gambling software and systems for fairness and player protection.
@@ -46,7 +46,7 @@ An independent testing agency that certifies online gambling software and system
 **Expected Value (EV)**
 The long-term average outcome of a bet, calculated as the sum of all possible outcomes multiplied by their probabilities.
 
-## F
+## ⭐ F
 
 **Fixed-Odds Betting**
 Betting where the odds are set at the time the bet is placed and do not change.
@@ -54,7 +54,7 @@ Betting where the odds are set at the time the bet is placed and do not change.
 **Fraud Detection**
 Systems and processes used to identify cheating, money laundering, bonus abuse, and other illicit activities.
 
-## G
+## ⭐ G
 
 **GLI (Gaming Laboratories International)**
 A leading independent testing laboratory that certifies gaming products for compliance with regulatory standards.
@@ -65,7 +65,7 @@ A game where the outcome is determined predominantly by random factors rather th
 **Game of Skill**
 A game where the outcome is significantly influenced by the player's knowledge, strategy, or physical ability.
 
-## H
+## ⭐ H
 
 **Hit Frequency**
 The percentage of spins or rounds that result in any win, regardless of size. Not the same as RTP.
@@ -73,7 +73,7 @@ The percentage of spins or rounds that result in any win, regardless of size. No
 **House Edge**
 The mathematical advantage that the gambling operator has over the player, expressed as a percentage of the player's bet.
 
-## I
+## ⭐ I
 
 **iGaming**
 Online gambling, including casino games, sports betting, poker, and bingo offered over the internet.
@@ -81,17 +81,17 @@ Online gambling, including casino games, sports betting, poker, and bingo offere
 **iTech Labs**
 An independent testing laboratory specializing in online gaming systems, RNG certification, and game mathematics verification.
 
-## J
+## ⭐ J
 
 **Jackpot**
 A large prize, often progressive, that can be won in a gambling game.
 
-## K
+## ⭐ K
 
 **KYC (Know Your Customer)**
 Regulatory requirement for operators to verify the identity of their customers to prevent fraud and underage gambling.
 
-## L
+## ⭐ L
 
 **Live Dealer Game**
 A casino game streamed in real time with a human dealer, combining online convenience with physical casino authenticity.
@@ -99,7 +99,7 @@ A casino game streamed in real time with a human dealer, combining online conven
 **Lottery**
 A game where players purchase tickets with numbers; prizes are awarded based on random draws.
 
-## M
+## ⭐ M
 
 **MGA (Malta Gaming Authority)**
 The regulatory body responsible for governing all forms of gambling in Malta, one of the largest iGaming jurisdictions.
@@ -110,12 +110,12 @@ The process of disguising the origins of illegally obtained money. Gambling oper
 **Multi-Player Game**
 A gambling game where multiple players participate simultaneously, such as poker or bingo.
 
-## N
+## ⭐ N
 
 **NGR (Net Gaming Revenue)**
 The revenue retained by an operator after paying out winnings to players.
 
-## O
+## ⭐ O
 
 **Odds**
 The ratio of the probability of an event occurring to the probability of it not occurring. Expressed in various formats (decimal, fractional, American).
@@ -123,7 +123,7 @@ The ratio of the probability of an event occurring to the probability of it not 
 **OLG (Ontario Lottery and Gaming Corporation)**
 The Canadian provincial agency responsible for lottery and gaming in Ontario.
 
-## P
+## ⭐ P
 
 **PAR Sheet (Probability Accounting Report)**
 A document detailing the mathematical model of a slot machine, including reel strips, symbol frequencies, and payout calculations.
@@ -146,7 +146,7 @@ Gambling behavior that causes harm to the individual or their family. Also calle
 **Progressive Jackpot**
 A jackpot that increases each time the game is played but the jackpot is not won.
 
-## R
+## ⭐ R
 
 **Rake**
 The commission fee taken by the house in poker games.
@@ -172,7 +172,7 @@ The percentage of all wagered money that a game will pay back to players over ti
 **Roulette**
 A casino game where a ball is spun around a numbered wheel; players bet on where the ball will land.
 
-## S
+## ⭐ S
 
 **Self-Exclusion**
 A voluntary program where players can ban themselves from gambling for a specified period.
@@ -186,7 +186,7 @@ Wagering on the outcome of sporting events.
 **Spread Betting**
 Betting where the payoff is based on the accuracy of the wager rather than a simple win or lose outcome.
 
-## T
+## ⭐ T
 
 **Table Game**
 Casino games played at a table, typically involving cards or dice, such as blackjack, roulette, and baccarat.
@@ -194,7 +194,7 @@ Casino games played at a table, typically involving cards or dice, such as black
 **Theoretical RTP**
 The mathematically calculated RTP based on the game's design, as opposed to the actual observed RTP over a limited number of plays.
 
-## U
+## ⭐ U
 
 **UKGC (UK Gambling Commission)**
 The regulatory body responsible for overseeing gambling in Great Britain.
@@ -202,12 +202,12 @@ The regulatory body responsible for overseeing gambling in Great Britain.
 **Underage Gambling**
 Gambling by individuals below the legal gambling age, which is prohibited and a key compliance focus.
 
-## V
+## ⭐ V
 
 **Variance / Volatility**
 A measure of the risk associated with a gambling game. Low volatility pays small wins frequently; high volatility pays large wins rarely.
 
-## W
+## ⭐ W
 
 **Wager**
 The amount of money staked on a bet or game round.

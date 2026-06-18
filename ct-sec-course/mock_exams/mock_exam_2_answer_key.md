@@ -1,4 +1,4 @@
-# Mock Exam 2 — Answer Key
+# 📝 Mock Exam 2 — Answer Key
 
 | Q | Answer | Rationale |
 |---|--------|-----------|
@@ -43,7 +43,7 @@
 | 39 | B | SAST limitation = high false positives, no runtime issues |
 | 40 | B | Security testing integrated throughout lifecycle |
 
-## Score Interpretation
+## ⭐ Score Interpretation
 
 | Score | Interpretation |
 |-------|-------------|

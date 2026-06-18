@@ -1,10 +1,10 @@
-# Chapter 2 — Acceptance Testing in the SDLC: Lessons
+# 📘 Chapter 2 — Acceptance Testing in the SDLC: Lessons
 
 ---
 
-## 2.1 Acceptance Testing in Different SDLC Models
+## 🔁 2.1 Acceptance Testing in Different SDLC Models
 
-### Waterfall Model
+### 📐 Waterfall Model
 
 **In waterfall, acceptance testing is a distinct phase at the end:**
 
@@ -26,7 +26,7 @@ Requirements → Design → Implementation → System Testing → Acceptance Tes
 
 ---
 
-### V-Model
+### 📐 V-Model
 
 **In the V-model, each development level has a corresponding test level:**
 
@@ -52,7 +52,7 @@ Detailed Design                  ←→   Unit Testing
 
 ---
 
-### Incremental / Iterative Models
+### 📐 Incremental / Iterative Models
 
 **In incremental development, acceptance testing is performed incrementally:**
 
@@ -70,7 +70,7 @@ Increment 3: Requirements → Design → Build → Test → Accept
 
 ---
 
-### Agile / Scrum
+### 🏃 Agile / Scrum
 
 **In agile, acceptance testing is continuous and integrated:**
 
@@ -101,9 +101,9 @@ Sprint 3: Plan → Design → Build → Test → Review/Demo → Accept
 
 ---
 
-## 2.2 Entry and Exit Criteria
+## ✅ 2.2 Entry and Exit Criteria
 
-### Entry Criteria for Acceptance Testing
+### ✅ Entry Criteria for Acceptance Testing
 
 Entry criteria define what must be true before acceptance testing can begin.
 
@@ -130,7 +130,7 @@ Entry criteria define what must be true before acceptance testing can begin.
 [ ] Help desk procedures documented
 ```
 
-### Exit Criteria for Acceptance Testing
+### ✅ Exit Criteria for Acceptance Testing
 
 Exit criteria define what must be true for acceptance testing to be considered complete.
 
@@ -155,7 +155,7 @@ Exit criteria define what must be true for acceptance testing to be considered c
 [ ] Release notes including known issues published
 ```
 
-### Risks of Poor Entry/Exit Criteria
+### ⚠️ Risks of Poor Entry/Exit Criteria
 
 **Starting too early:**
 - System not stable enough for meaningful acceptance testing
@@ -174,13 +174,13 @@ Exit criteria define what must be true for acceptance testing to be considered c
 
 ---
 
-## 2.3 Traceability in Acceptance Testing
+## 🔗 2.3 Traceability in Acceptance Testing
 
-### What is Traceability?
+### 🔗 What is Traceability?
 
 Traceability is the ability to trace requirements through tests to defects and vice versa.
 
-### Forward Traceability
+### 🔗 Forward Traceability
 
 **Requirements → Tests → Test Results → Defects**
 
@@ -194,7 +194,7 @@ REQ-001: Customer can place an order
     → TC-AT-003: FAILED → DEF-045: Out-of-stock message unclear
 ```
 
-### Backward Traceability
+### 🔗 Backward Traceability
 
 **Defects → Tests → Requirements**
 
@@ -205,7 +205,7 @@ DEF-045: Out-of-stock message unclear
   → Impact: Customer cannot understand why order failed
 ```
 
-### Traceability Benefits
+### 🔗 Traceability Benefits
 
 1. **Coverage analysis:** Are all requirements tested?
 2. **Impact analysis:** What tests are affected by a requirements change?
@@ -213,7 +213,7 @@ DEF-045: Out-of-stock message unclear
 4. **Progress tracking:** What percentage of acceptance tests passed?
 5. **Audit compliance:** Prove all requirements were validated
 
-### Coverage Metrics
+### 📊 Coverage Metrics
 
 | Metric | Formula | Target |
 |--------|---------|--------|
@@ -223,9 +223,9 @@ DEF-045: Out-of-stock message unclear
 
 ---
 
-## 2.4 Acceptance Testing in Agile: Detailed
+## 🏃 2.4 Acceptance Testing in Agile: Detailed
 
-### User Stories and Acceptance Criteria
+### ✅ User Stories and Acceptance Criteria
 
 **A user story without acceptance criteria:**
 ```
@@ -243,7 +243,7 @@ Acceptance Criteria:
 - New password must be at least 8 characters and different from the previous 5 passwords
 ```
 
-### Definition of Done (DoD)
+### 🔷 Definition of Done (DoD)
 
 **A typical DoD including acceptance:**
 ```
@@ -257,7 +257,7 @@ Acceptance Criteria:
 - Deployed to staging environment
 ```
 
-### Sprint Review vs. Acceptance Testing
+### 🔎 Sprint Review vs. Acceptance Testing
 
 | Aspect | Sprint Review | Formal Acceptance Testing |
 |--------|--------------|---------------------------|
@@ -269,9 +269,9 @@ Acceptance Criteria:
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Entry Criteria Evaluation
+### 💡 Worked Example 1: Entry Criteria Evaluation
 
 **Scenario:** A system is ready for UAT. Evaluate whether entry criteria are met.
 
@@ -286,7 +286,7 @@ Acceptance Criteria:
 
 **Recommendation:** Delay UAT start by 2 days to complete system testing. The critical defect is in a non-UAT feature, so UAT can proceed with a documented risk.
 
-### Worked Example 2: Traceability Matrix
+### 💡 Worked Example 2: Traceability Matrix
 
 | Req ID | Requirement | Acceptance Test | Status | Defect |
 |--------|-------------|-----------------|--------|--------|
@@ -301,7 +301,7 @@ Acceptance Criteria:
 **Pass rate:** 9/11 tests passed (81.8%) — below 90% target
 **Action:** Fix DEF-012 and DEF-015, re-run failing tests
 
-### Worked Example 3: Agile Acceptance Scenario
+### 💡 Worked Example 3: Agile Acceptance Scenario
 
 **Sprint 3, 2-week sprint, Scrum team:**
 

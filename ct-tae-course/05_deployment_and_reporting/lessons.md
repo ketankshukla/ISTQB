@@ -1,10 +1,10 @@
-# Chapter 5 — Deployment and Reporting: Lessons
+# 📘 Chapter 5 — Deployment and Reporting: Lessons
 
 ---
 
-## 5.1 Deployment Strategies
+## ⭐ 5.1 Deployment Strategies
 
-### Big-Bang Deployment
+### 🔷 Big-Bang Deployment
 
 **Approach:** Deploy the entire TAS to all users at once.
 
@@ -33,7 +33,7 @@
 
 ---
 
-### Incremental Deployment
+### 🔷 Incremental Deployment
 
 **Approach:** Deploy the TAS gradually — feature by feature, team by team, or project by project.
 
@@ -63,7 +63,7 @@
 
 ---
 
-### Pilot Deployment
+### 🔷 Pilot Deployment
 
 **Approach:** Deploy to a small, representative group first, then expand based on feedback.
 
@@ -92,7 +92,7 @@
 
 ---
 
-### Deployment Comparison
+### 🔷 Deployment Comparison
 
 | Strategy | Risk | Speed | Best For |
 |----------|------|-------|----------|
@@ -102,9 +102,9 @@
 
 ---
 
-## 5.2 Test Automation Metrics
+## 📊 5.2 Test Automation Metrics
 
-### Coverage Metrics
+### 📊 Coverage Metrics
 
 **1. Code Coverage:**
 - Statement coverage: % of code statements executed by tests
@@ -123,7 +123,7 @@
 
 ---
 
-### Effectiveness Metrics
+### 📊 Effectiveness Metrics
 
 **1. Defect Detection Effectiveness:**
 - Number of defects found by automated tests
@@ -140,7 +140,7 @@
 
 ---
 
-### Efficiency Metrics
+### 📊 Efficiency Metrics
 
 **1. Test Execution Time:**
 - Total time to run the full automated suite
@@ -161,7 +161,7 @@
 
 ---
 
-### Quality Metrics
+### 📊 Quality Metrics
 
 **1. Flakiness Rate:**
 - % of tests that produce inconsistent results (pass sometimes, fail sometimes) without SUT changes
@@ -178,7 +178,7 @@
 
 ---
 
-### ROI Metrics
+### 📊 ROI Metrics
 
 **1. Return on Investment (ROI):**
 ```
@@ -198,9 +198,9 @@ Payback Period = Initial Investment / Annual Savings
 
 ---
 
-## 5.3 Dashboards and Reporting
+## 📝 5.3 Dashboards and Reporting
 
-### Stakeholder-Specific Dashboards
+### 🔷 Stakeholder-Specific Dashboards
 
 **For Testers:**
 - Current test execution status (pass/fail/pending)
@@ -225,7 +225,7 @@ Payback Period = Initial Investment / Annual Savings
 - BDD scenario execution status
 - Feature verification progress
 
-### Dashboard Design Principles
+### 📜 Dashboard Design Principles
 
 **1. Relevance:** Show only what the audience needs
 **2. Clarity:** Use visual indicators (green/yellow/red) for quick assessment
@@ -233,7 +233,7 @@ Payback Period = Initial Investment / Annual Savings
 **4. Actionability:** Include links to details and next steps
 **5. Trend Over Time:** Show historical trends, not just current snapshot
 
-### Report Types
+### 🧪 Report Types
 
 **1. Daily/Per-Build Report:**
 - What ran, what passed, what failed
@@ -259,9 +259,9 @@ Payback Period = Initial Investment / Annual Savings
 
 ---
 
-## 5.4 Effectiveness and Efficiency Measurement
+## ⭐ 5.4 Effectiveness and Efficiency Measurement
 
-### Measuring Automation Success
+### ⚙️ Measuring Automation Success
 
 **Beyond "Tests Pass":**
 
@@ -273,7 +273,7 @@ Payback Period = Initial Investment / Annual Savings
 | Cost | Is it worth the investment? | ROI, TCO, cost per defect |
 | Trust | Does the team believe the results? | Flakiness rate, manual verification rate |
 
-### Benchmarking
+### 🔷 Benchmarking
 
 Compare against:
 - Industry averages (where available)
@@ -283,9 +283,9 @@ Compare against:
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: ROI Calculation
+### 💡 Worked Example 1: ROI Calculation
 
 **Scenario:** A team invested $100,000 in automation over 2 years.
 
@@ -307,7 +307,7 @@ ROI = ($190K - $130K) / $130K = 46%
 Payback Period = $85K (Year 1 cost) / $95K = ~11 months
 ```
 
-### Worked Example 2: Dashboard Design
+### 💡 Worked Example 2: Dashboard Design
 
 **Audience:** Development team lead
 
@@ -320,7 +320,7 @@ Payback Period = $85K (Year 1 cost) / $95K = ~11 months
 | Failure Heatmap | Which modules have most failures | Identify unstable areas |
 | Execution Time | Full suite time trend | Detect performance regressions |
 
-### Worked Example 3: Metric Analysis
+### 💡 Worked Example 3: Metric Analysis
 
 **Scenario:** A team's automation metrics show:
 - Code coverage: 85% (good)

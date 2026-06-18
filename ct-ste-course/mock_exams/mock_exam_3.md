@@ -1,10 +1,10 @@
-# CT-STE Mock Exam 3
+# 📝 CT-STE Mock Exam 3
 
 **Instructions:** 40 questions, 60 minutes, single best answer.
 
 ---
 
-### Q1-Q10
+### 🔷 Q1-Q10
 
 1. Security testing: A) Functional B) Vulnerabilities + controls C) Performance D) Usability — **Vulnerabilities + controls**
 2. CIA: A) Only two B) Confidentiality, Integrity, Availability C) Only one D) Only compliance — **Confidentiality, Integrity, Availability**
@@ -19,7 +19,7 @@
 
 ---
 
-### Q11-Q20
+### 🔷 Q11-Q20
 
 11. Risk formula: A) Add B) Multiply C) Only impact D) Only threat — **Multiply**
 12. Scope: A) Equal B) Risk-based C) Only budget D) Only preference — **Risk-based**
@@ -34,7 +34,7 @@
 
 ---
 
-### Q21-Q30
+### 🔷 Q21-Q30
 
 21. SAST: A) Runtime B) Source C) Network D) DB — **Source**
 22. DAST: A) Source B) Running C) Docs D) Unit — **Running**
@@ -49,7 +49,7 @@
 
 ---
 
-### Q31-Q40
+### 🔷 Q31-Q40
 
 31. Shift-left: A) Release B) Early C) Production D) Manual — **Early**
 32. SCA freq: A) Yearly B) Every commit C) Release D) Manual — **Every commit**
@@ -64,4 +64,4 @@
 
 ---
 
-## End of Mock Exam 3
+## 📝 End of Mock Exam 3

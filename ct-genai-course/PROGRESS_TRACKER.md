@@ -1,8 +1,8 @@
-# CT-GenAI Progress Tracker
+# 📈 CT-GenAI Progress Tracker
 
 Use this checklist to track your progress through the course. Mark each item as you complete it.
 
-## Chapter 1: Introduction to GenAI for Testing
+## 🌟 Chapter 1: Introduction to GenAI for Testing
 
 - [ ] Read `01_introduction_to_genai_for_testing/README.md`
 - [ ] Read `01_introduction_to_genai_for_testing/lessons.md`
@@ -11,7 +11,7 @@ Use this checklist to track your progress through the course. Mark each item as 
 - [ ] Score: ___ / 15
 - [ ] Review all incorrect answers
 
-## Chapter 2: Prompt Engineering for Testing
+## ⭐ Chapter 2: Prompt Engineering for Testing
 
 - [ ] Read `02_prompt_engineering_for_testing/README.md`
 - [ ] Read `02_prompt_engineering_for_testing/lessons.md`
@@ -20,7 +20,7 @@ Use this checklist to track your progress through the course. Mark each item as 
 - [ ] Score: ___ / 15
 - [ ] Review all incorrect answers
 
-## Chapter 3: Managing Risks of GenAI
+## ⚠️ Chapter 3: Managing Risks of GenAI
 
 - [ ] Read `03_managing_risks_of_genai/README.md`
 - [ ] Read `03_managing_risks_of_genai/lessons.md`
@@ -29,7 +29,7 @@ Use this checklist to track your progress through the course. Mark each item as 
 - [ ] Score: ___ / 15
 - [ ] Review all incorrect answers
 
-## Chapter 4: LLM-Powered Solutions
+## ⭐ Chapter 4: LLM-Powered Solutions
 
 - [ ] Read `04_llm_powered_solutions/README.md`
 - [ ] Read `04_llm_powered_solutions/lessons.md`
@@ -38,7 +38,7 @@ Use this checklist to track your progress through the course. Mark each item as 
 - [ ] Score: ___ / 15
 - [ ] Review all incorrect answers
 
-## Chapter 5: Deploying and Integrating GenAI
+## 🤖 Chapter 5: Deploying and Integrating GenAI
 
 - [ ] Read `05_deploying_and_integrating_genai/README.md`
 - [ ] Read `05_deploying_and_integrating_genai/lessons.md`
@@ -47,13 +47,13 @@ Use this checklist to track your progress through the course. Mark each item as 
 - [ ] Score: ___ / 15
 - [ ] Review all incorrect answers
 
-## Case Studies
+## ⭐ Case Studies
 
 - [ ] Complete `case_studies/case_study_1_prompt_engineering_pipeline.md`
 - [ ] Complete `case_studies/case_study_2_risk_assessment_framework.md`
 - [ ] Complete `case_studies/case_study_3_org_adoption_roadmap.md`
 
-## Mock Exams
+## 📝 Mock Exams
 
 - [ ] Mock Exam 1 (timed, 60 min)
 - [ ] Mock Exam 1 Score: ___ / 40 (___%)
@@ -65,7 +65,7 @@ Use this checklist to track your progress through the course. Mark each item as 
 - [ ] Mock Exam 3 Score: ___ / 40 (___%)
 - [ ] Review Mock Exam 3 wrong answers
 
-## Final Prep
+## ⭐ Final Prep
 
 - [ ] Read `EXAM_STRATEGY.md`
 - [ ] Skim `GLOSSARY.md` for weak terms
@@ -73,7 +73,7 @@ Use this checklist to track your progress through the course. Mark each item as 
 - [ ] Book your exam
 - [ ] Pass the exam!
 
-## Score Targets
+## ⭐ Score Targets
 
 | Phase | Target Score | Notes |
 |-------|--------------|-------|

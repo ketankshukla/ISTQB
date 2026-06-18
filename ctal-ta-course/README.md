@@ -1,10 +1,10 @@
-# ISTQB CTAL-TA v4.0 — Advanced Test Analyst Self-Study Course
+# 📚 ISTQB CTAL-TA v4.0 — Advanced Test Analyst Self-Study Course
 
 Complete self-study course for the **ISTQB Certified Tester Advanced Level — Test Analyst (CTAL-TA)** examination.
 
 ---
 
-## Exam Facts
+## 🎓 Exam Facts
 
 | Parameter | Value |
 |-----------|-------|
@@ -20,7 +20,7 @@ Complete self-study course for the **ISTQB Certified Tester Advanced Level — T
 
 ---
 
-## Course Structure
+## ⭐ Course Structure
 
 This course is organized into 5 chapters aligned with the CTAL-TA v4.0 syllabus:
 
@@ -36,7 +36,7 @@ This course is organized into 5 chapters aligned with the CTAL-TA v4.0 syllabus:
 
 ---
 
-## How to Use This Course
+## ⭐ How to Use This Course
 
 1. Follow the `STUDY_PLAN.md` — it's designed for 4-6 weeks of study at 8-12 hours/week.
 2. Read each chapter's `lessons.md` thoroughly — this is your primary learning material.
@@ -49,7 +49,7 @@ This course is organized into 5 chapters aligned with the CTAL-TA v4.0 syllabus:
 
 ---
 
-## Target Audience
+## ⭐ Target Audience
 
 - Test analysts with 2+ years of experience seeking ISTQB Advanced certification
 - Manual testers transitioning to senior/analyst roles
@@ -58,7 +58,7 @@ This course is organized into 5 chapters aligned with the CTAL-TA v4.0 syllabus:
 
 ---
 
-## Prerequisites
+## ⭐ Prerequisites
 
 - **Mandatory:** ISTQB CTFL v4.0 (Certified Tester Foundation Level)
 - Recommended: 2+ years of hands-on testing experience
@@ -67,7 +67,7 @@ This course is organized into 5 chapters aligned with the CTAL-TA v4.0 syllabus:
 
 ---
 
-## Key Principles of This Course
+## 📜 Key Principles of This Course
 
 - **Aligned with syllabus:** All content maps to CTAL-TA v4.0 learning objectives.
 - **K-level appropriate:** K1 content is presented for recall; K2 for understanding; K3/K4 for application.
@@ -77,7 +77,7 @@ This course is organized into 5 chapters aligned with the CTAL-TA v4.0 syllabus:
 
 ---
 
-## File Map
+## ⭐ File Map
 
 ```
 ctal-ta-course/
@@ -133,7 +133,7 @@ ctal-ta-course/
 
 ---
 
-## Certification Context
+## ⭐ Certification Context
 
 The CTAL-TA is part of the ISTQB Advanced Level certification track. After achieving CTAL-TA, you may consider:
 

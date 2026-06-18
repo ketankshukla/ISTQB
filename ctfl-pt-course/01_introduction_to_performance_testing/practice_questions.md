@@ -1,8 +1,8 @@
-# Chapter 1 — Introduction to Performance Testing: Practice Questions
+# ❓ Chapter 1 — Introduction to Performance Testing: Practice Questions
 
 ---
 
-### Q1 (PT-1.1, K1)
+### 🔷 Q1 (PT-1.1, K1)
 
 Performance testing determines:
 
@@ -13,7 +13,7 @@ D. Only user interface
 
 ---
 
-### Q2 (PT-1.2, K2)
+### 🔷 Q2 (PT-1.2, K2)
 
 Slow e-commerce checkout primarily causes:
 
@@ -24,7 +24,7 @@ D. More server capacity
 
 ---
 
-### Q3 (PT-1.3, K1)
+### 🔷 Q3 (PT-1.3, K1)
 
 Response time measures:
 
@@ -35,7 +35,7 @@ D. Database size
 
 ---
 
-### Q4 (PT-1.3, K1)
+### 🔷 Q4 (PT-1.3, K1)
 
 Throughput is measured in:
 
@@ -46,7 +46,7 @@ D. User count
 
 ---
 
-### Q5 (PT-1.3, K1)
+### 🔷 Q5 (PT-1.3, K1)
 
 CPU utilization should typically stay below:
 
@@ -57,7 +57,7 @@ D. 100%
 
 ---
 
-### Q6 (PT-1.4, K2)
+### 🔷 Q6 (PT-1.4, K2)
 
 Database query efficiency affects:
 
@@ -68,7 +68,7 @@ D. Only keyboard speed
 
 ---
 
-### Q7 (PT-1.1, K1)
+### 🔷 Q7 (PT-1.1, K1)
 
 Performance testing is a type of:
 
@@ -79,7 +79,7 @@ D. Regression testing
 
 ---
 
-### Q8 (PT-1.2, K2)
+### 🔷 Q8 (PT-1.2, K2)
 
 Healthcare system delays can cause:
 
@@ -90,7 +90,7 @@ D. Lower costs
 
 ---
 
-### Q9 (PT-1.4, K2)
+### 🔷 Q9 (PT-1.4, K2)
 
 SSD vs HDD primarily affects:
 
@@ -101,7 +101,7 @@ D. Only network speed
 
 ---
 
-### Q10 (PT-1.5, K2)
+### 🔷 Q10 (PT-1.5, K2)
 
 Performance testing should begin:
 
@@ -112,7 +112,7 @@ D. Only for bug fixes
 
 ---
 
-### Q11 (PT-1.3, K1)
+### 🔷 Q11 (PT-1.3, K1)
 
 Memory utilization exceeding 90% indicates:
 
@@ -123,7 +123,7 @@ D. Only faster processing
 
 ---
 
-### Q12 (PT-1.4, K2)
+### 🔷 Q12 (PT-1.4, K2)
 
 Caching strategy primarily improves:
 
@@ -134,7 +134,7 @@ D. Only error rates
 
 ---
 
-### Q13 (PT-1.1, K1)
+### 🔷 Q13 (PT-1.1, K1)
 
 Scalability testing determines:
 
@@ -145,7 +145,7 @@ D. Only memory leaks
 
 ---
 
-### Q14 (PT-1.2, K2)
+### 🔷 Q14 (PT-1.2, K2)
 
 SLA penalties for poor performance represent:
 
@@ -156,7 +156,7 @@ D. Only training costs
 
 ---
 
-### Q15 (PT-1.3, K1)
+### 🔷 Q15 (PT-1.3, K1)
 
 Network bandwidth utilization should typically stay below:
 
@@ -167,7 +167,7 @@ D. 90%
 
 ---
 
-### Q16 (PT-1.4, K2)
+### 🔷 Q16 (PT-1.4, K2)
 
 Algorithm efficiency primarily affects:
 
@@ -178,7 +178,7 @@ D. Only mouse speed
 
 ---
 
-### Q17 (PT-1.5, K2)
+### 🔷 Q17 (PT-1.5, K2)
 
 Continuous performance monitoring is needed because:
 
@@ -189,7 +189,7 @@ D. Only for test environments
 
 ---
 
-### Q18 (PT-1.1, K1)
+### 🔷 Q18 (PT-1.1, K1)
 
 Reliability under load means:
 
@@ -200,7 +200,7 @@ D. Only small data
 
 ---
 
-### Q19 (PT-1.3, K1)
+### 🔷 Q19 (PT-1.3, K1)
 
 Hits per second measures:
 
@@ -211,7 +211,7 @@ D. Keystrokes
 
 ---
 
-### Q20 (PT-1.2, K2)
+### 🔷 Q20 (PT-1.2, K2)
 
 Poor gaming server performance causes:
 
@@ -222,84 +222,84 @@ D. Lower costs
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** Performance = responsiveness + throughput + reliability + scalability.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** Slow checkout = abandoned carts + revenue loss.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** Response time = request to response duration.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** Throughput = transactions per second.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Healthy CPU < 70% sustained.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Query efficiency = response time + CPU.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Performance testing is non-functional.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Healthcare delays = safety risks.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** SSD vs HDD = I/O latency + throughput.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** Performance = start at requirements.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** >90% memory = pressure or leak.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Caching = reduced processing = faster response.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Scalability = handling growth.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** SLA penalties = direct financial cost.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Network < 70% for headroom.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Algorithm = CPU per request.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Changes degrade performance over time.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Reliability = stable + available.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Hits/sec = web server requests.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** Poor performance = churn + bad reviews.

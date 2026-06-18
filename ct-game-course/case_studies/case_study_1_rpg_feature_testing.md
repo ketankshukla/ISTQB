@@ -1,6 +1,6 @@
-# Case Study 1 — RPG Feature Testing
+# 📂 Case Study 1 — RPG Feature Testing
 
-## Context
+## ⭐ Context
 
 You are the QA Lead for a new fantasy RPG.
 
@@ -17,7 +17,7 @@ You are the QA Lead for a new fantasy RPG.
 
 ---
 
-## Task 1: Test Strategy
+## ♟️ Task 1: Test Strategy
 
 **Question:** Design a test strategy for the RPG.
 
@@ -39,7 +39,7 @@ You are the QA Lead for a new fantasy RPG.
 
 ---
 
-## Task 2: Combat System Test Cases
+## ⭐ Task 2: Combat System Test Cases
 
 **Question:** Design test cases for the combat system.
 
@@ -58,7 +58,7 @@ You are the QA Lead for a new fantasy RPG.
 
 ---
 
-## Task 3: Quest System States
+## 🔄 Task 3: Quest System States
 
 **Question:** Map quest state transitions.
 
@@ -82,7 +82,7 @@ You are the QA Lead for a new fantasy RPG.
 
 ---
 
-## Task 4: Rating Compliance
+## ⭐ Task 4: Rating Compliance
 
 **Question:** Verify T/12 rating compliance.
 

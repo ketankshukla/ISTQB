@@ -1,8 +1,8 @@
-# Chapter 4 — Dynamic Analysis: Lessons
+# 📘 Chapter 4 — Dynamic Analysis: Lessons
 
 ---
 
-## 4.1 What Is Dynamic Analysis?
+## 🔬 4.1 What Is Dynamic Analysis?
 
 **Definition:** Dynamic analysis is the examination of software behavior during execution. It monitors the running program to detect issues that cannot be found through static analysis.
 
@@ -17,9 +17,9 @@
 
 ---
 
-## 4.2 Memory Profiling
+## ⭐ 4.2 Memory Profiling
 
-### What Is Memory Profiling?
+### 🔷 What Is Memory Profiling?
 
 Memory profiling monitors how a program uses memory during execution, including:
 - Memory allocation and deallocation
@@ -28,7 +28,7 @@ Memory profiling monitors how a program uses memory during execution, including:
 - Object lifecycles
 - Memory fragmentation
 
-### Types of Memory Issues
+### 🧪 Types of Memory Issues
 
 **1. Memory Leaks:**
 - Memory is allocated but never freed
@@ -55,7 +55,7 @@ Memory profiling monitors how a program uses memory during execution, including:
 - Can cause garbage collection pauses or out-of-memory errors
 - Common causes: loading entire datasets, unnecessary object creation
 
-### Memory Profiling Tools
+### 🛠️ Memory Profiling Tools
 
 | Tool | Language | Purpose |
 |------|----------|---------|
@@ -67,7 +67,7 @@ Memory profiling monitors how a program uses memory during execution, including:
 | YourKit | Java, .NET | Memory and CPU profiling |
 | Chrome DevTools | JavaScript | Heap snapshots, allocation tracking |
 
-### Memory Profiling Techniques
+### 🎯 Memory Profiling Techniques
 
 **1. Heap Snapshots:**
 - Capture the state of the heap at a point in time
@@ -84,7 +84,7 @@ Memory profiling monitors how a program uses memory during execution, including:
 - Track object references to find why objects are retained
 - Monitor for patterns of unreleased resources
 
-### Worked Example: Detecting a Memory Leak
+### 💡 Worked Example: Detecting a Memory Leak
 
 **Scenario:** A web application runs for 24 hours. Memory usage is monitored:
 
@@ -111,9 +111,9 @@ Memory profiling monitors how a program uses memory during execution, including:
 
 ---
 
-## 4.3 Performance Profiling
+## ⚡ 4.3 Performance Profiling
 
-### What Is Performance Profiling?
+### ⚡ What Is Performance Profiling?
 
 Performance profiling monitors the execution of a program to identify:
 - Which methods/functions consume the most CPU time
@@ -121,7 +121,7 @@ Performance profiling monitors the execution of a program to identify:
 - Thread contention and blocking
 - Garbage collection overhead
 
-### Types of Performance Profiling
+### 🧪 Types of Performance Profiling
 
 **1. CPU Profiling:**
 - Measures time spent in each function/method
@@ -140,7 +140,7 @@ Performance profiling monitors the execution of a program to identify:
 - Detects deadlocks
 - Measures thread pool utilization
 
-### Performance Bottlenecks
+### ⚡ Performance Bottlenecks
 
 **Common Bottlenecks:**
 
@@ -153,7 +153,7 @@ Performance profiling monitors the execution of a program to identify:
 | Application freezes | Deadlock, infinite wait | Thread profiler |
 | Frequent pauses | Garbage collection | Memory/heap profiler |
 
-### Performance Profiling Tools
+### 🛠️ Performance Profiling Tools
 
 | Tool | Language | Purpose |
 |------|----------|---------|
@@ -165,7 +165,7 @@ Performance profiling monitors the execution of a program to identify:
 | Chrome DevTools | JavaScript | CPU profiling, flame charts |
 | New Relic / Dynatrace | Multiple | Application performance monitoring (APM) |
 
-### Analyzing Profiling Results
+### 🔷 Analyzing Profiling Results
 
 **Flame Charts/Graphs:**
 - Visual representation of call stacks
@@ -188,9 +188,9 @@ Performance profiling monitors the execution of a program to identify:
 
 ---
 
-## 4.4 Code Coverage Measurement
+## 📊 4.4 Code Coverage Measurement
 
-### Instrumentation
+### 🔷 Instrumentation
 
 To measure coverage during execution, the code is "instrumented" — additional tracking code is added:
 - Before each statement, a counter is incremented
@@ -202,7 +202,7 @@ To measure coverage during execution, the code is "instrumented" — additional 
 - **Bytecode/IL instrumentation:** Modify compiled intermediate code
 - **Binary instrumentation:** Modify machine code at runtime
 
-### Coverage Tools
+### 📊 Coverage Tools
 
 | Tool | Language | Coverage Types |
 |------|----------|---------------|
@@ -213,7 +213,7 @@ To measure coverage during execution, the code is "instrumented" — additional 
 | gcov/lcov | C/C++ | Statement, branch |
 | dotCover | .NET | Statement, branch |
 
-### Coverage Reports
+### 📋 Coverage Reports
 
 Typical coverage report:
 ```
@@ -233,9 +233,9 @@ Package: com.example.service
 
 ---
 
-## 4.5 Fault Injection
+## ⭐ 4.5 Fault Injection
 
-### What Is Fault Injection?
+### 🔷 What Is Fault Injection?
 
 Fault injection is the deliberate introduction of errors into a system to test its error handling and recovery capabilities.
 
@@ -259,7 +259,7 @@ Fault injection is the deliberate introduction of errors into a system to test i
 - Partition network (split-brain scenarios)
 - Simulate bandwidth limitations
 
-### Chaos Engineering
+### 🔷 Chaos Engineering
 
 Chaos engineering is the discipline of experimenting on a system to build confidence in its capability to withstand turbulent conditions.
 
@@ -274,7 +274,7 @@ Chaos engineering is the discipline of experimenting on a system to build confid
 - **Gremlin:** Comprehensive chaos engineering platform
 - **Chaos Mesh:** Kubernetes-specific chaos engineering
 
-### Worked Example: Fault Injection Test
+### 💡 Worked Example: Fault Injection Test
 
 **Scenario:** Test how a payment service handles database failures.
 
@@ -293,9 +293,9 @@ Chaos engineering is the discipline of experimenting on a system to build confid
 
 ---
 
-## 4.6 Runtime Monitoring
+## ⭐ 4.6 Runtime Monitoring
 
-### Application Performance Monitoring (APM)
+### ⚡ Application Performance Monitoring (APM)
 
 APM tools monitor applications in production to:
 - Track response times
@@ -309,7 +309,7 @@ APM tools monitor applications in production to:
 - **Error rate:** Percentage of failed requests
 - **Latency:** Response time percentiles (p50, p95, p99)
 
-### Logging and Alerting
+### 🔷 Logging and Alerting
 
 **Structured Logging:**
 - Log events in a machine-readable format (JSON)
@@ -323,9 +323,9 @@ APM tools monitor applications in production to:
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Performance Profiling
+### 💡 Worked Example 1: Performance Profiling
 
 **Scenario:** An e-commerce search page takes 5 seconds to load.
 
@@ -340,7 +340,7 @@ APM tools monitor applications in production to:
 2. Optimize JSON serialization (potential 20% reduction)
 3. Implement caching for common queries
 
-### Worked Example 2: Memory Leak Detection
+### 💡 Worked Example 2: Memory Leak Detection
 
 **Scenario:** A Java application crashes with OutOfMemoryError after 6 hours.
 
@@ -354,7 +354,7 @@ APM tools monitor applications in production to:
 - Implement proper listener unregistration, or
 - Use event bus with automatic cleanup
 
-### Worked Example 3: Coverage-Guided Testing
+### 💡 Worked Example 3: Coverage-Guided Testing
 
 **Scenario:** A module has 60% statement coverage.
 

@@ -1,6 +1,6 @@
-# Chapter 2 — Automotive Standards and Regulations: Exam Traps
+# 🪤 Chapter 2 — Automotive Standards and Regulations: Exam Traps
 
-## Trap 1: ISO 26262 is Only for Hardware
+## 🪤 Trap 1: ISO 26262 is Only for Hardware
 
 **Trap:** ISO 26262 covers the entire system including software (Part 6).
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Higher ASIL Means Less Testing
+## 🪤 Trap 2: Higher ASIL Means Less Testing
 
 **Trap:** Higher ASIL means MORE rigorous testing, not less.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: ASPICE is a Test Tool
+## 🪤 Trap 3: ASPICE is a Test Tool
 
 **Trap:** ASPICE is a process assessment model, not a tool.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: AUTOSAR Eliminates the Need for Testing
+## 🪤 Trap 4: AUTOSAR Eliminates the Need for Testing
 
 **Trap:** AUTOSAR standardizes architecture but testing is still required for SWC logic, integration, and system behavior.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: ASIL Decomposition Means Lower Safety
+## 🪤 Trap 5: ASIL Decomposition Means Lower Safety
 
 **Trap:** ASIL decomposition maintains safety through redundancy and independence, not by reducing safety.
 

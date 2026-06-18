@@ -1,8 +1,8 @@
-# Chapter 2 — API Test Analysis and Design: Practice Questions
+# ❓ Chapter 2 — API Test Analysis and Design: Practice Questions
 
 ---
 
-### Q1 (API-2.1, K2)
+### 🔌 Q1 (API-2.1, K2)
 
 Test conditions for API testing are MOST commonly derived from:
 
@@ -13,7 +13,7 @@ D. Marketing brochures
 
 ---
 
-### Q2 (API-2.2, K2)
+### 🔌 Q2 (API-2.2, K2)
 
 Equivalence partitioning for an API parameter divides input data into:
 
@@ -24,7 +24,7 @@ D. Only valid values
 
 ---
 
-### Q3 (API-2.3, K2)
+### 🔌 Q3 (API-2.3, K2)
 
 For a numeric parameter with valid range 10-100, boundary value tests should include:
 
@@ -35,7 +35,7 @@ D. Random values between 10 and 100
 
 ---
 
-### Q4 (API-2.4, K2)
+### 🔌 Q4 (API-2.4, K2)
 
 Negative testing for an API involves:
 
@@ -46,7 +46,7 @@ D. Testing with production data only
 
 ---
 
-### Q5 (API-2.3, K3)
+### 🔌 Q5 (API-2.3, K3)
 
 An API accepts a `quantity` parameter (integer, 1-99). Which set of boundary values provides the MOST thorough testing?
 
@@ -57,7 +57,7 @@ D. -1, 0, 1, 99, 100
 
 ---
 
-### Q6 (API-2.5, K2)
+### 🔌 Q6 (API-2.5, K2)
 
 State transition testing is MOST appropriate for APIs that:
 
@@ -68,7 +68,7 @@ D. Return static responses
 
 ---
 
-### Q7 (API-2.2, K3)
+### 🔌 Q7 (API-2.2, K3)
 
 An API has three parameters, each with 2 equivalence partitions (valid/invalid). Using weak robust testing, the minimum number of test cases is:
 
@@ -79,7 +79,7 @@ D. 8
 
 ---
 
-### Q8 (API-2.4, K3)
+### 🔌 Q8 (API-2.4, K3)
 
 A tester sends a request with an XSS payload in a text field and verifies the API sanitizes it. This is:
 
@@ -90,7 +90,7 @@ D. Load testing
 
 ---
 
-### Q9 (API-2.1, K2)
+### 🔌 Q9 (API-2.1, K2)
 
 Which of the following is a valid test condition derived from an API specification?
 
@@ -101,7 +101,7 @@ D. "Users should like the API"
 
 ---
 
-### Q10 (API-2.3, K3)
+### 🔌 Q10 (API-2.3, K3)
 
 For a string parameter with length 5-20 characters, which test is a boundary value?
 
@@ -112,7 +112,7 @@ D. A string with special characters
 
 ---
 
-### Q11 (API-2.2, K2)
+### 🔌 Q11 (API-2.2, K2)
 
 Equivalence partitioning for a boolean parameter `active` (true/false) has how many partitions?
 
@@ -123,7 +123,7 @@ D. 4
 
 ---
 
-### Q12 (API-2.6, K2)
+### 🔌 Q12 (API-2.6, K2)
 
 Error guessing for an API might include testing:
 
@@ -134,7 +134,7 @@ D. The API documentation page
 
 ---
 
-### Q13 (API-2.5, K3)
+### 🔌 Q13 (API-2.5, K3)
 
 An order API has states: Pending → Confirmed → Shipped → Delivered. An invalid transition is:
 
@@ -145,7 +145,7 @@ D. Pending → Cancelled
 
 ---
 
-### Q14 (API-2.1, K2)
+### 🔌 Q14 (API-2.1, K2)
 
 An OpenAPI specification is useful for API testing because it defines:
 
@@ -156,7 +156,7 @@ D. The database backup schedule
 
 ---
 
-### Q15 (API-2.3, K3)
+### 🔌 Q15 (API-2.3, K3)
 
 For an array parameter with minItems=1 and maxItems=5, boundary tests should include:
 
@@ -167,7 +167,7 @@ D. An array with 100 elements
 
 ---
 
-### Q16 (API-2.4, K3)
+### 🔌 Q16 (API-2.4, K3)
 
 Positive testing should verify that:
 
@@ -178,7 +178,7 @@ D. The API returns 500 for all requests
 
 ---
 
-### Q17 (API-2.2, K2)
+### 🔌 Q17 (API-2.2, K2)
 
 A parameter accepts values "small", "medium", "large". How many invalid equivalence partitions should be tested at minimum?
 
@@ -189,7 +189,7 @@ D. 3
 
 ---
 
-### Q18 (API-2.5, K3)
+### 🔌 Q18 (API-2.5, K3)
 
 A payment API has states: Initiated → Authorized → Captured → Refunded. Which is a valid test case?
 
@@ -200,7 +200,7 @@ D. Refunded → Authorized
 
 ---
 
-### Q19 (API-2.3, K2)
+### 🔌 Q19 (API-2.3, K2)
 
 Boundary value analysis is based on the assumption that:
 
@@ -211,7 +211,7 @@ D. Random values are sufficient
 
 ---
 
-### Q20 (API-2.1, K3)
+### 🔌 Q20 (API-2.1, K3)
 
 A tester reviews an OpenAPI spec and notices an endpoint has no defined error responses. The tester should:
 
@@ -222,104 +222,104 @@ D. Report that the API is perfect
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** API specifications (OpenAPI, WSDL) are the primary source for deriving test conditions.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** EP divides inputs into groups where behavior is expected to be similar.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** BVA includes just below min (9), at min (10), just above min (11), just below max (99), at max (100), just above max (101).
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** Negative testing uses invalid inputs to verify error handling.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** Complete BVA includes 0, 1, 2, 98, 99, 100. Option C is close but misses 2 and 98.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** State transition is for APIs with states that change (e.g., order status workflow).
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** Weak robust = 1 all-valid + 3 (one invalid per parameter) = 4 tests.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** XSS payload = invalid/malicious input. Testing with it is negative security testing.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** Test conditions must be specific and verifiable. "Missing required fields → 400" is specific.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** Exactly 5 characters is the boundary (minimum valid length).
 
-### Q11
+### 🔷 Q11
 **Answer: C**
 
 **Rationale:** True, False, and Invalid (e.g., null, "yes") = 3 partitions.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** Error guessing tests common error scenarios beyond documented behavior.
 
-### Q13
+### 🔷 Q13
 **Answer: C**
 
 **Rationale:** Delivered → Shipped is backward — invalid. D might be valid if cancellation is allowed from Pending.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** OpenAPI defines endpoints, parameters, schemas, and responses.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** BVA for arrays: below min (empty), at min (1), at max (5), above max (6).
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 
 **Rationale:** Positive testing verifies valid inputs produce expected success.
 
-### Q17
+### 🔷 Q17
 **Answer: C**
 
 **Rationale:** At minimum: invalid value (not in enum) and invalid type (e.g., integer).
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 
 **Rationale:** Authorized → Refunded is a valid transition. A skips a required state. C/D are backward.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** BVA assumes defects cluster at boundaries.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 
 **Rationale:** Missing error responses in spec does not mean API handles errors well. Test to discover actual behavior.

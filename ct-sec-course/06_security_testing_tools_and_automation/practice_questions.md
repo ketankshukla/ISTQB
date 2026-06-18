@@ -1,8 +1,8 @@
-# Chapter 6 — Security Testing Tools and Automation: Practice Questions
+# ❓ Chapter 6 — Security Testing Tools and Automation: Practice Questions
 
 ---
 
-### Q1 (SEC-6.1, K2)
+### 🔷 Q1 (SEC-6.1, K2)
 
 SonarQube is primarily a:
 
@@ -13,7 +13,7 @@ D. Fuzzing tool
 
 ---
 
-### Q2 (SEC-6.2, K2)
+### 🔷 Q2 (SEC-6.2, K2)
 
 OWASP ZAP is primarily a:
 
@@ -24,7 +24,7 @@ D. IAST tool
 
 ---
 
-### Q3 (SEC-6.4, K2)
+### 🔷 Q3 (SEC-6.4, K2)
 
 A tool that scans for known vulnerabilities in open-source dependencies is:
 
@@ -35,7 +35,7 @@ D. IAST
 
 ---
 
-### Q4 (SEC-6.2, K2)
+### 🔷 Q4 (SEC-6.2, K2)
 
 Burp Suite is commonly used for:
 
@@ -46,7 +46,7 @@ D. Database optimization
 
 ---
 
-### Q5 (SEC-6.3, K2)
+### 🔷 Q5 (SEC-6.3, K2)
 
 IAST is characterized by:
 
@@ -57,7 +57,7 @@ D. Scanning only network ports
 
 ---
 
-### Q6 (SEC-6.1, K2)
+### 🔷 Q6 (SEC-6.1, K2)
 
 A SAST tool is typically integrated:
 
@@ -68,7 +68,7 @@ D. Only for runtime testing
 
 ---
 
-### Q7 (SEC-6.2, K2)
+### 🔷 Q7 (SEC-6.2, K2)
 
 Active scanning in DAST:
 
@@ -79,7 +79,7 @@ D. Only scans network ports
 
 ---
 
-### Q8 (SEC-6.4, K2)
+### 🔷 Q8 (SEC-6.4, K2)
 
 OWASP Dependency-Check is used for:
 
@@ -90,7 +90,7 @@ D. Mobile app testing
 
 ---
 
-### Q9 (SEC-6.6, K2)
+### 🔷 Q9 (SEC-6.6, K2)
 
 Nmap is primarily used for:
 
@@ -101,7 +101,7 @@ D. Web application fuzzing
 
 ---
 
-### Q10 (SEC-6.7, K2)
+### 🔷 Q10 (SEC-6.7, K2)
 
 A security gate in CI/CD should:
 
@@ -112,7 +112,7 @@ D. Only check code style
 
 ---
 
-### Q11 (SEC-6.1, K2)
+### 🔷 Q11 (SEC-6.1, K2)
 
 The PRIMARY limitation of SAST is:
 
@@ -123,7 +123,7 @@ D. It is too fast
 
 ---
 
-### Q12 (SEC-6.2, K2)
+### 🔷 Q12 (SEC-6.2, K2)
 
 DAST should typically be run against:
 
@@ -134,7 +134,7 @@ D. Source code repositories
 
 ---
 
-### Q13 (SEC-6.8, K2)
+### 🔷 Q13 (SEC-6.8, K2)
 
 A coverage-guided fuzzer like AFL:
 
@@ -145,7 +145,7 @@ D. Requires no instrumentation
 
 ---
 
-### Q14 (SEC-6.7, K2)
+### 🔷 Q14 (SEC-6.7, K2)
 
 GitLeaks is used to:
 
@@ -156,7 +156,7 @@ D. Analyze Java bytecode
 
 ---
 
-### Q15 (SEC-6.3, K2)
+### 🔷 Q15 (SEC-6.3, K2)
 
 An advantage of IAST over DAST is:
 
@@ -167,7 +167,7 @@ D. It doesn't require the application to run
 
 ---
 
-### Q16 (SEC-6.6, K2)
+### 🔷 Q16 (SEC-6.6, K2)
 
 Nessus is primarily a:
 
@@ -178,7 +178,7 @@ D. Fuzzing tool
 
 ---
 
-### Q17 (SEC-6.7, K2)
+### 🔷 Q17 (SEC-6.7, K2)
 
 Container image scanning in CI/CD is used to:
 
@@ -189,7 +189,7 @@ D. Add container labels
 
 ---
 
-### Q18 (SEC-6.1, K2)
+### 🔷 Q18 (SEC-6.1, K2)
 
 Semgrep is best described as:
 
@@ -200,7 +200,7 @@ D. A social engineering framework
 
 ---
 
-### Q19 (SEC-6.2, K2)
+### 🔷 Q19 (SEC-6.2, K2)
 
 Passive scanning in DAST:
 
@@ -211,7 +211,7 @@ D. Requires source code access
 
 ---
 
-### Q20 (SEC-6.7, K2)
+### 🔷 Q20 (SEC-6.7, K2)
 
 The PRIMARY benefit of integrating security tools into CI/CD is:
 
@@ -222,104 +222,104 @@ D. Eliminating the need for security teams
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** SonarQube = SAST (static code analysis).
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** OWASP ZAP = DAST (dynamic web app scanning).
 
-### Q3
+### 🔷 Q3
 **Answer: C**
 
 **Rationale:** Dependency vulnerability scanning = SCA.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** Burp Suite = web application security testing.
 
-### Q5
+### 🔷 Q5
 **Answer: C**
 
 **Rationale:** IAST = instrumented running code during dynamic testing.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** SAST = integrated during development and CI/CD.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** Active scanning = sends malicious payloads to test endpoints.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** Dependency-Check = dependency vulnerability scanning.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** Nmap = network discovery and port scanning.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** Security gate = block deployment on critical failures.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 
 **Rationale:** SAST limitation = high false positives, no runtime issues.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** DAST = staging/test environments (not production).
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** Coverage-guided fuzzer = prioritizes new code path inputs.
 
-### Q14
+### 🔷 Q14
 **Answer: A**
 
 **Rationale:** GitLeaks = scan git history for secrets.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** IAST advantage = traces to code lines, lower false positives.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 
 **Rationale:** Nessus = network vulnerability scanner.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 
 **Rationale:** Container scanning = detect CVEs before deployment.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 
 **Rationale:** Semgrep = open-source customizable static analysis.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** Passive scanning = analyzes traffic without sending payloads.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 
 **Rationale:** CI/CD security integration = find vulnerabilities early, prevent production issues.

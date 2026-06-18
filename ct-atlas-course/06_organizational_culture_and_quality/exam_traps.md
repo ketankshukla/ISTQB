@@ -1,6 +1,6 @@
-# Chapter 6 — Organizational Culture and Quality: Exam Traps
+# 🪤 Chapter 6 — Organizational Culture and Quality: Exam Traps
 
-## Trap 1: Thinking Culture Can Be Changed by Policy
+## 🪤 Trap 1: Thinking Culture Can Be Changed by Policy
 
 **Trap:** Culture changes through behavior modeling and experience, not memos or mandates.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Blaming Culture Without Changing Systems
+## 🪤 Trap 2: Blaming Culture Without Changing Systems
 
 **Trap:** "It's a culture problem" is often an excuse. Change systems (processes, incentives) to change culture.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Separating Quality from Delivery Speed
+## 🪤 Trap 3: Separating Quality from Delivery Speed
 
 **Trap:** Quality and speed are not trade-offs when quality is built in. Finding defects late slows everything.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Making Retrospectives Optional
+## 🪤 Trap 4: Making Retrospectives Optional
 
 **Trap:** Retrospectives are the engine of continuous improvement. Skipping them stops improvement.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Treating Testers as Second-Class Contributors
+## 🪤 Trap 5: Treating Testers as Second-Class Contributors
 
 **Trap:** When testers are marginalized, quality suffers. Whole-team quality requires equal respect.
 

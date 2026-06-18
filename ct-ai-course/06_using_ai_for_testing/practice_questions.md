@@ -1,8 +1,8 @@
-# Chapter 6 — Using AI for Testing: Practice Questions
+# ❓ Chapter 6 — Using AI for Testing: Practice Questions
 
 ---
 
-### Q1 (AI-6.1, K2)
+### 🤖 Q1 (AI-6.1, K2)
 
 AI-powered test generation can create tests from:
 
@@ -13,7 +13,7 @@ D. Only user interfaces
 
 ---
 
-### Q2 (AI-6.2, K2)
+### 🤖 Q2 (AI-6.2, K2)
 
 Intelligent test prioritization uses AI to:
 
@@ -24,7 +24,7 @@ D. Only run tests on Fridays
 
 ---
 
-### Q3 (AI-6.3, K2)
+### 🤖 Q3 (AI-6.3, K2)
 
 Defect prediction uses AI to:
 
@@ -35,7 +35,7 @@ D. Delete defect-prone code
 
 ---
 
-### Q4 (AI-6.4, K2)
+### 🤖 Q4 (AI-6.4, K2)
 
 AI-powered visual testing is beneficial because it:
 
@@ -46,7 +46,7 @@ D. Cannot detect any UI changes
 
 ---
 
-### Q5 (AI-6.5, K2)
+### 🤖 Q5 (AI-6.5, K2)
 
 Autonomous testing at its current level:
 
@@ -57,7 +57,7 @@ D. Is fully independent for all testing activities
 
 ---
 
-### Q6 (AI-6.6, K2)
+### 🤖 Q6 (AI-6.6, K2)
 
 When selecting an AI testing tool, a key criterion is:
 
@@ -68,7 +68,7 @@ D. The number of users on social media
 
 ---
 
-### Q7 (AI-6.1, K3)
+### 🤖 Q7 (AI-6.1, K3)
 
 An AI test generation tool creates tests from user stories. The team should:
 
@@ -79,7 +79,7 @@ D. Only use tests that passed previously
 
 ---
 
-### Q8 (AI-6.2, K3)
+### 🤖 Q8 (AI-6.2, K3)
 
 A regression suite takes 4 hours to run. The team wants faster feedback. AI can help by:
 
@@ -90,7 +90,7 @@ D. Only running tests that passed last time
 
 ---
 
-### Q9 (AI-6.4, K2)
+### 🤖 Q9 (AI-6.4, K2)
 
 A key advantage of AI visual testing over pixel comparison is:
 
@@ -101,7 +101,7 @@ D. It requires more manual setup
 
 ---
 
-### Q10 (AI-6.5, K2)
+### 🤖 Q10 (AI-6.5, K2)
 
 Level 5 autonomous testing (full autonomy) is:
 
@@ -112,7 +112,7 @@ D. Required by all agile teams
 
 ---
 
-### Q11 (AI-6.3, K3)
+### 🤖 Q11 (AI-6.3, K3)
 
 A defect prediction model identifies a high-risk module. The BEST action is:
 
@@ -123,7 +123,7 @@ D. Only run existing tests
 
 ---
 
-### Q12 (AI-6.1, K2)
+### 🤖 Q12 (AI-6.1, K2)
 
 Code-based AI test generation typically creates:
 
@@ -134,7 +134,7 @@ D. User manuals
 
 ---
 
-### Q13 (AI-6.6, K2)
+### 🤖 Q13 (AI-6.6, K2)
 
 Data privacy is a concern with cloud-based AI testing tools because:
 
@@ -145,7 +145,7 @@ D. They do not need internet access
 
 ---
 
-### Q14 (AI-6.2, K3)
+### 🤖 Q14 (AI-6.2, K3)
 
 AI test result analysis can:
 
@@ -156,7 +156,7 @@ D. Replace test management tools
 
 ---
 
-### Q15 (AI-6.5, K2)
+### 🤖 Q15 (AI-6.5, K2)
 
 Which testing activity is LEAST suitable for current AI automation?
 
@@ -167,7 +167,7 @@ D. API test execution
 
 ---
 
-### Q16 (AI-6.6, K3)
+### 🤖 Q16 (AI-6.6, K3)
 
 A team evaluates an AI test tool that generates tests with 80% accuracy. They should:
 
@@ -178,7 +178,7 @@ D. Only use it for production testing
 
 ---
 
-### Q17 (AI-6.3, K2)
+### 🤖 Q17 (AI-6.3, K2)
 
 Historical bias in defect prediction means:
 
@@ -189,7 +189,7 @@ D. Historical data is always accurate
 
 ---
 
-### Q18 (AI-6.4, K2)
+### 🤖 Q18 (AI-6.4, K2)
 
 AI visual testing can ignore dynamic content such as:
 
@@ -200,7 +200,7 @@ D. Form fields
 
 ---
 
-### Q19 (AI-6.1, K3)
+### 🤖 Q19 (AI-6.1, K3)
 
 An AI tool generates a test for a feature that does not exist in the application. This demonstrates:
 
@@ -211,7 +211,7 @@ D. The test should still be run
 
 ---
 
-### Q20 (AI-6.6, K2)
+### 🤖 Q20 (AI-6.6, K2)
 
 The PRIMARY purpose of using AI in testing is to:
 
@@ -222,104 +222,104 @@ D. Make testing more expensive
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** AI test generation can use requirements, code, behavior, and existing tests.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** Intelligent prioritization orders tests by defect likelihood, changes, and risk.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** Defect prediction identifies likely defect locations.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** AI visual testing understands content/layout, reducing false positives.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** Current autonomous testing still requires human oversight and validation.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** Key criterion = tool fits specific needs and can be validated.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** Generated tests must be validated for correctness and relevance.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** AI prioritizes changed code and historically failing tests for faster feedback.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** AI distinguishes meaningful changes from irrelevant rendering differences.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** Level 5 full autonomy is theoretical, not yet achieved.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 
 **Rationale:** High-risk modules should get additional testing and review.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** Code-based generation creates unit tests for branches, statements, and edge cases.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** Cloud tools may upload proprietary code or sensitive data to third parties.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** AI analysis clusters failures by root cause and identifies flaky tests.
 
-### Q15
+### 🔷 Q15
 **Answer: C**
 
 **Rationale:** Usability testing requires human judgment — least suitable for AI.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 
 **Rationale:** 80% accuracy provides value but requires human review for the other 20%.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 
 **Rationale:** Historical bias = model learns past patterns and may miss new defect types.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 
 **Rationale:** AI can ignore dynamic content like timestamps, ads, and banners.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** Invalid generated tests demonstrate the need for human validation.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 
 **Rationale:** AI augments human testers, not replaces them.

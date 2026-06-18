@@ -1,17 +1,17 @@
-# Chapter 6 — Finance Testing Tools and Automation: Lessons
+# 📘 Chapter 6 — Finance Testing Tools and Automation: Lessons
 
 ---
 
-## 6.1 Test Data Generation for Financial Systems
+## 🗃️ 6.1 Test Data Generation for Financial Systems
 
-### Challenges
+### 🔷 Challenges
 
 - Real financial data is highly sensitive (PII, account numbers, trading positions)
 - Calculations depend on realistic balances, rates, and histories
 - Regulatory scenarios require specific data patterns
 - Performance tests need production-scale volumes
 
-### Solutions
+### 🔷 Solutions
 
 **Data Masking/Anonymization:**
 - Replace real names/addresses with synthetic data
@@ -33,16 +33,16 @@
 
 ---
 
-## 6.2 Market Data Simulators
+## 🗃️ 6.2 Market Data Simulators
 
-### Purpose
+### 🔷 Purpose
 
 - Test trading systems without relying on live market data
 - Reproduce specific market conditions (crashes, volatility spikes)
 - Provide deterministic inputs for regression testing
 - Reduce costs of live market data feeds
 
-### Types
+### 🧪 Types
 
 | Type | Description | Use Case |
 |------|-------------|----------|
@@ -51,7 +51,7 @@
 | **Scenario simulator** | Model specific events (flash crash, Brexit) | Risk model validation |
 | **Exchange emulator** | Mimic exchange behavior and protocols | Integration testing |
 
-### Testing Applications
+### 🔷 Testing Applications
 
 - **Latency testing:** Measure system response to market events
 - **Stress testing:** Verify behavior during extreme volatility
@@ -60,9 +60,9 @@
 
 ---
 
-## 6.3 Reconciliation and Matching Tools
+## 🛠️ 6.3 Reconciliation and Matching Tools
 
-### Reconciliation Platforms
+### 🔷 Reconciliation Platforms
 
 | Tool/Platform | Type | Best For |
 |---------------|------|----------|
@@ -71,14 +71,14 @@
 | **FIS IntegRATE** | Enterprise | Securities and cash reconciliation |
 | **Custom ETL** | In-house | Specific workflows, cost control |
 
-### Matching Logic
+### 🔷 Matching Logic
 
 - **Exact match:** All fields identical
 - **Tolerant match:** Within tolerance (e.g., price within $0.01)
 - **Reference match:** Different IDs, same underlying transaction
 - **Manual match:** Human intervention for complex breaks
 
-### Testing Reconciliation Tools
+### 🛠️ Testing Reconciliation Tools
 
 - Verify all break types are correctly identified
 - Test tolerance settings and edge cases
@@ -87,15 +87,15 @@
 
 ---
 
-## 6.4 FIX Protocol Testing
+## ⭐ 6.4 FIX Protocol Testing
 
-### FIX (Financial Information eXchange)
+### 🔷 FIX (Financial Information eXchange)
 
 - Standard protocol for electronic trading communication
 - Tag-value pairs (e.g., 35=D for New Order - Single)
 - Versions: FIX.4.2, FIX.4.4, FIX.5.0, FIXT.1.1
 
-### Testing Tools
+### 🛠️ Testing Tools
 
 | Tool | Purpose |
 |------|---------|
@@ -104,7 +104,7 @@
 | **Mini-FIX** | Lightweight FIX client/server for testing |
 | **Wireshark** | Capture and analyze FIX network traffic |
 
-### Testing Scenarios
+### 🎬 Testing Scenarios
 
 - **Session establishment:** Logon, heartbeat, test request
 - **Order entry:** New order, amend, cancel
@@ -113,16 +113,16 @@
 
 ---
 
-## 6.5 Automation Frameworks for Finance
+## ⚙️ 6.5 Automation Frameworks for Finance
 
-### Considerations
+### 🔷 Considerations
 
 - **Determinism:** Tests must be reproducible (critical for audit)
 - **Precision:** Assert financial values to exact decimal places
 - **Performance:** Latency measurements require microsecond precision
 - **Compliance:** Test artifacts may be required for regulatory evidence
 
-### Framework Types
+### 🧪 Framework Types
 
 | Type | Example | Best For |
 |------|---------|----------|
@@ -132,7 +132,7 @@
 | **UI automation** | Selenium, Playwright | End-to-end workflow testing |
 | **Performance testing** | JMeter, Gatling, k6 | Throughput and latency testing |
 
-### Finance-Specific Automation Patterns
+### ⚙️ Finance-Specific Automation Patterns
 
 - **Golden source comparison:** Compare system output to verified reference
 - **Round-trip testing:** Create transaction, verify through full lifecycle
@@ -141,16 +141,16 @@
 
 ---
 
-## 6.6 CI/CD in Regulated Environments
+## ⭐ 6.6 CI/CD in Regulated Environments
 
-### Challenges
+### 🔷 Challenges
 
 - Regulatory approval may be required for production changes
 - Audit trail must show what was tested and approved
 - Segregation of duties (developers cannot approve their own changes)
 - Emergency fixes need expedited but documented processes
 
-### CI/CD Practices for Finance
+### ❓ CI/CD Practices for Finance
 
 ```yaml
 stages:
@@ -173,9 +173,9 @@ stages:
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Test Data Strategy
+### 💡 Worked Example 1: Test Data Strategy
 
 **Scenario:** A bank needs to test a new loan origination system.
 
@@ -191,7 +191,7 @@ stages:
 - Confirm no real SSNs or account numbers exist
 - Check referential integrity between customer, loan, and payment tables
 
-### Worked Example 2: Market Data Replay for Regression
+### 💡 Worked Example 2: Market Data Replay for Regression
 
 **Scenario:** A trading algorithm had an issue on March 15 during high volatility. The team needs to reproduce and fix it.
 
@@ -204,7 +204,7 @@ stages:
 6. Re-run replay to confirm fix
 7. Run full historical regression suite (past 2 years) to check for similar issues
 
-### Worked Example 3: FIX Protocol Session Testing
+### 💡 Worked Example 3: FIX Protocol Session Testing
 
 **Scenario:** Test a new OMS connecting to an exchange via FIX.4.4.
 

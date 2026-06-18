@@ -1,10 +1,10 @@
-# Chapter 3 — The Test Automation Architecture: Lessons
+# 📘 Chapter 3 — The Test Automation Architecture: Lessons
 
 ---
 
-## 3.1 What Is a Test Automation Architecture (TAA)?
+## ⚙️ 3.1 What Is a Test Automation Architecture (TAA)?
 
-### Definition
+### 🔷 Definition
 
 A **Test Automation Architecture (TAA)** is the conceptual design of the test automation solution, defining:
 - Its structure (layers and components)
@@ -14,7 +14,7 @@ A **Test Automation Architecture (TAA)** is the conceptual design of the test au
 
 The TAA is the "blueprint" for the Test Automation Solution (TAS).
 
-### Why TAA Matters
+### 🔷 Why TAA Matters
 
 A well-designed TAA:
 - **Reduces maintenance cost** by isolating changes to specific layers
@@ -25,7 +25,7 @@ A well-designed TAA:
 
 ---
 
-## 3.2 TAA Layers
+## ⭐ 3.2 TAA Layers
 
 The typical TAA has four layers, from top to bottom:
 
@@ -43,7 +43,7 @@ The typical TAA has four layers, from top to bottom:
 +---------------------------+
 ```
 
-### Layer 1: Test Generation Layer
+### 🔷 Layer 1: Test Generation Layer
 
 **Purpose:** Create, select, or derive test cases.
 
@@ -61,7 +61,7 @@ The typical TAA has four layers, from top to bottom:
 - A data generator creates 1,000 valid and invalid user accounts
 - A model-based tool generates paths through a state machine
 
-### Layer 2: Test Definition Layer
+### 🔷 Layer 2: Test Definition Layer
 
 **Purpose:** Define test cases in a format that the execution layer can understand and run.
 
@@ -78,7 +78,7 @@ The typical TAA has four layers, from top to bottom:
 - A keyword-driven test is defined: `LOGIN, user1, password123`
 - A unit test is written in JUnit: `@Test public void testWithdrawal() { ... }`
 
-### Layer 3: Test Execution Layer
+### 🔷 Layer 3: Test Execution Layer
 
 **Purpose:** Execute the defined tests and capture results.
 
@@ -98,7 +98,7 @@ The typical TAA has four layers, from top to bottom:
 - CI pipeline triggers test execution on every commit
 - Parallel test execution across multiple agents
 
-### Layer 4: Test Adaptation Layer
+### 🔷 Layer 4: Test Adaptation Layer
 
 **Purpose:** Interface with the SUT, abstracting the details of how the SUT is accessed.
 
@@ -118,9 +118,9 @@ The typical TAA has four layers, from top to bottom:
 
 ---
 
-## 3.3 Interfaces in the TAA
+## ⭐ 3.3 Interfaces in the TAA
 
-### Types of Interfaces
+### 🧪 Types of Interfaces
 
 **1. Between TAA Layers:**
 - Test Generation → Test Definition: abstract test cases → executable scripts
@@ -137,7 +137,7 @@ The typical TAA has four layers, from top to bottom:
 - Reporting systems (dashboards, alerting)
 - Version control (Git)
 
-### Interface Design Principles
+### 📜 Interface Design Principles
 
 **1. Stable Interfaces:**
 - Changes in one layer should not require changes in other layers
@@ -154,13 +154,13 @@ The typical TAA has four layers, from top to bottom:
 
 ---
 
-## 3.4 Testware
+## ⭐ 3.4 Testware
 
-### Definition
+### 🔷 Definition
 
 **Testware** is the collection of artifacts produced during the test automation process that are needed to plan, design, and execute tests.
 
-### Testware Components
+### 🔷 Testware Components
 
 **1. Test Scripts:**
 - The executable code that implements test cases
@@ -195,7 +195,7 @@ The typical TAA has four layers, from top to bottom:
 - Setup and installation guides
 - Maintenance procedures
 
-### Testware Relationships
+### 🔷 Testware Relationships
 
 ```
 Test Scripts
@@ -213,9 +213,9 @@ Test Results (Pass/Fail)
 
 ---
 
-## 3.5 Abstraction and Separation of Concerns
+## ⭐ 3.5 Abstraction and Separation of Concerns
 
-### Abstraction
+### 🔷 Abstraction
 
 **Definition:** Hiding implementation details and exposing only the necessary functionality.
 
@@ -242,7 +242,7 @@ If the login form changes to a single-page app with a modal:
 - Only `login()` method changes
 - All tests using `loginPage.login()` remain unchanged
 
-### Separation of Concerns
+### 🔷 Separation of Concerns
 
 **Definition:** Dividing a system into distinct sections, each addressing a separate concern.
 
@@ -262,9 +262,9 @@ If the login form changes to a single-page app with a modal:
 
 ---
 
-## 3.6 Designing for Maintainability
+## 🎨 3.6 Designing for Maintainability
 
-### Principles
+### 📜 Principles
 
 **1. Loose Coupling:**
 - Layers interact through well-defined interfaces
@@ -282,7 +282,7 @@ If the login form changes to a single-page app with a modal:
 - Environment-specific values are in config files, not scripts
 - Tests can run in different environments without code changes
 
-### Anti-Patterns to Avoid
+### 🔷 Anti-Patterns to Avoid
 
 **1. Tight Coupling:**
 - Test scripts directly contain UI locators
@@ -303,9 +303,9 @@ If the login form changes to a single-page app with a modal:
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: TAA Layer Mapping
+### 💡 Worked Example 1: TAA Layer Mapping
 
 **Scenario:** A team uses Cucumber (BDD) with Selenium for web UI testing.
 
@@ -322,7 +322,7 @@ If the login form changes to a single-page app with a modal:
 - Execution → Adaptation: Page Object method calls (code)
 - Adaptation → SUT: HTTP/WebDriver protocol (browser)
 
-### Worked Example 2: Abstraction Benefit
+### 💡 Worked Example 2: Abstraction Benefit
 
 **Before Abstraction (tight coupling):**
 ```python
@@ -359,7 +359,7 @@ def test_login():
 
 **Benefit:** Only the LoginPage class needs updating if locators change.
 
-### Worked Example 3: Testware Organization
+### 💡 Worked Example 3: Testware Organization
 
 **Project:** E-commerce application with web and mobile
 

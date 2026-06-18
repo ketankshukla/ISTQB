@@ -1,10 +1,10 @@
-# CT-AuT Mock Exam 1
+# 📝 CT-AuT Mock Exam 1
 
 **Instructions:** 40 questions, 60 minutes, single best answer.
 
 ---
 
-### Q1-Q10
+### 🔷 Q1-Q10
 
 1. Modern vehicle ECUs: A) 5-10 B) 70-100+ C) Only 1 D) Only mechanical — **70-100+**
 2. CAN bus: A) Infotainment B) Powertrain + chassis C) Only doors D) Only seats — **Powertrain + chassis**
@@ -19,7 +19,7 @@
 
 ---
 
-### Q11-Q20
+### 🔷 Q11-Q20
 
 11. ISO 26262: A) Only styling B) Functional safety C) Only manufacturing D) Only marketing — **Functional safety**
 12. ASIL D: A) Lowest B) Highest rigor C) Only hardware D) Only software — **Highest rigor**
@@ -34,7 +34,7 @@
 
 ---
 
-### Q21-Q30
+### 🔷 Q21-Q30
 
 21. Lifecycle: A) Only coding B) Requirements → acceptance C) Only system D) Only maintenance — **Requirements → acceptance**
 22. Unit testing: A) Only target B) Host or target C) Only vehicle D) Only track — **Host or target**
@@ -49,7 +49,7 @@
 
 ---
 
-### Q31-Q40
+### 🔷 Q31-Q40
 
 31. MISRA: A) Dynamic B) Static C) Only manual D) Only perf — **Static**
 32. Boundary 0-100: A) Only 0,100 B) 0,1,99,100 C) Only 50 D) Only -1,101 — **0,1,99,100**
@@ -64,4 +64,4 @@
 
 ---
 
-## End of Mock Exam 1
+## 📝 End of Mock Exam 1

@@ -1,6 +1,6 @@
-# Case Study 3 — Continuous Testing
+# 📂 Case Study 3 — Continuous Testing
 
-## Context
+## ⭐ Context
 
 You are the Quality Coach for CloudFin, a financial services company adopting DevOps.
 
@@ -19,7 +19,7 @@ You are the Quality Coach for CloudFin, a financial services company adopting De
 - Shift testing left AND right
 - Reduce production defects by 80%
 
-## Task 1: Current Pipeline Analysis
+## 🔬 Task 1: Current Pipeline Analysis
 
 **Question:** Analyze the current state and identify the biggest bottlenecks.
 
@@ -52,7 +52,7 @@ Testing   Testing   Testing   Testing   Testing   regression
 
 ---
 
-## Task 2: Target Pipeline Design
+## 🎨 Task 2: Target Pipeline Design
 
 **Question:** Design a continuous testing pipeline for CloudFin.
 
@@ -102,7 +102,7 @@ Full Production Monitoring
 
 ---
 
-## Task 3: Shift Left Strategy
+## ♟️ Task 3: Shift Left Strategy
 
 **Question:** Design the "shift left" testing activities.
 
@@ -142,7 +142,7 @@ Full Production Monitoring
 
 ---
 
-## Task 4: Shift Right Strategy
+## ♟️ Task 4: Shift Right Strategy
 
 **Question:** Design the "shift right" testing activities in production.
 
@@ -185,7 +185,7 @@ Full Production Monitoring
 
 ---
 
-## Task 5: Metrics and Success Criteria
+## ✅ Task 5: Metrics and Success Criteria
 
 **Question:** Define metrics to measure the success of the continuous testing initiative.
 
@@ -227,7 +227,7 @@ Full Production Monitoring
 
 ---
 
-## Task 6: Risk Mitigation
+## ⚠️ Task 6: Risk Mitigation
 
 **Question:** Identify risks in moving to continuous testing and DevOps.
 

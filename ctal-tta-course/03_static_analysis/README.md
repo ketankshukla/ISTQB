@@ -1,6 +1,6 @@
-# Chapter 3 — Static Analysis
+# 🔍 Chapter 3 — Static Analysis
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~15% (~7 questions out of 45)
 - **K-levels:** K2 (understand), K3 (apply)
@@ -8,7 +8,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -20,7 +20,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts
+## ⭐ Key Concepts
 
 - Static analysis: examining code without execution
 - Cyclomatic complexity: E - N + 2P, decision points + 1

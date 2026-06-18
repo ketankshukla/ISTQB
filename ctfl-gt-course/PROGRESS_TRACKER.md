@@ -1,12 +1,12 @@
-# CTFL-GT Progress Tracker
+# 📈 CTFL-GT Progress Tracker
 
-## How to Use This Tracker
+## ⭐ How to Use This Tracker
 
 Check off each item as you complete it. Target: complete all items before your exam date.
 
 ---
 
-## Chapter 1 — Gambling Industry Fundamentals
+## 🏗️ Chapter 1 — Gambling Industry Fundamentals
 
 - [ ] Read `README.md`
 - [ ] Read `lessons.md`
@@ -15,7 +15,7 @@ Check off each item as you complete it. Target: complete all items before your e
 - [ ] Score: ___ / 20
 - [ ] Review all wrong answers
 
-## Chapter 2 — Game Mathematics and RNG Testing
+## 🎮 Chapter 2 — Game Mathematics and RNG Testing
 
 - [ ] Read `README.md`
 - [ ] Read `lessons.md`
@@ -24,7 +24,7 @@ Check off each item as you complete it. Target: complete all items before your e
 - [ ] Score: ___ / 20
 - [ ] Review all wrong answers
 
-## Chapter 3 — Compliance, Regulations, and Player Protection
+## ⭐ Chapter 3 — Compliance, Regulations, and Player Protection
 
 - [ ] Read `README.md`
 - [ ] Read `lessons.md`
@@ -33,7 +33,7 @@ Check off each item as you complete it. Target: complete all items before your e
 - [ ] Score: ___ / 20
 - [ ] Review all wrong answers
 
-## Chapter 4 — Gambling Testing Types and Tools
+## 🧪 Chapter 4 — Gambling Testing Types and Tools
 
 - [ ] Read `README.md`
 - [ ] Read `lessons.md`
@@ -42,13 +42,13 @@ Check off each item as you complete it. Target: complete all items before your e
 - [ ] Score: ___ / 20
 - [ ] Review all wrong answers
 
-## Case Studies
+## ⭐ Case Studies
 
 - [ ] Read `case_study_1_slot_game_testing.md`
 - [ ] Read `case_study_2_sports_betting_platform.md`
 - [ ] Read `case_study_3_regulatory_compliance_audit.md`
 
-## Mock Exams
+## 📝 Mock Exams
 
 - [ ] Attempt `mock_exam_1.md` under timed conditions
 - [ ] Score: ___ / 40
@@ -62,7 +62,7 @@ Check off each item as you complete it. Target: complete all items before your e
 - [ ] Score: ___ / 40
 - [ ] Review all wrong answers
 
-## Final Preparation
+## ⭐ Final Preparation
 
 - [ ] Re-read `EXAM_STRATEGY.md`
 - [ ] Re-read `GLOSSARY.md`
@@ -72,7 +72,7 @@ Check off each item as you complete it. Target: complete all items before your e
 
 ---
 
-## Score Targets
+## ⭐ Score Targets
 
 | Activity | Target | Notes |
 |----------|--------|-------|

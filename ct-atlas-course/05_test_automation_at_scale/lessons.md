@@ -1,10 +1,10 @@
-# Chapter 5 — Test Automation at Scale: Lessons
+# 📘 Chapter 5 — Test Automation at Scale: Lessons
 
 ---
 
-## 5.1 Shared Automation Frameworks
+## ⚙️ 5.1 Shared Automation Frameworks
 
-### Why Share?
+### 🔷 Why Share?
 
 | Benefit | Description |
 |---------|-------------|
@@ -13,7 +13,7 @@
 | **Maintainability** | One framework team updates all consumers |
 | **Onboarding** | New teams adopt proven practices |
 
-### Framework Ownership
+### 🔷 Framework Ownership
 
 | Model | Pros | Cons |
 |-------|------|------|
@@ -21,7 +21,7 @@
 | **Open source model** | Anyone contributes | Inconsistent quality |
 | **Federated** | Core team + contributors from each team | Balance of consistency and context |
 
-### Shared Components
+### 🔷 Shared Components
 
 - **Core libraries:** Base page objects, API clients, database helpers
 - **Reporting:** Unified test reports across all teams
@@ -30,9 +30,9 @@
 
 ---
 
-## 5.2 Cross-Team Coordination
+## ⭐ 5.2 Cross-Team Coordination
 
-### Dependency Management
+### 🗂️ Dependency Management
 
 | Dependency | Solution |
 |------------|----------|
@@ -41,7 +41,7 @@
 | **Shared database** | Test data isolation, per-test schemas |
 | **Pipeline** | Pipeline templates, shared agents |
 
-### Communication Mechanisms
+### 🔷 Communication Mechanisms
 
 - **Automation guild:** Regular meeting to share practices
 - **Shared repository:** Teams contribute to common framework
@@ -50,9 +50,9 @@
 
 ---
 
-## 5.3 Test Data at Scale
+## 🗃️ 5.3 Test Data at Scale
 
-### Strategies
+### 🔷 Strategies
 
 | Strategy | When to Use |
 |----------|-------------|
@@ -61,7 +61,7 @@
 | **Shared test data pool** | Integration scenarios |
 | **Per-test setup/teardown** | Isolation required |
 
-### Data Management Practices
+### ❓ Data Management Practices
 
 - **Data versioning:** Track test data changes with code
 - **Data refresh:** Regular reset of test environments
@@ -70,9 +70,9 @@
 
 ---
 
-## 5.4 CI/CD Pipeline Orchestration
+## ⭐ 5.4 CI/CD Pipeline Orchestration
 
-### Pipeline Types
+### 🧪 Pipeline Types
 
 | Type | Purpose | Trigger |
 |------|---------|---------|
@@ -81,7 +81,7 @@
 | **Release pipeline** | Full system validation | Release candidate |
 | **Nightly pipeline** | Regression, performance | Schedule |
 
-### Pipeline Coordination
+### 🔷 Pipeline Coordination
 
 - **Artifact sharing:** Team A's build artifact consumed by Team B's tests
 - **Pipeline dependencies:** Integration tests wait for all team builds
@@ -89,9 +89,9 @@
 
 ---
 
-## 5.5 Automation Governance
+## ⚙️ 5.5 Automation Governance
 
-### Governance Areas
+### 🔷 Governance Areas
 
 | Area | Governance |
 |------|------------|
@@ -101,13 +101,13 @@
 | **Performance** | Test execution time limits |
 | **Maintenance** | Flaky test policy, retirement criteria |
 
-### Governance Model
+### 📐 Governance Model
 
 - **Light-touch:** Guidelines with team autonomy
 - **Review-based:** Architecture review for significant changes
 - **CoE-driven:** Central team mandates and enforces
 
-### Recommended: Light-touch with guardrails
+### 🤖 Recommended: Light-touch with guardrails
 
 - Teams choose how to implement within standards
 - Shared components provided, not mandated
@@ -115,9 +115,9 @@
 
 ---
 
-## 5.6 ROI at Scale
+## ⭐ 5.6 ROI at Scale
 
-### Cost Components
+### 🔷 Cost Components
 
 | Component | Description |
 |-----------|-------------|
@@ -127,7 +127,7 @@
 | **Maintenance** | Framework updates, test repairs |
 | **Support** | Framework team answering questions |
 
-### Value Measurement
+### 🔷 Value Measurement
 
 | Metric | How to Measure |
 |--------|----------------|
@@ -138,9 +138,9 @@
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Shared Framework Design
+### 💡 Worked Example 1: Shared Framework Design
 
 **Scenario:** Build a shared framework for 10 teams.
 
@@ -166,7 +166,7 @@ shared-automation/
 - Teams contribute to `core/` via pull requests
 - Templates owned by core team, feedback from users
 
-### Worked Example 2: Cross-Team Pipeline
+### 💡 Worked Example 2: Cross-Team Pipeline
 
 **Scenario:** Three teams build a platform.
 
@@ -189,7 +189,7 @@ Deploy to Staging
 - Integration pipeline triggers after all team builds (15 min)
 - Full pipeline: ~25 minutes
 
-### Worked Example 3: Automation ROI at Scale
+### 💡 Worked Example 3: Automation ROI at Scale
 
 **Scenario:** Calculate ROI for 10-team automation program.
 

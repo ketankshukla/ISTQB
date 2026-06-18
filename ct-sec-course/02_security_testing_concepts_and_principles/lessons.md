@@ -1,10 +1,10 @@
-# Chapter 2 — Security Testing Concepts and Principles: Lessons
+# 📘 Chapter 2 — Security Testing Concepts and Principles: Lessons
 
 ---
 
-## 2.1 Key Security Principles
+## 📜 2.1 Key Security Principles
 
-### Defense in Depth
+### 🔷 Defense in Depth
 
 **Definition:** A security strategy that employs multiple layers of security controls throughout an IT system.
 
@@ -24,7 +24,7 @@ Layer 6: Encryption at rest (storage layer)
 
 ---
 
-### Least Privilege
+### 🔷 Least Privilege
 
 **Definition:** Users and processes should be granted only the minimum access necessary to perform their function.
 
@@ -48,7 +48,7 @@ A reporting user should be able to:
 
 ---
 
-### Separation of Duties
+### 🔷 Separation of Duties
 
 **Definition:** No single person should have complete control over a critical process. Actions that could compromise security should require collaboration.
 
@@ -64,7 +64,7 @@ A reporting user should be able to:
 
 ---
 
-### Fail Secure / Fail Safe
+### 🤖 Fail Secure / Fail Safe
 
 **Definition:** A system should default to a secure state when an error or failure occurs.
 
@@ -89,7 +89,7 @@ Not expected: Detailed SQL error exposing table names
 
 ---
 
-### Complete Mediation
+### 🔷 Complete Mediation
 
 **Definition:** Every access to every object must be checked for authority. Don't assume authority from previous checks.
 
@@ -111,7 +111,7 @@ Good: Every API request validates the token AND re-checks permissions
 
 ---
 
-### Economy of Mechanism
+### 🔷 Economy of Mechanism
 
 **Definition:** Security designs should be as simple as possible. Complexity increases the attack surface.
 
@@ -127,7 +127,7 @@ Good: Every API request validates the token AND re-checks permissions
 
 ---
 
-### Open Design
+### 🎨 Open Design
 
 **Definition:** Security should not depend on the secrecy of the design or implementation. Assume the attacker knows the system.
 
@@ -145,7 +145,7 @@ Good: Every API request validates the token AND re-checks permissions
 
 ---
 
-### Psychological Acceptability
+### 🔷 Psychological Acceptability
 
 **Definition:** Security mechanisms should not make the system too difficult to use. Users will bypass security if it interferes with their work.
 
@@ -160,9 +160,9 @@ Good: Every API request validates the token AND re-checks permissions
 
 ---
 
-## 2.2 Security Controls
+## 🔒 2.2 Security Controls
 
-### Types of Security Controls
+### 🧪 Types of Security Controls
 
 **Preventive Controls:** Block attacks before they succeed
 - Firewalls, WAFs, input validation, encryption, access controls
@@ -179,7 +179,7 @@ Good: Every API request validates the token AND re-checks permissions
 **Compensating Controls:** Alternative measures when primary controls aren't feasible
 - Additional monitoring when encryption isn't possible
 
-### Control Categories
+### 🔷 Control Categories
 
 | Category | Examples |
 |----------|----------|
@@ -189,9 +189,9 @@ Good: Every API request validates the token AND re-checks permissions
 
 ---
 
-## 2.3 Security Requirements
+## 📑 2.3 Security Requirements
 
-### Security vs. Functional Requirements
+### 📑 Security vs. Functional Requirements
 
 **Functional requirement:** "The system shall allow users to transfer funds between accounts."
 
@@ -199,7 +199,7 @@ Good: Every API request validates the token AND re-checks permissions
 
 **Key difference:** Security requirements specify HOW the feature must be protected, not just THAT it exists.
 
-### Types of Security Requirements
+### 🧪 Types of Security Requirements
 
 **Authentication requirements:**
 - "All admin functions require two-factor authentication."
@@ -217,7 +217,7 @@ Good: Every API request validates the token AND re-checks permissions
 - "All authentication attempts must be logged with timestamp and IP."
 - "Log retention: 7 years."
 
-### Testing Security Requirements
+### 📑 Testing Security Requirements
 
 **Traceability matrix:**
 
@@ -230,9 +230,9 @@ Good: Every API request validates the token AND re-checks permissions
 
 ---
 
-## 2.4 Secure SDLC
+## 🔁 2.4 Secure SDLC
 
-### Security in Development Phases
+### 🔒 Security in Development Phases
 
 **Requirements:**
 - Define security requirements alongside functional requirements
@@ -265,7 +265,7 @@ Good: Every API request validates the token AND re-checks permissions
 - Security regression testing
 - Update threat models
 
-### Shift-Left Security
+### 🔒 Shift-Left Security
 
 **Definition:** Integrating security activities earlier in the SDLC rather than leaving them to the end.
 
@@ -282,9 +282,9 @@ Good: Every API request validates the token AND re-checks permissions
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Applying Security Principles
+### 💡 Worked Example 1: Applying Security Principles
 
 **Scenario:** Design security for an online banking application.
 
@@ -296,7 +296,7 @@ Good: Every API request validates the token AND re-checks permissions
 | Fail secure | Database failure → all transactions denied, not all approved | Induce DB failure; verify transactions blocked |
 | Complete mediation | Every API request validates token AND permissions | Access resource with valid token but wrong permissions; verify denial |
 
-### Worked Example 2: Security Control Selection
+### 💡 Worked Example 2: Security Control Selection
 
 **Scenario:** Protecting a web application handling credit card data.
 
@@ -307,7 +307,7 @@ Good: Every API request validates the token AND re-checks permissions
 | DDoS attack | Rate limiting, CDN | Traffic monitoring | Failover to backup, DDoS mitigation |
 | Insider threat | Least privilege, separation of duties | Behavioral analytics, audit logs | Access revocation, forensic investigation |
 
-### Worked Example 3: Security Requirements Traceability
+### 💡 Worked Example 3: Security Requirements Traceability
 
 **Scenario:** A healthcare patient portal.
 

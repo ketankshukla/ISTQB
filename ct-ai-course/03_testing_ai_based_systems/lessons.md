@@ -1,10 +1,10 @@
-# Chapter 3 — Testing AI-Based Systems: Lessons
+# 📘 Chapter 3 — Testing AI-Based Systems: Lessons
 
 ---
 
-## 3.1 Test Strategies for AI-Based Systems
+## 🤖 3.1 Test Strategies for AI-Based Systems
 
-### Why AI Testing Is Different
+### 🤖 Why AI Testing Is Different
 
 Traditional testing assumes:
 - Deterministic behavior
@@ -16,7 +16,7 @@ AI systems violate these assumptions:
 - No complete specification
 - Behavior learned from data, not designed
 
-### Test Strategy Components
+### ♟️ Test Strategy Components
 
 **1. Data Testing:**
 - Validate data quality, completeness, and representativeness
@@ -38,7 +38,7 @@ AI systems violate these assumptions:
 - Test response to data drift
 - Validate retraining triggers and procedures
 
-### Risk-Based Testing for AI
+### ⚠️ Risk-Based Testing for AI
 
 **High-Risk Areas (Test Thoroughly):**
 - Safety-critical decisions (medical, autonomous vehicles)
@@ -53,9 +53,9 @@ AI systems violate these assumptions:
 
 ---
 
-## 3.2 The Test Oracle Problem
+## ⭐ 3.2 The Test Oracle Problem
 
-### What Is the Test Oracle Problem?
+### 🔷 What Is the Test Oracle Problem?
 
 A **test oracle** is a mechanism that determines whether a test has passed or failed. For many AI systems, defining the oracle is difficult:
 
@@ -64,7 +64,7 @@ A **test oracle** is a mechanism that determines whether a test has passed or fa
 - Recommendation: What is the "best" recommendation for a user?
 - Summarization: Which summary is "better"?
 
-### Solutions to the Oracle Problem
+### 🔷 Solutions to the Oracle Problem
 
 **1. Reference Oracles:**
 - Compare output to a human-labeled "ground truth" dataset
@@ -97,9 +97,9 @@ A **test oracle** is a mechanism that determines whether a test has passed or fa
 
 ---
 
-## 3.3 Metamorphic Testing
+## ⭐ 3.3 Metamorphic Testing
 
-### Concept
+### 🔷 Concept
 
 **Metamorphic testing** tests software by checking whether relationships (metamorphic relations) between inputs and outputs hold, rather than checking specific outputs.
 
@@ -108,7 +108,7 @@ A **test oracle** is a mechanism that determines whether a test has passed or fa
 - Defines properties that should always be true
 - Can generate many test cases from a single seed case
 
-### Metamorphic Relations
+### 🔷 Metamorphic Relations
 
 **Definition:** A relationship between multiple inputs and their corresponding outputs that should hold according to the system's specification.
 
@@ -137,7 +137,7 @@ A **test oracle** is a mechanism that determines whether a test has passed or fa
 | Monotonicity | Adding positive signals should not decrease relevance |
 | Stability | Slightly changing the query should not dramatically change results |
 
-### Metamorphic Testing Process
+### 🔷 Metamorphic Testing Process
 
 1. **Select a seed test case** with known input and output
 2. **Apply a transformation** to create follow-up test cases
@@ -153,9 +153,9 @@ A **test oracle** is a mechanism that determines whether a test has passed or fa
 
 ---
 
-## 3.4 A/B Testing for AI Systems
+## 🤖 3.4 A/B Testing for AI Systems
 
-### What Is A/B Testing?
+### 🔷 What Is A/B Testing?
 
 **A/B testing** compares two versions of a system (A and B) by randomly assigning users to each version and measuring which performs better on a defined metric.
 
@@ -164,7 +164,7 @@ A **test oracle** is a mechanism that determines whether a test has passed or fa
 - Evaluate different algorithms or architectures
 - Test the impact of retraining with new data
 
-### A/B Testing Process
+### 🔷 A/B Testing Process
 
 1. **Define the metric:** What are you trying to improve? (accuracy, click-through rate, revenue)
 2. **Split traffic:** Randomly assign users to version A or B
@@ -172,7 +172,7 @@ A **test oracle** is a mechanism that determines whether a test has passed or fa
 4. **Analyze results:** Use statistical tests to determine if the difference is significant
 5. **Make a decision:** Roll out the winner or iterate
 
-### Key Considerations
+### 🔷 Key Considerations
 
 **Sample Size:**
 - Must be large enough to detect meaningful differences
@@ -190,7 +190,7 @@ A **test oracle** is a mechanism that determines whether a test has passed or fa
 - Typically p < 0.05 (95% confidence)
 - Avoid peeking at results and stopping early
 
-### Shadow Deployment
+### 🔷 Shadow Deployment
 
 **Shadow deployment** (also called dark launch) runs the new model alongside the production model without affecting users:
 - Production model serves users (no risk)
@@ -204,9 +204,9 @@ A **test oracle** is a mechanism that determines whether a test has passed or fa
 
 ---
 
-## 3.5 Adversarial Testing
+## ⭐ 3.5 Adversarial Testing
 
-### What Are Adversarial Examples?
+### 💡 What Are Adversarial Examples?
 
 **Adversarial examples** are inputs deliberately designed to cause an AI model to make a mistake while appearing normal to humans.
 
@@ -214,7 +214,7 @@ A **test oracle** is a mechanism that determines whether a test has passed or fa
 - Original image: A panda (classified correctly as "panda")
 - Adversarial image: Same panda with imperceptible noise added (classified as "gibbon")
 
-### Why Adversarial Testing Matters
+### 🔷 Why Adversarial Testing Matters
 
 **Safety-Critical Systems:**
 - Autonomous vehicles: Slightly altered stop sign could be misread
@@ -225,7 +225,7 @@ A **test oracle** is a mechanism that determines whether a test has passed or fa
 - Spam filters: Adversarial text could bypass detection
 - Fraud detection: Transactions designed to evade flags
 
-### Adversarial Testing Techniques
+### 🎯 Adversarial Testing Techniques
 
 **1. Fast Gradient Sign Method (FGSM):**
 - Add small perturbations in the direction that maximizes loss
@@ -240,7 +240,7 @@ A **test oracle** is a mechanism that determines whether a test has passed or fa
 - Uses queries to the model to craft attacks
 - More realistic threat model
 
-### Defenses and Testing
+### 🔷 Defenses and Testing
 
 **Testing for Robustness:**
 - Evaluate model on adversarial examples
@@ -255,9 +255,9 @@ A **test oracle** is a mechanism that determines whether a test has passed or fa
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Metamorphic Testing Design
+### 💡 Worked Example 1: Metamorphic Testing Design
 
 **Scenario:** Test a sentiment analysis system that classifies text as positive, negative, or neutral.
 
@@ -276,7 +276,7 @@ A **test oracle** is a mechanism that determines whether a test has passed or fa
 **MR1:** "This movie is not excellent" → Should be Negative
 **Result:** If still classified as Positive → BUG
 
-### Worked Example 2: A/B Test Design
+### 💡 Worked Example 2: A/B Test Design
 
 **Scenario:** A company wants to test a new product recommendation model.
 
@@ -294,7 +294,7 @@ A **test oracle** is a mechanism that determines whether a test has passed or fa
 - Latency increased by 10ms (acceptable)
 - **Decision:** Roll out Version B
 
-### Worked Example 3: Adversarial Testing
+### 💡 Worked Example 3: Adversarial Testing
 
 **Scenario:** Test robustness of an image classifier.
 

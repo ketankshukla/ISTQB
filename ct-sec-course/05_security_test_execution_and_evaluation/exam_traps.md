@@ -1,6 +1,6 @@
-# Chapter 5 — Security Test Execution and Evaluation: Exam Traps
+# 🪤 Chapter 5 — Security Test Execution and Evaluation: Exam Traps
 
-## Trap 1: Using CVSS Base Score Alone for Prioritization
+## 🪤 Trap 1: Using CVSS Base Score Alone for Prioritization
 
 **Trap:** CVSS base score doesn't consider whether the vulnerability is actually exploitable in your environment or if active exploits exist.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Confusing False Positives and False Negatives
+## 🪤 Trap 2: Confusing False Positives and False Negatives
 
 **Trap:** False positive = reported but doesn't exist. False negative = exists but not detected.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Thinking Remediation Ends at Patching
+## 🪤 Trap 3: Thinking Remediation Ends at Patching
 
 **Trap:** After fixing a vulnerability, verification testing is required to confirm the fix works and hasn't introduced new issues.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Ignoring Temporal and Environmental CVSS Metrics
+## 🪤 Trap 4: Ignoring Temporal and Environmental CVSS Metrics
 
 **Trap:** CVSS has base, temporal, and environmental scores. Temporal factors (exploit maturity, remediation level) change over time.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Reporting Vulnerabilities Without Evidence
+## 🪤 Trap 5: Reporting Vulnerabilities Without Evidence
 
 **Trap:** Security reports must include proof. Vague findings are not actionable.
 

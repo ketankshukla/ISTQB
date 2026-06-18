@@ -1,14 +1,14 @@
-# Chapter 3 — Security Testing Techniques: Lessons
+# 📘 Chapter 3 — Security Testing Techniques: Lessons
 
 ---
 
-## 3.1 Static Application Security Testing (SAST)
+## 🔍 3.1 Static Application Security Testing (SAST)
 
-### Definition
+### 🔷 Definition
 
 Analyzing source code without executing the application.
 
-### Characteristics
+### 🔷 Characteristics
 
 | Aspect | Description |
 |--------|-------------|
@@ -18,7 +18,7 @@ Analyzing source code without executing the application.
 | **Coverage** | All code paths |
 | **Limitation** | Cannot find runtime issues |
 
-### What SAST Finds
+### 🔷 What SAST Finds
 
 | Vulnerability | Example |
 |---------------|---------|
@@ -29,13 +29,13 @@ Analyzing source code without executing the application.
 
 ---
 
-## 3.2 Dynamic Application Security Testing (DAST)
+## 🔒 3.2 Dynamic Application Security Testing (DAST)
 
-### Definition
+### 🔷 Definition
 
 Testing a running application by sending malicious inputs.
 
-### Characteristics
+### 🔷 Characteristics
 
 | Aspect | Description |
 |--------|-------------|
@@ -45,7 +45,7 @@ Testing a running application by sending malicious inputs.
 | **Coverage** | Only executed paths |
 | **Limitation** | Cannot find dead code issues |
 
-### What DAST Finds
+### 🔷 What DAST Finds
 
 | Vulnerability | Example |
 |---------------|---------|
@@ -56,9 +56,9 @@ Testing a running application by sending malicious inputs.
 
 ---
 
-## 3.3 Penetration Testing
+## ⭐ 3.3 Penetration Testing
 
-### Types
+### 🧪 Types
 
 | Type | Knowledge | Use Case |
 |------|-----------|----------|
@@ -66,7 +66,7 @@ Testing a running application by sending malicious inputs.
 | **Grey box** | Limited knowledge | Simulates privileged user |
 | **White box** | Full knowledge | Comprehensive assessment |
 
-### Process
+### 🔷 Process
 
 1. **Reconnaissance** — Gather information
 2. **Scanning** — Identify vulnerabilities
@@ -76,9 +76,9 @@ Testing a running application by sending malicious inputs.
 
 ---
 
-## 3.4 Code Review for Security
+## 🔎 3.4 Code Review for Security
 
-### Manual Review
+### 🔎 Manual Review
 
 | Focus | Check |
 |-------|-------|
@@ -88,7 +88,7 @@ Testing a running application by sending malicious inputs.
 | **Error handling** | No information leakage |
 | **Cryptography** | Strong algorithms |
 
-### Automated Review
+### 🔎 Automated Review
 
 | Tool Type | Example |
 |-----------|---------|
@@ -98,13 +98,13 @@ Testing a running application by sending malicious inputs.
 
 ---
 
-## 3.5 Fuzz Testing
+## ⭐ 3.5 Fuzz Testing
 
-### Definition
+### 🔷 Definition
 
 Sending random, malformed, or unexpected inputs to find crashes or vulnerabilities.
 
-### Types
+### 🧪 Types
 
 | Type | Input |
 |------|-------|
@@ -112,7 +112,7 @@ Sending random, malformed, or unexpected inputs to find crashes or vulnerabiliti
 | **Mutation** | Modify valid inputs |
 | **Generation** | Create inputs from protocol specs |
 
-### What Fuzzing Finds
+### 🔷 What Fuzzing Finds
 
 | Issue | Example |
 |-------|---------|
@@ -123,9 +123,9 @@ Sending random, malformed, or unexpected inputs to find crashes or vulnerabiliti
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Technique Selection
+### 💡 Worked Example 1: Technique Selection
 
 | Scenario | Technique | Reason |
 |----------|-----------|--------|
@@ -134,7 +134,7 @@ Sending random, malformed, or unexpected inputs to find crashes or vulnerabiliti
 | Critical system | Pen test | Simulates real attack |
 | Protocol handler | Fuzzing | Finds edge cases |
 
-### Worked Example 2: SAST vs DAST
+### 💡 Worked Example 2: SAST vs DAST
 
 | Finding | SAST | DAST |
 |---------|------|------|
@@ -143,7 +143,7 @@ Sending random, malformed, or unexpected inputs to find crashes or vulnerabiliti
 | Misconfigured server headers | No | Yes |
 | Hardcoded password | Yes | No |
 
-### Worked Example 3: Penetration Test Scope
+### 💡 Worked Example 3: Penetration Test Scope
 
 | Asset | Test Type | Scope |
 |-------|-----------|-------|

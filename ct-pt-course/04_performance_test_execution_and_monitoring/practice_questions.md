@@ -1,8 +1,8 @@
-# Chapter 4 — Performance Test Execution and Monitoring: Practice Questions
+# ❓ Chapter 4 — Performance Test Execution and Monitoring: Practice Questions
 
 ---
 
-### Q1 (PT-4.1, K2)
+### 🔷 Q1 (PT-4.1, K2)
 
 The purpose of a warm-up phase before performance testing is to:
 
@@ -13,7 +13,7 @@ D. Slow down the test execution
 
 ---
 
-### Q2 (PT-4.1, K2)
+### 🔷 Q2 (PT-4.1, K2)
 
 During ramp-up, virtual users are:
 
@@ -24,7 +24,7 @@ D. Kept at a constant level
 
 ---
 
-### Q3 (PT-4.2, K2)
+### 🔷 Q3 (PT-4.2, K2)
 
 A CPU queue length greater than 2 per core typically indicates:
 
@@ -35,7 +35,7 @@ D. Optimal performance
 
 ---
 
-### Q4 (PT-4.2, K2)
+### 🔷 Q4 (PT-4.2, K2)
 
 Memory growing unbounded during an endurance test is a strong indicator of:
 
@@ -46,7 +46,7 @@ D. Network saturation
 
 ---
 
-### Q5 (PT-4.2, K2)
+### 🔷 Q5 (PT-4.2, K2)
 
 Which metric indicates a disk I/O bottleneck?
 
@@ -57,7 +57,7 @@ D. Memory at 60%
 
 ---
 
-### Q6 (PT-4.3, K2)
+### 🔷 Q6 (PT-4.3, K2)
 
 A bottleneck is BEST described as:
 
@@ -68,7 +68,7 @@ D. The database server only
 
 ---
 
-### Q7 (PT-4.2, K2)
+### 🔷 Q7 (PT-4.2, K2)
 
 The load generator should be monitored because:
 
@@ -79,7 +79,7 @@ D. It is required by law
 
 ---
 
-### Q8 (PT-4.1, K2)
+### 🔷 Q8 (PT-4.1, K2)
 
 The steady state phase of a performance test is when:
 
@@ -90,7 +90,7 @@ D. Only one user is active
 
 ---
 
-### Q9 (PT-4.2, K2)
+### 🔷 Q9 (PT-4.2, K2)
 
 Database lock contention is indicated by:
 
@@ -101,7 +101,7 @@ D. Fast query execution times
 
 ---
 
-### Q10 (PT-4.2, K3)
+### 🔷 Q10 (PT-4.2, K3)
 
 A test shows slow response times, but the application server CPU is only 35%. The database server CPU is 90%. The bottleneck is likely:
 
@@ -112,7 +112,7 @@ D. The load generator
 
 ---
 
-### Q11 (PT-4.1, K2)
+### 🔷 Q11 (PT-4.1, K2)
 
 Ramp-down in a performance test is used to:
 
@@ -123,7 +123,7 @@ D. Reset the database
 
 ---
 
-### Q12 (PT-4.2, K2)
+### 🔷 Q12 (PT-4.2, K2)
 
 Swap usage increasing during a performance test indicates:
 
@@ -134,7 +134,7 @@ D. Network bandwidth issues
 
 ---
 
-### Q13 (PT-4.3, K2)
+### 🔷 Q13 (PT-4.3, K2)
 
 Which is a valid bottleneck analysis step?
 
@@ -145,7 +145,7 @@ D. Restart the server and hope it fixes itself
 
 ---
 
-### Q14 (PT-4.4, K2)
+### 🔷 Q14 (PT-4.4, K2)
 
 A test environment should be checked for stability before testing because:
 
@@ -156,7 +156,7 @@ D. It ensures the environment is slower
 
 ---
 
-### Q15 (PT-4.2, K2)
+### 🔷 Q15 (PT-4.2, K2)
 
 Garbage collection (GC) pauses in a Java application are monitored because:
 
@@ -167,7 +167,7 @@ D. They are irrelevant to performance
 
 ---
 
-### Q16 (PT-4.2, K2)
+### 🔷 Q16 (PT-4.2, K2)
 
 Connection pool exhaustion is indicated by:
 
@@ -178,7 +178,7 @@ D. High network throughput
 
 ---
 
-### Q17 (PT-4.1, K3)
+### 🔷 Q17 (PT-4.1, K3)
 
 A team skips the warm-up phase to save time. The risk is:
 
@@ -189,7 +189,7 @@ D. The system will crash
 
 ---
 
-### Q18 (PT-4.3, K2)
+### 🔷 Q18 (PT-4.3, K2)
 
 Network saturation is indicated by:
 
@@ -200,7 +200,7 @@ D. Fast response times
 
 ---
 
-### Q19 (PT-4.4, K2)
+### 🔷 Q19 (PT-4.4, K2)
 
 Data reset between performance test runs is important because:
 
@@ -211,7 +211,7 @@ D. It deletes all production data
 
 ---
 
-### Q20 (PT-4.2, K2)
+### 🔷 Q20 (PT-4.2, K2)
 
 Which combination of metrics is MOST useful for identifying a database bottleneck?
 
@@ -222,104 +222,104 @@ D. The weather and time of day
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** Warm-up = system stabilization (caches, connections, JIT).
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** Ramp-up = gradual addition of users.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** Queue length > 2 per core = CPU bottleneck.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** Unbounded memory growth = memory leak.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** Disk queue length > 2 = disk I/O bottleneck.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** Bottleneck = resource/component limiting overall performance.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** Saturated load generator = inaccurate load, misleading results.
 
-### Q8
+### 🔷 Q8
 **Answer: A**
 
 **Rationale:** Steady state = target load maintained consistently.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** Lock contention = high lock wait time, reduced throughput.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** DB CPU 90% vs. app CPU 35% = database is the bottleneck.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 
 **Rationale:** Ramp-down = gradual load removal, observe decreasing demand.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** Swap usage = memory pressure, running out of RAM.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** Bottleneck analysis = identify saturated resources, drill down, correlate.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** Environment instability = invalid results.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** GC pauses = impact response time and throughput.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 
 **Rationale:** Pool exhaustion = requests waiting, timeouts.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 
 **Rationale:** No warm-up = artificially slow initial results.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 
 **Rationale:** Network saturation = utilization > 70%, packet loss.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** Data reset = prevent leftover data from affecting results.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 
 **Rationale:** Database bottleneck = DB CPU, query time, connections, locks.

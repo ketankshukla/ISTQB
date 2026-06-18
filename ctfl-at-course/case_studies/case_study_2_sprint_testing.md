@@ -1,10 +1,10 @@
-# Case Study 2 — Sprint Testing
+# 📂 Case Study 2 — Sprint Testing
 
-## Context
+## ⭐ Context
 
 You are the tester on a Scrum team building a mobile banking app. The team is in Sprint 3, with a 2-week sprint cycle. The product owner has prioritized 6 user stories for this sprint.
 
-## Sprint 3 User Stories
+## ⭐ Sprint 3 User Stories
 
 **US-301: View Account Balance**
 - As a customer, I want to view my account balance so that I know my available funds.
@@ -32,7 +32,7 @@ You are the tester on a Scrum team building a mobile banking app. The team is in
 
 ---
 
-## Task 1: Test Strategy for the Sprint
+## ♟️ Task 1: Test Strategy for the Sprint
 
 Design a testing approach for Sprint 3 that covers all 6 stories.
 
@@ -92,7 +92,7 @@ Design a testing approach for Sprint 3 that covers all 6 stories.
 
 ---
 
-## Task 2: BDD Acceptance Tests
+## 🤝 Task 2: BDD Acceptance Tests
 
 Write BDD scenarios for US-302 (Transfer Between Own Accounts).
 
@@ -135,7 +135,7 @@ Feature: Transfer Between Own Accounts
 
 ---
 
-## Task 3: Risk-Based Testing
+## ⚠️ Task 3: Risk-Based Testing
 
 The sprint is halfway through and 2 developers are sick. The team can only complete 4 of the 6 stories. Which 2 stories should be deferred, and why?
 
@@ -157,7 +157,7 @@ The sprint is halfway through and 2 developers are sick. The team can only compl
 
 ---
 
-## Task 4: Exploratory Testing Charters
+## ⭐ Task 4: Exploratory Testing Charters
 
 Write test charters for exploratory testing of US-304 (Biometric Login).
 

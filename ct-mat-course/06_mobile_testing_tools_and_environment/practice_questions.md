@@ -1,8 +1,8 @@
-# Chapter 6 — Mobile Testing Tools and Environment: Practice Questions
+# ❓ Chapter 6 — Mobile Testing Tools and Environment: Practice Questions
 
 ---
 
-### Q1 (MAT-6.1, K2)
+### 🔷 Q1 (MAT-6.1, K2)
 
 Android Profiler is used for:
 
@@ -13,7 +13,7 @@ D. Only documentation
 
 ---
 
-### Q2 (MAT-6.2, K2)
+### 🔷 Q2 (MAT-6.2, K2)
 
 Firebase Test Lab provides:
 
@@ -24,7 +24,7 @@ D. Only manual testing
 
 ---
 
-### Q3 (MAT-6.3, K2)
+### 🔷 Q3 (MAT-6.3, K2)
 
 TestFlight External Testing allows up to:
 
@@ -35,7 +35,7 @@ D. 100,000 testers
 
 ---
 
-### Q4 (MAT-6.4, K2)
+### 🔷 Q4 (MAT-6.4, K2)
 
 LeakCanary is a tool for:
 
@@ -46,7 +46,7 @@ D. Code formatting
 
 ---
 
-### Q5 (MAT-6.1, K2)
+### 🔷 Q5 (MAT-6.1, K2)
 
 `adb logcat` displays:
 
@@ -57,7 +57,7 @@ D. Only device info
 
 ---
 
-### Q6 (MAT-6.2, K2)
+### 🔷 Q6 (MAT-6.2, K2)
 
 AWS Device Farm supports:
 
@@ -68,7 +68,7 @@ D. Only desktop
 
 ---
 
-### Q7 (MAT-6.3, K2)
+### 🔷 Q7 (MAT-6.3, K2)
 
 Google Play Open Testing is for:
 
@@ -79,7 +79,7 @@ D. Only production release
 
 ---
 
-### Q8 (MAT-6.4, K2)
+### 🔷 Q8 (MAT-6.4, K2)
 
 Instruments in Xcode is used for:
 
@@ -90,7 +90,7 @@ D. Only app signing
 
 ---
 
-### Q9 (MAT-6.1, K2)
+### 🔷 Q9 (MAT-6.1, K2)
 
 APK Analyzer helps:
 
@@ -101,7 +101,7 @@ D. Only manage devices
 
 ---
 
-### Q10 (MAT-6.2, K2)
+### 🔷 Q10 (MAT-6.2, K2)
 
 BrowserStack App Automate provides:
 
@@ -112,7 +112,7 @@ D. Only code review
 
 ---
 
-### Q11 (MAT-6.3, K2)
+### 🔷 Q11 (MAT-6.3, K2)
 
 TestFlight Internal Testing is limited to:
 
@@ -123,7 +123,7 @@ D. Only App Store reviewers
 
 ---
 
-### Q12 (MAT-6.4, K2)
+### 🔷 Q12 (MAT-6.4, K2)
 
 Battery Historian generates:
 
@@ -134,7 +134,7 @@ D. Only crash reports
 
 ---
 
-### Q13 (MAT-6.1, K2)
+### 🔷 Q13 (MAT-6.1, K2)
 
 `adb shell screencap` is used to:
 
@@ -145,7 +145,7 @@ D. Only reboot the device
 
 ---
 
-### Q14 (MAT-6.2, K2)
+### 🔷 Q14 (MAT-6.2, K2)
 
 A device farm is MOST useful for:
 
@@ -156,7 +156,7 @@ D. Only security scanning
 
 ---
 
-### Q15 (MAT-6.3, K2)
+### 🔷 Q15 (MAT-6.3, K2)
 
 Google Play Internal Testing track is for:
 
@@ -167,7 +167,7 @@ D. Only open beta
 
 ---
 
-### Q16 (MAT-6.4, K2)
+### 🔷 Q16 (MAT-6.4, K2)
 
 Xcode Metrics Organizer shows:
 
@@ -178,7 +178,7 @@ D. Only design mockups
 
 ---
 
-### Q17 (MAT-6.1, K2)
+### 🔷 Q17 (MAT-6.1, K2)
 
 `adb shell input swipe` simulates:
 
@@ -189,7 +189,7 @@ D. Only a screenshot
 
 ---
 
-### Q18 (MAT-6.2, K2)
+### 🔷 Q18 (MAT-6.2, K2)
 
 Sauce Labs supports:
 
@@ -200,7 +200,7 @@ D. Only database testing
 
 ---
 
-### Q19 (MAT-6.3, K2)
+### 🔷 Q19 (MAT-6.3, K2)
 
 Beta testing is important because:
 
@@ -211,7 +211,7 @@ D. Only for large companies
 
 ---
 
-### Q20 (MAT-6.4, K2)
+### 🔷 Q20 (MAT-6.4, K2)
 
 Firebase Crashlytics provides:
 
@@ -222,84 +222,84 @@ D. Only network routing
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** Android Profiler = CPU, memory, network, battery.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** Firebase Test Lab = cloud Android/iOS testing.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** TestFlight External = up to 10,000 testers.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** LeakCanary = Android memory leak detection.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** `adb logcat` = system and app logs.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** AWS Device Farm = Android, iOS, web.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Open Testing = public beta.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Instruments = performance profiling.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** APK Analyzer = inspect size, contents, dependencies.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** BrowserStack = real device cloud with CI.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** TestFlight Internal = 100 team members.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Battery Historian = battery usage breakdown.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** `screencap` = capture screenshot.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Device farm = many devices without ownership.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Internal track = 100 internal testers.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Metrics Organizer = production performance data.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** `input swipe` = simulate swipe gesture.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Sauce Labs = mobile + desktop cross-browser.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Beta = catches real-world issues.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** Crashlytics = real-time crash reporting.

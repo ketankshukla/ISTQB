@@ -1,4 +1,4 @@
-# Mock Exam 2 — Answer Key
+# 📝 Mock Exam 2 — Answer Key
 
 | Q | Answer | Rationale |
 |---|--------|-----------|
@@ -43,7 +43,7 @@
 | 39 | B | Rating = all content |
 | 40 | B | Restore = non-consumable |
 
-## Score Interpretation
+## ⭐ Score Interpretation
 
 | Score | Interpretation |
 |-------|-------------|

@@ -1,8 +1,8 @@
-# Chapter 4 — Quality Metrics and Reporting: Practice Questions
+# ❓ Chapter 4 — Quality Metrics and Reporting: Practice Questions
 
 ---
 
-### Q1 (ATLaS-4.1, K2)
+### 🔷 Q1 (ATLaS-4.1, K2)
 
 Leading indicators:
 
@@ -13,7 +13,7 @@ D. Only track costs
 
 ---
 
-### Q2 (ATLaS-4.2, K2)
+### 🔷 Q2 (ATLaS-4.2, K2)
 
 DORA metrics include:
 
@@ -24,7 +24,7 @@ D. Only bug count
 
 ---
 
-### Q3 (ATLaS-4.3, K2)
+### 🔷 Q3 (ATLaS-4.3, K2)
 
 A team dashboard should be:
 
@@ -35,7 +35,7 @@ D. Only headcount
 
 ---
 
-### Q4 (ATLaS-4.4, K2)
+### 🔷 Q4 (ATLaS-4.4, K2)
 
 Using metrics to drive improvement requires:
 
@@ -46,7 +46,7 @@ D. Only storing in spreadsheets
 
 ---
 
-### Q5 (ATLaS-4.1, K2)
+### 🔷 Q5 (ATLaS-4.1, K2)
 
 Velocity should be used for:
 
@@ -57,7 +57,7 @@ D. Only customer billing
 
 ---
 
-### Q6 (ATLaS-4.2, K2)
+### 🔷 Q6 (ATLaS-4.2, K2)
 
 Defect escape rate measures:
 
@@ -68,7 +68,7 @@ D. Only execution time
 
 ---
 
-### Q7 (ATLaS-4.3, K2)
+### 🔷 Q7 (ATLaS-4.3, K2)
 
 A vanity metric:
 
@@ -79,7 +79,7 @@ D) Only for customers
 
 ---
 
-### Q8 (ATLaS-4.4, K2)
+### 🔷 Q8 (ATLaS-4.4, K2)
 
 Surrogation occurs when:
 
@@ -90,7 +90,7 @@ D) Only for financial metrics
 
 ---
 
-### Q9 (ATLaS-4.1, K2)
+### 🔷 Q9 (ATLaS-4.1, K2)
 
 Flaky test rate is a:
 
@@ -101,7 +101,7 @@ D. Only for unit tests
 
 ---
 
-### Q10 (ATLaS-4.2, K2)
+### 🔷 Q10 (ATLaS-4.2, K2)
 
 Customer complaints are a:
 
@@ -112,7 +112,7 @@ D. Only for sales
 
 ---
 
-### Q11 (ATLaS-4.3, K2)
+### 🔷 Q11 (ATLaS-4.3, K2)
 
 Dashboards should highlight:
 
@@ -123,7 +123,7 @@ D. Only future predictions
 
 ---
 
-### Q12 (ATLaS-4.4, K2)
+### 🔷 Q12 (ATLaS-4.4, K2)
 
 Transparent quality reporting:
 
@@ -134,7 +134,7 @@ D. Only for successes
 
 ---
 
-### Q13 (ATLaS-4.1, K2)
+### 🔷 Q13 (ATLaS-4.1, K2)
 
 Code review quality is a leading indicator of:
 
@@ -145,7 +145,7 @@ D. Only tool costs
 
 ---
 
-### Q14 (ATLaS-4.2, K2)
+### 🔷 Q14 (ATLaS-4.2, K2)
 
 Test coverage trend predicts:
 
@@ -156,7 +156,7 @@ D. Only budget status
 
 ---
 
-### Q15 (ATLaS-4.3, K2)
+### 🔷 Q15 (ATLaS-4.3, K2)
 
 Executive quality dashboards should focus on:
 
@@ -167,7 +167,7 @@ D. Only training hours
 
 ---
 
-### Q16 (ATLaS-4.4, K2)
+### 🔷 Q16 (ATLaS-4.4, K2)
 
 A metric-driven improvement cycle is:
 
@@ -178,7 +178,7 @@ D. Only report monthly
 
 ---
 
-### Q17 (ATLaS-4.1, K2)
+### 🔷 Q17 (ATLaS-4.1, K2)
 
 Gaming a metric by writing trivial tests to increase coverage:
 
@@ -189,7 +189,7 @@ D. Only acceptable if management requires it
 
 ---
 
-### Q18 (ATLaS-4.2, K2)
+### 🔷 Q18 (ATLaS-4.2, K2)
 
 Mean Time To Recovery (MTTR) measures:
 
@@ -200,7 +200,7 @@ D. Only prevention time
 
 ---
 
-### Q19 (ATLaS-4.3, K2)
+### 🔷 Q19 (ATLaS-4.3, K2)
 
 Quality reports should be:
 
@@ -211,7 +211,7 @@ D. Only historical
 
 ---
 
-### Q20 (ATLaS-4.4, K2)
+### 🔷 Q20 (ATLaS-4.4, K2)
 
 Output metrics (e.g., tests written) are less valuable than:
 
@@ -222,84 +222,84 @@ D. Only time metrics
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** Leading = predict future, early intervention.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** DORA = deployment frequency, lead time, failure rate, MTTR.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** Team dashboard = operational details.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** Metrics = review + act on insights.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Velocity = planning, not comparison.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Escape rate = defects after release.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Vanity = looks good, no action.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Surrogation = metric = goal.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** Flaky rate = leading indicator.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** Complaints = lagging.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Dashboard = few actionable indicators.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Transparent = trust + early resolution.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Code review = leading for defect density.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Coverage trend = future prevention.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Executive = business outcomes.
 
-### Q16
+### 🔷 Q16
 **Answer: A**
 **Rationale:** Cycle = measure → review → act → re-measure.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Gaming = undermines quality.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** MTTR = restore service time.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Reports = transparent successes + issues.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** Outcomes > outputs.

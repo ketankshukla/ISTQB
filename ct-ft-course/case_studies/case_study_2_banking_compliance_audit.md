@@ -1,6 +1,6 @@
-# Case Study 2 — Banking Compliance Audit
+# 📂 Case Study 2 — Banking Compliance Audit
 
-## Context
+## ⭐ Context
 
 You are the Compliance Test Manager for SecureBank, preparing for an external SOX audit of the loan origination system.
 
@@ -18,7 +18,7 @@ You are the Compliance Test Manager for SecureBank, preparing for an external SO
 
 ---
 
-## Task 1: Control Testing Plan
+## 🗓️ Task 1: Control Testing Plan
 
 **Question:** Design tests for SOX controls in the loan system.
 
@@ -34,7 +34,7 @@ You are the Compliance Test Manager for SecureBank, preparing for an external SO
 
 ---
 
-## Task 2: Segregation of Duties
+## ⭐ Task 2: Segregation of Duties
 
 **Question:** Test that a loan officer cannot approve their own loans.
 
@@ -56,7 +56,7 @@ You are the Compliance Test Manager for SecureBank, preparing for an external SO
 
 ---
 
-## Task 3: Data Immutability
+## 🗃️ Task 3: Data Immutability
 
 **Question:** Verify that booked loans cannot be altered.
 
@@ -82,7 +82,7 @@ You are the Compliance Test Manager for SecureBank, preparing for an external SO
 
 ---
 
-## Task 4: Audit Evidence Package
+## ⭐ Task 4: Audit Evidence Package
 
 **Question:** Prepare the evidence package for the external auditor.
 

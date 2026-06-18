@@ -1,10 +1,10 @@
-# Chapter 1 — Introduction to Security Testing: Lessons
+# 📘 Chapter 1 — Introduction to Security Testing: Lessons
 
 ---
 
-## 1.1 The CIA Triad
+## ⭐ 1.1 The CIA Triad
 
-### Confidentiality
+### 🔷 Confidentiality
 
 **Definition:** Ensuring that information is accessible only to those authorized to have access.
 
@@ -30,7 +30,7 @@
 
 ---
 
-### Integrity
+### 🔷 Integrity
 
 **Definition:** Safeguarding the accuracy and completeness of information and processing methods.
 
@@ -55,7 +55,7 @@
 
 ---
 
-### Availability
+### 🤖 Availability
 
 **Definition:** Ensuring that authorized users have access to information and associated assets when required.
 
@@ -80,9 +80,9 @@
 
 ---
 
-## 1.2 Extended Security Concepts
+## 🔒 1.2 Extended Security Concepts
 
-### Authentication
+### 🔷 Authentication
 
 **Definition:** The process of verifying the identity of a user, device, or system.
 
@@ -101,7 +101,7 @@
 
 ---
 
-### Authorization
+### 🔷 Authorization
 
 **Definition:** The process of granting or denying access rights to authenticated users.
 
@@ -118,7 +118,7 @@
 
 ---
 
-### Non-repudiation
+### 🔷 Non-repudiation
 
 **Definition:** Ensuring that a party cannot deny having performed an action.
 
@@ -135,7 +135,7 @@
 
 ---
 
-## 1.3 Security Terminology
+## 🔒 1.3 Security Terminology
 
 | Term | Definition |
 |------|------------|
@@ -157,9 +157,9 @@ Threat → exploits → Vulnerability → on → Asset → causing → Risk
 
 ---
 
-## 1.4 Why Security Testing?
+## 🔒 1.4 Why Security Testing?
 
-### The Problem: Functional Testing Is Not Enough
+### 🔷 The Problem: Functional Testing Is Not Enough
 
 **Functional testing** asks: "Does the feature work as specified?"
 **Security testing** asks: "Can the feature be misused or bypassed?"
@@ -172,7 +172,7 @@ Threat → exploits → Vulnerability → on → Asset → causing → Risk
   - Session token prediction → should be unpredictable
   - Password in plain text → should be hashed
 
-### Consequences of Poor Security
+### 🔒 Consequences of Poor Security
 
 | Impact Type | Examples |
 |-------------|----------|
@@ -181,7 +181,7 @@ Threat → exploits → Vulnerability → on → Asset → causing → Risk
 | Legal | Lawsuits, regulatory action, criminal charges |
 | Operational | System downtime, data loss, recovery effort |
 
-### Security Testing Objectives
+### 🎯 Security Testing Objectives
 
 1. **Identify vulnerabilities** before attackers do
 2. **Verify controls** are implemented correctly
@@ -191,11 +191,11 @@ Threat → exploits → Vulnerability → on → Asset → causing → Risk
 
 ---
 
-## 1.5 OWASP Top 10 Overview
+## 🌟 1.5 OWASP Top 10 Overview
 
 The OWASP Top 10 is a standard awareness document for web application security risks.
 
-### OWASP Top 10 (2021)
+### 🔷 OWASP Top 10 (2021)
 
 | Rank | Category | Description |
 |------|----------|-------------|
@@ -214,7 +214,7 @@ The OWASP Top 10 is a standard awareness document for web application security r
 
 ---
 
-## 1.6 Security Testing vs. Functional Testing
+## 🔒 1.6 Security Testing vs. Functional Testing
 
 | Aspect | Functional Testing | Security Testing |
 |--------|-----------------|------------------|
@@ -229,9 +229,9 @@ The OWASP Top 10 is a standard awareness document for web application security r
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Mapping OWASP to CIA
+### 💡 Worked Example 1: Mapping OWASP to CIA
 
 | OWASP Category | Affected CIA Element | Why |
 |---------------|---------------------|-----|
@@ -246,7 +246,7 @@ The OWASP Top 10 is a standard awareness document for web application security r
 | Logging Failures | Non-repudiation, Availability | Incidents undetected, response delayed |
 | SSRF | Confidentiality, Integrity | Internal resources accessed or modified |
 
-### Worked Example 2: Authentication vs. Authorization
+### 💡 Worked Example 2: Authentication vs. Authorization
 
 **Scenario:** A hospital system with roles: Doctor, Nurse, Admin.
 
@@ -264,7 +264,7 @@ The OWASP Top 10 is a standard awareness document for web application security r
 
 **Key distinction:** Authentication = who are you? Authorization = what can you do?
 
-### Worked Example 3: Risk Calculation
+### 💡 Worked Example 3: Risk Calculation
 
 **Scenario:** An e-commerce site has an SQL injection vulnerability in the search function.
 

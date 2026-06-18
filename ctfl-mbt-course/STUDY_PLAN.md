@@ -1,17 +1,17 @@
-# CTFL-MBT Study Plan
+# 🗓️ CTFL-MBT Study Plan
 
-## Target
+## ⭐ Target
 
 Pass the CTFL-MBT exam with 85%+ in 2-3 weeks of focused study (8-12 hours per week).
 
-## Prerequisites
+## ⭐ Prerequisites
 
 - ISTQB CTFL v4.0 certification (mandatory)
 - Familiarity with test design techniques (state transition, decision tables)
 
 ---
 
-## Week 1: Introduction and Modeling
+## 🌟 Week 1: Introduction and Modeling
 
 | Day | Task | Time |
 |-----|------|------|
@@ -30,7 +30,7 @@ Pass the CTFL-MBT exam with 85%+ in 2-3 weeks of focused study (8-12 hours per w
 
 ---
 
-## Week 2: Execution, Tools, and Integration
+## 🛠️ Week 2: Execution, Tools, and Integration
 
 | Day | Task | Time |
 |-----|------|------|
@@ -48,7 +48,7 @@ Pass the CTFL-MBT exam with 85%+ in 2-3 weeks of focused study (8-12 hours per w
 
 ---
 
-## Week 3: Mock Exams and Final Review
+## 📝 Week 3: Mock Exams and Final Review
 
 | Day | Task | Time |
 |-----|------|------|
@@ -68,7 +68,7 @@ Pass the CTFL-MBT exam with 85%+ in 2-3 weeks of focused study (8-12 hours per w
 
 ---
 
-## Study Techniques
+## 📚 Study Techniques
 
 **Model Drawing:** Practice drawing state machines and decision tables from specifications. The exam may test your understanding of model structures.
 
@@ -78,7 +78,7 @@ Pass the CTFL-MBT exam with 85%+ in 2-3 weeks of focused study (8-12 hours per w
 
 ---
 
-## Final Motivation
+## ⭐ Final Motivation
 
 MBT is a powerful approach that improves test coverage and reduces maintenance effort. The CTFL-MBT certification validates your ability to apply models to generate tests systematically.
 

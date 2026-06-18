@@ -1,6 +1,6 @@
-# Chapter 1 — Introduction to Finance Testing: Exam Traps
+# 🪤 Chapter 1 — Introduction to Finance Testing: Exam Traps
 
-## Trap 1: Thinking Finance Testing is Just Functional Testing
+## 🪤 Trap 1: Thinking Finance Testing is Just Functional Testing
 
 **Trap:** Finance testing includes compliance, regulatory, security, and precision aspects beyond standard functional testing.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Confusing Accuracy with Precision
+## 🪤 Trap 2: Confusing Accuracy with Precision
 
 **Trap:** Accuracy = correct value. Precision = number of decimal places. A value can be precise but inaccurate.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Underestimating Regulatory Testing Scope
+## 🪤 Trap 3: Underestimating Regulatory Testing Scope
 
 **Trap:** Regulatory testing is not optional. It is mandatory and legally enforceable.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Treating Audit Trails as Optional
+## 🪤 Trap 4: Treating Audit Trails as Optional
 
 **Trap:** Financial systems require immutable audit trails by law. Transactions cannot be deleted.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Ignoring Stakeholder Diversity
+## 🪤 Trap 5: Ignoring Stakeholder Diversity
 
 **Trap:** Different stakeholders have different testing priorities. Traders care about speed; compliance officers care about accuracy and auditability.
 

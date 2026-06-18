@@ -1,6 +1,6 @@
-# Chapter 2 — Game Development Lifecycle: Exam Traps
+# 🪤 Chapter 2 — Game Development Lifecycle: Exam Traps
 
-## Trap 1: Alpha Means Feature Complete and Bug Free
+## 🪤 Trap 1: Alpha Means Feature Complete and Bug Free
 
 **Trap:** Alpha = feature complete, but with known bugs. Beta = content complete, focusing on fixes.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Testing Only Happens at the End
+## 🪤 Trap 2: Testing Only Happens at the End
 
 **Trap:** Testing must start early (prototype evaluation, build verification) to catch issues cheaply.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Live Service Games Don't Need Post-Launch Testing
+## 🪤 Trap 3: Live Service Games Don't Need Post-Launch Testing
 
 **Trap:** Live service games require ongoing testing for each update, balance change, and event.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Vertical Slice is Only for Marketing
+## 🪤 Trap 4: Vertical Slice is Only for Marketing
 
 **Trap:** Vertical slice validates production pipeline, team capability, and final quality target.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: BVT is the Same as Full Regression
+## 🪤 Trap 5: BVT is the Same as Full Regression
 
 **Trap:** BVT is a quick sanity check (minutes), not a full test pass (hours/days).
 

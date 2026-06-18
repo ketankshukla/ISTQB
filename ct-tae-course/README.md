@@ -1,10 +1,10 @@
-# CTAL-TAE — Certified Tester Advanced Level Test Automation Engineer (v4.0)
+# 🪜 CTAL-TAE — Certified Tester Advanced Level Test Automation Engineer (v4.0)
 
 Complete self-study course for the ISTQB CTAL-TAE certification exam.
 
 ---
 
-## Exam Facts
+## 🎓 Exam Facts
 
 | Parameter | Value |
 |-----------|-------|
@@ -19,7 +19,7 @@ Complete self-study course for the ISTQB CTAL-TAE certification exam.
 
 ---
 
-## Course Structure
+## ⭐ Course Structure
 
 ```
 ct-tae-course/
@@ -81,7 +81,7 @@ ct-tae-course/
 
 ---
 
-## How to Use This Course
+## ⭐ How to Use This Course
 
 1. **Start with `STUDY_PLAN.md`** — Pick the 4-week or accelerated schedule
 2. **Read chapters in order** — Each chapter builds on the previous
@@ -94,7 +94,7 @@ ct-tae-course/
 
 ---
 
-## Target Audience
+## ⭐ Target Audience
 
 - Test automation engineers seeking ISTQB certification
 - Technical testers designing or maintaining automation frameworks
@@ -104,7 +104,7 @@ ct-tae-course/
 
 ---
 
-## Key Topics Covered
+## ⭐ Key Topics Covered
 
 - **Test automation strategy** — Why, when, and what to automate
 - **Test automation architecture (TAA)** — Layers, interfaces, testware
@@ -118,7 +118,7 @@ ct-tae-course/
 
 ---
 
-## Question Bank Summary
+## ❓ Question Bank Summary
 
 | Source | Questions |
 |--------|-----------|
@@ -128,7 +128,7 @@ ct-tae-course/
 
 ---
 
-## Syllabus Coverage
+## 📊 Syllabus Coverage
 
 This course covers all learning objectives from the ISTQB CTAL-TAE v4.0 syllabus:
 
@@ -141,7 +141,7 @@ This course covers all learning objectives from the ISTQB CTAL-TAE v4.0 syllabus
 
 ---
 
-## Prerequisites
+## ⭐ Prerequisites
 
 - **CTFL (Foundation Level)** — Required for exam registration
 - **Programming fundamentals** — Familiarity with at least one programming language
@@ -150,7 +150,7 @@ This course covers all learning objectives from the ISTQB CTAL-TAE v4.0 syllabus
 
 ---
 
-## Recommended Additional Resources
+## ⭐ Recommended Additional Resources
 
 - ISTQB CTAL-TAE v4.0 syllabus (official)
 - ISTQB Glossary of Testing Terms
@@ -158,6 +158,6 @@ This course covers all learning objectives from the ISTQB CTAL-TAE v4.0 syllabus
 
 ---
 
-## Tip for Maximum Exam Success
+## 🎓 Tip for Maximum Exam Success
 
 > **Do not just read. Practice.** After each chapter, answer the practice questions without looking at the answers. Then read the rationales to understand WHY the correct answer is right and WHY the distractors are wrong. This active recall is the single most effective study technique for multiple-choice exams.

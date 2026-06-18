@@ -1,12 +1,12 @@
-# CT-AT Study Plan
+# 🗓️ CT-AT Study Plan
 
 Two study schedules: a **standard 3-week plan** for thorough preparation, and an **accelerated 1.5-week plan** for those with strong agile experience.
 
 ---
 
-## Standard Plan — 3 Weeks
+## 🗓️ Standard Plan — 3 Weeks
 
-### Week 1: Principles and Testing Mindset
+### 📜 Week 1: Principles and Testing Mindset
 
 | Day | Task | Time | Checkpoint |
 |-----|------|------|------------|
@@ -18,7 +18,7 @@ Two study schedules: a **standard 3-week plan** for thorough preparation, and an
 | Day 6 | Review Chapters 1 & 2 missed questions | 1.5 hours | Solidify weak areas |
 | Day 7 | Rest or light review of glossary terms | 30 min | — |
 
-### Week 2: Techniques and Automation
+### 🎯 Week 2: Techniques and Automation
 
 | Day | Task | Time | Checkpoint |
 |-----|------|------|------------|
@@ -30,7 +30,7 @@ Two study schedules: a **standard 3-week plan** for thorough preparation, and an
 | Day 13 | Chapter 5: `exam_traps.md` + all 20 practice questions | 1.5 hours | Tool concepts |
 | Day 14 | Rest or review glossary | 30 min | — |
 
-### Week 3: Advanced Topics, Case Studies, and Mock Exams
+### 📝 Week 3: Advanced Topics, Case Studies, and Mock Exams
 
 | Day | Task | Time | Checkpoint |
 |-----|------|------|------------|
@@ -46,7 +46,7 @@ Two study schedules: a **standard 3-week plan** for thorough preparation, and an
 
 ---
 
-## Accelerated Plan — 1.5 Weeks
+## 🗓️ Accelerated Plan — 1.5 Weeks
 
 For experienced agile testers with 2+ years in agile teams.
 
@@ -63,7 +63,7 @@ For experienced agile testers with 2+ years in agile teams.
 
 ---
 
-## Study Techniques That Work
+## 📚 Study Techniques That Work
 
 **1. Active Recall**
 After reading a section, close the file and write down what you remember. Check against the text.
@@ -82,7 +82,7 @@ After each chapter, explain the key concepts aloud as if teaching a colleague.
 
 ---
 
-## Daily Time Commitments
+## 🤖 Daily Time Commitments
 
 | Plan | Daily Average | Total Hours |
 |------|--------------|-------------|
@@ -91,7 +91,7 @@ After each chapter, explain the key concepts aloud as if teaching a colleague.
 
 ---
 
-## Exam Day Checklist
+## 🎓 Exam Day Checklist
 
 - [ ] 7+ hours of sleep the night before
 - [ ] Review `exam_traps.md` one final time
@@ -103,7 +103,7 @@ After each chapter, explain the key concepts aloud as if teaching a colleague.
 
 ---
 
-## Recommended Score Targets
+## ⭐ Recommended Score Targets
 
 | Stage | Target |
 |-------|--------|

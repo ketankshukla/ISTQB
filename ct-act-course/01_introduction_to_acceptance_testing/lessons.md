@@ -1,10 +1,10 @@
-# Chapter 1 — Introduction to Acceptance Testing: Lessons
+# 📘 Chapter 1 — Introduction to Acceptance Testing: Lessons
 
 ---
 
-## 1.1 What is Acceptance Testing?
+## 🤝 1.1 What is Acceptance Testing?
 
-### Definition
+### 🔷 Definition
 
 **Acceptance testing** is formal testing with respect to user needs, requirements, and business processes to determine whether a system satisfies the acceptance criteria and to enable users, customers, or other authorized entities to determine whether to accept the system.
 
@@ -14,7 +14,7 @@
 - **Business-oriented:** Validates business processes, not just functionality
 - **Decision-enabling:** Results inform the accept/reject decision
 
-### Primary Objectives
+### 🎯 Primary Objectives
 
 1. **Validate fitness for purpose:** Does the system do what the business needs?
 2. **Verify requirements:** Are specified requirements met?
@@ -22,7 +22,7 @@
 4. **Build confidence:** Do stakeholders trust the system for operational use?
 5. **Enable go/no-go decisions:** Should the system be accepted and deployed?
 
-### Acceptance Testing vs. Other Test Levels
+### 🪜 Acceptance Testing vs. Other Test Levels
 
 | Aspect | Unit Testing | Integration Testing | System Testing | Acceptance Testing |
 |--------|------------|---------------------|----------------|-------------------|
@@ -40,9 +40,9 @@
 
 ---
 
-## 1.2 Types of Acceptance Testing
+## 🧪 1.2 Types of Acceptance Testing
 
-### User Acceptance Testing (UAT)
+### 🤝 User Acceptance Testing (UAT)
 
 **Definition:** Testing performed by users or business representatives to verify that a system meets business requirements.
 
@@ -59,7 +59,7 @@
 4. Generating a reorder report
 5. Confirming the workflow matches their daily operations
 
-### Operational Acceptance Testing (OAT)
+### 🤝 Operational Acceptance Testing (OAT)
 
 **Definition:** Testing to determine whether a system is ready for operational use, focusing on operational aspects.
 
@@ -79,7 +79,7 @@
 - Do monitoring alerts trigger correctly when CPU exceeds 80%?
 - Can new users be provisioned using the documented procedure?
 
-### Contract Acceptance Testing (CAT)
+### 🤝 Contract Acceptance Testing (CAT)
 
 **Definition:** Acceptance testing performed to verify that a system meets contractual requirements.
 
@@ -89,7 +89,7 @@
 - Deliverable completeness
 - Supplier obligations
 
-### Regulation Acceptance Testing (RAT)
+### 🤝 Regulation Acceptance Testing (RAT)
 
 **Definition:** Acceptance testing performed to verify compliance with laws, regulations, and standards.
 
@@ -99,7 +99,7 @@
 - Accessibility requirements
 - Data protection requirements
 
-### Alpha Testing
+### 🔷 Alpha Testing
 
 **Definition:** Acceptance testing performed by developers or an internal test team at the developer's site.
 
@@ -109,7 +109,7 @@
 - Internal users or test team
 - Issues can be quickly addressed
 
-### Beta Testing
+### 🔷 Beta Testing
 
 **Definition:** Acceptance testing performed by potential or existing users at their own locations.
 
@@ -126,13 +126,13 @@
 
 ---
 
-## 1.3 Acceptance Criteria
+## ✅ 1.3 Acceptance Criteria
 
-### Definition
+### 🔷 Definition
 
 **Acceptance criteria** are the defined requirements that must be met for a work product to be accepted by a user, customer, or other authorized entity.
 
-### Characteristics of Good Acceptance Criteria
+### ✅ Characteristics of Good Acceptance Criteria
 
 1. **Testable:** Can be verified through testing or inspection
 2. **Clear and unambiguous:** All stakeholders interpret them the same way
@@ -140,7 +140,7 @@
 4. **Specific:** Include measurable thresholds where possible
 5. **Realistic:** Achievable within project constraints
 
-### Acceptance Criteria Formats
+### ✅ Acceptance Criteria Formats
 
 **Scenario-based (BDD style):**
 ```
@@ -173,7 +173,7 @@ Then the order is confirmed and they receive an email within 5 minutes
 - Returns accepted within 30 days
 ```
 
-### Acceptance Criteria vs. System Requirements
+### ✅ Acceptance Criteria vs. System Requirements
 
 | Aspect | System Requirements | Acceptance Criteria |
 |--------|-------------------|---------------------|
@@ -185,9 +185,9 @@ Then the order is confirmed and they receive an email within 5 minutes
 
 ---
 
-## 1.4 Stakeholders in Acceptance Testing
+## 🤝 1.4 Stakeholders in Acceptance Testing
 
-### Key Stakeholders
+### 🔷 Key Stakeholders
 
 **Business Representatives:**
 - Product owners
@@ -212,7 +212,7 @@ Then the order is confirmed and they receive an email within 5 minutes
 
 **Role:** Approve resources, make go/no-go decisions, manage risks.
 
-### Stakeholder Responsibilities
+### 🔷 Stakeholder Responsibilities
 
 | Stakeholder | Acceptance Testing Responsibilities |
 |-------------|-------------------------------------|
@@ -225,9 +225,9 @@ Then the order is confirmed and they receive an email within 5 minutes
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Acceptance Testing Types Selection
+### 💡 Worked Example 1: Acceptance Testing Types Selection
 
 **Scenario:** A new mobile banking app is being developed.
 
@@ -240,7 +240,7 @@ Then the order is confirmed and they receive an email within 5 minutes
 | CAT | Before go-live | Legal + procurement | Verify contract deliverables and SLAs |
 | RAT | Before go-live | Compliance officer | Verify banking regulations and GDPR compliance |
 
-### Worked Example 2: Writing Acceptance Criteria
+### 💡 Worked Example 2: Writing Acceptance Criteria
 
 **User Story:** "As a customer, I want to track my order so that I know when it will arrive."
 
@@ -270,7 +270,7 @@ When they have 50+ orders
 Then the orders are paginated with 10 per page
 ```
 
-### Worked Example 3: Acceptance vs. System Testing
+### 💡 Worked Example 3: Acceptance vs. System Testing
 
 **Scenario:** A hotel booking system.
 

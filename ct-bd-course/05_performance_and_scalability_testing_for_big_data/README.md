@@ -1,6 +1,6 @@
-# Chapter 5 — Performance and Scalability Testing for Big Data
+# ⚡ Chapter 5 — Performance and Scalability Testing for Big Data
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~15% (~6 questions out of 40)
 - **K-levels:** K2 (understand), K3 (apply)
@@ -8,7 +8,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -20,7 +20,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts
+## ⭐ Key Concepts
 
 - Throughput (records/second, GB/hour)
 - Latency (ingestion latency, query latency)

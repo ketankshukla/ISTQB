@@ -1,10 +1,10 @@
-# Chapter 6 — Transitioning and Maintaining Test Automation: Lessons
+# 📘 Chapter 6 — Transitioning and Maintaining Test Automation: Lessons
 
 ---
 
-## 6.1 Transitioning from Manual to Automated Testing
+## ⚙️ 6.1 Transitioning from Manual to Automated Testing
 
-### Transition Strategies
+### 🔷 Transition Strategies
 
 **1. Greenfield (Start Fresh):**
 - New project or feature — automation is built from the start
@@ -22,7 +22,7 @@
 - Must maintain old TAS during transition
 - **Best for:** Legacy automation that is too expensive to maintain
 
-### Transition Activities
+### 🔷 Transition Activities
 
 **1. Assessment:**
 - Inventory existing manual tests and identify automation candidates
@@ -53,7 +53,7 @@
 - Monitor adoption and metrics
 - Provide ongoing support
 
-### Managing Dual Maintenance
+### 🤖 Managing Dual Maintenance
 
 During transition, both manual and automated tests may need to be maintained:
 
@@ -70,9 +70,9 @@ During transition, both manual and automated tests may need to be maintained:
 
 ---
 
-## 6.2 Types of Maintenance
+## 🧪 6.2 Types of Maintenance
 
-### 1. Corrective Maintenance
+### 🤖 1. Corrective Maintenance
 
 **Definition:** Fixing defects in the TAS (test scripts, framework, or infrastructure).
 
@@ -94,7 +94,7 @@ During transition, both manual and automated tests may need to be maintained:
 - Proper error handling and logging
 - Stable test environments
 
-### 2. Adaptive Maintenance
+### 🤖 2. Adaptive Maintenance
 
 **Definition:** Modifying the TAS to accommodate changes in the SUT or environment.
 
@@ -117,7 +117,7 @@ During transition, both manual and automated tests may need to be maintained:
 - API versioning strategies
 - Configuration externalization
 
-### 3. Perfective Maintenance
+### 🤖 3. Perfective Maintenance
 
 **Definition:** Improving the TAS to enhance performance, maintainability, or capability.
 
@@ -141,7 +141,7 @@ During transition, both manual and automated tests may need to be maintained:
 - Technical debt tracking and management
 - Architecture reviews
 
-### Maintenance Effort Distribution
+### 🤖 Maintenance Effort Distribution
 
 | Type | Typical % of Maintenance Effort | Proactive Prevention |
 |------|--------------------------------|---------------------|
@@ -153,9 +153,9 @@ During transition, both manual and automated tests may need to be maintained:
 
 ---
 
-## 6.3 Retirement Criteria
+## ✅ 6.3 Retirement Criteria
 
-### When to Retire a Test
+### 🔷 When to Retire a Test
 
 **1. Feature Removed:**
 - The functionality the test verifies no longer exists
@@ -180,7 +180,7 @@ During transition, both manual and automated tests may need to be maintained:
 - The area it tests is very stable and low-risk
 - Consider reducing execution frequency, not necessarily deleting
 
-### When to Retire a TAS
+### 🔷 When to Retire a TAS
 
 **1. Technology Obsolescence:**
 - The tool or framework is no longer supported
@@ -202,7 +202,7 @@ During transition, both manual and automated tests may need to be maintained:
 - The current TAS was built on outdated assumptions
 - Cloud-native or AI-based solutions replace the current approach
 
-### Retirement Process
+### 🔷 Retirement Process
 
 **1. Assessment:**
 - Document what the test/TAS covers
@@ -226,9 +226,9 @@ During transition, both manual and automated tests may need to be maintained:
 
 ---
 
-## 6.4 Managing Legacy Automation
+## ⚙️ 6.4 Managing Legacy Automation
 
-### What Is Legacy Automation?
+### ⚙️ What Is Legacy Automation?
 
 An existing automated test suite that:
 - Uses outdated tools or frameworks
@@ -236,7 +236,7 @@ An existing automated test suite that:
 - Has poor coverage or low trust
 - Was created without modern best practices
 
-### Legacy Automation Challenges
+### ⚙️ Legacy Automation Challenges
 
 **1. Brittle Tests:**
 - Break frequently with SUT changes
@@ -263,7 +263,7 @@ An existing automated test suite that:
 - Critical features are not tested
 - High execution cost, low defect detection
 
-### Legacy Remediation Strategies
+### 🔷 Legacy Remediation Strategies
 
 **Strategy 1: Incremental Refactoring**
 - Gradually refactor tests while maintaining execution
@@ -287,7 +287,7 @@ An existing automated test suite that:
 - Build new TAS from scratch
 - **Best for:** Very small legacy suites or complete technology change
 
-### Decision Criteria for Remediation Strategy
+### ♟️ Decision Criteria for Remediation Strategy
 
 | Factor | Refactor | Parallel | Selective | Rewrite |
 |--------|----------|----------|-----------|---------|
@@ -299,9 +299,9 @@ An existing automated test suite that:
 
 ---
 
-## 6.5 Team Skills and Responsibilities for Maintenance
+## 🤖 6.5 Team Skills and Responsibilities for Maintenance
 
-### Required Skills
+### 🔷 Required Skills
 
 **1. Debugging:**
 - Analyze test failures to determine root cause (SUT defect, script error, environment issue)
@@ -328,7 +328,7 @@ An existing automated test suite that:
 - Identify which failures are critical
 - Design realistic test scenarios
 
-### Maintenance Responsibilities
+### 🤖 Maintenance Responsibilities
 
 | Role | Maintenance Responsibility |
 |------|---------------------------|
@@ -338,7 +338,7 @@ An existing automated test suite that:
 | DevOps Engineer | CI/CD pipeline maintenance, environment provisioning, execution infrastructure |
 | Test Manager | Maintenance prioritization, resource allocation, metric tracking |
 
-### Maintenance Planning
+### 🗓️ Maintenance Planning
 
 **Sprint-Level Maintenance:**
 - Reserve 20-30% of automation capacity for maintenance
@@ -357,9 +357,9 @@ An existing automated test suite that:
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Transition Planning
+### 💡 Worked Example 1: Transition Planning
 
 **Scenario:** A 10-person QA team currently does 100% manual testing. They want to automate the regression suite for a web application.
 
@@ -385,7 +385,7 @@ An existing automated test suite that:
 - Full regression: 1 day manual + 2 hours automated
 - Regression effort reduced from 8,000 to ~2,500 hours
 
-### Worked Example 2: Maintenance Classification
+### 💡 Worked Example 2: Maintenance Classification
 
 **Scenario:** Classify the following maintenance activities:
 
@@ -398,7 +398,7 @@ An existing automated test suite that:
 | Add parallel test execution to reduce suite time | Perfective | Improves performance |
 | Fix a framework bug that causes false negatives | Corrective | Fixes a TAS defect |
 
-### Worked Example 3: Retirement Decision
+### 💡 Worked Example 3: Retirement Decision
 
 **Scenario:** A team has a UI test for a "print shipping label" feature.
 

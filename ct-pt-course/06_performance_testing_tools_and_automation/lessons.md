@@ -1,10 +1,10 @@
-# Chapter 6 — Performance Testing Tools and Automation: Lessons
+# 📘 Chapter 6 — Performance Testing Tools and Automation: Lessons
 
 ---
 
-## 6.1 Categories of Performance Testing Tools
+## 🛠️ 6.1 Categories of Performance Testing Tools
 
-### Commercial Tools
+### 🛠️ Commercial Tools
 
 **Characteristics:**
 - Licensed (perpetual or subscription)
@@ -39,7 +39,7 @@
 - Strong protocol support
 - Integrated with Silk Test for functional testing
 
-### Open-Source Tools
+### 🛠️ Open-Source Tools
 
 **Characteristics:**
 - Free to use
@@ -89,7 +89,7 @@
 - Strength: Can generate massive load from few machines
 - Weakness: Less intuitive than modern tools
 
-### Cloud-Based Performance Testing Services
+### ⚡ Cloud-Based Performance Testing Services
 
 **Characteristics:**
 - Load generation from cloud infrastructure
@@ -126,9 +126,9 @@
 
 ---
 
-## 6.2 Scripting Approaches
+## ⭐ 6.2 Scripting Approaches
 
-### Recording vs. Hand-Coding
+### 🔷 Recording vs. Hand-Coding
 
 **Recording:**
 - Capture user actions in a browser or application
@@ -174,7 +174,7 @@
 - Record complex UI flows, then clean up and parameterize
 - Hand-code API and simple scenarios
 
-### Parameterization
+### 🔷 Parameterization
 
 **Definition:** Using variable data instead of hard-coded values in test scripts.
 
@@ -196,7 +196,7 @@ Use: username = ${random_username}, search = ${random_product}
 - Random generators (random numbers, dates)
 - Tool built-in functions (UUID, timestamp)
 
-### Correlation
+### 🔷 Correlation
 
 **Definition:** Extracting dynamic values from server responses and using them in subsequent requests.
 
@@ -220,7 +220,7 @@ Step 2: Search request
 3. Store in a variable
 4. Use the variable in subsequent requests
 
-### Think Time Implementation
+### 🔷 Think Time Implementation
 
 **Fixed Think Time:**
 ```
@@ -240,9 +240,9 @@ Wait with mean=10s, standard_deviation=3s
 
 ---
 
-## 6.3 CI/CD Integration
+## 🔗 6.3 CI/CD Integration
 
-### Performance Gates
+### ⚡ Performance Gates
 
 **Definition:** Automated checks in the CI/CD pipeline that prevent deployment if performance degrades.
 
@@ -258,7 +258,7 @@ performance_gate:
     fail_pipeline("Throughput degradation detected")
 ```
 
-### Integration Approaches
+### 🔗 Integration Approaches
 
 **Pipeline Stage:**
 ```
@@ -271,7 +271,7 @@ Build → Unit Tests → Integration Tests → Performance Tests → Security Sc
 - **Per-commit:** Run smoke performance test (small load) on every commit
 - **Pre-release:** Run full suite before production deployment
 
-### Trend Analysis in CI/CD
+### 🔬 Trend Analysis in CI/CD
 
 **Store Baseline Results:**
 - Keep historical performance results
@@ -288,7 +288,7 @@ Trend: +25% vs previous, +50% vs baseline
 Action: FAIL pipeline, require investigation
 ```
 
-### Reporting in CI/CD
+### 📝 Reporting in CI/CD
 
 **Automated Reports:**
 - Publish HTML reports to artifact storage
@@ -298,9 +298,9 @@ Action: FAIL pipeline, require investigation
 
 ---
 
-## 6.4 Cloud-Based Testing
+## ⭐ 6.4 Cloud-Based Testing
 
-### Benefits
+### 🔷 Benefits
 
 **On-Demand Scaling:**
 - Generate load from hundreds of locations
@@ -321,7 +321,7 @@ Action: FAIL pipeline, require investigation
 - Traffic from real ISP networks
 - Tests include real-world network conditions
 
-### Challenges
+### 🔷 Challenges
 
 **Security:**
 - Sending traffic over the internet to your system
@@ -342,7 +342,7 @@ Action: FAIL pipeline, require investigation
 - Test scripts and results transferred to/from cloud
 - Large result files may take time to download
 
-### When to Use Cloud Testing
+### 🔷 When to Use Cloud Testing
 
 **Best For:**
 - Tests requiring geographic distribution
@@ -357,9 +357,9 @@ Action: FAIL pipeline, require investigation
 
 ---
 
-## 6.5 Tool Selection
+## 🛠️ 6.5 Tool Selection
 
-### Selection Criteria
+### ✅ Selection Criteria
 
 **Protocol Support:**
 - Does the tool support your application's protocols?
@@ -390,7 +390,7 @@ Action: FAIL pipeline, require investigation
 - Training cost
 - Maintenance cost
 
-### Tool Comparison Matrix
+### 🛠️ Tool Comparison Matrix
 
 | Tool | Type | Best For | Protocols | Scalability | Cost |
 |------|------|----------|-----------|-------------|------|
@@ -403,9 +403,9 @@ Action: FAIL pipeline, require investigation
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Scripting with Correlation
+### 💡 Worked Example 1: Scripting with Correlation
 
 **Scenario:** Test a web application login flow.
 
@@ -438,7 +438,7 @@ GET /dashboard
 
 **Result:** Each virtual user gets unique tokens and sessions.
 
-### Worked Example 2: CI/CD Performance Gate
+### 💡 Worked Example 2: CI/CD Performance Gate
 
 **Scenario:** Integrate performance testing into a Jenkins pipeline.
 
@@ -470,7 +470,7 @@ stage('Performance Test') {
 }
 ```
 
-### Worked Example 3: Cloud Testing Cost Calculation
+### 💡 Worked Example 3: Cloud Testing Cost Calculation
 
 **Scenario:** Run a peak load test requiring 50,000 concurrent users for 1 hour.
 

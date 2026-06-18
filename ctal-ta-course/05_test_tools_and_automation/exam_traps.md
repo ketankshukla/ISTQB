@@ -1,6 +1,6 @@
-# Chapter 5 — Test Tools and Automation: Exam Traps
+# 🪤 Chapter 5 — Test Tools and Automation: Exam Traps
 
-## Trap 1: Thinking Test Automation Replaces All Manual Testing
+## 🪤 Trap 1: Thinking Test Automation Replaces All Manual Testing
 
 **Trap:** Automation finds regressions; it does not replace exploratory testing, usability testing, or one-time testing.
 
@@ -22,7 +22,7 @@
 
 ---
 
-## Trap 2: Confusing Data-Driven and Keyword-Driven Frameworks
+## 🪤 Trap 2: Confusing Data-Driven and Keyword-Driven Frameworks
 
 **Trap:** Data-driven separates test data from scripts. Keyword-driven uses action keywords in a table format.
 
@@ -44,7 +44,7 @@
 
 ---
 
-## Trap 3: Underestimating Automation Maintenance
+## 🪤 Trap 3: Underestimating Automation Maintenance
 
 **Trap:** Maintenance is typically 20-50% of initial effort per release but is often underestimated.
 
@@ -66,7 +66,7 @@
 
 ---
 
-## Trap 4: Thinking Capture/Replay Is Sustainable for Long-Term Automation
+## 🪤 Trap 4: Thinking Capture/Replay Is Sustainable for Long-Term Automation
 
 **Trap:** Record and playback creates brittle scripts that break easily.
 
@@ -88,7 +88,7 @@
 
 ---
 
-## Trap 5: Confusing Static Analysis with Dynamic Testing
+## 🪤 Trap 5: Confusing Static Analysis with Dynamic Testing
 
 **Trap:** Static analysis examines code without execution. Dynamic testing requires execution.
 
@@ -110,7 +110,7 @@
 
 ---
 
-## Trap 6: Thinking Tool Selection Is Only About Features
+## 🪤 Trap 6: Thinking Tool Selection Is Only About Features
 
 **Trap:** Technical fit, organizational fit, vendor stability, and cost are all important.
 
@@ -132,7 +132,7 @@
 
 ---
 
-## Trap 7: Forgetting that ROI May Be Negative Initially
+## 🪤 Trap 7: Forgetting that ROI May Be Negative Initially
 
 **Trap:** Automation ROI is typically negative in year 1 due to high initial development costs.
 
@@ -154,7 +154,7 @@
 
 ---
 
-## Trap 8: Thinking One Tool Does Everything
+## 🪤 Trap 8: Thinking One Tool Does Everything
 
 **Trap:** Organizations typically need a toolchain, not a single tool.
 

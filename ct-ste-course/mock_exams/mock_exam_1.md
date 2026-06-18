@@ -1,10 +1,10 @@
-# CT-STE Mock Exam 1
+# 📝 CT-STE Mock Exam 1
 
 **Instructions:** 40 questions, 60 minutes, single best answer.
 
 ---
 
-### Q1-Q10
+### 🔷 Q1-Q10
 
 1. Security testing: A) Only functional B) Vulnerabilities + controls C) Only performance D) Only usability — **Vulnerabilities + controls**
 2. CIA triad missing: A) Confidentiality B) Integrity C) Availability D) Scalability — **Scalability**
@@ -19,7 +19,7 @@
 
 ---
 
-### Q11-Q20
+### 🔷 Q11-Q20
 
 11. Risk: A) Threat + Vuln B) Threat × Vuln × Impact C) Impact only D) Threat only — **Threat × Vuln × Impact**
 12. Scope: A) Equal all B) Risk + sensitivity + compliance C) Only budget D) Only preference — **Risk + sensitivity + compliance**
@@ -34,7 +34,7 @@
 
 ---
 
-### Q21-Q30
+### 🔷 Q21-Q30
 
 21. SAST: A) Running app B) Source code C) Only network D) Only DB — **Source code**
 22. DAST: A) Source code B) Running app C) Only docs D) Only unit tests — **Running app**
@@ -49,7 +49,7 @@
 
 ---
 
-### Q31-Q40
+### 🔷 Q31-Q40
 
 31. Shift-left: A) Only before release B) Early in SDLC C) Only production D) Only manual — **Early in SDLC**
 32. SCA frequency: A) Only yearly B) Every commit/change C) Only before release D) Only manual — **Every commit/change**
@@ -64,4 +64,4 @@
 
 ---
 
-## End of Mock Exam 1
+## 📝 End of Mock Exam 1

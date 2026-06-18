@@ -1,6 +1,6 @@
-# Case Study 2 — Risk-Based Testing
+# 📂 Case Study 2 — Risk-Based Testing
 
-## Context
+## ⭐ Context
 
 You are the Test Manager for PayFast, a fintech startup launching a new mobile payment app. The app allows users to:
 - Link bank accounts and credit cards
@@ -10,7 +10,7 @@ You are the Test Manager for PayFast, a fintech startup launching a new mobile p
 
 The app must comply with PCI DSS (Payment Card Industry Data Security Standard). The CEO wants to launch in 4 months.
 
-## Current Situation
+## ⭐ Current Situation
 
 - Development is 60% complete
 - First internal build available for testing
@@ -18,7 +18,7 @@ The app must comply with PCI DSS (Payment Card Industry Data Security Standard).
 - You have 2 testers and 1 automation engineer
 - Previous testing found 47 defects, mostly UI-related
 
-## Task 1: Risk Identification
+## ⚠️ Task 1: Risk Identification
 
 **Question:** Identify product risks for the PayFast app and categorize them.
 
@@ -41,7 +41,7 @@ The app must comply with PCI DSS (Payment Card Industry Data Security Standard).
 
 ---
 
-## Task 2: Risk Assessment
+## ⚠️ Task 2: Risk Assessment
 
 **Question:** Assess likelihood and impact for each risk. Which 5 risks should receive the MOST testing effort?
 
@@ -69,7 +69,7 @@ The app must comply with PCI DSS (Payment Card Industry Data Security Standard).
 
 ---
 
-## Task 3: Risk-Based Test Planning
+## ⚠️ Task 3: Risk-Based Test Planning
 
 **Question:** Given your limited resources (2 testers + 1 automation engineer, 4 months), how would you allocate testing effort?
 
@@ -94,7 +94,7 @@ The app must comply with PCI DSS (Payment Card Industry Data Security Standard).
 
 ---
 
-## Task 4: Monitoring and Control
+## ⭐ Task 4: Monitoring and Control
 
 **Question:** You are halfway through the test execution phase. The following metrics are observed:
 

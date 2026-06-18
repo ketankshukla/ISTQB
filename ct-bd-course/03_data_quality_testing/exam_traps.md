@@ -1,6 +1,6 @@
-# Chapter 3 — Data Quality Testing: Exam Traps
+# 🪤 Chapter 3 — Data Quality Testing: Exam Traps
 
-## Trap 1: Confusing Data Quality Dimensions
+## 🪤 Trap 1: Confusing Data Quality Dimensions
 
 **Trap:** Completeness, accuracy, consistency, timeliness, validity, and uniqueness have distinct meanings. Exams test whether you can match the right dimension to a scenario.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Expecting 100% Data Quality Always
+## 🪤 Trap 2: Expecting 100% Data Quality Always
 
 **Trap:** Big Data often accepts less than perfect quality. The key is defining acceptable thresholds and handling bad data gracefully.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Confusing Data Profiling with Data Testing
+## 🪤 Trap 3: Confusing Data Profiling with Data Testing
 
 **Trap:** Profiling discovers data characteristics; testing validates against rules. They are complementary but different activities.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Testing Cleansing Without Testing Good Data Preservation
+## 🪤 Trap 4: Testing Cleansing Without Testing Good Data Preservation
 
 **Trap:** Cleansing tests must verify that bad data is fixed AND that good data is not corrupted.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Ignoring Cross-System Consistency
+## 🪤 Trap 5: Ignoring Cross-System Consistency
 
 **Trap:** Data may be valid in one system but inconsistent with another. Testing must validate across system boundaries.
 

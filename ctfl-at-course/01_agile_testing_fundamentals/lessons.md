@@ -1,10 +1,10 @@
-# Chapter 1 — Agile Testing Fundamentals: Lessons
+# 📘 Chapter 1 — Agile Testing Fundamentals: Lessons
 
 ---
 
-## 1.1 Agile Software Development
+## 🏃 1.1 Agile Software Development
 
-### What is Agile Software Development?
+### 🏃 What is Agile Software Development?
 
 Agile software development is an approach where requirements and solutions evolve through the collaborative effort of self-organizing and cross-functional teams. It promotes adaptive planning, evolutionary development, early delivery, and continuous improvement.
 
@@ -39,9 +39,9 @@ Agile software development is an approach where requirements and solutions evolv
 
 ---
 
-## 1.2 The Agile Manifesto
+## 🏃 1.2 The Agile Manifesto
 
-### The Four Values
+### 🔷 The Four Values
 
 The Agile Manifesto (2001) declares four values that prioritize certain aspects of software development:
 
@@ -76,9 +76,9 @@ The Agile Manifesto (2001) declares four values that prioritize certain aspects 
 
 ---
 
-## 1.3 Principles of Agile Software Development
+## 📜 1.3 Principles of Agile Software Development
 
-### The Twelve Principles
+### 📜 The Twelve Principles
 
 The Agile Manifesto includes 12 supporting principles. For the exam, you need to understand how each principle relates to testing.
 
@@ -120,9 +120,9 @@ The Agile Manifesto includes 12 supporting principles. For the exam, you need to
 
 ---
 
-## 1.4 Testing in an Agile Project
+## 🏃 1.4 Testing in an Agile Project
 
-### The Whole-Team Approach
+### 🔷 The Whole-Team Approach
 
 In agile, **quality is the responsibility of the whole team**, not just testers. Everyone contributes to testing:
 
@@ -137,7 +137,7 @@ In agile, **quality is the responsibility of the whole team**, not just testers.
 - Testing is less important (false — testing is more integrated and continuous)
 - Testers should become developers (false — testers contribute testing expertise)
 
-### Testing Activities in an Agile Sprint
+### 🏃 Testing Activities in an Agile Sprint
 
 | Sprint Phase | Testing Activities |
 |-------------|-------------------|
@@ -148,7 +148,7 @@ In agile, **quality is the responsibility of the whole team**, not just testers.
 | Sprint Review | Demo completed features, perform acceptance testing with stakeholders |
 | Sprint Retrospective | Reflect on testing effectiveness, identify improvements |
 
-### Test Levels in Agile
+### 🪜 Test Levels in Agile
 
 Unlike traditional development where test levels are sequential phases, **all test levels occur in every agile sprint:**
 
@@ -159,7 +159,7 @@ Unlike traditional development where test levels are sequential phases, **all te
 
 **Key difference:** In agile, these levels are not phases — they are continuous activities that happen throughout the sprint.
 
-### Early and Continuous Testing
+### 🔷 Early and Continuous Testing
 
 **Why test early?**
 - Defects found early are cheaper to fix.
@@ -171,7 +171,7 @@ Unlike traditional development where test levels are sequential phases, **all te
 - The system is always in a known, tested state.
 - Reduces the risk of a "big bang" integration at sprint end.
 
-### Independent Testing vs. Team-Based Testing
+### 🔷 Independent Testing vs. Team-Based Testing
 
 | Aspect | Independent Testing | Team-Based Testing (Agile) |
 |--------|---------------------|---------------------------|
@@ -191,9 +191,9 @@ Unlike traditional development where test levels are sequential phases, **all te
 
 ---
 
-## 1.5 The Role of the Tester in an Agile Team
+## 🏃 1.5 The Role of the Tester in an Agile Team
 
-### What Does an Agile Tester Do?
+### 🏃 What Does an Agile Tester Do?
 
 The agile tester is **not** just someone who executes tests at the end of development. The role is much broader:
 
@@ -222,7 +222,7 @@ The agile tester is **not** just someone who executes tests at the end of develo
 - Builds and maintains test automation frameworks
 - Integrates tests into CI/CD pipelines
 
-### Skills of an Agile Tester
+### 🏃 Skills of an Agile Tester
 
 - **Testing expertise:** Test design techniques, exploratory testing, risk-based testing
 - **Technical skills:** Test automation, CI/CD, basic programming
@@ -231,7 +231,7 @@ The agile tester is **not** just someone who executes tests at the end of develo
 - **Adaptability:** Responding to changing requirements and priorities
 - **Coach/mentor:** Helping the team improve its quality practices
 
-### Tester-Developer Collaboration
+### 🔷 Tester-Developer Collaboration
 
 In agile, testers and developers collaborate closely:
 
@@ -240,7 +240,7 @@ In agile, testers and developers collaborate closely:
 - **Clarifying:** Developers ask testers about edge cases; testers ask developers about implementation details.
 - **Testing together:** Both test the feature before declaring it done.
 
-### Tester-Business Representative Collaboration
+### 🔷 Tester-Business Representative Collaboration
 
 Testers also collaborate closely with product owners and business analysts:
 
@@ -251,9 +251,9 @@ Testers also collaborate closely with product owners and business analysts:
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Applying Agile Values
+### 💡 Worked Example 1: Applying Agile Values
 
 **Scenario:** A traditional test manager insists on a 50-page test plan before any testing can begin in a new agile project.
 
@@ -265,7 +265,7 @@ Testers also collaborate closely with product owners and business analysts:
 - The team should value "individuals and interactions" by discussing test approach face-to-face rather than routing everything through a formal document.
 - The team should value "responding to change" by accepting that detailed plans will become outdated as requirements evolve.
 
-### Worked Example 2: Whole-Team Approach
+### 💡 Worked Example 2: Whole-Team Approach
 
 **Scenario:** A Scrum team has 4 developers, 1 tester, and 1 product owner. The developers say: "Testing is the tester's job. We write code; the tester finds the bugs."
 
@@ -277,7 +277,7 @@ Testers also collaborate closely with product owners and business analysts:
 - The tester should explain that their role is to guide quality practices, design acceptance tests, perform exploratory testing, and coach the team — not to be the sole quality gatekeeper.
 - The Scrum Master should facilitate a discussion about shared quality responsibility, perhaps using the Definition of Done to make quality expectations explicit for everyone.
 
-### Worked Example 3: Test Levels in Agile
+### 💡 Worked Example 3: Test Levels in Agile
 
 **Scenario:** A team transitioning to agile asks: "In our old waterfall process, we had a dedicated system testing phase after development. In Scrum, when does system testing happen?"
 

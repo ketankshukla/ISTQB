@@ -1,14 +1,14 @@
-# Chapter 2 — Test Management: Lessons
+# 📘 Chapter 2 — Test Management: Lessons
 
 ---
 
-## 2.1 Test Organization
+## ⭐ 2.1 Test Organization
 
-### Why Test Organization Matters
+### 🔷 Why Test Organization Matters
 
 The way a testing team is organized affects objectivity, communication, efficiency, and the quality of the testing performed. Test managers must understand the trade-offs of different organizational models.
 
-### Types of Test Organization
+### 🧪 Types of Test Organization
 
 **1. Independent Testing**
 
@@ -70,7 +70,7 @@ The way a testing team is organized affects objectivity, communication, efficien
 - Testers may be pulled between multiple projects
 - More complex management structure
 
-### Choosing the Right Organization
+### 🔷 Choosing the Right Organization
 
 | Factor | Independent | Integrated | Matrix |
 |--------|------------|-----------|--------|
@@ -81,7 +81,7 @@ The way a testing team is organized affects objectivity, communication, efficien
 | Collaboration | May be weaker | Strong | Medium |
 | Scalability | Good | Limited | Good |
 
-### Test Manager's Role in Organization
+### 🗂️ Test Manager's Role in Organization
 
 The test manager is responsible for:
 - Defining the test organization structure
@@ -93,9 +93,9 @@ The test manager is responsible for:
 
 ---
 
-## 2.2 Test Estimation
+## 🔢 2.2 Test Estimation
 
-### Why Estimation Is Critical
+### 🔢 Why Estimation Is Critical
 
 Test estimation affects:
 - Project scheduling and resource allocation
@@ -107,7 +107,7 @@ Test estimation affects:
 - Over-optimistic: testing is rushed, quality suffers
 - Over-pessimistic: unnecessary cost and schedule padding
 
-### Estimation Techniques
+### 🎯 Estimation Techniques
 
 **1. Bottom-Up Estimation**
 
@@ -206,7 +206,7 @@ Total Effort = Σ (Effort for each task)
 
 **Risk:** Highly dependent on individual experience; may not account for new risks.
 
-### Factors Affecting Test Estimation
+### 🔢 Factors Affecting Test Estimation
 
 1. **Scope of testing:** More test levels = more effort
 2. **Test types:** Non-functional testing (performance, security) often takes more effort
@@ -219,7 +219,7 @@ Total Effort = Σ (Effort for each task)
 9. **Regression needs:** Frequent changes = more regression testing
 10. **Documentation quality:** Good requirements reduce analysis effort
 
-### Estimation Contingency
+### 🔢 Estimation Contingency
 
 **Contingency:** Additional effort added to account for uncertainty.
 
@@ -234,15 +234,15 @@ Total Effort = Σ (Effort for each task)
 
 ---
 
-## 2.3 Risk-Based Testing
+## ⚠️ 2.3 Risk-Based Testing
 
-### What Is Risk-Based Testing?
+### ⚠️ What Is Risk-Based Testing?
 
 Risk-based testing (RBT) is an approach to testing that prioritizes test design, implementation, and execution based on the assessed risk of failure and the impact of that failure.
 
 **Key principle:** Test more where the risk is higher.
 
-### Risk Identification
+### ⚠️ Risk Identification
 
 **Product Risks (What could go wrong with the product?):**
 - Functional failures (system does not do what it should)
@@ -269,7 +269,7 @@ Risk-based testing (RBT) is an approach to testing that prioritizes test design,
 - Historical data analysis
 - Risk workshops
 
-### Risk Assessment
+### ⚠️ Risk Assessment
 
 **Two dimensions:**
 1. **Likelihood (Probability):** How likely is the risk to occur?
@@ -292,7 +292,7 @@ Risk-based testing (RBT) is an approach to testing that prioritizes test design,
 | Search returns wrong results | 3 | 3 | 9 |
 | Report formatting incorrect | 3 | 2 | 6 |
 
-### Risk Mitigation through Testing
+### ⚠️ Risk Mitigation through Testing
 
 **Mitigation Strategies:**
 1. **Test more for high-risk areas:**
@@ -319,7 +319,7 @@ Risk-based testing (RBT) is an approach to testing that prioritizes test design,
    - For low-priority, low-impact items
    - With management approval
 
-### Risk-Based Test Prioritization
+### ⚠️ Risk-Based Test Prioritization
 
 **Process:**
 1. Identify all test conditions
@@ -340,9 +340,9 @@ Risk-based testing (RBT) is an approach to testing that prioritizes test design,
 
 ---
 
-## 2.4 Defect Management
+## 🐞 2.4 Defect Management
 
-### Defect Lifecycle
+### 🐞 Defect Lifecycle
 
 A typical defect lifecycle:
 
@@ -365,7 +365,7 @@ A typical defect lifecycle:
 - **Cannot Reproduce:** Developer cannot reproduce the issue
 - **Reopen:** Fix did not resolve the defect
 
-### Defect Classification
+### 🐞 Defect Classification
 
 **Severity (Technical Impact):**
 - **Critical:** System crash, data loss, security breach
@@ -387,7 +387,7 @@ A typical defect lifecycle:
 - A misspelled company name on the home page: low severity (cosmetic) but high priority (customer-facing, embarrassing)
 - A memory leak that causes a crash after 24 hours: high severity (crash) but low priority (unlikely to occur in production before next release)
 
-### Defect Metrics
+### 🐞 Defect Metrics
 
 **1. Defect Density:**
 ```
@@ -437,9 +437,9 @@ DDP = (Defects Found by Testing / Total Defects) × 100
 
 ---
 
-## 2.5 Test Metrics
+## 📊 2.5 Test Metrics
 
-### Why Test Metrics Matter
+### 📊 Why Test Metrics Matter
 
 Test metrics provide objective data for:
 - Tracking progress against the test plan
@@ -448,7 +448,7 @@ Test metrics provide objective data for:
 - Identifying trends and problems early
 - Improving the test process over time
 
-### Types of Test Metrics
+### 🧪 Types of Test Metrics
 
 **1. Progress Metrics:**
 - Test cases designed vs. planned
@@ -475,7 +475,7 @@ Test metrics provide objective data for:
 - Defect turnaround time
 - Test case reusability
 
-### Using Metrics for Management Decisions
+### 🗂️ Using Metrics for Management Decisions
 
 **When to release?**
 - Exit criteria met?
@@ -493,7 +493,7 @@ Test metrics provide objective data for:
 - Test cases finding no defects?
 - Automation not providing expected ROI?
 
-### Metric Pitfalls
+### 📊 Metric Pitfalls
 
 1. **Gaming the metrics:** Teams may optimize for the metric rather than quality (e.g., passing tests that should fail)
 2. **Too many metrics:** Collecting data that is never used wastes effort
@@ -502,9 +502,9 @@ Test metrics provide objective data for:
 
 ---
 
-## 2.6 Test Team Management
+## 🗂️ 2.6 Test Team Management
 
-### Building the Test Team
+### 🔷 Building the Test Team
 
 **Roles in a Test Team:**
 - **Test Manager / Lead:** Plans, organizes, controls testing
@@ -520,7 +520,7 @@ Test metrics provide objective data for:
 - **Communication skills:** Writing reports, presenting findings
 - **Interpersonal skills:** Collaboration, negotiation
 
-### Motivating the Test Team
+### 🔷 Motivating the Test Team
 
 **Factors that motivate testers:**
 - Recognition for finding important defects
@@ -539,7 +539,7 @@ Test metrics provide objective data for:
 - Repetitive work without purpose
 - Poor quality of software (feels like endless testing)
 
-### Communication
+### 🔷 Communication
 
 **The test manager must communicate with:**
 - **Project management:** Status, risks, resource needs
@@ -557,9 +557,9 @@ Test metrics provide objective data for:
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Risk Priority Calculation
+### 💡 Worked Example 1: Risk Priority Calculation
 
 **Scenario:** A healthcare system has the following risks:
 
@@ -581,7 +581,7 @@ Test metrics provide objective data for:
 2. Appointment booking and billing (equal priority)
 3. UI alignment (lowest risk)
 
-### Worked Example 2: Defect Metrics Analysis
+### 💡 Worked Example 2: Defect Metrics Analysis
 
 **Data:**
 - Total defects found in testing: 180
@@ -598,7 +598,7 @@ DDP = (180 / 200) × 100 = 90%
 - 10% escaped to production — investigate why
 - Goal for many organizations: 95%+ DDP
 
-### Worked Example 3: Estimation Using Percentage Method
+### 💡 Worked Example 3: Estimation Using Percentage Method
 
 **Given:**
 - Development effort: 300 person-days

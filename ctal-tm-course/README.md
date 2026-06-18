@@ -1,10 +1,10 @@
-# ISTQB CTAL-TM — Advanced Test Manager Self-Study Course
+# 📚 ISTQB CTAL-TM — Advanced Test Manager Self-Study Course
 
 A complete, exam-ready self-study course for the ISTQB CTAL-TM (Certified Tester Advanced Level — Test Manager) certification.
 
 ---
 
-## Exam Facts
+## 🎓 Exam Facts
 
 | Parameter | Value |
 |-----------|-------|
@@ -18,7 +18,7 @@ A complete, exam-ready self-study course for the ISTQB CTAL-TM (Certified Tester
 
 ---
 
-## Course Structure
+## ⭐ Course Structure
 
 ```
 ctal-tm-course/
@@ -68,7 +68,7 @@ ctal-tm-course/
 
 ---
 
-## How to Use This Course
+## ⭐ How to Use This Course
 
 1. **Start with `STUDY_PLAN.md`** — pick the 4-week or 5-week track based on your schedule.
 2. **Work through chapters in order** — read `lessons.md`, then `exam_traps.md`, then attempt `practice_questions.md`.
@@ -78,7 +78,7 @@ ctal-tm-course/
 
 ---
 
-## Target Audience
+## ⭐ Target Audience
 
 - Test Managers preparing for CTAL-TM certification
 - Test Leads transitioning into management roles
@@ -87,14 +87,14 @@ ctal-tm-course/
 
 ---
 
-## Prerequisites
+## ⭐ Prerequisites
 
 - ISTQB CTFL Foundation Level certification (required for the exam)
 - 2-5 years of practical test management experience is recommended
 
 ---
 
-## File Map
+## ⭐ File Map
 
 | File | Purpose |
 |------|---------|

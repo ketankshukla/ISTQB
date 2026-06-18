@@ -1,6 +1,6 @@
-# Chapter 5 — Test Environment and Tools: Exam Traps
+# 🪤 Chapter 5 — Test Environment and Tools: Exam Traps
 
-## Trap 1: Using Only HIL for All Testing
+## 🪤 Trap 1: Using Only HIL for All Testing
 
 **Trap:** HIL is expensive and slow. Use appropriate environment for each test level.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Skipping PIL for Timing-Critical Code
+## 🪤 Trap 2: Skipping PIL for Timing-Critical Code
 
 **Trap:** SIL runs on host PC with different timing. PIL verifies real-time behavior on target processor.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Testing Without Proper Calibration Version
+## 🪤 Trap 3: Testing Without Proper Calibration Version
 
 **Trap:** Different calibration data produces different behavior. Tests must use known calibration.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Using Production Flashing for Development
+## 🪤 Trap 4: Using Production Flashing for Development
 
 **Trap:** Production flashing has security checks that may not be needed for development and slow iteration.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Ignoring Network Database Versions
+## 🪤 Trap 5: Ignoring Network Database Versions
 
 **Trap:** DBC/LDF files define signal meaning. Version mismatch causes misinterpretation.
 

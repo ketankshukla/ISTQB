@@ -1,4 +1,4 @@
-# Mock Exam 3 — Answer Key
+# 📝 Mock Exam 3 — Answer Key
 
 | Q | Answer | Rationale |
 |---|--------|-----------|
@@ -48,7 +48,7 @@
 | 44 | B | Top-down based on historical data is appropriate with stable requirements and extensive data. |
 | 45 | B | The test manager ensures testability is considered and manages review participation. |
 
-## Score Interpretation
+## ⭐ Score Interpretation
 
 | Score | Interpretation |
 |-------|-------------|

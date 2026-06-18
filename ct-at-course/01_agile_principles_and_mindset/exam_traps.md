@@ -1,6 +1,6 @@
-# Chapter 1 — Agile Principles and Mindset: Exam Traps
+# 🪤 Chapter 1 — Agile Principles and Mindset: Exam Traps
 
-## Trap 1: Thinking "Over" Means "Instead Of"
+## 🪤 Trap 1: Thinking "Over" Means "Instead Of"
 
 **Trap:** The Agile Manifesto values items on the left MORE than items on the right. It does not say the right side has no value.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Confusing Scrum Master with Project Manager
+## 🪤 Trap 2: Confusing Scrum Master with Project Manager
 
 **Trap:** The Scrum Master is a servant leader, not a traditional project manager. They do not assign tasks or manage the team.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Thinking Changes Are Not Allowed During a Sprint
+## 🪤 Trap 3: Thinking Changes Are Not Allowed During a Sprint
 
 **Trap:** The Sprint Backlog should not change in scope, but the team can adapt HOW they achieve the Sprint Goal. The Product Owner can cancel a sprint in extreme cases.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Thinking Kanban Has No Structure
+## 🪤 Trap 4: Thinking Kanban Has No Structure
 
 **Trap:** Kanban has explicit policies, WIP limits, and visualization. It is not "do whatever you want."
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Thinking Testers Are Not Needed in Agile
+## 🪤 Trap 5: Thinking Testers Are Not Needed in Agile
 
 **Trap:** Testers are essential in agile. Their role evolves from "gatekeeper" to "quality coach, collaborator, and automation engineer."
 

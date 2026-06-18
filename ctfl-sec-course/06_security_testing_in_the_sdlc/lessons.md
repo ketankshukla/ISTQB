@@ -1,10 +1,10 @@
-# Chapter 6 — Security Testing in the SDLC: Lessons
+# 📘 Chapter 6 — Security Testing in the SDLC: Lessons
 
 ---
 
-## 6.1 Secure Software Development Lifecycle (SSDLC)
+## 🔁 6.1 Secure Software Development Lifecycle (SSDLC)
 
-### Phases
+### 🔷 Phases
 
 | Phase | Security Activity |
 |-------|-----------------|
@@ -15,7 +15,7 @@
 | **Deployment** | Secure configuration, hardening |
 | **Operations** | Monitoring, incident response, patching |
 
-### Comparison: SDLC vs SSDLC
+### 🔁 Comparison: SDLC vs SSDLC
 
 | Aspect | Traditional SDLC | SSDLC |
 |--------|-----------------|-------|
@@ -26,13 +26,13 @@
 
 ---
 
-## 6.2 Shift-Left Security
+## 🔒 6.2 Shift-Left Security
 
-### Definition
+### 🔷 Definition
 
 Moving security activities earlier in the development lifecycle.
 
-### Benefits
+### 🔷 Benefits
 
 | Benefit | Explanation |
 |---------|-------------|
@@ -41,7 +41,7 @@ Moving security activities earlier in the development lifecycle.
 | **Better quality** | Security built in, not bolted on |
 | **Reduced risk** | Fewer vulnerabilities reach production |
 
-### Shift-Left Activities
+### 🔷 Shift-Left Activities
 
 | Phase | Activity | Tool |
 |-------|----------|------|
@@ -53,13 +53,13 @@ Moving security activities earlier in the development lifecycle.
 
 ---
 
-## 6.3 DevSecOps
+## ⭐ 6.3 DevSecOps
 
-### Definition
+### 🔷 Definition
 
 Integrating security practices into DevOps culture and processes.
 
-### Principles
+### 📜 Principles
 
 | Principle | Description |
 |-----------|-------------|
@@ -68,7 +68,7 @@ Integrating security practices into DevOps culture and processes.
 | **Shared responsibility** | Everyone owns security |
 | **Feedback loops** | Fast feedback on security issues |
 
-### CI/CD Security Pipeline
+### 🔒 CI/CD Security Pipeline
 
 | Stage | Security Check | Tool |
 |-------|---------------|------|
@@ -80,9 +80,9 @@ Integrating security practices into DevOps culture and processes.
 
 ---
 
-## 6.4 Security in Agile
+## 🔒 6.4 Security in Agile
 
-### Practices
+### ❓ Practices
 
 | Practice | Implementation |
 |----------|---------------|
@@ -92,7 +92,7 @@ Integrating security practices into DevOps culture and processes.
 | **Retrospectives** | Review security incidents |
 | **Spikes** | Research security solutions |
 
-### Security User Stories
+### 🔒 Security User Stories
 
 | Story | Acceptance Criteria |
 |-------|---------------------|
@@ -102,7 +102,7 @@ Integrating security practices into DevOps culture and processes.
 
 ---
 
-## 6.5 Continuous Security Monitoring
+## 🔒 6.5 Continuous Security Monitoring
 
 | Layer | Monitoring | Response |
 |-------|------------|----------|
@@ -113,9 +113,9 @@ Integrating security practices into DevOps culture and processes.
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: SSDLC Mapping
+### 💡 Worked Example 1: SSDLC Mapping
 
 | Phase | Activity | Owner |
 |-------|----------|-------|
@@ -126,7 +126,7 @@ Integrating security practices into DevOps culture and processes.
 | Deployment | Harden server config | Ops |
 | Operations | Monitor for attacks | SOC |
 
-### Worked Example 2: Shift-Left Cost Comparison
+### 💡 Worked Example 2: Shift-Left Cost Comparison
 
 | Stage | Cost to Fix |
 |-------|-------------|
@@ -136,7 +136,7 @@ Integrating security practices into DevOps culture and processes.
 | Testing | 50x |
 | Production | 100x |
 
-### Worked Example 3: Security Definition of Done
+### 💡 Worked Example 3: Security Definition of Done
 
 | Criterion | Verification |
 |-----------|------------|

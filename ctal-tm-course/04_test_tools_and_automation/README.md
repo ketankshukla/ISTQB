@@ -1,6 +1,6 @@
-# Chapter 4 — Test Tools and Automation
+# 🛠️ Chapter 4 — Test Tools and Automation
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~15% (~10 questions out of 65)
 - **K-levels:** K2 (understand), K3 (apply), K4 (analyze)
@@ -8,7 +8,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -20,7 +20,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts
+## ⭐ Key Concepts
 
 - Tool categories: management, static, dynamic, performance, monitoring
 - Tool selection process: requirements, evaluation, proof of concept, rollout

@@ -1,8 +1,8 @@
-# Chapter 5 — Performance and Scalability Testing for Big Data: Practice Questions
+# ❓ Chapter 5 — Performance and Scalability Testing for Big Data: Practice Questions
 
 ---
 
-### Q1 (BD-5.2, K2)
+### 🔷 Q1 (BD-5.2, K2)
 
 Throughput is defined as:
 
@@ -13,7 +13,7 @@ D. The size of the database
 
 ---
 
-### Q2 (BD-5.2, K2)
+### 🔷 Q2 (BD-5.2, K2)
 
 Latency is defined as:
 
@@ -24,7 +24,7 @@ D. The speed of the network
 
 ---
 
-### Q3 (BD-5.3, K2)
+### 🔷 Q3 (BD-5.3, K2)
 
 TPC-DS is:
 
@@ -35,7 +35,7 @@ D. A data cleansing framework
 
 ---
 
-### Q4 (BD-5.4, K2)
+### 🔷 Q4 (BD-5.4, K2)
 
 A Spark job shows one task taking 45 minutes while all others take under 2 minutes. The MOST likely cause is:
 
@@ -46,7 +46,7 @@ D. Too much CPU
 
 ---
 
-### Q5 (BD-5.5, K2)
+### 🔷 Q5 (BD-5.5, K2)
 
 Data skew can be mitigated by:
 
@@ -57,7 +57,7 @@ D. Using only one node
 
 ---
 
-### Q6 (BD-5.6, K2)
+### 🔷 Q6 (BD-5.6, K2)
 
 Horizontal scaling means:
 
@@ -68,7 +68,7 @@ D. Reducing the dataset size
 
 ---
 
-### Q7 (BD-5.6, K2)
+### 🔷 Q7 (BD-5.6, K2)
 
 Vertical scaling means:
 
@@ -79,7 +79,7 @@ D. Using a distributed file system
 
 ---
 
-### Q8 (BD-5.4, K2)
+### 🔷 Q8 (BD-5.4, K2)
 
 High disk I/O with low CPU usage suggests:
 
@@ -90,7 +90,7 @@ D. A network bottleneck
 
 ---
 
-### Q9 (BD-5.2, K3)
+### 🔷 Q9 (BD-5.2, K3)
 
 A streaming pipeline must detect fraud within 5 seconds of a transaction. The critical metric is:
 
@@ -101,7 +101,7 @@ D. Number of nodes
 
 ---
 
-### Q10 (BD-5.4, K2)
+### 🔷 Q10 (BD-5.4, K2)
 
 OutOfMemory errors in a Spark job typically indicate:
 
@@ -112,7 +112,7 @@ D. Small dataset
 
 ---
 
-### Q11 (BD-5.3, K2)
+### 🔷 Q11 (BD-5.3, K2)
 
 A benchmark test is used to:
 
@@ -123,7 +123,7 @@ D. Encrypt data
 
 ---
 
-### Q12 (BD-5.6, K2)
+### 🔷 Q12 (BD-5.6, K2)
 
 A cluster processes 100 records/sec with 5 nodes and 180 records/sec with 10 nodes. This demonstrates:
 
@@ -134,7 +134,7 @@ D. Super-linear scalability
 
 ---
 
-### Q13 (BD-5.4, K3)
+### 🔷 Q13 (BD-5.4, K3)
 
 Most nodes in a cluster finish a job quickly, but two nodes take 10x longer. Monitoring shows those nodes have 10x more data. The fix should target:
 
@@ -145,7 +145,7 @@ D. Reducing the overall dataset
 
 ---
 
-### Q14 (BD-5.2, K2)
+### 🔷 Q14 (BD-5.2, K2)
 
 End-to-end latency includes:
 
@@ -156,7 +156,7 @@ D. Only disk read time
 
 ---
 
-### Q15 (BD-5.6, K2)
+### 🔷 Q15 (BD-5.6, K2)
 
 The PRIMARY limitation of vertical scaling is:
 
@@ -167,7 +167,7 @@ D. It always improves performance
 
 ---
 
-### Q16 (BD-5.5, K2)
+### 🔷 Q16 (BD-5.5, K2)
 
 Broadcast joins are used to:
 
@@ -178,7 +178,7 @@ D. Delete duplicate records
 
 ---
 
-### Q17 (BD-5.4, K2)
+### 🔷 Q17 (BD-5.4, K2)
 
 Excessive garbage collection (GC) in a Java-based Big Data application suggests:
 
@@ -189,7 +189,7 @@ D. Network efficiency
 
 ---
 
-### Q18 (BD-5.3, K2)
+### 🔷 Q18 (BD-5.3, K2)
 
 HiBench is a benchmark suite for:
 
@@ -200,7 +200,7 @@ D. Mobile applications
 
 ---
 
-### Q19 (BD-5.2, K3)
+### 🔷 Q19 (BD-5.2, K3)
 
 A daily batch job must process 1TB within 4 hours. It currently takes 5 hours. The FIRST step should be:
 
@@ -211,7 +211,7 @@ D. Reduce data volume
 
 ---
 
-### Q20 (BD-5.6, K2)
+### 🔷 Q20 (BD-5.6, K2)
 
 A system shows throughput of 200 records/sec on 4 nodes and 350 records/sec on 8 nodes. Adding 8 more nodes will likely result in:
 
@@ -222,104 +222,104 @@ D. Infinite throughput
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** Throughput = amount of data processed per unit of time.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** Latency = delay between event and data availability.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** TPC-DS = benchmark for data warehouse and decision support.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** One task much longer = data skew (one partition has most data).
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** Skew mitigation = salting, custom partitioning, two-stage aggregation.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** Horizontal scaling = add more machines.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** Vertical scaling = add power (CPU, RAM) to existing machines.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** High disk I/O + low CPU = I/O bottleneck.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** 5-second detection requirement = latency is critical.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** OutOfMemory = memory bottleneck (insufficient heap).
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 
 **Rationale:** Benchmark = measure/compare performance against standardized workloads.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** 2x nodes → 1.8x throughput = sub-linear (overhead).
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** 10x data on two nodes = data skew. Fix = skew mitigation.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** End-to-end latency = ingestion + processing + query latency.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** Vertical scaling limitation = non-linear cost and physical limits.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 
 **Rationale:** Broadcast joins = broadcast small table to avoid shuffling large table.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 
 **Rationale:** Excessive GC = memory pressure (too many objects or insufficient heap).
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 
 **Rationale:** HiBench = benchmark suite for Hadoop and Spark.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** First step = identify bottleneck before optimization.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 
 **Rationale:** Diminishing returns from overhead = somewhere between 560-650, not exactly 700.

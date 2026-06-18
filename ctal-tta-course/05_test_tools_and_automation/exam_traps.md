@@ -1,6 +1,6 @@
-# Chapter 5 — Test Tools and Automation: Exam Traps
+# 🪤 Chapter 5 — Test Tools and Automation: Exam Traps
 
-## Trap 1: Confusing BDD Frameworks with Test Execution Frameworks
+## 🪤 Trap 1: Confusing BDD Frameworks with Test Execution Frameworks
 
 **Trap:** BDD (Cucumber, SpecFlow) is about writing tests in natural language. It still needs an underlying execution framework (JUnit, NUnit) to run the tests.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Thinking Record/Replay Is a Maintainable Automation Strategy
+## ♟️ Trap 2: Thinking Record/Replay Is a Maintainable Automation Strategy
 
 **Trap:** Record/replay creates brittle scripts that break easily when the UI changes. Production automation needs structured frameworks.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Confusing CI and CD
+## 🪤 Trap 3: Confusing CI and CD
 
 **Trap:** CI = continuous integration (automated builds and tests). CD = continuous delivery/deployment (automated deployment after tests pass).
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Thinking 100% Automation Is Always the Goal
+## 🪤 Trap 4: Thinking 100% Automation Is Always the Goal
 
 **Trap:** Not all tests should be automated. Exploratory, usability, and one-time tests are often better manual.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Confusing Coverage Tools with Test Execution Tools
+## 📊 Trap 5: Confusing Coverage Tools with Test Execution Tools
 
 **Trap:** Coverage tools measure what was executed. They do not execute tests themselves — they work alongside execution tools.
 

@@ -1,6 +1,6 @@
-# Chapter 6 — Mobile Testing Tools and Environment
+# 🛠️ Chapter 6 — Mobile Testing Tools and Environment
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~15% (~6 questions out of 40)
 - **K-levels:** K1, K2
@@ -8,7 +8,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -20,7 +20,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts
+## ⭐ Key Concepts
 
 - Android Studio and Xcode tools
 - ADB (Android Debug Bridge)

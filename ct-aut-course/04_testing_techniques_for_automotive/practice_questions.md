@@ -1,8 +1,8 @@
-# Chapter 4 — Testing Techniques for Automotive: Practice Questions
+# ❓ Chapter 4 — Testing Techniques for Automotive: Practice Questions
 
 ---
 
-### Q1 (AuT-4.1, K2)
+### 🔷 Q1 (AuT-4.1, K2)
 
 MISRA C/C++ checking is a form of:
 
@@ -13,7 +13,7 @@ D. Only performance testing
 
 ---
 
-### Q2 (AuT-4.2, K2)
+### 🔷 Q2 (AuT-4.2, K2)
 
 Boundary value analysis for a signal with range 0-100 should test:
 
@@ -24,7 +24,7 @@ D. Only -1 and 101
 
 ---
 
-### Q3 (AuT-4.3, K2)
+### 🔷 Q3 (AuT-4.3, K2)
 
 Equivalence partitioning for a valid speed range of 0-200 km/h should include:
 
@@ -35,7 +35,7 @@ D. Only 0, 50, 100, 150, 200
 
 ---
 
-### Q4 (AuT-4.4, K2)
+### 🔷 Q4 (AuT-4.4, K2)
 
 State transition testing for an ECU should include:
 
@@ -46,7 +46,7 @@ D. Only final state
 
 ---
 
-### Q5 (AuT-4.1, K2)
+### 🔷 Q5 (AuT-4.1, K2)
 
 Static analysis tools like Polyspace can find:
 
@@ -57,7 +57,7 @@ D. Only network issues
 
 ---
 
-### Q6 (AuT-4.2, K2)
+### 🔷 Q6 (AuT-4.2, K2)
 
 For ASIL D, MC/DC coverage is:
 
@@ -68,7 +68,7 @@ D. Only for system tests
 
 ---
 
-### Q7 (AuT-4.3, K2)
+### 🔷 Q7 (AuT-4.3, K2)
 
 An invalid equivalence partition tests:
 
@@ -79,7 +79,7 @@ D. Only usability
 
 ---
 
-### Q8 (AuT-4.4, K2)
+### 🔷 Q8 (AuT-4.4, K2)
 
 Fault injection testing for ABS might:
 
@@ -90,7 +90,7 @@ D. Only test at low speed
 
 ---
 
-### Q9 (AuT-4.1, K2)
+### 🔷 Q9 (AuT-4.1, K2)
 
 Code review in automotive should focus on:
 
@@ -101,7 +101,7 @@ D. Only variable names
 
 ---
 
-### Q10 (AuT-4.2, K2)
+### 🔷 Q10 (AuT-4.2, K2)
 
 Three-value boundary analysis tests:
 
@@ -112,7 +112,7 @@ D. Only random values
 
 ---
 
-### Q11 (AuT-4.3, K2)
+### 🔷 Q11 (AuT-4.3, K2)
 
 Equivalence partitioning reduces test cases by:
 
@@ -123,7 +123,7 @@ D. Only testing invalid values
 
 ---
 
-### Q12 (AuT-4.4, K2)
+### 🔷 Q12 (AuT-4.4, K2)
 
 A state transition table should document:
 
@@ -134,7 +134,7 @@ D. Only outputs
 
 ---
 
-### Q13 (AuT-4.1, K2)
+### 🔷 Q13 (AuT-4.1, K2)
 
 Dynamic memory allocation in safety-critical automotive code:
 
@@ -145,7 +145,7 @@ D. Only for testing
 
 ---
 
-### Q14 (AuT-4.2, K2)
+### 🔷 Q14 (AuT-4.2, K2)
 
 For a temperature sensor with range -40 to 150°C, boundary tests should include:
 
@@ -156,7 +156,7 @@ D. Only -40 and 150
 
 ---
 
-### Q15 (AuT-4.3, K2)
+### 🔷 Q15 (AuT-4.3, K2)
 
 A partition for "engine off" in a state machine is:
 
@@ -167,7 +167,7 @@ D. Only a transition
 
 ---
 
-### Q16 (AuT-4.4, K2)
+### 🔷 Q16 (AuT-4.4, K2)
 
 Hardware fault injection might involve:
 
@@ -178,7 +178,7 @@ D. Only database testing
 
 ---
 
-### Q17 (AuT-4.1, K2)
+### 🔷 Q17 (AuT-4.1, K2)
 
 Static analysis for complexity identifies:
 
@@ -189,7 +189,7 @@ D. Only security issues
 
 ---
 
-### Q18 (AuT-4.2, K2)
+### 🔷 Q18 (AuT-4.2, K2)
 
 For ASIL B, branch coverage is:
 
@@ -200,7 +200,7 @@ D. Only for system tests
 
 ---
 
-### Q19 (AuT-4.3, K2)
+### 🔷 Q19 (AuT-4.3, K2)
 
 Testing an invalid gear position like 'X' verifies:
 
@@ -211,7 +211,7 @@ D. Only fuel economy
 
 ---
 
-### Q20 (AuT-4.4, K2)
+### 🔷 Q20 (AuT-4.4, K2)
 
 State transition coverage for ASIL C and D requires:
 
@@ -222,84 +222,84 @@ D. Only initial state coverage
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** MISRA = static testing.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** BVA = 0, 1, 99, 100.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** EP = valid + too low + too high + invalid.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** State = normal + error + guards.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Static analysis = finds issues without execution.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** MC/DC = required for ASIL D.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Invalid EP = robustness.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Fault injection = simulate sensor failure.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** Code review = safety + boundaries + errors.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** Three-value = min, min+, max-, max.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** EP = group same-treated values.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Table = states + events + transitions + guards.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Dynamic allocation = prohibited in safety-critical.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Boundary = spec limits, not type limits.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Engine off = valid partition.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Hardware FI = disconnect/corrupt signals.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Complexity = high-risk code.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Branch = required ASIL B+.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Invalid = error handling.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** ASIL C/D = all transitions including errors.

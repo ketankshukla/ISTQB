@@ -1,6 +1,6 @@
-# Chapter 4 — Mobile Non-Functional Testing: Exam Traps
+# 🪤 Chapter 4 — Mobile Non-Functional Testing: Exam Traps
 
-## Trap 1: Testing Performance Only on Flagship Devices
+## 🪤 Trap 1: Testing Performance Only on Flagship Devices
 
 **Trap:** Low-end devices have slower CPUs, less RAM, and slower storage. Performance issues show up there first.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Ignoring Background Battery Drain
+## 🪤 Trap 2: Ignoring Background Battery Drain
 
 **Trap:** Apps that continue consuming resources in background drain battery even when not visible.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Testing Network Only on Wi-Fi
+## 🪤 Trap 3: Testing Network Only on Wi-Fi
 
 **Trap:** Real users experience 3G, weak signal, and offline conditions. Testing only on fast Wi-Fi misses real issues.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Confusing Root/Jailbreak Detection with Security
+## 🪤 Trap 4: Confusing Root/Jailbreak Detection with Security
 
 **Trap:** Root detection is a deterrent, not security. Real security comes from encryption and secure coding.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Treating Accessibility as Optional
+## 🪤 Trap 5: Treating Accessibility as Optional
 
 **Trap:** Accessibility is required by law in many jurisdictions and benefits all users (e.g., larger text).
 

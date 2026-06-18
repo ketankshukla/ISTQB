@@ -1,14 +1,14 @@
-# Chapter 4 — Security Test Design and Techniques: Lessons
+# 📘 Chapter 4 — Security Test Design and Techniques: Lessons
 
 ---
 
-## 4.1 Penetration Testing
+## ⭐ 4.1 Penetration Testing
 
-### What is Penetration Testing?
+### 🔷 What is Penetration Testing?
 
 A simulated cyberattack against a system to identify vulnerabilities that an attacker could exploit.
 
-### Types of Penetration Testing
+### 🧪 Types of Penetration Testing
 
 | Type | Knowledge | Use Case |
 |------|-----------|----------|
@@ -16,7 +16,7 @@ A simulated cyberattack against a system to identify vulnerabilities that an att
 | **Gray box** | Partial knowledge (user credentials, documentation) | Simulates insider threat or compromised user |
 | **White box** | Full knowledge (source code, architecture) | Comprehensive vulnerability discovery; tests internal logic |
 
-### Penetration Testing Phases
+### 🔷 Penetration Testing Phases
 
 **1. Planning and Reconnaissance:**
 - Define scope, goals, and rules of engagement
@@ -49,7 +49,7 @@ A simulated cyberattack against a system to identify vulnerabilities that an att
 - Rate severity using CVSS
 - Provide remediation recommendations
 
-### Penetration Testing vs. Vulnerability Scanning
+### 🔷 Penetration Testing vs. Vulnerability Scanning
 
 | Aspect | Vulnerability Scan | Penetration Test |
 |--------|-----------------|------------------|
@@ -61,9 +61,9 @@ A simulated cyberattack against a system to identify vulnerabilities that an att
 
 ---
 
-## 4.2 Authentication Testing
+## ⭐ 4.2 Authentication Testing
 
-### Password Strength Testing
+### 🔷 Password Strength Testing
 
 **Test for weak password policies:**
 - Does the system accept "password", "123456", "qwerty"?
@@ -80,7 +80,7 @@ A simulated cyberattack against a system to identify vulnerabilities that an att
 - Check if the system detects and blocks suspicious login patterns
 - Verify MFA is triggered for unknown devices/locations
 
-### Multi-Factor Authentication (MFA) Testing
+### 🔷 Multi-Factor Authentication (MFA) Testing
 
 **Test MFA enforcement:**
 - Can MFA be bypassed by manipulating the request?
@@ -93,7 +93,7 @@ A simulated cyberattack against a system to identify vulnerabilities that an att
 - **Push notifications:** Can users be tricked into approving malicious requests?
 - **Biometric:** Can it be bypassed with photos, recordings, or prosthetics?
 
-### Session Management Testing
+### 🗂️ Session Management Testing
 
 **Session token analysis:**
 - Are tokens random and unpredictable?
@@ -111,9 +111,9 @@ A simulated cyberattack against a system to identify vulnerabilities that an att
 
 ---
 
-## 4.3 Authorization Testing
+## ⭐ 4.3 Authorization Testing
 
-### Horizontal Privilege Escalation
+### 🔷 Horizontal Privilege Escalation
 
 **Definition:** Accessing another user's resources at the same privilege level.
 
@@ -127,7 +127,7 @@ A simulated cyberattack against a system to identify vulnerabilities that an att
 - Verify each user can only access their own data
 - Test with multiple parallel sessions
 
-### Vertical Privilege Escalation
+### 🔷 Vertical Privilege Escalation
 
 **Definition:** Gaining higher privileges than authorized.
 
@@ -141,7 +141,7 @@ A simulated cyberattack against a system to identify vulnerabilities that an att
 - Attempt to perform privileged operations
 - Check for hidden endpoints or parameters that enable admin features
 
-### Insecure Direct Object References (IDOR)
+### 🔷 Insecure Direct Object References (IDOR)
 
 **Definition:** Exposing internal implementation objects (database keys, file paths) to users without access control.
 
@@ -156,9 +156,9 @@ A simulated cyberattack against a system to identify vulnerabilities that an att
 
 ---
 
-## 4.4 Input Validation and Output Encoding
+## ⭐ 4.4 Input Validation and Output Encoding
 
-### Input Validation Testing
+### 🔷 Input Validation Testing
 
 **Test types:**
 
@@ -183,7 +183,7 @@ A simulated cyberattack against a system to identify vulnerabilities that an att
 - **Range checking:** Enforce numeric ranges
 - **Pattern matching:** Regex validation
 
-### Output Encoding Testing
+### 🔷 Output Encoding Testing
 
 **Verify encoding for context:**
 - **HTML context:** `&lt;script&gt;` not `<script>`
@@ -196,13 +196,13 @@ A simulated cyberattack against a system to identify vulnerabilities that an att
 
 ---
 
-## 4.5 Fuzzing
+## ⭐ 4.5 Fuzzing
 
-### What is Fuzzing?
+### 🔷 What is Fuzzing?
 
 Fuzzing is an automated testing technique that inputs invalid, unexpected, or random data to a program to find crashes, memory leaks, or unexpected behavior.
 
-### Types of Fuzzing
+### 🧪 Types of Fuzzing
 
 **Mutation-based (Dumb Fuzzing):**
 - Start with valid input samples
@@ -219,7 +219,7 @@ Fuzzing is an automated testing technique that inputs invalid, unexpected, or ra
 - Prioritize inputs that reach new code paths
 - Iteratively mutate high-coverage inputs
 
-### Fuzzing Targets
+### 🔷 Fuzzing Targets
 
 | Target | Example |
 |--------|---------|
@@ -231,9 +231,9 @@ Fuzzing is an automated testing technique that inputs invalid, unexpected, or ra
 
 ---
 
-## 4.6 Static and Dynamic Analysis
+## 🔍 4.6 Static and Dynamic Analysis
 
-### SAST (Static Application Security Testing)
+### 🔍 SAST (Static Application Security Testing)
 
 **What it analyzes:** Source code, bytecode, or binary without executing the program.
 
@@ -251,7 +251,7 @@ Fuzzing is an automated testing technique that inputs invalid, unexpected, or ra
 - Cannot find runtime issues (session management, business logic flaws)
 - Requires access to source code
 
-### DAST (Dynamic Application Security Testing)
+### 🔒 DAST (Dynamic Application Security Testing)
 
 **What it analyzes:** Running application from the outside, like an attacker.
 
@@ -269,7 +269,7 @@ Fuzzing is an automated testing technique that inputs invalid, unexpected, or ra
 - Lower code coverage than SAST
 - May miss vulnerabilities behind authentication
 
-### IAST (Interactive Application Security Testing)
+### 🔒 IAST (Interactive Application Security Testing)
 
 **What it does:** Combines SAST and DAST by instrumenting the running application to observe code behavior during dynamic testing.
 
@@ -281,7 +281,7 @@ Fuzzing is an automated testing technique that inputs invalid, unexpected, or ra
 
 **When to use:** During functional testing, in test environments.
 
-### Comparison
+### 🔷 Comparison
 
 | Aspect | SAST | DAST | IAST |
 |--------|------|------|------|
@@ -294,9 +294,9 @@ Fuzzing is an automated testing technique that inputs invalid, unexpected, or ra
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Authentication Test Design
+### 💡 Worked Example 1: Authentication Test Design
 
 **Scenario:** Test a web application login system.
 
@@ -313,7 +313,7 @@ Fuzzing is an automated testing technique that inputs invalid, unexpected, or ra
 | Password reset | Request reset for valid email | Reset link sent, token expires, single-use |
 | MFA bypass | Skip MFA parameter in request | Request rejected or MFA still required |
 
-### Worked Example 2: Input Validation Test Matrix
+### 💡 Worked Example 2: Input Validation Test Matrix
 
 **Scenario:** Test a search function that queries a database.
 
@@ -328,7 +328,7 @@ Fuzzing is an automated testing technique that inputs invalid, unexpected, or ra
 | Null byte | "file.php%00.jpg" | Rejected | Null byte injection |
 | Special chars | `!@#$%^&*()_+-=[]{}|;':",./<>?` | Properly handled | Injection or parser issues |
 
-### Worked Example 3: Authorization Test Design
+### 💡 Worked Example 3: Authorization Test Design
 
 **Scenario:** An e-commerce admin panel with roles: Admin, Manager, Viewer.
 

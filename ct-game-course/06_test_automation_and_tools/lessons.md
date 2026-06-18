@@ -1,10 +1,10 @@
-# Chapter 6 — Test Automation and Tools: Lessons
+# 📘 Chapter 6 — Test Automation and Tools: Lessons
 
 ---
 
-## 6.1 Automated Gameplay Testing
+## ⚙️ 6.1 Automated Gameplay Testing
 
-### What Can Be Automated
+### ⚙️ What Can Be Automated
 
 | Area | Automation Approach |
 |------|-------------------|
@@ -15,7 +15,7 @@
 | **Performance benchmarks** | FPS, memory, loading times |
 | **Build verification** | Automated BVT suite |
 
-### What Remains Manual
+### 🤖 What Remains Manual
 
 | Area | Reason |
 |------|--------|
@@ -27,9 +27,9 @@
 
 ---
 
-## 6.2 Test Frameworks
+## ⭐ 6.2 Test Frameworks
 
-### Unity Test Framework
+### 🔷 Unity Test Framework
 
 | Feature | Use |
 |---------|-----|
@@ -47,7 +47,7 @@ public void TestDamageCalculation()
 }
 ```
 
-### Unreal Automation Tests
+### ⚙️ Unreal Automation Tests
 
 | Feature | Use |
 |---------|-----|
@@ -55,7 +55,7 @@ public void TestDamageCalculation()
 | **Feature tests** | Test gameplay features |
 | **Stress tests** | Performance under load |
 
-### Custom Frameworks
+### 🔷 Custom Frameworks
 
 | Need | Approach |
 |------|----------|
@@ -65,16 +65,16 @@ public void TestDamageCalculation()
 
 ---
 
-## 6.3 Screenshot Comparison
+## ⭐ 6.3 Screenshot Comparison
 
-### Process
+### 🔷 Process
 
 1. Capture reference screenshot from known-good build
 2. Capture candidate screenshot from test build
 3. Pixel-by-pixel comparison with tolerance
 4. Flag differences for review
 
-### Use Cases
+### 👤 Use Cases
 
 | Use Case | Tolerance |
 |----------|-----------|
@@ -82,7 +82,7 @@ public void TestDamageCalculation()
 | **Particle effects** | Higher (timing-dependent) |
 | **Lighting** | Medium (platform variance) |
 
-### Challenges
+### 🔷 Challenges
 
 | Challenge | Mitigation |
 |-----------|-----------|
@@ -92,15 +92,15 @@ public void TestDamageCalculation()
 
 ---
 
-## 6.4 CI/CD for Games
+## 🎮 6.4 CI/CD for Games
 
-### Pipeline Stages
+### 🔷 Pipeline Stages
 
 ```
 Source Commit → Build → Unit Tests → Smoke Tests → Artifact → Deploy to Test
 ```
 
-### Automated Checks
+### ⚙️ Automated Checks
 
 | Stage | Check |
 |-------|-------|
@@ -110,7 +110,7 @@ Source Commit → Build → Unit Tests → Smoke Tests → Artifact → Deploy t
 | **Smoke tests** | Boot, basic functionality |
 | **Asset validation** | Missing textures, broken references |
 
-### Deployment
+### 🔷 Deployment
 
 | Environment | Trigger |
 |-------------|---------|
@@ -120,9 +120,9 @@ Source Commit → Build → Unit Tests → Smoke Tests → Artifact → Deploy t
 
 ---
 
-## 6.5 Telemetry and Analytics
+## ⭐ 6.5 Telemetry and Analytics
 
-### What to Test
+### 🔷 What to Test
 
 | Event | Verification |
 |-------|-------------|
@@ -132,7 +132,7 @@ Source Commit → Build → Unit Tests → Smoke Tests → Artifact → Deploy t
 | **Crashes** | Stack trace, device info |
 | **Performance** | FPS drops, memory spikes |
 
-### Analytics Testing
+### 🔷 Analytics Testing
 
 | Check | Method |
 |-------|--------|
@@ -143,9 +143,9 @@ Source Commit → Build → Unit Tests → Smoke Tests → Artifact → Deploy t
 
 ---
 
-## 6.6 Bug Tracking
+## 🐞 6.6 Bug Tracking
 
-### Workflow
+### 🔷 Workflow
 
 ```
 New → Triaged → Assigned → In Progress → Fixed → Verified → Closed
@@ -153,7 +153,7 @@ New → Triaged → Assigned → In Progress → Fixed → Verified → Closed
       Rejected / Duplicate / Cannot Reproduce
 ```
 
-### Good Bug Reports
+### 🐞 Good Bug Reports
 
 | Element | Description |
 |---------|-------------|
@@ -166,7 +166,7 @@ New → Triaged → Assigned → In Progress → Fixed → Verified → Closed
 | **Severity** | Critical, major, minor, trivial |
 | **Frequency** | Always, sometimes, once |
 
-### Metrics
+### 📊 Metrics
 
 | Metric | Purpose |
 |--------|---------|
@@ -178,7 +178,7 @@ New → Triaged → Assigned → In Progress → Fixed → Verified → Closed
 
 ---
 
-## 6.7 Manual vs Automated Balance
+## ⚙️ 6.7 Manual vs Automated Balance
 
 | Factor | Automate | Manual |
 |--------|----------|--------|
@@ -190,9 +190,9 @@ New → Triaged → Assigned → In Progress → Fixed → Verified → Closed
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Automation ROI
+### 💡 Worked Example 1: Automation ROI
 
 **Scenario:** Evaluate automating a smoke test.
 
@@ -204,7 +204,7 @@ New → Triaged → Assigned → In Progress → Fixed → Verified → Closed
 | **Break-even** | ~80 builds |
 | **Decision** | Automate — frequent, stable, saves time |
 
-### Worked Example 2: Screenshot Regression
+### 💡 Worked Example 2: Screenshot Regression
 
 **Scenario:** Detect UI regression in inventory screen.
 
@@ -215,7 +215,7 @@ New → Triaged → Assigned → In Progress → Fixed → Verified → Closed
 | 3 | Compare: 0.2% difference in item icon position |
 | 4 | Review: Accept (intentional art update) or Reject (regression) |
 
-### Worked Example 3: Telemetry Validation
+### 💡 Worked Example 3: Telemetry Validation
 
 **Scenario:** Verify death event in analytics.
 

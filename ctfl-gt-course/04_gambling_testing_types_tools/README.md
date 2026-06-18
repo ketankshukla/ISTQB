@@ -1,6 +1,6 @@
-# Chapter 4 — Gambling Testing Types and Tools
+# 🧪 Chapter 4 — Gambling Testing Types and Tools
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~15% (~6 questions out of 40)
 - **K-levels:** K2 (understand)
@@ -8,7 +8,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -20,7 +20,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts
+## ⭐ Key Concepts
 
 - Functional testing: game mechanics, payouts, bonus features, progressive jackpots
 - Non-functional testing: performance under load, security, usability, compatibility

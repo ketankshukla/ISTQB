@@ -1,6 +1,6 @@
-# Case Study 3 — Telecom Feature Model
+# 📂 Case Study 3 — Telecom Feature Model
 
-## Context
+## ⭐ Context
 
 You are the MBT Architect for TelecomPro, a company offering customizable telecom service packages. Each customer can configure their plan from a set of features.
 
@@ -18,7 +18,7 @@ You are the MBT Architect for TelecomPro, a company offering customizable teleco
 - Roaming requires international addon
 - Caller ID is mandatory for business voice
 
-## Task 1: Feature Model Construction
+## 📐 Task 1: Feature Model Construction
 
 **Question:** Create a feature model for the telecom service packages.
 
@@ -66,7 +66,7 @@ Telecom Service [mandatory]
 
 ---
 
-## Task 2: Valid Configuration Testing
+## ⚙️ Task 2: Valid Configuration Testing
 
 **Question:** How many valid configurations exist, and what selection criteria should be used?
 
@@ -115,7 +115,7 @@ Telecom Service [mandatory]
 
 ---
 
-## Task 3: MBT Test Generation Strategy
+## ♟️ Task 3: MBT Test Generation Strategy
 
 **Question:** Design an MBT approach for testing the billing system against feature configurations.
 
@@ -152,7 +152,7 @@ Transitions: Make call, Send SMS, Use data, Pay bill, Miss payment
 
 ---
 
-## Task 4: Deployment Plan
+## 🗓️ Task 4: Deployment Plan
 
 **Question:** Create a deployment plan for MBT in the telecom billing system.
 

@@ -1,8 +1,8 @@
-# Chapter 5 — Test Tools and Automation: Practice Questions
+# ❓ Chapter 5 — Test Tools and Automation: Practice Questions
 
 ---
 
-### Q1 (TTA-5.1, K2)
+### 🔷 Q1 (TTA-5.1, K2)
 
 Which tool category is JUnit?
 
@@ -13,7 +13,7 @@ D. Security scanner
 
 ---
 
-### Q2 (TTA-5.2, K2)
+### 🔷 Q2 (TTA-5.2, K2)
 
 In a keyword-driven framework, test cases are written using:
 
@@ -24,7 +24,7 @@ D. Binary test scripts
 
 ---
 
-### Q3 (TTA-5.3, K2)
+### 🔷 Q3 (TTA-5.3, K2)
 
 Continuous Integration (CI) is BEST described as:
 
@@ -35,7 +35,7 @@ D. Writing tests after the code is complete
 
 ---
 
-### Q4 (TTA-5.1, K2)
+### 🔷 Q4 (TTA-5.1, K2)
 
 JaCoCo is primarily used for:
 
@@ -46,7 +46,7 @@ D. Performance profiling
 
 ---
 
-### Q5 (TTA-5.2, K3)
+### 🔷 Q5 (TTA-5.2, K3)
 
 A team needs a test framework that allows business analysts to read and contribute to test scripts. The BEST choice is:
 
@@ -57,7 +57,7 @@ D. A script-based framework in Python
 
 ---
 
-### Q6 (TTA-5.3, K3)
+### 🔷 Q6 (TTA-5.3, K3)
 
 In a CI pipeline, which activity should typically come FIRST?
 
@@ -68,7 +68,7 @@ D. Generate coverage report
 
 ---
 
-### Q7 (TTA-5.1, K2)
+### 🔷 Q7 (TTA-5.1, K2)
 
 Which of the following is a dynamic security testing tool?
 
@@ -79,7 +79,7 @@ D. PMD
 
 ---
 
-### Q8 (TTA-5.4, K2)
+### 🔷 Q8 (TTA-5.4, K2)
 
 A test automation framework's effectiveness is BEST measured by:
 
@@ -90,7 +90,7 @@ D. The cost of the tool licenses
 
 ---
 
-### Q9 (TTA-5.3, K2)
+### 🔷 Q9 (TTA-5.3, K2)
 
 A quality gate that requires 80% code coverage before deployment is an example of:
 
@@ -101,7 +101,7 @@ D. User acceptance criteria
 
 ---
 
-### Q10 (TTA-5.2, K3)
+### 🔷 Q10 (TTA-5.2, K3)
 
 The Page Object Model (POM) design pattern is used to:
 
@@ -112,7 +112,7 @@ D. Execute tests in parallel automatically
 
 ---
 
-### Q11 (TTA-5.1, K2)
+### 🔷 Q11 (TTA-5.1, K2)
 
 Which tool is MOST appropriate for measuring CPU usage of a Java application?
 
@@ -123,7 +123,7 @@ D. Jenkins
 
 ---
 
-### Q12 (TTA-5.3, K3)
+### 🔷 Q12 (TTA-5.3, K3)
 
 A team wants to ensure no code with critical static analysis issues is merged to the main branch. They should:
 
@@ -134,7 +134,7 @@ D. Run static analysis only after deployment
 
 ---
 
-### Q13 (TTA-5.2, K2)
+### 🔷 Q13 (TTA-5.2, K2)
 
 Which automation approach is MOST maintainable for a frequently changing web application?
 
@@ -145,7 +145,7 @@ D. Hard-coded XPath locators in every test
 
 ---
 
-### Q14 (TTA-5.4, K2)
+### 🔷 Q14 (TTA-5.4, K2)
 
 Which metric would BEST indicate that a test automation initiative is providing value?
 
@@ -156,7 +156,7 @@ D. Number of tool licenses purchased
 
 ---
 
-### Q15 (TTA-5.1, K2)
+### 🔷 Q15 (TTA-5.1, K2)
 
 Gatling is primarily used for:
 
@@ -167,79 +167,79 @@ D. Security scanning
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** JUnit is a unit test framework for Java.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** Keyword-driven frameworks use predefined keywords that map to functions, making tests readable by non-programmers.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** CI is the practice of frequently merging changes and running automated builds and tests.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** JaCoCo measures code coverage (statement, branch, etc.) during Java test execution.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** BDD frameworks use natural language (Given/When/Then) that business analysts can read and contribute to.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** CI pipeline order: build first, then test, then analyze, then deploy.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** OWASP ZAP is a DAST tool that tests running web applications for security vulnerabilities.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** Effectiveness is measured by outcomes: defects found and time saved. Number of scripts is an activity metric, not an outcome.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** A coverage threshold as a requirement before deployment is a CI/CD quality gate.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** POM separates UI locators from test logic, making tests more maintainable when the UI changes.
 
-### Q11
+### 🔷 Q11
 **Answer: A**
 
 **Rationale:** JProfiler is a Java profiler that measures CPU, memory, and thread usage.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** Integrating static analysis into CI with build-fail conditions prevents critical issues from being merged.
 
-### Q13
+### 🔷 Q13
 **Answer: C**
 
 **Rationale:** POM with structured scripts is the most maintainable for frequently changing UIs.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** Value is demonstrated by outcomes: fewer production defects and faster feedback.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** Gatling is an open-source load and performance testing tool.

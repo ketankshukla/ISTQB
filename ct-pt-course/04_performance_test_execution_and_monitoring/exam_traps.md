@@ -1,6 +1,6 @@
-# Chapter 4 — Performance Test Execution and Monitoring: Exam Traps
+# 🪤 Chapter 4 — Performance Test Execution and Monitoring: Exam Traps
 
-## Trap 1: Forgetting to Warm Up Before Testing
+## 🪤 Trap 1: Forgetting to Warm Up Before Testing
 
 **Trap:** Cold systems (empty caches, cold JVMs) give artificially slow results. Warm-up is essential before collecting metrics.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Monitoring Only the Application Server
+## 🪤 Trap 2: Monitoring Only the Application Server
 
 **Trap:** Bottlenecks can be in the database, network, load balancer, or even the load generator itself. Monitor all tiers.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Confusing a Resource's Percentage with Queue Length
+## 🪤 Trap 3: Confusing a Resource's Percentage with Queue Length
 
 **Trap:** 80% CPU might be okay briefly, but a CPU queue length > 2 per core indicates actual contention.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Ignoring the Load Generator as a Bottleneck
+## 🪤 Trap 4: Ignoring the Load Generator as a Bottleneck
 
 **Trap:** If the load generator is saturated, it cannot send requests fast enough, making the server look better than it is.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Running Tests Without Environment Stability Checks
+## 🪤 Trap 5: Running Tests Without Environment Stability Checks
 
 **Trap:** Unstable environments (other tests running, deployments, known issues) produce invalid results. Always verify environment health first.
 

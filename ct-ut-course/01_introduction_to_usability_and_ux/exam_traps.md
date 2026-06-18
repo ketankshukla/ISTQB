@@ -1,6 +1,6 @@
-# Chapter 1 — Introduction to Usability and UX: Exam Traps
+# 🪤 Chapter 1 — Introduction to Usability and UX: Exam Traps
 
-## Trap 1: Confusing Usability and User Experience
+## 🪤 Trap 1: Confusing Usability and User Experience
 
 **Trap:** Usability is a subset of UX. UX is broader, including emotions, brand perception, and the entire journey.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Forgetting the "Specified Context of Use"
+## 🪤 Trap 2: Forgetting the "Specified Context of Use"
 
 **Trap:** ISO 9241-11 states usability is always in a "specified context of use." It is not absolute.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Thinking Accessibility Is Separate from Usability
+## 🪤 Trap 3: Thinking Accessibility Is Separate from Usability
 
 **Trap:** Accessibility is a sub-characteristic of usability in ISO 25010, not a separate concern.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Confusing Affordances and Signifiers
+## 🪤 Trap 4: Confusing Affordances and Signifiers
 
 **Trap:** An affordance is a property of an object. A signifier indicates that an action is possible. In digital design, we often add signifiers because affordances are not naturally visible.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Thinking Error Messages Are Better Than Error Prevention
+## 🪤 Trap 5: Thinking Error Messages Are Better Than Error Prevention
 
 **Trap:** Nielsen's heuristic "error prevention" states it is better to prevent errors than to recover from them.
 

@@ -1,6 +1,6 @@
-# Case Study 2 — Financial Services Data Quality
+# 📂 Case Study 2 — Financial Services Data Quality
 
-## Context
+## ⭐ Context
 
 You are the Data Quality Manager for SecureBank, responsible for ensuring the accuracy and compliance of customer and transaction data feeding regulatory reports.
 
@@ -18,7 +18,7 @@ You are the Data Quality Manager for SecureBank, responsible for ensuring the ac
 
 ---
 
-## Task 1: Data Quality Framework Design
+## 🎨 Task 1: Data Quality Framework Design
 
 **Question:** Design a data quality framework for regulatory compliance.
 
@@ -59,7 +59,7 @@ You are the Data Quality Manager for SecureBank, responsible for ensuring the ac
 
 ---
 
-## Task 2: Multi-Source Consistency Testing
+## ⭐ Task 2: Multi-Source Consistency Testing
 
 **Question:** A customer's account balance shows $10,000 in the branch system but $10,500 in the online banking system. How do you test and resolve this?
 
@@ -102,7 +102,7 @@ You are the Data Quality Manager for SecureBank, responsible for ensuring the ac
 
 ---
 
-## Task 3: Performance Under Regulatory Load
+## ⚡ Task 3: Performance Under Regulatory Load
 
 **Question:** Basel III requires quarterly calculation of risk-weighted assets across 50 million transactions. Design performance tests.
 
@@ -144,7 +144,7 @@ You are the Data Quality Manager for SecureBank, responsible for ensuring the ac
 
 ---
 
-## Task 4: GDPR Delete Testing
+## ⭐ Task 4: GDPR Delete Testing
 
 **Question:** A customer requests deletion under GDPR. How do you test that deletion is complete across all systems?
 

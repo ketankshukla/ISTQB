@@ -1,14 +1,14 @@
-# CTAL-AT Study Plan
+# 🗓️ CTAL-AT Study Plan
 
-## Overview
+## 🌟 Overview
 
 The CTAL-AT exam covers agile principles for technical testers, TDD/BDD/ATDD, test automation, CI/CD/DevOps, and testing techniques in agile. This plan covers all chapters, practice questions, case studies, and mock exams.
 
 ---
 
-## 4-Week Study Plan
+## 🗓️ 4-Week Study Plan
 
-### Week 1 — Chapters 1-2
+### 🔷 Week 1 — Chapters 1-2
 
 | Day | Task | Time |
 |-----|------|------|
@@ -20,7 +20,7 @@ The CTAL-AT exam covers agile principles for technical testers, TDD/BDD/ATDD, te
 | Day 6 | Review Chapter 2 wrong answers | 45 min |
 | Day 7 | **Checkpoint** — Review notes, re-do 5 hardest questions | 45 min |
 
-### Week 2 — Chapters 3-4
+### 🔷 Week 2 — Chapters 3-4
 
 | Day | Task | Time |
 |-----|------|------|
@@ -32,7 +32,7 @@ The CTAL-AT exam covers agile principles for technical testers, TDD/BDD/ATDD, te
 | Day 13 | Review Chapter 4 wrong answers | 45 min |
 | Day 14 | **Checkpoint** — Review all chapter notes | 45 min |
 
-### Week 3 — Chapter 5 + Case Studies
+### 🔷 Week 3 — Chapter 5 + Case Studies
 
 | Day | Task | Time |
 |-----|------|------|
@@ -44,7 +44,7 @@ The CTAL-AT exam covers agile principles for technical testers, TDD/BDD/ATDD, te
 | Day 20 | Review `GLOSSARY.md` and weak areas | 45 min |
 | Day 21 | **Checkpoint** — Attempt 10 random questions from each chapter | 60 min |
 
-### Week 4 — Mock Exams and Final Review
+### 📝 Week 4 — Mock Exams and Final Review
 
 | Day | Task | Time |
 |-----|------|------|
@@ -58,7 +58,7 @@ The CTAL-AT exam covers agile principles for technical testers, TDD/BDD/ATDD, te
 
 ---
 
-## 3-Week Accelerated Plan
+## 🗓️ 3-Week Accelerated Plan
 
 | Week | Task |
 |------|------|
@@ -68,7 +68,7 @@ The CTAL-AT exam covers agile principles for technical testers, TDD/BDD/ATDD, te
 
 ---
 
-## Study Techniques
+## 📚 Study Techniques
 
 - **Active reading** — Draw diagrams for CI/CD pipelines, write out TDD/BDD cycles
 - **Worked examples** — Redo all examples until you can explain them independently

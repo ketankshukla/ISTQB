@@ -1,6 +1,6 @@
-# Chapter 5 — Security Testing Tools: Exam Traps
+# 🪤 Chapter 5 — Security Testing Tools: Exam Traps
 
-## Trap 1: Tools Find All Vulnerabilities
+## 🪤 Trap 1: Tools Find All Vulnerabilities
 
 **Trap:** Tools have false negatives; manual testing and code review are still needed.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: One Tool is Enough
+## 🪤 Trap 2: One Tool is Enough
 
 **Trap:** Different tools find different issues; a toolkit approach is needed.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: All Tool Findings are Real
+## 🪤 Trap 3: All Tool Findings are Real
 
 **Trap:** Tools produce false positives that require triage.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Tools Don't Need Configuration
+## 🪤 Trap 4: Tools Don't Need Configuration
 
 **Trap:** Tools require proper configuration for accurate results.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Open Source Tools are Inferior
+## 🪤 Trap 5: Open Source Tools are Inferior
 
 **Trap:** Open source tools like OWASP ZAP and SonarQube are highly effective.
 

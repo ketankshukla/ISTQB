@@ -1,10 +1,10 @@
-# Chapter 5 — Security Test Execution and Analysis: Lessons
+# 📘 Chapter 5 — Security Test Execution and Analysis: Lessons
 
 ---
 
-## 5.1 Test Execution Workflow
+## ⭐ 5.1 Test Execution Workflow
 
-### Preparation
+### 🔷 Preparation
 
 | Step | Activity |
 |------|----------|
@@ -13,7 +13,7 @@
 | **Tool calibration** | Verify tools are configured correctly |
 | **Rules of engagement** | Define authorized test hours, escalation paths |
 
-### Execution
+### 🔷 Execution
 
 | Phase | Activities |
 |-------|------------|
@@ -22,7 +22,7 @@
 | **Exploitation** | Validate vulnerabilities are real and assess impact |
 | **Post-exploitation** | Determine business impact, data access |
 
-### Constraints
+### 🤖 Constraints
 
 - **Production testing:** Generally avoided; use staging where possible
 - **Data handling:** No real PII; use synthetic data
@@ -31,9 +31,9 @@
 
 ---
 
-## 5.2 Vulnerability Analysis
+## 🔬 5.2 Vulnerability Analysis
 
-### Validation
+### 🔷 Validation
 
 | Finding | Validation Approach |
 |---------|-------------------|
@@ -42,7 +42,7 @@
 | **SCA reported CVE** | Verify version and exploitability |
 | **Code review finding** | Trace execution path to confirm |
 
-### Severity Rating (CVSS)
+### 🔷 Severity Rating (CVSS)
 
 | Vector | Description |
 |--------|-------------|
@@ -55,16 +55,16 @@
 | **Integrity** | None, low, high |
 | **Availability** | None, low, high |
 
-### Business Context
+### 🔷 Business Context
 
 - CVSS provides technical severity; business impact may differ
 - A CVSS 6.0 on a payment system may be more urgent than CVSS 8.0 on an internal wiki
 
 ---
 
-## 5.3 Security Reporting
+## 📝 5.3 Security Reporting
 
-### Report Structure
+### 📝 Report Structure
 
 | Section | Content |
 |---------|---------|
@@ -75,7 +75,7 @@
 | **Remediation** | Specific, actionable fix guidance |
 | **Appendices** | Screenshots, logs, tool outputs |
 
-### Writing Effective Findings
+### 🔷 Writing Effective Findings
 
 | Element | Example |
 |---------|---------|
@@ -85,7 +85,7 @@
 | **Reproduction** | Step-by-step instructions |
 | **Remediation** | "Use parameterized queries; validate input" |
 
-### Audience-Specific Reporting
+### 📝 Audience-Specific Reporting
 
 | Audience | Focus |
 |----------|-------|
@@ -95,9 +95,9 @@
 
 ---
 
-## 5.4 Remediation Verification
+## ⭐ 5.4 Remediation Verification
 
-### Retest Process
+### 🔷 Retest Process
 
 1. **Developer fixes** the vulnerability
 2. **Developer tests** the fix locally
@@ -106,7 +106,7 @@
 5. **Verify** the fix doesn't introduce new issues
 6. **Close** the finding
 
-### Common Remediation Mistakes
+### 🔷 Common Remediation Mistakes
 
 | Mistake | Example |
 |---------|---------|
@@ -117,9 +117,9 @@
 
 ---
 
-## 5.5 Security Test Environments
+## 🔒 5.5 Security Test Environments
 
-### Requirements
+### 📑 Requirements
 
 | Requirement | Implementation |
 |-------------|---------------|
@@ -129,7 +129,7 @@
 | **Monitoring** | Log all test activities |
 | **Access control** | Only authorized testers |
 
-### Types
+### 🧪 Types
 
 | Type | Use Case |
 |------|----------|
@@ -140,16 +140,16 @@
 
 ---
 
-## 5.6 Emergency Testing
+## ⭐ 5.6 Emergency Testing
 
-### Triggers
+### 🔷 Triggers
 
 - Zero-day vulnerability disclosure (e.g., Log4j)
 - Production security incident
 - Compliance audit finding
 - Third-party breach affecting your dependencies
 
-### Response
+### 🔷 Response
 
 | Step | Action |
 |------|--------|
@@ -162,9 +162,9 @@
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Vulnerability Validation
+### 💡 Worked Example 1: Vulnerability Validation
 
 **Scenario:** SAST reports "Potential SQL injection in login.php line 45."
 
@@ -175,7 +175,7 @@
 4. Observe: Login succeeds without valid credentials
 5. Confirm: True positive, severity High
 
-### Worked Example 2: Severity with Business Context
+### 💡 Worked Example 2: Severity with Business Context
 
 **Scenario:** Two findings rated CVSS 7.5.
 
@@ -186,7 +186,7 @@
 
 **Decision:** Prioritize admin panel XSS despite same CVSS.
 
-### Worked Example 3: Remediation Verification
+### 💡 Worked Example 3: Remediation Verification
 
 **Scenario:** SQL injection fixed by switching to parameterized queries.
 

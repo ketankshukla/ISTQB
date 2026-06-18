@@ -1,6 +1,6 @@
-# Case Study 2 — Static and Dynamic Analysis
+# 📂 Case Study 2 — Static and Dynamic Analysis
 
-## Context
+## ⭐ Context
 
 You are the Technical Test Analyst for TradeNet, a financial trading platform. The platform:
 - Processes 10,000 trades per second at peak
@@ -8,7 +8,7 @@ You are the Technical Test Analyst for TradeNet, a financial trading platform. T
 - Is subject to financial regulations requiring code auditability
 - Uses Java microservices architecture
 
-## Task 1: Static Analysis Implementation
+## 🔍 Task 1: Static Analysis Implementation
 
 **Question:** Design a static analysis strategy for TradeNet.
 
@@ -40,7 +40,7 @@ You are the Technical Test Analyst for TradeNet, a financial trading platform. T
 
 ---
 
-## Task 2: Complexity Analysis
+## 🔬 Task 2: Complexity Analysis
 
 **Question:** A critical trading algorithm has cyclomatic complexity of 35. What actions should you take?
 
@@ -70,7 +70,7 @@ You are the Technical Test Analyst for TradeNet, a financial trading platform. T
 
 ---
 
-## Task 3: Dynamic Analysis for Performance
+## 🔬 Task 3: Dynamic Analysis for Performance
 
 **Question:** The trading platform experiences latency spikes during market open. How would you investigate?
 
@@ -111,7 +111,7 @@ You are the Technical Test Analyst for TradeNet, a financial trading platform. T
 
 ---
 
-## Task 4: Memory Leak Investigation
+## ⭐ Task 4: Memory Leak Investigation
 
 **Question:** After 48 hours of operation, one microservice's memory usage grows from 200MB to 1.2GB. Investigate.
 
@@ -142,7 +142,7 @@ You are the Technical Test Analyst for TradeNet, a financial trading platform. T
 
 ---
 
-## Task 5: Fault Injection for Resilience
+## ⭐ Task 5: Fault Injection for Resilience
 
 **Question:** Design fault injection tests for the trading platform.
 

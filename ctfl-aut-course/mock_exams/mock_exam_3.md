@@ -1,10 +1,10 @@
-# CTFL-AuT Mock Exam 3
+# 📝 CTFL-AuT Mock Exam 3
 
 **Instructions:** 20 questions, 40 minutes. Single best answer.
 
 ---
 
-### Q1
+### 🔷 Q1
 
 An ABS ECU is:
 
@@ -15,7 +15,7 @@ D. Only for entertainment
 
 ---
 
-### Q2
+### 🔷 Q2
 
 MIL fidelity is:
 
@@ -26,7 +26,7 @@ D. Only high
 
 ---
 
-### Q3
+### 🔷 Q3
 
 ASPICE level 3 means:
 
@@ -37,7 +37,7 @@ D. Only managed process
 
 ---
 
-### Q4
+### 🔷 Q4
 
 HIL fault insertion simulates:
 
@@ -48,7 +48,7 @@ D. Only user errors
 
 ---
 
-### Q5
+### 🔷 Q5
 
 A plant model in HIL simulates:
 
@@ -59,7 +59,7 @@ D. Only the user interface
 
 ---
 
-### Q6
+### 🔷 Q6
 
 Redundancy in safety-critical systems means:
 
@@ -70,7 +70,7 @@ D. Only faster processors
 
 ---
 
-### Q7
+### 🔷 Q7
 
 PIL requires:
 
@@ -81,7 +81,7 @@ D. Only a vehicle
 
 ---
 
-### Q8
+### 🔷 Q8
 
 For compiler verification, the best environment is:
 
@@ -92,7 +92,7 @@ D. Vehicle
 
 ---
 
-### Q9
+### 🔷 Q9
 
 ISO 26262 Part 6 covers:
 
@@ -103,7 +103,7 @@ D. Only manufacturing
 
 ---
 
-### Q10
+### 🔷 Q10
 
 100% statement coverage:
 
@@ -114,7 +114,7 @@ D. Only for low ASIL
 
 ---
 
-### Q11
+### 🔷 Q11
 
 Entry criteria for testing include:
 
@@ -125,7 +125,7 @@ D. Only tool installation
 
 ---
 
-### Q12
+### 🔷 Q12
 
 A traceability matrix links:
 
@@ -136,7 +136,7 @@ D. Only schedules to milestones
 
 ---
 
-### Q13
+### 🔷 Q13
 
 Automotive testing differs from general testing because:
 
@@ -147,7 +147,7 @@ D. It never uses automation
 
 ---
 
-### Q14
+### 🔷 Q14
 
 State transition testing is useful for:
 
@@ -158,7 +158,7 @@ D. Only databases
 
 ---
 
-### Q15
+### 🔷 Q15
 
 SIL fidelity is:
 
@@ -169,7 +169,7 @@ D. Only low
 
 ---
 
-### Q16
+### 🔷 Q16
 
 Vehicle testing is best for:
 
@@ -180,7 +180,7 @@ D. Only compiler checks
 
 ---
 
-### Q17
+### 🔷 Q17
 
 Audits verify:
 
@@ -191,7 +191,7 @@ D. Only tool licenses
 
 ---
 
-### Q18
+### 🔷 Q18
 
 Environmental fault injection might:
 
@@ -202,7 +202,7 @@ D. Only test displays
 
 ---
 
-### Q19
+### 🔷 Q19
 
 A watchdog timer is:
 
@@ -213,7 +213,7 @@ D. Only for performance
 
 ---
 
-### Q20
+### 🔷 Q20
 
 For a speed limit of 120 km/h with ASIL B, the minimum coverage is:
 
@@ -224,7 +224,7 @@ D. No coverage required
 
 ---
 
-## Answer Key
+## ✔️ Answer Key
 
 | Q | Answer | Q | Answer | Q | Answer | Q | Answer |
 |---|--------|---|--------|---|--------|---|--------|

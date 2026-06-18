@@ -1,6 +1,6 @@
-# Chapter 1 — Introduction to Security Testing
+# 🌟 Chapter 1 — Introduction to Security Testing
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~15% (~6 questions out of 40)
 - **K-levels:** K1 (remember), K2 (understand)
@@ -8,7 +8,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -20,7 +20,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts
+## ⭐ Key Concepts
 
 - Confidentiality, Integrity, Availability (CIA)
 - Authentication, Authorization, Non-repudiation

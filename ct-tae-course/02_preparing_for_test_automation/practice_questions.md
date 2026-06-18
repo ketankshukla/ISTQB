@@ -1,8 +1,8 @@
-# Chapter 2 — Preparing for Test Automation: Practice Questions
+# ❓ Chapter 2 — Preparing for Test Automation: Practice Questions
 
 ---
 
-### Q1 (TAE-2.1, K2)
+### 🔷 Q1 (TAE-2.1, K2)
 
 The PRIMARY purpose of a Proof of Concept (PoC) is to:
 
@@ -13,7 +13,7 @@ D. Train the entire team on the new tool
 
 ---
 
-### Q2 (TAE-2.2, K2)
+### 🔷 Q2 (TAE-2.2, K2)
 
 Total Cost of Ownership (TCO) for a test tool includes all EXCEPT:
 
@@ -24,7 +24,7 @@ D. Maintenance and support costs
 
 ---
 
-### Q3 (TAE-2.1, K2)
+### 🔷 Q3 (TAE-2.1, K2)
 
 A Proof of Value (PoV) is conducted to:
 
@@ -35,7 +35,7 @@ D. Replace manual testers immediately
 
 ---
 
-### Q4 (TAE-2.3, K3)
+### 🔷 Q4 (TAE-2.3, K3)
 
 A team is evaluating UI automation tools. The MOST important factor is:
 
@@ -46,7 +46,7 @@ D. Whether the tool is the most expensive
 
 ---
 
-### Q5 (TAE-2.4, K2)
+### 🔷 Q5 (TAE-2.4, K2)
 
 Which of the following is a project risk for test automation?
 
@@ -57,7 +57,7 @@ D. The database is slow
 
 ---
 
-### Q6 (TAE-2.1, K3)
+### 🔷 Q6 (TAE-2.1, K3)
 
 After a successful PoC, a TAE recommends conducting a PoV. The MAIN reason is:
 
@@ -68,7 +68,7 @@ D. The tool needs to be reinstalled
 
 ---
 
-### Q7 (TAE-2.5, K2)
+### 🔷 Q7 (TAE-2.5, K2)
 
 A non-functional requirement for a TAS might specify:
 
@@ -79,7 +79,7 @@ D. The framework must support keyword-driven testing
 
 ---
 
-### Q8 (TAE-2.6, K3)
+### 🔷 Q8 (TAE-2.6, K3)
 
 A team automates without clear scope definition. The MOST likely result is:
 
@@ -90,7 +90,7 @@ D. Zero maintenance costs
 
 ---
 
-### Q9 (TAE-2.1, K2)
+### 🔷 Q9 (TAE-2.1, K2)
 
 Which activity is part of a PoC but NOT part of a PoV?
 
@@ -101,7 +101,7 @@ D. Demonstrating business value to stakeholders
 
 ---
 
-### Q10 (TAE-2.2, K3)
+### 🔷 Q10 (TAE-2.2, K3)
 
 A tool has a free open-source license. A TAE calculates TCO as zero. This calculation is:
 
@@ -112,7 +112,7 @@ D. Incorrect because open source always requires paid support
 
 ---
 
-### Q11 (TAE-2.3, K2)
+### 🔷 Q11 (TAE-2.3, K2)
 
 When selecting a tool, vendor stability is important because:
 
@@ -123,7 +123,7 @@ D. Vendor stability is never important for open-source tools
 
 ---
 
-### Q12 (TAE-2.4, K2)
+### 🔷 Q12 (TAE-2.4, K2)
 
 An organizational risk for test automation is:
 
@@ -134,7 +134,7 @@ D. The test environment is unavailable
 
 ---
 
-### Q13 (TAE-2.5, K3)
+### 🔷 Q13 (TAE-2.5, K3)
 
 A team needs automation that completes within 5 minutes to fit in their CI pipeline. This is a:
 
@@ -145,7 +145,7 @@ D. Nice-to-have feature
 
 ---
 
-### Q14 (TAE-2.6, K2)
+### 🔷 Q14 (TAE-2.6, K2)
 
 The PRIMARY skill a Test Automation Engineer must have is:
 
@@ -156,7 +156,7 @@ D. Graphic design skills
 
 ---
 
-### Q15 (TAE-2.1, K3)
+### 🔷 Q15 (TAE-2.1, K3)
 
 A team runs a PoC for 2 weeks using 5 real test cases and measures that automation saves 50% of execution time. This is BEST described as:
 
@@ -167,7 +167,7 @@ D. Full deployment
 
 ---
 
-### Q16 (TAE-2.2, K2)
+### 🔷 Q16 (TAE-2.2, K2)
 
 Hidden costs in TCO may include:
 
@@ -178,7 +178,7 @@ D. The number of users
 
 ---
 
-### Q17 (TAE-2.3, K3)
+### 🔷 Q17 (TAE-2.3, K3)
 
 A team evaluates tools using only the criterion "is it free?" The MAIN risk is:
 
@@ -189,7 +189,7 @@ D. Management will be unhappy with a free tool
 
 ---
 
-### Q18 (TAE-2.4, K2)
+### 🔷 Q18 (TAE-2.4, K2)
 
 Which of the following is a mitigation for "high maintenance cost" risk?
 
@@ -200,7 +200,7 @@ D. Use only record/replay tools
 
 ---
 
-### Q19 (TAE-2.5, K2)
+### 🔷 Q19 (TAE-2.5, K2)
 
 A constraint in test automation requirements might be:
 
@@ -211,7 +211,7 @@ D. Tests must run in parallel
 
 ---
 
-### Q20 (TAE-2.6, K3)
+### 🔷 Q20 (TAE-2.6, K3)
 
 A team of manual testers is asked to implement automation with no training. The MOST likely outcome is:
 
@@ -222,104 +222,104 @@ D. No automation is needed anyway
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** PoC verifies technical feasibility — can the tool work in this environment?
 
-### Q2
+### 🔷 Q2
 **Answer: C**
 
 **Rationale:** TCO includes license, training, infrastructure, maintenance. Market popularity is not a cost.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** PoV demonstrates business value and ROI. PoC checks technical feasibility.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** Technical fit and CI/CD integration are the most important factors. Popularity (A) and price (D) are secondary.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** Timeline issues are project risks. SUT defects (A, C, D) are product risks.
 
-### Q6
+### 🔷 Q6
 **Answer: A**
 
 **Rationale:** PoC = technical feasibility. PoV = business value. Both are needed for a complete evaluation.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** Execution time is a performance (non-functional) requirement. A, C, D are functional requirements.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** Without scope definition, automation efforts expand uncontrollably (scope creep).
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** Verifying SUT interaction is PoC. Measuring savings, ROI, and demonstrating value are PoV activities.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** Open-source tools still have TCO costs: training, infrastructure, maintenance time.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 
 **Rationale:** Unstable vendors may discontinue the product or support, leaving the team stranded.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** Lack of management support is an organizational risk. A is technical, C is technical, D is environmental.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** Execution time is a performance requirement, which is non-functional.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** TAEs need programming and design skills to build maintainable frameworks.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** Measuring time saved (business value) with real test cases makes this a PoV, not just a PoC.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 
 **Rationale:** Hidden costs include productivity loss during learning, integration effort, and custom development.
 
-### Q17
+### 🔷 Q17
 **Answer: A**
 
 **Rationale:** Selecting solely on price risks choosing a tool that does not meet technical requirements.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 
 **Rationale:** Designing for maintainability (POM, abstraction) directly addresses high maintenance costs.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** Budget limit is a constraint. A, C, D are functional or non-functional requirements.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 
 **Rationale:** Without training, manual testers will likely produce poor-quality automation due to skill gaps.

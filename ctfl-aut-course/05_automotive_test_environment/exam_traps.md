@@ -1,6 +1,6 @@
-# Chapter 5 — Automotive Test Environment: Exam Traps
+# 🪤 Chapter 5 — Automotive Test Environment: Exam Traps
 
-## Trap 1: HIL is Just a Computer Simulation
+## 🪤 Trap 1: HIL is Just a Computer Simulation
 
 **Trap:** HIL uses real ECU hardware with a simulator, not pure software.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: PIL is Unnecessary if SIL Passes
+## 🪤 Trap 2: PIL is Unnecessary if SIL Passes
 
 **Trap:** PIL catches compiler and processor-specific issues that SIL misses.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Vehicle Testing Can Replace HIL
+## 🪤 Trap 3: Vehicle Testing Can Replace HIL
 
 **Trap:** Vehicle testing is expensive, dangerous, and less repeatable than HIL.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: All Test Environments Have the Same Fidelity
+## 🪤 Trap 4: All Test Environments Have the Same Fidelity
 
 **Trap:** Fidelity increases from MIL to vehicle.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: CANoe is Only for CAN
+## 🪤 Trap 5: CANoe is Only for CAN
 
 **Trap:** CANoe supports CAN, LIN, FlexRay, Ethernet, and MOST.
 

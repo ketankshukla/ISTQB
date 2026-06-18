@@ -1,6 +1,6 @@
-# Chapter 5 — AI Quality Characteristics and Risks: Exam Traps
+# 🪤 Chapter 5 — AI Quality Characteristics and Risks: Exam Traps
 
-## Trap 1: Thinking Fairness Means Equal Outcomes for Everyone
+## 🪤 Trap 1: Thinking Fairness Means Equal Outcomes for Everyone
 
 **Trap:** Fairness does not always mean equal outcomes. Equal opportunity means qualified people have equal chances, not that everyone gets the same result.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Thinking Explainability Is Optional
+## 🪤 Trap 2: Thinking Explainability Is Optional
 
 **Trap:** Regulations (GDPR, EU AI Act) increasingly require explainability for high-risk AI systems. It is not optional.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Confusing Robustness with Accuracy
+## 🪤 Trap 3: Confusing Robustness with Accuracy
 
 **Trap:** A model can be accurate on standard test data but not robust to perturbations, adversarial inputs, or distribution shifts.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Ignoring Ethical Risks Because the Technology Is "Neutral"
+## 🪤 Trap 4: Ignoring Ethical Risks Because the Technology Is "Neutral"
 
 **Trap:** Technology is not neutral — design choices embed values. AI systems can cause harm even when unintended.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Thinking AI Risks Are Only Technical
+## 🪤 Trap 5: Thinking AI Risks Are Only Technical
 
 **Trap:** AI risks include societal, legal, and reputational dimensions, not just technical failures.
 

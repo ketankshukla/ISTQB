@@ -1,14 +1,14 @@
-# Chapter 3 — Reviews: Lessons
+# 📘 Chapter 3 — Reviews: Lessons
 
 ---
 
-## 3.1 Types of Reviews
+## 🧪 3.1 Types of Reviews
 
-### Why Reviews Matter
+### 🔎 Why Reviews Matter
 
 Reviews (static testing) find defects early in the lifecycle when they are cheaper to fix. A defect found in requirements review costs 10-100x less to fix than one found in production.
 
-### Review Types
+### 🧪 Review Types
 
 **1. Informal Review**
 
@@ -107,7 +107,7 @@ Reviews (static testing) find defects early in the lifecycle when they are cheap
 
 **Example:** Inspection of safety-critical software requirements for an aircraft control system.
 
-### Comparison of Review Types
+### 🧪 Comparison of Review Types
 
 | Characteristic | Informal | Walkthrough | Technical Review | Inspection |
 |----------------|----------|-------------|-----------------|------------|
@@ -124,9 +124,9 @@ Reviews (static testing) find defects early in the lifecycle when they are cheap
 
 ---
 
-## 3.2 The Review Process
+## 🔎 3.2 The Review Process
 
-### Stage 1: Planning
+### 🗓️ Stage 1: Planning
 
 **Activities:**
 - Define review objectives
@@ -143,7 +143,7 @@ Reviews (static testing) find defects early in the lifecycle when they are cheap
 - Previous review comments have been addressed (for re-reviews)
 - Author is available to answer questions
 
-### Stage 2: Preparation (Individual Review)
+### 🔎 Stage 2: Preparation (Individual Review)
 
 **Activities:**
 - Each reviewer examines the document independently
@@ -158,7 +158,7 @@ Reviews (static testing) find defects early in the lifecycle when they are cheap
 - Code review: coding standards, complexity, error handling, comments
 - Test plan review: coverage, feasibility, completeness
 
-### Stage 3: Review Meeting
+### 🔎 Stage 3: Review Meeting
 
 **Activities:**
 - Moderator opens the meeting
@@ -175,14 +175,14 @@ Reviews (static testing) find defects early in the lifecycle when they are cheap
 - Review rate: 1-5 pages per hour for detailed reviews
 - Longer meetings lead to reduced effectiveness
 
-### Stage 4: Rework
+### 🔷 Stage 4: Rework
 
 **Activities:**
 - Author fixes identified defects
 - Author may need to consult with reviewers for clarification
 - Author documents changes made
 
-### Stage 5: Follow-Up
+### 🔷 Stage 5: Follow-Up
 
 **Activities:**
 - Moderator verifies that all defects have been addressed
@@ -200,9 +200,9 @@ Reviews (static testing) find defects early in the lifecycle when they are cheap
 
 ---
 
-## 3.3 Test Manager's Role in Reviews
+## 🔎 3.3 Test Manager's Role in Reviews
 
-### Planning Reviews
+### 🔎 Planning Reviews
 
 The test manager should:
 - Advocate for reviews as part of the test approach
@@ -211,7 +211,7 @@ The test manager should:
 - Select appropriate review types based on risk
 - Ensure reviewers have appropriate skills
 
-### Managing Reviews
+### 🔎 Managing Reviews
 
 The test manager should:
 - Track review completion against the schedule
@@ -220,7 +220,7 @@ The test manager should:
 - Ensure review findings are addressed
 - Report review status to stakeholders
 
-### Participating in Reviews
+### 🔎 Participating in Reviews
 
 The test manager may:
 - Review test plans, test strategies, and test policies
@@ -238,9 +238,9 @@ The test manager may:
 
 ---
 
-## 3.4 Review Metrics
+## 🔎 3.4 Review Metrics
 
-### Why Collect Review Metrics?
+### 🔎 Why Collect Review Metrics?
 
 - Measure review effectiveness
 - Identify process improvement opportunities
@@ -248,7 +248,7 @@ The test manager may:
 - Compare review types and approaches
 - Justify investment in reviews
 
-### Key Review Metrics
+### 🔎 Key Review Metrics
 
 **1. Defect Density (in the document):**
 ```
@@ -280,7 +280,7 @@ Defect Removal Efficiency = (Defects Found in Review / Total Defects in Document
 Cost per Defect = Cost of Review / Number of Defects Found
 ```
 
-### Using Metrics to Improve
+### 📊 Using Metrics to Improve
 
 **If defect density is higher than average:**
 - The author may need training
@@ -299,7 +299,7 @@ Cost per Defect = Cost of Review / Number of Defects Found
 
 ---
 
-## 3.5 Factors for Successful Reviews
+## 🔎 3.5 Factors for Successful Reviews
 
 **1. Management Support:**
 - Allocate time for reviews in the schedule
@@ -346,9 +346,9 @@ Cost per Defect = Cost of Review / Number of Defects Found
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Selecting Review Type
+### 💡 Worked Example 1: Selecting Review Type
 
 **Scenario:** A team is developing a new mobile banking app.
 
@@ -364,7 +364,7 @@ Cost per Defect = Cost of Review / Number of Defects Found
 - **Recommended review type:** Technical review or inspection
 - **Rationale:** Security is critical, requires deep technical analysis
 
-### Worked Example 2: Review Metrics Calculation
+### 💡 Worked Example 2: Review Metrics Calculation
 
 **Data:**
 - Document size: 40 pages

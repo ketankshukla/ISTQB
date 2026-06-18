@@ -1,8 +1,8 @@
-# Chapter 6 — Non-Functional Testing: Practice Questions
+# ❓ Chapter 6 — Non-Functional Testing: Practice Questions
 
 ---
 
-### Q1 (TTA-6.1, K2)
+### 🔷 Q1 (TTA-6.1, K2)
 
 Which type of performance testing evaluates system behavior under expected user load?
 
@@ -13,7 +13,7 @@ D. Soak testing
 
 ---
 
-### Q2 (TTA-6.2, K2)
+### 🔷 Q2 (TTA-6.2, K2)
 
 SAST (Static Application Security Testing) analyzes:
 
@@ -24,7 +24,7 @@ D. User behavior for security risks
 
 ---
 
-### Q3 (TTA-6.1, K3)
+### 🔷 Q3 (TTA-6.1, K3)
 
 Testing a system at 2x expected capacity to find its breaking point is:
 
@@ -35,7 +35,7 @@ D. Scalability testing
 
 ---
 
-### Q4 (TTA-6.3, K2)
+### 🔷 Q4 (TTA-6.3, K2)
 
 Availability is calculated as:
 
@@ -46,7 +46,7 @@ D. MTBF - MTTR
 
 ---
 
-### Q5 (TTA-6.2, K3)
+### 🔷 Q5 (TTA-6.2, K3)
 
 Which security testing technique involves simulating real-world attacks on a running application?
 
@@ -57,7 +57,7 @@ D. Fuzz testing
 
 ---
 
-### Q6 (TTA-6.1, K2)
+### 🔷 Q6 (TTA-6.1, K2)
 
 Soak testing is primarily used to detect:
 
@@ -68,7 +68,7 @@ D. Compatibility with different browsers
 
 ---
 
-### Q7 (TTA-6.2, K3)
+### 🔷 Q7 (TTA-6.2, K3)
 
 A tool that sends random malformed inputs to an application to find crashes is:
 
@@ -79,7 +79,7 @@ D. A performance profiler
 
 ---
 
-### Q8 (TTA-6.3, K2)
+### 🔷 Q8 (TTA-6.3, K2)
 
 A system has MTBF = 500 hours and MTTR = 2 hours. The availability is approximately:
 
@@ -90,7 +90,7 @@ D. 99.996%
 
 ---
 
-### Q9 (TTA-6.4, K2)
+### 🔷 Q9 (TTA-6.4, K2)
 
 Backward compatibility testing verifies that:
 
@@ -101,7 +101,7 @@ D. Application works on mobile devices
 
 ---
 
-### Q10 (TTA-6.1, K3)
+### 🔷 Q10 (TTA-6.1, K3)
 
 Which metric is MOST relevant for measuring user-perceived performance?
 
@@ -112,7 +112,7 @@ D. Database connection pool size
 
 ---
 
-### Q11 (TTA-6.2, K3)
+### 🔷 Q11 (TTA-6.2, K3)
 
 Which security vulnerability occurs when user input is directly included in a database query without sanitization?
 
@@ -123,7 +123,7 @@ D. Insecure direct object reference
 
 ---
 
-### Q12 (TTA-6.1, K2)
+### 🔷 Q12 (TTA-6.1, K2)
 
 Scalability testing evaluates:
 
@@ -134,7 +134,7 @@ D. System behavior at maximum capacity
 
 ---
 
-### Q13 (TTA-6.5, K2)
+### 🔷 Q13 (TTA-6.5, K2)
 
 Testing that a web application can be navigated using only a keyboard is part of:
 
@@ -145,7 +145,7 @@ D. Load testing
 
 ---
 
-### Q14 (TTA-6.3, K3)
+### 🔷 Q14 (TTA-6.3, K3)
 
 Failover testing verifies that:
 
@@ -156,7 +156,7 @@ D. Users can access the system from different locations
 
 ---
 
-### Q15 (TTA-6.2, K2)
+### 🔷 Q15 (TTA-6.2, K2)
 
 DAST is performed:
 
@@ -167,79 +167,79 @@ D. On source code without execution
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** Load testing evaluates behavior under expected user load.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** SAST analyzes source code without executing it.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** Stress testing pushes beyond expected capacity to find breaking points.
 
-### Q4
+### 🔷 Q4
 **Answer: A**
 
 **Rationale:** Availability = MTBF / (MTBF + MTTR).
 
-### Q5
+### 🔷 Q5
 **Answer: C**
 
 **Rationale:** Penetration testing simulates real-world attacks on running applications.
 
-### Q6
+### 🔷 Q6
 **Answer: A**
 
 **Rationale:** Soak testing runs under sustained load to detect memory leaks and gradual degradation.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** Fuzz testing sends random/malformed inputs to find crashes and vulnerabilities.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** Availability = 500 / (500 + 2) = 500 / 502 = 0.996 = 99.6%.
 
-### Q9
+### 🔷 Q9
 **Answer: A**
 
 **Rationale:** Backward compatibility = new version works with old data/formats.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** p95 response time measures the latency experienced by 95% of users.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 
 **Rationale:** SQL injection occurs when unsanitized user input is included in database queries.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** Scalability testing evaluates the ability to handle growth by adding resources.
 
-### Q13
+### 🔷 Q13
 **Answer: C**
 
 **Rationale:** Keyboard-only navigation testing is part of accessibility testing (WCAG operability).
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** Failover testing verifies backup systems take over when primary systems fail.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** DAST tests running applications by simulating attacks.

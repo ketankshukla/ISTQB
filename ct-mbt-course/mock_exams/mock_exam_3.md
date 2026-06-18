@@ -1,11 +1,11 @@
-# CT-MBT Mock Exam 3
+# 📝 CT-MBT Mock Exam 3
 
 **Instructions:**
 - 40 questions, 60 minutes, single best answer, no negative marking
 
 ---
 
-### Q1
+### 🔷 Q1
 
 According to ISO 9241-11, which component of usability refers to the accuracy and completeness with which users achieve their goals?
 
@@ -16,7 +16,7 @@ D. Learnability
 
 ---
 
-### Q2
+### 🔷 Q2
 
 The UX Honeycomb model includes all of the following EXCEPT:
 
@@ -27,7 +27,7 @@ D. Accessible
 
 ---
 
-### Q3
+### 🔷 Q3
 
 A screen reader is PRIMARILY used by people with:
 
@@ -38,7 +38,7 @@ D. Auditory disabilities
 
 ---
 
-### Q4
+### 🔷 Q4
 
 The industry average SUS score is approximately:
 
@@ -49,7 +49,7 @@ D. 90
 
 ---
 
-### Q5
+### 🔷 Q5
 
 NPS classifies users scoring 9-10 as:
 
@@ -60,7 +60,7 @@ D. Neutral
 
 ---
 
-### Q6
+### 🔷 Q6
 
 "Shift-left" testing in usability means:
 
@@ -71,7 +71,7 @@ D. Testing only with left-handed users
 
 ---
 
-### Q7
+### 🔷 Q7
 
 A team has 300 UI tests, 50 integration tests, and 30 unit tests. Their suite takes 4 hours to run. The BEST improvement is:
 
@@ -82,7 +82,7 @@ D. Hire more testers to maintain the tests
 
 ---
 
-### Q8
+### 🔷 Q8
 
 In a CI pipeline, which stage should typically run FIRST?
 
@@ -93,7 +93,7 @@ D. Performance load testing
 
 ---
 
-### Q9
+### 🔷 Q9
 
 The relationship between ATDD, BDD, and TDD is BEST described as:
 
@@ -104,7 +104,7 @@ D. Only TDD is appropriate for agile teams
 
 ---
 
-### Q10
+### 🔷 Q10
 
 A model contains an unreachable state. This affects which quality attribute?
 
@@ -115,7 +115,7 @@ D. Maintainability
 
 ---
 
-### Q11
+### 🔷 Q11
 
 A data flow model focuses on:
 
@@ -126,7 +126,7 @@ D. Network packet routing
 
 ---
 
-### Q12
+### 🔷 Q12
 
 The appropriate level of abstraction in a test model depends on:
 
@@ -137,7 +137,7 @@ D. The number of testers available
 
 ---
 
-### Q13
+### 🔷 Q13
 
 Equivalence partitioning for a guard condition divides input data into:
 
@@ -148,7 +148,7 @@ D. Groups based on the modeler's preference
 
 ---
 
-### Q14
+### 🔷 Q14
 
 A team achieves 100% state coverage. This means:
 
@@ -159,7 +159,7 @@ D. The model is guaranteed to be correct
 
 ---
 
-### Q15
+### 🔷 Q15
 
 A model has a state that transitions back to itself (a loop). Achieving full path coverage is:
 
@@ -170,7 +170,7 @@ D. Only possible with manual testing
 
 ---
 
-### Q16
+### 🔷 Q16
 
 A slip is BEST described as:
 
@@ -181,7 +181,7 @@ D. A deliberate mistake by the user
 
 ---
 
-### Q17
+### 🔷 Q17
 
 A test fails. The SUT behaves as specified in requirements, but the model predicted different behavior. The root cause is likely:
 
@@ -192,7 +192,7 @@ D. An environment issue
 
 ---
 
-### Q18
+### 🔷 Q18
 
 Simulator-based test execution is MOST appropriate when:
 
@@ -203,7 +203,7 @@ D. The model is not yet complete
 
 ---
 
-### Q19
+### 🔷 Q19
 
 A team calculates ROI using only initial development costs. The calculated ROI will be:
 
@@ -214,7 +214,7 @@ D. Only valid for the first year
 
 ---
 
-### Q20
+### 🔷 Q20
 
 A team should allocate approximately what percentage of automation capacity to maintenance?
 
@@ -225,7 +225,7 @@ D. 100%
 
 ---
 
-### Q21
+### 🔷 Q21
 
 A usability issue that prevents a user from completing a critical task should be rated as:
 
@@ -236,7 +236,7 @@ D. Critical
 
 ---
 
-### Q22
+### 🔷 Q22
 
 A test completion activity is:
 
@@ -247,7 +247,7 @@ D. Identifying test conditions
 
 ---
 
-### Q23
+### 🔷 Q23
 
 Which review type is led by the author of the document and may serve educational purposes?
 
@@ -258,7 +258,7 @@ D. Inspection
 
 ---
 
-### Q24
+### 🔷 Q24
 
 A test manager collects weekly metrics on test execution progress. This is an example of:
 
@@ -269,7 +269,7 @@ D. Test implementation
 
 ---
 
-### Q25
+### 🔷 Q25
 
 In an inspection, who is typically NOT present during the review meeting?
 
@@ -280,7 +280,7 @@ D. The scribe
 
 ---
 
-### Q26
+### 🔷 Q26
 
 Which test organization structure allows testers to maintain testing skills through a functional manager while meeting project needs?
 
@@ -291,7 +291,7 @@ D. Outsourced testing only
 
 ---
 
-### Q27
+### 🔷 Q27
 
 Which describes the PRIMARY benefit of independent testing?
 
@@ -302,7 +302,7 @@ D. Better domain knowledge of the system
 
 ---
 
-### Q28
+### 🔷 Q28
 
 A test manager is planning a project with well-understood requirements and a stable technology stack. Which estimation technique is MOST appropriate?
 
@@ -313,7 +313,7 @@ D. Random guessing
 
 ---
 
-### Q29
+### 🔷 Q29
 
 Which is a PRIMARY purpose of a test plan?
 
@@ -324,7 +324,7 @@ D. To document the results of all testing
 
 ---
 
-### Q30
+### 🔷 Q30
 
 A testing team is evaluating whether to purchase a commercial test tool or use an open-source alternative. The PRIMARY factor should be:
 
@@ -335,7 +335,7 @@ D. Whether competitors use the same tool
 
 ---
 
-### Q31
+### 🔷 Q31
 
 Which is a PRIMARY difference between severity and priority?
 
@@ -346,7 +346,7 @@ D. Severity is only used in agile projects
 
 ---
 
-### Q32
+### 🔷 Q32
 
 A testing team wants to verify that an RNG produces uniformly distributed numbers between 1 and 100. The best approach is:
 
@@ -357,7 +357,7 @@ D. Checking the source code comments
 
 ---
 
-### Q33
+### 🔷 Q33
 
 A team implements a keyword-driven automation framework. Business analysts can write tests using keywords while engineers maintain the implementation. This approach:
 
@@ -368,7 +368,7 @@ D. Is only suitable for unit testing
 
 ---
 
-### Q34
+### 🔷 Q34
 
 ROI for a test tool is calculated as:
 
@@ -379,7 +379,7 @@ D. Costs / Benefits
 
 ---
 
-### Q35
+### 🔷 Q35
 
 Which is a PRIMARY responsibility of a test manager?
 
@@ -390,7 +390,7 @@ D. Defining the user interface design
 
 ---
 
-### Q36
+### 🔷 Q36
 
 A test manager notices that the test execution schedule is falling behind due to environment unavailability. The MOST appropriate control action is:
 
@@ -401,7 +401,7 @@ D. Skip the remaining tests and report success
 
 ---
 
-### Q37
+### 🔷 Q37
 
 Which is a PRIMARY characteristic of an independent test organization?
 
@@ -412,7 +412,7 @@ D. Testers are embedded in development teams
 
 ---
 
-### Q38
+### 🔷 Q38
 
 A test manager is considering keeping testing integrated within the development team. The PRIMARY advantage is:
 
@@ -423,7 +423,7 @@ D. More formal processes
 
 ---
 
-### Q39
+### 🔷 Q39
 
 Which is a PRIMARY purpose of entry criteria?
 
@@ -434,7 +434,7 @@ D. To define the tools to be used
 
 ---
 
-### Q40
+### 🔷 Q40
 
 Which is a PRIMARY consideration when planning regression testing?
 
@@ -445,4 +445,4 @@ D. Focusing only on cosmetic issues
 
 ---
 
-## End of Mock Exam 3
+## 📝 End of Mock Exam 3

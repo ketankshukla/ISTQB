@@ -1,6 +1,6 @@
-# Chapter 5 — Tools and Automation: Exam Traps
+# 🪤 Chapter 5 — Tools and Automation: Exam Traps
 
-## Trap 1: Thinking MBT Tools Eliminate the Need for Models
+## 🪤 Trap 1: Thinking MBT Tools Eliminate the Need for Models
 
 **Trap:** Tools generate tests FROM models. Models are still required.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Thinking One Tool Does Everything
+## 🪤 Trap 2: Thinking One Tool Does Everything
 
 **Trap:** Most teams use a combination of tools: model editor + test generator + execution framework.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Ignoring Tool Learning Curve
+## 🪤 Trap 3: Ignoring Tool Learning Curve
 
 **Trap:** MBT tools require modeling knowledge and tool expertise. Training is essential.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Thinking Manual MBT Is Never Appropriate
+## 🪤 Trap 4: Thinking Manual MBT Is Never Appropriate
 
 **Trap:** For small projects or pilots, manual modeling and test generation may be sufficient.
 

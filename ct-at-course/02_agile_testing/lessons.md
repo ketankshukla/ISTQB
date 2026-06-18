@@ -1,10 +1,10 @@
-# Chapter 2 — Agile Testing: Lessons
+# 📘 Chapter 2 — Agile Testing: Lessons
 
 ---
 
-## 2.1 The Whole-Team Approach
+## ⭐ 2.1 The Whole-Team Approach
 
-### Concept
+### 🔷 Concept
 
 The whole-team approach means that **delivering quality is the responsibility of everyone on the team**, not just testers.
 
@@ -39,9 +39,9 @@ The whole-team approach means that **delivering quality is the responsibility of
 
 ---
 
-## 2.2 The Tester's Role in Agile
+## 🏃 2.2 The Tester's Role in Agile
 
-### Evolved Responsibilities
+### 🔷 Evolved Responsibilities
 
 In agile, the tester's role evolves from "gatekeeper" to "quality enabler."
 
@@ -75,7 +75,7 @@ In agile, the tester's role evolves from "gatekeeper" to "quality enabler."
 - Ensures usability and accessibility
 - Challenges assumptions about requirements
 
-### Tester's Activities Throughout the Sprint
+### 🔷 Tester's Activities Throughout the Sprint
 
 | Sprint Phase | Tester's Activities |
 |--------------|---------------------|
@@ -86,7 +86,7 @@ In agile, the tester's role evolves from "gatekeeper" to "quality enabler."
 | Sprint Review | Demonstrate features, gather feedback, validate against expectations |
 | Retrospective | Propose quality improvements, reflect on testing effectiveness |
 
-### Skill Set for Agile Testers
+### 🏃 Skill Set for Agile Testers
 
 **Technical Skills:**
 - Test automation (Selenium, Cypress, Playwright, etc.)
@@ -110,13 +110,13 @@ In agile, the tester's role evolves from "gatekeeper" to "quality enabler."
 
 ---
 
-## 2.3 Acceptance Criteria
+## ✅ 2.3 Acceptance Criteria
 
-### What Are Acceptance Criteria?
+### ✅ What Are Acceptance Criteria?
 
 Acceptance criteria are the **conditions that a user story must satisfy to be accepted by the Product Owner.** They define the boundaries of a user story and help the team understand when the story is complete.
 
-### Characteristics of Good Acceptance Criteria
+### ✅ Characteristics of Good Acceptance Criteria
 
 **1. Testable:**
 - Each criterion can be verified by a test
@@ -133,7 +133,7 @@ Acceptance criteria are the **conditions that a user story must satisfy to be ac
 - Include both positive and negative scenarios
 - Specify error handling
 
-### Formats for Acceptance Criteria
+### ✅ Formats for Acceptance Criteria
 
 **1. Given/When/Then (Scenario Format):**
 ```
@@ -159,7 +159,7 @@ Scenario: Successful login
   Expected Result: Redirect to dashboard, status 200
 ```
 
-### Acceptance Criteria and Testing
+### ✅ Acceptance Criteria and Testing
 
 **How ACs Drive Testing:**
 - Each acceptance criterion should have at least one test
@@ -188,13 +188,13 @@ Scenario: Successful login
 
 ---
 
-## 2.4 Definition of Done (DoD)
+## ⭐ 2.4 Definition of Done (DoD)
 
-### What Is the Definition of Done?
+### 🔷 What Is the Definition of Done?
 
 The Definition of Done is a **shared understanding of what it means for work to be complete.** It ensures consistency and quality across all work items.
 
-### Typical DoD Elements
+### 🔷 Typical DoD Elements
 
 **Code:**
 - [ ] Code is written
@@ -219,7 +219,7 @@ The Definition of Done is a **shared understanding of what it means for work to 
 - [ ] Smoke tests pass in staging
 - [ ] No known critical defects
 
-### DoD and Testing
+### 🔷 DoD and Testing
 
 **Without Testing in DoD:**
 - Stories marked "done" may have undiscovered defects
@@ -233,7 +233,7 @@ The Definition of Done is a **shared understanding of what it means for work to 
 - Sustainable pace is maintained
 - Stakeholders can trust "done" means "releasable"
 
-### DoD Evolution
+### 🔷 DoD Evolution
 
 The DoD should evolve as the team matures:
 
@@ -243,7 +243,7 @@ The DoD should evolve as the team matures:
 | Maturing team | Code reviewed, unit tests, manual acceptance testing |
 | High-performing team | All above + automated acceptance tests, performance checks, security scan, deployed to staging |
 
-### Definition of Ready (DoR)
+### 🔷 Definition of Ready (DoR)
 
 The Definition of Ready complements the DoD:
 
@@ -261,9 +261,9 @@ The Definition of Ready complements the DoD:
 
 ---
 
-## 2.5 Test Planning in Agile
+## 🗓️ 2.5 Test Planning in Agile
 
-### Differences from Traditional Test Planning
+### 🗓️ Differences from Traditional Test Planning
 
 | Aspect | Traditional | Agile |
 |--------|-----------|-------|
@@ -273,7 +273,7 @@ The Definition of Ready complements the DoD:
 | Changes | Change control process | Adapt every sprint |
 | Estimation | Detailed, long-term | Story points, team velocity |
 
-### Agile Test Planning Activities
+### 🗓️ Agile Test Planning Activities
 
 **1. Release Planning:**
 - Identify high-level test objectives
@@ -292,7 +292,7 @@ The Definition of Ready complements the DoD:
 - Adapting to discovered risks
 - Prioritizing testing based on current risks
 
-### Test Estimation in Agile
+### 🔢 Test Estimation in Agile
 
 **Story Points:**
 - Relative sizing based on complexity, effort, and uncertainty
@@ -303,7 +303,7 @@ The Definition of Ready complements the DoD:
 - Some teams break stories into tasks with hour estimates
 - Testing tasks: test design, automation, execution, defect verification
 
-### Risk-Based Testing in Agile
+### ⚠️ Risk-Based Testing in Agile
 
 **Identify Risks:**
 - New or changed features (higher risk)
@@ -319,9 +319,9 @@ The Definition of Ready complements the DoD:
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Whole-Team Quality
+### 💡 Worked Example 1: Whole-Team Quality
 
 **Scenario:** A team releases a feature that passes all automated tests but users report it is confusing to use.
 
@@ -333,7 +333,7 @@ The Definition of Ready complements the DoD:
 - Conduct sprint reviews with actual users when possible
 - Include UX review in the Definition of Done
 
-### Worked Example 2: Writing Good Acceptance Criteria
+### 💡 Worked Example 2: Writing Good Acceptance Criteria
 
 **Poor AC:**
 ```
@@ -354,7 +354,7 @@ And the login form is accessible via keyboard
 And error messages are displayed within 1 second
 ```
 
-### Worked Example 3: Definition of Done Review
+### 💡 Worked Example 3: Definition of Done Review
 
 **Scenario:** A team's DoD currently includes: "Code is written and tested."
 

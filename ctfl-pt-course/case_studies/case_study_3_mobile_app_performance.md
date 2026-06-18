@@ -1,6 +1,6 @@
-# Case Study 3 — Mobile App Performance
+# 📂 Case Study 3 — Mobile App Performance
 
-## Scenario
+## 🎬 Scenario
 
 A mobile banking app must launch in < 3 seconds and handle:
 - Login: 100% of sessions
@@ -10,23 +10,23 @@ A mobile banking app must launch in < 3 seconds and handle:
 - App size < 50MB
 - Battery usage < 5% per 10-minute session
 
-## Questions
+## ❓ Questions
 
 1. What non-functional test types apply?
 2. How do mobile performance tests differ from web?
 3. What client-side metrics should be captured?
 4. How would you test battery consumption?
 
-## Model Answers
+## ✔️ Model Answers
 
-### Q1
+### 🔷 Q1
 - **Performance testing:** Launch time, response time
 - **Load testing:** Server capacity for concurrent users
 - **Volume testing:** Large statement downloads
 - **Stress testing:** Network degradation scenarios
 - **Compatibility testing:** Different devices and OS versions
 
-### Q2
+### 🔷 Q2
 Mobile-specific differences:
 - **Network variability:** WiFi, 4G, 5G, offline
 - **Device diversity:** Screen sizes, processors, memory
@@ -34,7 +34,7 @@ Mobile-specific differences:
 - **App size:** Download and storage constraints
 - **Gesture-based interactions:** Swipe, tap, scroll performance
 
-### Q3
+### 🔷 Q3
 Client-side metrics:
 - App launch time (cold, warm, hot start)
 - Screen render time
@@ -44,7 +44,7 @@ Client-side metrics:
 - Network data consumption
 - Battery drain rate
 
-### Q4
+### 🔷 Q4
 Battery testing approach:
 1. Establish baseline (idle device)
 2. Run scripted user journey for 10 minutes

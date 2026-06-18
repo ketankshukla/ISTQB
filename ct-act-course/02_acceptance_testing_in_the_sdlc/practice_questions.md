@@ -1,8 +1,8 @@
-# Chapter 2 — Acceptance Testing in the SDLC: Practice Questions
+# ❓ Chapter 2 — Acceptance Testing in the SDLC: Practice Questions
 
 ---
 
-### Q1 (AcT-2.1, K2)
+### 🔷 Q1 (AcT-2.1, K2)
 
 In the V-model, acceptance testing corresponds to which development phase?
 
@@ -13,7 +13,7 @@ D. Architecture design
 
 ---
 
-### Q2 (AcT-2.1, K2)
+### 🔷 Q2 (AcT-2.1, K2)
 
 In agile development, acceptance testing is:
 
@@ -24,7 +24,7 @@ D. Performed only by the Scrum Master
 
 ---
 
-### Q3 (AcT-2.2, K2)
+### 🔷 Q3 (AcT-2.2, K2)
 
 "All P1 and P2 system test cases must pass before acceptance testing begins" is an example of:
 
@@ -35,7 +35,7 @@ D. A test case
 
 ---
 
-### Q4 (AcT-2.2, K2)
+### 🔷 Q4 (AcT-2.2, K2)
 
 "95% of acceptance test cases must pass for the system to be accepted" is an example of:
 
@@ -46,7 +46,7 @@ D. A non-functional requirement
 
 ---
 
-### Q5 (AcT-2.3, K2)
+### 🔷 Q5 (AcT-2.3, K2)
 
 Forward traceability in acceptance testing means:
 
@@ -57,7 +57,7 @@ D. Tracing from defects to code changes
 
 ---
 
-### Q6 (AcT-2.3, K2)
+### 🔷 Q6 (AcT-2.3, K2)
 
 The PRIMARY purpose of a traceability matrix is to:
 
@@ -68,7 +68,7 @@ D. Measure code quality
 
 ---
 
-### Q7 (AcT-2.4, K2)
+### 🔷 Q7 (AcT-2.4, K2)
 
 In Scrum, the Definition of Done typically includes:
 
@@ -79,7 +79,7 @@ D. That the product is deployed to production
 
 ---
 
-### Q8 (AcT-2.4, K3)
+### 🔷 Q8 (AcT-2.4, K3)
 
 A Product Owner rejects a user story during sprint review because the search function does not return results within 3 seconds as specified in the acceptance criteria. This is:
 
@@ -90,7 +90,7 @@ D. A code review result
 
 ---
 
-### Q9 (AcT-2.2, K2)
+### 🔷 Q9 (AcT-2.2, K2)
 
 Which is a valid entry criterion for acceptance testing?
 
@@ -101,7 +101,7 @@ D. All users have been trained (this is preparation, not an entry criterion for 
 
 ---
 
-### Q10 (AcT-2.4, K2)
+### 🔷 Q10 (AcT-2.4, K2)
 
 Acceptance Test-Driven Development (ATDD) means:
 
@@ -112,7 +112,7 @@ D. Replacing unit tests with acceptance tests
 
 ---
 
-### Q11 (AcT-2.1, K2)
+### 🔷 Q11 (AcT-2.1, K2)
 
 In incremental development, acceptance testing is performed:
 
@@ -123,7 +123,7 @@ D. Never
 
 ---
 
-### Q12 (AcT-2.3, K2)
+### 🔷 Q12 (AcT-2.3, K2)
 
 If a requirement changes and you need to know which acceptance tests to update, you need:
 
@@ -134,7 +134,7 @@ D. A different SDLC
 
 ---
 
-### Q13 (AcT-2.2, K2)
+### 🔷 Q13 (AcT-2.2, K2)
 
 A risk of starting acceptance testing too early is:
 
@@ -145,7 +145,7 @@ D. Missing business requirements
 
 ---
 
-### Q14 (AcT-2.4, K2)
+### 🔷 Q14 (AcT-2.4, K2)
 
 The difference between a sprint review and formal acceptance testing is:
 
@@ -156,7 +156,7 @@ D. Formal acceptance testing doesn't exist in agile
 
 ---
 
-### Q15 (AcT-2.2, K2)
+### 🔷 Q15 (AcT-2.2, K2)
 
 A team continues acceptance testing for an extra week even though all criteria have been met. The risk is:
 
@@ -167,7 +167,7 @@ D. Better stakeholder satisfaction
 
 ---
 
-### Q16 (AcT-2.3, K3)
+### 🔷 Q16 (AcT-2.3, K3)
 
 Given the following traceability data: 10 requirements, 8 have acceptance tests, and 25 of 30 tests passed. The coverage status is:
 
@@ -178,7 +178,7 @@ D. 100% requirement coverage, 100% test pass rate
 
 ---
 
-### Q17 (AcT-2.1, K2)
+### 🔷 Q17 (AcT-2.1, K2)
 
 In a waterfall project, acceptance testing should be planned:
 
@@ -189,7 +189,7 @@ D. After go-live
 
 ---
 
-### Q18 (AcT-2.4, K2)
+### 🔷 Q18 (AcT-2.4, K2)
 
 A user story is marked "Done" when:
 
@@ -200,7 +200,7 @@ D. The tester has looked at it
 
 ---
 
-### Q19 (AcT-2.2, K2)
+### 🔷 Q19 (AcT-2.2, K2)
 
 Which is NOT typically an exit criterion for acceptance testing?
 
@@ -211,7 +211,7 @@ D. Development team has written all code
 
 ---
 
-### Q20 (AcT-2.1, K2)
+### 🔷 Q20 (AcT-2.1, K2)
 
 The PRIMARY advantage of performing acceptance testing incrementally is:
 
@@ -222,104 +222,104 @@ D. It eliminates the need for system testing
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** V-model = acceptance testing corresponds to requirements specification.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** Agile = acceptance integrated continuously throughout sprints.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** Before testing begins = entry criterion.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** For acceptance to be complete = exit criterion.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** Forward traceability = requirements → tests → results → defects.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** Traceability matrix = map requirements to tests, enable coverage/impact analysis.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** DoD includes acceptance criteria met and Product Owner review.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** Rejection for not meeting criteria = acceptance decision.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** System testing complete with no critical defects = valid entry criterion.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** ATDD = acceptance tests defined before development.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 
 **Rationale:** Incremental development = incremental acceptance with per-increment criteria.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** Traceability enables identifying affected tests when requirements change.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** Starting too early = wasting stakeholder time on system-level issues.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** Sprint review = informal feedback; formal acceptance = structured validation.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** Continuing past criteria = diminishing returns, delayed value.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 
 **Rationale:** 8/10 requirements have tests = 80% coverage; 25/30 passed = 83% pass rate.
 
-### Q17
+### 🔷 Q17
 **Answer: A**
 
 **Rationale:** Waterfall = plan acceptance testing during requirements phase.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 
 **Rationale:** Done = meets DoD including acceptance criteria.
 
-### Q19
+### 🔷 Q19
 **Answer: D**
 
 **Rationale:** Code written = development activity, not acceptance exit criterion.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 
 **Rationale:** Incremental acceptance = early feedback, course corrections.

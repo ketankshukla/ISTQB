@@ -1,10 +1,10 @@
-# Chapter 6 — Organizational and Human Factors: Lessons
+# 📘 Chapter 6 — Organizational and Human Factors: Lessons
 
 ---
 
-## 6.1 Skills for Automation
+## ⚙️ 6.1 Skills for Automation
 
-### Technical Skills
+### 🔷 Technical Skills
 
 | Skill | Description | Learning Path |
 |-------|-------------|---------------|
@@ -15,7 +15,7 @@
 | **API testing** | REST, GraphQL, SOAP testing | Postman, REST Assured, SuperTest |
 | **Database** | SQL queries, test data setup | SQL fundamentals |
 
-### Soft Skills
+### 🔷 Soft Skills
 
 | Skill | Importance |
 |-------|------------|
@@ -24,7 +24,7 @@
 | **Problem-solving** | Debug complex failures and environmental issues |
 | **Continuous learning** | Keep up with evolving tools and practices |
 
-### Skill Gaps
+### 🔷 Skill Gaps
 
 | Gap | Mitigation |
 |-----|-----------|
@@ -35,9 +35,9 @@
 
 ---
 
-## 6.2 Training and Mentoring
+## 🤖 6.2 Training and Mentoring
 
-### Training Approaches
+### 🤖 Training Approaches
 
 | Approach | Best For | Duration |
 |----------|----------|----------|
@@ -47,7 +47,7 @@
 | **Self-study** | Flexible learning, certifications | Self-paced |
 | **Community** | Broader perspective, networking | Ongoing |
 
-### Mentoring Model
+### 📐 Mentoring Model
 
 1. **Assign mentor** — Experienced automation engineer
 2. **Set goals** — Specific skills to develop in 3-6 months
@@ -55,7 +55,7 @@
 4. **Code review** — Mentor reviews mentee's code
 5. **Gradual independence** — Move from pair to solo with review
 
-### Building a Learning Culture
+### 🎯 Building a Learning Culture
 
 - Lunch-and-learn sessions
 - Internal tech talks
@@ -65,28 +65,28 @@
 
 ---
 
-## 6.3 Team Organization
+## ⭐ 6.3 Team Organization
 
-### Centralized Model
+### 📐 Centralized Model
 
 - Single automation team serves multiple projects
 - **Pros:** Consistent standards, shared frameworks, deep expertise
 - **Cons:** Bottleneck, may lack domain knowledge
 
-### Embedded Model
+### 📐 Embedded Model
 
 - Automation engineers in each development team
 - **Pros:** Domain expertise, fast feedback, aligned priorities
 - **Cons:** Inconsistent practices, duplicated effort
 
-### Center of Excellence (CoE)
+### 🔷 Center of Excellence (CoE)
 
 - Small expert team defines standards and frameworks
 - Individual teams implement tests using shared resources
 - **Pros:** Balance of consistency and domain knowledge
 - **Cons:** Requires strong governance
 
-### Hybrid Model
+### 📐 Hybrid Model
 
 - Shared framework team + embedded automation engineers
 - **Pros:** Reusable components + domain expertise
@@ -94,9 +94,9 @@
 
 ---
 
-## 6.4 Change Management
+## 🗂️ 6.4 Change Management
 
-### Why Automation Meets Resistance
+### ⚙️ Why Automation Meets Resistance
 
 | Concern | Response |
 |---------|----------|
@@ -106,7 +106,7 @@
 | "Current process works fine" | Show data on manual testing time, defect escape rate, late feedback |
 | "Developers should write all tests" | Collaboration model; testers bring testing expertise |
 
-### Kotter's 8 Steps for Automation Change
+### ⚙️ Kotter's 8 Steps for Automation Change
 
 1. **Create urgency** — Show cost of late defect detection
 2. **Form coalition** — Get management and key technical leaders on board
@@ -119,9 +119,9 @@
 
 ---
 
-## 6.5 Metrics and Reporting
+## 📝 6.5 Metrics and Reporting
 
-### Leading Indicators (Predictive)
+### 🔷 Leading Indicators (Predictive)
 
 | Metric | What It Predicts |
 |--------|----------------|
@@ -130,7 +130,7 @@
 | Framework adoption | Team buy-in |
 | Training completion | Skill development |
 
-### Lagging Indicators (Results)
+### 🔷 Lagging Indicators (Results)
 
 | Metric | What It Shows |
 |--------|---------------|
@@ -139,7 +139,7 @@
 | Time to feedback | Speed of detection |
 | Maintenance effort | Sustainability |
 
-### Reporting Cadence
+### 📝 Reporting Cadence
 
 | Audience | Frequency | Content |
 |----------|-----------|---------|
@@ -149,9 +149,9 @@
 
 ---
 
-## 6.6 Stakeholder Communication
+## ⭐ 6.6 Stakeholder Communication
 
-### Stakeholder Map
+### 🔷 Stakeholder Map
 
 | Stakeholder | Interest | Communication |
 |-------------|----------|---------------|
@@ -161,7 +161,7 @@
 | **Executives** | Strategic value, competitive advantage | Quarterly reviews, industry benchmarks |
 | **Operations** | Stable automation in production | Runbook documentation, monitoring alerts |
 
-### Communication Strategies
+### 🔷 Communication Strategies
 
 - **Demo days:** Show automation running in CI
 - **Success stories:** Quantify time saved, defects prevented
@@ -170,9 +170,9 @@
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Skills Assessment
+### 💡 Worked Example 1: Skills Assessment
 
 **Scenario:** Assess team readiness for automation.
 
@@ -188,7 +188,7 @@
 - Carol takes CI/CD workshop (1 week)
 - Dave attends ISTQB Foundation (1 week)
 
-### Worked Example 2: Change Management Plan
+### 💡 Worked Example 2: Change Management Plan
 
 **Scenario:** Introduce automation to a team resistant to change.
 
@@ -201,7 +201,7 @@
 | 9-12 | Train 2 volunteers; they present to team | Peer advocacy |
 | 13+ | Full rollout with management support | Anchor change |
 
-### Worked Example 3: Metrics Dashboard
+### 💡 Worked Example 3: Metrics Dashboard
 
 **Scenario:** Create executive summary for automation program.
 

@@ -1,6 +1,6 @@
-# Case Study 3 — CI/CD Integration and Metrics
+# 📂 Case Study 3 — CI/CD Integration and Metrics
 
-## Context
+## ⭐ Context
 
 You are the TAE for CloudMart, an e-commerce company with:
 - 50 microservices, Kubernetes deployment
@@ -13,7 +13,7 @@ You are the TAE for CloudMart, an e-commerce company with:
   - Release to production 3 times per week
   - Production incidents: 5 per month traced to untested integration paths
 
-## Task 1: Unified TAA Strategy
+## ♟️ Task 1: Unified TAA Strategy
 
 **Question:** Design a unified Test Automation Architecture for CloudMart.
 
@@ -50,7 +50,7 @@ You are the TAE for CloudMart, an e-commerce company with:
 
 ---
 
-## Task 2: Pipeline Design
+## 🎨 Task 2: Pipeline Design
 
 **Question:** Design a CI/CD pipeline that addresses the integration test reliability issue.
 
@@ -123,7 +123,7 @@ services:
 
 ---
 
-## Task 3: Centralized Reporting
+## 📝 Task 3: Centralized Reporting
 
 **Question:** Design a unified reporting and metrics strategy.
 
@@ -171,7 +171,7 @@ services:
 
 ---
 
-## Task 4: Metrics and KPIs
+## 📊 Task 4: Metrics and KPIs
 
 **Question:** Define KPIs to measure the success of the unified automation strategy.
 
@@ -190,7 +190,7 @@ services:
 
 ---
 
-## Task 5: Organizational Change
+## ⭐ Task 5: Organizational Change
 
 **Question:** How do you get 12 development teams to adopt the unified TAA?
 

@@ -1,8 +1,8 @@
-# Chapter 3 — Security Testing Techniques: Practice Questions
+# ❓ Chapter 3 — Security Testing Techniques: Practice Questions
 
 ---
 
-### Q1 (STE-3.1, K2)
+### 🔷 Q1 (STE-3.1, K2)
 
 SAST analyzes:
 
@@ -13,7 +13,7 @@ D. Only databases
 
 ---
 
-### Q2 (STE-3.1, K2)
+### 🔷 Q2 (STE-3.1, K2)
 
 DAST requires:
 
@@ -24,7 +24,7 @@ D. Only unit tests
 
 ---
 
-### Q3 (STE-3.2, K2)
+### 🔷 Q3 (STE-3.2, K2)
 
 Code review for security should focus on:
 
@@ -35,7 +35,7 @@ D. Only variable names
 
 ---
 
-### Q4 (STE-3.3, K2)
+### 🔷 Q4 (STE-3.3, K2)
 
 Fuzzing involves:
 
@@ -46,7 +46,7 @@ D. Only performance testing
 
 ---
 
-### Q5 (STE-3.4, K2)
+### 🔷 Q5 (STE-3.4, K2)
 
 Penetration testing includes:
 
@@ -57,7 +57,7 @@ D. Only unit testing
 
 ---
 
-### Q6 (STE-3.1, K2)
+### 🔷 Q6 (STE-3.1, K2)
 
 SCA identifies:
 
@@ -68,7 +68,7 @@ D. Only network issues
 
 ---
 
-### Q7 (STE-3.2, K2)
+### 🔷 Q7 (STE-3.2, K2)
 
 Hard-coded credentials in source code are found by:
 
@@ -79,7 +79,7 @@ D. Only load testing
 
 ---
 
-### Q8 (STE-3.3, K2)
+### 🔷 Q8 (STE-3.3, K2)
 
 Coverage-guided fuzzing:
 
@@ -90,7 +90,7 @@ D. Only for APIs
 
 ---
 
-### Q9 (STE-3.4, K2)
+### 🔷 Q9 (STE-3.4, K2)
 
 SQL injection is tested by:
 
@@ -101,7 +101,7 @@ D. Only usability testing
 
 ---
 
-### Q10 (STE-3.1, K2)
+### 🔷 Q10 (STE-3.1, K2)
 
 IAST provides:
 
@@ -112,7 +112,7 @@ D. Only network scanning
 
 ---
 
-### Q11 (STE-3.2, K2)
+### 🔷 Q11 (STE-3.2, K2)
 
 Error handling should be tested for:
 
@@ -123,7 +123,7 @@ D. Only UI appearance
 
 ---
 
-### Q12 (STE-3.3, K2)
+### 🔷 Q12 (STE-3.3, K2)
 
 Generation-based fuzzing:
 
@@ -134,7 +134,7 @@ D. Only for text files
 
 ---
 
-### Q13 (STE-3.4, K2)
+### 🔷 Q13 (STE-3.4, K2)
 
 Privilege escalation testing verifies:
 
@@ -145,7 +145,7 @@ D. Only session timeout
 
 ---
 
-### Q14 (STE-3.1, K2)
+### 🔷 Q14 (STE-3.1, K2)
 
 The best time to run SAST is:
 
@@ -156,7 +156,7 @@ D. Only during maintenance
 
 ---
 
-### Q15 (STE-3.2, K2)
+### 🔷 Q15 (STE-3.2, K2)
 
 Peer review of security-critical code:
 
@@ -167,7 +167,7 @@ D. Only for junior developers
 
 ---
 
-### Q16 (STE-3.3, K2)
+### 🔷 Q16 (STE-3.3, K2)
 
 XSS testing should verify:
 
@@ -178,7 +178,7 @@ D. Only network encryption
 
 ---
 
-### Q17 (STE-3.4, K2)
+### 🔷 Q17 (STE-3.4, K2)
 
 OSINT in penetration testing means:
 
@@ -189,7 +189,7 @@ D. Only code review
 
 ---
 
-### Q18 (STE-3.1, K2)
+### 🔷 Q18 (STE-3.1, K2)
 
 DAST limitations include:
 
@@ -200,7 +200,7 @@ D. Only slow execution
 
 ---
 
-### Q19 (STE-3.2, K2)
+### 🔷 Q19 (STE-3.2, K2)
 
 Weak cryptography in code review is identified by:
 
@@ -211,7 +211,7 @@ D. Only performance testing
 
 ---
 
-### Q20 (STE-3.3, K2)
+### 🔷 Q20 (STE-3.3, K2)
 
 CSRF is tested by:
 
@@ -222,84 +222,84 @@ D. Only buffer overflow
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** SAST = source code, no execution.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** DAST = running app.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** Code review = auth, input validation, errors.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** Fuzzing = invalid/random data.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Pen test = recon + exploit + post-exploit.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** SCA = dependencies.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Hard-coded = SAST + manual.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Coverage-guided = coverage feedback.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** SQLi = malicious input test.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** IAST = context-aware runtime.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Error handling = info leakage.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Generation = protocol-based inputs.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Privilege escalation = low → high access.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** SAST = dev + CI/CD.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Peer review = catches what SAST misses.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** XSS = encode output.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** OSINT = public info gathering.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** DAST = limited coverage + logic.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Weak crypto = SAST detects deprecated.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** CSRF = malicious authenticated requests.

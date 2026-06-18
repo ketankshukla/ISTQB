@@ -1,10 +1,10 @@
-# Chapter 4 — Designing and Developing a Test Automation Solution: Lessons
+# 📘 Chapter 4 — Designing and Developing a Test Automation Solution: Lessons
 
 ---
 
-## 4.1 Framework Types
+## 🧪 4.1 Framework Types
 
-### Data-Driven Framework
+### 🗃️ Data-Driven Framework
 
 **Concept:** Test logic is separated from test data. The same test script runs with multiple data sets.
 
@@ -49,7 +49,7 @@ def test_login(data):
 
 ---
 
-### Keyword-Driven Framework
+### 🔷 Keyword-Driven Framework
 
 **Concept:** Tests are written using action words (keywords) that map to implementation code. Non-programmers can write tests.
 
@@ -92,7 +92,7 @@ Keyword Test:
 
 ---
 
-### Hybrid Framework
+### 🔷 Hybrid Framework
 
 **Concept:** Combines multiple approaches (data-driven + keyword-driven + modular).
 
@@ -128,7 +128,7 @@ Modular Code Libraries
 
 ---
 
-### Framework Selection Guide
+### 🔷 Framework Selection Guide
 
 | Factor | Data-Driven | Keyword-Driven | Hybrid |
 |--------|-------------|----------------|--------|
@@ -141,9 +141,9 @@ Modular Code Libraries
 
 ---
 
-## 4.2 Maintainability Patterns
+## 🤖 4.2 Maintainability Patterns
 
-### Page Object Model (POM)
+### 📐 Page Object Model (POM)
 
 **Purpose:** Separate UI element locators from test logic.
 
@@ -190,7 +190,7 @@ public void validLogin() {
 
 ---
 
-### Abstraction Layers
+### 🔷 Abstraction Layers
 
 **Three-Layer Architecture:**
 
@@ -237,7 +237,7 @@ def test_order_total():
 
 ---
 
-### Coding Standards for Test Code
+### 🔷 Coding Standards for Test Code
 
 Test code is production code. Apply the same standards:
 
@@ -265,9 +265,9 @@ Test code is production code. Apply the same standards:
 
 ---
 
-## 4.3 Test Data Management
+## 🗂️ 4.3 Test Data Management
 
-### Strategies
+### 🔷 Strategies
 
 **1. Static Test Data:**
 - Predefined data in files or databases
@@ -289,7 +289,7 @@ Test code is production code. Apply the same standards:
 - Clean up after test completion
 - Good for: Integration tests, E2E tests
 
-### Test Data Isolation
+### 🗃️ Test Data Isolation
 
 Each test should use its own data to avoid conflicts:
 
@@ -304,7 +304,7 @@ def test_user():
         pass
 ```
 
-### Sensitive Data Handling
+### 🗃️ Sensitive Data Handling
 
 - NEVER hard-code credentials in scripts
 - Use environment variables or secret managers
@@ -314,9 +314,9 @@ def test_user():
 
 ---
 
-## 4.4 Error Handling and Recovery
+## ⭐ 4.4 Error Handling and Recovery
 
-### Types of Errors in Automation
+### 🧪 Types of Errors in Automation
 
 **1. SUT Errors:**
 - Application defects causing test failures
@@ -338,7 +338,7 @@ def test_user():
 - Race conditions in asynchronous operations
 - Timeout exceeded
 
-### Error Handling Strategies
+### 🔷 Error Handling Strategies
 
 **1. Explicit Waits (not implicit sleeps):**
 ```python
@@ -389,9 +389,9 @@ finally:
 
 ---
 
-## 4.5 CI/CD Integration
+## 🔗 4.5 CI/CD Integration
 
-### Pipeline Stages for Automation
+### ⚙️ Pipeline Stages for Automation
 
 **Typical CI Pipeline:**
 ```
@@ -412,7 +412,7 @@ Integration tests
 Report results
 ```
 
-### Test Stage Design
+### 🎨 Test Stage Design
 
 **1. Smoke Tests (Per Build):**
 - Run on every commit
@@ -431,7 +431,7 @@ Report results
 - Split test suites across multiple workers
 - Reduces total execution time
 
-### Quality Gates
+### 💎 Quality Gates
 
 | Gate | Criteria | Action if Failed |
 |------|----------|-----------------|
@@ -442,9 +442,9 @@ Report results
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Framework Selection
+### 💡 Worked Example 1: Framework Selection
 
 **Scenario:** A team of 5 testers (2 technical, 3 manual) needs to automate regression for a web app.
 
@@ -458,7 +458,7 @@ Report results
 - Data-driven for regression variations
 - Page Object Model for maintainability
 
-### Worked Example 2: Three-Layer Architecture
+### 💡 Worked Example 2: Three-Layer Architecture
 
 **Scenario:** E-commerce checkout testing
 
@@ -497,7 +497,7 @@ def test_checkout():
 - Reusable login, add_to_cart, place_order
 - Only page objects need updating for UI changes
 
-### Worked Example 3: Error Handling
+### 💡 Worked Example 3: Error Handling
 
 **Scenario:** An API test frequently fails due to intermittent 503 errors from a dependent service.
 

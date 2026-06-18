@@ -1,10 +1,10 @@
-# Chapter 3 — Threat Modeling and Risk Analysis: Lessons
+# 📘 Chapter 3 — Threat Modeling and Risk Analysis: Lessons
 
 ---
 
-## 3.1 Threat Modeling
+## 📐 3.1 Threat Modeling
 
-### What is Threat Modeling?
+### 📐 What is Threat Modeling?
 
 **Definition:** A structured approach to identifying and evaluating security threats to a system. It answers the question: "What can go wrong, and what should we do about it?"
 
@@ -20,7 +20,7 @@
 - Before major releases
 - After security incidents
 
-### Threat Modeling Process
+### 📐 Threat Modeling Process
 
 ```
 1. Define scope and assets
@@ -33,9 +33,9 @@
 
 ---
 
-## 3.2 STRIDE Threat Classification
+## ⭐ 3.2 STRIDE Threat Classification
 
-### Overview
+### 🌟 Overview
 
 STRIDE is a threat classification framework developed by Microsoft. Each letter represents a category of threat.
 
@@ -48,7 +48,7 @@ STRIDE is a threat classification framework developed by Microsoft. Each letter 
 | **D** | Denial of Service | Availability | Attacker overloads the system |
 | **E** | Elevation of Privilege | Authorization | Attacker gains higher privileges than allowed |
 
-### Applying STRIDE to Data Flow Diagrams
+### 🗃️ Applying STRIDE to Data Flow Diagrams
 
 For each element in a data flow diagram, ask STRIDE questions:
 
@@ -75,7 +75,7 @@ For each element in a data flow diagram, ask STRIDE questions:
 - Spoofing: Can someone pretend to be a legitimate user?
 - Repudiation: Can users deny their actions?
 
-### Worked Example: STRIDE on Login Flow
+### 💡 Worked Example: STRIDE on Login Flow
 
 **Diagram:** User → (Internet) → Login Page → Authentication Service → User Database
 
@@ -92,9 +92,9 @@ For each element in a data flow diagram, ask STRIDE questions:
 
 ---
 
-## 3.3 DREAD Risk Rating
+## ⚠️ 3.3 DREAD Risk Rating
 
-### Overview
+### 🌟 Overview
 
 DREAD is a risk rating model that scores threats on five factors. Each factor is rated 0-10, and the average is the overall risk score.
 
@@ -106,7 +106,7 @@ DREAD is a risk rating model that scores threats on five factors. Each factor is
 | **A** — Affected Users | How many users? | Few | Some | Everyone |
 | **D** — Discoverability | How easy to discover? | Obscure | Known to some | Obvious |
 
-### Risk Score Calculation
+### ⚠️ Risk Score Calculation
 
 ```
 Risk Score = (Damage + Reproducibility + Exploitability + Affected Users + Discoverability) / 5
@@ -117,7 +117,7 @@ Interpretation:
 8-10: High risk — mitigate immediately
 ```
 
-### Worked Example
+### 💡 Worked Example
 
 **Threat:** SQL injection in login form
 
@@ -143,9 +143,9 @@ Interpretation:
 
 ---
 
-## 3.4 Attack Trees
+## ⭐ 3.4 Attack Trees
 
-### What is an Attack Tree?
+### 🔷 What is an Attack Tree?
 
 An attack tree is a diagrammatic representation of attacks on a system, structured as a tree with the attacker's goal as the root.
 
@@ -156,7 +156,7 @@ An attack tree is a diagrammatic representation of attacks on a system, structur
 - **AND nodes:** All children must be achieved
 - **OR nodes:** Any child achieves the goal
 
-### Example Attack Tree
+### 💡 Example Attack Tree
 
 **Goal:** Steal customer credit card data from e-commerce site
 
@@ -188,7 +188,7 @@ Steal credit card data
 - Most likely path: SQL injection → query database → exfiltrate
 - Mitigation priority: Address SQL injection (blocks easiest path)
 
-### Using Attack Trees for Testing
+### 🔷 Using Attack Trees for Testing
 
 1. **Identify test scenarios:** Each leaf node is a potential test
 2. **Prioritize:** Paths with lowest AND-node difficulty = highest priority
@@ -197,9 +197,9 @@ Steal credit card data
 
 ---
 
-## 3.5 Risk Calculation and Treatment
+## ⚠️ 3.5 Risk Calculation and Treatment
 
-### Risk Formula
+### ⚠️ Risk Formula
 
 ```
 Risk = Likelihood × Impact
@@ -218,7 +218,7 @@ Risk = Likelihood × Impact
 - Operational disruption
 - Data breach scope
 
-### Risk Matrix
+### ⚠️ Risk Matrix
 
 | Likelihood \ Impact | Low (1) | Medium (2) | High (3) |
 |---------------------|---------|------------|----------|
@@ -226,7 +226,7 @@ Risk = Likelihood × Impact
 | **Medium (2)** | 2 (Low) | 4 (Medium) | 6 (High) |
 | **High (3)** | 3 (Medium) | 6 (High) | 9 (Critical) |
 
-### Risk Treatment Options
+### ⚠️ Risk Treatment Options
 
 | Option | Description | When to Use |
 |--------|-------------|-------------|
@@ -235,7 +235,7 @@ Risk = Likelihood × Impact
 | **Transfer** | Shift risk to another party (insurance, outsourcing) | When mitigation is impractical |
 | **Avoid** | Eliminate the risk by not performing the activity | High risk with no viable mitigation |
 
-### Risk Prioritization for Testing
+### ⚠️ Risk Prioritization for Testing
 
 **Test highest-risk areas first:**
 1. Critical risk (9) → Test immediately, exhaustive testing
@@ -245,9 +245,9 @@ Risk = Likelihood × Impact
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Complete Threat Model
+### 💡 Worked Example 1: Complete Threat Model
 
 **System:** Online banking mobile app
 
@@ -292,7 +292,7 @@ User → Mobile App → API Gateway → Authentication Service → Account Servi
 - Load testing for DoS resilience
 - Social engineering simulation
 
-### Worked Example 2: Attack Tree Analysis
+### 💡 Worked Example 2: Attack Tree Analysis
 
 **Goal:** Gain unauthorized access to a corporate VPN
 
@@ -327,7 +327,7 @@ Gain VPN access
   4. Check VPN server patch level
   5. Verify no exposed internal services
 
-### Worked Example 3: Risk-Based Test Planning
+### 💡 Worked Example 3: Risk-Based Test Planning
 
 **Scenario:** Testing a healthcare patient portal with limited time (2 weeks).
 

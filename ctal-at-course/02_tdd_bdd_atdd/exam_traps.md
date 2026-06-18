@@ -1,6 +1,6 @@
-# Chapter 2 — TDD, BDD, ATDD: Exam Traps
+# 🪤 Chapter 2 — TDD, BDD, ATDD: Exam Traps
 
-## Trap 1: Confusing TDD with Testing After Coding
+## 🪤 Trap 1: Confusing TDD with Testing After Coding
 
 **Trap:** TDD means writing tests FIRST, then writing code. Writing code first and then adding tests is not TDD.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Confusing BDD with TDD
+## 🪤 Trap 2: Confusing BDD with TDD
 
 **Trap:** BDD is about behavior at the feature level, written in natural language for the whole team. TDD is about unit-level implementation, written by developers in code.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Thinking the Refactor Step Is Optional
+## 🪤 Trap 3: Thinking the Refactor Step Is Optional
 
 **Trap:** Refactoring is a critical part of TDD. Skipping it leads to technical debt and untestable code.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Confusing ATDD with BDD
+## 🪤 Trap 4: Confusing ATDD with BDD
 
 **Trap:** ATDD is the collaborative workshop process where the team defines acceptance criteria. BDD is the format (Given/When/Then) for describing behavior. They often work together but are distinct.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Thinking the Test Pyramid Should Be an Ice Cream Cone
+## 🪤 Trap 5: Thinking the Test Pyramid Should Be an Ice Cream Cone
 
 **Trap:** The test pyramid has many unit tests at the base and few E2E tests at the top. An inverted pyramid (many E2E, few unit) is an anti-pattern.
 

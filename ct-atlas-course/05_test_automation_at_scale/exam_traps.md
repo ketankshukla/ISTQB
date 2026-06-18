@@ -1,6 +1,6 @@
-# Chapter 5 — Test Automation at Scale: Exam Traps
+# 🪤 Chapter 5 — Test Automation at Scale: Exam Traps
 
-## Trap 1: Mandating One Framework for All Teams
+## 🪤 Trap 1: Mandating One Framework for All Teams
 
 **Trap:** Different teams have different contexts. Shared components with flexibility are better than rigid mandates.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Ignoring Cross-Team Test Dependencies
+## 🪤 Trap 2: Ignoring Cross-Team Test Dependencies
 
 **Trap:** Teams that share components or APIs need coordinated testing approaches.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Central Framework Without Support
+## 🪤 Trap 3: Central Framework Without Support
 
 **Trap:** A shared framework without a support model becomes a bottleneck and source of frustration.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Measuring Automation by Test Count Alone
+## 🪤 Trap 4: Measuring Automation by Test Count Alone
 
 **Trap:** 1000 trivial tests provide less value than 100 meaningful tests.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Separating Automation from CI/CD
+## 🪤 Trap 5: Separating Automation from CI/CD
 
 **Trap:** Automation not in CI/CD runs sporadically and provides delayed feedback.
 

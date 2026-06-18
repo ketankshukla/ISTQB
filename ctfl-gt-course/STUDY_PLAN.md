@@ -1,14 +1,14 @@
-# CTFL-GT Study Plan
+# 🗓️ CTFL-GT Study Plan
 
-## Overview
+## 🌟 Overview
 
 The CTFL-GT exam covers gambling industry testing fundamentals, game mathematics and RNG testing, compliance and player protection, and gambling-specific test types and tools. This plan covers all chapters, practice questions, case studies, and mock exams.
 
 ---
 
-## 3-Week Study Plan
+## 🗓️ 3-Week Study Plan
 
-### Week 1 — Chapters 1 and 2 (Gambling Fundamentals + Game Math & RNG)
+### 🏗️ Week 1 — Chapters 1 and 2 (Gambling Fundamentals + Game Math & RNG)
 
 | Day | Task | Time |
 |-----|------|------|
@@ -20,7 +20,7 @@ The CTFL-GT exam covers gambling industry testing fundamentals, game mathematics
 | Day 6 | Review Chapter 2 wrong answers | 30 min |
 | Day 7 | **Checkpoint 1** — Review notes for Chapters 1-2 | 45 min |
 
-### Week 2 — Chapters 3 and 4 (Compliance + Test Types and Tools)
+### 🧪 Week 2 — Chapters 3 and 4 (Compliance + Test Types and Tools)
 
 | Day | Task | Time |
 |-----|------|------|
@@ -32,7 +32,7 @@ The CTFL-GT exam covers gambling industry testing fundamentals, game mathematics
 | Day 13 | Review Chapter 4 wrong answers | 30 min |
 | Day 14 | **Checkpoint 2** — Review notes for Chapters 3-4 | 45 min |
 
-### Week 3 — Case Studies, Mock Exams, and Final Review
+### 📝 Week 3 — Case Studies, Mock Exams, and Final Review
 
 | Day | Task | Time |
 |-----|------|------|
@@ -50,7 +50,7 @@ The CTFL-GT exam covers gambling industry testing fundamentals, game mathematics
 
 ---
 
-## 2-Week Accelerated Plan
+## 🗓️ 2-Week Accelerated Plan
 
 | Day | Task |
 |-----|------|
@@ -71,7 +71,7 @@ The CTFL-GT exam covers gambling industry testing fundamentals, game mathematics
 
 ---
 
-## Study Techniques
+## 📚 Study Techniques
 
 - **Active reading** — Take notes on gambling terms, game types, and regulatory bodies
 - **Worked examples** — Redo the math examples in Chapter 2 until you can calculate RTP and probability independently

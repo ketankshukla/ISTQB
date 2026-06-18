@@ -1,10 +1,10 @@
-# Chapter 4 — Contract Acceptance Testing (CAT): Lessons
+# 📘 Chapter 4 — Contract Acceptance Testing (CAT): Lessons
 
 ---
 
-## 4.1 Contract Acceptance Testing Overview
+## 🌟 4.1 Contract Acceptance Testing Overview
 
-### What is CAT?
+### 🔷 What is CAT?
 
 **Contract Acceptance Testing (CAT)** is acceptance testing performed to verify that a system meets the contractual requirements between a supplier and customer.
 
@@ -16,7 +16,7 @@
 - SaaS platform subscriptions
 - Maintenance and support contracts
 
-### Key Differences: CAT vs. BAT
+### 🔷 Key Differences: CAT vs. BAT
 
 | Aspect | CAT | BAT |
 |--------|-----|-----|
@@ -28,9 +28,9 @@
 
 ---
 
-## 4.2 Contractual Acceptance Criteria
+## ✅ 4.2 Contractual Acceptance Criteria
 
-### Types of Contractual Criteria
+### 🧪 Types of Contractual Criteria
 
 **1. Functional Criteria:**
 - System must implement specified features
@@ -55,7 +55,7 @@
 - Training delivery
 - Source code handover
 
-### Contractual Acceptance Process
+### 🤝 Contractual Acceptance Process
 
 ```
 1. Review contract and Statement of Work (SOW)
@@ -69,9 +69,9 @@
 
 ---
 
-## 4.3 SLAs and Performance Criteria
+## ✅ 4.3 SLAs and Performance Criteria
 
-### Service Level Agreements (SLAs)
+### 🪜 Service Level Agreements (SLAs)
 
 An SLA defines the level of service expected from a supplier.
 
@@ -85,7 +85,7 @@ An SLA defines the level of service expected from a supplier.
 | **Support response** | Time to acknowledge support tickets | < 1 hour during business hours |
 | **Capacity** | Maximum supported load | 10,000 concurrent users |
 
-### Testing SLA Compliance
+### 🔷 Testing SLA Compliance
 
 **Availability testing:**
 - Monitor system over agreed measurement period (e.g., 30 days)
@@ -108,9 +108,9 @@ Status: PASS (exceeds 95% requirement)
 
 ---
 
-## 4.4 Acceptance in Outsourcing
+## 🤝 4.4 Acceptance in Outsourcing
 
-### Outsourcing Models
+### 📐 Outsourcing Models
 
 | Model | Description | Acceptance Approach |
 |-------|-------------|---------------------|
@@ -119,7 +119,7 @@ Status: PASS (exceeds 95% requirement)
 | **Managed services** | Ongoing operation | Periodic SLA compliance audits |
 | **Staff augmentation** | Contract developers | Integrated into customer's acceptance process |
 
-### Acceptance Responsibilities
+### 🤝 Acceptance Responsibilities
 
 **Customer responsibilities:**
 - Provide clear requirements and acceptance criteria
@@ -133,7 +133,7 @@ Status: PASS (exceeds 95% requirement)
 - Fix defects within agreed timeframes
 - Support acceptance testing activities
 
-### Common Outsourcing Acceptance Challenges
+### 🤝 Common Outsourcing Acceptance Challenges
 
 | Challenge | Mitigation |
 |-----------|------------|
@@ -143,7 +143,7 @@ Status: PASS (exceeds 95% requirement)
 | Quality issues | Clear quality gates, code review requirements |
 | Scope creep | Change control process, impact analysis |
 
-### Acceptance Gate in Outsourced Projects
+### 🤝 Acceptance Gate in Outsourced Projects
 
 ```
 Milestone 1: Requirements signed off
@@ -156,9 +156,9 @@ Payment: 20% at each milestone upon acceptance
 
 ---
 
-## 4.5 Penalties and Incentives
+## ⭐ 4.5 Penalties and Incentives
 
-### Contractual Remedies
+### 🔷 Contractual Remedies
 
 **Penalties (for non-compliance):**
 - Liquidated damages for late delivery
@@ -188,9 +188,9 @@ for each 0.1% below the target."
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: CAT Test Plan
+### 💡 Worked Example 1: CAT Test Plan
 
 **Contract:** Custom CRM development, fixed price $500,000
 
@@ -211,7 +211,7 @@ for each 0.1% below the target."
 - Week 3: Documentation review and training
 - Week 4: Final evaluation and sign-off
 
-### Worked Example 2: SLA Compliance Test
+### 💡 Worked Example 2: SLA Compliance Test
 
 **SaaS contract SLA:**
 - Availability: 99.95% monthly
@@ -234,7 +234,7 @@ for each 0.1% below the target."
 
 **Decision:** ACCEPT — all SLAs met.
 
-### Worked Example 3: Outsourcing Acceptance Scenario
+### 💡 Worked Example 3: Outsourcing Acceptance Scenario
 
 **Scenario:** A bank outsources mobile app development to an offshore vendor.
 

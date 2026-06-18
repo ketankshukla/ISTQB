@@ -1,6 +1,6 @@
-# Case Study 1 — E-Banking Application Security
+# 📂 Case Study 1 — E-Banking Application Security
 
-## Context
+## ⭐ Context
 
 You are the Security Test Lead for SecureBank, a regional bank launching a new online banking platform. The application allows customers to:
 - View account balances and transaction history
@@ -23,7 +23,7 @@ You are the Security Test Lead for SecureBank, a regional bank launching a new o
 
 ---
 
-## Task 1: Threat Model and STRIDE Analysis
+## 🔬 Task 1: Threat Model and STRIDE Analysis
 
 **Question:** Create a threat model for the funds transfer feature.
 
@@ -57,7 +57,7 @@ Customer Browser → CDN → WAF → API Gateway → Authentication Service → 
 
 ---
 
-## Task 2: Security Test Design
+## 🎨 Task 2: Security Test Design
 
 **Question:** Design comprehensive security tests for the transfer feature.
 
@@ -104,7 +104,7 @@ Customer Browser → CDN → WAF → API Gateway → Authentication Service → 
 
 ---
 
-## Task 3: Vulnerability Assessment and Prioritization
+## ⭐ Task 3: Vulnerability Assessment and Prioritization
 
 **Question:** The penetration test finds the following issues. Prioritize and plan remediation.
 
@@ -132,7 +132,7 @@ Customer Browser → CDN → WAF → API Gateway → Authentication Service → 
 
 ---
 
-## Task 4: Verification Testing
+## ⭐ Task 4: Verification Testing
 
 **Question:** After fixing the SQL injection, how do you verify the fix and ensure no regression?
 

@@ -1,6 +1,6 @@
-# Case Study 1 — Agile Transformation for Technical Testing
+# 📂 Case Study 1 — Agile Transformation for Technical Testing
 
-## Context
+## ⭐ Context
 
 You are the Technical Test Lead for BankConnect, a traditional bank transitioning from waterfall to agile. The bank's mobile banking app is developed by 4 teams (15 developers each, 3 testers per team). Current challenges:
 
@@ -9,7 +9,7 @@ You are the Technical Test Lead for BankConnect, a traditional bank transitionin
 - **Team composition:** Mix of experienced testers (used to scripted testing) and junior developers (limited testing knowledge)
 - **Technology:** Java backend, React Native mobile app, microservices architecture
 
-## Task 1: Agile Testing Strategy
+## ♟️ Task 1: Agile Testing Strategy
 
 **Question:** Design an agile testing strategy for BankConnect that addresses the transition challenges.
 
@@ -44,7 +44,7 @@ You are the Technical Test Lead for BankConnect, a traditional bank transitionin
 
 ---
 
-## Task 2: TDD/BDD Implementation
+## ⭐ Task 2: TDD/BDD Implementation
 
 **Question:** The backend team is new to TDD. Design a TDD training plan and first example.
 
@@ -95,7 +95,7 @@ And an "Insufficient funds" message should display
 
 ---
 
-## Task 3: CI/CD Pipeline Design
+## 🎨 Task 3: CI/CD Pipeline Design
 
 **Question:** Design a CI/CD pipeline for the mobile banking app.
 
@@ -153,7 +153,7 @@ Stage 8: Manual QA Gate (Continuous Delivery)
 
 ---
 
-## Task 4: Test Automation Framework Selection
+## ⚙️ Task 4: Test Automation Framework Selection
 
 **Question:** Select and justify an automation framework for the mobile banking app.
 
@@ -183,7 +183,7 @@ Stage 8: Manual QA Gate (Continuous Delivery)
 
 ---
 
-## Task 5: Measuring Success
+## ⭐ Task 5: Measuring Success
 
 **Question:** Define KPIs to measure the success of the agile transformation.
 

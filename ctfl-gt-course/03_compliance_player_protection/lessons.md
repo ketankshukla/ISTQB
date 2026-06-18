@@ -1,14 +1,14 @@
-# Chapter 3 — Compliance, Regulations, and Player Protection: Lessons
+# 📘 Chapter 3 — Compliance, Regulations, and Player Protection: Lessons
 
 ---
 
-## 3.1 Regulatory Bodies and Jurisdictions
+## ⭐ 3.1 Regulatory Bodies and Jurisdictions
 
-### Overview of Gambling Regulation
+### 🌟 Overview of Gambling Regulation
 
 Gambling is regulated at the national or state/provincial level. Each jurisdiction has its own regulatory body, licensing requirements, and compliance standards. Testers must understand the regulations applicable to the markets where their products operate.
 
-### Major Regulatory Bodies
+### 🔷 Major Regulatory Bodies
 
 **United Kingdom — UK Gambling Commission (UKGC)**
 - Jurisdiction: Great Britain (England, Scotland, Wales)
@@ -66,7 +66,7 @@ Gambling is regulated at the national or state/provincial level. Each jurisdicti
 - **Curaçao Gaming Control Board:** Curaçao (historically popular, undergoing regulatory reform)
 - **Ontario Lottery and Gaming (OLG) / Alcohol and Gaming Commission of Ontario (AGCO):** Canada
 
-### Licensing Process
+### 🔷 Licensing Process
 
 **Step 1: Application**
 - Operator submits detailed application including:
@@ -104,13 +104,13 @@ Gambling is regulated at the national or state/provincial level. Each jurisdicti
 
 ---
 
-## 3.2 Responsible Gaming and Player Protection
+## ⭐ 3.2 Responsible Gaming and Player Protection
 
-### Definition of Responsible Gaming
+### 🔷 Definition of Responsible Gaming
 
 **Responsible gaming** encompasses the policies, practices, and tools that ensure gambling is conducted in a fair, safe, and socially responsible manner. The goal is to minimize harm to vulnerable individuals while allowing adults to gamble recreationally.
 
-### Player Protection Measures
+### 🔷 Player Protection Measures
 
 **1. Self-Exclusion**
 - Players can voluntarily ban themselves from gambling for a specified period
@@ -165,7 +165,7 @@ Gambling is regulated at the national or state/provincial level. Each jurisdicti
   - Verify timer accuracy
   - Verify player is appropriately notified and blocked
 
-### Protecting Vulnerable Players
+### 🔷 Protecting Vulnerable Players
 
 **Identifying Problem Gambling Behaviors:**
 - Chasing losses (increasing bets to recover losses)
@@ -192,9 +192,9 @@ Gambling is regulated at the national or state/provincial level. Each jurisdicti
 
 ---
 
-## 3.3 Anti-Money Laundering (AML) in Gambling
+## 🎰 3.3 Anti-Money Laundering (AML) in Gambling
 
-### Money Laundering Risks in Gambling
+### ⚠️ Money Laundering Risks in Gambling
 
 Gambling can be exploited for money laundering because:
 - Large sums of money can be moved quickly
@@ -202,7 +202,7 @@ Gambling can be exploited for money laundering because:
 - Online gambling can be anonymous or pseudo-anonymous
 - Multiple payment methods complicate tracing
 
-### AML Requirements
+### 📑 AML Requirements
 
 **1. Customer Due Diligence (CDD):**
 - Verify customer identity (KYC)
@@ -229,7 +229,7 @@ Gambling can be exploited for money laundering because:
 - Retention periods specified by jurisdiction (often 5+ years)
 - Records must be available to regulators upon request
 
-### Testing AML Systems
+### 🔷 Testing AML Systems
 
 - Verify KYC processes correctly identify and verify customers
 - Verify transaction monitoring flags unusual patterns
@@ -239,9 +239,9 @@ Gambling can be exploited for money laundering because:
 
 ---
 
-## 3.4 Know Your Customer (KYC) and Age Verification
+## ⭐ 3.4 Know Your Customer (KYC) and Age Verification
 
-### KYC Requirements
+### 📑 KYC Requirements
 
 **Purpose:**
 - Prevent underage gambling
@@ -269,7 +269,7 @@ Gambling can be exploited for money laundering because:
    - Employment verification
    - Explanation of large deposits
 
-### KYC Testing
+### 🔷 KYC Testing
 
 - Verify registration is blocked until KYC is complete (in jurisdictions requiring this)
 - Verify KYC documents are correctly validated
@@ -278,7 +278,7 @@ Gambling can be exploited for money laundering because:
 - Verify KYC status is correctly recorded and retrievable
 - Verify data protection and privacy compliance
 
-### Underage Gambling Prevention
+### 🎰 Underage Gambling Prevention
 
 **Legal Consequences:**
 - Operators face severe penalties for allowing underage gambling
@@ -298,9 +298,9 @@ Gambling can be exploited for money laundering because:
 
 ---
 
-## 3.5 Testing for Compliance
+## ⭐ 3.5 Testing for Compliance
 
-### Compliance Test Planning
+### 🗓️ Compliance Test Planning
 
 **Test Planning Considerations:**
 1. **Identify Applicable Regulations:**
@@ -318,7 +318,7 @@ Gambling can be exploited for money laundering because:
    - Include KYC/AML workflows
    - Use realistic test data (synthetic identities, controlled payment methods)
 
-### Common Compliance Test Scenarios
+### 🎬 Common Compliance Test Scenarios
 
 **Responsible Gaming Tests:**
 - Self-exclusion request processing and enforcement
@@ -349,7 +349,7 @@ Gambling can be exploited for money laundering because:
 - Verify bonus terms are clear and fair
 - Verify jurisdictional advertising restrictions (e.g., no TV ads during certain hours)
 
-### Jurisdictional Differences in Testing
+### 🔷 Jurisdictional Differences in Testing
 
 **UK (UKGC):**
 - Strict responsible gaming requirements
@@ -375,7 +375,7 @@ Gambling can be exploited for money laundering because:
 - Some require partnerships with land-based casinos
 - Tribal gaming regulated separately under IGRA
 
-### When Compliance Testing Fails
+### 🤖 When Compliance Testing Fails
 
 **Critical Failures (must fix before launch):**
 - Self-exclusion not enforced

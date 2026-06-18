@@ -1,4 +1,4 @@
-# CT-UT Mock Exam 1
+# 📝 CT-UT Mock Exam 1
 
 **Instructions:**
 - 40 questions
@@ -8,7 +8,7 @@
 
 ---
 
-### Q1
+### 🔷 Q1
 
 According to ISO 9241-11, usability is defined in terms of:
 
@@ -19,7 +19,7 @@ D. Functionality, performance, and security
 
 ---
 
-### Q2
+### 🔷 Q2
 
 User Experience (UX) is BEST described as:
 
@@ -30,7 +30,7 @@ D. The technical performance of a system
 
 ---
 
-### Q3
+### 🔷 Q3
 
 Formative usability testing is conducted:
 
@@ -41,7 +41,7 @@ D. By end users in production
 
 ---
 
-### Q4
+### 🔷 Q4
 
 According to Nielsen's research, approximately how many users are needed to find 85% of usability problems in formative testing?
 
@@ -52,7 +52,7 @@ D. 100
 
 ---
 
-### Q5
+### 🔷 Q5
 
 Heuristic evaluation is conducted by:
 
@@ -63,7 +63,7 @@ D. Automated testing tools
 
 ---
 
-### Q6
+### 🔷 Q6
 
 The think-aloud protocol is a user-based method where participants:
 
@@ -74,7 +74,7 @@ D. Review recordings after the session
 
 ---
 
-### Q7
+### 🔷 Q7
 
 Accessibility is BEST described as:
 
@@ -85,7 +85,7 @@ D. Only required for government websites
 
 ---
 
-### Q8
+### 🔷 Q8
 
 WCAG stands for:
 
@@ -96,7 +96,7 @@ D. World Content Accessibility Guidelines
 
 ---
 
-### Q9
+### 🔷 Q9
 
 The System Usability Scale (SUS) produces a score between:
 
@@ -107,7 +107,7 @@ D. 1 and 10
 
 ---
 
-### Q10
+### 🔷 Q10
 
 Net Promoter Score (NPS) is calculated as:
 
@@ -118,7 +118,7 @@ D. Total recommendations received
 
 ---
 
-### Q11
+### 🔷 Q11
 
 "Shift-left" testing in usability means:
 
@@ -129,7 +129,7 @@ D. Testing only with left-handed users
 
 ---
 
-### Q12
+### 🔷 Q12
 
 A cognitive walkthrough evaluates:
 
@@ -140,7 +140,7 @@ D. Code quality
 
 ---
 
-### Q13
+### 🔷 Q13
 
 A screen reader is PRIMARILY used by people with:
 
@@ -151,7 +151,7 @@ D. Auditory disabilities
 
 ---
 
-### Q14
+### 🔷 Q14
 
 Inclusive design is:
 
@@ -162,7 +162,7 @@ D. The same as universal design
 
 ---
 
-### Q15
+### 🔷 Q15
 
 The PRIMARY business benefit of usability testing is:
 
@@ -173,7 +173,7 @@ D. It is required by law in all countries
 
 ---
 
-### Q16
+### 🔷 Q16
 
 Nielsen's heuristic "Match between system and the real world" means:
 
@@ -184,7 +184,7 @@ D. The system should avoid metaphors
 
 ---
 
-### Q17
+### 🔷 Q17
 
 A team needs quick, inexpensive feedback on a wireframe before investing in development. The BEST method is:
 
@@ -195,7 +195,7 @@ D. A/B testing in production
 
 ---
 
-### Q18
+### 🔷 Q18
 
 The industry average SUS score is approximately:
 
@@ -206,7 +206,7 @@ D. 90
 
 ---
 
-### Q19
+### 🔷 Q19
 
 A mistake differs from a slip because a mistake is:
 
@@ -217,7 +217,7 @@ D. Never the user's fault
 
 ---
 
-### Q20
+### 🔷 Q20
 
 A UX Researcher's PRIMARY responsibility is:
 
@@ -228,7 +228,7 @@ D. Creating marketing materials
 
 ---
 
-### Q21
+### 🔷 Q21
 
 The WCAG principle "Perceivable" means:
 
@@ -239,7 +239,7 @@ D. The product must be expensive
 
 ---
 
-### Q22
+### 🔷 Q22
 
 For WCAG 2.1 Level AA, the minimum contrast ratio for normal text is:
 
@@ -250,7 +250,7 @@ D. 7:1
 
 ---
 
-### Q23
+### 🔷 Q23
 
 A team tests a website with a screen reader and declares it accessible. This is:
 
@@ -261,7 +261,7 @@ D. The only test needed
 
 ---
 
-### Q24
+### 🔷 Q24
 
 Co-discovery is a method where:
 
@@ -272,7 +272,7 @@ D. An expert reviews the interface alone
 
 ---
 
-### Q25
+### 🔷 Q25
 
 Retrospective testing involves:
 
@@ -283,7 +283,7 @@ D. Testing without any users
 
 ---
 
-### Q26
+### 🔷 Q26
 
 The PRIMARY skill a Test Automation Engineer must have is:
 
@@ -294,7 +294,7 @@ D. Graphic design skills
 
 ---
 
-### Q27
+### 🔷 Q27
 
 A team has 300 UI tests, 50 integration tests, and 30 unit tests. Their suite takes 4 hours to run. The BEST improvement is:
 
@@ -305,7 +305,7 @@ D. Hire more testers to maintain the tests
 
 ---
 
-### Q28
+### 🔷 Q28
 
 In a CI pipeline, which stage should typically run FIRST?
 
@@ -316,7 +316,7 @@ D. Performance load testing
 
 ---
 
-### Q29
+### 🔷 Q29
 
 Which of the following is a PRIMARY difference between severity and priority?
 
@@ -327,7 +327,7 @@ D. Severity is only used in agile projects
 
 ---
 
-### Q30
+### 🔷 Q30
 
 A defect that causes incorrect data to be displayed but does not crash the system is classified as:
 
@@ -338,7 +338,7 @@ D. Critical severity
 
 ---
 
-### Q31
+### 🔷 Q31
 
 Which test is the BEST candidate for automation?
 
@@ -349,7 +349,7 @@ D. A test for requirements that change daily
 
 ---
 
-### Q32
+### 🔷 Q32
 
 Updating a test script to accommodate a renamed button on the SUT is:
 
@@ -360,7 +360,7 @@ D. No maintenance
 
 ---
 
-### Q33
+### 🔷 Q33
 
 Which metric would BEST indicate that automated tests are finding real defects?
 
@@ -371,7 +371,7 @@ D. Large number of test cases
 
 ---
 
-### Q34
+### 🔷 Q34
 
 A team's TAS uses a commercial tool that the vendor is discontinuing. The BEST action is:
 
@@ -382,7 +382,7 @@ D. Buy 10 years of extra licenses
 
 ---
 
-### Q35
+### 🔷 Q35
 
 In a CI pipeline, the "fail fast" principle means:
 
@@ -393,7 +393,7 @@ D. Stop the pipeline only after all tests complete
 
 ---
 
-### Q36
+### 🔷 Q36
 
 A team automates without clear scope definition. The MOST likely result is:
 
@@ -404,7 +404,7 @@ D. Zero maintenance costs
 
 ---
 
-### Q37
+### 🔷 Q37
 
 A usability issue that prevents a user from completing a critical task should be rated as:
 
@@ -415,7 +415,7 @@ D. Critical
 
 ---
 
-### Q38
+### 🔷 Q38
 
 A team calculates ROI using only initial development costs. The calculated ROI will be:
 
@@ -426,7 +426,7 @@ D. Only valid for the first year
 
 ---
 
-### Q39
+### 🔷 Q39
 
 The relationship between ATDD, BDD, and TDD is BEST described as:
 
@@ -437,7 +437,7 @@ D. Only TDD is appropriate for agile teams
 
 ---
 
-### Q40
+### 🔷 Q40
 
 The PRIMARY purpose of a test plan is to:
 
@@ -448,4 +448,4 @@ D. Document the results of all testing
 
 ---
 
-## End of Mock Exam 1
+## 📝 End of Mock Exam 1

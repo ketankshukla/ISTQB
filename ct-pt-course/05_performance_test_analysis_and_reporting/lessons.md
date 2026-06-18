@@ -1,10 +1,10 @@
-# Chapter 5 — Performance Test Analysis and Reporting: Lessons
+# 📘 Chapter 5 — Performance Test Analysis and Reporting: Lessons
 
 ---
 
-## 5.1 Interpreting Test Results
+## ⭐ 5.1 Interpreting Test Results
 
-### Comparing Against Acceptance Criteria
+### ✅ Comparing Against Acceptance Criteria
 
 **Process:**
 1. Collect all KPIs from the test run
@@ -28,7 +28,7 @@
 - Checkout and throughput failures likely related (slow checkout reduces throughput)
 - CPU slightly over target — may be a contributing factor
 
-### Understanding Response Time Distributions
+### 🔷 Understanding Response Time Distributions
 
 **Average Alone Is Misleading:**
 
@@ -65,7 +65,7 @@ Consider these two response time sets:
 - Low SD = Consistent performance (good)
 - High SD = Inconsistent, unpredictable (bad)
 
-### Analyzing Throughput vs. Response Time
+### 🔷 Analyzing Throughput vs. Response Time
 
 **The Relationship:**
 ```
@@ -95,7 +95,7 @@ Overload:      Response very slow, throughput drops (errors)
 - **Bottleneck reached at ~2,000 users**
 - **Capacity:** ~260 TPS or ~2,000 concurrent users
 
-### Error Analysis
+### 🔬 Error Analysis
 
 **Types of Errors:**
 
@@ -125,9 +125,9 @@ Overload:      Response very slow, throughput drops (errors)
 
 ---
 
-## 5.2 Root Cause Analysis
+## 🔬 5.2 Root Cause Analysis
 
-### The 5 Whys Technique
+### 🎯 The 5 Whys Technique
 
 **Problem:** Checkout response time is 5 seconds (target: 2 seconds)
 
@@ -141,7 +141,7 @@ Overload:      Response very slow, throughput drops (errors)
 
 **Fix:** Add index review to schema change checklist. Create the missing index.
 
-### Component Isolation
+### 🔷 Component Isolation
 
 **Approach:** Test each component separately to identify the slow one.
 
@@ -157,7 +157,7 @@ Full checkout flow: 5 seconds
 
 **Conclusion:** Database query (3 seconds) is 60% of the problem.
 
-### Correlation Analysis
+### 🔬 Correlation Analysis
 
 **Approach:** Correlate performance degradation with specific events or metrics.
 
@@ -166,7 +166,7 @@ Full checkout flow: 5 seconds
 - Memory grows after each report generation → indicates report cache not cleared
 - Errors start when connection pool reaches 100 → pool size is the limit
 
-### Code Profiling
+### 🔷 Code Profiling
 
 **Definition:** Analyzing which methods/functions consume the most time.
 
@@ -184,9 +184,9 @@ OrderService.processCheckout  | 1000  | 450s       | 45%
 
 ---
 
-## 5.3 Performance Tuning
+## ⚡ 5.3 Performance Tuning
 
-### Tuning Categories
+### 🔷 Tuning Categories
 
 **Hardware Tuning:**
 - Add CPU cores
@@ -232,7 +232,7 @@ OrderService.processCheckout  | 1000  | 450s       | 45%
 **When to Use:** When software tuning has reached limits.
 **Caution:** Significant effort, requires architectural review.
 
-### Tuning Decision Framework
+### 🗂️ Tuning Decision Framework
 
 ```
 Identify bottleneck → Easiest fix first → Test → Measure improvement → Next bottleneck?
@@ -248,9 +248,9 @@ Identify bottleneck → Easiest fix first → Test → Measure improvement → N
 
 ---
 
-## 5.4 Performance Test Reporting
+## 📝 5.4 Performance Test Reporting
 
-### Technical Report
+### 📝 Technical Report
 
 **Audience:** Developers, architects, operations team
 
@@ -280,7 +280,7 @@ Recommendation:
   - Expected improvement: Support 4,000+ users with < 1s response
 ```
 
-### Management Report
+### 📝 Management Report
 
 **Audience:** Project managers, business stakeholders, executives
 
@@ -304,7 +304,7 @@ Recommendation:
   - Re-test required before go-live
 ```
 
-### Trend Report
+### 📝 Trend Report
 
 **Audience:** DevOps, performance engineering team
 
@@ -327,7 +327,7 @@ REGRESSION DETECTED in v1.3!
 Investigation: New reporting feature added expensive database query
 ```
 
-### Report Best Practices
+### ❓ Report Best Practices
 
 **Be Specific:**
 - Bad: "The database is slow."
@@ -350,9 +350,9 @@ Investigation: New reporting feature added expensive database query
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Result Interpretation
+### 💡 Worked Example 1: Result Interpretation
 
 **Scenario:** A load test of 2,000 concurrent users on a banking app.
 
@@ -386,7 +386,7 @@ Investigation: New reporting feature added expensive database query
 3. Implement optimistic locking to reduce deadlocks
 4. Add caching for account balance lookups
 
-### Worked Example 2: Tuning Decision
+### 💡 Worked Example 2: Tuning Decision
 
 **Scenario:** A web application with slow search.
 
@@ -410,7 +410,7 @@ Investigation: New reporting feature added expensive database query
 3. If still insufficient: Implement Elasticsearch (architectural change)
 4. Skip hardware upgrade (software fixes address root cause)
 
-### Worked Example 3: Trend Analysis
+### 💡 Worked Example 3: Trend Analysis
 
 **Scenario:** Weekly performance regression tests show gradual degradation.
 

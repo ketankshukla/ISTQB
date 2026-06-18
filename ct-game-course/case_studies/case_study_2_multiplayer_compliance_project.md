@@ -1,6 +1,6 @@
-# Case Study 2 — Multiplayer Compliance Project
+# 📂 Case Study 2 — Multiplayer Compliance Project
 
-## Context
+## ⭐ Context
 
 You are the Compliance Lead for a competitive multiplayer shooter.
 
@@ -11,7 +11,7 @@ You are the Compliance Lead for a competitive multiplayer shooter.
 
 ---
 
-## Task 1: Multiplayer Test Architecture
+## 💡 Task 1: Multiplayer Test Architecture
 
 **Question:** Design multiplayer testing architecture.
 
@@ -34,7 +34,7 @@ You are the Compliance Lead for a competitive multiplayer shooter.
 
 ---
 
-## Task 2: Cross-Play Compliance
+## ⭐ Task 2: Cross-Play Compliance
 
 **Question:** Test cross-play functionality.
 
@@ -55,7 +55,7 @@ You are the Compliance Lead for a competitive multiplayer shooter.
 
 ---
 
-## Task 3: Anti-Cheat Testing
+## ⭐ Task 3: Anti-Cheat Testing
 
 **Question:** Verify anti-cheat measures.
 
@@ -71,7 +71,7 @@ You are the Compliance Lead for a competitive multiplayer shooter.
 
 ---
 
-## Task 4: Submission Readiness
+## ⭐ Task 4: Submission Readiness
 
 **Question:** Prepare submission checklist.
 

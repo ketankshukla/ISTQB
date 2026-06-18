@@ -1,14 +1,14 @@
-# Chapter 1 — Introduction to Security Testing: Lessons
+# 📘 Chapter 1 — Introduction to Security Testing: Lessons
 
 ---
 
-## 1.1 What is Security Testing?
+## 🔒 1.1 What is Security Testing?
 
-### Definition
+### 🔷 Definition
 
 Security testing is testing to determine if a system protects data and maintains functionality as intended, even when under attack.
 
-### Objectives
+### 🎯 Objectives
 
 | Objective | Question Answered |
 |-----------|-------------------|
@@ -19,9 +19,9 @@ Security testing is testing to determine if a system protects data and maintains
 
 ---
 
-## 1.2 The CIA Triad
+## ⭐ 1.2 The CIA Triad
 
-### Confidentiality
+### 🔷 Confidentiality
 
 | Aspect | Description |
 |--------|-------------|
@@ -29,7 +29,7 @@ Security testing is testing to determine if a system protects data and maintains
 | **Threats** | Eavesdropping, data theft, unauthorized access |
 | **Controls** | Encryption, access control, authentication |
 
-### Integrity
+### 🔷 Integrity
 
 | Aspect | Description |
 |--------|-------------|
@@ -37,7 +37,7 @@ Security testing is testing to determine if a system protects data and maintains
 | **Threats** | Data tampering, man-in-the-middle attacks |
 | **Controls** | Hashing, digital signatures, version control |
 
-### Availability
+### 🤖 Availability
 
 | Aspect | Description |
 |--------|-------------|
@@ -47,9 +47,9 @@ Security testing is testing to determine if a system protects data and maintains
 
 ---
 
-## 1.3 Threats, Vulnerabilities, and Risks
+## ⚠️ 1.3 Threats, Vulnerabilities, and Risks
 
-### Relationship
+### 🔷 Relationship
 
 ```
 Threat + Vulnerability = Risk
@@ -63,7 +63,7 @@ Threat + Vulnerability = Risk
 
 ---
 
-## 1.4 Common Attack Types
+## 🧪 1.4 Common Attack Types
 
 | Attack | Description | Target |
 |--------|-------------|--------|
@@ -77,7 +77,7 @@ Threat + Vulnerability = Risk
 
 ---
 
-## 1.5 Business Impact of Security Failures
+## 🔒 1.5 Business Impact of Security Failures
 
 | Impact Type | Examples |
 |-------------|----------|
@@ -88,7 +88,7 @@ Threat + Vulnerability = Risk
 
 ---
 
-## 1.6 When Security Testing is Needed
+## 🔒 1.6 When Security Testing is Needed
 
 | Phase | Activity |
 |-------|----------|
@@ -100,9 +100,9 @@ Threat + Vulnerability = Risk
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Risk Assessment
+### 💡 Worked Example 1: Risk Assessment
 
 | Threat | Vulnerability | Likelihood | Impact | Risk |
 |--------|---------------|------------|--------|------|
@@ -110,7 +110,7 @@ Threat + Vulnerability = Risk
 | XSS | No output encoding | Medium | Medium | Medium |
 | Brute force | No account lockout | High | Low | Medium |
 
-### Worked Example 2: CIA Analysis
+### 💡 Worked Example 2: CIA Analysis
 
 **Scenario:** Online banking system
 
@@ -120,7 +120,7 @@ Threat + Vulnerability = Risk
 | **Integrity** | Transaction tampering | Digital signatures |
 | **Availability** | DDoS attack | CDN, rate limiting |
 
-### Worked Example 3: Attack Identification
+### 💡 Worked Example 3: Attack Identification
 
 **Scenario:** Login form accepts raw SQL in username field.
 

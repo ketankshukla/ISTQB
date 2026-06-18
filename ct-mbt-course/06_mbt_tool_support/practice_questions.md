@@ -1,8 +1,8 @@
-# Chapter 6 — MBT Tool Support: Practice Questions
+# ❓ Chapter 6 — MBT Tool Support: Practice Questions
 
 ---
 
-### Q1 (MBT-6.1, K2)
+### 🔷 Q1 (MBT-6.1, K2)
 
 A tool that creates, edits, and validates models is a:
 
@@ -13,7 +13,7 @@ D. Defect tracking tool
 
 ---
 
-### Q2 (MBT-6.1, K2)
+### 🔷 Q2 (MBT-6.1, K2)
 
 A test generation tool is used to:
 
@@ -24,7 +24,7 @@ D. Design user interfaces
 
 ---
 
-### Q3 (MBT-6.2, K2)
+### 🔷 Q3 (MBT-6.2, K2)
 
 When selecting an MBT tool, the MOST important criterion is:
 
@@ -35,7 +35,7 @@ D. The tool's price alone
 
 ---
 
-### Q4 (MBT-6.3, K2)
+### 🔷 Q4 (MBT-6.3, K2)
 
 Integrating MBT into a CI/CD pipeline typically requires:
 
@@ -46,7 +46,7 @@ D. No integration — MBT cannot be automated
 
 ---
 
-### Q5 (MBT-6.4, K2)
+### 🔷 Q5 (MBT-6.4, K2)
 
 The PRIMARY reason to version control models is:
 
@@ -57,7 +57,7 @@ D. Because version control is required by law
 
 ---
 
-### Q6 (MBT-6.5, K2)
+### 🔷 Q6 (MBT-6.5, K2)
 
 The scripting approach to test generation produces:
 
@@ -68,7 +68,7 @@ D. Database schemas
 
 ---
 
-### Q7 (MBT-6.2, K3)
+### 🔷 Q7 (MBT-6.2, K3)
 
 A team uses UML state machines and JUnit for testing. When selecting an MBT tool, they should verify that it:
 
@@ -79,7 +79,7 @@ D. Only supports Python
 
 ---
 
-### Q8 (MBT-6.4, K2)
+### 🔷 Q8 (MBT-6.4, K2)
 
 In version control, generated test artifacts should typically be:
 
@@ -90,7 +90,7 @@ D. Stored on local hard drives only
 
 ---
 
-### Q9 (MBT-6.1, K2)
+### 🔷 Q9 (MBT-6.1, K2)
 
 A model verification tool checks models for:
 
@@ -101,7 +101,7 @@ D. User interface colors
 
 ---
 
-### Q10 (MBT-6.3, K2)
+### 🔷 Q10 (MBT-6.3, K2)
 
 In a CI/CD pipeline, MBT test generation should typically run:
 
@@ -112,7 +112,7 @@ D. Never — MBT is manual only
 
 ---
 
-### Q11 (MBT-6.2, K2)
+### 🔷 Q11 (MBT-6.2, K2)
 
 Open-source MBT tools should be evaluated for:
 
@@ -123,7 +123,7 @@ D. The vendor's stock price
 
 ---
 
-### Q12 (MBT-6.5, K2)
+### 🔷 Q12 (MBT-6.5, K2)
 
 Code generation for MBT tests is characterized by:
 
@@ -134,7 +134,7 @@ D. Being impossible to integrate with build systems
 
 ---
 
-### Q13 (MBT-6.1, K2)
+### 🔷 Q13 (MBT-6.1, K2)
 
 A test execution tool is used to:
 
@@ -145,7 +145,7 @@ D. Design system architectures
 
 ---
 
-### Q14 (MBT-6.3, K3)
+### 🔷 Q14 (MBT-6.3, K3)
 
 A team wants MBT to integrate with their existing Jenkins pipeline and publish coverage reports. They should verify:
 
@@ -156,7 +156,7 @@ D. The tool is free
 
 ---
 
-### Q15 (MBT-6.4, K2)
+### 🔷 Q15 (MBT-6.4, K2)
 
 When a model is updated, the correct workflow is:
 
@@ -167,7 +167,7 @@ D. Ignore the model update
 
 ---
 
-### Q16 (MBT-6.2, K2)
+### 🔷 Q16 (MBT-6.2, K2)
 
 Total cost of ownership for an MBT tool includes:
 
@@ -178,7 +178,7 @@ D. Only the hardware cost
 
 ---
 
-### Q17 (MBT-6.5, K2)
+### 🔷 Q17 (MBT-6.5, K2)
 
 A hybrid approach using both scripting and code generation is useful when:
 
@@ -189,7 +189,7 @@ D. Management requires it
 
 ---
 
-### Q18 (MBT-6.3, K2)
+### 🔷 Q18 (MBT-6.3, K2)
 
 MBT integration with CI/CD enables:
 
@@ -200,7 +200,7 @@ D. Elimination of all testing
 
 ---
 
-### Q19 (MBT-6.1, K2)
+### 🔷 Q19 (MBT-6.1, K2)
 
 An MBT tool that generates tests "on the fly" during execution is performing:
 
@@ -211,7 +211,7 @@ D. No generation
 
 ---
 
-### Q20 (MBT-6.4, K3)
+### 🔷 Q20 (MBT-6.4, K3)
 
 A team tags model versions with release numbers. This enables:
 
@@ -222,104 +222,104 @@ D. Preventing all model changes
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** Modeling tools create, edit, and validate models.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** Test generation tools derive test cases from models.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** Fit for purpose (model types, integration, objectives) is most important.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** CI/CD requires command-line or API for automated triggering.
 
-### Q5
+### 🔷 Q5
 **Answer: A**
 
 **Rationale:** Version control for models = track changes, enable rollbacks, traceability.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** Scripting = interpreted, flexible, easy to modify.
 
-### Q7
+### 🔷 Q7
 **Answer: A**
 
 **Rationale:** UML models + JUnit tests = need UML import and JUnit export.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** Generated tests are reproducible artifacts; exclude from version control.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** Model verification = syntax, consistency, reachability, deadlock checks.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** MBT generation runs when models change or on schedule.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 
 **Rationale:** Open-source evaluation = community, documentation, maintenance.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** Code generation = compiled/executed directly, type-safe, performant.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** Test execution tools run concrete tests against SUT.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** Jenkins integration = command-line execution + standard report formats.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** Update model → regenerate tests → execute. Don't manually edit generated tests.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 
 **Rationale:** TCO = license + training + setup + maintenance + support.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 
 **Rationale:** Hybrid = different parts have different stability needs.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 
 **Rationale:** CI/CD = automatic generation and execution on changes.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** On-the-fly during execution = online generation.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 
 **Rationale:** Tagged model versions = regenerate tests for any release.

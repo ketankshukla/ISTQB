@@ -1,10 +1,10 @@
-# CT-UT Exam Strategy
+# ♟️ CT-UT Exam Strategy
 
 This document contains tactics, time management advice, and trap-avoidance strategies for the CT-UT exam.
 
 ---
 
-## Exam Format Overview
+## 🎓 Exam Format Overview
 
 | Parameter | Value |
 |-----------|-------|
@@ -16,7 +16,7 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## Time Budget
+## ⭐ Time Budget
 
 | Strategy | Time |
 |----------|------|
@@ -29,7 +29,7 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## Chapter Weighting and Focus Areas
+## ⭐ Chapter Weighting and Focus Areas
 
 | Chapter | Weight | Approx. Questions | Key Focus |
 |---------|--------|-------------------|-----------|
@@ -44,7 +44,7 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## K-Level Patterns
+## 🪜 K-Level Patterns
 
 | K-Level | Definition | How It Appears | Strategy |
 |---------|-----------|----------------|----------|
@@ -56,42 +56,42 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## Chapter-Specific Tactics
+## 🎓 Chapter-Specific Tactics
 
-### Chapter 1: Introduction to Usability and UX
+### 🌟 Chapter 1: Introduction to Usability and UX
 - Know the difference between usability and user experience (UX)
 - Understand ISO 9241-11 definition of usability: effectiveness, efficiency, satisfaction
 - Know the ISO 25010 quality characteristics: functional suitability, performance, compatibility, usability, reliability, security, maintainability, portability
 - Understand the UX Honeycomb model (useful, usable, desirable, findable, accessible, credible, valuable)
 - Know Shneiderman's "Eight Golden Rules" and Nielsen's heuristics
 
-### Chapter 2: Usability Testing Process
+### 🖱️ Chapter 2: Usability Testing Process
 - Know the phases: planning, preparation, execution, analysis, reporting
 - Understand the difference between formative and summative testing
 - Know how to define test objectives and select appropriate methods
 - Understand participant recruitment (screening, sample size, representative users)
 - Know the importance of informed consent and ethical guidelines
 
-### Chapter 3: Usability Evaluation Methods
+### 🖱️ Chapter 3: Usability Evaluation Methods
 - Know user-based methods: think-aloud protocol, co-discovery, retrospective testing
 - Know expert-based methods: heuristic evaluation, cognitive walkthrough, guideline review
 - Understand when to use each method (cost, time, validity trade-offs)
 - Know the difference between moderated and unmoderated testing
 
-### Chapter 4: Accessibility and Inclusive Design
+### 🎨 Chapter 4: Accessibility and Inclusive Design
 - Know WCAG 2.1 principles: perceivable, operable, understandable, robust (POUR)
 - Understand disability categories: visual, auditory, motor, cognitive, speech
 - Know common assistive technologies: screen readers, screen magnifiers, voice recognition, switch devices
 - Understand the difference between accessibility testing and usability testing
 
-### Chapter 5: Tools, Metrics and Reporting
+### 📝 Chapter 5: Tools, Metrics and Reporting
 - Know SUS (System Usability Scale): 10-item questionnaire, scored 0-100
 - Know NPS (Net Promoter Score): 0-10 scale, promoters, passives, detractors
 - Know task metrics: task success rate, time on task, error rate
 - Understand the importance of both quantitative and qualitative data
 - Know the structure of a usability test report
 
-### Chapter 6: Organizational Aspects
+### 🔷 Chapter 6: Organizational Aspects
 - Know the roles: usability engineer, UX researcher, test manager, developer, product owner
 - Understand how to integrate usability testing into the SDLC (shift-left)
 - Know the business case for usability testing (ROI, reduced support costs, increased conversion)
@@ -99,7 +99,7 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## Distractor Patterns
+## ⭐ Distractor Patterns
 
 | Pattern | Example | How to Spot It |
 |---------|---------|--------------|
@@ -111,7 +111,7 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## Before the Exam
+## 🎓 Before the Exam
 
 **1 Week Before:**
 - Re-read all `exam_traps.md` files
@@ -131,7 +131,7 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## During the Exam
+## 🎓 During the Exam
 
 **Question Reading:**
 1. Read the question stem completely
@@ -154,7 +154,7 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## Post-Exam
+## 🎓 Post-Exam
 
 Whether you pass or not:
 - Note which questions were difficult

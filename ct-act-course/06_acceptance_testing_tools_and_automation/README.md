@@ -1,6 +1,6 @@
-# Chapter 6 — Acceptance Testing Tools and Automation
+# 🛠️ Chapter 6 — Acceptance Testing Tools and Automation
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~20% (~8 questions out of 40)
 - **K-levels:** K2 (understand)
@@ -8,7 +8,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -21,7 +21,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts
+## ⭐ Key Concepts
 
 - BDD tools (Cucumber, SpecFlow, Behave, JBehave)
 - Test management tools (Jira, TestRail, Zephyr, Xray)

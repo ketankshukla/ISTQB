@@ -1,10 +1,10 @@
-# Chapter 2 — MBT Modeling: Lessons
+# 📘 Chapter 2 — MBT Modeling: Lessons
 
 ---
 
-## 2.1 Types of Test Models
+## 🧪 2.1 Types of Test Models
 
-### State Transition Model (State Machine)
+### 🔄 State Transition Model (State Machine)
 
 **Description:** A model showing the states a system can be in and the transitions between them triggered by events or conditions.
 
@@ -37,7 +37,7 @@ Transitions:
 - Protocols, embedded systems, transaction processing
 - User workflows with distinct phases
 
-### Decision Table
+### 🗂️ Decision Table
 
 **Description:** A table showing combinations of conditions (inputs) and corresponding actions (outputs). Used to model business rules.
 
@@ -66,7 +66,7 @@ Transitions:
 - Complex logic where combinations matter
 - Regulatory or compliance rules
 
-### Process Model
+### 📐 Process Model
 
 **Description:** A model showing activities, tasks, and the flow of control or data between them.
 
@@ -86,7 +86,7 @@ Start → Receive Order → [Check Stock]
 - Systems with sequential or parallel activities
 - End-to-end user journeys
 
-### Feature Model
+### 📐 Feature Model
 
 **Description:** A model showing features of a product and their relationships: mandatory, optional, alternative, or requires/excludes.
 
@@ -124,9 +124,9 @@ Mobile Phone (mandatory)
 
 ---
 
-## 2.2 Modeling Notations
+## 📐 2.2 Modeling Notations
 
-### UML State Machine
+### 🔄 UML State Machine
 
 **Elements:**
 - **State:** Rounded rectangle with name
@@ -146,7 +146,7 @@ Mobile Phone (mandatory)
                            [invalid PIN]
 ```
 
-### UML Activity Diagram
+### 🔷 UML Activity Diagram
 
 **Elements:**
 - **Activity:** Rounded rectangle
@@ -164,7 +164,7 @@ Mobile Phone (mandatory)
         |--Yes--> [Process Application] --> [Send Confirmation] --> [End]
 ```
 
-### BPMN (Business Process Model and Notation)
+### 📐 BPMN (Business Process Model and Notation)
 
 **Elements:**
 - **Events:** Circles (start, intermediate, end)
@@ -180,9 +180,9 @@ Mobile Phone (mandatory)
 
 ---
 
-## 2.3 Model Quality Attributes
+## 💎 2.3 Model Quality Attributes
 
-### Correctness
+### 🔷 Correctness
 
 **Definition:** The model accurately represents the intended behavior of the SUT.
 
@@ -192,7 +192,7 @@ Mobile Phone (mandatory)
 - Validate with stakeholders
 - Check for logical inconsistencies (e.g., unreachable states)
 
-### Representativeness
+### 🔷 Representativeness
 
 **Definition:** The model covers the test-relevant aspects of the SUT at an appropriate level of detail.
 
@@ -202,7 +202,7 @@ Mobile Phone (mandatory)
 - Good: Model shows "Login" as a transition (test-relevant)
 - Bad: Model shows "Hash password using bcrypt with salt rounds=12" (implementation detail, not test-relevant)
 
-### Interpretability
+### 🔷 Interpretability
 
 **Definition:** The model can be understood by stakeholders (testers, developers, business analysts).
 
@@ -212,7 +212,7 @@ Mobile Phone (mandatory)
 - Appropriate level of abstraction
 - Good documentation
 
-### Maintainability
+### 🤖 Maintainability
 
 **Definition:** The model can be updated when requirements or the SUT change.
 
@@ -224,9 +224,9 @@ Mobile Phone (mandatory)
 
 ---
 
-## 2.4 Control Flow vs. Data Flow
+## 🗃️ 2.4 Control Flow vs. Data Flow
 
-### Control Flow Model
+### 📐 Control Flow Model
 
 **Focus:** The order of operations and decisions.
 
@@ -239,7 +239,7 @@ Login Form → Validate Input → [Valid?] → Yes → Check Database → [Found
 
 **Tests Generated:** Paths through the control structure.
 
-### Data Flow Model
+### 📐 Data Flow Model
 
 **Focus:** How data moves through the system and is transformed.
 
@@ -252,7 +252,7 @@ User Input → Sanitization → Validation → Business Logic → Database
 
 **Tests Generated:** Data flow coverage (def-use pairs, variable lifecycles).
 
-### Combined Models
+### 📐 Combined Models
 
 Many practical models combine both:
 - State machines with data conditions (guard conditions)
@@ -261,9 +261,9 @@ Many practical models combine both:
 
 ---
 
-## 2.5 Abstraction and Test-Relevant Aspects
+## ⭐ 2.5 Abstraction and Test-Relevant Aspects
 
-### Abstraction Levels
+### 🪜 Abstraction Levels
 
 **High Abstraction:**
 - Fewer details
@@ -283,7 +283,7 @@ Many practical models combine both:
 - Detailed behavior testing → lower abstraction
 - Multiple models at different abstraction levels may be needed
 
-### Test-Relevant Aspects
+### 🔷 Test-Relevant Aspects
 
 **What to Include:**
 - Behavior that needs testing
@@ -299,9 +299,9 @@ Many practical models combine both:
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Choosing a Model Type
+### 💡 Worked Example 1: Choosing a Model Type
 
 **Scenario:** Test a vending machine that accepts coins, validates selection, dispenses items, and gives change.
 
@@ -314,7 +314,7 @@ Many practical models combine both:
 
 **Alternative:** Decision Table for pricing/change rules.
 
-### Worked Example 2: Decision Table Construction
+### 💡 Worked Example 2: Decision Table Construction
 
 **Scenario:** A car rental system determines rental eligibility based on age, license validity, and insurance.
 
@@ -346,7 +346,7 @@ Many practical models combine both:
 | Approve/Require Deposit | X | |
 | Deny | | X |
 
-### Worked Example 3: Model Quality Review
+### 💡 Worked Example 3: Model Quality Review
 
 **Scenario:** Review a state machine for an online booking system.
 

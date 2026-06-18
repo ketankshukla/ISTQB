@@ -1,6 +1,6 @@
-# Chapter 5 — MBT Tools and Automation
+# 🛠️ Chapter 5 — MBT Tools and Automation
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~15% (~6 questions out of 40)
 - **K-levels:** K2 (understand)
@@ -8,7 +8,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -19,7 +19,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts
+## ⭐ Key Concepts
 
 - Tool categories: model editors, test generators, execution frameworks, coverage analyzers
 - Tool selection criteria: model notation support, integration, scalability, cost

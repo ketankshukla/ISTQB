@@ -1,8 +1,8 @@
-# Chapter 1 — Introduction to MBT: Practice Questions
+# ❓ Chapter 1 — Introduction to MBT: Practice Questions
 
 ---
 
-### Q1 (MBT-1.1, K2)
+### 🔷 Q1 (MBT-1.1, K2)
 
 Which statement BEST describes Model-Based Testing?
 
@@ -13,7 +13,7 @@ D. Manual testing guided by test scripts
 
 ---
 
-### Q2 (MBT-1.2, K2)
+### 🔷 Q2 (MBT-1.2, K2)
 
 The PRIMARY purpose of creating a model in MBT is to:
 
@@ -24,7 +24,7 @@ D. Eliminate the need for testers
 
 ---
 
-### Q3 (MBT-1.3, K2)
+### 🔷 Q3 (MBT-1.3, K2)
 
 Which of the following is a PRIMARY benefit of MBT?
 
@@ -35,7 +35,7 @@ D. Automatically fixes defects in the code
 
 ---
 
-### Q4 (MBT-1.3, K2)
+### 🔷 Q4 (MBT-1.3, K2)
 
 A test case generated from a model that lacks specific input values is called:
 
@@ -46,7 +46,7 @@ D. A selection criterion
 
 ---
 
-### Q5 (MBT-1.3, K2)
+### 🔷 Q5 (MBT-1.3, K2)
 
 Which of the following is a LIMITATION of MBT?
 
@@ -57,7 +57,7 @@ D. It eliminates the need for test execution
 
 ---
 
-### Q6 (MBT-1.1, K2)
+### 🔷 Q6 (MBT-1.1, K2)
 
 In the MBT process, which step comes AFTER test generation?
 
@@ -68,7 +68,7 @@ D. Requirements analysis
 
 ---
 
-### Q7 (MBT-1.2, K2)
+### 🔷 Q7 (MBT-1.2, K2)
 
 A model that serves as the source of expected results for generated tests is called:
 
@@ -79,7 +79,7 @@ D. An unreachable state
 
 ---
 
-### Q8 (MBT-1.3, K2)
+### 🔷 Q8 (MBT-1.3, K2)
 
 Which system is MOST appropriate for MBT?
 
@@ -90,7 +90,7 @@ D. A system with completely random behavior
 
 ---
 
-### Q9 (MBT-1.3, K2)
+### 🔷 Q9 (MBT-1.3, K2)
 
 Creating a model often reveals ambiguities in requirements. This demonstrates which benefit of MBT?
 
@@ -101,7 +101,7 @@ D. Elimination of manual testing
 
 ---
 
-### Q10 (MBT-1.3, K2)
+### 🔷 Q10 (MBT-1.3, K2)
 
 When requirements change, the MOST efficient approach in MBT is to:
 
@@ -112,7 +112,7 @@ D. Stop using MBT
 
 ---
 
-### Q11 (MBT-1.1, K2)
+### 🔷 Q11 (MBT-1.1, K2)
 
 Which of the following is NOT a typical model type used in MBT?
 
@@ -123,7 +123,7 @@ D. Network topology map
 
 ---
 
-### Q12 (MBT-1.3, K2)
+### 🔷 Q12 (MBT-1.3, K2)
 
 MBT is LEAST appropriate for which type of testing?
 
@@ -134,7 +134,7 @@ D. Testing transition sequences
 
 ---
 
-### Q13 (MBT-1.2, K2)
+### 🔷 Q13 (MBT-1.2, K2)
 
 Traceability in MBT means:
 
@@ -145,7 +145,7 @@ D. Defects are traced to developers
 
 ---
 
-### Q14 (MBT-1.3, K2)
+### 🔷 Q14 (MBT-1.3, K2)
 
 A team spends 2 weeks creating a model for a system that will be replaced in 1 month. This is:
 
@@ -156,7 +156,7 @@ D. The only way to test the system
 
 ---
 
-### Q15 (MBT-1.3, K2)
+### 🔷 Q15 (MBT-1.3, K2)
 
 The quality of generated tests in MBT depends most directly on:
 
@@ -167,79 +167,79 @@ D. The programming language used
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** MBT generates test cases from models describing system behavior.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** The model is an abstract representation of behavior used for test generation.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** Systematic coverage based on criteria is a primary MBT benefit. It does not eliminate manual testing (A) or fix defects (D).
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** Abstract test cases lack specific values. Concrete test cases are executable with specific inputs.
 
-### Q5
+### 🔷 Q5
 **Answer: A**
 
 **Rationale:** MBT requires modeling effort, which is a known limitation. MBT is well-suited for state-dependent systems (B).
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** MBT process: Requirements → Model → Selection Criteria → Test Generation → Test Execution → Analysis.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** A test oracle provides expected results. In MBT, the model often serves as the oracle.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** ATM state-dependent behavior is ideal for MBT. Simple pages (A), prototypes (C), and random systems (D) are not suitable.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** Requiring ambiguities during modeling is early defect detection — a key MBT benefit.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** Updating the model and regenerating tests is the MBT approach to change. Much faster than manual updates.
 
-### Q11
+### 🔷 Q11
 **Answer: D**
 
 **Rationale:** State machines, decision tables, and use case diagrams are common MBT models. Network topology is not a behavioral model.
 
-### Q12
+### 🔷 Q12
 **Answer: C**
 
 **Rationale:** User experience and aesthetics are not well-suited to MBT. Behavioral and rules testing (A, B, D) are ideal.
 
-### Q13
+### 🔷 Q13
 **Answer: A**
 
 **Rationale:** Traceability in MBT links tests to model elements and requirements.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** MBT upfront effort may not pay off for short-lived systems. ROI improves with longer system lifespan.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** A bad model generates bad tests. Model quality is the most direct factor in generated test quality.

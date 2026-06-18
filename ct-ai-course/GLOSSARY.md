@@ -1,10 +1,10 @@
-# CT-AI Glossary
+# 📖 CT-AI Glossary
 
 Key terms and definitions for the CT-AI exam, organized by chapter relevance.
 
 ---
 
-## AI Fundamentals
+## 🏗️ AI Fundamentals
 
 **Artificial Intelligence (AI)**
 The simulation of human intelligence processes by computer systems, including learning, reasoning, and self-correction.
@@ -71,7 +71,7 @@ Software robots that automate repetitive, rule-based tasks.
 
 ---
 
-## ML Model Testing
+## 📐 ML Model Testing
 
 **Accuracy**
 The proportion of total predictions that were correct.
@@ -126,7 +126,7 @@ Parameters set before training that control the learning process (e.g., learning
 
 ---
 
-## AI Testing Concepts
+## 🤖 AI Testing Concepts
 
 **Test Oracle**
 A mechanism for determining whether a test has passed or failed. For AI systems, oracles are often probabilistic or statistical.
@@ -166,7 +166,7 @@ Principles ensuring AI systems are transparent, accountable, and beneficial to s
 
 ---
 
-## AI for Testing
+## 🤖 AI for Testing
 
 **Autonomous Testing**
 Testing where AI independently generates, executes, and evaluates tests without human intervention.
@@ -185,7 +185,7 @@ Using AI to order tests by likelihood of finding defects or business risk.
 
 ---
 
-## Abbreviations
+## ⭐ Abbreviations
 
 | Abbreviation | Meaning |
 |-------------|---------|

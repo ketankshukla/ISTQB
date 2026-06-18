@@ -1,8 +1,8 @@
-# Chapter 2 — Test Automation Planning and ROI: Practice Questions
+# ❓ Chapter 2 — Test Automation Planning and ROI: Practice Questions
 
 ---
 
-### Q1 (TAS-2.1, K2)
+### 🔷 Q1 (TAS-2.1, K2)
 
 A business case for automation should include:
 
@@ -13,7 +13,7 @@ D. Only developer names
 
 ---
 
-### Q2 (TAS-2.2, K3)
+### 🔷 Q2 (TAS-2.2, K3)
 
 A test that runs 50 times per year and saves 2 hours each time has an annual time savings of:
 
@@ -24,7 +24,7 @@ D. 200 hours
 
 ---
 
-### Q3 (TAS-2.3, K2)
+### 🔷 Q3 (TAS-2.3, K2)
 
 The PRIMARY reason to assess risks before automation is:
 
@@ -35,7 +35,7 @@ D. Only for management
 
 ---
 
-### Q4 (TAS-2.4, K2)
+### 🔷 Q4 (TAS-2.4, K2)
 
 Tests with the HIGHEST automation priority are typically:
 
@@ -46,7 +46,7 @@ D. Tests for volatile features
 
 ---
 
-### Q5 (TAS-2.1, K2)
+### 🔷 Q5 (TAS-2.1, K2)
 
 Maintenance cost for automation is typically:
 
@@ -57,7 +57,7 @@ D. More than 100% per year
 
 ---
 
-### Q6 (TAS-2.2, K3)
+### 🔷 Q6 (TAS-2.2, K3)
 
 ROI in the first year of automation is often:
 
@@ -68,7 +68,7 @@ D. Only measurable in year 3
 
 ---
 
-### Q7 (TAS-2.3, K2)
+### 🔷 Q7 (TAS-2.3, K2)
 
 Automating a rarely-run test with low business risk:
 
@@ -79,7 +79,7 @@ D. Is only for agile teams
 
 ---
 
-### Q8 (TAS-2.4, K2)
+### 🔷 Q8 (TAS-2.4, K2)
 
 Which role is responsible for framework design and tool selection?
 
@@ -90,7 +90,7 @@ D. Project manager
 
 ---
 
-### Q9 (TAS-2.1, K2)
+### 🔷 Q9 (TAS-2.1, K2)
 
 Benefits of automation beyond time savings include:
 
@@ -101,7 +101,7 @@ D. Only more documentation
 
 ---
 
-### Q10 (TAS-2.2, K3)
+### 🔷 Q10 (TAS-2.2, K3)
 
 Break-even analysis for automation:
 
@@ -112,7 +112,7 @@ D. Only applies to open-source tools
 
 ---
 
-### Q11 (TAS-2.3, K2)
+### 🔷 Q11 (TAS-2.3, K2)
 
 A centralized automation team model provides:
 
@@ -123,7 +123,7 @@ D. Only lower costs
 
 ---
 
-### Q12 (TAS-2.4, K2)
+### 🔷 Q12 (TAS-2.4, K2)
 
 The PRIMARY selection criterion for automation should be:
 
@@ -134,7 +134,7 @@ D. Only who wrote the test
 
 ---
 
-### Q13 (TAS-2.1, K2)
+### 🔷 Q13 (TAS-2.1, K2)
 
 Hidden costs in automation include:
 
@@ -145,7 +145,7 @@ D. Only training materials
 
 ---
 
-### Q14 (TAS-2.2, K3)
+### 🔷 Q14 (TAS-2.2, K3)
 
 If a manual test takes 4 hours and the automated version takes 0.5 hours, running it 20 times saves:
 
@@ -156,7 +156,7 @@ D. 10 hours
 
 ---
 
-### Q15 (TAS-2.3, K2)
+### 🔷 Q15 (TAS-2.3, K2)
 
 An embedded automation model (per team) provides:
 
@@ -167,7 +167,7 @@ D. Only shared frameworks
 
 ---
 
-### Q16 (TAS-2.4, K2)
+### 🔷 Q16 (TAS-2.4, K2)
 
 Tests for highly volatile features should be:
 
@@ -178,7 +178,7 @@ D. Only exploratory
 
 ---
 
-### Q17 (TAS-2.1, K2)
+### 🔷 Q17 (TAS-2.1, K2)
 
 A business case should quantify:
 
@@ -189,7 +189,7 @@ D. Only team names
 
 ---
 
-### Q18 (TAS-2.2, K3)
+### 🔷 Q18 (TAS-2.2, K3)
 
 TCO (Total Cost of Ownership) includes:
 
@@ -200,7 +200,7 @@ D. Only training
 
 ---
 
-### Q19 (TAS-2.3, K2)
+### 🔷 Q19 (TAS-2.3, K2)
 
 The best tests to automate first are:
 
@@ -211,7 +211,7 @@ D. Only performance tests
 
 ---
 
-### Q20 (TAS-2.4, K2)
+### 🔷 Q20 (TAS-2.4, K2)
 
 Regular metrics reporting to management:
 
@@ -222,84 +222,84 @@ D. Only for large organizations
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** Business case = problem, objectives, costs, benefits, ROI, risks.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** 50 × 2 = 100 hours saved per year.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** Risk assessment = anticipate obstacles and plan mitigations.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** High priority = frequent, high-risk, stable.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Maintenance = 30-50% of initial effort annually.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Year 1 ROI often negative due to setup costs.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Rare + low risk = poor ROI.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Architect = framework design and tool selection.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** Benefits = quality, speed, risk reduction.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** Break-even = benefits exceed costs.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Centralized = consistent standards + shared knowledge.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Primary = business value + frequency.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Hidden = learning curve + opportunity cost.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** (4 - 0.5) × 20 = 70 hours saved.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Embedded = domain knowledge + fast feedback.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Volatile = defer until stable.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Business case = measurable costs/benefits.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** TCO = all costs over lifecycle.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** First = smoke + critical regression.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** Metrics = maintain support + demonstrate value.

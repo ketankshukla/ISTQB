@@ -1,10 +1,10 @@
-# Chapter 6 — Big Data Testing Tools and Automation: Lessons
+# 📘 Chapter 6 — Big Data Testing Tools and Automation: Lessons
 
 ---
 
-## 6.1 Data Validation Frameworks
+## 🗃️ 6.1 Data Validation Frameworks
 
-### Deequ (AWS)
+### 🔷 Deequ (AWS)
 
 **What it is:** A data quality library built on Apache Spark for defining and verifying data quality constraints at scale.
 
@@ -36,7 +36,7 @@ VerificationSuite()
 - Continuous monitoring in production
 - Anomaly detection (unexpected changes in data distribution)
 
-### Great Expectations (Open Source)
+### 🔷 Great Expectations (Open Source)
 
 **What it is:** A Python framework for data validation that creates "expectations" about data.
 
@@ -60,7 +60,7 @@ results = validator.validate()
 
 **Output:** Pass/fail for each expectation with detailed statistics.
 
-### Comparison
+### 🔷 Comparison
 
 | Feature | Deequ | Great Expectations |
 |---------|-------|-------------------|
@@ -73,9 +73,9 @@ results = validator.validate()
 
 ---
 
-## 6.2 ETL Testing Tools
+## 🛠️ 6.2 ETL Testing Tools
 
-### QuerySurge
+### 🔷 QuerySurge
 
 **What it is:** A commercial ETL testing tool that automates data validation between source and target systems.
 
@@ -91,7 +91,7 @@ results = validator.validate()
 3. Tool compares results automatically
 4. Report shows any variances
 
-### iCEDQ
+### 🔷 iCEDQ
 
 **What it is:** A commercial data validation and reconciliation platform.
 
@@ -101,7 +101,7 @@ results = validator.validate()
 - Data quality dashboards
 - Workflow automation
 
-### Apache Griffin
+### 🔷 Apache Griffin
 
 **What it is:** An open-source data quality solution for Big Data.
 
@@ -115,9 +115,9 @@ results = validator.validate()
 
 ---
 
-## 6.3 Unit Testing for Big Data
+## 🗃️ 6.3 Unit Testing for Big Data
 
-### Spark Testing Base
+### 🔷 Spark Testing Base
 
 **What it is:** A Scala library for unit testing Spark programs.
 
@@ -135,7 +135,7 @@ class MySparkTest extends FunSuite with SharedSparkContext {
 }
 ```
 
-### pytest-spark
+### 🔷 pytest-spark
 
 **What it is:** A Python plugin for testing PySpark code with pytest.
 
@@ -155,7 +155,7 @@ def test_filter(spark):
     assert result[0]["val"] == "b"
 ```
 
-### Test Data Strategies
+### 🗃️ Test Data Strategies
 
 **Synthetic data generation:**
 - Use libraries like Faker, TPC-DS data generators
@@ -181,9 +181,9 @@ def sample_orders():
 
 ---
 
-## 6.4 CI/CD for Big Data Pipelines
+## 🗃️ 6.4 CI/CD for Big Data Pipelines
 
-### Why CI/CD for Data?
+### 🗃️ Why CI/CD for Data?
 
 Traditional software CI/CD validates code changes. Data pipeline CI/CD must also validate:
 - Code changes (transformations)
@@ -191,13 +191,13 @@ Traditional software CI/CD validates code changes. Data pipeline CI/CD must also
 - Data quality
 - Performance
 
-### Pipeline Stages
+### 🔷 Pipeline Stages
 
 ```
 Code commit → Unit tests → Integration tests → Data quality checks → Performance tests → Deploy
 ```
 
-### Data Pipeline CI/CD Components
+### 🗃️ Data Pipeline CI/CD Components
 
 **1. Code Validation:**
 - Linting (code style)
@@ -218,7 +218,7 @@ Code commit → Unit tests → Integration tests → Data quality checks → Per
 - Compare execution time to baseline
 - Fail if performance degrades beyond threshold
 
-### Example CI/CD Configuration
+### 💡 Example CI/CD Configuration
 
 **GitHub Actions / Jenkins pipeline:**
 ```yaml
@@ -255,9 +255,9 @@ deploy:
 
 ---
 
-## 6.5 Data Comparison and Reconciliation Tools
+## 🛠️ 6.5 Data Comparison and Reconciliation Tools
 
-### Approaches to Data Comparison
+### 🗃️ Approaches to Data Comparison
 
 **1. Row-by-row comparison:**
 - Compare every row between source and target
@@ -279,7 +279,7 @@ deploy:
 - Scalable but probabilistic
 - Confidence level based on sample size
 
-### Tools
+### 🛠️ Tools
 
 **Custom SQL:**
 ```sql
@@ -307,9 +307,9 @@ def compare_dataframes(source, target, key_columns):
 
 ---
 
-## 6.6 Monitoring and Alerting
+## ⭐ 6.6 Monitoring and Alerting
 
-### Data Quality Monitoring
+### 💎 Data Quality Monitoring
 
 **Continuous monitoring:**
 - Run quality checks on production data
@@ -327,7 +327,7 @@ Latency (min)   | 45      | 60        | PASS
 Job duration    | 3.5 hrs | 4 hrs     | PASS
 ```
 
-### Pipeline Monitoring
+### 🔷 Pipeline Monitoring
 
 **What to monitor:**
 - Job start/end times and duration
@@ -342,7 +342,7 @@ Job duration    | 3.5 hrs | 4 hrs     | PASS
 - Error rate > threshold → Critical alert
 - Data freshness > SLA → Business alert
 
-### Tools
+### 🛠️ Tools
 
 **Apache Atlas:**
 - Metadata management and governance
@@ -366,9 +366,9 @@ Job duration    | 3.5 hrs | 4 hrs     | PASS
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Great Expectations Implementation
+### 💡 Worked Example 1: Great Expectations Implementation
 
 **Scenario:** Implement automated data quality checks for a customer table.
 
@@ -410,7 +410,7 @@ customer_id unique                                    | PASS   | 0%
 status in set                                         | PASS   | 0%
 ```
 
-### Worked Example 2: CI/CD Pipeline for Data Pipeline
+### 💡 Worked Example 2: CI/CD Pipeline for Data Pipeline
 
 **Scenario:** A Spark ETL job deployed via CI/CD.
 
@@ -483,7 +483,7 @@ def check_quality_results(results):
         print("ALL CHECKS PASSED")
 ```
 
-### Worked Example 3: Data Reconciliation Automation
+### 💡 Worked Example 3: Data Reconciliation Automation
 
 **Scenario:** Automate daily reconciliation between source MySQL and target Hive.
 

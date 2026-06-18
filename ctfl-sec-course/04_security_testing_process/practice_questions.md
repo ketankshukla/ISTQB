@@ -1,8 +1,8 @@
-# Chapter 4 — Security Testing Process: Practice Questions
+# ❓ Chapter 4 — Security Testing Process: Practice Questions
 
 ---
 
-### Q1 (SEC-4.1, K2)
+### 🔷 Q1 (SEC-4.1, K2)
 
 Security test planning should include:
 
@@ -13,7 +13,7 @@ D. Only reporting
 
 ---
 
-### Q2 (SEC-4.2, K2)
+### 🔷 Q2 (SEC-4.2, K2)
 
 Test environment for security testing should be:
 
@@ -24,7 +24,7 @@ D. Only shared with other teams
 
 ---
 
-### Q3 (SEC-4.3, K2)
+### 🔷 Q3 (SEC-4.3, K2)
 
 Risk assessment for security findings uses:
 
@@ -35,7 +35,7 @@ D. Only expert opinion
 
 ---
 
-### Q4 (SEC-4.4, K2)
+### 🔷 Q4 (SEC-4.4, K2)
 
 A security test report should contain:
 
@@ -46,7 +46,7 @@ D. Only executive summary
 
 ---
 
-### Q5 (SEC-4.5, K2)
+### 🔷 Q5 (SEC-4.5, K2)
 
 Security testing during requirements phase:
 
@@ -57,7 +57,7 @@ D. Only happens after release
 
 ---
 
-### Q6 (SEC-4.1, K2)
+### 🔷 Q6 (SEC-4.1, K2)
 
 Scope definition in security testing:
 
@@ -68,7 +68,7 @@ D. Only applies to code review
 
 ---
 
-### Q7 (SEC-4.2, K2)
+### 🔷 Q7 (SEC-4.2, K2)
 
 Reconnaissance in security testing means:
 
@@ -79,7 +79,7 @@ D. Only fixing bugs
 
 ---
 
-### Q8 (SEC-4.3, K2)
+### 🔷 Q8 (SEC-4.3, K2)
 
 A critical risk finding should be:
 
@@ -90,7 +90,7 @@ D. Only monitored
 
 ---
 
-### Q9 (SEC-4.4, K2)
+### 🔷 Q9 (SEC-4.4, K2)
 
 CVSS base score measures:
 
@@ -101,7 +101,7 @@ D. Only environmental factors
 
 ---
 
-### Q10 (SEC-4.5, K2)
+### 🔷 Q10 (SEC-4.5, K2)
 
 Threat modeling occurs during:
 
@@ -112,7 +112,7 @@ D. Only maintenance
 
 ---
 
-### Q11 (SEC-4.1, K2)
+### 🔷 Q11 (SEC-4.1, K2)
 
 Constraints in security test planning:
 
@@ -123,7 +123,7 @@ D. Only apply to time
 
 ---
 
-### Q12 (SEC-4.2, K2)
+### 🔷 Q12 (SEC-4.2, K2)
 
 Vulnerability scanning is typically:
 
@@ -134,7 +134,7 @@ D. Only social engineering
 
 ---
 
-### Q13 (SEC-4.3, K2)
+### 🔷 Q13 (SEC-4.3, K2)
 
 A low-risk finding:
 
@@ -145,7 +145,7 @@ D. Only reported to management
 
 ---
 
-### Q14 (SEC-4.4, K2)
+### 🔷 Q14 (SEC-4.4, K2)
 
 Evidence in a security report includes:
 
@@ -156,7 +156,7 @@ D. Only test dates
 
 ---
 
-### Q15 (SEC-4.5, K2)
+### 🔷 Q15 (SEC-4.5, K2)
 
 SAST is performed during:
 
@@ -167,7 +167,7 @@ D. Only maintenance
 
 ---
 
-### Q16 (SEC-4.1, K2)
+### 🔷 Q16 (SEC-4.1, K2)
 
 Security test objectives should:
 
@@ -178,7 +178,7 @@ D. Only apply to reports
 
 ---
 
-### Q17 (SEC-4.2, K2)
+### 🔷 Q17 (SEC-4.2, K2)
 
 Before security testing, the environment should be:
 
@@ -189,7 +189,7 @@ D. Only monitored
 
 ---
 
-### Q18 (SEC-4.3, K3)
+### 🔷 Q18 (SEC-4.3, K3)
 
 A finding with high likelihood and low impact has:
 
@@ -200,7 +200,7 @@ D. Only critical risk
 
 ---
 
-### Q19 (SEC-4.4, K2)
+### 🔷 Q19 (SEC-4.4, K2)
 
 Remediation recommendations should be:
 
@@ -211,7 +211,7 @@ D. Only for developers
 
 ---
 
-### Q20 (SEC-4.5, K2)
+### 🔷 Q20 (SEC-4.5, K2)
 
 Continuous security monitoring in production:
 
@@ -222,84 +222,84 @@ D. Only for development
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** Plan = scope + objectives + techniques + constraints + schedule.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** Environment = secure + isolated.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** Risk = likelihood + impact + severity.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** Report = findings + evidence + risk + remediation.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Requirements phase = define security requirements.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Scope = what is/isn't tested.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Reconnaissance = gather info.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Critical = fix immediately.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** CVSS base = intrinsic characteristics.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** Threat modeling = design phase.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Constraints = document limitations.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Vulnerability scanning = automated discovery.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Low risk = accept or schedule.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Evidence = screenshots + logs + steps.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** SAST = development phase.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Objectives = specific + measurable.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Backup = protect environment.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** High likelihood + low impact = medium/low.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Remediation = specific + actionable.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** Monitoring = detect attacks real-time.

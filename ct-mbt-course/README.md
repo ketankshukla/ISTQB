@@ -1,10 +1,10 @@
-# CT-MBT — Certified Tester in Model-Based Testing
+# 📐 CT-MBT — Certified Tester in Model-Based Testing
 
 Complete self-study course for the ISTQB CT-MBT certification exam.
 
 ---
 
-## Exam Facts
+## 🎓 Exam Facts
 
 | Parameter | Value |
 |-----------|-------|
@@ -19,7 +19,7 @@ Complete self-study course for the ISTQB CT-MBT certification exam.
 
 ---
 
-## Course Structure
+## ⭐ Course Structure
 
 ```
 ct-mbt-course/
@@ -81,7 +81,7 @@ ct-mbt-course/
 
 ---
 
-## How to Use This Course
+## ⭐ How to Use This Course
 
 1. **Start with `STUDY_PLAN.md`** — Pick the 3-week or accelerated schedule
 2. **Read chapters in order** — Each chapter builds on the previous
@@ -94,7 +94,7 @@ ct-mbt-course/
 
 ---
 
-## Target Audience
+## ⭐ Target Audience
 
 - Testers transitioning to or working with model-based testing
 - Test analysts designing models for test generation
@@ -103,7 +103,7 @@ ct-mbt-course/
 
 ---
 
-## Key Topics Covered
+## ⭐ Key Topics Covered
 
 - **Introduction to MBT** — Definitions, benefits, limitations, MBT in the test process
 - **MBT Modeling** — Model types (state machines, decision tables, process models), modeling notations, model quality
@@ -114,7 +114,7 @@ ct-mbt-course/
 
 ---
 
-## Question Bank Summary
+## ❓ Question Bank Summary
 
 | Source | Questions |
 |--------|-----------|
@@ -124,7 +124,7 @@ ct-mbt-course/
 
 ---
 
-## Syllabus Coverage
+## 📊 Syllabus Coverage
 
 This course covers all learning objectives from the ISTQB CT-MBT v1.0 syllabus:
 
@@ -137,7 +137,7 @@ This course covers all learning objectives from the ISTQB CT-MBT v1.0 syllabus:
 
 ---
 
-## Prerequisites
+## ⭐ Prerequisites
 
 - **CTFL (Foundation Level)** — Required for exam registration
 - **Basic understanding of software testing** — Test levels, techniques, test design
@@ -145,6 +145,6 @@ This course covers all learning objectives from the ISTQB CT-MBT v1.0 syllabus:
 
 ---
 
-## Tip for Maximum Exam Success
+## 🎓 Tip for Maximum Exam Success
 
 > **Do not just read. Practice.** After each chapter, answer the practice questions without looking at the answers. Then read the rationales to understand WHY the correct answer is right and WHY the distractors are wrong. This active recall is the single most effective study technique for multiple-choice exams.

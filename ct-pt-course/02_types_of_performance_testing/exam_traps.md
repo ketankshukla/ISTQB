@@ -1,6 +1,6 @@
-# Chapter 2 — Types of Performance Testing: Exam Traps
+# 🪤 Chapter 2 — Types of Performance Testing: Exam Traps
 
-## Trap 1: Confusing Load Testing and Stress Testing
+## 🪤 Trap 1: Confusing Load Testing and Stress Testing
 
 **Trap:** Load = expected load. Stress = beyond expected/breaking point.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Confusing Endurance and Spike Testing
+## 🪤 Trap 2: Confusing Endurance and Spike Testing
 
 **Trap:** Endurance = sustained load over long time. Spike = sudden burst of load.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Thinking Stress Testing Is for Routine Validation
+## 🪤 Trap 3: Thinking Stress Testing Is for Routine Validation
 
 **Trap:** Stress testing is NOT for routine validation. It's for finding breaking points and recovery behavior. Load testing is for routine performance validation.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Confusing Volume Testing and Load Testing
+## 🪤 Trap 4: Confusing Volume Testing and Load Testing
 
 **Trap:** Volume = large data amounts. Load = many users/requests. They test different things.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Thinking One Test Type Is Enough
+## 🪤 Trap 5: Thinking One Test Type Is Enough
 
 **Trap:** Comprehensive performance validation requires multiple test types. No single test covers all risks.
 

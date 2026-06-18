@@ -1,6 +1,6 @@
-# Chapter 5 — Security Test Execution and Analysis: Exam Traps
+# 🪤 Chapter 5 — Security Test Execution and Analysis: Exam Traps
 
-## Trap 1: Reporting Raw Tool Output Without Validation
+## 🪤 Trap 1: Reporting Raw Tool Output Without Validation
 
 **Trap:** Automated tools report potential issues. Manual validation is required to confirm real vulnerabilities.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Treating CVSS as the Only Severity Measure
+## 🪤 Trap 2: Treating CVSS as the Only Severity Measure
 
 **Trap:** CVSS is technical severity; business context (data sensitivity, exposure) may change priority.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Testing in Production Without Authorization
+## 🪤 Trap 3: Testing in Production Without Authorization
 
 **Trap:** Unauthorized security testing in production can be illegal and disruptive.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Accepting Developer Self-Verification Only
+## 🪤 Trap 4: Accepting Developer Self-Verification Only
 
 **Trap:** Independent verification by security team ensures fixes are real and complete.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Ignoring Test Environment Realism
+## 🪤 Trap 5: Ignoring Test Environment Realism
 
 **Trap:** Tests in unrealistic environments may not reflect production behavior.
 

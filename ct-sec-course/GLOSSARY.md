@@ -1,6 +1,6 @@
-# CT-SEC Glossary
+# 📖 CT-SEC Glossary
 
-## Chapter 1 — Introduction to Security Testing
+## 🌟 Chapter 1 — Introduction to Security Testing
 
 **Confidentiality:** Ensuring that information is accessible only to those authorized to have access.
 
@@ -24,7 +24,7 @@
 
 **Attack:** An attempt to destroy, expose, alter, disable, steal, or gain unauthorized access to or make unauthorized use of an asset.
 
-## Chapter 2 — Security Testing Concepts and Principles
+## 📜 Chapter 2 — Security Testing Concepts and Principles
 
 **Defense in Depth:** A security strategy that employs multiple layers of security controls throughout an IT system.
 
@@ -46,7 +46,7 @@
 
 **Security Requirement:** A requirement that specifies a security function or property a system must satisfy.
 
-## Chapter 3 — Threat Modeling and Risk Analysis
+## 🔬 Chapter 3 — Threat Modeling and Risk Analysis
 
 **Threat Modeling:** A structured approach to identifying and evaluating security threats to a system.
 
@@ -75,7 +75,7 @@
 
 **Impact:** The magnitude of harm that could result from a successful attack.
 
-## Chapter 4 — Security Test Design and Techniques
+## 🎯 Chapter 4 — Security Test Design and Techniques
 
 **Penetration Testing (Pen Test):** A simulated cyberattack against a system to identify vulnerabilities.
 
@@ -103,7 +103,7 @@
 
 **Output Encoding:** Converting output to a safe format to prevent injection attacks.
 
-## Chapter 5 — Security Test Execution and Evaluation
+## 🔒 Chapter 5 — Security Test Execution and Evaluation
 
 **CVSS (Common Vulnerability Scoring System):** A standardized method for rating the severity of vulnerabilities.
 
@@ -121,7 +121,7 @@
 
 **Verification Testing:** Testing to confirm that a vulnerability has been fixed.
 
-## Chapter 6 — Security Testing Tools and Automation
+## 🛠️ Chapter 6 — Security Testing Tools and Automation
 
 **SAST (Static Application Security Testing):** Analyzing source code for vulnerabilities without executing the program.
 

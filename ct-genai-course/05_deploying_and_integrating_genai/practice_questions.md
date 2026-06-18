@@ -1,4 +1,4 @@
-# Chapter 5 — Practice Questions
+# ❓ Chapter 5 — Practice Questions
 
 12 original ISTQB-style questions covering Chapter 5 learning objectives. Each question is tagged with its LO and K-level.
 
@@ -6,9 +6,9 @@
 
 ---
 
-## Questions
+## ❓ Questions
 
-### Q1 (GenAI-5.1.1, K2)
+### 🤖 Q1 (GenAI-5.1.1, K2)
 
 Which phase of a GenAI adoption roadmap involves running controlled experiments with a small scope to learn what works before broader deployment?
 
@@ -19,7 +19,7 @@ D. Optimization and Maturity
 
 ---
 
-### Q2 (GenAI-5.1.2, K2)
+### 🤖 Q2 (GenAI-5.1.2, K2)
 
 During the Assessment phase of GenAI adoption, which activity is MOST critical?
 
@@ -30,7 +30,7 @@ D. Fine-tuning a custom model for the organization
 
 ---
 
-### Q3 (GenAI-5.2.1, K2)
+### 🤖 Q3 (GenAI-5.2.1, K2)
 
 Why is change management particularly important when adopting GenAI in testing organizations?
 
@@ -41,7 +41,7 @@ D. Because GenAI never requires any process changes
 
 ---
 
-### Q4 (GenAI-5.2.2, K2)
+### 🤖 Q4 (GenAI-5.2.2, K2)
 
 Which strategy BEST helps manage resistance from experienced testers who are skeptical about GenAI?
 
@@ -52,7 +52,7 @@ D. Replace all skeptical testers with new hires
 
 ---
 
-### Q5 (GenAI-5.1.1, K2)
+### 🤖 Q5 (GenAI-5.1.1, K2)
 
 In the Scaling phase of GenAI adoption, which activity is MOST important for ensuring consistent quality across test teams?
 
@@ -63,7 +63,7 @@ D. Switching to a different LLM provider every month
 
 ---
 
-### Q6 (GenAI-5.2.2, K2)
+### 🤖 Q6 (GenAI-5.2.2, K2)
 
 A test manager wants to help testers adapt to new GenAI-assisted workflows. Which action is MOST effective?
 
@@ -74,7 +74,7 @@ D. Outsource all testing to a third-party AI vendor
 
 ---
 
-### Q7 (GenAI-5.1.2, K2)
+### 🤖 Q7 (GenAI-5.1.2, K2)
 
 Which of the following is a common pitfall during the Pilot phase?
 
@@ -85,7 +85,7 @@ D. Holding regular retrospectives to refine the approach
 
 ---
 
-### Q8 (GenAI-5.2.1, K2)
+### 🤖 Q8 (GenAI-5.2.1, K2)
 
 Which concern is a PRIMARY driver for change management when introducing GenAI into testing?
 
@@ -96,7 +96,7 @@ D. The speed of office internet connections
 
 ---
 
-### Q9 (GenAI-5.1.1, K2)
+### 🤖 Q9 (GenAI-5.1.1, K2)
 
 Which activity belongs in the Maturity phase of a GenAI adoption roadmap?
 
@@ -107,7 +107,7 @@ D. Selecting the initial LLM API provider
 
 ---
 
-### Q10 (GenAI-5.2.2, K2)
+### 🤖 Q10 (GenAI-5.2.2, K2)
 
 Which governance measure is MOST important when scaling GenAI use across multiple test teams?
 
@@ -118,7 +118,7 @@ D. Preventing testers from providing feedback on GenAI outputs
 
 ---
 
-### Q11 (GenAI-5.1.2, K2)
+### 🤖 Q11 (GenAI-5.1.2, K2)
 
 During the Assessment phase, why is use case prioritization important?
 
@@ -129,7 +129,7 @@ D. To avoid talking to stakeholders about AI adoption
 
 ---
 
-### Q12 (GenAI-5.2.1, K2)
+### 🤖 Q12 (GenAI-5.2.1, K2)
 
 A testing team lead notices that some testers are reluctant to use GenAI tools because they believe "only humans can design good tests." Which change management principle BEST addresses this?
 
@@ -140,7 +140,7 @@ D. Transfer the reluctant testers to non-testing roles
 
 ---
 
-### Q13 (GenAI-5.1.1, K2)
+### 🤖 Q13 (GenAI-5.1.1, K2)
 
 A large organization wants to adopt GenAI for testing across all 8 product teams simultaneously. The CIO believes this will maximize efficiency gains and wants to skip the pilot phase.
 
@@ -153,7 +153,7 @@ D. Testers will be overpaid if GenAI makes them too efficient
 
 ---
 
-### Q14 (GenAI-5.2.2, K2)
+### 🤖 Q14 (GenAI-5.2.2, K2)
 
 During the Scaling phase, an organization needs to ensure that AI-generated test cases meet the same quality standards regardless of which team generated them.
 
@@ -166,7 +166,7 @@ D. Only use GenAI for documentation, not for test case generation
 
 ---
 
-### Q15 (GenAI-5.1.2, K2)
+### 🤖 Q15 (GenAI-5.1.2, K2)
 
 A testing team is in the Pilot phase. They have successfully demonstrated that GenAI can generate test cases 40% faster with no increase in defect escape rate. However, three senior testers refuse to use the tool, citing concerns about job security.
 
@@ -179,79 +179,79 @@ D. Abandon the GenAI initiative to maintain team harmony
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** The Pilot phase is explicitly for controlled experimentation. Assessment is for analysis. Scaling is for broader rollout. Maturity is for continuous optimization.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** Assessment evaluates readiness, processes, data, and capabilities. Immediate deployment, elimination of manual testing, and fine-tuning are premature without assessment.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** Role anxiety and resistance are well-documented change management challenges. A is false (tools aren't always defective). C and D are incorrect (change management is broader than compliance, and GenAI always changes processes).
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** Involving skeptics in design and evaluation gives them ownership and addresses concerns with evidence. Mandates, threats, and replacement are poor change management.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** Standards, governance, and quality gates ensure consistency. Unregulated individual prompts, removing review, and frequent provider switches create inconsistency.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** Training and clear career paths reduce anxiety and build capability. Banning manual design creates fear. Keeping tools secret prevents adoption. Outsourcing abandons the team.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** Skipping validation is a classic pilot pitfall — it produces false confidence in unverified outputs. Measuring, scoping, and retrospecting are correct pilot activities.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** Workflow disruption and skill gaps are primary change management concerns. Printer costs, color schemes, and internet speed are irrelevant distractors.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** Domain specialization and advanced analytics are maturity activities. Capability evaluation is assessment. First pilot is pilot phase. Provider selection is early.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** Accountability and data governance are essential for scaling. Unapproved tools, eliminating documentation, and suppressing feedback create unmanaged risk.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 
 **Rationale:** Prioritization identifies quick-win pilots that build confidence. Universal adoption from day one, eliminating tools, and avoiding stakeholders are all poor practices.
 
-### Q12
+### 🔷 Q12
 **Answer: A**
 
 **Rationale:** Demonstrating value through pilots while respecting expertise is constructive change management. Force, abandonment, and reassignment are ineffective or harmful.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** Skipping the pilot phase means any problems (hallucination rates, integration issues, workflow disruption, resistance) will affect all 8 teams simultaneously rather than being contained and resolved in a controlled pilot. The EU AI Act (A) does not universally require pilots. API capacity (C) and overpayment (D) are irrelevant distractors.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** Organization-wide standards (templates, evaluation criteria, quality gates) ensure consistency across teams. Allowing each team to choose freely (A) creates inconsistency. Relying on memory (C) is unreliable. Restricting GenAI to documentation (D) abandons the demonstrated value of test case generation.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** Change management concerns must be addressed before scaling. Metrics prove technical viability, but adoption requires organizational acceptance. Involving resistant testers, communicating career paths, and demonstrating that GenAI augments (not replaces) their expertise is the correct approach. Removing testers (C) or abandoning the initiative (D) are extremes. Proceeding without addressing resistance (A) will cause scaling failure.

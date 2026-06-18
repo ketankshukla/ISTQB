@@ -1,6 +1,6 @@
-# Chapter 5 — Evaluating and Deploying MBT: Exam Traps
+# 🪤 Chapter 5 — Evaluating and Deploying MBT: Exam Traps
 
-## Trap 1: Ignoring Model Maintenance Costs in ROI
+## 🪤 Trap 1: Ignoring Model Maintenance Costs in ROI
 
 **Trap:** ROI calculations often focus on test generation savings but underestimate ongoing model maintenance effort.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Choosing a High-Risk Project for the Pilot
+## 🪤 Trap 2: Choosing a High-Risk Project for the Pilot
 
 **Trap:** Pilots should be low-risk, well-understood projects. Critical or unstable projects make it hard to distinguish MBT issues from project issues.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Thinking Big-Bang Is Always Best
+## 🪤 Trap 3: Thinking Big-Bang Is Always Best
 
 **Trap:** Big-bang deployment is high-risk and rarely recommended. Incremental deployment with a pilot is safer.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Thinking MBT Requires Perfect Requirements
+## 🪤 Trap 4: Thinking MBT Requires Perfect Requirements
 
 **Trap:** While stable requirements help, MBT can work with iterative development. The model can evolve with requirements.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Confusing Process Maturity and MBT Suitability
+## 🪤 Trap 5: Confusing Process Maturity and MBT Suitability
 
 **Trap:** Low maturity makes MBT harder but not impossible. MBT can actually help improve maturity.
 

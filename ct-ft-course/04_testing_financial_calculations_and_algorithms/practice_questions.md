@@ -1,8 +1,8 @@
-# Chapter 4 — Testing Financial Calculations and Algorithms: Practice Questions
+# ❓ Chapter 4 — Testing Financial Calculations and Algorithms: Practice Questions
 
 ---
 
-### Q1 (FT-4.1, K3)
+### 🔷 Q1 (FT-4.1, K3)
 
 A loan of $200,000 at 5% annual interest for 30 years requires monthly payments. Which test verifies that the total of all payments equals principal plus total interest?
 
@@ -13,7 +13,7 @@ D. Check the loan term in years
 
 ---
 
-### Q2 (FT-4.2, K2)
+### 🔷 Q2 (FT-4.2, K2)
 
 The "dirty price" of a bond includes:
 
@@ -24,7 +24,7 @@ D. Only the face value
 
 ---
 
-### Q3 (FT-4.3, K2)
+### 🔷 Q3 (FT-4.3, K2)
 
 Delta measures:
 
@@ -35,7 +35,7 @@ D. Rate of change of delta
 
 ---
 
-### Q4 (FT-4.4, K2)
+### 🔷 Q4 (FT-4.4, K2)
 
 A 1-day 95% VaR of $1M means:
 
@@ -46,7 +46,7 @@ D. Losses are always less than $1M
 
 ---
 
-### Q5 (FT-4.5, K3)
+### 🔷 Q5 (FT-4.5, K3)
 
 If EUR/USD = 1.10 and USD/JPY = 150, the cross rate EUR/JPY should be:
 
@@ -57,7 +57,7 @@ D. 1.10
 
 ---
 
-### Q6 (FT-4.6, K2)
+### 🔷 Q6 (FT-4.6, K2)
 
 Using floating-point arithmetic for currency is risky because:
 
@@ -68,7 +68,7 @@ D. It is not supported in databases
 
 ---
 
-### Q7 (FT-4.1, K2)
+### 🔷 Q7 (FT-4.1, K2)
 
 In an amortization schedule, early payments consist primarily of:
 
@@ -79,7 +79,7 @@ D. Taxes
 
 ---
 
-### Q8 (FT-4.2, K2)
+### 🔷 Q8 (FT-4.2, K2)
 
 A zero-coupon bond:
 
@@ -90,7 +90,7 @@ D. Has a variable coupon rate
 
 ---
 
-### Q9 (FT-4.3, K2)
+### 🔷 Q9 (FT-4.3, K2)
 
 Theta measures:
 
@@ -101,7 +101,7 @@ D. Sensitivity to interest rates
 
 ---
 
-### Q10 (FT-4.4, K2)
+### 🔷 Q10 (FT-4.4, K2)
 
 Which VaR method uses historical market data?
 
@@ -112,7 +112,7 @@ D. All of the above
 
 ---
 
-### Q11 (FT-4.5, K3)
+### 🔷 Q11 (FT-4.5, K3)
 
 A forward rate is calculated using:
 
@@ -123,7 +123,7 @@ D. Only the inflation rate
 
 ---
 
-### Q12 (FT-4.6, K2)
+### 🔷 Q12 (FT-4.6, K2)
 
 HALF_EVEN rounding of 10.005 produces:
 
@@ -134,7 +134,7 @@ D. Both B and C depending on the preceding digit
 
 ---
 
-### Q13 (FT-4.1, K3)
+### 🔷 Q13 (FT-4.1, K3)
 
 A customer pays off a 30-year loan after 15 years. Testing should verify:
 
@@ -145,7 +145,7 @@ D. That the interest rate increases
 
 ---
 
-### Q14 (FT-4.2, K2)
+### 🔷 Q14 (FT-4.2, K2)
 
 Accrued interest on a bond is calculated using:
 
@@ -156,7 +156,7 @@ D. The bond's credit rating
 
 ---
 
-### Q15 (FT-4.3, K2)
+### 🔷 Q15 (FT-4.3, K2)
 
 Gamma is highest for options that are:
 
@@ -167,7 +167,7 @@ D. Expired
 
 ---
 
-### Q16 (FT-4.4, K2)
+### 🔷 Q16 (FT-4.4, K2)
 
 Monte Carlo VaR requires testing:
 
@@ -178,7 +178,7 @@ D. Only historical data completeness
 
 ---
 
-### Q17 (FT-4.5, K3)
+### 🔷 Q17 (FT-4.5, K3)
 
 Triangular arbitrage occurs when:
 
@@ -189,7 +189,7 @@ D. Interest rates in three countries differ
 
 ---
 
-### Q18 (FT-4.6, K2)
+### 🔷 Q18 (FT-4.6, K2)
 
 Storing currency as integer cents instead of float dollars:
 
@@ -200,7 +200,7 @@ D. Is not supported by modern databases
 
 ---
 
-### Q19 (FT-4.1, K2)
+### 🔷 Q19 (FT-4.1, K2)
 
 Compound interest at 6% annual, compounded monthly, uses a monthly rate of:
 
@@ -211,7 +211,7 @@ D. 0.005%
 
 ---
 
-### Q20 (FT-4.4, K3)
+### 🔷 Q20 (FT-4.4, K3)
 
 A VaR model shows 20 exceptions in 250 days at 95% confidence. Expected exceptions are 12.5. This suggests:
 
@@ -222,84 +222,84 @@ D. Nothing — exceptions are random
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** Sum all payments and compare to expected principal + interest to verify amortization correctness.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** Dirty price = clean price + accrued interest.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** Delta = sensitivity of option price to underlying price changes.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** 95% VaR = 5% probability of exceeding the threshold.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** EUR/JPY = EUR/USD × USD/JPY = 1.10 × 150 = 165.00.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Floating-point introduces precision errors unsuitable for currency.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Early amortization payments are mostly interest.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Zero-coupon bonds pay no periodic interest; return is from discount to face value.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** Theta = time decay of option value.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** Historical simulation uses actual historical market returns.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Forward rate = spot rate adjusted for interest rate differentials.
 
-### Q12
+### 🔷 Q12
 **Answer: D**
 **Rationale:** HALF_EVEN rounds to nearest even number when equidistant.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Early payoff should result in zero balance and reduced total interest.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Accrued interest = (days since last coupon / days in period) × coupon amount.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Gamma is highest for at-the-money options.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Monte Carlo requires reproducible seeds and sufficient scenarios.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Triangular arbitrage = cross-rate inconsistency enabling risk-free profit.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Integer cents eliminate floating-point rounding errors.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** 6% / 12 = 0.5% monthly.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** More exceptions than expected = model underestimates risk.

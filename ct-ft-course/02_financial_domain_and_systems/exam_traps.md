@@ -1,6 +1,6 @@
-# Chapter 2 — Financial Domain and Systems: Exam Traps
+# 🪤 Chapter 2 — Financial Domain and Systems: Exam Traps
 
-## Trap 1: Confusing Front Office with Back Office
+## 🪤 Trap 1: Confusing Front Office with Back Office
 
 **Trap:** Front office = trading/execution. Back office = settlement/reconciliation. Different functions, different testing.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Thinking All Payments Settle Instantly
+## 🪤 Trap 2: Thinking All Payments Settle Instantly
 
 **Trap:** Different payment types have different settlement cycles (T+1, T+2, real-time). Testing must verify the correct cycle.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Confusing Bonds with Stocks
+## 🪤 Trap 3: Confusing Bonds with Stocks
 
 **Trap:** Bonds are debt (fixed income). Stocks are equity (ownership). Different calculations and behaviors.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Ignoring Cross-Rate Calculation Order
+## 🪤 Trap 4: Ignoring Cross-Rate Calculation Order
 
 **Trap:** FX cross rates require correct inversion and multiplication order. Getting it backwards gives wrong rates.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Thinking Insurance Premiums Are Static
+## 🪤 Trap 5: Thinking Insurance Premiums Are Static
 
 **Trap:** Premiums change based on risk factors, claims history, and actuarial models. Testing must verify dynamic calculations.
 

@@ -1,6 +1,6 @@
-# Case Study 2 — Bank Stress and Endurance Testing
+# 📂 Case Study 2 — Bank Stress and Endurance Testing
 
-## Context
+## ⭐ Context
 
 You are the Performance Engineer for SecureBank, testing a new mobile banking backend API before release.
 
@@ -14,7 +14,7 @@ You are the Performance Engineer for SecureBank, testing a new mobile banking ba
 
 ---
 
-## Task 1: Test Type Selection
+## 🧪 Task 1: Test Type Selection
 
 **Question:** Which performance test types are most critical for this banking system, and why?
 
@@ -60,7 +60,7 @@ You are the Performance Engineer for SecureBank, testing a new mobile banking ba
 
 ---
 
-## Task 2: Workload Model and KPIs
+## 📐 Task 2: Workload Model and KPIs
 
 **Question:** Create a workload model and define KPIs for the mobile banking API.
 
@@ -107,7 +107,7 @@ Logout:             250
 
 ---
 
-## Task 3: Stress Test Execution and Analysis
+## 🔬 Task 3: Stress Test Execution and Analysis
 
 **Question:** Execute a stress test and analyze the breaking point.
 
@@ -160,7 +160,7 @@ Logout:             250
 
 ---
 
-## Task 4: Data Integrity and Tuning
+## 🗃️ Task 4: Data Integrity and Tuning
 
 **Question:** Address the data integrity risk and create a tuning plan.
 
@@ -222,7 +222,7 @@ Under extreme load, transfer API returns timeout errors, but the database transa
 
 ---
 
-## Task 5: Endurance Test Results
+## ⭐ Task 5: Endurance Test Results
 
 **Question:** After running 50,000 users for 72 hours, the following is observed. What actions should be taken?
 

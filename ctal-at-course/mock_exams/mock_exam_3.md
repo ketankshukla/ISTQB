@@ -1,4 +1,4 @@
-# CTAL-AT Mock Exam 3
+# 📝 CTAL-AT Mock Exam 3
 
 **Instructions:**
 - 40 questions
@@ -8,7 +8,7 @@
 
 ---
 
-### Q1
+### 🔷 Q1
 
 Which of the following is a test completion activity?
 
@@ -19,7 +19,7 @@ D. Identifying test conditions
 
 ---
 
-### Q2
+### 🔷 Q2
 
 Which review type is led by the author of the document and may serve educational purposes?
 
@@ -30,7 +30,7 @@ D. Inspection
 
 ---
 
-### Q3
+### 🔷 Q3
 
 A test manager collects weekly metrics on test execution progress. This is an example of:
 
@@ -41,7 +41,7 @@ D. Test implementation
 
 ---
 
-### Q4
+### 🔷 Q4
 
 In an inspection, who is typically NOT present during the review meeting?
 
@@ -52,7 +52,7 @@ D. The scribe
 
 ---
 
-### Q5
+### 🔷 Q5
 
 Which test organization structure allows testers to maintain testing skills through a functional manager while meeting project needs?
 
@@ -63,7 +63,7 @@ D. Outsourced testing only
 
 ---
 
-### Q6
+### 🔷 Q6
 
 A defect that causes incorrect data to be displayed but does not crash the system is classified as:
 
@@ -74,7 +74,7 @@ D. Critical severity
 
 ---
 
-### Q7
+### 🔷 Q7
 
 Which metric would BEST indicate that the software quality is improving during testing?
 
@@ -85,7 +85,7 @@ D. Test environment setup time decreases
 
 ---
 
-### Q8
+### 🔷 Q8
 
 In risk-based testing, risk priority is typically calculated as:
 
@@ -96,7 +96,7 @@ D. Impact - Likelihood
 
 ---
 
-### Q9
+### 🔷 Q9
 
 A 40-page design document is reviewed in 4 hours and 12 defects are found. The review rate is:
 
@@ -107,7 +107,7 @@ D. 0.3 defects per hour
 
 ---
 
-### Q10
+### 🔷 Q10
 
 A test automation framework costs $60,000 to develop. It saves $30,000 per year in manual testing effort. The payback period is approximately:
 
@@ -118,7 +118,7 @@ D. 6 years
 
 ---
 
-### Q11
+### 🔷 Q11
 
 Which of the following is a POOR candidate for test automation?
 
@@ -129,7 +129,7 @@ D. A data-driven test with 100 variations
 
 ---
 
-### Q12
+### 🔷 Q12
 
 A system has a security vulnerability that could allow unauthorized access but is difficult to exploit. It should be classified as:
 
@@ -140,7 +140,7 @@ D. Low severity, low priority
 
 ---
 
-### Q13
+### 🔷 Q13
 
 Which of the following is the MOST formal type of review?
 
@@ -151,7 +151,7 @@ D. Inspection
 
 ---
 
-### Q14
+### 🔷 Q14
 
 In the review process, the stage where reviewers individually examine the document before the meeting is called:
 
@@ -162,7 +162,7 @@ D. Rework
 
 ---
 
-### Q15
+### 🔷 Q15
 
 Which test is the BEST candidate for automation?
 
@@ -173,7 +173,7 @@ D. A test for requirements that change daily
 
 ---
 
-### Q16
+### 🔷 Q16
 
 A team uses expert judgment based on personal experience with similar projects. This is:
 
@@ -184,7 +184,7 @@ D. Experience-based estimation
 
 ---
 
-### Q17
+### 🔷 Q17
 
 A product risk is:
 
@@ -195,7 +195,7 @@ D. A risk that key staff will leave
 
 ---
 
-### Q18
+### 🔷 Q18
 
 Which of the following is a project risk?
 
@@ -206,7 +206,7 @@ D. Data is lost during transmission
 
 ---
 
-### Q19
+### 🔷 Q19
 
 A test manager sums estimates for test planning, analysis, design, implementation, execution, and completion to get a total. This is:
 
@@ -217,7 +217,7 @@ D. Parametric estimation
 
 ---
 
-### Q20
+### 🔷 Q20
 
 In an integrated test organization, the GREATEST risk is:
 
@@ -228,7 +228,7 @@ D. Communication barriers
 
 ---
 
-### Q21
+### 🔷 Q21
 
 Wideband Delphi estimation involves:
 
@@ -239,7 +239,7 @@ D. Using historical data from identical projects
 
 ---
 
-### Q22
+### 🔷 Q22
 
 Which of the following is a characteristic of a technical review?
 
@@ -250,7 +250,7 @@ D. Management attends to approve the document
 
 ---
 
-### Q23
+### 🔷 Q23
 
 A team implements a keyword-driven automation framework. Business analysts can write tests using keywords while engineers maintain the implementation. This approach:
 
@@ -261,7 +261,7 @@ D. Is only suitable for unit testing
 
 ---
 
-### Q24
+### 🔷 Q24
 
 ROI for a test tool is calculated as:
 
@@ -272,7 +272,7 @@ D. Costs / Benefits
 
 ---
 
-### Q25
+### 🔷 Q25
 
 Which of the following is a PRIMARY responsibility of a test manager?
 
@@ -283,7 +283,7 @@ D. Defining the user interface design
 
 ---
 
-### Q26
+### 🔷 Q26
 
 A testing team wants to verify that an RNG produces uniformly distributed numbers between 1 and 100. The best approach is:
 
@@ -294,7 +294,7 @@ D. Checking the source code comments
 
 ---
 
-### Q27
+### 🔷 Q27
 
 A testing team wants to improve the maintainability of their UI automation. They should adopt:
 
@@ -305,7 +305,7 @@ D. Fewer automated tests
 
 ---
 
-### Q28
+### 🔷 Q28
 
 Which of the following describes the PRIMARY benefit of independent testing?
 
@@ -316,7 +316,7 @@ D. Better domain knowledge of the system
 
 ---
 
-### Q29
+### 🔷 Q29
 
 A test manager is planning a project with well-understood requirements and a stable technology stack. Which estimation technique is MOST appropriate?
 
@@ -327,7 +327,7 @@ D. Random guessing
 
 ---
 
-### Q30
+### 🔷 Q30
 
 Which of the following is a PRIMARY purpose of a test plan?
 
@@ -338,7 +338,7 @@ D. To document the results of all testing
 
 ---
 
-### Q31
+### 🔷 Q31
 
 A testing team is evaluating whether to purchase a commercial test tool or use an open-source alternative. The PRIMARY factor should be:
 
@@ -349,7 +349,7 @@ D. Whether competitors use the same tool
 
 ---
 
-### Q32
+### 🔷 Q32
 
 Which of the following is a PRIMARY difference between severity and priority?
 
@@ -360,7 +360,7 @@ D. Severity is only used in agile projects
 
 ---
 
-### Q33
+### 🔷 Q33
 
 A test manager is planning a project with tight deadlines and limited resources. Which test approach is MOST appropriate?
 
@@ -371,7 +371,7 @@ D. Skip testing and release immediately
 
 ---
 
-### Q34
+### 🔷 Q34
 
 Which of the following is a PRIMARY purpose of a test summary report?
 
@@ -382,7 +382,7 @@ D. To assign blame for defects found
 
 ---
 
-### Q35
+### 🔷 Q35
 
 A test manager notices that the test execution schedule is falling behind due to environment unavailability. The MOST appropriate control action is:
 
@@ -393,7 +393,7 @@ D. Skip the remaining tests and report success
 
 ---
 
-### Q36
+### 🔷 Q36
 
 Which of the following is a PRIMARY characteristic of an independent test organization?
 
@@ -404,7 +404,7 @@ D. Testers are embedded in development teams
 
 ---
 
-### Q37
+### 🔷 Q37
 
 A test manager is considering keeping testing integrated within the development team. The PRIMARY advantage is:
 
@@ -415,7 +415,7 @@ D. More formal processes
 
 ---
 
-### Q38
+### 🔷 Q38
 
 Which of the following is a PRIMARY purpose of entry criteria?
 
@@ -426,7 +426,7 @@ D. To define the tools to be used
 
 ---
 
-### Q39
+### 🔷 Q39
 
 A test manager is calculating ROI for a test tool. The tool costs $30,000 and saves $20,000 per year. The payback period is approximately:
 
@@ -437,7 +437,7 @@ D. 4 years
 
 ---
 
-### Q40
+### 🔷 Q40
 
 Which of the following is a PRIMARY consideration when planning regression testing?
 
@@ -448,4 +448,4 @@ D. Focusing only on cosmetic issues
 
 ---
 
-## End of Mock Exam 3
+## 📝 End of Mock Exam 3

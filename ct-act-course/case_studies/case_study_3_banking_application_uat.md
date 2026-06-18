@@ -1,6 +1,6 @@
-# Case Study 3 — Banking Application UAT
+# 📂 Case Study 3 — Banking Application UAT
 
-## Context
+## ⭐ Context
 
 You are the UAT Manager for SecureBank, rolling out a new digital banking platform. The project involves replacing the legacy online banking with a modern responsive web application and native mobile apps.
 
@@ -21,7 +21,7 @@ You are the UAT Manager for SecureBank, rolling out a new digital banking platfo
 
 ---
 
-## Task 1: UAT Planning and Stakeholder Management
+## 🗓️ Task 1: UAT Planning and Stakeholder Management
 
 **Question:** Plan UAT for the digital banking platform.
 
@@ -57,7 +57,7 @@ You are the UAT Manager for SecureBank, rolling out a new digital banking platfo
 
 ---
 
-## Task 2: Test Data and Environment
+## 🗃️ Task 2: Test Data and Environment
 
 **Question:** Design the UAT data strategy.
 
@@ -93,7 +93,7 @@ You are the UAT Manager for SecureBank, rolling out a new digital banking platfo
 
 ---
 
-## Task 3: Test Execution and Defect Management
+## 🐞 Task 3: Test Execution and Defect Management
 
 **Question:** Execute UAT for the transfer feature and manage findings.
 
@@ -129,7 +129,7 @@ You are the UAT Manager for SecureBank, rolling out a new digital banking platfo
 
 ---
 
-## Task 4: Business Sign-off
+## ⭐ Task 4: Business Sign-off
 
 **Question:** Prepare the business sign-off package and make the go-live recommendation.
 

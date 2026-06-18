@@ -1,6 +1,6 @@
-# Chapter 1 — Testing Process: Exam Traps
+# 🪤 Chapter 1 — Testing Process: Exam Traps
 
-## Trap 1: Confusing Test Analysis with Test Design
+## 🪤 Trap 1: Confusing Test Analysis with Test Design
 
 **Trap:** Many candidates cannot distinguish between test analysis (what to test) and test design (how to test it).
 
@@ -22,7 +22,7 @@
 
 ---
 
-## Trap 2: Thinking Test Planning Only Happens at the Beginning
+## 🪤 Trap 2: Thinking Test Planning Only Happens at the Beginning
 
 **Trap:** In iterative and agile models, test planning is ongoing, not a one-time activity.
 
@@ -44,7 +44,7 @@
 
 ---
 
-## Trap 3: Forgetting That Exit Criteria Can Be Changed
+## 🪤 Trap 3: Forgetting That Exit Criteria Can Be Changed
 
 **Trap:** Exit criteria are not set in stone. They can be changed with stakeholder agreement.
 
@@ -66,7 +66,7 @@
 
 ---
 
-## Trap 4: Confusing Suspension Criteria with Exit Criteria
+## 🪤 Trap 4: Confusing Suspension Criteria with Exit Criteria
 
 **Trap:** Suspension criteria are temporary stopping conditions (resume later). Exit criteria are final stopping conditions (testing is done).
 
@@ -88,7 +88,7 @@
 
 ---
 
-## Trap 5: Thinking Test Closure Only Happens at the End of a Project
+## 🪤 Trap 5: Thinking Test Closure Only Happens at the End of a Project
 
 **Trap:** Test closure can also occur at the end of a phase, iteration, or when a project is cancelled.
 
@@ -110,7 +110,7 @@
 
 ---
 
-## Trap 6: Forgetting the Test Analyst's Role in Planning
+## 🪤 Trap 6: Forgetting the Test Analyst's Role in Planning
 
 **Trap:** Test analysts contribute to planning by providing input on techniques, estimates, and data — but they do not own the project plan.
 
@@ -132,7 +132,7 @@
 
 ---
 
-## Trap 7: Ignoring the Difference Between Lifecycle Models
+## 🪤 Trap 7: Ignoring the Difference Between Lifecycle Models
 
 **Trap:** Questions often describe a scenario and expect you to identify how test activities differ in that model.
 
@@ -154,7 +154,7 @@
 
 ---
 
-## Trap 8: Confusing Test Data with Test Conditions
+## 🪤 Trap 8: Confusing Test Data with Test Conditions
 
 **Trap:** Test data is the specific values used in test cases. Test conditions are the things being tested.
 

@@ -1,6 +1,6 @@
-# Chapter 6 — MBT Tool Support: Exam Traps
+# 🪤 Chapter 6 — MBT Tool Support: Exam Traps
 
-## Trap 1: Thinking Tool Cost Is the Only Selection Criterion
+## 🪤 Trap 1: Thinking Tool Cost Is the Only Selection Criterion
 
 **Trap:** Fit for purpose, integration capabilities, and support quality are equally or more important than price.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Confusing Modeling Tools and Test Generation Tools
+## 🪤 Trap 2: Confusing Modeling Tools and Test Generation Tools
 
 **Trap:** Modeling tools create/edit models. Test generation tools derive tests from models. They are different categories and may be separate products.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Thinking Generated Tests Should Be Versioned
+## 🪤 Trap 3: Thinking Generated Tests Should Be Versioned
 
 **Trap:** The model is the source of truth. Generated tests are artifacts that can be reproduced. Version the model, not the generated tests.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Thinking MBT Tools Replace Test Execution Tools
+## 🪤 Trap 4: Thinking MBT Tools Replace Test Execution Tools
 
 **Trap:** MBT tools generate tests. Test execution tools (Selenium, JUnit, etc.) run them. They work together.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Ignoring CI/CD Integration Requirements
+## 🪤 Trap 5: Ignoring CI/CD Integration Requirements
 
 **Trap:** MBT tools must integrate with existing CI/CD pipelines. A tool that cannot run in a pipeline may be unusable for continuous testing.
 

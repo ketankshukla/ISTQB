@@ -1,10 +1,10 @@
-# CT-PT Glossary
+# 📖 CT-PT Glossary
 
 Key terms and definitions for the CT-PT exam, organized by chapter relevance.
 
 ---
 
-## Performance Testing Fundamentals
+## 🏗️ Performance Testing Fundamentals
 
 **Performance Testing**
 Testing to determine the performance of a software product, including speed, scalability, and stability characteristics under a particular workload.
@@ -47,7 +47,7 @@ The period during a performance test when the target load is maintained consiste
 
 ---
 
-## Types of Performance Testing
+## 🧪 Types of Performance Testing
 
 **Load Testing**
 Testing to evaluate system behavior under expected normal and peak load conditions.
@@ -75,7 +75,7 @@ Testing individual components in isolation to identify which component contribut
 
 ---
 
-## Planning and Design
+## 🎨 Planning and Design
 
 **Workload Model**
 A representation of the expected user behavior, including user profiles, transaction mix, think time, and arrival patterns.
@@ -115,7 +115,7 @@ A larger or more powerful environment than production, used to test future capac
 
 ---
 
-## Execution and Monitoring
+## ⭐ Execution and Monitoring
 
 **CPU Utilization**
 The percentage of processing capacity being used. Sustained > 80% often indicates a bottleneck.
@@ -149,7 +149,7 @@ A pool of worker threads for processing requests. Saturation causes queuing.
 
 ---
 
-## Analysis and Reporting
+## 🔬 Analysis and Reporting
 
 **Root Cause Analysis**
 The process of identifying the underlying cause of a performance issue, not just the symptoms.
@@ -183,7 +183,7 @@ The point at which a resource is fully utilized and cannot accept additional loa
 
 ---
 
-## Tools and Automation
+## 🛠️ Tools and Automation
 
 **Load Generator**
 A tool or system that simulates virtual users to create load on the SUT.
@@ -217,7 +217,7 @@ Using cloud infrastructure to generate load, enabling on-demand scaling and geog
 
 ---
 
-## Abbreviations
+## ⭐ Abbreviations
 
 | Abbreviation | Meaning |
 |-------------|---------|

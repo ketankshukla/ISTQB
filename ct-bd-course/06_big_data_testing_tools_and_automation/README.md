@@ -1,6 +1,6 @@
-# Chapter 6 — Big Data Testing Tools and Automation
+# 🛠️ Chapter 6 — Big Data Testing Tools and Automation
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~15% (~6 questions out of 40)
 - **K-levels:** K2 (understand)
@@ -8,7 +8,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -20,7 +20,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts
+## ⭐ Key Concepts
 
 - Data validation frameworks (Deequ, Great Expectations)
 - ETL testing tools (QuerySurge, iCEDQ)

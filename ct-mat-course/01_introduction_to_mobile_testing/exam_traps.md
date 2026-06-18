@@ -1,6 +1,6 @@
-# Chapter 1 — Introduction to Mobile Testing: Exam Traps
+# 🪤 Chapter 1 — Introduction to Mobile Testing: Exam Traps
 
-## Trap 1: Treating Mobile Testing Like Desktop Testing
+## 🪤 Trap 1: Treating Mobile Testing Like Desktop Testing
 
 **Trap:** Mobile has unique challenges: fragmentation, gestures, interruptions, network variability, battery constraints.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Confusing Native, Hybrid, and Web Apps
+## 🪤 Trap 2: Confusing Native, Hybrid, and Web Apps
 
 **Trap:** Native = platform-specific code. Hybrid = web in native wrapper. Web = browser-based. Different testing approaches.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Testing Only on the Latest Devices
+## 🪤 Trap 3: Testing Only on the Latest Devices
 
 **Trap:** Many users run older OS versions and budget devices. Testing only latest misses real-world issues.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Ignoring App Store Guidelines
+## 🪤 Trap 4: Ignoring App Store Guidelines
 
 **Trap:** App stores have specific requirements. Non-compliance leads to rejection.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Forgetting Interruption Scenarios
+## 🪤 Trap 5: Forgetting Interruption Scenarios
 
 **Trap:** Mobile apps are constantly interrupted. Not testing interruptions leads to crashes and data loss.
 

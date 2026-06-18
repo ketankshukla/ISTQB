@@ -1,6 +1,6 @@
-# Case Study 3 — Diagnostic Protocol Testing
+# 📂 Case Study 3 — Diagnostic Protocol Testing
 
-## Scenario
+## 🎬 Scenario
 
 A vehicle diagnostic system implements UDS (Unified Diagnostic Services) over CAN. It must support:
 - DTC reading and clearing
@@ -9,16 +9,16 @@ A vehicle diagnostic system implements UDS (Unified Diagnostic Services) over CA
 - Routine control (test sequences)
 - Security access (seed/key authentication)
 
-## Questions
+## ❓ Questions
 
 1. What test types apply to diagnostic protocols?
 2. How should security access be tested?
 3. What flash programming tests are needed?
 4. How should DTC functionality be verified?
 
-## Model Answers
+## ✔️ Model Answers
 
-### Q1
+### 🔷 Q1
 Test types:
 - **Protocol conformance:** Verify UDS specification compliance
 - **Boundary testing:** Invalid service IDs, out-of-range parameters
@@ -26,7 +26,7 @@ Test types:
 - **Error handling:** Incorrect sequence, invalid states
 - **Robustness:** Corrupted messages, bus-off recovery
 
-### Q2
+### 🔷 Q2
 Security access testing:
 - Valid seed/key authentication sequence
 - Invalid key rejection and retry counting
@@ -35,7 +35,7 @@ Security access testing:
 - Session timeout after authentication
 - Privilege escalation attempts
 
-### Q3
+### 🔷 Q3
 Flash programming tests:
 - Valid download sequence (request, transfer, verify)
 - Interrupted download recovery
@@ -44,7 +44,7 @@ Flash programming tests:
 - Checksum/crc validation
 - Rollback to previous version
 
-### Q4
+### 🔷 Q4
 DTC verification:
 - DTC setting on fault injection
 - DTC clearing with correct conditions

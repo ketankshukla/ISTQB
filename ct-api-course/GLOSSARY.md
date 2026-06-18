@@ -1,10 +1,10 @@
-# CT-API Glossary
+# 📖 CT-API Glossary
 
 Key terms and definitions for the CT-API exam, organized by chapter relevance.
 
 ---
 
-## API Fundamentals
+## 🏗️ API Fundamentals
 
 **API (Application Programming Interface)**
 A set of protocols, routines, and tools that allow different software applications to communicate with each other.
@@ -56,7 +56,7 @@ A specification for describing REST APIs in a machine-readable format (JSON/YAML
 
 ---
 
-## API Testing Terms
+## 🔌 API Testing Terms
 
 **API Testing**
 Testing that focuses on verifying that APIs meet functional, performance, security, and reliability requirements.
@@ -96,7 +96,7 @@ A server that acts as an entry point for API requests, handling routing, authent
 
 ---
 
-## Authentication and Security
+## 🔒 Authentication and Security
 
 **Authentication**
 Verifying the identity of a user or system.
@@ -136,7 +136,7 @@ An attack where an attacker intercepts and potentially alters communication betw
 
 ---
 
-## Performance Testing
+## ⚡ Performance Testing
 
 **Load Testing**
 Testing that determines how a system performs under expected load.
@@ -164,7 +164,7 @@ The number of users simultaneously making requests to an API.
 
 ---
 
-## Automation and Tools
+## 🛠️ Automation and Tools
 
 **Test Automation Framework**
 A structured set of guidelines, tools, and libraries used to automate testing.
@@ -195,7 +195,7 @@ A Java DSL for simplifying testing of REST services.
 
 ---
 
-## Abbreviations
+## ⭐ Abbreviations
 
 | Abbreviation | Meaning |
 |-------------|---------|

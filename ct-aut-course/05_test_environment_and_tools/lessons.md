@@ -1,10 +1,10 @@
-# Chapter 5 — Test Environment and Tools: Lessons
+# 📘 Chapter 5 — Test Environment and Tools: Lessons
 
 ---
 
-## 5.1 XIL — Everything in the Loop
+## ⭐ 5.1 XIL — Everything in the Loop
 
-### MIL (Model in the Loop)
+### 📐 MIL (Model in the Loop)
 
 | Aspect | Description |
 |--------|-------------|
@@ -14,7 +14,7 @@
 | **Cost** | Low |
 | **Tools** | MATLAB/Simulink, ASCET |
 
-### SIL (Software in the Loop)
+### 🔷 SIL (Software in the Loop)
 
 | Aspect | Description |
 |--------|-------------|
@@ -24,7 +24,7 @@
 | **Cost** | Low |
 | **Tools** | MATLAB, dSPACE, Vector |
 
-### PIL (Processor in the Loop)
+### 🔷 PIL (Processor in the Loop)
 
 | Aspect | Description |
 |--------|-------------|
@@ -34,7 +34,7 @@
 | **Cost** | Medium (target hardware needed) |
 | **Tools** | Lauterbach, iSYSTEM |
 
-### HIL (Hardware in the Loop)
+### 🔷 HIL (Hardware in the Loop)
 
 | Aspect | Description |
 |--------|-------------|
@@ -44,7 +44,7 @@
 | **Cost** | High (dedicated hardware) |
 | **Tools** | dSPACE, Vector, NI PXI |
 
-### Selection Guide
+### 🔷 Selection Guide
 
 | Test Goal | Recommended Environment |
 |-----------|------------------------|
@@ -56,9 +56,9 @@
 
 ---
 
-## 5.2 Vehicle Test Environment
+## ⭐ 5.2 Vehicle Test Environment
 
-### Test Tracks
+### 🔷 Test Tracks
 
 | Type | Purpose |
 |------|---------|
@@ -66,7 +66,7 @@
 | **Public roads** | Real-world validation (with permits) |
 | **HiL with vehicle dynamics** | Simulate driving scenarios |
 
-### Instrumentation
+### 🔷 Instrumentation
 
 | Sensor | Measurement |
 |--------|------------|
@@ -77,9 +77,9 @@
 
 ---
 
-## 5.3 Diagnostic Tools and Protocols
+## 🛠️ 5.3 Diagnostic Tools and Protocols
 
-### UDS (Unified Diagnostic Services)
+### 🔷 UDS (Unified Diagnostic Services)
 
 | Service | Function |
 |---------|----------|
@@ -89,13 +89,13 @@
 | **Routine control** | Trigger test routines |
 | **ECU flashing** | Update software |
 
-### OBD (On-Board Diagnostics)
+### 🔷 OBD (On-Board Diagnostics)
 
 - Standardized diagnostic interface
 - Required for emissions compliance
 - PIDs (Parameter IDs) for standard data
 
-### Diagnostic Tools
+### 🛠️ Diagnostic Tools
 
 | Tool | Purpose |
 |------|---------|
@@ -106,9 +106,9 @@
 
 ---
 
-## 5.4 Test Tools
+## 🛠️ 5.4 Test Tools
 
-### Test Automation
+### ⚙️ Test Automation
 
 | Tool | Purpose |
 |------|---------|
@@ -117,7 +117,7 @@
 | **Vector vTESTstudio** | Test case design and automation |
 | **ECU-TEST** | Test automation for HIL and SIL |
 
-### Network Tools
+### 🛠️ Network Tools
 
 | Tool | Purpose |
 |------|---------|
@@ -125,7 +125,7 @@
 | **PCAN** | USB CAN interface |
 | **BusMaster** | Open-source CAN analyzer |
 
-### Measurement
+### 🔷 Measurement
 
 | Tool | Purpose |
 |------|---------|
@@ -135,9 +135,9 @@
 
 ---
 
-## 5.5 Calibration and Flashing
+## ⭐ 5.5 Calibration and Flashing
 
-### Calibration (CAL)
+### 🔷 Calibration (CAL)
 
 | Aspect | Description |
 |--------|-------------|
@@ -146,7 +146,7 @@
 | **Format** | HEX, A2L (ASAP2) |
 | **Tools** | INCA, ETAS, CANape |
 
-### Flashing
+### 🔷 Flashing
 
 | Aspect | Description |
 |--------|-------------|
@@ -157,9 +157,9 @@
 
 ---
 
-## 5.6 Environment Configuration Management
+## ⚙️ 5.6 Environment Configuration Management
 
-### Configuration Items
+### ⚙️ Configuration Items
 
 | Item | Why Controlled |
 |------|-------------|
@@ -169,7 +169,7 @@
 | **Test scripts** | Must match test specification |
 | **Network databases (DBC/LDF)** | Define signal meanings |
 
-### Version Control
+### 🔷 Version Control
 
 - All test artifacts under version control
 - Tag configurations for each test campaign
@@ -177,9 +177,9 @@
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Environment Selection
+### 💡 Worked Example 1: Environment Selection
 
 **Scenario:** Test a new engine control algorithm.
 
@@ -191,7 +191,7 @@
 | System integration | HIL | Test with simulated sensors and actuators |
 | Validation | Vehicle | Real-world behavior confirmation |
 
-### Worked Example 2: Diagnostic Scenario
+### 💡 Worked Example 2: Diagnostic Scenario
 
 **Scenario:** Investigate an intermittent fault.
 
@@ -202,7 +202,7 @@
 4. Run routine control to trigger component test
 5. Clear DTC and verify repair
 
-### Worked Example 3: Calibration Test
+### 💡 Worked Example 3: Calibration Test
 
 **Scenario:** Verify that a new fuel map calibration improves efficiency without affecting emissions.
 

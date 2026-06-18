@@ -1,10 +1,10 @@
-# Chapter 5 — Deploying and Integrating GenAI: Lessons
+# 📘 Chapter 5 — Deploying and Integrating GenAI: Lessons
 
 ---
 
-## 5.1 Roadmap for Adoption of GenAI in Testing
+## 🤖 5.1 Roadmap for Adoption of GenAI in Testing
 
-### Explaining a GenAI Adoption Roadmap (GenAI-5.1.1, K2)
+### 🤖 Explaining a GenAI Adoption Roadmap (GenAI-5.1.1, K2)
 
 Successful GenAI adoption in testing does not happen overnight. It requires a phased roadmap that balances quick wins with sustainable, scalable implementation. A typical roadmap has four phases:
 
@@ -172,7 +172,7 @@ Continuously improve the GenAI testing practice. Mature organizations treat GenA
 - Implement efficiency practices: caching, batching, prompt optimization to reduce token consumption
 - Consider green hosting providers for cloud-based AI services
 
-### Identifying Stages and Activities (GenAI-5.1.2, K2)
+### 🤖 Identifying Stages and Activities (GenAI-5.1.2, K2)
 
 | Stage | Key Activities | Success Indicators |
 |-------|---------------|-------------------|
@@ -189,9 +189,9 @@ Continuously improve the GenAI testing practice. Mature organizations treat GenA
 
 ---
 
-## 5.2 Manage Change When Adopting GenAI
+## 🗂️ 5.2 Manage Change When Adopting GenAI
 
-### The Need for Change Management (GenAI-5.2.1, K2)
+### 🗂️ The Need for Change Management (GenAI-5.2.1, K2)
 
 Adopting GenAI in testing is not merely a technology change — it is a people and process change. Testers may fear being replaced, struggle with new skills, or resist changing workflows they have mastered. Effective change management ensures adoption succeeds and benefits are realized.
 
@@ -204,7 +204,7 @@ Adopting GenAI in testing is not merely a technology change — it is a people a
 - **Cultural resistance:** Teams with strong manual testing traditions may view GenAI with skepticism.
 - **Accountability shifts:** When AI generates test cases, questions of ownership arise. Clear accountability frameworks prevent confusion.
 
-### Strategies to Manage Change (GenAI-5.2.2, K2)
+### 🗂️ Strategies to Manage Change (GenAI-5.2.2, K2)
 
 **1. Clear Vision and Communication**
 - Articulate WHY GenAI is being adopted (e.g., "reduce repetitive test design so testers can focus on complex exploratory testing").

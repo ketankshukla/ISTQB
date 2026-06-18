@@ -1,6 +1,6 @@
-# Chapter 4 — Performance Test Design: Exam Traps
+# 🪤 Chapter 4 — Performance Test Design: Exam Traps
 
-## Trap 1: Average Response Time is Sufficient
+## 🪤 Trap 1: Average Response Time is Sufficient
 
 **Trap:** Percentiles (90th, 95th, 99th) are more meaningful than average.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Think Time is Unimportant
+## 🪤 Trap 2: Think Time is Unimportant
 
 **Trap:** Think time simulates realistic user behavior; zero think time creates unrealistic load.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: All Users Behave the Same
+## 🪤 Trap 3: All Users Behave the Same
 
 **Trap:** Different user profiles have different transaction patterns and think times.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: One Script Covers All Scenarios
+## 🪤 Trap 4: One Script Covers All Scenarios
 
 **Trap:** Different scenarios need different scripts and data.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Metrics Can Be Collected After the Test
+## 🪤 Trap 5: Metrics Can Be Collected After the Test
 
 **Trap:** Monitoring must be active during execution to capture real-time data.
 

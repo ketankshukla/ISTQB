@@ -1,6 +1,6 @@
-# Chapter 4 — Functional Testing of Big Data Applications: Exam Traps
+# 🪤 Chapter 4 — Functional Testing of Big Data Applications: Exam Traps
 
-## Trap 1: Confusing ETL and ELT
+## 🪤 Trap 1: Confusing ETL and ELT
 
 **Trap:** ETL transforms before loading (to warehouse). ELT loads raw data first then transforms in the target (data lake). Testing approaches differ.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Testing Only the Happy Path
+## 🪤 Trap 2: Testing Only the Happy Path
 
 **Trap:** Testing ETL with clean data misses how the pipeline handles errors, nulls, duplicates, and edge cases.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Ignoring Incremental Load Complexity
+## 🪤 Trap 3: Ignoring Incremental Load Complexity
 
 **Trap:** Incremental loads are harder to test than full loads because changes (inserts, updates, deletes) must be tracked correctly.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Reconciling Without Understanding Transformations
+## 🪤 Trap 4: Reconciling Without Understanding Transformations
 
 **Trap:** Source-to-target reconciliation must account for transformations. Comparing raw source to transformed target directly will fail.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Confusing SCD Types
+## 🪤 Trap 5: Confusing SCD Types
 
 **Trap:** SCD Type 1 overwrites, Type 2 preserves history with dates, Type 3 adds a previous value column.
 

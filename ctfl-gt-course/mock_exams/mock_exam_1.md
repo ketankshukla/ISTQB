@@ -1,4 +1,4 @@
-# CTFL-GT Mock Exam 1
+# 📝 CTFL-GT Mock Exam 1
 
 **Instructions:**
 - 40 questions
@@ -8,7 +8,7 @@
 
 ---
 
-### Q1
+### 🔷 Q1
 
 Which statement BEST describes Return to Player (RTP)?
 
@@ -19,7 +19,7 @@ D. The probability of hitting the jackpot
 
 ---
 
-### Q2
+### 🔷 Q2
 
 In the UK, which organization is responsible for issuing gambling licenses and enforcing compliance?
 
@@ -30,7 +30,7 @@ D. MGA
 
 ---
 
-### Q3
+### 🔷 Q3
 
 A slot game has an RTP of 94%. What is the house edge?
 
@@ -41,7 +41,7 @@ D. 88%
 
 ---
 
-### Q4
+### 🔷 Q4
 
 Which of the following is a property of a suitable RNG for gambling?
 
@@ -52,7 +52,7 @@ D. Outputs follow a repeating pattern for testing purposes
 
 ---
 
-### Q5
+### 🔷 Q5
 
 A player wants to stop gambling for 12 months. The appropriate measure is:
 
@@ -63,7 +63,7 @@ D. A reality check
 
 ---
 
-### Q6
+### 🔷 Q6
 
 Two fair dice are rolled. What is the probability of rolling a total of 7?
 
@@ -74,7 +74,7 @@ D. 1/36
 
 ---
 
-### Q7
+### 🔷 Q7
 
 Which player protection measure periodically reminds the player of time spent and money won or lost?
 
@@ -85,7 +85,7 @@ D. Deposit limit
 
 ---
 
-### Q8
+### 🔷 Q8
 
 A progressive jackpot that increases across multiple operators is called:
 
@@ -96,7 +96,7 @@ D. A network bonus
 
 ---
 
-### Q9
+### 🔷 Q9
 
 KYC (Know Your Customer) in gambling is primarily intended to:
 
@@ -107,7 +107,7 @@ D. Determine the optimal marketing strategy
 
 ---
 
-### Q10
+### 🔷 Q10
 
 In a sports betting platform, simulating 10,000 concurrent users placing bets to verify response times is:
 
@@ -118,7 +118,7 @@ D. Usability testing
 
 ---
 
-### Q11
+### 🔷 Q11
 
 A game has 96% RTP and high volatility. Compared to a 96% RTP low volatility game:
 
@@ -129,7 +129,7 @@ D. It pays smaller wins more frequently
 
 ---
 
-### Q12
+### 🔷 Q12
 
 Which regulatory body oversees gambling in Sweden?
 
@@ -140,7 +140,7 @@ D. Kansspelautoriteit
 
 ---
 
-### Q13
+### 🔷 Q13
 
 A tester plays 1,000 spins on a slot and calculates 102% RTP. The advertised RTP is 96%. What should the tester conclude?
 
@@ -151,7 +151,7 @@ D. The advertised RTP must be wrong
 
 ---
 
-### Q14
+### 🔷 Q14
 
 Which of the following is an example of money laundering in gambling?
 
@@ -162,7 +162,7 @@ D. A player requests a reality check
 
 ---
 
-### Q15
+### 🔷 Q15
 
 A PAR sheet is:
 
@@ -173,7 +173,7 @@ D. A marketing brochure
 
 ---
 
-### Q16
+### 🔷 Q16
 
 In the test automation pyramid for gambling, which layer should be the LARGEST?
 
@@ -184,7 +184,7 @@ D. Manual exploratory tests
 
 ---
 
-### Q17
+### 🔷 Q17
 
 Which statement about the Gambler's Fallacy is TRUE?
 
@@ -195,7 +195,7 @@ D. It describes the operator's advantage
 
 ---
 
-### Q18
+### 🔷 Q18
 
 A white-label gambling platform is:
 
@@ -206,7 +206,7 @@ D. A free-to-play platform
 
 ---
 
-### Q19
+### 🔷 Q19
 
 Which of the following is NOT a player protection measure?
 
@@ -217,7 +217,7 @@ D. Bonus hunting
 
 ---
 
-### Q20
+### 🔷 Q20
 
 The Malta Gaming Authority (MGA) is:
 
@@ -228,7 +228,7 @@ D. A gambling operator
 
 ---
 
-### Q21
+### 🔷 Q21
 
 A slot machine pays out $970,000 over a period where players wagered $1,000,000. The RTP is:
 
@@ -239,7 +239,7 @@ D. $30,000
 
 ---
 
-### Q22
+### 🔷 Q22
 
 Which test type verifies that a blackjack dealer correctly hits on 16 and stands on 17?
 
@@ -250,7 +250,7 @@ D. Security testing
 
 ---
 
-### Q23
+### 🔷 Q23
 
 In the Netherlands, the mandatory national self-exclusion register is called:
 
@@ -261,7 +261,7 @@ D. GambleAware
 
 ---
 
-### Q24
+### 🔷 Q24
 
 Which tool category is MOST appropriate for testing the statistical randomness of an RNG?
 
@@ -272,7 +272,7 @@ D. Performance monitor
 
 ---
 
-### Q25
+### 🔷 Q25
 
 A player registered in GAMSTOP attempts to open an account with a UK-licensed operator. The operator should:
 
@@ -283,7 +283,7 @@ D. Require additional ID but allow play
 
 ---
 
-### Q26
+### 🔷 Q26
 
 The primary purpose of seeding a PRNG is:
 
@@ -294,7 +294,7 @@ D. To ensure the sequence repeats every 100 numbers
 
 ---
 
-### Q27
+### 🔷 Q27
 
 Which gambling domain involves players competing against each other rather than the house?
 
@@ -305,7 +305,7 @@ D. Scratch cards
 
 ---
 
-### Q28
+### 🔷 Q28
 
 Overround in sports betting represents:
 
@@ -316,7 +316,7 @@ D. The sum of all decimal odds
 
 ---
 
-### Q29
+### 🔷 Q29
 
 Which of the following is a critical compliance failure that would prevent launch?
 
@@ -327,7 +327,7 @@ D. Game loading slightly slower on mobile
 
 ---
 
-### Q30
+### 🔷 Q30
 
 A game has low volatility and 96% RTP. A game with the same RTP but high volatility would:
 
@@ -338,7 +338,7 @@ D. Have a lower hit frequency but also a lower RTP
 
 ---
 
-### Q31
+### 🔷 Q31
 
 Which organization certifies RNGs and game mathematics as an independent testing laboratory?
 
@@ -349,7 +349,7 @@ D. Kansspelautoriteit
 
 ---
 
-### Q32
+### 🔷 Q32
 
 In European roulette, the house edge on a single number bet is approximately:
 
@@ -360,7 +360,7 @@ D. 10.00%
 
 ---
 
-### Q33
+### 🔷 Q33
 
 A team tests a slot game continuously for 48 hours to check for memory leaks. This is:
 
@@ -371,7 +371,7 @@ D. Functional testing
 
 ---
 
-### Q34
+### 🔷 Q34
 
 Which statement about PRNGs in gambling is TRUE?
 
@@ -382,7 +382,7 @@ D. They are only used in free-to-play games
 
 ---
 
-### Q35
+### 🔷 Q35
 
 Source of funds verification is typically required:
 
@@ -393,7 +393,7 @@ D. Never, as it violates privacy
 
 ---
 
-### Q36
+### 🔷 Q36
 
 A sports bet offers decimal odds of 2.50. The implied probability is:
 
@@ -404,7 +404,7 @@ D. 50%
 
 ---
 
-### Q37
+### 🔷 Q37
 
 Which is a primary testing objective for gambling products?
 
@@ -415,7 +415,7 @@ D. Speeding up game development
 
 ---
 
-### Q38
+### 🔷 Q38
 
 A player sets a weekly loss limit of $200 and loses $200. The system should:
 
@@ -426,7 +426,7 @@ D. Automatically increase the limit
 
 ---
 
-### Q39
+### 🔷 Q39
 
 Which of the following describes a game of skill rather than a game of chance?
 
@@ -437,7 +437,7 @@ D. Bingo
 
 ---
 
-### Q40
+### 🔷 Q40
 
 The difference between theoretical RTP and actual RTP is that:
 
@@ -448,4 +448,4 @@ D. Actual RTP is calculated incorrectly
 
 ---
 
-## End of Mock Exam 1
+## 📝 End of Mock Exam 1

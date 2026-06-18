@@ -1,6 +1,6 @@
-# CT-GaMe Progress Tracker
+# 📈 CT-GaMe Progress Tracker
 
-## Root Files
+## ⭐ Root Files
 
 - [x] README.md
 - [x] STUDY_PLAN.md
@@ -8,7 +8,7 @@
 - [x] GLOSSARY.md
 - [x] PROGRESS_TRACKER.md
 
-## Chapters
+## ⭐ Chapters
 
 - [x] Chapter 1 — Introduction to Game Testing
   - [x] README.md
@@ -41,13 +41,13 @@
   - [x] exam_traps.md
   - [x] practice_questions.md (score: ___/20)
 
-## Case Studies
+## ⭐ Case Studies
 
 - [x] Case Study 1 — RPG Feature Testing
 - [x] Case Study 2 — Multiplayer Compliance Project
 - [x] Case Study 3 — Cross-Platform Release Testing
 
-## Mock Exams
+## 📝 Mock Exams
 
 | Exam | Score | Target |
 |------|-------|--------|
@@ -55,7 +55,7 @@
 | Mock 2 | ___/40 | 28+ (70%) |
 | Mock 3 | ___/40 | 32+ (80%) |
 
-## Final Preparation
+## ⭐ Final Preparation
 
 - [ ] All chapter practice questions complete
 - [ ] All case studies complete

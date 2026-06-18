@@ -1,6 +1,6 @@
-# CTFL-AT v4.0 Exam Strategy
+# ♟️ CTFL-AT v4.0 Exam Strategy
 
-## Exam Format at a Glance
+## 🎓 Exam Format at a Glance
 
 | Parameter | Value |
 |-----------|-------|
@@ -13,7 +13,7 @@
 
 ---
 
-## Chapter Weighting
+## ⭐ Chapter Weighting
 
 | Chapter | Focus | Estimated Weight | Question Range |
 |---------|-------|------------------|----------------|
@@ -25,15 +25,15 @@
 
 ---
 
-## K-Level Question Patterns
+## ❓ K-Level Question Patterns
 
-### K2 (Understand)
+### 🔷 K2 (Understand)
 
 - Tests comprehension of agile concepts and their differences from traditional testing
 - Pattern: "Which statement BEST describes...?" or "What is the MAIN difference between X and Y?"
 - Strategy: Focus on distinctions (e.g., independent testing vs. team-based testing, formal test plans vs. test charters)
 
-### K3 (Apply)
+### 🔷 K3 (Apply)
 
 - Tests ability to apply agile testing techniques in scenarios
 - Pattern: Provides an agile team scenario and asks you to select the best approach, identify a problem, or recommend a practice
@@ -41,7 +41,7 @@
 
 ---
 
-## Time Budgeting
+## ⭐ Time Budgeting
 
 - **Available:** 60 minutes for 40 questions = 90 seconds per question
 - **K2 questions:** Aim for 60-75 seconds each
@@ -51,7 +51,7 @@
 
 ---
 
-## Chapter-Specific Tactics
+## 🎓 Chapter-Specific Tactics
 
 **Chapter 1 — Agile Testing Fundamentals (~35%)**
 - Know the 4 values and 12 principles of the Agile Manifesto cold
@@ -76,7 +76,7 @@
 
 ---
 
-## Common Distractor Patterns
+## ⭐ Common Distractor Patterns
 
 1. **Treating agile testing like traditional testing:** Answers suggesting big-bang testing, separate test phases, or comprehensive upfront test plans are wrong.
 2. **Tester as quality police:** Answers suggesting the tester is the sole owner of quality or acts as a gatekeeper are wrong. In agile, quality is a team responsibility.
@@ -88,7 +88,7 @@
 
 ---
 
-## Guessing Strategy
+## ♟️ Guessing Strategy
 
 - There is NO penalty for wrong answers. ALWAYS answer every question.
 - If you must guess, eliminate the most obviously wrong answers first.
@@ -101,7 +101,7 @@
 
 ---
 
-## Day-Before Checklist
+## 📋 Day-Before Checklist
 
 - [ ] Review all `exam_traps.md` files
 - [ ] Skim `GLOSSARY.md` for any terms you still hesitate on
@@ -111,7 +111,7 @@
 - [ ] Confirm your exam time, location, and ID requirements
 - [ ] Get adequate rest
 
-## Exam Day
+## 🎓 Exam Day
 
 - Arrive 15 minutes early (or launch online platform early)
 - Bring only required ID; no notes, no phone

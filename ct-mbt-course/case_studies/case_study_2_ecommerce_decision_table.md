@@ -1,6 +1,6 @@
-# Case Study 2 — E-Commerce Decision Table
+# 📂 Case Study 2 — E-Commerce Decision Table
 
-## Context
+## ⭐ Context
 
 You are the MBT Test Analyst for ShopMax, an e-commerce platform. The checkout process has complex business rules that the team wants to model and test using decision tables.
 
@@ -10,7 +10,7 @@ You are the MBT Test Analyst for ShopMax, an e-commerce platform. The checkout p
 - Express shipping is available for in-stock items only
 - International orders have additional restrictions
 
-## Task 1: Decision Table Construction
+## 🗂️ Task 1: Decision Table Construction
 
 **Question:** Create a decision table for the checkout discount and shipping rules.
 
@@ -75,7 +75,7 @@ A9: Show "International restrictions" warning
 
 ---
 
-## Task 2: Test Selection from Decision Table
+## 🗂️ Task 2: Test Selection from Decision Table
 
 **Question:** Define test selection criteria for the checkout decision table.
 
@@ -117,7 +117,7 @@ A9: Show "International restrictions" warning
 
 ---
 
-## Task 3: MBT Integration with Existing Tests
+## 🔗 Task 3: MBT Integration with Existing Tests
 
 **Question:** The team already has 200 manual test cases for checkout. How should they integrate with the new decision table MBT approach?
 
@@ -162,7 +162,7 @@ A9: Show "International restrictions" warning
 
 ---
 
-## Task 4: ROI of Decision Table MBT
+## 🗂️ Task 4: ROI of Decision Table MBT
 
 **Question:** Calculate the ROI for adopting decision table MBT for checkout testing.
 

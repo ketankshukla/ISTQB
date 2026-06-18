@@ -1,4 +1,4 @@
-# CTFL-AT Mock Exam 3
+# 📝 CTFL-AT Mock Exam 3
 
 **Instructions:**
 - 40 questions
@@ -8,7 +8,7 @@
 
 ---
 
-### Q1
+### 🔷 Q1
 
 Which of the following is a value of the Agile Manifesto?
 
@@ -19,7 +19,7 @@ D. Following a plan over responding to change
 
 ---
 
-### Q2
+### 🔷 Q2
 
 In an agile team, the tester's role during sprint planning includes:
 
@@ -30,7 +30,7 @@ D. Testing the previous sprint's code while planning happens
 
 ---
 
-### Q3
+### 🔷 Q3
 
 Which Agile Manifesto principle emphasizes that working software is the primary measure of progress?
 
@@ -41,7 +41,7 @@ D. At regular intervals, the team reflects on how to become more effective
 
 ---
 
-### Q4
+### 🔷 Q4
 
 In agile, the whole-team approach to quality means:
 
@@ -52,7 +52,7 @@ D. Testers should work in a separate department
 
 ---
 
-### Q5
+### 🔷 Q5
 
 Which layer of the test automation pyramid should be the SMALLEST?
 
@@ -63,7 +63,7 @@ D. Manual tests
 
 ---
 
-### Q6
+### 🔷 Q6
 
 BDD scenarios are typically written using which format?
 
@@ -74,7 +74,7 @@ D. For-Each-Do
 
 ---
 
-### Q7
+### 🔷 Q7
 
 In ATDD, the "Discuss" step involves:
 
@@ -85,7 +85,7 @@ D. Deploying to production
 
 ---
 
-### Q8
+### 🔷 Q8
 
 Which practice extends CI by ensuring code is always in a deployable state?
 
@@ -96,7 +96,7 @@ D. Manual Acceptance Testing
 
 ---
 
-### Q9
+### 🔷 Q9
 
 Exploratory testing in agile is BEST described as:
 
@@ -107,7 +107,7 @@ D. A replacement for all automated testing
 
 ---
 
-### Q10
+### 🔷 Q10
 
 A team has 200 UI tests, 100 integration tests, and 50 unit tests. What is the PRIMARY recommendation?
 
@@ -118,7 +118,7 @@ D. Replace all tests with manual testing
 
 ---
 
-### Q11
+### 🔷 Q11
 
 The PRIMARY purpose of Specification by Example is to:
 
@@ -129,7 +129,7 @@ D. Eliminate the need for a product owner
 
 ---
 
-### Q12
+### 🔷 Q12
 
 During a Three Amigos meeting, the developer's PRIMARY contribution is to:
 
@@ -140,7 +140,7 @@ D. Approve the final requirements document
 
 ---
 
-### Q13
+### 🔷 Q13
 
 In agile, confirmation testing is typically performed:
 
@@ -151,7 +151,7 @@ D. By an independent test team
 
 ---
 
-### Q14
+### 🔷 Q14
 
 TDD is BEST described as:
 
@@ -162,7 +162,7 @@ D. A method for generating test data automatically
 
 ---
 
-### Q15
+### 🔷 Q15
 
 A test charter for exploratory testing should include:
 
@@ -173,7 +173,7 @@ D. The entry criteria for test execution
 
 ---
 
-### Q16
+### 🔷 Q16
 
 In the test automation pyramid, integration tests are characterized by:
 
@@ -184,7 +184,7 @@ D. Being the only tests needed in agile
 
 ---
 
-### Q17
+### 🔷 Q17
 
 Which statement about CI/CD is TRUE?
 
@@ -195,7 +195,7 @@ D. CD requires manual testing for every change
 
 ---
 
-### Q18
+### 🔷 Q18
 
 A team wants to test the checkout flow end-to-end including payment processing. Which test level is MOST appropriate?
 
@@ -206,7 +206,7 @@ D. Static analysis
 
 ---
 
-### Q19
+### 🔷 Q19
 
 In agile, the Definition of Done should include:
 
@@ -217,7 +217,7 @@ D. That an external test team has approved the feature
 
 ---
 
-### Q20
+### 🔷 Q20
 
 Which of the following is a concrete example supporting Specification by Example?
 
@@ -228,7 +228,7 @@ D. "Performance should be acceptable"
 
 ---
 
-### Q21
+### 🔷 Q21
 
 A developer-tester pairing practice involves:
 
@@ -239,7 +239,7 @@ D. The developer performing all testing alone
 
 ---
 
-### Q22
+### 🔷 Q22
 
 Which statement about test automation in agile is TRUE?
 
@@ -250,7 +250,7 @@ D. Agile teams do not need test automation
 
 ---
 
-### Q23
+### 🔷 Q23
 
 A BDD scenario outline is useful when:
 
@@ -261,7 +261,7 @@ D. Generating code automatically without human input
 
 ---
 
-### Q24
+### 🔷 Q24
 
 In agile, testers collaborate with business representatives primarily to:
 
@@ -272,7 +272,7 @@ D. Perform code reviews
 
 ---
 
-### Q25
+### 🔷 Q25
 
 Which tool is MOST appropriate for automating build, test, and deployment pipelines?
 
@@ -283,7 +283,7 @@ D. Static analysis tool
 
 ---
 
-### Q26
+### 🔷 Q26
 
 A team is using Scrum with 2-week sprints. System testing happens:
 
@@ -294,7 +294,7 @@ D. Once per quarter
 
 ---
 
-### Q27
+### 🔷 Q27
 
 Which of the following is a PRIMARY cause of flaky automated UI tests?
 
@@ -305,7 +305,7 @@ D. Using data-driven test frameworks
 
 ---
 
-### Q28
+### 🔷 Q28
 
 The PRIMARY benefit of ATDD is:
 
@@ -316,7 +316,7 @@ D. It removes the need for a product owner
 
 ---
 
-### Q29
+### 🔷 Q29
 
 In the test automation pyramid, which layer provides the MOST PRECISE defect localization?
 
@@ -327,7 +327,7 @@ D. Manual tests
 
 ---
 
-### Q30
+### 🔷 Q30
 
 A team delays implementing test automation until after 6 sprints. What is the MAIN risk?
 
@@ -338,7 +338,7 @@ D. Test automation is only useful for waterfall projects
 
 ---
 
-### Q31
+### 🔷 Q31
 
 Which statement about the Agile Manifesto is TRUE?
 
@@ -349,7 +349,7 @@ D. It mandates fixed requirements before development begins
 
 ---
 
-### Q32
+### 🔷 Q32
 
 A team's CI build fails 30% of the time due to tests that are not caused by code defects. The BEST action is:
 
@@ -360,7 +360,7 @@ D. Reduce the number of commits to avoid triggering CI
 
 ---
 
-### Q33
+### 🔷 Q33
 
 In agile, the tester's role during story refinement includes:
 
@@ -371,7 +371,7 @@ D. Creating the project budget
 
 ---
 
-### Q34
+### 🔷 Q34
 
 Which practice involves writing tests in natural language that business stakeholders can understand?
 
@@ -382,7 +382,7 @@ D. Static Analysis
 
 ---
 
-### Q35
+### 🔷 Q35
 
 A team has 400 unit tests, 80 integration tests, and 20 UI tests. This distribution is:
 
@@ -393,7 +393,7 @@ D. Insufficient total test coverage
 
 ---
 
-### Q36
+### 🔷 Q36
 
 Session-Based Test Management (SBTM) for exploratory testing includes all of the following EXCEPT:
 
@@ -404,7 +404,7 @@ D. Session reports documenting findings
 
 ---
 
-### Q37
+### 🔷 Q37
 
 Which of the following is a benefit of early tester involvement in agile?
 
@@ -415,7 +415,7 @@ D. The team needs fewer user stories
 
 ---
 
-### Q38
+### 🔷 Q38
 
 In agile, non-functional testing such as performance and security should be:
 
@@ -426,7 +426,7 @@ D. Replaced with functional testing
 
 ---
 
-### Q39
+### 🔷 Q39
 
 A scenario outline in BDD is useful for:
 
@@ -437,7 +437,7 @@ D. Replacing the need for unit tests
 
 ---
 
-### Q40
+### 🔷 Q40
 
 The MAIN difference between CI and CD is:
 
@@ -448,4 +448,4 @@ D. CI is manual; CD is automated
 
 ---
 
-## End of Mock Exam 3
+## 📝 End of Mock Exam 3

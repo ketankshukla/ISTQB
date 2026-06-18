@@ -1,6 +1,6 @@
-# Case Study 2 — Microservices Contract Testing
+# 📂 Case Study 2 — Microservices Contract Testing
 
-## Context
+## ⭐ Context
 
 You are the API Test Architect for BankConnect, a digital banking platform with 40 microservices.
 
@@ -16,7 +16,7 @@ You are the API Test Architect for BankConnect, a digital banking platform with 
   - No contract testing in place
   - API changes cause cascading failures
 
-## Task 1: Problem Analysis
+## 🔬 Task 1: Problem Analysis
 
 **Question:** Analyze why integration testing is failing at BankConnect.
 
@@ -38,7 +38,7 @@ Tight coupling between services in testing. Integration tests require all 40 ser
 
 ---
 
-## Task 2: Contract Testing Strategy
+## ♟️ Task 2: Contract Testing Strategy
 
 **Question:** Design a contract testing strategy for BankConnect.
 
@@ -81,7 +81,7 @@ Service B (Provider)
 
 ---
 
-## Task 3: Consumer Test Example
+## 💡 Task 3: Consumer Test Example
 
 **Question:** Write a consumer contract test for the Notifications service consuming the Transactions service.
 
@@ -145,7 +145,7 @@ describe('Transaction Notifications Contract', () => {
 
 ---
 
-## Task 4: Provider Verification
+## ⭐ Task 4: Provider Verification
 
 **Question:** Design the provider verification process for the Transactions service.
 
@@ -193,7 +193,7 @@ const stateHandlers = {
 
 ---
 
-## Task 5: Deployment Safety with Can-I-Deploy
+## ⭐ Task 5: Deployment Safety with Can-I-Deploy
 
 **Question:** How does BankConnect use contract testing to make deployment safer?
 
@@ -228,7 +228,7 @@ Team A wants to deploy Transactions Service v2.5.0
 
 ---
 
-## Task 6: Reducing Integration Tests
+## 🔗 Task 6: Reducing Integration Tests
 
 **Question:** How should BankConnect adjust its integration test strategy after implementing contract testing?
 

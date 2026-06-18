@@ -1,10 +1,10 @@
-# CTFL-PT Mock Exam 2
+# 📝 CTFL-PT Mock Exam 2
 
 **Instructions:** 20 questions, 40 minutes. Single best answer.
 
 ---
 
-### Q1
+### 🔷 Q1
 
 Response time measures:
 
@@ -15,7 +15,7 @@ D. Database size
 
 ---
 
-### Q2
+### 🔷 Q2
 
 A ticket sale opening is best tested with:
 
@@ -26,7 +26,7 @@ D. Scalability testing
 
 ---
 
-### Q3
+### 🔷 Q3
 
 Test data for performance testing should be:
 
@@ -37,7 +37,7 @@ D. Only created during execution
 
 ---
 
-### Q4
+### 🔷 Q4
 
 Horizontal scaling means:
 
@@ -48,7 +48,7 @@ D. Only changing software
 
 ---
 
-### Q5
+### 🔷 Q5
 
 Identifying a bottleneck involves:
 
@@ -59,7 +59,7 @@ D. Only checking memory
 
 ---
 
-### Q6
+### 🔷 Q6
 
 Success criteria for performance testing:
 
@@ -70,7 +70,7 @@ D. Only apply to load tests
 
 ---
 
-### Q7
+### 🔷 Q7
 
 A 24/7 monitoring system needs:
 
@@ -81,7 +81,7 @@ D. Only stress testing
 
 ---
 
-### Q8
+### 🔷 Q8
 
 An executive summary should:
 
@@ -92,7 +92,7 @@ D. Only show raw data
 
 ---
 
-### Q9
+### 🔷 Q9
 
 Memory utilization exceeding 90% indicates:
 
@@ -103,7 +103,7 @@ D. Only faster processing
 
 ---
 
-### Q10
+### 🔷 Q10
 
 Network latency in test environment should:
 
@@ -114,7 +114,7 @@ D. Only be maximum
 
 ---
 
-### Q11
+### 🔷 Q11
 
 Pacing between iterations:
 
@@ -125,7 +125,7 @@ D. Only applies to stress tests
 
 ---
 
-### Q12
+### 🔷 Q12
 
 SLA thresholds are:
 
@@ -136,7 +136,7 @@ D. Only estimates
 
 ---
 
-### Q13
+### 🔷 Q13
 
 Error rate threshold of 0.1% means:
 
@@ -147,7 +147,7 @@ D. Only 0.1% of CPU is used
 
 ---
 
-### Q14
+### 🔷 Q14
 
 Anomaly detection during execution:
 
@@ -158,7 +158,7 @@ D. Only applies to load tests
 
 ---
 
-### Q15
+### 🔷 Q15
 
 Workload modeling includes:
 
@@ -169,7 +169,7 @@ D. Only test duration
 
 ---
 
-### Q16
+### 🔷 Q16
 
 Root cause analysis of performance issues:
 
@@ -180,7 +180,7 @@ D. Only blames infrastructure
 
 ---
 
-### Q17
+### 🔷 Q17
 
 Cache warmup before testing:
 
@@ -191,7 +191,7 @@ D. Only affects disk tests
 
 ---
 
-### Q18
+### 🔷 Q18
 
 A missing database index would most likely cause:
 
@@ -202,7 +202,7 @@ D. Only network issues
 
 ---
 
-### Q19
+### 🔷 Q19
 
 Step ramp-up pattern:
 
@@ -213,7 +213,7 @@ D. Only applies to spike tests
 
 ---
 
-### Q20
+### 🔷 Q20
 
 For cloud architecture validation, the best test is:
 
@@ -224,7 +224,7 @@ D. Only volume testing
 
 ---
 
-## Answer Key
+## ✔️ Answer Key
 
 | Q | Answer | Q | Answer | Q | Answer | Q | Answer |
 |---|--------|---|--------|---|--------|---|--------|

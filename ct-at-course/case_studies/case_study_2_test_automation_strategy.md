@@ -1,6 +1,6 @@
-# Case Study 2 — Test Automation Strategy
+# 📂 Case Study 2 — Test Automation Strategy
 
-## Context
+## ⭐ Context
 
 You are the Test Automation Lead for ShopOnline, an e-commerce company with 12 developers and 3 testers.
 
@@ -19,7 +19,7 @@ You are the Test Automation Lead for ShopOnline, an e-commerce company with 12 d
 - Achieve 80% regression automation coverage
 - Eliminate flaky tests
 
-## Task 1: Current State Analysis
+## 🔄 Task 1: Current State Analysis
 
 **Question:** Analyze the current automation problems and their root causes.
 
@@ -48,7 +48,7 @@ You are the Test Automation Lead for ShopOnline, an e-commerce company with 12 d
 
 ---
 
-## Task 2: Target State Design
+## 🔄 Task 2: Target State Design
 
 **Question:** Design the target test automation architecture following the test pyramid.
 
@@ -88,7 +88,7 @@ You are the Test Automation Lead for ShopOnline, an e-commerce company with 12 d
 
 ---
 
-## Task 3: Implementation Roadmap
+## ⭐ Task 3: Implementation Roadmap
 
 **Question:** Design a 6-month implementation plan.
 
@@ -134,7 +134,7 @@ You are the Test Automation Lead for ShopOnline, an e-commerce company with 12 d
 
 ---
 
-## Task 4: Flaky Test Fix Strategy
+## ♟️ Task 4: Flaky Test Fix Strategy
 
 **Question:** The team has 20 UI tests, 6 of which fail intermittently. Design a strategy to fix them.
 
@@ -190,7 +190,7 @@ wait.until(EC.presence_of_element_located((By.ID, "dashboard")))
 
 ---
 
-## Task 5: ROI Calculation
+## ⭐ Task 5: ROI Calculation
 
 **Question:** Calculate the ROI of the automation initiative.
 

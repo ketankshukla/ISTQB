@@ -1,16 +1,16 @@
-# Chapter 4 — Reviews: Lessons
+# 📘 Chapter 4 — Reviews: Lessons
 
 ---
 
-## 4.1 Review Types
+## 🧪 4.1 Review Types
 
-### What is a Review?
+### 🔎 What is a Review?
 
 A review is a static testing technique where a work product is examined by one or more people to find defects and improve quality. Reviews do not require executing the software.
 
 **The Four Review Types (in order of formality):**
 
-### Informal Review
+### 🔎 Informal Review
 
 - **Formality:** Lowest
 - **Purpose:** Quick feedback, early defect detection
@@ -21,7 +21,7 @@ A review is a static testing technique where a work product is examined by one o
 
 **Example:** A developer asks a teammate to look over a requirements document before the formal review.
 
-### Walkthrough
+### 🔷 Walkthrough
 
 - **Formality:** Low to medium
 - **Purpose:** Educate participants, gain consensus, find defects
@@ -34,7 +34,7 @@ A review is a static testing technique where a work product is examined by one o
 
 **Example:** A business analyst walks the development team through the new requirements document, explaining each feature and answering questions.
 
-### Technical Review
+### 🔎 Technical Review
 
 - **Formality:** Medium to high
 - **Purpose:** Find defects, evaluate technical quality, ensure conformance to standards
@@ -47,7 +47,7 @@ A review is a static testing technique where a work product is examined by one o
 
 **Example:** A technical review of an architecture design document where each reviewer has prepared comments on their assigned sections.
 
-### Inspection
+### 🔷 Inspection
 
 - **Formality:** Highest
 - **Purpose:** Find the maximum number of defects, collect metrics, verify standards compliance
@@ -67,9 +67,9 @@ A review is a static testing technique where a work product is examined by one o
 
 ---
 
-## 4.2 Review Process
+## 🔎 4.2 Review Process
 
-### The Five Stages of the Review Process
+### 🔎 The Five Stages of the Review Process
 
 **Stage 1: Planning**
 - Define the review objectives
@@ -120,9 +120,9 @@ A review is a static testing technique where a work product is examined by one o
 
 ---
 
-## 4.3 Roles and Responsibilities
+## ⭐ 4.3 Roles and Responsibilities
 
-### The Five Review Roles
+### 🔎 The Five Review Roles
 
 **1. Manager (Project Manager / Test Manager)**
 - Decides whether to conduct the review
@@ -171,9 +171,9 @@ A review is a static testing technique where a work product is examined by one o
 
 ---
 
-## 4.4 Success Factors
+## ⭐ 4.4 Success Factors
 
-### What Makes Reviews Effective?
+### 🔎 What Makes Reviews Effective?
 
 **1. Appropriate Review Type**
 - Match the review type to the risk, formality needs, and time available
@@ -223,7 +223,7 @@ A review is a static testing technique where a work product is examined by one o
 - Verify rework quality
 - Close the review loop
 
-### Common Review Pitfalls
+### 🔎 Common Review Pitfalls
 
 | Pitfall | Impact | Solution |
 |---------|--------|----------|
@@ -237,9 +237,9 @@ A review is a static testing technique where a work product is examined by one o
 
 ---
 
-## Worked Examples — Applying Chapter 4 Concepts
+## 💡 Worked Examples — Applying Chapter 4 Concepts
 
-### Worked Example 1: Selecting Review Types
+### 💡 Worked Example 1: Selecting Review Types
 
 **Scenario:** A software project has the following documents ready for review. Select the most appropriate review type for each.
 
@@ -257,7 +257,7 @@ A review is a static testing technique where a work product is examined by one o
 
 ---
 
-### Worked Example 2: Review Process Application
+### 💡 Worked Example 2: Review Process Application
 
 **Scenario:** A team is conducting an inspection of a requirements document for a medical device. During the inspection meeting, the author starts explaining why each identified issue is not really a problem.
 
@@ -274,7 +274,7 @@ A review is a static testing technique where a work product is examined by one o
 
 ---
 
-### Worked Example 3: Review Roles in Action
+### 💡 Worked Example 3: Review Roles in Action
 
 **Scenario:** A formal inspection of an architecture document is planned. The team has:
 - A senior developer who wrote the document

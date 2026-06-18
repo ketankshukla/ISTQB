@@ -1,10 +1,10 @@
-# CTFL-AuT — Certified Tester Foundation Level Automotive Software Testing
+# 🪜 CTFL-AuT — Certified Tester Foundation Level Automotive Software Testing
 
 Complete self-study course for the ISTQB CTFL-AuT certification exam.
 
 ---
 
-## Exam Facts
+## 🎓 Exam Facts
 
 | Parameter | Value |
 |-----------|-------|
@@ -18,7 +18,7 @@ Complete self-study course for the ISTQB CTFL-AuT certification exam.
 
 ---
 
-## Course Structure
+## ⭐ Course Structure
 
 | Chapter | Topic | Est. Weight |
 |---------|-------|-------------|
@@ -31,7 +31,7 @@ Complete self-study course for the ISTQB CTFL-AuT certification exam.
 
 ---
 
-## How to Use This Course
+## ⭐ How to Use This Course
 
 1. **Read `STUDY_PLAN.md`** for a realistic 2-week schedule
 2. **Work through chapters in order** — read lessons, study exam traps, attempt practice questions
@@ -41,7 +41,7 @@ Complete self-study course for the ISTQB CTFL-AuT certification exam.
 
 ---
 
-## Target Audience
+## ⭐ Target Audience
 
 - Testers with CTFL who want to understand automotive testing fundamentals
 - Automotive testing newcomers
@@ -49,7 +49,7 @@ Complete self-study course for the ISTQB CTFL-AuT certification exam.
 
 ---
 
-## Question Bank Summary
+## ❓ Question Bank Summary
 
 | Source | Questions |
 |--------|-----------|
@@ -59,12 +59,12 @@ Complete self-study course for the ISTQB CTFL-AuT certification exam.
 
 ---
 
-## Prerequisites
+## ⭐ Prerequisites
 
 - ISTQB Foundation Level (CTFL) certification or equivalent knowledge
 
 ---
 
-## Disclaimer
+## 🤖 Disclaimer
 
 This is an independent study resource. It is not affiliated with, endorsed by, or produced by ISTQB or any ISTQB member board. ISTQB and Certified Tester are registered trademarks. The official syllabus and sample exams are available from [istqb.org](https://www.istqb.org).

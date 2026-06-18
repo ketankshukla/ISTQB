@@ -1,6 +1,6 @@
-# Chapter 4 — Accessibility and Inclusive Design: Exam Traps
+# 🪤 Chapter 4 — Accessibility and Inclusive Design: Exam Traps
 
-## Trap 1: Thinking Accessibility Is Only for Blind Users
+## 🪤 Trap 1: Thinking Accessibility Is Only for Blind Users
 
 **Trap:** Accessibility covers all disabilities: visual, auditory, motor, cognitive, and speech. It is not just about screen readers.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Confusing Accessibility and Usability
+## 🪤 Trap 2: Confusing Accessibility and Usability
 
 **Trap:** Accessibility is a subset of usability focused on people with disabilities. They are not identical, but they overlap significantly.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Thinking WCAG Only Applies to Websites
+## 🪤 Trap 3: Thinking WCAG Only Applies to Websites
 
 **Trap:** WCAG principles apply to all digital content and interfaces, including mobile apps, desktop software, and documents.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Thinking Color Contrast Is Optional
+## 🪤 Trap 4: Thinking Color Contrast Is Optional
 
 **Trap:** WCAG Level AA requires a minimum contrast ratio of 4.5:1 for normal text. This is not optional for compliance.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Thinking Accessibility Testing Is Separate from Usability Testing
+## 🪤 Trap 5: Thinking Accessibility Testing Is Separate from Usability Testing
 
 **Trap:** Accessibility testing should be integrated into the usability testing process, not treated as a separate, late-stage activity.
 

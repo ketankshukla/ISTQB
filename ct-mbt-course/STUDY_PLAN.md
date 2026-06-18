@@ -1,12 +1,12 @@
-# CT-MBT Study Plan
+# 🗓️ CT-MBT Study Plan
 
 Two study schedules: a **standard 3-week plan** for thorough preparation, and an **accelerated 1.5-week plan** for those with strong modeling experience.
 
 ---
 
-## Standard Plan — 3 Weeks
+## 🗓️ Standard Plan — 3 Weeks
 
-### Week 1: MBT Fundamentals and Modeling
+### 🏗️ Week 1: MBT Fundamentals and Modeling
 
 | Day | Task | Time | Checkpoint |
 |-----|------|------|------------|
@@ -18,7 +18,7 @@ Two study schedules: a **standard 3-week plan** for thorough preparation, and an
 | Day 6 | Review Chapters 1 & 2 missed questions | 1.5 hours | Solidify weak areas |
 | Day 7 | Rest or light review of glossary terms | 30 min | — |
 
-### Week 2: Test Selection and Implementation
+### 🔷 Week 2: Test Selection and Implementation
 
 | Day | Task | Time | Checkpoint |
 |-----|------|------|------------|
@@ -30,7 +30,7 @@ Two study schedules: a **standard 3-week plan** for thorough preparation, and an
 | Day 13 | Read Chapter 5: `lessons.md` | 2 hours | ROI, deployment, organizational factors |
 | Day 14 | Chapter 5: `exam_traps.md` + all 20 practice questions | 2 hours | Evaluating and deploying MBT |
 
-### Week 3: Tools, Case Studies, and Mock Exams
+### 📝 Week 3: Tools, Case Studies, and Mock Exams
 
 | Day | Task | Time | Checkpoint |
 |-----|------|------|------------|
@@ -46,7 +46,7 @@ Two study schedules: a **standard 3-week plan** for thorough preparation, and an
 
 ---
 
-## Accelerated Plan — 1.5 Weeks
+## 🗓️ Accelerated Plan — 1.5 Weeks
 
 For experienced testers with modeling background.
 
@@ -63,7 +63,7 @@ For experienced testers with modeling background.
 
 ---
 
-## Study Techniques That Work
+## 📚 Study Techniques That Work
 
 **1. Active Recall**
 After reading a section, close the file and draw the model or concept from memory. Check against the text.
@@ -82,7 +82,7 @@ Create a comparison table for model types, coverage criteria, and tool categorie
 
 ---
 
-## Daily Time Commitments
+## 🤖 Daily Time Commitments
 
 | Plan | Daily Average | Total Hours |
 |------|--------------|-------------|
@@ -91,7 +91,7 @@ Create a comparison table for model types, coverage criteria, and tool categorie
 
 ---
 
-## Exam Day Checklist
+## 🎓 Exam Day Checklist
 
 - [ ] 7+ hours of sleep the night before
 - [ ] Review `exam_traps.md` one final time
@@ -103,7 +103,7 @@ Create a comparison table for model types, coverage criteria, and tool categorie
 
 ---
 
-## Recommended Score Targets
+## ⭐ Recommended Score Targets
 
 | Stage | Target |
 |-------|--------|

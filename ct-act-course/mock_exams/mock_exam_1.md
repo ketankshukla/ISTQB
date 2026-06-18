@@ -1,10 +1,10 @@
-# CT-AcT Mock Exam 1
+# 📝 CT-AcT Mock Exam 1
 
 **Instructions:** 40 questions, 60 minutes, single best answer.
 
 ---
 
-### Q1-Q10
+### 🔷 Q1-Q10
 
 1. The PRIMARY purpose of acceptance testing is to: A) Find coding bugs B) Validate system meets business needs and acceptance criteria C) Optimize performance D) Review code — **Validate system meets business needs and acceptance criteria**
 2. User Acceptance Testing (UAT) is performed by: A) Developers B) Users or business representatives C) Auditors D) Only testers — **Users or business representatives**
@@ -19,7 +19,7 @@
 
 ---
 
-### Q11-Q20
+### 🔷 Q11-Q20
 
 11. In the V-model, acceptance testing corresponds to: A) Coding B) Requirements specification C) Detailed design D) Architecture design — **Requirements specification**
 12. In agile, acceptance testing is: A) Only at project end B) Integrated continuously throughout each sprint C) Not needed D) Only by Scrum Master — **Integrated continuously throughout each sprint**
@@ -34,7 +34,7 @@
 
 ---
 
-### Q21-Q30
+### 🔷 Q21-Q30
 
 21. Business Acceptance Testing (BAT) verifies: A) Only code quality B) System meets business needs and requirements C) Only security D) Only performance — **System meets business needs and requirements**
 22. A user story format is: A) "As a [role], I want [feature] so that [benefit]" B) Only technical specifications C) Only test cases D) Only database schemas — **"As a [role], I want [feature] so that [benefit]"**
@@ -49,7 +49,7 @@
 
 ---
 
-### Q31-Q40
+### 🔷 Q31-Q40
 
 31. Contractual acceptance criteria come from: A) Developer preferences B) Contract, SOW, agreed specifications C) Only UI design D) Only tester opinions — **Contract, SOW, agreed specifications**
 32. An SLA typically: A) Is only for acceptance B) Is an ongoing service commitment C) Only applies to development D) Is not measurable — **Is an ongoing service commitment**
@@ -64,4 +64,4 @@
 
 ---
 
-## End of Mock Exam 1
+## 📝 End of Mock Exam 1

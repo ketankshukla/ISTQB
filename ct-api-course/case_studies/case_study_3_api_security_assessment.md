@@ -1,6 +1,6 @@
-# Case Study 3 — API Security Assessment
+# 📂 Case Study 3 — API Security Assessment
 
-## Context
+## ⭐ Context
 
 You are a security test consultant hired by HealthCloud, a healthcare SaaS platform.
 
@@ -17,7 +17,7 @@ You are a security test consultant hired by HealthCloud, a healthcare SaaS platf
   - Concerns about patient data exposure
   - Need to comply with HIPAA security requirements
 
-## Task 1: Security Risk Assessment
+## ⚠️ Task 1: Security Risk Assessment
 
 **Question:** Identify the highest-priority API security risks for HealthCloud.
 
@@ -44,7 +44,7 @@ You are a security test consultant hired by HealthCloud, a healthcare SaaS platf
 
 ---
 
-## Task 2: Authentication and Authorization Test Plan
+## 🗓️ Task 2: Authentication and Authorization Test Plan
 
 **Question:** Design comprehensive auth tests for HealthCloud's API.
 
@@ -82,7 +82,7 @@ You are a security test consultant hired by HealthCloud, a healthcare SaaS platf
 
 ---
 
-## Task 3: Input Validation and Injection Testing
+## ⭐ Task 3: Input Validation and Injection Testing
 
 **Question:** Design injection tests for HealthCloud's API.
 
@@ -133,7 +133,7 @@ GET /reports/download?file=..\..\windows\system32\config\sam
 
 ---
 
-## Task 4: Data Exposure Testing
+## 🗃️ Task 4: Data Exposure Testing
 
 **Question:** Design tests to verify PHI is not excessively exposed.
 
@@ -156,7 +156,7 @@ GET /reports/download?file=..\..\windows\system32\config\sam
 
 ---
 
-## Task 5: Rate Limiting and DoS Testing
+## ⭐ Task 5: Rate Limiting and DoS Testing
 
 **Question:** Design rate limit tests for HealthCloud.
 
@@ -181,7 +181,7 @@ GET /reports/download?file=..\..\windows\system32\config\sam
 
 ---
 
-## Task 6: Security Test Automation
+## ⚙️ Task 6: Security Test Automation
 
 **Question:** Design an automated security testing pipeline for HealthCloud.
 

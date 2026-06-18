@@ -1,8 +1,8 @@
-# Chapter 5 — Evaluating and Deploying MBT: Practice Questions
+# ❓ Chapter 5 — Evaluating and Deploying MBT: Practice Questions
 
 ---
 
-### Q1 (MBT-5.1, K2)
+### 🔷 Q1 (MBT-5.1, K2)
 
 A PRIMARY benefit of MBT that contributes to ROI is:
 
@@ -13,7 +13,7 @@ D. No need for test tools
 
 ---
 
-### Q2 (MBT-5.1, K2)
+### 🔷 Q2 (MBT-5.1, K2)
 
 The payback period for an MBT investment is:
 
@@ -24,7 +24,7 @@ D. The time to train all testers
 
 ---
 
-### Q3 (MBT-5.2, K2)
+### 🔷 Q3 (MBT-5.2, K2)
 
 A pilot project for MBT should be:
 
@@ -35,7 +35,7 @@ D. A project with no stakeholder support
 
 ---
 
-### Q4 (MBT-5.3, K2)
+### 🔷 Q4 (MBT-5.3, K2)
 
 Incremental deployment of MBT means:
 
@@ -46,7 +46,7 @@ D. Deploying all tools at once
 
 ---
 
-### Q5 (MBT-5.4, K2)
+### 🔷 Q5 (MBT-5.4, K2)
 
 Which organizational factor is MOST important for MBT success?
 
@@ -57,7 +57,7 @@ D. The programming language used
 
 ---
 
-### Q6 (MBT-5.3, K3)
+### 🔷 Q6 (MBT-5.3, K3)
 
 A 200-person test organization wants to adopt MBT. The SAFEST deployment approach is:
 
@@ -68,7 +68,7 @@ D. Wait until all employees retire and hire new ones
 
 ---
 
-### Q7 (MBT-5.1, K2)
+### 🔷 Q7 (MBT-5.1, K2)
 
 Which metric would BEST measure MBT test effectiveness?
 
@@ -79,7 +79,7 @@ D. Number of meetings held
 
 ---
 
-### Q8 (MBT-5.4, K2)
+### 🔷 Q8 (MBT-5.4, K2)
 
 A supportive organizational culture for MBT includes:
 
@@ -90,7 +90,7 @@ D. Maintaining strict silos between teams
 
 ---
 
-### Q9 (MBT-5.2, K2)
+### 🔷 Q9 (MBT-5.2, K2)
 
 The PRIMARY purpose of an MBT pilot project is to:
 
@@ -101,7 +101,7 @@ D. Avoid training costs
 
 ---
 
-### Q10 (MBT-5.1, K2)
+### 🔷 Q10 (MBT-5.1, K2)
 
 ROI for MBT is calculated as:
 
@@ -112,7 +112,7 @@ D. Costs / Benefits
 
 ---
 
-### Q11 (MBT-5.5, K2)
+### 🔷 Q11 (MBT-5.5, K2)
 
 Model coverage metrics measure:
 
@@ -123,7 +123,7 @@ D. The tool vendor's market share
 
 ---
 
-### Q12 (MBT-5.4, K3)
+### 🔷 Q12 (MBT-5.4, K3)
 
 An organization with ad-hoc testing processes wants to adopt MBT. The BEST advice is:
 
@@ -134,7 +134,7 @@ D. They should only test manually
 
 ---
 
-### Q13 (MBT-5.3, K2)
+### 🔷 Q13 (MBT-5.3, K2)
 
 Big-bang deployment of MBT is MOST appropriate when:
 
@@ -145,7 +145,7 @@ D. There is no management support
 
 ---
 
-### Q14 (MBT-5.1, K2)
+### 🔷 Q14 (MBT-5.1, K2)
 
 A team calculates MBT ROI using only test generation savings and ignores model maintenance. Their ROI calculation is:
 
@@ -156,7 +156,7 @@ D. Not needed
 
 ---
 
-### Q15 (MBT-5.2, K2)
+### 🔷 Q15 (MBT-5.2, K2)
 
 A good pilot project for MBT should have:
 
@@ -167,7 +167,7 @@ D. A very large scope
 
 ---
 
-### Q16 (MBT-5.5, K2)
+### 🔷 Q16 (MBT-5.5, K2)
 
 Defect escape rate measures:
 
@@ -178,7 +178,7 @@ D. How many testers escaped from the office
 
 ---
 
-### Q17 (MBT-5.4, K2)
+### 🔷 Q17 (MBT-5.4, K2)
 
 Process maturity in an organization:
 
@@ -189,7 +189,7 @@ D. Automatically improves when MBT tools are purchased
 
 ---
 
-### Q18 (MBT-5.1, K3)
+### 🔷 Q18 (MBT-5.1, K3)
 
 An MBT investment costs $50,000 in Year 1 and $20,000 annually thereafter. Annual benefits are $80,000. The Year 2 ROI is:
 
@@ -200,7 +200,7 @@ D. ($80,000 - $20,000) / $80,000 = 75%
 
 ---
 
-### Q19 (MBT-5.3, K2)
+### 🔷 Q19 (MBT-5.3, K2)
 
 Which is a disadvantage of big-bang deployment?
 
@@ -211,7 +211,7 @@ D. It requires less upfront investment
 
 ---
 
-### Q20 (MBT-5.5, K2)
+### 🔷 Q20 (MBT-5.5, K2)
 
 A metric showing the percentage of transitions in the model that have been tested is:
 
@@ -222,104 +222,104 @@ D. Defect density
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** MBT reduces test maintenance effort via model update + regeneration.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** Payback period = time to recover initial investment from net benefits.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** Pilot = small, well-understood project with measurable outcomes.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** Incremental = start with pilot, gradually expand.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** Team skills in modeling and testing = most important factor.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** Large org = safest with incremental deployment.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** Defects per test case and coverage = test effectiveness metrics.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** Supportive culture = willingness to try new things and learn from failures.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** Pilot purpose = evaluate in controlled setting before wider deployment.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** ROI = (Benefits - Costs) / Costs.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 
 **Rationale:** Model coverage = % of model elements covered by tests.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** Ad-hoc processes = start with pilot, realistic expectations, improve over time.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** Big-bang = small org, strong sponsorship, external support.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** Ignoring maintenance costs = overestimated ROI.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** Good pilot = well-understood domain, measurable outcomes.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 
 **Rationale:** Defect escape rate = production defects missed by testing.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 
 **Rationale:** Maturity affects ease but does not prevent MBT adoption.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 
 **Rationale:** Year 2 ROI = (80,000 - 20,000) / 20,000 = 300%.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** Big-bang = high risk, hard to recover from mistakes.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 
 **Rationale:** % of transitions tested = transition coverage.

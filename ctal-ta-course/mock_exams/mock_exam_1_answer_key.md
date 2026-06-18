@@ -1,4 +1,4 @@
-# Mock Exam 1 — Answer Key
+# 📝 Mock Exam 1 — Answer Key
 
 | Q | Answer | Rationale |
 |---|--------|-----------|
@@ -43,7 +43,7 @@
 | 39 | C | Invalid partitions: < 8 chars, missing uppercase, missing lowercase, missing digit = 4 minimum. |
 | 40 | B | ROI is typically negative in year 1 due to high initial development, becoming positive in subsequent years. |
 
-## Score Interpretation
+## ⭐ Score Interpretation
 
 | Score | Interpretation |
 |-------|-------------|

@@ -1,10 +1,10 @@
-# Chapter 4 — Mobile Non-Functional Testing: Lessons
+# 📘 Chapter 4 — Mobile Non-Functional Testing: Lessons
 
 ---
 
-## 4.1 Performance Testing
+## ⚡ 4.1 Performance Testing
 
-### App Startup Time
+### 🔷 App Startup Time
 
 | Start Type | Definition | Target |
 |------------|-----------|--------|
@@ -17,7 +17,7 @@
 - Test on low-end devices (worst case)
 - Identify blocking operations during startup
 
-### Memory Usage
+### 🔷 Memory Usage
 
 | Metric | Concern | Tool |
 |--------|---------|------|
@@ -31,7 +31,7 @@
 - Large data loading (images, lists)
 - Background/foreground switching
 
-### CPU Usage
+### 🔷 CPU Usage
 
 - Sustained high CPU = battery drain and device heat
 - Test during: scrolling, animations, data processing
@@ -39,9 +39,9 @@
 
 ---
 
-## 4.2 Battery Consumption Testing
+## ⭐ 4.2 Battery Consumption Testing
 
-### Battery Drains
+### 🤖 Battery Drains
 
 | Cause | How to Test | Mitigation |
 |-------|-------------|------------|
@@ -51,7 +51,7 @@
 | **Network polling** | Monitor network activity | Use push instead of polling |
 | **Wake locks** | Check if screen stays on unnecessarily | Release wake locks promptly |
 
-### Testing Approach
+### 🔷 Testing Approach
 
 1. **Baseline:** Measure battery usage for 30 minutes of typical use
 2. **Stress:** Measure during intensive operations (video, GPS)
@@ -64,9 +64,9 @@
 
 ---
 
-## 4.3 Network Testing
+## ⭐ 4.3 Network Testing
 
-### Network Conditions
+### 🔷 Network Conditions
 
 | Condition | How to Simulate | Test Focus |
 |-----------|----------------|------------|
@@ -75,7 +75,7 @@
 | **Intermittent** | Toggle Wi-Fi on/off | Retry logic, error handling |
 | **Offline** | Airplane mode | Offline functionality, caching |
 
-### Offline Testing
+### 🔷 Offline Testing
 
 **What to test:**
 - Cached content display
@@ -86,9 +86,9 @@
 
 ---
 
-## 4.4 Mobile Security Testing
+## 🔒 4.4 Mobile Security Testing
 
-### OWASP Mobile Top 10 (MASVS)
+### 📱 OWASP Mobile Top 10 (MASVS)
 
 | Risk | Description | Test |
 |------|-------------|------|
@@ -103,7 +103,7 @@
 | **M9: Reverse Engineering** | App decompilation | Obfuscation, anti-debugging |
 | **M10: Extraneous Functionality** | Hidden debug features | Verify no debug endpoints in production |
 
-### Testing Tools
+### 🛠️ Testing Tools
 
 | Tool | Purpose |
 |------|---------|
@@ -114,16 +114,16 @@
 
 ---
 
-## 4.5 Usability and Accessibility Testing
+## 🖱️ 4.5 Usability and Accessibility Testing
 
-### Usability Testing
+### 🖱️ Usability Testing
 
 - **First-time user experience:** Can users complete core tasks without help?
 - **Efficiency:** How quickly can expert users complete tasks?
 - **Error recovery:** Can users recover from mistakes?
 - **Satisfaction:** Would users recommend the app?
 
-### Accessibility Testing
+### 🔷 Accessibility Testing
 
 | Feature | iOS | Android | Test |
 |---------|-----|---------|------|
@@ -142,9 +142,9 @@
 
 ---
 
-## 4.6 Environmental Testing
+## ⭐ 4.6 Environmental Testing
 
-### Conditions to Test
+### 🔷 Conditions to Test
 
 | Condition | How to Test |
 |-----------|-------------|
@@ -157,9 +157,9 @@
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Startup Time Analysis
+### 💡 Worked Example 1: Startup Time Analysis
 
 **Scenario:** A social media app takes 5 seconds to cold start.
 
@@ -173,7 +173,7 @@
 
 **Result:** After optimization: 2.3s cold start
 
-### Worked Example 2: Battery Drain Investigation
+### 💡 Worked Example 2: Battery Drain Investigation
 
 **Scenario:** Users report battery drain after update.
 
@@ -188,7 +188,7 @@
 - Stop location updates on `onPause()` / `sceneWillResignActive()`
 - Reduce background sync interval to 15 minutes
 
-### Worked Example 3: Security Assessment
+### 💡 Worked Example 3: Security Assessment
 
 **Scenario:** Test a banking app's data storage.
 

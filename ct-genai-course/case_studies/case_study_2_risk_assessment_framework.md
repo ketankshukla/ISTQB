@@ -1,6 +1,6 @@
-# Case Study 2 — GenAI Risk Assessment for a Banking Testing Team
+# 📂 Case Study 2 — GenAI Risk Assessment for a Banking Testing Team
 
-## Context
+## ⭐ Context
 
 A major European bank called "EuroBank" with 15 million customers is evaluating the use of GenAI to support testing of its mobile banking application. The application handles:
 
@@ -22,13 +22,13 @@ EuroBank operates under strict regulatory requirements including GDPR, PCI-DSS, 
 
 ---
 
-## Tasks
+## ⭐ Tasks
 
-### Task 1: Risk Identification (Chapter 3)
+### ⚠️ Task 1: Risk Identification (Chapter 3)
 
 For each of the four proposed use cases, identify the PRIMARY risk category (hallucination, reasoning error, bias, privacy, security, environmental) and explain why it is the primary concern for that use case. Also identify a SECONDARY risk for each use case.
 
-### Task 2: Architecture and Mitigation Strategy (Chapters 3 and 4)
+### ♟️ Task 2: Architecture and Mitigation Strategy (Chapters 3 and 4)
 
 For the two highest-risk use cases identified in Task 1, propose:
 - An architectural approach (direct API, RAG, fine-tuned model, on-premise, hybrid)
@@ -36,19 +36,19 @@ For the two highest-risk use cases identified in Task 1, propose:
 - Additional governance measures needed
 - Estimated cost and timeline for implementation
 
-### Task 3: Regulatory Compliance (Chapter 3)
+### 🔷 Task 3: Regulatory Compliance (Chapter 3)
 
 EuroBank must comply with GDPR, PCI-DSS, PSD2, MiFID II, and the EU AI Act. For each regulation, identify at least one specific requirement that affects how the test team can use GenAI. Explain how the team's proposed use cases might need to change to achieve compliance, and which use cases should be PROHIBITED outright under certain regulations.
 
-### Task 4: Change Management (Chapter 5)
+### 🗂️ Task 4: Change Management (Chapter 5)
 
 The head of testing wants to roll out GenAI tools to all 45 testers within 3 months. Identify at least three risks with this timeline and propose a more realistic phased approach.
 
 ---
 
-## Model Answers
+## ✔️ Model Answers
 
-### Task 1 Model Answer
+### ✔️ Task 1 Model Answer
 
 | Use Case | Primary Risk | Secondary Risk | Explanation |
 |----------|--------------|----------------|-------------|
@@ -59,7 +59,7 @@ The head of testing wants to roll out GenAI tools to all 45 testers within 3 mon
 
 ---
 
-### Task 2 Model Answer
+### ✔️ Task 2 Model Answer
 
 **Highest Risk: Use Case 2 — Synthetic Customer Data**
 
@@ -103,7 +103,7 @@ The head of testing wants to roll out GenAI tools to all 45 testers within 3 mon
 
 ---
 
-### Task 3 Model Answer
+### ✔️ Task 3 Model Answer
 
 **GDPR:**
 - **Requirement:** Personal data must not be processed without lawful basis (Article 6); data minimization applies (Article 5(1)(c)); DPIA required for high-risk processing (Article 35).
@@ -149,7 +149,7 @@ The head of testing wants to roll out GenAI tools to all 45 testers within 3 mon
 
 ---
 
-### Task 4 Model Answer
+### ✔️ Task 4 Model Answer
 
 **Risks with the 3-month rollout timeline:**
 

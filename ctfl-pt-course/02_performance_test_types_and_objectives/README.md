@@ -1,6 +1,6 @@
-# Chapter 2 — Performance Test Types and Objectives
+# 🧪 Chapter 2 — Performance Test Types and Objectives
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~20% (~4 questions out of 20)
 - **K-levels:** K2, K3
@@ -8,7 +8,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -20,7 +20,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts
+## ⭐ Key Concepts
 
 - Load testing
 - Stress testing

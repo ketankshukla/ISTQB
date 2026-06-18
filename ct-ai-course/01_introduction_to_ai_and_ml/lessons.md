@@ -1,17 +1,17 @@
-# Chapter 1 — Introduction to AI and Machine Learning: Lessons
+# 📘 Chapter 1 — Introduction to AI and Machine Learning: Lessons
 
 ---
 
-## 1.1 What Is Artificial Intelligence?
+## ⭐ 1.1 What Is Artificial Intelligence?
 
-### Definition
+### 🔷 Definition
 
 **Artificial Intelligence (AI)** is the simulation of human intelligence processes by computer systems. These processes include:
 - **Learning:** Acquiring data and rules for using it
 - **Reasoning:** Reaching conclusions from data
 - **Self-correction:** Improving performance over time
 
-### The AI Hierarchy
+### 🤖 The AI Hierarchy
 
 ```
         Artificial Intelligence (AI)
@@ -29,7 +29,7 @@
 
 **Key insight:** All ML is AI, but not all AI is ML. All DL is ML, but not all ML uses DL.
 
-### Types of AI
+### 🧪 Types of AI
 
 **1. Narrow AI (Weak AI):**
 - Designed for a specific task
@@ -50,9 +50,9 @@
 
 ---
 
-## 1.2 Machine Learning Paradigms
+## 🎯 1.2 Machine Learning Paradigms
 
-### Supervised Learning
+### 🎯 Supervised Learning
 
 **Definition:** The model learns from labeled training data. Each training example includes input features and the correct output (label).
 
@@ -81,7 +81,7 @@
 - Support Vector Machines (SVM)
 - Neural networks
 
-### Unsupervised Learning
+### 🎯 Unsupervised Learning
 
 **Definition:** The model finds patterns in unlabeled data without predefined output categories.
 
@@ -106,7 +106,7 @@
 - Discovers rules that describe large portions of data
 - Example: Market basket analysis (customers who buy X also buy Y)
 
-### Reinforcement Learning
+### 🎯 Reinforcement Learning
 
 **Definition:** An agent learns by interacting with an environment, receiving rewards or penalties for actions, and optimizing its behavior to maximize cumulative reward.
 
@@ -142,9 +142,9 @@
 
 ---
 
-## 1.3 Neural Networks and Deep Learning
+## 🎯 1.3 Neural Networks and Deep Learning
 
-### What Is a Neural Network?
+### 🔷 What Is a Neural Network?
 
 A **neural network** is a computing system inspired by biological neural networks. It consists of interconnected nodes (artificial neurons) organized in layers.
 
@@ -176,7 +176,7 @@ Input Layer          Hidden Layers          Output Layer
 3. Backpropagation: Adjust weights to reduce error
 4. Repeat for many iterations until error is minimized
 
-### Deep Learning
+### 🎯 Deep Learning
 
 **Definition:** Deep learning uses neural networks with **many hidden layers** (hence "deep") to learn complex patterns in data.
 
@@ -204,9 +204,9 @@ Input Layer          Hidden Layers          Output Layer
 
 ---
 
-## 1.4 Common AI Application Domains
+## 🤖 1.4 Common AI Application Domains
 
-### Natural Language Processing (NLP)
+### 🔷 Natural Language Processing (NLP)
 
 **Definition:** AI techniques for understanding, interpreting, and generating human language.
 
@@ -223,7 +223,7 @@ Input Layer          Hidden Layers          Output Layer
 - Slang, idioms, and cultural references
 - Multilingual requirements
 
-### Computer Vision
+### 🔷 Computer Vision
 
 **Definition:** AI techniques for interpreting and understanding visual information.
 
@@ -238,7 +238,7 @@ Input Layer          Hidden Layers          Output Layer
 - Adversarial examples (subtle pixel changes causing misclassification)
 - Edge cases (unusual objects or scenarios)
 
-### Robotics
+### 🔷 Robotics
 
 **Definition:** AI-powered physical machines that can perform tasks autonomously or semi-autonomously.
 
@@ -254,7 +254,7 @@ Input Layer          Hidden Layers          Output Layer
 - Human-robot interaction
 - Fail-safe mechanisms
 
-### Expert Systems
+### 🔷 Expert Systems
 
 **Definition:** AI systems that use a knowledge base and inference rules to solve problems in a specific domain.
 
@@ -270,7 +270,7 @@ Input Layer          Hidden Layers          Output Layer
 
 **Note:** Expert systems are older AI technology. Modern approaches often use ML instead of hand-coded rules.
 
-### Robotic Process Automation (RPA)
+### ⚙️ Robotic Process Automation (RPA)
 
 **Definition:** Software robots that automate repetitive, rule-based tasks.
 
@@ -287,9 +287,9 @@ Input Layer          Hidden Layers          Output Layer
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Classifying AI Systems
+### 💡 Worked Example 1: Classifying AI Systems
 
 **Scenario:** Classify the following systems by AI type and ML paradigm.
 
@@ -301,7 +301,7 @@ Input Layer          Hidden Layers          Output Layer
 | Warehouse robot that learns to navigate | Narrow AI | Reinforcement Learning |
 | Virtual assistant answering questions | Narrow AI | Supervised + NLP |
 
-### Worked Example 2: Choosing an ML Approach
+### 💡 Worked Example 2: Choosing an ML Approach
 
 **Scenario:** A bank wants to build systems for three different problems. Recommend the ML approach for each.
 
@@ -317,7 +317,7 @@ Input Layer          Hidden Layers          Output Layer
 - **Approach:** Reinforcement Learning
 - **Reason:** The system must learn through trial and error in a dynamic market environment. Reward = profit.
 
-### Worked Example 3: Neural Network Layer Analysis
+### 💡 Worked Example 3: Neural Network Layer Analysis
 
 **Scenario:** A neural network for handwritten digit recognition has:
 - Input layer: 784 neurons (28×28 pixel grayscale image)

@@ -1,10 +1,10 @@
-# Chapter 2 — Big Data Architecture and Components: Lessons
+# 📘 Chapter 2 — Big Data Architecture and Components: Lessons
 
 ---
 
-## 2.1 Hadoop Ecosystem
+## ⭐ 2.1 Hadoop Ecosystem
 
-### HDFS (Hadoop Distributed File System)
+### 🔷 HDFS (Hadoop Distributed File System)
 
 **Purpose:** Distributed storage for large datasets across commodity hardware.
 
@@ -30,7 +30,7 @@ A 1GB file is split into 8 blocks (128MB each). Each block is stored on 3 differ
 2. Each block has 3 replicas
 3. No two replicas of the same block are on the same rack
 
-### MapReduce
+### 🔷 MapReduce
 
 **Purpose:** A programming model for processing large datasets in parallel.
 
@@ -65,7 +65,7 @@ Input → Split → Map → Shuffle/Sort → Reduce → Output
 - Multiple same words → correct sum
 - Special characters handled correctly
 
-### YARN (Yet Another Resource Negotiator)
+### 🔷 YARN (Yet Another Resource Negotiator)
 
 **Purpose:** Cluster resource management and job scheduling.
 
@@ -82,9 +82,9 @@ Input → Split → Map → Shuffle/Sort → Reduce → Output
 
 ---
 
-## 2.2 Apache Spark
+## ⭐ 2.2 Apache Spark
 
-### What is Spark?
+### 🔷 What is Spark?
 
 Apache Spark is a unified analytics engine for large-scale data processing. It is significantly faster than MapReduce for many workloads because it performs in-memory computations.
 
@@ -94,7 +94,7 @@ Apache Spark is a unified analytics engine for large-scale data processing. It i
 - Simpler APIs (Java, Scala, Python, R)
 - Lazy evaluation (optimizes execution plan)
 
-### Spark Core Concepts
+### 🔷 Spark Core Concepts
 
 **RDD (Resilient Distributed Dataset):**
 - Immutable distributed collection of objects
@@ -115,7 +115,7 @@ Apache Spark is a unified analytics engine for large-scale data processing. It i
 - Execute SQL queries on DataFrames
 - Integrates with Hive metastore
 
-### Spark Architecture
+### 🔷 Spark Architecture
 
 ```
 Driver Program → Cluster Manager → Executors (on Worker Nodes)
@@ -125,7 +125,7 @@ Driver Program → Cluster Manager → Executors (on Worker Nodes)
 - **Cluster Manager:** Allocates resources (Standalone, YARN, Mesos, Kubernetes)
 - **Executors:** Run tasks and store data in memory/cache
 
-### Spark Transformations and Actions
+### 🔷 Spark Transformations and Actions
 
 **Transformations (lazy, produce new RDD/DataFrame):**
 - `map`, `filter`, `flatMap`, `groupByKey`, `reduceByKey`, `join`
@@ -157,9 +157,9 @@ totals = sales.groupBy("region").sum("amount")
 
 ---
 
-## 2.3 Big Data Architecture Layers
+## 🗃️ 2.3 Big Data Architecture Layers
 
-### Layer 1: Data Ingestion
+### 🗃️ Layer 1: Data Ingestion
 
 **Purpose:** Collect and import data from various sources into the Big Data platform.
 
@@ -182,7 +182,7 @@ A Sqoop job imports 1,000,000 rows from MySQL to HDFS. Tests:
 - NULL values handled correctly
 - Incremental imports capture only new/changed rows
 
-### Layer 2: Data Storage
+### 🗃️ Layer 2: Data Storage
 
 **Purpose:** Persist data for processing and analysis.
 
@@ -198,7 +198,7 @@ A Sqoop job imports 1,000,000 rows from MySQL to HDFS. Tests:
 - Compression/decompression accuracy
 - Replication factor compliance
 
-### Layer 3: Data Processing
+### 🗃️ Layer 3: Data Processing
 
 **Purpose:** Transform raw data into meaningful information.
 
@@ -223,7 +223,7 @@ Tests:
 - Bounce rate formula: single-page sessions / total sessions
 - Aggregated counts match manual calculation for a sample hour
 
-### Layer 4: Data Consumption
+### 🗃️ Layer 4: Data Consumption
 
 **Purpose:** Deliver processed data to end users and systems.
 
@@ -241,9 +241,9 @@ Tests:
 
 ---
 
-## 2.4 NoSQL Databases
+## 🗃️ 2.4 NoSQL Databases
 
-### Types of NoSQL Databases
+### 🧪 Types of NoSQL Databases
 
 | Type | Structure | Use Case | Examples |
 |------|-----------|----------|----------|
@@ -252,7 +252,7 @@ Tests:
 | **Column-Family** | Columns grouped in families | Time-series, IoT, analytics | Cassandra, HBase |
 | **Graph** | Nodes and relationships | Social networks, fraud detection | Neo4j, Amazon Neptune |
 
-### Key-Value Stores
+### 🔷 Key-Value Stores
 
 **Characteristics:**
 - Simple key-value pairs
@@ -265,7 +265,7 @@ Tests:
 - Expiration/TTL behavior
 - Replication consistency
 
-### Document Stores
+### 🔷 Document Stores
 
 **Characteristics:**
 - Stores documents (JSON, BSON, XML)
@@ -289,7 +289,7 @@ result = db.users.find({age: {$gte: 25}})
 assert(result.count() === 1)
 ```
 
-### Column-Family Stores
+### 🔷 Column-Family Stores
 
 **Characteristics:**
 - Data stored in columns rather than rows
@@ -303,7 +303,7 @@ assert(result.count() === 1)
 - Consistency level behavior
 - Compaction and tombstone handling
 
-### Graph Databases
+### 🗃️ Graph Databases
 
 **Characteristics:**
 - Nodes (entities) and edges (relationships)
@@ -318,9 +318,9 @@ assert(result.count() === 1)
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Testing a MapReduce Job
+### 💡 Worked Example 1: Testing a MapReduce Job
 
 **Scenario:** A MapReduce job calculates total sales per region.
 
@@ -351,7 +351,7 @@ East,300
 | Negative amount | North,-50 | North=50 | Handle negatives |
 | Null region | null,100 | Error table or default | Bad data handling |
 
-### Worked Example 2: Spark DataFrame Transformation Test
+### 💡 Worked Example 2: Spark DataFrame Transformation Test
 
 **Scenario:** A Spark job cleanses customer data.
 
@@ -381,7 +381,7 @@ Diana,diana@email.com,+1-555-555-5555,40
 - Phone format: All match +1-XXX-XXX-XXXX
 - Age type: Integer, all positive
 
-### Worked Example 3: Data Flow Validation
+### 💡 Worked Example 3: Data Flow Validation
 
 **Scenario:** An e-commerce platform's data pipeline.
 

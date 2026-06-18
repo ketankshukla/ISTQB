@@ -1,8 +1,8 @@
-# Chapter 1 — Introduction to API Testing: Practice Questions
+# ❓ Chapter 1 — Introduction to API Testing: Practice Questions
 
 ---
 
-### Q1 (API-1.1, K2)
+### 🔌 Q1 (API-1.1, K2)
 
 An API is BEST described as:
 
@@ -13,7 +13,7 @@ D. A programming language
 
 ---
 
-### Q2 (API-1.2, K2)
+### 🔌 Q2 (API-1.2, K2)
 
 Which API type uses a query language where clients specify exactly what data they need?
 
@@ -24,7 +24,7 @@ D. RPC
 
 ---
 
-### Q3 (API-1.3, K2)
+### 🔌 Q3 (API-1.3, K2)
 
 Which HTTP method is used to create a new resource?
 
@@ -35,7 +35,7 @@ D. DELETE
 
 ---
 
-### Q4 (API-1.3, K2)
+### 🔌 Q4 (API-1.3, K2)
 
 Which HTTP status code indicates that a resource was successfully created?
 
@@ -46,7 +46,7 @@ D. 404 Not Found
 
 ---
 
-### Q5 (API-1.3, K3)
+### 🔌 Q5 (API-1.3, K3)
 
 A user sends a request without an authentication token. The API should return:
 
@@ -57,7 +57,7 @@ D. 404 Not Found
 
 ---
 
-### Q6 (API-1.2, K2)
+### 🔌 Q6 (API-1.2, K2)
 
 SOAP is BEST characterized as:
 
@@ -68,7 +68,7 @@ D. A replacement for HTTP
 
 ---
 
-### Q7 (API-1.3, K2)
+### 🔌 Q7 (API-1.3, K2)
 
 Which HTTP method is both safe and idempotent?
 
@@ -79,7 +79,7 @@ D. DELETE
 
 ---
 
-### Q8 (API-1.4, K2)
+### 🔌 Q8 (API-1.4, K2)
 
 A 403 Forbidden status code means:
 
@@ -90,7 +90,7 @@ D. The resource does not exist
 
 ---
 
-### Q9 (API-1.5, K2)
+### 🔌 Q9 (API-1.5, K2)
 
 In a microservices architecture, APIs are typically:
 
@@ -101,7 +101,7 @@ D. Replaced by direct database access
 
 ---
 
-### Q10 (API-1.6, K2)
+### 🔌 Q10 (API-1.6, K2)
 
 OpenAPI (formerly Swagger) is used to:
 
@@ -112,7 +112,7 @@ D. Encrypt API communications
 
 ---
 
-### Q11 (API-1.3, K3)
+### 🔌 Q11 (API-1.3, K3)
 
 A client sends the same PUT request three times. Each time, the result is the same resource state. This demonstrates:
 
@@ -123,7 +123,7 @@ D. Authentication
 
 ---
 
-### Q12 (API-1.2, K2)
+### 🔌 Q12 (API-1.2, K2)
 
 Which API type is most likely to use WSDL for its contract?
 
@@ -134,7 +134,7 @@ D. WebSocket
 
 ---
 
-### Q13 (API-1.4, K2)
+### 🔌 Q13 (API-1.4, K2)
 
 A 503 Service Unavailable status code indicates:
 
@@ -145,7 +145,7 @@ D. The client is not authorized
 
 ---
 
-### Q14 (API-1.3, K3)
+### 🔌 Q14 (API-1.3, K3)
 
 Which HTTP method should be used to partially update an existing resource?
 
@@ -156,7 +156,7 @@ D. DELETE
 
 ---
 
-### Q15 (API-1.5, K2)
+### 🔌 Q15 (API-1.5, K2)
 
 A monolithic architecture typically has:
 
@@ -167,7 +167,7 @@ D. Only external APIs
 
 ---
 
-### Q16 (API-1.2, K3)
+### 🔌 Q16 (API-1.2, K3)
 
 A mobile application needs to fetch user profile, recent orders, and order details in a single request to minimize network calls. The BEST API type is:
 
@@ -178,7 +178,7 @@ D. RPC with multiple calls
 
 ---
 
-### Q17 (API-1.3, K2)
+### 🔌 Q17 (API-1.3, K2)
 
 A 409 Conflict status code is returned when:
 
@@ -189,7 +189,7 @@ D. The resource was moved
 
 ---
 
-### Q18 (API-1.6, K2)
+### 🔌 Q18 (API-1.6, K2)
 
 API documentation is important for testing because it:
 
@@ -200,7 +200,7 @@ D. Makes the API run faster
 
 ---
 
-### Q19 (API-1.3, K3)
+### 🔌 Q19 (API-1.3, K3)
 
 A client sends a DELETE request to `/users/123` twice. The first request succeeds (204). The second request returns 404. This behavior:
 
@@ -211,7 +211,7 @@ D. Requires POST instead of DELETE
 
 ---
 
-### Q20 (API-1.4, K2)
+### 🔌 Q20 (API-1.4, K2)
 
 Which status code range represents client errors?
 
@@ -222,104 +222,104 @@ D. 5xx
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** An API is a set of protocols for software communication.
 
-### Q2
+### 🔷 Q2
 **Answer: C**
 
 **Rationale:** GraphQL is a query language where clients specify exactly what data they need.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** POST is used to create new resources.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** 201 Created indicates a resource was successfully created.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** 401 Unauthorized = missing or invalid authentication.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** SOAP is a protocol that uses XML messages.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** GET is both safe (does not modify) and idempotent (same result every time).
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** 403 = authenticated but not authorized. 401 = not authenticated.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** Microservices = each service has its own API.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** OpenAPI describes REST APIs in a machine-readable format.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 
 **Rationale:** Same result after multiple identical requests = idempotency.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** WSDL is the contract definition language for SOAP.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** 503 = server temporarily unavailable.
 
-### Q14
+### 🔷 Q14
 **Answer: C**
 
 **Rationale:** PATCH is for partial updates. PUT is for full replacement.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** Monolithic = single codebase with one API.
 
-### Q16
+### 🔷 Q16
 **Answer: C**
 
 **Rationale:** GraphQL fetches related data in a single query.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 
 **Rationale:** 409 = request conflicts with current resource state.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 
 **Rationale:** API docs provide the specification from which test conditions are derived.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** Returning 404 on second DELETE is acceptable — the resource is gone, which is the intended state.
 
-### Q20
+### 🔷 Q20
 **Answer: C**
 
 **Rationale:** 4xx = client errors. 5xx = server errors.

@@ -1,10 +1,10 @@
-# CTFL-PT Mock Exam 1
+# 📝 CTFL-PT Mock Exam 1
 
 **Instructions:** 20 questions, 40 minutes. Single best answer.
 
 ---
 
-### Q1
+### 🔷 Q1
 
 Performance testing determines:
 
@@ -15,7 +15,7 @@ D. Only user interface
 
 ---
 
-### Q2
+### 🔷 Q2
 
 Load testing evaluates:
 
@@ -26,7 +26,7 @@ D. Only security
 
 ---
 
-### Q3
+### 🔷 Q3
 
 A sudden increase in load to test system reaction is:
 
@@ -37,7 +37,7 @@ D. Volume testing
 
 ---
 
-### Q4
+### 🔷 Q4
 
 The 90th percentile response time:
 
@@ -48,7 +48,7 @@ D. Only applies to load tests
 
 ---
 
-### Q5
+### 🔷 Q5
 
 A production-like test environment:
 
@@ -59,7 +59,7 @@ D. Is only for developers
 
 ---
 
-### Q6
+### 🔷 Q6
 
 Baseline capture before testing:
 
@@ -70,7 +70,7 @@ D. Only applies to stress tests
 
 ---
 
-### Q7
+### 🔷 Q7
 
 High disk queue length indicates:
 
@@ -81,7 +81,7 @@ D. Only network issue
 
 ---
 
-### Q8
+### 🔷 Q8
 
 Think time in workload modeling:
 
@@ -92,7 +92,7 @@ D. Only applies to mobile
 
 ---
 
-### Q9
+### 🔷 Q9
 
 Endurance testing detects:
 
@@ -103,7 +103,7 @@ D. Only security flaws
 
 ---
 
-### Q10
+### 🔷 Q10
 
 Scalability testing evaluates:
 
@@ -114,7 +114,7 @@ D. Only documentation
 
 ---
 
-### Q11
+### 🔷 Q11
 
 A performance test report should include:
 
@@ -125,7 +125,7 @@ D. Only pass/fail status
 
 ---
 
-### Q12
+### 🔷 Q12
 
 Throughput is measured in:
 
@@ -136,7 +136,7 @@ D. User count
 
 ---
 
-### Q13
+### 🔷 Q13
 
 Stress testing also evaluates:
 
@@ -147,7 +147,7 @@ D. Only color schemes
 
 ---
 
-### Q14
+### 🔷 Q14
 
 Monitoring during execution should track:
 
@@ -158,7 +158,7 @@ D. Only test duration
 
 ---
 
-### Q15
+### 🔷 Q15
 
 The breakpoint is:
 
@@ -169,7 +169,7 @@ D. Only the normal load
 
 ---
 
-### Q16
+### 🔷 Q16
 
 A smoke test before performance testing:
 
@@ -180,7 +180,7 @@ D. Only checks network speed
 
 ---
 
-### Q17
+### 🔷 Q17
 
 Volume testing uses:
 
@@ -191,7 +191,7 @@ D. Only images
 
 ---
 
-### Q18
+### 🔷 Q18
 
 If 95th percentile response time is 3 seconds but average is 1 second:
 
@@ -202,7 +202,7 @@ D. Only the network is slow
 
 ---
 
-### Q19
+### 🔷 Q19
 
 Ramp-up phase is used to:
 
@@ -213,7 +213,7 @@ D. Only collect baseline
 
 ---
 
-### Q20
+### 🔷 Q20
 
 For a new website expecting 10,000 concurrent users, the first test should be:
 
@@ -224,7 +224,7 @@ D. Only endurance testing
 
 ---
 
-## Answer Key
+## ✔️ Answer Key
 
 | Q | Answer | Q | Answer | Q | Answer | Q | Answer |
 |---|--------|---|--------|---|--------|---|--------|

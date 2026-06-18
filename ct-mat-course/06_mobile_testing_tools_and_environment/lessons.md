@@ -1,10 +1,10 @@
-# Chapter 6 — Mobile Testing Tools and Environment: Lessons
+# 📘 Chapter 6 — Mobile Testing Tools and Environment: Lessons
 
 ---
 
-## 6.1 Development and Debugging Tools
+## 🐞 6.1 Development and Debugging Tools
 
-### Android Studio
+### 🔷 Android Studio
 
 | Tool | Purpose |
 |------|---------|
@@ -14,7 +14,7 @@
 | **Device Manager** | Manage emulators and physical devices |
 | **APK Analyzer** | Inspect APK contents, size, dependencies |
 
-### Xcode
+### 🔷 Xcode
 
 | Tool | Purpose |
 |------|---------|
@@ -24,7 +24,7 @@
 | **Simulator** | iOS device simulation |
 | **Organizer** | Crash logs, energy reports |
 
-### ADB (Android Debug Bridge)
+### 🐞 ADB (Android Debug Bridge)
 
 **Common commands:**
 
@@ -39,9 +39,9 @@ adb shell am start -n com.app/.Activity  # Launch activity
 
 ---
 
-## 6.2 Device Farms and Cloud Testing
+## ⭐ 6.2 Device Farms and Cloud Testing
 
-### Firebase Test Lab
+### 🔷 Firebase Test Lab
 
 | Feature | Details |
 |---------|---------|
@@ -50,7 +50,7 @@ adb shell am start -n com.app/.Activity  # Launch activity
 | **Tests** | Instrumentation, Robo test, Game Loop |
 | **Pricing** | Free tier: 100 physical, 500 virtual device minutes/day |
 
-### AWS Device Farm
+### 🔷 AWS Device Farm
 
 | Feature | Details |
 |---------|---------|
@@ -59,7 +59,7 @@ adb shell am start -n com.app/.Activity  # Launch activity
 | **Tests** | Appium, Espresso, XCUITest, Calabash |
 | **Features** | Remote access, custom environments |
 
-### BrowserStack App Automate
+### ⚙️ BrowserStack App Automate
 
 | Feature | Details |
 |---------|---------|
@@ -68,7 +68,7 @@ adb shell am start -n com.app/.Activity  # Launch activity
 | **Integration** | Strong CI/CD integration |
 | **Features** | Local testing, network simulation, geolocation |
 
-### Sauce Labs
+### 🔷 Sauce Labs
 
 | Feature | Details |
 |---------|---------|
@@ -78,9 +78,9 @@ adb shell am start -n com.app/.Activity  # Launch activity
 
 ---
 
-## 6.3 Beta Testing Distribution
+## ⭐ 6.3 Beta Testing Distribution
 
-### iOS: TestFlight
+### 🔷 iOS: TestFlight
 
 | Aspect | Details |
 |--------|---------|
@@ -89,7 +89,7 @@ adb shell am start -n com.app/.Activity  # Launch activity
 | **Build Processing** | Apple reviews beta builds (usually faster than App Store) |
 | **Feedback** | Crash reports, screenshots, tester feedback |
 
-### Android: Google Play Console
+### 🔷 Android: Google Play Console
 
 | Track | Purpose | Audience |
 |-------|---------|----------|
@@ -98,7 +98,7 @@ adb shell am start -n com.app/.Activity  # Launch activity
 | **Open** | Public beta | Anyone can join |
 | **Production** | Live release | All users |
 
-### Other Distribution Tools
+### 🛠️ Other Distribution Tools
 
 | Tool | Use Case |
 |------|----------|
@@ -109,9 +109,9 @@ adb shell am start -n com.app/.Activity  # Launch activity
 
 ---
 
-## 6.4 Profiling and Performance Tools
+## 🛠️ 6.4 Profiling and Performance Tools
 
-### Android
+### 🔷 Android
 
 | Tool | Metric |
 |------|--------|
@@ -121,7 +121,7 @@ adb shell am start -n com.app/.Activity  # Launch activity
 | **LeakCanary** | Memory leak detection |
 | **StrictMode** | Detect slow operations on main thread |
 
-### iOS
+### 🔷 iOS
 
 | Tool | Metric |
 |------|--------|
@@ -131,16 +131,16 @@ adb shell am start -n com.app/.Activity  # Launch activity
 
 ---
 
-## 6.5 Test Management for Mobile
+## 🗂️ 6.5 Test Management for Mobile
 
-### Considerations
+### 🔷 Considerations
 
 - **Device inventory:** Track which devices are available and who is using them
 - **Test results:** Collect results from emulators, simulators, and real devices
 - **Defect tracking:** Mobile-specific fields (device model, OS version, app version)
 - **Screenshot/video:** Essential for mobile bug reports
 
-### Tools
+### 🛠️ Tools
 
 | Tool | Purpose |
 |------|---------|
@@ -151,9 +151,9 @@ adb shell am start -n com.app/.Activity  # Launch activity
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Tool Selection
+### 💡 Worked Example 1: Tool Selection
 
 **Scenario:** A small startup needs mobile testing infrastructure.
 
@@ -165,7 +165,7 @@ adb shell am start -n com.app/.Activity  # Launch activity
 | Performance profiling | Android Profiler + Xcode Instruments | Free (IDE included) |
 | Device management (5 devices) | Shared spreadsheet | Free |
 
-### Worked Example 2: ADB Debugging
+### 💡 Worked Example 2: ADB Debugging
 
 **Scenario:** An app crashes on a specific Android device but not on emulator.
 
@@ -180,7 +180,7 @@ adb shell am start -n com.app/.Activity  # Launch activity
 - Device has 2GB RAM vs emulator's 8GB
 - Fix: Implement image downsampling for low-memory devices
 
-### Worked Example 3: Beta Test Program
+### 💡 Worked Example 3: Beta Test Program
 
 **Scenario:** Launch a public beta for a new fitness app.
 

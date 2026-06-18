@@ -1,6 +1,6 @@
-# Chapter 3 — Agile Testing Tools and Automation
+# 🛠️ Chapter 3 — Agile Testing Tools and Automation
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~20% (~8 questions out of 40)
 - **K-levels:** K2 (understand), K3 (apply)
@@ -8,7 +8,7 @@
 
 ---
 
-## Chapter Map
+## ⭐ Chapter Map
 
 | Section | Topic | K-Level | Exam Importance |
 |---------|-------|---------|-----------------|
@@ -19,7 +19,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -31,7 +31,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts to Master
+## ⭐ Key Concepts to Master
 
 - CI/CD pipeline: build, test, deploy stages
 - Test automation pyramid and its implications for agile
@@ -41,7 +41,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Exam Tips
+## 🎓 Exam Tips
 
 - Know the typical CI/CD pipeline stages and where tests fit
 - Understand why fast feedback is critical in agile

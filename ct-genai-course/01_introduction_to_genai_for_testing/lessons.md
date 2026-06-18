@@ -1,10 +1,10 @@
-# Chapter 1 — Introduction to GenAI for Testing: Lessons
+# 📘 Chapter 1 — Introduction to GenAI for Testing: Lessons
 
 ---
 
-## 1.1 GenAI Foundations and Key Concepts
+## 🤖 1.1 GenAI Foundations and Key Concepts
 
-### AI and Machine Learning Fundamentals (GenAI-1.1.1, K1)
+### 🎯 AI and Machine Learning Fundamentals (GenAI-1.1.1, K1)
 
 **Artificial Intelligence (AI)** refers to computer systems that can perform tasks typically requiring human intelligence, such as understanding language, recognizing patterns, making decisions, and learning from experience.
 
@@ -57,7 +57,7 @@ Understanding that LLMs are trained (not programmed) explains why they:
 - Can exhibit emergent behaviors not explicitly designed
 - Require different validation approaches than traditional software
 
-### Discriminative vs Generative Models (GenAI-1.1.2, K2)
+### 📐 Discriminative vs Generative Models (GenAI-1.1.2, K2)
 
 This distinction is fundamental and frequently tested. Understanding it deeply will help you answer approximately 2-3 exam questions correctly.
 
@@ -100,7 +100,7 @@ Generative models learn **P(x)** or **P(x|y)** — the probability of the data i
 **Can the same architecture be both?**
 Yes. A BERT model can be used discriminatively (classification) or, with additional training, used to generate text. A GPT model's core capability is generative, but you can also use it discriminatively by asking "Classify this bug report as high/medium/low severity" and treating its output as a classification. However, in the CT-GenAI syllabus context, GPT-style LLMs are treated as generative because that is their primary mode of use in testing.
 
-### Key Concepts of Generative AI (GenAI-1.1.3, K2)
+### 🤖 Key Concepts of Generative AI (GenAI-1.1.3, K2)
 
 **Generative AI (GenAI)** is AI capable of generating new content — including text, images, audio, code, and video — that is similar to but distinct from its training data.
 
@@ -183,9 +183,9 @@ When processing the sentence "The tester found the bug in the login module," the
 
 ---
 
-## 1.2 Leveraging GenAI in Software Testing: Core Principles
+## 📜 1.2 Leveraging GenAI in Software Testing: Core Principles
 
-### Capabilities of GenAI for Testing (GenAI-1.2.1, K1)
+### 🤖 Capabilities of GenAI for Testing (GenAI-1.2.1, K1)
 
 Generative AI can support testing activities across the entire testing lifecycle:
 
@@ -252,7 +252,7 @@ Generative AI can support testing activities across the entire testing lifecycle
 
 **Important principle (tested at K1 and K2):** GenAI augments testers; it does not replace them. Human review is essential at every stage. The tester remains the quality gatekeeper. The LLM is a powerful tool, but like any tool, it requires skilled hands to use effectively.
 
-### Core Principles of Using GenAI in Testing (GenAI-1.2.2, K2)
+### 📜 Core Principles of Using GenAI in Testing (GenAI-1.2.2, K2)
 
 **Principle 1: Human-in-the-Loop**
 All GenAI outputs must be reviewed, validated, and approved by a human tester before being used in production testing. The tester remains accountable for test quality.
@@ -349,9 +349,9 @@ GenAI-generated test artifacts must be evaluated against the same quality criter
 
 ---
 
-## 1.3 Limitations of Generative AI
+## 🤖 1.3 Limitations of Generative AI
 
-### Understanding Limitations (GenAI-1.3.1, K2)
+### 🤖 Understanding Limitations (GenAI-1.3.1, K2)
 
 **Hallucinations:**
 Hallucinations are the most discussed and most dangerous limitation of LLMs. A hallucination occurs when the model generates content that is confident, plausible-sounding, and coherent — but factually incorrect, nonsensical, or entirely fabricated.
@@ -451,7 +451,7 @@ This is the most fundamental limitation. LLMs do not "understand" meaning in a h
 **The philosophical implication for testing:**
 When an LLM generates a test case, it is not "thinking" about whether the test case is good. It is generating the sequence of tokens that is statistically most likely to follow your prompt, based on patterns in its training data. This is why human review is not optional — it is the only way to ensure genuine understanding of the testing task.
 
-### Need for Human Oversight (GenAI-1.3.2, K1)
+### 🤖 Need for Human Oversight (GenAI-1.3.2, K1)
 
 Human oversight is not optional — it is a syllabus-mandated requirement tested at K1 (you must recall and recognize this principle):
 
@@ -479,9 +479,9 @@ Human oversight is not optional — it is a syllabus-mandated requirement tested
 
 ---
 
-## Worked Examples — Applying Chapter 1 Concepts
+## 💡 Worked Examples — Applying Chapter 1 Concepts
 
-### Worked Example 1: Classifying Models in a Testing Context
+### 💡 Worked Example 1: Classifying Models in a Testing Context
 
 **Scenario:** A testing organization uses three AI systems:
 1. System A analyzes historical test results and predicts which test cases are most likely to fail in the next release.
@@ -499,7 +499,7 @@ Human oversight is not optional — it is a syllabus-mandated requirement tested
 
 ---
 
-### Worked Example 2: Identifying Limitations in a Real Scenario
+### 💡 Worked Example 2: Identifying Limitations in a Real Scenario
 
 **Scenario:** A tester uses an LLM to generate test cases for a new tax calculation module. The LLM produces the following test case:
 
@@ -525,7 +525,7 @@ Expected Result: Federal tax = $147,000 (29.4%); State tax = $49,500 (9.9%); Tot
 
 ---
 
-### Worked Example 3: Applying Core Principles
+### 💡 Worked Example 3: Applying Core Principles
 
 **Scenario:** A junior tester on your team starts using ChatGPT to generate test cases for a new payment feature. They copy the generated test cases directly into the test management tool without review. When you ask why, they say "The AI is smarter than me, so I trust it."
 
@@ -550,7 +550,7 @@ Expected Result: Federal tax = $147,000 (29.4%); State tax = $49,500 (9.9%); Tot
 
 ---
 
-### Worked Example 4: Temperature Selection for Testing Tasks
+### 💡 Worked Example 4: Temperature Selection for Testing Tasks
 
 **Scenario:** Your team needs to use an LLM for three different testing tasks:
 1. Generate 50 structured test data records in a fixed JSON schema for API testing

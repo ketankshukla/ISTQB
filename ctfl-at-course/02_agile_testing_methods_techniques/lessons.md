@@ -1,10 +1,10 @@
-# Chapter 2 — Agile Testing Methods and Techniques: Lessons
+# 📘 Chapter 2 — Agile Testing Methods and Techniques: Lessons
 
 ---
 
-## 2.1 Test Levels in Agile
+## 🪜 2.1 Test Levels in Agile
 
-### Test Automation Pyramid
+### ⚙️ Test Automation Pyramid
 
 The **test automation pyramid** illustrates the ideal distribution of automated tests in agile:
 
@@ -76,9 +76,9 @@ An "ice cream cone" has too many UI tests and too few unit tests. This is ineffi
 
 ---
 
-## 2.2 Test Types in Agile
+## 🧪 2.2 Test Types in Agile
 
-### Functional Testing in Agile
+### 🏃 Functional Testing in Agile
 
 **Functional testing** verifies that the system does what it is supposed to do.
 
@@ -88,7 +88,7 @@ In agile, functional testing is:
 - **Performed continuously:** As each story is completed, it is functionally tested.
 - **Confirmed in sprint review:** Stakeholders verify that completed stories meet their needs.
 
-### Non-Functional Testing in Agile
+### 🏃 Non-Functional Testing in Agile
 
 **Non-functional testing** verifies how well the system performs (performance, security, usability, reliability).
 
@@ -98,7 +98,7 @@ In agile, non-functional testing is:
 - **Addressed by specialists:** Performance engineers or security experts may be consulted.
 - **Evaluated incrementally:** Each increment is tested for non-functional qualities, not just at release.
 
-### Regression Testing in Agile
+### 🏃 Regression Testing in Agile
 
 **Regression testing** ensures that changes have not broken existing functionality.
 
@@ -108,7 +108,7 @@ In agile, regression testing is:
 - **Fast:** The automated regression suite must run quickly (ideally under 10 minutes for unit/integration, under 1 hour for full suite).
 - **Continuous:** Regression tests run on every build.
 
-### Confirmation Testing in Agile
+### 🏃 Confirmation Testing in Agile
 
 **Confirmation testing** (re-testing) verifies that a defect fix works.
 
@@ -119,9 +119,9 @@ In agile, confirmation testing is:
 
 ---
 
-## 2.3 Acceptance Test-Driven Development (ATDD)
+## 🤝 2.3 Acceptance Test-Driven Development (ATDD)
 
-### What is ATDD?
+### 🔷 What is ATDD?
 
 ATDD is a collaborative practice where the team defines acceptance tests before development begins. It ensures that:
 - Requirements are understood by all team members before coding starts.
@@ -167,9 +167,9 @@ ATDD is a collaborative practice where the team defines acceptance tests before 
 
 ---
 
-## 2.4 Behavior-Driven Development (BDD)
+## ⭐ 2.4 Behavior-Driven Development (BDD)
 
-### What is BDD?
+### 🔷 What is BDD?
 
 BDD is a development approach that uses natural language constructs to express the behavior of a system. It evolved from TDD and is closely related to ATDD.
 
@@ -228,9 +228,9 @@ Scenario Outline: Discount code validation
 
 ---
 
-## 2.5 Specification by Example
+## 💡 2.5 Specification by Example
 
-### What is Specification by Example?
+### 💡 What is Specification by Example?
 
 Specification by Example (SbE) is a collaborative approach where teams define requirements using concrete examples rather than abstract statements. It ensures:
 - Shared understanding of requirements
@@ -262,9 +262,9 @@ Specification by Example (SbE) is a collaborative approach where teams define re
 
 ---
 
-## 2.6 Exploratory Testing
+## ⭐ 2.6 Exploratory Testing
 
-### What is Exploratory Testing in Agile?
+### 🏃 What is Exploratory Testing in Agile?
 
 Exploratory testing is simultaneous learning, test design, and test execution. In agile, it is essential because:
 - Requirements are not fully known upfront.
@@ -313,9 +313,9 @@ Unlike traditional projects where exploratory testing may be unplanned, in agile
 
 ---
 
-## 2.7 Collaboration in Agile Testing
+## 🏃 2.7 Collaboration in Agile Testing
 
-### Three Amigos
+### 🔷 Three Amigos
 
 The **Three Amigos** is a meeting involving:
 - **Business representative** (product owner, BA) — knows what is needed
@@ -330,7 +330,7 @@ The **Three Amigos** is a meeting involving:
 - Clarified acceptance criteria
 - Agreement on "done" for the story
 
-### Pairing Practices
+### ❓ Pairing Practices
 
 **Developer-Tester Pairing:**
 - Tester and developer work together on a story.
@@ -342,7 +342,7 @@ The **Three Amigos** is a meeting involving:
 - Tester ensures criteria are testable and unambiguous.
 - Business representative clarifies business rules.
 
-### Reviewing Practices
+### ❓ Reviewing Practices
 
 **Reviewing Unit Tests:**
 - Testers review developers' unit tests for completeness.
@@ -356,9 +356,9 @@ The **Three Amigos** is a meeting involving:
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Writing BDD Scenarios
+### 💡 Worked Example 1: Writing BDD Scenarios
 
 **Story:** "As a bank customer, I want to withdraw cash from an ATM so that I can access my money."
 
@@ -397,7 +397,7 @@ Feature: ATM Cash Withdrawal
 - Then describes the expected outcomes
 - Multiple Then steps are allowed with "And"
 
-### Worked Example 2: Test Automation Pyramid Application
+### 💡 Worked Example 2: Test Automation Pyramid Application
 
 **Scenario:** A team is automating tests for an e-commerce application. They have:
 - 200 automated UI tests (Selenium)
@@ -430,7 +430,7 @@ This is an **ice cream cone** — too many UI tests, too few unit tests.
 - Better defect localization (unit test failure = specific code issue)
 - Lower cost (unit tests are cheaper to write and maintain)
 
-### Worked Example 3: ATDD Workflow
+### 💡 Worked Example 3: ATDD Workflow
 
 **Story:** "As a user, I want to reset my password so that I can regain access to my account."
 

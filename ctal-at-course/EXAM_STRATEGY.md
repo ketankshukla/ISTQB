@@ -1,6 +1,6 @@
-# CTAL-AT Exam Strategy
+# ♟️ CTAL-AT Exam Strategy
 
-## Exam Format
+## 🎓 Exam Format
 
 - **40 multiple-choice questions** in 90 minutes
 - **65% pass mark** (26 correct answers)
@@ -9,7 +9,7 @@
 
 ---
 
-## Chapter Weighting (Estimated)
+## 🔢 Chapter Weighting (Estimated)
 
 | Chapter | Topic | Estimated Weight | Questions |
 |---------|-------|-----------------|-----------|
@@ -23,7 +23,7 @@
 
 ---
 
-## K-Level Question Patterns
+## ❓ K-Level Question Patterns
 
 | K-Level | What It Tests | Question Style | Example |
 |---------|--------------|----------------|---------|
@@ -38,7 +38,7 @@
 
 ---
 
-## Time Budgeting
+## ⭐ Time Budgeting
 
 | Section | Time | Action |
 |---------|------|--------|
@@ -51,34 +51,34 @@
 
 ---
 
-## Chapter-Specific Tactics
+## 🎓 Chapter-Specific Tactics
 
-### Chapter 1 — Agile Principles and Context
+### 📜 Chapter 1 — Agile Principles and Context
 
 - **K2 trap:** Know the difference between Scrum, Kanban, and XP roles for testers
 - **K3 trap:** Identifying when a team is not truly agile (lack of collaboration, no automation)
 - **Tactic:** Focus on the technical tester's role in agile ceremonies and practices
 
-### Chapter 2 — TDD, BDD, ATDD
+### 🔷 Chapter 2 — TDD, BDD, ATDD
 
 - **K3 trap:** Know the TDD cycle (Red-Green-Refactor) and when to apply it
 - **K3 trap:** Distinguishing BDD (behavior) from TDD (unit) from ATDD (acceptance)
 - **K4 trap:** Given a scenario, identify the most appropriate practice (TDD vs BDD vs ATDD)
 - **Tactic:** Practice explaining the Red-Green-Refactor cycle
 
-### Chapter 3 — Test Automation in Agile
+### ⚙️ Chapter 3 — Test Automation in Agile
 
 - **K3 trap:** Pyramid vs. ice cream cone anti-pattern
 - **K3 trap:** Selecting appropriate automation approach for different test levels
 - **Tactic:** Know the test pyramid and the ice cream cone anti-pattern
 
-### Chapter 4 — CI/CD and DevOps
+### 🔧 Chapter 4 — CI/CD and DevOps
 
 - **K3 trap:** Distinguishing CI from CD (delivery vs. deployment)
 - **K3 trap:** Pipeline design — what goes where in the pipeline
 - **Tactic:** Draw the pipeline mentally: build → unit test → integration → deploy → e2e test
 
-### Chapter 5 — Testing Techniques in Agile
+### 🎯 Chapter 5 — Testing Techniques in Agile
 
 - **K3 trap:** Exploratory testing charters and session-based testing
 - **K3 trap:** Pairwise/combinatorial testing in agile
@@ -86,7 +86,7 @@
 
 ---
 
-## Common Distractor Patterns
+## ⭐ Common Distractor Patterns
 
 1. **Confusing TDD with BDD** — TDD = developer-focused unit tests. BDD = business-readable behavior scenarios.
 2. **Confusing CI with CD** — CI = integrate code frequently. CD = deploy automatically after tests pass.
@@ -97,7 +97,7 @@
 
 ---
 
-## Day-Before Checklist
+## 📋 Day-Before Checklist
 
 - [ ] Review all `exam_traps.md` files (45 min)
 - [ ] Skim `GLOSSARY.md` for forgotten terms (15 min)
@@ -108,7 +108,7 @@
 
 ---
 
-## During the Exam
+## 🎓 During the Exam
 
 1. **Read the scenario first** — For scenario questions, understand the context before the question
 2. **Identify the question type** — K2 (fact), K3 (apply), K4 (analyze)

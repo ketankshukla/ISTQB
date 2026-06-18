@@ -1,4 +1,4 @@
-# CT-API Mock Exam 1
+# 📝 CT-API Mock Exam 1
 
 **Instructions:**
 - 40 questions
@@ -8,7 +8,7 @@
 
 ---
 
-### Q1
+### 🔷 Q1
 
 An API is BEST described as:
 
@@ -19,7 +19,7 @@ D. A programming language
 
 ---
 
-### Q2
+### 🔷 Q2
 
 Which API type uses a query language where clients specify exactly what data they need?
 
@@ -30,7 +30,7 @@ D. RPC
 
 ---
 
-### Q3
+### 🔷 Q3
 
 Which HTTP method is used to create a new resource?
 
@@ -41,7 +41,7 @@ D. DELETE
 
 ---
 
-### Q4
+### 🔷 Q4
 
 Which HTTP status code indicates that a resource was successfully created?
 
@@ -52,7 +52,7 @@ D. 404 Not Found
 
 ---
 
-### Q5
+### 🔷 Q5
 
 A user sends a request without an authentication token. The API should return:
 
@@ -63,7 +63,7 @@ D. 404 Not Found
 
 ---
 
-### Q6
+### 🔷 Q6
 
 SOAP is BEST characterized as:
 
@@ -74,7 +74,7 @@ D. A replacement for HTTP
 
 ---
 
-### Q7
+### 🔷 Q7
 
 Which HTTP method is both safe and idempotent?
 
@@ -85,7 +85,7 @@ D. DELETE
 
 ---
 
-### Q8
+### 🔷 Q8
 
 A 403 Forbidden status code means:
 
@@ -96,7 +96,7 @@ D. The resource does not exist
 
 ---
 
-### Q9
+### 🔷 Q9
 
 Test conditions for API testing are MOST commonly derived from:
 
@@ -107,7 +107,7 @@ D. Marketing brochures
 
 ---
 
-### Q10
+### 🔷 Q10
 
 Equivalence partitioning for an API parameter divides input data into:
 
@@ -118,7 +118,7 @@ D. Only valid values
 
 ---
 
-### Q11
+### 🔷 Q11
 
 For a numeric parameter with valid range 10-100, boundary value tests should include:
 
@@ -129,7 +129,7 @@ D. Random values between 10 and 100
 
 ---
 
-### Q12
+### 🔷 Q12
 
 Negative testing for an API involves:
 
@@ -140,7 +140,7 @@ D. Testing with production data only
 
 ---
 
-### Q13
+### 🔷 Q13
 
 Postman is primarily used for:
 
@@ -151,7 +151,7 @@ D. Server deployment
 
 ---
 
-### Q14
+### 🔷 Q14
 
 Which test data strategy creates data before each test and cleans up afterward?
 
@@ -162,7 +162,7 @@ D. Shared global data
 
 ---
 
-### Q15
+### 🔷 Q15
 
 A mock server is used to:
 
@@ -173,7 +173,7 @@ D. Generate API documentation
 
 ---
 
-### Q16
+### 🔷 Q16
 
 REST Assured is a test automation framework for:
 
@@ -184,7 +184,7 @@ D. C#
 
 ---
 
-### Q17
+### 🔷 Q17
 
 Data-driven testing for APIs is BEST described as:
 
@@ -195,7 +195,7 @@ D. Using only static, hard-coded data
 
 ---
 
-### Q18
+### 🔷 Q18
 
 API smoke tests in a CI pipeline should:
 
@@ -206,7 +206,7 @@ D. Replace unit tests entirely
 
 ---
 
-### Q19
+### 🔷 Q19
 
 Basic Authentication sends credentials:
 
@@ -217,7 +217,7 @@ D. Using OAuth2
 
 ---
 
-### Q20
+### 🔷 Q20
 
 OAuth2 is primarily a framework for:
 
@@ -228,7 +228,7 @@ D. Generating API documentation
 
 ---
 
-### Q21
+### 🔷 Q21
 
 A user changes a URL parameter from `/users/123/orders` to `/users/124/orders` and accesses another user's data. This is:
 
@@ -239,7 +239,7 @@ D. A caching problem
 
 ---
 
-### Q22
+### 🔷 Q22
 
 An API returns a user's password hash in a profile response. This is:
 
@@ -250,7 +250,7 @@ D. Normal REST practice
 
 ---
 
-### Q23
+### 🔷 Q23
 
 Sending `{"username": "admin' OR '1'='1"}` to test an API is checking for:
 
@@ -261,7 +261,7 @@ D. Buffer overflow
 
 ---
 
-### Q24
+### 🔷 Q24
 
 Load testing verifies:
 
@@ -272,7 +272,7 @@ D. The API's documentation accuracy
 
 ---
 
-### Q25
+### 🔷 Q25
 
 Stress testing is used to:
 
@@ -283,7 +283,7 @@ D. Verify user authentication
 
 ---
 
-### Q26
+### 🔷 Q26
 
 Consumer-driven contract testing is BEST described as:
 
@@ -294,7 +294,7 @@ D. Only manual testing of API contracts
 
 ---
 
-### Q27
+### 🔷 Q27
 
 JSON Schema is used to:
 
@@ -305,7 +305,7 @@ D. Encrypt API responses
 
 ---
 
-### Q28
+### 🔷 Q28
 
 Which API versioning approach keeps URLs unchanged?
 
@@ -316,7 +316,7 @@ D. No versioning
 
 ---
 
-### Q29
+### 🔷 Q29
 
 Adding a new optional field to an API response is:
 
@@ -327,7 +327,7 @@ D. Only allowed in major version releases
 
 ---
 
-### Q30
+### 🔷 Q30
 
 An API team renames a response field from `name` to `fullName`. This is:
 
@@ -338,7 +338,7 @@ D. Automatically handled by all clients
 
 ---
 
-### Q31
+### 🔷 Q31
 
 A team needs to test login with 20 different username/password combinations. The BEST approach is:
 
@@ -349,7 +349,7 @@ D. Use a loop inside a single test with no assertions
 
 ---
 
-### Q32
+### 🔷 Q32
 
 In a CI/CD pipeline, API regression tests should typically run:
 
@@ -360,7 +360,7 @@ D. Only when manually triggered
 
 ---
 
-### Q33
+### 🔷 Q33
 
 A valid JWT with a modified payload (but original signature) is sent to an API. A secure API should:
 
@@ -371,7 +371,7 @@ D. Return a cached response
 
 ---
 
-### Q34
+### 🔷 Q34
 
 A team needs to verify that an API can handle sustained traffic for 8 hours without memory leaks. They should perform:
 
@@ -382,7 +382,7 @@ D. Spike testing
 
 ---
 
-### Q35
+### 🔷 Q35
 
 Which OWASP API Security risk involves users accessing endpoints beyond their role?
 
@@ -393,7 +393,7 @@ D. Security Misconfiguration
 
 ---
 
-### Q36
+### 🔷 Q36
 
 When a client exceeds the API rate limit, the expected HTTP status code is:
 
@@ -404,7 +404,7 @@ D. 500 Internal Server Error
 
 ---
 
-### Q37
+### 🔷 Q37
 
 Pact is a tool primarily used for:
 
@@ -415,7 +415,7 @@ D. UI automation
 
 ---
 
-### Q38
+### 🔷 Q38
 
 Schema validation in API testing helps:
 
@@ -426,7 +426,7 @@ D. Replace the need for functional testing
 
 ---
 
-### Q39
+### 🔷 Q39
 
 A test script uses a hard-coded API token. The MAIN risk is:
 
@@ -437,7 +437,7 @@ D. The token is too long
 
 ---
 
-### Q40
+### 🔷 Q40
 
 A testing team wants to improve the maintainability of their API automation. They should adopt:
 
@@ -448,4 +448,4 @@ D. Fewer automated tests
 
 ---
 
-## End of Mock Exam 1
+## 📝 End of Mock Exam 1

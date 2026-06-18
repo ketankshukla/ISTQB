@@ -1,10 +1,10 @@
-# Chapter 3 — Agile Testing Tools and Automation: Lessons
+# 📘 Chapter 3 — Agile Testing Tools and Automation: Lessons
 
 ---
 
-## 3.1 Continuous Integration and Continuous Delivery
+## 🔗 3.1 Continuous Integration and Continuous Delivery
 
-### What is Continuous Integration (CI)?
+### 🔗 What is Continuous Integration (CI)?
 
 Continuous Integration is the practice of frequently merging code changes into a shared repository, with automated builds and tests running on each merge.
 
@@ -31,7 +31,7 @@ Code Commit → Build → Unit Tests → Integration Tests → Code Analysis →
 | Before deployment | Smoke tests | Verify basic functionality in staging |
 | On schedule | Full regression | Comprehensive validation |
 
-### What is Continuous Delivery (CD)?
+### 🔷 What is Continuous Delivery (CD)?
 
 Continuous Delivery extends CI by ensuring that code is always in a deployable state. Every change that passes CI can be deployed to production automatically or with minimal manual intervention.
 
@@ -50,7 +50,7 @@ Staging Deploy → Acceptance Tests → Performance Tests → Security Scan → 
 | **Risk** | Lower — human gate before production | Higher — requires very high confidence |
 | **Suitability** | Most agile teams | Teams with mature automation and monitoring |
 
-### Why CI/CD Matters for Agile Testing
+### 🏃 Why CI/CD Matters for Agile Testing
 
 1. **Rapid feedback:** Developers know within minutes if their changes broke something.
 2. **Always releasable:** The system is always in a tested, deployable state.
@@ -60,9 +60,9 @@ Staging Deploy → Acceptance Tests → Performance Tests → Security Scan → 
 
 ---
 
-## 3.2 Test Automation in Agile
+## ⚙️ 3.2 Test Automation in Agile
 
-### Why Automation is Essential in Agile
+### ⚙️ Why Automation is Essential in Agile
 
 In agile, automation is not optional — it is essential because:
 
@@ -72,7 +72,7 @@ In agile, automation is not optional — it is essential because:
 4. **Definition of Done:** "Tested" in the Definition of Done typically means tested with automated tests.
 5. **Confidence:** Automated tests give the team confidence to refactor, change, and release frequently.
 
-### Test Automation Pyramid in Agile
+### ⚙️ Test Automation Pyramid in Agile
 
 The pyramid guides how much automation to create at each level:
 
@@ -94,7 +94,7 @@ The pyramid guides how much automation to create at each level:
 - Tools: Selenium, Cypress, Playwright
 - Should be limited to critical user journeys
 
-### Automation Challenges in Agile
+### ⚙️ Automation Challenges in Agile
 
 **1. Flaky Tests:**
 - Tests that sometimes pass and sometimes fail without code changes.
@@ -122,9 +122,9 @@ The pyramid guides how much automation to create at each level:
 
 ---
 
-## 3.3 Agile Testing Tools
+## 🛠️ 3.3 Agile Testing Tools
 
-### Tool Categories for Agile Testing
+### 🛠️ Tool Categories for Agile Testing
 
 **1. Unit Test Frameworks:**
 - **Purpose:** Enable developers to write and run unit tests.
@@ -161,7 +161,7 @@ The pyramid guides how much automation to create at each level:
 - **Examples:** Datadog, New Relic, Prometheus, Grafana, Splunk, ELK Stack
 - **In agile:** Used to detect production issues quickly, validate releases, inform testing priorities.
 
-### Selecting Tools for Agile Teams
+### 🛠️ Selecting Tools for Agile Teams
 
 **Criteria:**
 - **Integration:** Does it integrate with CI/CD and other tools?
@@ -172,9 +172,9 @@ The pyramid guides how much automation to create at each level:
 
 ---
 
-## 3.4 Automation Challenges in Agile
+## ⚙️ 3.4 Automation Challenges in Agile
 
-### Common Anti-Patterns and Solutions
+### 🔷 Common Anti-Patterns and Solutions
 
 **Anti-Pattern 1: Testing Everything Through the UI**
 - **Problem:** Slow, brittle tests that break with any UI change.
@@ -198,9 +198,9 @@ The pyramid guides how much automation to create at each level:
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: CI/CD Pipeline Design
+### 💡 Worked Example 1: CI/CD Pipeline Design
 
 **Scenario:** A team wants to implement CI/CD for their agile project. Design a pipeline that provides fast feedback while ensuring quality.
 
@@ -241,7 +241,7 @@ The pyramid guides how much automation to create at each level:
 - Fail fast — stop the pipeline at the first failure
 - Feedback is visible to the whole team
 
-### Worked Example 2: Automation Strategy for a New Feature
+### 💡 Worked Example 2: Automation Strategy for a New Feature
 
 **Scenario:** A team is building a payment processing feature. Design an automation strategy following the test automation pyramid.
 
@@ -269,7 +269,7 @@ The pyramid guides how much automation to create at each level:
 - Edge cases (network failure mid-payment, double-submit)
 - Security testing (penetration testing of payment endpoints)
 
-### Worked Example 3: Addressing Flaky Tests
+### 💡 Worked Example 3: Addressing Flaky Tests
 
 **Scenario:** A team has 200 automated UI tests. 15 of them fail intermittently (flaky), causing the CI build to fail randomly. How should the team address this?
 

@@ -1,8 +1,8 @@
-# Chapter 1 — Introduction to DevOps and Quality: Practice Questions
+# ❓ Chapter 1 — Introduction to DevOps and Quality: Practice Questions
 
 ---
 
-### Q1 (QDO-1.1, K1)
+### 🔷 Q1 (QDO-1.1, K1)
 
 DevOps is primarily:
 
@@ -13,7 +13,7 @@ D. Only about faster deployments
 
 ---
 
-### Q2 (QDO-1.2, K1)
+### 🔷 Q2 (QDO-1.2, K1)
 
 The "M" in CALMS stands for:
 
@@ -24,7 +24,7 @@ D. Methodology
 
 ---
 
-### Q3 (QDO-1.3, K2)
+### 🔷 Q3 (QDO-1.3, K2)
 
 The First Way of DevOps (Flow) emphasizes:
 
@@ -35,7 +35,7 @@ D. Only automated testing
 
 ---
 
-### Q4 (QDO-1.4, K2)
+### 🔷 Q4 (QDO-1.4, K2)
 
 In DevOps, quality is:
 
@@ -46,7 +46,7 @@ D. Not important if deployment is fast
 
 ---
 
-### Q5 (QDO-1.1, K1)
+### 🔷 Q5 (QDO-1.1, K1)
 
 A blameless post-mortem focuses on:
 
@@ -57,7 +57,7 @@ D. Ignoring the incident
 
 ---
 
-### Q6 (QDO-1.2, K2)
+### 🔷 Q6 (QDO-1.2, K2)
 
 Value stream mapping helps:
 
@@ -68,7 +68,7 @@ D. Manage project budgets
 
 ---
 
-### Q7 (QDO-1.3, K2)
+### 🔷 Q7 (QDO-1.3, K2)
 
 Shift-left testing means:
 
@@ -79,7 +79,7 @@ D. Only testing during maintenance
 
 ---
 
-### Q8 (QDO-1.4, K2)
+### 🔷 Q8 (QDO-1.4, K2)
 
 Continuous Integration (CI) typically includes:
 
@@ -90,7 +90,7 @@ D. Only unit testing performed monthly
 
 ---
 
-### Q9 (QDO-1.1, K1)
+### 🔷 Q9 (QDO-1.1, K1)
 
 The Second Way of DevOps (Feedback) focuses on:
 
@@ -101,7 +101,7 @@ D. Increasing team size
 
 ---
 
-### Q10 (QDO-1.2, K2)
+### 🔷 Q10 (QDO-1.2, K2)
 
 Small batch sizes in DevOps are preferred because:
 
@@ -112,7 +112,7 @@ D. They are required by all regulators
 
 ---
 
-### Q11 (QDO-1.3, K2)
+### 🔷 Q11 (QDO-1.3, K2)
 
 A/B testing in production is an example of:
 
@@ -123,7 +123,7 @@ D. Unit testing
 
 ---
 
-### Q12 (QDO-1.4, K2)
+### 🔷 Q12 (QDO-1.4, K2)
 
 Mean Time To Recovery (MTTR) measures:
 
@@ -134,7 +134,7 @@ D. Time to run all tests
 
 ---
 
-### Q13 (QDO-1.1, K1)
+### 🔷 Q13 (QDO-1.1, K1)
 
 Infrastructure as Code (IaC) primarily supports:
 
@@ -145,7 +145,7 @@ D. Employee training
 
 ---
 
-### Q14 (QDO-1.2, K2)
+### 🔷 Q14 (QDO-1.2, K2)
 
 Psychological safety in a DevOps team means:
 
@@ -156,7 +156,7 @@ D. Only senior developers can deploy
 
 ---
 
-### Q15 (QDO-1.3, K2)
+### 🔷 Q15 (QDO-1.3, K2)
 
 The Third Way of DevOps emphasizes:
 
@@ -167,7 +167,7 @@ D. Only automation
 
 ---
 
-### Q16 (QDO-1.4, K2)
+### 🔷 Q16 (QDO-1.4, K2)
 
 A team deploys 10 times per day with automated rollback on failure. This demonstrates:
 
@@ -178,7 +178,7 @@ D. No quality gates
 
 ---
 
-### Q17 (QDO-1.1, K1)
+### 🔷 Q17 (QDO-1.1, K1)
 
 Lean principles in DevOps aim to:
 
@@ -189,7 +189,7 @@ D. Hire more people
 
 ---
 
-### Q18 (QDO-1.2, K2)
+### 🔷 Q18 (QDO-1.2, K2)
 
 Shared on-call responsibilities between dev and ops teams support:
 
@@ -200,7 +200,7 @@ D. Only security
 
 ---
 
-### Q19 (QDO-1.3, K2)
+### 🔷 Q19 (QDO-1.3, K2)
 
 A quality gate in a CI/CD pipeline:
 
@@ -211,7 +211,7 @@ D. Replaces all testing
 
 ---
 
-### Q20 (QDO-1.4, K2)
+### 🔷 Q20 (QDO-1.4, K2)
 
 In DevOps, automated acceptance tests in the pipeline primarily support:
 
@@ -222,84 +222,84 @@ D. Only manual testing
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** DevOps = cultural movement, collaboration between dev and ops.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** CALMS = Culture, Automation, Lean, Measurement, Sharing.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** First Way = Flow, optimizing the entire value stream.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** Quality = everyone's responsibility in DevOps.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Blameless post-mortem = focus on system improvements.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Value stream mapping identifies bottlenecks and waste.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Shift-left = testing earlier in lifecycle.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** CI = automated build and test on every commit.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** Second Way = Feedback, detecting problems early.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** Small batches = less risk, faster feedback.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** A/B testing in production = shift-right.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** MTTR = average time to restore service.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** IaC = automated, repeatable environment provisioning.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Psychological safety = safe to report without blame.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Third Way = Continual learning and experimentation.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** 10x daily + rollback = high frequency with safety.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Lean = eliminate waste, optimize flow.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Shared on-call = Sharing and Culture in CALMS.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Quality gate = criteria must be met to progress.
 
-### Q20
+### 🔷 Q20
 **Answer: A**
 **Rationale:** Automated acceptance tests = fast feedback supporting Flow.

@@ -1,8 +1,8 @@
-# Chapter 5 — Infrastructure and Environment Testing: Practice Questions
+# ❓ Chapter 5 — Infrastructure and Environment Testing: Practice Questions
 
 ---
 
-### Q1 (QDO-5.1, K2)
+### 🔷 Q1 (QDO-5.1, K2)
 
 Infrastructure as Code (IaC) should be tested because:
 
@@ -13,7 +13,7 @@ D. Only developers use it
 
 ---
 
-### Q2 (QDO-5.2, K2)
+### 🔷 Q2 (QDO-5.2, K2)
 
 A container vulnerability scan detects a critical CVE. The correct action is:
 
@@ -24,7 +24,7 @@ D. Ignore it if the application works
 
 ---
 
-### Q3 (QDO-5.3, K2)
+### 🔷 Q3 (QDO-5.3, K2)
 
 Environment parity means:
 
@@ -35,7 +35,7 @@ D. Development environments are unnecessary
 
 ---
 
-### Q4 (QDO-5.4, K2)
+### 🔷 Q4 (QDO-5.4, K2)
 
 Configuration drift occurs when:
 
@@ -46,7 +46,7 @@ D. Only in container images
 
 ---
 
-### Q5 (QDO-5.1, K2)
+### 🔷 Q5 (QDO-5.1, K2)
 
 `terraform validate` performs:
 
@@ -57,7 +57,7 @@ D. Only security scanning
 
 ---
 
-### Q6 (QDO-5.2, K2)
+### 🔷 Q6 (QDO-5.2, K2)
 
 Trivy is used for:
 
@@ -68,7 +68,7 @@ D. Code compilation
 
 ---
 
-### Q7 (QDO-5.3, K2)
+### 🔷 Q7 (QDO-5.3, K2)
 
 A smoke test across all environments verifies:
 
@@ -79,7 +79,7 @@ D. Only network latency
 
 ---
 
-### Q8 (QDO-5.4, K2)
+### 🔷 Q8 (QDO-5.4, K2)
 
 Disaster recovery testing should be:
 
@@ -90,7 +90,7 @@ D. Only after a disaster occurs
 
 ---
 
-### Q9 (QDO-5.1, K2)
+### 🔷 Q9 (QDO-5.1, K2)
 
 Kubernetes readiness probes verify:
 
@@ -101,7 +101,7 @@ D. Only disk space
 
 ---
 
-### Q10 (QDO-5.2, K2)
+### 🔷 Q10 (QDO-5.2, K2)
 
 A Helm chart test (`helm test`) runs:
 
@@ -112,7 +112,7 @@ D. Only security scans
 
 ---
 
-### Q11 (QDO-5.3, K2)
+### 🔷 Q11 (QDO-5.3, K2)
 
 RTO (Recovery Time Objective) measures:
 
@@ -123,7 +123,7 @@ D. Time to write a fix
 
 ---
 
-### Q12 (QDO-5.4, K2)
+### 🔷 Q12 (QDO-5.4, K2)
 
 A secret manager like HashiCorp Vault should be tested for:
 
@@ -134,7 +134,7 @@ D. Only logging
 
 ---
 
-### Q13 (QDO-5.1, K2)
+### 🔷 Q13 (QDO-5.1, K2)
 
 `kubeval` validates Kubernetes manifests against:
 
@@ -145,7 +145,7 @@ D. Only container images
 
 ---
 
-### Q14 (QDO-5.2, K2)
+### 🔷 Q14 (QDO-5.2, K2)
 
 Minimizing container image layers improves:
 
@@ -156,7 +156,7 @@ D. Only documentation
 
 ---
 
-### Q15 (QDO-5.3, K2)
+### 🔷 Q15 (QDO-5.3, K2)
 
 Testing environment parity should include:
 
@@ -167,7 +167,7 @@ D. Only the database
 
 ---
 
-### Q16 (QDO-5.4, K2)
+### 🔷 Q16 (QDO-5.4, K2)
 
 A Kubernetes network policy should be tested by:
 
@@ -178,7 +178,7 @@ D. Only monitoring CPU
 
 ---
 
-### Q17 (QDO-5.1, K2)
+### 🔷 Q17 (QDO-5.1, K2)
 
 Checkov is a tool for:
 
@@ -189,7 +189,7 @@ D. Code formatting
 
 ---
 
-### Q18 (QDO-5.2, K2)
+### 🔷 Q18 (QDO-5.2, K2)
 
 Scanning container images for secrets detects:
 
@@ -200,7 +200,7 @@ D. Only network latency
 
 ---
 
-### Q19 (QDO-5.3, K3)
+### 🔷 Q19 (QDO-5.3, K3)
 
 A bug occurs in production but not staging. The first check should be:
 
@@ -211,7 +211,7 @@ D. Only restart the service
 
 ---
 
-### Q20 (QDO-5.4, K2)
+### 🔷 Q20 (QDO-5.4, K2)
 
 RPO (Recovery Point Objective) measures:
 
@@ -222,84 +222,84 @@ D. Time to deploy a fix
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** IaC misconfigurations cause production issues.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** Critical CVEs must be fixed before deployment.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** Parity = similar behavior, not identical size.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** Drift = manual changes differ from IaC.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** `terraform validate` = syntax and config validation.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Trivy = container vulnerability scanner.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Smoke tests verify critical functionality across environments.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** DR must be executed regularly with realistic scenarios.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** Readiness = ready to accept traffic.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** `helm test` = post-deploy verification tests.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** RTO = max acceptable time to restore service.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Secret manager tests = rotation and access prevention.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** `kubeval` validates against K8s API schema.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Fewer layers = better build time, size, security.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Parity includes OS, runtime, and config values.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Network policy tests verify allowed and denied traffic.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Checkov = IaC security/compliance scanner.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Secret scanning detects embedded credentials.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** First check = compare environments for drift/differences.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** RPO = max acceptable data loss in time.

@@ -1,10 +1,10 @@
-# CT-QDO Mock Exam 1
+# 📝 CT-QDO Mock Exam 1
 
 **Instructions:** 40 questions, 60 minutes, single best answer.
 
 ---
 
-### Q1-Q10
+### 🔷 Q1-Q10
 
 1. DevOps is primarily: A) A set of tools B) A cultural movement emphasizing collaboration C) A replacement for agile D) Only faster deployments — **A cultural movement emphasizing collaboration**
 2. The "M" in CALMS: A) Management B) Measurement C) Monitoring D) Methodology — **Measurement**
@@ -19,7 +19,7 @@
 
 ---
 
-### Q11-Q20
+### 🔷 Q11-Q20
 
 11. A/B testing in production: A) Shift-left B) Shift-right C) Static D) Unit — **Shift-right**
 12. MTTR: A) Time to write code B) Average time to restore service C) Deployment approval D) Test execution — **Average time to restore service**
@@ -34,7 +34,7 @@
 
 ---
 
-### Q21-Q30
+### 🔷 Q21-Q30
 
 21. Unit tests in pipeline: A) After acceptance B) First for quick feedback C) Only manual D) Skip if build passes — **First for quick feedback**
 22. Quality gate at 80% coverage: A) Slows unnecessarily B) Ensures minimum testing standard C) Only manual D) Optional — **Ensures minimum testing standard**
@@ -49,7 +49,7 @@
 
 ---
 
-### Q31-Q40
+### 🔷 Q31-Q40
 
 31. Smoke tests: A) All features B) Critical functionality in live C) Only load D) Only security — **Critical functionality in live**
 32. Migration failure recovery: A) Only succeeded B) Rollback restores consistent state C) Only logs D) Only network — **Rollback restores consistent state**
@@ -64,4 +64,4 @@
 
 ---
 
-## End of Mock Exam 1
+## 📝 End of Mock Exam 1

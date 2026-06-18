@@ -1,10 +1,10 @@
-# CT-MAT Mock Exam 3
+# 📝 CT-MAT Mock Exam 3
 
 **Instructions:** 40 questions, 60 minutes, single best answer.
 
 ---
 
-### Q1-Q10
+### 🔷 Q1-Q10
 
 1. Mobile testing: A) Only UI B) Correct function across devices C) Only costs D) Only bugs — **Correct function across devices**
 2. Native Android: A) Swift B) Kotlin/Java C) HTML D) Python — **Kotlin/Java**
@@ -19,7 +19,7 @@
 
 ---
 
-### Q11-Q20
+### 🔷 Q11-Q20
 
 11. iOS lifecycle: A) Activity B) AppDelegate C) Fragment D) Intent — **AppDelegate**
 12. Android onStop: A) Created B) No longer visible C) Focused D) Destroyed — **No longer visible**
@@ -34,7 +34,7 @@
 
 ---
 
-### Q21-Q30
+### 🔷 Q21-Q30
 
 21. Cold start: A) 5s B) 3s C) 10s D) 1min — **3s**
 22. Battery drain: A) Only screen B) Background tasks C) Only size D) Only speed — **Background tasks**
@@ -49,7 +49,7 @@
 
 ---
 
-### Q31-Q40
+### 🔷 Q31-Q40
 
 31. Appium: A) iOS only B) Cross-platform C) Build D) Perf — **Cross-platform**
 32. POM: A) Data from cases B) Logic from locators C) Runner D) Reporting — **Logic from locators**
@@ -64,4 +64,4 @@
 
 ---
 
-## End of Mock Exam 3
+## 📝 End of Mock Exam 3

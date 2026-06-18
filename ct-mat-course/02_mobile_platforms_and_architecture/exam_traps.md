@@ -1,6 +1,6 @@
-# Chapter 2 — Mobile Platforms and Architecture: Exam Traps
+# 🪤 Chapter 2 — Mobile Platforms and Architecture: Exam Traps
 
-## Trap 1: Confusing iOS and Android Lifecycles
+## 🪤 Trap 1: Confusing iOS and Android Lifecycles
 
 **Trap:** iOS uses AppDelegate/SceneDelegate; Android uses Activity callbacks. Different states, different testing.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Thinking All Permissions Work the Same
+## 🪤 Trap 2: Thinking All Permissions Work the Same
 
 **Trap:** iOS and Android have different permission models. iOS prompts once; Android has runtime permissions.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Ignoring Background State Differences
+## 🪤 Trap 3: Ignoring Background State Differences
 
 **Trap:** iOS is more restrictive with background execution than Android. Testing background behavior differs.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Testing UI Without Platform Guidelines
+## 🪤 Trap 4: Testing UI Without Platform Guidelines
 
 **Trap:** Each platform has specific UI patterns. Cross-platform apps that ignore guidelines get rejected or poor ratings.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Assuming Configuration Changes Don't Affect State
+## 🪤 Trap 5: Assuming Configuration Changes Don't Affect State
 
 **Trap:** Configuration changes (rotation, theme, language) destroy and recreate Activities on Android. State must be explicitly saved.
 

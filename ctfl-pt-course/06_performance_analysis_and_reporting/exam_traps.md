@@ -1,6 +1,6 @@
-# Chapter 6 — Performance Analysis and Reporting: Exam Traps
+# 🪤 Chapter 6 — Performance Analysis and Reporting: Exam Traps
 
-## Trap 1: One Metric Identifies the Bottleneck
+## 🪤 Trap 1: One Metric Identifies the Bottleneck
 
 **Trap:** Bottlenecks require correlating multiple metrics across layers.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Performance Reports Only Need Raw Data
+## 🪤 Trap 2: Performance Reports Only Need Raw Data
 
 **Trap:** Reports need analysis, context, and recommendations to be actionable.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: All Recommendations Have Equal Priority
+## 🪤 Trap 3: All Recommendations Have Equal Priority
 
 **Trap:** Recommendations should be prioritized by impact and effort.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Baseline Comparisons Are Optional
+## 🪤 Trap 4: Baseline Comparisons Are Optional
 
 **Trap:** Baseline comparisons are essential for detecting performance changes.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Bottlenecks Are Always in the Application Code
+## 🪤 Trap 5: Bottlenecks Are Always in the Application Code
 
 **Trap:** Bottlenecks can be in infrastructure, configuration, database, or network.
 

@@ -1,6 +1,6 @@
-# Chapter 4 — Reviews: Exam Traps
+# 🪤 Chapter 4 — Reviews: Exam Traps
 
-## Trap 1: Confusing Walkthrough and Inspection
+## 🪤 Trap 1: Confusing Walkthrough and Inspection
 
 **Trap:** Walkthroughs are led by the author and less formal. Inspections are led by a moderator and highly formal.
 
@@ -22,7 +22,7 @@
 
 ---
 
-## Trap 2: Thinking the Author Should Defend in Formal Reviews
+## 🪤 Trap 2: Thinking the Author Should Defend in Formal Reviews
 
 **Trap:** In formal reviews (inspections), the author does NOT defend the work product.
 
@@ -44,7 +44,7 @@
 
 ---
 
-## Trap 3: Confusing Manager and Moderator Roles
+## 🪤 Trap 3: Confusing Manager and Moderator Roles
 
 **Trap:** The manager decides whether to review; the moderator plans and leads the review.
 
@@ -66,7 +66,7 @@
 
 ---
 
-## Trap 4: Thinking Reviews Are for Solving Problems
+## 🪤 Trap 4: Thinking Reviews Are for Solving Problems
 
 **Trap:** Review meetings identify defects; solutions are found during rework, not during the meeting.
 
@@ -88,7 +88,7 @@
 
 ---
 
-## Trap 5: Forgetting Entry and Exit Criteria for Formal Reviews
+## 🪤 Trap 5: Forgetting Entry and Exit Criteria for Formal Reviews
 
 **Trap:** Formal reviews (inspections, technical reviews) require entry and exit criteria.
 
@@ -110,7 +110,7 @@
 
 ---
 
-## Trap 6: Thinking All Review Types Collect Metrics
+## 🪤 Trap 6: Thinking All Review Types Collect Metrics
 
 **Trap:** Only formal reviews (especially inspections) collect and analyze metrics.
 
@@ -132,7 +132,7 @@
 
 ---
 
-## Trap 7: Forgetting that Reviews Can Be Used for Any Work Product
+## 🪤 Trap 7: Forgetting that Reviews Can Be Used for Any Work Product
 
 **Trap:** Reviews apply to more than just code — requirements, designs, test plans, user manuals can all be reviewed.
 
@@ -154,7 +154,7 @@
 
 ---
 
-## Trap 8: Confusing the Number of Reviewers
+## 🪤 Trap 8: Confusing the Number of Reviewers
 
 **Trap:** Too many reviewers make meetings unproductive. Too few miss defects.
 

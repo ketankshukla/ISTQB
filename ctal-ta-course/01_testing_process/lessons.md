@@ -1,10 +1,10 @@
-# Chapter 1 — Testing Process: Lessons
+# 📘 Chapter 1 — Testing Process: Lessons
 
 ---
 
-## 1.1 Testing in Context of a Software Development Lifecycle
+## 🔁 1.1 Testing in Context of a Software Development Lifecycle
 
-### Understanding Software Development Lifecycles (K2)
+### 🔁 Understanding Software Development Lifecycles (K2)
 
 Testing is not an isolated activity. It must be integrated into the software development lifecycle (SDLC) that the organization uses. The CTAL-TA syllabus expects you to understand how test activities map to different lifecycle models.
 
@@ -53,9 +53,9 @@ Testing is not an isolated activity. It must be integrated into the software dev
 
 ---
 
-## 1.2 Test Planning, Monitoring and Control
+## 🗓️ 1.2 Test Planning, Monitoring and Control
 
-### Test Planning (K2)
+### 🗓️ Test Planning (K2)
 
 Test planning is the activity of defining the test objectives and specifying the test activities required to meet those objectives. The test plan is the document that records the test planning.
 
@@ -86,7 +86,7 @@ Test planning is the activity of defining the test objectives and specifying the
 - Define entry criteria for test execution (what must be true before testing starts)
 - Define exit criteria (what must be true for testing to be considered complete)
 
-### Test Monitoring and Control (K2)
+### 🔷 Test Monitoring and Control (K2)
 
 Test monitoring involves ongoing checking of test progress against the plan. Test control involves taking actions to address deviations.
 
@@ -125,9 +125,9 @@ Test monitoring involves ongoing checking of test progress against the plan. Tes
 
 ---
 
-## 1.3 Test Analysis
+## 🔬 1.3 Test Analysis
 
-### What is Test Analysis? (K2)
+### 🔬 What is Test Analysis? (K2)
 
 Test analysis is the activity that identifies **what** needs to be tested. It bridges the gap between the test basis (requirements, user stories, design documents) and test design.
 
@@ -171,9 +171,9 @@ A test condition is an item or event of a component or system that could be veri
 
 ---
 
-## 1.4 Test Design
+## 🎨 1.4 Test Design
 
-### What is Test Design? (K2)
+### 🎨 What is Test Design? (K2)
 
 Test design is the activity that defines **how** something will be tested. It transforms test conditions into test cases and test procedures.
 
@@ -221,9 +221,9 @@ Test design is the activity that defines **how** something will be tested. It tr
 
 ---
 
-## 1.5 Test Implementation
+## ⭐ 1.5 Test Implementation
 
-### What is Test Implementation? (K2)
+### 🔷 What is Test Implementation? (K2)
 
 Test implementation is the activity that prepares everything needed to execute tests.
 
@@ -266,9 +266,9 @@ Test implementation is the activity that prepares everything needed to execute t
 
 ---
 
-## 1.6 Test Execution
+## ⭐ 1.6 Test Execution
 
-### What is Test Execution? (K2)
+### 🔷 What is Test Execution? (K2)
 
 Test execution is the activity of running tests and recording results.
 
@@ -320,9 +320,9 @@ Test execution is the activity of running tests and recording results.
 
 ---
 
-## 1.7 Evaluating Exit Criteria and Reporting
+## 📝 1.7 Evaluating Exit Criteria and Reporting
 
-### Evaluating Exit Criteria (K2)
+### ✅ Evaluating Exit Criteria (K2)
 
 Exit criteria define the conditions that must be met for testing to be considered complete.
 
@@ -368,9 +368,9 @@ Exit criteria define the conditions that must be met for testing to be considere
 
 ---
 
-## 1.8 Test Closure Activities
+## ⭐ 1.8 Test Closure Activities
 
-### What Happens When Testing Ends? (K2)
+### 🔷 What Happens When Testing Ends? (K2)
 
 Test closure is the activity that concludes testing and preserves knowledge for future projects.
 
@@ -398,9 +398,9 @@ Test closure is the activity that concludes testing and preserves knowledge for 
 
 ---
 
-## Worked Examples — Applying Chapter 1 Concepts
+## 💡 Worked Examples — Applying Chapter 1 Concepts
 
-### Worked Example 1: Identifying Test Activities
+### 💡 Worked Example 1: Identifying Test Activities
 
 **Scenario:** A team is using an agile approach with 2-week sprints. During Sprint 5, a developer commits code for the "payment processing" feature on Wednesday. The tester discovers that the test environment is not configured with the payment gateway credentials. The build passes automated unit tests but fails the smoke test in the test environment.
 
@@ -417,7 +417,7 @@ Test closure is the activity that concludes testing and preserves knowledge for 
 
 ---
 
-### Worked Example 2: Test Analysis vs. Test Design
+### 💡 Worked Example 2: Test Analysis vs. Test Design
 
 **Scenario:** A requirement states: "The system shall accept user ages between 18 and 65 inclusive for registration."
 
@@ -439,7 +439,7 @@ Test closure is the activity that concludes testing and preserves knowledge for 
 
 ---
 
-### Worked Example 3: Entry, Suspension, and Exit Criteria
+### 💡 Worked Example 3: Entry, Suspension, and Exit Criteria
 
 **Scenario:** A project is testing a mobile banking app. Testing is planned for 4 weeks. The test plan includes these criteria:
 

@@ -1,11 +1,11 @@
-# CT-UT Mock Exam 3
+# 📝 CT-UT Mock Exam 3
 
 **Instructions:**
 - 40 questions, 60 minutes, single best answer, no negative marking
 
 ---
 
-### Q1
+### 🔷 Q1
 
 According to ISO 9241-11, which component of usability refers to the accuracy and completeness with which users achieve their goals?
 
@@ -16,7 +16,7 @@ D. Learnability
 
 ---
 
-### Q2
+### 🔷 Q2
 
 The UX Honeycomb model includes all of the following EXCEPT:
 
@@ -27,7 +27,7 @@ D. Accessible
 
 ---
 
-### Q3
+### 🔷 Q3
 
 Summative usability testing is PRIMARILY used to:
 
@@ -38,7 +38,7 @@ D. Replace user research
 
 ---
 
-### Q4
+### 🔷 Q4
 
 The think-aloud protocol requires participants to:
 
@@ -49,7 +49,7 @@ D. Work in complete silence
 
 ---
 
-### Q5
+### 🔷 Q5
 
 Heuristic evaluation is conducted by:
 
@@ -60,7 +60,7 @@ D. Automated testing tools
 
 ---
 
-### Q6
+### 🔷 Q6
 
 A cognitive walkthrough is used to evaluate:
 
@@ -71,7 +71,7 @@ D. Code quality
 
 ---
 
-### Q7
+### 🔷 Q7
 
 Which of the following is a sub-characteristic of usability in ISO 25010?
 
@@ -82,7 +82,7 @@ D. Portability
 
 ---
 
-### Q8
+### 🔷 Q8
 
 According to WCAG 2.1 Level AA, the minimum contrast ratio for normal text is:
 
@@ -93,7 +93,7 @@ D. 7:1
 
 ---
 
-### Q9
+### 🔷 Q9
 
 A screen reader is PRIMARILY used by people with:
 
@@ -104,7 +104,7 @@ D. Auditory disabilities
 
 ---
 
-### Q10
+### 🔷 Q10
 
 The industry average SUS score is approximately:
 
@@ -115,7 +115,7 @@ D. 90
 
 ---
 
-### Q11
+### 🔷 Q11
 
 NPS classifies users scoring 9-10 as:
 
@@ -126,7 +126,7 @@ D. Neutral
 
 ---
 
-### Q12
+### 🔷 Q12
 
 A team needs to understand WHY users are confused during checkout. The BEST method is:
 
@@ -137,7 +137,7 @@ D. Guideline review
 
 ---
 
-### Q13
+### 🔷 Q13
 
 Which HTTP method should be used to partially update an existing resource?
 
@@ -148,7 +148,7 @@ D. DELETE
 
 ---
 
-### Q14
+### 🔷 Q14
 
 A "flaky" test is one that:
 
@@ -159,7 +159,7 @@ D. Tests an unimportant feature
 
 ---
 
-### Q15
+### 🔷 Q15
 
 Which framework type is MOST maintainable for a frequently changing web application?
 
@@ -170,7 +170,7 @@ D. Hard-coded XPath in every test
 
 ---
 
-### Q16
+### 🔷 Q16
 
 A TAE fixes a test that fails because the expected result was incorrectly coded. This is:
 
@@ -181,7 +181,7 @@ D. Test retirement
 
 ---
 
-### Q17
+### 🔷 Q17
 
 A team calculates ROI using only initial development costs. The calculated ROI will be:
 
@@ -192,7 +192,7 @@ D. Only valid for the first year
 
 ---
 
-### Q18
+### 🔷 Q18
 
 A dashboard showing ROI trends and automation coverage progress is MOST appropriate for:
 
@@ -203,7 +203,7 @@ D. Business analysts writing requirements
 
 ---
 
-### Q19
+### 🔷 Q19
 
 Big-bang deployment is MOST appropriate when:
 
@@ -214,7 +214,7 @@ D. Management wants minimal risk
 
 ---
 
-### Q20
+### 🔷 Q20
 
 A team has 90% code coverage but frequently ships defects in production. The MOST likely explanation is:
 
@@ -225,7 +225,7 @@ D. Code coverage is the wrong metric to track
 
 ---
 
-### Q21
+### 🔷 Q21
 
 Which metric would BEST indicate that automated tests are finding real defects?
 
@@ -236,7 +236,7 @@ D. Large number of test cases
 
 ---
 
-### Q22
+### 🔷 Q22
 
 A team's TAS uses a commercial tool that the vendor is discontinuing. The BEST action is:
 
@@ -247,7 +247,7 @@ D. Buy 10 years of extra licenses
 
 ---
 
-### Q23
+### 🔷 Q23
 
 A team should allocate approximately what percentage of automation capacity to maintenance?
 
@@ -258,7 +258,7 @@ D. 100%
 
 ---
 
-### Q24
+### 🔷 Q24
 
 In a CI pipeline, the "fail fast" principle means:
 
@@ -269,7 +269,7 @@ D. Stop the pipeline only after all tests complete
 
 ---
 
-### Q25
+### 🔷 Q25
 
 A team automates without clear scope definition. The MOST likely result is:
 
@@ -280,7 +280,7 @@ D. Zero maintenance costs
 
 ---
 
-### Q26
+### 🔷 Q26
 
 The PRIMARY skill a Test Automation Engineer must have is:
 
@@ -291,7 +291,7 @@ D. Graphic design skills
 
 ---
 
-### Q27
+### 🔷 Q27
 
 In the AI hierarchy, which relationship is TRUE?
 
@@ -302,7 +302,7 @@ D. All neural networks are expert systems
 
 ---
 
-### Q28
+### 🔷 Q28
 
 A medical test for a rare disease has 99% accuracy. However, the disease occurs in only 0.5% of the population, and the test never detects it. The accuracy metric is:
 
@@ -313,7 +313,7 @@ D. Sufficient for clinical use
 
 ---
 
-### Q29
+### 🔷 Q29
 
 Which metric is the harmonic mean of precision and recall?
 
@@ -324,7 +324,7 @@ D. AUC-ROC
 
 ---
 
-### Q30
+### 🔷 Q30
 
 A model achieves 95% training accuracy and 70% test accuracy. This indicates:
 
@@ -335,7 +335,7 @@ D. Data leakage
 
 ---
 
-### Q31
+### 🔷 Q31
 
 MLOps is BEST described as:
 
@@ -346,7 +346,7 @@ D. A replacement for data science
 
 ---
 
-### Q32
+### 🔷 Q32
 
 Metamorphic testing is useful for AI because it:
 
@@ -357,7 +357,7 @@ D. Replaces all other testing
 
 ---
 
-### Q33
+### 🔷 Q33
 
 A/B testing compares two AI models by:
 
@@ -368,7 +368,7 @@ D. Comparing training times only
 
 ---
 
-### Q34
+### 🔷 Q34
 
 Fairness in AI means:
 
@@ -379,7 +379,7 @@ D. Only accuracy matters
 
 ---
 
-### Q35
+### 🔷 Q35
 
 SHAP and LIME are techniques for:
 
@@ -390,7 +390,7 @@ D. Cleaning training data
 
 ---
 
-### Q36
+### 🔷 Q36
 
 Autonomous testing at its current level:
 
@@ -401,7 +401,7 @@ D. Is fully independent for all testing activities
 
 ---
 
-### Q37
+### 🔷 Q37
 
 Which is a key ethical principle for AI?
 
@@ -412,7 +412,7 @@ D. Collecting as much data as possible
 
 ---
 
-### Q38
+### 🔷 Q38
 
 A team has 300 UI tests, 50 integration tests, and 30 unit tests. Their suite takes 4 hours to run. The BEST improvement is:
 
@@ -423,7 +423,7 @@ D. Hire more testers to maintain the tests
 
 ---
 
-### Q39
+### 🔷 Q39
 
 In a CI pipeline, which stage should typically run FIRST?
 
@@ -434,7 +434,7 @@ D. Performance load testing
 
 ---
 
-### Q40
+### 🔷 Q40
 
 The relationship between ATDD, BDD, and TDD is BEST described as:
 
@@ -445,4 +445,4 @@ D. Only TDD is appropriate for agile teams
 
 ---
 
-## End of Mock Exam 3
+## 📝 End of Mock Exam 3

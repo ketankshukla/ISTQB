@@ -1,6 +1,6 @@
-# Case Study 2 — Government System Compliance
+# 📂 Case Study 2 — Government System Compliance
 
-## Context
+## ⭐ Context
 
 You are the Compliance Test Manager for GovServices, implementing a new citizen benefits portal for a government agency. The system handles sensitive citizen data and must comply with multiple regulations.
 
@@ -19,7 +19,7 @@ You are the Compliance Test Manager for GovServices, implementing a new citizen 
 
 ---
 
-## Task 1: RAT Planning
+## 🗓️ Task 1: RAT Planning
 
 **Question:** Create a regulation acceptance test plan for the benefits portal.
 
@@ -50,7 +50,7 @@ You are the Compliance Test Manager for GovServices, implementing a new citizen 
 
 ---
 
-## Task 2: Accessibility Testing
+## ⭐ Task 2: Accessibility Testing
 
 **Question:** Design accessibility acceptance tests for the benefits application form.
 
@@ -90,7 +90,7 @@ You are the Compliance Test Manager for GovServices, implementing a new citizen 
 
 ---
 
-## Task 3: Data Protection Testing
+## 🗃️ Task 3: Data Protection Testing
 
 **Question:** Design tests for data protection compliance.
 
@@ -125,7 +125,7 @@ You are the Compliance Test Manager for GovServices, implementing a new citizen 
 
 ---
 
-## Task 4: Audit and Certification
+## ⭐ Task 4: Audit and Certification
 
 **Question:** Prepare evidence for the compliance audit.
 

@@ -1,16 +1,16 @@
-# Chapter 1 — Introduction to Model-Based Testing: Lessons
+# 📘 Chapter 1 — Introduction to Model-Based Testing: Lessons
 
 ---
 
-## 1.1 What is Model-Based Testing?
+## 📐 1.1 What is Model-Based Testing?
 
-### Definition
+### 🔷 Definition
 
 Model-Based Testing (MBT) is a testing approach where test cases are automatically or systematically generated from models that describe the behavior or structure of the system under test (SUT).
 
 **Key Idea:** Instead of writing tests manually from requirements, you create a formal or semi-formal model of the system's behavior, then use tools or systematic methods to generate tests from that model.
 
-### The MBT Process
+### 🔷 The MBT Process
 
 ```
 Requirements → Model → Selection Criteria → Test Generation → Test Execution → Analysis
@@ -38,7 +38,7 @@ Requirements → Model → Selection Criteria → Test Generation → Test Execu
 - Analyze failed tests to identify defects
 - Update model if requirements change
 
-### Why Use MBT?
+### 🔷 Why Use MBT?
 
 **1. Systematic Coverage**
 - Manual test design may miss combinations or edge cases
@@ -64,7 +64,7 @@ Requirements → Model → Selection Criteria → Test Generation → Test Execu
 - The same model can generate tests for different levels (unit, integration, system)
 - Models can be reused across similar features or projects
 
-### When MBT is Appropriate
+### 🔷 When MBT is Appropriate
 
 | Appropriate | Not Appropriate |
 |-------------|-----------------|
@@ -74,7 +74,7 @@ Requirements → Model → Selection Criteria → Test Generation → Test Execu
 | Areas with high defect history | One-time, throwaway prototypes |
 | Regression testing of stable features | Systems where behavior is completely random or unpredictable |
 
-### MBT vs. Traditional Test Design
+### 🎨 MBT vs. Traditional Test Design
 
 | Aspect | Traditional Testing | Model-Based Testing |
 |--------|-------------------|---------------------|
@@ -87,41 +87,41 @@ Requirements → Model → Selection Criteria → Test Generation → Test Execu
 
 ---
 
-## 1.2 Key Terminology
+## ⭐ 1.2 Key Terminology
 
-### Model
+### 📐 Model
 An abstract representation of the behavior, structure, or functionality of the system under test. Models can be:
 - **Formal:** Mathematically precise (e.g., state machines with formal semantics)
 - **Semi-formal:** Diagrams with defined notation but informal semantics (e.g., UML state diagrams)
 - **Informal:** Sketches or tables without strict notation rules
 
-### Abstract Test Case
+### 🔷 Abstract Test Case
 A test case derived from a model that describes the sequence of actions and expected results at the model level, but may not yet have specific concrete input values.
 
-### Concrete Test Case
+### 🔷 Concrete Test Case
 An executable test case with specific input values, preconditions, and expected results that can be run against the SUT.
 
-### Selection Criterion
+### 🔷 Selection Criterion
 A rule that defines which elements of a model must be exercised by generated test cases. Examples:
 - All states must be visited
 - All transitions must be exercised
 - All transition pairs must be exercised
 
-### Coverage
+### 📊 Coverage
 The degree to which model elements are exercised by the generated test suite. Common types:
 - State coverage
 - Transition coverage
 - Transition pair coverage
 - Path coverage
 
-### Test Oracle
+### 🔷 Test Oracle
 The mechanism that determines the expected result for a generated test case. In MBT, the model itself often serves as the oracle — the expected behavior is derived from the model.
 
 ---
 
-## 1.3 Benefits and Limitations of MBT
+## ⭐ 1.3 Benefits and Limitations of MBT
 
-### Benefits
+### 🔷 Benefits
 
 **1. Improved Test Coverage**
 MBT systematically covers model elements according to selection criteria, reducing the risk of missing important test cases.
@@ -146,7 +146,7 @@ Models provide a visual, unambiguous representation of system behavior that can 
 Clear links between:
 - Requirements → Model elements → Generated tests → Test results → Defects
 
-### Limitations
+### 🔷 Limitations
 
 **1. Modeling Effort**
 Creating a good model requires time and expertise. The upfront investment may not pay off for:
@@ -175,7 +175,7 @@ Creating a good model requires time and expertise. The upfront investment may no
 
 ---
 
-## Worked Example: MBT Decision Process
+## 💡 Worked Example: MBT Decision Process
 
 **Scenario:** A bank is developing a new ATM system. Should they use MBT for testing?
 

@@ -1,8 +1,8 @@
-# Chapter 3 — Performance Testing Process: Practice Questions
+# ❓ Chapter 3 — Performance Testing Process: Practice Questions
 
 ---
 
-### Q1 (PT-3.1, K2)
+### 🔷 Q1 (PT-3.1, K2)
 
 Performance test planning should:
 
@@ -13,7 +13,7 @@ D. Only analyze results
 
 ---
 
-### Q2 (PT-3.2, K2)
+### 🔷 Q2 (PT-3.2, K2)
 
 A production-like test environment:
 
@@ -24,7 +24,7 @@ D. Is only for developers
 
 ---
 
-### Q3 (PT-3.3, K2)
+### 🔷 Q3 (PT-3.3, K2)
 
 Test data for performance testing should:
 
@@ -35,7 +35,7 @@ D. Only be created during execution
 
 ---
 
-### Q4 (PT-3.4, K2)
+### 🔷 Q4 (PT-3.4, K2)
 
 Test execution includes:
 
@@ -46,7 +46,7 @@ D. Only error checking
 
 ---
 
-### Q5 (PT-3.5, K2)
+### 🔷 Q5 (PT-3.5, K2)
 
 Identifying a bottleneck involves:
 
@@ -57,7 +57,7 @@ D. Only checking memory
 
 ---
 
-### Q6 (PT-3.6, K2)
+### 🔷 Q6 (PT-3.6, K2)
 
 A performance test report should include:
 
@@ -68,7 +68,7 @@ D. Only pass/fail status
 
 ---
 
-### Q7 (PT-3.1, K2)
+### 🔷 Q7 (PT-3.1, K2)
 
 Success criteria for performance testing:
 
@@ -79,7 +79,7 @@ D. Only apply to load tests
 
 ---
 
-### Q8 (PT-3.2, K2)
+### 🔷 Q8 (PT-3.2, K2)
 
 Using production for performance testing:
 
@@ -90,7 +90,7 @@ D. Is only for internal tools
 
 ---
 
-### Q9 (PT-3.3, K2)
+### 🔷 Q9 (PT-3.3, K2)
 
 Cache warmup before testing:
 
@@ -101,7 +101,7 @@ D. Only affects disk tests
 
 ---
 
-### Q10 (PT-3.4, K2)
+### 🔷 Q10 (PT-3.4, K2)
 
 Monitoring during execution should track:
 
@@ -112,7 +112,7 @@ D. Only test duration
 
 ---
 
-### Q11 (PT-3.5, K2)
+### 🔷 Q11 (PT-3.5, K2)
 
 High disk queue length indicates:
 
@@ -123,7 +123,7 @@ D. Only network issue
 
 ---
 
-### Q12 (PT-3.6, K2)
+### 🔷 Q12 (PT-3.6, K2)
 
 Recommendations in a report should be:
 
@@ -134,7 +134,7 @@ D. Only optional
 
 ---
 
-### Q13 (PT-3.1, K2)
+### 🔷 Q13 (PT-3.1, K2)
 
 Performance test scope defines:
 
@@ -145,7 +145,7 @@ D. Only the team
 
 ---
 
-### Q14 (PT-3.2, K2)
+### 🔷 Q14 (PT-3.2, K2)
 
 Mocking external services in performance tests:
 
@@ -156,7 +156,7 @@ D. Only for integration tests
 
 ---
 
-### Q15 (PT-3.3, K2)
+### 🔷 Q15 (PT-3.3, K2)
 
 Data volume for volume testing should be:
 
@@ -167,7 +167,7 @@ D. Only minimal
 
 ---
 
-### Q16 (PT-3.4, K2)
+### 🔷 Q16 (PT-3.4, K2)
 
 Ramp-up phase is used to:
 
@@ -178,7 +178,7 @@ D. Only collect baseline
 
 ---
 
-### Q17 (PT-3.5, K2)
+### 🔷 Q17 (PT-3.5, K2)
 
 Root cause analysis of performance issues:
 
@@ -189,7 +189,7 @@ D. Only blames infrastructure
 
 ---
 
-### Q18 (PT-3.6, K2)
+### 🔷 Q18 (PT-3.6, K2)
 
 Executive summary in a report should:
 
@@ -200,7 +200,7 @@ D. Only show raw data
 
 ---
 
-### Q19 (PT-3.2, K2)
+### 🔷 Q19 (PT-3.2, K2)
 
 Network latency in test environment should:
 
@@ -211,7 +211,7 @@ D. Only be maximum
 
 ---
 
-### Q20 (PT-3.3, K3)
+### 🔷 Q20 (PT-3.3, K3)
 
 A missing database index would most likely cause:
 
@@ -222,84 +222,84 @@ D. Only network issues
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** Planning = objectives + scope + criteria + tools + environment + schedule.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** Production-like = similar but controlled/safe.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** Data = realistic volume + distribution + variety.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** Execution = baseline + ramp-up + steady + peak + ramp-down + cooldown.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Bottleneck = correlate metrics.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Report = objectives + methodology + results + bottlenecks + recommendations.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Success criteria = pass/fail thresholds.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Production = risks real users.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** Cache warmup = realistic state.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** Monitor = all key metrics.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Disk queue = disk I/O bottleneck.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Recommendations = actionable + prioritized.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Scope = what to test.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Mocking = isolate SUT.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Volume test = large data.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Ramp-up = gradual increase.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Root cause = why bottleneck occurs.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Executive summary = high-level findings.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Network = match production.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** Missing index = slow queries + disk I/O.

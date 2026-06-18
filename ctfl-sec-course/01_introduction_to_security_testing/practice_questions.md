@@ -1,8 +1,8 @@
-# Chapter 1 — Introduction to Security Testing: Practice Questions
+# ❓ Chapter 1 — Introduction to Security Testing: Practice Questions
 
 ---
 
-### Q1 (SEC-1.1, K1)
+### 🔷 Q1 (SEC-1.1, K1)
 
 Security testing determines if a system:
 
@@ -13,7 +13,7 @@ D. Only loads quickly
 
 ---
 
-### Q2 (SEC-1.2, K1)
+### 🔷 Q2 (SEC-1.2, K1)
 
 Confidentiality means:
 
@@ -24,7 +24,7 @@ D. Only encryption
 
 ---
 
-### Q3 (SEC-1.2, K1)
+### 🔷 Q3 (SEC-1.2, K1)
 
 Availability ensures:
 
@@ -35,7 +35,7 @@ D. Only encryption
 
 ---
 
-### Q4 (SEC-1.3, K2)
+### 🔷 Q4 (SEC-1.3, K2)
 
 A vulnerability is:
 
@@ -46,7 +46,7 @@ D. Only a firewall
 
 ---
 
-### Q5 (SEC-1.3, K2)
+### 🔷 Q5 (SEC-1.3, K2)
 
 Risk is calculated as:
 
@@ -57,7 +57,7 @@ D. Only firewall count
 
 ---
 
-### Q6 (SEC-1.4, K1)
+### 🔷 Q6 (SEC-1.4, K1)
 
 SQL injection targets:
 
@@ -68,7 +68,7 @@ D. Only audio
 
 ---
 
-### Q7 (SEC-1.4, K1)
+### 🔷 Q7 (SEC-1.4, K1)
 
 XSS (Cross-Site Scripting) attacks:
 
@@ -79,7 +79,7 @@ D. Only networks
 
 ---
 
-### Q8 (SEC-1.5, K2)
+### 🔷 Q8 (SEC-1.5, K2)
 
 GDPR fines for data breaches represent:
 
@@ -90,7 +90,7 @@ D. Only technical debt
 
 ---
 
-### Q9 (SEC-1.6, K2)
+### 🔷 Q9 (SEC-1.6, K2)
 
 Security testing should begin:
 
@@ -101,7 +101,7 @@ D. Only for bug fixes
 
 ---
 
-### Q10 (SEC-1.2, K1)
+### 🔷 Q10 (SEC-1.2, K1)
 
 Integrity means:
 
@@ -112,7 +112,7 @@ D. Only backup
 
 ---
 
-### Q11 (SEC-1.4, K1)
+### 🔷 Q11 (SEC-1.4, K1)
 
 DoS (Denial of Service) attacks target:
 
@@ -123,7 +123,7 @@ D. Only authentication
 
 ---
 
-### Q12 (SEC-1.3, K2)
+### 🔷 Q12 (SEC-1.3, K2)
 
 A threat actor is:
 
@@ -134,7 +134,7 @@ D. Only an antivirus
 
 ---
 
-### Q13 (SEC-1.5, K2)
+### 🔷 Q13 (SEC-1.5, K2)
 
 Brand damage from a security breach is:
 
@@ -145,7 +145,7 @@ D. Only technical impact
 
 ---
 
-### Q14 (SEC-1.4, K1)
+### 🔷 Q14 (SEC-1.4, K1)
 
 Phishing attacks primarily target:
 
@@ -156,7 +156,7 @@ D. Only hardware
 
 ---
 
-### Q15 (SEC-1.2, K1)
+### 🔷 Q15 (SEC-1.2, K1)
 
 Access control supports:
 
@@ -167,7 +167,7 @@ D. Only performance
 
 ---
 
-### Q16 (SEC-1.3, K2)
+### 🔷 Q16 (SEC-1.3, K2)
 
 A high-likelihood, high-impact threat exploiting a vulnerability results in:
 
@@ -178,7 +178,7 @@ D. Medium risk
 
 ---
 
-### Q17 (SEC-1.6, K2)
+### 🔷 Q17 (SEC-1.6, K2)
 
 Threat modeling occurs during:
 
@@ -189,7 +189,7 @@ D. Only maintenance
 
 ---
 
-### Q18 (SEC-1.4, K1)
+### 🔷 Q18 (SEC-1.4, K1)
 
 Brute force attacks target:
 
@@ -200,7 +200,7 @@ D. Only CSS
 
 ---
 
-### Q19 (SEC-1.5, K2)
+### 🔷 Q19 (SEC-1.5, K2)
 
 System downtime from ransomware is:
 
@@ -211,7 +211,7 @@ D. Only legal
 
 ---
 
-### Q20 (SEC-1.1, K1)
+### 🔷 Q20 (SEC-1.1, K1)
 
 Code review for security is:
 
@@ -222,84 +222,84 @@ D. Only performance testing
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** Security = protect data + maintain functionality under attack.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** Confidentiality = prevent unauthorized access.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** Availability = accessible when needed.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** Vulnerability = exploitable weakness.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Risk = threat + vulnerability + impact.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** SQL injection = database via malicious input.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** XSS = malicious scripts in web pages.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** GDPR fines = legal + financial.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** Security = start at requirements.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** Integrity = prevent unauthorized modification.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** DoS = overwhelm system = availability.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Threat actor = entity acting on threat.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Brand damage = reputational.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Phishing = deception of users.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Access control = confidentiality.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** High likelihood + high impact = high risk.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Threat modeling = design phase.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Brute force = try passwords.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Ransomware = operational + availability.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** Code review = security testing technique.

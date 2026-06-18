@@ -1,10 +1,10 @@
-# Chapter 4 — Security Test Automation: Lessons
+# 📘 Chapter 4 — Security Test Automation: Lessons
 
 ---
 
-## 4.1 Security in CI/CD
+## 🔒 4.1 Security in CI/CD
 
-### Shift-Left Security
+### 🔒 Shift-Left Security
 
 Integrate security testing as early as possible in the development pipeline.
 
@@ -12,7 +12,7 @@ Integrate security testing as early as possible in the development pipeline.
 Commit → SAST → SCA → Build → Unit Tests → DAST → Deploy → Monitoring
 ```
 
-### Pipeline Stages
+### 🔷 Pipeline Stages
 
 | Stage | Tools | Action on Failure |
 |-------|-------|-------------------|
@@ -22,7 +22,7 @@ Commit → SAST → SCA → Build → Unit Tests → DAST → Deploy → Monitor
 | **Staging** | DAST, IAST | Alert, gate release |
 | **Production** | Monitoring, RASP | Alert and respond |
 
-### Quality Gates
+### 💎 Quality Gates
 
 | Gate | Criteria |
 |------|----------|
@@ -33,9 +33,9 @@ Commit → SAST → SCA → Build → Unit Tests → DAST → Deploy → Monitor
 
 ---
 
-## 4.2 Automated Vulnerability Scanning
+## ⚙️ 4.2 Automated Vulnerability Scanning
 
-### Scanning Types
+### 🧪 Scanning Types
 
 | Type | Frequency | Trigger |
 |------|-----------|---------|
@@ -45,7 +45,7 @@ Commit → SAST → SCA → Build → Unit Tests → DAST → Deploy → Monitor
 | **Container scan** | Every build | Image creation |
 | **Infrastructure scan** | Weekly | Schedule |
 
-### Scan Orchestration
+### 🔷 Scan Orchestration
 
 - **Parallel execution:** Run SAST, SCA, and unit tests concurrently
 - **Incremental scanning:** Only scan changed files for speed
@@ -54,13 +54,13 @@ Commit → SAST → SCA → Build → Unit Tests → DAST → Deploy → Monitor
 
 ---
 
-## 4.3 Security-as-Code
+## 🔒 4.3 Security-as-Code
 
-### Definition
+### 🔷 Definition
 
 Security policies, tests, and configurations stored and versioned as code.
 
-### Practices
+### ❓ Practices
 
 | Practice | Implementation |
 |----------|----------------|
@@ -69,7 +69,7 @@ Security policies, tests, and configurations stored and versioned as code.
 | **Compliance as code** | Chef InSpec, OpenSCAP for automated compliance |
 | **Test as code** | Automated security tests in CI pipeline |
 
-### Benefits
+### 🔷 Benefits
 
 - Version control for security rules
 - Automated enforcement
@@ -78,15 +78,15 @@ Security policies, tests, and configurations stored and versioned as code.
 
 ---
 
-## 4.4 False Positive Management
+## 🗂️ 4.4 False Positive Management
 
-### Why False Positives Matter
+### 🔷 Why False Positives Matter
 
 - Alert fatigue leads to ignored findings
 - Wasted investigation time
 - Erosion of trust in security tools
 
-### Strategies
+### 🔷 Strategies
 
 | Strategy | Implementation |
 |----------|----------------|
@@ -96,7 +96,7 @@ Security policies, tests, and configurations stored and versioned as code.
 | **Prioritization** | Focus on high-confidence, high-impact findings |
 | **Correlation** | Cross-reference with other tools |
 
-### Workflow
+### 🔷 Workflow
 
 1. Tool reports finding
 2. Security team triages (true positive / false positive / accepted risk)
@@ -106,9 +106,9 @@ Security policies, tests, and configurations stored and versioned as code.
 
 ---
 
-## 4.5 Security Regression Testing
+## 🔒 4.5 Security Regression Testing
 
-### What to Automate
+### ⚙️ What to Automate
 
 | Test | Purpose |
 |------|---------|
@@ -118,7 +118,7 @@ Security policies, tests, and configurations stored and versioned as code.
 | **Session management** | Ensure tokens still expire |
 | **Security headers** | Ensure HSTS, CSP, X-Frame-Options present |
 
-### Continuous Validation
+### 🔷 Continuous Validation
 
 - Re-run security tests when code changes
 - Compare results to baseline
@@ -127,9 +127,9 @@ Security policies, tests, and configurations stored and versioned as code.
 
 ---
 
-## 4.6 Tool Selection
+## 🛠️ 4.6 Tool Selection
 
-### Criteria
+### ✅ Criteria
 
 | Criterion | Questions |
 |-----------|-----------|
@@ -140,7 +140,7 @@ Security policies, tests, and configurations stored and versioned as code.
 | **Scalability** | Can it handle our codebase size? |
 | **Cost** | License vs open-source? |
 
-### Tool Categories
+### 🛠️ Tool Categories
 
 | Category | Examples |
 |----------|----------|
@@ -153,9 +153,9 @@ Security policies, tests, and configurations stored and versioned as code.
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: CI/CD Pipeline with Security Gates
+### 💡 Worked Example 1: CI/CD Pipeline with Security Gates
 
 **Scenario:** Design a pipeline for a web application.
 
@@ -197,7 +197,7 @@ deploy:
     - main
 ```
 
-### Worked Example 2: False Positive Management
+### 💡 Worked Example 2: False Positive Management
 
 **Scenario:** SAST reports "Hard-coded password" on a config file with a database URL.
 
@@ -207,7 +207,7 @@ deploy:
 | API key in test file | Test-only key, no production access | Suppress with expiration |
 | Actual password in source code | Critical — production credential | Create ticket, rotate, fix |
 
-### Worked Example 3: Security Regression Suite
+### 💡 Worked Example 3: Security Regression Suite
 
 **Scenario:** Automated security tests for a banking API.
 

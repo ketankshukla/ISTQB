@@ -1,6 +1,6 @@
-# Chapter 1 — Introduction to API Testing
+# 🌟 Chapter 1 — Introduction to API Testing
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~10% (~4 questions out of 40)
 - **K-levels:** K2 (understand)
@@ -8,7 +8,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -20,7 +20,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts
+## ⭐ Key Concepts
 
 - API types: REST, SOAP, GraphQL, RPC, WebSocket
 - HTTP methods: GET, POST, PUT, DELETE, PATCH

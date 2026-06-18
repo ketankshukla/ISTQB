@@ -1,4 +1,4 @@
-# CTAL-TA Mock Exam 2
+# 📝 CTAL-TA Mock Exam 2
 
 **Instructions:**
 - 40 questions
@@ -8,7 +8,7 @@
 
 ---
 
-### Q1
+### 🔷 Q1
 
 Which test activity identifies what needs to be tested by deriving test conditions from the test basis?
 
@@ -19,7 +19,7 @@ D. Test Execution
 
 ---
 
-### Q2
+### 🔷 Q2
 
 A field accepts integers from 1 to 100. Using strong EP with multiple invalid conditions, how many minimum test cases are needed to cover all partitions?
 
@@ -30,7 +30,7 @@ D. 6
 
 ---
 
-### Q3
+### 🔷 Q3
 
 In a decision table, two rules have identical conditions and identical actions. These rules are:
 
@@ -41,7 +41,7 @@ D. Boundary rules
 
 ---
 
-### Q4
+### 🔷 Q4
 
 A state transition diagram has 5 states and 7 valid transitions. For 1-switch coverage, the minimum number of test cases must cover at least:
 
@@ -52,7 +52,7 @@ D. All possible paths
 
 ---
 
-### Q5
+### 🔷 Q5
 
 Which of the following is a valid use case test?
 
@@ -63,7 +63,7 @@ D. Testing that the application compiles without errors
 
 ---
 
-### Q6
+### 🔷 Q6
 
 The manager of a review is responsible for:
 
@@ -74,7 +74,7 @@ D. Fixing all defects identified in the review
 
 ---
 
-### Q7
+### 🔷 Q7
 
 A system must exchange patient data with three external hospital systems using HL7 FHIR APIs. Testing this exchange validates:
 
@@ -85,7 +85,7 @@ D. Maintainability
 
 ---
 
-### Q8
+### 🔷 Q8
 
 A tester enters `<script>alert('xss')</script>` into a comment field. This is testing for:
 
@@ -96,7 +96,7 @@ D. Buffer Overflow
 
 ---
 
-### Q9
+### 🔷 Q9
 
 Which sub-characteristic of reliability measures the ability to restore the system after failure?
 
@@ -107,7 +107,7 @@ D. Availability
 
 ---
 
-### Q10
+### 🔷 Q10
 
 A test runs the system at 150% of expected load for 4 hours to identify breaking points. This is:
 
@@ -118,7 +118,7 @@ D. Spike Testing
 
 ---
 
-### Q11
+### 🔷 Q11
 
 In a keyword-driven framework, who typically implements the keywords in code?
 
@@ -129,7 +129,7 @@ D. Project managers
 
 ---
 
-### Q12
+### 🔷 Q12
 
 Which tool is MOST appropriate for examining source code to find unreachable code and null pointer dereferences without execution?
 
@@ -140,7 +140,7 @@ D. Postman
 
 ---
 
-### Q13
+### 🔷 Q13
 
 For a range [-10, 10], 2-value BVA tests:
 
@@ -151,7 +151,7 @@ D. -10, 10
 
 ---
 
-### Q14
+### 🔷 Q14
 
 A use case has preconditions, a main flow, 1 alternative flow, and 2 exception flows. What is the MINIMUM number of test cases?
 
@@ -162,7 +162,7 @@ D. 6
 
 ---
 
-### Q15
+### 🔷 Q15
 
 During test monitoring, which metric measures testing effectiveness?
 
@@ -173,7 +173,7 @@ D. Size of the test team
 
 ---
 
-### Q16
+### 🔷 Q16
 
 In a walkthrough, the session is typically led by:
 
@@ -184,7 +184,7 @@ D. The scribe
 
 ---
 
-### Q17
+### 🔷 Q17
 
 A system requires passwords of 10-30 characters. 3-value BVA for this field tests:
 
@@ -195,7 +195,7 @@ D. 8, 10, 30, 32
 
 ---
 
-### Q18
+### 🔷 Q18
 
 Which is a PRIMARY benefit of the page object model in test automation?
 
@@ -206,7 +206,7 @@ D. Automatically generates test cases from requirements
 
 ---
 
-### Q19
+### 🔷 Q19
 
 A mobile app must run on Android 12, Android 13, and Android 14. This tests:
 
@@ -217,7 +217,7 @@ D. Security
 
 ---
 
-### Q20
+### 🔷 Q20
 
 Which statement BEST describes the difference between load testing and stress testing?
 
@@ -228,7 +228,7 @@ D. There is no difference
 
 ---
 
-### Q21
+### 🔷 Q21
 
 A system correctly calculates compound interest. This validates:
 
@@ -239,7 +239,7 @@ D. Efficiency
 
 ---
 
-### Q22
+### 🔷 Q22
 
 Which metric is used to measure availability?
 
@@ -250,7 +250,7 @@ D. Cyclomatic complexity
 
 ---
 
-### Q23
+### 🔷 Q23
 
 A team evaluates three test tools by creating sample tests in each. This is:
 
@@ -261,7 +261,7 @@ D. Ad hoc evaluation
 
 ---
 
-### Q24
+### 🔷 Q24
 
 In a data-driven framework, the separation of test data from test scripts allows:
 
@@ -272,7 +272,7 @@ D. The tool to write itself
 
 ---
 
-### Q25
+### 🔷 Q25
 
 A performance testing tool that simulates 5,000 virtual users hitting a web server is performing:
 
@@ -283,7 +283,7 @@ D. Defect tracking
 
 ---
 
-### Q26
+### 🔷 Q26
 
 Which review type has NO formal process, minimal documentation, and is typically used for quick feedback?
 
@@ -294,7 +294,7 @@ D. Technical Review
 
 ---
 
-### Q27
+### 🔷 Q27
 
 A system must handle traffic increasing from 500 to 5,000 users in under 1 minute during a flash sale. The appropriate test is:
 
@@ -305,7 +305,7 @@ D. Volume Testing
 
 ---
 
-### Q28
+### 🔷 Q28
 
 For a "Status" field with values: Active, Inactive, Pending, Suspended, how many valid EP test cases are needed?
 
@@ -316,7 +316,7 @@ D. 8
 
 ---
 
-### Q29
+### 🔷 Q29
 
 Which technique is MOST appropriate for testing a system with multiple independent configuration parameters?
 
@@ -327,7 +327,7 @@ D. State Transition Testing
 
 ---
 
-### Q30
+### 🔷 Q30
 
 A decision table has conditions: A (2 values), B (2 values), C (4 values). How many rules are needed for full coverage?
 
@@ -338,7 +338,7 @@ D. 20
 
 ---
 
-### Q31
+### 🔷 Q31
 
 A system's exit criteria state: "95% of planned test cases must pass." After testing, 94% have passed with only low-priority cosmetic issues remaining. The MOST appropriate action is:
 
@@ -349,7 +349,7 @@ D. Declare testing failed
 
 ---
 
-### Q32
+### 🔷 Q32
 
 In an inspection, the author does NOT defend the document because:
 
@@ -360,7 +360,7 @@ D. The scribe records the author's defense
 
 ---
 
-### Q33
+### 🔷 Q33
 
 A system uses redundant servers so that if one fails, another takes over without interruption. This is:
 
@@ -371,7 +371,7 @@ D. Availability
 
 ---
 
-### Q34
+### 🔷 Q34
 
 Which statement about test automation ROI is MOST accurate?
 
@@ -382,7 +382,7 @@ D. ROI is typically 500% in the first month
 
 ---
 
-### Q35
+### 🔷 Q35
 
 The test execution entry criterion "Build must pass automated smoke tests" ensures:
 
@@ -393,7 +393,7 @@ D. The test environment is unnecessary
 
 ---
 
-### Q36
+### 🔷 Q36
 
 For a range [50, 150], 2-value BVA tests:
 
@@ -404,7 +404,7 @@ D. 0, 50, 150, 200
 
 ---
 
-### Q37
+### 🔷 Q37
 
 A system supports data export in CSV and Excel formats for reporting tools. This validates:
 
@@ -415,7 +415,7 @@ D. Accuracy
 
 ---
 
-### Q38
+### 🔷 Q38
 
 Which stage of the review process involves the author fixing identified defects?
 
@@ -426,7 +426,7 @@ D. Follow-up
 
 ---
 
-### Q39
+### 🔷 Q39
 
 A field accepts usernames of 5-20 characters. Which is NOT a valid 2-value BVA test case?
 
@@ -437,7 +437,7 @@ D. 15 characters
 
 ---
 
-### Q40
+### 🔷 Q40
 
 A team spends 300 hours on manual regression per year. Automation development takes 200 hours with 40 hours annual maintenance. Annual time saved is approximately:
 
@@ -448,4 +448,4 @@ D. 260 hours
 
 ---
 
-## End of Mock Exam 2
+## 📝 End of Mock Exam 2

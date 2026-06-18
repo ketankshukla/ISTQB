@@ -1,6 +1,6 @@
-# Chapter 2 — Security Testing Concepts and Principles: Exam Traps
+# 🪤 Chapter 2 — Security Testing Concepts and Principles: Exam Traps
 
-## Trap 1: Confusing Fail Secure and Fail Safe
+## 🪤 Trap 1: Confusing Fail Secure and Fail Safe
 
 **Trap:** Fail secure = deny access when security fails. Fail safe = allow access for physical safety. Context determines which is appropriate.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Thinking One Strong Control Is Sufficient
+## 🪤 Trap 2: Thinking One Strong Control Is Sufficient
 
 **Trap:** Defense in depth means multiple layers. A single strong control can still be bypassed.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Confusing Preventive and Detective Controls
+## 🪤 Trap 3: Confusing Preventive and Detective Controls
 
 **Trap:** Preventive controls block attacks. Detective controls identify that attacks occurred. They serve different purposes.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Confusing Security Requirements with Functional Requirements
+## 🪤 Trap 4: Confusing Security Requirements with Functional Requirements
 
 **Trap:** Security requirements specify HOW to protect; functional requirements specify WHAT the system does.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Thinking Security Testing Happens Only at the End
+## 🪤 Trap 5: Thinking Security Testing Happens Only at the End
 
 **Trap:** Shift-left security means integrating security throughout the SDLC, not just before release.
 

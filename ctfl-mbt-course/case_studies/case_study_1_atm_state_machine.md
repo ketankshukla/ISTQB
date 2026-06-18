@@ -1,10 +1,10 @@
-# Case Study 1 — ATM State Machine
+# 📂 Case Study 1 — ATM State Machine
 
-## Context
+## ⭐ Context
 
 You are a Test Analyst for SecureBank, developing a new ATM system. The team has decided to use MBT for testing the ATM's state-dependent behavior.
 
-## Requirements
+## 📑 Requirements
 
 **R1: Card Insertion**
 - The ATM is initially idle.
@@ -34,7 +34,7 @@ You are a Test Analyst for SecureBank, developing a new ATM system. The team has
 
 ---
 
-## Task 1: Create the State Machine
+## 🔄 Task 1: Create the State Machine
 
 Draw a state machine for the ATM system.
 
@@ -72,7 +72,7 @@ Draw a state machine for the ATM system.
 
 ---
 
-## Task 2: Define Selection Criteria
+## ✅ Task 2: Define Selection Criteria
 
 The team wants to achieve 1-switch coverage (transition coverage). Calculate the minimum number of test cases needed and design the test cases.
 
@@ -96,7 +96,7 @@ The team wants to achieve 1-switch coverage (transition coverage). Calculate the
 
 ---
 
-## Task 3: Boundary Testing on Guards
+## 📏 Task 3: Boundary Testing on Guards
 
 Identify boundary conditions that need testing.
 
@@ -115,7 +115,7 @@ Identify boundary conditions that need testing.
 
 ---
 
-## Task 4: Coverage Calculation
+## 📊 Task 4: Coverage Calculation
 
 After executing the test suite, 14 of 15 transitions were covered. One transition (Cancel during Processing) was not executed.
 

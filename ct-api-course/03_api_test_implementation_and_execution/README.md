@@ -1,6 +1,6 @@
-# Chapter 3 — API Test Implementation and Execution
+# 🔌 Chapter 3 — API Test Implementation and Execution
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~25% (~10 questions out of 40)
 - **K-levels:** K2 (understand), K3 (apply)
@@ -8,7 +8,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -20,7 +20,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts
+## ⭐ Key Concepts
 
 - Test scripts for REST, SOAP, GraphQL
 - Test data: static, dynamic, generated

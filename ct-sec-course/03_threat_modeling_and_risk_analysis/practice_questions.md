@@ -1,8 +1,8 @@
-# Chapter 3 — Threat Modeling and Risk Analysis: Practice Questions
+# ❓ Chapter 3 — Threat Modeling and Risk Analysis: Practice Questions
 
 ---
 
-### Q1 (SEC-3.1, K2)
+### 🔷 Q1 (SEC-3.1, K2)
 
 The PRIMARY purpose of threat modeling is to:
 
@@ -13,7 +13,7 @@ D. Increase system complexity
 
 ---
 
-### Q2 (SEC-3.2, K2)
+### 🔷 Q2 (SEC-3.2, K2)
 
 In STRIDE, "Spoofing" violates:
 
@@ -24,7 +24,7 @@ D. Availability
 
 ---
 
-### Q3 (SEC-3.2, K2)
+### 🔷 Q3 (SEC-3.2, K2)
 
 An attacker modifies data in transit. This STRIDE threat is:
 
@@ -35,7 +35,7 @@ D. Information Disclosure
 
 ---
 
-### Q4 (SEC-3.2, K2)
+### 🔷 Q4 (SEC-3.2, K2)
 
 A user denies performing a transaction and there is no proof. This is:
 
@@ -46,7 +46,7 @@ D. Elevation of Privilege
 
 ---
 
-### Q5 (SEC-3.2, K3)
+### 🔷 Q5 (SEC-3.2, K3)
 
 A web application allows users to access other users' profiles by changing the user ID in the URL. The STRIDE category is:
 
@@ -57,7 +57,7 @@ D. Elevation of Privilege
 
 ---
 
-### Q6 (SEC-3.3, K2)
+### 🔷 Q6 (SEC-3.3, K2)
 
 In DREAD, "Exploitability" measures:
 
@@ -68,7 +68,7 @@ D. How easy it is to discover
 
 ---
 
-### Q7 (SEC-3.3, K3)
+### 🔷 Q7 (SEC-3.3, K3)
 
 DREAD scores: Damage=9, Reproducibility=10, Exploitability=8, Affected Users=9, Discoverability=9. The risk score is:
 
@@ -79,7 +79,7 @@ D. 8
 
 ---
 
-### Q8 (SEC-3.4, K2)
+### 🔷 Q8 (SEC-3.4, K2)
 
 In an attack tree, an OR node means:
 
@@ -90,7 +90,7 @@ D. No child attacks are valid
 
 ---
 
-### Q9 (SEC-3.4, K2)
+### 🔷 Q9 (SEC-3.4, K2)
 
 In an attack tree, an AND node means:
 
@@ -101,7 +101,7 @@ D. No child attacks are needed
 
 ---
 
-### Q10 (SEC-3.5, K2)
+### 🔷 Q10 (SEC-3.5, K2)
 
 Risk is calculated as:
 
@@ -112,7 +112,7 @@ D. Attack × Defense
 
 ---
 
-### Q11 (SEC-3.5, K2)
+### 🔷 Q11 (SEC-3.5, K2)
 
 A risk with low likelihood and low impact should typically be:
 
@@ -123,7 +123,7 @@ D. Avoided by shutting down
 
 ---
 
-### Q12 (SEC-3.5, K2)
+### 🔷 Q12 (SEC-3.5, K2)
 
 Risk treatment options include all EXCEPT:
 
@@ -134,7 +134,7 @@ D. Ignore completely without documentation
 
 ---
 
-### Q13 (SEC-3.2, K3)
+### 🔷 Q13 (SEC-3.2, K3)
 
 An attacker crashes a web server by sending millions of requests. The STRIDE category is:
 
@@ -145,7 +145,7 @@ D. Elevation of Privilege
 
 ---
 
-### Q14 (SEC-3.3, K2)
+### 🔷 Q14 (SEC-3.3, K2)
 
 Which DREAD factor measures "How many users would be affected?"
 
@@ -156,7 +156,7 @@ D. Discoverability
 
 ---
 
-### Q15 (SEC-3.4, K3)
+### 🔷 Q15 (SEC-3.4, K3)
 
 In an attack tree, the leaf nodes represent:
 
@@ -167,7 +167,7 @@ D. Mitigation controls
 
 ---
 
-### Q16 (SEC-3.2, K2)
+### 🔷 Q16 (SEC-3.2, K2)
 
 An attacker gains admin privileges through a bug in the application. The STRIDE category is:
 
@@ -178,7 +178,7 @@ D. Elevation of Privilege
 
 ---
 
-### Q17 (SEC-3.5, K3)
+### 🔷 Q17 (SEC-3.5, K3)
 
 A vulnerability has likelihood=3 (high) and impact=2 (medium). The risk score on a 3x3 matrix is:
 
@@ -189,7 +189,7 @@ D. 9
 
 ---
 
-### Q18 (SEC-3.1, K2)
+### 🔷 Q18 (SEC-3.1, K2)
 
 Threat modeling should be performed:
 
@@ -200,7 +200,7 @@ D. Only once at the beginning of the project
 
 ---
 
-### Q19 (SEC-3.4, K2)
+### 🔷 Q19 (SEC-3.4, K2)
 
 Attack trees help testers by:
 
@@ -211,7 +211,7 @@ D. Reducing the number of vulnerabilities
 
 ---
 
-### Q20 (SEC-3.5, K2)
+### 🔷 Q20 (SEC-3.5, K2)
 
 Transferring risk to an insurance company is an example of:
 
@@ -222,104 +222,104 @@ D. Risk avoidance
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** Threat modeling = identify and evaluate threats early in design.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** Spoofing = pretending to be someone else = authentication violation.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** Modifying data = tampering = integrity violation.
 
-### Q4
+### 🔷 Q4
 **Answer: C**
 
 **Rationale:** Denying action with no proof = repudiation.
 
-### Q5
+### 🔷 Q5
 **Answer: D**
 
 **Rationale:** Accessing unauthorized resources = elevation of privilege.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** Exploitability = ease of exploitation.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** DREAD = average: (9+10+8+9+9)/5 = 45/5 = 9.0.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** OR node = any one child achieves the goal.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** AND node = all children must succeed.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** Risk = likelihood × impact.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 
 **Rationale:** Low × low = low risk = accept or monitor.
 
-### Q12
+### 🔷 Q12
 **Answer: D**
 
 **Rationale:** Ignoring without documentation is not valid risk treatment.
 
-### Q13
+### 🔷 Q13
 **Answer: C**
 
 **Rationale:** Crashing server = Denial of Service.
 
-### Q14
+### 🔷 Q14
 **Answer: C**
 
 **Rationale:** Affected Users = number of users affected.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** Leaf nodes = specific attack actions.
 
-### Q16
+### 🔷 Q16
 **Answer: D**
 
 **Rationale:** Gaining higher privileges = Elevation of Privilege.
 
-### Q17
+### 🔷 Q17
 **Answer: C**
 
 **Rationale:** 3 × 2 = 6.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 
 **Rationale:** Threat modeling in design, revisited on changes.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** Attack trees identify test scenarios from attacker paths.
 
-### Q20
+### 🔷 Q20
 **Answer: C**
 
 **Rationale:** Insurance = risk transfer.

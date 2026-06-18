@@ -1,10 +1,10 @@
-# Chapter 4 — Test Implementation and Execution: Lessons
+# 📘 Chapter 4 — Test Implementation and Execution: Lessons
 
 ---
 
-## 4.1 Abstract vs. Concrete Test Cases
+## ⭐ 4.1 Abstract vs. Concrete Test Cases
 
-### Abstract Test Case
+### 🔷 Abstract Test Case
 
 **Definition:** A test case described at the model level without specific data or implementation details.
 
@@ -24,7 +24,7 @@ Abstract Test Case: Login Flow
 5. Verify transition to "Idle" state
 ```
 
-### Concrete Test Case
+### 🔷 Concrete Test Case
 
 **Definition:** An executable test case with specific data, preconditions, and expected results mapped to the SUT.
 
@@ -47,7 +47,7 @@ Precondition: User "testuser" exists with password "TestPass123!"
 7. Expected: Redirect to login page
 ```
 
-### Comparison
+### 🔷 Comparison
 
 | Aspect | Abstract Test | Concrete Test |
 |--------|--------------|---------------|
@@ -59,9 +59,9 @@ Precondition: User "testuser" exists with password "TestPass123!"
 
 ---
 
-## 4.2 Concretization
+## ⭐ 4.2 Concretization
 
-### Definition
+### 🔷 Definition
 
 **Concretization** is the process of transforming abstract test cases into concrete, executable test cases.
 
@@ -72,7 +72,7 @@ Precondition: User "testuser" exists with password "TestPass123!"
 4. **Expected results:** Map model states to observable SUT outputs
 5. **Environment setup:** Configure test environment, databases, services
 
-### Concretization Process
+### 🔷 Concretization Process
 
 **Step 1: Data Selection**
 ```
@@ -98,7 +98,7 @@ Abstract: "User exists in system"
 Concrete: "Insert user record into test database before test execution"
 ```
 
-### Automated Concretization
+### ⚙️ Automated Concretization
 
 **Approach:** Use scripts or tools to automatically map abstract tests to concrete implementations.
 
@@ -114,9 +114,9 @@ Concrete: "Insert user record into test database before test execution"
 
 ---
 
-## 4.3 Test Execution Approaches
+## ⭐ 4.3 Test Execution Approaches
 
-### Manual Execution
+### 🔷 Manual Execution
 
 **Description:** Human tester follows the concrete test case and observes results.
 
@@ -131,7 +131,7 @@ Concrete: "Insert user record into test database before test execution"
 - Inconsistent execution
 - Difficult to reproduce exactly
 
-### Automated Execution
+### ⚙️ Automated Execution
 
 **Description:** Test scripts execute against the SUT automatically.
 
@@ -151,7 +151,7 @@ Concrete: "Insert user record into test database before test execution"
 - Can run unattended
 - Consistent execution
 
-### Simulator-Based Execution
+### 🔷 Simulator-Based Execution
 
 **Description:** Tests execute against a simulator that imitates the SUT or its environment.
 
@@ -166,9 +166,9 @@ Testing flight control software using a flight simulator instead of a real aircr
 
 ---
 
-## 4.4 The Oracle Problem in MBT
+## ⭐ 4.4 The Oracle Problem in MBT
 
-### What Is the Oracle Problem?
+### 🔷 What Is the Oracle Problem?
 
 **Definition:** Determining the expected outcome for a given test input. For complex systems, knowing what "correct" behavior looks like is difficult.
 
@@ -186,7 +186,7 @@ Oracle: SUT should be in "Logged In" state (dashboard displayed)
 Result: If dashboard is displayed → PASS; if error page shown → FAIL
 ```
 
-### Types of Oracles in MBT
+### 🧪 Types of Oracles in MBT
 
 **1. Model as Oracle:**
 - The model predicts expected behavior
@@ -209,7 +209,7 @@ Result: If dashboard is displayed → PASS; if error page shown → FAIL
 - Expected relationship between inputs and outputs
 - "If input increases by X, output should increase by Y"
 
-### Handling Non-Determinism
+### 🔷 Handling Non-Determinism
 
 **Challenge:** Some systems have non-deterministic behavior (same input may produce different outputs).
 
@@ -221,9 +221,9 @@ Result: If dashboard is displayed → PASS; if error page shown → FAIL
 
 ---
 
-## 4.5 Test Failure Analysis
+## 🔬 4.5 Test Failure Analysis
 
-### When a Test Fails
+### 🤖 When a Test Fails
 
 A test failure in MBT can be caused by:
 
@@ -252,7 +252,7 @@ A test failure in MBT can be caused by:
 - Timing issues, race conditions
 - **Action:** Fix the test script, re-run
 
-### Diagnostic Process
+### 🔷 Diagnostic Process
 
 **Step 1: Reproduce the Failure**
 - Run the test again to confirm it is consistent
@@ -276,9 +276,9 @@ A test failure in MBT can be caused by:
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Concretization
+### 💡 Worked Example 1: Concretization
 
 **Abstract Test Case:**
 ```
@@ -322,7 +322,7 @@ Precondition: User "testuser" logged in, cart total = $100
 5. Expected: Message "Discount applied" visible
 ```
 
-### Worked Example 2: Failure Analysis
+### 💡 Worked Example 2: Failure Analysis
 
 **Scenario:** A generated test fails.
 
@@ -349,7 +349,7 @@ Precondition: User "testuser" logged in, cart total = $100
 
 **Fix:** Update test setup script to create "testuser" before each test run.
 
-### Worked Example 3: Oracle Challenge
+### 💡 Worked Example 3: Oracle Challenge
 
 **Scenario:** Testing a recommendation engine.
 

@@ -1,10 +1,10 @@
-# Chapter 1 — Introduction to Usability and User Experience: Lessons
+# 📘 Chapter 1 — Introduction to Usability and User Experience: Lessons
 
 ---
 
-## 1.1 What Is Usability?
+## 🖱️ 1.1 What Is Usability?
 
-### ISO 9241-11 Definition
+### 🔷 ISO 9241-11 Definition
 
 The official definition from ISO 9241-11 states:
 
@@ -32,7 +32,7 @@ The official definition from ISO 9241-11 states:
 - A banking app may be usable for adults but not for children
 - A medical device must be usable under stressful emergency conditions
 
-### Why Usability Matters
+### 🖱️ Why Usability Matters
 
 **Business Benefits:**
 - Increased productivity (efficient users accomplish more)
@@ -48,15 +48,15 @@ The official definition from ISO 9241-11 states:
 
 ---
 
-## 1.2 What Is User Experience (UX)?
+## ⭐ 1.2 What Is User Experience (UX)?
 
-### Definition
+### 🔷 Definition
 
 **User Experience (UX)** is broader than usability. ISO 9241-210 defines UX as:
 
 > A person's perceptions and responses resulting from the use and/or anticipated use of a product, system, or service.
 
-### Usability vs. User Experience
+### 🖱️ Usability vs. User Experience
 
 | Aspect | Usability | User Experience |
 |--------|-----------|-----------------|
@@ -68,7 +68,7 @@ The official definition from ISO 9241-11 states:
 
 **Key Insight:** Usability is a component of UX, but UX also includes branding, aesthetics, emotional response, and the entire customer journey.
 
-### The UX Honeycomb (Peter Morville)
+### 🔷 The UX Honeycomb (Peter Morville)
 
 The UX Honeycomb identifies seven facets of UX:
 
@@ -96,9 +96,9 @@ The UX Honeycomb identifies seven facets of UX:
 
 ---
 
-## 1.3 ISO 25010 Quality Model
+## 💎 1.3 ISO 25010 Quality Model
 
-### Overview
+### 🌟 Overview
 
 ISO 25010 replaces ISO 9126 and defines software quality through eight characteristics:
 
@@ -114,7 +114,7 @@ Software Quality
 |-- Portability
 ```
 
-### Usability Sub-Characteristics (ISO 25010)
+### 🖱️ Usability Sub-Characteristics (ISO 25010)
 
 **1. Appropriateness Recognizability:**
 - Users can recognize whether the product is appropriate for their needs
@@ -140,7 +140,7 @@ Software Quality
 - Degree to which the product can be used by people with the widest range of characteristics and capabilities
 - Example: Screen reader support, keyboard navigation, high contrast
 
-### Relationship to Testing
+### 🔷 Relationship to Testing
 
 Each sub-characteristic can be tested:
 - Learnability: Measure time for first-time users to complete tasks
@@ -150,9 +150,9 @@ Each sub-characteristic can be tested:
 
 ---
 
-## 1.4 Key Usability Principles
+## 📜 1.4 Key Usability Principles
 
-### Nielsen's 10 Usability Heuristics
+### 🖱️ Nielsen's 10 Usability Heuristics
 
 Jakob Nielsen's heuristics are the most widely used principles for evaluating interfaces:
 
@@ -196,7 +196,7 @@ Jakob Nielsen's heuristics are the most widely used principles for evaluating in
 - Any such information should be easy to search, focused on the user's task, and provide concrete steps
 - Example: Context-sensitive help, searchable FAQs
 
-### Shneiderman's Eight Golden Rules
+### 🔷 Shneiderman's Eight Golden Rules
 
 1. Strive for consistency
 2. Enable frequent users to use shortcuts
@@ -207,7 +207,7 @@ Jakob Nielsen's heuristics are the most widely used principles for evaluating in
 7. Support internal locus of control (user feels in charge)
 8. Reduce short-term memory load
 
-### Norman's Design Principles
+### 📜 Norman's Design Principles
 
 **Don Norman's key concepts:**
 
@@ -236,9 +236,9 @@ Jakob Nielsen's heuristics are the most widely used principles for evaluating in
 
 ---
 
-## 1.5 Cognitive Aspects of Usability
+## 🖱️ 1.5 Cognitive Aspects of Usability
 
-### Cognitive Load
+### 🔷 Cognitive Load
 
 **Cognitive load** is the amount of mental effort required to use a system. Three types:
 
@@ -258,7 +258,7 @@ Jakob Nielsen's heuristics are the most widely used principles for evaluating in
 - Reduce extraneous load (simplify navigation, use clear labels)
 - Support germane load (provide helpful context, progressive disclosure)
 
-### Mental Models
+### 📐 Mental Models
 
 **Mental model:** The user's internal representation of how a system works.
 
@@ -269,7 +269,7 @@ Jakob Nielsen's heuristics are the most widely used principles for evaluating in
 - System model: Files in trash can be restored
 - Problem: If "empty trash" permanently deletes without warning, the system violates the mental model
 
-### Memory and Recognition
+### 🔷 Memory and Recognition
 
 **Recognition is easier than recall:**
 - Users recognize what they see more easily than they remember what to do
@@ -281,9 +281,9 @@ Jakob Nielsen's heuristics are the most widely used principles for evaluating in
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Identifying Usability Components
+### 💡 Worked Example 1: Identifying Usability Components
 
 **Scenario:** A user attempts to book a flight on a travel website.
 
@@ -296,7 +296,7 @@ Jakob Nielsen's heuristics are the most widely used principles for evaluating in
 | User takes 15 minutes due to confusing navigation | Efficiency (poor) |
 | User feels frustrated and anxious | Satisfaction (poor) |
 
-### Worked Example 2: Applying Nielsen's Heuristics
+### 💡 Worked Example 2: Applying Nielsen's Heuristics
 
 **Scenario:** Evaluate a login form.
 
@@ -315,7 +315,7 @@ Jakob Nielsen's heuristics are the most widely used principles for evaluating in
 
 **Conclusion:** The login form has serious usability problems across most heuristics.
 
-### Worked Example 3: Mental Model Analysis
+### 💡 Worked Example 3: Mental Model Analysis
 
 **Scenario:** A file sync application shows a cloud icon that turns red when files are out of sync.
 

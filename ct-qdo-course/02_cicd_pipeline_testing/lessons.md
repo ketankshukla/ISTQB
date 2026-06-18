@@ -1,16 +1,16 @@
-# Chapter 2 — CI/CD Pipeline Testing: Lessons
+# 📘 Chapter 2 — CI/CD Pipeline Testing: Lessons
 
 ---
 
-## 2.1 CI/CD Pipeline Stages
+## ⭐ 2.1 CI/CD Pipeline Stages
 
-### Typical Pipeline
+### 🔷 Typical Pipeline
 
 ```
 Commit → Build → Unit Test → Integration Test → Security Scan → Staging Deploy → Acceptance Test → Production Deploy → Monitor
 ```
 
-### Stage Descriptions
+### 🔷 Stage Descriptions
 
 | Stage | Activities | Tests |
 |-------|-----------|-------|
@@ -23,7 +23,7 @@ Commit → Build → Unit Test → Integration Test → Security Scan → Stagin
 | **Production Deploy** | Release to live | Smoke tests, synthetic monitoring |
 | **Monitor** | Production health checks | Real user monitoring, alerts |
 
-### Testing at Each Stage
+### 🔷 Testing at Each Stage
 
 **Build stage:**
 - Verify compilation succeeds
@@ -52,13 +52,13 @@ Commit → Build → Unit Test → Integration Test → Security Scan → Stagin
 
 ---
 
-## 2.2 Quality Gates
+## 💎 2.2 Quality Gates
 
-### Purpose
+### 🔷 Purpose
 
 Quality gates enforce that code meets defined criteria before progressing to the next stage. They prevent defective code from reaching production.
 
-### Gate Types
+### 🧪 Gate Types
 
 | Gate | Criteria | Action if Failed |
 |------|----------|-----------------|
@@ -68,7 +68,7 @@ Quality gates enforce that code meets defined criteria before progressing to the
 | **Performance baseline** | Response time within defined limits | Flag for review |
 | **Code review** | Peer approval required | Block merge |
 
-### Gate Configuration Example
+### 💡 Gate Configuration Example
 
 ```yaml
 quality_gates:
@@ -89,7 +89,7 @@ quality_gates:
     p95_response_time: "< 500ms"
 ```
 
-### Balancing Speed and Quality
+### 💎 Balancing Speed and Quality
 
 - **Too strict:** Pipeline always fails, team bypasses gates
 - **Too lenient:** Defects reach production
@@ -97,29 +97,29 @@ quality_gates:
 
 ---
 
-## 2.3 Deployment Strategies
+## ⭐ 2.3 Deployment Strategies
 
-### Blue-Green Deployment
+### 🔷 Blue-Green Deployment
 
 - Two identical production environments (blue = live, green = idle)
 - Deploy to green, test, then switch traffic
 - Instant rollback by switching back to blue
 - **Testing focus:** Verify green environment before switch; test switch mechanism
 
-### Canary Deployment
+### 🔷 Canary Deployment
 
 - Deploy to small subset of users (e.g., 5%)
 - Monitor metrics (errors, latency, business metrics)
 - Gradually increase traffic if healthy
 - **Testing focus:** Define canary metrics and abort criteria
 
-### Feature Flags
+### 🔷 Feature Flags
 
 - Deploy code to production but hide behind a flag
 - Enable flag for specific users or percentages
 - **Testing focus:** Test both flag on and off states; verify flag cleanup
 
-### Rolling Deployment
+### 🔷 Rolling Deployment
 
 - Replace old instances with new ones gradually
 - Maintain service availability throughout
@@ -127,9 +127,9 @@ quality_gates:
 
 ---
 
-## 2.4 Rollback and Recovery Testing
+## ⭐ 2.4 Rollback and Recovery Testing
 
-### Rollback Scenarios
+### 🎬 Rollback Scenarios
 
 | Trigger | Rollback Action | Testing |
 |---------|---------------|---------|
@@ -138,7 +138,7 @@ quality_gates:
 | Post-deployment alert | Manual or automated rollback decision | Test alert-to-rollback time |
 | Database migration failure | Roll back migration, restore data | Test migration rollback scripts |
 
-### Recovery Testing
+### 🔷 Recovery Testing
 
 - **Backup restoration:** Verify RTO (Recovery Time Objective) and RPO (Recovery Point Objective)
 - **Failover:** Test disaster recovery site activation
@@ -146,9 +146,9 @@ quality_gates:
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Pipeline Design
+### 💡 Worked Example 1: Pipeline Design
 
 **Scenario:** Design a CI/CD pipeline for an e-commerce microservice.
 
@@ -187,7 +187,7 @@ quality_gates:
     p95_latency: "< 1 second"
 ```
 
-### Worked Example 2: Canary Decision
+### 💡 Worked Example 2: Canary Decision
 
 **Scenario:** A new search algorithm is deployed to 5% of users.
 
@@ -200,7 +200,7 @@ quality_gates:
 
 **Decision:** Abort canary. The conversion rate drop suggests the algorithm negatively impacts purchases.
 
-### Worked Example 3: Rollback Test
+### 💡 Worked Example 3: Rollback Test
 
 **Scenario:** Test automatic rollback after a failed deployment.
 

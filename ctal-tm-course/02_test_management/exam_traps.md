@@ -1,6 +1,6 @@
-# Chapter 2 — Test Management: Exam Traps
+# 🪤 Chapter 2 — Test Management: Exam Traps
 
-## Trap 1: Confusing Bottom-Up and Top-Down Estimation
+## 🪤 Trap 1: Confusing Bottom-Up and Top-Down Estimation
 
 **Trap:** Bottom-up = sum of task estimates. Top-down = allocate overall estimate to tasks.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Confusing Severity with Priority
+## 🪤 Trap 2: Confusing Severity with Priority
 
 **Trap:** Severity = technical impact. Priority = business importance / fix order.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Confusing Likelihood and Impact in Risk Assessment
+## 🪤 Trap 3: Confusing Likelihood and Impact in Risk Assessment
 
 **Trap:** Risk priority = likelihood × impact. They are separate dimensions.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Thinking Independent Testing Eliminates All Communication
+## 🪤 Trap 4: Thinking Independent Testing Eliminates All Communication
 
 **Trap:** Independent testing provides objectivity but can create communication barriers. The test manager must actively manage stakeholder relationships.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Confusing Defect Detection Percentage with Defect Removal Efficiency
+## 🪤 Trap 5: Confusing Defect Detection Percentage with Defect Removal Efficiency
 
 **Trap:** DDP = defects found by testing / total defects. DRE = defects found before release / total defects found ever.
 

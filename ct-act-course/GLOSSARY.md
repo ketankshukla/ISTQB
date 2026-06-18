@@ -1,6 +1,6 @@
-# CT-AcT Glossary
+# 📖 CT-AcT Glossary
 
-## Chapter 1 — Introduction to Acceptance Testing
+## 🌟 Chapter 1 — Introduction to Acceptance Testing
 
 **Acceptance Testing:** Formal testing with respect to user needs, requirements, and business processes to determine whether a system satisfies the acceptance criteria.
 
@@ -18,7 +18,7 @@
 
 **Business Representative:** A stakeholder who represents the business users and their interests in the system.
 
-## Chapter 2 — Acceptance Testing in the SDLC
+## 🔁 Chapter 2 — Acceptance Testing in the SDLC
 
 **V-Model:** A software development model where each development phase has a corresponding testing phase.
 
@@ -36,7 +36,7 @@
 
 **Traceability:** The ability to trace requirements, tests, and defects throughout the development lifecycle.
 
-## Chapter 3 — Business Acceptance Testing (BAT)
+## 🤝 Chapter 3 — Business Acceptance Testing (BAT)
 
 **Business Acceptance Testing (BAT):** Acceptance testing performed to verify that a system meets business needs and requirements.
 
@@ -55,7 +55,7 @@
 
 **Pilot:** A limited deployment of a system to a small group of users for evaluation before full release.
 
-## Chapter 4 — Contract Acceptance Testing (CAT)
+## 🤝 Chapter 4 — Contract Acceptance Testing (CAT)
 
 **Contract Acceptance Testing (CAT):** Acceptance testing performed to verify that a system meets contractual requirements between supplier and customer.
 
@@ -73,7 +73,7 @@
 
 **Penalties and Incentives:** Contractual provisions that impose costs for non-compliance or provide rewards for exceeding requirements.
 
-## Chapter 5 — Regulation Acceptance Testing (RAT)
+## 🤝 Chapter 5 — Regulation Acceptance Testing (RAT)
 
 **Regulation Acceptance Testing (RAT):** Acceptance testing performed to verify compliance with laws, regulations, and standards.
 
@@ -91,7 +91,7 @@
 
 **Accessibility:** The degree to which a product or service can be used by people with disabilities.
 
-## Chapter 6 — Acceptance Testing Tools and Automation
+## 🛠️ Chapter 6 — Acceptance Testing Tools and Automation
 
 **Test Management Tool:** A tool used to manage test assets, plan testing, and track test execution and results.
 

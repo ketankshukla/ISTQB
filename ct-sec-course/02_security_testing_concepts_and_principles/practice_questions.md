@@ -1,8 +1,8 @@
-# Chapter 2 — Security Testing Concepts and Principles: Practice Questions
+# ❓ Chapter 2 — Security Testing Concepts and Principles: Practice Questions
 
 ---
 
-### Q1 (SEC-2.1, K2)
+### 🔷 Q1 (SEC-2.1, K2)
 
 Defense in depth means:
 
@@ -13,7 +13,7 @@ D. Hiding the system design from attackers
 
 ---
 
-### Q2 (SEC-2.1, K2)
+### 🔷 Q2 (SEC-2.1, K2)
 
 The principle of least privilege states that:
 
@@ -24,7 +24,7 @@ D. Security controls should be expensive
 
 ---
 
-### Q3 (SEC-2.1, K2)
+### 🔷 Q3 (SEC-2.1, K2)
 
 A fire exit door that unlocks when power fails is an example of:
 
@@ -35,7 +35,7 @@ D. Least privilege
 
 ---
 
-### Q4 (SEC-2.1, K2)
+### 🔷 Q4 (SEC-2.1, K2)
 
 Complete mediation means:
 
@@ -46,7 +46,7 @@ D. Security checks are optional
 
 ---
 
-### Q5 (SEC-2.2, K2)
+### 🔷 Q5 (SEC-2.2, K2)
 
 A firewall that blocks unauthorized traffic is a:
 
@@ -57,7 +57,7 @@ D. Compensating control
 
 ---
 
-### Q6 (SEC-2.2, K2)
+### 🔷 Q6 (SEC-2.2, K2)
 
 An intrusion detection system (IDS) that alerts on suspicious activity is a:
 
@@ -68,7 +68,7 @@ D. Deterrent control
 
 ---
 
-### Q7 (SEC-2.2, K2)
+### 🔷 Q7 (SEC-2.2, K2)
 
 A backup system used to restore data after a ransomware attack is a:
 
@@ -79,7 +79,7 @@ D. Deterrent control
 
 ---
 
-### Q8 (SEC-2.3, K2)
+### 🔷 Q8 (SEC-2.3, K2)
 
 "All passwords must be hashed with bcrypt before storage" is:
 
@@ -90,7 +90,7 @@ D. A usability requirement
 
 ---
 
-### Q9 (SEC-2.3, K2)
+### 🔷 Q9 (SEC-2.3, K2)
 
 A security requirements traceability matrix is used to:
 
@@ -101,7 +101,7 @@ D. Design user interfaces
 
 ---
 
-### Q10 (SEC-2.4, K2)
+### 🔷 Q10 (SEC-2.4, K2)
 
 Shift-left security means:
 
@@ -112,7 +112,7 @@ D. Removing security from development
 
 ---
 
-### Q11 (SEC-2.1, K2)
+### 🔷 Q11 (SEC-2.1, K2)
 
 Separation of duties is important because:
 
@@ -123,7 +123,7 @@ D. It simplifies the codebase
 
 ---
 
-### Q12 (SEC-2.1, K2)
+### 🔷 Q12 (SEC-2.1, K2)
 
 Economy of mechanism suggests that:
 
@@ -134,7 +134,7 @@ D. Security should be expensive
 
 ---
 
-### Q13 (SEC-2.1, K2)
+### 🔷 Q13 (SEC-2.1, K2)
 
 The open design principle states that:
 
@@ -145,7 +145,7 @@ D. Design documents are unnecessary
 
 ---
 
-### Q14 (SEC-2.2, K2)
+### 🔷 Q14 (SEC-2.2, K2)
 
 Warning banners displayed at login are an example of:
 
@@ -156,7 +156,7 @@ D. Corrective control
 
 ---
 
-### Q15 (SEC-2.3, K3)
+### 🔷 Q15 (SEC-2.3, K3)
 
 A requirement states: "Users can only access documents in their department." The test case should verify:
 
@@ -167,7 +167,7 @@ D. That passwords are encrypted
 
 ---
 
-### Q16 (SEC-2.4, K2)
+### 🔷 Q16 (SEC-2.4, K2)
 
 Static analysis tools (SAST) are most effectively used:
 
@@ -178,7 +178,7 @@ D. Never — they are ineffective
 
 ---
 
-### Q17 (SEC-2.1, K2)
+### 🔷 Q17 (SEC-2.1, K2)
 
 Psychological acceptability means:
 
@@ -189,7 +189,7 @@ D. Security is irrelevant to usability
 
 ---
 
-### Q18 (SEC-2.2, K2)
+### 🔷 Q18 (SEC-2.2, K2)
 
 Physical locks on server room doors are an example of:
 
@@ -200,7 +200,7 @@ D. Detective control
 
 ---
 
-### Q19 (SEC-2.3, K2)
+### 🔷 Q19 (SEC-2.3, K2)
 
 Which is a security requirement rather than a functional requirement?
 
@@ -211,7 +211,7 @@ D. "The system shall export reports"
 
 ---
 
-### Q20 (SEC-2.4, K2)
+### 🔷 Q20 (SEC-2.4, K2)
 
 In a secure SDLC, threat modeling should be performed during:
 
@@ -222,104 +222,104 @@ D. Only during maintenance
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** Defense in depth = multiple layers of controls.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** Least privilege = minimum access necessary.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** Fire exit unlocks on power failure = fail safe (safety priority).
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** Complete mediation = every access checked for authority.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** Firewall blocks = preventive control.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** IDS alerts = detective control.
 
-### Q7
+### 🔷 Q7
 **Answer: C**
 
 **Rationale:** Backup restoration after attack = corrective control.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** Password hashing = security requirement.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** Traceability matrix = map requirements to test cases.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** Shift-left = integrate security earlier in SDLC.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 
 **Rationale:** Separation of duties = prevent one person controlling critical process.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** Economy of mechanism = simpler = fewer vulnerabilities.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** Open design = security not dependent on secrecy of design.
 
-### Q14
+### 🔷 Q14
 **Answer: C**
 
 **Rationale:** Warning banners = deterrent control.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** Department access restriction = test cross-department denial.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 
 **Rationale:** SAST most effective in CI/CD during implementation.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 
 **Rationale:** Psychological acceptability = security shouldn't impede usability.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 
 **Rationale:** Physical locks = physical control.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** Account lockout = security requirement (protection mechanism).
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 
 **Rationale:** Threat modeling in design phase, revisited throughout.

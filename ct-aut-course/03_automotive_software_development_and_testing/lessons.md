@@ -1,10 +1,10 @@
-# Chapter 3 — Automotive Software Development and Testing: Lessons
+# 📘 Chapter 3 — Automotive Software Development and Testing: Lessons
 
 ---
 
-## 3.1 Automotive Development Lifecycle
+## 🔁 3.1 Automotive Development Lifecycle
 
-### Phases
+### 🔷 Phases
 
 | Phase | Activities | Testing Activities |
 |-------|------------|-------------------|
@@ -16,7 +16,7 @@
 | **System test** | Test complete system | System functional and safety tests |
 | **Acceptance** | Customer validation | Acceptance tests on target vehicle |
 
-### Agile in Automotive
+### 🏃 Agile in Automotive
 
 - **Challenges:** Safety documentation, long supplier chains, hardware dependencies
 - **Adaptations:** Agile for non-safety features; V-model for safety-critical; hybrid approaches
@@ -24,9 +24,9 @@
 
 ---
 
-## 3.2 Test Levels
+## 🪜 3.2 Test Levels
 
-### Unit Testing
+### 🔷 Unit Testing
 
 | Aspect | Description |
 |--------|-------------|
@@ -35,7 +35,7 @@
 | **Coverage** | Statement, branch, MC/DC (for high ASIL) |
 | **Tools** | Tessy, Cantata, GoogleTest (for C++) |
 
-### Integration Testing
+### 🔗 Integration Testing
 
 | Aspect | Description |
 |--------|-------------|
@@ -44,7 +44,7 @@
 | **Focus** | Interfaces, data flow, timing |
 | **Stub/mock use** | Common for dependent components |
 
-### System Testing
+### 🔷 System Testing
 
 | Aspect | Description |
 |--------|-------------|
@@ -53,7 +53,7 @@
 | **Focus** | Requirements verification, safety behavior |
 | **Types** | Functional, safety, network, diagnostic |
 
-### Acceptance Testing
+### 🤝 Acceptance Testing
 
 | Aspect | Description |
 |--------|-------------|
@@ -64,9 +64,9 @@
 
 ---
 
-## 3.3 Traceability
+## 🔗 3.3 Traceability
 
-### Bidirectional Traceability
+### 🔗 Bidirectional Traceability
 
 ```
 Requirements → Design → Code → Tests
@@ -76,7 +76,7 @@ Requirements → Design → Code → Tests
 **Forward traceability:** Requirement → Test (ensures coverage)
 **Backward traceability:** Test → Requirement (ensures no unnecessary tests)
 
-### Traceability Tools
+### 🛠️ Traceability Tools
 
 | Tool Type | Examples |
 |-----------|----------|
@@ -84,7 +84,7 @@ Requirements → Design → Code → Tests
 | **Test management** | Vector CANoe, dSPACE, ETAS |
 | **Issue tracking** | Jira, CodeBeamer |
 
-### Traceability Maintenance
+### 🔗 Traceability Maintenance
 
 - Update links when requirements change
 - Review traceability in change control boards
@@ -92,9 +92,9 @@ Requirements → Design → Code → Tests
 
 ---
 
-## 3.4 Configuration Management
+## ⚙️ 3.4 Configuration Management
 
-### Items Under Configuration Control
+### ⚙️ Items Under Configuration Control
 
 | Item | Rationale |
 |------|-----------|
@@ -106,7 +106,7 @@ Requirements → Design → Code → Tests
 | **Test environment** | Consistent results |
 | **Test results** | Audit trail |
 
-### Baselines
+### 🔷 Baselines
 
 | Baseline | When Established |
 |----------|-----------------|
@@ -116,9 +116,9 @@ Requirements → Design → Code → Tests
 
 ---
 
-## 3.5 Software Releases and Updates
+## ⭐ 3.5 Software Releases and Updates
 
-### Release Types
+### 🧪 Release Types
 
 | Type | Description |
 |------|-------------|
@@ -127,7 +127,7 @@ Requirements → Design → Code → Tests
 | **Production release** | Vehicle production |
 | **Service release** | Field update |
 
-### OTA (Over-the-Air) Updates
+### 🤖 OTA (Over-the-Air) Updates
 
 | Challenge | Testing Implication |
 |-----------|-------------------|
@@ -138,9 +138,9 @@ Requirements → Design → Code → Tests
 
 ---
 
-## 3.6 Regression Testing
+## ⭐ 3.6 Regression Testing
 
-### Strategy
+### ♟️ Strategy
 
 | Level | Scope | Frequency |
 |-------|-------|-----------|
@@ -149,7 +149,7 @@ Requirements → Design → Code → Tests
 | **System regression** | Full system | Per release |
 | **Vehicle regression** | End-to-end | Per major release |
 
-### Selection Criteria
+### ✅ Selection Criteria
 
 - Code changes and impact analysis
 - ASIL level (higher ASIL = more regression)
@@ -158,9 +158,9 @@ Requirements → Design → Code → Tests
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Test Level Selection
+### 💡 Worked Example 1: Test Level Selection
 
 **Scenario:** Test a new brake control algorithm.
 
@@ -171,7 +171,7 @@ Requirements → Design → Code → Tests
 | System | Emergency braking scenario | HIL | Requirements coverage |
 | Acceptance | Track testing with test vehicle | Vehicle | Real-world validation |
 
-### Worked Example 2: Traceability Impact Analysis
+### 💡 Worked Example 2: Traceability Impact Analysis
 
 **Scenario:** Requirement "Brake light response time < 100ms" changes to 50ms.
 
@@ -187,7 +187,7 @@ Requirements → Design → Code → Tests
 3. Re-run system tests
 4. Update test documentation
 
-### Worked Example 3: OTA Update Testing
+### 💡 Worked Example 3: OTA Update Testing
 
 **Scenario:** Update infotainment system OTA.
 

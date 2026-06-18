@@ -1,8 +1,8 @@
-# Chapter 4 — Non-Functional Game Testing: Practice Questions
+# ❓ Chapter 4 — Non-Functional Game Testing: Practice Questions
 
 ---
 
-### Q1 (GaMe-4.1, K2)
+### 🎮 Q1 (GaMe-4.1, K2)
 
 Frame rate testing should include:
 
@@ -13,7 +13,7 @@ D. Only title screens
 
 ---
 
-### Q2 (GaMe-4.2, K2)
+### 🎮 Q2 (GaMe-4.2, K2)
 
 Stability testing with long play sessions reveals:
 
@@ -24,7 +24,7 @@ D. Only visual glitches
 
 ---
 
-### Q3 (GaMe-4.3, K2)
+### 🎮 Q3 (GaMe-4.3, K2)
 
 Compatibility testing for PC includes:
 
@@ -35,7 +35,7 @@ D. Only controllers
 
 ---
 
-### Q4 (GaMe-4.4, K2)
+### 🎮 Q4 (GaMe-4.4, K2)
 
 Colorblind modes test:
 
@@ -46,7 +46,7 @@ D. Only contrast
 
 ---
 
-### Q5 (GaMe-4.1, K2)
+### 🎮 Q5 (GaMe-4.1, K2)
 
 Loading time targets should be tested:
 
@@ -57,7 +57,7 @@ D. Only during gameplay
 
 ---
 
-### Q6 (GaMe-4.2, K2)
+### 🎮 Q6 (GaMe-4.2, K2)
 
 Memory leak detection uses:
 
@@ -68,7 +68,7 @@ D. Only save files
 
 ---
 
-### Q7 (GaMe-4.3, K2)
+### 🎮 Q7 (GaMe-4.3, K2)
 
 Controller compatibility testing includes:
 
@@ -79,7 +79,7 @@ D. Only motion controls
 
 ---
 
-### Q8 (GaMe-4.4, K2)
+### 🎮 Q8 (GaMe-4.4, K2)
 
 Subtitle options should include:
 
@@ -90,7 +90,7 @@ D. Only position
 
 ---
 
-### Q9 (GaMe-4.1, K2)
+### 🎮 Q9 (GaMe-4.1, K2)
 
 Stress testing an action game means:
 
@@ -101,7 +101,7 @@ D. Only testing audio
 
 ---
 
-### Q10 (GaMe-4.2, K2)
+### 🎮 Q10 (GaMe-4.2, K2)
 
 Crash recovery should:
 
@@ -112,7 +112,7 @@ D. Only show an error code
 
 ---
 
-### Q11 (GaMe-4.3, K2)
+### 🎮 Q11 (GaMe-4.3, K2)
 
 HDR testing requires checking:
 
@@ -123,7 +123,7 @@ D. Only frame rate
 
 ---
 
-### Q12 (GaMe-4.4, K2)
+### 🎮 Q12 (GaMe-4.4, K2)
 
 Remappable controls support:
 
@@ -134,7 +134,7 @@ D. Only controller
 
 ---
 
-### Q13 (GaMe-4.1, K2)
+### 🎮 Q13 (GaMe-4.1, K2)
 
 VR games should target:
 
@@ -145,7 +145,7 @@ D. Only 120 FPS
 
 ---
 
-### Q14 (GaMe-4.2, K2)
+### 🎮 Q14 (GaMe-4.2, K2)
 
 Corrupt save file handling should:
 
@@ -156,7 +156,7 @@ D. Only delete other saves
 
 ---
 
-### Q15 (GaMe-4.3, K2)
+### 🎮 Q15 (GaMe-4.3, K2)
 
 Aspect ratio testing includes:
 
@@ -167,7 +167,7 @@ D. Only portrait
 
 ---
 
-### Q16 (GaMe-4.4, K2)
+### 🎮 Q16 (GaMe-4.4, K2)
 
 Localization text truncation is tested by:
 
@@ -178,7 +178,7 @@ D. Only symbols
 
 ---
 
-### Q17 (GaMe-4.1, K2)
+### 🎮 Q17 (GaMe-4.1, K2)
 
 Frame time spikes:
 
@@ -189,7 +189,7 @@ D. Only affect loading
 
 ---
 
-### Q18 (GaMe-4.2, K2)
+### 🎮 Q18 (GaMe-4.2, K2)
 
 Auto-save during crash recovery should:
 
@@ -200,7 +200,7 @@ D. Only show a warning
 
 ---
 
-### Q19 (GaMe-4.3, K2)
+### 🎮 Q19 (GaMe-4.3, K2)
 
 GPU driver compatibility should be tested with:
 
@@ -211,7 +211,7 @@ D. Only beta drivers
 
 ---
 
-### Q20 (GaMe-4.4, K2)
+### 🎮 Q20 (GaMe-4.4, K2)
 
 Accessibility pause functionality should:
 
@@ -222,84 +222,84 @@ D. Only work offline
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** FPS = min + recommended + high-end.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** Long sessions = leaks + crashes.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** PC = GPU + CPU + RAM + OS.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** Colorblind = deuteranopia + protanopia + tritanopia.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Loading = HDD + SSD.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Leaks = heap profiling + snapshots.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Controllers = Xbox + PS + KB/M + 3rd party.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Subtitles = size + background + labels.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** Stress = max particles + enemies + effects.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** Recovery = auto-save + no loss.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** HDR = on/off + brightness levels.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Remappable = all actions.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** VR = 90+ FPS.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Corrupt = error + new game.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Aspect = 16:9 + 21:9 + 4:3.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Truncation = longest translations.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Spikes = stuttering.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Auto-save = nearest safe state.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Drivers = min + latest.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** Pause = always available.

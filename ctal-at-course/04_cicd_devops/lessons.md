@@ -1,10 +1,10 @@
-# Chapter 4 — CI/CD, DevOps, and Continuous Testing: Lessons
+# 📘 Chapter 4 — CI/CD, DevOps, and Continuous Testing: Lessons
 
 ---
 
-## 4.1 Continuous Integration (CI)
+## 🔗 4.1 Continuous Integration (CI)
 
-### What Is CI?
+### 🔷 What Is CI?
 
 Continuous Integration is the practice of merging all developers' working copies to a shared mainline several times a day, with automated builds and tests.
 
@@ -20,7 +20,7 @@ Continuous Integration is the practice of merging all developers' working copies
 9. Everyone can see what happened
 10. Automate deployment
 
-### CI Pipeline Stages
+### 🔷 CI Pipeline Stages
 
 **Typical CI Pipeline:**
 ```
@@ -45,7 +45,7 @@ Integration tests
 Report results
 ```
 
-### CI Testing Activities
+### 🔷 CI Testing Activities
 
 **1. Build Verification:**
 - Does the code compile?
@@ -73,7 +73,7 @@ Report results
 - Run in a test environment
 - May run after unit tests pass
 
-### CI Best Practices
+### ❓ CI Best Practices
 
 **Fast Feedback:**
 - Unit tests should run in under 5 minutes
@@ -92,9 +92,9 @@ Report results
 
 ---
 
-## 4.2 Continuous Delivery (CD)
+## ⭐ 4.2 Continuous Delivery (CD)
 
-### Continuous Delivery vs. Continuous Deployment
+### 🔷 Continuous Delivery vs. Continuous Deployment
 
 | Aspect | Continuous Delivery | Continuous Deployment |
 |--------|--------------------|-----------------------|
@@ -110,7 +110,7 @@ CI → Continuous Delivery → Continuous Deployment
      (manual approval)      (fully automatic)
 ```
 
-### CD Pipeline Stages
+### 🔷 CD Pipeline Stages
 
 **After CI passes:**
 ```
@@ -131,7 +131,7 @@ Run smoke tests in production
 Monitor and alert
 ```
 
-### CD Testing Activities
+### 🔷 CD Testing Activities
 
 **1. Acceptance Tests in Staging:**
 - Verify features meet acceptance criteria
@@ -155,9 +155,9 @@ Monitor and alert
 
 ---
 
-## 4.3 DevOps and the Technical Tester
+## 🔧 4.3 DevOps and the Technical Tester
 
-### What Is DevOps?
+### 🔧 What Is DevOps?
 
 DevOps is a cultural and professional movement that stresses communication, collaboration, and integration between software developers and IT operations professionals.
 
@@ -168,7 +168,7 @@ DevOps is a cultural and professional movement that stresses communication, coll
 - **Measurement:** Monitor everything, data-driven decisions
 - **Sharing:** Open communication, shared tools, shared goals
 
-### The Technical Tester's Role in DevOps
+### 🔧 The Technical Tester's Role in DevOps
 
 **1. Shift-Left Testing:**
 - Write tests before code (TDD, ATDD)
@@ -195,7 +195,7 @@ DevOps is a cultural and professional movement that stresses communication, coll
 - Work with operations on deployment verification
 - Work with business on acceptance criteria
 
-### DevOps Testing Practices
+### ❓ DevOps Testing Practices
 
 **1. Infrastructure as Code (IaC):**
 - Define environments in code (Terraform, Ansible, Chef, Puppet)
@@ -220,9 +220,9 @@ DevOps is a cultural and professional movement that stresses communication, coll
 
 ---
 
-## 4.4 Designing CI/CD Pipelines
+## 🎨 4.4 Designing CI/CD Pipelines
 
-### Pipeline Design Principles
+### 📜 Pipeline Design Principles
 
 **1. Fail Fast:**
 - Run fastest tests first (unit tests)
@@ -244,7 +244,7 @@ DevOps is a cultural and professional movement that stresses communication, coll
 - Notifications on failures
 - Dashboards showing trends
 
-### Example Pipeline Design
+### 💡 Example Pipeline Design
 
 **Team:** 8 developers, 2 testers, releasing weekly
 
@@ -288,13 +288,13 @@ Stage 7: Deploy to Production (manual approval for Continuous Delivery)
 
 ---
 
-## 4.5 Quality Gates
+## 💎 4.5 Quality Gates
 
-### What Are Quality Gates?
+### 💎 What Are Quality Gates?
 
 Quality gates are criteria that must be met before the pipeline can proceed to the next stage.
 
-### Types of Quality Gates
+### 🧪 Types of Quality Gates
 
 **1. Automated Gates:**
 - All tests pass
@@ -309,7 +309,7 @@ Quality gates are criteria that must be met before the pipeline can proceed to t
 - Business stakeholder approval
 - Deployment approval (for Continuous Delivery)
 
-### Gate Examples
+### 💡 Gate Examples
 
 | Gate | Criteria | If Failed |
 |------|----------|-----------|
@@ -321,7 +321,7 @@ Quality gates are criteria that must be met before the pipeline can proceed to t
 | Performance | p95 response time < 2s | Warn, may block |
 | Manual Review | Approved by reviewer | Block deployment |
 
-### Balancing Quality and Speed
+### 💎 Balancing Quality and Speed
 
 **Too Strict:**
 - Pipeline fails frequently for minor issues
@@ -340,9 +340,9 @@ Quality gates are criteria that must be met before the pipeline can proceed to t
 
 ---
 
-## 4.6 Feature Flags and Canary Releases
+## ⭐ 4.6 Feature Flags and Canary Releases
 
-### Feature Flags (Feature Toggles)
+### 🔷 Feature Flags (Feature Toggles)
 
 Feature flags allow code to be deployed to production without being visible to users.
 
@@ -357,7 +357,7 @@ Feature flags allow code to be deployed to production without being visible to u
 - Ensure flag-off does not break existing functionality
 - Clean up flags after feature is fully rolled out
 
-### Canary Releases
+### 🔷 Canary Releases
 
 A canary release deploys a new version to a small subset of users first, monitors for issues, then gradually rolls out to all users.
 
@@ -374,9 +374,9 @@ A canary release deploys a new version to a small subset of users first, monitor
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: CI Pipeline Troubleshooting
+### 💡 Worked Example 1: CI Pipeline Troubleshooting
 
 **Scenario:** A team's CI pipeline takes 45 minutes. Developers commit infrequently because they wait for the previous build to finish.
 
@@ -393,7 +393,7 @@ A canary release deploys a new version to a small subset of users first, monitor
 
 **Target:** Per-commit pipeline < 10 minutes
 
-### Worked Example 2: Quality Gate Design
+### 💡 Worked Example 2: Quality Gate Design
 
 **Scenario:** A team wants to prevent security vulnerabilities from reaching production.
 
@@ -415,7 +415,7 @@ If Gate Fails:
   - Developer must fix before merge
 ```
 
-### Worked Example 3: DevOps Testing Scenario
+### 💡 Worked Example 3: DevOps Testing Scenario
 
 **Scenario:** A team uses Docker containers and Kubernetes for deployment.
 

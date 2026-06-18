@@ -1,8 +1,8 @@
-# Chapter 5 — API Security and Performance Testing: Practice Questions
+# ❓ Chapter 5 — API Security and Performance Testing: Practice Questions
 
 ---
 
-### Q1 (API-5.1, K2)
+### 🔌 Q1 (API-5.1, K2)
 
 Basic Authentication sends credentials:
 
@@ -13,7 +13,7 @@ D. Using OAuth2
 
 ---
 
-### Q2 (API-5.1, K2)
+### 🔌 Q2 (API-5.1, K2)
 
 OAuth2 is primarily a framework for:
 
@@ -24,7 +24,7 @@ D. Generating API documentation
 
 ---
 
-### Q3 (API-5.2, K2)
+### 🔌 Q3 (API-5.2, K2)
 
 A user changes a URL parameter from `/users/123/orders` to `/users/124/orders` and accesses another user's data. This is:
 
@@ -35,7 +35,7 @@ D. A caching problem
 
 ---
 
-### Q4 (API-5.2, K3)
+### 🔌 Q4 (API-5.2, K3)
 
 An API returns a user's password hash in a profile response. This is:
 
@@ -46,7 +46,7 @@ D. Normal REST practice
 
 ---
 
-### Q5 (API-5.3, K2)
+### 🔌 Q5 (API-5.3, K2)
 
 Sending `{"username": "admin' OR '1'='1"}` to test an API is checking for:
 
@@ -57,7 +57,7 @@ D. Buffer overflow
 
 ---
 
-### Q6 (API-5.4, K2)
+### 🔌 Q6 (API-5.4, K2)
 
 Load testing verifies:
 
@@ -68,7 +68,7 @@ D. The API's documentation accuracy
 
 ---
 
-### Q7 (API-5.4, K2)
+### 🔌 Q7 (API-5.4, K2)
 
 Stress testing is used to:
 
@@ -79,7 +79,7 @@ D. Verify user authentication
 
 ---
 
-### Q8 (API-5.1, K3)
+### 🔌 Q8 (API-5.1, K3)
 
 A valid JWT with a modified payload (but original signature) is sent to an API. A secure API should:
 
@@ -90,7 +90,7 @@ D. Return a cached response
 
 ---
 
-### Q9 (API-5.4, K3)
+### 🔌 Q9 (API-5.4, K3)
 
 A team needs to verify that an API can handle sustained traffic for 8 hours without memory leaks. They should perform:
 
@@ -101,7 +101,7 @@ D. Spike testing
 
 ---
 
-### Q10 (API-5.2, K2)
+### 🔌 Q10 (API-5.2, K2)
 
 Which OWASP API Security risk involves users accessing endpoints beyond their role (e.g., regular users accessing admin functions)?
 
@@ -112,7 +112,7 @@ D. Security Misconfiguration
 
 ---
 
-### Q11 (API-5.5, K2)
+### 🔌 Q11 (API-5.5, K2)
 
 When a client exceeds the API rate limit, the expected HTTP status code is:
 
@@ -123,7 +123,7 @@ D. 500 Internal Server Error
 
 ---
 
-### Q12 (API-5.3, K3)
+### 🔌 Q12 (API-5.3, K3)
 
 Testing an API endpoint with an expired access token should return:
 
@@ -134,7 +134,7 @@ D. 404 Not Found
 
 ---
 
-### Q13 (API-5.4, K2)
+### 🔌 Q13 (API-5.4, K2)
 
 k6 is a tool primarily used for:
 
@@ -145,7 +145,7 @@ D. UI automation
 
 ---
 
-### Q14 (API-5.2, K2)
+### 🔌 Q14 (API-5.2, K2)
 
 Mass assignment in APIs occurs when:
 
@@ -156,7 +156,7 @@ D. Multiple APIs share the same database
 
 ---
 
-### Q15 (API-5.1, K3)
+### 🔌 Q15 (API-5.1, K3)
 
 In OAuth2 Authorization Code flow, the client first:
 
@@ -167,7 +167,7 @@ D. Calls the API with a client ID only
 
 ---
 
-### Q16 (API-5.4, K3)
+### 🔌 Q16 (API-5.4, K3)
 
 Spike testing is used to verify:
 
@@ -178,7 +178,7 @@ D. API security vulnerabilities
 
 ---
 
-### Q17 (API-5.2, K2)
+### 🔌 Q17 (API-5.2, K2)
 
 Sending a request to `GET /files/../../etc/passwd` is testing for:
 
@@ -189,7 +189,7 @@ D. Buffer overflow
 
 ---
 
-### Q18 (API-5.3, K2)
+### 🔌 Q18 (API-5.3, K2)
 
 API security testing should include:
 
@@ -200,7 +200,7 @@ D. Only manual testing
 
 ---
 
-### Q19 (API-5.4, K2)
+### 🔌 Q19 (API-5.4, K2)
 
 Which metric measures the time from sending a request to receiving a response?
 
@@ -211,7 +211,7 @@ D. Error rate
 
 ---
 
-### Q20 (API-5.2, K3)
+### 🔌 Q20 (API-5.2, K3)
 
 A production API still has an old `/v1/` endpoint with known vulnerabilities while `/v2/` is secure. This is:
 
@@ -222,104 +222,104 @@ D. A caching issue
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** Basic Auth uses Base64 encoding, which is not encryption. Must use HTTPS.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** OAuth2 is an authorization framework for granting limited access.
 
-### Q3
+### 🔷 Q3
 **Answer: A**
 
 **Rationale:** Accessing another user's resources by changing IDs = broken object level authorization.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** Returning sensitive data like password hashes = excessive data exposure.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** SQL injection test using tautology (`' OR '1'='1`).
 
-### Q6
+### 🔷 Q6
 **Answer: A**
 
 **Rationale:** Load testing = testing under expected load.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** Stress testing = finding breaking points beyond normal capacity.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** JWT signature must match the payload. Modified payload = invalid signature.
 
-### Q9
+### 🔷 Q9
 **Answer: C**
 
 **Rationale:** Soak testing = sustained load for extended periods to find leaks.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** Broken function level authorization = wrong role accessing endpoints.
 
-### Q11
+### 🔷 Q11
 **Answer: C**
 
 **Rationale:** 429 = Too Many Requests (rate limit exceeded).
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** Expired token = authentication failure = 401 Unauthorized.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** k6 is a modern load/performance testing tool.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** Mass assignment = clients setting fields they shouldn't.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** Auth Code flow starts by redirecting user to authorization server.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 
 **Rationale:** Spike testing = sudden dramatic traffic increase.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 
 **Rationale:** `../../etc/passwd` = path traversal attempt.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 
 **Rationale:** Security testing must include invalid/missing/expired credentials.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** Response time = request to response duration.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 
 **Rationale:** Old vulnerable endpoints still accessible = improper assets management.

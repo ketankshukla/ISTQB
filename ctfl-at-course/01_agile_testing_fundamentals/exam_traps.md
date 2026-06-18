@@ -1,6 +1,6 @@
-# Chapter 1 — Agile Testing Fundamentals: Exam Traps
+# 🪤 Chapter 1 — Agile Testing Fundamentals: Exam Traps
 
-## Trap 1: Thinking "Over" Means "Instead Of"
+## 🪤 Trap 1: Thinking "Over" Means "Instead Of"
 
 **Trap:** The Agile Manifesto values items on the left MORE than items on the right — not exclusively instead of them.
 
@@ -22,7 +22,7 @@
 
 ---
 
-## Trap 2: Thinking Testers Are Not Needed in Agile
+## 🪤 Trap 2: Thinking Testers Are Not Needed in Agile
 
 **Trap:** The whole-team approach does not eliminate the need for testers.
 
@@ -44,7 +44,7 @@
 
 ---
 
-## Trap 3: Confusing Independent Testing with Team-Based Testing
+## 🪤 Trap 3: Confusing Independent Testing with Team-Based Testing
 
 **Trap:** Independent testing and team-based testing have different benefits and drawbacks.
 
@@ -66,7 +66,7 @@
 
 ---
 
-## Trap 4: Thinking Agile Means No Documentation
+## 🪤 Trap 4: Thinking Agile Means No Documentation
 
 **Trap:** Agile values working software over comprehensive documentation, but does not eliminate documentation entirely.
 
@@ -88,7 +88,7 @@
 
 ---
 
-## Trap 5: Treating Test Levels as Phases in Agile
+## 🪤 Trap 5: Treating Test Levels as Phases in Agile
 
 **Trap:** In agile, test levels are not sequential phases — they are continuous activities.
 
@@ -110,7 +110,7 @@
 
 ---
 
-## Trap 6: Confusing the Tester's Role in Agile
+## 🪤 Trap 6: Confusing the Tester's Role in Agile
 
 **Trap:** The agile tester is not just a test executor — they are a quality coach, collaborator, and advocate.
 
@@ -132,7 +132,7 @@
 
 ---
 
-## Trap 7: Thinking Early Testing Is Only About Finding Defects
+## 🪤 Trap 7: Thinking Early Testing Is Only About Finding Defects
 
 **Trap:** Early testing in agile also prevents defects by improving requirements and design.
 

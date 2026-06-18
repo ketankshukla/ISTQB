@@ -1,8 +1,8 @@
-# Chapter 3 — Static Analysis: Lessons
+# 📘 Chapter 3 — Static Analysis: Lessons
 
 ---
 
-## 3.1 What Is Static Analysis?
+## 🔍 3.1 What Is Static Analysis?
 
 **Definition:** Static analysis is the examination of software work products (code, design, documentation) without executing the code.
 
@@ -23,9 +23,9 @@
 
 ---
 
-## 3.2 Types of Static Analysis
+## 🧪 3.2 Types of Static Analysis
 
-### 1. Compilers and Interpreters
+### 🔷 1. Compilers and Interpreters
 
 Compilers perform static analysis as part of the compilation process:
 - Syntax checking
@@ -41,7 +41,7 @@ if (false) {    // Compiler warning: unreachable code
 }
 ```
 
-### 2. Linters and Style Checkers
+### 🔷 2. Linters and Style Checkers
 
 Tools that enforce coding standards and best practices:
 - **ESLint:** JavaScript/TypeScript
@@ -55,7 +55,7 @@ Tools that enforce coding standards and best practices:
 - Maximum line length
 - Forbidden functions
 
-### 3. Metrics Calculators
+### 📊 3. Metrics Calculators
 
 Tools that calculate code metrics:
 - Lines of code (LOC)
@@ -64,7 +64,7 @@ Tools that calculate code metrics:
 - Maintainability index
 - Comment ratio
 
-### 4. Security Scanners (SAST)
+### 🔒 4. Security Scanners (SAST)
 
 Static Application Security Testing tools that find security vulnerabilities:
 - **SonarQube** (with security plugins)
@@ -80,7 +80,7 @@ Static Application Security Testing tools that find security vulnerabilities:
 - Hardcoded credentials
 - Insecure deserialization
 
-### 5. Code Smell Detectors
+### 🔷 5. Code Smell Detectors
 
 Tools that identify patterns indicating potential problems:
 - Duplicate code
@@ -92,9 +92,9 @@ Tools that identify patterns indicating potential problems:
 
 ---
 
-## 3.3 Cyclomatic Complexity in Depth
+## ⭐ 3.3 Cyclomatic Complexity in Depth
 
-### Calculation
+### 🔷 Calculation
 
 **Formula:**
 ```
@@ -111,7 +111,7 @@ Where:
 V(G) = Number of decision points + 1
 ```
 
-### Decision Points
+### 🗂️ Decision Points
 
 A decision point is any statement that can branch:
 - `if` statement
@@ -123,7 +123,7 @@ A decision point is any statement that can branch:
 
 **Note:** The `?:` ternary operator is also a decision point.
 
-### Worked Example
+### 💡 Worked Example
 
 **Code:**
 ```java
@@ -188,7 +188,7 @@ V(G) = 9 - 8 + 2(1) = 3
 
 Using decision points: 2 + 1 = 3 ✓
 
-### Complexity Guidelines
+### 🔷 Complexity Guidelines
 
 | Complexity | Risk | Action |
 |-----------|------|--------|
@@ -197,7 +197,7 @@ Using decision points: 2 + 1 = 3 ✓
 | 21-50 | High | Complex, significant testing required, refactoring recommended |
 | 50+ | Very High | Very complex, high defect risk, refactor |
 
-### Nested Complexity
+### 🔷 Nested Complexity
 
 Nested decisions multiply the effective complexity:
 ```java
@@ -215,16 +215,16 @@ But the cognitive complexity (ease of understanding) is much higher due to nesti
 
 ---
 
-## 3.4 Halstead Metrics
+## 📊 3.4 Halstead Metrics
 
-### Basic Measures
+### 🔷 Basic Measures
 
 **n1** = number of unique operators (e.g., +, -, *, /, =, if, while)
 **n2** = number of unique operands (e.g., variables, constants)
 **N1** = total occurrences of operators
 **N2** = total occurrences of operands
 
-### Derived Metrics
+### 📊 Derived Metrics
 
 **Program Vocabulary:**
 ```
@@ -265,7 +265,7 @@ B = V / 3000
 ```
 Estimates the number of bugs in the code.
 
-### Worked Example
+### 💡 Worked Example
 
 **Code:**
 ```
@@ -285,9 +285,9 @@ a = b + c * 2;
 
 ---
 
-## 3.5 Maintainability Metrics
+## 📊 3.5 Maintainability Metrics
 
-### Lines of Code (LOC)
+### 🔷 Lines of Code (LOC)
 
 **Physical LOC:** Count of all lines including comments and blank lines.
 **Logical LOC:** Count of executable statements.
@@ -297,7 +297,7 @@ a = b + c * 2;
 - Classes should be a few hundred LOC
 - Very large files/modules are harder to maintain
 
-### Comment Ratio
+### 🔷 Comment Ratio
 
 ```
 Comment Ratio = (Lines of Comments / Total Lines) * 100%
@@ -308,7 +308,7 @@ Comment Ratio = (Lines of Comments / Total Lines) * 100%
 - Too few comments = hard to understand
 - Too many comments = comments may be outdated or redundant
 
-### Maintainability Index
+### 🤖 Maintainability Index
 
 A composite metric combining several factors:
 
@@ -323,9 +323,9 @@ MI = 171 - 5.2 * ln(Halstead Volume) - 0.23 * Cyclomatic Complexity - 16.2 * ln(
 
 ---
 
-## 3.6 Static Analysis Tools and Their Use
+## 🔍 3.6 Static Analysis Tools and Their Use
 
-### Tool Categories
+### 🛠️ Tool Categories
 
 **1. IDE-Integrated:**
 - Real-time feedback as code is written
@@ -339,7 +339,7 @@ MI = 171 - 5.2 * ln(Halstead Volume) - 0.23 * Cyclomatic Complexity - 16.2 * ln(
 - Run independently of development environment
 - Examples: PMD, FindBugs, FxCop
 
-### Selecting Static Analysis Tools
+### 🔍 Selecting Static Analysis Tools
 
 **Criteria:**
 - **Language support:** Does it support your programming languages?
@@ -349,7 +349,7 @@ MI = 171 - 5.2 * ln(Halstead Volume) - 0.23 * Cyclomatic Complexity - 16.2 * ln(
 - **Reporting:** Does it provide useful reports and dashboards?
 - **Cost:** Commercial vs. open-source
 
-### Dealing with Findings
+### 🔷 Dealing with Findings
 
 **Severity Levels:**
 - **Blocker:** Must fix immediately (security vulnerability, crash)
@@ -369,7 +369,7 @@ MI = 171 - 5.2 * ln(Halstead Volume) - 0.23 * Cyclomatic Complexity - 16.2 * ln(
 - Static analysis cannot find all defects
 - Dynamic testing and manual review are still needed
 
-### Static Analysis in the Development Lifecycle
+### 🔍 Static Analysis in the Development Lifecycle
 
 **Phase 1: Development (IDE)**
 - Developers see issues as they code
@@ -390,7 +390,7 @@ MI = 171 - 5.2 * ln(Halstead Volume) - 0.23 * Cyclomatic Complexity - 16.2 * ln(
 
 ---
 
-## 3.7 Limitations of Static Analysis
+## 🔍 3.7 Limitations of Static Analysis
 
 **1. Cannot Verify Runtime Behavior:**
 - Memory leaks, performance, concurrency issues
@@ -414,9 +414,9 @@ MI = 171 - 5.2 * ln(Halstead Volume) - 0.23 * Cyclomatic Complexity - 16.2 * ln(
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Cyclomatic Complexity Calculation
+### 💡 Worked Example 1: Cyclomatic Complexity Calculation
 
 **Code:**
 ```java
@@ -444,7 +444,7 @@ public String classify(int score) {
 
 Minimum 4 test cases for basis path coverage.
 
-### Worked Example 2: Static Analysis Finding Classification
+### 💡 Worked Example 2: Static Analysis Finding Classification
 
 **Finding 1:** "Potential null pointer dereference on line 45"
 - Severity: Critical
@@ -466,7 +466,7 @@ Minimum 4 test cases for basis path coverage.
 - Action: Remove import
 - Type: Code cleanliness
 
-### Worked Example 3: Halstead Metrics
+### 💡 Worked Example 3: Halstead Metrics
 
 **Code:**
 ```

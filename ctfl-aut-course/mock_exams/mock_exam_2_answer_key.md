@@ -1,6 +1,6 @@
-# CTFL-AuT Mock Exam 2 — Answer Key
+# 📝 CTFL-AuT Mock Exam 2 — Answer Key
 
-## Answers
+## ✔️ Answers
 
 | Question | Answer | Topic |
 |----------|--------|-------|
@@ -25,7 +25,7 @@
 | Q19 | B | HIL for brake ECU |
 | Q20 | B | Harsh environment |
 
-## Score Interpretation
+## ⭐ Score Interpretation
 
 | Score | Status |
 |-------|--------|

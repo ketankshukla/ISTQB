@@ -1,10 +1,10 @@
-# Chapter 3 — Test Automation in Agile: Lessons
+# 📘 Chapter 3 — Test Automation in Agile: Lessons
 
 ---
 
-## 3.1 Test Automation Strategy in Agile
+## ♟️ 3.1 Test Automation Strategy in Agile
 
-### Why Automation Is Essential in Agile
+### ⚙️ Why Automation Is Essential in Agile
 
 Agile teams release frequently (every sprint, sometimes multiple times per day). Manual testing cannot keep pace:
 
@@ -21,7 +21,7 @@ Agile teams release frequently (every sprint, sometimes multiple times per day).
 - Repeatable, consistent test execution
 - Freeing testers for exploratory testing
 
-### What to Automate in Agile
+### ⚙️ What to Automate in Agile
 
 **Automate:**
 - Unit tests (mandatory — part of TDD)
@@ -43,7 +43,7 @@ Agile teams release frequently (every sprint, sometimes multiple times per day).
 - Tests for features with volatile requirements
 - Visual/layout testing (unless using specialized tools)
 
-### Automation Strategy Decisions
+### ♟️ Automation Strategy Decisions
 
 **1. What levels to automate?**
 - Unit tests: 100% automated (developer responsibility)
@@ -62,9 +62,9 @@ Agile teams release frequently (every sprint, sometimes multiple times per day).
 
 ---
 
-## 3.2 Automation Framework Types
+## 🧪 3.2 Automation Framework Types
 
-### 1. Linear Scripting (Record/Replay)
+### 🔷 1. Linear Scripting (Record/Replay)
 
 - Record user actions, replay them
 - Quick to create
@@ -72,7 +72,7 @@ Agile teams release frequently (every sprint, sometimes multiple times per day).
 - Hard to maintain
 - **Verdict:** Not suitable for production automation in agile
 
-### 2. Modular Framework
+### 🔷 2. Modular Framework
 
 - Break tests into reusable functions/modules
 - Modules can be called from multiple test scripts
@@ -84,7 +84,7 @@ Agile teams release frequently (every sprint, sometimes multiple times per day).
   checkoutModule(paymentMethod)
   ```
 
-### 3. Data-Driven Framework
+### 🗃️ 3. Data-Driven Framework
 
 - Test logic is separate from test data
 - Same test script runs with multiple data sets
@@ -104,7 +104,7 @@ Data File:
 | emptyUser    | emptyPass  | error          |
 ```
 
-### 4. Keyword-Driven Framework
+### 🔷 4. Keyword-Driven Framework
 
 - Tests written using keywords (action words)
 - Keywords map to functions in the framework
@@ -121,14 +121,14 @@ ClickButton "Login"
 VerifyText "Welcome, testuser"
 ```
 
-### 5. Hybrid Framework
+### 🔷 5. Hybrid Framework
 
 - Combines multiple approaches
 - Typically: data-driven + keyword-driven + modular
 - Flexible and maintainable
 - **Use when:** Large, complex projects with diverse needs
 
-### Framework Selection
+### 🔷 Framework Selection
 
 | Factor | Consideration |
 |--------|-------------|
@@ -140,9 +140,9 @@ VerifyText "Welcome, testuser"
 
 ---
 
-## 3.3 Maintainability Practices
+## ❓ 3.3 Maintainability Practices
 
-### Page Object Model (POM)
+### 📐 Page Object Model (POM)
 
 **Problem:** UI locators (XPath, CSS selectors) scattered throughout test scripts. When the UI changes, every test breaks.
 
@@ -198,7 +198,7 @@ public void validLogin() {
 - Test scripts remain unchanged
 - Reusable across multiple tests
 
-### Abstraction Layers
+### 🔷 Abstraction Layers
 
 **Layer 1: Page Objects / API Clients**
 - Know how to interact with the system (UI locators, API endpoints)
@@ -213,7 +213,7 @@ public void validLogin() {
 - Contain assertions and test data
 - Describe WHAT is being tested, not HOW
 
-### Coding Standards for Test Code
+### 🔷 Coding Standards for Test Code
 
 Test code is production code. Apply the same standards:
 - Meaningful names for tests and variables
@@ -224,9 +224,9 @@ Test code is production code. Apply the same standards:
 
 ---
 
-## 3.4 Test Data Management in Agile
+## 🗂️ 3.4 Test Data Management in Agile
 
-### Test Data Challenges
+### 🗃️ Test Data Challenges
 
 1. **Data freshness:** Test data becomes stale (expired accounts, outdated products)
 2. **Data conflicts:** Multiple tests modify the same data
@@ -234,7 +234,7 @@ Test code is production code. Apply the same standards:
 4. **Sensitive data:** PII/PHI cannot be used in test environments
 5. **External dependencies:** Tests fail when external data is unavailable
 
-### Test Data Strategies
+### 🗃️ Test Data Strategies
 
 **1. Static Test Data:**
 - Predefined data stored in files or databases
@@ -256,7 +256,7 @@ Test code is production code. Apply the same standards:
 - Clean up after test completion
 - Good for: Integration tests, E2E tests
 
-### Test Data Isolation
+### 🗃️ Test Data Isolation
 
 Each test should use its own data to avoid conflicts:
 
@@ -272,9 +272,9 @@ Test 2: Create user "testuser_2", perform actions, delete user
 
 ---
 
-## 3.5 Automation Metrics
+## 📊 3.5 Automation Metrics
 
-### Key Metrics
+### 📊 Key Metrics
 
 **1. Execution Time:**
 - How long does the full suite take?
@@ -304,9 +304,9 @@ Test 2: Create user "testuser_2", perform actions, delete user
 
 ---
 
-## 3.6 Regression Testing in Agile
+## 🏃 3.6 Regression Testing in Agile
 
-### Regression Test Suite
+### 🔷 Regression Test Suite
 
 The set of tests that verify existing functionality still works after changes.
 
@@ -315,7 +315,7 @@ The set of tests that verify existing functionality still works after changes.
 - Must be automated to run frequently
 - Should complete quickly (< 10 minutes for smoke, < 1 hour for full regression)
 
-### Smoke Tests vs. Full Regression
+### 🔷 Smoke Tests vs. Full Regression
 
 | Aspect | Smoke Tests | Full Regression |
 |--------|------------|-----------------|
@@ -324,7 +324,7 @@ The set of tests that verify existing functionality still works after changes.
 | Duration | < 10 minutes | 30 min - 2 hours |
 | Purpose | Quick health check | Comprehensive validation |
 
-### Maintaining the Regression Suite
+### 🤖 Maintaining the Regression Suite
 
 **1. Remove obsolete tests:**
 - Delete tests for removed features
@@ -342,9 +342,9 @@ The set of tests that verify existing functionality still works after changes.
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Automation Strategy
+### 💡 Worked Example 1: Automation Strategy
 
 **Scenario:** A team releases every 2 weeks. They have 500 manual regression tests that take 5 days to execute.
 
@@ -365,7 +365,7 @@ The set of tests that verify existing functionality still works after changes.
 - Full regression: 2 hours (automated, nightly)
 - Manual testing: exploratory testing and new feature validation only
 
-### Worked Example 2: Page Object Model Implementation
+### 💡 Worked Example 2: Page Object Model Implementation
 
 **Scenario:** An e-commerce site has login, product search, and checkout.
 
@@ -406,7 +406,7 @@ login_page.login("admin", "admin123")
 
 **Benefit:** Only the LoginPage class needs updating if locators change.
 
-### Worked Example 3: Test Data Management
+### 💡 Worked Example 3: Test Data Management
 
 **Scenario:** Tests create and delete user accounts. Sometimes cleanup fails, leaving orphaned accounts.
 

@@ -1,10 +1,10 @@
-# Chapter 3 — Testing Techniques in Agile: Lessons
+# 📘 Chapter 3 — Testing Techniques in Agile: Lessons
 
 ---
 
-## 3.1 Exploratory Testing
+## ⭐ 3.1 Exploratory Testing
 
-### What Is Exploratory Testing?
+### 🔷 What Is Exploratory Testing?
 
 **Definition:** Simultaneous learning about the software, test design, and test execution.
 
@@ -27,7 +27,7 @@
 - After automation covers known paths
 - Time-boxed sessions for focused investigation
 
-### Session-Based Test Management (SBTM)
+### 🗂️ Session-Based Test Management (SBTM)
 
 **Structure:**
 1. **Charter:** Mission for the session — what to test, why, and how
@@ -59,9 +59,9 @@ Duration: 90 minutes
 
 ---
 
-## 3.2 Behavior-Driven Development (BDD)
+## ⭐ 3.2 Behavior-Driven Development (BDD)
 
-### Concept
+### 🔷 Concept
 
 BDD is a **collaborative approach** where behaviors of the system are specified in a shared, ubiquitous language that is understandable by all stakeholders.
 
@@ -72,7 +72,7 @@ BDD is a **collaborative approach** where behaviors of the system are specified 
 
 **Together they define scenarios that describe the expected behavior.**
 
-### Given/When/Then Format
+### 🔷 Given/When/Then Format
 
 ```
 Feature: User login
@@ -98,7 +98,7 @@ Feature: User login
 - Executable specifications when automated
 - Reduces ambiguity in requirements
 
-### BDD vs. TDD
+### 🔷 BDD vs. TDD
 
 | Aspect | BDD | TDD |
 |--------|-----|-----|
@@ -110,9 +110,9 @@ Feature: User login
 
 ---
 
-## 3.3 Acceptance Test-Driven Development (ATDD)
+## 🤝 3.3 Acceptance Test-Driven Development (ATDD)
 
-### Concept
+### 🔷 Concept
 
 ATDD is a practice where **acceptance tests are written before implementation**, driving development and clarifying requirements.
 
@@ -130,7 +130,7 @@ ATDD is a practice where **acceptance tests are written before implementation**,
 - No "test lag" at the end of the sprint
 - Shared understanding of "done"
 
-### ATDD Example
+### 💡 ATDD Example
 
 **Story:** As a customer, I want to apply a discount code so that I can save money.
 
@@ -153,9 +153,9 @@ Test 3: Expired code rejected
 
 ---
 
-## 3.4 Test-Driven Development (TDD)
+## ⭐ 3.4 Test-Driven Development (TDD)
 
-### The Red-Green-Refactor Cycle
+### 🔷 The Red-Green-Refactor Cycle
 
 **Step 1: Red — Write a failing test**
 ```java
@@ -189,7 +189,7 @@ public void applyDiscount(String code) {
 // Still passes all tests, but cleaner design
 ```
 
-### TDD Benefits
+### 🔷 TDD Benefits
 
 - **Design improvement:** Writing tests first forces better design
 - **Regression safety:** Comprehensive test suite prevents breaking changes
@@ -197,7 +197,7 @@ public void applyDiscount(String code) {
 - **Confidence:** Developers can refactor safely
 - **Fewer defects:** Issues caught at unit level
 
-### TDD in Agile
+### 🏃 TDD in Agile
 
 - **Developers write unit tests** using TDD
 - **Testers may pair with developers** on complex tests
@@ -206,9 +206,9 @@ public void applyDiscount(String code) {
 
 ---
 
-## 3.5 Test Automation Pyramid
+## ⚙️ 3.5 Test Automation Pyramid
 
-### The Pyramid Model
+### 📐 The Pyramid Model
 
 ```
         /\  UI / E2E Tests (few)
@@ -243,7 +243,7 @@ public void applyDiscount(String code) {
 - Written by testers and TAEs
 - Minimal number — only critical user journeys
 
-### The Ice Cream Cone Anti-Pattern
+### 🔷 The Ice Cream Cone Anti-Pattern
 
 ```
         /\  Unit Tests (few)
@@ -267,9 +267,9 @@ public void applyDiscount(String code) {
 
 ---
 
-## 3.6 Agile Testing Quadrants
+## 🏃 3.6 Agile Testing Quadrants
 
-### Brian Marick's Quadrants
+### 🔷 Brian Marick's Quadrants
 
 ```
                  Technology-Facing
@@ -320,7 +320,7 @@ public void applyDiscount(String code) {
 - Reliability testing
 - Done by specialists with tools
 
-### Using the Quadrants
+### 🔷 Using the Quadrants
 
 **Balanced Testing:**
 - A healthy agile team has tests in all four quadrants
@@ -336,9 +336,9 @@ public void applyDiscount(String code) {
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Exploratory Testing Charter
+### 💡 Worked Example 1: Exploratory Testing Charter
 
 **Story:** Shopping cart feature
 
@@ -372,7 +372,7 @@ Duration: 90 minutes
         BUG: Discount may not apply to new items correctly.
 ```
 
-### Worked Example 2: BDD Scenario for Story
+### 💡 Worked Example 2: BDD Scenario for Story
 
 **Story:** Password reset
 
@@ -397,7 +397,7 @@ Feature: Password Reset
 
 **Note:** The second scenario prevents email enumeration — a security consideration built into the BDD scenario.
 
-### Worked Example 3: Quadrant Analysis
+### 💡 Worked Example 3: Quadrant Analysis
 
 **Scenario:** A team has 500 UI tests, 50 API tests, and 100 unit tests. Their test suite takes 3 hours to run.
 

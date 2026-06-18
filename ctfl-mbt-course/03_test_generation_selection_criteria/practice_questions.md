@@ -1,8 +1,8 @@
-# Chapter 3 — Selection Criteria: Practice Questions
+# ❓ Chapter 3 — Selection Criteria: Practice Questions
 
 ---
 
-### Q1 (MBT-3.1, K2)
+### 🔷 Q1 (MBT-3.1, K2)
 
 0-switch coverage in a state machine means:
 
@@ -13,7 +13,7 @@ D. Every path from initial to final state is executed
 
 ---
 
-### Q2 (MBT-3.1, K2)
+### 🔷 Q2 (MBT-3.1, K2)
 
 1-switch coverage is also known as:
 
@@ -24,7 +24,7 @@ D. Path coverage
 
 ---
 
-### Q3 (MBT-3.1, K2)
+### 🔷 Q3 (MBT-3.1, K2)
 
 2-switch coverage requires:
 
@@ -35,7 +35,7 @@ D. Every variable is tested at its boundary
 
 ---
 
-### Q4 (MBT-3.1, K3)
+### 🔷 Q4 (MBT-3.1, K3)
 
 A state machine has 6 states and 8 transitions. What is the minimum number of test cases for 1-switch coverage?
 
@@ -46,7 +46,7 @@ D. 14
 
 ---
 
-### Q5 (MBT-3.2, K2)
+### 🔷 Q5 (MBT-3.2, K2)
 
 A guard condition "amount >= 50" in a state machine should be tested at boundary values:
 
@@ -57,7 +57,7 @@ D. 1, 50, 99
 
 ---
 
-### Q6 (MBT-3.1, K3)
+### 🔷 Q6 (MBT-3.1, K3)
 
 A test suite achieves 100% 2-switch coverage. Which of the following is guaranteed?
 
@@ -68,7 +68,7 @@ D. Full path coverage
 
 ---
 
-### Q7 (MBT-3.1, K3)
+### 🔷 Q7 (MBT-3.1, K3)
 
 A state machine has 10 transitions, but 2 are unreachable. The maximum achievable transition coverage is:
 
@@ -79,7 +79,7 @@ D. 0%
 
 ---
 
-### Q8 (MBT-3.1, K2)
+### 🔷 Q8 (MBT-3.1, K2)
 
 Which coverage criterion provides the MOST thorough testing but requires the LARGEST test suite?
 
@@ -90,7 +90,7 @@ D. Full path coverage
 
 ---
 
-### Q9 (MBT-3.1, K3)
+### 🔷 Q9 (MBT-3.1, K3)
 
 A state machine has states: S1, S2, S3. Transitions: S1→S2, S2→S3, S1→S3, S3→S1. How many test cases are needed for minimum 1-switch coverage?
 
@@ -101,7 +101,7 @@ D. 6
 
 ---
 
-### Q10 (MBT-3.3, K2)
+### 🔷 Q10 (MBT-3.3, K2)
 
 The trade-off between higher coverage and test suite size means that:
 
@@ -112,7 +112,7 @@ D. Lower coverage always finds more defects
 
 ---
 
-### Q11 (MBT-3.2, K2)
+### 🔷 Q11 (MBT-3.2, K2)
 
 Boundary testing on model variables is applied to:
 
@@ -123,7 +123,7 @@ D. Event names
 
 ---
 
-### Q12 (MBT-3.1, K3)
+### 🔷 Q12 (MBT-3.1, K3)
 
 A test suite covers 12 out of 15 transitions. The transition coverage is:
 
@@ -134,7 +134,7 @@ D. 85%
 
 ---
 
-### Q13 (MBT-3.1, K2)
+### 🔷 Q13 (MBT-3.1, K2)
 
 Transition pair coverage is another name for:
 
@@ -145,7 +145,7 @@ D. State coverage
 
 ---
 
-### Q14 (MBT-3.3, K2)
+### 🔷 Q14 (MBT-3.3, K2)
 
 An infeasible path in a state machine is:
 
@@ -156,7 +156,7 @@ D. A path that generates too many tests
 
 ---
 
-### Q15 (MBT-3.1, K3)
+### 🔷 Q15 (MBT-3.1, K3)
 
 For a safety-critical system, which coverage criterion is MOST appropriate?
 
@@ -167,7 +167,7 @@ D. State coverage only
 
 ---
 
-### Q16 (MBT-3.1, K3)
+### 🔷 Q16 (MBT-3.1, K3)
 
 A state machine has 5 states, all reachable. The minimum test cases for 0-switch coverage is:
 
@@ -178,7 +178,7 @@ D. 2
 
 ---
 
-### Q17 (MBT-3.2, K3)
+### 🔷 Q17 (MBT-3.2, K3)
 
 A guard condition "counter < 5" should be tested with values:
 
@@ -189,7 +189,7 @@ D. 1, 3, 5
 
 ---
 
-### Q18 (MBT-3.1, K2)
+### 🔷 Q18 (MBT-3.1, K2)
 
 Which statement about coverage criteria is TRUE?
 
@@ -200,7 +200,7 @@ D. Coverage criteria are unrelated
 
 ---
 
-### Q19 (MBT-3.3, K2)
+### 🔷 Q19 (MBT-3.3, K2)
 
 Unreachable states in a state machine affect:
 
@@ -211,7 +211,7 @@ D. The model's colors in the diagram
 
 ---
 
-### Q20 (MBT-3.1, K3)
+### 🔷 Q20 (MBT-3.1, K3)
 
 A test suite achieves 100% 1-switch coverage and 70% 2-switch coverage. What does this mean?
 
@@ -222,104 +222,104 @@ D. The test suite is incomplete and should be discarded
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** 0-switch = state coverage (visit every state).
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** 1-switch = transition coverage (exercise every transition).
 
-### Q3
+### 🔷 Q3
 **Answer: C**
 
 **Rationale:** 2-switch = transition pair coverage (every pair of consecutive transitions).
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** Minimum for 1-switch = number of transitions = 8 (assuming all reachable).
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** Boundary values: just below (49), at (50), just above (51).
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** 2-switch implies 1-switch, which implies 0-switch.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** 8 reachable / 10 total = 80% maximum achievable.
 
-### Q8
+### 🔷 Q8
 **Answer: D**
 
 **Rationale:** Full path coverage is most thorough but requires the largest test suite.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** 4 transitions. Minimum test cases = 4 (each transition must be exercised at least once).
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** Higher coverage (more elements to exercise) requires more tests.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 
 **Rationale:** Boundary testing applies to variables in guard conditions.
 
-### Q12
+### 🔷 Q12
 **Answer: C**
 
 **Rationale:** 12/15 = 80% coverage.
 
-### Q13
+### 🔷 Q13
 **Answer: C**
 
 **Rationale:** Transition pair coverage = 2-switch coverage.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** Infeasible paths cannot be executed in the real system.
 
-### Q15
+### 🔷 Q15
 **Answer: C**
 
 **Rationale:** Safety-critical systems benefit from higher coverage (2-switch).
 
-### Q16
+### 🔷 Q16
 **Answer: A**
 
 **Rationale:** 0-switch minimum = number of states = 5.
 
-### Q17
+### 🔷 Q17
 **Answer: A**
 
 **Rationale:** Boundary values for < 5: just below (4), at boundary (5), just above (6).
 
-### Q18
+### 🔷 Q18
 **Answer: A**
 
 **Rationale:** Higher-level coverage implies lower-level coverage. 2-switch → 1-switch → 0-switch.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** Unreachable states reduce maximum achievable state coverage.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 
 **Rationale:** 100% 1-switch = all transitions covered. 70% 2-switch = some transition pairs missing.

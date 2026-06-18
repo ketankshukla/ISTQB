@@ -1,10 +1,10 @@
-# CT-STE Mock Exam 2
+# 📝 CT-STE Mock Exam 2
 
 **Instructions:** 40 questions, 60 minutes, single best answer.
 
 ---
 
-### Q1-Q10
+### 🔷 Q1-Q10
 
 1. Production testing: A) Without notice B) Avoid, use isolated env C) Only off-hours D) Only external — **Avoid, use isolated env**
 2. CVSS: A) Business impact B) Technical severity C) Only cost D) Only time — **Technical severity**
@@ -19,7 +19,7 @@
 
 ---
 
-### Q11-Q20
+### 🔷 Q11-Q20
 
 11. SSDLC: A) Only testing B) All phases C) Only before release D) Only maintenance — **All phases**
 12. Agile security: A) Only pre-release B) Security stories + DoD + continuous C) Only docs D) Only approval — **Security stories + DoD + continuous**
@@ -34,7 +34,7 @@
 
 ---
 
-### Q21-Q30
+### 🔷 Q21-Q30
 
 21. Threat modeling: A) Once only B) Updated with app C) Only new D) Only legacy — **Updated with app**
 22. Negative req: A) What to do B) What to prevent C) Only perf D) Only usability — **What to prevent**
@@ -49,7 +49,7 @@
 
 ---
 
-### Q31-Q40
+### 🔷 Q31-Q40
 
 31. SAST in CI: A) After deploy B) During dev + CI C) Only release D) Only maintenance — **During dev + CI**
 32. Container scan: A) After deploy B) At build time C) Only weekly D) Only manual — **At build time**
@@ -64,4 +64,4 @@
 
 ---
 
-## End of Mock Exam 2
+## 📝 End of Mock Exam 2

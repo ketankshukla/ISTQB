@@ -1,6 +1,6 @@
-# Chapter 2 — Test Design Techniques
+# 🎯 Chapter 2 — Test Design Techniques
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~30% (~18 questions out of 60)
 - **K-levels:** K2 (understand), K3 (apply), K4 (analyze)
@@ -8,7 +8,7 @@
 
 ---
 
-## Chapter Map
+## ⭐ Chapter Map
 
 | Section | Topic | K-Level | Exam Importance |
 |---------|-------|---------|-----------------|
@@ -27,7 +27,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -44,7 +44,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts to Master
+## ⭐ Key Concepts to Master
 
 - Equivalence partitioning: valid and invalid partitions, how to count test cases
 - Boundary value analysis: min-1, min, min+, max-, max, max+1
@@ -57,7 +57,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Exam Tips
+## 🎓 Exam Tips
 
 - Expect K3/K4 questions that require you to APPLY techniques to specifications
 - You must be able to count test cases for EP, BVA, and decision tables

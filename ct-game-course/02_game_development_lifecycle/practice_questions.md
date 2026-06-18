@@ -1,8 +1,8 @@
-# Chapter 2 — Game Development Lifecycle: Practice Questions
+# ❓ Chapter 2 — Game Development Lifecycle: Practice Questions
 
 ---
 
-### Q1 (GaMe-2.1, K2)
+### 🎮 Q1 (GaMe-2.1, K2)
 
 Pre-production in game development includes:
 
@@ -13,7 +13,7 @@ D. Only marketing
 
 ---
 
-### Q2 (GaMe-2.2, K2)
+### 🎮 Q2 (GaMe-2.2, K2)
 
 A vertical slice is:
 
@@ -24,7 +24,7 @@ D. Only a design document
 
 ---
 
-### Q3 (GaMe-2.3, K2)
+### 🎮 Q3 (GaMe-2.3, K2)
 
 At the alpha milestone:
 
@@ -35,7 +35,7 @@ D. Only audio is complete
 
 ---
 
-### Q4 (GaMe-2.4, K2)
+### 🎮 Q4 (GaMe-2.4, K2)
 
 Agile in game development:
 
@@ -46,7 +46,7 @@ D. Only for AAA
 
 ---
 
-### Q5 (GaMe-2.1, K2)
+### 🎮 Q5 (GaMe-2.1, K2)
 
 Post-production includes:
 
@@ -57,7 +57,7 @@ D. Only prototyping
 
 ---
 
-### Q6 (GaMe-2.2, K2)
+### 🎮 Q6 (GaMe-2.2, K2)
 
 The beta milestone means:
 
@@ -68,7 +68,7 @@ D. Only localization
 
 ---
 
-### Q7 (GaMe-2.3, K2)
+### 🎮 Q7 (GaMe-2.3, K2)
 
 Build Verification Testing (BVT) should be:
 
@@ -79,7 +79,7 @@ D. Only audio testing
 
 ---
 
-### Q8 (GaMe-2.4, K2)
+### 🎮 Q8 (GaMe-2.4, K2)
 
 Kanban is useful for:
 
@@ -90,7 +90,7 @@ D. Only vertical slice creation
 
 ---
 
-### Q9 (GaMe-2.1, K2)
+### 🎮 Q9 (GaMe-2.1, K2)
 
 Testing during production should:
 
@@ -101,7 +101,7 @@ D. Only test art assets
 
 ---
 
-### Q10 (GaMe-2.2, K2)
+### 🎮 Q10 (GaMe-2.2, K2)
 
 Gold master refers to:
 
@@ -112,7 +112,7 @@ D. Only a test build
 
 ---
 
-### Q11 (GaMe-2.3, K2)
+### 🎮 Q11 (GaMe-2.3, K2)
 
 In live service games, each update requires:
 
@@ -123,7 +123,7 @@ D. Only marketing approval
 
 ---
 
-### Q12 (GaMe-2.4, K2)
+### 🎮 Q12 (GaMe-2.4, K2)
 
 Version control for games:
 
@@ -134,7 +134,7 @@ D. Only tracks schedules
 
 ---
 
-### Q13 (GaMe-2.1, K2)
+### 🎮 Q13 (GaMe-2.1, K2)
 
 A staging build is used for:
 
@@ -145,7 +145,7 @@ D. Only concept art
 
 ---
 
-### Q14 (GaMe-2.2, K2)
+### 🎮 Q14 (GaMe-2.2, K2)
 
 Feature complete means:
 
@@ -156,7 +156,7 @@ D. Only testing is done
 
 ---
 
-### Q15 (GaMe-2.3, K2)
+### 🎮 Q15 (GaMe-2.3, K2)
 
 Day-one patch testing:
 
@@ -167,7 +167,7 @@ D. Only tests menu screens
 
 ---
 
-### Q16 (GaMe-2.4, K2)
+### 🎮 Q16 (GaMe-2.4, K2)
 
 Scrum in game development:
 
@@ -178,7 +178,7 @@ D. Only for live ops
 
 ---
 
-### Q17 (GaMe-2.1, K2)
+### 🎮 Q17 (GaMe-2.1, K2)
 
 Production phase includes:
 
@@ -189,7 +189,7 @@ D. Only post-launch support
 
 ---
 
-### Q18 (GaMe-2.2, K2)
+### 🎮 Q18 (GaMe-2.2, K2)
 
 A first playable build should:
 
@@ -200,7 +200,7 @@ D. Only have placeholder art
 
 ---
 
-### Q19 (GaMe-2.3, K2)
+### 🎮 Q19 (GaMe-2.3, K2)
 
 Certification testing occurs:
 
@@ -211,7 +211,7 @@ D. Only during alpha
 
 ---
 
-### Q20 (GaMe-2.4, K2)
+### 🎮 Q20 (GaMe-2.4, K2)
 
 Live service game economy changes require testing of:
 
@@ -222,84 +222,84 @@ D. Only sound effects
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** Pre-production = concept + prototype + design + planning.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** Vertical slice = polished demo + pipeline validation.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** Alpha = core features + expected bugs.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** Agile adapted = milestones + slices.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Post-production = polish + optimization + cert + patch.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Beta = all features; fix bugs.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** BVT = quick smoke test.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Kanban = live service continuous flow.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** Production = start with core + expand.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** Gold = final build for release.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Live service = feature + regression + balance.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** VCS = code + art + audio + design.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Staging = internal release candidate.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Feature complete = all features; content may follow.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Day-one patch = verify + no breakage.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Scrum = adaptable to milestones.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Production = core + content + features + integration.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** First playable = core gameplay start to finish.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Cert = near end before submission.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** Economy = pricing + rewards + progression + impact.

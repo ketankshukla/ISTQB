@@ -1,6 +1,6 @@
-# Chapter 4 — Test Tools and Automation: Exam Traps
+# 🪤 Chapter 4 — Test Tools and Automation: Exam Traps
 
-## Trap 1: Thinking Test Automation Eliminates Manual Testing
+## 🪤 Trap 1: Thinking Test Automation Eliminates Manual Testing
 
 **Trap:** Automation complements manual testing but does not replace it. Usability, exploratory, and ad-hoc testing still require humans.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Confusing Capture/Replay with Maintainable Automation
+## 🪤 Trap 2: Confusing Capture/Replay with Maintainable Automation
 
 **Trap:** Capture/replay is quick to create but brittle and hard to maintain. Production automation should use structured frameworks.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Ignoring Total Cost of Ownership (TCO)
+## 🪤 Trap 3: Ignoring Total Cost of Ownership (TCO)
 
 **Trap:** Tool cost includes more than the purchase price. Training, implementation, integration, and maintenance must be included.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Automating Everything
+## 🪤 Trap 4: Automating Everything
 
 **Trap:** Not all tests should be automated. Tests that run once, require human judgment, or have unstable requirements are poor automation candidates.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Expecting Immediate ROI from Automation
+## 🪤 Trap 5: Expecting Immediate ROI from Automation
 
 **Trap:** Automation typically has negative ROI in Year 1 due to setup costs. Break-even usually occurs in Year 2.
 

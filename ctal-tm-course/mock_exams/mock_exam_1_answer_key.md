@@ -1,4 +1,4 @@
-# Mock Exam 1 — Answer Key
+# 📝 Mock Exam 1 — Answer Key
 
 | Q | Answer | Rationale |
 |---|--------|-----------|
@@ -68,7 +68,7 @@
 | 64 | B | The primary reason is reducing time and cost of repeated regression testing. |
 | 65 | B | The test manager ensures testability is considered and manages review participation. |
 
-## Score Interpretation
+## ⭐ Score Interpretation
 
 | Score | Interpretation |
 |-------|-------------|

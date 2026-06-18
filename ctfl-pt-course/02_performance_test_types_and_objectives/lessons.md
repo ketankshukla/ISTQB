@@ -1,14 +1,14 @@
-# Chapter 2 — Performance Test Types and Objectives: Lessons
+# 📘 Chapter 2 — Performance Test Types and Objectives: Lessons
 
 ---
 
-## 2.1 Load Testing
+## ⭐ 2.1 Load Testing
 
-### Definition
+### 🔷 Definition
 
 Testing to evaluate behavior under expected or normal load.
 
-### Objectives
+### 🎯 Objectives
 
 | Objective | Measurement |
 |-----------|-------------|
@@ -17,7 +17,7 @@ Testing to evaluate behavior under expected or normal load.
 | **Resource usage** | Are resources sufficient? |
 | **Stability** | Does it remain stable? |
 
-### When to Use
+### 🔷 When to Use
 
 - Before go-live
 - After major releases
@@ -26,13 +26,13 @@ Testing to evaluate behavior under expected or normal load.
 
 ---
 
-## 2.2 Stress Testing
+## ⭐ 2.2 Stress Testing
 
-### Definition
+### 🔷 Definition
 
 Testing beyond normal capacity to find the breaking point.
 
-### Objectives
+### 🎯 Objectives
 
 | Objective | Measurement |
 |-----------|-------------|
@@ -41,7 +41,7 @@ Testing beyond normal capacity to find the breaking point.
 | **Error handling** | Are errors managed correctly? |
 | **Data integrity** | Is data preserved under stress? |
 
-### When to Use
+### 🔷 When to Use
 
 - Determine maximum capacity
 - Identify weakest components
@@ -50,13 +50,13 @@ Testing beyond normal capacity to find the breaking point.
 
 ---
 
-## 2.3 Spike Testing
+## ⭐ 2.3 Spike Testing
 
-### Definition
+### 🔷 Definition
 
 Sudden, extreme increase in load to test system reaction.
 
-### Objectives
+### 🎯 Objectives
 
 | Objective | Measurement |
 |-----------|-------------|
@@ -65,7 +65,7 @@ Sudden, extreme increase in load to test system reaction.
 | **Resource allocation** | Are resources available? |
 | **Error rate** | Do errors spike? |
 
-### When to Use
+### 🔷 When to Use
 
 - Ticket sales opening
 - Product launches
@@ -74,13 +74,13 @@ Sudden, extreme increase in load to test system reaction.
 
 ---
 
-## 2.4 Endurance Testing
+## ⭐ 2.4 Endurance Testing
 
-### Definition
+### 🔷 Definition
 
 Extended duration testing to detect memory leaks and stability issues.
 
-### Objectives
+### 🎯 Objectives
 
 | Objective | Measurement |
 |-----------|-------------|
@@ -89,7 +89,7 @@ Extended duration testing to detect memory leaks and stability issues.
 | **Performance degradation** | Does response time increase? |
 | **Error accumulation** | Do errors build up? |
 
-### When to Use
+### 🔷 When to Use
 
 - Systems expected to run 24/7
 - Before production release
@@ -97,13 +97,13 @@ Extended duration testing to detect memory leaks and stability issues.
 
 ---
 
-## 2.5 Scalability Testing
+## ⭐ 2.5 Scalability Testing
 
-### Definition
+### 🔷 Definition
 
 Testing ability to handle increased load by adding resources.
 
-### Objectives
+### 🎯 Objectives
 
 | Objective | Measurement |
 |-----------|-------------|
@@ -112,7 +112,7 @@ Testing ability to handle increased load by adding resources.
 | **Efficiency** | Is scaling efficient? |
 | **Bottlenecks** | What limits scaling? |
 
-### When to Use
+### 🔷 When to Use
 
 - Cloud architecture validation
 - Capacity planning
@@ -120,13 +120,13 @@ Testing ability to handle increased load by adding resources.
 
 ---
 
-## 2.6 Volume Testing
+## ⭐ 2.6 Volume Testing
 
-### Definition
+### 🔷 Definition
 
 Testing with large amounts of data.
 
-### Objectives
+### 🎯 Objectives
 
 | Objective | Measurement |
 |-----------|-------------|
@@ -135,7 +135,7 @@ Testing with large amounts of data.
 | **Search performance** | Index efficiency |
 | **Reporting** | Large report generation |
 
-### When to Use
+### 🔷 When to Use
 
 - Data migration validation
 - Archive system testing
@@ -143,9 +143,9 @@ Testing with large amounts of data.
 
 ---
 
-## 2.7 Workload Modeling
+## 📐 2.7 Workload Modeling
 
-### Components
+### 🔷 Components
 
 | Component | Description |
 |-----------|-------------|
@@ -158,9 +158,9 @@ Testing with large amounts of data.
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Test Type Selection
+### 💡 Worked Example 1: Test Type Selection
 
 | Scenario | Test Type | Reason |
 |----------|-----------|--------|
@@ -170,7 +170,7 @@ Testing with large amounts of data.
 | Cloud auto-scaling | Scalability | Resource elasticity |
 | New website launch | Load | Expected user capacity |
 
-### Worked Example 2: Workload Model
+### 💡 Worked Example 2: Workload Model
 
 | Parameter | Value |
 |-----------|-------|
@@ -180,7 +180,7 @@ Testing with large amounts of data.
 | Ramp-up | 100 users/minute |
 | Peak duration | 2 hours |
 
-### Worked Example 3: Stress Test Results
+### 💡 Worked Example 3: Stress Test Results
 
 | Load | Response Time | Error Rate | CPU | Memory |
 |------|--------------|------------|-----|--------|

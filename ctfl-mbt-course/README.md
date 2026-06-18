@@ -1,10 +1,10 @@
-# ISTQB CTFL-MBT — Model-Based Tester Self-Study Course
+# 📚 ISTQB CTFL-MBT — Model-Based Tester Self-Study Course
 
 Complete self-study course for the **ISTQB Certified Tester Foundation Level — Model-Based Tester (CTFL-MBT)** examination.
 
 ---
 
-## Exam Facts
+## 🎓 Exam Facts
 
 | Parameter | Value |
 |-----------|-------|
@@ -20,7 +20,7 @@ Complete self-study course for the **ISTQB Certified Tester Foundation Level —
 
 ---
 
-## Course Structure
+## ⭐ Course Structure
 
 | Chapter | Topic | Weight | K-Levels |
 |---------|-------|--------|----------|
@@ -34,7 +34,7 @@ Complete self-study course for the **ISTQB Certified Tester Foundation Level —
 
 ---
 
-## How to Use This Course
+## ⭐ How to Use This Course
 
 1. Follow `STUDY_PLAN.md` — 2-3 weeks at 8-12 hours/week.
 2. Read each chapter's `lessons.md` thoroughly.
@@ -47,7 +47,7 @@ Complete self-study course for the **ISTQB Certified Tester Foundation Level —
 
 ---
 
-## Target Audience
+## ⭐ Target Audience
 
 - Testers seeking the ISTQB Model-Based Tester extension certification
 - Testers using or planning to use model-based testing in their projects
@@ -55,7 +55,7 @@ Complete self-study course for the **ISTQB Certified Tester Foundation Level —
 
 ---
 
-## Prerequisites
+## ⭐ Prerequisites
 
 - **Mandatory:** ISTQB CTFL v4.0 (Certified Tester Foundation Level)
 - Recommended: Experience with state transition testing, decision tables, or formal modeling
@@ -63,7 +63,7 @@ Complete self-study course for the **ISTQB Certified Tester Foundation Level —
 
 ---
 
-## File Map
+## ⭐ File Map
 
 ```
 ctfl-mbt-course/
@@ -119,7 +119,7 @@ ctfl-mbt-course/
 
 ---
 
-## Certification Context
+## ⭐ Certification Context
 
 After CTFL-MBT, you may consider:
 - **CTAL-TA** (Advanced Test Analyst) — deeper test design techniques

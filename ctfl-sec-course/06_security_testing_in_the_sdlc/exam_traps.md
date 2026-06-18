@@ -1,6 +1,6 @@
-# Chapter 6 — Security Testing in the SDLC: Exam Traps
+# 🪤 Chapter 6 — Security Testing in the SDLC: Exam Traps
 
-## Trap 1: Security Testing is a Separate Phase
+## 🪤 Trap 1: Security Testing is a Separate Phase
 
 **Trap:** Security must be integrated throughout the SDLC, not a single phase.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Shift-Left Means Only Moving Testing Earlier
+## 🪤 Trap 2: Shift-Left Means Only Moving Testing Earlier
 
 **Trap:** Shift-left also includes security requirements, design, and education.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: DevSecOps Means Security Team Manages Everything
+## 🪤 Trap 3: DevSecOps Means Security Team Manages Everything
 
 **Trap:** DevSecOps means shared responsibility across dev, ops, and security.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Automated Security Checks Replace Manual Review
+## 🪤 Trap 4: Automated Security Checks Replace Manual Review
 
 **Trap:** Automation complements but does not replace human judgment.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Security Stories Slow Down Agile
+## 🪤 Trap 5: Security Stories Slow Down Agile
 
 **Trap:** Security stories are part of normal velocity, not overhead.
 

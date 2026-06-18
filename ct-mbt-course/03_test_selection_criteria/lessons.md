@@ -1,10 +1,10 @@
-# Chapter 3 — Test Selection Criteria: Lessons
+# 📘 Chapter 3 — Test Selection Criteria: Lessons
 
 ---
 
-## 3.1 Coverage Criteria for State-Based Models
+## 📊 3.1 Coverage Criteria for State-Based Models
 
-### State Coverage
+### 📊 State Coverage
 
 **Definition:** Every state in the model must be visited by at least one test case.
 
@@ -24,7 +24,7 @@ Result: All 4 states covered with 2 test cases.
 
 **Weakness:** Does not cover transitions or paths. A state could be entered but never exited properly.
 
-### Transition Coverage
+### 📊 Transition Coverage
 
 **Definition:** Every transition in the model must be traversed by at least one test case.
 
@@ -49,7 +49,7 @@ Result: All 5 transitions covered with 2 test cases.
 
 **Weakness:** Does not test sequences of transitions (pairs, paths).
 
-### Transition Pair Coverage (2-Switch Coverage)
+### 📊 Transition Pair Coverage (2-Switch Coverage)
 
 **Definition:** Every pair of consecutive transitions (adjacent transition pairs) must be covered.
 
@@ -71,7 +71,7 @@ Result: All 4 pairs covered.
 
 **Weakness:** Does not cover longer paths.
 
-### Path Coverage
+### 📊 Path Coverage
 
 **Definition:** Every path through the model is executed.
 
@@ -93,9 +93,9 @@ Both paths must be executed for full path coverage.
 
 ---
 
-## 3.2 Data-Driven Selection
+## 🗃️ 3.2 Data-Driven Selection
 
-### Equivalence Partitioning on Models
+### ➗ Equivalence Partitioning on Models
 
 **Definition:** Dividing input data into partitions where the system behaves equivalently, and selecting tests from each partition.
 
@@ -116,7 +116,7 @@ Partitions:
 Test data: Select values from each partition.
 ```
 
-### Boundary Value Testing on Models
+### 📏 Boundary Value Testing on Models
 
 **Definition:** Testing at the boundaries between equivalence partitions.
 
@@ -132,7 +132,7 @@ Guard: age >= 18
 Boundary values: 17 (just below), 18 (exact), 19 (just above)
 ```
 
-### Data Flow Criteria
+### ✅ Data Flow Criteria
 
 **Definition:** Testing based on how data is defined and used.
 
@@ -148,9 +148,9 @@ Boundary values: 17 (just below), 18 (exact), 19 (just above)
 
 ---
 
-## 3.3 Systematic vs. Random Selection
+## ⭐ 3.3 Systematic vs. Random Selection
 
-### Systematic Testing
+### 🔷 Systematic Testing
 
 **Definition:** Selecting test cases according to defined coverage criteria.
 
@@ -171,7 +171,7 @@ Boundary values: 17 (just below), 18 (exact), 19 (just above)
 - Can generate large numbers of tests for complex models
 - May not find unexpected behavior
 
-### Random Testing
+### 🔷 Random Testing
 
 **Definition:** Selecting test cases randomly from the set of possible paths or inputs.
 
@@ -192,7 +192,7 @@ Boundary values: 17 (just below), 18 (exact), 19 (just above)
 - May redundantly cover some areas while missing others
 - Less justifiable to stakeholders
 
-### Hybrid Approaches
+### 🔷 Hybrid Approaches
 
 Many MBT tools combine both:
 - Systematic coverage for critical paths
@@ -201,9 +201,9 @@ Many MBT tools combine both:
 
 ---
 
-## 3.4 Test Case Length
+## ⭐ 3.4 Test Case Length
 
-### Short vs. Long Test Cases
+### 🔷 Short vs. Long Test Cases
 
 **Short Test Cases:**
 - Single transition or simple path
@@ -217,7 +217,7 @@ Many MBT tools combine both:
 - Harder to debug (which step failed?)
 - Slower to execute
 
-### Choosing Test Length
+### 🔷 Choosing Test Length
 
 **Factors:**
 - Test objective (unit vs. integration vs. system)
@@ -232,9 +232,9 @@ Many MBT tools combine both:
 
 ---
 
-## 3.5 Coverage Trade-Offs
+## 📊 3.5 Coverage Trade-Offs
 
-### Coverage vs. Test Case Count
+### 📊 Coverage vs. Test Case Count
 
 | Coverage Level | Typical Test Count | Effort | Defect Detection |
 |---------------|-------------------|--------|------------------|
@@ -245,7 +245,7 @@ Many MBT tools combine both:
 
 **Key Principle:** Higher coverage generally means more tests, but with diminishing returns. The optimal coverage depends on risk, criticality, and resources.
 
-### Risk-Based Selection
+### ⚠️ Risk-Based Selection
 
 **Approach:** Apply stricter coverage to high-risk areas, lighter coverage to low-risk areas.
 
@@ -256,9 +256,9 @@ Many MBT tools combine both:
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Applying Coverage Criteria
+### 💡 Worked Example 1: Applying Coverage Criteria
 
 **Model:**
 ```
@@ -307,7 +307,7 @@ Test 1: Idle → Logged In → Viewing → Idle (pairs: login→view, view→log
 Test 2: Idle → Logged In → Confirm(yes) → Logged In → Viewing → Idle (pairs: login→delete, delete→yes, yes→view, view→logout)
 Test 3: Idle → Logged In → Confirm(no) → Logged In → Error → Idle (pairs: login→delete, delete→no, no→login(invalid), invalid→retry)
 
-### Worked Example 2: Boundary Values in Decision Table
+### 💡 Worked Example 2: Boundary Values in Decision Table
 
 **Decision Table:**
 
@@ -335,7 +335,7 @@ Test 3: Idle → Logged In → Confirm(no) → Logged In → Error → Idle (pai
 - 65: Senior (R2)
 - 66: Senior (R2)
 
-### Worked Example 3: Systematic vs. Random
+### 💡 Worked Example 3: Systematic vs. Random
 
 **Scenario:** A model has 100 possible paths. The team has time to run 20 tests.
 

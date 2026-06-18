@@ -1,10 +1,10 @@
-# CT-PT — Certified Tester in Performance Testing
+# ⚡ CT-PT — Certified Tester in Performance Testing
 
 Complete self-study course for the ISTQB CT-PT certification exam.
 
 ---
 
-## Exam Facts
+## 🎓 Exam Facts
 
 | Parameter | Value |
 |-----------|-------|
@@ -19,7 +19,7 @@ Complete self-study course for the ISTQB CT-PT certification exam.
 
 ---
 
-## Course Structure
+## ⭐ Course Structure
 
 ```
 ct-pt-course/
@@ -81,7 +81,7 @@ ct-pt-course/
 
 ---
 
-## How to Use This Course
+## ⭐ How to Use This Course
 
 1. **Start with `STUDY_PLAN.md`** — Pick the 3-week or accelerated schedule
 2. **Read chapters in order** — Each chapter builds on the previous
@@ -94,7 +94,7 @@ ct-pt-course/
 
 ---
 
-## Target Audience
+## ⭐ Target Audience
 
 - Testers specializing in or transitioning to performance testing
 - Test leads planning performance testing for their projects
@@ -103,7 +103,7 @@ ct-pt-course/
 
 ---
 
-## Key Topics Covered
+## ⭐ Key Topics Covered
 
 - **Introduction to Performance Testing** — Definitions, objectives, performance vs. load testing, non-functional characteristics
 - **Types of Performance Testing** — Load, stress, endurance (soak), spike, volume, scalability, configuration, isolation testing
@@ -114,7 +114,7 @@ ct-pt-course/
 
 ---
 
-## Question Bank Summary
+## ❓ Question Bank Summary
 
 | Source | Questions |
 |--------|-----------|
@@ -124,7 +124,7 @@ ct-pt-course/
 
 ---
 
-## Syllabus Coverage
+## 📊 Syllabus Coverage
 
 This course covers all learning objectives from the ISTQB CT-PT v1.0 syllabus:
 
@@ -137,7 +137,7 @@ This course covers all learning objectives from the ISTQB CT-PT v1.0 syllabus:
 
 ---
 
-## Prerequisites
+## ⭐ Prerequisites
 
 - **CTFL (Foundation Level)** — Required for exam registration
 - **Basic understanding of software testing** — Test levels, techniques, test design
@@ -145,6 +145,6 @@ This course covers all learning objectives from the ISTQB CT-PT v1.0 syllabus:
 
 ---
 
-## Tip for Maximum Exam Success
+## 🎓 Tip for Maximum Exam Success
 
 > **Do not just read. Practice.** After each chapter, answer the practice questions without looking at the answers. Then read the rationales to understand WHY the correct answer is right and WHY the distractors are wrong. This active recall is the single most effective study technique for multiple-choice exams.

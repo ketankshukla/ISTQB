@@ -1,10 +1,10 @@
-# Chapter 5 — Testing Trading and Banking Systems: Lessons
+# 📘 Chapter 5 — Testing Trading and Banking Systems: Lessons
 
 ---
 
-## 5.1 Order Management and Execution Testing
+## 🗂️ 5.1 Order Management and Execution Testing
 
-### Order Lifecycle
+### 🔁 Order Lifecycle
 
 | Status | Description | Test Verification |
 |--------|-------------|-------------------|
@@ -15,7 +15,7 @@
 | **Rejected** | Order fails validation | Reason logged (price limit, insufficient funds) |
 | **Expired** | Order not filled by time limit | End-of-day or Good-Till-Canceled expiry |
 
-### Order Types
+### 🧪 Order Types
 
 | Type | Behavior | Test Focus |
 |------|----------|------------|
@@ -27,7 +27,7 @@
 | **IOC** | Immediate or cancel | Partial fill or full cancel |
 | **FOK** | Fill or kill | All or nothing immediately |
 
-### Testing Scenarios
+### 🎬 Testing Scenarios
 
 **Credit checks:**
 - Verify order blocked if credit limit exceeded
@@ -46,9 +46,9 @@
 
 ---
 
-## 5.2 Algorithmic Trading Testing
+## ⭐ 5.2 Algorithmic Trading Testing
 
-### Strategy Types
+### ♟️ Strategy Types
 
 | Strategy | Description | Testing Focus |
 |----------|-------------|---------------|
@@ -58,14 +58,14 @@
 | **Implementation Shortfall** | Minimize difference from decision price | Slippage measurement, urgency adaptation |
 | **Smart Order Routing** | Send to best venue | Venue selection logic, fee comparison |
 
-### Testing Approach
+### 🔷 Testing Approach
 
 1. **Unit tests:** Individual algorithm logic with known inputs
 2. **Simulation tests:** Run against historical market data (backtesting)
 3. **Paper trading:** Execute in live market with no real money
 4. **Gradual live deployment:** Small size, monitor, scale up
 
-### Risk Controls
+### ⚠️ Risk Controls
 
 - **Kill switch:** Emergency stop for runaway algorithms
 - **Maximum order size:** Prevent accidental large orders
@@ -74,9 +74,9 @@
 
 ---
 
-## 5.3 Payment Processing Testing
+## ⭐ 5.3 Payment Processing Testing
 
-### Authorization Phase
+### 🔷 Authorization Phase
 
 **Tests:**
 - Valid card → approved
@@ -86,7 +86,7 @@
 - Fraud rule triggered → blocked/review
 - 3D Secure authentication → redirect and verify
 
-### Clearing Phase
+### 🔷 Clearing Phase
 
 **Tests:**
 - Transaction matched between merchant acquirer and issuer
@@ -94,7 +94,7 @@
 - Currency conversion rates applied if applicable
 - Chargeback initiation and response
 
-### Settlement Phase
+### 🔷 Settlement Phase
 
 **Tests:**
 - Funds transferred from issuer to acquirer
@@ -104,9 +104,9 @@
 
 ---
 
-## 5.4 Reconciliation and Settlement
+## ⭐ 5.4 Reconciliation and Settlement
 
-### Reconciliation Types
+### 🧪 Reconciliation Types
 
 | Type | Description | Frequency |
 |------|-------------|-----------|
@@ -116,7 +116,7 @@
 | **Securities** | Between trading and custody records | Daily |
 | **Cash** | Between trading and treasury records | Daily |
 
-### Break Types and Causes
+### 🧪 Break Types and Causes
 
 | Break Cause | Resolution |
 |-------------|------------|
@@ -126,7 +126,7 @@
 | **Missing trade** | One side has trade, other doesn't | Locate missing record |
 | **Corporate action** | Dividend, split not yet processed | Apply adjustment |
 
-### Settlement Testing
+### 🔷 Settlement Testing
 
 - Verify settlement instructions (Swift MT messages)
 - Test failed settlement scenarios (insufficient securities/cash)
@@ -135,9 +135,9 @@
 
 ---
 
-## 5.5 Corporate Actions Testing
+## ⭐ 5.5 Corporate Actions Testing
 
-### Common Corporate Actions
+### 🔷 Common Corporate Actions
 
 | Action | Impact | Testing Focus |
 |--------|--------|---------------|
@@ -149,7 +149,7 @@
 | **Spin-off** | New company shares distributed | Multi-position creation, cost allocation |
 | **Rights Issue** | Offer to buy additional shares | Subscription processing, oversubscription |
 
-### Testing Approach
+### 🔷 Testing Approach
 
 1. **Announcement validation:** Correct action type, dates, terms
 2. **Entitlement calculation:** Who receives the action based on record date
@@ -159,9 +159,9 @@
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Order Lifecycle Testing
+### 💡 Worked Example 1: Order Lifecycle Testing
 
 **Scenario:** A trader submits a limit order to buy 1,000 shares at $50.00.
 
@@ -175,7 +175,7 @@
 | 4 | Trader cancels remaining | Status = Canceled, 400 filled |
 | 5 | Verify position | Long 400 shares at avg $49.95 |
 
-### Worked Example 2: Payment End-to-End Test
+### 💡 Worked Example 2: Payment End-to-End Test
 
 **Scenario:** Customer buys $200 item online with credit card.
 
@@ -189,7 +189,7 @@
 7. **Reconciliation:** Merchant system matches settlement to order
 8. **Customer statement:** $200 charge appears on card statement
 
-### Worked Example 3: Corporate Action — Stock Split
+### 💡 Worked Example 3: Corporate Action — Stock Split
 
 **Scenario:** Company announces 3-for-1 stock split. Customer holds 100 shares at $90.
 

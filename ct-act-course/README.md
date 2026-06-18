@@ -1,8 +1,8 @@
-# ISTQB CT-AcT — Acceptance Testing
+# 🤝 ISTQB CT-AcT — Acceptance Testing
 
 A comprehensive, self-contained course for the **ISTQB Certified Tester in Acceptance Testing (CT-AcT)** certification.
 
-## Exam Facts
+## 🎓 Exam Facts
 
 | Parameter | Value |
 |-----------|-------|
@@ -15,7 +15,7 @@ A comprehensive, self-contained course for the **ISTQB Certified Tester in Accep
 | **Open/closed book** | Closed book |
 | **Prerequisite** | CTFL (Foundation Level) v4.0 |
 
-## Course Structure
+## ⭐ Course Structure
 
 | Chapter | Topic | Est. Weight |
 |---------|-------|-------------|
@@ -33,7 +33,7 @@ A comprehensive, self-contained course for the **ISTQB Certified Tester in Accep
 - `GLOSSARY.md` — Key terms and definitions
 - `PROGRESS_TRACKER.md` — Checklist for tracking completion
 
-## How to Use This Course
+## ⭐ How to Use This Course
 
 1. **Start with** `STUDY_PLAN.md` to choose a schedule
 2. **Work through chapters** in order — read `lessons.md`, study `exam_traps.md`, then attempt `practice_questions.md`
@@ -41,7 +41,7 @@ A comprehensive, self-contained course for the **ISTQB Certified Tester in Accep
 4. **Take mock exams** under timed conditions (closed book)
 5. **Review `EXAM_STRATEGY.md`** the day before your exam
 
-## Target Audience
+## ⭐ Target Audience
 
 - Software testers preparing for the ISTQB CT-AcT exam
 - Business analysts involved in acceptance testing
@@ -49,7 +49,7 @@ A comprehensive, self-contained course for the **ISTQB Certified Tester in Accep
 - QA engineers working in agile or traditional environments
 - Anyone needing structured, exam-focused acceptance testing knowledge
 
-## Question Bank Summary
+## ❓ Question Bank Summary
 
 | Source | Questions |
 |--------|-----------|
@@ -60,7 +60,7 @@ A comprehensive, self-contained course for the **ISTQB Certified Tester in Accep
 
 All questions include full rationales.
 
-## Syllabus Coverage
+## 📊 Syllabus Coverage
 
 This course covers every learning objective in the ISTQB CT-AcT syllabus:
 
@@ -71,12 +71,12 @@ This course covers every learning objective in the ISTQB CT-AcT syllabus:
 - Regulation acceptance testing (compliance, standards, audit)
 - Tools supporting acceptance testing (test management, BDD, automation frameworks)
 
-## Prerequisites
+## ⭐ Prerequisites
 
 - ISTQB CTFL certification (or equivalent knowledge)
 - Basic understanding of software development lifecycle
 - Familiarity with testing terminology and test process
 
-## Disclaimer
+## 🤖 Disclaimer
 
 This is an independent study resource. It is not affiliated with, endorsed by, or produced by ISTQB. The official syllabus and sample exams are available from [istqb.org](https://www.istqb.org).

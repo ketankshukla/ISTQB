@@ -1,4 +1,4 @@
-# Mock Exam 3 — Answer Key
+# 📝 Mock Exam 3 — Answer Key
 
 | Q | Answer | Rationale |
 |---|--------|-----------|
@@ -51,7 +51,7 @@ Actually no, the exam file mock_exam_3.md already has the question. I'll provide
 | 39 | B | Chi-square tests on large samples statistically verify uniformity. Visual inspection (A) is insufficient. |
 | 40 | B | Game studios develop and license games to operators. |
 
-## Score Interpretation
+## ⭐ Score Interpretation
 
 | Score | Interpretation |
 |-------|-------------|

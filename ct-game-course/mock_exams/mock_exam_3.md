@@ -1,10 +1,10 @@
-# CT-GaMe Mock Exam 3
+# 📝 CT-GaMe Mock Exam 3
 
 **Instructions:** 40 questions, 60 minutes, single best answer.
 
 ---
 
-### Q1-Q10
+### 🔷 Q1-Q10
 
 1. Automation: A) Only feel B) Repetitive + deterministic C) Only exploratory D) Only UX — **Repetitive + deterministic**
 2. Unity tests: A) Only manual B) Edit + Play Mode C) Only build D) Only import — **Edit + Play Mode**
@@ -19,7 +19,7 @@
 
 ---
 
-### Q11-Q20
+### 🔷 Q11-Q20
 
 11. Masking: A) Cheating B) Prevent false positives C) Hide bugs D) Slow testing — **Prevent false positives**
 12. Nightly: A) Only code B) Content + code + smoke C) Only docs D) Only emails — **Content + code + smoke**
@@ -34,7 +34,7 @@
 
 ---
 
-### Q21-Q30
+### 🔷 Q21-Q30
 
 21. TRC: A) Review Committee B) Technical Requirements Checklist (Sony) C) Run Count D) Resource Check — **Technical Requirements Checklist (Sony)**
 22. Submission: A) Only build B) Build + metadata + rating + assets + docs C) Only trailer D) Only manual — **Build + metadata + rating + assets + docs**
@@ -49,7 +49,7 @@
 
 ---
 
-### Q31-Q40
+### 🔷 Q31-Q40
 
 31. Core mechanics: A) Only art B) Movement + combat + interaction + inventory + abilities C) Only audio D) Only marketing — **Movement + combat + interaction + inventory + abilities**
 32. UI testing: A) Only colors B) Navigation + buttons + data + edge cases C) Only fonts D) Only resolution — **Navigation + buttons + data + edge cases**
@@ -64,4 +64,4 @@
 
 ---
 
-## End of Mock Exam 3
+## 📝 End of Mock Exam 3

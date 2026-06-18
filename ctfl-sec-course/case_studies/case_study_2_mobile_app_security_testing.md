@@ -1,6 +1,6 @@
-# Case Study 2 — Mobile App Security Testing
+# 📂 Case Study 2 — Mobile App Security Testing
 
-## Scenario
+## 🎬 Scenario
 
 A healthcare app stores patient data and communicates with a cloud API. It must comply with HIPAA. The app:
 - Stores data locally on device
@@ -8,16 +8,16 @@ A healthcare app stores patient data and communicates with a cloud API. It must 
 - Syncs with cloud API over HTTPS
 - Uses third-party SDKs for analytics
 
-## Questions
+## ❓ Questions
 
 1. What mobile-specific security risks must be tested?
 2. How should local data storage be tested?
 3. What third-party risks need assessment?
 4. How does HIPAA compliance affect testing?
 
-## Model Answers
+## ✔️ Model Answers
 
-### Q1
+### 🔷 Q1
 Mobile-specific risks:
 - **Insecure data storage** — Local database encryption
 - **Weak cryptography** — Hardcoded keys, weak algorithms
@@ -26,7 +26,7 @@ Mobile-specific risks:
 - **Code tampering** — Reverse engineering, runtime manipulation
 - **Extraneous functionality** — Hidden debug endpoints
 
-### Q2
+### 🔷 Q2
 Local storage testing:
 - Verify SQLite/database encryption (AES-256)
 - Check for sensitive data in logs, clipboard, caches
@@ -35,7 +35,7 @@ Local storage testing:
 - Check shared preferences for sensitive values
 - Verify screenshot prevention in sensitive screens
 
-### Q3
+### 🔷 Q3
 Third-party risk assessment:
 - SDK permissions review (excessive permissions?)
 - Data sharing practices (what data goes to analytics?)
@@ -43,7 +43,7 @@ Third-party risk assessment:
 - Network traffic analysis (is data sent to unexpected domains?)
 - Update policies (how quickly are SDKs patched?)
 
-### Q4
+### 🔷 Q4
 HIPAA compliance testing:
 - Encryption at rest and in transit (verified)
 - Access controls (role-based, minimum necessary)

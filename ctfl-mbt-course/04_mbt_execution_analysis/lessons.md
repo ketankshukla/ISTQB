@@ -1,10 +1,10 @@
-# Chapter 4 — MBT Test Execution and Analysis: Lessons
+# 📘 Chapter 4 — MBT Test Execution and Analysis: Lessons
 
 ---
 
-## 4.1 Making Abstract Tests Executable
+## ⭐ 4.1 Making Abstract Tests Executable
 
-### Abstract vs. Concrete Test Cases
+### 🔷 Abstract vs. Concrete Test Cases
 
 **Abstract Test Case:**
 - Generated directly from the model
@@ -17,7 +17,7 @@
 - Contains specific input values, preconditions, and expected results
 - Example: "Enter username 'john_doe' and password 'Pass123!', click Login, verify dashboard page is displayed"
 
-### Concretization Process
+### 🔷 Concretization Process
 
 **Step 1: Map Model Elements to System Elements**
 - Model state "Idle" → System condition: User is on login page
@@ -41,7 +41,7 @@
 - System state after test execution
 - Cleanup requirements (e.g., log out, reset data)
 
-### Example Concretization
+### 💡 Example Concretization
 
 **Abstract Test (from state machine):**
 ```
@@ -62,9 +62,9 @@ Postcondition: System is in "Card Inserted" state
 
 ---
 
-## 4.2 Coverage Measurement
+## 📊 4.2 Coverage Measurement
 
-### Types of Coverage in MBT
+### 📊 Types of Coverage in MBT
 
 **Model Coverage:**
 - Measures how much of the model is exercised
@@ -78,7 +78,7 @@ Postcondition: System is in "Card Inserted" state
 - Measures how many requirements are tested
 - Traceability from model elements to requirements
 
-### Coverage Reporting
+### 📋 Coverage Reporting
 
 **What to Report:**
 - Coverage percentage achieved vs. target
@@ -101,9 +101,9 @@ Postcondition: System is in "Card Inserted" state
 
 ---
 
-## 4.3 Defect Analysis in MBT
+## 🔬 4.3 Defect Analysis in MBT
 
-### Types of Defects Found Through MBT
+### 🧪 Types of Defects Found Through MBT
 
 **1. Model-System Mismatch:**
 - The model predicted one behavior, but the system behaved differently
@@ -121,7 +121,7 @@ Postcondition: System is in "Card Inserted" state
 - Paths in the model that cannot be executed in the real system
 - Could indicate: model over-simplification or incorrect guards
 
-### Defect Classification
+### 🐞 Defect Classification
 
 | Defect Type | Cause | Action |
 |-------------|-------|--------|
@@ -130,7 +130,7 @@ Postcondition: System is in "Card Inserted" state
 | Requirement defect | Requirement is ambiguous or wrong | Fix requirement |
 | Test defect | Test case is incorrect | Fix test case |
 
-### When a Test Fails
+### 🤖 When a Test Fails
 
 **Step 1: Verify the test is correct**
 - Is the concrete test aligned with the abstract test?
@@ -146,9 +146,9 @@ Postcondition: System is in "Card Inserted" state
 
 ---
 
-## 4.4 Handling Infeasible Paths and Unreachable States
+## 🔄 4.4 Handling Infeasible Paths and Unreachable States
 
-### Infeasible Paths
+### 🔷 Infeasible Paths
 
 An **infeasible path** is a sequence of transitions in the model that cannot occur in the real system.
 
@@ -163,7 +163,7 @@ An **infeasible path** is a sequence of transitions in the model that cannot occ
 - Update the model if the path should be feasible
 - Add a comment explaining why the path is infeasible
 
-### Unreachable States
+### 🔄 Unreachable States
 
 An **unreachable state** is a state in the model that cannot be reached from the initial state.
 
@@ -179,7 +179,7 @@ An **unreachable state** is a state in the model that cannot be reached from the
 
 ---
 
-## Worked Example: Coverage Analysis
+## 💡 Worked Example: Coverage Analysis
 
 **Scenario:** A test suite was generated from an ATM state machine and executed.
 

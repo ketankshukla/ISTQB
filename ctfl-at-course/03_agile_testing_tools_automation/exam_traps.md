@@ -1,6 +1,6 @@
-# Chapter 3 — Agile Testing Tools and Automation: Exam Traps
+# 🪤 Chapter 3 — Agile Testing Tools and Automation: Exam Traps
 
-## Trap 1: Confusing CI and CD
+## 🪤 Trap 1: Confusing CI and CD
 
 **Trap:** Continuous Integration is about merging and testing frequently. Continuous Delivery is about keeping code deployable.
 
@@ -22,7 +22,7 @@
 
 ---
 
-## Trap 2: Thinking UI Automation Should Be the Majority of Tests
+## 🪤 Trap 2: Thinking UI Automation Should Be the Majority of Tests
 
 **Trap:** The pyramid shows UI tests should be the smallest layer. Many teams over-invest in UI automation.
 
@@ -44,7 +44,7 @@ D. Replace all tests with manual testing
 
 ---
 
-## Trap 3: Thinking Automation Replaces All Manual Testing in Agile
+## 🪤 Trap 3: Thinking Automation Replaces All Manual Testing in Agile
 
 **Trap:** Automation supports but does not replace exploratory testing, usability testing, and acceptance testing with stakeholders.
 
@@ -66,7 +66,7 @@ D. Replace all tests with manual testing
 
 ---
 
-## Trap 4: Thinking Test Automation Can Be Added Later
+## 🪤 Trap 4: Thinking Test Automation Can Be Added Later
 
 **Trap:** In agile, test automation must start from the first sprint, not added as an afterthought.
 
@@ -88,7 +88,7 @@ D. Replace all tests with manual testing
 
 ---
 
-## Trap 5: Forgetting That Flaky Tests Destroy Trust
+## 🪤 Trap 5: Forgetting That Flaky Tests Destroy Trust
 
 **Trap:** Flaky tests (intermittent failures) cause teams to ignore CI results, defeating the purpose of automation.
 
@@ -110,7 +110,7 @@ D. Replace all tests with manual testing
 
 ---
 
-## Trap 6: Confusing Tool Categories
+## 🪤 Trap 6: Confusing Tool Categories
 
 **Trap:** Each tool category has a specific purpose. Know which tools are for unit testing, BDD, CI/CD, etc.
 

@@ -1,10 +1,10 @@
-# Chapter 6 — Performance Analysis and Reporting: Lessons
+# 📘 Chapter 6 — Performance Analysis and Reporting: Lessons
 
 ---
 
-## 6.1 Result Analysis Techniques
+## 🎯 6.1 Result Analysis Techniques
 
-### Data Validation
+### 🗃️ Data Validation
 
 | Check | Purpose |
 |-------|---------|
@@ -13,7 +13,7 @@
 | **Completeness** | Ensure all metrics captured |
 | **Accuracy** | Verify tools measured correctly |
 
-### Comparison Methods
+### 🔷 Comparison Methods
 
 | Method | Use Case |
 |--------|----------|
@@ -24,37 +24,37 @@
 
 ---
 
-## 6.2 Bottleneck Identification
+## ⭐ 6.2 Bottleneck Identification
 
-### CPU Bottleneck
+### 🔷 CPU Bottleneck
 
 | Symptom | Cause | Solution |
 |---------|-------|----------|
 | High CPU, high response time | Inefficient code | Optimize algorithms |
 | CPU at 100%, throughput flat | Capacity limit | Add CPU or scale |
 
-### Memory Bottleneck
+### 🔷 Memory Bottleneck
 
 | Symptom | Cause | Solution |
 |---------|-------|----------|
 | High memory, paging | Memory leak | Fix leak or add RAM |
 | Memory growth over time | Object accumulation | Review object lifecycle |
 
-### Disk I/O Bottleneck
+### 🔷 Disk I/O Bottleneck
 
 | Symptom | Cause | Solution |
 |---------|-------|----------|
 | High disk queue, slow queries | Missing indexes | Add indexes |
 | High disk latency | Slow storage | Upgrade to SSD |
 
-### Network Bottleneck
+### 🔷 Network Bottleneck
 
 | Symptom | Cause | Solution |
 |---------|-------|----------|
 | High network utilization | Large payloads | Compress data |
 | High latency | Distance/congestion | CDN, optimize routes |
 
-### Database Bottleneck
+### 🗃️ Database Bottleneck
 
 | Symptom | Cause | Solution |
 |---------|-------|----------|
@@ -63,9 +63,9 @@
 
 ---
 
-## 6.3 Metric Correlation
+## 📊 6.3 Metric Correlation
 
-### Example Correlations
+### 💡 Example Correlations
 
 | Observation | Correlated Metric | Conclusion |
 |-------------|-------------------|------------|
@@ -76,9 +76,9 @@
 
 ---
 
-## 6.4 Report Structure
+## 📝 6.4 Report Structure
 
-### Executive Summary
+### 📌 Executive Summary
 
 | Element | Content |
 |---------|---------|
@@ -87,7 +87,7 @@
 | **Key finding** | Main bottleneck or concern |
 | **Recommendation** | Priority action |
 
-### Technical Details
+### 🤖 Technical Details
 
 | Section | Content |
 |---------|---------|
@@ -99,9 +99,9 @@
 
 ---
 
-## 6.5 Recommendations
+## ⭐ 6.5 Recommendations
 
-### Prioritization
+### 🔷 Prioritization
 
 | Priority | Criteria | Example |
 |----------|----------|---------|
@@ -110,7 +110,7 @@
 | **Medium** | Noticeable impact | Cache tuning |
 | **Low** | Minor improvement | Log optimization |
 
-### Action Types
+### 🧪 Action Types
 
 | Type | Description |
 |------|-------------|
@@ -121,9 +121,9 @@
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Bottleneck Analysis
+### 💡 Worked Example 1: Bottleneck Analysis
 
 | Symptom | CPU | Memory | Disk | Network | Conclusion |
 |---------|-----|--------|------|---------|------------|
@@ -131,7 +131,7 @@
 | Response time 3s | 30% | 90% | 50% | 20% | Memory bottleneck |
 | Response time 4s | 40% | 50% | 95% | 30% | Disk I/O bottleneck |
 
-### Worked Example 2: Report Summary
+### 💡 Worked Example 2: Report Summary
 
 ```
 Test: Checkout Flow Load Test
@@ -142,7 +142,7 @@ Bottleneck: Database CPU at 2,000 users
 Recommendation: Add database read replica (Critical)
 ```
 
-### Worked Example 3: Correlation
+### 💡 Worked Example 3: Correlation
 
 | Time | Response Time | CPU | Disk | Conclusion |
 |------|---------------|-----|------|------------|

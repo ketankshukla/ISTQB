@@ -1,6 +1,6 @@
-# Chapter 1 — Introduction to MBT: Exam Traps
+# 🪤 Chapter 1 — Introduction to MBT: Exam Traps
 
-## Trap 1: Thinking MBT Replaces All Manual Testing
+## 🪤 Trap 1: Thinking MBT Replaces All Manual Testing
 
 **Trap:** MBT is a supplement, not a replacement. Usability, performance, and exploratory testing still need manual effort.
 
@@ -18,7 +18,7 @@
 
 ---
 
-## Trap 2: Confusing Abstract and Concrete Test Cases
+## 🪤 Trap 2: Confusing Abstract and Concrete Test Cases
 
 **Trap:** Abstract test cases come from the model. Concrete test cases have specific values and are executable.
 
@@ -34,7 +34,7 @@
 
 ---
 
-## Trap 3: Thinking MBT Eliminates the Need for Requirements
+## 🪤 Trap 3: Thinking MBT Eliminates the Need for Requirements
 
 **Trap:** MBT requires requirements to create the model. The model is derived FROM requirements.
 
@@ -50,7 +50,7 @@
 
 ---
 
-## Trap 4: Thinking a Bad Model Still Generates Good Tests
+## 🪤 Trap 4: Thinking a Bad Model Still Generates Good Tests
 
 **Trap:** The quality of generated tests depends entirely on the quality of the model.
 
@@ -66,7 +66,7 @@
 
 ---
 
-## Trap 5: Confusing Model Coverage with Code Coverage
+## 📊 Trap 5: Confusing Model Coverage with Code Coverage
 
 **Trap:** Model coverage measures how much of the model is exercised. Code coverage measures how much of the code is executed. They are different.
 

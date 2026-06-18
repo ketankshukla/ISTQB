@@ -1,8 +1,8 @@
-# Chapter 2 — Test Management: Practice Questions
+# ❓ Chapter 2 — Test Management: Practice Questions
 
 ---
 
-### Q1 (TM-2.1, K2)
+### 🔷 Q1 (TM-2.1, K2)
 
 Which test organization structure provides the GREATEST objectivity?
 
@@ -13,7 +13,7 @@ D. Agile cross-functional teams
 
 ---
 
-### Q2 (TM-2.2, K3)
+### 🔷 Q2 (TM-2.2, K3)
 
 A test manager breaks testing into individual tasks, estimates each task, and sums them to get the total effort. This is:
 
@@ -24,7 +24,7 @@ D. Expert judgment
 
 ---
 
-### Q3 (TM-2.3, K3)
+### 🔷 Q3 (TM-2.3, K3)
 
 A banking system has two risks:
 - Risk A: Payment processing failure (Likelihood: Medium, Impact: Critical)
@@ -39,7 +39,7 @@ D. Neither should be tested
 
 ---
 
-### Q4 (TM-2.4, K2)
+### 🔷 Q4 (TM-2.4, K2)
 
 A defect that causes a system crash is classified as:
 
@@ -50,7 +50,7 @@ D. Critical severity
 
 ---
 
-### Q5 (TM-2.4, K3)
+### 🔷 Q5 (TM-2.4, K3)
 
 A misspelled company name on the login page is embarrassing but does not affect functionality. It should be classified as:
 
@@ -61,7 +61,7 @@ D. Low severity, low priority
 
 ---
 
-### Q6 (TM-2.2, K3)
+### 🔷 Q6 (TM-2.2, K3)
 
 A test manager estimates testing effort by taking the total development effort (200 person-days) and applying a historical percentage (40%). This is:
 
@@ -72,7 +72,7 @@ D. Parametric estimation
 
 ---
 
-### Q7 (TM-2.3, K2)
+### 🔷 Q7 (TM-2.3, K2)
 
 The PRIMARY purpose of risk-based testing is to:
 
@@ -83,7 +83,7 @@ D. Guarantee zero defects in production
 
 ---
 
-### Q8 (TM-2.5, K3)
+### 🔷 Q8 (TM-2.5, K3)
 
 A test team found 150 defects during testing. After release, 10 defects were reported by users. The Defect Detection Percentage (DDP) is approximately:
 
@@ -94,7 +94,7 @@ D. 150%
 
 ---
 
-### Q9 (TM-2.1, K2)
+### 🔷 Q9 (TM-2.1, K2)
 
 The GREATEST disadvantage of integrated testing is:
 
@@ -105,7 +105,7 @@ D. Communication barriers
 
 ---
 
-### Q10 (TM-2.3, K3)
+### 🔷 Q10 (TM-2.3, K3)
 
 In a risk assessment, a risk with likelihood = 2 and impact = 5 has a risk priority of:
 
@@ -116,7 +116,7 @@ D. 10
 
 ---
 
-### Q11 (TM-2.4, K2)
+### 🔷 Q11 (TM-2.4, K2)
 
 A defect is reported, assigned to a developer, fixed, and then retested by a tester who confirms the fix. The final state is:
 
@@ -127,7 +127,7 @@ D. Verified
 
 ---
 
-### Q12 (TM-2.2, K3)
+### 🔷 Q12 (TM-2.2, K3)
 
 Wideband Delphi estimation is MOST useful when:
 
@@ -138,7 +138,7 @@ D. The schedule is already fixed
 
 ---
 
-### Q13 (TM-2.5, K3)
+### 🔷 Q13 (TM-2.5, K3)
 
 Which metric would BEST indicate that the software quality is improving during testing?
 
@@ -149,7 +149,7 @@ D. Test environment setup time decreases
 
 ---
 
-### Q14 (TM-2.6, K2)
+### 🔷 Q14 (TM-2.6, K2)
 
 A test manager's PRIMARY responsibility is to:
 
@@ -160,7 +160,7 @@ D. Develop the application code
 
 ---
 
-### Q15 (TM-2.4, K3)
+### 🔷 Q15 (TM-2.4, K3)
 
 A defect report should include all of the following EXCEPT:
 
@@ -171,7 +171,7 @@ D. Severity and priority
 
 ---
 
-### Q16 (TM-2.1, K2)
+### 🔷 Q16 (TM-2.1, K2)
 
 In a matrix organization, testers report to:
 
@@ -182,7 +182,7 @@ D. No one; they are self-directed
 
 ---
 
-### Q17 (TM-2.3, K3)
+### 🔷 Q17 (TM-2.3, K3)
 
 Which risk identification technique involves asking "What could go wrong?" in a group setting to identify potential failures?
 
@@ -193,7 +193,7 @@ D. Load testing
 
 ---
 
-### Q18 (TM-2.5, K3)
+### 🔷 Q18 (TM-2.5, K3)
 
 If the defect find rate is increasing while the test execution rate is stable, this may indicate:
 
@@ -204,7 +204,7 @@ D. The test environment is unstable
 
 ---
 
-### Q19 (TM-2.2, K2)
+### 🔷 Q19 (TM-2.2, K2)
 
 Adding a 15% contingency to a test estimate is done to:
 
@@ -215,7 +215,7 @@ D. Reduce the number of test cases
 
 ---
 
-### Q20 (TM-2.6, K2)
+### 🔷 Q20 (TM-2.6, K2)
 
 Which factor is MOST likely to demotivate a test team?
 
@@ -226,7 +226,7 @@ D. Clear and achievable goals
 
 ---
 
-### Q21 (TM-2.3, K3)
+### 🔷 Q21 (TM-2.3, K3)
 
 Failure Mode and Effect Analysis (FMEA) is a technique used for:
 
@@ -237,7 +237,7 @@ D. Managing test team schedules
 
 ---
 
-### Q22 (TM-2.5, K3)
+### 🔷 Q22 (TM-2.5, K3)
 
 A test project has executed 80% of planned test cases but only achieved 60% requirements coverage. This suggests:
 
@@ -248,7 +248,7 @@ D. The project should stop testing
 
 ---
 
-### Q23 (TM-2.4, K2)
+### 🔷 Q23 (TM-2.4, K2)
 
 The state "Cannot Reproduce" in a defect lifecycle means:
 
@@ -259,7 +259,7 @@ D. The defect is not important enough to fix
 
 ---
 
-### Q24 (TM-2.1, K2)
+### 🔷 Q24 (TM-2.1, K2)
 
 Which structure BEST balances objectivity and collaboration?
 
@@ -270,7 +270,7 @@ D. Outsourced testing only
 
 ---
 
-### Q25 (TM-2.3, K4)
+### 🔷 Q25 (TM-2.3, K4)
 
 A system has risks rated as follows:
 - Risk A: Likelihood 4, Impact 2 = Priority 8
@@ -286,129 +286,129 @@ D. A, B, and C equally
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** Independent testing provides the greatest objectivity because testers are not influenced by development pressures.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** Bottom-up estimation sums individual task estimates. Top-down would estimate total first.
 
-### Q3
+### 🔷 Q3
 **Answer: A**
 
 **Rationale:** Payment processing failure has critical impact. Even with medium likelihood, its risk priority is likely higher than high-likelihood/low-impact formatting issue.
 
-### Q4
+### 🔷 Q4
 **Answer: D**
 
 **Rationale:** System crash = critical severity (highest level). It prevents further use of the system.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** Low severity (no functional impact) but high priority (customer-facing, brand reputation).
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** Applying a historical percentage to total effort is top-down estimation.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** RBT prioritizes testing based on risk level. It does not eliminate all risks or guarantee zero defects.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** DDP = 150 / (150 + 10) = 150 / 160 = 93.75% ≈ 93.8%.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** Integrated testing's main disadvantage is potential loss of objectivity due to team loyalty and pressure.
 
-### Q10
+### 🔷 Q10
 **Answer: D**
 
 **Rationale:** Risk Priority = Likelihood × Impact = 2 × 5 = 10.
 
-### Q11
+### 🔷 Q11
 **Answer: C**
 
 **Rationale:** After tester confirms the fix, the defect is closed. "Fixed" is the developer's state before retest.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** Wideband Delphi leverages expert diversity and is especially useful for novel projects where historical data is limited.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** Decreasing defect find rate with continued execution suggests the software is stabilizing — a quality improvement indicator.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** The test manager's primary role is planning, organizing, and controlling the test process, not writing cases or fixing defects.
 
-### Q15
+### 🔷 Q15
 **Answer: C**
 
 **Rationale:** Developer's home address is irrelevant to a defect report. Steps, results, and classification are essential.
 
-### Q16
+### 🔷 Q16
 **Answer: C**
 
 **Rationale:** In a matrix organization, staff report to both functional and project managers.
 
-### Q17
+### 🔷 Q17
 **Answer: A**
 
 **Rationale:** Brainstorming is a group technique for identifying risks by asking what could go wrong.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 
 **Rationale:** Increasing defect find rate with stable execution suggests more defects are being found per test — potentially indicating decreasing quality or more effective testing.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** Contingency accounts for uncertainty and unforeseen issues in estimates.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 
 **Rationale:** Blame culture is highly demotivating. Recognition, good tools, and clear goals are motivating.
 
-### Q21
+### 🔷 Q21
 **Answer: B**
 
 **Rationale:** FMEA is a systematic technique for identifying and assessing potential failure modes and their effects.
 
-### Q22
+### 🔷 Q22
 **Answer: B**
 
 **Rationale:** 80% execution with only 60% coverage suggests test cases may be redundant or missing coverage of some requirements.
 
-### Q23
+### 🔷 Q23
 **Answer: B**
 
 **Rationale:** "Cannot Reproduce" means the developer was unable to reproduce the reported issue, often requiring more information from the tester.
 
-### Q24
+### 🔷 Q24
 **Answer: C**
 
 **Rationale:** Matrix organizations balance objectivity (through functional test manager) with collaboration (through project involvement).
 
-### Q25
+### 🔷 Q25
 **Answer: A**
 
 **Rationale:** B (priority 10) and A (priority 8) have the highest priorities. C (priority 9) is lower than B. A and B together cover the two highest priorities.

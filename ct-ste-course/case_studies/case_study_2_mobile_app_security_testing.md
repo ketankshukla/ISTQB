@@ -1,6 +1,6 @@
-# Case Study 2 — Mobile App Security Testing
+# 📂 Case Study 2 — Mobile App Security Testing
 
-## Context
+## ⭐ Context
 
 You are testing SecureBank, a mobile banking app for iOS and Android.
 
@@ -18,7 +18,7 @@ You are testing SecureBank, a mobile banking app for iOS and Android.
 
 ---
 
-## Task 1: Test Scope
+## ⭐ Task 1: Test Scope
 
 **Question:** Define security test scope for the mobile app.
 
@@ -39,7 +39,7 @@ You are testing SecureBank, a mobile banking app for iOS and Android.
 
 ---
 
-## Task 2: Testing Approach
+## ⭐ Task 2: Testing Approach
 
 **Question:** Select techniques for mobile security testing.
 
@@ -55,7 +55,7 @@ You are testing SecureBank, a mobile banking app for iOS and Android.
 
 ---
 
-## Task 3: Findings and Remediation
+## ⭐ Task 3: Findings and Remediation
 
 **Question:** Handle common mobile security findings.
 
@@ -72,7 +72,7 @@ You are testing SecureBank, a mobile banking app for iOS and Android.
 
 ---
 
-## Task 4: API Security
+## 🔒 Task 4: API Security
 
 **Question:** Test API security for mobile-backend communication.
 

@@ -1,10 +1,10 @@
-# CT-TAS Mock Exam 2
+# 📝 CT-TAS Mock Exam 2
 
 **Instructions:** 40 questions, 60 minutes, single best answer.
 
 ---
 
-### Q1-Q10
+### 🔷 Q1-Q10
 
 1. Maintenance types: A) Only fix B) Corrective, adaptive, perfective, preventive C) Only update D) Only delete — **Corrective, adaptive, perfective, preventive**
 2. Refactor: A) Only when broken B) Proactively improve C) Only yearly D) Only new — **Proactively improve**
@@ -19,7 +19,7 @@
 
 ---
 
-### Q11-Q20
+### 🔷 Q11-Q20
 
 11. Archive vs delete: A) Wastes storage B) Preserves history C) Complicates VC D) Slows — **Preserves history**
 12. Dynamic data: A) Faster B) Avoids stale + conflicts C) Only API D) Only UI — **Avoids stale + conflicts**
@@ -34,7 +34,7 @@
 
 ---
 
-### Q21-Q30
+### 🔷 Q21-Q30
 
 21. Automation skills: A) Only coding B) Coding + testing C) Only manual D) Only mgmt — **Coding + testing**
 22. Pair programming: A) Only seniors B) Skill transfer C) Only review D) Only docs — **Skill transfer**
@@ -49,7 +49,7 @@
 
 ---
 
-### Q31-Q40
+### 🔷 Q31-Q40
 
 31. Hybrid model: A) Only centralized B) Shared + embedded C) Only outsource D) Only contract — **Shared + embedded**
 32. Executive value: A) Tool details B) Business outcomes C) Only counts D) Only metrics — **Business outcomes**
@@ -64,4 +64,4 @@
 
 ---
 
-## End of Mock Exam 2
+## 📝 End of Mock Exam 2

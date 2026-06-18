@@ -1,6 +1,6 @@
-# CTFL-PT Mock Exam 3 — Answer Key
+# 📝 CTFL-PT Mock Exam 3 — Answer Key
 
-## Answers
+## ✔️ Answers
 
 | Question | Answer | Topic |
 |----------|--------|-------|
@@ -25,7 +25,7 @@
 | Q19 | B | Documentation importance |
 | Q20 | B | CPU risk assessment |
 
-## Score Interpretation
+## ⭐ Score Interpretation
 
 | Score | Status |
 |-------|--------|

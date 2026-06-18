@@ -1,6 +1,6 @@
-# Case Study 1 — E-Commerce Peak Load Testing
+# 📂 Case Study 1 — E-Commerce Peak Load Testing
 
-## Context
+## ⭐ Context
 
 You are the Performance Test Lead for ShopMax, an e-commerce platform preparing for Black Friday. Last year, the site crashed during the sale, costing an estimated $2M in lost revenue.
 
@@ -17,7 +17,7 @@ You are the Performance Test Lead for ShopMax, an e-commerce platform preparing 
 
 ---
 
-## Task 1: Test Strategy Design
+## ♟️ Task 1: Test Strategy Design
 
 **Question:** Design a performance test strategy for Black Friday readiness.
 
@@ -71,7 +71,7 @@ Payment:          5%
 
 ---
 
-## Task 2: Environment Planning
+## 🗓️ Task 2: Environment Planning
 
 **Question:** The production environment costs $50K/month. The test budget is $10K. How do you approach test environment sizing?
 
@@ -106,7 +106,7 @@ Payment:          5%
 
 ---
 
-## Task 3: Test Execution and Bottleneck Analysis
+## 🔬 Task 3: Test Execution and Bottleneck Analysis
 
 **Question:** During the peak load test, results show degradation. Analyze the data.
 
@@ -160,7 +160,7 @@ UPDATE users SET loyalty_points = loyalty_points + ? WHERE id = ?
 
 ---
 
-## Task 4: Tuning Recommendations and Re-Test
+## ⭐ Task 4: Tuning Recommendations and Re-Test
 
 **Question:** Create a tuning plan and define re-test criteria.
 

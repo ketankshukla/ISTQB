@@ -1,6 +1,6 @@
-# Case Study 3 — Cross-Platform Social Media App
+# 📂 Case Study 3 — Cross-Platform Social Media App
 
-## Context
+## ⭐ Context
 
 You are the QA Manager for Connectify, a social media startup building a React Native app.
 
@@ -15,7 +15,7 @@ You are the QA Manager for Connectify, a social media startup building a React N
 
 ---
 
-## Task 1: Cross-Platform Test Strategy
+## ♟️ Task 1: Cross-Platform Test Strategy
 
 **Question:** Design an efficient cross-platform testing strategy.
 
@@ -37,7 +37,7 @@ You are the QA Manager for Connectify, a social media startup building a React N
 
 ---
 
-## Task 2: Chat Feature Testing
+## ⭐ Task 2: Chat Feature Testing
 
 **Question:** Test real-time chat functionality.
 
@@ -56,7 +56,7 @@ You are the QA Manager for Connectify, a social media startup building a React N
 
 ---
 
-## Task 3: Feed Performance
+## ⚡ Task 3: Feed Performance
 
 **Question:** Validate infinite scroll feed performance.
 
@@ -87,7 +87,7 @@ You are the QA Manager for Connectify, a social media startup building a React N
 
 ---
 
-## Task 4: Beta Launch Plan
+## 🗓️ Task 4: Beta Launch Plan
 
 **Question:** Plan the beta launch and monitoring.
 

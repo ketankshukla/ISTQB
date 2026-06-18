@@ -1,6 +1,6 @@
-# Chapter 3 — Testing Techniques in Agile: Exam Traps
+# 🪤 Chapter 3 — Testing Techniques in Agile: Exam Traps
 
-## Trap 1: Thinking Exploratory Testing Is Random
+## 🪤 Trap 1: Thinking Exploratory Testing Is Random
 
 **Trap:** Exploratory testing is structured and purposeful. Testers use charters, heuristics, and risk analysis to guide their exploration. It is not ad-hoc or random clicking.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Confusing BDD with Just Test Automation
+## 🪤 Trap 2: Confusing BDD with Just Test Automation
 
 **Trap:** BDD is primarily about collaboration and shared understanding. The Given/When/Then format enables automation, but the main value is in the conversation and clarity.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Thinking TDD Replaces All Testing
+## 🪤 Trap 3: Thinking TDD Replaces All Testing
 
 **Trap:** TDD is a developer practice for unit tests. It does NOT replace integration testing, system testing, exploratory testing, or non-functional testing.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Thinking the Test Pyramid Should Be an Ice Cream Cone
+## 🪤 Trap 4: Thinking the Test Pyramid Should Be an Ice Cream Cone
 
 **Trap:** The pyramid should have many unit tests at the base and few UI tests at the top. An inverted pyramid is an anti-pattern.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Ignoring Quadrant 3 (Critique the Product)
+## 🪤 Trap 5: Ignoring Quadrant 3 (Critique the Product)
 
 **Trap:** Teams focused on automation may neglect exploratory testing, usability testing, and user feedback (Q3). These are essential for finding defects that automation misses.
 

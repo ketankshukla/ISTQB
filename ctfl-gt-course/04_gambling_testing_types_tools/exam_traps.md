@@ -1,6 +1,6 @@
-# Chapter 4 — Gambling Testing Types and Tools: Exam Traps
+# 🪤 Chapter 4 — Gambling Testing Types and Tools: Exam Traps
 
-## Trap 1: Confusing Functional Testing with RNG Testing
+## 🪤 Trap 1: Confusing Functional Testing with RNG Testing
 
 **Trap:** Functional testing verifies game mechanics work correctly. RNG testing verifies randomness and statistical properties. They are different but related.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Thinking All Gambling Testing Can Be Automated
+## 🪤 Trap 2: Thinking All Gambling Testing Can Be Automated
 
 **Trap:** While much gambling testing can be automated, visual elements, usability, and some complex edge cases still require manual testing.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Confusing Load Testing with Stress Testing
+## 🪤 Trap 3: Confusing Load Testing with Stress Testing
 
 **Trap:** Load testing tests expected capacity. Stress testing pushes beyond expected capacity to find breaking points.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Thinking RTP Verification Requires Few Spins
+## 🪤 Trap 4: Thinking RTP Verification Requires Few Spins
 
 **Trap:** RTP verification requires a very large sample size. A few hundred or thousand spins are not statistically significant.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Confusing Local and Wide-Area Progressive Jackpots
+## 📈 Trap 5: Confusing Local and Wide-Area Progressive Jackpots
 
 **Trap:** Local progressives are linked across games on one operator. Wide-area progressives are linked across multiple operators.
 

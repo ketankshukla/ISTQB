@@ -1,6 +1,6 @@
-# Chapter 5 — Performance Test Analysis and Reporting: Exam Traps
+# 🪤 Chapter 5 — Performance Test Analysis and Reporting: Exam Traps
 
-## Trap 1: Using Average Response Time Alone
+## 🪤 Trap 1: Using Average Response Time Alone
 
 **Trap:** Average is skewed by outliers. Always consider percentiles and distribution.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Thinking Errors Mean the Test Failed
+## 🪤 Trap 2: Thinking Errors Mean the Test Failed
 
 **Trap:** Some errors under stress are expected and acceptable. The context (test type, load level) matters.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Recommending Hardware Before Software Fixes
+## 🪤 Trap 3: Recommending Hardware Before Software Fixes
 
 **Trap:** Hardware upgrades are expensive and may not address the root cause. Software/configuration fixes should usually come first.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Confusing Correlation and Causation
+## 🪤 Trap 4: Confusing Correlation and Causation
 
 **Trap:** Two metrics may correlate without one causing the other. Root cause analysis must prove causation.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Reporting Raw Numbers Without Context
+## 🪤 Trap 5: Reporting Raw Numbers Without Context
 
 **Trap:** Stakeholders need interpretation, not just raw metrics. A report should say what the numbers mean and what to do about them.
 

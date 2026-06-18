@@ -1,8 +1,8 @@
-# Chapter 6 — Performance Analysis and Reporting: Practice Questions
+# ❓ Chapter 6 — Performance Analysis and Reporting: Practice Questions
 
 ---
 
-### Q1 (PT-6.1, K2)
+### 🔷 Q1 (PT-6.1, K2)
 
 Result analysis should first:
 
@@ -13,7 +13,7 @@ D. Only compare to baseline
 
 ---
 
-### Q2 (PT-6.2, K2)
+### 🔷 Q2 (PT-6.2, K2)
 
 High CPU with fast response time suggests:
 
@@ -24,7 +24,7 @@ D. Only disk issues
 
 ---
 
-### Q3 (PT-6.3, K2)
+### 🔷 Q3 (PT-6.3, K2)
 
 If response time spikes correlate with CPU spikes:
 
@@ -35,7 +35,7 @@ D. Only memory is the issue
 
 ---
 
-### Q4 (PT-6.4, K2)
+### 🔷 Q4 (PT-6.4, K2)
 
 A performance report should include:
 
@@ -46,7 +46,7 @@ D. Only test dates
 
 ---
 
-### Q5 (PT-6.5, K2)
+### 🔷 Q5 (PT-6.5, K2)
 
 Recommendations should be prioritized by:
 
@@ -57,7 +57,7 @@ D. Only technical complexity
 
 ---
 
-### Q6 (PT-6.1, K2)
+### 🔷 Q6 (PT-6.1, K2)
 
 Baseline comparison helps:
 
@@ -68,7 +68,7 @@ D. Only for load tests
 
 ---
 
-### Q7 (PT-6.2, K2)
+### 🔷 Q7 (PT-6.2, K2)
 
 Memory growth over time in endurance testing indicates:
 
@@ -79,7 +79,7 @@ D. Only good performance
 
 ---
 
-### Q8 (PT-6.3, K2)
+### 🔷 Q8 (PT-6.3, K2)
 
 Throughput drops while errors increase suggests:
 
@@ -90,7 +90,7 @@ D. Only disk issues
 
 ---
 
-### Q9 (PT-6.4, K2)
+### 🔷 Q9 (PT-6.4, K2)
 
 An executive summary should:
 
@@ -101,7 +101,7 @@ D. Only show raw data
 
 ---
 
-### Q10 (PT-6.5, K2)
+### 🔷 Q10 (PT-6.5, K2)
 
 Adding database indexes is:
 
@@ -112,7 +112,7 @@ D. Only a hardware change
 
 ---
 
-### Q11 (PT-6.1, K2)
+### 🔷 Q11 (PT-6.1, K2)
 
 Trend analysis helps identify:
 
@@ -123,7 +123,7 @@ D. Only user behavior
 
 ---
 
-### Q12 (PT-6.2, K2)
+### 🔷 Q12 (PT-6.2, K2)
 
 High disk queue with slow queries indicates:
 
@@ -134,7 +134,7 @@ D. Only network issue
 
 ---
 
-### Q13 (PT-6.3, K2)
+### 🔷 Q13 (PT-6.3, K2)
 
 Correlation between response time and memory during GC suggests:
 
@@ -145,7 +145,7 @@ D. Only network issues
 
 ---
 
-### Q14 (PT-6.4, K2)
+### 🔷 Q14 (PT-6.4, K2)
 
 Technical details in a report should include:
 
@@ -156,7 +156,7 @@ D. Only executive comments
 
 ---
 
-### Q15 (PT-6.5, K2)
+### 🔷 Q15 (PT-6.5, K2)
 
 A critical recommendation:
 
@@ -167,7 +167,7 @@ D. Only changes color
 
 ---
 
-### Q16 (PT-6.1, K2)
+### 🔷 Q16 (PT-6.1, K2)
 
 Outliers in performance data:
 
@@ -178,7 +178,7 @@ D. Only affect percentiles
 
 ---
 
-### Q17 (PT-6.2, K2)
+### 🔷 Q17 (PT-6.2, K2)
 
 Network latency of 500ms with 10% bandwidth usage indicates:
 
@@ -189,7 +189,7 @@ D. Only disk issue
 
 ---
 
-### Q18 (PT-6.3, K2)
+### 🔷 Q18 (PT-6.3, K2)
 
 If CPU and disk are both at 95%:
 
@@ -200,7 +200,7 @@ D. Only memory is the bottleneck
 
 ---
 
-### Q19 (PT-6.4, K2)
+### 🔷 Q19 (PT-6.4, K2)
 
 The appendix of a report contains:
 
@@ -211,7 +211,7 @@ D. Only executive summary
 
 ---
 
-### Q20 (PT-6.5, K3)
+### 🔷 Q20 (PT-6.5, K3)
 
 Response time is 5 seconds, CPU 30%, memory 50%, disk queue 20. The bottleneck is:
 
@@ -222,84 +222,84 @@ D. Network
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** First validate data.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** High CPU + fast response = efficient, not bottleneck.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** Response + CPU correlation = CPU-bound.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** Report = analysis + bottlenecks + recommendations.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Prioritize by impact + effort.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Baseline = detect change.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Memory growth = potential leak.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Throughput drop + errors = resource limit.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** Executive summary = high-level findings.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** Indexes = config/infrastructure improvement.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Trend = degradation over time.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Disk queue + slow queries = disk/db bottleneck.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Response + memory during GC = memory pressure.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Technical = config + results + analysis.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Critical = blocks go-live.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Outliers = investigate/explain/remove.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** High latency + low bandwidth = routing/latency.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Both at 95% = dual bottleneck.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Appendix = raw data + logs.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** Disk queue 20 = disk I/O bottleneck.

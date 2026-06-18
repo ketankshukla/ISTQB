@@ -1,6 +1,6 @@
-# Case Study 3 — Cross-Platform Release Testing
+# 📂 Case Study 3 — Cross-Platform Release Testing
 
-## Context
+## ⭐ Context
 
 You are the Release QA Manager for a puzzle-platformer launching on 5 platforms.
 
@@ -11,7 +11,7 @@ You are the Release QA Manager for a puzzle-platformer launching on 5 platforms.
 
 ---
 
-## Task 1: Platform Test Matrix
+## ⭐ Task 1: Platform Test Matrix
 
 **Question:** Define test coverage per platform.
 
@@ -27,7 +27,7 @@ You are the Release QA Manager for a puzzle-platformer launching on 5 platforms.
 
 ---
 
-## Task 2: Level Editor DLC Testing
+## 🪜 Task 2: Level Editor DLC Testing
 
 **Question:** Test level editor DLC.
 
@@ -52,7 +52,7 @@ You are the Release QA Manager for a puzzle-platformer launching on 5 platforms.
 
 ---
 
-## Task 3: Release Schedule
+## 📅 Task 3: Release Schedule
 
 **Question:** Plan release and patch strategy.
 
@@ -75,7 +75,7 @@ You are the Release QA Manager for a puzzle-platformer launching on 5 platforms.
 
 ---
 
-## Task 4: Post-Launch Monitoring
+## ⭐ Task 4: Post-Launch Monitoring
 
 **Question:** Define post-launch QA activities.
 

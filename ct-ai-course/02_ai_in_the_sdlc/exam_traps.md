@@ -1,6 +1,6 @@
-# Chapter 2 — AI in the SDLC: Exam Traps
+# 🪤 Chapter 2 — AI in the SDLC: Exam Traps
 
-## Trap 1: Treating AI Systems Like Traditional Software
+## 🪤 Trap 1: Treating AI Systems Like Traditional Software
 
 **Trap:** AI systems are probabilistic, not deterministic. Testing must account for non-determinism, data dependency, and statistical evaluation.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Ignoring Data Leakage
+## 🪤 Trap 2: Ignoring Data Leakage
 
 **Trap:** Using test data during training (even indirectly) produces misleadingly high metrics.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Thinking MLOps Is the Same as DevOps
+## 🪤 Trap 3: Thinking MLOps Is the Same as DevOps
 
 **Trap:** MLOps extends DevOps with data versioning, model versioning, and continuous training. It is not identical to DevOps.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Testing AI Systems Only at the End
+## 🪤 Trap 4: Testing AI Systems Only at the End
 
 **Trap:** AI testing must happen throughout the lifecycle: data validation, model evaluation, integration testing, and continuous monitoring.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Assuming Training Data Equals Real-World Data
+## 🪤 Trap 5: Assuming Training Data Equals Real-World Data
 
 **Trap:** Models trained on biased or unrepresentative data will fail in production.
 

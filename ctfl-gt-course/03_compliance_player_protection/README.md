@@ -1,6 +1,6 @@
-# Chapter 3 — Compliance, Regulations, and Player Protection
+# 🚀 Chapter 3 — Compliance, Regulations, and Player Protection
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~25% (~10 questions out of 40)
 - **K-levels:** K2 (understand)
@@ -8,7 +8,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -21,7 +21,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts
+## ⭐ Key Concepts
 
 - Regulatory bodies: UKGC, MGA, NGCB, state regulators
 - Licensing requirements: RNG certification, RTP disclosure, game fairness audits

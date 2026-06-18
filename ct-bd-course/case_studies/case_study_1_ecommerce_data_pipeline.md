@@ -1,6 +1,6 @@
-# Case Study 1 — E-Commerce Data Pipeline Testing
+# 📂 Case Study 1 — E-Commerce Data Pipeline Testing
 
-## Context
+## ⭐ Context
 
 You are the Lead Data Quality Engineer for ShopStream, an e-commerce platform with 5 million daily transactions. The company is migrating from a traditional data warehouse to a modern Big Data platform.
 
@@ -18,7 +18,7 @@ You are the Lead Data Quality Engineer for ShopStream, an e-commerce platform wi
 
 ---
 
-## Task 1: Test Strategy Design
+## ♟️ Task 1: Test Strategy Design
 
 **Question:** Design a comprehensive test strategy for the new data pipeline.
 
@@ -51,7 +51,7 @@ You are the Lead Data Quality Engineer for ShopStream, an e-commerce platform wi
 
 ---
 
-## Task 2: Data Quality Rule Design
+## 🎨 Task 2: Data Quality Rule Design
 
 **Question:** Define data quality rules for the transactions table.
 
@@ -83,7 +83,7 @@ validator.expect_column_values_to_be_unique("transaction_id")
 
 ---
 
-## Task 3: ETL Transformation Testing
+## ⭐ Task 3: ETL Transformation Testing
 
 **Question:** The following transformation rules are applied. Design test cases.
 
@@ -115,7 +115,7 @@ validator.expect_column_values_to_be_unique("transaction_id")
 
 ---
 
-## Task 4: Performance and Parallel Run
+## ⚡ Task 4: Performance and Parallel Run
 
 **Question:** The new pipeline runs in parallel with the old system for 30 days. How do you validate correctness?
 

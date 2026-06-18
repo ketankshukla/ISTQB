@@ -1,6 +1,6 @@
-# Case Study 2 — Production Incident Response
+# 📂 Case Study 2 — Production Incident Response
 
-## Context
+## ⭐ Context
 
 You are the SRE Lead for PaymentPro, a payment processing platform. At 14:30, the on-call engineer receives a P1 alert: payment success rate dropped from 99.5% to 85%.
 
@@ -12,7 +12,7 @@ You are the SRE Lead for PaymentPro, a payment processing platform. At 14:30, th
 
 ---
 
-## Task 1: Initial Response
+## ⭐ Task 1: Initial Response
 
 **Question:** What are the first 10 minutes of response?
 
@@ -36,7 +36,7 @@ You are the SRE Lead for PaymentPro, a payment processing platform. At 14:30, th
 
 ---
 
-## Task 2: Investigation
+## ⭐ Task 2: Investigation
 
 **Question:** After rollback restores service, how do you investigate?
 
@@ -64,7 +64,7 @@ You are the SRE Lead for PaymentPro, a payment processing platform. At 14:30, th
 
 ---
 
-## Task 3: Post-Mortem
+## ⭐ Task 3: Post-Mortem
 
 **Question:** Conduct a blameless post-mortem.
 
@@ -101,7 +101,7 @@ You are the SRE Lead for PaymentPro, a payment processing platform. At 14:30, th
 
 ---
 
-## Task 4: Prevention
+## ⭐ Task 4: Prevention
 
 **Question:** What changes prevent recurrence?
 

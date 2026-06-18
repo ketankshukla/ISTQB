@@ -1,4 +1,4 @@
-# Mock Exam 2 — Answer Key
+# 📝 Mock Exam 2 — Answer Key
 
 | Q | Answer | Rationale |
 |---|--------|-----------|
@@ -43,7 +43,7 @@
 | 39 | B | Suitable PRNGs are seeded with entropy and pass statistical tests. Repeating every 1,000 (A) or always same output (D) would be defective. |
 | 40 | B | Malta Gaming Authority (MGA) issues licenses in Malta. |
 
-## Score Interpretation
+## ⭐ Score Interpretation
 
 | Score | Interpretation |
 |-------|-------------|

@@ -1,6 +1,6 @@
-# CTFL-MBT Exam Strategy
+# ♟️ CTFL-MBT Exam Strategy
 
-## Exam Format
+## 🎓 Exam Format
 
 | Parameter | Value |
 |-----------|-------|
@@ -12,7 +12,7 @@
 
 ---
 
-## Chapter Weighting
+## ⭐ Chapter Weighting
 
 | Chapter | Focus | Weight | Questions |
 |---------|-------|--------|---------|
@@ -26,19 +26,19 @@
 
 ---
 
-## K-Level Patterns
+## 🪜 K-Level Patterns
 
-### K2 (Understand)
+### 🔷 K2 (Understand)
 - Pattern: "Which statement BEST describes...?" or "What is the MAIN benefit of...?"
 - Strategy: Focus on distinctions and relationships between concepts
 
-### K3 (Apply)
+### 🔷 K3 (Apply)
 - Pattern: Given a model or specification, determine coverage or generate tests
 - Strategy: Practice calculating coverage percentages and identifying test cases from models
 
 ---
 
-## Time Budgeting
+## ⭐ Time Budgeting
 
 - **Available:** 60 minutes / 40 questions = 90 seconds per question
 - **K2 questions:** 60-75 seconds each
@@ -47,7 +47,7 @@
 
 ---
 
-## Chapter Tactics
+## 🎓 Chapter Tactics
 
 **Chapter 1 — Introduction to MBT**
 - Know the benefits: systematic coverage, early defect detection, maintainability
@@ -79,7 +79,7 @@
 
 ---
 
-## Common Distractors
+## ⭐ Common Distractors
 
 1. **MBT replaces all other testing:** MBT is a supplement, not a replacement for other techniques
 2. **Models must be formal and mathematical:** Models can be informal (state diagrams, tables)
@@ -89,7 +89,7 @@
 
 ---
 
-## Day-Before Checklist
+## 📋 Day-Before Checklist
 
 - [ ] Review all `exam_traps.md` files
 - [ ] Skim `GLOSSARY.md`

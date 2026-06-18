@@ -1,10 +1,10 @@
-# CT-AcT Mock Exam 2
+# 📝 CT-AcT Mock Exam 2
 
 **Instructions:** 40 questions, 60 minutes, single best answer.
 
 ---
 
-### Q1-Q10
+### 🔷 Q1-Q10
 
 1. Which is part of the CIA triad: A) Authentication B) Availability C) Authorization D) Auditing — **Availability**
 2. A system encrypts data but doesn't verify tampering. Missing: A) Confidentiality B) Integrity C) Availability D) Authentication — **Integrity**
@@ -19,7 +19,7 @@
 
 ---
 
-### Q11-Q20
+### 🔷 Q11-Q20
 
 11. `<script>alert('xss')</script>` tests: A) SQL injection B) XSS C) Command injection D) Path traversal — **XSS**
 12. Source code analysis without execution: A) DAST B) SAST C) IAST D) WAF — **SAST**
@@ -34,7 +34,7 @@
 
 ---
 
-### Q21-Q30
+### 🔷 Q21-Q30
 
 21. Attack tree OR node: A) All required B) Any child achieves goal C) Two needed D) None valid — **Any child achieves goal**
 22. Risk treatment: Mitigate means: A) Ignore B) Implement controls to reduce risk C) Transfer D) Accept — **Implement controls to reduce risk**
@@ -49,7 +49,7 @@
 
 ---
 
-### Q31-Q40
+### 🔷 Q31-Q40
 
 31. Complete mediation: A) Check only at login B) Every access checked C) Never challenge D) Optional checks — **Every access checked**
 32. Fail secure means: A) Always allow access B) Default to secure state on failure C) Ignore failures D) Lock all doors — **Default to secure state on failure**
@@ -64,4 +64,4 @@
 
 ---
 
-## End of Mock Exam 2
+## 📝 End of Mock Exam 2

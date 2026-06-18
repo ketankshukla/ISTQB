@@ -1,8 +1,8 @@
-# Chapter 2 — Security Testing Principles: Practice Questions
+# ❓ Chapter 2 — Security Testing Principles: Practice Questions
 
 ---
 
-### Q1 (SEC-2.1, K2)
+### 🔷 Q1 (SEC-2.1, K2)
 
 Testing session timeout verifies:
 
@@ -13,7 +13,7 @@ D. Only availability
 
 ---
 
-### Q2 (SEC-2.2, K2)
+### 🔷 Q2 (SEC-2.2, K2)
 
 Risk is calculated as:
 
@@ -24,7 +24,7 @@ D. Only threat count
 
 ---
 
-### Q3 (SEC-2.3, K2)
+### 🔷 Q3 (SEC-2.3, K2)
 
 A firewall is a:
 
@@ -35,7 +35,7 @@ D. Only a monitor
 
 ---
 
-### Q4 (SEC-2.3, K2)
+### 🔷 Q4 (SEC-2.3, K2)
 
 Intrusion detection systems are:
 
@@ -46,7 +46,7 @@ D. Only backups
 
 ---
 
-### Q5 (SEC-2.3, K2)
+### 🔷 Q5 (SEC-2.3, K2)
 
 Backup and restore are:
 
@@ -57,7 +57,7 @@ D. Only encryption
 
 ---
 
-### Q6 (SEC-2.4, K2)
+### 🔷 Q6 (SEC-2.4, K2)
 
 STRIDE stands for:
 
@@ -68,7 +68,7 @@ D. Only a password policy
 
 ---
 
-### Q7 (SEC-2.1, K2)
+### 🔷 Q7 (SEC-2.1, K2)
 
 Verifying role-based access tests:
 
@@ -79,7 +79,7 @@ D. Only integrity
 
 ---
 
-### Q8 (SEC-2.2, K2)
+### 🔷 Q8 (SEC-2.2, K2)
 
 A high-likelihood, medium-impact risk should be prioritized:
 
@@ -90,7 +90,7 @@ D. Only before documentation
 
 ---
 
-### Q9 (SEC-2.4, K2)
+### 🔷 Q9 (SEC-2.4, K2)
 
 Denial of Service violates:
 
@@ -101,7 +101,7 @@ D. Only authentication
 
 ---
 
-### Q10 (SEC-2.3, K2)
+### 🔷 Q10 (SEC-2.3, K2)
 
 Defense in depth means:
 
@@ -112,7 +112,7 @@ D. Only firewalls
 
 ---
 
-### Q11 (SEC-2.5, K2)
+### 🔷 Q11 (SEC-2.5, K2)
 
 "System shall encrypt passwords with bcrypt" is:
 
@@ -123,7 +123,7 @@ D. Only a design note
 
 ---
 
-### Q12 (SEC-2.4, K2)
+### 🔷 Q12 (SEC-2.4, K2)
 
 Tampering in STRIDE violates:
 
@@ -134,7 +134,7 @@ D. Authentication
 
 ---
 
-### Q13 (SEC-2.2, K2)
+### 🔷 Q13 (SEC-2.2, K2)
 
 Threat modeling should occur:
 
@@ -145,7 +145,7 @@ D. Only during maintenance
 
 ---
 
-### Q14 (SEC-2.3, K2)
+### 🔷 Q14 (SEC-2.3, K2)
 
 Input validation is a:
 
@@ -156,7 +156,7 @@ D. Only monitoring
 
 ---
 
-### Q15 (SEC-2.1, K2)
+### 🔷 Q15 (SEC-2.1, K2)
 
 Verifying data is encrypted in transit tests:
 
@@ -167,7 +167,7 @@ D. Only authentication
 
 ---
 
-### Q16 (SEC-2.4, K2)
+### 🔷 Q16 (SEC-2.4, K2)
 
 Elevation of privilege violates:
 
@@ -178,7 +178,7 @@ D. Only integrity
 
 ---
 
-### Q17 (SEC-2.2, K2)
+### 🔷 Q17 (SEC-2.2, K2)
 
 A vulnerability with low likelihood and low impact has:
 
@@ -189,7 +189,7 @@ D. Critical risk
 
 ---
 
-### Q18 (SEC-2.3, K2)
+### 🔷 Q18 (SEC-2.3, K2)
 
 Audit trails are:
 
@@ -200,7 +200,7 @@ D. Only encryption
 
 ---
 
-### Q19 (SEC-2.5, K2)
+### 🔷 Q19 (SEC-2.5, K2)
 
 Security requirements must be:
 
@@ -211,7 +211,7 @@ D. Only informal
 
 ---
 
-### Q20 (SEC-2.1, K3)
+### 🔷 Q20 (SEC-2.1, K3)
 
 Testing that all changes are logged verifies:
 
@@ -222,84 +222,84 @@ D. Only performance
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** Session timeout = confidentiality.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** Risk = likelihood x impact.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** Firewall = preventive.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** IDS = detective.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Backup = corrective.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** STRIDE = 6 threat categories.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** RBAC = authorization + confidentiality.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** High/medium > low/low.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** DoS = availability.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** Defense in depth = multiple layers.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Encrypt passwords = functional security req.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Tampering = integrity.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Threat modeling = design phase.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Input validation = preventive.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Encryption in transit = confidentiality.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Elevation = authorization.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Low + low = low risk.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Audit trails = detective.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Security reqs = explicit + testable + traceable.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** Change logs = integrity.

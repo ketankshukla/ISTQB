@@ -1,8 +1,8 @@
-# Chapter 6 — DevOps Quality Tools and Automation: Practice Questions
+# ❓ Chapter 6 — DevOps Quality Tools and Automation: Practice Questions
 
 ---
 
-### Q1 (QDO-6.1, K2)
+### 🔷 Q1 (QDO-6.1, K2)
 
 Jenkins pipelines are typically defined in:
 
@@ -13,7 +13,7 @@ D. Only via email
 
 ---
 
-### Q2 (QDO-6.2, K2)
+### 🔷 Q2 (QDO-6.2, K2)
 
 Cypress is primarily a:
 
@@ -24,7 +24,7 @@ D. Performance tool
 
 ---
 
-### Q3 (QDO-6.3, K2)
+### 🔷 Q3 (QDO-6.3, K2)
 
 Allure reports provide:
 
@@ -35,7 +35,7 @@ D. Only code coverage
 
 ---
 
-### Q4 (QDO-6.4, K2)
+### 🔷 Q4 (QDO-6.4, K2)
 
 Testcontainers are useful for:
 
@@ -46,7 +46,7 @@ D. Only manual testing
 
 ---
 
-### Q5 (QDO-6.1, K2)
+### 🔷 Q5 (QDO-6.1, K2)
 
 GitHub Actions workflows are defined in:
 
@@ -57,7 +57,7 @@ D. docker-compose.yml
 
 ---
 
-### Q6 (QDO-6.2, K2)
+### 🔷 Q6 (QDO-6.2, K2)
 
 A flaky test is one that:
 
@@ -68,7 +68,7 @@ D. Only tests performance
 
 ---
 
-### Q7 (QDO-6.3, K2)
+### 🔷 Q7 (QDO-6.3, K2)
 
 SonarQube primarily provides:
 
@@ -79,7 +79,7 @@ D. Only database testing
 
 ---
 
-### Q8 (QDO-6.4, K2)
+### 🔷 Q8 (QDO-6.4, K2)
 
 Ephemeral test environments:
 
@@ -90,7 +90,7 @@ D. Only for manual testing
 
 ---
 
-### Q9 (QDO-6.1, K2)
+### 🔷 Q9 (QDO-6.1, K2)
 
 Pipeline as code means:
 
@@ -101,7 +101,7 @@ D. Only for Jenkins
 
 ---
 
-### Q10 (QDO-6.2, K2)
+### 🔷 Q10 (QDO-6.2, K2)
 
 REST Assured is used for:
 
@@ -112,7 +112,7 @@ D. Performance testing
 
 ---
 
-### Q11 (QDO-6.3, K2)
+### 🔷 Q11 (QDO-6.3, K2)
 
 A test coverage report shows:
 
@@ -123,7 +123,7 @@ D. Only user interface elements
 
 ---
 
-### Q12 (QDO-6.4, K2)
+### 🔷 Q12 (QDO-6.4, K2)
 
 Docker Compose is commonly used for:
 
@@ -134,7 +134,7 @@ D. Only mobile testing
 
 ---
 
-### Q13 (QDO-6.1, K2)
+### 🔷 Q13 (QDO-6.1, K2)
 
 Matrix builds in CI allow:
 
@@ -145,7 +145,7 @@ D. Only production deployments
 
 ---
 
-### Q14 (QDO-6.2, K2)
+### 🔷 Q14 (QDO-6.2, K2)
 
 OWASP ZAP is used for:
 
@@ -156,7 +156,7 @@ D. Only code formatting
 
 ---
 
-### Q15 (QDO-6.3, K2)
+### 🔷 Q15 (QDO-6.3, K2)
 
 ReportPortal provides:
 
@@ -167,7 +167,7 @@ D. Only network monitoring
 
 ---
 
-### Q16 (QDO-6.4, K2)
+### 🔷 Q16 (QDO-6.4, K2)
 
 When selecting a test tool, the team should consider:
 
@@ -178,7 +178,7 @@ D. Only color scheme
 
 ---
 
-### Q17 (QDO-6.1, K2)
+### 🔷 Q17 (QDO-6.1, K2)
 
 GitLab CI artifacts are used to:
 
@@ -189,7 +189,7 @@ D. Only send emails
 
 ---
 
-### Q18 (QDO-6.2, K2)
+### 🔷 Q18 (QDO-6.2, K2)
 
 A test automation framework should be:
 
@@ -200,7 +200,7 @@ D. Only for manual testers
 
 ---
 
-### Q19 (QDO-6.3, K2)
+### 🔷 Q19 (QDO-6.3, K2)
 
 Grafana dashboards are used to:
 
@@ -211,7 +211,7 @@ D. Only manage users
 
 ---
 
-### Q20 (QDO-6.4, K3)
+### 🔷 Q20 (QDO-6.4, K3)
 
 A pipeline that reuses a shared test database between parallel test jobs will likely:
 
@@ -222,84 +222,84 @@ D. Produce better reports
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** Jenkins pipelines defined in Jenkinsfile with source code.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** Cypress = E2E UI testing framework.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** Allure = trends, history, attachments, visualization.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** Testcontainers = per-test isolated services.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** GitHub Actions = .github/workflows/*.yml.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Flaky = inconsistent results with same code.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** SonarQube = quality, coverage, security metrics.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Ephemeral = created and destroyed per run.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** Pipeline as code = version-controlled definitions.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** REST Assured = Java API testing.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Coverage = code paths exercised by tests.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Docker Compose = local dev and CI integration tests.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Matrix builds = multiple versions simultaneously.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** OWASP ZAP = DAST security testing.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** ReportPortal = AI failure analysis, real-time reporting.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Tool selection = skills, integration, scalability, cost.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Artifacts = pass files between stages.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Framework = maintainable and CI-integrated.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Grafana = custom metric visualization.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** Shared database in parallel = data conflicts and flakiness.

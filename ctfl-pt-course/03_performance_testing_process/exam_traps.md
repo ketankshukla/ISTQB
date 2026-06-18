@@ -1,6 +1,6 @@
-# Chapter 3 — Performance Testing Process: Exam Traps
+# 🪤 Chapter 3 — Performance Testing Process: Exam Traps
 
-## Trap 1: Production is the Best Test Environment
+## 🪤 Trap 1: Production is the Best Test Environment
 
 **Trap:** Production testing risks user impact; production-like is preferred.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Test Data Doesn't Matter
+## 🪤 Trap 2: Test Data Doesn't Matter
 
 **Trap:** Unrealistic data leads to unrealistic results.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: One Test Run is Sufficient
+## 🪤 Trap 3: One Test Run is Sufficient
 
 **Trap:** Multiple runs are needed for statistical validity.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: All Bottlenecks are Code Issues
+## 🪤 Trap 4: All Bottlenecks are Code Issues
 
 **Trap:** Bottlenecks can be infrastructure, configuration, or database issues.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Performance Reports Only Need Metrics
+## 🪤 Trap 5: Performance Reports Only Need Metrics
 
 **Trap:** Reports need context, analysis, and recommendations.
 

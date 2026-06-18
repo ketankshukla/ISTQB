@@ -1,12 +1,12 @@
-# ISTQB Certification Portfolio & Recommended Learning Paths
+# 🎯 ISTQB Certification Portfolio & Recommended Learning Paths
 
-## Overview
+## 🌟 Overview
 
 This document maps the complete ISTQB certification landscape and provides recommended paths for testers at different career stages. Use it to plan your certification journey.
 
 ---
 
-## Foundation Level (Entry Point — Mandatory Prerequisite)
+## 🪜 Foundation Level (Entry Point — Mandatory Prerequisite)
 
 | Certification | Focus | Who It's For | Prerequisites |
 |-------------|-------|-------------|---------------|
@@ -22,7 +22,7 @@ This document maps the complete ISTQB certification landscape and provides recom
 
 ---
 
-## Advanced Level (Requires Foundation Level)
+## 🪜 Advanced Level (Requires Foundation Level)
 
 | Certification | Focus | Target Role |
 |-------------|-------|-------------|
@@ -35,7 +35,7 @@ This document maps the complete ISTQB certification landscape and provides recom
 
 ---
 
-## Specialist Level (Requires Foundation Level)
+## 🪜 Specialist Level (Requires Foundation Level)
 
 | Certification | Focus | Market Demand | Typical Prerequisite Path |
 |-------------|-------|---------------|---------------------------|
@@ -61,9 +61,9 @@ This document maps the complete ISTQB certification landscape and provides recom
 
 ---
 
-## Recommended Beginner Paths
+## ⭐ Recommended Beginner Paths
 
-### Path A: The Classic Test Analyst
+### 🔷 Path A: The Classic Test Analyst
 **CTFL v4.0 → CTAL-TA → CT-UT or CT-AcT**
 
 Best for: Manual testers, business testers, QA analysts who want to deepen their test design and analysis skills.
@@ -75,7 +75,7 @@ Best for: Manual testers, business testers, QA analysts who want to deepen their
 
 ---
 
-### Path B: The Agile Tester
+### 🏃 Path B: The Agile Tester
 **CTFL v4.0 → CTFL-AT → CTAL-AT → CT-API**
 
 Best for: Teams in agile environments who need testing embedded in sprint delivery.
@@ -88,7 +88,7 @@ Best for: Teams in agile environments who need testing embedded in sprint delive
 
 ---
 
-### Path C: The Automation Engineer
+### ⚙️ Path C: The Automation Engineer
 **CTFL v4.0 → CT-TAE → CTAL-TTA → CT-API**
 
 Best for: SDETs, automation engineers, CI/CD pipeline owners.
@@ -101,7 +101,7 @@ Best for: SDETs, automation engineers, CI/CD pipeline owners.
 
 ---
 
-### Path D: The Security/Performance Specialist
+### ⚡ Path D: The Security/Performance Specialist
 **CTFL v4.0 → CT-SEC or CT-PT → CTAL-TTA**
 
 Best for: Testers in regulated industries, fintech, healthcare, gaming, or high-load systems.
@@ -113,7 +113,7 @@ Best for: Testers in regulated industries, fintech, healthcare, gaming, or high-
 
 ---
 
-### Path E: The AI-First Modern Tester
+### 🤖 Path E: The AI-First Modern Tester
 **CTFL v4.0 → CT-GenAI → CT-TAE → CT-API**
 
 Best for: Testers who want to stay current with modern tooling and AI-augmented workflows.
@@ -126,7 +126,7 @@ Best for: Testers who want to stay current with modern tooling and AI-augmented 
 
 ---
 
-### Path F: The Test Manager
+### 🗂️ Path F: The Test Manager
 **CTFL v4.0 → CTAL-TM → CTAL-TA**
 
 Best for: Test leads and managers who need to plan, estimate, and steer testing strategy.
@@ -138,7 +138,7 @@ Best for: Test leads and managers who need to plan, estimate, and steer testing 
 
 ---
 
-## Certification Sequence Rules
+## ⭐ Certification Sequence Rules
 
 1. **Foundation is mandatory first.** No exceptions.
 2. **Advanced can be taken in any order** after Foundation. CTAL-TM does not require CTAL-TA.
@@ -148,7 +148,7 @@ Best for: Test leads and managers who need to plan, estimate, and steer testing 
 
 ---
 
-## Quick Decision Guide
+## 🗂️ Quick Decision Guide
 
 | Your Situation | Start With | Then Consider |
 |---------------|-----------|---------------|
@@ -173,9 +173,9 @@ Best for: Test leads and managers who need to plan, estimate, and steer testing 
 
 ---
 
-## Notes
+## 🗒️ Notes
 
-## Missing / Planned Courses
+## 🗓️ Missing / Planned Courses
 
 The following ISTQB certifications are **not yet created** in this repository:
 

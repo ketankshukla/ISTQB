@@ -1,8 +1,8 @@
-# Chapter 5 — Platform and Compliance Testing: Practice Questions
+# ❓ Chapter 5 — Platform and Compliance Testing: Practice Questions
 
 ---
 
-### Q1 (GaMe-5.1, K2)
+### 🎮 Q1 (GaMe-5.1, K2)
 
 TRC stands for:
 
@@ -13,7 +13,7 @@ D. Total Resource Check
 
 ---
 
-### Q2 (GaMe-5.2, K2)
+### 🎮 Q2 (GaMe-5.2, K2)
 
 Certification submission includes:
 
@@ -24,7 +24,7 @@ D. Only the manual
 
 ---
 
-### Q3 (GaMe-5.3, K2)
+### 🎮 Q3 (GaMe-5.3, K2)
 
 ESRB M (Mature) rating means:
 
@@ -35,7 +35,7 @@ D. Only children
 
 ---
 
-### Q4 (GaMe-5.4, K2)
+### 🎮 Q4 (GaMe-5.4, K2)
 
 Trophy/achievement testing verifies:
 
@@ -46,7 +46,7 @@ D. Only the description text
 
 ---
 
-### Q5 (GaMe-5.1, K2)
+### 🎮 Q5 (GaMe-5.1, K2)
 
 Nintendo Lotcheck includes:
 
@@ -57,7 +57,7 @@ D. Only frame rate
 
 ---
 
-### Q6 (GaMe-5.2, K2)
+### 🎮 Q6 (GaMe-5.2, K2)
 
 Pre-cert testing should:
 
@@ -68,7 +68,7 @@ D. Only test menus
 
 ---
 
-### Q7 (GaMe-5.3, K2)
+### 🎮 Q7 (GaMe-5.3, K2)
 
 PEGI 12 rating allows:
 
@@ -79,7 +79,7 @@ D. Only puzzle games
 
 ---
 
-### Q8 (GaMe-5.4, K2)
+### 🎮 Q8 (GaMe-5.4, K2)
 
 Cloud save testing verifies:
 
@@ -90,7 +90,7 @@ D. Only settings
 
 ---
 
-### Q9 (GaMe-5.1, K2)
+### 🎮 Q9 (GaMe-5.1, K2)
 
 Xbox Requirements (XR) include:
 
@@ -101,7 +101,7 @@ D. Only resolution
 
 ---
 
-### Q10 (GaMe-5.2, K2)
+### 🎮 Q10 (GaMe-5.2, K2)
 
 A failed certification means:
 
@@ -112,7 +112,7 @@ D. Only a fine
 
 ---
 
-### Q11 (GaMe-5.3, K2)
+### 🎮 Q11 (GaMe-5.3, K2)
 
 Real-money gambling in a game typically results in:
 
@@ -123,7 +123,7 @@ D. E10+ rating
 
 ---
 
-### Q12 (GaMe-5.4, K2)
+### 🎮 Q12 (GaMe-5.4, K2)
 
 Multiplayer matchmaking testing verifies:
 
@@ -134,7 +134,7 @@ D. Only audio quality
 
 ---
 
-### Q13 (GaMe-5.1, K2)
+### 🎮 Q13 (GaMe-5.1, K2)
 
 System UI handling means:
 
@@ -145,7 +145,7 @@ D. Only the pause menu
 
 ---
 
-### Q14 (GaMe-5.2, K2)
+### 🎮 Q14 (GaMe-5.2, K2)
 
 Metadata for store submission includes:
 
@@ -156,7 +156,7 @@ D. Only the genre
 
 ---
 
-### Q15 (GaMe-5.3, K2)
+### 🎮 Q15 (GaMe-5.3, K2)
 
 CERO Z (Japan) means:
 
@@ -167,7 +167,7 @@ D. Ages 15+
 
 ---
 
-### Q16 (GaMe-5.4, K2)
+### 🎮 Q16 (GaMe-5.4, K2)
 
 Online play subscription check means:
 
@@ -178,7 +178,7 @@ D. Only guests are blocked
 
 ---
 
-### Q17 (GaMe-5.1, K2)
+### 🎮 Q17 (GaMe-5.1, K2)
 
 Controller disconnect handling should:
 
@@ -189,7 +189,7 @@ D. Only delete save data
 
 ---
 
-### Q18 (GaMe-5.2, K2)
+### 🎮 Q18 (GaMe-5.2, K2)
 
 Phased release strategy:
 
@@ -200,7 +200,7 @@ D. Only for PC games
 
 ---
 
-### Q19 (GaMe-5.3, K2)
+### 🎮 Q19 (GaMe-5.3, K2)
 
 Content rating testing should verify:
 
@@ -211,7 +211,7 @@ D. Only the tutorial
 
 ---
 
-### Q20 (GaMe-5.4, K2)
+### 🎮 Q20 (GaMe-5.4, K2)
 
 In-app purchase restore should:
 
@@ -222,84 +222,84 @@ D. Only refund money
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** TRC = Technical Requirements Checklist (Sony).
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** Submission = build + metadata + rating + assets + docs.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** M = Ages 17+.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** Trophies = unlock conditions + sync.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Lotcheck = boot + controller + sleep + metadata.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Pre-cert = verify all requirements.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** PEGI 12 = mild violence + suggestive.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Cloud = cross-device sync.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** XR = boot + achievements + presence + store + network + accessibility.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** Fail = cannot release until fixed.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Gambling = AO/18+.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Matchmaking = skill/region grouping.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** System UI = platform events.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Metadata = title + description + screenshots + trailers + pricing.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** CERO Z = Adults only.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Online = verify subscription.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Disconnect = pause + reconnect.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Phased = soft launch → full.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Rating = violence + language + sex + gambling.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** Restore = non-consumable on new devices.

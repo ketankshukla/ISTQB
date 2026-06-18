@@ -1,13 +1,13 @@
-# CT-SEC Progress Tracker
+# 📈 CT-SEC Progress Tracker
 
-## Root Files
+## ⭐ Root Files
 
 - [ ] `README.md` reviewed
 - [ ] `STUDY_PLAN.md` chosen (standard or accelerated)
 - [ ] `EXAM_STRATEGY.md` read
 - [ ] `GLOSSARY.md` initial read-through
 
-## Chapter Completion
+## ⭐ Chapter Completion
 
 | Chapter | Lessons | Exam Traps | Practice (Score) |
 |---------|---------|-----------|------------------|
@@ -20,13 +20,13 @@
 
 **Target:** 16+/20 (80%+) per chapter
 
-## Case Studies
+## ⭐ Case Studies
 
 - [ ] Case Study 1: E-Banking Application Security
 - [ ] Case Study 2: Healthcare API Security Assessment
 - [ ] Case Study 3: E-Commerce Payment Security
 
-## Mock Exams
+## 📝 Mock Exams
 
 | Exam | Raw Score | % | Notes |
 |------|-----------|---|-------|
@@ -36,7 +36,7 @@
 
 **Target progression:** Mock 1: 28+/40 (70%+) → Mock 2: 30+/40 (75%+) → Mock 3: 32+/40 (80%+)
 
-## Final Preparation
+## ⭐ Final Preparation
 
 - [ ] Review all exam traps
 - [ ] Re-read weak-area lessons
@@ -44,7 +44,7 @@
 - [ ] Review case study model answers
 - [ ] Exam day checklist ready
 
-## Score Targets Summary
+## 📌 Score Targets Summary
 
 | Milestone | Minimum | Comfortable |
 |-----------|---------|-------------|

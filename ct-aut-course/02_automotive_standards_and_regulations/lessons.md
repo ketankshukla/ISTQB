@@ -1,14 +1,14 @@
-# Chapter 2 — Automotive Standards and Regulations: Lessons
+# 📘 Chapter 2 — Automotive Standards and Regulations: Lessons
 
 ---
 
-## 2.1 ISO 26262 — Functional Safety
+## ⭐ 2.1 ISO 26262 — Functional Safety
 
-### Overview
+### 🌟 Overview
 
 ISO 26262 is the international standard for functional safety of electrical/electronic systems in production vehicles.
 
-### Parts
+### 🔷 Parts
 
 | Part | Content |
 |------|---------|
@@ -25,7 +25,7 @@ ISO 26262 is the international standard for functional safety of electrical/elec
 | **Part 11: Application to semiconductors** | IC-specific guidance |
 | **Part 12: Adaptation for motorbikes** | Two-wheeler scope |
 
-### Safety Lifecycle
+### 🔁 Safety Lifecycle
 
 ```
 HARA → Safety Goals → Functional Safety Concept → Technical Safety Concept →
@@ -35,13 +35,13 @@ Integration → Validation → Release
 
 ---
 
-## 2.2 ASIL — Automotive Safety Integrity Level
+## 🪜 2.2 ASIL — Automotive Safety Integrity Level
 
-### Definition
+### 🔷 Definition
 
 ASIL is a risk classification scheme defined by ISO 26262. It determines the rigor required for development and testing.
 
-### ASIL Levels
+### 🪜 ASIL Levels
 
 | ASIL | Severity | Exposure | Controllability | Rigor |
 |------|----------|----------|-----------------|-------|
@@ -51,7 +51,7 @@ ASIL is a risk classification scheme defined by ISO 26262. It determines the rig
 | **C** | High | High | Medium | High rigor |
 | **D** | High | High | Difficult | Highest rigor |
 
-### Determining ASIL
+### 🔷 Determining ASIL
 
 Three factors:
 - **Severity (S):** How bad is the harm? (S1-S3)
@@ -60,27 +60,27 @@ Three factors:
 
 **Example:** Brake failure at highway speed = ASIL D (S3, E4, C3)
 
-### ASIL Decomposition
+### 🔷 ASIL Decomposition
 
 - High ASIL requirements can be decomposed into redundant lower-ASIL requirements
 - Example: ASIL D → two ASIL B(D) elements with independence
 
 ---
 
-## 2.3 ASPICE
+## ⭐ 2.3 ASPICE
 
-### Definition
+### 🔷 Definition
 
 Automotive SPICE (ASPICE) is a process assessment model for software development in the automotive industry.
 
-### Process Dimensions
+### 🔷 Process Dimensions
 
 | Dimension | Description |
 |-----------|-------------|
 | **Primary lifecycle** | Acquisition, supply, engineering, support |
 | **Organizational** | Management, improvement, reuse |
 
-### Capability Levels
+### 🪜 Capability Levels
 
 | Level | Name | Description |
 |-------|------|-------------|
@@ -91,7 +91,7 @@ Automotive SPICE (ASPICE) is a process assessment model for software development
 | **4** | Predictable | Process is quantitatively managed |
 | **5** | Innovating | Process continuously improves |
 
-### Relevance to Testing
+### 🔷 Relevance to Testing
 
 - **Level 1:** Tests are performed
 - **Level 2:** Test plans, test monitoring
@@ -101,13 +101,13 @@ Automotive SPICE (ASPICE) is a process assessment model for software development
 
 ---
 
-## 2.4 AUTOSAR
+## ⭐ 2.4 AUTOSAR
 
-### Definition
+### 🔷 Definition
 
 AUTOSAR (AUTomotive Open System ARchitecture) is a standardized software architecture for automotive ECUs.
 
-### Layers
+### 🔷 Layers
 
 | Layer | Description |
 |-------|-------------|
@@ -116,7 +116,7 @@ AUTOSAR (AUTomotive Open System ARchitecture) is a standardized software archite
 | **Basic Software (BSW)** | Hardware abstraction, communication, storage, diagnostics |
 | **Microcontroller** | Hardware layer |
 
-### Testing Implications
+### 🔷 Testing Implications
 
 - Software components (SWCs) can be tested independently
 - RTE interfaces enable stub/mock-based testing
@@ -124,7 +124,7 @@ AUTOSAR (AUTomotive Open System ARchitecture) is a standardized software archite
 
 ---
 
-## 2.5 Other Standards
+## ⭐ 2.5 Other Standards
 
 | Standard | Focus |
 |----------|-------|
@@ -135,9 +135,9 @@ AUTOSAR (AUTomotive Open System ARchitecture) is a standardized software archite
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: ASIL Determination
+### 💡 Worked Example 1: ASIL Determination
 
 **Scenario:** Evaluate ASIL for power steering system.
 
@@ -154,7 +154,7 @@ AUTOSAR (AUTomotive Open System ARchitecture) is a standardized software archite
 - Extensive fault injection testing
 - Independent code review
 
-### Worked Example 2: ASPICE Assessment
+### 💡 Worked Example 2: ASPICE Assessment
 
 **Scenario:** Assess testing process maturity.
 
@@ -165,7 +165,7 @@ AUTOSAR (AUTomotive Open System ARchitecture) is a standardized software archite
 | Test process defined | No | Create standard process | Level 3 |
 | Test metrics collected | No | Define and collect | Level 4 |
 
-### Worked Example 3: AUTOSAR Testing
+### 💡 Worked Example 3: AUTOSAR Testing
 
 **Scenario:** Test an AUTOSAR software component.
 

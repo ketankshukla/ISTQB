@@ -1,4 +1,4 @@
-# Mock Exam 2 — Answer Key
+# 📝 Mock Exam 2 — Answer Key
 
 | Q | Answer | Rationale |
 |---|--------|-----------|
@@ -48,7 +48,7 @@
 | 44 | B | Test management tools provide centralized tracking of cases, execution, and defects. |
 | 45 | B | Bottom-up requires detailed tasks which are hard with unclear/changing requirements. |
 
-## Score Interpretation
+## ⭐ Score Interpretation
 
 | Score | Interpretation |
 |-------|-------------|

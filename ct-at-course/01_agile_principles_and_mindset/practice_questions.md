@@ -1,8 +1,8 @@
-# Chapter 1 — Agile Principles and Mindset: Practice Questions
+# ❓ Chapter 1 — Agile Principles and Mindset: Practice Questions
 
 ---
 
-### Q1 (AT-1.1, K2)
+### 🔷 Q1 (AT-1.1, K2)
 
 The Agile Manifesto values "responding to change over following a plan." This means:
 
@@ -13,7 +13,7 @@ D. Changes are not allowed in agile
 
 ---
 
-### Q2 (AT-1.2, K2)
+### 🔷 Q2 (AT-1.2, K2)
 
 In Scrum, the Product Owner is responsible for:
 
@@ -24,7 +24,7 @@ D. Removing technical impediments
 
 ---
 
-### Q3 (AT-1.2, K2)
+### 🔷 Q3 (AT-1.2, K2)
 
 The Scrum Master is BEST described as:
 
@@ -35,7 +35,7 @@ D. The customer representative
 
 ---
 
-### Q4 (AT-1.2, K2)
+### 🔷 Q4 (AT-1.2, K2)
 
 The Daily Scrum is:
 
@@ -46,7 +46,7 @@ D. Optional if the team is busy
 
 ---
 
-### Q5 (AT-1.3, K2)
+### 🔷 Q5 (AT-1.3, K2)
 
 Kanban primarily focuses on:
 
@@ -57,7 +57,7 @@ D. Eliminating all meetings
 
 ---
 
-### Q6 (AT-1.4, K2)
+### 🔷 Q6 (AT-1.4, K2)
 
 Extreme Programming (XP) includes which practice?
 
@@ -68,7 +68,7 @@ D. Individual code ownership
 
 ---
 
-### Q7 (AT-1.1, K2)
+### 🔷 Q7 (AT-1.1, K2)
 
 Which of the following is NOT one of the four Agile Manifesto values?
 
@@ -79,7 +79,7 @@ D. Responding to change over following a plan
 
 ---
 
-### Q8 (AT-1.2, K3)
+### 🔷 Q8 (AT-1.2, K3)
 
 A team is in the middle of a 2-week sprint when a critical defect is found in production. The BEST action is:
 
@@ -90,7 +90,7 @@ D. Blame the tester who missed it
 
 ---
 
-### Q9 (AT-1.3, K2)
+### 🔷 Q9 (AT-1.3, K2)
 
 In Kanban, Work in Progress (WIP) limits are used to:
 
@@ -101,7 +101,7 @@ D. Replace the need for a board
 
 ---
 
-### Q10 (AT-1.5, K2)
+### 🔷 Q10 (AT-1.5, K2)
 
 The tester's role in an agile team includes:
 
@@ -112,7 +112,7 @@ D. Managing the project schedule
 
 ---
 
-### Q11 (AT-1.2, K2)
+### 🔷 Q11 (AT-1.2, K2)
 
 The Sprint Retrospective is held to:
 
@@ -123,7 +123,7 @@ D. Evaluate individual team member performance
 
 ---
 
-### Q12 (AT-1.4, K2)
+### 🔷 Q12 (AT-1.4, K2)
 
 Collective code ownership in XP means:
 
@@ -134,7 +134,7 @@ D. Code is owned by the company, not the team
 
 ---
 
-### Q13 (AT-1.2, K3)
+### 🔷 Q13 (AT-1.2, K3)
 
 A Scrum team has completed 80% of their sprint work by mid-sprint. They should:
 
@@ -145,7 +145,7 @@ D. Start working on the next sprint's backlog
 
 ---
 
-### Q14 (AT-1.3, K2)
+### 🔷 Q14 (AT-1.3, K2)
 
 Cycle time in Kanban measures:
 
@@ -156,7 +156,7 @@ D. The number of items in the backlog
 
 ---
 
-### Q15 (AT-1.1, K2)
+### 🔷 Q15 (AT-1.1, K2)
 
 Which principle states that "the best architectures, requirements, and designs emerge from self-organizing teams"?
 
@@ -167,7 +167,7 @@ D. A Scrum rule
 
 ---
 
-### Q16 (AT-1.2, K2)
+### 🔷 Q16 (AT-1.2, K2)
 
 The Definition of Done should:
 
@@ -178,7 +178,7 @@ D. Change every day
 
 ---
 
-### Q17 (AT-1.5, K3)
+### 🔷 Q17 (AT-1.5, K3)
 
 A manager says "we don't need testers because developers write unit tests in agile." This is:
 
@@ -189,7 +189,7 @@ D. The official ISTQB position
 
 ---
 
-### Q18 (AT-1.4, K2)
+### 🔷 Q18 (AT-1.4, K2)
 
 Refactoring in XP is:
 
@@ -200,7 +200,7 @@ D. Removing all comments
 
 ---
 
-### Q19 (AT-1.2, K2)
+### 🔷 Q19 (AT-1.2, K2)
 
 Velocity is:
 
@@ -211,7 +211,7 @@ D. The length of the sprint
 
 ---
 
-### Q20 (AT-1.3, K2)
+### 🔷 Q20 (AT-1.3, K2)
 
 A Kanban board typically includes:
 
@@ -222,104 +222,104 @@ D. Budget information
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** The Manifesto values responding to change MORE than following a plan. Plans still have value.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** The Product Owner manages the Product Backlog and maximizes value. The Scrum Master facilitates (C is wrong).
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** Scrum Master is a servant leader, not a project manager or task assigner.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** Daily Scrum is 15 minutes for the Development Team to inspect progress. Not for management (A).
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** Kanban core: visualize workflow, limit WIP, manage flow.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** XP practices include pair programming and TDD. It does not use comprehensive upfront design (A).
 
-### Q7
+### 🔷 Q7
 **Answer: C**
 
 **Rationale:** The correct value is "Individuals and interactions over processes and tools" — the opposite of C.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** Critical defects require discussion with the PO. The PO decides if the sprint should be adapted or cancelled.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** WIP limits prevent bottlenecks and force the team to finish work before starting new work.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** Testers in agile collaborate, design tests, automate, and coach on quality.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 
 **Rationale:** Retrospective = reflect on the sprint and identify improvements. Review (A) is for demonstrating to stakeholders.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** Collective ownership means any team member can improve any code.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** If the team is ahead, they can collaborate with the PO to pull in the next highest-priority item.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** Cycle time = time from work starting to work being completed.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** This is the 11th principle of the Agile Manifesto.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 
 **Rationale:** DoD is a shared understanding of completeness, not defined by one person.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 
 **Rationale:** Testers are essential in agile for exploratory testing, system thinking, and coaching.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 
 **Rationale:** Refactoring improves structure without changing behavior.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** Velocity = work completed per sprint, typically in story points.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 
 **Rationale:** Kanban board has workflow columns with cards representing work items.

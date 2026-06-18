@@ -1,10 +1,10 @@
-# ISTQB CTFL-AT v4.0 — Agile Tester Self-Study Course
+# 📚 ISTQB CTFL-AT v4.0 — Agile Tester Self-Study Course
 
 Complete self-study course for the **ISTQB Certified Tester Foundation Level — Agile Tester (CTFL-AT)** examination.
 
 ---
 
-## Exam Facts
+## 🎓 Exam Facts
 
 | Parameter | Value |
 |-----------|-------|
@@ -20,7 +20,7 @@ Complete self-study course for the **ISTQB Certified Tester Foundation Level —
 
 ---
 
-## Course Structure
+## ⭐ Course Structure
 
 This course is organized into 3 chapters aligned with the CTFL-AT v4.0 syllabus:
 
@@ -34,7 +34,7 @@ This course is organized into 3 chapters aligned with the CTFL-AT v4.0 syllabus:
 
 ---
 
-## How to Use This Course
+## ⭐ How to Use This Course
 
 1. Follow the `STUDY_PLAN.md` — designed for 2-3 weeks of study at 8-12 hours/week.
 2. Read each chapter's `lessons.md` thoroughly — primary learning material.
@@ -47,7 +47,7 @@ This course is organized into 3 chapters aligned with the CTFL-AT v4.0 syllabus:
 
 ---
 
-## Target Audience
+## ⭐ Target Audience
 
 - Testers working in or transitioning to agile teams
 - Testers seeking the ISTQB Agile Tester extension certification
@@ -56,7 +56,7 @@ This course is organized into 3 chapters aligned with the CTFL-AT v4.0 syllabus:
 
 ---
 
-## Prerequisites
+## ⭐ Prerequisites
 
 - **Mandatory:** ISTQB CTFL v4.0 (Certified Tester Foundation Level)
 - Recommended: Experience working in agile teams (Scrum, Kanban, SAFe)
@@ -64,7 +64,7 @@ This course is organized into 3 chapters aligned with the CTFL-AT v4.0 syllabus:
 
 ---
 
-## File Map
+## ⭐ File Map
 
 ```
 ctfl-at-course/
@@ -108,7 +108,7 @@ ctfl-at-course/
 
 ---
 
-## Certification Context
+## ⭐ Certification Context
 
 The CTFL-AT is a Foundation Level extension certification. After achieving CTFL-AT, you may consider:
 

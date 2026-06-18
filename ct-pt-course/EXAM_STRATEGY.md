@@ -1,10 +1,10 @@
-# CT-PT Exam Strategy
+# ♟️ CT-PT Exam Strategy
 
 This document contains tactics, time management advice, and trap-avoidance strategies for the CT-PT exam.
 
 ---
 
-## Exam Format Overview
+## 🎓 Exam Format Overview
 
 | Parameter | Value |
 |-----------|-------|
@@ -16,7 +16,7 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## Time Budget
+## ⭐ Time Budget
 
 | Strategy | Time |
 |----------|------|
@@ -29,7 +29,7 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## Chapter Weighting and Focus Areas
+## ⭐ Chapter Weighting and Focus Areas
 
 | Chapter | Weight | Approx. Questions | Key Focus |
 |---------|--------|-------------------|-----------|
@@ -44,7 +44,7 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## K-Level Patterns
+## 🪜 K-Level Patterns
 
 | K-Level | Definition | How It Appears | Strategy |
 |---------|-----------|----------------|----------|
@@ -56,15 +56,15 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## Chapter-Specific Tactics
+## 🎓 Chapter-Specific Tactics
 
-### Chapter 1: Introduction to Performance Testing
+### 🌟 Chapter 1: Introduction to Performance Testing
 - Know the definition: evaluating speed, scalability, and stability under workload
 - Understand performance as a non-functional characteristic
 - Know the difference between performance testing and functional testing
 - Understand stakeholders: business (response time), operations (resource usage), developers (code optimization)
 
-### Chapter 2: Types of Performance Testing
+### 🧪 Chapter 2: Types of Performance Testing
 - **Load testing:** Normal expected load, validates performance under expected conditions
 - **Stress testing:** Beyond normal load, finds breaking point, tests recovery
 - **Endurance (soak) testing:** Sustained load over time, finds memory leaks, resource exhaustion
@@ -76,27 +76,27 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 **Exam trap:** Many questions mix up these types. Know the trigger (what condition defines each test type).
 
-### Chapter 3: Performance Test Planning and Design
+### 🎨 Chapter 3: Performance Test Planning and Design
 - Know how to define test objectives and scope
 - Understand workload modeling: user profiles, transaction mix, think time
 - Know KPIs: response time, throughput, resource utilization, error rate, concurrent users
 - Understand test data requirements: realistic data, data volume, data variation
 - Know environment sizing: production-like, scaled-down, scaled-up considerations
 
-### Chapter 4: Performance Test Execution and Monitoring
+### ⚡ Chapter 4: Performance Test Execution and Monitoring
 - Know the test phases: initialization, ramp-up, steady state, ramp-down, teardown
 - Understand what to monitor: CPU, memory, disk I/O, network, database, application metrics
 - Know bottleneck indicators: CPU > 80%, memory growing unbounded, disk queue length, network saturation
 - Understand test execution constraints: time windows, environment availability, data reset needs
 
-### Chapter 5: Performance Test Analysis and Reporting
+### 🔬 Chapter 5: Performance Test Analysis and Reporting
 - Know how to compare results against acceptance criteria
 - Understand root cause analysis: code, database, network, infrastructure
 - Know tuning categories: hardware, software, configuration, architecture
 - Understand reporting audiences: technical (developers, ops) vs. business (management)
 - Know the difference between average, median, and percentile (90th, 95th, 99th) response times
 
-### Chapter 6: Performance Testing Tools and Automation
+### 🛠️ Chapter 6: Performance Testing Tools and Automation
 - Know tool categories: commercial (LoadRunner, NeoLoad), open-source (JMeter, Gatling), cloud (BlazeMeter, k6 Cloud)
 - Understand scripting: record/playback vs. hand-coding, parameterization, correlation
 - Know CI/CD integration: automated performance gates, trend analysis
@@ -104,7 +104,7 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## Distractor Patterns
+## ⭐ Distractor Patterns
 
 | Pattern | Example | How to Spot It |
 |---------|---------|--------------|
@@ -117,7 +117,7 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## Before the Exam
+## 🎓 Before the Exam
 
 **1 Week Before:**
 - Re-read all `exam_traps.md` files
@@ -137,7 +137,7 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## During the Exam
+## 🎓 During the Exam
 
 **Question Reading:**
 1. Read the question stem completely
@@ -165,7 +165,7 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## Post-Exam
+## 🎓 Post-Exam
 
 Whether you pass or not:
 - Note which questions were difficult

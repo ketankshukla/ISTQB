@@ -1,4 +1,4 @@
-# CTFL-GT Mock Exam 3
+# 📝 CTFL-GT Mock Exam 3
 
 **Instructions:**
 - 40 questions
@@ -8,7 +8,7 @@
 
 ---
 
-### Q1
+### 🔷 Q1
 
 Which of the following is a game where the outcome is determined predominantly by random factors?
 
@@ -19,7 +19,7 @@ D. Blackjack (with basic strategy)
 
 ---
 
-### Q2
+### 🔷 Q2
 
 A gambling operator in the UK must integrate with which self-exclusion scheme?
 
@@ -30,7 +30,7 @@ D. Gamblers Anonymous
 
 ---
 
-### Q3
+### 🔷 Q3
 
 Which formula correctly calculates the house edge?
 
@@ -41,7 +41,7 @@ D. Total Payout / Total Wagered
 
 ---
 
-### Q4
+### 🔷 Q4
 
 A player deposits EUR 3,000 in one day on a Dutch gambling site. According to KSA requirements:
 
@@ -52,7 +52,7 @@ D. The deposit should be rejected regardless of verification
 
 ---
 
-### Q5
+### 🔷 Q5
 
 Two coins are flipped. What is the probability of getting two heads?
 
@@ -63,7 +63,7 @@ D. 2/4
 
 ---
 
-### Q6
+### 🔷 Q6
 
 Which of the following BEST describes a fixed-odds bet?
 
@@ -74,7 +74,7 @@ D. The payout is determined by a pool of all bets
 
 ---
 
-### Q7
+### 🔷 Q7
 
 In a live dealer game, the PRIMARY technical challenge is:
 
@@ -85,7 +85,7 @@ D. Verifying the dealer's identity
 
 ---
 
-### Q8
+### 🔷 Q8
 
 A progressive jackpot is won. The correct system behavior is:
 
@@ -96,7 +96,7 @@ D. Award the jackpot to all current players
 
 ---
 
-### Q9
+### 🔷 Q9
 
 Which of the following is an independent testing laboratory, NOT a regulator?
 
@@ -107,7 +107,7 @@ D. Nevada Gaming Control Board
 
 ---
 
-### Q10
+### 🔷 Q10
 
 A team tests a gambling platform by simulating 50,000 concurrent users placing bets to verify response times remain under 1 second. This is:
 
@@ -118,7 +118,7 @@ D. Security testing
 
 ---
 
-### Q11
+### 🔷 Q11
 
 Which statement about theoretical RTP is TRUE?
 
@@ -129,7 +129,7 @@ D. It is irrelevant for compliance testing
 
 ---
 
-### Q12
+### 🔷 Q12
 
 A slot game has high volatility and 94% RTP. Another game has low volatility and 94% RTP. The key difference is:
 
@@ -140,7 +140,7 @@ D. The number of paylines
 
 ---
 
-### Q13
+### 🔷 Q13
 
 A PAR sheet for a slot machine typically includes all of the following EXCEPT:
 
@@ -151,7 +151,7 @@ D. Marketing budget projections
 
 ---
 
-### Q14
+### 🔷 Q14
 
 Which of the following is a characteristic of a suitable RNG for gambling?
 
@@ -162,7 +162,7 @@ D. Outputs can be influenced by player actions
 
 ---
 
-### Q15
+### 🔷 Q15
 
 A player requests to be blocked from all UK-licensed gambling sites for 6 months. They should register with:
 
@@ -173,7 +173,7 @@ D. eCOGRA
 
 ---
 
-### Q16
+### 🔷 Q16
 
 Which of the following is a game of skill?
 
@@ -184,7 +184,7 @@ D. Keno
 
 ---
 
-### Q17
+### 🔷 Q17
 
 A sportsbook offers decimal odds of 1.25. The implied probability is:
 
@@ -195,7 +195,7 @@ D. 125%
 
 ---
 
-### Q18
+### 🔷 Q18
 
 The PRIMARY purpose of AML (Anti-Money Laundering) procedures in gambling is to:
 
@@ -206,7 +206,7 @@ D. Speed up withdrawal processing
 
 ---
 
-### Q19
+### 🔷 Q19
 
 Which test verifies that a slot game's paytable correctly awards $500 for 5 matching crown symbols at a $5 bet?
 
@@ -217,7 +217,7 @@ D. Compliance testing
 
 ---
 
-### Q20
+### 🔷 Q20
 
 In a decision table for a bonus feature, "Player has 3 or more scatter symbols" is:
 
@@ -228,7 +228,7 @@ D. An impossible combination
 
 ---
 
-### Q21
+### 🔷 Q21
 
 A white-label platform provider supplies technology to operators who:
 
@@ -239,7 +239,7 @@ D. Cannot customize the user interface
 
 ---
 
-### Q22
+### 🔷 Q22
 
 Endurance testing of a slot game involves:
 
@@ -250,7 +250,7 @@ D. Verifying the game works on all mobile devices
 
 ---
 
-### Q23
+### 🔷 Q23
 
 Which jurisdiction requires that operators offer only ONE bonus per player with a maximum value limit?
 
@@ -261,7 +261,7 @@ D. Netherlands
 
 ---
 
-### Q24
+### 🔷 Q24
 
 The overround on a football match with decimal odds of 2.00 (home), 3.50 (draw), and 3.50 (away) is approximately:
 
@@ -272,7 +272,7 @@ D. 15%
 
 ---
 
-### Q25
+### 🔷 Q25
 
 A player sets a time-out for 48 hours. During this period:
 
@@ -283,7 +283,7 @@ D. The player can reverse the time-out at any time
 
 ---
 
-### Q26
+### 🔷 Q26
 
 Which of the following is a non-functional testing concern for gambling products?
 
@@ -294,7 +294,7 @@ D. Confirming that free spins trigger with 3 scatters
 
 ---
 
-### Q27
+### 🔷 Q27
 
 A compliance test plan for a multi-jurisdiction operator should:
 
@@ -305,7 +305,7 @@ D. Focus exclusively on game fairness
 
 ---
 
-### Q28
+### 🔷 Q28
 
 The NIST SP 800-22 is:
 
@@ -316,7 +316,7 @@ D. A payment processing standard
 
 ---
 
-### Q29
+### 🔷 Q29
 
 A player is chasing losses by increasing bet sizes after each loss. This is:
 
@@ -327,7 +327,7 @@ D. Evidence of a game defect
 
 ---
 
-### Q30
+### 🔷 Q30
 
 In the United States, gambling regulation is primarily handled:
 
@@ -338,7 +338,7 @@ D. By tribal councils only
 
 ---
 
-### Q31
+### 🔷 Q31
 
 A tester extracts reel strips from a slot game and finds 5 wild symbols on reel 1, but the PAR sheet specifies 2. This indicates:
 
@@ -349,7 +349,7 @@ D. Both B and C may be true
 
 ---
 
-### Q32
+### 🔷 Q32
 
 Which of the following would be detected during static analysis of gambling software?
 
@@ -360,7 +360,7 @@ D. The actual RTP over 1 million spins
 
 ---
 
-### Q33
+### 🔷 Q33
 
 A "don't care" entry in a decision table for gambling game rules means:
 
@@ -371,7 +371,7 @@ D. The rule should be removed
 
 ---
 
-### Q34
+### 🔷 Q34
 
 In a 75-ball bingo game played on a 5x5 grid, a "line" win means:
 
@@ -382,7 +382,7 @@ D. The center square and all four corners are marked
 
 ---
 
-### Q35
+### 🔷 Q35
 
 Which of the following is a MAJOR testing consideration for progressive jackpots?
 
@@ -393,7 +393,7 @@ D. Whether the jackpot animation is entertaining
 
 ---
 
-### Q36
+### 🔷 Q36
 
 The difference between a local progressive and a wide-area progressive is:
 
@@ -404,7 +404,7 @@ D. Local progressives never reset after being won
 
 ---
 
-### Q37
+### 🔷 Q37
 
 A player self-excludes for 1 year. The operator should:
 
@@ -415,7 +415,7 @@ D. Cancel the self-exclusion after 6 months if the player requests it
 
 ---
 
-### Q38
+### 🔷 Q38
 
 Which of the following is a key difference between TDD and BDD in the context of gambling software development?
 
@@ -426,7 +426,7 @@ D. TDD requires more documentation than BDD
 
 ---
 
-### Q39
+### 🔷 Q39
 
 A testing team wants to verify that an RNG produces uniformly distributed numbers between 1 and 100. The best approach is:
 
@@ -437,7 +437,7 @@ D. Checking the source code comments
 
 ---
 
-### Q40
+### 🔷 Q40
 
 Which of the following describes the relationship between an operator and a game studio?
 
@@ -448,4 +448,4 @@ D. The studio regulates the operator
 
 ---
 
-## End of Mock Exam 3
+## 📝 End of Mock Exam 3

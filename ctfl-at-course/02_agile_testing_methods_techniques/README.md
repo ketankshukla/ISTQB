@@ -1,6 +1,6 @@
-# Chapter 2 — Agile Testing Methods and Techniques
+# 🎯 Chapter 2 — Agile Testing Methods and Techniques
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~45% (~18 questions out of 40)
 - **K-levels:** K2 (understand), K3 (apply)
@@ -8,7 +8,7 @@
 
 ---
 
-## Chapter Map
+## ⭐ Chapter Map
 
 | Section | Topic | K-Level | Exam Importance |
 |---------|-------|---------|-----------------|
@@ -22,7 +22,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -36,7 +36,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts to Master
+## ⭐ Key Concepts to Master
 
 - Test automation pyramid: unit at base, integration in middle, UI at top
 - ATDD workflow: Discuss → Distill → Develop → Deliver → Demo
@@ -47,7 +47,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Exam Tips
+## 🎓 Exam Tips
 
 - This is the highest-weighted chapter. Master ATDD/BDD and exploratory testing.
 - Expect scenario-based questions about Given-When-Then scenarios and ATDD workflows.

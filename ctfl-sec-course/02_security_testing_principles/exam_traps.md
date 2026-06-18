@@ -1,6 +1,6 @@
-# Chapter 2 — Security Testing Principles: Exam Traps
+# 🪤 Chapter 2 — Security Testing Principles: Exam Traps
 
-## Trap 1: Preventive Controls are Sufficient
+## 🪤 Trap 1: Preventive Controls are Sufficient
 
 **Trap:** Need preventive, detective, AND corrective controls for defense in depth.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Risk is Only About Impact
+## 🪤 Trap 2: Risk is Only About Impact
 
 **Trap:** Risk = Likelihood x Impact. Both matter.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Threat Modeling is Only for Security Teams
+## 🪤 Trap 3: Threat Modeling is Only for Security Teams
 
 **Trap:** Threat modeling should involve architects, developers, and testers.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Encryption Solves All Security Problems
+## 🪤 Trap 4: Encryption Solves All Security Problems
 
 **Trap:** Encryption provides confidentiality; integrity and availability need separate controls.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Security Requirements are Implicit
+## 🪤 Trap 5: Security Requirements are Implicit
 
 **Trap:** Security requirements must be explicit, testable, and traceable.
 

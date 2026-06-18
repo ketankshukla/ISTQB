@@ -1,10 +1,10 @@
-# Chapter 3 — Automotive Testing Process: Lessons
+# 📘 Chapter 3 — Automotive Testing Process: Lessons
 
 ---
 
-## 3.1 Test Planning
+## 🗓️ 3.1 Test Planning
 
-### Elements
+### 🔷 Elements
 
 | Element | Description |
 |---------|-------------|
@@ -15,7 +15,7 @@
 | **Schedule** | Milestones aligned with development |
 | **Risks** | Technical, schedule, resource risks |
 
-### Plan Contents
+### 🗓️ Plan Contents
 
 | Section | Content |
 |---------|---------|
@@ -28,20 +28,20 @@
 
 ---
 
-## 3.2 Requirements Traceability
+## 📑 3.2 Requirements Traceability
 
-### Definition
+### 🔷 Definition
 
 Ability to trace requirements through design, implementation, and testing.
 
-### Traceability Matrix
+### 🔗 Traceability Matrix
 
 | Requirement | Design | Code | Test Case | Test Result |
 |-------------|--------|------|-----------|-------------|
 | REQ-001: Brake within 2s | ARCH-005 | brake.c | TC-BRAKE-01 | PASS |
 | REQ-002: Speed limit warning | ARCH-012 | speed.c | TC-SPEED-03 | PASS |
 
-### Importance
+### 🔷 Importance
 
 | Benefit | Explanation |
 |---------|-------------|
@@ -52,7 +52,7 @@ Ability to trace requirements through design, implementation, and testing.
 
 ---
 
-## 3.3 Test Levels in Automotive
+## 🪜 3.3 Test Levels in Automotive
 
 | Level | Description | When |
 |-------|-------------|------|
@@ -62,7 +62,7 @@ Ability to trace requirements through design, implementation, and testing.
 | **HIL** | Hardware-in-the-Loop: Test ECU with simulated environment | System test |
 | **Vehicle** | Test in real vehicle | Acceptance |
 
-### Comparison
+### 🔷 Comparison
 
 | Level | Speed | Cost | Fidelity | When to Use |
 |-------|-------|------|----------|-------------|
@@ -74,7 +74,7 @@ Ability to trace requirements through design, implementation, and testing.
 
 ---
 
-## 3.4 Verification vs Validation
+## ⭐ 3.4 Verification vs Validation
 
 | Aspect | Verification | Validation |
 |--------|-------------|------------|
@@ -85,7 +85,7 @@ Ability to trace requirements through design, implementation, and testing.
 
 ---
 
-## 3.5 Static Testing in Automotive
+## 🔍 3.5 Static Testing in Automotive
 
 | Technique | Purpose | ASIL Relevance |
 |-----------|---------|---------------|
@@ -97,9 +97,9 @@ Ability to trace requirements through design, implementation, and testing.
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Test Level Selection
+### 💡 Worked Example 1: Test Level Selection
 
 | Scenario | Level | Reason |
 |----------|-------|--------|
@@ -109,14 +109,14 @@ Ability to trace requirements through design, implementation, and testing.
 | ECU with sensors/actuators | HIL | Real hardware, simulated plant |
 | Final sign-off | Vehicle | Real-world validation |
 
-### Worked Example 2: Traceability Example
+### 💡 Worked Example 2: Traceability Example
 
 | Requirement | Design | Implementation | Test |
 |-------------|--------|----------------|------|
 | Brake force proportional to pedal | Brake controller architecture | brake_force.c | TC-BRAKE-01, TC-BRAKE-02 |
 | ABS activation < 200ms | ABS state machine | abs_control.c | TC-ABS-01 |
 
-### Worked Example 3: Coverage Requirements
+### 💡 Worked Example 3: Coverage Requirements
 
 | ASIL | Statement | Branch | MC/DC |
 |------|-----------|--------|-------|

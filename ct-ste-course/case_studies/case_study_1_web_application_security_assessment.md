@@ -1,6 +1,6 @@
-# Case Study 1 — Web Application Security Assessment
+# 📂 Case Study 1 — Web Application Security Assessment
 
-## Context
+## ⭐ Context
 
 You are the Security Test Lead for ShopOnline, an e-commerce platform processing 10,000 transactions daily.
 
@@ -17,7 +17,7 @@ You are the Security Test Lead for ShopOnline, an e-commerce platform processing
 
 ---
 
-## Task 1: Test Strategy
+## ♟️ Task 1: Test Strategy
 
 **Question:** Design a comprehensive security test strategy.
 
@@ -39,7 +39,7 @@ You are the Security Test Lead for ShopOnline, an e-commerce platform processing
 
 ---
 
-## Task 2: Threat Modeling
+## 📐 Task 2: Threat Modeling
 
 **Question:** Apply STRIDE to the checkout flow.
 
@@ -56,7 +56,7 @@ You are the Security Test Lead for ShopOnline, an e-commerce platform processing
 
 ---
 
-## Task 3: Vulnerability Management
+## 🗂️ Task 3: Vulnerability Management
 
 **Question:** Handle findings from a penetration test.
 
@@ -76,7 +76,7 @@ You are the Security Test Lead for ShopOnline, an e-commerce platform processing
 
 ---
 
-## Task 4: Compliance Validation
+## ⭐ Task 4: Compliance Validation
 
 **Question:** Verify PCI-DSS requirements.
 

@@ -1,10 +1,10 @@
-# ISTQB CTAL-TTA — Advanced Technical Test Analyst Self-Study Course
+# 📚 ISTQB CTAL-TTA — Advanced Technical Test Analyst Self-Study Course
 
 A complete, exam-ready self-study course for the ISTQB CTAL-TTA (Certified Tester Advanced Level — Technical Test Analyst) certification.
 
 ---
 
-## Exam Facts
+## 🎓 Exam Facts
 
 | Parameter | Value |
 |-----------|-------|
@@ -18,7 +18,7 @@ A complete, exam-ready self-study course for the ISTQB CTAL-TTA (Certified Teste
 
 ---
 
-## Course Structure
+## ⭐ Course Structure
 
 ```
 ctal-tta-course/
@@ -80,7 +80,7 @@ ctal-tta-course/
 
 ---
 
-## How to Use This Course
+## ⭐ How to Use This Course
 
 1. **Start with `STUDY_PLAN.md`** — pick the 3-week or 4-week track.
 2. **Work through chapters in order** — read `lessons.md`, then `exam_traps.md`, then attempt `practice_questions.md`.
@@ -90,7 +90,7 @@ ctal-tta-course/
 
 ---
 
-## Target Audience
+## ⭐ Target Audience
 
 - Technical Test Analysts preparing for CTAL-TTA certification
 - SDETs (Software Development Engineers in Test)
@@ -99,7 +99,7 @@ ctal-tta-course/
 
 ---
 
-## Prerequisites
+## ⭐ Prerequisites
 
 - ISTQB CTFL Foundation Level certification (required for the exam)
 - Basic programming knowledge (variables, control structures, functions)
@@ -107,7 +107,7 @@ ctal-tta-course/
 
 ---
 
-## File Map
+## ⭐ File Map
 
 | File | Purpose |
 |------|---------|

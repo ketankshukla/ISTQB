@@ -1,4 +1,4 @@
-# Mock Exam 2 — Answer Key
+# 📝 Mock Exam 2 — Answer Key
 
 | Q | Answer | Rationale |
 |---|--------|-----------|
@@ -43,7 +43,7 @@
 | 39 | D | 15 characters is a nominal valid value, not a boundary. BVA tests boundaries: 4, 5, 20, 21. |
 | 40 | B | Time saved = 300 - (200 + 40) = 60 hours in first year. After year 1, savings = 300 - 40 = 260 hours/year. |
 
-## Score Interpretation
+## ⭐ Score Interpretation
 
 | Score | Interpretation |
 |-------|-------------|

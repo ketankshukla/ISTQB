@@ -1,6 +1,6 @@
-# Chapter 2 — MBT Modeling: Exam Traps
+# 🪤 Chapter 2 — MBT Modeling: Exam Traps
 
-## Trap 1: Confusing Model Types
+## 🪤 Trap 1: Confusing Model Types
 
 **Trap:** State machines show states and transitions. Decision tables show condition combinations. Process models show activity flows. Feature models show product features.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Thinking Models Must Include Implementation Details
+## 🪤 Trap 2: Thinking Models Must Include Implementation Details
 
 **Trap:** Test models should abstract from implementation details. They represent test-relevant behavior, not how the code works.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Thinking One Model Can Test Everything
+## 🪤 Trap 3: Thinking One Model Can Test Everything
 
 **Trap:** Different test objectives may require different models. One model rarely covers all quality characteristics.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Confusing Control Flow and Data Flow
+## 🪤 Trap 4: Confusing Control Flow and Data Flow
 
 **Trap:** Control flow = order of operations. Data flow = movement and transformation of data. They are different but complementary.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Thinking High Abstraction Is Always Better
+## 🪤 Trap 5: Thinking High Abstraction Is Always Better
 
 **Trap:** Abstraction level depends on test objective. High abstraction for early testing; lower abstraction for detailed behavior.
 

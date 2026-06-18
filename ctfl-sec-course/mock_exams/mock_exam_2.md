@@ -1,10 +1,10 @@
-# CTFL-SEC Mock Exam 2
+# 📝 CTFL-SEC Mock Exam 2
 
 **Instructions:** 20 questions, 40 minutes. Single best answer.
 
 ---
 
-### Q1
+### 🔷 Q1
 
 Availability ensures:
 
@@ -15,7 +15,7 @@ D. Only encryption
 
 ---
 
-### Q2
+### 🔷 Q2
 
 Intrusion detection systems are:
 
@@ -26,7 +26,7 @@ D. Only backups
 
 ---
 
-### Q3
+### 🔷 Q3
 
 XSS attacks:
 
@@ -37,7 +37,7 @@ D. Only networks
 
 ---
 
-### Q4
+### 🔷 Q4
 
 DAST tools test:
 
@@ -48,7 +48,7 @@ D. Only design specs
 
 ---
 
-### Q5
+### 🔷 Q5
 
 Security test planning should include:
 
@@ -59,7 +59,7 @@ D. Only reporting
 
 ---
 
-### Q6
+### 🔷 Q6
 
 A vulnerability is:
 
@@ -70,7 +70,7 @@ D. Only a firewall
 
 ---
 
-### Q7
+### 🔷 Q7
 
 Black box penetration testing:
 
@@ -81,7 +81,7 @@ D. Only uses automated tools
 
 ---
 
-### Q8
+### 🔷 Q8
 
 Input validation is a:
 
@@ -92,7 +92,7 @@ D. Only monitoring
 
 ---
 
-### Q9
+### 🔷 Q9
 
 Threat modeling should occur:
 
@@ -103,7 +103,7 @@ D. Only during maintenance
 
 ---
 
-### Q10
+### 🔷 Q10
 
 Security testing is a type of:
 
@@ -114,7 +114,7 @@ D. Only regression testing
 
 ---
 
-### Q11
+### 🔷 Q11
 
 Shift-left security:
 
@@ -125,7 +125,7 @@ D. Only applies to waterfall
 
 ---
 
-### Q12
+### 🔷 Q12
 
 A security test report should contain:
 
@@ -136,7 +136,7 @@ D. Only executive summary
 
 ---
 
-### Q13
+### 🔷 Q13
 
 False positives are:
 
@@ -147,7 +147,7 @@ D. Only user mistakes
 
 ---
 
-### Q14
+### 🔷 Q14
 
 DoS attacks target:
 
@@ -158,7 +158,7 @@ D. Only authentication
 
 ---
 
-### Q15
+### 🔷 Q15
 
 Security user stories in agile:
 
@@ -169,7 +169,7 @@ D. Only apply to kanban
 
 ---
 
-### Q16
+### 🔷 Q16
 
 OWASP stands for:
 
@@ -180,7 +180,7 @@ D. Only a tool
 
 ---
 
-### Q17
+### 🔷 Q17
 
 Social engineering attacks:
 
@@ -191,7 +191,7 @@ D. Only target databases
 
 ---
 
-### Q18
+### 🔷 Q18
 
 Security testing during requirements phase:
 
@@ -202,7 +202,7 @@ D. Only happens after release
 
 ---
 
-### Q19
+### 🔷 Q19
 
 A critical risk finding should be:
 
@@ -213,7 +213,7 @@ D. Only monitored
 
 ---
 
-### Q20
+### 🔷 Q20
 
 Encryption of data at rest protects:
 
@@ -224,7 +224,7 @@ D. Only authentication
 
 ---
 
-## Answer Key
+## ✔️ Answer Key
 
 | Q | Answer | Q | Answer | Q | Answer | Q | Answer |
 |---|--------|---|--------|---|--------|---|--------|

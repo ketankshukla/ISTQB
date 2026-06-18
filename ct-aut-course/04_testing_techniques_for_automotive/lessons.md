@@ -1,10 +1,10 @@
-# Chapter 4 — Testing Techniques for Automotive: Lessons
+# 📘 Chapter 4 — Testing Techniques for Automotive: Lessons
 
 ---
 
-## 4.1 Static Testing
+## 🔍 4.1 Static Testing
 
-### Static Analysis
+### 🔍 Static Analysis
 
 | Technique | Purpose | Tools |
 |-----------|---------|-------|
@@ -13,7 +13,7 @@
 | **Data flow analysis** | Find uninitialized variables | Polyspace, Astree |
 | **Control flow analysis** | Find unreachable code | LDRA, Cantata |
 
-### Code Review
+### 🔎 Code Review
 
 | Focus Area | Check |
 |------------|-------|
@@ -24,9 +24,9 @@
 
 ---
 
-## 4.2 Boundary Value Analysis
+## 📏 4.2 Boundary Value Analysis
 
-### Application to Automotive
+### 🔷 Application to Automotive
 
 | Signal | Range | Boundary Values |
 |--------|-------|----------------|
@@ -35,7 +35,7 @@
 | **Battery voltage** | 9-16V | 9, 9.1, 15.9, 16 |
 | **Steering angle** | -540 to +540° | -540, -539, 539, 540 |
 
-### Two-Value vs Three-Value Approach
+### 🔷 Two-Value vs Three-Value Approach
 
 | Approach | Values Tested |
 |----------|--------------|
@@ -44,9 +44,9 @@
 
 ---
 
-## 4.3 Equivalence Partitioning
+## ➗ 4.3 Equivalence Partitioning
 
-### Example: Gear Position
+### 💡 Example: Gear Position
 
 | Partition | Values | Representative |
 |-----------|--------|----------------|
@@ -56,7 +56,7 @@
 | **Drive (D)** | D | D |
 | **Invalid** | Any other value | 'X' |
 
-### Example: Vehicle Speed for Cruise Control
+### 💡 Example: Vehicle Speed for Cruise Control
 
 | Partition | Range | Test Value |
 |-----------|-------|------------|
@@ -67,9 +67,9 @@
 
 ---
 
-## 4.4 State Transition Testing
+## 🔄 4.4 State Transition Testing
 
-### ECU State Machine Example: Powertrain Control
+### 💡 ECU State Machine Example: Powertrain Control
 
 | State | Transitions |
 |-------|-------------|
@@ -79,7 +79,7 @@
 | **Active** | Accelerator = 0 → Idle; Fault → Error |
 | **Error** | Key off → Init |
 
-### Test Design
+### 🎨 Test Design
 
 | Test | Path | Coverage |
 |------|------|----------|
@@ -91,9 +91,9 @@
 
 ---
 
-## 4.5 Fault Injection
+## ⭐ 4.5 Fault Injection
 
-### Types
+### 🧪 Types
 
 | Type | Method | Example |
 |------|--------|---------|
@@ -101,7 +101,7 @@
 | **Hardware fault injection** | Disrupt hardware signals | Disconnect CAN message |
 | **Network fault injection** | Corrupt or drop messages | Delay brake pedal message |
 
-### Fault Scenarios
+### 🎬 Fault Scenarios
 
 | System | Fault Injected | Expected Response |
 |--------|---------------|---------------------|
@@ -112,7 +112,7 @@
 
 ---
 
-## 4.6 Technique Selection by ASIL
+## 🎯 4.6 Technique Selection by ASIL
 
 | Technique | ASIL A | ASIL B | ASIL C | ASIL D |
 |-----------|--------|--------|--------|--------|
@@ -126,9 +126,9 @@
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Boundary Value Test Design
+### 💡 Worked Example 1: Boundary Value Test Design
 
 **Scenario:** Test an engine temperature warning system.
 
@@ -140,7 +140,7 @@
 | 120°C | Warning threshold, warning ON | Input 120 |
 | 150°C | Max, warning ON | Input 150 |
 
-### Worked Example 2: State Transition Tests
+### 💡 Worked Example 2: State Transition Tests
 
 **Scenario:** Test door lock controller.
 
@@ -157,7 +157,7 @@
 3. Crash auto-unlock
 4. Invalid key attempt
 
-### Worked Example 3: Fault Injection Test
+### 💡 Worked Example 3: Fault Injection Test
 
 **Scenario:** Test EPS (Electric Power Steering) fault handling.
 

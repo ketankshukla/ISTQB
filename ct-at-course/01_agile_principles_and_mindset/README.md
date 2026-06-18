@@ -1,6 +1,6 @@
-# Chapter 1 — Agile Principles and Mindset
+# 📜 Chapter 1 — Agile Principles and Mindset
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~20% (~8 questions out of 40)
 - **K-levels:** K2 (understand)
@@ -8,7 +8,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -20,7 +20,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts
+## ⭐ Key Concepts
 
 - Agile Manifesto: 4 values, 12 principles
 - Scrum: roles (PO, SM, Dev Team), ceremonies, artifacts

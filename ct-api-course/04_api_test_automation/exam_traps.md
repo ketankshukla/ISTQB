@@ -1,6 +1,6 @@
-# Chapter 4 — API Test Automation: Exam Traps
+# 🪤 Chapter 4 — API Test Automation: Exam Traps
 
-## Trap 1: Automating Everything Without ROI Analysis
+## 🪤 Trap 1: Automating Everything Without ROI Analysis
 
 **Trap:** Not all API tests should be automated. One-time tests and exploratory tests are better done manually.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Hard-Coding URLs and Tokens in Every Test
+## 🪤 Trap 2: Hard-Coding URLs and Tokens in Every Test
 
 **Trap:** Centralize configuration. Hard-coding in every test makes maintenance impossible when environments change.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Noisy Assertions
+## 🪤 Trap 3: Noisy Assertions
 
 **Trap:** Assertions should be specific. A vague assertion like `expect(response).toBeDefined()` tells you little when it fails.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Ignoring Test Suite Execution Time
+## 🪤 Trap 4: Ignoring Test Suite Execution Time
 
 **Trap:** Slow test suites discourage running them frequently. API tests should be fast (milliseconds per test).
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Not Using Data-Driven Testing for Repetitive Scenarios
+## 🪤 Trap 5: Not Using Data-Driven Testing for Repetitive Scenarios
 
 **Trap:** Writing separate test methods for each data variation creates duplication and maintenance burden.
 

@@ -1,6 +1,6 @@
-# CTFL-PT Mock Exam 2 — Answer Key
+# 📝 CTFL-PT Mock Exam 2 — Answer Key
 
-## Answers
+## ✔️ Answers
 
 | Question | Answer | Topic |
 |----------|--------|-------|
@@ -25,7 +25,7 @@
 | Q19 | B | Step ramp-up |
 | Q20 | B | Scalability testing |
 
-## Score Interpretation
+## ⭐ Score Interpretation
 
 | Score | Status |
 |-------|--------|

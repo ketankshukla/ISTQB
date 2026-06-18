@@ -1,10 +1,10 @@
-# Chapter 1 — Introduction to Game Testing: Lessons
+# 📘 Chapter 1 — Introduction to Game Testing: Lessons
 
 ---
 
-## 1.1 Game Industry Overview
+## 🌟 1.1 Game Industry Overview
 
-### Market Segments
+### 🔷 Market Segments
 
 | Segment | Description | Examples |
 |---------|-------------|----------|
@@ -14,7 +14,7 @@
 | **Mobile** | Free-to-play or premium mobile games | Candy Crush, PUBG Mobile |
 | **VR/AR** | Immersive reality experiences | Beat Saber, Half-Life: Alyx |
 
-### Development Roles
+### 🔷 Development Roles
 
 | Role | Responsibility |
 |------|-------------|
@@ -27,27 +27,27 @@
 
 ---
 
-## 1.2 Testing Roles in Games
+## 🎮 1.2 Testing Roles in Games
 
-### Functional QA
+### 🔷 Functional QA
 
 - Tests gameplay mechanics, features, levels
 - Verifies game behaves as designed
 - Documents bugs with reproduction steps
 
-### Compliance QA
+### 🔷 Compliance QA
 
 - Ensures game meets platform-holder requirements
 - Tests memory usage, loading times, crash handling
 - Verifies trophy/achievement integration
 
-### Localization QA
+### 🔷 Localization QA
 
 - Tests translations, text display, cultural appropriateness
 - Verifies audio dubbing and subtitles
 - Checks date/currency/number formatting
 
-### Certification QA
+### 🔷 Certification QA
 
 - Final pass before submission to platform holder
 - Checks all compliance items
@@ -55,7 +55,7 @@
 
 ---
 
-## 1.3 Game Genres
+## 🎮 1.3 Game Genres
 
 | Genre | Characteristics | Testing Focus |
 |-------|----------------|---------------|
@@ -70,7 +70,7 @@
 
 ---
 
-## 1.4 Platform Types
+## 🧪 1.4 Platform Types
 
 | Platform | Characteristics | Testing Implications |
 |----------|---------------|---------------------|
@@ -82,9 +82,9 @@
 
 ---
 
-## 1.5 Player-Centric Testing
+## ⭐ 1.5 Player-Centric Testing
 
-### Player Experience Attributes
+### 🔷 Player Experience Attributes
 
 | Attribute | What to Test |
 |-----------|------------|
@@ -94,7 +94,7 @@
 | **Feedback** | Do players know the result of their actions? |
 | **Flow** | Is difficulty progression smooth? |
 
-### Playtesting vs QA Testing
+### 🔷 Playtesting vs QA Testing
 
 | Aspect | Playtesting | QA Testing |
 |--------|-------------|------------|
@@ -105,7 +105,7 @@
 
 ---
 
-## 1.6 Game-Specific Quality Attributes
+## 💎 1.6 Game-Specific Quality Attributes
 
 | Attribute | Description | Example Test |
 |-----------|-------------|-------------|
@@ -120,9 +120,9 @@
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Genre-Specific Testing
+### 💡 Worked Example 1: Genre-Specific Testing
 
 **Scenario:** Test an RPG inventory system.
 
@@ -136,7 +136,7 @@
 | Save/load | Inventory persists correctly |
 | Overflow | Behavior when inventory full |
 
-### Worked Example 2: Platform Testing
+### 💡 Worked Example 2: Platform Testing
 
 **Scenario:** Test a mobile puzzle game.
 
@@ -149,7 +149,7 @@
 | Resolution | Different screen sizes and DPI |
 | OS version | Minimum and latest supported |
 
-### Worked Example 3: Player Experience
+### 💡 Worked Example 3: Player Experience
 
 **Scenario:** Evaluate tutorial effectiveness.
 

@@ -1,8 +1,8 @@
-# Chapter 1 — Introduction to Mobile Testing: Practice Questions
+# ❓ Chapter 1 — Introduction to Mobile Testing: Practice Questions
 
 ---
 
-### Q1 (MAT-1.1, K1)
+### 🔷 Q1 (MAT-1.1, K1)
 
 The PRIMARY objective of mobile application testing is to:
 
@@ -13,7 +13,7 @@ D. Eliminate all code bugs
 
 ---
 
-### Q2 (MAT-1.2, K1)
+### 🔷 Q2 (MAT-1.2, K1)
 
 A native iOS app is built using:
 
@@ -24,7 +24,7 @@ D. Python
 
 ---
 
-### Q3 (MAT-1.3, K2)
+### 🔷 Q3 (MAT-1.3, K2)
 
 Device fragmentation is MOST challenging on:
 
@@ -35,7 +35,7 @@ D. BlackBerry
 
 ---
 
-### Q4 (MAT-1.4, K2)
+### 🔷 Q4 (MAT-1.4, K2)
 
 A hybrid app is typically:
 
@@ -46,7 +46,7 @@ D. Compiled to native machine code
 
 ---
 
-### Q5 (MAT-1.1, K1)
+### 🔷 Q5 (MAT-1.1, K1)
 
 Which is a unique mobile testing challenge?
 
@@ -57,7 +57,7 @@ D. Network cable testing
 
 ---
 
-### Q6 (MAT-1.2, K2)
+### 🔷 Q6 (MAT-1.2, K2)
 
 Flutter is an example of:
 
@@ -68,7 +68,7 @@ D. A testing tool
 
 ---
 
-### Q7 (MAT-1.3, K2)
+### 🔷 Q7 (MAT-1.3, K2)
 
 Mobile web apps are accessed via:
 
@@ -79,7 +79,7 @@ D. Bluetooth
 
 ---
 
-### Q8 (MAT-1.4, K2)
+### 🔷 Q8 (MAT-1.4, K2)
 
 TestFlight is used for:
 
@@ -90,7 +90,7 @@ D. Performance monitoring
 
 ---
 
-### Q9 (MAT-1.1, K1)
+### 🔷 Q9 (MAT-1.1, K1)
 
 A cross-platform native framework compiles to:
 
@@ -101,7 +101,7 @@ D. Only Python
 
 ---
 
-### Q10 (MAT-1.2, K2)
+### 🔷 Q10 (MAT-1.2, K2)
 
 The main advantage of native apps over web apps is:
 
@@ -112,7 +112,7 @@ D. Instant updates
 
 ---
 
-### Q11 (MAT-1.3, K2)
+### 🔷 Q11 (MAT-1.3, K2)
 
 Interruption testing for mobile apps includes:
 
@@ -123,7 +123,7 @@ D. Only server responses
 
 ---
 
-### Q12 (MAT-1.4, K2)
+### 🔷 Q12 (MAT-1.4, K2)
 
 Google Play's internal testing track allows:
 
@@ -134,7 +134,7 @@ D. Only iOS apps
 
 ---
 
-### Q13 (MAT-1.1, K1)
+### 🔷 Q13 (MAT-1.1, K1)
 
 Mobile testing must consider:
 
@@ -145,7 +145,7 @@ D. Only server performance
 
 ---
 
-### Q14 (MAT-1.2, K2)
+### 🔷 Q14 (MAT-1.2, K2)
 
 React Native produces:
 
@@ -156,7 +156,7 @@ D. Only iOS apps
 
 ---
 
-### Q15 (MAT-1.3, K2)
+### 🔷 Q15 (MAT-1.3, K2)
 
 Gesture testing in mobile includes:
 
@@ -167,7 +167,7 @@ D. Only voice commands
 
 ---
 
-### Q16 (MAT-1.4, K2)
+### 🔷 Q16 (MAT-1.4, K2)
 
 The mobile SDLC includes:
 
@@ -178,7 +178,7 @@ D. Only user feedback
 
 ---
 
-### Q17 (MAT-1.1, K1)
+### 🔷 Q17 (MAT-1.1, K1)
 
 A mobile app's offline capability is MOST relevant for:
 
@@ -189,7 +189,7 @@ D. Only desktop software
 
 ---
 
-### Q18 (MAT-1.2, K2)
+### 🔷 Q18 (MAT-1.2, K2)
 
 App store guidelines are important because:
 
@@ -200,7 +200,7 @@ D. They only apply to games
 
 ---
 
-### Q19 (MAT-1.3, K2)
+### 🔷 Q19 (MAT-1.3, K2)
 
 Network variability testing should include:
 
@@ -211,7 +211,7 @@ D. Only Bluetooth
 
 ---
 
-### Q20 (MAT-1.4, K2)
+### 🔷 Q20 (MAT-1.4, K2)
 
 Which stakeholder is MOST concerned with battery consumption?
 
@@ -222,84 +222,84 @@ D. Only developers
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** Mobile testing = correct function across devices, OS, conditions.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** Native iOS = Swift or Objective-C.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** Android fragmentation = many devices/manufacturers.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** Hybrid = web app in native container.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Interruptions = unique mobile challenge.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Flutter = cross-platform native framework.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Mobile web = accessed via browsers.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** TestFlight = iOS beta testing.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** Cross-platform native = compiles to native code.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** Native advantage = performance and device access.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Interruptions = calls, notifications, battery, switching.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Internal testing = small group before wider release.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Mobile testing considers sizes, OS, network.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** React Native = native UI from JS codebase.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Gestures = tap, swipe, pinch, long-press, rotate.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Mobile SDLC = requirements through maintenance.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Offline = native and good hybrid apps.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Guidelines = non-compliance = rejection/removal.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Network testing = 4G/5G, Wi-Fi, weak, offline.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** End users care about battery consumption.

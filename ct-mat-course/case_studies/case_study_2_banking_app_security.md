@@ -1,6 +1,6 @@
-# Case Study 2 — Banking App Security and Compliance
+# 📂 Case Study 2 — Banking App Security and Compliance
 
-## Context
+## ⭐ Context
 
 You are the Security Test Lead for SecureBank Mobile, updating the banking app to comply with new regulations.
 
@@ -14,7 +14,7 @@ You are the Security Test Lead for SecureBank Mobile, updating the banking app t
 
 ---
 
-## Task 1: Security Test Plan
+## 🗓️ Task 1: Security Test Plan
 
 **Question:** Design a security testing plan.
 
@@ -30,7 +30,7 @@ You are the Security Test Lead for SecureBank Mobile, updating the banking app t
 
 ---
 
-## Task 2: Authentication Testing
+## ⭐ Task 2: Authentication Testing
 
 **Question:** Test the biometric + PIN authentication flow.
 
@@ -48,7 +48,7 @@ You are the Security Test Lead for SecureBank Mobile, updating the banking app t
 
 ---
 
-## Task 3: Data Protection
+## 🗃️ Task 3: Data Protection
 
 **Question:** Verify GDPR and data protection compliance.
 
@@ -66,7 +66,7 @@ You are the Security Test Lead for SecureBank Mobile, updating the banking app t
 
 ---
 
-## Task 4: Compliance Report
+## 📝 Task 4: Compliance Report
 
 **Question:** Summarize the security assessment.
 

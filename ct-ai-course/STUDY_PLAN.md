@@ -1,12 +1,12 @@
-# CT-AI Study Plan
+# 🗓️ CT-AI Study Plan
 
 Two study schedules: a **standard 3-week plan** for thorough preparation, and an **accelerated 1.5-week plan** for those with strong AI/ML experience.
 
 ---
 
-## Standard Plan — 3 Weeks
+## 🗓️ Standard Plan — 3 Weeks
 
-### Week 1: AI Fundamentals and SDLC
+### 🏗️ Week 1: AI Fundamentals and SDLC
 
 | Day | Task | Time | Checkpoint |
 |-----|------|------|------------|
@@ -18,7 +18,7 @@ Two study schedules: a **standard 3-week plan** for thorough preparation, and an
 | Day 6 | Review Chapters 1 & 2 missed questions | 1.5 hours | Solidify weak areas |
 | Day 7 | Rest or light review of glossary terms | 30 min | — |
 
-### Week 2: Testing AI Systems and ML Models
+### 📐 Week 2: Testing AI Systems and ML Models
 
 | Day | Task | Time | Checkpoint |
 |-----|------|------|------------|
@@ -30,7 +30,7 @@ Two study schedules: a **standard 3-week plan** for thorough preparation, and an
 | Day 13 | Read Chapter 5: `lessons.md` | 2 hours | Quality characteristics, risks |
 | Day 14 | Chapter 5: `exam_traps.md` + all 20 practice questions | 2 hours | AI quality and ethics |
 
-### Week 3: AI for Testing, Case Studies, and Mock Exams
+### 📝 Week 3: AI for Testing, Case Studies, and Mock Exams
 
 | Day | Task | Time | Checkpoint |
 |-----|------|------|------------|
@@ -46,7 +46,7 @@ Two study schedules: a **standard 3-week plan** for thorough preparation, and an
 
 ---
 
-## Accelerated Plan — 1.5 Weeks
+## 🗓️ Accelerated Plan — 1.5 Weeks
 
 For experienced AI testers or data scientists with testing background.
 
@@ -63,7 +63,7 @@ For experienced AI testers or data scientists with testing background.
 
 ---
 
-## Study Techniques That Work
+## 📚 Study Techniques That Work
 
 **1. Active Recall**
 After reading a section, close the file and write down what you remember. Check against the text.
@@ -82,7 +82,7 @@ Think about AI systems you use (recommendation engines, voice assistants, naviga
 
 ---
 
-## Daily Time Commitments
+## 🤖 Daily Time Commitments
 
 | Plan | Daily Average | Total Hours |
 |------|--------------|-------------|
@@ -91,7 +91,7 @@ Think about AI systems you use (recommendation engines, voice assistants, naviga
 
 ---
 
-## Exam Day Checklist
+## 🎓 Exam Day Checklist
 
 - [ ] 7+ hours of sleep the night before
 - [ ] Review `exam_traps.md` one final time
@@ -103,7 +103,7 @@ Think about AI systems you use (recommendation engines, voice assistants, naviga
 
 ---
 
-## Recommended Score Targets
+## ⭐ Recommended Score Targets
 
 | Stage | Target |
 |-------|--------|

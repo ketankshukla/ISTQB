@@ -1,8 +1,8 @@
-# Chapter 6 — Organizational Aspects: Practice Questions
+# ❓ Chapter 6 — Organizational Aspects: Practice Questions
 
 ---
 
-### Q1 (UT-6.1, K2)
+### 🔷 Q1 (UT-6.1, K2)
 
 A UX Researcher's PRIMARY responsibility is:
 
@@ -13,7 +13,7 @@ D. Creating marketing materials
 
 ---
 
-### Q2 (UT-6.2, K2)
+### 🔷 Q2 (UT-6.2, K2)
 
 "Shift-left" testing in usability means:
 
@@ -24,7 +24,7 @@ D. Testing only with left-handed users
 
 ---
 
-### Q3 (UT-6.3, K2)
+### 🔷 Q3 (UT-6.3, K2)
 
 The PRIMARY business benefit of usability testing is:
 
@@ -35,7 +35,7 @@ D. It is required by law in all countries
 
 ---
 
-### Q4 (UT-6.4, K2)
+### 🔷 Q4 (UT-6.4, K2)
 
 A team says "We don't have time for usability testing." The BEST response is:
 
@@ -46,7 +46,7 @@ D. Reduce the project scope
 
 ---
 
-### Q5 (UT-6.5, K2)
+### 🔷 Q5 (UT-6.5, K2)
 
 An organization with no UX budget, no dedicated UX roles, and ad-hoc usability activities is at which UX maturity level?
 
@@ -57,7 +57,7 @@ D. Integrated
 
 ---
 
-### Q6 (UT-6.2, K3)
+### 🔷 Q6 (UT-6.2, K3)
 
 In a Scrum team, usability testing should be:
 
@@ -68,7 +68,7 @@ D. Conducted only by the product owner
 
 ---
 
-### Q7 (UT-6.1, K2)
+### 🔷 Q7 (UT-6.1, K2)
 
 A Usability Engineer's PRIMARY focus is:
 
@@ -79,7 +79,7 @@ D. Creating project schedules
 
 ---
 
-### Q8 (UT-6.3, K2)
+### 🔷 Q8 (UT-6.3, K2)
 
 Which metric would BEST demonstrate the business value of usability improvements?
 
@@ -90,7 +90,7 @@ D. Developer satisfaction scores
 
 ---
 
-### Q9 (UT-6.4, K2)
+### 🔷 Q9 (UT-6.4, K2)
 
 The "We know our users" barrier is BEST addressed by:
 
@@ -101,7 +101,7 @@ D. Only testing with expert users
 
 ---
 
-### Q10 (UT-6.5, K2)
+### 🔷 Q10 (UT-6.5, K2)
 
 A "user-driven" organization (Level 5 UX maturity) is characterized by:
 
@@ -112,7 +112,7 @@ D. UX team exists but is not integrated
 
 ---
 
-### Q11 (UT-6.2, K3)
+### 🔷 Q11 (UT-6.2, K3)
 
 During which SDLC phase is paper prototype testing MOST appropriate?
 
@@ -123,7 +123,7 @@ D. Production deployment
 
 ---
 
-### Q12 (UT-6.3, K2)
+### 🔷 Q12 (UT-6.3, K2)
 
 The Forrester Research finding that every $1 invested in UX returns $100 is used to:
 
@@ -134,7 +134,7 @@ D. Measure code quality
 
 ---
 
-### Q13 (UT-6.4, K2)
+### 🔷 Q13 (UT-6.4, K2)
 
 A "feature-driven culture" that prioritizes quantity over quality is an example of:
 
@@ -145,7 +145,7 @@ D. A budget constraint
 
 ---
 
-### Q14 (UT-6.5, K2)
+### 🔷 Q14 (UT-6.5, K2)
 
 At which UX maturity level is usability testing standard for major projects and a UX team exists?
 
@@ -156,7 +156,7 @@ D. Integrated
 
 ---
 
-### Q15 (UT-6.1, K3)
+### 🔷 Q15 (UT-6.1, K3)
 
 A developer needs to ensure a form is accessible to screen readers. This requires:
 
@@ -167,7 +167,7 @@ D. Project management certification
 
 ---
 
-### Q16 (UT-6.2, K2)
+### 🔷 Q16 (UT-6.2, K2)
 
 Accessibility testing should be conducted:
 
@@ -178,7 +178,7 @@ D. Once per year
 
 ---
 
-### Q17 (UT-6.3, K2)
+### 🔷 Q17 (UT-6.3, K2)
 
 The cost of fixing a usability problem after release is typically:
 
@@ -189,7 +189,7 @@ D. Not measurable
 
 ---
 
-### Q18 (UT-6.4, K2)
+### 🔷 Q18 (UT-6.4, K2)
 
 "Usability is subjective" is BEST addressed by:
 
@@ -200,7 +200,7 @@ D. Asking the CEO for an opinion
 
 ---
 
-### Q19 (UT-6.5, K3)
+### 🔷 Q19 (UT-6.5, K3)
 
 An organization wants to improve from Level 2 (Limited) to Level 4 (Integrated) UX maturity. The MOST important action is:
 
@@ -211,7 +211,7 @@ D. Purchase expensive lab equipment
 
 ---
 
-### Q20 (UT-6.2, K2)
+### 🔷 Q20 (UT-6.2, K2)
 
 In Kanban, usability evaluation should be:
 
@@ -222,104 +222,104 @@ D. Conducted by the customer
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** UX researchers plan and conduct user research and usability tests.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** Shift-left = moving testing earlier in the lifecycle.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** Business benefits = reduced support, increased conversion, prevented rework.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** Show early testing saves time and integrate quick methods into existing processes.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** No budget, no roles, ad-hoc = Level 2 (Limited).
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** Scrum = integrate testing into each sprint.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** Usability engineers apply usability principles to design and evaluation.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** Reduced support calls and increased conversion = business value metrics.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** Show real user struggles and involve stakeholders in observation.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** Level 5 = user-centered culture, all decisions consider user impact.
 
-### Q11
+### 🔷 Q11
 **Answer: C**
 
 **Rationale:** Paper prototypes = design phase activity.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** ROI data = building the business case for usability investment.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** Feature-driven culture = organizational culture barrier.
 
-### Q14
+### 🔷 Q14
 **Answer: C**
 
 **Rationale:** Level 3 (Considered) = standard for major projects, UX team exists.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** Accessibility requires semantic HTML, ARIA, and proper labeling.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 
 **Rationale:** Accessibility testing = throughout SDLC alongside functional testing.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 
 **Rationale:** Post-release fixes are much more expensive than design-phase fixes.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 
 **Rationale:** Standardized metrics and benchmarking address subjectivity claims.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** Executive sponsorship + process integration = key to maturity improvement.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 
 **Rationale:** Kanban = continuous activity with UX in "Ready" criteria.

@@ -1,10 +1,10 @@
-# Case Study 3 — MBT Tool Selection
+# 📂 Case Study 3 — MBT Tool Selection
 
-## Context
+## ⭐ Context
 
 You are the Test Lead for AutoFlow, an automotive software company. Your team needs to adopt MBT for testing the infotainment system's state-dependent behavior. The system has 20+ states and complex transitions.
 
-## Requirements
+## 📑 Requirements
 
 - State machine modeling for 20+ states
 - Transition and transition pair coverage
@@ -13,7 +13,7 @@ You are the Test Lead for AutoFlow, an automotive software company. Your team ne
 - Support for UML state machine notation
 - Budget: $15,000/year
 
-## Candidate Tools
+## 🛠️ Candidate Tools
 
 | Tool | Notation | Coverage | Jenkins | Jira | Cost/Year |
 |------|----------|----------|---------|------|-----------|
@@ -25,7 +25,7 @@ You are the Test Lead for AutoFlow, an automotive software company. Your team ne
 
 ---
 
-## Task 1: Evaluate Tools
+## 🛠️ Task 1: Evaluate Tools
 
 Evaluate each tool against requirements and recommend the best choice.
 
@@ -43,7 +43,7 @@ Evaluate each tool against requirements and recommend the best choice.
 
 ---
 
-## Task 2: Pilot Plan
+## 🗓️ Task 2: Pilot Plan
 
 Design a 4-week pilot to evaluate TestCast.
 
@@ -78,7 +78,7 @@ Design a 4-week pilot to evaluate TestCast.
 
 ---
 
-## Task 3: Risk Mitigation
+## ⚠️ Task 3: Risk Mitigation
 
 Identify risks and mitigation strategies.
 

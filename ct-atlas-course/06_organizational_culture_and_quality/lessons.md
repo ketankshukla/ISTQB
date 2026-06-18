@@ -1,14 +1,14 @@
-# Chapter 6 — Organizational Culture and Quality: Lessons
+# 📘 Chapter 6 — Organizational Culture and Quality: Lessons
 
 ---
 
-## 6.1 Culture and Quality
+## 💎 6.1 Culture and Quality
 
-### What is Organizational Culture?
+### 🔷 What is Organizational Culture?
 
 The shared values, beliefs, and behaviors that shape how work gets done. Culture determines whether quality is everyone's job or just the testers' job.
 
-### Culture Types (Cameron & Quinn)
+### 🧪 Culture Types (Cameron & Quinn)
 
 | Type | Focus | Quality Implication |
 |------|-------|---------------------|
@@ -17,7 +17,7 @@ The shared values, beliefs, and behaviors that shape how work gets done. Culture
 | **Market** | Competition, results | Quality through customer focus and metrics |
 | **Hierarchy** | Stability, control | Quality through process and standards |
 
-### Quality Culture Indicators
+### 💎 Quality Culture Indicators
 
 - Defects are seen as learning opportunities, not blame events
 - Testing is valued as a skill, not a punishment
@@ -27,13 +27,13 @@ The shared values, beliefs, and behaviors that shape how work gets done. Culture
 
 ---
 
-## 6.2 Psychological Safety
+## ⭐ 6.2 Psychological Safety
 
-### Definition
+### 🔷 Definition
 
 The belief that one will not be punished or humiliated for speaking up with ideas, questions, concerns, or mistakes.
 
-### Impact on Quality
+### 💎 Impact on Quality
 
 | With Psychological Safety | Without |
 |------------------------|---------|
@@ -42,7 +42,7 @@ The belief that one will not be punished or humiliated for speaking up with idea
 | Constructive disagreement improves decisions | Groupthink leads to poor choices |
 | Admitting mistakes enables learning | Mistakes covered up, repeated |
 
-### Building Psychological Safety
+### 🔷 Building Psychological Safety
 
 | Action | Example |
 |--------|---------|
@@ -53,13 +53,13 @@ The belief that one will not be punished or humiliated for speaking up with idea
 
 ---
 
-## 6.3 Quality Mindset
+## 💎 6.3 Quality Mindset
 
-### Definition
+### 🔷 Definition
 
 A quality mindset is the belief that quality is everyone's responsibility and that preventing defects is better than finding them.
 
-### Building a Quality Mindset
+### 💎 Building a Quality Mindset
 
 | Technique | Application |
 |-----------|-------------|
@@ -69,7 +69,7 @@ A quality mindset is the belief that quality is everyone's responsibility and th
 | **Shift-left testing** | Testers involved in requirements and design |
 | **TDD/BDD** | Tests define expected behavior before implementation |
 
-### Quality Anti-Patterns
+### 💎 Quality Anti-Patterns
 
 | Anti-Pattern | Better Approach |
 |--------------|----------------|
@@ -80,9 +80,9 @@ A quality mindset is the belief that quality is everyone's responsibility and th
 
 ---
 
-## 6.4 Collaboration Models
+## 📐 6.4 Collaboration Models
 
-### Dev-Test Collaboration
+### 🔷 Dev-Test Collaboration
 
 | Model | Description | When to Use |
 |-------|-------------|-------------|
@@ -91,7 +91,7 @@ A quality mindset is the belief that quality is everyone's responsibility and th
 | **Embedded** | Tester sits with dev pair | Complex features, tight timelines |
 | **Whole team** | Everyone tests; no dedicated QA role | Extreme programming, high maturity |
 
-### Tester-Developer Relationship
+### 🔷 Tester-Developer Relationship
 
 | Healthy | Unhealthy |
 |---------|-----------|
@@ -102,9 +102,9 @@ A quality mindset is the belief that quality is everyone's responsibility and th
 
 ---
 
-## 6.5 Continuous Improvement at Scale
+## ⭐ 6.5 Continuous Improvement at Scale
 
-### Kaizen Principles
+### 📜 Kaizen Principles
 
 | Principle | Application |
 |-----------|-------------|
@@ -113,7 +113,7 @@ A quality mindset is the belief that quality is everyone's responsibility and th
 | **No blame** | Focus on process, not people |
 | **Measure impact** | Did the change help? |
 
-### Improvement Mechanisms
+### 🔷 Improvement Mechanisms
 
 | Mechanism | Scope | Frequency |
 |-----------|-------|-----------|
@@ -122,7 +122,7 @@ A quality mindset is the belief that quality is everyone's responsibility and th
 | **Communities of practice** | Skill area | Monthly |
 | **Hackathons** | Innovation | Quarterly |
 
-### Scaling Improvement
+### 🔷 Scaling Improvement
 
 - Share successful experiments across teams
 - Create playbook of proven practices
@@ -131,9 +131,9 @@ A quality mindset is the belief that quality is everyone's responsibility and th
 
 ---
 
-## 6.6 Change Management for Quality
+## 🗂️ 6.6 Change Management for Quality
 
-### Kotter's 8 Steps Applied to Quality
+### 💎 Kotter's 8 Steps Applied to Quality
 
 | Step | Quality Initiative |
 |------|-------------------|
@@ -146,7 +146,7 @@ A quality mindset is the belief that quality is everyone's responsibility and th
 | 7. Sustain | Expand practices; don't declare victory too early |
 | 8. Anchor | Quality practices become standard operating procedure |
 
-### Common Resistance
+### 🔷 Common Resistance
 
 | Resistance | Response |
 |------------|----------|
@@ -157,9 +157,9 @@ A quality mindset is the belief that quality is everyone's responsibility and th
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Culture Assessment
+### 💡 Worked Example 1: Culture Assessment
 
 **Scenario:** Assess quality culture in an organization.
 
@@ -176,7 +176,7 @@ A quality mindset is the belief that quality is everyone's responsibility and th
 - Train all teams on effective retrospectives
 - Pilot Three Amigos in one team; share results
 
-### Worked Example 2: Psychological Safety Intervention
+### 💡 Worked Example 2: Psychological Safety Intervention
 
 **Scenario:** A team stops speaking up in retrospectives after a manager criticized suggestions.
 
@@ -187,7 +187,7 @@ A quality mindset is the belief that quality is everyone's responsibility and th
 4. Implement one small suggestion immediately to rebuild trust
 5. Follow up: "Last retro we tried X; how did it work?"
 
-### Worked Example 3: Scaling a Quality Practice
+### 💡 Worked Example 3: Scaling a Quality Practice
 
 **Scenario:** One team's "test-first" approach reduced escapes by 50%. Scale it.
 

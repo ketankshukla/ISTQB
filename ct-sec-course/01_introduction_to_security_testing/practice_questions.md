@@ -1,8 +1,8 @@
-# Chapter 1 — Introduction to Security Testing: Practice Questions
+# ❓ Chapter 1 — Introduction to Security Testing: Practice Questions
 
 ---
 
-### Q1 (SEC-1.1, K1)
+### 🔷 Q1 (SEC-1.1, K1)
 
 Which of the following is part of the CIA triad?
 
@@ -13,7 +13,7 @@ D. Auditing
 
 ---
 
-### Q2 (SEC-1.1, K2)
+### 🔷 Q2 (SEC-1.1, K2)
 
 A system encrypts all stored data but does not verify that data hasn't been tampered with. The PRIMARY missing security property is:
 
@@ -24,7 +24,7 @@ D. Authentication
 
 ---
 
-### Q3 (SEC-1.2, K2)
+### 🔷 Q3 (SEC-1.2, K2)
 
 The process of verifying a user's identity is called:
 
@@ -35,7 +35,7 @@ D. Accounting
 
 ---
 
-### Q4 (SEC-1.2, K2)
+### 🔷 Q4 (SEC-1.2, K2)
 
 A user successfully logs in but cannot access an admin function. This is a failure of:
 
@@ -46,7 +46,7 @@ D. Integrity
 
 ---
 
-### Q5 (SEC-1.3, K1)
+### 🔷 Q5 (SEC-1.3, K1)
 
 A weakness in a system that could be exploited is called a:
 
@@ -57,7 +57,7 @@ D. Countermeasure
 
 ---
 
-### Q6 (SEC-1.3, K2)
+### 🔷 Q6 (SEC-1.3, K2)
 
 Risk is BEST defined as:
 
@@ -68,7 +68,7 @@ D. An unauthorized user
 
 ---
 
-### Q7 (SEC-1.4, K2)
+### 🔷 Q7 (SEC-1.4, K2)
 
 The PRIMARY reason security testing is needed in addition to functional testing is:
 
@@ -79,7 +79,7 @@ D. Functional testing is only for mobile apps
 
 ---
 
-### Q8 (SEC-1.5, K1)
+### 🔷 Q8 (SEC-1.5, K1)
 
 Which OWASP category involves sending untrusted data to interpreters?
 
@@ -90,7 +90,7 @@ D. Security Misconfiguration
 
 ---
 
-### Q9 (SEC-1.5, K2)
+### 🔷 Q9 (SEC-1.5, K2)
 
 Using components with known vulnerabilities is categorized under OWASP as:
 
@@ -101,7 +101,7 @@ D. Security Logging Failures
 
 ---
 
-### Q10 (SEC-1.2, K2)
+### 🔷 Q10 (SEC-1.2, K2)
 
 Multi-factor authentication (MFA) primarily enhances:
 
@@ -112,7 +112,7 @@ D. Non-repudiation only
 
 ---
 
-### Q11 (SEC-1.1, K2)
+### 🔷 Q11 (SEC-1.1, K2)
 
 A hospital system ensures doctors can access patient records 24/7. This primarily demonstrates:
 
@@ -123,7 +123,7 @@ D. Authentication
 
 ---
 
-### Q12 (SEC-1.3, K2)
+### 🔷 Q12 (SEC-1.3, K2)
 
 An attacker is a:
 
@@ -134,7 +134,7 @@ D. Control
 
 ---
 
-### Q13 (SEC-1.5, K2)
+### 🔷 Q13 (SEC-1.5, K2)
 
 Missing security hardening and default accounts are examples of:
 
@@ -145,7 +145,7 @@ D. Insecure Design
 
 ---
 
-### Q14 (SEC-1.6, K2)
+### 🔷 Q14 (SEC-1.6, K2)
 
 A functional test for a login feature verifies that valid credentials grant access. A security test for the same feature would additionally verify:
 
@@ -156,7 +156,7 @@ D. The username field accepts 50 characters
 
 ---
 
-### Q15 (SEC-1.2, K2)
+### 🔷 Q15 (SEC-1.2, K2)
 
 Non-repudiation is achieved through:
 
@@ -167,7 +167,7 @@ D. Load balancers
 
 ---
 
-### Q16 (SEC-1.3, K2)
+### 🔷 Q16 (SEC-1.3, K2)
 
 A countermeasure is:
 
@@ -178,7 +178,7 @@ D. A type of exploit
 
 ---
 
-### Q17 (SEC-1.5, K2)
+### 🔷 Q17 (SEC-1.5, K2)
 
 An attacker tricks a user into performing an unwanted action on a web application. This is:
 
@@ -189,7 +189,7 @@ D. Broken Access Control
 
 ---
 
-### Q18 (SEC-1.1, K2)
+### 🔷 Q18 (SEC-1.1, K2)
 
 A system prevents unauthorized modification of data. This is an example of:
 
@@ -200,7 +200,7 @@ D. Authentication
 
 ---
 
-### Q19 (SEC-1.4, K2)
+### 🔷 Q19 (SEC-1.4, K2)
 
 Which is a PRIMARY objective of security testing?
 
@@ -211,7 +211,7 @@ D. Make the user interface more attractive
 
 ---
 
-### Q20 (SEC-1.2, K2)
+### 🔷 Q20 (SEC-1.2, K2)
 
 Role-Based Access Control (RBAC) is an example of:
 
@@ -222,104 +222,104 @@ D. Encryption
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** CIA triad = Confidentiality, Integrity, Availability.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** Encryption = confidentiality. No tamper verification = missing integrity.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** Authentication = verifying identity.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** Login success = authentication OK. Missing access = authorization failure.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** Weakness that can be exploited = vulnerability.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** Risk = potential for loss when threat exploits vulnerability.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** Functional = features work. Security = features resist misuse/attacks.
 
-### Q8
+### 🔷 Q8
 **Answer: C**
 
 **Rationale:** Untrusted data to interpreters = Injection (OWASP A03).
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** Known vulnerable components = Vulnerable and Outdated Components (OWASP A06).
 
-### Q10
+### 🔷 Q10
 **Answer: C**
 
 **Rationale:** MFA = stronger authentication = better access control = confidentiality.
 
-### Q11
+### 🔷 Q11
 **Answer: C**
 
 **Rationale:** 24/7 access = availability.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** Attacker = potential cause of unwanted incident = threat.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** Missing hardening, default accounts = Security Misconfiguration (OWASP A05).
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** Security test = verify attack resistance (SQL injection).
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** Non-repudiation = digital signatures + tamper-proof logs.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 
 **Rationale:** Countermeasure = safeguard to reduce risk.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 
 **Rationale:** Tricking user into unwanted action = CSRF.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 
 **Rationale:** Preventing unauthorized modification = integrity.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** Security testing = identify vulnerabilities before exploitation.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 
 **Rationale:** RBAC = access based on roles = authorization.

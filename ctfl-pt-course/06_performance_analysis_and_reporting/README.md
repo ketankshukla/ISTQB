@@ -1,6 +1,6 @@
-# Chapter 6 — Performance Analysis and Reporting
+# 🔬 Chapter 6 — Performance Analysis and Reporting
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~15% (~3 questions out of 20)
 - **K-levels:** K2, K3
@@ -8,7 +8,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -20,7 +20,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts
+## ⭐ Key Concepts
 
 - Result analysis techniques
 - Bottleneck identification

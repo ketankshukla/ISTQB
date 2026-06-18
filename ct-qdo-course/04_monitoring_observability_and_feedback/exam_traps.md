@@ -1,6 +1,6 @@
-# Chapter 4 — Monitoring, Observability, and Feedback: Exam Traps
+# 🪤 Chapter 4 — Monitoring, Observability, and Feedback: Exam Traps
 
-## Trap 1: Confusing Monitoring with Observability
+## 🪤 Trap 1: Confusing Monitoring with Observability
 
 **Trap:** Monitoring = predefined metrics. Observability = ability to explore unknown issues. Observability requires monitoring but goes beyond it.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Alerting on Symptoms, Not Causes
+## 🪤 Trap 2: Alerting on Symptoms, Not Causes
 
 **Trap:** Alert on user-impacting symptoms (high error rate, slow responses). Don't alert on every internal metric.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Thinking Error Budgets Mean Lower Quality
+## 🪤 Trap 3: Thinking Error Budgets Mean Lower Quality
 
 **Trap:** Error budgets accept some unreliability to enable faster innovation. They don't excuse poor quality.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Treating Chaos Engineering as Reckless
+## 🪤 Trap 4: Treating Chaos Engineering as Reckless
 
 **Trap:** Chaos engineering is controlled, measured, and safe. It has hypotheses, abort criteria, and blast radius controls.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Ignoring Production Feedback
+## 🪤 Trap 5: Ignoring Production Feedback
 
 **Trap:** Production data is the ultimate validation. Ignoring it misses real-world issues.
 

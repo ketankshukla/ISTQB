@@ -1,6 +1,6 @@
-# Chapter 2 — API Test Analysis and Design: Exam Traps
+# 🪤 Chapter 2 — API Test Analysis and Design: Exam Traps
 
-## Trap 1: Testing Only Happy Paths
+## 🪤 Trap 1: Testing Only Happy Paths
 
 **Trap:** API testing must include negative tests. Invalid inputs, missing fields, and boundary values are where many defects hide.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Testing Only Boundary Values Within Range
+## 🪤 Trap 2: Testing Only Boundary Values Within Range
 
 **Trap:** BVA tests values ON the boundary AND just outside the boundary. Testing only inside the range misses boundary defects.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Forgetting Null/Empty Tests
+## 🪤 Trap 3: Forgetting Null/Empty Tests
 
 **Trap:** Null values, empty strings, and missing fields are common sources of API defects. They must be explicitly tested.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Testing All Combinations Exhaustively
+## 🪤 Trap 4: Testing All Combinations Exhaustively
 
 **Trap:** For APIs with many parameters, testing all combinations is impractical. Use weak robust EP to test one invalid parameter at a time.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Confusing Positive and Negative Testing
+## 🪤 Trap 5: Confusing Positive and Negative Testing
 
 **Trap:** Positive = valid inputs, expected success. Negative = invalid inputs, expected error handling.
 

@@ -1,6 +1,6 @@
-# Chapter 4 — Security Test Automation: Exam Traps
+# 🪤 Chapter 4 — Security Test Automation: Exam Traps
 
-## Trap 1: Running Security Scans Only Before Release
+## 🪤 Trap 1: Running Security Scans Only Before Release
 
 **Trap:** Shift-left means running security scans continuously, not just at release.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Blocking All Builds on Any Finding
+## 🪤 Trap 2: Blocking All Builds on Any Finding
 
 **Trap:** Not all findings are equal. Block on critical/high; alert on medium/low with SLA.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Ignoring False Positives
+## 🪤 Trap 3: Ignoring False Positives
 
 **Trap:** Unmanaged false positives create alert fatigue. They must be triaged and suppressed with justification.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Security Testing Without Developer Involvement
+## 🪤 Trap 4: Security Testing Without Developer Involvement
 
 **Trap:** Security is most effective when developers own it, not just security teams.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Tool Selection Based on Brand Alone
+## 🪤 Trap 5: Tool Selection Based on Brand Alone
 
 **Trap:** Tools must fit the tech stack, integrate with CI/CD, and produce actionable results.
 

@@ -1,6 +1,6 @@
-# Case Study 3 — Reviews and Test Tool Implementation
+# 📂 Case Study 3 — Reviews and Test Tool Implementation
 
-## Context
+## ⭐ Context
 
 You are a Test Lead at FinanceFlow, a financial services company modernizing its legacy loan processing system. The project involves:
 - Rewriting the core loan application processing module
@@ -10,7 +10,7 @@ You are a Test Lead at FinanceFlow, a financial services company modernizing its
 
 The project is 6 months in, with 3 months until the planned release. The team is 15 developers, 5 testers, 2 business analysts, and 1 DevOps engineer.
 
-## Current Situation
+## ⭐ Current Situation
 
 - Requirements documents have been created but not formally reviewed
 - The automated rules engine has 2,000+ business rules
@@ -21,7 +21,7 @@ The project is 6 months in, with 3 months until the planned release. The team is
 
 ---
 
-## Task 1: Review Strategy
+## ♟️ Task 1: Review Strategy
 
 Design a review strategy for the project documents. For each document type, recommend a review type and justify your choice.
 
@@ -57,7 +57,7 @@ Design a review strategy for the project documents. For each document type, reco
 
 ---
 
-## Task 2: Review Process Design
+## 🔎 Task 2: Review Process Design
 
 For the Rules Engine Inspection, design the complete review process including entry criteria, roles, meeting structure, and exit criteria.
 
@@ -96,7 +96,7 @@ For the Rules Engine Inspection, design the complete review process including en
 
 ---
 
-## Task 3: Test Tool Selection
+## 🛠️ Task 3: Test Tool Selection
 
 Management has budgeted $30,000 for test automation tooling. Select appropriate tools for:
 1. Web portal UI automation
@@ -156,7 +156,7 @@ Justify your selections against technical fit, cost, and organizational fit.
 
 ---
 
-## Task 4: Automation Framework Design
+## 🎨 Task 4: Automation Framework Design
 
 Design an automation framework for the web portal that addresses:
 1. The team has 1 automation engineer and 4 manual testers
@@ -248,7 +248,7 @@ def test_loan_approval_for_qualified_applicant():
 
 ---
 
-## Task 5: Implementation Risk Mitigation
+## ⚠️ Task 5: Implementation Risk Mitigation
 
 Identify the top 5 risks in introducing test automation to this project and propose mitigations.
 

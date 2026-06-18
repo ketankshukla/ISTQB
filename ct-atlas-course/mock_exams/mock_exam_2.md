@@ -1,10 +1,10 @@
-# CT-ATLaS Mock Exam 2
+# 📝 CT-ATLaS Mock Exam 2
 
 **Instructions:** 40 questions, 60 minutes, single best answer.
 
 ---
 
-### Q1-Q10
+### 🔷 Q1-Q10
 
 1. Culture affects quality: A) Only tools B) Shapes responsibility C) Only budgets D) Only hiring — **Shapes responsibility**
 2. Psychological safety: A) Physical B) Speak up safely C) Job D) Network — **Speak up safely**
@@ -19,7 +19,7 @@
 
 ---
 
-### Q11-Q20
+### 🔷 Q11-Q20
 
 11. DoR: A) Code review B) Clear AC before dev C) Only tests D) Only design — **Clear AC before dev**
 12. Blameless post-mortem: A) Who caused B) System improvements C) Only docs D) Only penalties — **System improvements**
@@ -34,7 +34,7 @@
 
 ---
 
-### Q21-Q30
+### 🔷 Q21-Q30
 
 21. Shared framework: A) Restrictions B) Consistency + reuse C) Only large D) Only one — **Consistency + reuse**
 22. Contract tests: A) Only UI B) Independent verify C) Only DB D) Only perf — **Independent verify**
@@ -49,7 +49,7 @@
 
 ---
 
-### Q31-Q40
+### 🔷 Q31-Q40
 
 31. Data versioning: A) Only code B) Track with code C) Only prod D) Only DB — **Track with code**
 32. Parallel pipelines: A) Conflicts B) Faster C) Only monolith D) Only microservices — **Faster**
@@ -64,4 +64,4 @@
 
 ---
 
-## End of Mock Exam 2
+## 📝 End of Mock Exam 2

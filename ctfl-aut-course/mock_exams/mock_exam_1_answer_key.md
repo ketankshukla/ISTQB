@@ -1,6 +1,6 @@
-# CTFL-AuT Mock Exam 1 — Answer Key
+# 📝 CTFL-AuT Mock Exam 1 — Answer Key
 
-## Answers
+## ✔️ Answers
 
 | Question | Answer | Topic |
 |----------|--------|-------|
@@ -25,7 +25,7 @@
 | Q19 | B | Powertrain ECU |
 | Q20 | B | MIL for algorithms |
 
-## Score Interpretation
+## ⭐ Score Interpretation
 
 | Score | Status |
 |-------|--------|

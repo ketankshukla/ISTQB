@@ -1,6 +1,6 @@
-# Case Study 1 — CI/CD Pipeline Quality Implementation
+# 📂 Case Study 1 — CI/CD Pipeline Quality Implementation
 
-## Context
+## ⭐ Context
 
 You are the Quality Lead for CloudRetail, an e-commerce company moving from monthly releases to continuous deployment. The current release process takes 3 weeks and has a 30% failure rate.
 
@@ -18,7 +18,7 @@ You are the Quality Lead for CloudRetail, an e-commerce company moving from mont
 
 ---
 
-## Task 1: Pipeline Design
+## 🎨 Task 1: Pipeline Design
 
 **Question:** Design a CI/CD pipeline with appropriate quality gates.
 
@@ -67,7 +67,7 @@ quality_gates:
 
 ---
 
-## Task 2: Shift-Left Implementation
+## ⭐ Task 2: Shift-Left Implementation
 
 **Question:** Plan shift-left testing activities.
 
@@ -86,7 +86,7 @@ quality_gates:
 
 ---
 
-## Task 3: Deployment Strategy
+## ♟️ Task 3: Deployment Strategy
 
 **Question:** Recommend a deployment strategy for the checkout service.
 
@@ -109,7 +109,7 @@ quality_gates:
 
 ---
 
-## Task 4: Observability Setup
+## ⭐ Task 4: Observability Setup
 
 **Question:** Design monitoring and alerting for the new pipeline.
 

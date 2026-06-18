@@ -1,8 +1,8 @@
-# Chapter 2 — Scaling Agile Testing: Practice Questions
+# ❓ Chapter 2 — Scaling Agile Testing: Practice Questions
 
 ---
 
-### Q1 (ATLaS-2.1, K2)
+### 🔷 Q1 (ATLaS-2.1, K2)
 
 At scale, integration testing is needed because:
 
@@ -13,7 +13,7 @@ D. Only for security
 
 ---
 
-### Q2 (ATLaS-2.2, K2)
+### 🔷 Q2 (ATLaS-2.2, K2)
 
 A Scrum of Scrums is used to:
 
@@ -24,7 +24,7 @@ D. Only for sprint planning
 
 ---
 
-### Q3 (ATLaS-2.3, K2)
+### 🔷 Q3 (ATLaS-2.3, K2)
 
 Ephemeral test environments:
 
@@ -35,7 +35,7 @@ D. Only for manual testing
 
 ---
 
-### Q4 (ATLaS-2.4, K2)
+### 🔷 Q4 (ATLaS-2.4, K2)
 
 The Definition of Done at scale should:
 
@@ -46,7 +46,7 @@ D. Only apply to testers
 
 ---
 
-### Q5 (ATLaS-2.1, K2)
+### 🔷 Q5 (ATLaS-2.1, K2)
 
 System demos in SAFe:
 
@@ -57,7 +57,7 @@ D. Only demo one team's work
 
 ---
 
-### Q6 (ATLaS-2.2, K3)
+### 🔷 Q6 (ATLaS-2.2, K3)
 
 Contract testing helps with:
 
@@ -68,7 +68,7 @@ D. Only performance testing
 
 ---
 
-### Q7 (ATLaS-2.3, K2)
+### 🔷 Q7 (ATLaS-2.3, K2)
 
 Environment contention at scale causes:
 
@@ -79,7 +79,7 @@ D. Only lower costs
 
 ---
 
-### Q8 (ATLaS-2.4, K2)
+### 🔷 Q8 (ATLaS-2.4, K2)
 
 Technical dependencies between teams should be mitigated by:
 
@@ -90,7 +90,7 @@ D. Only longer sprints
 
 ---
 
-### Q9 (ATLaS-2.1, K2)
+### 🔷 Q9 (ATLaS-2.1, K2)
 
 Regression testing at scale is best handled by:
 
@@ -101,7 +101,7 @@ D. Only by a dedicated team
 
 ---
 
-### Q10 (ATLaS-2.2, K2)
+### 🔷 Q10 (ATLaS-2.2, K2)
 
 Infrastructure as Code (IaC) for test environments:
 
@@ -112,7 +112,7 @@ D. Only applies to local dev
 
 ---
 
-### Q11 (ATLaS-2.3, K2)
+### 🔷 Q11 (ATLaS-2.3, K2)
 
 Feature toggles allow:
 
@@ -123,7 +123,7 @@ D. Only database changes
 
 ---
 
-### Q12 (ATLaS-2.4, K2)
+### 🔷 Q12 (ATLaS-2.4, K2)
 
 A Release DoD typically includes:
 
@@ -134,7 +134,7 @@ D. Only sprint planning
 
 ---
 
-### Q13 (ATLaS-2.1, K2)
+### 🔷 Q13 (ATLaS-2.1, K2)
 
 Value stream mapping at scale helps:
 
@@ -145,7 +145,7 @@ D. Only measure individual productivity
 
 ---
 
-### Q14 (ATLaS-2.2, K2)
+### 🔷 Q14 (ATLaS-2.2, K2)
 
 System Team in SAFe handles:
 
@@ -156,7 +156,7 @@ D. Only marketing
 
 ---
 
-### Q15 (ATLaS-2.3, K2)
+### 🔷 Q15 (ATLaS-2.3, K2)
 
 Test data conflicts in shared environments are reduced by:
 
@@ -167,7 +167,7 @@ D. Only deleting data after each test
 
 ---
 
-### Q16 (ATLaS-2.4, K2)
+### 🔷 Q16 (ATLaS-2.4, K2)
 
 PI planning test objectives should include:
 
@@ -178,7 +178,7 @@ D. Only management reports
 
 ---
 
-### Q17 (ATLaS-2.1, K2)
+### 🔷 Q17 (ATLaS-2.1, K2)
 
 Continuous integration at scale requires:
 
@@ -189,7 +189,7 @@ D. Only manual builds
 
 ---
 
-### Q18 (ATLaS-2.2, K2)
+### 🔷 Q18 (ATLaS-2.2, K2)
 
 Accessibility testing in the DoD:
 
@@ -200,7 +200,7 @@ D. Only for mobile apps
 
 ---
 
-### Q19 (ATLaS-2.3, K2)
+### 🔷 Q19 (ATLaS-2.3, K2)
 
 Environment booking systems help:
 
@@ -211,7 +211,7 @@ D. Only for development
 
 ---
 
-### Q20 (ATLaS-2.4, K2)
+### 🔷 Q20 (ATLaS-2.4, K2)
 
 The whole-team approach at scale applies to:
 
@@ -222,84 +222,84 @@ D. Only testers
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** Team quality ≠ system quality.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** Scrum of Scrums = cross-team issues.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** Ephemeral = created/destroyed per branch.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** DoD = baseline + team additions.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** System demo = integrated validation.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Contract tests = independent testing.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Contention = delays + conflicts.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Dependencies = mocks + contracts + early integration.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** Scale regression = automation + CI/CD.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** IaC = consistent environments.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Toggles = merge incomplete features safely.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Release DoD = regression + security + docs.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Value stream = identify bottlenecks.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** System Team = integration + pipeline.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Synthetic data = reduces conflicts.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** PI objectives = team + integration.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** CI at scale = frequent merges + auto verify.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Accessibility = quality criterion.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Booking = coordinate shared envs.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** Whole-team = all teams, shared quality.

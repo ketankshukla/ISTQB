@@ -1,6 +1,6 @@
-# Chapter 3 — Test Automation Architecture and Design: Exam Traps
+# 🪤 Chapter 3 — Test Automation Architecture and Design: Exam Traps
 
-## Trap 1: Confusing TAA with TAF
+## 🪤 Trap 1: Confusing TAA with TAF
 
 **Trap:** TAA = architecture (design). TAF = framework (implementation). Strategy defines TAA; engineers build TAF.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Selecting Tools Based on Popularity Alone
+## 🪤 Trap 2: Selecting Tools Based on Popularity Alone
 
 **Trap:** Tool must fit the tech stack and team skills. Popular tools can be wrong choices.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Using Record-and-Playback for Production
+## 🪤 Trap 3: Using Record-and-Playback for Production
 
 **Trap:** Recorded scripts are unmaintainable. Use them for prototyping, not production automation.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Hard-Coding All Test Data
+## 🪤 Trap 4: Hard-Coding All Test Data
 
 **Trap:** Hard-coded data makes tests brittle and prevents data-driven execution.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Ignoring Configuration Management
+## 🪤 Trap 5: Ignoring Configuration Management
 
 **Trap:** Tests must run across environments. Hard-coded URLs and credentials break portability.
 

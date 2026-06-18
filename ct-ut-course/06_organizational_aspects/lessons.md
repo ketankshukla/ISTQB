@@ -1,10 +1,10 @@
-# Chapter 6 — Organizational Aspects of Usability Testing: Lessons
+# 📘 Chapter 6 — Organizational Aspects of Usability Testing: Lessons
 
 ---
 
-## 6.1 Roles in Usability Testing
+## 🖱️ 6.1 Roles in Usability Testing
 
-### UX Researcher
+### 🔷 UX Researcher
 
 **Responsibilities:**
 - Plan and conduct user research
@@ -19,7 +19,7 @@
 - Communication and storytelling
 - Empathy for users
 
-### Usability Engineer
+### 🖱️ Usability Engineer
 
 **Responsibilities:**
 - Apply usability principles to design and evaluation
@@ -32,7 +32,7 @@
 - Prototyping and evaluation techniques
 - Technical understanding of software development
 
-### Test Manager (in Usability Context)
+### 🗂️ Test Manager (in Usability Context)
 
 **Responsibilities:**
 - Plan and manage usability testing activities
@@ -41,7 +41,7 @@
 - Report usability findings to stakeholders
 - Ensure usability testing aligns with project goals
 
-### Developer
+### 🔷 Developer
 
 **Responsibilities:**
 - Implement design and usability recommendations
@@ -54,7 +54,7 @@
 - Accessibility implementation (ARIA, semantic HTML)
 - Responsive design
 
-### Product Owner / Product Manager
+### 🗂️ Product Owner / Product Manager
 
 **Responsibilities:**
 - Define user needs and product requirements
@@ -62,7 +62,7 @@
 - Make decisions based on usability findings
 - Advocate for user-centered design
 
-### Interaction Designer / UI Designer
+### 🎨 Interaction Designer / UI Designer
 
 **Responsibilities:**
 - Design user interfaces
@@ -72,9 +72,9 @@
 
 ---
 
-## 6.2 Integrating Usability Testing into the SDLC
+## 🔁 6.2 Integrating Usability Testing into the SDLC
 
-### Shift-Left Testing
+### 🔷 Shift-Left Testing
 
 **Definition:** Moving testing activities earlier in the development lifecycle.
 
@@ -85,7 +85,7 @@
 - Test before release (summative validation)
 - Test after release (monitor real-world usage)
 
-### Integration Points
+### 🔗 Integration Points
 
 **Requirements Phase:**
 - Define user profiles and personas
@@ -113,7 +113,7 @@
 - User feedback collection
 - Continuous improvement based on real usage
 
-### Agile Integration
+### 🏃 Agile Integration
 
 **In Scrum:**
 - Usability testing in each sprint
@@ -128,9 +128,9 @@
 
 ---
 
-## 6.3 Business Value of Usability Testing
+## 🖱️ 6.3 Business Value of Usability Testing
 
-### Return on Investment (ROI)
+### 🔷 Return on Investment (ROI)
 
 **Cost of Usability Problems:**
 - Increased support calls (poor usability generates confusion)
@@ -163,7 +163,7 @@
 
 **ROI = ($180,000 - $40,000) / $40,000 = 350%**
 
-### Building the Business Case
+### 🔷 Building the Business Case
 
 **1. Quantify the Problem:**
 - Current support call volume related to UI confusion
@@ -183,9 +183,9 @@
 
 ---
 
-## 6.4 Organizational Barriers
+## ⭐ 6.4 Organizational Barriers
 
-### Common Barriers
+### 🔷 Common Barriers
 
 **1. "We know our users" (False Confidence):**
 - Team members think they understand users without research
@@ -246,9 +246,9 @@
 
 ---
 
-## 6.5 UX Maturity
+## ⭐ 6.5 UX Maturity
 
-### UX Maturity Model
+### 📐 UX Maturity Model
 
 Organizations progress through levels of UX maturity:
 
@@ -277,7 +277,7 @@ Organizations progress through levels of UX maturity:
 - All decisions consider user impact
 - Continuous user feedback drives product evolution
 
-### Assessing Your Organization
+### 🔷 Assessing Your Organization
 
 | Characteristic | Low Maturity | High Maturity |
 |----------------|-------------|---------------|
@@ -289,9 +289,9 @@ Organizations progress through levels of UX maturity:
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Building a Business Case
+### 💡 Worked Example 1: Building a Business Case
 
 **Scenario:** An e-commerce company has a 15% checkout abandonment rate. Support receives 500 calls per month about checkout confusion.
 
@@ -314,7 +314,7 @@ Organizations progress through levels of UX maturity:
 - Expected 30% reduction: $2,250/month savings
 - Annual savings: $27,000
 
-### Worked Example 2: Agile Integration Plan
+### 💡 Worked Example 2: Agile Integration Plan
 
 **Scenario:** Integrate usability testing into a Scrum team with 2-week sprints.
 
@@ -334,7 +334,7 @@ Organizations progress through levels of UX maturity:
 - 1 design refinement session (2 hours)
 - Total UX time: ~7 hours per sprint
 
-### Worked Example 3: Barrier Mitigation
+### 💡 Worked Example 3: Barrier Mitigation
 
 **Scenario:** A development team says they "don't have time" for usability testing.
 

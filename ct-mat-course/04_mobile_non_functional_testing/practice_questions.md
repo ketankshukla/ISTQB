@@ -1,8 +1,8 @@
-# Chapter 4 — Mobile Non-Functional Testing: Practice Questions
+# ❓ Chapter 4 — Mobile Non-Functional Testing: Practice Questions
 
 ---
 
-### Q1 (MAT-4.1, K2)
+### 🔷 Q1 (MAT-4.1, K2)
 
 Cold start time for a mobile app should ideally be:
 
@@ -13,7 +13,7 @@ D. Under 1 minute
 
 ---
 
-### Q2 (MAT-4.2, K2)
+### 🔷 Q2 (MAT-4.2, K2)
 
 High battery drain is often caused by:
 
@@ -24,7 +24,7 @@ D. Only network speed
 
 ---
 
-### Q3 (MAT-4.3, K2)
+### 🔷 Q3 (MAT-4.3, K2)
 
 Offline testing should verify:
 
@@ -35,7 +35,7 @@ D. Only push notifications
 
 ---
 
-### Q4 (MAT-4.4, K2)
+### 🔷 Q4 (MAT-4.4, K2)
 
 OWASP MASVS focuses on:
 
@@ -46,7 +46,7 @@ D. Only database encryption
 
 ---
 
-### Q5 (MAT-4.1, K2)
+### 🔷 Q5 (MAT-4.1, K2)
 
 Memory leak testing is important because:
 
@@ -57,7 +57,7 @@ D. It is only a cosmetic issue
 
 ---
 
-### Q6 (MAT-4.2, K3)
+### 🔷 Q6 (MAT-4.2, K3)
 
 To reduce battery drain from location services:
 
@@ -68,7 +68,7 @@ D. Never use GPS
 
 ---
 
-### Q7 (MAT-4.3, K2)
+### 🔷 Q7 (MAT-4.3, K2)
 
 Network throttling in testing simulates:
 
@@ -79,7 +79,7 @@ D. Only 5G speeds
 
 ---
 
-### Q8 (MAT-4.4, K2)
+### 🔷 Q8 (MAT-4.4, K2)
 
 Storing passwords in plain text in local storage is:
 
@@ -90,7 +90,7 @@ D. Only for debugging
 
 ---
 
-### Q9 (MAT-4.1, K2)
+### 🔷 Q9 (MAT-4.1, K2)
 
 Testing with VoiceOver/TalkBack verifies:
 
@@ -101,7 +101,7 @@ D. Only font size
 
 ---
 
-### Q10 (MAT-4.2, K2)
+### 🔷 Q10 (MAT-4.2, K2)
 
 Battery Historian is a tool for:
 
@@ -112,7 +112,7 @@ D. Network routing
 
 ---
 
-### Q11 (MAT-4.3, K2)
+### 🔷 Q11 (MAT-4.3, K2)
 
 A "Reduce Motion" accessibility setting should:
 
@@ -123,7 +123,7 @@ D. Only affect sound
 
 ---
 
-### Q12 (MAT-4.4, K2)
+### 🔷 Q12 (MAT-4.4, K2)
 
 Certificate pinning prevents:
 
@@ -134,7 +134,7 @@ D. Only memory leaks
 
 ---
 
-### Q13 (MAT-4.1, K2)
+### 🔷 Q13 (MAT-4.1, K2)
 
 Testing on low-end devices is important because:
 
@@ -145,7 +145,7 @@ D. They are the only devices allowed
 
 ---
 
-### Q14 (MAT-4.2, K2)
+### 🔷 Q14 (MAT-4.2, K2)
 
 Push notifications instead of polling reduce:
 
@@ -156,7 +156,7 @@ D. Only development time
 
 ---
 
-### Q15 (MAT-4.3, K2)
+### 🔷 Q15 (MAT-4.3, K2)
 
 Testing with airplane mode verifies:
 
@@ -167,7 +167,7 @@ D. Only in-app purchases
 
 ---
 
-### Q16 (MAT-4.4, K2)
+### 🔷 Q16 (MAT-4.4, K2)
 
 A memory leak is detected when:
 
@@ -178,7 +178,7 @@ D. Only when the app closes
 
 ---
 
-### Q17 (MAT-4.1, K2)
+### 🔷 Q17 (MAT-4.1, K2)
 
 Accessibility testing benefits:
 
@@ -189,7 +189,7 @@ D. Only children
 
 ---
 
-### Q18 (MAT-4.2, K2)
+### 🔷 Q18 (MAT-4.2, K2)
 
 High CPU usage causes:
 
@@ -200,7 +200,7 @@ D. Only network issues
 
 ---
 
-### Q19 (MAT-4.3, K2)
+### 🔷 Q19 (MAT-4.3, K2)
 
 Testing app behavior when storage is full verifies:
 
@@ -211,7 +211,7 @@ D. Only network connectivity
 
 ---
 
-### Q20 (MAT-4.4, K2)
+### 🔷 Q20 (MAT-4.4, K2)
 
 MobSF is used for:
 
@@ -222,84 +222,84 @@ D. Database design
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** Cold start target = under 3 seconds.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** Battery drain = background tasks, GPS, polling.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** Offline = cached content, errors, sync.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** MASVS = mobile security risks.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Leaks accumulate → slowdowns/crashes.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** "While Using" + stop on background = save battery.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Throttling = slow/intermittent networks.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Plain text passwords = critical security violation.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** VoiceOver/TalkBack = screen reader testing.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** Battery Historian = Android battery analysis.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Reduce Motion = disable/reduce animations.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Pinning = prevents MITM attacks.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Low-end devices reveal hidden performance issues.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Push = reduces server load and battery.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Airplane mode = offline behavior testing.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Leak = allocated but never released.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Accessibility = disabilities + situational limits.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** High CPU = battery drain and heat.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Full storage = graceful save failure handling.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** MobSF = mobile security testing.

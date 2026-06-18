@@ -1,8 +1,8 @@
-# Chapter 4 — Test Automation Implementation and Deployment: Practice Questions
+# ❓ Chapter 4 — Test Automation Implementation and Deployment: Practice Questions
 
 ---
 
-### Q1 (TAS-4.1, K2)
+### 🔷 Q1 (TAS-4.1, K2)
 
 Coding standards in automation improve:
 
@@ -13,7 +13,7 @@ D. Only test count
 
 ---
 
-### Q2 (TAS-4.2, K2)
+### 🔷 Q2 (TAS-4.2, K2)
 
 Tests that should run on every commit are:
 
@@ -24,7 +24,7 @@ D. Only performance tests
 
 ---
 
-### Q3 (TAS-4.3, K2)
+### 🔷 Q3 (TAS-4.3, K2)
 
 A flaky test is one that:
 
@@ -35,7 +35,7 @@ D. Only tests performance
 
 ---
 
-### Q4 (TAS-4.4, K2)
+### 🔷 Q4 (TAS-4.4, K2)
 
 Parallel test execution:
 
@@ -46,7 +46,7 @@ D. Only increases cost
 
 ---
 
-### Q5 (TAS-4.1, K2)
+### 🔷 Q5 (TAS-4.1, K2)
 
 Explicit waits are preferred over `Thread.sleep()` because:
 
@@ -57,7 +57,7 @@ D. They only work for APIs
 
 ---
 
-### Q6 (TAS-4.2, K2)
+### 🔷 Q6 (TAS-4.2, K2)
 
 Quality gates in CI/CD:
 
@@ -68,7 +68,7 @@ D. Only apply to production
 
 ---
 
-### Q7 (TAS-4.3, K2)
+### 🔷 Q7 (TAS-4.3, K2)
 
 Test pass rate is calculated as:
 
@@ -79,7 +79,7 @@ D. Execution time / Total tests
 
 ---
 
-### Q8 (TAS-4.4, K2)
+### 🔷 Q8 (TAS-4.4, K2)
 
 Containerized test execution with Docker provides:
 
@@ -90,7 +90,7 @@ D. Only UI testing
 
 ---
 
-### Q9 (TAS-4.1, K2)
+### 🔷 Q9 (TAS-4.1, K2)
 
 A test named `test_1` is:
 
@@ -101,7 +101,7 @@ D. Only for integration tests
 
 ---
 
-### Q10 (TAS-4.2, K2)
+### 🔷 Q10 (TAS-4.2, K2)
 
 Nightly regression test execution is appropriate for:
 
@@ -112,7 +112,7 @@ D. Only on-demand tests
 
 ---
 
-### Q11 (TAS-4.3, K2)
+### 🔷 Q11 (TAS-4.3, K2)
 
 Trend reports showing pass rate over time help identify:
 
@@ -123,7 +123,7 @@ D. Only team size
 
 ---
 
-### Q12 (TAS-4.4, K2)
+### 🔷 Q12 (TAS-4.4, K2)
 
 Cloud execution services (Sauce Labs, BrowserStack) are useful for:
 
@@ -134,7 +134,7 @@ D. Only security testing
 
 ---
 
-### Q13 (TAS-4.1, K2)
+### 🔷 Q13 (TAS-4.1, K2)
 
 The Arrange-Act-Assert pattern:
 
@@ -145,7 +145,7 @@ D. Only works for APIs
 
 ---
 
-### Q14 (TAS-4.2, K2)
+### 🔷 Q14 (TAS-4.2, K2)
 
 A build should fail in CI when:
 
@@ -156,7 +156,7 @@ D. Only on Fridays
 
 ---
 
-### Q15 (TAS-4.3, K2)
+### 🔷 Q15 (TAS-4.3, K2)
 
 Defect escape rate measures:
 
@@ -167,7 +167,7 @@ D. Only test execution time
 
 ---
 
-### Q16 (TAS-4.4, K2)
+### 🔷 Q16 (TAS-4.4, K2)
 
 Test scheduling should consider:
 
@@ -178,7 +178,7 @@ D. Only the tool's capability
 
 ---
 
-### Q17 (TAS-4.1, K2)
+### 🔷 Q17 (TAS-4.1, K2)
 
 Screenshots on test failure are:
 
@@ -189,7 +189,7 @@ D. Only for security tests
 
 ---
 
-### Q18 (TAS-4.2, K2)
+### 🔷 Q18 (TAS-4.2, K2)
 
 Smart test selection (running only affected tests):
 
@@ -200,7 +200,7 @@ D. Only works for microservices
 
 ---
 
-### Q19 (TAS-4.3, K2)
+### 🔷 Q19 (TAS-4.3, K2)
 
 A quality dashboard for management should show:
 
@@ -211,7 +211,7 @@ D. Only tool licenses
 
 ---
 
-### Q20 (TAS-4.4, K2)
+### 🔷 Q20 (TAS-4.4, K2)
 
 When a test fails due to an application bug:
 
@@ -222,84 +222,84 @@ D. Only re-run manually
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** Standards = maintainability + collaboration.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** Every commit = fast smoke tests.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** Flaky = inconsistent results.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** Parallel = faster but needs infrastructure.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Explicit waits = only as long as needed.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Quality gates = block if criteria not met.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Pass rate = Passed / Total × 100%.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Docker = consistent env + parallelization.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** Test names should be descriptive.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** Nightly = full regression (slow).
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Trends = gradual degradation.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Cloud = cross-browser without owning infra.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** AAA = Arrange, Act, Assert.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Fail based on quality gates.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Escape rate = production / total defects.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Scheduling = duration, change frequency, risk.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Screenshots = essential for UI debugging.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Smart selection = faster feedback.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Dashboard = high-level trends.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** App bug = log defect, quarantine if blocking.

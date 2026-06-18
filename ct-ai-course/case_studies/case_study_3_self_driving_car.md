@@ -1,6 +1,6 @@
-# Case Study 3 — Self-Driving Car Perception System
+# 📂 Case Study 3 — Self-Driving Car Perception System
 
-## Context
+## ⭐ Context
 
 You are the Safety Test Lead for AutoDrive, a company developing autonomous vehicle perception systems.
 
@@ -23,7 +23,7 @@ You are the Safety Test Lead for AutoDrive, a company developing autonomous vehi
 - Safety-critical — failure can cause death
 - Simulation vs. real-world testing trade-offs
 
-## Task 1: Test Strategy for Infinite Scenarios
+## ♟️ Task 1: Test Strategy for Infinite Scenarios
 
 **Question:** Design a test strategy for a system with infinite possible scenarios.
 
@@ -60,7 +60,7 @@ You are the Safety Test Lead for AutoDrive, a company developing autonomous vehi
 
 ---
 
-## Task 2: Metamorphic Testing for Perception
+## ⭐ Task 2: Metamorphic Testing for Perception
 
 **Question:** Design metamorphic relations for testing object detection.
 
@@ -89,7 +89,7 @@ You are the Safety Test Lead for AutoDrive, a company developing autonomous vehi
 
 ---
 
-## Task 3: Adversarial and Robustness Testing
+## ⭐ Task 3: Adversarial and Robustness Testing
 
 **Question:** Design adversarial tests for the perception system.
 
@@ -117,7 +117,7 @@ You are the Safety Test Lead for AutoDrive, a company developing autonomous vehi
 
 ---
 
-## Task 4: Safety Validation Metrics
+## 📊 Task 4: Safety Validation Metrics
 
 **Question:** Define metrics to validate the safety of the perception system.
 
@@ -147,7 +147,7 @@ You are the Safety Test Lead for AutoDrive, a company developing autonomous vehi
 
 ---
 
-## Task 5: Simulation vs. Real-World Testing
+## ⭐ Task 5: Simulation vs. Real-World Testing
 
 **Question:** Balance simulation and real-world testing for safety validation.
 

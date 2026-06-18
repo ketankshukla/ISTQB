@@ -1,8 +1,8 @@
-# Chapter 4 — Test Automation in Agile: Practice Questions
+# ❓ Chapter 4 — Test Automation in Agile: Practice Questions
 
 ---
 
-### Q1 (AT-4.1, K2)
+### 🔷 Q1 (AT-4.1, K2)
 
 Test automation in agile is BEST described as:
 
@@ -13,7 +13,7 @@ D. A way to eliminate the tester role
 
 ---
 
-### Q2 (AT-4.2, K2)
+### 🔷 Q2 (AT-4.2, K2)
 
 Which of the following is the BEST candidate for automation?
 
@@ -24,7 +24,7 @@ D. Usability testing with real users
 
 ---
 
-### Q3 (AT-4.2, K3)
+### 🔷 Q3 (AT-4.2, K3)
 
 A team wants to automate business logic tests. The MOST appropriate level is:
 
@@ -35,7 +35,7 @@ D. Performance testing level
 
 ---
 
-### Q4 (AT-4.3, K2)
+### 🔷 Q4 (AT-4.3, K2)
 
 Continuous Integration (CI) pipelines should run automated tests:
 
@@ -46,7 +46,7 @@ D. Only on Fridays
 
 ---
 
-### Q5 (AT-4.4, K2)
+### 🔷 Q5 (AT-4.4, K2)
 
 The Page Object Model (POM) is used to:
 
@@ -57,7 +57,7 @@ D. Execute tests in parallel
 
 ---
 
-### Q6 (AT-4.5, K3)
+### 🔷 Q6 (AT-4.5, K3)
 
 A team calculates automation ROI without including maintenance costs. The result will be:
 
@@ -68,7 +68,7 @@ D. Valid for exactly one year
 
 ---
 
-### Q7 (AT-4.3, K2)
+### 🔷 Q7 (AT-4.3, K2)
 
 A quality gate that blocks merge if unit tests fail is:
 
@@ -79,7 +79,7 @@ D. Only for production deployment
 
 ---
 
-### Q8 (AT-4.2, K2)
+### 🔷 Q8 (AT-4.2, K2)
 
 Which is a POOR candidate for automation?
 
@@ -90,7 +90,7 @@ D. Data-driven boundary value tests
 
 ---
 
-### Q9 (AT-4.3, K3)
+### 🔷 Q9 (AT-4.3, K3)
 
 In a CI pipeline, the "fail fast" principle means:
 
@@ -101,7 +101,7 @@ D. Stop the pipeline only after all tests complete
 
 ---
 
-### Q10 (AT-4.4, K2)
+### 🔷 Q10 (AT-4.4, K2)
 
 Configuration externalization in test automation means:
 
@@ -112,7 +112,7 @@ D. Avoiding all configuration
 
 ---
 
-### Q11 (AT-4.1, K2)
+### 🔷 Q11 (AT-4.1, K2)
 
 The PRIMARY benefit of test automation in agile is:
 
@@ -123,7 +123,7 @@ D. Making testing more complex
 
 ---
 
-### Q12 (AT-4.2, K3)
+### 🔷 Q12 (AT-4.2, K3)
 
 A team has 100 UI tests and 20 unit tests. To improve their automation strategy, they should:
 
@@ -134,7 +134,7 @@ D. Run UI tests less frequently
 
 ---
 
-### Q13 (AT-4.3, K2)
+### 🔷 Q13 (AT-4.3, K2)
 
 Automated regression tests should run:
 
@@ -145,7 +145,7 @@ D. Only after user acceptance testing
 
 ---
 
-### Q14 (AT-4.5, K3)
+### 🔷 Q14 (AT-4.5, K3)
 
 An automation framework costs 200 hours to develop and 80 hours per year to maintain. It saves 300 hours per year in manual regression testing. The payback period is approximately:
 
@@ -156,7 +156,7 @@ D. More than 5 years
 
 ---
 
-### Q15 (AT-4.4, K2)
+### 🔷 Q15 (AT-4.4, K2)
 
 Separation of concerns in test automation means:
 
@@ -167,7 +167,7 @@ D. No reuse of test components
 
 ---
 
-### Q16 (AT-4.1, K2)
+### 🔷 Q16 (AT-4.1, K2)
 
 Automation does NOT replace:
 
@@ -178,7 +178,7 @@ D. API tests
 
 ---
 
-### Q17 (AT-4.3, K3)
+### 🔷 Q17 (AT-4.3, K3)
 
 A pipeline runs unit tests (2 min), then integration tests (5 min), then UI tests (15 min). If unit tests fail, the pipeline:
 
@@ -189,7 +189,7 @@ D. Retries unit tests 10 times
 
 ---
 
-### Q18 (AT-4.2, K2)
+### 🔷 Q18 (AT-4.2, K2)
 
 Smoke tests are BEST described as:
 
@@ -200,7 +200,7 @@ D. Performance tests under heavy load
 
 ---
 
-### Q19 (AT-4.5, K2)
+### 🔷 Q19 (AT-4.5, K2)
 
 The test automation pyramid suggests that:
 
@@ -211,7 +211,7 @@ D. Only integration tests are needed
 
 ---
 
-### Q20 (AT-4.4, K3)
+### 🔷 Q20 (AT-4.4, K3)
 
 A team hard-codes database credentials in every test script. When the test database password changes, all tests break. The solution is:
 
@@ -222,104 +222,104 @@ D. Use the production database for tests
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** Automation complements manual testing by providing fast feedback. It does not replace all manual testing.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** Regression tests are repetitive and run frequently — ideal for automation.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** API level is faster and more maintainable than UI for business logic.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** CI runs automated tests on every commit for immediate feedback.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** POM separates UI locators from test logic for maintainability.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** Maintenance is 30-70% of automation effort. Ignoring it overestimates ROI.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** Automated gate enforced by CI pipeline.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** Features with changing requirements are poor automation candidates.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** Fail fast = run quick tests first for fast feedback.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** Externalize config (URLs, credentials) from test scripts.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 
 **Rationale:** Primary benefit = fast feedback and regression safety.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** Too few unit tests and too many UI tests = push down the pyramid.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** Regression tests should run automatically on every change or nightly.
 
-### Q14
+### 🔷 Q14
 **Answer: A**
 
 **Rationale:** Net benefit = 300 - 80 = 220 hours/year. Payback = 200/220 = 0.9 years.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** Separation of concerns = tests, page objects, data, utilities in separate modules.
 
-### Q16
+### 🔷 Q16
 **Answer: C**
 
 **Rationale:** Automation cannot replace exploratory testing requiring human judgment.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 
 **Rationale:** Fail fast = stop the pipeline when the first stage fails.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 
 **Rationale:** Smoke tests = quick verification of critical paths.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** Pyramid = most tests at unit level (base), fewer at higher levels.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 
 **Rationale:** Centralize credentials in config/environment variables for maintainability.

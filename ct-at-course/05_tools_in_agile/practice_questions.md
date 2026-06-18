@@ -1,8 +1,8 @@
-# Chapter 5 — Tools in Agile: Practice Questions
+# ❓ Chapter 5 — Tools in Agile: Practice Questions
 
 ---
 
-### Q1 (AT-5.1, K2)
+### 🔷 Q1 (AT-5.1, K2)
 
 In agile, test management tools should be:
 
@@ -13,7 +13,7 @@ D. Only used by the test manager
 
 ---
 
-### Q2 (AT-5.2, K2)
+### 🔷 Q2 (AT-5.2, K2)
 
 Jenkins is primarily used as a:
 
@@ -24,7 +24,7 @@ D. Defect tracking tool
 
 ---
 
-### Q3 (AT-5.3, K2)
+### 🔷 Q3 (AT-5.3, K2)
 
 An information radiator is:
 
@@ -35,7 +35,7 @@ D. A private dashboard for the Scrum Master
 
 ---
 
-### Q4 (AT-5.4, K2)
+### 🔷 Q4 (AT-5.4, K2)
 
 When selecting a tool for an agile team, the PRIMARY criterion should be:
 
@@ -46,7 +46,7 @@ D. Whether the tool is the most expensive option
 
 ---
 
-### Q5 (AT-5.3, K2)
+### 🔷 Q5 (AT-5.3, K2)
 
 A physical task board showing the current sprint status is an example of:
 
@@ -57,7 +57,7 @@ D. A test plan
 
 ---
 
-### Q6 (AT-5.2, K2)
+### 🔷 Q6 (AT-5.2, K2)
 
 GitHub Actions is a CI/CD tool that:
 
@@ -68,7 +68,7 @@ D. Cannot run automated tests
 
 ---
 
-### Q7 (AT-5.1, K2)
+### 🔷 Q7 (AT-5.1, K2)
 
 In agile, test documentation should be:
 
@@ -79,7 +79,7 @@ D. Written by a dedicated documentation team
 
 ---
 
-### Q8 (AT-5.4, K3)
+### 🔷 Q8 (AT-5.4, K3)
 
 A team of 10 needs a test management tool integrated with Jira. Their budget is limited. The BEST approach is to:
 
@@ -90,7 +90,7 @@ D. Build their own tool from scratch
 
 ---
 
-### Q9 (AT-5.3, K2)
+### 🔷 Q9 (AT-5.3, K2)
 
 A build monitor showing green (pass) or red (fail) for the CI pipeline is:
 
@@ -101,7 +101,7 @@ D. A replacement for testing
 
 ---
 
-### Q10 (AT-5.2, K2)
+### 🔷 Q10 (AT-5.2, K2)
 
 A CI/CD pipeline should:
 
@@ -112,7 +112,7 @@ D. Only deploy to production
 
 ---
 
-### Q11 (AT-5.1, K2)
+### 🔷 Q11 (AT-5.1, K2)
 
 BDD scenarios written in Given/When/Then serve as:
 
@@ -123,7 +123,7 @@ D. Network configuration files
 
 ---
 
-### Q12 (AT-5.4, K2)
+### 🔷 Q12 (AT-5.4, K2)
 
 Total Cost of Ownership (TCO) for a tool includes:
 
@@ -134,7 +134,7 @@ D. Only the monthly subscription
 
 ---
 
-### Q13 (AT-5.3, K3)
+### 🔷 Q13 (AT-5.3, K3)
 
 A team's burndown chart is updated manually once per day, but is often incorrect by noon. The BEST fix is:
 
@@ -145,7 +145,7 @@ D. Assign one person to update it every hour
 
 ---
 
-### Q14 (AT-5.2, K2)
+### 🔷 Q14 (AT-5.2, K2)
 
 Parallel test execution in CI/CD is valuable because it:
 
@@ -156,7 +156,7 @@ D. Requires more manual effort
 
 ---
 
-### Q15 (AT-5.1, K2)
+### 🔷 Q15 (AT-5.1, K2)
 
 In agile, test cases should be linked to:
 
@@ -167,7 +167,7 @@ D. Marketing materials
 
 ---
 
-### Q16 (AT-5.4, K3)
+### 🔷 Q16 (AT-5.4, K3)
 
 A team evaluates three tools and conducts a Proof of Concept (PoC) with their actual data. This is:
 
@@ -178,7 +178,7 @@ D. Required by the Agile Manifesto
 
 ---
 
-### Q17 (AT-5.3, K2)
+### 🔷 Q17 (AT-5.3, K2)
 
 Confluence or a team wiki in agile is used for:
 
@@ -189,7 +189,7 @@ D. Managing customer payments
 
 ---
 
-### Q18 (AT-5.2, K2)
+### 🔷 Q18 (AT-5.2, K2)
 
 A notification from CI/CD to Slack when a build fails is:
 
@@ -200,7 +200,7 @@ D. A security vulnerability
 
 ---
 
-### Q19 (AT-5.1, K2)
+### 🔷 Q19 (AT-5.1, K2)
 
 Test results in agile should be:
 
@@ -211,7 +211,7 @@ D. Kept confidential until release
 
 ---
 
-### Q20 (AT-5.4, K2)
+### 🔷 Q20 (AT-5.4, K2)
 
 A team should evaluate a tool's ease of use because:
 
@@ -222,104 +222,104 @@ D. Complex tools are always better
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** Agile test management tools should be lightweight, integrated, and visible.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** Jenkins is a CI tool for automating builds and test execution.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** Information radiator = highly visible display that passively informs.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** Primary criterion = whether the tool fits the team's needs and process.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** Physical task board = classic information radiator.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** GitHub Actions is integrated with GitHub repositories.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** Agile documentation = just enough to support the team's needs.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** Jira-native apps fit budget and provide integration.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** Build monitor = information radiator for CI status.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** CI/CD = automatically build and test on every commit.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 
 **Rationale:** BDD scenarios = living documentation for the whole team.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** TCO includes license, training, maintenance, and infrastructure.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** Automatic integration eliminates manual update errors.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** Parallel execution reduces total test execution time.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** Test cases should be linked to user stories and acceptance criteria.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 
 **Rationale:** PoC verifies the tool works with actual team data.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 
 **Rationale:** Wikis = living documentation, decisions, team knowledge.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 
 **Rationale:** CI notifications to Slack = fast feedback for the team.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** Test results should be visible to the whole team.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 
 **Rationale:** Low adoption = wasted investment. Ease of use drives adoption.

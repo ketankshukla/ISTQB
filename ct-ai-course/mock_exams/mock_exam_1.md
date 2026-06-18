@@ -1,4 +1,4 @@
-# CT-AI Mock Exam 1
+# 📝 CT-AI Mock Exam 1
 
 **Instructions:**
 - 40 questions
@@ -8,7 +8,7 @@
 
 ---
 
-### Q1
+### 🔷 Q1
 
 Which of the following is the BEST description of Artificial Intelligence?
 
@@ -19,7 +19,7 @@ D. Only robots with physical bodies
 
 ---
 
-### Q2
+### 🔷 Q2
 
 Machine Learning is BEST described as:
 
@@ -30,7 +30,7 @@ D. A type of hardware
 
 ---
 
-### Q3
+### 🔷 Q3
 
 Deep Learning is:
 
@@ -41,7 +41,7 @@ D. A programming language
 
 ---
 
-### Q4
+### 🔷 Q4
 
 A spam filter that learns from labeled emails (marked as spam or not spam) is an example of:
 
@@ -52,7 +52,7 @@ D. Expert system
 
 ---
 
-### Q5
+### 🔷 Q5
 
 The main difference between traditional software and AI-based systems is that AI systems:
 
@@ -63,7 +63,7 @@ D. Are always more accurate
 
 ---
 
-### Q6
+### 🔷 Q6
 
 Data leakage occurs when:
 
@@ -74,7 +74,7 @@ D. Data is encrypted incorrectly
 
 ---
 
-### Q7
+### 🔷 Q7
 
 A major testing challenge for AI systems is:
 
@@ -85,7 +85,7 @@ D. They are always deterministic
 
 ---
 
-### Q8
+### 🔷 Q8
 
 Metamorphic testing is useful for AI because it:
 
@@ -96,7 +96,7 @@ D. Replaces all other testing
 
 ---
 
-### Q9
+### 🔷 Q9
 
 A/B testing compares two AI models by:
 
@@ -107,7 +107,7 @@ D. Comparing training times only
 
 ---
 
-### Q10
+### 🔷 Q10
 
 In a confusion matrix, a False Positive is:
 
@@ -118,7 +118,7 @@ D. An actual positive case incorrectly predicted as negative
 
 ---
 
-### Q11
+### 🔷 Q11
 
 Precision is defined as:
 
@@ -129,7 +129,7 @@ D. TN / (TN + FP)
 
 ---
 
-### Q12
+### 🔷 Q12
 
 Overfitting occurs when:
 
@@ -140,7 +140,7 @@ D. The model uses too few features
 
 ---
 
-### Q13
+### 🔷 Q13
 
 5-fold cross-validation means:
 
@@ -151,7 +151,7 @@ D. Using 5 different algorithms
 
 ---
 
-### Q14
+### 🔷 Q14
 
 A medical test for a rare disease has 99% accuracy. However, the disease occurs in only 0.5% of the population, and the test never detects it. The accuracy metric is:
 
@@ -162,7 +162,7 @@ D. Sufficient for clinical use
 
 ---
 
-### Q15
+### 🔷 Q15
 
 Fairness in AI means:
 
@@ -173,7 +173,7 @@ D. Only accuracy matters
 
 ---
 
-### Q16
+### 🔷 Q16
 
 SHAP and LIME are techniques for:
 
@@ -184,7 +184,7 @@ D. Cleaning training data
 
 ---
 
-### Q17
+### 🔷 Q17
 
 Robustness in AI refers to:
 
@@ -195,7 +195,7 @@ D. The system's training time
 
 ---
 
-### Q18
+### 🔷 Q18
 
 Which is a key ethical principle for AI?
 
@@ -206,7 +206,7 @@ D. Collecting as much data as possible
 
 ---
 
-### Q19
+### 🔷 Q19
 
 AI-powered test generation can create tests from:
 
@@ -217,7 +217,7 @@ D. Only user interfaces
 
 ---
 
-### Q20
+### 🔷 Q20
 
 Autonomous testing at its current level:
 
@@ -228,7 +228,7 @@ D. Is fully independent for all testing activities
 
 ---
 
-### Q21
+### 🔷 Q21
 
 Which of the following is NOT a type of machine learning?
 
@@ -239,7 +239,7 @@ D. Deterministic learning
 
 ---
 
-### Q22
+### 🔷 Q22
 
 In the AI development lifecycle, the validation dataset is used to:
 
@@ -250,7 +250,7 @@ D. Clean the training data
 
 ---
 
-### Q23
+### 🔷 Q23
 
 A model achieves 95% training accuracy and 70% test accuracy. This indicates:
 
@@ -261,7 +261,7 @@ D. Data leakage
 
 ---
 
-### Q24
+### 🔷 Q24
 
 The "test oracle problem" in AI testing refers to:
 
@@ -272,7 +272,7 @@ D. A problem with database queries
 
 ---
 
-### Q25
+### 🔷 Q25
 
 Adversarial examples are:
 
@@ -283,7 +283,7 @@ D. Always obvious to human observers
 
 ---
 
-### Q26
+### 🔷 Q26
 
 AUC-ROC measures:
 
@@ -294,7 +294,7 @@ D. The model's training time
 
 ---
 
-### Q27
+### 🔷 Q27
 
 A hiring AI system recommends qualified candidates at 70% rate for one group and 50% for another. Under the principle of equal opportunity, this is:
 
@@ -305,7 +305,7 @@ D. Only unfair if it is illegal
 
 ---
 
-### Q28
+### 🔷 Q28
 
 An image classifier fails when small, imperceptible noise is added to images. This is a lack of:
 
@@ -316,7 +316,7 @@ D. Explainability
 
 ---
 
-### Q29
+### 🔷 Q29
 
 MLOps is BEST described as:
 
@@ -327,7 +327,7 @@ D. A replacement for data science
 
 ---
 
-### Q30
+### 🔷 Q30
 
 Which metric is the harmonic mean of precision and recall?
 
@@ -338,7 +338,7 @@ D. AUC-ROC
 
 ---
 
-### Q31
+### 🔷 Q31
 
 A team automates a new project using TDD from day one. This is:
 
@@ -349,7 +349,7 @@ D. Big-bang deployment
 
 ---
 
-### Q32
+### 🔷 Q32
 
 Updating a test script to accommodate a renamed button on the SUT is:
 
@@ -360,7 +360,7 @@ D. No maintenance
 
 ---
 
-### Q33
+### 🔷 Q33
 
 Refactoring a test script to improve readability and reduce duplication is:
 
@@ -371,7 +371,7 @@ D. Retirement
 
 ---
 
-### Q34
+### 🔷 Q34
 
 A test should be retired when:
 
@@ -382,7 +382,7 @@ D. It was written by a former employee
 
 ---
 
-### Q35
+### 🔷 Q35
 
 Legacy automation is BEST described as:
 
@@ -393,7 +393,7 @@ D. Manual testing that has been documented
 
 ---
 
-### Q36
+### 🔷 Q36
 
 A team puts UI locators directly in every test script. When the UI changes, 50 tests break. The root cause is:
 
@@ -404,7 +404,7 @@ D. The application has too many defects
 
 ---
 
-### Q37
+### 🔷 Q37
 
 In a CI pipeline, which stage should typically run FIRST?
 
@@ -415,7 +415,7 @@ D. Performance load testing
 
 ---
 
-### Q38
+### 🔷 Q38
 
 The relationship between ATDD, BDD, and TDD is BEST described as:
 
@@ -426,7 +426,7 @@ D. Only TDD is appropriate for agile teams
 
 ---
 
-### Q39
+### 🔷 Q39
 
 A team calculates ROI using only initial development costs. The calculated ROI will be:
 
@@ -437,7 +437,7 @@ D. Only valid for the first year
 
 ---
 
-### Q40
+### 🔷 Q40
 
 The PRIMARY skill a Test Automation Engineer must have is:
 
@@ -448,4 +448,4 @@ D. Graphic design skills
 
 ---
 
-## End of Mock Exam 1
+## 📝 End of Mock Exam 1

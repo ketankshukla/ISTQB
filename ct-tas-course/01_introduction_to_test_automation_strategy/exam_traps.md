@@ -1,6 +1,6 @@
-# Chapter 1 — Introduction to Test Automation Strategy: Exam Traps
+# ♟️ Chapter 1 — Introduction to Test Automation Strategy: Exam Traps
 
-## Trap 1: Confusing Strategy with Execution
+## ♟️ Trap 1: Confusing Strategy with Execution
 
 **Trap:** Strategy = high-level plan. Execution = writing and running tests. The exam tests strategy thinking.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Inverting the Test Pyramid
+## 🪤 Trap 2: Inverting the Test Pyramid
 
 **Trap:** The pyramid has many unit tests, fewer integration, fewest UI tests. An inverted pyramid (ice cream cone) is an anti-pattern.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Automating Everything
+## 🪤 Trap 3: Automating Everything
 
 **Trap:** Not all tests should be automated. Exploratory, one-time, and human-judgment tests remain manual.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Ignoring the Business Case
+## 🪤 Trap 4: Ignoring the Business Case
 
 **Trap:** Automation needs measurable business justification. Without it, projects lose funding.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Equating Tool Selection with Strategy
+## ♟️ Trap 5: Equating Tool Selection with Strategy
 
 **Trap:** Selecting a tool is one part of strategy. Strategy also covers scope, architecture, skills, integration, and metrics.
 

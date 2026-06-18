@@ -1,8 +1,8 @@
-# Chapter 6 — Advanced Agile Topics: Practice Questions
+# ❓ Chapter 6 — Advanced Agile Topics: Practice Questions
 
 ---
 
-### Q1 (AT-6.1, K2)
+### 🔷 Q1 (AT-6.1, K2)
 
 SAFe is a framework for:
 
@@ -13,7 +13,7 @@ D. Only startups
 
 ---
 
-### Q2 (AT-6.2, K2)
+### 🔷 Q2 (AT-6.2, K2)
 
 DevOps is PRIMARILY about:
 
@@ -24,7 +24,7 @@ D. Eliminating the need for testing
 
 ---
 
-### Q3 (AT-6.3, K2)
+### 🔷 Q3 (AT-6.3, K2)
 
 Continuous testing means:
 
@@ -35,7 +35,7 @@ D. Only unit testing
 
 ---
 
-### Q4 (AT-6.4, K2)
+### 🔷 Q4 (AT-6.4, K2)
 
 Velocity should be used for:
 
@@ -46,7 +46,7 @@ D. Replacing the Product Owner
 
 ---
 
-### Q5 (AT-6.1, K2)
+### 🔷 Q5 (AT-6.1, K2)
 
 LeSS (Large-Scale Scrum) emphasizes:
 
@@ -57,7 +57,7 @@ D. No Scrum practices
 
 ---
 
-### Q6 (AT-6.2, K3)
+### 🔷 Q6 (AT-6.2, K3)
 
 In DevOps, "shift left" testing means:
 
@@ -68,7 +68,7 @@ D. Moving testing to a different department
 
 ---
 
-### Q7 (AT-6.3, K2)
+### 🔷 Q7 (AT-6.3, K2)
 
 A canary release is:
 
@@ -79,7 +79,7 @@ D. A type of bird used in testing
 
 ---
 
-### Q8 (AT-6.4, K2)
+### 🔷 Q8 (AT-6.4, K2)
 
 A good agile metric should:
 
@@ -90,7 +90,7 @@ D. Only show positive results
 
 ---
 
-### Q9 (AT-6.1, K3)
+### 🔷 Q9 (AT-6.1, K3)
 
 A company has 200 developers in 20 teams. The MOST appropriate scaling framework is likely:
 
@@ -101,7 +101,7 @@ D. Waterfall
 
 ---
 
-### Q10 (AT-6.2, K2)
+### 🔷 Q10 (AT-6.2, K2)
 
 The CALMS framework for DevOps stands for:
 
@@ -112,7 +112,7 @@ D. Collaboration, Automation, Lean, Metrics, Scrum
 
 ---
 
-### Q11 (AT-6.3, K2)
+### 🔷 Q11 (AT-6.3, K2)
 
 Production monitoring in DevOps is an example of:
 
@@ -123,7 +123,7 @@ D. Waterfall testing
 
 ---
 
-### Q12 (AT-6.4, K2)
+### 🔷 Q12 (AT-6.4, K2)
 
 Cycle time measures:
 
@@ -134,7 +134,7 @@ D. The number of defects found
 
 ---
 
-### Q13 (AT-6.5, K2)
+### 🔷 Q13 (AT-6.5, K2)
 
 A distributed agile team should:
 
@@ -145,7 +145,7 @@ D. Work independently without coordination
 
 ---
 
-### Q14 (AT-6.1, K2)
+### 🔷 Q14 (AT-6.1, K2)
 
 A Program Increment (PI) in SAFe is typically:
 
@@ -156,7 +156,7 @@ D. 1 day
 
 ---
 
-### Q15 (AT-6.2, K3)
+### 🔷 Q15 (AT-6.2, K3)
 
 A team deploys to production 10 times per day with automated tests at every stage. This is an example of:
 
@@ -167,7 +167,7 @@ D. Big-bang deployment
 
 ---
 
-### Q16 (AT-6.3, K2)
+### 🔷 Q16 (AT-6.3, K2)
 
 Feature flags are used in continuous testing to:
 
@@ -178,7 +178,7 @@ D. Delete old features
 
 ---
 
-### Q17 (AT-6.4, K3)
+### 🔷 Q17 (AT-6.4, K3)
 
 A team's velocity dropped from 30 to 20 points in one sprint. Before concluding productivity dropped, they should consider:
 
@@ -189,7 +189,7 @@ D. Extending the sprint length
 
 ---
 
-### Q18 (AT-6.5, K2)
+### 🔷 Q18 (AT-6.5, K2)
 
 Pair programming across distributed locations is a strategy for:
 
@@ -200,7 +200,7 @@ D. Saving money on equipment
 
 ---
 
-### Q19 (AT-6.2, K2)
+### 🔷 Q19 (AT-6.2, K2)
 
 Infrastructure as Code (IaC) in DevOps means:
 
@@ -211,7 +211,7 @@ D. Buying more physical servers
 
 ---
 
-### Q20 (AT-6.4, K2)
+### 🔷 Q20 (AT-6.4, K2)
 
 A "vanity metric" in agile is:
 
@@ -222,104 +222,104 @@ D. A metric only for managers
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** SAFe = Scaled Agile Framework for large organizations.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** DevOps is primarily culture and collaboration, not just tools.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** Continuous testing = automated tests throughout pipeline + manual testing activities.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** Velocity is for a single team's capacity planning, not cross-team comparison.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** LeSS = single Product Backlog and single Product Owner for all teams.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** Shift left = testing earlier in the development pipeline.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** Canary release = release to small subset first to monitor issues.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** Good metrics are team-owned and used for improvement, not punishment.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** 200 developers in 20 teams = large scale. SAFe is designed for this size.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** CALMS = Culture, Automation, Lean, Measurement, Sharing.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 
 **Rationale:** Production monitoring = shift right testing (testing in production).
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** Cycle time = work started to work completed.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** Distributed teams should over-communicate and find overlapping hours.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** PI in SAFe = typically 8-12 weeks.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** 10 deploys per day with automated tests = DevOps and continuous delivery.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 
 **Rationale:** Feature flags enable gradual rollout to subsets of users.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 
 **Rationale:** Context matters — complex stories, holidays, etc. affect velocity.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 
 **Rationale:** Distributed pair programming builds trust and shares knowledge.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** IaC = managing infrastructure through code and automation.
 
-### Q20
+### 🔷 Q20
 **Answer: A**
 
 **Rationale:** Vanity metric = looks impressive but does not drive meaningful improvement.

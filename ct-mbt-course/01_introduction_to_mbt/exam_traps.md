@@ -1,6 +1,6 @@
-# Chapter 1 — Introduction to MBT: Exam Traps
+# 🪤 Chapter 1 — Introduction to MBT: Exam Traps
 
-## Trap 1: Thinking MBT Replaces All Other Testing
+## 🪤 Trap 1: Thinking MBT Replaces All Other Testing
 
 **Trap:** MBT is a test design technique that complements other testing. It does not replace manual, exploratory, or other automated testing.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Confusing Online and Offline MBT
+## 🪤 Trap 2: Confusing Online and Offline MBT
 
 **Trap:** Offline = generate tests first, then execute. Online = generate and execute simultaneously.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Thinking Models Must Be Perfect
+## 🪤 Trap 3: Thinking Models Must Be Perfect
 
 **Trap:** Models can be partial and iteratively improved. They do not need to be 100% complete before generating useful tests.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Thinking MBT Is Only for Large Projects
+## 🪤 Trap 4: Thinking MBT Is Only for Large Projects
 
 **Trap:** MBT can be valuable for small projects too, especially when the behavior is stateful or rule-based.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Forgetting That Model Quality Determines Test Quality
+## 🪤 Trap 5: Forgetting That Model Quality Determines Test Quality
 
 **Trap:** If the model is wrong or incomplete, generated tests will also be wrong or incomplete. "Garbage in, garbage out" applies to models.
 

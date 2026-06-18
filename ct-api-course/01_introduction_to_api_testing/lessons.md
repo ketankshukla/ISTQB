@@ -1,10 +1,10 @@
-# Chapter 1 — Introduction to API Testing: Lessons
+# 📘 Chapter 1 — Introduction to API Testing: Lessons
 
 ---
 
-## 1.1 What Is an API?
+## 🔌 1.1 What Is an API?
 
-### Definition
+### 🔷 Definition
 
 An **API (Application Programming Interface)** is a set of protocols, routines, and tools that allow different software applications to communicate with each other.
 
@@ -22,9 +22,9 @@ An **API (Application Programming Interface)** is a set of protocols, routines, 
 
 ---
 
-## 1.2 Types of APIs
+## 🧪 1.2 Types of APIs
 
-### REST (Representational State Transfer)
+### 🔄 REST (Representational State Transfer)
 
 **Characteristics:**
 - Uses standard HTTP methods (GET, POST, PUT, DELETE, PATCH)
@@ -62,7 +62,7 @@ Content-Type: application/json
 
 ---
 
-### SOAP (Simple Object Access Protocol)
+### 🔷 SOAP (Simple Object Access Protocol)
 
 **Characteristics:**
 - Protocol-based (not just an architectural style)
@@ -97,7 +97,7 @@ Content-Type: application/json
 
 ---
 
-### GraphQL
+### 🔷 GraphQL
 
 **Characteristics:**
 - Query language for APIs
@@ -134,7 +134,7 @@ query {
 
 ---
 
-### Comparison of API Types
+### 🧪 Comparison of API Types
 
 | Aspect | REST | SOAP | GraphQL |
 |--------|------|------|---------|
@@ -149,45 +149,45 @@ query {
 
 ---
 
-## 1.3 HTTP Methods
+## ⭐ 1.3 HTTP Methods
 
-### GET
+### 🔷 GET
 - **Purpose:** Retrieve a resource
 - **Idempotent:** Yes
 - **Safe:** Yes (does not modify data)
 - **Example:** `GET /users/123` — Retrieve user 123
 
-### POST
+### 🔷 POST
 - **Purpose:** Create a new resource
 - **Idempotent:** No
 - **Safe:** No
 - **Example:** `POST /users` — Create a new user
 
-### PUT
+### 🔷 PUT
 - **Purpose:** Update/replace a resource
 - **Idempotent:** Yes
 - **Safe:** No
 - **Example:** `PUT /users/123` — Replace user 123 entirely
 
-### PATCH
+### 🔷 PATCH
 - **Purpose:** Partially update a resource
 - **Idempotent:** Yes (usually)
 - **Safe:** No
 - **Example:** `PATCH /users/123` — Update only email of user 123
 
-### DELETE
+### 🔷 DELETE
 - **Purpose:** Remove a resource
 - **Idempotent:** Yes
 - **Safe:** No
 - **Example:** `DELETE /users/123` — Remove user 123
 
-### HEAD
+### 🔷 HEAD
 - **Purpose:** Retrieve headers only (no body)
 - **Idempotent:** Yes
 - **Safe:** Yes
 - **Example:** `HEAD /users/123` — Check if user exists
 
-### OPTIONS
+### 🔷 OPTIONS
 - **Purpose:** Discover available methods
 - **Idempotent:** Yes
 - **Safe:** Yes
@@ -197,22 +197,22 @@ query {
 
 ---
 
-## 1.4 HTTP Status Codes
+## ⭐ 1.4 HTTP Status Codes
 
-### 1xx — Informational
+### 🔷 1xx — Informational
 - **100 Continue:** Request received, client should continue
 
-### 2xx — Success
+### 🔷 2xx — Success
 - **200 OK:** Request succeeded
 - **201 Created:** Resource created successfully
 - **204 No Content:** Request succeeded, no body returned
 
-### 3xx — Redirection
+### 🔷 3xx — Redirection
 - **301 Moved Permanently:** Resource moved to new URL
 - **302 Found:** Temporary redirect
 - **304 Not Modified:** Resource unchanged (cache valid)
 
-### 4xx — Client Errors
+### 🔷 4xx — Client Errors
 - **400 Bad Request:** Invalid request syntax or parameters
 - **401 Unauthorized:** Authentication required
 - **403 Forbidden:** Authenticated but not authorized
@@ -221,7 +221,7 @@ query {
 - **422 Unprocessable Entity:** Valid syntax but semantic errors
 - **429 Too Many Requests:** Rate limit exceeded
 
-### 5xx — Server Errors
+### 🔷 5xx — Server Errors
 - **500 Internal Server Error:** Unexpected server error
 - **502 Bad Gateway:** Invalid response from upstream
 - **503 Service Unavailable:** Server temporarily unavailable
@@ -234,33 +234,33 @@ query {
 
 ---
 
-## 1.5 API Architecture Patterns
+## 🔌 1.5 API Architecture Patterns
 
-### Monolithic Architecture
+### 🔷 Monolithic Architecture
 - Single codebase containing all functionality
 - Single API serves all features
 - **Testing:** Single endpoint to test; changes may affect entire API
 
-### Microservices Architecture
+### 🔷 Microservices Architecture
 - Application broken into small, independent services
 - Each service has its own API
 - **Testing:** Test each service independently and integration between services
 
-### Service-Oriented Architecture (SOA)
+### 🔷 Service-Oriented Architecture (SOA)
 - Services communicate via middleware/ESB
 - More formal contracts than microservices
 - **Testing:** Test service contracts and middleware integration
 
-### Serverless Architecture
+### 🔷 Serverless Architecture
 - Functions deployed to cloud provider (AWS Lambda, Azure Functions)
 - APIs managed by API Gateway
 - **Testing:** Test function logic and API Gateway configuration
 
 ---
 
-## 1.6 API Documentation
+## 🔌 1.6 API Documentation
 
-### OpenAPI Specification (OAS)
+### 🔌 OpenAPI Specification (OAS)
 - Machine-readable format (JSON or YAML)
 - Describes endpoints, methods, parameters, responses
 - Version 3.x is current standard
@@ -287,17 +287,17 @@ paths:
                 $ref: '#/components/schemas/User'
 ```
 
-### Swagger
+### 🔷 Swagger
 - Implementation of OpenAPI specification
 - Swagger UI renders interactive API documentation
 - Swagger Editor for writing OpenAPI specs
 
-### WSDL (for SOAP)
+### 🔷 WSDL (for SOAP)
 - XML-based service description
 - Defines operations, messages, bindings, and endpoints
 - Tools can generate client stubs from WSDL
 
-### Importance of Documentation for Testing
+### 🔷 Importance of Documentation for Testing
 1. **Test design source:** Requirements and test conditions derived from API spec
 2. **Contract validation:** Tests verify the API matches its documented contract
 3. **Automation generation:** Some tools generate tests from OpenAPI specs
@@ -305,9 +305,9 @@ paths:
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Identifying the Correct HTTP Method
+### 💡 Worked Example 1: Identifying the Correct HTTP Method
 
 **Scenario:** An API needs to support:
 1. Retrieving a list of products
@@ -329,7 +329,7 @@ paths:
 - PATCH for partial update (idempotent)
 - DELETE for removal (idempotent)
 
-### Worked Example 2: Status Code Selection
+### 💡 Worked Example 2: Status Code Selection
 
 **Scenario:** Design appropriate status codes for an API:
 
@@ -343,7 +343,7 @@ paths:
 | User ID does not exist | 404 Not Found | Resource not found |
 | Database connection fails | 500 Internal Server Error | Server-side problem |
 
-### Worked Example 3: REST vs. SOAP Decision
+### 💡 Worked Example 3: REST vs. SOAP Decision
 
 **Scenario:** A bank needs an API for internal fund transfers between accounts.
 

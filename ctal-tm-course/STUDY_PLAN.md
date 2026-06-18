@@ -1,14 +1,14 @@
-# CTAL-TM Study Plan
+# 🗓️ CTAL-TM Study Plan
 
-## Overview
+## 🌟 Overview
 
 The CTAL-TM exam covers testing process (planning, monitoring, control), test management (organization, estimation, risk, defects), reviews, and test tools/automation. This plan covers all chapters, practice questions, case studies, and mock exams.
 
 ---
 
-## 5-Week Study Plan
+## 🗓️ 5-Week Study Plan
 
-### Week 1 — Chapter 1: Testing Process
+### 🔷 Week 1 — Chapter 1: Testing Process
 
 | Day | Task | Time |
 |-----|------|------|
@@ -20,7 +20,7 @@ The CTAL-TM exam covers testing process (planning, monitoring, control), test ma
 | Day 6 | Re-read weak areas in Chapter 1 | 45 min |
 | Day 7 | **Checkpoint 1** — Review notes, re-do 5 hardest questions | 45 min |
 
-### Week 2 — Chapter 2: Test Management
+### 🗂️ Week 2 — Chapter 2: Test Management
 
 | Day | Task | Time |
 |-----|------|------|
@@ -32,7 +32,7 @@ The CTAL-TM exam covers testing process (planning, monitoring, control), test ma
 | Day 13 | Review Chapter 2 wrong answers | 60 min |
 | Day 14 | **Checkpoint 2** — Review notes, re-do 5 hardest questions | 45 min |
 
-### Week 3 — Chapters 3 and 4
+### 🔷 Week 3 — Chapters 3 and 4
 
 | Day | Task | Time |
 |-----|------|------|
@@ -44,7 +44,7 @@ The CTAL-TM exam covers testing process (planning, monitoring, control), test ma
 | Day 20 | Review Chapter 4 wrong answers | 45 min |
 | Day 21 | **Checkpoint 3** — Review all chapter notes | 45 min |
 
-### Week 4 — Case Studies and Mock Exam 1
+### 📝 Week 4 — Case Studies and Mock Exam 1
 
 | Day | Task | Time |
 |-----|------|------|
@@ -56,7 +56,7 @@ The CTAL-TM exam covers testing process (planning, monitoring, control), test ma
 | Day 27 | Review mock exam 2 wrong answers | 90 min |
 | Day 28 | **Checkpoint 4** — Score review and gap analysis | 45 min |
 
-### Week 5 — Mock Exams 2-3 and Final Review
+### 📝 Week 5 — Mock Exams 2-3 and Final Review
 
 | Day | Task | Time |
 |-----|------|------|
@@ -70,7 +70,7 @@ The CTAL-TM exam covers testing process (planning, monitoring, control), test ma
 
 ---
 
-## 4-Week Accelerated Plan
+## 🗓️ 4-Week Accelerated Plan
 
 | Week | Task |
 |------|------|
@@ -81,7 +81,7 @@ The CTAL-TM exam covers testing process (planning, monitoring, control), test ma
 
 ---
 
-## Study Techniques
+## 📚 Study Techniques
 
 - **Active reading** — Take notes on test planning, estimation techniques, and risk management
 - **Worked examples** — Redo estimation examples until you can calculate effort independently

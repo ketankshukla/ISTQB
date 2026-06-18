@@ -1,10 +1,10 @@
-# CT-ATLaS Mock Exam 1
+# 📝 CT-ATLaS Mock Exam 1
 
 **Instructions:** 40 questions, 60 minutes, single best answer.
 
 ---
 
-### Q1-Q10
+### 🔷 Q1-Q10
 
 1. Agile at scale: A) One team B) Coordination across teams C) Waterfall D) Small companies — **Coordination across teams**
 2. SAFe ART: A) 1-2 teams B) 5-12 teams C) 50-100 D) Only mgmt — **5-12 teams**
@@ -19,7 +19,7 @@
 
 ---
 
-### Q11-Q20
+### 🔷 Q11-Q20
 
 11. Integration testing: A) Unit sufficient B) Team quality ≠ system C) Only perf D) Only security — **Team quality ≠ system**
 12. Scrum of Scrums: A) Replace standups B) Cross-team issues C) Only reports D) Only planning — **Cross-team issues**
@@ -34,7 +34,7 @@
 
 ---
 
-### Q21-Q30
+### 🔷 Q21-Q30
 
 21. Servant leadership: A) Tell team B) Serve team, remove obstacles C) Only scripts D) Only budgets — **Serve team, remove obstacles**
 22. Coaching: A) Give answers B) Draw solutions out C) Only training D) Only reviews — **Draw solutions out**
@@ -49,7 +49,7 @@
 
 ---
 
-### Q31-Q40
+### 🔷 Q31-Q40
 
 31. Leading indicators: A) Past results B) Predict future C) Only defects D) Only costs — **Predict future**
 32. DORA metrics: A) Only test count B) Deployment frequency, lead time, failure rate, MTTR C) Only coverage D) Only bugs — **Deployment frequency, lead time, failure rate, MTTR**
@@ -64,4 +64,4 @@
 
 ---
 
-## End of Mock Exam 1
+## 📝 End of Mock Exam 1

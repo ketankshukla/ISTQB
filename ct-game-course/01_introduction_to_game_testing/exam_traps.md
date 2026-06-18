@@ -1,6 +1,6 @@
-# Chapter 1 — Introduction to Game Testing: Exam Traps
+# 🪤 Chapter 1 — Introduction to Game Testing: Exam Traps
 
-## Trap 1: Game Testing is Just Playing Games
+## 🪤 Trap 1: Game Testing is Just Playing Games
 
 **Trap:** Game testing is structured, documented, and repeatable — not random gameplay.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: All Game Genres Test the Same Way
+## 🪤 Trap 2: All Game Genres Test the Same Way
 
 **Trap:** Different genres have different testing priorities (RPG = save/load, FPS = hit detection).
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Compliance Testing is Optional
+## 🪤 Trap 3: Compliance Testing is Optional
 
 **Trap:** Platform holders require compliance testing; games cannot release without certification.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Consoles and PC Have the Same Testing Requirements
+## 🪤 Trap 4: Consoles and PC Have the Same Testing Requirements
 
 **Trap:** Consoles require certification; PC has more hardware variability.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Playtesting Replaces QA Testing
+## 🪤 Trap 5: Playtesting Replaces QA Testing
 
 **Trap:** Playtesting evaluates fun and UX; QA testing finds bugs. Both are needed.
 

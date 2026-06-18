@@ -1,6 +1,6 @@
-# Chapter 2 — Automotive Software Basics: Exam Traps
+# 🪤 Chapter 2 — Automotive Software Basics: Exam Traps
 
-## Trap 1: All Vehicle Networks are Interchangeable
+## 🪤 Trap 1: All Vehicle Networks are Interchangeable
 
 **Trap:** CAN, LIN, FlexRay, and Ethernet serve different purposes.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: ASIL is Determined by Function Complexity
+## 🪤 Trap 2: ASIL is Determined by Function Complexity
 
 **Trap:** ASIL is determined by severity, exposure, and controllability, not complexity.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: QM Means No Testing Needed
+## 🪤 Trap 3: QM Means No Testing Needed
 
 **Trap:** QM still requires standard testing; it just doesn't have safety-critical rigor.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: FlexRay Replaces CAN
+## 🪤 Trap 4: FlexRay Replaces CAN
 
 **Trap:** FlexRay and CAN coexist; FlexRay is for deterministic safety-critical, CAN for general.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: ASIL D Requires Only More Test Cases
+## 🪤 Trap 5: ASIL D Requires Only More Test Cases
 
 **Trap:** ASIL D requires MC/DC coverage, formal reviews, extensive traceability, not just more tests.
 

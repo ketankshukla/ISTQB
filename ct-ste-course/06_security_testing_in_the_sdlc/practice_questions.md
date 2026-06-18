@@ -1,8 +1,8 @@
-# Chapter 6 — Security Testing in the SDLC: Practice Questions
+# ❓ Chapter 6 — Security Testing in the SDLC: Practice Questions
 
 ---
 
-### Q1 (STE-6.1, K2)
+### 🔷 Q1 (STE-6.1, K2)
 
 SSDLC integrates security:
 
@@ -13,7 +13,7 @@ D. Only during maintenance
 
 ---
 
-### Q2 (STE-6.2, K2)
+### 🔷 Q2 (STE-6.2, K2)
 
 Security in agile should include:
 
@@ -24,7 +24,7 @@ D. Only management approval
 
 ---
 
-### Q3 (STE-6.3, K2)
+### 🔷 Q3 (STE-6.3, K2)
 
 STRIDE includes:
 
@@ -35,7 +35,7 @@ D. Only application threats
 
 ---
 
-### Q4 (STE-6.4, K2)
+### 🔷 Q4 (STE-6.4, K2)
 
 Security requirements should be:
 
@@ -46,7 +46,7 @@ D. Only for developers
 
 ---
 
-### Q5 (STE-6.1, K2)
+### 🔷 Q5 (STE-6.1, K2)
 
 Fixing security issues in the design phase is:
 
@@ -57,7 +57,7 @@ D. Only for large systems
 
 ---
 
-### Q6 (STE-6.2, K2)
+### 🔷 Q6 (STE-6.2, K2)
 
 Security retrospectives in Scrum:
 
@@ -68,7 +68,7 @@ D. Only review tools
 
 ---
 
-### Q7 (STE-6.3, K2)
+### 🔷 Q7 (STE-6.3, K2)
 
 DREAD rates threats by:
 
@@ -79,7 +79,7 @@ D. Only time
 
 ---
 
-### Q8 (STE-6.4, K2)
+### 🔷 Q8 (STE-6.4, K2)
 
 A compliance security requirement example is:
 
@@ -90,7 +90,7 @@ D. "The app should work"
 
 ---
 
-### Q9 (STE-6.1, K2)
+### 🔷 Q9 (STE-6.1, K2)
 
 Security technical debt:
 
@@ -101,7 +101,7 @@ D. Only affects features
 
 ---
 
-### Q10 (STE-6.2, K2)
+### 🔷 Q10 (STE-6.2, K2)
 
 In DevSecOps, developers:
 
@@ -112,7 +112,7 @@ D. Only do manual testing
 
 ---
 
-### Q11 (STE-6.3, K2)
+### 🔷 Q11 (STE-6.3, K2)
 
 Threat modeling should be:
 
@@ -123,7 +123,7 @@ D. Only for legacy systems
 
 ---
 
-### Q12 (STE-6.4, K2)
+### 🔷 Q12 (STE-6.4, K2)
 
 Negative security requirements specify:
 
@@ -134,7 +134,7 @@ D. Only usability
 
 ---
 
-### Q13 (STE-6.1, K2)
+### 🔷 Q13 (STE-6.1, K2)
 
 SSDLC vs traditional SDLC on cost of fixes:
 
@@ -145,7 +145,7 @@ D. Only cheaper for small projects
 
 ---
 
-### Q14 (STE-6.2, K2)
+### 🔷 Q14 (STE-6.2, K2)
 
 Kanban WIP limits for security:
 
@@ -156,7 +156,7 @@ D. Only for developers
 
 ---
 
-### Q15 (STE-6.3, K2)
+### 🔷 Q15 (STE-6.3, K2)
 
 Elevation of privilege in STRIDE means:
 
@@ -167,7 +167,7 @@ D. Only session hijacking
 
 ---
 
-### Q16 (STE-6.4, K2)
+### 🔷 Q16 (STE-6.4, K2)
 
 Security requirements traceability means:
 
@@ -178,7 +178,7 @@ D. Only for managers
 
 ---
 
-### Q17 (STE-6.1, K2)
+### 🔷 Q17 (STE-6.1, K2)
 
 Security in the operations phase includes:
 
@@ -189,7 +189,7 @@ D. Only design
 
 ---
 
-### Q18 (STE-6.2, K2)
+### 🔷 Q18 (STE-6.2, K2)
 
 Shift-left security in DevSecOps means:
 
@@ -200,7 +200,7 @@ D. Only final sign-off
 
 ---
 
-### Q19 (STE-6.3, K2)
+### 🔷 Q19 (STE-6.3, K2)
 
 Spoofing in STRIDE is countered by:
 
@@ -211,7 +211,7 @@ D. Only backups
 
 ---
 
-### Q20 (STE-6.4, K2)
+### 🔷 Q20 (STE-6.4, K2)
 
 Managing security debt requires:
 
@@ -222,84 +222,84 @@ D. Only more testers
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** SSDLC = throughout all phases.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** Agile security = stories + DoD + continuous testing.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** STRIDE = 6 categories.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** Requirements = specific + testable + threat-aligned.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Design phase fixes = cheaper.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Security retro = discuss practices.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** DREAD = 5 factors.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Compliance = PCI-DSS requirements.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** Security debt = accumulates risk.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** DevSecOps = devs own + experts guide.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Threat modeling = evolve with app.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Negative = what to prevent.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Early fixes = cheaper.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** WIP = don't bypass security.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Elevation = unauthorized access levels.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Traceability = req → design → code → test.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Operations = monitoring + response + patching.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Shift-left = earlier in SDLC.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Spoofing → authentication.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** Debt = inventory + prioritize + remediate.

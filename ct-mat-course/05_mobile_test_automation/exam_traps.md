@@ -1,6 +1,6 @@
-# Chapter 5 — Mobile Test Automation: Exam Traps
+# 🪤 Chapter 5 — Mobile Test Automation: Exam Traps
 
-## Trap 1: Using XPath as Primary Locator
+## 🪤 Trap 1: Using XPath as Primary Locator
 
 **Trap:** XPath is fragile (breaks with UI changes). Accessibility IDs are stable and improve accessibility.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Thinking Emulators Replace All Real Device Testing
+## 🪤 Trap 2: Thinking Emulators Replace All Real Device Testing
 
 **Trap:** Emulators are great for development but miss real-world performance, hardware, and behavior issues.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Running UI Tests Without Disabling Animations
+## 🪤 Trap 3: Running UI Tests Without Disabling Animations
 
 **Trap:** Animations cause timing issues and flaky tests. Disable them in developer settings.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Treating Retry as a Permanent Solution
+## 🪤 Trap 4: Treating Retry as a Permanent Solution
 
 **Trap:** Retrying flaky tests masks real issues. The root cause should be investigated and fixed.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Automating Everything at the UI Level
+## 🪤 Trap 5: Automating Everything at the UI Level
 
 **Trap:** UI tests are slow and flaky. Use unit and integration tests for business logic; UI tests for critical flows only.
 

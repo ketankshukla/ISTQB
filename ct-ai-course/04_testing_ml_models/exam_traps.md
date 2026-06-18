@@ -1,6 +1,6 @@
-# Chapter 4 — Testing ML Models: Exam Traps
+# 🪤 Chapter 4 — Testing ML Models: Exam Traps
 
-## Trap 1: Using Accuracy on Imbalanced Data
+## 🪤 Trap 1: Using Accuracy on Imbalanced Data
 
 **Trap:** High accuracy can be misleading when classes are imbalanced. A model that always predicts the majority class may have high accuracy but be useless.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Confusing Precision and Recall
+## 🪤 Trap 2: Confusing Precision and Recall
 
 **Trap:** Precision = of predicted positives, how many are correct? Recall = of actual positives, how many were found?
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Testing on Training Data
+## 🪤 Trap 3: Testing on Training Data
 
 **Trap:** Evaluating on training data produces overly optimistic results. Always use held-out test data.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Ignoring the Bias-Variance Tradeoff
+## 🪤 Trap 4: Ignoring the Bias-Variance Tradeoff
 
 **Trap:** Complex models reduce bias but increase variance. Simple models reduce variance but increase bias. The goal is to balance both.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Using the Test Set for Model Selection
+## 🪤 Trap 5: Using the Test Set for Model Selection
 
 **Trap:** Trying multiple models on the test set and picking the best one effectively overfits to the test set.
 

@@ -1,6 +1,6 @@
-# Chapter 1 — Exam Traps
+# 🪤 Chapter 1 — Exam Traps
 
-## Trap 1: Confusing Model Types
+## 🪤 Trap 1: Confusing Model Types
 
 **Trap:** Answers that treat all transformer-based models as generative. BERT and similar encoder models are typically used discriminatively (classification, sentiment analysis). GPT-style decoder models are generative.
 
@@ -12,7 +12,7 @@
 
 ---
 
-## Trap 2: Overstating GenAI Capabilities
+## 🪤 Trap 2: Overstating GenAI Capabilities
 
 **Trap:** Answers claiming GenAI can "guarantee" test coverage, "fully automate" test design without human review, or "eliminate the need" for testers.
 
@@ -26,7 +26,7 @@
 
 ---
 
-## Trap 3: Treating Hallucinations as Minor Issues
+## 🪤 Trap 3: Treating Hallucinations as Minor Issues
 
 **Trap:** Answers suggesting hallucinations are "rare" or "easily ignored" or "only affect non-technical content."
 
@@ -41,7 +41,7 @@
 
 ---
 
-## Trap 4: Ignoring Knowledge Cutoffs
+## 🪤 Trap 4: Ignoring Knowledge Cutoffs
 
 **Trap:** Answers assuming an LLM automatically knows about the latest testing tools, recent framework versions, or current organizational context.
 
@@ -51,7 +51,7 @@
 
 ---
 
-## Trap 5: Confusing Non-Determinism with Unreliability
+## 🪤 Trap 5: Confusing Non-Determinism with Unreliability
 
 **Trap:** Answers that reject GenAI entirely because outputs vary between runs, or conversely, answers that ignore reproducibility concerns.
 
@@ -65,7 +65,7 @@
 
 ---
 
-## Trap 6: Privacy Blind Spots
+## 🪤 Trap 6: Privacy Blind Spots
 
 **Trap:** Answers that suggest feeding production data with PII into public LLMs to "get better test data."
 
@@ -83,7 +83,7 @@
 
 ---
 
-## Trap 7: Temperature Misunderstanding
+## 🪤 Trap 7: Temperature Misunderstanding
 
 **Trap:** Answers that claim high temperature improves accuracy or that low temperature increases creativity.
 
@@ -100,7 +100,7 @@
 
 ---
 
-## Trap 8: Confusing Lack of Understanding with Stupidity
+## 🪤 Trap 8: Confusing Lack of Understanding with Stupidity
 
 **Trap:** Answers that claim LLMs "don't understand anything" and are therefore useless for testing.
 
@@ -111,7 +111,7 @@
 
 ---
 
-## Trap 9: Treating All LLMs as Identical
+## 🪤 Trap 9: Treating All LLMs as Identical
 
 **Trap:** Answers that assume all LLMs have the same capabilities, context windows, and limitations.
 
@@ -121,7 +121,7 @@
 
 ---
 
-## Trap 10: Ignoring Bias in Testing Contexts
+## 🪤 Trap 10: Ignoring Bias in Testing Contexts
 
 **Trap:** Answers that treat bias as only a social issue, not a testing quality issue.
 

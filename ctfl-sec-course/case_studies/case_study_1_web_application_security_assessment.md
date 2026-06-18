@@ -1,6 +1,6 @@
-# Case Study 1 — Web Application Security Assessment
+# 📂 Case Study 1 — Web Application Security Assessment
 
-## Scenario
+## 🎬 Scenario
 
 An online banking application requires a security assessment before launch. The app uses:
 - Java backend with Spring Boot
@@ -9,23 +9,23 @@ An online banking application requires a security assessment before launch. The 
 - REST API for mobile clients
 - OAuth2 authentication
 
-## Questions
+## ❓ Questions
 
 1. What security testing techniques should be applied?
 2. What are the highest priority tests based on OWASP Top 10?
 3. How should authentication and session management be tested?
 4. What should the security test report include?
 
-## Model Answers
+## ✔️ Model Answers
 
-### Q1
+### 🔷 Q1
 - **SAST:** SonarQube for Java code analysis
 - **DAST:** OWASP ZAP for running application testing
 - **Dependency scanning:** OWASP Dependency-Check for third-party libraries
 - **Manual testing:** Business logic validation, complex flows
 - **Penetration testing:** Black box assessment of production-like environment
 
-### Q2
+### 🔷 Q2
 Priority based on OWASP Top 10 for banking:
 1. **A01: Broken Access Control** — Verify role-based access
 2. **A02: Cryptographic Failures** — TLS 1.2+, encrypted data at rest
@@ -33,7 +33,7 @@ Priority based on OWASP Top 10 for banking:
 4. **A07: Authentication Failures** — Strong passwords, MFA, session timeout
 5. **A10: Server-Side Request Forgery** — Validate all outgoing requests
 
-### Q3
+### 🔷 Q3
 Authentication and session testing:
 - Brute force resistance (account lockout)
 - Session timeout and invalidation
@@ -42,7 +42,7 @@ Authentication and session testing:
 - Password complexity and storage (bcrypt)
 - OAuth2 flow validation
 
-### Q4
+### 🔷 Q4
 Report contents:
 - Executive summary with risk rating
 - Methodology and scope

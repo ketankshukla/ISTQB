@@ -1,28 +1,28 @@
-# Chapter 5 — Test Automation Maintenance and Evolution: Lessons
+# 📘 Chapter 5 — Test Automation Maintenance and Evolution: Lessons
 
 ---
 
-## 5.1 Types of Maintenance
+## 🧪 5.1 Types of Maintenance
 
-### Corrective Maintenance
+### 🤖 Corrective Maintenance
 
 - **Purpose:** Fix broken tests due to application changes or defects
 - **Triggers:** UI changes, API changes, locator updates, data changes
 - **Effort:** Typically 30-50% of total maintenance time
 
-### Adaptive Maintenance
+### 🤖 Adaptive Maintenance
 
 - **Purpose:** Update tests to work with new environments, tools, or frameworks
 - **Triggers:** OS upgrades, browser updates, tool version changes, infrastructure changes
 - **Example:** Updating Selenium 3 tests to Selenium 4 syntax
 
-### Perfective Maintenance
+### 🤖 Perfective Maintenance
 
 - **Purpose:** Improve existing tests without changing functionality
 - **Triggers:** Code review findings, performance issues, readability concerns
 - **Example:** Replacing sleeps with explicit waits, extracting reusable methods
 
-### Preventive Maintenance
+### 🤖 Preventive Maintenance
 
 - **Purpose:** Avoid future problems
 - **Triggers:** Anticipated changes, technical debt accumulation
@@ -30,9 +30,9 @@
 
 ---
 
-## 5.2 Refactoring
+## ⭐ 5.2 Refactoring
 
-### When to Refactor
+### 🔷 When to Refactor
 
 - Tests are duplicated across multiple suites
 - Locators are fragile (XPath with indices, dynamic IDs)
@@ -40,7 +40,7 @@
 - Code review identifies opportunities
 - New team members struggle to understand tests
 
-### Refactoring Patterns
+### 🔷 Refactoring Patterns
 
 | Pattern | Before | After |
 |---------|--------|-------|
@@ -50,7 +50,7 @@
 | **Parameterize** | 5 similar tests with different data | Single data-driven test |
 | **Remove Dead Code** | Unused helper functions | Deleted or archived |
 
-### Safe Refactoring
+### 🔷 Safe Refactoring
 
 1. Ensure tests pass before refactoring
 2. Make small, incremental changes
@@ -59,16 +59,16 @@
 
 ---
 
-## 5.3 Version Control
+## ⭐ 5.3 Version Control
 
-### Practices
+### ❓ Practices
 
 - Store automation code in same repository as application (monorepo) or separate repo
 - Branching strategy aligned with application (feature branches, main branch)
 - Tag test versions that correspond to application releases
 - Code review for all test changes
 
-### Benefits
+### 🔷 Benefits
 
 - Traceability: Which tests correspond to which app version
 - Collaboration: Multiple team members work without conflict
@@ -77,16 +77,16 @@
 
 ---
 
-## 5.4 Test Data Maintenance
+## 🤖 5.4 Test Data Maintenance
 
-### Challenges
+### 🔷 Challenges
 
 - Test data becomes stale (expired dates, deleted records)
 - Data conflicts between parallel test runs
 - Environment-specific data differences
 - Large data sets become unwieldy
 
-### Solutions
+### 🔷 Solutions
 
 | Challenge | Solution |
 |-----------|----------|
@@ -97,9 +97,9 @@
 
 ---
 
-## 5.5 Evolution Planning
+## 🗓️ 5.5 Evolution Planning
 
-### Triggers for Evolution
+### 🔷 Triggers for Evolution
 
 - Application architecture changes (monolith to microservices)
 - New platforms (mobile app added to web)
@@ -107,7 +107,7 @@
 - Team skill growth (ready for more advanced techniques)
 - Scale (test suite too large for current approach)
 
-### Evolution Strategies
+### 🔷 Evolution Strategies
 
 | Scenario | Strategy |
 |----------|----------|
@@ -118,9 +118,9 @@
 
 ---
 
-## 5.6 Retirement
+## ⭐ 5.6 Retirement
 
-### When to Retire
+### 🔷 When to Retire
 
 - Application feature removed (no need to test it)
 - Test duplicated by another test
@@ -128,7 +128,7 @@
 - Maintenance cost exceeds value
 - Tool/framework obsolete and not worth migrating
 
-### Retirement Process
+### 🔷 Retirement Process
 
 1. Identify candidate (metrics show low value)
 2. Verify no other test covers the same scenario
@@ -138,9 +138,9 @@
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Maintenance Budget
+### 💡 Worked Example 1: Maintenance Budget
 
 **Scenario:** Plan annual maintenance for an automation suite.
 
@@ -154,7 +154,7 @@
 
 **Planning implication:** Allocate 1 FTE (full-time equivalent) for maintenance on a 2,000-hour test suite.
 
-### Worked Example 2: Refactoring Decision
+### 💡 Worked Example 2: Refactoring Decision
 
 **Scenario:** A test suite has 50 tests with duplicated login steps.
 
@@ -191,7 +191,7 @@ def test_feature_b():
 
 **Benefit:** When login page changes, update 1 method instead of 50 tests.
 
-### Worked Example 3: Evolution Plan
+### 💡 Worked Example 3: Evolution Plan
 
 **Scenario:** Migrate from Selenium to Playwright.
 

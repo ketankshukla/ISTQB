@@ -1,8 +1,8 @@
-# Chapter 4 — Security Test Design and Techniques: Practice Questions
+# ❓ Chapter 4 — Security Test Design and Techniques: Practice Questions
 
 ---
 
-### Q1 (SEC-4.1, K2)
+### 🔷 Q1 (SEC-4.1, K2)
 
 A penetration test with no knowledge of the target system is called:
 
@@ -13,7 +13,7 @@ D. Glass box
 
 ---
 
-### Q2 (SEC-4.1, K2)
+### 🔷 Q2 (SEC-4.1, K2)
 
 The phase where a penetration tester gathers publicly available information is:
 
@@ -24,7 +24,7 @@ D. Reporting
 
 ---
 
-### Q3 (SEC-4.2, K2)
+### 🔷 Q3 (SEC-4.2, K2)
 
 Testing that one user cannot access another user's resources at the same privilege level is:
 
@@ -35,7 +35,7 @@ D. Brute force testing
 
 ---
 
-### Q4 (SEC-4.2, K2)
+### 🔷 Q4 (SEC-4.2, K2)
 
 A user with regular permissions gains admin access. This is:
 
@@ -46,7 +46,7 @@ D. Phishing
 
 ---
 
-### Q5 (SEC-4.4, K2)
+### 🔷 Q5 (SEC-4.4, K2)
 
 To test for SQL injection, a tester might input:
 
@@ -57,7 +57,7 @@ D. A Unicode character
 
 ---
 
-### Q6 (SEC-4.4, K2)
+### 🔷 Q6 (SEC-4.4, K2)
 
 Inputting `<script>alert('xss')</script>` tests for:
 
@@ -68,7 +68,7 @@ D. Path traversal
 
 ---
 
-### Q7 (SEC-4.5, K2)
+### 🔷 Q7 (SEC-4.5, K2)
 
 Fuzzing is best described as:
 
@@ -79,7 +79,7 @@ D. Network scanning only
 
 ---
 
-### Q8 (SEC-4.6, K2)
+### 🔷 Q8 (SEC-4.6, K2)
 
 A tool that analyzes source code without executing the program is:
 
@@ -90,7 +90,7 @@ D. WAF
 
 ---
 
-### Q9 (SEC-4.6, K2)
+### 🔷 Q9 (SEC-4.6, K2)
 
 A tool that tests a running application from the outside is:
 
@@ -101,7 +101,7 @@ D. SIEM
 
 ---
 
-### Q10 (SEC-4.6, K2)
+### 🔷 Q10 (SEC-4.6, K2)
 
 IAST combines aspects of:
 
@@ -112,7 +112,7 @@ D. Encryption and hashing
 
 ---
 
-### Q11 (SEC-4.2, K2)
+### 🔷 Q11 (SEC-4.2, K2)
 
 Testing that a session token is invalidated after logout is:
 
@@ -123,7 +123,7 @@ D. Authorization testing
 
 ---
 
-### Q12 (SEC-4.1, K2)
+### 🔷 Q12 (SEC-4.1, K2)
 
 The PRIMARY difference between a vulnerability scan and a penetration test is:
 
@@ -134,7 +134,7 @@ D. Penetration tests never find false positives
 
 ---
 
-### Q13 (SEC-4.4, K3)
+### 🔷 Q13 (SEC-4.4, K3)
 
 An application validates input with a blacklist of known bad characters. The weakness is:
 
@@ -145,7 +145,7 @@ D. Blacklists are faster than whitelists
 
 ---
 
-### Q14 (SEC-4.2, K2)
+### 🔷 Q14 (SEC-4.2, K2)
 
 Testing for credential stuffing involves:
 
@@ -156,7 +156,7 @@ D. Encrypting credentials
 
 ---
 
-### Q15 (SEC-4.4, K2)
+### 🔷 Q15 (SEC-4.4, K2)
 
 Output encoding is necessary because:
 
@@ -167,7 +167,7 @@ D. It is only needed for SQL
 
 ---
 
-### Q16 (SEC-4.6, K2)
+### 🔷 Q16 (SEC-4.6, K2)
 
 SAST is typically performed:
 
@@ -178,7 +178,7 @@ D. Only on running applications
 
 ---
 
-### Q17 (SEC-4.2, K2)
+### 🔷 Q17 (SEC-4.2, K2)
 
 Session fixation is tested by:
 
@@ -189,7 +189,7 @@ D. Using two browsers
 
 ---
 
-### Q18 (SEC-4.1, K2)
+### 🔷 Q18 (SEC-4.1, K2)
 
 During a penetration test, attempting privilege escalation is part of:
 
@@ -200,7 +200,7 @@ D. Planning
 
 ---
 
-### Q19 (SEC-4.5, K2)
+### 🔷 Q19 (SEC-4.5, K2)
 
 Coverage-guided fuzzing:
 
@@ -211,7 +211,7 @@ D. Requires source code but no execution
 
 ---
 
-### Q20 (SEC-4.4, K2)
+### 🔷 Q20 (SEC-4.4, K2)
 
 Path traversal is tested by inputting:
 
@@ -222,104 +222,104 @@ D. Long strings
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: C**
 
 **Rationale:** No knowledge = black box. White box = full knowledge. Gray box = partial.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** Public info gathering = reconnaissance phase.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** Same level, different user's data = horizontal privilege escalation.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** Regular to admin = higher privileges = vertical privilege escalation.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** `' OR '1'='1` = classic SQL injection test payload.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** `<script>` tag = XSS test payload.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** Fuzzing = automated random/invalid input testing.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** Source code analysis without execution = SAST.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** Testing running app from outside = DAST.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** IAST = SAST + DAST via instrumentation.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 
 **Rationale:** Token invalidation after logout = session management testing.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** Pen tests exploit vulnerabilities; scans just identify them.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** Blacklists are incomplete; whitelists are preferred.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** Credential stuffing = breach credentials reused.
 
-### Q15
+### 🔷 Q15
 **Answer: A**
 
 **Rationale:** Output encoding needed because input validation alone isn't enough for all contexts.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 
 **Rationale:** SAST = during development, in CI/CD.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 
 **Rationale:** Session fixation = pre-auth session ID persists after login.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 
 **Rationale:** Privilege escalation after initial compromise = post-exploitation.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** Coverage-guided = prioritize inputs reaching new code paths.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 
 **Rationale:** `../../../etc/passwd` = path traversal test payload.

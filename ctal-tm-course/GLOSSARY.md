@@ -1,11 +1,11 @@
-# CTAL-TM Glossary
+# 📖 CTAL-TM Glossary
 
-## A
+## ⭐ A
 
 **Acceptance Criteria**
 The conditions that a software product must satisfy to be accepted by a user, customer, or other authorized entity. Often used in agile as part of the Definition of Done.
 
-## B
+## ⭐ B
 
 **Bottom-Up Estimation**
 An estimation technique where the total effort is calculated by summing the estimates for each individual work package or task.
@@ -13,7 +13,7 @@ An estimation technique where the total effort is calculated by summing the esti
 **Bug Triage**
 The process of reviewing reported defects to assign priority, severity, and ownership, and to determine whether they will be fixed.
 
-## C
+## ⭐ C
 
 **Configuration Management**
 The process of identifying, organizing, and controlling changes to software development and testing work products.
@@ -21,7 +21,7 @@ The process of identifying, organizing, and controlling changes to software deve
 **Coverage**
 The degree to which specified coverage items have been exercised by a test suite, expressed as a percentage.
 
-## D
+## ⭐ D
 
 **Decision Table**
 A tabular model representing combinations of conditions and corresponding actions. Used for testing complex business rules.
@@ -32,7 +32,7 @@ The number of defects identified in a work product divided by the size of that w
 **Defect Management**
 The process of recognizing, recording, classifying, investigating, resolving, and disposing of defects.
 
-## E
+## ⭐ E
 
 **Entry Criteria**
 The set of conditions that must be met before testing can begin for a specific test level or phase.
@@ -43,7 +43,7 @@ The set of conditions that must be met before testing can be considered complete
 **Exploratory Testing**
 An approach to testing where the tester simultaneously designs and executes tests, using the information gained while testing to design new and better tests.
 
-## F
+## ⭐ F
 
 **Failure Mode and Effect Analysis (FMEA)**
 A systematic method for evaluating processes to identify where and how they might fail, and to assess the relative impact of different failures.
@@ -51,7 +51,7 @@ A systematic method for evaluating processes to identify where and how they migh
 **Fault Tree Analysis**
 A top-down approach to risk identification that uses Boolean logic to combine a series of lower-level events.
 
-## I
+## ⭐ I
 
 **Incident**
 An event occurring during testing that requires investigation. May or may not be caused by a defect.
@@ -65,12 +65,12 @@ Testing performed within the development team. Provides early feedback but may l
 **Inspection**
 The most formal type of review, characterized by a defined process, trained participants, and defined entry and exit criteria. Led by a trained moderator.
 
-## K
+## ⭐ K
 
 **Key Performance Indicator (KPI)**
 A measurable value that demonstrates how effectively an organization is achieving key business objectives. In testing, used to measure test progress, quality, and cost.
 
-## M
+## ⭐ M
 
 **Metric**
 A measurement scale and the method used for measurement. Test metrics include test coverage, defect density, test execution rate, and defect find/fix rates.
@@ -78,12 +78,12 @@ A measurement scale and the method used for measurement. Test metrics include te
 **Milestone**
 A significant event in the project, such as the completion of a phase, delivery of a test plan, or completion of test execution.
 
-## N
+## ⭐ N
 
 **Non-Functional Testing**
 Testing performed to evaluate the non-functional aspects of a system, including performance, reliability, usability, security, and maintainability.
 
-## P
+## ⭐ P
 
 **Predictive Approach**
 A project management approach where the project is planned in detail upfront and changes are minimized.
@@ -91,7 +91,7 @@ A project management approach where the project is planned in detail upfront and
 **Preventive Action**
 Action taken to eliminate the cause of a potential nonconformity or other undesirable potential situation.
 
-## Q
+## ⭐ Q
 
 **Quality Assurance (QA)**
 Activities focused on providing confidence that quality requirements will be fulfilled. QA is process-oriented.
@@ -99,7 +99,7 @@ Activities focused on providing confidence that quality requirements will be ful
 **Quality Control (QC)**
 Activities focused on fulfilling quality requirements. Testing is a QC activity.
 
-## R
+## ⭐ R
 
 **Regression Testing**
 Testing of a previously tested program after modification to ensure that defects have not been introduced or uncovered in unchanged areas.
@@ -116,7 +116,7 @@ A factor that could result in future negative consequences. In testing, risks ar
 **Risk-Based Testing (RBT)**
 Testing oriented towards reducing the risk level of a project. Test cases are designed and prioritized based on risk analysis.
 
-## S
+## ⭐ S
 
 **Scenario-Based Testing**
 Testing based on a realistic story or scenario that describes how a user might interact with the system.
@@ -127,7 +127,7 @@ The degree of impact that a defect has on the development or operation of a syst
 **Stakeholder**
 A person or organization with an interest in the outcome of a project. Testing stakeholders include developers, testers, project managers, business analysts, and end users.
 
-## T
+## ⭐ T
 
 **Test Approach**
 The implementation of the test strategy for a specific project. Includes decisions about test techniques, test levels, roles, and responsibilities.
@@ -168,7 +168,7 @@ An estimation technique where an overall estimate is made first and then allocat
 **Traceability**
 The degree to which a relationship can be established between two or more work products. Requirements traceability links requirements to tests.
 
-## V
+## ⭐ V
 
 **Verification**
 Confirmation by examination and through provision of objective evidence that specified requirements have been fulfilled.
@@ -176,7 +176,7 @@ Confirmation by examination and through provision of objective evidence that spe
 **Validation**
 Confirmation by examination and through provision of objective evidence that the requirements for a specific intended use or application have been fulfilled.
 
-## W
+## ⭐ W
 
 **Walkthrough**
 A review in which the author leads the review participants through the work product and the participants ask questions and make comments.

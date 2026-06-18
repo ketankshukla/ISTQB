@@ -1,10 +1,10 @@
-# Chapter 1 — Introduction to Performance Testing: Lessons
+# 📘 Chapter 1 — Introduction to Performance Testing: Lessons
 
 ---
 
-## 1.1 What Is Performance Testing?
+## ⚡ 1.1 What Is Performance Testing?
 
-### Definition
+### 🔷 Definition
 
 **Performance Testing** is testing to determine the performance of a software product, including speed, scalability, and stability characteristics under a particular workload.
 
@@ -13,7 +13,7 @@
 - **Scalability:** How the system handles increasing load or resources
 - **Stability:** How the system behaves under sustained load over time
 
-### Why Performance Testing Matters
+### ⚡ Why Performance Testing Matters
 
 **Business Impact:**
 - Amazon found that every 100ms of latency cost 1% in sales
@@ -30,7 +30,7 @@
 - Architectural problems discovered late are expensive to resolve
 - Performance bottlenecks reveal design flaws
 
-### Performance Testing vs. Functional Testing
+### ⚡ Performance Testing vs. Functional Testing
 
 | Aspect | Functional Testing | Performance Testing |
 |--------|-------------------|---------------------|
@@ -45,9 +45,9 @@
 
 ---
 
-## 1.2 Key Performance Concepts
+## ⚡ 1.2 Key Performance Concepts
 
-### Response Time
+### 🔷 Response Time
 
 **Definition:** The elapsed time between a user's request and the system's response.
 
@@ -78,7 +78,7 @@ Total Response Time =
 - Measured at the server (server processing only)
 - Measured at the database (query time only)
 
-### Throughput
+### 🔷 Throughput
 
 **Definition:** The number of transactions or requests processed per unit of time.
 
@@ -97,7 +97,7 @@ Throughput = 500 orders/minute = 8.33 orders/second.
 - Higher load → Response time may increase, throughput may plateau
 - Bottlenecks limit maximum throughput regardless of load
 
-### Resource Utilization
+### 🔷 Resource Utilization
 
 **Definition:** The degree to which system resources are used during test execution.
 
@@ -116,7 +116,7 @@ During a load test:
 
 **Conclusion:** The disk is the bottleneck. Improving disk performance (SSD, caching) would improve overall performance.
 
-### Latency
+### 🔷 Latency
 
 **Definition:** The time delay between cause and effect, often used for network delay.
 
@@ -133,9 +133,9 @@ A user in Australia accesses a server in the US.
 
 ---
 
-## 1.3 Stakeholders and Their Concerns
+## ⭐ 1.3 Stakeholders and Their Concerns
 
-### Business Stakeholders
+### 🔷 Business Stakeholders
 
 **Who:** Product owners, business analysts, marketing, executives
 
@@ -150,7 +150,7 @@ A user in Australia accesses a server in the US.
 - Availability during peak (affects sales)
 - Cost per transaction (affects profitability)
 
-### Operations Stakeholders
+### 🔷 Operations Stakeholders
 
 **Who:** System administrators, DevOps, site reliability engineers
 
@@ -167,7 +167,7 @@ A user in Australia accesses a server in the US.
 - Network saturation
 - Error rates
 
-### Development Stakeholders
+### 🔷 Development Stakeholders
 
 **Who:** Software developers, architects, database administrators
 
@@ -185,7 +185,7 @@ A user in Australia accesses a server in the US.
 - Thread contention
 - Cache hit rates
 
-### End Users
+### 🔷 End Users
 
 **Who:** Customers, employees, partners using the system
 
@@ -201,9 +201,9 @@ A user in Australia accesses a server in the US.
 
 ---
 
-## 1.4 Performance as a Non-Functional Characteristic
+## ⚡ 1.4 Performance as a Non-Functional Characteristic
 
-### Non-Functional Requirements (NFRs)
+### 📑 Non-Functional Requirements (NFRs)
 
 **Definition:** Requirements that specify criteria for evaluating system operation, rather than specific behaviors.
 
@@ -219,7 +219,7 @@ A user in Australia accesses a server in the US.
 - "The system shall support 10,000 concurrent users."
 - "The system shall maintain 99.9% uptime."
 
-### The Cost of Non-Functional Testing
+### 🔷 The Cost of Non-Functional Testing
 
 **Challenge:** NFRs are often:
 - Vague ("the system should be fast")
@@ -234,33 +234,33 @@ A user in Australia accesses a server in the US.
 
 ---
 
-## 1.5 Types of Systems Requiring Performance Testing
+## 🧪 1.5 Types of Systems Requiring Performance Testing
 
-### Web Applications
+### 🔷 Web Applications
 - E-commerce sites (Black Friday traffic)
 - Social media platforms (viral content spikes)
 - Streaming services (prime time viewing)
 
-### APIs and Microservices
+### 🔌 APIs and Microservices
 - Payment gateways (high transaction volume)
 - Authentication services (login spikes)
 - Data processing pipelines (batch throughput)
 
-### Mobile Applications
+### 📱 Mobile Applications
 - Apps with server synchronization (millions of devices)
 - Location-based services (concurrent updates)
 - Push notification systems (burst delivery)
 
-### Enterprise Systems
+### 🔷 Enterprise Systems
 - ERP systems (month-end batch processing)
 - CRM systems (sales team concurrent usage)
 - Trading platforms (millisecond latency requirements)
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Identifying Performance Objectives
+### 💡 Worked Example 1: Identifying Performance Objectives
 
 **Scenario:** An online ticket booking system expects 100,000 users trying to buy tickets when they go on sale.
 
@@ -276,7 +276,7 @@ A user in Australia accesses a server in the US.
 - Endurance testing: Does memory grow over the 2-hour window?
 - Spike testing: Sudden surge when tickets go on sale
 
-### Worked Example 2: Stakeholder Analysis
+### 💡 Worked Example 2: Stakeholder Analysis
 
 **Scenario:** A banking mobile app is slow during login.
 
@@ -293,7 +293,7 @@ A user in Australia accesses a server in the US.
 - Operations: Increase connection pool from 20 to 100
 - Business: Measure login time after fix; target < 2 seconds
 
-### Worked Example 3: Response Time Breakdown
+### 💡 Worked Example 3: Response Time Breakdown
 
 **Scenario:** A product page takes 4.5 seconds to load.
 

@@ -1,8 +1,8 @@
-# Chapter 1 — Introduction to Automotive Testing: Practice Questions
+# ❓ Chapter 1 — Introduction to Automotive Testing: Practice Questions
 
 ---
 
-### Q1 (AuT-1.1, K1)
+### 🔷 Q1 (AuT-1.1, K1)
 
 Automotive software is typically:
 
@@ -13,7 +13,7 @@ D. Only web services
 
 ---
 
-### Q2 (AuT-1.2, K1)
+### 🔷 Q2 (AuT-1.2, K1)
 
 An ECU controls:
 
@@ -24,7 +24,7 @@ D. Only air conditioning
 
 ---
 
-### Q3 (AuT-1.3, K1)
+### 🔷 Q3 (AuT-1.3, K1)
 
 CAN bus is used for:
 
@@ -35,7 +35,7 @@ D. Only ADAS cameras
 
 ---
 
-### Q4 (AuT-1.4, K2)
+### 🔷 Q4 (AuT-1.4, K2)
 
 Safety-critical software requires:
 
@@ -46,7 +46,7 @@ D. Only touch screens
 
 ---
 
-### Q5 (AuT-1.5, K2)
+### 🔷 Q5 (AuT-1.5, K2)
 
 Automotive testing differs from general testing because:
 
@@ -57,7 +57,7 @@ D. It never uses automation
 
 ---
 
-### Q6 (AuT-1.2, K1)
+### 🔷 Q6 (AuT-1.2, K1)
 
 An ABS (Anti-lock Braking System) ECU is:
 
@@ -68,7 +68,7 @@ D. Only for entertainment
 
 ---
 
-### Q7 (AuT-1.3, K1)
+### 🔷 Q7 (AuT-1.3, K1)
 
 LIN bus is used for:
 
@@ -79,7 +79,7 @@ D. Only brake systems
 
 ---
 
-### Q8 (AuT-1.4, K2)
+### 🔷 Q8 (AuT-1.4, K2)
 
 Fail-safe behavior means:
 
@@ -90,7 +90,7 @@ D. Only louder alerts
 
 ---
 
-### Q9 (AuT-1.6, K1)
+### 🔷 Q9 (AuT-1.6, K1)
 
 ISO 26262 addresses:
 
@@ -101,7 +101,7 @@ D. Only tire pressure
 
 ---
 
-### Q10 (AuT-1.5, K2)
+### 🔷 Q10 (AuT-1.5, K2)
 
 The automotive software lifecycle is typically:
 
@@ -112,7 +112,7 @@ D. 6 months
 
 ---
 
-### Q11 (AuT-1.3, K1)
+### 🔷 Q11 (AuT-1.3, K1)
 
 FlexRay is used for:
 
@@ -123,7 +123,7 @@ D. Only climate control
 
 ---
 
-### Q12 (AuT-1.2, K1)
+### 🔷 Q12 (AuT-1.2, K1)
 
 An infotainment ECU is classified as:
 
@@ -134,7 +134,7 @@ D. Only real-time
 
 ---
 
-### Q13 (AuT-1.1, K1)
+### 🔷 Q13 (AuT-1.1, K1)
 
 Modern vehicles contain approximately:
 
@@ -145,7 +145,7 @@ D. Only 2 ECUs
 
 ---
 
-### Q14 (AuT-1.4, K2)
+### 🔷 Q14 (AuT-1.4, K2)
 
 Redundancy in safety-critical systems means:
 
@@ -156,7 +156,7 @@ D. Only faster processors
 
 ---
 
-### Q15 (AuT-1.6, K1)
+### 🔷 Q15 (AuT-1.6, K1)
 
 ASPICE is:
 
@@ -167,7 +167,7 @@ D. Only a test tool
 
 ---
 
-### Q16 (AuT-1.3, K1)
+### 🔷 Q16 (AuT-1.3, K1)
 
 Ethernet in vehicles is used for:
 
@@ -178,7 +178,7 @@ D. Only seat heaters
 
 ---
 
-### Q17 (AuT-1.5, K2)
+### 🔷 Q17 (AuT-1.5, K2)
 
 Automotive testing includes levels not found in general testing:
 
@@ -189,7 +189,7 @@ D. Only acceptance testing
 
 ---
 
-### Q18 (AuT-1.4, K2)
+### 🔷 Q18 (AuT-1.4, K2)
 
 A harsh vehicle environment includes:
 
@@ -200,7 +200,7 @@ D. Only dust
 
 ---
 
-### Q19 (AuT-1.2, K1)
+### 🔷 Q19 (AuT-1.2, K1)
 
 A powertrain ECU controls:
 
@@ -211,7 +211,7 @@ D. Only mirrors
 
 ---
 
-### Q20 (AuT-1.6, K1)
+### 🔷 Q20 (AuT-1.6, K1)
 
 AUTOSAR provides:
 
@@ -222,84 +222,84 @@ D. Only seat materials
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** Automotive = safety-critical + real-time + embedded + distributed.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** ECU = controls specific function.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** CAN = engine + chassis + body.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** Safety-critical = reliability + determinism + fail-safe + traceability.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Automotive = safety + embedded + standards.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** ABS = high criticality.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** LIN = low-cost body functions.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Fail-safe = safe state on failure.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** ISO 26262 = functional safety.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** Automotive lifecycle = 10-15 years.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** FlexRay = deterministic safety-critical.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Infotainment = QM (low criticality).
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Modern vehicles = 50-100+ ECUs.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Redundancy = backup systems.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** ASPICE = process assessment model.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Ethernet = high bandwidth for ADAS/infotainment.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Automotive unique = MIL + SIL + PIL + HIL.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Harsh = temperature + vibration + EMI.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Powertrain = engine + transmission.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** AUTOSAR = standardized software architecture.

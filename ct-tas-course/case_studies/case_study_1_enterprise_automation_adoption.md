@@ -1,6 +1,6 @@
-# Case Study 1 — Enterprise Automation Adoption
+# 📂 Case Study 1 — Enterprise Automation Adoption
 
-## Context
+## ⭐ Context
 
 You are the Test Automation Lead for MegaCorp, a financial services company with 50+ applications. The CIO wants to reduce regression testing time from 6 weeks to 1 week within 18 months.
 
@@ -19,7 +19,7 @@ You are the Test Automation Lead for MegaCorp, a financial services company with
 
 ---
 
-## Task 1: Strategy Development
+## ♟️ Task 1: Strategy Development
 
 **Question:** Design an enterprise automation strategy.
 
@@ -51,7 +51,7 @@ You are the Test Automation Lead for MegaCorp, a financial services company with
 
 ---
 
-## Task 2: ROI Calculation
+## ⭐ Task 2: ROI Calculation
 
 **Question:** Build the business case with ROI.
 
@@ -80,7 +80,7 @@ You are the Test Automation Lead for MegaCorp, a financial services company with
 
 ---
 
-## Task 3: Risk Mitigation
+## ⚠️ Task 3: Risk Mitigation
 
 **Question:** Identify and mitigate key risks.
 
@@ -97,7 +97,7 @@ You are the Test Automation Lead for MegaCorp, a financial services company with
 
 ---
 
-## Task 4: Metrics Dashboard
+## 📊 Task 4: Metrics Dashboard
 
 **Question:** Define metrics and reporting structure.
 

@@ -1,6 +1,6 @@
-# Chapter 4 — Designing and Developing the TAS: Exam Traps
+# 🪤 Chapter 4 — Designing and Developing the TAS: Exam Traps
 
-## Trap 1: Confusing Framework Types
+## 🪤 Trap 1: Confusing Framework Types
 
 **Trap:** Data-driven = test logic separate from data. Keyword-driven = action words readable by business. Hybrid = combination of both.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Putting Assertions in Page Objects
+## 🪤 Trap 2: Putting Assertions in Page Objects
 
 **Trap:** Page Objects should contain locators and actions, NOT assertions. Assertions belong in test scripts.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Using Fixed Sleep Instead of Explicit Waits
+## 🪤 Trap 3: Using Fixed Sleep Instead of Explicit Waits
 
 **Trap:** `sleep(5)` wastes time and is unreliable. Explicit waits that check for conditions are faster and more reliable.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Sharing Test Data Between Tests
+## 🪤 Trap 4: Sharing Test Data Between Tests
 
 **Trap:** Tests should be independent. Sharing data creates ordering dependencies and makes debugging difficult.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Hard-Coding Credentials in Test Scripts
+## 🪤 Trap 5: Hard-Coding Credentials in Test Scripts
 
 **Trap:** Hard-coded credentials are a security risk and make tests non-portable. Use environment variables or secret managers.
 

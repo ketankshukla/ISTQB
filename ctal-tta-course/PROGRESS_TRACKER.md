@@ -1,12 +1,12 @@
-# CTAL-TTA Progress Tracker
+# 📈 CTAL-TTA Progress Tracker
 
-## How to Use This Tracker
+## ⭐ How to Use This Tracker
 
 Check off each item as you complete it. Target: complete all items before your exam date.
 
 ---
 
-## Chapter 1 — Risk-Based Testing
+## ⚠️ Chapter 1 — Risk-Based Testing
 
 - [ ] Read `README.md`
 - [ ] Read `lessons.md`
@@ -15,7 +15,7 @@ Check off each item as you complete it. Target: complete all items before your e
 - [ ] Score: ___ / 20
 - [ ] Review all wrong answers
 
-## Chapter 2 — White-Box Test Techniques
+## 🎯 Chapter 2 — White-Box Test Techniques
 
 - [ ] Read `README.md`
 - [ ] Read `lessons.md`
@@ -24,7 +24,7 @@ Check off each item as you complete it. Target: complete all items before your e
 - [ ] Score: ___ / 20
 - [ ] Review all wrong answers
 
-## Chapter 3 — Static Analysis
+## 🔍 Chapter 3 — Static Analysis
 
 - [ ] Read `README.md`
 - [ ] Read `lessons.md`
@@ -33,7 +33,7 @@ Check off each item as you complete it. Target: complete all items before your e
 - [ ] Score: ___ / 20
 - [ ] Review all wrong answers
 
-## Chapter 4 — Dynamic Analysis
+## 🔬 Chapter 4 — Dynamic Analysis
 
 - [ ] Read `README.md`
 - [ ] Read `lessons.md`
@@ -42,7 +42,7 @@ Check off each item as you complete it. Target: complete all items before your e
 - [ ] Score: ___ / 20
 - [ ] Review all wrong answers
 
-## Chapter 5 — Test Tools and Automation
+## 🛠️ Chapter 5 — Test Tools and Automation
 
 - [ ] Read `README.md`
 - [ ] Read `lessons.md`
@@ -51,7 +51,7 @@ Check off each item as you complete it. Target: complete all items before your e
 - [ ] Score: ___ / 20
 - [ ] Review all wrong answers
 
-## Chapter 6 — Non-Functional Testing
+## ⭐ Chapter 6 — Non-Functional Testing
 
 - [ ] Read `README.md`
 - [ ] Read `lessons.md`
@@ -60,13 +60,13 @@ Check off each item as you complete it. Target: complete all items before your e
 - [ ] Score: ___ / 20
 - [ ] Review all wrong answers
 
-## Case Studies
+## ⭐ Case Studies
 
 - [ ] Read `case_study_1_risk_based_white_box.md`
 - [ ] Read `case_study_2_static_dynamic_analysis.md`
 - [ ] Read `case_study_3_non_functional_testing.md`
 
-## Mock Exams
+## 📝 Mock Exams
 
 - [ ] Attempt `mock_exam_1.md` under timed conditions (120 min)
 - [ ] Score: ___ / 45
@@ -80,7 +80,7 @@ Check off each item as you complete it. Target: complete all items before your e
 - [ ] Score: ___ / 45
 - [ ] Review all wrong answers
 
-## Final Preparation
+## ⭐ Final Preparation
 
 - [ ] Re-read `EXAM_STRATEGY.md`
 - [ ] Re-read `GLOSSARY.md`
@@ -90,7 +90,7 @@ Check off each item as you complete it. Target: complete all items before your e
 
 ---
 
-## Score Targets
+## ⭐ Score Targets
 
 | Activity | Target | Notes |
 |----------|--------|-------|

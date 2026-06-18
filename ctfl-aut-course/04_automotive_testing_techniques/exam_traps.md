@@ -1,6 +1,6 @@
-# Chapter 4 — Automotive Testing Techniques: Exam Traps
+# 🪤 Chapter 4 — Automotive Testing Techniques: Exam Traps
 
-## Trap 1: Statement Coverage is Sufficient for All ASIL
+## 📊 Trap 1: Statement Coverage is Sufficient for All ASIL
 
 **Trap:** Higher ASIL requires branch and MC/DC coverage.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Fault Injection is Only for Hardware
+## 🪤 Trap 2: Fault Injection is Only for Hardware
 
 **Trap:** Fault injection applies to software, hardware, communication, and environment.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Back-to-Back Testing is Only for MIL vs SIL
+## 🪤 Trap 3: Back-to-Back Testing is Only for MIL vs SIL
 
 **Trap:** Back-to-back can compare any reference and implementation.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Regression Testing is the Same as Retesting
+## 🪤 Trap 4: Regression Testing is the Same as Retesting
 
 **Trap:** Retesting verifies a fix; regression testing checks for unintended side effects.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Boundary Value Testing is Only for Numeric Inputs
+## 🪤 Trap 5: Boundary Value Testing is Only for Numeric Inputs
 
 **Trap:** Boundary values apply to any range: time, speed, temperature, counts.
 

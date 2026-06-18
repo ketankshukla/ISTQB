@@ -1,14 +1,14 @@
-# Chapter 6 — Security Testing Tools and Automation: Lessons
+# 📘 Chapter 6 — Security Testing Tools and Automation: Lessons
 
 ---
 
-## 6.1 SAST Tools
+## 🛠️ 6.1 SAST Tools
 
-### What is SAST?
+### 🔷 What is SAST?
 
 Static Application Security Testing analyzes source code, bytecode, or binaries without executing the program.
 
-### Popular SAST Tools
+### 🛠️ Popular SAST Tools
 
 | Tool | Type | Best For |
 |------|------|----------|
@@ -20,7 +20,7 @@ Static Application Security Testing analyzes source code, bytecode, or binaries 
 | **ESLint Security** | Open-source | JavaScript/Node.js |
 | **SpotBugs (FindBugs)** | Open-source | Java bug patterns |
 
-### SAST in CI/CD
+### 🔷 SAST in CI/CD
 
 **Integration points:**
 - Pull request scanning (block merge on critical findings)
@@ -38,7 +38,7 @@ security_scan:
   allow_failure: false  # Block merge on critical issues
 ```
 
-### SAST Limitations
+### 🔷 SAST Limitations
 
 - High false positive rate (especially for custom frameworks)
 - Cannot find runtime issues (business logic, session management)
@@ -47,13 +47,13 @@ security_scan:
 
 ---
 
-## 6.2 DAST Tools
+## 🛠️ 6.2 DAST Tools
 
-### What is DAST?
+### 🔷 What is DAST?
 
 Dynamic Application Security Testing tests running applications from the outside, like an attacker.
 
-### Popular DAST Tools
+### 🛠️ Popular DAST Tools
 
 | Tool | Type | Best For |
 |------|------|----------|
@@ -63,7 +63,7 @@ Dynamic Application Security Testing tests running applications from the outside
 | **Netsparker (Invicti)** | Commercial | High-accuracy automated scanning |
 | **Arachni** | Open-source | Web application security scanner |
 
-### DAST Scanning Modes
+### 🔷 DAST Scanning Modes
 
 **Spider/Discovery:**
 - Crawl the application to discover pages and endpoints
@@ -82,7 +82,7 @@ Dynamic Application Security Testing tests running applications from the outside
 - Discover and test authenticated endpoints
 - Test for privilege escalation and IDOR
 
-### DAST in CI/CD
+### 🔷 DAST in CI/CD
 
 ```yaml
 dast_scan:
@@ -92,7 +92,7 @@ dast_scan:
   allow_failure: true  # Don't block pipeline; report findings
 ```
 
-### DAST Limitations
+### 🔷 DAST Limitations
 
 - Cannot find code-level issues without triggering them
 - May miss vulnerabilities behind complex authentication
@@ -101,20 +101,20 @@ dast_scan:
 
 ---
 
-## 6.3 IAST Tools
+## 🛠️ 6.3 IAST Tools
 
-### What is IAST?
+### 🔷 What is IAST?
 
 Interactive Application Security Testing instruments the running application to observe code behavior during dynamic testing.
 
-### How IAST Works
+### 🔷 How IAST Works
 
 1. Agent is deployed with the application (bytecode instrumentation)
 2. Application runs normally (functional tests, DAST scans, manual testing)
 3. Agent observes data flow, method calls, and security-relevant operations
 4. Findings are reported with code-level detail (line numbers, stack traces)
 
-### Popular IAST Tools
+### 🛠️ Popular IAST Tools
 
 | Tool | Notes |
 |------|-------|
@@ -123,7 +123,7 @@ Interactive Application Security Testing instruments the running application to 
 | **HCL AppScan** | IAST component available |
 | **Checkmarx IAST** | Integrated with SAST platform |
 
-### IAST Advantages
+### 🔷 IAST Advantages
 
 - Lower false positives than SAST
 - More coverage than DAST alone
@@ -131,7 +131,7 @@ Interactive Application Security Testing instruments the running application to 
 - Understands data flow and taint propagation
 - Works during normal functional testing
 
-### IAST Limitations
+### 🔷 IAST Limitations
 
 - Requires application instrumentation (performance overhead)
 - Coverage limited to exercised code paths
@@ -140,19 +140,19 @@ Interactive Application Security Testing instruments the running application to 
 
 ---
 
-## 6.4 SCA Tools
+## 🛠️ 6.4 SCA Tools
 
-### What is SCA?
+### 🔷 What is SCA?
 
 Software Composition Analysis identifies and manages open-source and third-party components and their known vulnerabilities.
 
-### Why SCA Matters
+### 🔷 Why SCA Matters
 
 - Modern applications are 70-90% third-party code
 - Known vulnerabilities in dependencies are common attack vectors
 - License compliance is also important
 
-### Popular SCA Tools
+### 🛠️ Popular SCA Tools
 
 | Tool | Type | Best For |
 |------|------|----------|
@@ -162,7 +162,7 @@ Software Composition Analysis identifies and manages open-source and third-party
 | **WhiteSource (Mend)** | Commercial | Enterprise, comprehensive coverage |
 | **FOSSA** | Commercial | License compliance + security |
 
-### SCA in CI/CD
+### 🔷 SCA in CI/CD
 
 ```yaml
 sca_scan:
@@ -176,9 +176,9 @@ sca_scan:
 
 ---
 
-## 6.5 Web Application Security Scanners
+## 🔒 6.5 Web Application Security Scanners
 
-### Specialized Scanners
+### 🔷 Specialized Scanners
 
 **SQL Injection Scanners:**
 - sqlmap — Automated SQL injection and database takeover
@@ -199,9 +199,9 @@ sca_scan:
 
 ---
 
-## 6.6 Network Security Tools
+## 🛠️ 6.6 Network Security Tools
 
-### Port Scanners
+### 🔷 Port Scanners
 
 **Nmap:**
 - Discover hosts and services on a network
@@ -212,7 +212,7 @@ sca_scan:
 nmap -sV -sC -O target.com  # Version detection, scripts, OS fingerprint
 ```
 
-### Vulnerability Scanners
+### 🔷 Vulnerability Scanners
 
 **Nessus / Tenable:**
 - Comprehensive vulnerability scanning
@@ -223,7 +223,7 @@ nmap -sV -sC -O target.com  # Version detection, scripts, OS fingerprint
 - Open-source vulnerability scanner
 - Extensive vulnerability database
 
-### Network Protocol Analyzers
+### 🔷 Network Protocol Analyzers
 
 **Wireshark:**
 - Capture and analyze network traffic
@@ -232,9 +232,9 @@ nmap -sV -sC -O target.com  # Version detection, scripts, OS fingerprint
 
 ---
 
-## 6.7 CI/CD Security Automation
+## ⚙️ 6.7 CI/CD Security Automation
 
-### Security Gates
+### 🔒 Security Gates
 
 **Definition:** Automated checks in the CI/CD pipeline that prevent deployment if security thresholds are not met.
 
@@ -248,14 +248,14 @@ nmap -sV -sC -O target.com  # Version detection, scripts, OS fingerprint
 | Secrets | GitLeaks / TruffleHog | No committed secrets |
 | Container | Trivy / Clair | No critical CVEs in base images |
 
-### DevSecOps Pipeline
+### 🔷 DevSecOps Pipeline
 
 ```
 Commit → Secret Scan → SAST → Build → SCA → Container Scan → Deploy to Staging → DAST → Deploy to Production
          ↑ Block if found  ↑ Block if critical  ↑ Block if high   ↑ Block if critical   ↑ Report, don't block
 ```
 
-### Secrets Management in CI/CD
+### 🗂️ Secrets Management in CI/CD
 
 **Problem:** Hardcoded credentials in code, config files, or CI/CD variables.
 
@@ -271,21 +271,21 @@ Commit → Secret Scan → SAST → Build → SCA → Container Scan → Deploy 
 
 ---
 
-## 6.8 Fuzzing Tools
+## 🛠️ 6.8 Fuzzing Tools
 
-### AFL (American Fuzzy Lop)
+### 🔷 AFL (American Fuzzy Lop)
 
 - Coverage-guided fuzzer for C/C++ applications
 - Instruments target to detect crashes
 - Mutates input to reach new code paths
 
-### libFuzzer
+### 🔷 libFuzzer
 
 - In-process, coverage-guided fuzzing engine
 - Part of LLVM project
 - Used by Chrome, Firefox, and other projects
 
-### Web Fuzzing
+### 🔷 Web Fuzzing
 
 - **ffuf:** Fast web fuzzer written in Go
 - **Wfuzz:** Web application fuzzer
@@ -293,9 +293,9 @@ Commit → Secret Scan → SAST → Build → SCA → Container Scan → Deploy 
 
 ---
 
-## 6.9 Tool Selection
+## 🛠️ 6.9 Tool Selection
 
-### Selection Criteria
+### ✅ Selection Criteria
 
 | Factor | Consideration |
 |--------|---------------|
@@ -307,7 +307,7 @@ Commit → Secret Scan → SAST → Build → SCA → Container Scan → Deploy 
 | **Reporting** | Quality of findings, remediation guidance |
 | **Compliance** | Does it support required standards (OWASP, CWE)? |
 
-### Recommended Tool Combinations
+### 🛠️ Recommended Tool Combinations
 
 **Small team / Startup:**
 - SAST: SonarQube Community + Semgrep
@@ -325,9 +325,9 @@ Commit → Secret Scan → SAST → Build → SCA → Container Scan → Deploy 
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: CI/CD Security Pipeline
+### 💡 Worked Example 1: CI/CD Security Pipeline
 
 **Scenario:** A Java/Spring Boot application deployed to Kubernetes.
 
@@ -375,7 +375,7 @@ dast:
 - DAST runs after deployment to staging (needs running app)
 - DAST doesn't block because it may have false positives requiring review
 
-### Worked Example 2: Tool Selection Decision
+### 💡 Worked Example 2: Tool Selection Decision
 
 **Scenario:** A healthcare application with strict compliance requirements (HIPAA).
 
@@ -388,7 +388,7 @@ dast:
 | Secret detection | GitGuardian | Enterprise-grade, audit trail |
 | Container security | Aqua Security | Kubernetes-native, HIPAA templates |
 
-### Worked Example 3: Tool Output Interpretation
+### 💡 Worked Example 3: Tool Output Interpretation
 
 **SAST Finding:**
 ```

@@ -1,10 +1,10 @@
-# Chapter 6 — DevOps Quality Tools and Automation: Lessons
+# 📘 Chapter 6 — DevOps Quality Tools and Automation: Lessons
 
 ---
 
-## 6.1 CI/CD Platforms
+## ⭐ 6.1 CI/CD Platforms
 
-### Popular Platforms
+### 🔷 Popular Platforms
 
 | Platform | Type | Best For |
 |----------|------|----------|
@@ -15,7 +15,7 @@
 | **CircleCI** | Cloud-native | Fast setup, parallel execution |
 | **TeamCity** | JetBrains ecosystem | Teams using JetBrains IDEs |
 
-### Key Features for Quality
+### 💎 Key Features for Quality
 
 - **Pipeline as code:** Jenkinsfile, `.gitlab-ci.yml`, GitHub Actions YAML
 - **Parallel execution:** Run tests across multiple agents
@@ -25,9 +25,9 @@
 
 ---
 
-## 6.2 Test Automation Frameworks
+## ⚙️ 6.2 Test Automation Frameworks
 
-### Framework Types
+### 🧪 Framework Types
 
 | Type | Example | Best For |
 |------|---------|----------|
@@ -38,7 +38,7 @@
 | **Performance** | JMeter, Gatling, k6 | Load and stress testing |
 | **Security** | OWASP ZAP, Burp Suite | DAST in pipelines |
 
-### Framework Selection Criteria
+### ✅ Framework Selection Criteria
 
 - **Speed:** How fast do tests run?
 - **Maintainability:** Easy to update when UI changes?
@@ -48,9 +48,9 @@
 
 ---
 
-## 6.3 Test Result Reporting and Dashboards
+## 📝 6.3 Test Result Reporting and Dashboards
 
-### Reporting Needs
+### 📝 Reporting Needs
 
 | Stakeholder | Needs | Tool |
 |-------------|-------|------|
@@ -59,7 +59,7 @@
 | **Management** | Pass/fail rates, release readiness | Dashboards, Jira integration |
 | **Compliance** | Audit trail of test execution | Test management tools |
 
-### Popular Reporting Tools
+### 📝 Popular Reporting Tools
 
 | Tool | Features |
 |------|----------|
@@ -69,7 +69,7 @@
 | **JUnit/XML** | Standard format integrated with all CI tools |
 | **Grafana** | Custom dashboards from test metrics |
 
-### Metrics to Track
+### 📊 Metrics to Track
 
 - **Test pass rate:** % of tests passing
 - **Flaky test rate:** % of tests with inconsistent results
@@ -79,9 +79,9 @@
 
 ---
 
-## 6.4 Test Data and Environment Management
+## 🗂️ 6.4 Test Data and Environment Management
 
-### Test Data Strategies
+### 🗃️ Test Data Strategies
 
 | Strategy | When to Use |
 |----------|-------------|
@@ -90,7 +90,7 @@
 | **Production subset** | Realistic integration tests (anonymized) |
 | **Ephemeral databases** | Isolated parallel test execution |
 
-### Environment Provisioning
+### 🔷 Environment Provisioning
 
 | Approach | Tool | Use Case |
 |----------|------|----------|
@@ -101,9 +101,9 @@
 
 ---
 
-## 6.5 Tool Selection and Integration
+## 🛠️ 6.5 Tool Selection and Integration
 
-### Selection Criteria
+### ✅ Selection Criteria
 
 1. **Team skills:** What does the team already know?
 2. **Existing stack:** What integrates with current tools?
@@ -111,7 +111,7 @@
 4. **Cost:** License vs open-source vs SaaS
 5. **Support:** Commercial support or active community?
 
-### Integration Patterns
+### 🔗 Integration Patterns
 
 ```yaml
 # Example: GitLab CI pipeline with quality tools
@@ -146,9 +146,9 @@ report:
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Tool Selection
+### 💡 Worked Example 1: Tool Selection
 
 **Scenario:** Select a UI test framework for a React e-commerce application.
 
@@ -167,7 +167,7 @@ report:
 - Team has some experience
 - Excellent debugging for flaky test resolution
 
-### Worked Example 2: Pipeline Optimization
+### 💡 Worked Example 2: Pipeline Optimization
 
 **Scenario:** A pipeline takes 45 minutes, slowing feedback.
 
@@ -187,7 +187,7 @@ report:
 
 **New total:** ~15 minutes
 
-### Worked Example 3: Test Data for CI
+### 💡 Worked Example 3: Test Data for CI
 
 **Scenario:** Integration tests need a PostgreSQL database.
 

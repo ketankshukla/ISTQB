@@ -1,10 +1,10 @@
-# Case Study 2 — E-Commerce Decision Tables
+# 📂 Case Study 2 — E-Commerce Decision Tables
 
-## Context
+## ⭐ Context
 
 You are a Test Analyst for ShopRight, an e-commerce platform. The checkout process has complex business rules for pricing, discounts, and shipping. The team wants to use decision tables for MBT.
 
-## Requirements
+## 📑 Requirements
 
 **R1: Customer Type**
 - Regular customer: no special discounts
@@ -27,7 +27,7 @@ You are a Test Analyst for ShopRight, an e-commerce platform. The checkout proce
 
 ---
 
-## Task 1: Create Decision Tables
+## 🗂️ Task 1: Create Decision Tables
 
 Create decision tables for the pricing and shipping rules.
 
@@ -60,7 +60,7 @@ Create decision tables for the pricing and shipping rules.
 
 ---
 
-## Task 2: Identify Impossible Rules
+## ⭐ Task 2: Identify Impossible Rules
 
 Which combinations are impossible?
 
@@ -75,7 +75,7 @@ Which combinations are impossible?
 
 ---
 
-## Task 3: Generate Test Cases
+## ⭐ Task 3: Generate Test Cases
 
 How many test cases are needed for full coverage of both tables (before removing impossible rules)?
 
@@ -90,7 +90,7 @@ How many test cases are needed for full coverage of both tables (before removing
 
 ---
 
-## Task 4: Coverage Calculation
+## 📊 Task 4: Coverage Calculation
 
 After testing, 16 of 18 rules were covered. The 2 uncovered rules were:
 - VIP + Order < $50 + Valid Promo (rare edge case)

@@ -1,6 +1,6 @@
-# Chapter 5 — Infrastructure and Environment Testing: Exam Traps
+# 🪤 Chapter 5 — Infrastructure and Environment Testing: Exam Traps
 
-## Trap 1: Thinking IaC Doesn't Need Testing
+## 🪤 Trap 1: Thinking IaC Doesn't Need Testing
 
 **Trap:** IaC is code and needs testing. Untested infrastructure definitions cause production issues.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Confusing Image Build with Image Security
+## 🪤 Trap 2: Confusing Image Build with Image Security
 
 **Trap:** Building a container image successfully doesn't mean it's secure. Vulnerability scanning is essential.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Ignoring Environment Drift
+## 🪤 Trap 3: Ignoring Environment Drift
 
 **Trap:** Manual changes to environments create drift from IaC definitions. Drift causes "works on my machine" issues.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Testing DR Only on Paper
+## 🪤 Trap 4: Testing DR Only on Paper
 
 **Trap:** DR procedures must be actually executed, not just documented. Untested DR plans fail when needed.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Thinking All Environments Must Be Identical
+## 🪤 Trap 5: Thinking All Environments Must Be Identical
 
 **Trap:** Production-like ≠ identical. Test environments can be smaller but must represent production behavior.
 

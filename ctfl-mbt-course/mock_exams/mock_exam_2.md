@@ -1,4 +1,4 @@
-# CTFL-MBT Mock Exam 2
+# 📝 CTFL-MBT Mock Exam 2
 
 **Instructions:**
 - 40 questions
@@ -8,7 +8,7 @@
 
 ---
 
-### Q1
+### 🔷 Q1
 
 Which of the following is a LIMITATION of MBT?
 
@@ -19,7 +19,7 @@ D. It eliminates the need for test execution
 
 ---
 
-### Q2
+### 🔷 Q2
 
 In a state machine, an action is:
 
@@ -30,7 +30,7 @@ D. The starting point of the machine
 
 ---
 
-### Q3
+### 🔷 Q3
 
 A decision table has 3 binary conditions. How many rules are needed for full coverage before removing impossible rules?
 
@@ -41,7 +41,7 @@ D. 12
 
 ---
 
-### Q4
+### 🔷 Q4
 
 Which statement about the whole-team approach is TRUE?
 
@@ -52,7 +52,7 @@ D. Testers should work in a separate building to maintain independence
 
 ---
 
-### Q5
+### 🔷 Q5
 
 In agile, system testing is performed:
 
@@ -63,7 +63,7 @@ D. Once per release, before deployment
 
 ---
 
-### Q6
+### 🔷 Q6
 
 The PRIMARY purpose of creating a model in MBT is to:
 
@@ -74,7 +74,7 @@ D. Eliminate the need for testers
 
 ---
 
-### Q7
+### 🔷 Q7
 
 A state machine has states: S1, S2, S3. Transitions: S1→S2, S2→S3, S1→S3, S3→S1. How many test cases are needed for minimum 1-switch coverage?
 
@@ -85,7 +85,7 @@ D. 6
 
 ---
 
-### Q8
+### 🔷 Q8
 
 Which test type is MOST appropriate for finding the maximum load a system can handle before failing?
 
@@ -96,7 +96,7 @@ D. Volume Testing
 
 ---
 
-### Q9
+### 🔷 Q9
 
 In a keyword-driven framework, test cases are written as:
 
@@ -107,7 +107,7 @@ D. SQL queries
 
 ---
 
-### Q10
+### 🔷 Q10
 
 Which review type is MOST formal and typically uses checklists and trained participants?
 
@@ -118,7 +118,7 @@ D. Inspection
 
 ---
 
-### Q11
+### 🔷 Q11
 
 A system continues to process transactions when one server fails because other servers take over. This demonstrates:
 
@@ -129,7 +129,7 @@ D. Efficiency
 
 ---
 
-### Q12
+### 🔷 Q12
 
 Which of the following is a PRIMARY risk in test automation implementation?
 
@@ -140,7 +140,7 @@ D. Test automation guarantees zero defects in production
 
 ---
 
-### Q13
+### 🔷 Q13
 
 A field accepts ages from 18 to 65. Using 2-value BVA, which values should be tested?
 
@@ -151,7 +151,7 @@ D. 18, 40, 65
 
 ---
 
-### Q14
+### 🔷 Q14
 
 In a decision table with 3 binary conditions, how many rules are needed for full coverage?
 
@@ -162,7 +162,7 @@ D. 12
 
 ---
 
-### Q15
+### 🔷 Q15
 
 A system has two fields: X (1-10) and Y (1-10). Using single-fault 2-value BVA, how many test cases are needed?
 
@@ -173,7 +173,7 @@ D. 16
 
 ---
 
-### Q16
+### 🔷 Q16
 
 Which of the following BEST describes exploratory testing?
 
@@ -184,7 +184,7 @@ D. Random input generation to find crashes
 
 ---
 
-### Q17
+### 🔷 Q17
 
 ROI for test automation is typically:
 
@@ -195,7 +195,7 @@ D. Not measurable for software testing
 
 ---
 
-### Q18
+### 🔷 Q18
 
 In BDD, a scenario outline allows:
 
@@ -206,7 +206,7 @@ D. Testing without any Given-When-Then structure
 
 ---
 
-### Q19
+### 🔷 Q19
 
 A team wants to test whether a new API endpoint correctly processes requests. Which test level is MOST appropriate?
 
@@ -217,7 +217,7 @@ D. Performance load test
 
 ---
 
-### Q20
+### 🔷 Q20
 
 In the test automation pyramid, which layer provides the MOST PRECISE defect localization?
 
@@ -228,7 +228,7 @@ D. Manual tests
 
 ---
 
-### Q21
+### 🔷 Q21
 
 A system must exchange data with both legacy mainframe systems and modern cloud APIs. Testing this validates:
 
@@ -239,7 +239,7 @@ D. Maintainability
 
 ---
 
-### Q22
+### 🔷 Q22
 
 Which formula calculates availability?
 
@@ -250,7 +250,7 @@ D. Test cases passed / Total test cases
 
 ---
 
-### Q23
+### 🔷 Q23
 
 Before rolling out a test tool to all teams, the recommended step is:
 
@@ -261,7 +261,7 @@ D. Build custom integrations first
 
 ---
 
-### Q24
+### 🔷 Q24
 
 The PRIMARY advantage of a data-driven framework is:
 
@@ -272,7 +272,7 @@ D. Automatically fixes application defects
 
 ---
 
-### Q25
+### 🔷 Q25
 
 A tool that monitors application performance in production is a:
 
@@ -283,7 +283,7 @@ D. Defect tracking tool
 
 ---
 
-### Q26
+### 🔷 Q26
 
 Which coverage criterion provides the MOST thorough testing but requires the LARGEST test suite?
 
@@ -294,7 +294,7 @@ D. Full path coverage
 
 ---
 
-### Q27
+### 🔷 Q27
 
 A team is using Scrum. Unit testing, integration testing, and acceptance testing happen:
 
@@ -305,7 +305,7 @@ D. Once per year during the release
 
 ---
 
-### Q28
+### 🔷 Q28
 
 Which tool is MOST appropriate for writing acceptance tests in Given-When-Then format?
 
@@ -316,7 +316,7 @@ D. JMeter
 
 ---
 
-### Q29
+### 🔷 Q29
 
 An agile tester pairs with a developer to test a feature as it is being built. This demonstrates:
 
@@ -327,7 +327,7 @@ D. A violation of role separation
 
 ---
 
-### Q30
+### 🔷 Q30
 
 Which statement about the Agile Manifesto is TRUE?
 
@@ -338,7 +338,7 @@ D. It mandates fixed requirements before development begins
 
 ---
 
-### Q31
+### 🔷 Q31
 
 A "don't care" condition in a decision table means:
 
@@ -349,7 +349,7 @@ D. The condition is impossible
 
 ---
 
-### Q32
+### 🔷 Q32
 
 Which is NOT a recommended practice for successful reviews?
 
@@ -360,7 +360,7 @@ D. Use checklists for formal reviews
 
 ---
 
-### Q33
+### 🔷 Q33
 
 After a database corruption event, the system restores data from backup. This demonstrates:
 
@@ -371,7 +371,7 @@ D. Availability
 
 ---
 
-### Q34
+### 🔷 Q34
 
 Which statement about test automation is FALSE?
 
@@ -382,7 +382,7 @@ D. ROI may be negative in the first year
 
 ---
 
-### Q35
+### 🔷 Q35
 
 The test environment becomes unavailable for 6 hours. According to standard test control practices:
 
@@ -393,7 +393,7 @@ D. Declare testing complete
 
 ---
 
-### Q36
+### 🔷 Q36
 
 For a range [5, 15], 3-value BVA tests:
 
@@ -404,7 +404,7 @@ D. 4, 6, 14, 16
 
 ---
 
-### Q37
+### 🔷 Q37
 
 A system must exchange data with both legacy and modern systems. Testing this validates:
 
@@ -415,7 +415,7 @@ D. Maintainability
 
 ---
 
-### Q38
+### 🔷 Q38
 
 In the review process, the stage where reviewers examine the document independently is:
 
@@ -426,7 +426,7 @@ D. Follow-up
 
 ---
 
-### Q39
+### 🔷 Q39
 
 A field accepts a date in format MM/DD/YYYY (year 1900-2024). Which is a valid 2-value BVA test for the year?
 
@@ -437,7 +437,7 @@ D. 1800, 1900, 2024, 2100
 
 ---
 
-### Q40
+### 🔷 Q40
 
 A team automates 500 hours of manual regression testing. Development takes 300 hours with 40 hours annual maintenance. Annual time saved is approximately:
 
@@ -448,4 +448,4 @@ D. 160 hours
 
 ---
 
-## End of Mock Exam 2
+## 📝 End of Mock Exam 2

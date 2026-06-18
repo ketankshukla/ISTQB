@@ -1,6 +1,6 @@
-# Chapter 6 — Organizational and Human Factors: Exam Traps
+# 🪤 Chapter 6 — Organizational and Human Factors: Exam Traps
 
-## Trap 1: Thinking Automation Eliminates Testers
+## 🪤 Trap 1: Thinking Automation Eliminates Testers
 
 **Trap:** Automation changes tester roles but doesn't eliminate them. Testers become automation engineers, quality coaches, or exploratory testers.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Hiring Coders Without Testing Knowledge
+## 🪤 Trap 2: Hiring Coders Without Testing Knowledge
 
 **Trap:** Pure developers may write technically elegant tests that miss testing principles (coverage, edge cases, risk).
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Implementing Automation Without Change Management
+## 🪤 Trap 3: Implementing Automation Without Change Management
 
 **Trap:** Technical solutions fail when people resist. Change management is essential for adoption.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Reporting Only Technical Metrics to Executives
+## 🪤 Trap 4: Reporting Only Technical Metrics to Executives
 
 **Trap:** Executives care about business value (time saved, defects prevented), not technical details (lines of code, test counts).
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Ignoring Team Satisfaction
+## 🪤 Trap 5: Ignoring Team Satisfaction
 
 **Trap:** Unhappy teams abandon automation. Measure and address team satisfaction.
 

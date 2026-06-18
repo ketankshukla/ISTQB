@@ -1,10 +1,10 @@
-# CT-AcT Mock Exam 3
+# 📝 CT-AcT Mock Exam 3
 
 **Instructions:** 40 questions, 60 minutes, single best answer.
 
 ---
 
-### Q1-Q10
+### 🔷 Q1-Q10
 
 1. Acceptance testing objective: A) Find bugs B) Determine if system satisfies acceptance criteria C) Code review D) Database design — **Determine if system satisfies acceptance criteria**
 2. Alpha vs beta: A) Same thing B) Alpha internal, beta external C) Alpha after beta D) Both external — **Alpha internal, beta external**
@@ -19,7 +19,7 @@
 
 ---
 
-### Q11-Q20
+### 🔷 Q11-Q20
 
 11. Definition of Done includes: A) Only code written B) Acceptance criteria met and reviewed C) Only unit tests D) Only deployment — **Acceptance criteria met and reviewed**
 12. Sprint review vs formal acceptance: A) Same B) Review informal, formal structured validation C) Review longer D) Formal not in agile — **Review informal, formal structured validation**
@@ -34,7 +34,7 @@
 
 ---
 
-### Q21-Q30
+### 🔷 Q21-Q30
 
 21. CAT vs BAT: A) Same B) CAT contractual, BAT business needs C) CAT cheaper D) BAT not documented — **CAT contractual, BAT business needs**
 22. SLA availability 99.9% over 30 days: A) Always passing B) Must be measured continuously C) Only tested once D) Not important — **Must be measured continuously**
@@ -49,7 +49,7 @@
 
 ---
 
-### Q31-Q40
+### 🔷 Q31-Q40
 
 31. Keyboard navigation tests: A) Performance B) Accessibility (operable) C) Security D) Load — **Accessibility (operable)**
 32. GDPR right to erasure: A) Erase hard drive B) Request deletion of personal data C) Erase complaints D) Erase test data — **Request deletion of personal data**
@@ -64,4 +64,4 @@
 
 ---
 
-## End of Mock Exam 3
+## 📝 End of Mock Exam 3

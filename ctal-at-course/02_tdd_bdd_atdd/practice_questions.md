@@ -1,8 +1,8 @@
-# Chapter 2 — TDD, BDD, ATDD: Practice Questions
+# ❓ Chapter 2 — TDD, BDD, ATDD: Practice Questions
 
 ---
 
-### Q1 (AT-2.1, K2)
+### 🔷 Q1 (AT-2.1, K2)
 
 In TDD, the cycle is:
 
@@ -13,7 +13,7 @@ D. Write code → Refactor → Write test
 
 ---
 
-### Q2 (AT-2.2, K2)
+### 🔷 Q2 (AT-2.2, K2)
 
 BDD scenarios are typically written in which format?
 
@@ -24,7 +24,7 @@ D. Try/Catch/Finally
 
 ---
 
-### Q3 (AT-2.3, K2)
+### 🔷 Q3 (AT-2.3, K2)
 
 The "Three Amigos" in ATDD refers to:
 
@@ -35,7 +35,7 @@ D. Three product owners prioritizing the backlog
 
 ---
 
-### Q4 (AT-2.1, K3)
+### 🔷 Q4 (AT-2.1, K3)
 
 A developer writes a unit test, sees it fail, writes the minimal code to pass, and then improves the code while keeping tests passing. The developer skipped the "improve the code" step for several cycles. The MOST likely result is:
 
@@ -46,7 +46,7 @@ D. The test suite will be smaller
 
 ---
 
-### Q5 (AT-2.2, K3)
+### 🔷 Q5 (AT-2.2, K3)
 
 Which practice is MOST appropriate when the business needs to review and approve feature behavior before development?
 
@@ -57,7 +57,7 @@ D. Performance testing
 
 ---
 
-### Q6 (AT-2.1, K2)
+### 🔷 Q6 (AT-2.1, K2)
 
 The PRIMARY purpose of the "Red" step in TDD is to:
 
@@ -68,7 +68,7 @@ D. Deploy to production
 
 ---
 
-### Q7 (AT-2.4, K2)
+### 🔷 Q7 (AT-2.4, K2)
 
 The test pyramid recommends:
 
@@ -79,7 +79,7 @@ D. Only end-to-end tests
 
 ---
 
-### Q8 (AT-2.3, K3)
+### 🔷 Q8 (AT-2.3, K3)
 
 Before a sprint starts, the team meets to discuss a user story, define acceptance criteria, and agree on acceptance tests. This practice is:
 
@@ -90,7 +90,7 @@ D. Code review
 
 ---
 
-### Q9 (AT-2.2, K2)
+### 🔷 Q9 (AT-2.2, K2)
 
 Which of the following is a BDD tool?
 
@@ -101,7 +101,7 @@ D. Jenkins
 
 ---
 
-### Q10 (AT-2.1, K3)
+### 🔷 Q10 (AT-2.1, K3)
 
 A team writes tests after completing the code. This is:
 
@@ -112,7 +112,7 @@ D. ATDD
 
 ---
 
-### Q11 (AT-2.4, K2)
+### 🔷 Q11 (AT-2.4, K2)
 
 The "ice cream cone" anti-pattern in test automation refers to:
 
@@ -123,7 +123,7 @@ D. Testing only the happy path
 
 ---
 
-### Q12 (AT-2.3, K3)
+### 🔷 Q12 (AT-2.3, K3)
 
 In an ATDD workshop, a tester asks: "What happens if the user enters a negative value?" This question is valuable because it:
 
@@ -134,7 +134,7 @@ D. Should be discussed after coding begins
 
 ---
 
-### Q13 (AT-2.2, K2)
+### 🔷 Q13 (AT-2.2, K2)
 
 The relationship between ATDD, BDD, and TDD is BEST described as:
 
@@ -145,7 +145,7 @@ D. Only TDD is appropriate for agile teams
 
 ---
 
-### Q14 (AT-2.1, K3)
+### 🔷 Q14 (AT-2.1, K3)
 
 During TDD, a developer writes the minimal code to make a test pass. The code is inelegant but functional. The next step should be:
 
@@ -156,7 +156,7 @@ D. Delete the test
 
 ---
 
-### Q15 (AT-2.4, K3)
+### 🔷 Q15 (AT-2.4, K3)
 
 A team has 1,000 end-to-end tests, 200 integration tests, and 100 unit tests. The test suite takes 6 hours to run. The BEST improvement is to:
 
@@ -167,7 +167,7 @@ D. Hire more testers to maintain the tests
 
 ---
 
-### Q16 (AT-2.2, K2)
+### 🔷 Q16 (AT-2.2, K2)
 
 BDD focuses on:
 
@@ -178,7 +178,7 @@ D. Performance benchmarks
 
 ---
 
-### Q17 (AT-2.3, K2)
+### 🔷 Q17 (AT-2.3, K2)
 
 The PRIMARY benefit of ATDD is:
 
@@ -189,7 +189,7 @@ D. Elimination of exploratory testing
 
 ---
 
-### Q18 (AT-2.1, K2)
+### 🔷 Q18 (AT-2.1, K2)
 
 In TDD, a developer should NOT:
 
@@ -200,7 +200,7 @@ D. Run all tests after each change
 
 ---
 
-### Q19 (AT-2.4, K3)
+### 🔷 Q19 (AT-2.4, K3)
 
 Unit tests are at the base of the test pyramid because they are:
 
@@ -211,7 +211,7 @@ D. Written by testers, not developers
 
 ---
 
-### Q20 (AT-2.2, K3)
+### 🔷 Q20 (AT-2.2, K3)
 
 Given the BDD scenario:
 ```
@@ -228,104 +228,104 @@ D. Security test
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** TDD cycle: write test (Red), write code to pass (Green), improve code (Refactor).
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** BDD uses Given/When/Then format for scenarios.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** Three Amigos = developer + tester + business representative collaborating on acceptance criteria.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** Skipping refactoring leads to technical debt. Refactoring is essential for code quality.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** BDD scenarios in natural language are designed for business review and approval.
 
-### Q6
+### 🔷 Q6
 **Answer: A**
 
 **Rationale:** The Red step confirms the test is valid (it fails for the right reason) before writing code.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** Test pyramid = many unit tests (base), fewer integration, few E2E (top).
 
-### Q8
+### 🔷 Q8
 **Answer: C**
 
 **Rationale:** ATDD is the collaborative process of defining acceptance criteria and tests before coding.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** Cucumber is a BDD tool. JUnit is a unit test framework. JaCoCo is coverage. Jenkins is CI.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** Writing tests after code is test-last development, not TDD.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 
 **Rationale:** Ice cream cone = too many E2E tests, too few unit tests (inverted pyramid).
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** Testers identify edge cases during ATDD workshops, improving acceptance criteria.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** ATDD (acceptance), BDD (scenario), and TDD (unit) are complementary at different levels.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** After Green, the next step is always Refactor to improve code quality.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** Pushing tests down the pyramid (E2E → integration/unit) reduces execution time and maintenance.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 
 **Rationale:** BDD focuses on system behavior from the user's perspective, not implementation details.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 
 **Rationale:** ATDD ensures the whole team agrees on acceptance criteria before coding begins.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 
 **Rationale:** TDD rule: write only enough production code to pass the test. No more.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** Unit tests are fast, reliable, and cheap because they test in isolation.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 
 **Rationale:** The scenario describes a user-facing behavior, which is an integration/acceptance level test.

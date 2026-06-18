@@ -1,6 +1,6 @@
-# Case Study 3 — API Security Testing
+# 📂 Case Study 3 — API Security Testing
 
-## Scenario
+## 🎬 Scenario
 
 A public REST API provides access to a SaaS platform. It supports:
 - API key authentication for basic endpoints
@@ -8,16 +8,16 @@ A public REST API provides access to a SaaS platform. It supports:
 - Webhook callbacks to customer URLs
 - File upload for document processing
 
-## Questions
+## ❓ Questions
 
 1. What API-specific security tests are needed?
 2. How should authentication and authorization be tested?
 3. What input validation tests apply?
 4. How should webhook security be verified?
 
-## Model Answers
+## ✔️ Model Answers
 
-### Q1
+### 🔷 Q1
 API-specific tests:
 - **Broken Object Level Authorization (BOLA):** Access other users' data by changing IDs
 - **Broken Authentication:** Weak API keys, token expiration
@@ -26,7 +26,7 @@ API-specific tests:
 - **Injection:** SQL, NoSQL, OS command in API parameters
 - **Mass assignment:** Update fields that should be read-only
 
-### Q2
+### 🔷 Q2
 Authentication and authorization testing:
 - API key entropy and transmission (header vs URL)
 - OAuth2 token scope validation
@@ -35,7 +35,7 @@ Authentication and authorization testing:
 - Vertical privilege escalation (admin endpoints)
 - Token refresh mechanism security
 
-### Q3
+### 🔷 Q3
 Input validation tests:
 - Content-Type manipulation (send JSON as XML)
 - Parameter pollution (duplicate parameters)
@@ -44,7 +44,7 @@ Input validation tests:
 - File upload (malicious file types, path traversal)
 - SQL injection in query parameters
 
-### Q4
+### 🔷 Q4
 Webhook security verification:
 - Signature validation (HMAC verification)
 - HTTPS enforcement for callback URLs

@@ -1,6 +1,6 @@
-# Chapter 3 — Threat Modeling and Risk Analysis: Exam Traps
+# 🪤 Chapter 3 — Threat Modeling and Risk Analysis: Exam Traps
 
-## Trap 1: Confusing STRIDE Categories
+## 🪤 Trap 1: Confusing STRIDE Categories
 
 **Trap:** Each STRIDE letter maps to a specific security property violation. Mixing them up is common.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Adding STRIDE Ratings Instead of Averaging
+## 🪤 Trap 2: Adding STRIDE Ratings Instead of Averaging
 
 **Trap:** DREAD calculates the AVERAGE of the five factors, not the sum.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Confusing AND and OR Nodes in Attack Trees
+## 🪤 Trap 3: Confusing AND and OR Nodes in Attack Trees
 
 **Trap:** OR nodes mean any one path succeeds. AND nodes mean all paths must succeed. This affects likelihood calculation.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Ignoring Likelihood in Risk Calculation
+## 🪤 Trap 4: Ignoring Likelihood in Risk Calculation
 
 **Trap:** Risk requires both likelihood AND impact. High impact with low likelihood may not be the highest priority.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Thinking All Risks Must Be Mitigated
+## 🪤 Trap 5: Thinking All Risks Must Be Mitigated
 
 **Trap:** Risk treatment includes accept, transfer, and avoid — not just mitigate. Low risks may be accepted.
 

@@ -1,10 +1,10 @@
-# Chapter 4 — Accessibility and Inclusive Design: Lessons
+# 📘 Chapter 4 — Accessibility and Inclusive Design: Lessons
 
 ---
 
-## 4.1 Accessibility vs. Usability
+## 🖱️ 4.1 Accessibility vs. Usability
 
-### Definitions
+### 🔷 Definitions
 
 **Accessibility:**
 The degree to which a product or system can be used by people with the widest range of characteristics and capabilities.
@@ -12,7 +12,7 @@ The degree to which a product or system can be used by people with the widest ra
 **Usability:**
 The extent to which a product can be used by specified users to achieve specified goals with effectiveness, efficiency, and satisfaction.
 
-### Relationship
+### 🔷 Relationship
 
 Accessibility is a subset of usability:
 - All accessible products should be usable
@@ -24,7 +24,7 @@ Accessibility is a subset of usability:
 - A website that is easy to use for sighted users may be completely unusable for blind users if it lacks alt text and keyboard navigation
 - An accessible website works for everyone, including those using assistive technologies
 
-### Why Accessibility Matters
+### 🔷 Why Accessibility Matters
 
 **Legal Requirements:**
 - Americans with Disabilities Act (ADA) — US
@@ -46,9 +46,9 @@ Accessibility features designed for people with disabilities often benefit every
 
 ---
 
-## 4.2 Types of Disabilities
+## 🧪 4.2 Types of Disabilities
 
-### Visual Disabilities
+### 🔷 Visual Disabilities
 
 **Includes:**
 - Blindness (no functional vision)
@@ -67,7 +67,7 @@ Accessibility features designed for people with disabilities often benefit every
 - Verify keyboard navigation works
 - Check color is not the only means of conveying information
 
-### Auditory Disabilities
+### 🔷 Auditory Disabilities
 
 **Includes:**
 - Deafness (no functional hearing)
@@ -84,7 +84,7 @@ Accessibility features designed for people with disabilities often benefit every
 - Do not rely solely on sound for feedback
 - Visual indicators for audio alerts
 
-### Motor Disabilities
+### 🔷 Motor Disabilities
 
 **Includes:**
 - Paralysis (full or partial)
@@ -104,7 +104,7 @@ Accessibility features designed for people with disabilities often benefit every
 - Allow sufficient time for interactions
 - Avoid motion-activated controls
 
-### Cognitive Disabilities
+### 🔷 Cognitive Disabilities
 
 **Includes:**
 - Dyslexia (difficulty with reading and writing)
@@ -128,7 +128,7 @@ Accessibility features designed for people with disabilities often benefit every
 - Allow users to control timing
 - Break complex tasks into smaller steps
 
-### Speech Disabilities
+### 🔷 Speech Disabilities
 
 **Includes:**
 - Inability to speak
@@ -146,9 +146,9 @@ Accessibility features designed for people with disabilities often benefit every
 
 ---
 
-## 4.3 WCAG (Web Content Accessibility Guidelines)
+## ⭐ 4.3 WCAG (Web Content Accessibility Guidelines)
 
-### Overview
+### 🌟 Overview
 
 WCAG is the international standard for web accessibility, published by the W3C.
 
@@ -161,7 +161,7 @@ WCAG is the international standard for web accessibility, published by the W3C.
 
 Most legal requirements target WCAG 2.1 Level AA.
 
-### The POUR Principles
+### 📜 The POUR Principles
 
 All WCAG guidelines are organized under four principles:
 
@@ -200,9 +200,9 @@ Content must be robust enough to work with current and future assistive technolo
 
 ---
 
-## 4.4 Assistive Technologies
+## ⭐ 4.4 Assistive Technologies
 
-### Screen Readers
+### 🔷 Screen Readers
 
 Software that reads on-screen text aloud using synthesized speech.
 
@@ -224,7 +224,7 @@ Software that reads on-screen text aloud using synthesized speech.
 - Verify that form labels are associated with inputs
 - Ensure dynamic content updates are announced
 
-### Screen Magnifiers
+### 🔷 Screen Magnifiers
 
 Software that enlarges portions of the screen for users with low vision.
 
@@ -239,7 +239,7 @@ Software that enlarges portions of the screen for users with low vision.
 - Verify that layout does not break when magnified
 - Ensure text remains readable when enlarged
 
-### Voice Recognition / Speech Input
+### 🔷 Voice Recognition / Speech Input
 
 Software that allows users to control computers and input text by speaking.
 
@@ -254,7 +254,7 @@ Software that allows users to control computers and input text by speaking.
 - Do not rely on hover-only interactions
 - Provide clear visual feedback for voice commands
 
-### Switch Devices
+### 🔷 Switch Devices
 
 Input devices for people with severe motor impairments who cannot use a keyboard or mouse.
 
@@ -268,7 +268,7 @@ Input devices for people with severe motor impairments who cannot use a keyboard
 - Minimize the number of steps required for common tasks
 - Provide shortcuts and efficient navigation paths
 
-### Other Assistive Technologies
+### 🔷 Other Assistive Technologies
 
 - **Refreshable Braille Displays:** Convert text to tactile braille
 - **Eye Tracking:** Control the cursor with eye movements
@@ -277,9 +277,9 @@ Input devices for people with severe motor impairments who cannot use a keyboard
 
 ---
 
-## 4.5 Inclusive Design and Universal Design
+## 🎨 4.5 Inclusive Design and Universal Design
 
-### Inclusive Design
+### 🎨 Inclusive Design
 
 **Definition:** Designing products that are accessible to and usable by as many people as possible, regardless of ability, age, gender, culture, or circumstance.
 
@@ -295,7 +295,7 @@ Input devices for people with severe motor impairments who cannot use a keyboard
 
 **Example:** High contrast mode designed for low vision also helps users in bright sunlight (situational).
 
-### Universal Design
+### 🎨 Universal Design
 
 **Definition:** The design of products and environments to be usable by all people, to the greatest extent possible, without the need for adaptation or specialized design.
 
@@ -315,9 +315,9 @@ Input devices for people with severe motor impairments who cannot use a keyboard
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: WCAG Compliance Check
+### 💡 Worked Example 1: WCAG Compliance Check
 
 **Scenario:** Evaluate a login form for WCAG 2.1 Level AA compliance.
 
@@ -335,7 +335,7 @@ Input devices for people with severe motor impairments who cannot use a keyboard
 2. Add text error messages (not just color)
 3. Fix heading hierarchy
 
-### Worked Example 2: Disability-Specific Testing
+### 💡 Worked Example 2: Disability-Specific Testing
 
 **Scenario:** Test a food delivery app for users with different disabilities.
 
@@ -360,7 +360,7 @@ Input devices for people with severe motor impairments who cannot use a keyboard
 - Are all notifications visual as well as audio?
 - If there are videos about restaurants, do they have captions?
 
-### Worked Example 3: Inclusive Design Analysis
+### 💡 Worked Example 3: Inclusive Design Analysis
 
 **Scenario:** A video streaming service wants to be more inclusive.
 

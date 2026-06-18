@@ -1,10 +1,10 @@
-# Chapter 4 — Performance Test Execution and Monitoring: Lessons
+# 📘 Chapter 4 — Performance Test Execution and Monitoring: Lessons
 
 ---
 
-## 4.1 Test Execution Phases
+## ⭐ 4.1 Test Execution Phases
 
-### Initialization
+### 🔷 Initialization
 
 **Purpose:** Prepare the environment before load is applied.
 
@@ -26,7 +26,7 @@
 - Wait for CPU/memory to stabilize
 - Verify response times are consistent before starting the real test
 
-### Ramp-Up
+### 🔷 Ramp-Up
 
 **Purpose:** Gradually add virtual users to avoid overwhelming the system suddenly.
 
@@ -47,7 +47,7 @@ Minute 10-20:  1,000 → 2,000 users
 Minute 20-30:  2,000 → 5,000 users (target)
 ```
 
-### Steady State
+### 🔄 Steady State
 
 **Purpose:** Maintain target load for a sustained period to collect meaningful metrics.
 
@@ -66,7 +66,7 @@ Minute 20-30:  2,000 → 5,000 users (target)
 - Resource utilization (should be stable, not growing)
 - Error rate (should be low and stable)
 
-### Ramp-Down
+### 🔷 Ramp-Down
 
 **Purpose:** Gradually remove load to observe system behavior as demand decreases.
 
@@ -82,7 +82,7 @@ Minute 65-70: 3,000 → 1,000 users
 Minute 70-75: 1,000 → 0 users
 ```
 
-### Teardown
+### 🔷 Teardown
 
 **Purpose:** Clean up after the test.
 
@@ -95,9 +95,9 @@ Minute 70-75: 1,000 → 0 users
 
 ---
 
-## 4.2 What to Monitor During Execution
+## ⭐ 4.2 What to Monitor During Execution
 
-### Server-Level Monitoring
+### 🪜 Server-Level Monitoring
 
 **CPU:**
 - **% Processor Time:** Overall CPU usage. Sustained > 80% = potential bottleneck.
@@ -122,7 +122,7 @@ Minute 70-75: 1,000 → 0 users
 - **Packet loss:** Any loss = network issue.
 - **Latency:** Round-trip time between nodes.
 
-### Application-Level Monitoring
+### 🪜 Application-Level Monitoring
 
 **Database:**
 - **Active connections:** Should be below pool maximum
@@ -146,7 +146,7 @@ Minute 70-75: 1,000 → 0 users
 - **GC frequency and duration:** Frequent or long GC = memory or tuning issue
 - **Thread count:** Unexpected growth = thread leak
 
-### Client/Load Generator Monitoring
+### 🔷 Client/Load Generator Monitoring
 
 **Important:** Monitor the load generator too!
 
@@ -162,15 +162,15 @@ Minute 70-75: 1,000 → 0 users
 
 ---
 
-## 4.3 Bottleneck Detection
+## ⭐ 4.3 Bottleneck Detection
 
-### What Is a Bottleneck?
+### 🔷 What Is a Bottleneck?
 
 A bottleneck is a resource or component that limits overall system performance because it cannot process load as fast as other components.
 
 **Analogy:** A highway with one lane closed. Traffic backs up at the bottleneck regardless of how many lanes are open before and after.
 
-### Common Bottlenecks and Indicators
+### 🔷 Common Bottlenecks and Indicators
 
 **CPU Bottleneck:**
 - CPU > 80% sustained
@@ -209,7 +209,7 @@ A bottleneck is a resource or component that limits overall system performance b
 - Thread contention
 - **Fix:** Profile code, optimize algorithms, reduce synchronization
 
-### Bottleneck Analysis Process
+### 🔬 Bottleneck Analysis Process
 
 **Step 1: Identify the Symptom**
 - Response times increasing?
@@ -235,9 +235,9 @@ A bottleneck is a resource or component that limits overall system performance b
 
 ---
 
-## 4.4 Test Execution Constraints
+## 🤖 4.4 Test Execution Constraints
 
-### Time Windows
+### 🔷 Time Windows
 
 **Production-Like Environment:**
 - Often shared with other teams
@@ -249,7 +249,7 @@ A bottleneck is a resource or component that limits overall system performance b
 - Have rollback plan if environment is needed urgently
 - Prioritize tests in case time is cut short
 
-### Data Reset Needs
+### 🗃️ Data Reset Needs
 
 **Why Reset:**
 - Database grows during tests (orders, logs)
@@ -261,7 +261,7 @@ A bottleneck is a resource or component that limits overall system performance b
 - Transaction rollback (if test transactions are isolated)
 - Data cleanup scripts after each test
 
-### External Dependencies
+### 🔷 External Dependencies
 
 **Challenges:**
 - External APIs have rate limits
@@ -273,7 +273,7 @@ A bottleneck is a resource or component that limits overall system performance b
 - Coordinate with external teams for test windows
 - Use test/sandbox environments for external services
 
-### Environment Stability
+### 🔷 Environment Stability
 
 **Prerequisites:**
 - Environment must be stable before starting
@@ -288,9 +288,9 @@ A bottleneck is a resource or component that limits overall system performance b
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Monitoring During a Load Test
+### 💡 Worked Example 1: Monitoring During a Load Test
 
 **Scenario:** Running a load test of 5,000 concurrent users on an e-commerce site.
 
@@ -320,7 +320,7 @@ A bottleneck is a resource or component that limits overall system performance b
 - Too few database connections configured
 - Slow queries causing disk thrashing
 
-### Worked Example 2: Load Generator Bottleneck
+### 💡 Worked Example 2: Load Generator Bottleneck
 
 **Scenario:** A single machine is generating load for a test.
 
@@ -342,7 +342,7 @@ A bottleneck is a resource or component that limits overall system performance b
 - Re-run test
 - New result: Server response time = 500ms (correct)
 
-### Worked Example 3: Warm-Up Impact
+### 💡 Worked Example 3: Warm-Up Impact
 
 **Scenario:** Two identical tests, one with warm-up, one without.
 

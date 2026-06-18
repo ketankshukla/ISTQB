@@ -1,14 +1,14 @@
-# Chapter 6 — Automotive Quality and Standards: Lessons
+# 📘 Chapter 6 — Automotive Quality and Standards: Lessons
 
 ---
 
-## 6.1 ISO 26262
+## ⭐ 6.1 ISO 26262
 
-### Scope
+### 🔷 Scope
 
 Functional safety standard for electrical and electronic systems in road vehicles.
 
-### Parts Relevant to Testing
+### 🔷 Parts Relevant to Testing
 
 | Part | Content |
 |------|---------|
@@ -16,7 +16,7 @@ Functional safety standard for electrical and electronic systems in road vehicle
 | **Part 5: Hardware** | Hardware design and verification |
 | **Part 6: Software** | Software design, implementation, and verification |
 
-### Testing Requirements
+### 📑 Testing Requirements
 
 | ASIL | Unit Test | Integration Test | System Test |
 |------|-----------|------------------|-------------|
@@ -26,7 +26,7 @@ Functional safety standard for electrical and electronic systems in road vehicle
 | **C** | Required | Required | Highly recommended |
 | **D** | Required | Required | Required |
 
-### Safety Mechanisms
+### 🔷 Safety Mechanisms
 
 | Mechanism | Purpose |
 |-----------|---------|
@@ -37,13 +37,13 @@ Functional safety standard for electrical and electronic systems in road vehicle
 
 ---
 
-## 6.2 ASPICE
+## ⭐ 6.2 ASPICE
 
-### Definition
+### 🔷 Definition
 
 Automotive SPICE — process assessment model for automotive software development.
 
-### Process Categories
+### 🔷 Process Categories
 
 | Category | Processes |
 |----------|-----------|
@@ -51,7 +51,7 @@ Automotive SPICE — process assessment model for automotive software developmen
 | **Supporting life cycle** | QA, verification, validation |
 | **Organizational life cycle** | Management, process improvement |
 
-### Capability Levels
+### 🪜 Capability Levels
 
 | Level | Description |
 |-------|-------------|
@@ -62,7 +62,7 @@ Automotive SPICE — process assessment model for automotive software developmen
 | **4** | Predictable — process is measured and controlled |
 | **5** | Innovating — continuous improvement |
 
-### Testing Process (SUP.4)
+### 🔷 Testing Process (SUP.4)
 
 | Activity | Output |
 |----------|--------|
@@ -73,9 +73,9 @@ Automotive SPICE — process assessment model for automotive software developmen
 
 ---
 
-## 6.3 AUTOSAR
+## ⭐ 6.3 AUTOSAR
 
-### Architecture
+### 🔷 Architecture
 
 | Layer | Components |
 |-------|-----------|
@@ -84,7 +84,7 @@ Automotive SPICE — process assessment model for automotive software developmen
 | **Basic Software (BSW)** | Communication, storage, diagnostics |
 | **Microcontroller** | Hardware abstraction |
 
-### Benefits for Testing
+### 🔷 Benefits for Testing
 
 | Benefit | Explanation |
 |---------|-------------|
@@ -95,9 +95,9 @@ Automotive SPICE — process assessment model for automotive software developmen
 
 ---
 
-## 6.4 Quality Metrics
+## 📊 6.4 Quality Metrics
 
-### Code Metrics
+### 📊 Code Metrics
 
 | Metric | Target | Purpose |
 |--------|--------|---------|
@@ -106,7 +106,7 @@ Automotive SPICE — process assessment model for automotive software developmen
 | **Defect density** | Trending down | Quality improvement |
 | **Static analysis warnings** | Zero critical | Code quality |
 
-### Process Metrics
+### 📊 Process Metrics
 
 | Metric | Purpose |
 |--------|---------|
@@ -117,9 +117,9 @@ Automotive SPICE — process assessment model for automotive software developmen
 
 ---
 
-## 6.5 Audit Readiness
+## ⭐ 6.5 Audit Readiness
 
-### Preparation
+### 🔷 Preparation
 
 | Element | Action |
 |---------|--------|
@@ -128,7 +128,7 @@ Automotive SPICE — process assessment model for automotive software developmen
 | **Evidence** | Coverage reports, defect logs |
 | **Process adherence** | Follow defined processes |
 
-### Common Audit Findings
+### 🔷 Common Audit Findings
 
 | Finding | Root Cause |
 |---------|------------|
@@ -139,9 +139,9 @@ Automotive SPICE — process assessment model for automotive software developmen
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: ISO 26262 Test Planning
+### 💡 Worked Example 1: ISO 26262 Test Planning
 
 | ASIL | Unit | Integration | System | Coverage |
 |------|------|-------------|--------|----------|
@@ -149,13 +149,13 @@ Automotive SPICE — process assessment model for automotive software developmen
 | B | Required | Highly rec. | Highly rec. | Statement, Branch |
 | QM | Recommended | Recommended | Recommended | Statement (optional) |
 
-### Worked Example 2: ASPICE Assessment
+### 💡 Worked Example 2: ASPICE Assessment
 
 | Process | Level 1 | Level 2 | Level 3 |
 |---------|---------|---------|---------|
 | Testing | Tests exist | Planned and tracked | Defined process followed |
 
-### Worked Example 3: Quality Dashboard
+### 💡 Worked Example 3: Quality Dashboard
 
 | Metric | Current | Target | Status |
 |--------|---------|--------|--------|

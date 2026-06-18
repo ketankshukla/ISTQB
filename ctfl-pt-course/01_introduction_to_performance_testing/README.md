@@ -1,6 +1,6 @@
-# Chapter 1 — Introduction to Performance Testing
+# 🌟 Chapter 1 — Introduction to Performance Testing
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~15% (~3 questions out of 20)
 - **K-levels:** K1, K2
@@ -8,7 +8,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -20,7 +20,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts
+## ⭐ Key Concepts
 
 - Performance testing definition
 - Performance metrics (response time, throughput, resource utilization)

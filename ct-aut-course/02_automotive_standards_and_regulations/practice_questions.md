@@ -1,8 +1,8 @@
-# Chapter 2 — Automotive Standards and Regulations: Practice Questions
+# ❓ Chapter 2 — Automotive Standards and Regulations: Practice Questions
 
 ---
 
-### Q1 (AuT-2.1, K1)
+### 🔷 Q1 (AuT-2.1, K1)
 
 ISO 26262 is a standard for:
 
@@ -13,7 +13,7 @@ D. Only marketing
 
 ---
 
-### Q2 (AuT-2.2, K2)
+### 🔷 Q2 (AuT-2.2, K2)
 
 ASIL D represents:
 
@@ -24,7 +24,7 @@ D. Only a software classification
 
 ---
 
-### Q3 (AuT-2.3, K1)
+### 🔷 Q3 (AuT-2.3, K1)
 
 ASPICE is:
 
@@ -35,7 +35,7 @@ D. Only a network protocol
 
 ---
 
-### Q4 (AuT-2.4, K2)
+### 🔷 Q4 (AuT-2.4, K2)
 
 AUTOSAR standardizes:
 
@@ -46,7 +46,7 @@ D. Only engine performance
 
 ---
 
-### Q5 (AuT-2.1, K1)
+### 🔷 Q5 (AuT-2.1, K1)
 
 ISO 26262 Part 6 addresses:
 
@@ -57,7 +57,7 @@ D. Only production processes
 
 ---
 
-### Q6 (AuT-2.2, K2)
+### 🔷 Q6 (AuT-2.2, K2)
 
 The three factors determining ASIL are:
 
@@ -68,7 +68,7 @@ D. Only probability
 
 ---
 
-### Q7 (AuT-2.3, K1)
+### 🔷 Q7 (AuT-2.3, K1)
 
 ASPICE Level 3 means:
 
@@ -79,7 +79,7 @@ D. Only that code compiles
 
 ---
 
-### Q8 (AuT-2.4, K2)
+### 🔷 Q8 (AuT-2.4, K2)
 
 The RTE in AUTOSAR:
 
@@ -90,7 +90,7 @@ D. Only stores data
 
 ---
 
-### Q9 (AuT-2.1, K1)
+### 🔷 Q9 (AuT-2.1, K1)
 
 HARA stands for:
 
@@ -101,7 +101,7 @@ D. Only a documentation format
 
 ---
 
-### Q10 (AuT-2.2, K2)
+### 🔷 Q10 (AuT-2.2, K2)
 
 ASIL QM means:
 
@@ -112,7 +112,7 @@ D. Only for mechanical systems
 
 ---
 
-### Q11 (AuT-2.3, K1)
+### 🔷 Q11 (AuT-2.3, K1)
 
 ASPICE Level 5 (Innovating) is characterized by:
 
@@ -123,7 +123,7 @@ D. Only that tests pass
 
 ---
 
-### Q12 (AuT-2.4, K2)
+### 🔷 Q12 (AuT-2.4, K2)
 
 Software Components (SWCs) in AUTOSAR:
 
@@ -134,7 +134,7 @@ D. Only run in production vehicles
 
 ---
 
-### Q13 (AuT-2.1, K1)
+### 🔷 Q13 (AuT-2.1, K1)
 
 ISO/SAE 21434 addresses:
 
@@ -145,7 +145,7 @@ D. Only fuel efficiency
 
 ---
 
-### Q14 (AuT-2.2, K2)
+### 🔷 Q14 (AuT-2.2, K2)
 
 ASIL decomposition:
 
@@ -156,7 +156,7 @@ D. Only applies to software
 
 ---
 
-### Q15 (AuT-2.3, K1)
+### 🔷 Q15 (AuT-2.3, K1)
 
 ASPICE Level 2 (Managed) requires:
 
@@ -167,7 +167,7 @@ D. Only that tests are run
 
 ---
 
-### Q16 (AuT-2.4, K2)
+### 🔷 Q16 (AuT-2.4, K2)
 
 The BSW layer in AUTOSAR:
 
@@ -178,7 +178,7 @@ D. Only manages schedules
 
 ---
 
-### Q17 (AuT-2.1, K1)
+### 🔷 Q17 (AuT-2.1, K1)
 
 A Safety Goal in ISO 26262:
 
@@ -189,7 +189,7 @@ D. Only applies to hardware
 
 ---
 
-### Q18 (AuT-2.2, K2)
+### 🔷 Q18 (AuT-2.2, K2)
 
 Brake failure at highway speed would likely be classified as:
 
@@ -200,7 +200,7 @@ D. Only a warning
 
 ---
 
-### Q19 (AuT-2.3, K1)
+### 🔷 Q19 (AuT-2.3, K1)
 
 MISRA C/C++ is:
 
@@ -211,7 +211,7 @@ D. Only a hardware standard
 
 ---
 
-### Q20 (AuT-2.4, K2)
+### 🔷 Q20 (AuT-2.4, K2)
 
 Testing an AUTOSAR application layer (ASW):
 
@@ -222,84 +222,84 @@ D. Only works with CAN bus
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** ISO 26262 = functional safety.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** ASIL D = highest, most rigorous.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** ASPICE = process assessment model.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** AUTOSAR = software architecture.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Part 6 = software level.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** ASIL = Severity + Exposure + Controllability.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Level 3 = defined organizational standards.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** RTE = interface between SWCs.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** HARA = Hazard Analysis and Risk Assessment.
 
-### Q10
+### 🔷 Q10
 **Answer: A**
 **Rationale:** QM = quality management only.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Level 5 = continuous improvement.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** SWCs = independently testable with stubs.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** ISO/SAE 21434 = cybersecurity.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Decomposition = redundancy maintains safety.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Level 2 = planned and monitored.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** BSW = hardware abstraction + services.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Safety Goal = top-level safety requirement.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Brake failure = ASIL D.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** MISRA = coding standard.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** ASW testing = stubs for RTE/BSW.

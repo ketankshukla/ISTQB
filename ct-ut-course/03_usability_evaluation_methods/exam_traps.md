@@ -1,6 +1,6 @@
-# Chapter 3 — Usability Evaluation Methods: Exam Traps
+# 🪤 Chapter 3 — Usability Evaluation Methods: Exam Traps
 
-## Trap 1: Thinking Expert Methods Replace User Testing
+## 🪤 Trap 1: Thinking Expert Methods Replace User Testing
 
 **Trap:** Expert methods are faster and cheaper but do not capture real user behavior, emotions, or satisfaction. They complement, not replace, user testing.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Confusing Cognitive Walkthrough and Heuristic Evaluation
+## 🪤 Trap 2: Confusing Cognitive Walkthrough and Heuristic Evaluation
 
 **Trap:** Cognitive walkthrough focuses on learnability by simulating a user's problem-solving step-by-step. Heuristic evaluation checks the interface against general principles.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Thinking One Method Is Always Best
+## 🪤 Trap 3: Thinking One Method Is Always Best
 
 **Trap:** The best method depends on the situation: budget, timeline, stage of design, and what you need to learn.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Thinking Unmoderated Testing Is Inferior
+## 🪤 Trap 4: Thinking Unmoderated Testing Is Inferior
 
 **Trap:** Unmoderated testing is not inferior — it is different. It is faster, cheaper, and better for large samples, but lacks probing and adaptation.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Thinking Guideline Reviews Are Only for Accessibility
+## 🪤 Trap 5: Thinking Guideline Reviews Are Only for Accessibility
 
 **Trap:** Guideline reviews can evaluate against any standard: usability (ISO 9241), platform design (Apple HIG), or corporate standards. Not just accessibility.
 

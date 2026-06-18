@@ -1,8 +1,8 @@
-# Chapter 3 — Compliance and Player Protection: Practice Questions
+# ❓ Chapter 3 — Compliance and Player Protection: Practice Questions
 
 ---
 
-### Q1 (GT-3.1, K1)
+### 🔷 Q1 (GT-3.1, K1)
 
 Which regulatory body oversees gambling in Malta?
 
@@ -13,7 +13,7 @@ D. Spelinspektionen
 
 ---
 
-### Q2 (GT-3.2, K2)
+### 🔷 Q2 (GT-3.2, K2)
 
 A player sets a maximum deposit limit of $500 per week. This is an example of:
 
@@ -24,7 +24,7 @@ D. Game fairness testing
 
 ---
 
-### Q3 (GT-3.2, K2)
+### 🔷 Q3 (GT-3.2, K2)
 
 Which player protection measure allows a player to voluntarily ban themselves from gambling for a period of months or years?
 
@@ -35,7 +35,7 @@ D. Session limit
 
 ---
 
-### Q4 (GT-3.1, K2)
+### 🔷 Q4 (GT-3.1, K2)
 
 In the licensing process, what is the PRIMARY purpose of technical compliance testing?
 
@@ -46,7 +46,7 @@ D. To approve the operator's office location
 
 ---
 
-### Q5 (GT-3.3, K2)
+### 🔷 Q5 (GT-3.3, K2)
 
 An operator notices a player depositing large sums, placing minimal bets, and then immediately withdrawing. This is:
 
@@ -57,7 +57,7 @@ D. A sign of problem gambling
 
 ---
 
-### Q6 (GT-3.4, K2)
+### 🔷 Q6 (GT-3.4, K2)
 
 Which of the following is a PRIMARY purpose of KYC (Know Your Customer) in gambling?
 
@@ -68,7 +68,7 @@ D. To certify the RNG
 
 ---
 
-### Q7 (GT-3.2, K2)
+### 🔷 Q7 (GT-3.2, K2)
 
 A periodic on-screen reminder showing time spent and money won or lost is called a:
 
@@ -79,7 +79,7 @@ D. Self-exclusion
 
 ---
 
-### Q8 (GT-3.1, K1)
+### 🔷 Q8 (GT-3.1, K1)
 
 Which organization is an independent testing laboratory, NOT a government regulator?
 
@@ -90,7 +90,7 @@ D. Spelinspektionen
 
 ---
 
-### Q9 (GT-3.3, K2)
+### 🔷 Q9 (GT-3.3, K2)
 
 Suspicious Activity Reports (SARs) in gambling are filed with:
 
@@ -101,7 +101,7 @@ D. The advertising agency
 
 ---
 
-### Q10 (GT-3.2, K2)
+### 🔷 Q10 (GT-3.2, K2)
 
 Which statement about self-exclusion is TRUE?
 
@@ -112,7 +112,7 @@ D. It is mandatory for all players
 
 ---
 
-### Q11 (GT-3.4, K2)
+### 🔷 Q11 (GT-3.4, K2)
 
 The minimum gambling age in most jurisdictions is:
 
@@ -123,7 +123,7 @@ D. There is no minimum age
 
 ---
 
-### Q12 (GT-3.5, K2)
+### 🔷 Q12 (GT-3.5, K2)
 
 When testing responsible gaming features, which scenario is MOST critical to verify?
 
@@ -134,7 +134,7 @@ D. That deposit limits can be exceeded with manager approval
 
 ---
 
-### Q13 (GT-3.1, K2)
+### 🔷 Q13 (GT-3.1, K2)
 
 Which jurisdiction requires operators to integrate with a national self-exclusion register called GAMSTOP?
 
@@ -145,7 +145,7 @@ D. Netherlands
 
 ---
 
-### Q14 (GT-3.3, K2)
+### 🔷 Q14 (GT-3.3, K2)
 
 Source of funds verification is required:
 
@@ -156,7 +156,7 @@ D. Never, as it violates player privacy
 
 ---
 
-### Q15 (GT-3.2, K2)
+### 🔷 Q15 (GT-3.2, K2)
 
 Which of the following is a sign of potential problem gambling that operators should detect and intervene on?
 
@@ -167,7 +167,7 @@ D. Setting a deposit limit
 
 ---
 
-### Q16 (GT-3.1, K1)
+### 🔷 Q16 (GT-3.1, K1)
 
 In the United States, gambling regulation is primarily handled at the:
 
@@ -178,7 +178,7 @@ D. International level by the UN
 
 ---
 
-### Q17 (GT-3.4, K2)
+### 🔷 Q17 (GT-3.4, K2)
 
 A player registers with an expired passport. The correct system behavior is:
 
@@ -189,7 +189,7 @@ D. Accept any document with a photo
 
 ---
 
-### Q18 (GT-3.3, K2)
+### 🔷 Q18 (GT-3.3, K2)
 
 Structuring transactions to avoid reporting thresholds is:
 
@@ -200,7 +200,7 @@ D. A standard accounting practice
 
 ---
 
-### Q19 (GT-3.5, K2)
+### 🔷 Q19 (GT-3.5, K2)
 
 A compliance test plan should include:
 
@@ -211,7 +211,7 @@ D. Only performance tests
 
 ---
 
-### Q20 (GT-3.2, K2)
+### 🔷 Q20 (GT-3.2, K2)
 
 Which statement about time-outs is TRUE?
 
@@ -222,104 +222,104 @@ D. They require a court order to implement
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** Malta Gaming Authority (MGA) regulates gambling in Malta. UKGC = UK. NGCB = Nevada. Spelinspektionen = Sweden.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** Deposit limits are a player protection measure to prevent excessive gambling and financial harm.
 
-### Q3
+### 🔷 Q3
 **Answer: C**
 
 **Rationale:** Self-exclusion is a long-term voluntary ban (months to years). Time-outs are temporary. Reality checks are informational reminders.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** Technical compliance testing verifies game fairness, RNG certification, and RTP accuracy. Marketing budgets, customer service, and office locations are not technical tests.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** Large deposits with minimal play and immediate withdrawal is a classic money laundering pattern (layering).
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** KYC verifies identity and age to prevent fraud, underage gambling, and money laundering.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** Reality checks are periodic on-screen reminders showing time spent and financial results.
 
-### Q8
+### 🔷 Q8
 **Answer: C**
 
 **Rationale:** GLI is an independent testing laboratory. UKGC, MGA, and Spelinspektionen are government regulators.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** SARs are filed with financial intelligence units or relevant authorities (e.g., National Crime Agency in UK, FinCEN in US).
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** Self-exclusion is a long-term ban with a minimum period that cannot be easily reversed. It applies to all games.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 
 **Rationale:** Most jurisdictions set the minimum gambling age at 18 or 21, depending on the jurisdiction and product type.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** Verifying self-exclusion enforcement is critical because failure can lead to severe regulatory penalties and player harm.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** GAMSTOP is the UK's national multi-operator self-exclusion scheme. Sweden uses Spelpaus. Netherlands uses CRUKS.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** Source of funds verification is required for high-value players or large/unusual transactions as part of AML compliance.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** Chasing losses is a recognized sign of problem gambling. Operators are often required to intervene when this pattern is detected.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 
 **Rationale:** The US has no federal gambling regulator (except tribal gaming). Each state regulates gambling independently.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 
 **Rationale:** Expired passports are not valid for KYC. The system must reject expired documents and request current valid ID.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 
 **Rationale:** Structuring (breaking large transactions into smaller ones to avoid reporting thresholds) is a known money laundering technique.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** A comprehensive compliance test plan covers game fairness, responsible gaming, KYC, AML, and all applicable jurisdictional requirements.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 
 **Rationale:** Time-outs are temporary breaks from gambling, typically ranging from 24 hours to several weeks.

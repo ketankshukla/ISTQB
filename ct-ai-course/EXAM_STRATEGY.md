@@ -1,10 +1,10 @@
-# CT-AI Exam Strategy
+# ♟️ CT-AI Exam Strategy
 
 This document contains tactics, time management advice, and trap-avoidance strategies for the CT-AI exam.
 
 ---
 
-## Exam Format Overview
+## 🎓 Exam Format Overview
 
 | Parameter | Value |
 |-----------|-------|
@@ -16,7 +16,7 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## Time Budget
+## ⭐ Time Budget
 
 | Strategy | Time |
 |----------|------|
@@ -29,7 +29,7 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## Chapter Weighting and Focus Areas
+## ⭐ Chapter Weighting and Focus Areas
 
 | Chapter | Weight | Approx. Questions | Key Focus |
 |---------|--------|-------------------|-----------|
@@ -44,7 +44,7 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## K-Level Patterns
+## 🪜 K-Level Patterns
 
 | K-Level | Definition | How It Appears | Strategy |
 |---------|-----------|----------------|----------|
@@ -56,40 +56,40 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## Chapter-Specific Tactics
+## 🎓 Chapter-Specific Tactics
 
-### Chapter 1: Introduction to AI and ML
+### 🌟 Chapter 1: Introduction to AI and ML
 - Know the difference between AI, ML, and Deep Learning
 - Understand supervised vs. unsupervised vs. reinforcement learning
 - Know common AI applications (NLP, computer vision, robotics)
 - Understand the AI hierarchy: AI → ML → Deep Learning → Neural Networks
 
-### Chapter 2: AI in the SDLC
+### 🔁 Chapter 2: AI in the SDLC
 - AI development is iterative and data-driven, not just code-driven
 - Testing must include data validation, not just code validation
 - Model deployment requires monitoring (models degrade over time)
 - CI/CD for ML = MLOps (different from traditional CI/CD)
 
-### Chapter 3: Testing AI-Based Systems
+### 🤖 Chapter 3: Testing AI-Based Systems
 - Non-determinism is a core challenge — same input may produce different outputs
 - Test oracles are harder to define for AI systems
 - Metamorphic testing is valuable for systems without clear oracles
 - A/B testing is common for comparing model versions
 
-### Chapter 4: Testing ML Models
+### 📐 Chapter 4: Testing ML Models
 - Know the key metrics: accuracy, precision, recall, F1-score, AUC-ROC
 - Understand overfitting vs. underfitting
 - Know the importance of training/test data separation
 - Data quality is as important as model quality
 - Know cross-validation
 
-### Chapter 5: AI Quality Characteristics
+### 💎 Chapter 5: AI Quality Characteristics
 - Fairness: model does not discriminate against protected groups
 - Robustness: model handles edge cases and adversarial inputs
 - Explainability: understand WHY the model made a decision
 - Ethics: AI should be transparent, accountable, and human-centric
 
-### Chapter 6: Using AI for Testing
+### 🤖 Chapter 6: Using AI for Testing
 - AI can generate tests, analyze results, predict defects
 - Autonomous testing uses AI to create and execute tests without human input
 - AI testing tools require training and validation
@@ -97,7 +97,7 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## Distractor Patterns
+## ⭐ Distractor Patterns
 
 | Pattern | Example | How to Spot It |
 |---------|---------|--------------|
@@ -109,7 +109,7 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## Before the Exam
+## 🎓 Before the Exam
 
 **1 Week Before:**
 - Re-read all `exam_traps.md` files
@@ -129,7 +129,7 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## During the Exam
+## 🎓 During the Exam
 
 **Question Reading:**
 1. Read the question stem completely
@@ -152,7 +152,7 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## Post-Exam
+## 🎓 Post-Exam
 
 Whether you pass or not:
 - Note which questions were difficult

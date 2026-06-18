@@ -1,10 +1,10 @@
-# Case Study 1 — Agile Team Transformation
+# 📂 Case Study 1 — Agile Team Transformation
 
-## Context
+## ⭐ Context
 
 You are a Senior Test Analyst joining DevFlow, a software company transitioning from waterfall to Scrum. The company has 8 teams, each with 6 developers, 2 testers in a separate QA department, and 1 business analyst.
 
-## Current State (Waterfall)
+## 🔄 Current State (Waterfall)
 
 - Requirements are documented in 200-page specification documents.
 - Development takes 3 months, followed by 6 weeks of system testing by the QA department.
@@ -13,7 +13,7 @@ You are a Senior Test Analyst joining DevFlow, a software company transitioning 
 - Releases happen twice per year.
 - The last release had 47 critical defects found in production within the first month.
 
-## Target State (Scrum)
+## 🔄 Target State (Scrum)
 
 - 2-week sprints with potentially releasable increments.
 - Cross-functional teams with testers embedded.
@@ -23,7 +23,7 @@ You are a Senior Test Analyst joining DevFlow, a software company transitioning 
 
 ---
 
-## Task 1: Organizational Changes
+## ⭐ Task 1: Organizational Changes
 
 Identify the key organizational and cultural changes needed to support agile testing.
 
@@ -62,7 +62,7 @@ Identify the key organizational and cultural changes needed to support agile tes
 
 ---
 
-## Task 2: Testing Approach for First Sprint
+## ⭐ Task 2: Testing Approach for First Sprint
 
 The first Scrum team is starting Sprint 1 with 5 user stories. Design a testing approach for the sprint.
 
@@ -101,7 +101,7 @@ The first Scrum team is starting Sprint 1 with 5 user stories. Design a testing 
 
 ---
 
-## Task 3: Addressing Resistance
+## ⭐ Task 3: Addressing Resistance
 
 A senior developer says: "We used to have 2 months of testing. Now you want us to test everything in 2 weeks? That's impossible. Quality will suffer."
 
@@ -128,7 +128,7 @@ A senior developer says: "We used to have 2 months of testing. Now you want us t
 
 ---
 
-## Task 4: Metrics for Transformation Success
+## 📊 Task 4: Metrics for Transformation Success
 
 What metrics should be tracked to verify the agile transformation is improving quality?
 

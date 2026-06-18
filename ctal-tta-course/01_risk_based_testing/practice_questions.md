@@ -1,8 +1,8 @@
-# Chapter 1 — Risk-Based Testing: Practice Questions
+# ❓ Chapter 1 — Risk-Based Testing: Practice Questions
 
 ---
 
-### Q1 (TTA-1.1, K2)
+### 🔷 Q1 (TTA-1.1, K2)
 
 Which of the following is a TECHNICAL risk that a technical test analyst would focus on?
 
@@ -13,7 +13,7 @@ D. The product manager is unavailable
 
 ---
 
-### Q2 (TTA-1.2, K3)
+### 🔷 Q2 (TTA-1.2, K3)
 
 A module has high cyclomatic complexity and handles financial transactions. The MOST appropriate combination of test techniques is:
 
@@ -24,7 +24,7 @@ D. Compatibility testing on different browsers
 
 ---
 
-### Q3 (TTA-1.1, K2)
+### 🔷 Q3 (TTA-1.1, K2)
 
 FMEA (Failure Mode and Effects Analysis) is:
 
@@ -35,7 +35,7 @@ D. A tool for automated test execution
 
 ---
 
-### Q4 (TTA-1.2, K3)
+### 🔷 Q4 (TTA-1.2, K3)
 
 A system must process 50,000 transactions per second. Which test technique is MOST appropriate for this risk?
 
@@ -46,7 +46,7 @@ D. Unit testing with mock objects
 
 ---
 
-### Q5 (TTA-1.3, K2)
+### 🔷 Q5 (TTA-1.3, K2)
 
 Fault tree analysis is characterized by:
 
@@ -57,7 +57,7 @@ D. Reviewing code for style violations
 
 ---
 
-### Q6 (TTA-1.2, K3)
+### 🔷 Q6 (TTA-1.2, K3)
 
 A web application has a high risk of SQL injection attacks. The MOST appropriate testing techniques are:
 
@@ -68,7 +68,7 @@ D. Compatibility testing on mobile devices
 
 ---
 
-### Q7 (TTA-1.3, K3)
+### 🔷 Q7 (TTA-1.3, K3)
 
 In FMEA, the Risk Priority Number (RPN) is calculated as:
 
@@ -79,7 +79,7 @@ D. Likelihood - Detectability
 
 ---
 
-### Q8 (TTA-1.1, K2)
+### 🔷 Q8 (TTA-1.1, K2)
 
 Which of the following is NOT typically a technical risk?
 
@@ -90,7 +90,7 @@ D. Weak input validation
 
 ---
 
-### Q9 (TTA-1.2, K3)
+### 🔷 Q9 (TTA-1.2, K3)
 
 A module with many concurrent threads has a high risk of race conditions. The MOST appropriate test technique is:
 
@@ -101,7 +101,7 @@ D. Compatibility testing
 
 ---
 
-### Q10 (TTA-1.3, K2)
+### 🔷 Q10 (TTA-1.3, K2)
 
 The primary purpose of risk-based testing from a technical perspective is to:
 
@@ -112,7 +112,7 @@ D. Replace manual testing with automated testing
 
 ---
 
-### Q11 (TTA-1.2, K3)
+### 🔷 Q11 (TTA-1.2, K3)
 
 A legacy system integration has a high risk of interface failures. The MOST appropriate test technique is:
 
@@ -123,7 +123,7 @@ D. Performance profiling
 
 ---
 
-### Q12 (TTA-1.1, K2)
+### 🔷 Q12 (TTA-1.1, K2)
 
 Which of the following risks would MOST likely be identified through static analysis?
 
@@ -134,7 +134,7 @@ D. Incomplete requirements
 
 ---
 
-### Q13 (TTA-1.3, K3)
+### 🔷 Q13 (TTA-1.3, K3)
 
 In fault tree analysis, a "minimal cut set" is:
 
@@ -145,7 +145,7 @@ D. A method for calculating code coverage
 
 ---
 
-### Q14 (TTA-1.2, K3)
+### 🔷 Q14 (TTA-1.2, K3)
 
 A system has a high risk of data corruption during system crashes. Which test technique is MOST appropriate?
 
@@ -156,7 +156,7 @@ D. Browser compatibility testing
 
 ---
 
-### Q15 (TTA-1.1, K2)
+### 🔷 Q15 (TTA-1.1, K2)
 
 A technical test analyst's contribution to risk identification includes:
 
@@ -167,7 +167,7 @@ D. Defining the project schedule
 
 ---
 
-### Q16 (TTA-1.2, K3)
+### 🔷 Q16 (TTA-1.2, K3)
 
 A new algorithm with unproven performance characteristics presents a risk. The MOST appropriate test technique is:
 
@@ -178,7 +178,7 @@ D. Documentation review
 
 ---
 
-### Q17 (TTA-1.3, K2)
+### 🔷 Q17 (TTA-1.3, K2)
 
 Which statement about risk-based testing is TRUE?
 
@@ -189,7 +189,7 @@ D. Only project managers can identify risks
 
 ---
 
-### Q18 (TTA-1.2, K3)
+### 🔷 Q18 (TTA-1.2, K3)
 
 A system has a high risk of buffer overflow vulnerabilities. The MOST appropriate test techniques are:
 
@@ -200,7 +200,7 @@ D. Compatibility testing on different platforms
 
 ---
 
-### Q19 (TTA-1.1, K2)
+### 🔷 Q19 (TTA-1.1, K2)
 
 Technical debt is an example of:
 
@@ -211,7 +211,7 @@ D. An external risk
 
 ---
 
-### Q20 (TTA-1.3, K3)
+### 🔷 Q20 (TTA-1.3, K3)
 
 A fault tree uses Boolean logic to:
 
@@ -222,104 +222,104 @@ D. Measure cyclomatic complexity
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** Custom encryption algorithms are a technical risk (security). Deadlines (A), budgets (C), and staffing (D) are project risks.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** High complexity requires control flow/branch coverage. Financial transactions require decision table testing for business rules.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** FMEA is a bottom-up technique analyzing each component for potential failure modes and their effects.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** High transaction volume is a performance risk. Load testing and performance profiling are the appropriate techniques.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** Fault tree analysis starts with a top-level failure and works backward to identify contributing events.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** SQL injection is a security risk. SAST finds code-level vulnerabilities; penetration testing finds exploitable weaknesses.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** RPN = Severity x Likelihood x Detectability. It multiplies the three factors.
 
-### Q8
+### 🔷 Q8
 **Answer: C**
 
 **Rationale:** Project schedule slippage is a project/business risk, not a technical risk.
 
-### Q9
+### 🔷 Q9
 **Answer: A**
 
 **Rationale:** Race conditions are a concurrency risk. Static analysis can detect thread safety issues.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** Risk-based testing focuses effort on highest-risk areas. It does not eliminate all risks or reduce budgets.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 
 **Rationale:** Interface/contract testing validates that systems communicate correctly — appropriate for integration risks.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** Static analysis finds code-level issues like uninitialized variables and unreachable code without execution.
 
-### Q13
+### 🔷 Q13
 **Answer: A**
 
 **Rationale:** A minimal cut set is the smallest combination of basic events that, if they all occur, cause the top-level failure.
 
-### Q14
+### 🔷 Q14
 **Answer: A**
 
 **Rationale:** Recovery testing verifies system behavior after crashes. Data integrity testing verifies data correctness.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** Technical test analysts identify technical risks by reviewing architecture, design, and code.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 
 **Rationale:** Unproven algorithm performance requires profiling and benchmarking to measure actual behavior.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 
 **Rationale:** Risk-based testing allocates more effort to higher-risk areas. Equal effort (A) would be inefficient.
 
-### Q18
+### 🔷 Q18
 **Answer: A**
 
 **Rationale:** Buffer overflow vulnerabilities require targeted overflow testing and static security analysis.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** Technical debt (poor code quality, shortcuts) is a maintainability risk — a technical risk.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 
 **Rationale:** Fault trees use Boolean logic (AND/OR gates) to model how events combine to cause system failure.

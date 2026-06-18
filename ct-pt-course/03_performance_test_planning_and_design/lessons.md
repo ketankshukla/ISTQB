@@ -1,10 +1,10 @@
-# Chapter 3 — Performance Test Planning and Design: Lessons
+# 📘 Chapter 3 — Performance Test Planning and Design: Lessons
 
 ---
 
-## 3.1 Performance Test Strategy
+## ♟️ 3.1 Performance Test Strategy
 
-### Defining the Strategy
+### ♟️ Defining the Strategy
 
 A performance test strategy defines:
 - **Objectives:** What are we trying to achieve?
@@ -15,7 +15,7 @@ A performance test strategy defines:
 - **Schedule:** When will tests execute?
 - **Risks:** What could prevent successful testing?
 
-### Objectives
+### 🎯 Objectives
 
 **Common Performance Test Objectives:**
 
@@ -26,7 +26,7 @@ A performance test strategy defines:
 5. **Verify tuning:** "Did the optimization work?"
 6. **Regression detection:** "Did the new release degrade performance?"
 
-### Scope Definition
+### 🔷 Scope Definition
 
 **In Scope:**
 - Critical user journeys (login, search, checkout)
@@ -39,7 +39,7 @@ A performance test strategy defines:
 - Features not yet implemented
 - Third-party systems outside your control (may be mocked)
 
-### Risk Factors
+### ⚠️ Risk Factors
 
 | Risk | Mitigation |
 |------|------------|
@@ -51,9 +51,9 @@ A performance test strategy defines:
 
 ---
 
-## 3.2 Workload Modeling
+## 📐 3.2 Workload Modeling
 
-### What Is a Workload Model?
+### 📐 What Is a Workload Model?
 
 A workload model represents the expected user behavior, including:
 - Number and types of users
@@ -62,7 +62,7 @@ A workload model represents the expected user behavior, including:
 - Timing between actions (think time)
 - Patterns of arrival (steady, ramp-up, peak hours)
 
-### User Profiles
+### 🔷 User Profiles
 
 **Definition:** A description of a type of user and their typical behavior.
 
@@ -86,7 +86,7 @@ A workload model represents the expected user behavior, including:
 - Think time: 15-60 seconds (especially during checkout)
 - Session duration: 15 minutes
 
-### Transaction Mix
+### 🔷 Transaction Mix
 
 **Definition:** The proportion of different transaction types during a test.
 
@@ -104,7 +104,7 @@ Checkout:              5%
 - Checkout is more database-intensive than browsing
 - A realistic mix reveals real bottlenecks
 
-### Think Time
+### 🔷 Think Time
 
 **Definition:** The simulated delay between user actions, representing reading, decision-making, or data entry.
 
@@ -118,7 +118,7 @@ Checkout:              5%
 - Too much think time = not enough load
 - Realistic think time = accurate simulation
 
-### Arrival Patterns
+### 🔷 Arrival Patterns
 
 **Steady Arrival:**
 - Users arrive at a constant rate
@@ -138,9 +138,9 @@ Checkout:              5%
 
 ---
 
-## 3.3 Performance Scenarios
+## ⚡ 3.3 Performance Scenarios
 
-### What Is a Performance Scenario?
+### ⚡ What Is a Performance Scenario?
 
 A performance scenario defines a specific test case with:
 - User profile
@@ -149,7 +149,7 @@ A performance scenario defines a specific test case with:
 - Duration
 - Acceptance criteria
 
-### Scenario Design
+### 🎨 Scenario Design
 
 **Scenario 1: Normal Load**
 ```
@@ -181,7 +181,7 @@ Duration: 48 hours
 Acceptance: Memory growth < 10%, no errors after 24 hours
 ```
 
-### Critical Scenarios
+### 🎬 Critical Scenarios
 
 **How to Identify:**
 1. Analyze production logs for most frequent transactions
@@ -197,9 +197,9 @@ Acceptance: Memory growth < 10%, no errors after 24 hours
 
 ---
 
-## 3.4 Key Performance Indicators (KPIs)
+## ⚡ 3.4 Key Performance Indicators (KPIs)
 
-### Response Time KPIs
+### 🔷 Response Time KPIs
 
 **Average Response Time:**
 - The arithmetic mean of all response times
@@ -230,7 +230,7 @@ P99: ~4800ms
 **SLA Example:** "95% of search requests must complete within 2 seconds."
 → P95 search response time must be < 2,000ms.
 
-### Throughput KPIs
+### 🔷 Throughput KPIs
 
 **Requests Per Second (RPS):**
 - Total requests divided by test duration
@@ -243,7 +243,7 @@ P99: ~4800ms
 **Pages Per Minute (PPM):**
 - Web pages loaded per minute
 
-### Resource Utilization KPIs
+### 🔷 Resource Utilization KPIs
 
 **CPU Utilization:**
 - Target: Sustained < 70-80%
@@ -261,7 +261,7 @@ P99: ~4800ms
 - Utilization < 70% of bandwidth
 - No packet loss
 
-### Error Rate KPI
+### 🔷 Error Rate KPI
 
 **Definition:** Percentage of requests that fail.
 
@@ -270,7 +270,7 @@ P99: ~4800ms
 - Stress testing: < 5% (acceptable under stress)
 - Spike testing: May be higher during the spike itself
 
-### Concurrent Users KPI
+### 🔷 Concurrent Users KPI
 
 **Definition:** Number of users actively on the system.
 
@@ -278,9 +278,9 @@ P99: ~4800ms
 
 ---
 
-## 3.5 Acceptance Criteria
+## ✅ 3.5 Acceptance Criteria
 
-### Defining Pass/Fail Criteria
+### ✅ Defining Pass/Fail Criteria
 
 **Response Time Criteria:**
 - "P95 login response time < 1 second under 1,000 concurrent users"
@@ -298,7 +298,7 @@ P99: ~4800ms
 - "Error rate < 0.1% during normal load testing"
 - "No data loss or corruption under any test condition"
 
-### Baseline and Benchmark
+### 🔷 Baseline and Benchmark
 
 **Baseline:**
 - Measurement under known conditions before changes
@@ -311,9 +311,9 @@ P99: ~4800ms
 
 ---
 
-## 3.6 Test Data
+## 🗃️ 3.6 Test Data
 
-### Requirements for Performance Test Data
+### 📑 Requirements for Performance Test Data
 
 **Realistic:**
 - Data should reflect production patterns
@@ -332,7 +332,7 @@ P99: ~4800ms
 - Never use production data with real customer information
 - Anonymize or generate synthetic data
 
-### Data Generation Approaches
+### 🗃️ Data Generation Approaches
 
 **Synthetic Data Generation:**
 - Tools generate realistic but fake data
@@ -351,9 +351,9 @@ P99: ~4800ms
 
 ---
 
-## 3.7 Environment Planning
+## 🗓️ 3.7 Environment Planning
 
-### Production-Like Environment
+### 🔷 Production-Like Environment
 
 **Ideal:** Test on hardware identical to production.
 
@@ -362,7 +362,7 @@ P99: ~4800ms
 - Different network topology affects latency
 - Different database configurations affect query performance
 
-### Scaled Environments
+### 🔷 Scaled Environments
 
 **Scaled-Down:**
 - Smaller than production
@@ -375,7 +375,7 @@ P99: ~4800ms
 - Used for future capacity testing
 - Use when: Planning infrastructure upgrades
 
-### Environment Components
+### 🔷 Environment Components
 
 **Required Components:**
 - Application servers (matching production configuration)
@@ -391,9 +391,9 @@ P99: ~4800ms
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Workload Model
+### 💡 Worked Example 1: Workload Model
 
 **Scenario:** An online travel booking site.
 
@@ -427,7 +427,7 @@ Report generation:  2%
 - Steady state: 5,000 users for 1 hour
 - Ramp down: 5,000 to 0 over 15 minutes
 
-### Worked Example 2: KPI Definition
+### 💡 Worked Example 2: KPI Definition
 
 **Scenario:** Define KPIs for a healthcare patient portal.
 
@@ -447,7 +447,7 @@ Report generation:  2%
 | Error rate | < 0.01% | During all load tests |
 | Memory growth | < 5% over 48h | During endurance test |
 
-### Worked Example 3: Test Data Planning
+### 💡 Worked Example 3: Test Data Planning
 
 **Scenario:** Testing a banking transfer feature.
 

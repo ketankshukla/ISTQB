@@ -1,10 +1,10 @@
-# Chapter 5 — Test Tools and Automation: Lessons
+# 📘 Chapter 5 — Test Tools and Automation: Lessons
 
 ---
 
-## 5.1 Test Tool Considerations
+## 🛠️ 5.1 Test Tool Considerations
 
-### Why Use Test Tools?
+### 🛠️ Why Use Test Tools?
 
 Test tools support testing activities by automating repetitive tasks, managing test assets, analyzing code, and providing visibility into test progress.
 
@@ -26,9 +26,9 @@ Test tools support testing activities by automating repetitive tasks, managing t
 
 ---
 
-## 5.2 Test Execution Tools
+## 🛠️ 5.2 Test Execution Tools
 
-### Test Automation Frameworks
+### ⚙️ Test Automation Frameworks
 
 A test automation framework provides the structure and guidelines for creating and executing automated tests.
 
@@ -98,7 +98,7 @@ Step | Keyword | Object | Value
 | Need for business-readable tests | Keyword-Driven or BDD (Cucumber) |
 | Large, long-term automation effort | Hybrid |
 
-### Capture/Replay vs. Programmatic Approaches
+### 🔷 Capture/Replay vs. Programmatic Approaches
 
 **Capture/Replay (Record and Playback):**
 - Pros: Quick to create, no programming required
@@ -114,9 +114,9 @@ Step | Keyword | Object | Value
 
 ---
 
-## 5.3 Performance Testing Tools
+## 🛠️ 5.3 Performance Testing Tools
 
-### Types of Performance Testing Tools
+### 🧪 Types of Performance Testing Tools
 
 **Load Generation Tools:**
 - Simulate virtual users generating load on the system
@@ -140,9 +140,9 @@ Step | Keyword | Object | Value
 
 ---
 
-## 5.4 Test Management Tools
+## 🛠️ 5.4 Test Management Tools
 
-### Purpose of Test Management Tools
+### 🛠️ Purpose of Test Management Tools
 
 Test management tools support the organization and execution of testing activities.
 
@@ -158,9 +158,9 @@ Test management tools support the organization and execution of testing activiti
 
 ---
 
-## 5.5 Static Analysis Tools
+## 🔍 5.5 Static Analysis Tools
 
-### What is Static Analysis?
+### 🔍 What is Static Analysis?
 
 Static analysis examines code without executing it to find defects, vulnerabilities, and code quality issues.
 
@@ -186,9 +186,9 @@ Static analysis examines code without executing it to find defects, vulnerabilit
 
 ---
 
-## 5.6 Test Data Preparation Tools
+## 🛠️ 5.6 Test Data Preparation Tools
 
-### Purpose of Test Data Tools
+### 🛠️ Purpose of Test Data Tools
 
 Test data preparation tools help create, mask, and manage test data.
 
@@ -206,9 +206,9 @@ Test data preparation tools help create, mask, and manage test data.
 
 ---
 
-## 5.7 Tool Selection and Implementation
+## 🛠️ 5.7 Tool Selection and Implementation
 
-### Tool Selection Criteria
+### ✅ Tool Selection Criteria
 
 **1. Technical Fit:**
 - Does the tool support the technologies being tested? (web, mobile, API, desktop)
@@ -234,7 +234,7 @@ Test data preparation tools help create, mask, and manage test data.
 - Maintenance and support cost
 - Infrastructure cost (hardware, cloud)
 
-### Tool Implementation Steps
+### 🛠️ Tool Implementation Steps
 
 **1. Proof of Concept (POC):**
 - Evaluate 2-3 candidate tools against key criteria
@@ -259,7 +259,7 @@ Test data preparation tools help create, mask, and manage test data.
 - Maintain scripts and keep them current
 - Evaluate ROI and adjust scope
 
-### Automation ROI Calculation
+### ⚙️ Automation ROI Calculation
 
 **ROI Formula:**
 
@@ -297,7 +297,7 @@ ROI = (Benefits - Costs) / Costs × 100%
 
 **Important:** ROI may be negative in the first year due to high initial development costs. ROI typically becomes positive in year 2 or 3 as maintenance costs are lower than manual execution costs.
 
-### Common Tool Implementation Risks
+### ⚠️ Common Tool Implementation Risks
 
 | Risk | Mitigation |
 |------|-----------|
@@ -311,9 +311,9 @@ ROI = (Benefits - Costs) / Costs × 100%
 
 ---
 
-## Worked Examples — Applying Chapter 5 Concepts
+## 💡 Worked Examples — Applying Chapter 5 Concepts
 
-### Worked Example 1: Selecting a Test Tool
+### 💡 Worked Example 1: Selecting a Test Tool
 
 **Scenario:** A team is testing a web application built with React (frontend), Node.js (backend), and PostgreSQL (database). They need:
 1. UI regression testing
@@ -338,7 +338,7 @@ ROI = (Benefits - Costs) / Costs × 100%
 
 ---
 
-### Worked Example 2: Framework Selection
+### 💡 Worked Example 2: Framework Selection
 
 **Scenario:** A team with 3 testers (1 has programming experience, 2 do not) wants to automate UI regression tests for a rapidly changing e-commerce site.
 
@@ -357,7 +357,7 @@ ROI = (Benefits - Costs) / Costs × 100%
 
 ---
 
-### Worked Example 3: ROI Calculation
+### 💡 Worked Example 3: ROI Calculation
 
 **Scenario:** A team spends 60 hours per release on manual regression testing (12 releases/year). They estimate automation development will take 200 hours, with 10 hours maintenance per release. The automation engineer costs $75/hour.
 

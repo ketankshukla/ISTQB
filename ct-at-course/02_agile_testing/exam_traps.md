@@ -1,6 +1,6 @@
-# Chapter 2 — Agile Testing: Exam Traps
+# 🪤 Chapter 2 — Agile Testing: Exam Traps
 
-## Trap 1: Thinking Whole-Team Means Testers Do Everything
+## 🪤 Trap 1: Thinking Whole-Team Means Testers Do Everything
 
 **Trap:** Whole-team quality means everyone contributes, not that testers become responsible for all testing tasks. Developers still write unit tests; the team collaborates.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Confusing Acceptance Criteria with Test Cases
+## 🪤 Trap 2: Confusing Acceptance Criteria with Test Cases
 
 **Trap:** Acceptance criteria define WHAT should be true. Test cases define HOW to verify it. ACs are used to derive test cases but are not the same thing.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Thinking "Done" Means Only Development Is Complete
+## 🪤 Trap 3: Thinking "Done" Means Only Development Is Complete
 
 **Trap:** The Definition of Done should include testing, code review, and deployment readiness. "Done" should mean "potentially releasable."
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Writing Vague Acceptance Criteria
+## 🪤 Trap 4: Writing Vague Acceptance Criteria
 
 **Trap:** "Fast," "user-friendly," "good quality" are not testable. Acceptance criteria must be specific and measurable.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Ignoring the Definition of Ready
+## 🪤 Trap 5: Ignoring the Definition of Ready
 
 **Trap:** Stories that are not ready before sprint planning lead to blocked work, unclear requirements, and missed testing.
 

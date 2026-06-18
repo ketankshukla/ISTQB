@@ -1,6 +1,6 @@
-# Chapter 1 — Introduction to Security Test Engineering: Exam Traps
+# 🪤 Chapter 1 — Introduction to Security Test Engineering: Exam Traps
 
-## Trap 1: Confusing Security Testing with Penetration Testing
+## 🪤 Trap 1: Confusing Security Testing with Penetration Testing
 
 **Trap:** Penetration testing is one type of security testing. Security testing also includes SAST, DAST, code review, and compliance validation.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Thinking Security is Only About Confidentiality
+## 🪤 Trap 2: Thinking Security is Only About Confidentiality
 
 **Trap:** The CIA triad has three parts. Ignoring integrity or availability creates blind spots.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Believing Security Testing Happens at the End
+## 🪤 Trap 3: Believing Security Testing Happens at the End
 
 **Trap:** Shift-left security testing finds issues earlier when they're cheaper to fix.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Underestimating Insider Threats
+## 🪤 Trap 4: Underestimating Insider Threats
 
 **Trap:** Insiders have legitimate access and knowledge. They are often overlooked in threat modeling.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Treating OWASP Top 10 as a Checklist
+## 🪤 Trap 5: Treating OWASP Top 10 as a Checklist
 
 **Trap:** The OWASP Top 10 is a starting point, not exhaustive. Other vulnerabilities exist.
 

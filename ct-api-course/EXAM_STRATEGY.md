@@ -1,10 +1,10 @@
-# CT-API Exam Strategy
+# ♟️ CT-API Exam Strategy
 
 This document contains tactics, time management advice, and trap-avoidance strategies for the CT-API exam.
 
 ---
 
-## Exam Format Overview
+## 🎓 Exam Format Overview
 
 | Parameter | Value |
 |-----------|-------|
@@ -16,7 +16,7 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## Time Budget
+## ⭐ Time Budget
 
 | Strategy | Time |
 |----------|------|
@@ -29,7 +29,7 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## Chapter Weighting and Focus Areas
+## ⭐ Chapter Weighting and Focus Areas
 
 | Chapter | Weight | Approx. Questions | Key Focus |
 |---------|--------|-------------------|-----------|
@@ -44,7 +44,7 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## K-Level Patterns
+## 🪜 K-Level Patterns
 
 | K-Level | Definition | How It Appears | Strategy |
 |---------|-----------|----------------|----------|
@@ -56,39 +56,39 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## Chapter-Specific Tactics
+## 🎓 Chapter-Specific Tactics
 
-### Chapter 1: Introduction to API Testing
+### 🌟 Chapter 1: Introduction to API Testing
 - Know the differences between REST, SOAP, and GraphQL
 - Understand HTTP methods and their appropriate use
 - Memorize common status codes and their meanings
 - Know API architecture patterns (monolith, microservices)
 
-### Chapter 2: API Test Analysis and Design
+### 🔬 Chapter 2: API Test Analysis and Design
 - Apply equivalence partitioning and boundary value to API parameters
 - Understand how to derive test conditions from API specifications
 - Know state transition testing for APIs with sessions
 - Understand positive vs. negative testing for APIs
 
-### Chapter 3: API Test Implementation and Execution
+### 🔌 Chapter 3: API Test Implementation and Execution
 - Know how to set up test environments for APIs
 - Understand test data strategies (static, dynamic, generated)
 - Know how to report and track API defects
 - Understand the difference between API errors and test script errors
 
-### Chapter 4: API Test Automation
+### ⚙️ Chapter 4: API Test Automation
 - Know common API automation frameworks (REST Assured, Supertest, Requests)
 - Understand data-driven testing for APIs
 - Know CI/CD integration patterns for API tests
 - Understand maintainability patterns for API automation
 
-### Chapter 5: API Security and Performance Testing
+### ⚡ Chapter 5: API Security and Performance Testing
 - Know authentication mechanisms (Basic, Bearer, OAuth2, API keys)
 - Understand common API vulnerabilities (SQL injection, XSS, broken auth)
 - Know performance test types for APIs (load, stress, soak, spike)
 - Understand rate limiting and throttling testing
 
-### Chapter 6: Contract Testing and Advanced Topics
+### 🔷 Chapter 6: Contract Testing and Advanced Topics
 - Understand consumer-driven contract testing
 - Know schema validation (JSON Schema, XML Schema, WSDL)
 - Understand API versioning and backward compatibility testing
@@ -96,7 +96,7 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## Distractor Patterns
+## ⭐ Distractor Patterns
 
 | Pattern | Example | How to Spot It |
 |---------|---------|--------------|
@@ -108,7 +108,7 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## Before the Exam
+## 🎓 Before the Exam
 
 **1 Week Before:**
 - Re-read all `exam_traps.md` files
@@ -128,7 +128,7 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## During the Exam
+## 🎓 During the Exam
 
 **Question Reading:**
 1. Read the question stem completely
@@ -151,7 +151,7 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## Post-Exam
+## 🎓 Post-Exam
 
 Whether you pass or not:
 - Note which questions were difficult

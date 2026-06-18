@@ -1,8 +1,8 @@
-# Chapter 6 — Security Testing in the SDLC: Practice Questions
+# ❓ Chapter 6 — Security Testing in the SDLC: Practice Questions
 
 ---
 
-### Q1 (SEC-6.1, K2)
+### 🔷 Q1 (SEC-6.1, K2)
 
 SSDLC means:
 
@@ -13,7 +13,7 @@ D. Only code review
 
 ---
 
-### Q2 (SEC-6.2, K2)
+### 🔷 Q2 (SEC-6.2, K2)
 
 Shift-left security:
 
@@ -24,7 +24,7 @@ D. Only applies to waterfall
 
 ---
 
-### Q3 (SEC-6.3, K2)
+### 🔷 Q3 (SEC-6.3, K2)
 
 DevSecOps means:
 
@@ -35,7 +35,7 @@ D. Only operations manages security
 
 ---
 
-### Q4 (SEC-6.4, K2)
+### 🔷 Q4 (SEC-6.4, K2)
 
 Security user stories in agile:
 
@@ -46,7 +46,7 @@ D. Only apply to kanban
 
 ---
 
-### Q5 (SEC-6.5, K2)
+### 🔷 Q5 (SEC-6.5, K2)
 
 Continuous security monitoring in production:
 
@@ -57,7 +57,7 @@ D. Only for development
 
 ---
 
-### Q6 (SEC-6.1, K2)
+### 🔷 Q6 (SEC-6.1, K2)
 
 Fixing security issues in production costs:
 
@@ -68,7 +68,7 @@ D. Nothing
 
 ---
 
-### Q7 (SEC-6.2, K2)
+### 🔷 Q7 (SEC-6.2, K2)
 
 SAST in the IDE provides:
 
@@ -79,7 +79,7 @@ D. Only weekly reports
 
 ---
 
-### Q8 (SEC-6.3, K2)
+### 🔷 Q8 (SEC-6.3, K2)
 
 A CI/CD security pipeline includes:
 
@@ -90,7 +90,7 @@ D. Only post-release checks
 
 ---
 
-### Q9 (SEC-6.4, K2)
+### 🔷 Q9 (SEC-6.4, K2)
 
 Definition of Done for security means:
 
@@ -101,7 +101,7 @@ D. Only UI tests pass
 
 ---
 
-### Q10 (SEC-6.5, K2)
+### 🔷 Q10 (SEC-6.5, K2)
 
 Runtime Application Self-Protection (RASP):
 
@@ -112,7 +112,7 @@ D. Only tests networks
 
 ---
 
-### Q11 (SEC-6.1, K2)
+### 🔷 Q11 (SEC-6.1, K2)
 
 Threat modeling in SSDLC occurs during:
 
@@ -123,7 +123,7 @@ D. Only maintenance
 
 ---
 
-### Q12 (SEC-6.2, K2)
+### 🔷 Q12 (SEC-6.2, K2)
 
 Pre-commit hooks for secrets scanning:
 
@@ -134,7 +134,7 @@ D. Only apply to large files
 
 ---
 
-### Q13 (SEC-6.3, K2)
+### 🔷 Q13 (SEC-6.3, K2)
 
 Container scanning in CI/CD:
 
@@ -145,7 +145,7 @@ D. Only checks network ports
 
 ---
 
-### Q14 (SEC-6.4, K2)
+### 🔷 Q14 (SEC-6.4, K2)
 
 Security spikes in agile:
 
@@ -156,7 +156,7 @@ D. Only apply to features
 
 ---
 
-### Q15 (SEC-6.5, K2)
+### 🔷 Q15 (SEC-6.5, K2)
 
 SIEM in continuous monitoring:
 
@@ -167,7 +167,7 @@ D. Only deploys applications
 
 ---
 
-### Q16 (SEC-6.1, K2)
+### 🔷 Q16 (SEC-6.1, K2)
 
 Secure coding standards are applied during:
 
@@ -178,7 +178,7 @@ D. Only maintenance
 
 ---
 
-### Q17 (SEC-6.2, K2)
+### 🔷 Q17 (SEC-6.2, K2)
 
 The cost to fix security issues is lowest during:
 
@@ -189,7 +189,7 @@ D. Only deployment
 
 ---
 
-### Q18 (SEC-6.3, K2)
+### 🔷 Q18 (SEC-6.3, K2)
 
 Infrastructure as Code scanning:
 
@@ -200,7 +200,7 @@ D. Only checks availability
 
 ---
 
-### Q19 (SEC-6.4, K2)
+### 🔷 Q19 (SEC-6.4, K2)
 
 Security retrospectives review:
 
@@ -211,7 +211,7 @@ D. Only timeline
 
 ---
 
-### Q20 (SEC-6.5, K2)
+### 🔷 Q20 (SEC-6.5, K2)
 
 Endpoint Detection and Response (EDR):
 
@@ -222,84 +222,84 @@ D. Only tests applications
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** SSDLC = security throughout all phases.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** Shift-left = move all security activities earlier.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** DevSecOps = shared responsibility.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** Security stories = essential features.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Monitoring = detect attacks real-time.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Production fixes = much more expensive.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** IDE SAST = immediate feedback.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Pipeline = all stages.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** DoD = security criteria met.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** RASP = detect/block in running app.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Threat modeling = design phase.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Pre-commit hooks = prevent secrets.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Container scan = find vulnerabilities.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Spikes = research solutions.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** SIEM = collect + analyze events.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Secure coding = development phase.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Lowest cost = requirements phase.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** IaC scan = find misconfigurations.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Retrospectives = review incidents.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** EDR = detect malware + isolate.

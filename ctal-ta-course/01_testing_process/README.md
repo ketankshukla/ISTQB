@@ -1,6 +1,6 @@
-# Chapter 1 — Testing Process
+# 🚀 Chapter 1 — Testing Process
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~15% (~9 questions out of 60)
 - **K-levels:** K2 (understand), K3 (apply)
@@ -8,7 +8,7 @@
 
 ---
 
-## Chapter Map
+## ⭐ Chapter Map
 
 | Section | Topic | K-Level | Exam Importance |
 |---------|-------|---------|-----------------|
@@ -23,7 +23,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -38,7 +38,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts to Master
+## ⭐ Key Concepts to Master
 
 - Test activities and their sequencing in different lifecycle models
 - Test planning content (test strategy, test plan, estimates, schedules)
@@ -53,7 +53,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Exam Tips
+## 🎓 Exam Tips
 
 - Expect scenario-based questions asking you to identify the appropriate test activity for a given situation
 - Questions often test whether you understand the difference between test analysis and test design

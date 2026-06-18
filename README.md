@@ -1,8 +1,8 @@
-# ISTQB Certification Self-Study Courses
+# 📚 ISTQB Certification Self-Study Courses
 
 A collection of comprehensive, exam-focused self-study courses for ISTQB certifications. All courses are built in Markdown for easy reading on GitHub or any text editor.
 
-## Available Courses
+## 🤖 Available Courses
 
 | Course | Certification | Syllabus | Questions | Duration | Pass Mark |
 |--------|-------------|----------|-----------|----------|-----------|
@@ -41,13 +41,13 @@ See `ISTQB_Certification_Paths.md` for recommended certification paths based on 
 
 ---
 
-## About This Project
+## ⭐ About This Project
 
 This repository contains complete training courses designed to prepare you for ISTQB certification exams. Each course covers all syllabus chapters, learning objectives, and business outcomes with a target score of 90%+.
 
 The courses are written for software professionals who need structured, efficient preparation for certification exams.
 
-## Quick Start
+## ⭐ Quick Start
 
 1. **New to testing?** Start with `ctfl-course/` (Foundation Level)
 2. **Working in agile teams?** Add `ctfl-at-course/` (Agile Tester)
@@ -82,7 +82,7 @@ The courses are written for software professionals who need structured, efficien
 
 ---
 
-## Exam at a Glance
+## 🎓 Exam at a Glance
 
 | Parameter | Value |
 |-----------|-------|
@@ -96,7 +96,7 @@ The courses are written for software professionals who need structured, efficien
 
 ---
 
-## Repository Structure
+## ⭐ Repository Structure
 
 ```
 ISTQB/
@@ -555,11 +555,11 @@ Each course follows the same proven structure:
 
 ---
 
-## What Is Included
+## ⭐ What Is Included
 
 Every course in this repository follows the same proven structure:
 
-### Chapter Content
+### 🔷 Chapter Content
 
 Each chapter contains:
 
@@ -567,7 +567,7 @@ Each chapter contains:
 - **Exam Traps** -- The specific distinctions ISTQB loves to test and the mistakes candidates commonly make
 - **Practice Questions** -- 15-25 original, ISTQB-style questions per chapter, each tagged with its learning objective and K-level, with full rationales explaining why the correct answer is right and why each distractor is wrong
 
-### Case Studies
+### 🔷 Case Studies
 
 Realistic, integrated case studies that force you to combine multiple techniques:
 
@@ -602,7 +602,7 @@ Realistic, integrated case studies that force you to combine multiple techniques
 - **CTFL-SEC**: Security testing fundamentals (CIA triad, threats, vulnerabilities, risks), security testing principles (controls, risk-based testing, STRIDE), security testing techniques (SAST, DAST, penetration testing, code review, fuzzing), security testing process (planning, execution, risk assessment, reporting), security testing tools (SAST, DAST, scanners, selection criteria), security testing in the SDLC (SSDLC, shift-left, DevSecOps, continuous monitoring)
 - **CTFL-AuT**: Automotive testing fundamentals (ECUs, vehicle networks, safety-critical characteristics), automotive software basics (CAN, LIN, FlexRay, Ethernet, ASIL levels), automotive testing process (planning, traceability, test levels, verification/validation), automotive testing techniques (dynamic testing, coverage, fault injection, back-to-back), automotive test environment (MIL, SIL, PIL, HIL, tools), automotive quality and standards (ISO 26262, ASPICE, AUTOSAR, metrics)
 
-### Mock Exams
+### 📝 Mock Exams
 
 Three complete mock exams per course matching the real exam format:
 
@@ -612,7 +612,7 @@ Three complete mock exams per course matching the real exam format:
 - Separate answer-key files with full rationales
 - Score interpretation guide
 
-### Support Materials
+### 🔷 Support Materials
 
 - **STUDY_PLAN.md** -- A realistic schedule with daily activities and scoring milestones
 - **EXAM_STRATEGY.md** -- K-level question patterns, time budgeting, technique attack strategies, distractor elimination tactics
@@ -621,7 +621,7 @@ Three complete mock exams per course matching the real exam format:
 
 ---
 
-## How to Use These Courses
+## ⭐ How to Use These Courses
 
 1. **Choose your course** based on your current certification level and role
 2. **Start with `STUDY_PLAN.md`** to understand the recommended schedule
@@ -632,7 +632,7 @@ Three complete mock exams per course matching the real exam format:
 
 ---
 
-## Question Bank Totals
+## ❓ Question Bank Totals
 
 | Course | Practice Questions | Mock Exam Questions | Total |
 |--------|-------------------|---------------------|-------|
@@ -672,7 +672,7 @@ All questions are original, written in authentic ISTQB style, and include comple
 
 ---
 
-## Design Principles
+## 📜 Design Principles
 
 - **Exam-focused** -- Content is structured around what the exam actually tests, not general knowledge
 - **Syllabus-aligned** -- All content maps to current syllabus versions
@@ -683,7 +683,7 @@ All questions are original, written in authentic ISTQB style, and include comple
 
 ---
 
-## Contributing
+## ⭐ Contributing
 
 This course was generated as a self-study resource. If you find errors, ambiguities, or have suggestions:
 
@@ -692,12 +692,12 @@ This course was generated as a self-study resource. If you find errors, ambiguit
 
 ---
 
-## Disclaimer
+## 🤖 Disclaimer
 
 This is an independent study resource. It is not affiliated with, endorsed by, or produced by ISTQB or any ISTQB member board. ISTQB and Certified Tester are registered trademarks. The official syllabus and sample exams are available from [istqb.org](https://www.istqb.org).
 
 ---
 
-## License
+## ⭐ License
 
 This course content is provided for personal study purposes.

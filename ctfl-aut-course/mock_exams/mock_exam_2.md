@@ -1,10 +1,10 @@
-# CTFL-AuT Mock Exam 2
+# 📝 CTFL-AuT Mock Exam 2
 
 **Instructions:** 20 questions, 40 minutes. Single best answer.
 
 ---
 
-### Q1
+### 🔷 Q1
 
 An ECU controls:
 
@@ -15,7 +15,7 @@ D. Only air conditioning
 
 ---
 
-### Q2
+### 🔷 Q2
 
 Ethernet in vehicles is used for:
 
@@ -26,7 +26,7 @@ D. Only seat heaters
 
 ---
 
-### Q3
+### 🔷 Q3
 
 ASIL C requires:
 
@@ -37,7 +37,7 @@ D. Only unit tests
 
 ---
 
-### Q4
+### 🔷 Q4
 
 SIL testing runs code on:
 
@@ -48,7 +48,7 @@ D. Only on HIL rig
 
 ---
 
-### Q5
+### 🔷 Q5
 
 A safety-critical system requires:
 
@@ -59,7 +59,7 @@ D. Only touch screens
 
 ---
 
-### Q6
+### 🔷 Q6
 
 The V-model in automotive includes:
 
@@ -70,7 +70,7 @@ D. Only acceptance testing
 
 ---
 
-### Q7
+### 🔷 Q7
 
 QM components require:
 
@@ -81,7 +81,7 @@ D. Only automated testing
 
 ---
 
-### Q8
+### 🔷 Q8
 
 Regression testing in automotive ensures:
 
@@ -92,7 +92,7 @@ D. Only old features work
 
 ---
 
-### Q9
+### 🔷 Q9
 
 PIL testing verifies:
 
@@ -103,7 +103,7 @@ D. Only memory size
 
 ---
 
-### Q10
+### 🔷 Q10
 
 AUTOSAR RTE provides:
 
@@ -114,7 +114,7 @@ D. Only power management
 
 ---
 
-### Q11
+### 🔷 Q11
 
 Modern vehicles contain approximately:
 
@@ -125,7 +125,7 @@ D. Only 2 ECUs
 
 ---
 
-### Q12
+### 🔷 Q12
 
 Boundary value analysis for a speed limit of 120 km/h tests:
 
@@ -136,7 +136,7 @@ D. Only 121
 
 ---
 
-### Q13
+### 🔷 Q13
 
 Fail-safe behavior means:
 
@@ -147,7 +147,7 @@ D. Only louder alerts
 
 ---
 
-### Q14
+### 🔷 Q14
 
 dSPACE is used for:
 
@@ -158,7 +158,7 @@ D. Only static analysis
 
 ---
 
-### Q15
+### 🔷 Q15
 
 MC/DC coverage requires that each condition:
 
@@ -169,7 +169,7 @@ D. Only be false
 
 ---
 
-### Q16
+### 🔷 Q16
 
 Vehicle testing is:
 
@@ -180,7 +180,7 @@ D. Only for production
 
 ---
 
-### Q17
+### 🔷 Q17
 
 Static testing in automotive:
 
@@ -191,7 +191,7 @@ D. Only for unit tests
 
 ---
 
-### Q18
+### 🔷 Q18
 
 CANoe supports:
 
@@ -202,7 +202,7 @@ D. Only Ethernet
 
 ---
 
-### Q19
+### 🔷 Q19
 
 For integration testing of a brake ECU with ABS, the best environment is:
 
@@ -213,7 +213,7 @@ D. Vehicle
 
 ---
 
-### Q20
+### 🔷 Q20
 
 A harsh vehicle environment includes:
 
@@ -224,7 +224,7 @@ D. Only dust
 
 ---
 
-## Answer Key
+## ✔️ Answer Key
 
 | Q | Answer | Q | Answer | Q | Answer | Q | Answer |
 |---|--------|---|--------|---|--------|---|--------|

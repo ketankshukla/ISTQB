@@ -1,6 +1,6 @@
-# Chapter 3 — Security Testing Techniques: Exam Traps
+# 🪤 Chapter 3 — Security Testing Techniques: Exam Traps
 
-## Trap 1: SAST Finds All Security Issues
+## 🪤 Trap 1: SAST Finds All Security Issues
 
 **Trap:** SAST only finds code-level issues. Runtime, configuration, and business logic issues need DAST or manual testing.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: DAST Replaces Manual Penetration Testing
+## 🪤 Trap 2: DAST Replaces Manual Penetration Testing
 
 **Trap:** DAST finds common vulnerabilities but misses business logic flaws and complex attack chains.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Fuzzing is Only for File Parsers
+## 🪤 Trap 3: Fuzzing is Only for File Parsers
 
 **Trap:** Fuzzing applies to any input surface: APIs, network protocols, CLIs, not just file formats.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Output Encoding is Optional if Input Validation Exists
+## 🪤 Trap 4: Output Encoding is Optional if Input Validation Exists
 
 **Trap:** Defense in depth requires both input validation AND output encoding.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Session Tokens Must Always Be Complex Random Strings
+## 🪤 Trap 5: Session Tokens Must Always Be Complex Random Strings
 
 **Trap:** Tokens must be unpredictable and properly managed, not just complex.
 

@@ -1,8 +1,8 @@
-# Chapter 1 — Introduction to Test Automation Strategy: Practice Questions
+# ♟️ Chapter 1 — Introduction to Test Automation Strategy: Practice Questions
 
 ---
 
-### Q1 (TAS-1.1, K1)
+### 🔷 Q1 (TAS-1.1, K1)
 
 A test automation strategy primarily answers:
 
@@ -13,7 +13,7 @@ D. Only the test data requirements
 
 ---
 
-### Q2 (TAS-1.2, K2)
+### 🔷 Q2 (TAS-1.2, K2)
 
 The difference between test automation strategy and automated testing is:
 
@@ -24,7 +24,7 @@ D. Automated testing is only for developers
 
 ---
 
-### Q3 (TAS-1.3, K2)
+### 🔷 Q3 (TAS-1.3, K2)
 
 The test pyramid suggests:
 
@@ -35,7 +35,7 @@ D. Only integration tests matter
 
 ---
 
-### Q4 (TAS-1.4, K2)
+### 🔷 Q4 (TAS-1.4, K2)
 
 Which test type is BEST suited for automation?
 
@@ -46,7 +46,7 @@ D. One-time ad-hoc tests
 
 ---
 
-### Q5 (TAS-1.1, K1)
+### 🔷 Q5 (TAS-1.1, K1)
 
 A key success factor for automation is:
 
@@ -57,7 +57,7 @@ D. Avoiding CI/CD integration
 
 ---
 
-### Q6 (TAS-1.2, K2)
+### 🔷 Q6 (TAS-1.2, K2)
 
 An inverted test pyramid (many UI tests, few unit tests) is:
 
@@ -68,7 +68,7 @@ D. Required for mobile testing
 
 ---
 
-### Q7 (TAS-1.3, K2)
+### 🔷 Q7 (TAS-1.3, K2)
 
 The fastest and most stable automation level is:
 
@@ -79,7 +79,7 @@ D. Performance testing
 
 ---
 
-### Q8 (TAS-1.4, K2)
+### 🔷 Q8 (TAS-1.4, K2)
 
 Which should typically remain manual?
 
@@ -90,7 +90,7 @@ D. Data-driven tests
 
 ---
 
-### Q9 (TAS-1.1, K1)
+### 🔷 Q9 (TAS-1.1, K1)
 
 A business case for automation should include:
 
@@ -101,7 +101,7 @@ D. Only developer names
 
 ---
 
-### Q10 (TAS-1.2, K2)
+### 🔷 Q10 (TAS-1.2, K2)
 
 Embedding automation in CI/CD provides:
 
@@ -112,7 +112,7 @@ D. No benefit
 
 ---
 
-### Q11 (TAS-1.3, K2)
+### 🔷 Q11 (TAS-1.3, K2)
 
 API-level automation is preferred over UI automation when:
 
@@ -123,7 +123,7 @@ D. Only for performance testing
 
 ---
 
-### Q12 (TAS-1.4, K2)
+### 🔷 Q12 (TAS-1.4, K2)
 
 A pilot project in automation is used to:
 
@@ -134,7 +134,7 @@ D. Only evaluate tool pricing
 
 ---
 
-### Q13 (TAS-1.1, K1)
+### 🔷 Q13 (TAS-1.1, K1)
 
 Test automation scope should be defined by:
 
@@ -145,7 +145,7 @@ D. Only tool capability
 
 ---
 
-### Q14 (TAS-1.2, K2)
+### 🔷 Q14 (TAS-1.2, K2)
 
 A sustainable automation strategy requires:
 
@@ -156,7 +156,7 @@ D. Only training once
 
 ---
 
-### Q15 (TAS-1.3, K2)
+### 🔷 Q15 (TAS-1.3, K2)
 
 Service virtualization is useful when:
 
@@ -167,7 +167,7 @@ D. Only for manual testing
 
 ---
 
-### Q16 (TAS-1.4, K2)
+### 🔷 Q16 (TAS-1.4, K2)
 
 The PRIMARY objective of test automation is to:
 
@@ -178,7 +178,7 @@ D. Only find more bugs
 
 ---
 
-### Q17 (TAS-1.1, K1)
+### 🔷 Q17 (TAS-1.1, K1)
 
 A test automation roadmap should include:
 
@@ -189,7 +189,7 @@ D. Only bug counts
 
 ---
 
-### Q18 (TAS-1.2, K2)
+### 🔷 Q18 (TAS-1.2, K2)
 
 Automating tests for a feature that changes daily is:
 
@@ -200,7 +200,7 @@ D. Only for regulated industries
 
 ---
 
-### Q19 (TAS-1.3, K2)
+### 🔷 Q19 (TAS-1.3, K2)
 
 Metrics for automation success should include:
 
@@ -211,7 +211,7 @@ D. Only management satisfaction
 
 ---
 
-### Q20 (TAS-1.4, K2)
+### 🔷 Q20 (TAS-1.4, K2)
 
 A common reason automation projects fail is:
 
@@ -222,84 +222,84 @@ D. Only agile methodology
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** Strategy = why, what, how, when at high level.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** Strategy = plan; Automated testing = script execution.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** Pyramid = many unit, fewer integration, fewest UI.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** Repetitive regression = best for automation.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Success = management support + skilled team.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Inverted pyramid = anti-pattern (slow, flaky).
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Unit tests = fastest and most stable.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Exploratory = human judgment; stays manual.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** Business case = costs, benefits, ROI.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** CI/CD = fast feedback per change.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** API = logic independent of UI.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Pilot = validate approach at small scale.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Scope = risk, repetition, stability.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Sustainable = ongoing maintenance + metrics.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Virtualization = unstable/unavailable dependencies.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Automation = faster feedback + less manual effort.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Roadmap = milestones, scope, evolution.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Volatile features = maintenance > value.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Metrics = coverage, time, defects, cost.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** Common failure = lack of strategy, skills, support.

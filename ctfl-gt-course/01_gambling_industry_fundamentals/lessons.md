@@ -1,10 +1,10 @@
-# Chapter 1 — Gambling Industry Fundamentals: Lessons
+# 📘 Chapter 1 — Gambling Industry Fundamentals: Lessons
 
 ---
 
-## 1.1 Gambling Domains
+## 🤖 1.1 Gambling Domains
 
-### Casino
+### 🔷 Casino
 
 **Definition:** Casino gambling includes games played on machines or tables where the outcome is determined by chance, random number generation, or a combination of chance and skill.
 
@@ -20,7 +20,7 @@
 - House edge built into game mathematics
 - Highly regulated for fairness and RNG integrity
 
-### Sports Betting
+### 🔷 Sports Betting
 
 **Definition:** Wagering on the outcome of sporting events, including pre-match betting, live/in-play betting, and outright betting on tournament winners.
 
@@ -36,7 +36,7 @@
 - In-play betting demands sub-second latency
 - Regulatory focus on match fixing and integrity
 
-### Lottery
+### 🔷 Lottery
 
 **Definition:** Games where players purchase tickets (physical or digital) with numbers; prizes are awarded based on random draws.
 
@@ -52,7 +52,7 @@
 - Often state-run or state-licensed
 - Strict controls on draw randomness and security
 
-### Poker
+### 🔷 Poker
 
 **Definition:** A family of card games where players bet on the value of their hands. Unlike most casino games, players compete against each other rather than the house.
 
@@ -67,7 +67,7 @@
 - Collusion and bot detection are major testing concerns
 - RNG used for shuffling and dealing
 
-### Bingo
+### 🔷 Bingo
 
 **Definition:** Players match numbers on pre-purchased cards against numbers randomly drawn by a caller or RNG.
 
@@ -84,9 +84,9 @@
 
 ---
 
-## 1.2 Key Gambling Terminology
+## 🎰 1.2 Key Gambling Terminology
 
-### Return to Player (RTP)
+### 🔷 Return to Player (RTP)
 
 **Definition:** The percentage of all wagered money that a game will pay back to players over time.
 
@@ -107,7 +107,7 @@ RTP = (Total Amount Paid to Players / Total Amount Wagered by Players) x 100
 - RTP does not guarantee individual player outcomes
 - Different games have different typical RTP ranges (slots 92-98%, blackjack 99%+ with optimal strategy)
 
-### House Edge
+### 🔷 House Edge
 
 **Definition:** The mathematical advantage the operator has over the player, expressed as a percentage.
 
@@ -126,7 +126,7 @@ House Edge = 100% - RTP
 - Player strategy can reduce house edge in skill-based games (e.g., blackjack basic strategy)
 - No strategy can overcome the house edge in pure chance games
 
-### Volatility (Variance)
+### 🔷 Volatility (Variance)
 
 **Definition:** A measure of the risk and reward profile of a gambling game.
 
@@ -150,7 +150,7 @@ House Edge = 100% - RTP
 - Volatility must be accurately described to players (regulatory requirement in many jurisdictions)
 - High volatility games may trigger responsible gaming interventions sooner
 
-### Hit Frequency
+### 🔷 Hit Frequency
 
 **Definition:** The percentage of game rounds (spins, hands, etc.) that result in any win, regardless of size.
 
@@ -163,7 +163,7 @@ House Edge = 100% - RTP
 - Game B: 8% hit frequency, 96% RTP → rare larger wins
 - Both have the same RTP but very different player experiences
 
-### Paylines and Paytables
+### 🔷 Paylines and Paytables
 
 **Paylines:**
 - Patterns across reels that determine winning combinations
@@ -178,9 +178,9 @@ House Edge = 100% - RTP
 
 ---
 
-## 1.3 Industry Structure and Stakeholders
+## ⭐ 1.3 Industry Structure and Stakeholders
 
-### Operators
+### 🔷 Operators
 
 **Definition:** Companies that offer gambling products to consumers. They hold licenses from regulatory bodies.
 
@@ -189,7 +189,7 @@ House Edge = 100% - RTP
 - **Land-based operators:** Physical casinos, betting shops, lottery retailers
 - **B2B platform providers:** Supply technology to multiple operators (white label solutions)
 
-### Game Studios / Suppliers
+### 🎮 Game Studios / Suppliers
 
 **Definition:** Companies that develop gambling games and license them to operators.
 
@@ -200,7 +200,7 @@ House Edge = 100% - RTP
 - Must have RNGs certified by independent labs
 - Responsible for game fairness at the design level
 
-### Regulatory Bodies
+### 🔷 Regulatory Bodies
 
 **Definition:** Government or independent organizations that license and oversee gambling operations.
 
@@ -215,7 +215,7 @@ House Edge = 100% - RTP
 - **Spelinspektionen:** Sweden
 - **Kansspelautoriteit (KSA):** Netherlands
 
-### Independent Testing Labs
+### 🔷 Independent Testing Labs
 
 **Definition:** Third-party organizations that test and certify gambling products for fairness and compliance.
 
@@ -233,7 +233,7 @@ House Edge = 100% - RTP
 - Compliance audits
 - Platform security testing
 
-### Testers in the Gambling Industry
+### 🎰 Testers in the Gambling Industry
 
 **Roles:**
 - **Game testers:** Verify game mechanics, payouts, bonus features, and visual/audio elements
@@ -244,9 +244,9 @@ House Edge = 100% - RTP
 
 ---
 
-## 1.4 The Role of Testing in the Gambling Industry
+## 🎰 1.4 The Role of Testing in the Gambling Industry
 
-### Core Testing Objectives
+### 🎯 Core Testing Objectives
 
 **1. Fairness:**
 - Verify that game outcomes are truly random (where stated)
@@ -273,7 +273,7 @@ House Edge = 100% - RTP
 - Test jackpot systems for correct calculation and payout
 - Ensure data integrity and security
 
-### Why Gambling Testing Is Unique
+### 🎰 Why Gambling Testing Is Unique
 
 | Aspect | General Software Testing | Gambling Testing |
 |--------|------------------------|-----------------|

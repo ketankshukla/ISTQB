@@ -1,12 +1,12 @@
-# CT-API Study Plan
+# 🗓️ CT-API Study Plan
 
 Two study schedules: a **standard 4-week plan** for thorough preparation, and an **accelerated 2-week plan** for those with strong API testing experience.
 
 ---
 
-## Standard Plan — 4 Weeks
+## 🗓️ Standard Plan — 4 Weeks
 
-### Week 1: Fundamentals and Design
+### 🎨 Week 1: Fundamentals and Design
 
 | Day | Task | Time | Checkpoint |
 |-----|------|------|------------|
@@ -18,7 +18,7 @@ Two study schedules: a **standard 4-week plan** for thorough preparation, and an
 | Day 6 | Review Chapter 1 & 2 practice questions (re-do missed ones) | 1.5 hours | Solidify weak areas |
 | Day 7 | Rest or light review of glossary terms | 30 min | — |
 
-### Week 2: Implementation and Automation
+### ⚙️ Week 2: Implementation and Automation
 
 | Day | Task | Time | Checkpoint |
 |-----|------|------|------------|
@@ -30,7 +30,7 @@ Two study schedules: a **standard 4-week plan** for thorough preparation, and an
 | Day 13 | Review all missed questions from Chapters 1-4 | 2 hours | Identify persistent weak areas |
 | Day 14 | Rest or review glossary | 30 min | — |
 
-### Week 3: Security, Performance, and Contract Testing
+### ⚡ Week 3: Security, Performance, and Contract Testing
 
 | Day | Task | Time | Checkpoint |
 |-----|------|------|------------|
@@ -42,7 +42,7 @@ Two study schedules: a **standard 4-week plan** for thorough preparation, and an
 | Day 20 | Work through Case Study 2 | 1.5 hours | Microservices contract testing |
 | Day 21 | Rest or light review | 30 min | — |
 
-### Week 4: Integration, Mock Exams, and Final Prep
+### 📝 Week 4: Integration, Mock Exams, and Final Prep
 
 | Day | Task | Time | Checkpoint |
 |-----|------|------|------------|
@@ -56,7 +56,7 @@ Two study schedules: a **standard 4-week plan** for thorough preparation, and an
 
 ---
 
-## Accelerated Plan — 2 Weeks
+## 🗓️ Accelerated Plan — 2 Weeks
 
 For experienced API testers with 2+ years of hands-on testing.
 
@@ -76,7 +76,7 @@ For experienced API testers with 2+ years of hands-on testing.
 
 ---
 
-## Study Techniques That Work
+## 📚 Study Techniques That Work
 
 **1. Active Recall**
 After reading a section, close the file and write down what you remember. Check against the text.
@@ -95,7 +95,7 @@ Use Postman or similar tools to actually test APIs while studying. Theory + prac
 
 ---
 
-## Daily Time Commitments
+## 🤖 Daily Time Commitments
 
 | Plan | Daily Average | Total Hours |
 |------|--------------|-------------|
@@ -104,7 +104,7 @@ Use Postman or similar tools to actually test APIs while studying. Theory + prac
 
 ---
 
-## Exam Day Checklist
+## 🎓 Exam Day Checklist
 
 - [ ] 7+ hours of sleep the night before
 - [ ] Review `exam_traps.md` one final time
@@ -116,7 +116,7 @@ Use Postman or similar tools to actually test APIs while studying. Theory + prac
 
 ---
 
-## Recommended Score Targets
+## ⭐ Recommended Score Targets
 
 | Stage | Target |
 |-------|--------|

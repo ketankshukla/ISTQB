@@ -1,10 +1,10 @@
-# Chapter 1 — Agile Principles and Mindset: Lessons
+# 📘 Chapter 1 — Agile Principles and Mindset: Lessons
 
 ---
 
-## 1.1 The Agile Manifesto
+## 🏃 1.1 The Agile Manifesto
 
-### The Four Values
+### 🔷 The Four Values
 
 Created in 2001 by 17 software practitioners, the Agile Manifesto declares four values:
 
@@ -32,7 +32,7 @@ Created in 2001 by 17 software practitioners, the Agile Manifesto declares four 
 
 ---
 
-## 1.2 The Twelve Principles
+## 📜 1.2 The Twelve Principles
 
 1. **Highest priority is customer satisfaction** through early and continuous delivery
 2. **Welcome changing requirements**, even late in development
@@ -49,9 +49,9 @@ Created in 2001 by 17 software practitioners, the Agile Manifesto declares four 
 
 ---
 
-## 1.3 Scrum
+## ⭐ 1.3 Scrum
 
-### Scrum Roles
+### 🔷 Scrum Roles
 
 **Product Owner (PO):**
 - Maximizes value by managing the Product Backlog
@@ -75,7 +75,7 @@ Created in 2001 by 17 software practitioners, the Agile Manifesto declares four 
 - No titles other than "Developer" (everyone contributes)
 - Accountable as a team, not individuals
 
-### Scrum Ceremonies
+### 🔷 Scrum Ceremonies
 
 **Sprint Planning:**
 - **When:** At the start of each sprint
@@ -102,7 +102,7 @@ Created in 2001 by 17 software practitioners, the Agile Manifesto declares four 
 - **Purpose:** Reflect on the sprint, identify improvements
 - **Inspect the process, adapt the process**
 
-### Scrum Artifacts
+### 🔷 Scrum Artifacts
 
 **Product Backlog:**
 - Ordered list of everything that might be needed
@@ -121,7 +121,7 @@ Created in 2001 by 17 software practitioners, the Agile Manifesto declares four 
 - Must be "Done" and usable
 - Potentially releasable
 
-### Scrum Metrics
+### 📊 Scrum Metrics
 
 **Velocity:**
 - Story points completed per sprint
@@ -135,9 +135,9 @@ Created in 2001 by 17 software practitioners, the Agile Manifesto declares four 
 
 ---
 
-## 1.4 Kanban
+## ⭐ 1.4 Kanban
 
-### Core Principles
+### 📜 Core Principles
 
 **1. Visualize the workflow:**
 - Use a Kanban board with columns representing workflow stages
@@ -166,7 +166,7 @@ Created in 2001 by 17 software practitioners, the Agile Manifesto declares four 
 - Use the scientific method (hypothesis, experiment, measure)
 - Small, incremental changes
 
-### Kanban vs. Scrum
+### 🔷 Kanban vs. Scrum
 
 | Aspect | Scrum | Kanban |
 |--------|-------|--------|
@@ -177,7 +177,7 @@ Created in 2001 by 17 software practitioners, the Agile Manifesto declares four 
 | Metrics | Velocity, burndown | Cycle time, throughput, CFD |
 | Best for | Teams that benefit from regular rhythm | Teams with continuous flow of work |
 
-### Key Kanban Metrics
+### 📊 Key Kanban Metrics
 
 **Cycle Time:** Time from work starting to work being completed
 **Lead Time:** Time from work being requested to work being completed
@@ -186,9 +186,9 @@ Created in 2001 by 17 software practitioners, the Agile Manifesto declares four 
 
 ---
 
-## 1.5 Extreme Programming (XP)
+## ⭐ 1.5 Extreme Programming (XP)
 
-### Key Practices
+### ❓ Key Practices
 
 **1. Pair Programming:**
 - Two developers work together at one workstation
@@ -222,9 +222,9 @@ Created in 2001 by 17 software practitioners, the Agile Manifesto declares four 
 
 ---
 
-## 1.6 The Tester's Role in Agile
+## 🏃 1.6 The Tester's Role in Agile
 
-### Core Responsibilities
+### 🔷 Core Responsibilities
 
 **1. Collaboration:**
 - Participate in sprint planning, daily standups, reviews, retrospectives
@@ -252,7 +252,7 @@ Created in 2001 by 17 software practitioners, the Agile Manifesto declares four 
 - Document test results and defects
 - Update living documentation (e.g., BDD scenarios)
 
-### Tester in Daily Activities
+### 🤖 Tester in Daily Activities
 
 | Activity | Tester's Role |
 |----------|--------------|
@@ -263,7 +263,7 @@ Created in 2001 by 17 software practitioners, the Agile Manifesto declares four 
 | Sprint Review | Demonstrate features, gather feedback |
 | Retrospective | Suggest quality improvements, reflect on testing process |
 
-### Myths About Testers in Agile
+### 🏃 Myths About Testers in Agile
 
 | Myth | Reality |
 |------|---------|
@@ -274,9 +274,9 @@ Created in 2001 by 17 software practitioners, the Agile Manifesto declares four 
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Manifesto Values Application
+### 💡 Worked Example 1: Manifesto Values Application
 
 **Scenario:** A manager insists all team communication must go through a formal ticketing system, and face-to-face discussion is discouraged.
 
@@ -288,7 +288,7 @@ This violates the first value: "Individuals and interactions over processes and 
 - Use tools to support, not replace, interaction
 - The ticketing system is valuable but should not be the only channel
 
-### Worked Example 2: Scrum Calculation
+### 💡 Worked Example 2: Scrum Calculation
 
 **Scenario:** A team runs 2-week sprints. Calculate maximum ceremony times.
 
@@ -300,7 +300,7 @@ This violates the first value: "Individuals and interactions over processes and 
 | Sprint Retrospective | 1.5 hours × 2 weeks | 3 hours |
 | Daily Scrum | 15 minutes × 10 days | 15 minutes each |
 
-### Worked Example 3: Kanban WIP Limit
+### 💡 Worked Example 3: Kanban WIP Limit
 
 **Scenario:** A Kanban team has the following board:
 

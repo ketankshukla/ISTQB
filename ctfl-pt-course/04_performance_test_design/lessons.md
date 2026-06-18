@@ -1,10 +1,10 @@
-# Chapter 4 — Performance Test Design: Lessons
+# 📘 Chapter 4 — Performance Test Design: Lessons
 
 ---
 
-## 4.1 Test Scenario Design
+## 🎨 4.1 Test Scenario Design
 
-### Scenario Types
+### 🧪 Scenario Types
 
 | Type | Description | Example |
 |------|-------------|---------|
@@ -13,7 +13,7 @@
 | **Stress point** | Known weak area | Complex database query |
 | **Mix** | Representative user activity | 70% browse, 20% search, 10% buy |
 
-### Scenario Elements
+### 🎬 Scenario Elements
 
 | Element | Definition |
 |---------|------------|
@@ -24,9 +24,9 @@
 
 ---
 
-## 4.2 Metrics and Thresholds
+## 📊 4.2 Metrics and Thresholds
 
-### Common Metrics
+### 📊 Common Metrics
 
 | Metric | Unit | Typical Threshold |
 |--------|------|-------------------|
@@ -37,7 +37,7 @@
 | **CPU utilization** | % | < 70% |
 | **Memory utilization** | % | < 80% |
 
-### Threshold Types
+### 🧪 Threshold Types
 
 | Type | Description |
 |------|-------------|
@@ -48,9 +48,9 @@
 
 ---
 
-## 4.3 Workload Modeling
+## 📐 4.3 Workload Modeling
 
-### User Profiles
+### 🔷 User Profiles
 
 | Profile | Behavior | Percentage |
 |---------|----------|------------|
@@ -58,7 +58,7 @@
 | **Searcher** | Searches frequently | 20% |
 | **Buyer** | Completes purchases | 10% |
 
-### Think Time
+### 🔷 Think Time
 
 | Action | Think Time |
 |--------|------------|
@@ -66,7 +66,7 @@
 | **Form fill** | 10-30 seconds |
 | **Read content** | 15-60 seconds |
 
-### Ramp-Up Patterns
+### 🔷 Ramp-Up Patterns
 
 | Pattern | Use Case |
 |---------|----------|
@@ -77,9 +77,9 @@
 
 ---
 
-## 4.4 Test Script Design
+## 🎨 4.4 Test Script Design
 
-### Best Practices
+### ❓ Best Practices
 
 | Practice | Benefit |
 |----------|---------|
@@ -91,9 +91,9 @@
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Scenario Design
+### 💡 Worked Example 1: Scenario Design
 
 | Scenario | Steps | Weight |
 |----------|-------|--------|
@@ -101,7 +101,7 @@
 | Search | Home → Search → Results | 20% |
 | Purchase | Login → Cart → Checkout → Confirm | 10% |
 
-### Worked Example 2: Threshold Setting
+### 💡 Worked Example 2: Threshold Setting
 
 | Metric | Baseline | Target | SLA |
 |--------|----------|--------|-----|
@@ -109,7 +109,7 @@
 | Throughput | 50 TPS | 100 TPS | 80 TPS |
 | Error rate | 0.05% | 0.01% | 0.1% |
 
-### Worked Example 3: Workload Calculation
+### 💡 Worked Example 3: Workload Calculation
 
 | Parameter | Value |
 |-----------|-------|

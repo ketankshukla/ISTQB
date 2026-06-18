@@ -1,10 +1,10 @@
-# Chapter 2 — Preparing for Test Automation: Lessons
+# 📘 Chapter 2 — Preparing for Test Automation: Lessons
 
 ---
 
-## 2.1 Evaluating and Selecting Test Tools
+## 🛠️ 2.1 Evaluating and Selecting Test Tools
 
-### Tool Evaluation Criteria
+### ✅ Tool Evaluation Criteria
 
 When selecting a test automation tool, evaluate across multiple dimensions:
 
@@ -38,7 +38,7 @@ When selecting a test automation tool, evaluate across multiple dimensions:
 - Debugging capabilities
 - Version control friendliness
 
-### Tool Selection Process
+### 🛠️ Tool Selection Process
 
 **Step 1: Define Requirements**
 - Document what the tool must do (mandatory requirements)
@@ -73,9 +73,9 @@ When selecting a test automation tool, evaluate across multiple dimensions:
 
 ---
 
-## 2.2 Proof of Concept (PoC)
+## ⭐ 2.2 Proof of Concept (PoC)
 
-### What Is a PoC?
+### 🔷 What Is a PoC?
 
 A Proof of Concept is a limited exercise to verify that a tool or approach is **technically feasible** in the target environment.
 
@@ -107,7 +107,7 @@ A Proof of Concept is a limited exercise to verify that a tool or approach is **
 - List of technical limitations (if any)
 - Recommendation: proceed to PoV or reject
 
-### PoC vs. Pilot
+### 🔷 PoC vs. Pilot
 
 | Aspect | PoC | Pilot |
 |--------|-----|-------|
@@ -119,9 +119,9 @@ A Proof of Concept is a limited exercise to verify that a tool or approach is **
 
 ---
 
-## 2.3 Proof of Value (PoV)
+## ⭐ 2.3 Proof of Value (PoV)
 
-### What Is a PoV?
+### 🔷 What Is a PoV?
 
 A Proof of Value is an exercise to demonstrate that a tool or approach **delivers business value** and solves the intended problem.
 
@@ -161,9 +161,9 @@ A Proof of Value is an exercise to demonstrate that a tool or approach **deliver
 
 ---
 
-## 2.4 Total Cost of Ownership (TCO)
+## ⭐ 2.4 Total Cost of Ownership (TCO)
 
-### Components of TCO
+### 🔷 Components of TCO
 
 **Initial Costs:**
 - Tool license or subscription fees
@@ -186,7 +186,7 @@ A Proof of Value is an exercise to demonstrate that a tool or approach **deliver
 - Custom development for unsupported features
 - Opportunity cost of not choosing alternatives
 
-### TCO Calculation Example
+### 💡 TCO Calculation Example
 
 **Scenario:** Evaluating a commercial UI test tool
 
@@ -203,9 +203,9 @@ A Proof of Value is an exercise to demonstrate that a tool or approach **deliver
 
 ---
 
-## 2.5 Requirements Analysis for Test Automation
+## 🔬 2.5 Requirements Analysis for Test Automation
 
-### Types of Requirements
+### 🧪 Types of Requirements
 
 **1. Functional Requirements:**
 - What the TAS must do
@@ -234,7 +234,7 @@ A Proof of Value is an exercise to demonstrate that a tool or approach **deliver
 - Existing technology stack
 - Regulatory or compliance requirements
 
-### Requirements Elicitation Techniques
+### 🎯 Requirements Elicitation Techniques
 
 - **Stakeholder interviews:** Ask testers, developers, business analysts what they need
 - **Workshops:** Collaborative sessions to define requirements
@@ -244,9 +244,9 @@ A Proof of Value is an exercise to demonstrate that a tool or approach **deliver
 
 ---
 
-## 2.6 Risk Assessment for Test Automation
+## ⚠️ 2.6 Risk Assessment for Test Automation
 
-### Common Automation Risks
+### ⚠️ Common Automation Risks
 
 **1. Technical Risks:**
 - Tool does not support required technology
@@ -272,7 +272,7 @@ A Proof of Value is an exercise to demonstrate that a tool or approach **deliver
 - No code review for test scripts
 - Inadequate test data management
 
-### Risk Mitigation Strategies
+### ⚠️ Risk Mitigation Strategies
 
 | Risk | Mitigation |
 |------|------------|
@@ -287,9 +287,9 @@ A Proof of Value is an exercise to demonstrate that a tool or approach **deliver
 
 ---
 
-## 2.7 Team Skills Assessment
+## ⭐ 2.7 Team Skills Assessment
 
-### Required Skills for Test Automation
+### ⚙️ Required Skills for Test Automation
 
 **Technical Skills:**
 - Programming (at least one language: Java, Python, JavaScript, C#)
@@ -311,14 +311,14 @@ A Proof of Value is an exercise to demonstrate that a tool or approach **deliver
 - Problem-solving (debugging failing tests)
 - Continuous learning (new tools, technologies)
 
-### Skills Gap Analysis
+### 🔬 Skills Gap Analysis
 
 **Step 1:** List required skills for the TAS
 **Step 2:** Assess current team skills (self-assessment, technical interviews, coding exercises)
 **Step 3:** Identify gaps
 **Step 4:** Create development plan (training, hiring, mentoring)
 
-### Building the Team
+### 🔷 Building the Team
 
 **Test Automation Engineer (TAE) Responsibilities:**
 - Design and implement the TAS
@@ -342,9 +342,9 @@ A Proof of Value is an exercise to demonstrate that a tool or approach **deliver
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Tool Evaluation Matrix
+### 💡 Worked Example 1: Tool Evaluation Matrix
 
 **Scenario:** A team needs a UI automation tool for a React web application.
 
@@ -361,7 +361,7 @@ A Proof of Value is an exercise to demonstrate that a tool or approach **deliver
 
 **Recommendation:** Playwright scores highest due to excellent React support, cross-browser capabilities, and strong debugging.
 
-### Worked Example 2: PoC Planning
+### 💡 Worked Example 2: PoC Planning
 
 **Scenario:** Evaluate if a new API testing tool works with the company's microservices.
 
@@ -379,7 +379,7 @@ A Proof of Value is an exercise to demonstrate that a tool or approach **deliver
   - Test execution time < 5 seconds per test
 - **Deliverable:** PoC report with recommendation
 
-### Worked Example 3: Skills Gap Analysis
+### 💡 Worked Example 3: Skills Gap Analysis
 
 **Team:** 3 manual testers, 2 developers
 

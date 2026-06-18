@@ -1,14 +1,14 @@
-# Chapter 2 — TDD, BDD, and ATDD: Lessons
+# 📘 Chapter 2 — TDD, BDD, and ATDD: Lessons
 
 ---
 
-## 2.1 Test-Driven Development (TDD)
+## ⭐ 2.1 Test-Driven Development (TDD)
 
-### What Is TDD?
+### 🔷 What Is TDD?
 
 TDD is a development practice where tests are written **before** the production code. It follows a short, repeating cycle.
 
-### The TDD Cycle: Red → Green → Refactor
+### 🔷 The TDD Cycle: Red → Green → Refactor
 
 **Step 1: Red — Write a failing test**
 - Write a test that defines the desired behavior
@@ -30,7 +30,7 @@ TDD is a development practice where tests are written **before** the production 
 
 **Repeat:** Continue the cycle for each new behavior.
 
-### TDD Benefits
+### 🔷 TDD Benefits
 
 1. **Design improvement:** Writing tests first forces testable design (loose coupling, high cohesion)
 2. **Confidence:** A comprehensive test suite gives confidence to refactor and add features
@@ -38,13 +38,13 @@ TDD is a development practice where tests are written **before** the production 
 4. **Fewer defects:** Defects are caught immediately when the test fails
 5. **Faster debugging:** When a test fails, you know exactly what behavior broke
 
-### TDD Rules
+### 🔷 TDD Rules
 
 1. Write no production code except to pass a failing test
 2. Write only enough of a test to demonstrate a failure
 3. Write only enough production code to pass the test
 
-### Example: TDD for a Calculator
+### 💡 Example: TDD for a Calculator
 
 **Step 1 — Red:**
 ```
@@ -80,13 +80,13 @@ Result: PASS (both tests pass)
 
 ---
 
-## 2.2 Behavior-Driven Development (BDD)
+## ⭐ 2.2 Behavior-Driven Development (BDD)
 
-### What Is BDD?
+### 🔷 What Is BDD?
 
 BDD is an agile practice that encourages collaboration between developers, testers, and business stakeholders. Tests are written in a **natural language format** that everyone can understand.
 
-### BDD Format: Given / When / Then
+### 🔷 BDD Format: Given / When / Then
 
 ```
 Given [precondition / context]
@@ -102,7 +102,7 @@ Then the balance should be $70
 And a receipt should be printed
 ```
 
-### BDD Tools
+### 🛠️ BDD Tools
 
 BDD scenarios are written in a language like **Gherkin** and executed by tools that translate them into test code.
 
@@ -120,14 +120,14 @@ BDD scenarios are written in a language like **Gherkin** and executed by tools t
 3. Scenarios are executed as automated tests
 4. Results are reported in business-readable format
 
-### BDD Benefits
+### 🔷 BDD Benefits
 
 1. **Shared understanding:** Business, testers, and developers use the same language
 2. **Living documentation:** Scenarios describe behavior and are always up-to-date
 3. **Focus on behavior:** Not "how it works" but "what it should do"
 4. **Regression suite:** BDD scenarios become automated acceptance tests
 
-### BDD vs. TDD
+### 🔷 BDD vs. TDD
 
 | Aspect | TDD | BDD |
 |--------|-----|-----|
@@ -141,13 +141,13 @@ BDD scenarios are written in a language like **Gherkin** and executed by tools t
 
 ---
 
-## 2.3 Acceptance Test-Driven Development (ATDD)
+## 🤝 2.3 Acceptance Test-Driven Development (ATDD)
 
-### What Is ATDD?
+### 🔷 What Is ATDD?
 
 ATDD is a practice where the **whole team collaborates** to define acceptance criteria and acceptance tests **before** development begins.
 
-### The ATDD Workshop ("Three Amigos")
+### 🔷 The ATDD Workshop ("Three Amigos")
 
 **Participants:**
 - **Developer:** Understands technical feasibility
@@ -190,14 +190,14 @@ When the customer applies already-used code "SAVE10"
 Then an error "Code already used" should display
 ```
 
-### ATDD Benefits
+### 🔷 ATDD Benefits
 
 1. **Shared understanding:** Everyone agrees on what "done" means before coding
 2. **Fewer defects:** Edge cases are identified before implementation
 3. **Faster feedback:** Tests are ready as soon as code is written
 4. **Better estimates:** Team understands the scope before estimating
 
-### ATDD vs. BDD vs. TDD
+### 🔷 ATDD vs. BDD vs. TDD
 
 | Practice | Level | Participants | Output |
 |----------|-------|--------------|--------|
@@ -213,9 +213,9 @@ Then an error "Code already used" should display
 
 ---
 
-## 2.4 The Testing Pyramid in Agile
+## 🏃 2.4 The Testing Pyramid in Agile
 
-### The Pyramid
+### 🔷 The Pyramid
 
 ```
         /\  E2E Tests (few)
@@ -247,7 +247,7 @@ Then an error "Code already used" should display
 - Fragile (break with UI changes)
 - Written by testers, fewer in number
 
-### The Ice Cream Cone Anti-Pattern
+### 🔷 The Ice Cream Cone Anti-Pattern
 
 ```
         /\  Unit Tests (few)
@@ -271,9 +271,9 @@ Then an error "Code already used" should display
 
 ---
 
-## 2.5 Selecting the Right Practice
+## ❓ 2.5 Selecting the Right Practice
 
-### When to Use Each Practice
+### ❓ When to Use Each Practice
 
 **Use TDD when:**
 - Writing new code or features
@@ -293,7 +293,7 @@ Then an error "Code already used" should display
 - The team needs to agree on acceptance criteria
 - You want to catch misunderstandings early
 
-### Combining Practices
+### ❓ Combining Practices
 
 **For a new user story:**
 1. **ATDD workshop:** Define acceptance criteria with business, dev, and test
@@ -304,9 +304,9 @@ Then an error "Code already used" should display
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: TDD Cycle
+### 💡 Worked Example 1: TDD Cycle
 
 **Feature:** Password validation function
 
@@ -347,7 +347,7 @@ Code: function isValidPassword(pw) {
 Result: PASS (clearer, but behavior unchanged)
 ```
 
-### Worked Example 2: BDD Scenario
+### 💡 Worked Example 2: BDD Scenario
 
 **Feature:** User login
 
@@ -375,7 +375,7 @@ When the user enters valid credentials and clicks "Login"
 Then an error message "Account locked" should display
 ```
 
-### Worked Example 3: ATDD Workshop Output
+### 💡 Worked Example 3: ATDD Workshop Output
 
 **Story:** "As a shopper, I want to filter products by price range so that I can find items within my budget."
 

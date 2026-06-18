@@ -1,8 +1,8 @@
-# Chapter 6 — Quality Metrics and Reporting: Practice Questions
+# ❓ Chapter 6 — Quality Metrics and Reporting: Practice Questions
 
 ---
 
-### Q1 (AuT-6.1, K2)
+### 🔷 Q1 (AuT-6.1, K2)
 
 Statement coverage measures:
 
@@ -13,7 +13,7 @@ D. Only error paths
 
 ---
 
-### Q2 (AuT-6.2, K2)
+### 🔷 Q2 (AuT-6.2, K2)
 
 MC/DC coverage is required for:
 
@@ -24,7 +24,7 @@ D. Only system tests
 
 ---
 
-### Q3 (AuT-6.3, K2)
+### 🔷 Q3 (AuT-6.3, K2)
 
 Test pass rate alone is insufficient because:
 
@@ -35,7 +35,7 @@ D. Only for safety-critical systems
 
 ---
 
-### Q4 (AuT-6.4, K2)
+### 🔷 Q4 (AuT-6.4, K2)
 
 A coverage gap caused by missing tests should be:
 
@@ -46,7 +46,7 @@ D. Only reported
 
 ---
 
-### Q5 (AuT-6.1, K2)
+### 🔷 Q5 (AuT-6.1, K2)
 
 Branch coverage is required for:
 
@@ -57,7 +57,7 @@ D. Only manual tests
 
 ---
 
-### Q6 (AuT-6.2, K2)
+### 🔷 Q6 (AuT-6.2, K2)
 
 Defect removal efficiency measures:
 
@@ -68,7 +68,7 @@ D. Only code complexity
 
 ---
 
-### Q7 (AuT-6.3, K2)
+### 🔷 Q7 (AuT-6.3, K2)
 
 Test execution rate tracks:
 
@@ -79,7 +79,7 @@ D. Only automated tests
 
 ---
 
-### Q8 (AuT-6.4, K2)
+### 🔷 Q8 (AuT-6.4, K2)
 
 Coverage reports for ASIL D should show:
 
@@ -90,7 +90,7 @@ D. Only execution time
 
 ---
 
-### Q9 (AuT-6.1, K2)
+### 🔷 Q9 (AuT-6.1, K2)
 
 100% statement coverage:
 
@@ -101,7 +101,7 @@ D. Only proves security
 
 ---
 
-### Q10 (AuT-6.2, K2)
+### 🔷 Q10 (AuT-6.2, K2)
 
 Defect density is calculated as:
 
@@ -112,7 +112,7 @@ D. Only critical defects
 
 ---
 
-### Q11 (AuT-6.3, K2)
+### 🔷 Q11 (AuT-6.3, K2)
 
 Automation rate indicates:
 
@@ -123,7 +123,7 @@ D. Only test cost
 
 ---
 
-### Q12 (AuT-6.4, K2)
+### 🔷 Q12 (AuT-6.4, K2)
 
 Audit readiness requires:
 
@@ -134,7 +134,7 @@ D. Only management approval
 
 ---
 
-### Q13 (AuT-6.1, K2)
+### 🔷 Q13 (AuT-6.1, K2)
 
 MC/DC requires that:
 
@@ -145,7 +145,7 @@ D. Only loops complete
 
 ---
 
-### Q14 (AuT-6.2, K2)
+### 🔷 Q14 (AuT-6.2, K2)
 
 A safety-critical defect open for more than 2 weeks should be:
 
@@ -156,7 +156,7 @@ D. Only monitored
 
 ---
 
-### Q15 (AuT-6.3, K2)
+### 🔷 Q15 (AuT-6.3, K2)
 
 Mean time to fix measures:
 
@@ -167,7 +167,7 @@ D. Only requirement changes
 
 ---
 
-### Q16 (AuT-6.4, K2)
+### 🔷 Q16 (AuT-6.4, K2)
 
 Traceability matrices for auditors demonstrate:
 
@@ -178,7 +178,7 @@ D. Only team size
 
 ---
 
-### Q17 (AuT-6.1, K2)
+### 🔷 Q17 (AuT-6.1, K2)
 
 Generated code should be:
 
@@ -189,7 +189,7 @@ D. Only statically analyzed
 
 ---
 
-### Q18 (AuT-6.2, K2)
+### 🔷 Q18 (AuT-6.2, K2)
 
 Defect detection rate is higher when:
 
@@ -200,7 +200,7 @@ D. Only manual testing exists
 
 ---
 
-### Q19 (AuT-6.3, K2)
+### 🔷 Q19 (AuT-6.3, K2)
 
 A test report for project management should include:
 
@@ -211,7 +211,7 @@ D. Only tool configurations
 
 ---
 
-### Q20 (AuT-6.4, K2)
+### 🔷 Q20 (AuT-6.4, K2)
 
 Process improvement uses metrics to:
 
@@ -222,84 +222,84 @@ D. Only reduce headcount
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** Statement = % executable statements executed.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** MC/DC = ASIL C/D.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** Pass rate + coverage needed.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** Gap = write missing tests.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Branch = ASIL B+.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Removal efficiency = pre-release / total.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Execution rate = executed / planned.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** ASIL D = statement + branch + MC/DC.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** 100% coverage ≠ no bugs.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** Density = defects / KLOC.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Automation rate = automated / total.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Audit = continuous traceability + coverage + changes.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** MC/DC = independent condition effect.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Safety-critical defect > 2 weeks = escalate.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** MTTF = fix speed.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Traceability = req tested + changes managed.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Generated code = test + cover.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Detection rate = pre-release finds.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Mgmt report = pass rate + schedule + risks.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** Improvement = trends → systematic fix.

@@ -1,6 +1,6 @@
-# Chapter 3 — Functional Game Testing: Exam Traps
+# 🪤 Chapter 3 — Functional Game Testing: Exam Traps
 
-## Trap 1: Testing Only the Happy Path
+## 🪤 Trap 1: Testing Only the Happy Path
 
 **Trap:** Edge cases (zero health, full inventory, rapid input) often reveal critical bugs.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Testing UI Only for Visuals
+## 🪤 Trap 2: Testing UI Only for Visuals
 
 **Trap:** UI testing must include functionality, navigation, focus, and edge cases (long names, empty states).
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: AI Testing Only on Easy Difficulty
+## 🪤 Trap 3: AI Testing Only on Easy Difficulty
 
 **Trap:** AI behaves differently per difficulty; all levels must be tested.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Multiplayer Testing Only on LAN
+## 🪤 Trap 4: Multiplayer Testing Only on LAN
 
 **Trap:** Real-world network conditions (latency, packet loss) reveal issues LAN testing misses.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Assuming Save/Load Just Works
+## 🪤 Trap 5: Assuming Save/Load Just Works
 
 **Trap:** Save/load is complex; test all data types, corruption, and version mismatches.
 

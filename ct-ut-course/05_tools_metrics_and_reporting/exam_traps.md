@@ -1,6 +1,6 @@
-# Chapter 5 — Tools, Metrics and Reporting: Exam Traps
+# 🪤 Chapter 5 — Tools, Metrics and Reporting: Exam Traps
 
-## Trap 1: Thinking SUS Measures Actual Usability
+## 🪤 Trap 1: Thinking SUS Measures Actual Usability
 
 **Trap:** SUS measures PERCEIVED usability, not actual performance. A user may rate a system high despite poor task success.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Using Only Quantitative or Only Qualitative Data
+## 🪤 Trap 2: Using Only Quantitative or Only Qualitative Data
 
 **Trap:** Both are needed. Quantitative identifies problems; qualitative explains why.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Thinking NPS Is a Usability Metric
+## 🪤 Trap 3: Thinking NPS Is a Usability Metric
 
 **Trap:** NPS measures loyalty/recommendation likelihood, not usability. It is broader than usability.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Reporting Without Actionable Recommendations
+## 🪤 Trap 4: Reporting Without Actionable Recommendations
 
 **Trap:** Reports must include specific, prioritized recommendations.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Confusing Slips and Mistakes
+## 🪤 Trap 5: Confusing Slips and Mistakes
 
 **Trap:** Slips = accidental errors (know the right thing but do it wrong). Mistakes = wrong understanding (think the wrong thing is right).
 

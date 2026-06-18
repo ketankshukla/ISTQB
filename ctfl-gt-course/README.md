@@ -1,10 +1,10 @@
-# ISTQB CTFL-GT — Gambling Industry Tester Self-Study Course
+# 📚 ISTQB CTFL-GT — Gambling Industry Tester Self-Study Course
 
 A complete, exam-ready self-study course for the ISTQB CTFL-GT (Certified Tester Foundation Level — Gambling Industry Tester) certification.
 
 ---
 
-## Exam Facts
+## 🎓 Exam Facts
 
 | Parameter | Value |
 |-----------|-------|
@@ -17,7 +17,7 @@ A complete, exam-ready self-study course for the ISTQB CTFL-GT (Certified Tester
 
 ---
 
-## Course Structure
+## ⭐ Course Structure
 
 ```
 ctfl-gt-course/
@@ -67,7 +67,7 @@ ctfl-gt-course/
 
 ---
 
-## How to Use This Course
+## ⭐ How to Use This Course
 
 1. **Start with `STUDY_PLAN.md`** — pick the 2-week or 3-week track based on your schedule.
 2. **Work through chapters in order** — read `lessons.md`, then `exam_traps.md`, then attempt `practice_questions.md`.
@@ -77,7 +77,7 @@ ctfl-gt-course/
 
 ---
 
-## Target Audience
+## ⭐ Target Audience
 
 - Testers moving into the gambling (iGaming, lottery, casino) industry
 - QA professionals working with RNG, game math, or compliance teams
@@ -85,7 +85,7 @@ ctfl-gt-course/
 
 ---
 
-## Prerequisites
+## ⭐ Prerequisites
 
 - No prior gambling industry experience is required
 - ISTQB CTFL Foundation Level is recommended but not required for this specialist exam
@@ -93,7 +93,7 @@ ctfl-gt-course/
 
 ---
 
-## File Map
+## ⭐ File Map
 
 | File | Purpose |
 |------|---------|

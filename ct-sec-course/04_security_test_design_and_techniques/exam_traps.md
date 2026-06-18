@@ -1,6 +1,6 @@
-# Chapter 4 — Security Test Design and Techniques: Exam Traps
+# 🪤 Chapter 4 — Security Test Design and Techniques: Exam Traps
 
-## Trap 1: Confusing SAST, DAST, and IAST
+## 🪤 Trap 1: Confusing SAST, DAST, and IAST
 
 **Trap:** SAST analyzes code without running it. DAST tests running apps from outside. IAST instruments running code.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Thinking Black Box Testing Is Always Best
+## 🪤 Trap 2: Thinking Black Box Testing Is Always Best
 
 **Trap:** Each testing type has advantages. White box finds code-level issues; black box simulates real attackers. The best approach often combines them.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Confusing Horizontal and Vertical Privilege Escalation
+## 🪤 Trap 3: Confusing Horizontal and Vertical Privilege Escalation
 
 **Trap:** Horizontal = accessing another user's data at same level. Vertical = gaining higher privileges.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Thinking Input Validation Is Sufficient Alone
+## 🪤 Trap 4: Thinking Input Validation Is Sufficient Alone
 
 **Trap:** Input validation AND output encoding are both needed. Validation at entry point doesn't protect against all injection if output isn't encoded for its context.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Confusing Fuzzing with Penetration Testing
+## 🪤 Trap 5: Confusing Fuzzing with Penetration Testing
 
 **Trap:** Fuzzing = automated random input testing. Penetration testing = structured simulated attack. They are different techniques with different purposes.
 

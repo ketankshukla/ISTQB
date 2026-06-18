@@ -1,4 +1,4 @@
-# CTAL-TA Mock Exam 3
+# 📝 CTAL-TA Mock Exam 3
 
 **Instructions:**
 - 40 questions
@@ -8,7 +8,7 @@
 
 ---
 
-### Q1
+### 🔷 Q1
 
 Test design is the activity that:
 
@@ -19,7 +19,7 @@ D. Executes tests and records results
 
 ---
 
-### Q2
+### 🔷 Q2
 
 A field accepts order quantities from 1 to 1000. Using 2-value BVA, the test values are:
 
@@ -30,7 +30,7 @@ D. -1, 1, 1000, 1001
 
 ---
 
-### Q3
+### 🔷 Q3
 
 In a decision table, conditions are:
 
@@ -41,7 +41,7 @@ D. The impossible combinations
 
 ---
 
-### Q4
+### 🔷 Q4
 
 For 0-switch coverage in state transition testing, you need to:
 
@@ -52,7 +52,7 @@ D. Test every pair of consecutive transitions
 
 ---
 
-### Q5
+### 🔷 Q5
 
 A use case includes: preconditions, main flow, alternative flows, exception flows, and postconditions. Testing the exception flows is important because:
 
@@ -63,7 +63,7 @@ D. They test the fastest paths
 
 ---
 
-### Q6
+### 🔷 Q6
 
 The PRIMARY purpose of a technical review is to:
 
@@ -74,7 +74,7 @@ D. Replace dynamic testing
 
 ---
 
-### Q7
+### 🔷 Q7
 
 A system must integrate with five different payment processors using REST APIs. Testing these integrations validates:
 
@@ -85,7 +85,7 @@ D. Maintainability
 
 ---
 
-### Q8
+### 🔷 Q8
 
 A security test attempts to access an admin function using a regular user account. This tests:
 
@@ -96,7 +96,7 @@ D. Availability
 
 ---
 
-### Q9
+### 🔷 Q9
 
 The degree to which a system operates as intended despite hardware or software faults is:
 
@@ -107,7 +107,7 @@ D. Availability
 
 ---
 
-### Q10
+### 🔷 Q10
 
 A test monitors CPU, memory, and response times while the system processes 1000 transactions per minute for 24 hours. This is:
 
@@ -118,7 +118,7 @@ D. Spike Testing
 
 ---
 
-### Q11
+### 🔷 Q11
 
 In a modular automation framework:
 
@@ -129,7 +129,7 @@ D. Tests are written entirely in SQL
 
 ---
 
-### Q12
+### 🔷 Q12
 
 A static analysis tool would be LEAST effective at finding:
 
@@ -140,7 +140,7 @@ D. Coding standard violations
 
 ---
 
-### Q13
+### 🔷 Q13
 
 For a field accepting values 0.0 to 100.0 with one decimal place, 2-value BVA tests:
 
@@ -151,7 +151,7 @@ D. -0.1, 0.1, 99.9, 100.1
 
 ---
 
-### Q14
+### 🔷 Q14
 
 A use case has a main flow, 2 alternatives, 3 exceptions, and 1 precondition violation. Minimum test cases:
 
@@ -162,7 +162,7 @@ D. 9
 
 ---
 
-### Q15
+### 🔷 Q15
 
 During test planning, a test analyst should contribute:
 
@@ -173,7 +173,7 @@ D. Hiring decisions for the test team
 
 ---
 
-### Q16
+### 🔷 Q16
 
 In a formal inspection, the scribe's role is to:
 
@@ -184,7 +184,7 @@ D. Decide whether the document passes the review
 
 ---
 
-### Q17
+### 🔷 Q17
 
 A system accepts employee IDs in format EMP-XXXX where X is a digit (0000-9999). EP valid partitions:
 
@@ -195,7 +195,7 @@ D. Cannot be partitioned
 
 ---
 
-### Q18
+### 🔷 Q18
 
 The page object model in test automation is primarily used to:
 
@@ -206,7 +206,7 @@ D. Record user interactions
 
 ---
 
-### Q19
+### 🔷 Q19
 
 A web application is tested on Chrome, Firefox, Edge, and Safari. This tests:
 
@@ -217,7 +217,7 @@ D. Suitability
 
 ---
 
-### Q20
+### 🔷 Q20
 
 Which statement about exploratory testing is TRUE?
 
@@ -228,7 +228,7 @@ D. It cannot find defects that scripted tests miss
 
 ---
 
-### Q21
+### 🔷 Q21
 
 A system correctly rejects a transaction when the account balance is insufficient. This validates:
 
@@ -239,7 +239,7 @@ D. Efficiency
 
 ---
 
-### Q22
+### 🔷 Q22
 
 Which formula calculates availability?
 
@@ -250,7 +250,7 @@ D. Test cases passed / Total test cases
 
 ---
 
-### Q23
+### 🔷 Q23
 
 Before rolling out a test tool to all teams, the recommended step is:
 
@@ -261,7 +261,7 @@ D. Build custom integrations first
 
 ---
 
-### Q24
+### 🔷 Q24
 
 The PRIMARY advantage of a data-driven framework is:
 
@@ -272,7 +272,7 @@ D. Automatically fixes application defects
 
 ---
 
-### Q25
+### 🔷 Q25
 
 A tool that monitors application performance in production, tracking response times and error rates, is a:
 
@@ -283,7 +283,7 @@ D. Defect tracking tool
 
 ---
 
-### Q26
+### 🔷 Q26
 
 A review where the author asks a colleague to quickly look over a draft document is:
 
@@ -294,7 +294,7 @@ D. Technical Review
 
 ---
 
-### Q27
+### 🔷 Q27
 
 A system must handle 10,000 concurrent users during a product launch event. The test should validate:
 
@@ -305,7 +305,7 @@ D. Cross-browser compatibility
 
 ---
 
-### Q28
+### 🔷 Q28
 
 For a "Shipping Method" field with values: Ground, Express, Overnight, Pickup, how many valid EP test cases?
 
@@ -316,7 +316,7 @@ D. 8
 
 ---
 
-### Q29
+### 🔷 Q29
 
 Which technique is BEST for testing a business rule with three interacting conditions (customer type, order amount, loyalty status)?
 
@@ -327,7 +327,7 @@ D. State Transition Testing
 
 ---
 
-### Q30
+### 🔷 Q30
 
 A decision table has conditions: A (3 values), B (2 values), C (2 values), D (2 values). How many rules?
 
@@ -338,7 +338,7 @@ D. 24
 
 ---
 
-### Q31
+### 🔷 Q31
 
 A test plan states: "Testing stops when 95% of test cases pass and no critical defects remain." This describes:
 
@@ -349,7 +349,7 @@ D. Resumption criteria
 
 ---
 
-### Q32
+### 🔷 Q32
 
 Which is NOT a recommended practice for successful reviews?
 
@@ -360,7 +360,7 @@ D. Use checklists for formal reviews
 
 ---
 
-### Q33
+### 🔷 Q33
 
 After a database corruption event, the system restores data from backup and replays transactions from the last hour. This demonstrates:
 
@@ -371,7 +371,7 @@ D. Availability
 
 ---
 
-### Q34
+### 🔷 Q34
 
 Which statement about test automation is FALSE?
 
@@ -382,7 +382,7 @@ D. ROI may be negative in the first year
 
 ---
 
-### Q35
+### 🔷 Q35
 
 The test environment becomes unavailable for 6 hours during test execution. According to standard test control practices:
 
@@ -393,7 +393,7 @@ D. Declare testing complete
 
 ---
 
-### Q36
+### 🔷 Q36
 
 For a range [5, 15], 3-value BVA tests:
 
@@ -404,7 +404,7 @@ D. 4, 6, 14, 16
 
 ---
 
-### Q37
+### 🔷 Q37
 
 A system must exchange data with both legacy mainframe systems and modern cloud APIs. Testing this validates:
 
@@ -415,7 +415,7 @@ D. Maintainability
 
 ---
 
-### Q38
+### 🔷 Q38
 
 In the review process, the stage where reviewers examine the document independently is:
 
@@ -426,7 +426,7 @@ D. Follow-up
 
 ---
 
-### Q39
+### 🔷 Q39
 
 A field accepts a date in format MM/DD/YYYY (year 1900-2024). Which is a valid 2-value BVA test for the year?
 
@@ -437,7 +437,7 @@ D. 1800, 1900, 2024, 2100
 
 ---
 
-### Q40
+### 🔷 Q40
 
 A team automates 500 hours of manual regression testing. Development takes 300 hours, maintenance is 50 hours/year. The breakeven point is approximately:
 
@@ -448,4 +448,4 @@ D. Never
 
 ---
 
-## End of Mock Exam 3
+## 📝 End of Mock Exam 3

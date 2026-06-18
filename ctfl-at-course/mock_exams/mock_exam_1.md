@@ -1,4 +1,4 @@
-# CTFL-AT Mock Exam 1
+# 📝 CTFL-AT Mock Exam 1
 
 **Instructions:**
 - 40 questions
@@ -8,7 +8,7 @@
 
 ---
 
-### Q1
+### 🔷 Q1
 
 According to the Agile Manifesto, which is valued MORE?
 
@@ -19,7 +19,7 @@ D. Following a plan over responding to change
 
 ---
 
-### Q2
+### 🔷 Q2
 
 In an agile team using the whole-team approach to quality:
 
@@ -30,7 +30,7 @@ D. Testing is performed only by a separate independent test team
 
 ---
 
-### Q3
+### 🔷 Q3
 
 Which Agile Manifesto principle directly supports the practice of welcoming changing requirements?
 
@@ -41,7 +41,7 @@ D. Build projects around motivated individuals
 
 ---
 
-### Q4
+### 🔷 Q4
 
 In Scrum, system testing is performed:
 
@@ -52,7 +52,7 @@ D. Once per release, before deployment
 
 ---
 
-### Q5
+### 🔷 Q5
 
 The test automation pyramid shows that the LARGEST proportion of automated tests should be:
 
@@ -63,7 +63,7 @@ D. Manual tests
 
 ---
 
-### Q6
+### 🔷 Q6
 
 In ATDD, acceptance tests are defined:
 
@@ -74,7 +74,7 @@ D. During the final sprint review
 
 ---
 
-### Q7
+### 🔷 Q7
 
 Which format is commonly used in BDD to express acceptance criteria?
 
@@ -85,7 +85,7 @@ D. For-Each-Do
 
 ---
 
-### Q8
+### 🔷 Q8
 
 A tester participates in a Three Amigos meeting. Their PRIMARY contribution is to:
 
@@ -96,7 +96,7 @@ D. Approve the budget
 
 ---
 
-### Q9
+### 🔷 Q9
 
 Continuous Integration is BEST described as:
 
@@ -107,7 +107,7 @@ D. Manual testing performed continuously
 
 ---
 
-### Q10
+### 🔷 Q10
 
 Exploratory testing in agile is:
 
@@ -118,7 +118,7 @@ D. A replacement for all automated testing
 
 ---
 
-### Q11
+### 🔷 Q11
 
 A team has 400 UI tests, 50 integration tests, and 30 unit tests. This distribution is:
 
@@ -129,7 +129,7 @@ D. Sufficient for all agile testing needs
 
 ---
 
-### Q12
+### 🔷 Q12
 
 The PRIMARY purpose of Specification by Example is to:
 
@@ -140,7 +140,7 @@ D. Eliminate the need for a product owner
 
 ---
 
-### Q13
+### 🔷 Q13
 
 In agile, the Definition of Done typically includes:
 
@@ -151,7 +151,7 @@ D. That an external test team has approved the feature
 
 ---
 
-### Q14
+### 🔷 Q14
 
 TDD, ATDD, and BDD are related practices. Which statement is TRUE?
 
@@ -162,7 +162,7 @@ D. ATDD is only for manual testing
 
 ---
 
-### Q15
+### 🔷 Q15
 
 A team's CI build fails randomly due to tests that pass on rerun. These tests are:
 
@@ -173,7 +173,7 @@ D. Acceptance tests
 
 ---
 
-### Q16
+### 🔷 Q16
 
 Which of the following is a benefit of early tester involvement in story refinement?
 
@@ -184,7 +184,7 @@ D. The team needs fewer user stories
 
 ---
 
-### Q17
+### 🔷 Q17
 
 In the test automation pyramid, UI tests are characterized by:
 
@@ -195,7 +195,7 @@ D. Being the most reliable type of test
 
 ---
 
-### Q18
+### 🔷 Q18
 
 A team wants fast feedback on code changes. Which tests should run FIRST in CI?
 
@@ -206,7 +206,7 @@ D. Performance test suite
 
 ---
 
-### Q19
+### 🔷 Q19
 
 Which practice involves business, developer, and tester meeting to discuss a story before implementation?
 
@@ -217,7 +217,7 @@ D. Release planning
 
 ---
 
-### Q20
+### 🔷 Q20
 
 A team delays implementing test automation until after 5 sprints. What is the MAIN risk?
 
@@ -228,7 +228,7 @@ D. Test automation is only useful for waterfall projects
 
 ---
 
-### Q21
+### 🔷 Q21
 
 In agile, regression testing is typically:
 
@@ -239,7 +239,7 @@ D. Performed only by an independent test team
 
 ---
 
-### Q22
+### 🔷 Q22
 
 Which statement BEST describes the whole-team approach to testing?
 
@@ -250,7 +250,7 @@ D. Testers should work in a separate department
 
 ---
 
-### Q23
+### 🔷 Q23
 
 Session-Based Test Management (SBTM) for exploratory testing includes:
 
@@ -261,7 +261,7 @@ D. Comprehensive test plans for each session
 
 ---
 
-### Q24
+### 🔷 Q24
 
 BDD is most closely related to which other practice?
 
@@ -272,7 +272,7 @@ D. Manual Regression Testing
 
 ---
 
-### Q25
+### 🔷 Q25
 
 A team is using Scrum. Unit testing, integration testing, and acceptance testing happen:
 
@@ -283,7 +283,7 @@ D. Once per year during the release
 
 ---
 
-### Q26
+### 🔷 Q26
 
 Which tool is MOST appropriate for writing acceptance tests in Given-When-Then format?
 
@@ -294,7 +294,7 @@ D. JMeter
 
 ---
 
-### Q27
+### 🔷 Q27
 
 An agile tester pairs with a developer to test a feature as it is being built. This demonstrates:
 
@@ -305,7 +305,7 @@ D. A violation of role separation
 
 ---
 
-### Q28
+### 🔷 Q28
 
 Which is NOT a value of the Agile Manifesto?
 
@@ -316,7 +316,7 @@ D. Customer collaboration over contract negotiation
 
 ---
 
-### Q29
+### 🔷 Q29
 
 In agile, the tester's role during sprint planning includes:
 
@@ -327,7 +327,7 @@ D. Testing the previous sprint's code while planning happens
 
 ---
 
-### Q30
+### 🔷 Q30
 
 A system guarantees 99.9% uptime. This requirement addresses which quality characteristic?
 
@@ -338,7 +338,7 @@ D. Maintainability
 
 ---
 
-### Q31
+### 🔷 Q31
 
 Which test type is MOST appropriate for finding the maximum load a system can handle before failing?
 
@@ -349,7 +349,7 @@ D. Volume Testing
 
 ---
 
-### Q32
+### 🔷 Q32
 
 In a keyword-driven framework, test cases are written as:
 
@@ -360,7 +360,7 @@ D. SQL queries
 
 ---
 
-### Q33
+### 🔷 Q33
 
 Which review type is MOST formal and typically uses checklists and trained participants?
 
@@ -371,7 +371,7 @@ D. Inspection
 
 ---
 
-### Q34
+### 🔷 Q34
 
 A system continues to process transactions when one server fails because other servers take over. This demonstrates:
 
@@ -382,7 +382,7 @@ D. Efficiency
 
 ---
 
-### Q35
+### 🔷 Q35
 
 Which of the following is a PRIMARY risk in test automation implementation?
 
@@ -393,7 +393,7 @@ D. Test automation guarantees zero defects in production
 
 ---
 
-### Q36
+### 🔷 Q36
 
 A field accepts ages from 18 to 65. Using 2-value BVA, which values should be tested?
 
@@ -404,7 +404,7 @@ D. 18, 40, 65
 
 ---
 
-### Q37
+### 🔷 Q37
 
 In a decision table with 3 binary conditions, how many rules are needed for full coverage?
 
@@ -415,7 +415,7 @@ D. 12
 
 ---
 
-### Q38
+### 🔷 Q38
 
 A system has two fields: X (1-10) and Y (1-10). Using single-fault 2-value BVA, how many test cases are needed?
 
@@ -426,7 +426,7 @@ D. 16
 
 ---
 
-### Q39
+### 🔷 Q39
 
 Which of the following BEST describes exploratory testing?
 
@@ -437,7 +437,7 @@ D. Random input generation to find crashes
 
 ---
 
-### Q40
+### 🔷 Q40
 
 ROI for test automation is typically:
 
@@ -448,4 +448,4 @@ D. Not measurable for software testing
 
 ---
 
-## End of Mock Exam 1
+## 📝 End of Mock Exam 1

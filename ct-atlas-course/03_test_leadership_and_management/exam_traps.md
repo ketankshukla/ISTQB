@@ -1,6 +1,6 @@
-# Chapter 3 — Test Leadership and Management: Exam Traps
+# 🪤 Chapter 3 — Test Leadership and Management: Exam Traps
 
-## Trap 1: Managing Instead of Leading
+## 🪤 Trap 1: Managing Instead of Leading
 
 **Trap:** In agile, test leaders serve and enable rather than command and control.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Solving Problems for the Team
+## 🪤 Trap 2: Solving Problems for the Team
 
 **Trap:** Coaching draws solutions from the team; solving for them creates dependency.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Ignoring Team Development Stage
+## 🪤 Trap 3: Ignoring Team Development Stage
 
 **Trap:** New teams need direction; performing teams need autonomy. Applying the wrong style causes friction.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Blaming Individuals for Quality Issues
+## 🪤 Trap 4: Blaming Individuals for Quality Issues
 
 **Trap:** Quality issues are system problems. Blame creates fear and hides root causes.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Treating Impediments as Someone Else's Problem
+## 🪤 Trap 5: Treating Impediments as Someone Else's Problem
 
 **Trap:** Test leaders must actively remove blockers, not just report them.
 

@@ -1,6 +1,6 @@
-# Case Study 3 — Enterprise Software Usability
+# 📂 Case Study 3 — Enterprise Software Usability
 
-## Context
+## ⭐ Context
 
 You are the Usability Test Manager for WorkFlow Pro, an enterprise project management platform used by 10,000+ organizations.
 
@@ -23,7 +23,7 @@ You are the Usability Test Manager for WorkFlow Pro, an enterprise project manag
 - **Power users:** Need advanced features and customization
 - **Managers:** Need reporting and oversight tools
 
-## Task 1: Segmented User Research
+## ⭐ Task 1: Segmented User Research
 
 **Question:** Design a research plan that addresses the needs of all user segments.
 
@@ -65,7 +65,7 @@ You are the Usability Test Manager for WorkFlow Pro, an enterprise project manag
 
 ---
 
-## Task 2: Onboarding Redesign Test
+## 🎨 Task 2: Onboarding Redesign Test
 
 **Question:** Test a proposed simplified onboarding flow.
 
@@ -105,7 +105,7 @@ You are the Usability Test Manager for WorkFlow Pro, an enterprise project manag
 
 ---
 
-## Task 3: Power User vs. New User Tension
+## ⭐ Task 3: Power User vs. New User Tension
 
 **Question:** How to satisfy power users while simplifying for new users?
 
@@ -150,7 +150,7 @@ You are the Usability Test Manager for WorkFlow Pro, an enterprise project manag
 
 ---
 
-## Task 4: Measuring Success
+## ⭐ Task 4: Measuring Success
 
 **Question:** Define metrics to track the impact of usability improvements.
 
@@ -185,7 +185,7 @@ You are the Usability Test Manager for WorkFlow Pro, an enterprise project manag
 
 ---
 
-## Task 5: Stakeholder Communication
+## ⭐ Task 5: Stakeholder Communication
 
 **Question:** Present findings to stakeholders with competing priorities.
 

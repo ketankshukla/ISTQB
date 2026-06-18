@@ -1,6 +1,6 @@
-# Chapter 1 — Gambling Industry Fundamentals
+# 🏗️ Chapter 1 — Gambling Industry Fundamentals
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~20% (~8 questions out of 40)
 - **K-levels:** K1 (remember), K2 (understand)
@@ -8,7 +8,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -20,7 +20,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts
+## ⭐ Key Concepts
 
 - Gambling domains: casino, sports betting, lottery, poker, bingo, fantasy sports
 - Game types: slots, table games, live dealer, instant win, virtual sports

@@ -1,10 +1,10 @@
-# Case Study 3 — Test Team Transformation
+# 📂 Case Study 3 — Test Team Transformation
 
-## Context
+## ⭐ Context
 
 You have been hired as the new Test Manager for RetailSoft, a mid-sized retail software company. The company has been in business for 10 years and has a mature product — an inventory management system.
 
-## Current State
+## 🔄 Current State
 
 - **Test team:** 6 manual testers, 0 automation engineers
 - **Process:** All testing is manual. Regression takes 3 weeks for each release.
@@ -14,7 +14,7 @@ You have been hired as the new Test Manager for RetailSoft, a mid-sized retail s
 - **Management expectation:** Move to monthly releases within 12 months.
 - **Budget:** $50,000 for tooling and training in Year 1
 
-## Task 1: Organizational Assessment
+## ⭐ Task 1: Organizational Assessment
 
 **Question:** Assess the current test organization and identify the biggest obstacles to achieving monthly releases.
 
@@ -39,7 +39,7 @@ You have been hired as the new Test Manager for RetailSoft, a mid-sized retail s
 
 ---
 
-## Task 2: Transformation Plan
+## 🗓️ Task 2: Transformation Plan
 
 **Question:** Design a 12-month plan to transform the team and enable monthly releases.
 
@@ -83,7 +83,7 @@ You have been hired as the new Test Manager for RetailSoft, a mid-sized retail s
 
 ---
 
-## Task 3: Tool Selection
+## 🛠️ Task 3: Tool Selection
 
 **Question:** The CFO questions spending $50,000 on tools and training. How would you justify this investment?
 
@@ -122,7 +122,7 @@ ROI = ($200,000+ - $50,000) / $50,000 = 300%+ in Year 1
 
 ---
 
-## Task 4: Managing Resistance
+## ⭐ Task 4: Managing Resistance
 
 **Question:** Two senior testers are resistant to learning automation, saying "We've always done it manually and it works." How do you handle this?
 

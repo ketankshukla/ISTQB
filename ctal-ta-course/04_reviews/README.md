@@ -1,6 +1,6 @@
-# Chapter 4 — Reviews
+# 🔎 Chapter 4 — Reviews
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~10% (~6 questions out of 60)
 - **K-levels:** K2 (understand), K3 (apply)
@@ -8,7 +8,7 @@
 
 ---
 
-## Chapter Map
+## ⭐ Chapter Map
 
 | Section | Topic | K-Level | Exam Importance |
 |---------|-------|---------|-----------------|
@@ -19,7 +19,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -31,7 +31,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts to Master
+## ⭐ Key Concepts to Master
 
 - The four review types and their formality levels
 - The five stages of the review process

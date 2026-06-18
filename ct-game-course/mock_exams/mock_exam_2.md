@@ -1,10 +1,10 @@
-# CT-GaMe Mock Exam 2
+# 📝 CT-GaMe Mock Exam 2
 
 **Instructions:** 40 questions, 60 minutes, single best answer.
 
 ---
 
-### Q1-Q10
+### 🔷 Q1-Q10
 
 1. FPS target: A) Only high-end B) Min + recommended + high-end C) Only menus D) Only titles — **Min + recommended + high-end**
 2. Stability long sessions: A) Only tutorial B) Memory leaks + crashes C) Only audio D) Only visual — **Memory leaks + crashes**
@@ -19,7 +19,7 @@
 
 ---
 
-### Q11-Q20
+### 🔷 Q11-Q20
 
 11. HDR: A) Only brightness B) On/off + brightness levels C) Only saturation D) Only frame rate — **On/off + brightness levels**
 12. Remappable: A) Only default B) All actions reassigned C) Only keyboard D) Only controller — **All actions reassigned**
@@ -34,7 +34,7 @@
 
 ---
 
-### Q21-Q30
+### 🔷 Q21-Q30
 
 21. TRC: A) Review Committee B) Technical Requirements Checklist (Sony) C) Run Count D) Resource Check — **Technical Requirements Checklist (Sony)**
 22. Submission: A) Only build B) Build + metadata + rating + assets + docs C) Only trailer D) Only manual — **Build + metadata + rating + assets + docs**
@@ -49,7 +49,7 @@
 
 ---
 
-### Q31-Q40
+### 🔷 Q31-Q40
 
 31. Gambling: A) E rating B) AO or 18+ C) T rating D) E10+ — **AO or 18+**
 32. Matchmaking: A) Only single-player B) Skill/region grouping C) Only menus D) Only audio — **Skill/region grouping**
@@ -64,4 +64,4 @@
 
 ---
 
-## End of Mock Exam 2
+## 📝 End of Mock Exam 2

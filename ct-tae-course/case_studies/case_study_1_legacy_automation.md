@@ -1,6 +1,6 @@
-# Case Study 1 — Legacy Automation Remediation
+# 📂 Case Study 1 — Legacy Automation Remediation
 
-## Context
+## ⭐ Context
 
 You are the Test Automation Lead for FinanceHub, a financial services company. The company has:
 - 200-person IT department, 15 testers, 3 TAEs
@@ -10,7 +10,7 @@ You are the Test Automation Lead for FinanceHub, a financial services company. T
 - The vendor announced end-of-life for the tool in 18 months
 - Technology: Java backend, Angular frontend, REST APIs, Oracle database
 
-## Task 1: Assessment and Root Cause Analysis
+## 🔬 Task 1: Assessment and Root Cause Analysis
 
 **Question:** Analyze the legacy automation problems and identify root causes.
 
@@ -40,7 +40,7 @@ You are the Test Automation Lead for FinanceHub, a financial services company. T
 
 ---
 
-## Task 2: Remediation Strategy
+## ♟️ Task 2: Remediation Strategy
 
 **Question:** Design a strategy to remediate the legacy automation.
 
@@ -82,7 +82,7 @@ You are the Test Automation Lead for FinanceHub, a financial services company. T
 
 ---
 
-## Task 3: Framework Architecture
+## ⭐ Task 3: Framework Architecture
 
 **Question:** Design the new TAS architecture for FinanceHub.
 
@@ -117,7 +117,7 @@ System Under Test (Angular frontend, Java backend, Oracle DB)
 
 ---
 
-## Task 4: Metrics and Success Criteria
+## ✅ Task 4: Metrics and Success Criteria
 
 **Question:** Define KPIs to measure the success of the remediation.
 
@@ -135,7 +135,7 @@ System Under Test (Angular frontend, Java backend, Oracle DB)
 
 ---
 
-## Task 5: Risk Mitigation
+## ⚠️ Task 5: Risk Mitigation
 
 **Question:** Identify risks in the remediation plan and mitigation strategies.
 

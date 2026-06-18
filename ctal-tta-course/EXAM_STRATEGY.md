@@ -1,6 +1,6 @@
-# CTAL-TTA Exam Strategy
+# ♟️ CTAL-TTA Exam Strategy
 
-## Exam Format
+## 🎓 Exam Format
 
 - **45 multiple-choice questions** in 120 minutes
 - **65% pass mark** (29 correct answers)
@@ -9,7 +9,7 @@
 
 ---
 
-## Chapter Weighting (Estimated)
+## 🔢 Chapter Weighting (Estimated)
 
 | Chapter | Topic | Estimated Weight | Questions |
 |---------|-------|-----------------|-----------|
@@ -24,7 +24,7 @@
 
 ---
 
-## K-Level Question Patterns
+## ❓ K-Level Question Patterns
 
 | K-Level | What It Tests | Question Style | Example |
 |---------|--------------|----------------|---------|
@@ -39,7 +39,7 @@
 
 ---
 
-## Time Budgeting
+## ⭐ Time Budgeting
 
 | Section | Time | Action |
 |---------|------|--------|
@@ -52,39 +52,39 @@
 
 ---
 
-## Chapter-Specific Tactics
+## 🎓 Chapter-Specific Tactics
 
-### Chapter 1 — Risk-Based Testing
+### ⚠️ Chapter 1 — Risk-Based Testing
 
 - **K2 trap:** Technical risks (code complexity, technology) vs. business risks
 - **K3 trap:** Selecting appropriate technical test techniques based on risk
 - **Tactic:** Focus on which white-box technique addresses which type of risk
 
-### Chapter 2 — White-Box Test Techniques
+### 🎯 Chapter 2 — White-Box Test Techniques
 
 - **K3 trap:** Calculating statement, branch, and MC/DC coverage
 - **K4 trap:** Drawing control flow graphs and determining minimum test cases
 - **Tactic:** Practice drawing CFGs and calculating coverage for simple code. This is the most technical chapter.
 
-### Chapter 3 — Static Analysis
+### 🔍 Chapter 3 — Static Analysis
 
 - **K2 trap:** Cyclomatic complexity calculation and interpretation
 - **K3 trap:** Interpreting static analysis tool output
 - **Tactic:** Know the formula for cyclomatic complexity and what different values mean
 
-### Chapter 4 — Dynamic Analysis
+### 🔬 Chapter 4 — Dynamic Analysis
 
 - **K2 trap:** Memory leaks vs. memory corruption vs. buffer overflow
 - **K3 trap:** Selecting appropriate dynamic analysis technique for a problem
 - **Tactic:** Match the symptom (crash, slowdown, memory growth) to the technique
 
-### Chapter 5 — Test Tools and Automation
+### 🛠️ Chapter 5 — Test Tools and Automation
 
 - **K2 trap:** Tool categories and their purposes
 - **K3 trap:** Selecting the right tool for a technical testing need
 - **Tactic:** Know which tools support white-box testing, static analysis, dynamic analysis, and non-functional testing
 
-### Chapter 6 — Non-Functional Testing
+### 🔷 Chapter 6 — Non-Functional Testing
 
 - **K2 trap:** Performance vs. load vs. stress vs. scalability testing
 - **K3 trap:** Security testing techniques (SAST, DAST, penetration testing)
@@ -93,7 +93,7 @@
 
 ---
 
-## Common Distractor Patterns
+## ⭐ Common Distractor Patterns
 
 1. **Confusing statement and branch coverage** — Statement coverage = every statement executed at least once. Branch coverage = every decision outcome (true/false) executed at least once.
 2. **Confusing cyclomatic complexity with lines of code** — Complexity is about decision points, not code length.
@@ -104,7 +104,7 @@
 
 ---
 
-## Day-Before Checklist
+## 📋 Day-Before Checklist
 
 - [ ] Review all `exam_traps.md` files (45 min)
 - [ ] Skim `GLOSSARY.md` (15 min)
@@ -115,7 +115,7 @@
 
 ---
 
-## During the Exam
+## 🎓 During the Exam
 
 1. **Read the code/graph first** — For white-box questions, examine the code or graph before reading the question
 2. **Calculate coverage step-by-step** — Write out the paths; don't try to do it mentally

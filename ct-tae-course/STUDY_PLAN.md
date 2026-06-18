@@ -1,12 +1,12 @@
-# CTAL-TAE Study Plan
+# 🗓️ CTAL-TAE Study Plan
 
 Two study schedules: a **standard 4-week plan** for thorough preparation, and an **accelerated 2-week plan** for those with strong automation experience.
 
 ---
 
-## Standard Plan — 4 Weeks
+## 🗓️ Standard Plan — 4 Weeks
 
-### Week 1: Foundations and Preparation
+### 🔷 Week 1: Foundations and Preparation
 
 | Day | Task | Time | Checkpoint |
 |-----|------|------|------------|
@@ -18,7 +18,7 @@ Two study schedules: a **standard 4-week plan** for thorough preparation, and an
 | Day 6 | Review Chapter 1 & 2 practice questions (re-do missed ones) | 1.5 hours | Solidify weak areas |
 | Day 7 | Rest or light review of glossary terms | 30 min | — |
 
-### Week 2: Architecture and Design
+### 🎨 Week 2: Architecture and Design
 
 | Day | Task | Time | Checkpoint |
 |-----|------|------|------------|
@@ -30,7 +30,7 @@ Two study schedules: a **standard 4-week plan** for thorough preparation, and an
 | Day 13 | Review all missed questions from Chapters 1-4 | 2 hours | Identify persistent weak areas |
 | Day 14 | Rest or review glossary | 30 min | — |
 
-### Week 3: Deployment, Reporting, and Maintenance
+### 📝 Week 3: Deployment, Reporting, and Maintenance
 
 | Day | Task | Time | Checkpoint |
 |-----|------|------|------------|
@@ -42,7 +42,7 @@ Two study schedules: a **standard 4-week plan** for thorough preparation, and an
 | Day 20 | Work through Case Study 2 | 1.5 hours | Framework selection |
 | Day 21 | Rest or light review | 30 min | — |
 
-### Week 4: Integration, Mock Exams, and Final Prep
+### 📝 Week 4: Integration, Mock Exams, and Final Prep
 
 | Day | Task | Time | Checkpoint |
 |-----|------|------|------------|
@@ -56,7 +56,7 @@ Two study schedules: a **standard 4-week plan** for thorough preparation, and an
 
 ---
 
-## Accelerated Plan — 2 Weeks
+## 🗓️ Accelerated Plan — 2 Weeks
 
 For experienced automation engineers with 2+ years of hands-on framework experience.
 
@@ -76,7 +76,7 @@ For experienced automation engineers with 2+ years of hands-on framework experie
 
 ---
 
-## Study Techniques That Work
+## 📚 Study Techniques That Work
 
 **1. Active Recall**
 After reading a section, close the file and write down what you remember. Check against the text.
@@ -95,7 +95,7 @@ After each chapter, explain the key concepts aloud (or to a rubber duck) as if t
 
 ---
 
-## Daily Time Commitments
+## 🤖 Daily Time Commitments
 
 | Plan | Daily Average | Total Hours |
 |------|--------------|-------------|
@@ -104,7 +104,7 @@ After each chapter, explain the key concepts aloud (or to a rubber duck) as if t
 
 ---
 
-## Exam Day Checklist
+## 🎓 Exam Day Checklist
 
 - [ ] 7+ hours of sleep the night before
 - [ ] Review `exam_traps.md` one final time
@@ -116,7 +116,7 @@ After each chapter, explain the key concepts aloud (or to a rubber duck) as if t
 
 ---
 
-## Recommended Score Targets
+## ⭐ Recommended Score Targets
 
 | Stage | Target |
 |-------|--------|

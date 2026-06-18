@@ -1,10 +1,10 @@
-# Chapter 2 — AI in the Software Development Lifecycle: Lessons
+# 📘 Chapter 2 — AI in the Software Development Lifecycle: Lessons
 
 ---
 
-## 2.1 How AI Changes the Traditional SDLC
+## 🔁 2.1 How AI Changes the Traditional SDLC
 
-### Traditional SDLC
+### 🔁 Traditional SDLC
 
 ```
 Requirements → Design → Code → Test → Deploy → Maintain
@@ -16,7 +16,7 @@ In traditional software:
 - Testing validates against specifications
 - Changes are primarily code changes
 
-### AI SDLC
+### 🔁 AI SDLC
 
 ```
 Problem Definition → Data Collection → Data Preparation →
@@ -31,7 +31,7 @@ In AI systems:
 - **Models degrade over time:** Need continuous monitoring and retraining
 - **No complete specification:** The "correct" behavior is often statistical, not deterministic
 
-### Key Differences
+### 🔷 Key Differences
 
 | Aspect | Traditional Software | AI-Based System |
 |--------|---------------------|----------------|
@@ -44,9 +44,9 @@ In AI systems:
 
 ---
 
-## 2.2 The AI Development Lifecycle
+## 🔁 2.2 The AI Development Lifecycle
 
-### Stage 1: Problem Definition
+### 🔷 Stage 1: Problem Definition
 
 **Activities:**
 - Define the business problem AI will solve
@@ -59,7 +59,7 @@ In AI systems:
 - Ensure success metrics are measurable
 - Assess feasibility of collecting sufficient quality data
 
-### Stage 2: Data Collection
+### 🗃️ Stage 2: Data Collection
 
 **Activities:**
 - Gather raw data from sources (databases, APIs, sensors, human labeling)
@@ -72,7 +72,7 @@ In AI systems:
 - Validate data sources and collection methods
 - Ensure data is legally and ethically obtained
 
-### Stage 3: Data Preparation
+### 🗃️ Stage 3: Data Preparation
 
 **Activities:**
 - Clean data (remove duplicates, handle missing values, correct errors)
@@ -88,7 +88,7 @@ In AI systems:
 - Ensure no data leakage between sets
 - Document all transformations for reproducibility
 
-### Stage 4: Model Training
+### 📐 Stage 4: Model Training
 
 **Activities:**
 - Select algorithm(s) appropriate for the problem
@@ -101,7 +101,7 @@ In AI systems:
 - Validate training convergence
 - Ensure reproducibility (set random seeds, document configurations)
 
-### Stage 5: Model Evaluation
+### 📐 Stage 5: Model Evaluation
 
 **Activities:**
 - Evaluate model on held-out test data
@@ -115,7 +115,7 @@ In AI systems:
 - Validate fairness across groups
 - Assess robustness to adversarial inputs
 
-### Stage 6: Deployment
+### 🔷 Stage 6: Deployment
 
 **Activities:**
 - Package model for production
@@ -129,7 +129,7 @@ In AI systems:
 - Test fallback mechanisms if model fails
 - Verify latency meets requirements
 
-### Stage 7: Monitoring and Maintenance
+### 🤖 Stage 7: Monitoring and Maintenance
 
 **Activities:**
 - Monitor model performance in production
@@ -145,16 +145,16 @@ In AI systems:
 
 ---
 
-## 2.3 The Role of Data in AI Development
+## 🤖 2.3 The Role of Data in AI Development
 
-### Data Is the Foundation
+### 🗃️ Data Is the Foundation
 
 **"Garbage in, garbage out"** applies strongly to AI:
 - High-quality data produces better models
 - Biased data produces biased models
 - Insufficient data produces underperforming models
 
-### Data Quality Dimensions
+### 💎 Data Quality Dimensions
 
 | Dimension | Description | Testing Approach |
 |-----------|-------------|-----------------|
@@ -165,7 +165,7 @@ In AI systems:
 | Relevance | Data is appropriate for the task | Validate feature selection |
 | Balance | Classes are appropriately represented | Check class distribution |
 
-### Data Labeling
+### 🗃️ Data Labeling
 
 **Supervised learning requires labeled data.** Labels can come from:
 - Human annotators (expensive, slow, but often necessary)
@@ -180,9 +180,9 @@ In AI systems:
 
 ---
 
-## 2.4 MLOps (Machine Learning Operations)
+## 🎯 2.4 MLOps (Machine Learning Operations)
 
-### What Is MLOps?
+### 🔷 What Is MLOps?
 
 MLOps applies DevOps principles to machine learning systems. It covers:
 - **Continuous Integration:** Automated testing of code AND data
@@ -190,7 +190,7 @@ MLOps applies DevOps principles to machine learning systems. It covers:
 - **Continuous Training:** Automated retraining when performance degrades
 - **Continuous Monitoring:** Tracking model performance in production
 
-### MLOps vs. DevOps
+### 🔧 MLOps vs. DevOps
 
 | Aspect | DevOps | MLOps |
 |--------|--------|-------|
@@ -200,7 +200,7 @@ MLOps applies DevOps principles to machine learning systems. It covers:
 | Monitoring | System health | Plus model accuracy, data drift |
 | Reproducibility | Build from code | Build from code + data + config |
 
-### CI/CD for ML
+### 🔷 CI/CD for ML
 
 **ML Pipeline in CI/CD:**
 
@@ -234,9 +234,9 @@ Monitor Performance
 
 ---
 
-## 2.5 Testing Challenges for AI Systems
+## 🤖 2.5 Testing Challenges for AI Systems
 
-### Challenge 1: Non-Determinism
+### 🔷 Challenge 1: Non-Determinism
 
 **Problem:** The same input may produce different outputs due to:
 - Random initialization in training
@@ -248,7 +248,7 @@ Monitor Performance
 - Set random seeds for reproducibility in unit tests
 - Use confidence intervals rather than exact values
 
-### Challenge 2: The Test Oracle Problem
+### 🔷 Challenge 2: The Test Oracle Problem
 
 **Problem:** For many AI tasks, there is no single "correct" answer:
 - Image classification: Multiple labels may be reasonable
@@ -261,7 +261,7 @@ Monitor Performance
 - A/B testing against baseline models
 - Human-in-the-loop validation
 
-### Challenge 3: Data Dependency
+### 🗃️ Challenge 3: Data Dependency
 
 **Problem:** Model behavior depends on training data:
 - Different training data → different model
@@ -273,7 +273,7 @@ Monitor Performance
 - Monitor data distribution in production
 - Test model on data from different sources or demographics
 
-### Challenge 4: Complexity and Opacity
+### 🔷 Challenge 4: Complexity and Opacity
 
 **Problem:** Complex models (deep neural networks) are "black boxes":
 - Hard to understand why a specific decision was made
@@ -286,7 +286,7 @@ Monitor Performance
 - Use simpler, interpretable models where possible
 - Test with diverse, representative data
 
-### Challenge 5: Ethical and Legal Requirements
+### 📑 Challenge 5: Ethical and Legal Requirements
 
 **Problem:** AI systems may have ethical and legal implications:
 - Privacy (training data may contain personal information)
@@ -302,9 +302,9 @@ Monitor Performance
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Identifying Data Leakage
+### 💡 Worked Example 1: Identifying Data Leakage
 
 **Scenario:** A team builds a credit risk model. They:
 1. Collect 5 years of loan data
@@ -318,7 +318,7 @@ Monitor Performance
 - This simulates real-world deployment where model sees future data
 - Realistic accuracy will be lower but more trustworthy
 
-### Worked Example 2: Choosing Metrics for an AI System
+### 💡 Worked Example 2: Choosing Metrics for an AI System
 
 **Scenario:** A hospital deploys an AI system to detect cancer in medical images.
 
@@ -337,7 +337,7 @@ Monitor Performance
 - Trade-off exists: increasing recall may decrease precision
 - The hospital should decide which error is more acceptable
 
-### Worked Example 3: MLOps Pipeline Design
+### 💡 Worked Example 3: MLOps Pipeline Design
 
 **Scenario:** A team needs to deploy and maintain a recommendation model.
 

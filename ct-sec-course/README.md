@@ -1,8 +1,8 @@
-# ISTQB CT-SEC — Security Testing
+# 🔒 ISTQB CT-SEC — Security Testing
 
 A comprehensive, self-contained course for the **ISTQB Certified Tester in Security Testing (CT-SEC)** certification.
 
-## Exam Facts
+## 🎓 Exam Facts
 
 | Parameter | Value |
 |-----------|-------|
@@ -15,7 +15,7 @@ A comprehensive, self-contained course for the **ISTQB Certified Tester in Secur
 | **Open/closed book** | Closed book |
 | **Prerequisite** | CTFL (Foundation Level) v4.0 |
 
-## Course Structure
+## ⭐ Course Structure
 
 | Chapter | Topic | Est. Weight |
 |---------|-------|-------------|
@@ -33,7 +33,7 @@ A comprehensive, self-contained course for the **ISTQB Certified Tester in Secur
 - `GLOSSARY.md` — Key terms and definitions
 - `PROGRESS_TRACKER.md` — Checklist for tracking completion
 
-## How to Use This Course
+## ⭐ How to Use This Course
 
 1. **Start with** `STUDY_PLAN.md` to choose a schedule
 2. **Work through chapters** in order — read `lessons.md`, study `exam_traps.md`, then attempt `practice_questions.md`
@@ -41,14 +41,14 @@ A comprehensive, self-contained course for the **ISTQB Certified Tester in Secur
 4. **Take mock exams** under timed conditions (closed book)
 5. **Review `EXAM_STRATEGY.md`** the day before your exam
 
-## Target Audience
+## ⭐ Target Audience
 
 - Software testers preparing for the ISTQB CT-SEC exam
 - QA engineers working on application security
 - Security analysts and penetration testers
 - Anyone needing structured, exam-focused security testing knowledge
 
-## Question Bank Summary
+## ❓ Question Bank Summary
 
 | Source | Questions |
 |--------|-----------|
@@ -59,7 +59,7 @@ A comprehensive, self-contained course for the **ISTQB Certified Tester in Secur
 
 All questions include full rationales.
 
-## Syllabus Coverage
+## 📊 Syllabus Coverage
 
 This course covers every learning objective in the ISTQB CT-SEC syllabus:
 
@@ -72,12 +72,12 @@ This course covers every learning objective in the ISTQB CT-SEC syllabus:
 - Input validation and secure coding
 - Security testing tools (Burp Suite, OWASP ZAP, SAST/DAST)
 
-## Prerequisites
+## ⭐ Prerequisites
 
 - ISTQB CTFL certification (or equivalent knowledge)
 - Basic understanding of web applications and networks
 - Familiarity with testing terminology and test process
 
-## Disclaimer
+## 🤖 Disclaimer
 
 This is an independent study resource. It is not affiliated with, endorsed by, or produced by ISTQB. The official syllabus and sample exams are available from [istqb.org](https://www.istqb.org).

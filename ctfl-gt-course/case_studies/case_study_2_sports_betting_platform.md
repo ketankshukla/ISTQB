@@ -1,10 +1,10 @@
-# Case Study 2 — Sports Betting Platform
+# 📂 Case Study 2 — Sports Betting Platform
 
-## Context
+## ⭐ Context
 
 You are a Test Lead at BetSure, a sports betting operator preparing to launch in the Netherlands market. Your team must test the entire platform for compliance with KSA (Kansspelautoriteit) requirements.
 
-## Platform Features
+## ⭐ Platform Features
 
 - Pre-match and in-play betting on football, tennis, basketball, and esports
 - Fixed-odds betting with cash-out feature
@@ -13,7 +13,7 @@ You are a Test Lead at BetSure, a sports betting operator preparing to launch in
 - CRUKS (national self-exclusion register) integration
 - Mobile app and responsive website
 
-## Regulatory Requirements (Netherlands)
+## 📑 Regulatory Requirements (Netherlands)
 
 - Mandatory CRUKS integration before first deposit
 - Strict KYC before any real-money play
@@ -24,7 +24,7 @@ You are a Test Lead at BetSure, a sports betting operator preparing to launch in
 
 ---
 
-## Task 1: KYC and Registration Test Plan
+## 🗓️ Task 1: KYC and Registration Test Plan
 
 Design test cases for the registration and KYC workflow.
 
@@ -53,7 +53,7 @@ Design test cases for the registration and KYC workflow.
 
 ---
 
-## Task 2: In-Play Betting Performance Test
+## ⚡ Task 2: In-Play Betting Performance Test
 
 Design a performance test for in-play betting during a major football match.
 
@@ -81,7 +81,7 @@ Design a performance test for in-play betting during a major football match.
 
 ---
 
-## Task 3: Responsible Gaming Compliance Test
+## ⭐ Task 3: Responsible Gaming Compliance Test
 
 Design tests for responsible gaming features.
 
@@ -114,7 +114,7 @@ Design tests for responsible gaming features.
 
 ---
 
-## Task 4: Identify Critical Bugs
+## 🐞 Task 4: Identify Critical Bugs
 
 Which bugs would be BLOCKERS for launch?
 

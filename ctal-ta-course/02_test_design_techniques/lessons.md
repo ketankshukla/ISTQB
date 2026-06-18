@@ -1,14 +1,14 @@
-# Chapter 2 — Test Design Techniques: Lessons
+# 📘 Chapter 2 — Test Design Techniques: Lessons
 
 ---
 
-## 2.1 Specification-Based Techniques
+## 🎯 2.1 Specification-Based Techniques
 
 Specification-based (black-box) techniques derive test cases from specifications, requirements, user stories, or other external descriptions of the software. You do not need to know the internal code structure.
 
 ---
 
-### 2.1.1 Equivalence Partitioning (EP)
+### ➗ 2.1.1 Equivalence Partitioning (EP)
 
 **What is Equivalence Partitioning?**
 
@@ -71,7 +71,7 @@ For the CTAL-TA exam, you typically need strong EP (all valid combinations) + on
 
 ---
 
-### 2.1.2 Boundary Value Analysis (BVA)
+### 📏 2.1.2 Boundary Value Analysis (BVA)
 
 **What is Boundary Value Analysis?**
 
@@ -139,7 +139,7 @@ Output boundary: $100 maximum discount
 
 ---
 
-### 2.1.3 Decision Table Testing
+### 🗂️ 2.1.3 Decision Table Testing
 
 **What is Decision Table Testing?**
 
@@ -235,7 +235,7 @@ When a condition does not affect the outcome for certain rules, use "-" (don't c
 
 ---
 
-### 2.1.4 State Transition Testing
+### 🔄 2.1.4 State Transition Testing
 
 **What is State Transition Testing?**
 
@@ -317,7 +317,7 @@ Valid transitions:
 
 ---
 
-### 2.1.5 Use Case Testing
+### 👤 2.1.5 Use Case Testing
 
 **What is Use Case Testing?**
 
@@ -394,7 +394,7 @@ Use case testing derives test cases from use cases, which describe interactions 
 
 ---
 
-### 2.1.6 Combinatorial Testing
+### 🔷 2.1.6 Combinatorial Testing
 
 **What is Combinatorial Testing?**
 
@@ -444,9 +444,9 @@ Pairwise combinations: ~9
 
 ---
 
-## 2.2 Defect-Based Techniques
+## 🎯 2.2 Defect-Based Techniques
 
-### 2.2.1 Error Guessing
+### 🔷 2.2.1 Error Guessing
 
 **What is Error Guessing?**
 
@@ -483,7 +483,7 @@ Error guessing is a technique where the tester uses experience and intuition to 
 
 ---
 
-### 2.2.2 Checklist-Based Testing
+### 📋 2.2.2 Checklist-Based Testing
 
 **What is Checklist-Based Testing?**
 
@@ -507,9 +507,9 @@ Checklist-based testing uses a predefined list of items to verify. It is more st
 
 ---
 
-## 2.3 Experience-Based Techniques
+## 🎯 2.3 Experience-Based Techniques
 
-### 2.3.1 Exploratory Testing
+### 🔷 2.3.1 Exploratory Testing
 
 **What is Exploratory Testing?**
 
@@ -558,9 +558,9 @@ SBTM structures exploratory testing into time-boxed sessions:
 
 ---
 
-## Worked Examples — Applying Chapter 2 Techniques
+## 💡 Worked Examples — Applying Chapter 2 Techniques
 
-### Worked Example 1: EP + BVA Combined
+### 💡 Worked Example 1: EP + BVA Combined
 
 **Specification:** "A temperature monitoring system accepts temperature readings in Celsius. Valid range is -50°C to +150°C. Readings are stored as integers."
 
@@ -592,7 +592,7 @@ SBTM structures exploratory testing into time-boxed sessions:
 
 ---
 
-### Worked Example 2: Decision Table
+### 💡 Worked Example 2: Decision Table
 
 **Specification:** "A loyalty program gives discounts based on membership level and purchase amount."
 - Bronze: No discount
@@ -625,7 +625,7 @@ SBTM structures exploratory testing into time-boxed sessions:
 
 ---
 
-### Worked Example 3: State Transition
+### 💡 Worked Example 3: State Transition
 
 **Specification:** "A document review system allows users to submit documents, which are then reviewed. Documents can be in states: Draft, Submitted, Under Review, Approved, Rejected."
 
@@ -658,7 +658,7 @@ TC5: Under Review → Rejected
 
 ---
 
-### Worked Example 4: Technique Selection
+### 💡 Worked Example 4: Technique Selection
 
 **Scenario:** A new e-commerce checkout system has the following requirements:
 1. "Users can check out as guests or registered users"

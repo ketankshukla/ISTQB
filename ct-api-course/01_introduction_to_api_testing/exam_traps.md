@@ -1,6 +1,6 @@
-# Chapter 1 — Introduction to API Testing: Exam Traps
+# 🪤 Chapter 1 — Introduction to API Testing: Exam Traps
 
-## Trap 1: Confusing Idempotent and Safe Methods
+## 🪤 Trap 1: Confusing Idempotent and Safe Methods
 
 **Trap:** Safe methods do not modify data. Idempotent methods produce the same result when called multiple times. A method can be idempotent but not safe (e.g., DELETE).
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Confusing 401 and 403 Status Codes
+## 🪤 Trap 2: Confusing 401 and 403 Status Codes
 
 **Trap:** 401 = not authenticated (who are you?). 403 = authenticated but not authorized (who are you? — yes, but you cannot do that).
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Thinking REST Is a Protocol
+## 🪤 Trap 3: Thinking REST Is a Protocol
 
 **Trap:** REST is an architectural style, not a protocol. SOAP is a protocol. REST uses HTTP as its protocol.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Thinking GraphQL Replaces REST Completely
+## 🪤 Trap 4: Thinking GraphQL Replaces REST Completely
 
 **Trap:** GraphQL solves specific problems (over-fetching, complex relationships) but is not always better than REST. They serve different use cases.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Using POST for Updates
+## 🪤 Trap 5: Using POST for Updates
 
 **Trap:** POST should create resources. PUT replaces resources. PATCH partially updates. Using POST for updates violates REST conventions.
 

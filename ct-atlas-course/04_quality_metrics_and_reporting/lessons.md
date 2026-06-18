@@ -1,10 +1,10 @@
-# Chapter 4 — Quality Metrics and Reporting: Lessons
+# 📘 Chapter 4 — Quality Metrics and Reporting: Lessons
 
 ---
 
-## 4.1 Leading vs Lagging Indicators
+## ⭐ 4.1 Leading vs Lagging Indicators
 
-### Leading Indicators
+### 🔷 Leading Indicators
 
 Predict future outcomes. Useful for early intervention.
 
@@ -16,7 +16,7 @@ Predict future outcomes. Useful for early intervention.
 | **Automation creation rate** | Future regression efficiency |
 | **Team satisfaction** | Future retention and productivity |
 
-### Lagging Indicators
+### 🔷 Lagging Indicators
 
 Show past results. Useful for assessing outcomes.
 
@@ -27,15 +27,15 @@ Show past results. Useful for assessing outcomes.
 | **Customer complaints** | Past user experience issues |
 | **Post-release patches** | Past release readiness |
 
-### Balance
+### 🔷 Balance
 
 Use both: leading indicators to steer, lagging indicators to validate.
 
 ---
 
-## 4.2 Key Metrics
+## 📊 4.2 Key Metrics
 
-### DORA Metrics (DevOps Research and Assessment)
+### 📊 DORA Metrics (DevOps Research and Assessment)
 
 | Metric | Description | Target |
 |--------|-------------|--------|
@@ -44,7 +44,7 @@ Use both: leading indicators to steer, lagging indicators to validate.
 | **Change Failure Rate** | Releases causing incidents | < 5% |
 | **Time to Recovery (MTTR)** | Incident to restoration | < 1 hour |
 
-### Test Metrics
+### 📊 Test Metrics
 
 | Metric | Formula | Target |
 |--------|---------|--------|
@@ -53,7 +53,7 @@ Use both: leading indicators to steer, lagging indicators to validate.
 | **Execution time** | Time to complete test suite | Trending down |
 | **Flaky test rate** | Flaky tests / Total tests | < 5% |
 
-### Defect Metrics
+### 🐞 Defect Metrics
 
 | Metric | Formula | Target |
 |--------|---------|--------|
@@ -64,16 +64,16 @@ Use both: leading indicators to steer, lagging indicators to validate.
 
 ---
 
-## 4.3 Dashboard Design
+## 🎨 4.3 Dashboard Design
 
-### Principles
+### 📜 Principles
 
 - **Audience-appropriate:** Executives see trends; teams see details
 - **Actionable:** Metrics trigger decisions
 - **Balanced:** Include speed, quality, and sustainability
 - **Timely:** Real-time or daily, not monthly
 
-### Dashboard Levels
+### 🪜 Dashboard Levels
 
 | Level | Audience | Content |
 |-------|----------|---------|
@@ -81,7 +81,7 @@ Use both: leading indicators to steer, lagging indicators to validate.
 | **Program** | ART leadership | Feature quality, integration health, PI progress |
 | **Portfolio** | Executives | DORA metrics, defect trends, customer satisfaction |
 
-### Example Team Dashboard
+### 💡 Example Team Dashboard
 
 ```
 Sprint Quality Dashboard
@@ -98,16 +98,16 @@ Sprint Quality Dashboard
 
 ---
 
-## 4.4 Using Metrics to Drive Improvement
+## 📊 4.4 Using Metrics to Drive Improvement
 
-### Feedback Loops
+### 🔷 Feedback Loops
 
 1. **Measure:** Collect data automatically where possible
 2. **Review:** Discuss in retrospectives and reviews
 3. **Act:** Make one change based on data
 4. **Re-measure:** Verify improvement
 
-### Example
+### 💡 Example
 
 | Observation | Hypothesis | Action | Result |
 |-------------|-----------|--------|--------|
@@ -116,9 +116,9 @@ Sprint Quality Dashboard
 
 ---
 
-## 4.5 Metric Anti-Patterns
+## 📊 4.5 Metric Anti-Patterns
 
-### Gaming
+### 🔷 Gaming
 
 | Metric | Gaming Behavior | Better Metric |
 |--------|-----------------|-------------|
@@ -127,21 +127,21 @@ Sprint Quality Dashboard
 | **Velocity** | Inflate story points | Consistency + quality measures |
 | **Bug count found** | Report trivial issues | Defect density + severity |
 
-### Vanity Metrics
+### 📊 Vanity Metrics
 
 - Metrics that look good but don't drive action
 - Example: "10,000 tests" without knowing pass rate or coverage
 
-### Surrogation
+### 🔷 Surrogation
 
 - Treating a metric as the goal instead of a proxy for the real goal
 - Example: Optimizing test coverage % instead of actually finding bugs
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Metrics Selection
+### 💡 Worked Example 1: Metrics Selection
 
 **Scenario:** Select metrics for a scaled agile program.
 
@@ -151,7 +151,7 @@ Sprint Quality Dashboard
 | **ART** | Integration test pass rate, feature quality score, PI objectives met | Program health |
 | **Executives** | DORA metrics, customer NPS, defect escape rate | Business outcomes |
 
-### Worked Example 2: Dashboard Design
+### 💡 Worked Example 2: Dashboard Design
 
 **Scenario:** Design a quality dashboard for a release train.
 
@@ -169,7 +169,7 @@ Sprint Quality Dashboard
 - Top flaky test: `test_checkout_flow` — investigate
 - Environment issue: Staging DB slow — escalated to ops
 
-### Worked Example 3: Metrics-Driven Improvement
+### 💡 Worked Example 3: Metrics-Driven Improvement
 
 **Scenario:** Reduce production incidents.
 

@@ -1,8 +1,8 @@
-# Chapter 3 — Performance Test Planning and Design: Practice Questions
+# ❓ Chapter 3 — Performance Test Planning and Design: Practice Questions
 
 ---
 
-### Q1 (PT-3.1, K2)
+### 🔷 Q1 (PT-3.1, K2)
 
 A performance test strategy should include all of the following EXCEPT:
 
@@ -13,7 +13,7 @@ D. Environment and schedule
 
 ---
 
-### Q2 (PT-3.2, K2)
+### 🔷 Q2 (PT-3.2, K2)
 
 A user profile in workload modeling describes:
 
@@ -24,7 +24,7 @@ D. The user's computer hardware
 
 ---
 
-### Q3 (PT-3.2, K2)
+### 🔷 Q3 (PT-3.2, K2)
 
 Think time in a performance test script represents:
 
@@ -35,7 +35,7 @@ D. The duration of the test
 
 ---
 
-### Q4 (PT-3.4, K2)
+### 🔷 Q4 (PT-3.4, K2)
 
 The 95th percentile (P95) response time means:
 
@@ -46,7 +46,7 @@ D. 95 users experienced this response time
 
 ---
 
-### Q5 (PT-3.4, K2)
+### 🔷 Q5 (PT-3.4, K2)
 
 Which metric is LEAST appropriate for a response time SLA?
 
@@ -57,7 +57,7 @@ D. 95th percentile response time
 
 ---
 
-### Q6 (PT-3.5, K2)
+### 🔷 Q6 (PT-3.5, K2)
 
 A baseline measurement is:
 
@@ -68,7 +68,7 @@ D. A competitor's performance result
 
 ---
 
-### Q7 (PT-3.2, K3)
+### 🔷 Q7 (PT-3.2, K3)
 
 A workload model specifies all of the following EXCEPT:
 
@@ -79,7 +79,7 @@ D. Arrival patterns (ramp-up, steady state)
 
 ---
 
-### Q8 (PT-3.4, K2)
+### 🔷 Q8 (PT-3.4, K2)
 
 Throughput is BEST measured as:
 
@@ -90,7 +90,7 @@ D. The percentage of CPU utilization
 
 ---
 
-### Q9 (PT-3.6, K2)
+### 🔷 Q9 (PT-3.6, K2)
 
 For performance testing, test data should be:
 
@@ -101,7 +101,7 @@ D. Always copied directly from production without modification
 
 ---
 
-### Q10 (PT-3.7, K2)
+### 🔷 Q10 (PT-3.7, K2)
 
 A scaled-down test environment:
 
@@ -112,7 +112,7 @@ D. Must be exactly half the size of production
 
 ---
 
-### Q11 (PT-3.2, K3)
+### 🔷 Q11 (PT-3.2, K3)
 
 A system has 500 concurrent users with an average think time of 20 seconds and average response time of 2 seconds. The approximate RPS is:
 
@@ -123,7 +123,7 @@ D. 23
 
 ---
 
-### Q12 (PT-3.4, K2)
+### 🔷 Q12 (PT-3.4, K2)
 
 An SLA states "95% of search requests must complete within 2 seconds." The appropriate KPI is:
 
@@ -134,7 +134,7 @@ D. Maximum response time < 2 seconds
 
 ---
 
-### Q13 (PT-3.5, K2)
+### 🔷 Q13 (PT-3.5, K2)
 
 Acceptance criteria for a performance test should be:
 
@@ -145,7 +145,7 @@ D. Based only on the tester's opinion
 
 ---
 
-### Q14 (PT-3.6, K2)
+### 🔷 Q14 (PT-3.6, K2)
 
 Which is a PRIMARY requirement for performance test data?
 
@@ -156,7 +156,7 @@ D. Must be manually entered for accuracy
 
 ---
 
-### Q15 (PT-3.1, K2)
+### 🔷 Q15 (PT-3.1, K2)
 
 A performance test objective might be to:
 
@@ -167,7 +167,7 @@ D. Validate the company logo placement
 
 ---
 
-### Q16 (PT-3.3, K2)
+### 🔷 Q16 (PT-3.3, K2)
 
 A critical performance scenario is one that:
 
@@ -178,7 +178,7 @@ D. Runs for the shortest duration
 
 ---
 
-### Q17 (PT-3.4, K2)
+### 🔷 Q17 (PT-3.4, K2)
 
 Error rate in performance testing is calculated as:
 
@@ -189,7 +189,7 @@ D. The average response time
 
 ---
 
-### Q18 (PT-3.7, K2)
+### 🔷 Q18 (PT-3.7, K2)
 
 Mocking external services in a performance test is appropriate when:
 
@@ -200,7 +200,7 @@ D. You have unlimited budget for external service calls
 
 ---
 
-### Q19 (PT-3.2, K2)
+### 🔷 Q19 (PT-3.2, K2)
 
 A stepped load profile is characterized by:
 
@@ -211,7 +211,7 @@ D. Only ramp-up with no steady state
 
 ---
 
-### Q20 (PT-3.1, K3)
+### 🔷 Q20 (PT-3.1, K3)
 
 A team is planning performance testing for a new release. The FIRST activity should be:
 
@@ -222,104 +222,104 @@ D. Buying performance testing tools
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: C**
 
 **Rationale:** Source code is not part of a test strategy.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** User profile = type of user + typical actions + timing.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** Think time = simulated user's time between actions.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** P95 = 95% of requests are FASTER than this value.
 
-### Q5
+### 🔷 Q5
 **Answer: C**
 
 **Rationale:** Minimum response time is irrelevant for SLA. Average is poor (skewed). Percentiles are best.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** Baseline = known conditions reference point.
 
-### Q7
+### 🔷 Q7
 **Answer: C**
 
 **Rationale:** Programming language is not part of a workload model.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** Throughput = transactions/requests per unit of time.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** Test data = realistic, varied, sufficient volume.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** Scaled-down = may need extrapolation, not always linear.
 
-### Q11
+### 🔷 Q11
 **Answer: D**
 
 **Rationale:** RPS ≈ users / (response + think) = 500 / 22 ≈ 23.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** "95% of requests" = P95 metric.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** Acceptance criteria must be defined before testing.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** Test data = realistic, varied, sufficient, no sensitive info.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** Performance objective = identify bottlenecks.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 
 **Rationale:** Critical scenario = high-frequency or business-critical journey.
 
-### Q17
+### 🔷 Q17
 **Answer: A**
 
 **Rationale:** Error rate = total errors / total requests.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 
 **Rationale:** Mock = when external service unavailable/expensive.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** Stepped = discrete steps held for periods.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 
 **Rationale:** First activity = define objectives, scope, acceptance criteria.

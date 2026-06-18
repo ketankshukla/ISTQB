@@ -1,8 +1,8 @@
-# CTAL-TA Progress Tracker
+# 📈 CTAL-TA Progress Tracker
 
 Use this checklist to track your progress through the course. Mark each item as you complete it.
 
-## Chapter 1 — Testing Process
+## ⭐ Chapter 1 — Testing Process
 
 - [ ] Read README.md
 - [ ] Read lessons.md (all sections)
@@ -11,7 +11,7 @@ Use this checklist to track your progress through the course. Mark each item as 
 - [ ] Review wrong answers
 - [ ] Chapter 1 confidence (1-5): ___
 
-## Chapter 2 — Test Design Techniques
+## 🎯 Chapter 2 — Test Design Techniques
 
 - [ ] Read README.md
 - [ ] Read lessons.md (all sections)
@@ -24,7 +24,7 @@ Use this checklist to track your progress through the course. Mark each item as 
 - [ ] Review wrong answers
 - [ ] Chapter 2 confidence (1-5): ___
 
-## Chapter 3 — Quality Characteristics
+## 💎 Chapter 3 — Quality Characteristics
 
 - [ ] Read README.md
 - [ ] Read lessons.md (all sections)
@@ -33,7 +33,7 @@ Use this checklist to track your progress through the course. Mark each item as 
 - [ ] Review wrong answers
 - [ ] Chapter 3 confidence (1-5): ___
 
-## Chapter 4 — Reviews
+## 🔎 Chapter 4 — Reviews
 
 - [ ] Read README.md
 - [ ] Read lessons.md (all sections)
@@ -42,7 +42,7 @@ Use this checklist to track your progress through the course. Mark each item as 
 - [ ] Review wrong answers
 - [ ] Chapter 4 confidence (1-5): ___
 
-## Chapter 5 — Test Tools and Automation
+## 🛠️ Chapter 5 — Test Tools and Automation
 
 - [ ] Read README.md
 - [ ] Read lessons.md (all sections)
@@ -51,13 +51,13 @@ Use this checklist to track your progress through the course. Mark each item as 
 - [ ] Review wrong answers
 - [ ] Chapter 5 confidence (1-5): ___
 
-## Case Studies
+## ⭐ Case Studies
 
 - [ ] Complete Case Study 1 (e-commerce test design)
 - [ ] Complete Case Study 2 (quality characteristics)
 - [ ] Complete Case Study 3 (reviews and tools)
 
-## Mock Exams
+## 📝 Mock Exams
 
 - [ ] Mock Exam 1 (score: ___/60, time: ___ min)
 - [ ] Review Mock Exam 1 weak areas
@@ -66,7 +66,7 @@ Use this checklist to track your progress through the course. Mark each item as 
 - [ ] Mock Exam 3 (score: ___/60, time: ___ min)
 - [ ] Review Mock Exam 3 weak areas
 
-## Final Preparation
+## ⭐ Final Preparation
 
 - [ ] Read EXAM_STRATEGY.md
 - [ ] Review all exam_traps files

@@ -1,11 +1,11 @@
-# CT-UT Mock Exam 2
+# 📝 CT-UT Mock Exam 2
 
 **Instructions:**
 - 40 questions, 60 minutes, single best answer, no negative marking
 
 ---
 
-### Q1
+### 🔷 Q1
 
 A test completion activity is:
 
@@ -16,7 +16,7 @@ D. Identifying test conditions
 
 ---
 
-### Q2
+### 🔷 Q2
 
 Which review type is led by the author of the document and may serve educational purposes?
 
@@ -27,7 +27,7 @@ D. Inspection
 
 ---
 
-### Q3
+### 🔷 Q3
 
 A test manager collects weekly metrics on test execution progress. This is an example of:
 
@@ -38,7 +38,7 @@ D. Test implementation
 
 ---
 
-### Q4
+### 🔷 Q4
 
 In an inspection, who is typically NOT present during the review meeting?
 
@@ -49,7 +49,7 @@ D. The scribe
 
 ---
 
-### Q5
+### 🔷 Q5
 
 Which test organization structure allows testers to maintain testing skills through a functional manager while meeting project needs?
 
@@ -60,7 +60,7 @@ D. Outsourced testing only
 
 ---
 
-### Q6
+### 🔷 Q6
 
 Which describes the PRIMARY benefit of independent testing?
 
@@ -71,7 +71,7 @@ D. Better domain knowledge of the system
 
 ---
 
-### Q7
+### 🔷 Q7
 
 A test manager is planning a project with well-understood requirements and a stable technology stack. Which estimation technique is MOST appropriate?
 
@@ -82,7 +82,7 @@ D. Random guessing
 
 ---
 
-### Q8
+### 🔷 Q8
 
 Which is a PRIMARY purpose of a test plan?
 
@@ -93,7 +93,7 @@ D. To document the results of all testing
 
 ---
 
-### Q9
+### 🔷 Q9
 
 A testing team is evaluating whether to purchase a commercial test tool or use an open-source alternative. The PRIMARY factor should be:
 
@@ -104,7 +104,7 @@ D. Whether competitors use the same tool
 
 ---
 
-### Q10
+### 🔷 Q10
 
 Which is a PRIMARY difference between severity and priority?
 
@@ -115,7 +115,7 @@ D. Severity is only used in agile projects
 
 ---
 
-### Q11
+### 🔷 Q11
 
 A testing team wants to verify that an RNG produces uniformly distributed numbers between 1 and 100. The best approach is:
 
@@ -126,7 +126,7 @@ D. Checking the source code comments
 
 ---
 
-### Q12
+### 🔷 Q12
 
 A team implements a keyword-driven automation framework. Business analysts can write tests using keywords while engineers maintain the implementation. This approach:
 
@@ -137,7 +137,7 @@ D. Is only suitable for unit testing
 
 ---
 
-### Q13
+### 🔷 Q13
 
 ROI for a test tool is calculated as:
 
@@ -148,7 +148,7 @@ D. Costs / Benefits
 
 ---
 
-### Q14
+### 🔷 Q14
 
 Which is a PRIMARY responsibility of a test manager?
 
@@ -159,7 +159,7 @@ D. Defining the user interface design
 
 ---
 
-### Q15
+### 🔷 Q15
 
 A test manager notices that the test execution schedule is falling behind due to environment unavailability. The MOST appropriate control action is:
 
@@ -170,7 +170,7 @@ D. Skip the remaining tests and report success
 
 ---
 
-### Q16
+### 🔷 Q16
 
 Which is a PRIMARY characteristic of an independent test organization?
 
@@ -181,7 +181,7 @@ D. Testers are embedded in development teams
 
 ---
 
-### Q17
+### 🔷 Q17
 
 A test manager is considering keeping testing integrated within the development team. The PRIMARY advantage is:
 
@@ -192,7 +192,7 @@ D. More formal processes
 
 ---
 
-### Q18
+### 🔷 Q18
 
 Which is a PRIMARY purpose of entry criteria?
 
@@ -203,7 +203,7 @@ D. To define the tools to be used
 
 ---
 
-### Q19
+### 🔷 Q19
 
 A test manager is calculating ROI for a test tool. The tool costs $30,000 and saves $20,000 per year. The payback period is approximately:
 
@@ -214,7 +214,7 @@ D. 4 years
 
 ---
 
-### Q20
+### 🔷 Q20
 
 Which is a PRIMARY consideration when planning regression testing?
 
@@ -225,7 +225,7 @@ D. Focusing only on cosmetic issues
 
 ---
 
-### Q21
+### 🔷 Q21
 
 State transition testing is MOST appropriate for APIs that:
 
@@ -236,7 +236,7 @@ D. Return static responses
 
 ---
 
-### Q22
+### 🔷 Q22
 
 An API has three parameters, each with 2 equivalence partitions (valid/invalid). Using weak robust testing, the minimum number of test cases is:
 
@@ -247,7 +247,7 @@ D. 8
 
 ---
 
-### Q23
+### 🔷 Q23
 
 A tester sends a request with an XSS payload in a text field and verifies the API sanitizes it. This is:
 
@@ -258,7 +258,7 @@ D. Load testing
 
 ---
 
-### Q24
+### 🔷 Q24
 
 Which is a valid test condition derived from an API specification?
 
@@ -269,7 +269,7 @@ D. "Users should like the API"
 
 ---
 
-### Q25
+### 🔷 Q25
 
 For a string parameter with length 5-20 characters, which test is a boundary value?
 
@@ -280,7 +280,7 @@ D. A string with special characters
 
 ---
 
-### Q26
+### 🔷 Q26
 
 A test creates an order, which reduces product inventory. Subsequent tests fail due to "out of stock." The BEST fix is:
 
@@ -291,7 +291,7 @@ D. Manually restock inventory before each test run
 
 ---
 
-### Q27
+### 🔷 Q27
 
 Which HTTP method should be used to partially update an existing resource?
 
@@ -302,7 +302,7 @@ D. DELETE
 
 ---
 
-### Q28
+### 🔷 Q28
 
 A "flaky" test is one that:
 
@@ -313,7 +313,7 @@ D. Tests an unimportant feature
 
 ---
 
-### Q29
+### 🔷 Q29
 
 Which framework type is MOST maintainable for a frequently changing web application?
 
@@ -324,7 +324,7 @@ D. Hard-coded XPath in every test
 
 ---
 
-### Q30
+### 🔷 Q30
 
 A TAE fixes a test that fails because the expected result was incorrectly coded. This is:
 
@@ -335,7 +335,7 @@ D. Test retirement
 
 ---
 
-### Q31
+### 🔷 Q31
 
 A team calculates ROI using only initial development costs. The calculated ROI will be:
 
@@ -346,7 +346,7 @@ D. Only valid for the first year
 
 ---
 
-### Q32
+### 🔷 Q32
 
 A dashboard showing ROI trends and automation coverage progress is MOST appropriate for:
 
@@ -357,7 +357,7 @@ D. Business analysts writing requirements
 
 ---
 
-### Q33
+### 🔷 Q33
 
 Big-bang deployment is MOST appropriate when:
 
@@ -368,7 +368,7 @@ D. Management wants minimal risk
 
 ---
 
-### Q34
+### 🔷 Q34
 
 A team has 90% code coverage but frequently ships defects in production. The MOST likely explanation is:
 
@@ -379,7 +379,7 @@ D. Code coverage is the wrong metric to track
 
 ---
 
-### Q35
+### 🔷 Q35
 
 Which metric would BEST indicate that automated tests are finding real defects?
 
@@ -390,7 +390,7 @@ D. Large number of test cases
 
 ---
 
-### Q36
+### 🔷 Q36
 
 A team's TAS uses a commercial tool that the vendor is discontinuing. The BEST action is:
 
@@ -401,7 +401,7 @@ D. Buy 10 years of extra licenses
 
 ---
 
-### Q37
+### 🔷 Q37
 
 A team should allocate approximately what percentage of automation capacity to maintenance?
 
@@ -412,7 +412,7 @@ D. 100%
 
 ---
 
-### Q38
+### 🔷 Q38
 
 In a CI pipeline, the "fail fast" principle means:
 
@@ -423,7 +423,7 @@ D. Stop the pipeline only after all tests complete
 
 ---
 
-### Q39
+### 🔷 Q39
 
 A team automates without clear scope definition. The MOST likely result is:
 
@@ -434,7 +434,7 @@ D. Zero maintenance costs
 
 ---
 
-### Q40
+### 🔷 Q40
 
 The PRIMARY skill a Test Automation Engineer must have is:
 
@@ -445,4 +445,4 @@ D. Graphic design skills
 
 ---
 
-## End of Mock Exam 2
+## 📝 End of Mock Exam 2

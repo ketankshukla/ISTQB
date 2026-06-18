@@ -1,8 +1,8 @@
-# Chapter 3 — Regulatory Compliance and Risk Management: Practice Questions
+# ❓ Chapter 3 — Regulatory Compliance and Risk Management: Practice Questions
 
 ---
 
-### Q1 (FT-3.1, K1)
+### 🔷 Q1 (FT-3.1, K1)
 
 SOX Section 404 primarily requires:
 
@@ -13,7 +13,7 @@ D. Anti-money laundering monitoring
 
 ---
 
-### Q2 (FT-3.1, K2)
+### 🔷 Q2 (FT-3.1, K2)
 
 MiFID II requires investment firms to report trades with timestamps accurate to:
 
@@ -24,7 +24,7 @@ D. Minutes
 
 ---
 
-### Q3 (FT-3.2, K2)
+### 🔷 Q3 (FT-3.2, K2)
 
 Enhanced Due Diligence (EDD) is required for:
 
@@ -35,7 +35,7 @@ D. Only retail customers
 
 ---
 
-### Q4 (FT-3.3, K1)
+### 🔷 Q4 (FT-3.3, K1)
 
 PCI-DSS applies to systems that:
 
@@ -46,7 +46,7 @@ D. Store medical records
 
 ---
 
-### Q5 (FT-3.4, K2)
+### 🔷 Q5 (FT-3.4, K2)
 
 Value-at-Risk (VaR) is a measure of:
 
@@ -57,7 +57,7 @@ D. Liquidity risk
 
 ---
 
-### Q6 (FT-3.1, K2)
+### 🔷 Q6 (FT-3.1, K2)
 
 Basel III requires banks to maintain:
 
@@ -68,7 +68,7 @@ D. Only customer satisfaction scores
 
 ---
 
-### Q7 (FT-3.2, K2)
+### 🔷 Q7 (FT-3.2, K2)
 
 A Suspicious Activity Report (SAR) is filed under:
 
@@ -79,7 +79,7 @@ D. GDPR requirements
 
 ---
 
-### Q8 (FT-3.3, K2)
+### 🔷 Q8 (FT-3.3, K2)
 
 Which PCI-DSS requirement restricts access to cardholder data by business need-to-know?
 
@@ -90,7 +90,7 @@ D. Requirement 12
 
 ---
 
-### Q9 (FT-3.4, K2)
+### 🔷 Q9 (FT-3.4, K2)
 
 Stress testing is primarily used to assess:
 
@@ -101,7 +101,7 @@ D. Employee productivity
 
 ---
 
-### Q10 (FT-3.1, K1)
+### 🔷 Q10 (FT-3.1, K1)
 
 EMIR primarily regulates:
 
@@ -112,7 +112,7 @@ D. Retail banking
 
 ---
 
-### Q11 (FT-3.2, K2)
+### 🔷 Q11 (FT-3.2, K2)
 
 The Customer Identification Program (CIP) is a component of:
 
@@ -123,7 +123,7 @@ D. PCI-DSS
 
 ---
 
-### Q12 (FT-3.3, K2)
+### 🔷 Q12 (FT-3.3, K2)
 
 Which is a design effectiveness test for a SOX control?
 
@@ -134,7 +134,7 @@ D. Checking user interface colors
 
 ---
 
-### Q13 (FT-3.4, K2)
+### 🔷 Q13 (FT-3.4, K2)
 
 Liquidity risk is the risk that:
 
@@ -145,7 +145,7 @@ D. A cyberattack breaches customer data
 
 ---
 
-### Q14 (FT-3.1, K2)
+### 🔷 Q14 (FT-3.1, K2)
 
 Which regulation requires best execution for investment firms?
 
@@ -156,7 +156,7 @@ D. EMIR
 
 ---
 
-### Q15 (FT-3.2, K2)
+### 🔷 Q15 (FT-3.2, K2)
 
 A customer deposits $7,000 in the morning and $6,000 in the afternoon. Under US AML rules, the bank should:
 
@@ -167,7 +167,7 @@ D. Close the account
 
 ---
 
-### Q16 (FT-3.3, K1)
+### 🔷 Q16 (FT-3.3, K1)
 
 Segregation of duties in SOX means:
 
@@ -178,7 +178,7 @@ D. Splitting database tables across servers
 
 ---
 
-### Q17 (FT-3.4, K2)
+### 🔷 Q17 (FT-3.4, K2)
 
 Counterparty credit risk is assessed under:
 
@@ -189,7 +189,7 @@ D. GDPR
 
 ---
 
-### Q18 (FT-3.1, K2)
+### 🔷 Q18 (FT-3.1, K2)
 
 Real-time disclosure of material changes is required by:
 
@@ -200,7 +200,7 @@ D. PCI-DSS Requirement 11
 
 ---
 
-### Q19 (FT-3.2, K2)
+### 🔷 Q19 (FT-3.2, K2)
 
 A politically exposed person (PEP) is identified during:
 
@@ -211,7 +211,7 @@ D. Tax reporting
 
 ---
 
-### Q20 (FT-3.3, K3)
+### 🔷 Q20 (FT-3.3, K3)
 
 A tester validates that journal entries cannot be posted without supervisor approval. This tests:
 
@@ -222,84 +222,84 @@ D. MiFID II best execution
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** SOX Section 404 requires internal controls over financial reporting.
 
-### Q2
+### 🔷 Q2
 **Answer: C**
 **Rationale:** MiFID II requires microsecond timestamp precision for trade reporting.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** EDD is required for high-risk customers, including PEPs.
 
-### Q4
+### 🔷 Q4
 **Answer: A**
 **Rationale:** PCI-DSS governs payment card data security.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** VaR measures potential loss from market price movements.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Basel III covers capital adequacy, liquidity, and leverage requirements.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** SARs are filed as part of AML monitoring requirements.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** PCI-DSS Requirement 7 restricts access by need-to-know.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** Stress testing evaluates system behavior under extreme conditions.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** EMIR regulates OTC derivatives in the EU.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** CIP is the first step in KYC identity verification.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Design effectiveness = control addresses the identified risk.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Liquidity risk = inability to meet short-term obligations.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** MiFID II mandates best execution requirements.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** US AML rules aggregate cash deposits within 24 hours for the $10,000 threshold.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Segregation of duties means no single person can both initiate and approve.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Counterparty credit risk is a Basel III calculation requirement.
 
-### Q18
+### 🔷 Q18
 **Answer: A**
 **Rationale:** SOX Section 409 requires real-time disclosure of material changes.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** PEP screening is performed during KYC at customer onboarding.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** Supervisor approval for journal entries tests SOX segregation of duties.

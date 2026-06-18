@@ -1,10 +1,10 @@
-# Chapter 5 — Performance and Scalability Testing for Big Data: Lessons
+# 📘 Chapter 5 — Performance and Scalability Testing for Big Data: Lessons
 
 ---
 
-## 5.1 Performance Testing Objectives for Big Data
+## 🎯 5.1 Performance Testing Objectives for Big Data
 
-### Why Performance Test Big Data?
+### ⚡ Why Performance Test Big Data?
 
 Big Data systems handle massive volumes. Performance testing ensures:
 - **SLA compliance:** Data is available within required timeframes
@@ -13,7 +13,7 @@ Big Data systems handle massive volumes. Performance testing ensures:
 - **User satisfaction:** Queries and reports respond quickly
 - **Pipeline reliability:** Batch jobs complete before next scheduled run
 
-### Key Performance Objectives
+### 🎯 Key Performance Objectives
 
 **Ingestion Performance:**
 - How fast can data be ingested?
@@ -37,9 +37,9 @@ Big Data systems handle massive volumes. Performance testing ensures:
 
 ---
 
-## 5.2 Throughput and Latency
+## ⭐ 5.2 Throughput and Latency
 
-### Throughput
+### 🔷 Throughput
 
 **Definition:** The amount of data processed per unit of time.
 
@@ -61,7 +61,7 @@ Throughput = 10,000,000 records / 7,200 seconds = 1,389 records/second
 3. Compare against SLA (e.g., must process daily load within 4-hour window)
 4. Test at expected and peak volumes
 
-### Latency
+### 🔷 Latency
 
 **Definition:** The delay between an event occurring and the data being available for use.
 
@@ -90,13 +90,13 @@ SLA: < 5 seconds → PASS
 
 ---
 
-## 5.3 Benchmarks for Big Data
+## 🗃️ 5.3 Benchmarks for Big Data
 
-### Why Benchmark?
+### 🔷 Why Benchmark?
 
 Benchmarks provide standardized ways to measure and compare Big Data system performance.
 
-### Common Big Data Benchmarks
+### 🗃️ Common Big Data Benchmarks
 
 **TPC-DS (Decision Support):**
 - Industry-standard benchmark for data warehouse systems
@@ -118,7 +118,7 @@ Benchmarks provide standardized ways to measure and compare Big Data system perf
 - Tests read/write throughput and latency
 - Workloads: A (update heavy), B (read heavy), C (read only), etc.
 
-### Running a Benchmark Test
+### 🔷 Running a Benchmark Test
 
 **Steps:**
 1. **Define baseline:** Run benchmark on reference configuration
@@ -141,9 +141,9 @@ Benchmarks provide standardized ways to measure and compare Big Data system perf
 
 ---
 
-## 5.4 Bottleneck Detection
+## ⭐ 5.4 Bottleneck Detection
 
-### Common Big Data Bottlenecks
+### 🗃️ Common Big Data Bottlenecks
 
 **CPU Bottleneck:**
 - Symptom: High CPU usage, long processing times
@@ -169,7 +169,7 @@ Benchmarks provide standardized ways to measure and compare Big Data system perf
 - Detection: Monitor heap usage, GC frequency, swap usage
 - Mitigation: Increase memory, optimize data structures, spill to disk
 
-### Bottleneck Analysis Process
+### 🔬 Bottleneck Analysis Process
 
 ```
 1. Monitor all resources (CPU, memory, disk, network) across all nodes
@@ -182,9 +182,9 @@ Benchmarks provide standardized ways to measure and compare Big Data system perf
 
 ---
 
-## 5.5 Data Skew and Hot Spots
+## 🗃️ 5.5 Data Skew and Hot Spots
 
-### What is Data Skew?
+### 🗃️ What is Data Skew?
 
 Data skew occurs when data is unevenly distributed across partitions or nodes, causing some nodes to process much more data than others.
 
@@ -202,7 +202,7 @@ Word count on social media data:
 - The "t" reducer takes 99% of the job time
 ```
 
-### Detecting Skew
+### 🔷 Detecting Skew
 
 **Spark UI:**
 - Look for tasks with much larger input sizes or longer durations
@@ -221,7 +221,7 @@ Task 3: 8,000 records, 12 seconds
 Task 4: 1,500,000 records, 8 minutes  ← SKEW!
 ```
 
-### Mitigating Skew
+### 🔷 Mitigating Skew
 
 **Salting:**
 - Add random prefix to skewed keys to distribute them across partitions
@@ -243,9 +243,9 @@ Task 4: 1,500,000 records, 8 minutes  ← SKEW!
 
 ---
 
-## 5.6 Scalability Testing
+## ⭐ 5.6 Scalability Testing
 
-### Horizontal Scaling (Scale Out)
+### 🔷 Horizontal Scaling (Scale Out)
 
 **Definition:** Adding more machines to distribute the load.
 
@@ -267,7 +267,7 @@ Task 4: 1,500,000 records, 8 minutes  ← SKEW!
 
 **Analysis:** Diminishing returns as overhead (coordination, shuffle, network) increases.
 
-### Vertical Scaling (Scale Up)
+### 🔷 Vertical Scaling (Scale Up)
 
 **Definition:** Adding more power (CPU, RAM) to existing machines.
 
@@ -281,7 +281,7 @@ Task 4: 1,500,000 records, 8 minutes  ← SKEW!
 - Single point of failure
 - Physical limits (can't add infinite RAM to one machine)
 
-### Testing Scalability
+### 🔷 Testing Scalability
 
 **Questions to answer:**
 1. If data volume doubles, does processing time double?
@@ -296,9 +296,9 @@ Task 4: 1,500,000 records, 8 minutes  ← SKEW!
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Throughput SLA Testing
+### 💡 Worked Example 1: Throughput SLA Testing
 
 **Scenario:** A daily ETL job must process 500GB within a 6-hour window.
 
@@ -323,7 +323,7 @@ Result: FAIL — need larger cluster or optimization
 
 **Recommendation:** Increase to 15 nodes or optimize transformation logic.
 
-### Worked Example 2: Bottleneck Identification
+### 💡 Worked Example 2: Bottleneck Identification
 
 **Scenario:** A Spark job takes 3 hours instead of the expected 1 hour.
 
@@ -361,7 +361,7 @@ result = partial.map(lambda (k, v): (k.split("_")[0], v)).reduceByKey(lambda a, 
 
 **Re-test:** Job completes in 55 minutes.
 
-### Worked Example 3: Scalability Test Design
+### 💡 Worked Example 3: Scalability Test Design
 
 **Scenario:** A recommendation engine processes user activity.
 

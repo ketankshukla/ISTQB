@@ -1,10 +1,10 @@
-# CT-BD Mock Exam 3
+# 📝 CT-BD Mock Exam 3
 
 **Instructions:** 40 questions, 60 minutes, single best answer.
 
 ---
 
-### Q1-Q10
+### 🔷 Q1-Q10
 
 1. The "V" for speed of data generation is: A) Volume B) Velocity C) Veracity D) Value — **Velocity**
 2. Relational tables are: A) Unstructured B) Semi-structured C) Structured D) Binary — **Structured**
@@ -19,7 +19,7 @@
 
 ---
 
-### Q11-Q20
+### 🔷 Q11-Q20
 
 11. Hardware before software tuning: A) Always works B) May help but software first C) Only option D) Free — **May help but software first**
 12. Best SLA metric: A) Average B) P95 C) Minimum D) Total requests — **P95**
@@ -34,7 +34,7 @@
 
 ---
 
-### Q21-Q30
+### 🔷 Q21-Q30
 
 21. 0.05% invalid vs 0.1% threshold: A) Reject all B) Route errors, accept, report C) Ignore D) Stop — **Route errors, accept, report**
 22. Software tuning: A) Add RAM B) Add index C) More bandwidth D) Faster CPU — **Add index**
@@ -49,7 +49,7 @@
 
 ---
 
-### Q31-Q40
+### 🔷 Q31-Q40
 
 31. Swap increasing: A) Efficient B) Memory pressure C) Fast disk D) Network — **Memory pressure**
 32. Environment stability check: A) Formal requirement B) Prevents invalid results C) Longer test D) Slower env — **Prevents invalid results**
@@ -64,4 +64,4 @@
 
 ---
 
-## End of Mock Exam 3
+## 📝 End of Mock Exam 3

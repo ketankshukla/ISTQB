@@ -1,10 +1,10 @@
-# Case Study 3 — BDD and CI/CD Implementation
+# 📂 Case Study 3 — BDD and CI/CD Implementation
 
-## Context
+## ⭐ Context
 
 You are the Test Lead for ShopStream, an e-commerce company rebuilding its checkout system. The team of 4 developers and 1 tester is adopting BDD and CI/CD for the first time.
 
-## Current State
+## 🔄 Current State
 
 - No test automation — all testing is manual.
 - Releases happen monthly with a 2-week manual regression period.
@@ -12,7 +12,7 @@ You are the Test Lead for ShopStream, an e-commerce company rebuilding its check
 - The last release had 23 defects found by customers in the first week.
 - Developers write code for 3 weeks, then "throw it over the wall" to the tester.
 
-## Goals
+## ⭐ Goals
 
 1. Implement BDD with Cucumber for acceptance testing.
 2. Implement CI/CD with automated build and test pipeline.
@@ -21,7 +21,7 @@ You are the Test Lead for ShopStream, an e-commerce company rebuilding its check
 
 ---
 
-## Task 1: BDD Implementation Plan
+## 🗓️ Task 1: BDD Implementation Plan
 
 Design a step-by-step plan for introducing BDD to the team.
 
@@ -81,7 +81,7 @@ Feature: Promo Code Application
 
 ---
 
-## Task 2: CI/CD Pipeline Design
+## 🎨 Task 2: CI/CD Pipeline Design
 
 Design a CI/CD pipeline for the team.
 
@@ -146,7 +146,7 @@ Commit → Build → Unit Tests → Integration Tests → BDD Tests → Code Ana
 
 ---
 
-## Task 3: Measuring Success
+## ⭐ Task 3: Measuring Success
 
 Define metrics to track the effectiveness of BDD and CI/CD adoption.
 
@@ -175,7 +175,7 @@ Define metrics to track the effectiveness of BDD and CI/CD adoption.
 
 ---
 
-## Task 4: Addressing Common Challenges
+## ⭐ Task 4: Addressing Common Challenges
 
 For each challenge, propose a mitigation strategy.
 

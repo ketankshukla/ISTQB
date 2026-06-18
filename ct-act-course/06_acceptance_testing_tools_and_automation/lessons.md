@@ -1,14 +1,14 @@
-# Chapter 6 — Acceptance Testing Tools and Automation: Lessons
+# 📘 Chapter 6 — Acceptance Testing Tools and Automation: Lessons
 
 ---
 
-## 6.1 BDD Tools
+## 🛠️ 6.1 BDD Tools
 
-### What are BDD Tools?
+### 🛠️ What are BDD Tools?
 
 BDD tools enable the creation of automated acceptance tests from business-readable specifications written in Given-When-Then format.
 
-### Popular BDD Tools
+### 🛠️ Popular BDD Tools
 
 | Tool | Language | Platform | Notes |
 |------|----------|----------|-------|
@@ -18,7 +18,7 @@ BDD tools enable the creation of automated acceptance tests from business-readab
 | **JBehave** | Java | Cross-platform | Java-focused BDD |
 | **Cucumber.js** | JavaScript | Cross-platform | For Node.js applications |
 
-### How BDD Tools Work
+### 🛠️ How BDD Tools Work
 
 **1. Write feature files (business-readable):**
 ```gherkin
@@ -55,7 +55,7 @@ public void verifyTotal(double expected) {
 - Executes and reports results
 - Generates business-readable reports
 
-### Benefits of BDD Tools
+### 🛠️ Benefits of BDD Tools
 
 1. **Shared language:** Business and technical teams use the same specifications
 2. **Living documentation:** Tests document behavior in business-readable form
@@ -64,13 +64,13 @@ public void verifyTotal(double expected) {
 
 ---
 
-## 6.2 Test Management Tools
+## 🛠️ 6.2 Test Management Tools
 
-### Purpose
+### 🔷 Purpose
 
 Test management tools help plan, execute, and track acceptance testing activities.
 
-### Popular Test Management Tools
+### 🛠️ Popular Test Management Tools
 
 | Tool | Type | Integration | Best For |
 |------|------|-------------|----------|
@@ -80,7 +80,7 @@ Test management tools help plan, execute, and track acceptance testing activitie
 | **PractiTest** | Commercial | Jira, GitHub, Jenkins | Flexible SaaS solution |
 | **TestLink** | Open-source | Limited | Budget-conscious teams |
 
-### Test Management Functions
+### 🗂️ Test Management Functions
 
 **Test Planning:**
 - Create test plans for releases/sprints
@@ -105,9 +105,9 @@ Test management tools help plan, execute, and track acceptance testing activitie
 
 ---
 
-## 6.3 Requirement and Traceability Tools
+## 🛠️ 6.3 Requirement and Traceability Tools
 
-### Requirement Management Tools
+### 🛠️ Requirement Management Tools
 
 | Tool | Type | Best For |
 |------|------|----------|
@@ -117,7 +117,7 @@ Test management tools help plan, execute, and track acceptance testing activitie
 | **Visure** | Commercial | Safety-critical applications |
 | **GitHub/GitLab Issues** | Built-in | Agile teams, smaller projects |
 
-### Traceability Matrix
+### 🔗 Traceability Matrix
 
 A traceability matrix maps requirements through tests to defects.
 
@@ -137,9 +137,9 @@ A traceability matrix maps requirements through tests to defects.
 
 ---
 
-## 6.4 Test Data and Environment Management
+## 🗂️ 6.4 Test Data and Environment Management
 
-### Test Data Management
+### 🗂️ Test Data Management
 
 **Challenges in acceptance testing:**
 - Need realistic data (but may contain PII)
@@ -167,7 +167,7 @@ A traceability matrix maps requirements through tests to defects.
 - Service virtualization provides test data via APIs
 - Reduces dependency on production databases
 
-### Test Environment Virtualization
+### 🔷 Test Environment Virtualization
 
 **Service virtualization:**
 - Simulate unavailable or unstable dependencies
@@ -186,9 +186,9 @@ A traceability matrix maps requirements through tests to defects.
 
 ---
 
-## 6.5 Collaboration Tools
+## 🛠️ 6.5 Collaboration Tools
 
-### Collaboration for Acceptance Testing
+### 🤝 Collaboration for Acceptance Testing
 
 **Communication tools:**
 - Slack, Microsoft Teams — quick questions, updates
@@ -210,9 +210,9 @@ A traceability matrix maps requirements through tests to defects.
 
 ---
 
-## 6.6 CI/CD Integration
+## 🔗 6.6 CI/CD Integration
 
-### Acceptance Testing in CI/CD
+### 🤝 Acceptance Testing in CI/CD
 
 **Benefits:**
 - Automated acceptance tests run with every build
@@ -248,9 +248,9 @@ acceptance-test:
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: BDD Tool Implementation
+### 💡 Worked Example 1: BDD Tool Implementation
 
 **Scenario:** A team adopts Cucumber for acceptance testing of an e-commerce site.
 
@@ -301,7 +301,7 @@ public class CheckoutSteps {
 - Regression suite runs automatically in CI
 - Traceability: feature → requirements → test results
 
-### Worked Example 2: Test Management Tool Selection
+### 💡 Worked Example 2: Test Management Tool Selection
 
 **Scenario:** Select a test management tool for a regulated medical device company.
 
@@ -319,7 +319,7 @@ public class CheckoutSteps {
 - Native Jira integration
 - Strong traceability for FDA submissions
 
-### Worked Example 3: Environment Strategy
+### 💡 Worked Example 3: Environment Strategy
 
 **Scenario:** A bank needs acceptance test environments for a new mobile banking app.
 

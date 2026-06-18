@@ -1,6 +1,6 @@
-# Chapter 6 — Quality Metrics and Reporting: Exam Traps
+# 🪤 Chapter 6 — Quality Metrics and Reporting: Exam Traps
 
-## Trap 1: 100% Coverage Means No Bugs
+## 📊 Trap 1: 100% Coverage Means No Bugs
 
 **Trap:** Coverage measures what was executed, not correctness of assertions or completeness of scenarios.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Reporting Only Pass Rate
+## 🪤 Trap 2: Reporting Only Pass Rate
 
 **Trap:** Pass rate without coverage context can be misleading. 100% pass with 50% coverage is concerning.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Skipping Coverage for "Generated Code"
+## 📊 Trap 3: Skipping Coverage for "Generated Code"
 
 **Trap:** Generated code runs in the vehicle and must be tested and covered like hand-written code.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Treating Defect Density as the Only Quality Measure
+## 🪤 Trap 4: Treating Defect Density as the Only Quality Measure
 
 **Trap:** High defect density in low-ASIL code may be less concerning than one defect in ASIL D code.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Preparing Audit Evidence Only Before the Audit
+## 🪤 Trap 5: Preparing Audit Evidence Only Before the Audit
 
 **Trap:** Audit evidence must be maintained continuously, not created just before the audit.
 

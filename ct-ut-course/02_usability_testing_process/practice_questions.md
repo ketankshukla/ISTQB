@@ -1,8 +1,8 @@
-# Chapter 2 — Usability Testing Process: Practice Questions
+# ❓ Chapter 2 — Usability Testing Process: Practice Questions
 
 ---
 
-### Q1 (UT-2.1, K2)
+### 🔷 Q1 (UT-2.1, K2)
 
 Formative usability testing is conducted:
 
@@ -13,7 +13,7 @@ D. By end users in production
 
 ---
 
-### Q2 (UT-2.1, K2)
+### 🔷 Q2 (UT-2.1, K2)
 
 Summative usability testing is PRIMARILY used to:
 
@@ -24,7 +24,7 @@ D. Replace user research
 
 ---
 
-### Q3 (UT-2.2, K2)
+### 🔷 Q3 (UT-2.2, K2)
 
 According to Nielsen's research, approximately how many users are needed to find 85% of usability problems in formative testing?
 
@@ -35,7 +35,7 @@ D. 100
 
 ---
 
-### Q4 (UT-2.3, K2)
+### 🔷 Q4 (UT-2.3, K2)
 
 Pilot testing is conducted to:
 
@@ -46,7 +46,7 @@ D. Recruit participants
 
 ---
 
-### Q5 (UT-2.4, K2)
+### 🔷 Q5 (UT-2.4, K2)
 
 The think-aloud protocol requires participants to:
 
@@ -57,7 +57,7 @@ D. Work in complete silence
 
 ---
 
-### Q6 (UT-2.4, K3)
+### 🔷 Q6 (UT-2.4, K3)
 
 During a moderated usability test, a moderator notices a participant hesitating on a screen. The BEST question to ask is:
 
@@ -68,7 +68,7 @@ D. "Why don't you click the top button?"
 
 ---
 
-### Q7 (UT-2.4, K2)
+### 🔷 Q7 (UT-2.4, K2)
 
 Informed consent in usability testing means:
 
@@ -79,7 +79,7 @@ D. Participants are required to complete all tasks
 
 ---
 
-### Q8 (UT-2.5, K2)
+### 🔷 Q8 (UT-2.5, K2)
 
 A usability issue that prevents a user from completing a critical task should be rated as:
 
@@ -90,7 +90,7 @@ D. Critical
 
 ---
 
-### Q9 (UT-2.5, K2)
+### 🔷 Q9 (UT-2.5, K2)
 
 The System Usability Scale (SUS) produces a score between:
 
@@ -101,7 +101,7 @@ D. 1 and 10
 
 ---
 
-### Q10 (UT-2.6, K2)
+### 🔷 Q10 (UT-2.6, K2)
 
 A usability test report should include all of the following EXCEPT:
 
@@ -112,7 +112,7 @@ D. Recommendations
 
 ---
 
-### Q11 (UT-2.2, K3)
+### 🔷 Q11 (UT-2.2, K3)
 
 A product team wants to measure whether the new design improves checkout completion rate compared to the old design. They should use:
 
@@ -123,7 +123,7 @@ D. A cognitive walkthrough
 
 ---
 
-### Q12 (UT-2.3, K2)
+### 🔷 Q12 (UT-2.3, K2)
 
 Which is a characteristic of a good test task?
 
@@ -134,7 +134,7 @@ D. It requires technical knowledge the user does not have
 
 ---
 
-### Q13 (UT-2.4, K2)
+### 🔷 Q13 (UT-2.4, K2)
 
 Co-discovery is a usability testing method where:
 
@@ -145,7 +145,7 @@ D. Participants review recordings after the session
 
 ---
 
-### Q14 (UT-2.5, K2)
+### 🔷 Q14 (UT-2.5, K2)
 
 Quantitative usability data includes:
 
@@ -156,7 +156,7 @@ D. Moderator observations
 
 ---
 
-### Q15 (UT-2.6, K3)
+### 🔷 Q15 (UT-2.6, K3)
 
 A usability report for executives should:
 
@@ -167,7 +167,7 @@ D. Include the full test script and all session recordings
 
 ---
 
-### Q16 (UT-2.2, K2)
+### 🔷 Q16 (UT-2.2, K2)
 
 The PRIMARY goal of a formative usability test is to:
 
@@ -178,7 +178,7 @@ D. Validate compliance with regulations
 
 ---
 
-### Q17 (UT-2.4, K2)
+### 🔷 Q17 (UT-2.4, K2)
 
 Retrospective testing involves:
 
@@ -189,7 +189,7 @@ D. Testing without any participants
 
 ---
 
-### Q18 (UT-2.5, K3)
+### 🔷 Q18 (UT-2.5, K3)
 
 A usability test finds that 8 out of 10 participants failed to complete the checkout process. The issue frequency is:
 
@@ -200,7 +200,7 @@ D. 8%
 
 ---
 
-### Q19 (UT-2.3, K2)
+### 🔷 Q19 (UT-2.3, K2)
 
 Which factor is MOST important when selecting test participants?
 
@@ -211,7 +211,7 @@ D. They are all first-time users
 
 ---
 
-### Q20 (UT-2.6, K2)
+### 🔷 Q20 (UT-2.6, K2)
 
 The purpose of an executive summary in a usability report is to:
 
@@ -222,104 +222,104 @@ D. Describe the technical implementation of the product
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** Formative testing = during design/development to find and fix problems.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** Summative testing = measure and evaluate against criteria.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** Nielsen's research shows ~5 users find 85% of problems in formative testing.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** Pilot testing verifies tasks, timing, and technology before the real test.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** Think-aloud = verbalize thoughts while performing tasks.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** "What are you thinking right now?" is neutral. The others lead or direct.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** Informed consent = participants understand purpose, data collection, and rights.
 
-### Q8
+### 🔷 Q8
 **Answer: D**
 
 **Rationale:** Prevents critical task completion = critical severity.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** SUS score ranges from 0 to 100.
 
-### Q10
+### 🔷 Q10
 **Answer: C**
 
 **Rationale:** Source code is not part of a usability test report.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 
 **Rationale:** Measuring improvement requires summative testing with larger samples.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** Good tasks = realistic, relevant, specific but open-ended.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** Co-discovery = two participants working together and discussing.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** Task success rate, time, and error rate = quantitative data.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** Executive reports = high-level summary, key metrics, business impact.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 
 **Rationale:** Formative testing goal = find and fix problems before finalization.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 
 **Rationale:** Retrospective testing = review recording afterward and comment.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 
 **Rationale:** 8 out of 10 = 80% frequency.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** Most important = representative of actual user population.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 
 **Rationale:** Executive summary = brief key findings and recommendations for stakeholders.

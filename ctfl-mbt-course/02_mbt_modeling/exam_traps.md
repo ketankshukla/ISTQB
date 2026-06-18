@@ -1,6 +1,6 @@
-# Chapter 2 — MBT Modeling: Exam Traps
+# 🪤 Chapter 2 — MBT Modeling: Exam Traps
 
-## Trap 1: Confusing Events with States
+## 🪤 Trap 1: Confusing Events with States
 
 **Trap:** Events are triggers that cause transitions. States are conditions the system is in.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Forgetting Guard Conditions in State Machines
+## 🪤 Trap 2: Forgetting Guard Conditions in State Machines
 
 **Trap:** A transition may have a guard condition that must be true for the transition to occur.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Confusing Decision Table Conditions with Actions
+## 🪤 Trap 3: Confusing Decision Table Conditions with Actions
 
 **Trap:** Conditions are inputs/states. Actions are outputs/behaviors.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Thinking All Model Combinations Are Valid
+## 🪤 Trap 4: Thinking All Model Combinations Are Valid
 
 **Trap:** Some combinations in decision tables may be impossible. These should be identified and excluded.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Assuming a Single Model Type Fits All
+## 🪤 Trap 5: Assuming a Single Model Type Fits All
 
 **Trap:** Different specifications require different model types.
 

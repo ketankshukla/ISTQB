@@ -1,10 +1,10 @@
-# CT-ATLaS Mock Exam 3
+# 📝 CT-ATLaS Mock Exam 3
 
 **Instructions:** 40 questions, 60 minutes, single best answer.
 
 ---
 
-### Q1-Q10
+### 🔷 Q1-Q10
 
 1. Scale: A) One team B) Multiple teams C) Waterfall D) Small — **Multiple teams**
 2. SAFe: A) Lightweight B) Prescriptive C) Only name D) Only teams — **Prescriptive**
@@ -19,7 +19,7 @@
 
 ---
 
-### Q11-Q20
+### 🔷 Q11-Q20
 
 11. Scrum of Scrums: A) Replace standup B) Cross-team C) Only reports D) Only planning — **Cross-team**
 12. Environment contention: A) Faster B) Delays C) Better D) Lower cost — **Delays**
@@ -34,7 +34,7 @@
 
 ---
 
-### Q21-Q30
+### 🔷 Q21-Q30
 
 21. Coaching: A) Answers B) Questions C) Evaluates D) Schedules — **Questions**
 22. Mentoring: A) Questions B) Experience C) Evaluates D) Schedules — **Experience**
@@ -49,7 +49,7 @@
 
 ---
 
-### Q31-Q40
+### 🔷 Q31-Q40
 
 31. Shared framework: A) Restrict B) Reuse C) Only large D) Only one — **Reuse**
 32. Cross-team: A) Ignore B) Coordinate C) Only docs D) Only tools — **Coordinate**
@@ -64,4 +64,4 @@
 
 ---
 
-## End of Mock Exam 3
+## 📝 End of Mock Exam 3

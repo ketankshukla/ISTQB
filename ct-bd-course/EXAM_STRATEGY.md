@@ -1,6 +1,6 @@
-# CT-BD Exam Strategy
+# ♟️ CT-BD Exam Strategy
 
-## Exam Format
+## 🎓 Exam Format
 
 | Parameter | Value |
 |-----------|-------|
@@ -12,7 +12,7 @@
 
 ---
 
-## Time Budget
+## ⭐ Time Budget
 
 | Phase | Time | Action |
 |-------|------|--------|
@@ -24,7 +24,7 @@
 
 ---
 
-## Chapter Weighting and Tactics
+## 🎓 Chapter Weighting and Tactics
 
 | Chapter | Weight | K-Levels | Tactics |
 |---------|--------|----------|---------|
@@ -37,7 +37,7 @@
 
 ---
 
-## K-Level Patterns
+## 🪜 K-Level Patterns
 
 **K1 (Remember):** Direct recall of definitions
 - Example: "The 5 Vs of Big Data include Volume, Velocity, Variety, Veracity, and..."
@@ -53,7 +53,7 @@
 
 ---
 
-## Common Distractor Patterns
+## ⭐ Common Distractor Patterns
 
 1. **Traditional vs. Big Data assumptions**
    - Trap: Applying traditional database testing approaches directly to Big Data
@@ -77,7 +77,7 @@
 
 ---
 
-## Pre-Exam Checklist
+## 🎓 Pre-Exam Checklist
 
 - [ ] All 6 chapters completed with practice scores 75%+
 - [ ] All 3 case studies completed with model answers reviewed
@@ -88,7 +88,7 @@
 
 ---
 
-## During the Exam
+## 🎓 During the Exam
 
 1. **Read the full question** before looking at answers
 2. **Eliminate obviously wrong answers** first
@@ -97,7 +97,7 @@
 5. **Don't overthink** — first instinct is often correct for K1/K2
 6. **Mark uncertain questions** and return with fresh perspective
 
-## Post-Exam
+## 🎓 Post-Exam
 
 - Note any unexpected topics for future learners
 - Celebrate — you've prepared thoroughly!

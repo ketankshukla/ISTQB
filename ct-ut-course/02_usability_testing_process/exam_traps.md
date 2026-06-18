@@ -1,6 +1,6 @@
-# Chapter 2 — Usability Testing Process: Exam Traps
+# 🪤 Chapter 2 — Usability Testing Process: Exam Traps
 
-## Trap 1: Confusing Formative and Summative Testing
+## 🪤 Trap 1: Confusing Formative and Summative Testing
 
 **Trap:** Formative = during development, find problems. Summative = near completion, measure and validate.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Thinking More Participants Are Always Better for Formative Testing
+## 🪤 Trap 2: Thinking More Participants Are Always Better for Formative Testing
 
 **Trap:** For formative testing, 5 users find ~85% of problems. Adding more has diminishing returns. Multiple rounds with 5 users each is better.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Leading Questions in Moderation
+## ❓ Trap 3: Leading Questions in Moderation
 
 **Trap:** Moderators must avoid leading questions that bias participants. "Was that button hard to find?" leads the participant.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Testing the User Instead of the Product
+## 🪤 Trap 4: Testing the User Instead of the Product
 
 **Trap:** The fundamental principle: "We are testing the product, not you." Participants must feel safe to make mistakes.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Reporting Only Problems Without Recommendations
+## 🪤 Trap 5: Reporting Only Problems Without Recommendations
 
 **Trap:** Usability reports must include actionable recommendations, not just problem lists.
 

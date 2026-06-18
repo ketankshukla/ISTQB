@@ -1,6 +1,6 @@
-# Chapter 1 — Introduction to Performance Testing: Exam Traps
+# 🪤 Chapter 1 — Introduction to Performance Testing: Exam Traps
 
-## Trap 1: Confusing Performance Testing with Functional Testing
+## 🪤 Trap 1: Confusing Performance Testing with Functional Testing
 
 **Trap:** Performance testing validates speed, scalability, and stability — NOT correctness. A system can pass performance tests but have functional bugs.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Thinking Average Response Time Is Sufficient
+## 🪤 Trap 2: Thinking Average Response Time Is Sufficient
 
 **Trap:** Average response time can hide outliers. Percentiles (90th, 95th, 99th) are more meaningful for SLAs.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Confusing Concurrent Users and Simultaneous Users
+## 🪤 Trap 3: Confusing Concurrent Users and Simultaneous Users
 
 **Trap:** Concurrent users = active on the system (some idle). Simultaneous users = sending requests at the same moment. Simultaneous is a subset of concurrent.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Ignoring the Network in Response Time
+## 🪤 Trap 4: Ignoring the Network in Response Time
 
 **Trap:** Response time is end-to-end. Server processing is only one component. Network latency can be significant, especially for geographically distributed users.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Thinking All Systems Need the Same Performance Testing
+## 🪤 Trap 5: Thinking All Systems Need the Same Performance Testing
 
 **Trap:** Performance testing scope and intensity depend on the system's purpose, expected load, and criticality. A small internal tool needs less testing than a public e-commerce platform.
 

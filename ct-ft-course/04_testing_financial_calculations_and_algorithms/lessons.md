@@ -1,10 +1,10 @@
-# Chapter 4 — Testing Financial Calculations and Algorithms: Lessons
+# 📘 Chapter 4 — Testing Financial Calculations and Algorithms: Lessons
 
 ---
 
-## 4.1 Interest and Amortization Testing
+## ⭐ 4.1 Interest and Amortization Testing
 
-### Simple Interest
+### 🔷 Simple Interest
 
 **Formula:** Interest = Principal × Rate × Time
 
@@ -14,7 +14,7 @@
 - Check rate changes mid-period
 - Validate leap year day counts
 
-### Compound Interest
+### 🔷 Compound Interest
 
 **Formula:** A = P(1 + r/n)^(nt)
 
@@ -32,7 +32,7 @@ Where:
 | Zero rate | No interest accrued |
 | Negative rate (deflation) | Principal decreases |
 
-### Loan Amortization
+### 🔷 Loan Amortization
 
 **Fixed-rate mortgage:**
 - Monthly payment = P × [r(1+r)^n] / [(1+r)^n - 1]
@@ -47,9 +47,9 @@ Where:
 
 ---
 
-## 4.2 Bond Pricing and Accrued Interest
+## ⭐ 4.2 Bond Pricing and Accrued Interest
 
-### Bond Price
+### 🔷 Bond Price
 
 **Clean price:** Present value of future cash flows
 **Dirty price:** Clean price + accrued interest
@@ -66,25 +66,25 @@ Where:
 
 ---
 
-## 4.3 Derivatives Greeks
+## ⭐ 4.3 Derivatives Greeks
 
-### Delta
+### 🔷 Delta
 
 - Rate of change of option price with respect to underlying price
 - Call delta: 0 to +1
 - Put delta: -1 to 0
 
-### Gamma
+### 🔷 Gamma
 
 - Rate of change of delta with respect to underlying price
 - Highest for at-the-money options
 
-### Theta
+### 🔷 Theta
 
 - Rate of change of option price with respect to time
 - Options lose value as expiration approaches
 
-### Vega
+### 🔷 Vega
 
 - Rate of change of option price with respect to volatility
 - Higher for longer-dated options
@@ -97,9 +97,9 @@ Where:
 
 ---
 
-## 4.4 Value-at-Risk (VaR)
+## ⚠️ 4.4 Value-at-Risk (VaR)
 
-### Methods
+### 🔷 Methods
 
 | Method | Description | Testing Focus |
 |--------|-------------|---------------|
@@ -107,7 +107,7 @@ Where:
 | **Parametric** | Assumes normal distribution | Mean/variance accuracy, tail risk |
 | **Monte Carlo** | Simulates random scenarios | Random seed reproducibility, scenario count |
 
-### Interpretation
+### 🔷 Interpretation
 
 - "1-day 95% VaR = $1M" means there is a 5% chance of losing more than $1M in one day
 - VaR does NOT measure maximum possible loss (tail risk)
@@ -120,16 +120,16 @@ Where:
 
 ---
 
-## 4.5 FX Calculations
+## ⭐ 4.5 FX Calculations
 
-### Spot Rate
+### 🔷 Spot Rate
 
 - Exchange rate for immediate delivery (T+2)
 - Bid = price dealer buys base currency
 - Ask = price dealer sells base currency
 - Spread = Ask - Bid
 
-### Forward Rate
+### 🔷 Forward Rate
 
 - F = S × (1 + r_q × t) / (1 + r_b × t)
 
@@ -147,9 +147,9 @@ Where:
 
 ---
 
-## 4.6 Precision, Rounding, and Floating-Point Issues
+## ⭐ 4.6 Precision, Rounding, and Floating-Point Issues
 
-### Why Float is Dangerous
+### 🔷 Why Float is Dangerous
 
 ```
 0.1 + 0.2 = 0.30000000000000004 (in IEEE 754 floating point)
@@ -161,7 +161,7 @@ Where:
 - Define rounding rules explicitly (HALF_UP, HALF_EVEN)
 - Round at the correct step (per-item vs total)
 
-### Rounding Test Cases
+### 🔷 Rounding Test Cases
 
 | Scenario | Rule | Expected |
 |----------|------|----------|
@@ -172,9 +172,9 @@ Where:
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Amortization Schedule Verification
+### 💡 Worked Example 1: Amortization Schedule Verification
 
 **Scenario:** $300,000 mortgage at 4% annual, 30 years, monthly payments.
 
@@ -190,7 +190,7 @@ Where:
 4. Last payment: ~$5 interest, ~$1,427 principal
 5. After 180 payments (15 years): remaining balance ≈ $193,000
 
-### Worked Example 2: VaR Backtesting
+### 💡 Worked Example 2: VaR Backtesting
 
 **Scenario:** A bank calculates 1-day 95% VaR as $2M. Over 250 trading days, there were 18 days with losses exceeding $2M.
 
@@ -206,7 +206,7 @@ Where:
 - Review position data accuracy
 - Consider moving to 99% confidence
 
-### Worked Example 3: Cross-Rate Consistency
+### 💡 Worked Example 3: Cross-Rate Consistency
 
 **Scenario:** System shows EUR/USD = 1.1000, USD/JPY = 150.00. What is EUR/JPY?
 

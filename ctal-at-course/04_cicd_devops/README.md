@@ -1,6 +1,6 @@
-# Chapter 4 — CI/CD, DevOps, and Continuous Testing
+# 🔧 Chapter 4 — CI/CD, DevOps, and Continuous Testing
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~20% (~8 questions out of 40)
 - **K-levels:** K2 (understand), K3 (apply), K4 (analyze)
@@ -8,7 +8,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -20,7 +20,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts
+## ⭐ Key Concepts
 
 - CI: frequent integration, automated builds, automated tests
 - CD: Continuous Delivery (manual approval) vs. Continuous Deployment (fully automatic)

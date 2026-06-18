@@ -1,8 +1,8 @@
-# Chapter 5 — Security Test Execution and Analysis: Practice Questions
+# ❓ Chapter 5 — Security Test Execution and Analysis: Practice Questions
 
 ---
 
-### Q1 (STE-5.1, K2)
+### 🔷 Q1 (STE-5.1, K2)
 
 Security testing in production should:
 
@@ -13,7 +13,7 @@ D. Only by external testers
 
 ---
 
-### Q2 (STE-5.2, K2)
+### 🔷 Q2 (STE-5.2, K2)
 
 CVSS provides:
 
@@ -24,7 +24,7 @@ D. Only time estimates
 
 ---
 
-### Q3 (STE-5.3, K2)
+### 🔷 Q3 (STE-5.3, K2)
 
 A security finding report should include:
 
@@ -35,7 +35,7 @@ D. Only tool output
 
 ---
 
-### Q4 (STE-5.4, K2)
+### 🔷 Q4 (STE-5.4, K2)
 
 Remediation verification should be done by:
 
@@ -46,7 +46,7 @@ D. Only automated tools
 
 ---
 
-### Q5 (STE-5.1, K2)
+### 🔷 Q5 (STE-5.1, K2)
 
 Rules of engagement for penetration testing define:
 
@@ -57,7 +57,7 @@ D. Only payment terms
 
 ---
 
-### Q6 (STE-5.2, K2)
+### 🔷 Q6 (STE-5.2, K2)
 
 Business context affects vulnerability prioritization because:
 
@@ -68,7 +68,7 @@ D. Only for financial systems
 
 ---
 
-### Q7 (STE-5.3, K2)
+### 🔷 Q7 (STE-5.3, K2)
 
 Executive summaries in security reports focus on:
 
@@ -79,7 +79,7 @@ D. Only tool configurations
 
 ---
 
-### Q8 (STE-5.4, K2)
+### 🔷 Q8 (STE-5.4, K2)
 
 A partial fix of a vulnerability:
 
@@ -90,7 +90,7 @@ D. Only saves time
 
 ---
 
-### Q9 (STE-5.1, K2)
+### 🔷 Q9 (STE-5.1, K2)
 
 Test environment isolation means:
 
@@ -101,7 +101,7 @@ D. Only different usernames
 
 ---
 
-### Q10 (STE-5.2, K2)
+### 🔷 Q10 (STE-5.2, K2)
 
 Validation of a reported vulnerability involves:
 
@@ -112,7 +112,7 @@ D. Only checking the CVSS
 
 ---
 
-### Q11 (STE-5.3, K2)
+### 🔷 Q11 (STE-5.3, K2)
 
 Developer-focused security reports should include:
 
@@ -123,7 +123,7 @@ D. Only compliance mappings
 
 ---
 
-### Q12 (STE-5.4, K2)
+### 🔷 Q12 (STE-5.4, K2)
 
 Regression testing after a security fix verifies:
 
@@ -134,7 +134,7 @@ D. Only usability
 
 ---
 
-### Q13 (STE-5.1, K2)
+### 🔷 Q13 (STE-5.1, K2)
 
 Emergency testing after a zero-day disclosure should:
 
@@ -145,7 +145,7 @@ D. Only document the issue
 
 ---
 
-### Q14 (STE-5.2, K2)
+### 🔷 Q14 (STE-5.2, K2)
 
 A vulnerability on a public-facing payment system vs an internal wiki:
 
@@ -156,7 +156,7 @@ D. Only public systems matter
 
 ---
 
-### Q15 (STE-5.3, K2)
+### 🔷 Q15 (STE-5.3, K2)
 
 Security report findings should be:
 
@@ -167,7 +167,7 @@ D. Only for developers
 
 ---
 
-### Q16 (STE-5.4, K2)
+### 🔷 Q16 (STE-5.4, K2)
 
 Reintroduction of a fixed vulnerability occurs when:
 
@@ -178,7 +178,7 @@ D. Only in new features
 
 ---
 
-### Q17 (STE-5.1, K2)
+### 🔷 Q17 (STE-5.1, K2)
 
 DoS testing should:
 
@@ -189,7 +189,7 @@ D. Only manually
 
 ---
 
-### Q18 (STE-5.2, K2)
+### 🔷 Q18 (STE-5.2, K2)
 
 False negatives in security testing:
 
@@ -200,7 +200,7 @@ D. Only affect compliance
 
 ---
 
-### Q19 (STE-5.3, K2)
+### 🔷 Q19 (STE-5.3, K2)
 
 Compliance-focused reports should map findings to:
 
@@ -211,7 +211,7 @@ D. Only timelines
 
 ---
 
-### Q20 (STE-5.4, K2)
+### 🔷 Q20 (STE-5.4, K2)
 
 Verification that a fix doesn't introduce new issues is:
 
@@ -222,84 +222,84 @@ D. Only for critical systems
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** Production = generally avoid; isolated + authorized.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** CVSS = technical severity.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** Report = description + evidence + impact + repro + remediation.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** Verification = independent retest.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Rules = scope + hours + escalation.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Same CVSS, different business impact.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Executive = high-level risks.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Partial = may leave other vectors.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** Isolation = separate + no shared data.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** Validation = manual reproduction.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Developer report = technical + repro + fix.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Regression = fix works + no new issues.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Zero-day = assess + test + mitigate quickly.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Payment = higher priority.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Findings = specific + actionable + evidence.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Reintroduction = same pattern in later release.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** DoS = low-impact window + authorized.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** False negatives = real vulns missed.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Compliance report = map to controls.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** No new issues = regression testing.

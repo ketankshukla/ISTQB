@@ -1,8 +1,8 @@
-# Chapter 6 — Automotive Quality and Standards: Practice Questions
+# ❓ Chapter 6 — Automotive Quality and Standards: Practice Questions
 
 ---
 
-### Q1 (AuT-6.1, K2)
+### 🔷 Q1 (AuT-6.1, K2)
 
 ISO 26262 Part 6 covers:
 
@@ -13,7 +13,7 @@ D. Only manufacturing
 
 ---
 
-### Q2 (AuT-6.2, K2)
+### 🔷 Q2 (AuT-6.2, K2)
 
 ASPICE is:
 
@@ -24,7 +24,7 @@ D. Only for hardware
 
 ---
 
-### Q3 (AuT-6.3, K2)
+### 🔷 Q3 (AuT-6.3, K2)
 
 AUTOSAR RTE provides:
 
@@ -35,7 +35,7 @@ D. Only power management
 
 ---
 
-### Q4 (AuT-6.4, K2)
+### 🔷 Q4 (AuT-6.4, K2)
 
 100% statement coverage:
 
@@ -46,7 +46,7 @@ D. Only for low ASIL
 
 ---
 
-### Q5 (AuT-6.5, K2)
+### 🔷 Q5 (AuT-6.5, K2)
 
 Audit readiness requires:
 
@@ -57,7 +57,7 @@ D. Only tool licenses
 
 ---
 
-### Q6 (AuT-6.1, K2)
+### 🔷 Q6 (AuT-6.1, K2)
 
 For ASIL D, system testing is:
 
@@ -68,7 +68,7 @@ D. Only for prototypes
 
 ---
 
-### Q7 (AuT-6.2, K2)
+### 🔷 Q7 (AuT-6.2, K2)
 
 ASPICE capability level 3 means:
 
@@ -79,7 +79,7 @@ D. Only managed process
 
 ---
 
-### Q8 (AuT-6.3, K2)
+### 🔷 Q8 (AuT-6.3, K2)
 
 AUTOSAR benefits include:
 
@@ -90,7 +90,7 @@ D. Only cheaper hardware
 
 ---
 
-### Q9 (AuT-6.4, K2)
+### 🔷 Q9 (AuT-6.4, K2)
 
 Cyclomatic complexity target is typically:
 
@@ -101,7 +101,7 @@ D. Only for small functions
 
 ---
 
-### Q10 (AuT-6.5, K2)
+### 🔷 Q10 (AuT-6.5, K2)
 
 Traceability in audit preparation:
 
@@ -112,7 +112,7 @@ D. Only for testers
 
 ---
 
-### Q11 (AuT-6.1, K2)
+### 🔷 Q11 (AuT-6.1, K2)
 
 A watchdog timer is:
 
@@ -123,7 +123,7 @@ D. Only for performance
 
 ---
 
-### Q12 (AuT-6.2, K2)
+### 🔷 Q12 (AuT-6.2, K2)
 
 ASPICE SUP.4 is the:
 
@@ -134,7 +134,7 @@ D. Only hardware process
 
 ---
 
-### Q13 (AuT-6.3, K2)
+### 🔷 Q13 (AuT-6.3, K2)
 
 AUTOSAR BSW provides:
 
@@ -145,7 +145,7 @@ D. Only graphics
 
 ---
 
-### Q14 (AuT-6.4, K2)
+### 🔷 Q14 (AuT-6.4, K2)
 
 Defect density trending down indicates:
 
@@ -156,7 +156,7 @@ D. Only slower testing
 
 ---
 
-### Q15 (AuT-6.5, K2)
+### 🔷 Q15 (AuT-6.5, K2)
 
 Common audit finding "missing traceability" means:
 
@@ -167,7 +167,7 @@ D. Only missing design
 
 ---
 
-### Q16 (AuT-6.1, K2)
+### 🔷 Q16 (AuT-6.1, K2)
 
 ISO 26262 Part 4 covers:
 
@@ -178,7 +178,7 @@ D. Only manufacturing
 
 ---
 
-### Q17 (AuT-6.2, K2)
+### 🔷 Q17 (AuT-6.2, K2)
 
 ASPICE level 5 (Innovating) means:
 
@@ -189,7 +189,7 @@ D. Only ad-hoc execution
 
 ---
 
-### Q18 (AuT-6.3, K2)
+### 🔷 Q18 (AuT-6.3, K2)
 
 Software components in AUTOSAR are in:
 
@@ -200,7 +200,7 @@ D. Only microcontroller
 
 ---
 
-### Q19 (AuT-6.4, K2)
+### 🔷 Q19 (AuT-6.4, K2)
 
 Static analysis warnings should be:
 
@@ -211,7 +211,7 @@ D. Only for new code
 
 ---
 
-### Q20 (AuT-6.5, K3)
+### 🔷 Q20 (AuT-6.5, K3)
 
 An auditor finds incomplete testing with no coverage evidence. The likely root cause is:
 
@@ -222,84 +222,84 @@ D. Only missing budget
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** Part 6 = software design + implementation + verification.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** ASPICE = process assessment model.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** RTE = component communication.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** Coverage = executed, not correct.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Audit = process + evidence + traceability + practice.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** ASIL D = required system testing.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Level 3 = defined and followed.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** AUTOSAR = portability + standardization + testability.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** Complexity target < 10.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** Traceability = requirements → design → tests → results.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Watchdog = detect hangs.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** SUP.4 = software testing.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** BSW = communication + storage + diagnostics.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Defect density down = quality improvement.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Missing traceability = poor requirements management.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Part 4 = system-level.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Level 5 = continuous improvement.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Components = ASW layer.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Static warnings = resolve critical.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** Incomplete + no evidence = planning + tool issues.

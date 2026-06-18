@@ -1,6 +1,6 @@
-# Case Study 3 — CI/CD Automation Transformation
+# 📂 Case Study 3 — CI/CD Automation Transformation
 
-## Context
+## ⭐ Context
 
 You are the DevOps Lead for CloudRetail, an e-commerce company moving from quarterly releases to continuous deployment.
 
@@ -19,7 +19,7 @@ You are the DevOps Lead for CloudRetail, an e-commerce company moving from quart
 
 ---
 
-## Task 1: CI/CD Pipeline Design
+## 🎨 Task 1: CI/CD Pipeline Design
 
 **Question:** Design a CI/CD pipeline with integrated automation.
 
@@ -45,7 +45,7 @@ Production Smoke Tests (5 min)
 
 ---
 
-## Task 2: Automation Scope
+## ⚙️ Task 2: Automation Scope
 
 **Question:** Define what to automate for CI/CD.
 
@@ -74,7 +74,7 @@ Production Smoke Tests (5 min)
 
 ---
 
-## Task 3: Failure Handling
+## 🤖 Task 3: Failure Handling
 
 **Question:** Design failure handling for production deployment.
 
@@ -104,7 +104,7 @@ Production Smoke Tests (5 min)
 
 ---
 
-## Task 4: Organizational Change
+## ⭐ Task 4: Organizational Change
 
 **Question:** Manage the transition for the QA team.
 

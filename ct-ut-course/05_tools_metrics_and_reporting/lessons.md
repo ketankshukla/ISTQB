@@ -1,10 +1,10 @@
-# Chapter 5 — Tools, Metrics and Reporting: Lessons
+# 📘 Chapter 5 — Tools, Metrics and Reporting: Lessons
 
 ---
 
-## 5.1 Usability Questionnaires
+## ❓ 5.1 Usability Questionnaires
 
-### SUS — System Usability Scale
+### 🖱️ SUS — System Usability Scale
 
 **Description:** A 10-item questionnaire measuring perceived usability. The most widely used standardized usability questionnaire.
 
@@ -31,7 +31,7 @@
 - 68 = industry average
 - Above 80 = excellent
 
-### NPS — Net Promoter Score
+### 🔷 NPS — Net Promoter Score
 
 **Question:** "How likely are you to recommend this product to a friend or colleague?" (0-10 scale)
 
@@ -44,13 +44,13 @@
 
 **Ranges:** Below 0 (needs work), 0-30 (good), 30-70 (great), 70+ (excellent)
 
-### CSAT — Customer Satisfaction Score
+### 🔷 CSAT — Customer Satisfaction Score
 
 **Question:** "How satisfied were you with your experience?" (1-5 or 1-10)
 
 **Calculation:** CSAT = (Satisfied responses / Total responses) x 100%
 
-### CSUQ — Computer System Usability Questionnaire
+### ❓ CSUQ — Computer System Usability Questionnaire
 
 19-item questionnaire with three dimensions:
 - Usefulness (8 items)
@@ -61,9 +61,9 @@
 
 ---
 
-## 5.2 Task-Based Metrics
+## 📊 5.2 Task-Based Metrics
 
-### Task Success Rate
+### 🔷 Task Success Rate
 
 Calculation: (Successful completions / Attempts) x 100%
 
@@ -74,11 +74,11 @@ Calculation: (Successful completions / Attempts) x 100%
 
 **Benchmark:** 78% average for web applications
 
-### Time on Task
+### 🔷 Time on Task
 
 Measurement from task start to completion. Compare against benchmarks. Only meaningful with success rate.
 
-### Error Rate
+### 🔷 Error Rate
 
 Calculation: (Errors / Opportunities for error) x 100%
 
@@ -97,7 +97,7 @@ Calculation: (Errors / Opportunities for error) x 100%
 
 ---
 
-## 5.3 Combining Quantitative and Qualitative Data
+## 🗃️ 5.3 Combining Quantitative and Qualitative Data
 
 **Quantitative:** Tells you WHAT happened (success rates, times, scores)
 **Qualitative:** Tells you WHY it happened (quotes, observations, confusion points)
@@ -106,9 +106,9 @@ Calculation: (Errors / Opportunities for error) x 100%
 
 ---
 
-## 5.4 Usability Testing Tools
+## 🛠️ 5.4 Usability Testing Tools
 
-### Remote Testing Platforms
+### 🔷 Remote Testing Platforms
 
 **UserTesting, Maze, Lookback, Optimal Workshop:**
 - Recruit participants or use your own
@@ -116,7 +116,7 @@ Calculation: (Errors / Opportunities for error) x 100%
 - Collect screen recordings, audio, and metrics
 - Good for: Quick feedback, large samples, geographic diversity
 
-### Session Recording Tools
+### 🛠️ Session Recording Tools
 
 **Hotjar, FullStory, Crazy Egg:**
 - Record real user sessions on live websites
@@ -124,21 +124,21 @@ Calculation: (Errors / Opportunities for error) x 100%
 - Good for: Understanding real user behavior at scale
 - Limitation: Cannot ask "why" without additional research
 
-### Analytics Tools
+### 🛠️ Analytics Tools
 
 **Google Analytics, Mixpanel, Amplitude:**
 - Track user flows, drop-off points, feature usage
 - Quantitative behavioral data
 - Good for: Identifying where users struggle in production
 
-### Lab Testing Tools
+### 🛠️ Lab Testing Tools
 
 **Morae, Silverback, Camtasia:**
 - Screen and audio recording
 - Annotation and analysis features
 - Good for: In-person moderated testing
 
-### Prototyping Tools
+### 🛠️ Prototyping Tools
 
 **Figma, Axure, Balsamiq, Adobe XD:**
 - Create interactive prototypes for testing
@@ -147,9 +147,9 @@ Calculation: (Errors / Opportunities for error) x 100%
 
 ---
 
-## 5.5 Reporting Best Practices
+## ❓ 5.5 Reporting Best Practices
 
-### Structure
+### 🔷 Structure
 
 1. **Executive Summary:** Key findings and recommendation in 1-2 paragraphs
 2. **Methodology:** What was tested, with whom, how
@@ -157,7 +157,7 @@ Calculation: (Errors / Opportunities for error) x 100%
 4. **Detailed Findings:** Each issue with evidence and recommendation
 5. **Recommendations:** Prioritized action items
 
-### Audience-Appropriate Communication
+### 🔷 Audience-Appropriate Communication
 
 | Audience | Focus |
 |----------|-------|
@@ -166,7 +166,7 @@ Calculation: (Errors / Opportunities for error) x 100%
 | Executives | High-level summary, key metrics, ROI of fixes |
 | Designers | Visual issues, interaction patterns, design recommendations |
 
-### Visualization
+### 🔷 Visualization
 
 - Charts for quantitative data (success rates, SUS scores)
 - Screenshots with annotations for issues
@@ -175,9 +175,9 @@ Calculation: (Errors / Opportunities for error) x 100%
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: SUS Calculation
+### 💡 Worked Example 1: SUS Calculation
 
 Participant responses (1-5 scale):
 | Item | Response | Calculation |
@@ -196,7 +196,7 @@ Participant responses (1-5 scale):
 
 SUS Score: 34 x 2.5 = 85 (Excellent)
 
-### Worked Example 2: NPS Calculation
+### 💡 Worked Example 2: NPS Calculation
 
 Survey of 100 users:
 - Promoters (9-10): 45
@@ -207,7 +207,7 @@ NPS = (45/100 x 100) - (25/100 x 100) = 45 - 25 = 20
 
 Interpretation: Good (0-30 range), but room for improvement.
 
-### Worked Example 3: Task Metric Analysis
+### 💡 Worked Example 3: Task Metric Analysis
 
 | Task | Success Rate | Avg Time | Errors | Benchmark |
 |------|-------------|----------|--------|-----------|

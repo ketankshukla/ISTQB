@@ -1,6 +1,6 @@
-# Chapter 4 — Contract Acceptance Testing: Exam Traps
+# 🪤 Chapter 4 — Contract Acceptance Testing: Exam Traps
 
-## Trap 1: Confusing CAT with BAT
+## 🪤 Trap 1: Confusing CAT with BAT
 
 **Trap:** CAT validates contractual obligations. BAT validates business needs. They have different criteria sources and stakeholders.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Ignoring Contractual Remedies
+## 🪤 Trap 2: Ignoring Contractual Remedies
 
 **Trap:** Contracts include penalties and remedies for non-compliance. CAT determines whether remedies should be invoked.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Confusing SLAs with Acceptance Criteria
+## 🪤 Trap 3: Confusing SLAs with Acceptance Criteria
 
 **Trap:** SLAs are ongoing service commitments. Acceptance criteria are one-time validation conditions for delivery.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Thinking Outsourcing Means No Customer Testing
+## 🪤 Trap 4: Thinking Outsourcing Means No Customer Testing
 
 **Trap:** Even with outsourced development, the customer must perform acceptance testing to verify the delivered system.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Confusing Milestone Payments with Acceptance
+## 🪤 Trap 5: Confusing Milestone Payments with Acceptance
 
 **Trap:** Payment milestones are often tied to acceptance decisions, but they are not the same thing. Acceptance is a quality decision; payment is a financial one.
 

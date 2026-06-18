@@ -1,10 +1,10 @@
-# CT-AuT Mock Exam 3
+# 📝 CT-AuT Mock Exam 3
 
 **Instructions:** 40 questions, 60 minutes, single best answer.
 
 ---
 
-### Q1-Q10
+### 🔷 Q1-Q10
 
 1. ECUs: A) 5-10 B) 70-100+ C) 1 D) Mechanical — **70-100+**
 2. CAN: A) Infotainment B) Powertrain + chassis C) Doors D) Seats — **Powertrain + chassis**
@@ -19,7 +19,7 @@
 
 ---
 
-### Q11-Q20
+### 🔷 Q11-Q20
 
 11. ISO 26262: A) Styling B) Functional safety C) Manufacturing D) Marketing — **Functional safety**
 12. ASIL D: A) Lowest B) Highest C) Only hardware D) Only software — **Highest**
@@ -34,7 +34,7 @@
 
 ---
 
-### Q21-Q30
+### 🔷 Q21-Q30
 
 21. Lifecycle: A) Coding B) Requirements → acceptance C) System D) Maintenance — **Requirements → acceptance**
 22. Unit: A) Target B) Host or target C) Vehicle D) Track — **Host or target**
@@ -49,7 +49,7 @@
 
 ---
 
-### Q31-Q40
+### 🔷 Q31-Q40
 
 31. SIL: A) Target B) Host PC C) Vehicle D) HIL — **Host PC**
 32. HIL: A) Unit B) Real ECU + simulated C) Review D) Static — **Real ECU + simulated**
@@ -64,4 +64,4 @@
 
 ---
 
-## End of Mock Exam 3
+## 📝 End of Mock Exam 3

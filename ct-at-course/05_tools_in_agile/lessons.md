@@ -1,10 +1,10 @@
-# Chapter 5 — Tools in Agile: Lessons
+# 📘 Chapter 5 — Tools in Agile: Lessons
 
 ---
 
-## 5.1 Test Management Tools in Agile
+## 🛠️ 5.1 Test Management Tools in Agile
 
-### Purpose in Agile
+### 🏃 Purpose in Agile
 
 Test management tools in agile support:
 - Test case creation and organization
@@ -13,7 +13,7 @@ Test management tools in agile support:
 - Reporting and metrics
 - Integration with CI/CD pipelines
 
-### Characteristics of Agile Test Management
+### 🗂️ Characteristics of Agile Test Management
 
 **Lightweight:**
 - Minimal overhead — no lengthy test plan documents
@@ -30,7 +30,7 @@ Test management tools in agile support:
 - Teams can see test progress in real-time
 - Information radiators display key metrics
 
-### Types of Test Management Tools
+### 🧪 Types of Test Management Tools
 
 **1. Standalone Test Management Tools:**
 - TestRail, Zephyr, Xray, qTest
@@ -50,7 +50,7 @@ Test management tools in agile support:
 - Markdown documents in Git repositories
 - Suitable for highly technical teams
 
-### Agile Test Documentation
+### 🏃 Agile Test Documentation
 
 **Traditional:**
 - Detailed test plans, test cases with steps, expected results
@@ -66,9 +66,9 @@ Test management tools in agile support:
 
 ---
 
-## 5.2 CI/CD Tools
+## 🛠️ 5.2 CI/CD Tools
 
-### Continuous Integration Tools
+### 🛠️ Continuous Integration Tools
 
 **Jenkins:**
 - Open-source, highly extensible
@@ -99,7 +99,7 @@ Test management tools in agile support:
 - Fast setup for GitHub/GitLab projects
 - Good for open-source and small teams
 
-### Key Features for Agile Testing
+### 🏃 Key Features for Agile Testing
 
 **1. Pipeline as Code:**
 - CI configuration stored in version control
@@ -121,7 +121,7 @@ Test management tools in agile support:
 - Immediate awareness of broken builds
 - Integration with team communication channels
 
-### Pipeline Design for Testing
+### 🎨 Pipeline Design for Testing
 
 ```yaml
 # Example: GitHub Actions
@@ -160,9 +160,9 @@ jobs:
 
 ---
 
-## 5.3 Collaboration Tools
+## 🛠️ 5.3 Collaboration Tools
 
-### Issue Tracking
+### 🔷 Issue Tracking
 
 **Jira:**
 - Most popular agile project management tool
@@ -182,7 +182,7 @@ jobs:
 - Linked to commits, pull requests, builds
 - Good traceability from requirement to deployment
 
-### Communication
+### 🔷 Communication
 
 **Slack / Microsoft Teams:**
 - Real-time team communication
@@ -196,7 +196,7 @@ jobs:
 - Linked to Jira stories
 - Serves as team knowledge base
 
-### Information Radiators
+### 🔷 Information Radiators
 
 **Definition:**
 A highly visible display of project information that passively informs anyone who looks at it — no need to ask questions or run reports.
@@ -220,9 +220,9 @@ A highly visible display of project information that passively informs anyone wh
 
 ---
 
-## 5.4 Tool Selection Criteria
+## ✅ 5.4 Tool Selection Criteria
 
-### Key Criteria
+### ✅ Key Criteria
 
 **1. Fit for Purpose:**
 - Does the tool solve the team's actual problem?
@@ -256,7 +256,7 @@ A highly visible display of project information that passively informs anyone wh
 - Documentation quality
 - Roadmap alignment with team needs
 
-### Tool Selection Process
+### 🛠️ Tool Selection Process
 
 **1. Identify Needs:**
 - What problem are we solving?
@@ -281,9 +281,9 @@ A highly visible display of project information that passively informs anyone wh
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Tool Selection
+### 💡 Worked Example 1: Tool Selection
 
 **Scenario:** A 6-person agile team needs a test management tool.
 
@@ -304,7 +304,7 @@ A highly visible display of project information that passively informs anyone wh
 
 **Decision:** Xray — native Jira integration, within budget, appropriate for team size.
 
-### Worked Example 2: Information Radiator Design
+### 💡 Worked Example 2: Information Radiator Design
 
 **Scenario:** A team wants a dashboard that shows test health.
 
@@ -333,7 +333,7 @@ A highly visible display of project information that passively informs anyone wh
 - Simple — green/yellow/red at a glance
 - Current — updated automatically
 
-### Worked Example 3: CI/CD Tool Selection
+### 💡 Worked Example 3: CI/CD Tool Selection
 
 **Scenario:** A startup with 4 developers needs CI/CD.
 

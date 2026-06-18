@@ -1,6 +1,6 @@
-# Case Study 1 — E-Commerce Mobile App Launch
+# 📂 Case Study 1 — E-Commerce Mobile App Launch
 
-## Context
+## ⭐ Context
 
 You are the Test Lead for ShopFast, an e-commerce company launching its first mobile app.
 
@@ -19,7 +19,7 @@ You are the Test Lead for ShopFast, an e-commerce company launching its first mo
 
 ---
 
-## Task 1: Test Planning
+## 🗓️ Task 1: Test Planning
 
 **Question:** Create a mobile test strategy for the launch.
 
@@ -50,7 +50,7 @@ You are the Test Lead for ShopFast, an e-commerce company launching its first mo
 
 ---
 
-## Task 2: Payment Flow Testing
+## ⭐ Task 2: Payment Flow Testing
 
 **Question:** Design comprehensive payment tests.
 
@@ -69,7 +69,7 @@ You are the Test Lead for ShopFast, an e-commerce company launching its first mo
 
 ---
 
-## Task 3: Performance Benchmarks
+## ⚡ Task 3: Performance Benchmarks
 
 **Question:** Define and test performance requirements.
 
@@ -90,7 +90,7 @@ You are the Test Lead for ShopFast, an e-commerce company launching its first mo
 
 ---
 
-## Task 4: Go-Live Decision
+## 🗂️ Task 4: Go-Live Decision
 
 **Question:** Evaluate readiness for app store submission.
 

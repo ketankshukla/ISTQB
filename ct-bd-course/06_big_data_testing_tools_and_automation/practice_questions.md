@@ -1,8 +1,8 @@
-# Chapter 6 — Big Data Testing Tools and Automation: Practice Questions
+# ❓ Chapter 6 — Big Data Testing Tools and Automation: Practice Questions
 
 ---
 
-### Q1 (BD-6.1, K2)
+### 🔷 Q1 (BD-6.1, K2)
 
 Deequ is a data quality library built on:
 
@@ -13,7 +13,7 @@ D. Python Pandas only
 
 ---
 
-### Q2 (BD-6.1, K2)
+### 🔷 Q2 (BD-6.1, K2)
 
 Great Expectations is a:
 
@@ -24,7 +24,7 @@ D. Network monitoring tool
 
 ---
 
-### Q3 (BD-6.2, K2)
+### 🔷 Q3 (BD-6.2, K2)
 
 QuerySurge is PRIMARILY used for:
 
@@ -35,7 +35,7 @@ D. Streaming data ingestion
 
 ---
 
-### Q4 (BD-6.3, K2)
+### 🔷 Q4 (BD-6.3, K2)
 
 Unit testing a Spark job should be done:
 
@@ -46,7 +46,7 @@ D. Only by data engineers
 
 ---
 
-### Q5 (BD-6.4, K2)
+### 🔷 Q5 (BD-6.4, K2)
 
 A data quality gate in CI/CD should:
 
@@ -57,7 +57,7 @@ D. Only check code syntax
 
 ---
 
-### Q6 (BD-6.5, K2)
+### 🔷 Q6 (BD-6.5, K2)
 
 For comparing two large datasets (billions of rows), the MOST practical approach is:
 
@@ -68,7 +68,7 @@ D. Comparing file sizes only
 
 ---
 
-### Q7 (BD-6.1, K2)
+### 🔷 Q7 (BD-6.1, K2)
 
 Anomaly detection in data quality means:
 
@@ -79,7 +79,7 @@ D. Encrypting data
 
 ---
 
-### Q8 (BD-6.3, K2)
+### 🔷 Q8 (BD-6.3, K2)
 
 pytest-spark is used for:
 
@@ -90,7 +90,7 @@ D. Visualizing Spark jobs
 
 ---
 
-### Q9 (BD-6.4, K2)
+### 🔷 Q9 (BD-6.4, K2)
 
 Schema compatibility checking in CI/CD ensures:
 
@@ -101,7 +101,7 @@ D. That the network is fast
 
 ---
 
-### Q10 (BD-6.6, K2)
+### 🔷 Q10 (BD-6.6, K2)
 
 Apache Atlas is PRIMARILY used for:
 
@@ -112,7 +112,7 @@ D. Report generation
 
 ---
 
-### Q11 (BD-6.1, K2)
+### 🔷 Q11 (BD-6.1, K2)
 
 Which is NOT a feature of Great Expectations?
 
@@ -123,7 +123,7 @@ D. Integration with Pandas and Spark
 
 ---
 
-### Q12 (BD-6.2, K2)
+### 🔷 Q12 (BD-6.2, K2)
 
 iCEDQ is:
 
@@ -134,7 +134,7 @@ D. A streaming platform
 
 ---
 
-### Q13 (BD-6.4, K2)
+### 🔷 Q13 (BD-6.4, K2)
 
 Performance regression testing in CI/CD compares:
 
@@ -145,7 +145,7 @@ D. File sizes
 
 ---
 
-### Q14 (BD-6.5, K2)
+### 🔷 Q14 (BD-6.5, K2)
 
 A hash-based comparison of datasets works by:
 
@@ -156,7 +156,7 @@ D. Comparing file names
 
 ---
 
-### Q15 (BD-6.6, K2)
+### 🔷 Q15 (BD-6.6, K2)
 
 Data observability platforms like Monte Carlo are used for:
 
@@ -167,7 +167,7 @@ D. Managing user accounts
 
 ---
 
-### Q16 (BD-6.3, K2)
+### 🔷 Q16 (BD-6.3, K2)
 
 Spark Testing Base is a library for:
 
@@ -178,7 +178,7 @@ D. Scheduling Spark jobs
 
 ---
 
-### Q17 (BD-6.4, K3)
+### 🔷 Q17 (BD-6.4, K3)
 
 A CI/CD pipeline for a data pipeline should include all EXCEPT:
 
@@ -189,7 +189,7 @@ D. Manual data entry validation
 
 ---
 
-### Q18 (BD-6.1, K2)
+### 🔷 Q18 (BD-6.1, K2)
 
 Data quality constraints in Deequ can include:
 
@@ -200,7 +200,7 @@ D. Only file size checks
 
 ---
 
-### Q19 (BD-6.5, K2)
+### 🔷 Q19 (BD-6.5, K2)
 
 Sampling-based comparison is:
 
@@ -211,7 +211,7 @@ D. Only comparing metadata
 
 ---
 
-### Q20 (BD-6.4, K2)
+### 🔷 Q20 (BD-6.4, K2)
 
 The PRIMARY benefit of automated data quality checks in CI/CD is:
 
@@ -222,104 +222,104 @@ D. Reducing storage costs
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** Deequ = data quality library built on Apache Spark.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** Great Expectations = Python framework for data expectations and validation.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** QuerySurge = automated source-to-target comparison for ETL testing.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** Spark unit tests run in local mode with small controlled datasets.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** Data quality gate = fail pipeline if quality falls below thresholds.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** Large dataset comparison = aggregation-based or hash-based sampling.
 
-### Q7
+### 🔷 Q7
 **Answer: A**
 
 **Rationale:** Anomaly detection = unexpected volume/distribution changes.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** pytest-spark = testing PySpark code with pytest.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** Schema compatibility = ensure changes don't break downstream consumers.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** Apache Atlas = metadata management, governance, lineage.
 
-### Q11
+### 🔷 Q11
 **Answer: C**
 
 **Rationale:** Great Expectations does not run MapReduce jobs. It validates data.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** iCEDQ = data validation and reconciliation platform.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** Performance regression = compare current time to baseline.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** Hash-based comparison = compute and compare cryptographic hashes.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** Monte Carlo = data observability, anomaly detection, incident management.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 
 **Rationale:** Spark Testing Base = unit testing Spark programs in Scala.
 
-### Q17
+### 🔷 Q17
 **Answer: D**
 
 **Rationale:** Manual data entry validation = not a CI/CD pipeline component.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 
 **Rationale:** Deequ supports completeness, uniqueness, range, containment checks.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** Sampling-based = compare random sample to infer overall correctness.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 
 **Rationale:** Automated quality checks in CI/CD = catch regressions early.

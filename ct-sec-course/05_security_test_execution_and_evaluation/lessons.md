@@ -1,14 +1,14 @@
-# Chapter 5 — Security Test Execution and Evaluation: Lessons
+# 📘 Chapter 5 — Security Test Execution and Evaluation: Lessons
 
 ---
 
-## 5.1 CVSS (Common Vulnerability Scoring System)
+## ⭐ 5.1 CVSS (Common Vulnerability Scoring System)
 
-### What is CVSS?
+### 🔷 What is CVSS?
 
 CVSS is a standardized framework for rating the severity of security vulnerabilities. Version 3.1 is the current standard.
 
-### Base Score Metrics
+### 📊 Base Score Metrics
 
 The base score represents the intrinsic characteristics of a vulnerability.
 
@@ -30,7 +30,7 @@ The base score represents the intrinsic characteristics of a vulnerability.
 | **Integrity Impact (I)** | None (N), Low (L), High (H) | Impact on integrity |
 | **Availability Impact (A)** | None (N), Low (L), High (H) | Impact on availability |
 
-### Severity Ratings
+### 🔷 Severity Ratings
 
 | Score | Severity |
 |-------|----------|
@@ -40,7 +40,7 @@ The base score represents the intrinsic characteristics of a vulnerability.
 | 7.0 – 8.9 | High |
 | 9.0 – 10.0 | Critical |
 
-### Worked Example: CVSS Calculation
+### 💡 Worked Example: CVSS Calculation
 
 **Vulnerability:** SQL injection in a public web application
 
@@ -74,9 +74,9 @@ The base score represents the intrinsic characteristics of a vulnerability.
 
 ---
 
-## 5.2 Vulnerability Prioritization
+## ⭐ 5.2 Vulnerability Prioritization
 
-### Factors Beyond CVSS
+### 🔷 Factors Beyond CVSS
 
 CVSS base score alone is insufficient for prioritization. Consider:
 
@@ -100,7 +100,7 @@ CVSS base score alone is insufficient for prioritization. Consider:
 - Can it be mitigated with WAF rules or configuration changes?
 - Does fixing it require architectural changes?
 
-### Prioritization Framework
+### 🔷 Prioritization Framework
 
 | Priority | Criteria | Action Timeline |
 |----------|----------|-----------------|
@@ -111,9 +111,9 @@ CVSS base score alone is insufficient for prioritization. Consider:
 
 ---
 
-## 5.3 Security Test Reporting
+## 📝 5.3 Security Test Reporting
 
-### Report Components
+### 📝 Report Components
 
 **1. Executive Summary:**
 - Overall risk posture
@@ -144,7 +144,7 @@ CVSS base score alone is insufficient for prioritization. Consider:
 - Tools used
 - Glossary
 
-### Effective Report Writing
+### 📝 Effective Report Writing
 
 **Be specific:**
 - Bad: "The application has XSS."
@@ -167,9 +167,9 @@ CVSS base score alone is insufficient for prioritization. Consider:
 
 ---
 
-## 5.4 Remediation and Verification
+## ⭐ 5.4 Remediation and Verification
 
-### Remediation Process
+### 🔷 Remediation Process
 
 ```
 1. Triage findings (validate, prioritize)
@@ -180,7 +180,7 @@ CVSS base score alone is insufficient for prioritization. Consider:
 6. Document (what was fixed, when, by whom)
 ```
 
-### Verification Testing
+### 🔷 Verification Testing
 
 **Purpose:** Confirm that vulnerabilities have been fixed and no new issues were introduced.
 
@@ -205,9 +205,9 @@ Verification:
 
 ---
 
-## 5.5 False Positives and False Negatives
+## ⭐ 5.5 False Positives and False Negatives
 
-### False Positive
+### 🔷 False Positive
 
 **Definition:** A test result that incorrectly indicates a vulnerability exists when it does not.
 
@@ -222,7 +222,7 @@ Verification:
 - Tune tools to reduce future false positives
 - Maintain a whitelist of accepted findings
 
-### False Negative
+### 🔷 False Negative
 
 **Definition:** A failure to detect a vulnerability that actually exists.
 
@@ -249,9 +249,9 @@ Verification:
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: CVSS Comparison
+### 💡 Worked Example 1: CVSS Comparison
 
 **Two vulnerabilities in the same application:**
 
@@ -272,7 +272,7 @@ Verification:
 - If the application has many public users, A could be used for phishing campaigns
 - **Decision:** Fix B first (higher impact if exploited), but don't ignore A
 
-### Worked Example 2: Remediation Plan
+### 💡 Worked Example 2: Remediation Plan
 
 **Penetration test findings:**
 
@@ -291,7 +291,7 @@ Verification:
 - SEC-004: Trigger errors → verify generic messages; no stack traces
 - SEC-005: Inject script in profile → verify encoding; no script execution
 
-### Worked Example 3: False Positive Analysis
+### 💡 Worked Example 3: False Positive Analysis
 
 **Scenario:** SAST tool reports 500 "SQL injection" findings.
 

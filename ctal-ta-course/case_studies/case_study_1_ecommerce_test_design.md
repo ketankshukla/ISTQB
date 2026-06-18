@@ -1,10 +1,10 @@
-# Case Study 1 — E-Commerce Checkout Test Design
+# 📂 Case Study 1 — E-Commerce Checkout Test Design
 
-## Context
+## ⭐ Context
 
 You are a Senior Test Analyst for ShopFlow, a mid-sized e-commerce company. The development team has just completed a major redesign of the checkout process. Your task is to design comprehensive tests for this feature.
 
-## The Checkout Feature
+## ⭐ The Checkout Feature
 
 The checkout process has the following requirements:
 
@@ -45,7 +45,7 @@ The checkout process has the following requirements:
 
 ---
 
-## Task 1: Equivalence Partitioning and Boundary Value Analysis
+## 📏 Task 1: Equivalence Partitioning and Boundary Value Analysis
 
 Apply EP and 2-value BVA to the following fields:
 
@@ -99,7 +99,7 @@ EP Partitions:
 
 ---
 
-## Task 2: Decision Table Testing
+## 🗂️ Task 2: Decision Table Testing
 
 Create a decision table for payment processing based on:
 - Customer type (Guest, Registered)
@@ -139,7 +139,7 @@ Simplified Rules (selected examples):
 
 ---
 
-## Task 3: State Transition Testing
+## 🔄 Task 3: State Transition Testing
 
 Model the order status lifecycle and identify test cases for 1-switch coverage.
 
@@ -180,7 +180,7 @@ Transitions:
 
 ---
 
-## Task 4: Technique Selection and Justification
+## 🎯 Task 4: Technique Selection and Justification
 
 For each requirement R1-R6, select the most appropriate test design technique(s) and justify your choice.
 
@@ -197,7 +197,7 @@ For each requirement R1-R6, select the most appropriate test design technique(s)
 
 ---
 
-## Task 5: Risk-Based Test Selection
+## ⚠️ Task 5: Risk-Based Test Selection
 
 The project is behind schedule. You can only execute 60% of your planned tests. Which tests would you prioritize and why?
 

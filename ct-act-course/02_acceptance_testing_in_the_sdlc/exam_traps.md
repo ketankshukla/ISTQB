@@ -1,6 +1,6 @@
-# Chapter 2 — Acceptance Testing in the SDLC: Exam Traps
+# 🪤 Chapter 2 — Acceptance Testing in the SDLC: Exam Traps
 
-## Trap 1: Thinking Acceptance Testing Only Happens at the End
+## 🪤 Trap 1: Thinking Acceptance Testing Only Happens at the End
 
 **Trap:** In agile and iterative models, acceptance is continuous, not just a final phase.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Confusing Entry and Exit Criteria
+## 🪤 Trap 2: Confusing Entry and Exit Criteria
 
 **Trap:** Entry criteria = what must be true to START. Exit criteria = what must be true to STOP/FINISH.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Confusing Sprint Review with Formal Acceptance
+## 🪤 Trap 3: Confusing Sprint Review with Formal Acceptance
 
 **Trap:** Sprint review is an informal demo for feedback. Formal acceptance testing is structured validation against criteria.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Ignoring Traceability
+## 🪤 Trap 4: Ignoring Traceability
 
 **Trap:** Traceability links requirements to tests to defects. Without it, coverage gaps and impact of changes are unknown.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Thinking the V-Model Means No Early Testing
+## 🪤 Trap 5: Thinking the V-Model Means No Early Testing
 
 **Trap:** The V-model shows corresponding test levels, but test planning and preparation should start early.
 

@@ -1,10 +1,10 @@
-# Chapter 3 — Selection Criteria for Test Case Generation: Lessons
+# 📘 Chapter 3 — Selection Criteria for Test Case Generation: Lessons
 
 ---
 
-## 3.1 State Transition Coverage Criteria
+## 📊 3.1 State Transition Coverage Criteria
 
-### What are Switch Coverages?
+### 📊 What are Switch Coverages?
 
 Switch coverage criteria define how many consecutive transitions must be exercised by test cases. They are hierarchical — higher switch numbers require more tests and provide more coverage.
 
@@ -23,7 +23,7 @@ Switch coverage criteria define how many consecutive transitions must be exercis
 - For every transition A→B and every transition B→C, the sequence A→B→C must be tested.
 - Also called "transition pair coverage" or "adjacent transition coverage."
 
-### Example: Calculating Coverage
+### 💡 Example: Calculating Coverage
 
 **State Machine:**
 
@@ -62,7 +62,7 @@ Switch coverage criteria define how many consecutive transitions must be exercis
 - Pairs: (T1,T3), (T1,T4), (T2,none)
 - Minimum: 2 test cases cover the pairs: S1→S2→S4 and S1→S2→S3
 
-### Coverage Calculation
+### 📊 Coverage Calculation
 
 **Coverage % = (Covered Elements / Total Elements) × 100**
 
@@ -73,9 +73,9 @@ Example:
 
 ---
 
-## 3.2 Boundary Testing on Models
+## 📏 3.2 Boundary Testing on Models
 
-### Boundary Testing Applied to State Machines
+### 📏 Boundary Testing Applied to State Machines
 
 State machines often include variables that affect guards. Boundary testing on these variables ensures that transitions occur correctly at boundary values.
 
@@ -87,7 +87,7 @@ A guard condition "Balance >= 100" defines a boundary at 100.
 - Balance = 100 (at boundary) → Guard is true, transition occurs
 - Balance = 101 (just above boundary) → Guard is true, transition occurs
 
-### Variables in Guards
+### 🔷 Variables in Guards
 
 Common variables that require boundary testing in state machines:
 - Counters (attempts, items, notifications)
@@ -97,9 +97,9 @@ Common variables that require boundary testing in state machines:
 
 ---
 
-## 3.3 Coverage Criteria Selection
+## 📊 3.3 Coverage Criteria Selection
 
-### Choosing the Right Coverage Criterion
+### 📊 Choosing the Right Coverage Criterion
 
 | Criterion | Test Suite Size | Defect Detection | When to Use |
 |-----------|----------------|-----------------|-------------|
@@ -110,7 +110,7 @@ Common variables that require boundary testing in state machines:
 
 **Trade-off:** Higher coverage requires more tests, which takes more time to execute and maintain.
 
-### Infeasible Paths
+### 🔷 Infeasible Paths
 
 Some paths through a model may be impossible to execute in the real system due to:
 - Implementation constraints not captured in the model
@@ -124,9 +124,9 @@ Some paths through a model may be impossible to execute in the real system due t
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Coverage Calculation
+### 💡 Worked Example 1: Coverage Calculation
 
 **State Machine:**
 
@@ -168,7 +168,7 @@ Some paths through a model may be impossible to execute in the real system due t
 - States: 4/4 = 100%
 - Transitions: 5/5 = 100%
 
-### Worked Example 2: Transition Pair Coverage
+### 💡 Worked Example 2: Transition Pair Coverage
 
 **State Machine:**
 

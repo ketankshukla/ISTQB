@@ -1,10 +1,10 @@
-# CT-TAS Mock Exam 1
+# 📝 CT-TAS Mock Exam 1
 
 **Instructions:** 40 questions, 60 minutes, single best answer.
 
 ---
 
-### Q1-Q10
+### 🔷 Q1-Q10
 
 1. Automation strategy answers: A) Script syntax B) Why, what, how, when at high level C) Only tools D) Only data — **Why, what, how, when at high level**
 2. Strategy vs execution: A) Same B) Strategy = plan; execution = scripts C) Only managers D) Only devs — **Strategy = plan; execution = scripts**
@@ -19,7 +19,7 @@
 
 ---
 
-### Q11-Q20
+### 🔷 Q11-Q20
 
 11. Business case components: A) Only tool names B) Problem, objectives, costs, benefits, ROI, risks C) Only scripts D) Only dev names — **Problem, objectives, costs, benefits, ROI, risks**
 12. Time savings: 50 runs/year × 2 hours = A) 50 B) 100 C) 25 D) 200 — **100**
@@ -34,7 +34,7 @@
 
 ---
 
-### Q21-Q30
+### 🔷 Q21-Q30
 
 21. TAA defines: A) Scripts B) High-level structure C) Only tools D) Only data — **High-level structure**
 22. Data-driven framework: A) Only runner B) Logic from data C) Only reporting D) Only config — **Logic from data**
@@ -49,7 +49,7 @@
 
 ---
 
-### Q31-Q40
+### 🔷 Q31-Q40
 
 31. Coding standards: A) Speed B) Maintainability + collaboration C) Licensing D) Count — **Maintainability + collaboration**
 32. Every commit: A) Full regression B) Fast smoke tests C) Manual D) Perf — **Fast smoke tests**
@@ -64,4 +64,4 @@
 
 ---
 
-## End of Mock Exam 1
+## 📝 End of Mock Exam 1

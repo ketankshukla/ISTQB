@@ -1,8 +1,8 @@
-# Chapter 3 — Automotive Software Development and Testing: Practice Questions
+# ❓ Chapter 3 — Automotive Software Development and Testing: Practice Questions
 
 ---
 
-### Q1 (AuT-3.1, K2)
+### 🔷 Q1 (AuT-3.1, K2)
 
 The automotive software development lifecycle includes:
 
@@ -13,7 +13,7 @@ D. Only maintenance
 
 ---
 
-### Q2 (AuT-3.2, K2)
+### 🔷 Q2 (AuT-3.2, K2)
 
 Unit testing in automotive typically occurs on:
 
@@ -24,7 +24,7 @@ D. Only on a test track
 
 ---
 
-### Q3 (AuT-3.3, K2)
+### 🔷 Q3 (AuT-3.3, K2)
 
 Forward traceability ensures:
 
@@ -35,7 +35,7 @@ D. Only bug tracking
 
 ---
 
-### Q4 (AuT-3.4, K2)
+### 🔷 Q4 (AuT-3.4, K2)
 
 Configuration management for testing includes:
 
@@ -46,7 +46,7 @@ D. Only design documents
 
 ---
 
-### Q5 (AuT-3.1, K2)
+### 🔷 Q5 (AuT-3.1, K2)
 
 Agile approaches in automotive:
 
@@ -57,7 +57,7 @@ D. Only work for small teams
 
 ---
 
-### Q6 (AuT-3.2, K2)
+### 🔷 Q6 (AuT-3.2, K2)
 
 HIL (Hardware in the Loop) testing is used for:
 
@@ -68,7 +68,7 @@ D. Only documentation
 
 ---
 
-### Q7 (AuT-3.3, K2)
+### 🔷 Q7 (AuT-3.3, K2)
 
 Bidirectional traceability includes:
 
@@ -79,7 +79,7 @@ D. Only sideways
 
 ---
 
-### Q8 (AuT-3.4, K2)
+### 🔷 Q8 (AuT-3.4, K2)
 
 A product baseline is established when:
 
@@ -90,7 +90,7 @@ D. Only during maintenance
 
 ---
 
-### Q9 (AuT-3.1, K2)
+### 🔷 Q9 (AuT-3.1, K2)
 
 System testing in automotive focuses on:
 
@@ -101,7 +101,7 @@ D. Only user interface
 
 ---
 
-### Q10 (AuT-3.2, K2)
+### 🔷 Q10 (AuT-3.2, K2)
 
 PIL (Processor in the Loop) testing:
 
@@ -112,7 +112,7 @@ D. Only works in a vehicle
 
 ---
 
-### Q11 (AuT-3.3, K2)
+### 🔷 Q11 (AuT-3.3, K2)
 
 Traceability tools like DOORS help with:
 
@@ -123,7 +123,7 @@ D. Only deploying updates
 
 ---
 
-### Q12 (AuT-3.4, K2)
+### 🔷 Q12 (AuT-3.4, K2)
 
 Regression testing should be:
 
@@ -134,7 +134,7 @@ D. Only for bug fixes
 
 ---
 
-### Q13 (AuT-3.1, K2)
+### 🔷 Q13 (AuT-3.1, K2)
 
 Acceptance testing in automotive typically occurs:
 
@@ -145,7 +145,7 @@ D. Only during design
 
 ---
 
-### Q14 (AuT-3.2, K2)
+### 🔷 Q14 (AuT-3.2, K2)
 
 MC/DC coverage is required for:
 
@@ -156,7 +156,7 @@ D. Only body electronics
 
 ---
 
-### Q15 (AuT-3.3, K2)
+### 🔷 Q15 (AuT-3.3, K2)
 
 Impact analysis when requirements change uses:
 
@@ -167,7 +167,7 @@ D. Only code comments
 
 ---
 
-### Q16 (AuT-3.4, K2)
+### 🔷 Q16 (AuT-3.4, K2)
 
 OTA update testing must include:
 
@@ -178,7 +178,7 @@ D. Only user interface
 
 ---
 
-### Q17 (AuT-3.1, K2)
+### 🔷 Q17 (AuT-3.1, K2)
 
 The integration test level focuses on:
 
@@ -189,7 +189,7 @@ D. Only performance
 
 ---
 
-### Q18 (AuT-3.2, K2)
+### 🔷 Q18 (AuT-3.2, K2)
 
 Static analysis is performed during:
 
@@ -200,7 +200,7 @@ D. Only maintenance
 
 ---
 
-### Q19 (AuT-3.3, K2)
+### 🔷 Q19 (AuT-3.3, K2)
 
 A traceability matrix shows:
 
@@ -211,7 +211,7 @@ D. Only bug counts
 
 ---
 
-### Q20 (AuT-3.4, K2)
+### 🔷 Q20 (AuT-3.4, K2)
 
 Test environments in automotive must be:
 
@@ -222,84 +222,84 @@ D. Only manual
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** Lifecycle = requirements → acceptance.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** Unit = host or target.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** Forward = req → test (coverage).
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** CM = requirements + code + tests + data + envs.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Agile adapted; safety = V-model.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** HIL = real ECU + simulated env.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Bidirectional = forward + backward.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Product baseline = approved code + tests.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** System = requirements + safety.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** PIL = target processor + simulated env.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** DOORS = links + coverage.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Regression = risk-based.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Acceptance = vehicle/track.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** MC/DC = high ASIL.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Impact = traceability links.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** OTA = install + rollback + compatibility.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Integration = interfaces + interactions.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Static analysis = implementation.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Matrix = req → design → code → test.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** Environments = controlled + reproducible.

@@ -1,6 +1,6 @@
-# Chapter 1 — Introduction to Performance Testing: Exam Traps
+# 🪤 Chapter 1 — Introduction to Performance Testing: Exam Traps
 
-## Trap 1: Performance Testing is Only Load Testing
+## 🪤 Trap 1: Performance Testing is Only Load Testing
 
 **Trap:** Performance testing includes load, stress, spike, endurance, scalability, and volume testing.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Response Time Equals Throughput
+## 🪤 Trap 2: Response Time Equals Throughput
 
 **Trap:** Response time is duration per request; throughput is requests per unit time. They are related but distinct.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Performance Testing Only Happens at the End
+## 🪤 Trap 3: Performance Testing Only Happens at the End
 
 **Trap:** Performance considerations should be included from requirements through production.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Only One Metric Matters
+## 🪤 Trap 4: Only One Metric Matters
 
 **Trap:** Response time, throughput, and resource utilization must be analyzed together.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Performance Testing is a One-Time Activity
+## 🪤 Trap 5: Performance Testing is a One-Time Activity
 
 **Trap:** Systems change; continuous performance monitoring is needed.
 

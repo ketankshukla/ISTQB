@@ -1,8 +1,8 @@
-# Chapter 2 — Automotive Software Basics: Practice Questions
+# ❓ Chapter 2 — Automotive Software Basics: Practice Questions
 
 ---
 
-### Q1 (AuT-2.1, K1)
+### 🔷 Q1 (AuT-2.1, K1)
 
 An ECU contains:
 
@@ -13,7 +13,7 @@ D. Only a battery
 
 ---
 
-### Q2 (AuT-2.2, K1)
+### 🔷 Q2 (AuT-2.2, K1)
 
 CAN bus speed is up to:
 
@@ -24,7 +24,7 @@ D. 100 Mbps
 
 ---
 
-### Q3 (AuT-2.3, K2)
+### 🔷 Q3 (AuT-2.3, K2)
 
 ASIL D represents:
 
@@ -35,7 +35,7 @@ D. Only body control
 
 ---
 
-### Q4 (AuT-2.4, K2)
+### 🔷 Q4 (AuT-2.4, K2)
 
 QM components:
 
@@ -46,7 +46,7 @@ D. Only need automated testing
 
 ---
 
-### Q5 (AuT-2.5, K2)
+### 🔷 Q5 (AuT-2.5, K2)
 
 The V-model in automotive includes test levels:
 
@@ -57,7 +57,7 @@ D. Only acceptance testing
 
 ---
 
-### Q6 (AuT-2.2, K1)
+### 🔷 Q6 (AuT-2.2, K1)
 
 LIN bus is used for:
 
@@ -68,7 +68,7 @@ D. Only brake systems
 
 ---
 
-### Q7 (AuT-2.3, K2)
+### 🔷 Q7 (AuT-2.3, K2)
 
 ASIL is determined by:
 
@@ -79,7 +79,7 @@ D. Only developer experience
 
 ---
 
-### Q8 (AuT-2.4, K2)
+### 🔷 Q8 (AuT-2.4, K2)
 
 ASIL D requires:
 
@@ -90,7 +90,7 @@ D. Only unit tests
 
 ---
 
-### Q9 (AuT-2.5, K2)
+### 🔷 Q9 (AuT-2.5, K2)
 
 HIL testing occurs at:
 
@@ -101,7 +101,7 @@ D. Only vehicle level
 
 ---
 
-### Q10 (AuT-2.2, K1)
+### 🔷 Q10 (AuT-2.2, K1)
 
 FlexRay is characterized by:
 
@@ -112,7 +112,7 @@ D. Only for diagnostics
 
 ---
 
-### Q11 (AuT-2.1, K1)
+### 🔷 Q11 (AuT-2.1, K1)
 
 AUTOSAR RTE provides:
 
@@ -123,7 +123,7 @@ D. Only power management
 
 ---
 
-### Q12 (AuT-2.3, K2)
+### 🔷 Q12 (AuT-2.3, K2)
 
 A headlight control function with S1, E2, C2 is:
 
@@ -134,7 +134,7 @@ D. ASIL C
 
 ---
 
-### Q13 (AuT-2.4, K2)
+### 🔷 Q13 (AuT-2.4, K2)
 
 MC/DC coverage is required for:
 
@@ -145,7 +145,7 @@ D. Only body control
 
 ---
 
-### Q14 (AuT-2.5, K2)
+### 🔷 Q14 (AuT-2.5, K2)
 
 MIL testing uses:
 
@@ -156,7 +156,7 @@ D. Only vehicle prototypes
 
 ---
 
-### Q15 (AuT-2.2, K1)
+### 🔷 Q15 (AuT-2.2, K1)
 
 Ethernet in vehicles is primarily for:
 
@@ -167,7 +167,7 @@ D. Only wiper control
 
 ---
 
-### Q16 (AuT-2.3, K2)
+### 🔷 Q16 (AuT-2.3, K2)
 
 Steering assist with S3, E4, C3 is likely:
 
@@ -178,7 +178,7 @@ D. ASIL B
 
 ---
 
-### Q17 (AuT-2.1, K1)
+### 🔷 Q17 (AuT-2.1, K1)
 
 Flash memory in an ECU stores:
 
@@ -189,7 +189,7 @@ D. Only network logs
 
 ---
 
-### Q18 (AuT-2.4, K2)
+### 🔷 Q18 (AuT-2.4, K2)
 
 Safety-critical components require:
 
@@ -200,7 +200,7 @@ D. Only developer testing
 
 ---
 
-### Q19 (AuT-2.5, K2)
+### 🔷 Q19 (AuT-2.5, K2)
 
 Vehicle testing in the V-model:
 
@@ -211,7 +211,7 @@ D. Only tests hardware
 
 ---
 
-### Q20 (AuT-2.2, K2)
+### 🔷 Q20 (AuT-2.2, K2)
 
 CAN bus uses:
 
@@ -222,84 +222,84 @@ D. Only fiber optic
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** ECU = microcontroller + memory + sensors + actuators + comm.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** CAN = up to 1 Mbps.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** ASIL D = highest risk.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** QM = standard testing, no safety rigor.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** V-model = MIL + SIL + PIL + HIL + vehicle.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** LIN = low-cost body functions.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** ASIL = S x E x C.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** ASIL D = MC/DC + formal + traceability.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** HIL = subsystem/integration level.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** FlexRay = high speed + deterministic.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** RTE = message passing.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** S1 + E2 + C2 = ASIL A.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** MC/DC = higher ASIL (C, D).
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** MIL = simulation models.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Ethernet = ADAS + infotainment + high bandwidth.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** S3 + E4 + C3 = ASIL D.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Flash = program + calibration data.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Safety-critical = formal inspections.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Vehicle testing = complete system in real vehicle.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** CAN = differential pair for noise immunity.

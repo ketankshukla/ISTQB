@@ -1,6 +1,6 @@
-# Case Study 3 — Continuous Testing in DevOps
+# 📂 Case Study 3 — Continuous Testing in DevOps
 
-## Context
+## ⭐ Context
 
 You are the Technical Test Lead for HealthCloud, a healthcare SaaS platform. The company:
 - 50+ microservices, Kubernetes deployment
@@ -15,7 +15,7 @@ You are the Technical Test Lead for HealthCloud, a healthcare SaaS platform. The
 - Performance regressions discovered by customers
 - 40% of incidents are traced to configuration changes
 
-## Task 1: Continuous Testing Strategy
+## ♟️ Task 1: Continuous Testing Strategy
 
 **Question:** Design a continuous testing strategy for HealthCloud.
 
@@ -60,7 +60,7 @@ You are the Technical Test Lead for HealthCloud, a healthcare SaaS platform. The
 
 ---
 
-## Task 2: Test Environment Strategy
+## ♟️ Task 2: Test Environment Strategy
 
 **Question:** Design reliable test environments for microservices.
 
@@ -109,7 +109,7 @@ services:
 
 ---
 
-## Task 3: Security Testing in CI/CD
+## 🔒 Task 3: Security Testing in CI/CD
 
 **Question:** Design security testing for HIPAA-compliant healthcare software.
 
@@ -161,7 +161,7 @@ services:
 
 ---
 
-## Task 4: Performance Testing in Agile
+## ⚡ Task 4: Performance Testing in Agile
 
 **Question:** Integrate performance testing into HealthCloud's agile process.
 
@@ -207,7 +207,7 @@ Result:  50% regression → Investigate before release
 
 ---
 
-## Task 5: Incident Response and Testing
+## ⭐ Task 5: Incident Response and Testing
 
 **Question:** An incident in production was caused by a configuration change. How does testing prevent recurrence?
 

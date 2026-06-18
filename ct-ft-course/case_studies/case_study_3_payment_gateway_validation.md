@@ -1,6 +1,6 @@
-# Case Study 3 — Payment Gateway Validation
+# 📂 Case Study 3 — Payment Gateway Validation
 
-## Context
+## ⭐ Context
 
 You are the Test Manager for PayFast, a payment processor integrating a new gateway for e-commerce merchants.
 
@@ -19,7 +19,7 @@ You are the Test Manager for PayFast, a payment processor integrating a new gate
 
 ---
 
-## Task 1: Authorization Testing
+## ⭐ Task 1: Authorization Testing
 
 **Question:** Design comprehensive authorization tests.
 
@@ -40,7 +40,7 @@ You are the Test Manager for PayFast, a payment processor integrating a new gate
 
 ---
 
-## Task 2: Settlement and Reconciliation
+## ⭐ Task 2: Settlement and Reconciliation
 
 **Question:** Verify end-to-end settlement flow.
 
@@ -63,7 +63,7 @@ You are the Test Manager for PayFast, a payment processor integrating a new gate
 
 ---
 
-## Task 3: Performance and Load Testing
+## ⚡ Task 3: Performance and Load Testing
 
 **Question:** Validate performance under Black Friday load.
 
@@ -85,7 +85,7 @@ You are the Test Manager for PayFast, a payment processor integrating a new gate
 
 ---
 
-## Task 4: PCI-DSS Compliance
+## ⭐ Task 4: PCI-DSS Compliance
 
 **Question:** Verify PCI-DSS controls for the gateway.
 

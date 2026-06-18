@@ -1,8 +1,8 @@
-# Chapter 3 — Testing AI-Based Systems: Practice Questions
+# ❓ Chapter 3 — Testing AI-Based Systems: Practice Questions
 
 ---
 
-### Q1 (AI-3.1, K2)
+### 🤖 Q1 (AI-3.1, K2)
 
 Testing AI-based systems requires:
 
@@ -13,7 +13,7 @@ D. Only performance testing
 
 ---
 
-### Q2 (AI-3.2, K2)
+### 🤖 Q2 (AI-3.2, K2)
 
 The "test oracle problem" in AI refers to:
 
@@ -24,7 +24,7 @@ D. A problem with database queries
 
 ---
 
-### Q3 (AI-3.3, K2)
+### 🤖 Q3 (AI-3.3, K2)
 
 Metamorphic testing is useful for AI because it:
 
@@ -35,7 +35,7 @@ D. Replaces all other testing
 
 ---
 
-### Q4 (AI-3.3, K3)
+### 🤖 Q4 (AI-3.3, K3)
 
 A metamorphic relation for an image classifier could be:
 
@@ -46,7 +46,7 @@ D. "Only color images should be accepted"
 
 ---
 
-### Q5 (AI-3.4, K2)
+### 🤖 Q5 (AI-3.4, K2)
 
 A/B testing compares two AI models by:
 
@@ -57,7 +57,7 @@ D. Comparing training times only
 
 ---
 
-### Q6 (AI-3.5, K2)
+### 🤖 Q6 (AI-3.5, K2)
 
 Adversarial examples are:
 
@@ -68,7 +68,7 @@ D. Always obvious to human observers
 
 ---
 
-### Q7 (AI-3.2, K3)
+### 🤖 Q7 (AI-3.2, K3)
 
 A medical AI system classifies X-rays. For 100 test cases, there is no single "correct" diagnosis because multiple experts disagree. The BEST testing approach is:
 
@@ -79,7 +79,7 @@ D. Declare the system cannot be tested
 
 ---
 
-### Q8 (AI-3.3, K3)
+### 🤖 Q8 (AI-3.3, K3)
 
 For a machine translation system, a valid metamorphic relation is:
 
@@ -90,7 +90,7 @@ D. "Only short sentences should be translated"
 
 ---
 
-### Q9 (AI-3.5, K2)
+### 🤖 Q9 (AI-3.5, K2)
 
 Adversarial testing is important for safety-critical AI because:
 
@@ -101,7 +101,7 @@ D. It speeds up training
 
 ---
 
-### Q10 (AI-3.4, K3)
+### 🤖 Q10 (AI-3.4, K3)
 
 In an A/B test, a guardrail metric is:
 
@@ -112,7 +112,7 @@ D. A metric for security testing
 
 ---
 
-### Q11 (AI-3.1, K2)
+### 🤖 Q11 (AI-3.1, K2)
 
 A shadow deployment of an AI model:
 
@@ -123,7 +123,7 @@ D. Deploys to all users at once
 
 ---
 
-### Q12 (AI-3.2, K2)
+### 🤖 Q12 (AI-3.2, K2)
 
 A statistical oracle for an AI system might use:
 
@@ -134,7 +134,7 @@ D. Only the training data
 
 ---
 
-### Q13 (AI-3.3, K3)
+### 🤖 Q13 (AI-3.3, K3)
 
 A sentiment analysis system classifies "This product is great" as positive. A follow-up test with "This product is not great" should be classified as:
 
@@ -145,7 +145,7 @@ D. Requires human translation
 
 ---
 
-### Q14 (AI-3.5, K2)
+### 🤖 Q14 (AI-3.5, K2)
 
 Which is a valid defense against adversarial examples?
 
@@ -156,7 +156,7 @@ D. Using only one model
 
 ---
 
-### Q15 (AI-3.4, K3)
+### 🤖 Q15 (AI-3.4, K3)
 
 An A/B test for a search algorithm runs for 3 days and shows a 2% improvement with p = 0.20. The BEST action is:
 
@@ -167,7 +167,7 @@ D. Increase the improvement target to 10%
 
 ---
 
-### Q16 (AI-3.1, K2)
+### 🤖 Q16 (AI-3.1, K2)
 
 Integration testing of an AI system should include:
 
@@ -178,7 +178,7 @@ D. Only unit tests
 
 ---
 
-### Q17 (AI-3.2, K3)
+### 🤖 Q17 (AI-3.2, K3)
 
 A model achieves 95% accuracy on a test set. However, the test set contains 90% "easy" cases and 10% "hard" cases. The model scores 50% on hard cases. The problem is:
 
@@ -189,7 +189,7 @@ D. Hard cases are not important
 
 ---
 
-### Q18 (AI-3.4, K2)
+### 🤖 Q18 (AI-3.4, K2)
 
 The primary purpose of A/B testing is to:
 
@@ -200,7 +200,7 @@ D. Test the database performance
 
 ---
 
-### Q19 (AI-3.5, K3)
+### 🤖 Q19 (AI-3.5, K3)
 
 A self-driving car vision system correctly identifies a stop sign. An adversarial version of the same stop sign (with small stickers) is classified as a speed limit sign. This demonstrates:
 
@@ -211,7 +211,7 @@ D. Small stickers do not matter
 
 ---
 
-### Q20 (AI-3.3, K2)
+### 🤖 Q20 (AI-3.3, K2)
 
 Metamorphic relations should be:
 
@@ -222,104 +222,104 @@ D. Replaced by exact expected outputs when possible
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** AI needs specialized testing due to probabilistic behavior and incomplete specifications.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** Oracle problem = difficulty knowing the expected correct output.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** Metamorphic testing checks relationships without exact expected outputs.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** Rotating a cat image should still classify as cat = valid metamorphic relation.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** A/B testing compares models by measuring real user behavior across groups.
 
-### Q6
+### 🔷 Q6
 **Answer: A**
 
 **Rationale:** Adversarial examples = inputs designed to cause mistakes while appearing normal.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** Statistical oracle with expert agreement baseline handles ambiguous cases.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** Round-trip translation preserving meaning = valid metamorphic relation.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** Small perturbations causing misclassification = safety risk.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** Guardrail metrics must not degrade during A/B testing.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 
 **Rationale:** Shadow deployment runs new model alongside production without affecting users.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** Statistical oracles use metrics like accuracy, precision, recall as thresholds.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** Negation should flip sentiment = metamorphic relation.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** Adversarial training includes adversarial examples in training data.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** p = 0.20 is not statistically significant. Continue testing.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 
 **Rationale:** Integration testing includes AI component with full system and fallbacks.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 
 **Rationale:** Accuracy alone is misleading. Hard cases are underrepresented and poorly handled.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 
 **Rationale:** A/B testing compares versions using controlled experiments.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** Misclassification from small stickers = lack of robustness to adversarial inputs.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 
 **Rationale:** Metamorphic relations = properties holding across related inputs.

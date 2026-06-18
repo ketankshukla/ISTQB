@@ -1,10 +1,10 @@
-# Chapter 6 — MBT Tool Support: Lessons
+# 📘 Chapter 6 — MBT Tool Support: Lessons
 
 ---
 
-## 6.1 Categories of MBT Tools
+## 🛠️ 6.1 Categories of MBT Tools
 
-### Modeling Tools
+### 🛠️ Modeling Tools
 
 **Purpose:** Create, edit, and validate models.
 
@@ -27,7 +27,7 @@
 - Integration with generation tools
 - Export formats
 
-### Test Generation Tools
+### 🛠️ Test Generation Tools
 
 **Purpose:** Generate test cases from models based on selection criteria.
 
@@ -49,7 +49,7 @@
 - **Batch (offline):** Generate all tests before execution
 - **On-demand:** Generate tests for specific coverage goals
 
-### Test Execution Tools
+### 🛠️ Test Execution Tools
 
 **Purpose:** Execute concrete test cases against the SUT.
 
@@ -63,7 +63,7 @@
 - MBT generation tool outputs tests in format executable by execution tool
 - Execution results feed back into MBT coverage metrics
 
-### Model Verification Tools
+### 🛠️ Model Verification Tools
 
 **Purpose:** Check models for correctness before test generation.
 
@@ -75,9 +75,9 @@
 
 ---
 
-## 6.2 Tool Selection Criteria
+## ✅ 6.2 Tool Selection Criteria
 
-### Fit for Purpose
+### 🔷 Fit for Purpose
 
 **Does the tool support your model types?**
 - State machines → need state machine support
@@ -89,7 +89,7 @@
 - Performance testing → may need timing/sequence extensions
 - Security testing → may need attack path generation
 
-### Integration Capabilities
+### 🔗 Integration Capabilities
 
 **With Modeling Tools:**
 - Can the generation tool import models from your modeling tool?
@@ -108,7 +108,7 @@
 - Can tests be imported into test management tools?
 - Traceability to requirements
 
-### Vendor and Support
+### 🔷 Vendor and Support
 
 **Commercial Tools:**
 - License cost and model (perpetual, subscription, floating)
@@ -122,7 +122,7 @@
 - Maintenance status (last update?)
 - Commercial support options
 
-### Ease of Use
+### 🔷 Ease of Use
 
 **Learning Curve:**
 - Time to first generated test
@@ -134,7 +134,7 @@
 - How easy to update concretization?
 - Version control integration
 
-### Total Cost of Ownership
+### 🔷 Total Cost of Ownership
 
 **Initial Costs:**
 - License or acquisition cost
@@ -153,9 +153,9 @@
 
 ---
 
-## 6.3 Integration with CI/CD
+## 🔗 6.3 Integration with CI/CD
 
-### Pipeline Integration Points
+### 🔗 Pipeline Integration Points
 
 **1. Model Change Triggers Test Generation:**
 ```
@@ -172,7 +172,7 @@ Nightly job: Checkout latest model → Generate tests → Run against staging �
 SUT code change → CI checks if model needs update → If model outdated, flag for review
 ```
 
-### Pipeline Configuration
+### ⚙️ Pipeline Configuration
 
 **Typical MBT CI/CD Stage:**
 ```yaml
@@ -196,7 +196,7 @@ test_execute:
     - pytest tests/
 ```
 
-### Reporting in CI/CD
+### 📝 Reporting in CI/CD
 
 **Metrics to Track:**
 - Model coverage achieved
@@ -212,9 +212,9 @@ test_execute:
 
 ---
 
-## 6.4 Model Versioning
+## 📐 6.4 Model Versioning
 
-### Why Version Models?
+### 📐 Why Version Models?
 
 **Models Change Just Like Code:**
 - Requirements evolve
@@ -228,7 +228,7 @@ test_execute:
 - Branch models for feature development
 - Compare model versions
 
-### Version Control Practices
+### ❓ Version Control Practices
 
 **Store Models Alongside Code:**
 ```
@@ -246,7 +246,7 @@ repo/
 - **Separate branches:** Model development in parallel with code
 - **Tagged releases:** Tag model versions that correspond to releases
 
-### Model vs. Generated Test Versioning
+### 📐 Model vs. Generated Test Versioning
 
 **Version the Model:**
 - Model is the source of truth
@@ -260,9 +260,9 @@ repo/
 
 ---
 
-## 6.5 Scripting vs. Code Generation
+## ⭐ 6.5 Scripting vs. Code Generation
 
-### Scripting Approach
+### 🔷 Scripting Approach
 
 **Description:** MBT tool generates test scripts in a scripting language that controls test execution.
 
@@ -283,7 +283,7 @@ def test_login_valid():
     assert_url("/dashboard")
 ```
 
-### Code Generation Approach
+### 🔷 Code Generation Approach
 
 **Description:** MBT tool generates source code in a programming language that is compiled or executed directly.
 
@@ -306,7 +306,7 @@ public void testLoginValid() {
 }
 ```
 
-### Comparison
+### 🔷 Comparison
 
 | Aspect | Scripting | Code Generation |
 |--------|-----------|-----------------|
@@ -317,7 +317,7 @@ public void testLoginValid() {
 | Integration | Script runners | Build systems |
 | Best for | Rapid iteration, exploration | Stable, large projects |
 
-### Hybrid Approaches
+### 🔷 Hybrid Approaches
 
 Many tools support both:
 - Generate code for stable, high-volume tests
@@ -326,9 +326,9 @@ Many tools support both:
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Tool Selection
+### 💡 Worked Example 1: Tool Selection
 
 **Scenario:** A team uses UML state machines and needs to generate tests for a Selenium-based UI automation framework.
 
@@ -350,7 +350,7 @@ Many tools support both:
 
 **Selection:** Tool C
 
-### Worked Example 2: CI/CD Integration
+### 💡 Worked Example 2: CI/CD Integration
 
 **Scenario:** Integrate MBT into an existing Jenkins pipeline.
 
@@ -392,7 +392,7 @@ stage('MBT') {
 }
 ```
 
-### Worked Example 3: Model Versioning Strategy
+### 💡 Worked Example 3: Model Versioning Strategy
 
 **Scenario:** A team has 5 models that change with each release.
 

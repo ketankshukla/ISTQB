@@ -1,6 +1,6 @@
-# Case Study 1 — SAFe Transformation
+# 📂 Case Study 1 — SAFe Transformation
 
-## Context
+## ⭐ Context
 
 You are the Test Transformation Lead for EnterpriseSoft, a 500-person software organization adopting SAFe.
 
@@ -14,7 +14,7 @@ You are the Test Transformation Lead for EnterpriseSoft, a 500-person software o
 
 ---
 
-## Task 1: ART Design
+## 🎨 Task 1: ART Design
 
 **Question:** Design ARTs with quality considerations.
 
@@ -39,7 +39,7 @@ You are the Test Transformation Lead for EnterpriseSoft, a 500-person software o
 
 ---
 
-## Task 2: PI Planning Quality Activities
+## 🗓️ Task 2: PI Planning Quality Activities
 
 **Question:** Plan testing activities for PI Planning.
 
@@ -67,7 +67,7 @@ You are the Test Transformation Lead for EnterpriseSoft, a 500-person software o
 
 ---
 
-## Task 3: System Demo Design
+## 🎨 Task 3: System Demo Design
 
 **Question:** Design effective system demos.
 
@@ -95,7 +95,7 @@ You are the Test Transformation Lead for EnterpriseSoft, a 500-person software o
 
 ---
 
-## Task 4: Metrics and Governance
+## 📊 Task 4: Metrics and Governance
 
 **Question:** Establish quality governance for the ART.
 

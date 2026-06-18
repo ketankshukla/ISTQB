@@ -1,8 +1,8 @@
-# Chapter 5 — Performance Test Execution and Monitoring: Practice Questions
+# ❓ Chapter 5 — Performance Test Execution and Monitoring: Practice Questions
 
 ---
 
-### Q1 (PT-5.1, K2)
+### 🔷 Q1 (PT-5.1, K2)
 
 A smoke test before performance testing:
 
@@ -13,7 +13,7 @@ D. Only checks network speed
 
 ---
 
-### Q2 (PT-5.2, K2)
+### 🔷 Q2 (PT-5.2, K2)
 
 APM tools measure:
 
@@ -24,7 +24,7 @@ D. Only memory size
 
 ---
 
-### Q3 (PT-5.3, K2)
+### 🔷 Q3 (PT-5.3, K2)
 
 CPU queue length should be:
 
@@ -35,7 +35,7 @@ D. Only for servers
 
 ---
 
-### Q4 (PT-5.4, K2)
+### 🔷 Q4 (PT-5.4, K2)
 
 A sudden response time spike during steady state:
 
@@ -46,7 +46,7 @@ D. Only happens in load tests
 
 ---
 
-### Q5 (PT-5.5, K2)
+### 🔷 Q5 (PT-5.5, K2)
 
 Test environment isolation means:
 
@@ -57,7 +57,7 @@ D. Only network separation
 
 ---
 
-### Q6 (PT-5.1, K2)
+### 🔷 Q6 (PT-5.1, K2)
 
 Post-test environment reset:
 
@@ -68,7 +68,7 @@ D. Only restarts servers
 
 ---
 
-### Q7 (PT-5.2, K2)
+### 🔷 Q7 (PT-5.2, K2)
 
 Database monitors help identify:
 
@@ -79,7 +79,7 @@ D. Only client-side rendering
 
 ---
 
-### Q8 (PT-5.3, K2)
+### 🔷 Q8 (PT-5.3, K2)
 
 Memory paging indicates:
 
@@ -90,7 +90,7 @@ D. Only idle system
 
 ---
 
-### Q9 (PT-5.4, K2)
+### 🔷 Q9 (PT-5.4, K2)
 
 An error rate jump to 5% during testing suggests:
 
@@ -101,7 +101,7 @@ D. Only expected behavior
 
 ---
 
-### Q10 (PT-5.5, K2)
+### 🔷 Q10 (PT-5.5, K2)
 
 Documenting test environment configuration:
 
@@ -112,7 +112,7 @@ D. Only for managers
 
 ---
 
-### Q11 (PT-5.1, K2)
+### 🔷 Q11 (PT-5.1, K2)
 
 Real-time monitoring during execution:
 
@@ -123,7 +123,7 @@ D. Only applies to endurance tests
 
 ---
 
-### Q12 (PT-5.2, K2)
+### 🔷 Q12 (PT-5.2, K2)
 
 Network analyzers capture:
 
@@ -134,7 +134,7 @@ D. Only disk I/O
 
 ---
 
-### Q13 (PT-5.3, K2)
+### 🔷 Q13 (PT-5.3, K2)
 
 Disk queue depth above 2 indicates:
 
@@ -145,7 +145,7 @@ D. Only memory leaks
 
 ---
 
-### Q14 (PT-5.4, K2)
+### 🔷 Q14 (PT-5.4, K2)
 
 If CPU drops to near zero during a load test:
 
@@ -156,7 +156,7 @@ D. Only happens at low load
 
 ---
 
-### Q15 (PT-5.5, K2)
+### 🔷 Q15 (PT-5.5, K2)
 
 Consistency in test environment means:
 
@@ -167,7 +167,7 @@ D. Only same time of day
 
 ---
 
-### Q16 (PT-5.1, K2)
+### 🔷 Q16 (PT-5.1, K2)
 
 Baseline capture before testing:
 
@@ -178,7 +178,7 @@ D. Only applies to stress tests
 
 ---
 
-### Q17 (PT-5.2, K2)
+### 🔷 Q17 (PT-5.2, K2)
 
 System monitors like PerfMon capture:
 
@@ -189,7 +189,7 @@ D. Only user behavior
 
 ---
 
-### Q18 (PT-5.3, K2)
+### 🔷 Q18 (PT-5.3, K2)
 
 Packet loss above 0.1% indicates:
 
@@ -200,7 +200,7 @@ D. Only wired networks
 
 ---
 
-### Q19 (PT-5.4, K2)
+### 🔷 Q19 (PT-5.4, K2)
 
 Memory climbing steadily during an endurance test:
 
@@ -211,7 +211,7 @@ D. Only happens at high load
 
 ---
 
-### Q20 (PT-5.5, K2)
+### 🔷 Q20 (PT-5.5, K2)
 
 A contingency plan for test interruption:
 
@@ -222,84 +222,84 @@ D. Only for production
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** Smoke test = validate scripts + environment.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** APM = application-level metrics.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** Queue < 2x cores = healthy.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** Spike = investigate potential issue.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Isolation = no interference.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Reset = known state for future.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** DB monitor = slow queries + bottlenecks.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Paging = memory pressure.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** 5% errors = investigate.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** Documentation = reproducibility.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Real-time = immediate detection.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Network analyzer = traffic + latency.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Queue > 2 = disk bottleneck.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** CPU drop = possible crash.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Consistency = same config each run.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Baseline = reference point.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** System monitor = OS metrics.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Packet loss > 0.1% = network issues.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Memory climb = potential leak.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** Contingency = safe shutdown + data save.

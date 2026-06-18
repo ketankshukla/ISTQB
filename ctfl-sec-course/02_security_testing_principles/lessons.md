@@ -1,10 +1,10 @@
-# Chapter 2 — Security Testing Principles: Lessons
+# 📘 Chapter 2 — Security Testing Principles: Lessons
 
 ---
 
-## 2.1 Applying the CIA Triad
+## ⭐ 2.1 Applying the CIA Triad
 
-### Confidentiality Testing
+### 🔷 Confidentiality Testing
 
 | Test Focus | Example Tests |
 |------------|---------------|
@@ -13,7 +13,7 @@
 | **Encryption** | Verify data is encrypted in transit and at rest |
 | **Session management** | Verify session timeout and hijacking prevention |
 
-### Integrity Testing
+### 🔷 Integrity Testing
 
 | Test Focus | Example Tests |
 |------------|---------------|
@@ -22,7 +22,7 @@
 | **Hash verification** | Verify data has not been tampered with |
 | **Audit trails** | Verify all changes are logged |
 
-### Availability Testing
+### 🤖 Availability Testing
 
 | Test Focus | Example Tests |
 |------------|---------------|
@@ -33,9 +33,9 @@
 
 ---
 
-## 2.2 Risk-Based Security Testing
+## ⚠️ 2.2 Risk-Based Security Testing
 
-### Process
+### 🔷 Process
 
 1. **Identify assets** — What needs protection?
 2. **Identify threats** — What could go wrong?
@@ -43,7 +43,7 @@
 4. **Assess risk** — Likelihood x Impact
 5. **Prioritize tests** — Focus on highest risks
 
-### Risk Matrix
+### ⚠️ Risk Matrix
 
 | Likelihood \ Impact | Low | Medium | High |
 |---------------------|-----|--------|------|
@@ -53,9 +53,9 @@
 
 ---
 
-## 2.3 Security Controls
+## 🔒 2.3 Security Controls
 
-### Preventive Controls
+### 🔷 Preventive Controls
 
 | Control | Purpose |
 |---------|---------|
@@ -65,7 +65,7 @@
 | **Input validation** | Block malicious input |
 | **Firewalls** | Block unauthorized access |
 
-### Detective Controls
+### 🔷 Detective Controls
 
 | Control | Purpose |
 |---------|---------|
@@ -74,7 +74,7 @@
 | **Intrusion detection** | Identify attacks |
 | **Audit trails** | Track changes |
 
-### Corrective Controls
+### 🔷 Corrective Controls
 
 | Control | Purpose |
 |---------|---------|
@@ -85,9 +85,9 @@
 
 ---
 
-## 2.4 Threat Modeling Basics
+## 📐 2.4 Threat Modeling Basics
 
-### STRIDE Model
+### 📐 STRIDE Model
 
 | Category | Threat | Violates |
 |----------|--------|----------|
@@ -98,7 +98,7 @@
 | **D**enial of Service | Blocking access | Availability |
 | **E**levation of Privilege | Gaining unauthorized access | Authorization |
 
-### When to Apply
+### 🔷 When to Apply
 
 - During design phase
 - Before major changes
@@ -107,7 +107,7 @@
 
 ---
 
-## 2.5 Security Requirements
+## 📑 2.5 Security Requirements
 
 | Type | Example |
 |------|---------|
@@ -118,9 +118,9 @@
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Control Selection
+### 💡 Worked Example 1: Control Selection
 
 | Threat | Control Type | Control |
 |--------|-------------|---------|
@@ -129,7 +129,7 @@
 | Attack in progress | Detective | Intrusion detection system |
 | Data corruption | Corrective | Backup + restore |
 
-### Worked Example 2: Risk Assessment
+### 💡 Worked Example 2: Risk Assessment
 
 | Asset | Threat | Vulnerability | Likelihood | Impact | Risk | Priority |
 |-------|--------|-------------|------------|--------|------|----------|
@@ -137,7 +137,7 @@
 | Login page | Brute force | No account lockout | Medium | Medium | Medium | 3 |
 | Public content | Defacement | Unpatched CMS | Low | Low | Low | 5 |
 
-### Worked Example 3: STRIDE Analysis
+### 💡 Worked Example 3: STRIDE Analysis
 
 | Component | S | T | R | I | D | E |
 |-----------|---|---|---|---|---|---|

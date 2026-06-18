@@ -1,8 +1,8 @@
-# Chapter 6 — Organizational and Human Factors: Practice Questions
+# ❓ Chapter 6 — Organizational and Human Factors: Practice Questions
 
 ---
 
-### Q1 (TAS-6.1, K2)
+### 🔷 Q1 (TAS-6.1, K2)
 
 Test automation engineers need:
 
@@ -13,7 +13,7 @@ D. Only management skills
 
 ---
 
-### Q2 (TAS-6.2, K2)
+### 🔷 Q2 (TAS-6.2, K2)
 
 Pair programming is effective for:
 
@@ -24,7 +24,7 @@ D. Only documentation
 
 ---
 
-### Q3 (TAS-6.3, K2)
+### 🔷 Q3 (TAS-6.3, K2)
 
 A Center of Excellence (CoE) model:
 
@@ -35,7 +35,7 @@ D. Only works for large companies
 
 ---
 
-### Q4 (TAS-6.4, K2)
+### 🔷 Q4 (TAS-6.4, K2)
 
 Resistance to automation often stems from:
 
@@ -46,7 +46,7 @@ D. Only project deadlines
 
 ---
 
-### Q5 (TAS-6.1, K2)
+### 🔷 Q5 (TAS-6.1, K2)
 
 A tester with strong testing skills but no coding ability:
 
@@ -57,7 +57,7 @@ D. Should only do manual testing
 
 ---
 
-### Q6 (TAS-6.2, K2)
+### 🔷 Q6 (TAS-6.2, K2)
 
 Mentoring in automation should include:
 
@@ -68,7 +68,7 @@ D. Only certification exams
 
 ---
 
-### Q7 (TAS-6.3, K2)
+### 🔷 Q7 (TAS-6.3, K2)
 
 An embedded automation model provides:
 
@@ -79,7 +79,7 @@ D. Only shared frameworks
 
 ---
 
-### Q8 (TAS-6.4, K2)
+### 🔷 Q8 (TAS-6.4, K2)
 
 Quick wins in automation adoption:
 
@@ -90,7 +90,7 @@ D. Only for pilot projects
 
 ---
 
-### Q9 (TAS-6.1, K2)
+### 🔷 Q9 (TAS-6.1, K2)
 
 Developers without testing knowledge writing automation may:
 
@@ -101,7 +101,7 @@ D. Only write more tests
 
 ---
 
-### Q10 (TAS-6.2, K2)
+### 🔷 Q10 (TAS-6.2, K2)
 
 Training for automation should cover:
 
@@ -112,7 +112,7 @@ D. Only management
 
 ---
 
-### Q11 (TAS-6.3, K2)
+### 🔷 Q11 (TAS-6.3, K2)
 
 A hybrid team model combines:
 
@@ -123,7 +123,7 @@ D. Only contractors
 
 ---
 
-### Q12 (TAS-6.4, K2)
+### 🔷 Q12 (TAS-6.4, K2)
 
 Communicating automation value to executives requires:
 
@@ -134,7 +134,7 @@ D. Only code metrics
 
 ---
 
-### Q13 (TAS-6.1, K2)
+### 🔷 Q13 (TAS-6.1, K2)
 
 Continuous learning in automation teams:
 
@@ -145,7 +145,7 @@ D. Only for contractors
 
 ---
 
-### Q14 (TAS-6.2, K2)
+### 🔷 Q14 (TAS-6.2, K2)
 
 A lunch-and-learn program:
 
@@ -156,7 +156,7 @@ D. Only for remote teams
 
 ---
 
-### Q15 (TAS-6.3, K2)
+### 🔷 Q15 (TAS-6.3, K2)
 
 Metrics for team satisfaction:
 
@@ -167,7 +167,7 @@ D. Only for executives
 
 ---
 
-### Q16 (TAS-6.4, K2)
+### 🔷 Q16 (TAS-6.4, K2)
 
 Kotter's change model for automation starts with:
 
@@ -178,7 +178,7 @@ D. Writing test scripts
 
 ---
 
-### Q17 (TAS-6.1, K2)
+### 🔷 Q17 (TAS-6.1, K2)
 
 Stakeholder communication should be:
 
@@ -189,7 +189,7 @@ D. Only verbal
 
 ---
 
-### Q18 (TAS-6.2, K2)
+### 🔷 Q18 (TAS-6.2, K2)
 
 A pilot automation project should:
 
@@ -200,7 +200,7 @@ D. Only test UI
 
 ---
 
-### Q19 (TAS-6.3, K2)
+### 🔷 Q19 (TAS-6.3, K2)
 
 Leading indicators of automation success include:
 
@@ -211,7 +211,7 @@ D. Only tool costs
 
 ---
 
-### Q20 (TAS-6.4, K2)
+### 🔷 Q20 (TAS-6.4, K2)
 
 When developers resist running automation in CI:
 
@@ -222,84 +222,84 @@ D. Only change tools
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** Automation = coding + testing skills.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** Pair programming = skill transfer.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** CoE = standards + domain expertise.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** Resistance = fear of change + lack of value understanding.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Testers can pair, design, and learn coding.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Mentoring = pair + review + independence.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Embedded = domain + fast feedback.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Quick wins = credibility + momentum.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** Devs without testing = miss principles.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** Training = programming, testing, tools, CI/CD.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Hybrid = shared frameworks + embedded experts.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Executive = business outcomes.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Continuous learning = essential.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Lunch-and-learn = knowledge sharing.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Satisfaction = sustainability indicator.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Kotter = start with urgency.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Communication = tailored to audience.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Pilot = small, visible value.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Leading = creation rate, training, adoption.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** Resistance = understand + demonstrate + integrate.

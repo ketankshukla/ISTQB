@@ -1,6 +1,6 @@
-# Chapter 1 — Introduction to Automotive Testing: Exam Traps
+# 🪤 Chapter 1 — Introduction to Automotive Testing: Exam Traps
 
-## Trap 1: Automotive Testing is the Same as General Testing
+## 🪤 Trap 1: Automotive Testing is the Same as General Testing
 
 **Trap:** Automotive has unique requirements: safety-critical, embedded, standards-driven, harsh environment.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: All ECUs are Equally Critical
+## 🪤 Trap 2: All ECUs are Equally Critical
 
 **Trap:** ECUs range from QM (no safety relevance) to ASIL D (highest safety integrity).
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: CAN is Used for Everything
+## 🪤 Trap 3: CAN is Used for Everything
 
 **Trap:** Different networks serve different purposes; CAN is not always the best choice.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Safety-Critical Only Means No Crashes
+## 🪤 Trap 4: Safety-Critical Only Means No Crashes
 
 **Trap:** Safety-critical includes preventing injury, not just preventing crashes.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Standards are Optional Guidelines
+## 🪤 Trap 5: Standards are Optional Guidelines
 
 **Trap:** ISO 26262 and ASPICE are mandatory for automotive development.
 

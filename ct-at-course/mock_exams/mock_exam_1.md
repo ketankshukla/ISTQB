@@ -1,4 +1,4 @@
-# CT-AT Mock Exam 1
+# 📝 CT-AT Mock Exam 1
 
 **Instructions:**
 - 40 questions
@@ -8,7 +8,7 @@
 
 ---
 
-### Q1
+### 🔷 Q1
 
 The Agile Manifesto values "responding to change over following a plan." This means:
 
@@ -19,7 +19,7 @@ D. Changes are not allowed in agile
 
 ---
 
-### Q2
+### 🔷 Q2
 
 In Scrum, the Product Owner is responsible for:
 
@@ -30,7 +30,7 @@ D. Removing technical impediments
 
 ---
 
-### Q3
+### 🔷 Q3
 
 The Scrum Master is BEST described as:
 
@@ -41,7 +41,7 @@ D. The customer representative
 
 ---
 
-### Q4
+### 🔷 Q4
 
 Kanban primarily focuses on:
 
@@ -52,7 +52,7 @@ D. Eliminating all meetings
 
 ---
 
-### Q5
+### 🔷 Q5
 
 Extreme Programming (XP) includes which practice?
 
@@ -63,7 +63,7 @@ D. Individual code ownership
 
 ---
 
-### Q6
+### 🔷 Q6
 
 The whole-team approach to quality means:
 
@@ -74,7 +74,7 @@ D. Only developers are responsible for unit tests
 
 ---
 
-### Q7
+### 🔷 Q7
 
 Acceptance criteria should be:
 
@@ -85,7 +85,7 @@ D. Created after development is complete
 
 ---
 
-### Q8
+### 🔷 Q8
 
 The Definition of Done should include:
 
@@ -96,7 +96,7 @@ D. No documentation requirements
 
 ---
 
-### Q9
+### 🔷 Q9
 
 Which of the following is the BEST example of good acceptance criteria?
 
@@ -107,7 +107,7 @@ D. "The application works well on mobile"
 
 ---
 
-### Q10
+### 🔷 Q10
 
 During a sprint, an agile tester should:
 
@@ -118,7 +118,7 @@ D. Report defects only at the sprint review
 
 ---
 
-### Q11
+### 🔷 Q11
 
 Exploratory testing is BEST described as:
 
@@ -129,7 +129,7 @@ D. Only automated testing
 
 ---
 
-### Q12
+### 🔷 Q12
 
 Behavior-Driven Development (BDD) primarily focuses on:
 
@@ -140,7 +140,7 @@ D. Eliminating the Product Owner role
 
 ---
 
-### Q13
+### 🔷 Q13
 
 Acceptance Test-Driven Development (ATDD) means:
 
@@ -151,7 +151,7 @@ D. Testing is done by the customer only
 
 ---
 
-### Q14
+### 🔷 Q14
 
 The TDD cycle is:
 
@@ -162,7 +162,7 @@ D. Write all tests at the end
 
 ---
 
-### Q15
+### 🔷 Q15
 
 The test automation pyramid recommends:
 
@@ -173,7 +173,7 @@ D. Only UI tests for complete coverage
 
 ---
 
-### Q16
+### 🔷 Q16
 
 Test automation in agile is BEST described as:
 
@@ -184,7 +184,7 @@ D. A way to eliminate the tester role
 
 ---
 
-### Q17
+### 🔷 Q17
 
 Which of the following is the BEST candidate for automation?
 
@@ -195,7 +195,7 @@ D. Usability testing with real users
 
 ---
 
-### Q18
+### 🔷 Q18
 
 Continuous Integration (CI) pipelines should run automated tests:
 
@@ -206,7 +206,7 @@ D. Only on Fridays
 
 ---
 
-### Q19
+### 🔷 Q19
 
 The Page Object Model (POM) is used to:
 
@@ -217,7 +217,7 @@ D. Execute tests in parallel
 
 ---
 
-### Q20
+### 🔷 Q20
 
 In agile, test management tools should be:
 
@@ -228,7 +228,7 @@ D. Only used by the test manager
 
 ---
 
-### Q21
+### 🔷 Q21
 
 Jenkins is primarily used as a:
 
@@ -239,7 +239,7 @@ D. Defect tracking tool
 
 ---
 
-### Q22
+### 🔷 Q22
 
 An information radiator is:
 
@@ -250,7 +250,7 @@ D. A private dashboard for the Scrum Master
 
 ---
 
-### Q23
+### 🔷 Q23
 
 When selecting a tool for an agile team, the PRIMARY criterion should be:
 
@@ -261,7 +261,7 @@ D. Whether the tool is the most expensive option
 
 ---
 
-### Q24
+### 🔷 Q24
 
 SAFe is a framework for:
 
@@ -272,7 +272,7 @@ D. Only startups
 
 ---
 
-### Q25
+### 🔷 Q25
 
 DevOps is PRIMARILY about:
 
@@ -283,7 +283,7 @@ D. Eliminating the need for testing
 
 ---
 
-### Q26
+### 🔷 Q26
 
 Continuous testing means:
 
@@ -294,7 +294,7 @@ D. Only unit testing
 
 ---
 
-### Q27
+### 🔷 Q27
 
 Velocity should be used for:
 
@@ -305,7 +305,7 @@ D. Replacing the Product Owner
 
 ---
 
-### Q28
+### 🔷 Q28
 
 In DevOps, "shift left" testing means:
 
@@ -316,7 +316,7 @@ D. Moving testing to a different department
 
 ---
 
-### Q29
+### 🔷 Q29
 
 A canary release is:
 
@@ -327,7 +327,7 @@ D. A type of bird used in testing
 
 ---
 
-### Q30
+### 🔷 Q30
 
 A good agile metric should:
 
@@ -338,7 +338,7 @@ D. Only show positive results
 
 ---
 
-### Q31
+### 🔷 Q31
 
 A team automates a new project using TDD from day one. This is:
 
@@ -349,7 +349,7 @@ D. Big-bang deployment
 
 ---
 
-### Q32
+### 🔷 Q32
 
 Updating a test script to accommodate a renamed button on the SUT is:
 
@@ -360,7 +360,7 @@ D. No maintenance
 
 ---
 
-### Q33
+### 🔷 Q33
 
 Refactoring a test script to improve readability and reduce duplication is:
 
@@ -371,7 +371,7 @@ D. Retirement
 
 ---
 
-### Q34
+### 🔷 Q34
 
 A test should be retired when:
 
@@ -382,7 +382,7 @@ D. It was written by a former employee
 
 ---
 
-### Q35
+### 🔷 Q35
 
 Legacy automation is BEST described as:
 
@@ -393,7 +393,7 @@ D. Manual testing that has been documented
 
 ---
 
-### Q36
+### 🔷 Q36
 
 A team puts UI locators directly in every test script. When the UI changes, 50 tests break. The root cause is:
 
@@ -404,7 +404,7 @@ D. The application has too many defects
 
 ---
 
-### Q37
+### 🔷 Q37
 
 In a CI pipeline, which stage should typically run FIRST?
 
@@ -415,7 +415,7 @@ D. Performance load testing
 
 ---
 
-### Q38
+### 🔷 Q38
 
 The relationship between ATDD, BDD, and TDD is BEST described as:
 
@@ -426,7 +426,7 @@ D. Only TDD is appropriate for agile teams
 
 ---
 
-### Q39
+### 🔷 Q39
 
 A team calculates ROI using only initial development costs. The calculated ROI will be:
 
@@ -437,7 +437,7 @@ D. Only valid for the first year
 
 ---
 
-### Q40
+### 🔷 Q40
 
 The PRIMARY skill a Test Automation Engineer must have is:
 
@@ -448,4 +448,4 @@ D. Graphic design skills
 
 ---
 
-## End of Mock Exam 1
+## 📝 End of Mock Exam 1

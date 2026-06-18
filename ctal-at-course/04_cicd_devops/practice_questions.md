@@ -1,8 +1,8 @@
-# Chapter 4 — CI/CD, DevOps: Practice Questions
+# ❓ Chapter 4 — CI/CD, DevOps: Practice Questions
 
 ---
 
-### Q1 (AT-4.1, K2)
+### 🔷 Q1 (AT-4.1, K2)
 
 Continuous Integration (CI) requires:
 
@@ -13,7 +13,7 @@ D. A dedicated DevOps team
 
 ---
 
-### Q2 (AT-4.2, K2)
+### 🔷 Q2 (AT-4.2, K2)
 
 The difference between Continuous Delivery and Continuous Deployment is:
 
@@ -24,7 +24,7 @@ D. Continuous Delivery is only for large organizations
 
 ---
 
-### Q3 (AT-4.1, K3)
+### 🔷 Q3 (AT-4.1, K3)
 
 In a CI pipeline, which stage should typically run FIRST?
 
@@ -35,7 +35,7 @@ D. Performance load testing
 
 ---
 
-### Q4 (AT-4.3, K2)
+### 🔷 Q4 (AT-4.3, K2)
 
 DevOps is BEST described as:
 
@@ -46,7 +46,7 @@ D. A replacement for agile
 
 ---
 
-### Q5 (AT-4.4, K3)
+### 🔷 Q5 (AT-4.4, K3)
 
 A quality gate that fails the pipeline if any unit test fails is an example of:
 
@@ -57,7 +57,7 @@ D. A deployment gate
 
 ---
 
-### Q6 (AT-4.2, K2)
+### 🔷 Q6 (AT-4.2, K2)
 
 A pipeline automatically deploys every passing commit to production without human approval. This is:
 
@@ -68,7 +68,7 @@ D. Manual deployment
 
 ---
 
-### Q7 (AT-4.1, K3)
+### 🔷 Q7 (AT-4.1, K3)
 
 A developer commits code and the build takes 2 hours to complete. The BIGGEST problem is:
 
@@ -79,7 +79,7 @@ D. The developer should commit less frequently
 
 ---
 
-### Q8 (AT-4.3, K2)
+### 🔷 Q8 (AT-4.3, K2)
 
 The CALMS framework for DevOps includes:
 
@@ -90,7 +90,7 @@ D. Compilation, Automation, Load testing, Monitoring, Security
 
 ---
 
-### Q9 (AT-4.5, K3)
+### 🔷 Q9 (AT-4.5, K3)
 
 A team blocks production deployment if code coverage drops below 80%. This is:
 
@@ -101,7 +101,7 @@ D. Unrelated to CI/CD
 
 ---
 
-### Q10 (AT-4.4, K3)
+### 🔷 Q10 (AT-4.4, K3)
 
 In a CI pipeline, the "fail fast" principle means:
 
@@ -112,7 +112,7 @@ D. Stop the pipeline only after all tests complete
 
 ---
 
-### Q11 (AT-4.2, K2)
+### 🔷 Q11 (AT-4.2, K2)
 
 Feature flags are used to:
 
@@ -123,7 +123,7 @@ D. Increase code complexity
 
 ---
 
-### Q12 (AT-4.3, K3)
+### 🔷 Q12 (AT-4.3, K3)
 
 A canary release deploys a new version to:
 
@@ -134,7 +134,7 @@ D. The development environment only
 
 ---
 
-### Q13 (AT-4.1, K2)
+### 🔷 Q13 (AT-4.1, K2)
 
 A broken mainline build should be:
 
@@ -145,7 +145,7 @@ D. Considered normal in agile
 
 ---
 
-### Q14 (AT-4.4, K3)
+### 🔷 Q14 (AT-4.4, K3)
 
 Infrastructure as Code (IaC) allows teams to:
 
@@ -156,7 +156,7 @@ D. Avoid using cloud providers
 
 ---
 
-### Q15 (AT-4.5, K2)
+### 🔷 Q15 (AT-4.5, K2)
 
 Which of the following is a MANUAL quality gate?
 
@@ -167,7 +167,7 @@ D. No critical security vulnerabilities
 
 ---
 
-### Q16 (AT-4.2, K3)
+### 🔷 Q16 (AT-4.2, K3)
 
 A team wants to deploy to production multiple times per day but requires a human to click "approve" before each deployment. They should implement:
 
@@ -178,7 +178,7 @@ D. Waterfall release process
 
 ---
 
-### Q17 (AT-4.3, K2)
+### 🔷 Q17 (AT-4.3, K2)
 
 In DevOps, a "blameless postmortem" is:
 
@@ -189,7 +189,7 @@ D. A security audit
 
 ---
 
-### Q18 (AT-4.1, K3)
+### 🔷 Q18 (AT-4.1, K3)
 
 A pipeline runs unit tests, then integration tests, then E2E tests in sequence. The E2E tests take 30 minutes. To improve feedback time, the team should:
 
@@ -200,7 +200,7 @@ D. Add more E2E tests to increase coverage
 
 ---
 
-### Q19 (AT-4.4, K2)
+### 🔷 Q19 (AT-4.4, K2)
 
 Containerization (e.g., Docker) in CI/CD helps by:
 
@@ -211,7 +211,7 @@ D. Eliminating the need for automated tests
 
 ---
 
-### Q20 (AT-4.5, K3)
+### 🔷 Q20 (AT-4.5, K3)
 
 A quality gate blocks deployment if static analysis finds any code style violation. The MOST likely outcome is:
 
@@ -222,104 +222,104 @@ D. Faster delivery
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** CI = automated builds + automated tests on every commit. Not just compilation.
 
-### Q2
+### 🔷 Q2
 **Answer: A**
 
 **Rationale:** Continuous Delivery may require manual approval for production. Continuous Deployment is fully automatic.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** Unit tests are the fastest and should run first (fail fast). E2E and performance tests run later.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** DevOps is a culture of collaboration, not a tool or job title.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** A criterion enforced automatically by the pipeline is an automated gate.
 
-### Q6
+### 🔷 Q6
 **Answer: C**
 
 **Rationale:** Fully automatic deployment to production on every passing commit is Continuous Deployment.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** Slow builds discourage frequent commits, defeating the purpose of CI.
 
-### Q8
+### 🔷 Q8
 **Answer: A**
 
 **Rationale:** CALMS = Culture, Automation, Lean, Measurement, Sharing.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** A coverage threshold enforced by the pipeline is an automated quality gate.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** Fail fast means running quick tests first to get fast feedback on obvious problems.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 
 **Rationale:** Feature flags allow code to be deployed but hidden from users until ready.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** Canary releases go to a small subset first, then gradually roll out based on monitoring.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** Broken mainlines should be fixed immediately, ideally by the person who broke them.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** IaC allows infrastructure to be defined and version-controlled like code.
 
-### Q15
+### 🔷 Q15
 **Answer: C**
 
 **Rationale:** A human approval (code review) is a manual gate. Test pass/fail and coverage are automated gates.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 
 **Rationale:** Multiple daily deployments with human approval = Continuous Delivery. Fully automatic = Continuous Deployment.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 
 **Rationale:** Blameless postmortems focus on system improvement, not individual blame.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 
 **Rationale:** Parallelizing tests and moving slow E2E tests to scheduled runs improves feedback time.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** Docker containers ensure test and production environments are consistent.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 
 **Rationale:** Overly strict gates on minor issues encourage bypassing or ignoring them.

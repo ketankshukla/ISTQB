@@ -1,10 +1,10 @@
-# Chapter 1 — Agile Principles and Context: Lessons
+# 📘 Chapter 1 — Agile Principles and Context: Lessons
 
 ---
 
-## 1.1 The Agile Manifesto
+## 🏃 1.1 The Agile Manifesto
 
-### The Four Values
+### 🔷 The Four Values
 
 The Agile Manifesto (2001) states four core values:
 
@@ -15,7 +15,7 @@ The Agile Manifesto (2001) states four core values:
 
 **Important:** The manifesto says "over," not "instead of." The items on the right still have value, but the items on the left are valued more.
 
-### The Twelve Principles
+### 📜 The Twelve Principles
 
 1. Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
 2. Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage.
@@ -39,9 +39,9 @@ The Agile Manifesto (2001) states four core values:
 
 ---
 
-## 1.2 Scrum from a Testing Perspective
+## ⭐ 1.2 Scrum from a Testing Perspective
 
-### Scrum Framework
+### 🔷 Scrum Framework
 
 **Roles:**
 - **Product Owner:** Defines what to build, prioritizes the backlog
@@ -90,9 +90,9 @@ The Agile Manifesto (2001) states four core values:
 
 ---
 
-## 1.3 Kanban from a Testing Perspective
+## ⭐ 1.3 Kanban from a Testing Perspective
 
-### Kanban Principles
+### 📜 Kanban Principles
 
 Kanban is a flow-based methodology that focuses on:
 - **Visualizing work:** Kanban board shows all work items and their status
@@ -120,9 +120,9 @@ Kanban is a flow-based methodology that focuses on:
 
 ---
 
-## 1.4 Extreme Programming (XP) from a Testing Perspective
+## ⭐ 1.4 Extreme Programming (XP) from a Testing Perspective
 
-### XP Practices
+### ❓ XP Practices
 
 **1. Test-Driven Development (TDD):**
 - Write a failing test first
@@ -154,9 +154,9 @@ Kanban is a flow-based methodology that focuses on:
 
 ---
 
-## 1.5 The Technical Tester's Role in Agile
+## 🏃 1.5 The Technical Tester's Role in Agile
 
-### What Is a Technical Tester?
+### 🔷 What Is a Technical Tester?
 
 A technical tester in an agile team:
 - Has programming/scripting skills
@@ -167,7 +167,7 @@ A technical tester in an agile team:
 - Implements CI/CD pipelines for testing
 - Performs exploratory testing with technical insight
 
-### Activities by Agile Ceremony
+### 🏃 Activities by Agile Ceremony
 
 **Sprint Planning:**
 - Review user stories for testability
@@ -192,7 +192,7 @@ A technical tester in an agile team:
 - Share automation challenges and solutions
 - Discuss technical debt in test code
 
-### Whole-Team Approach to Quality
+### 💎 Whole-Team Approach to Quality
 
 In agile, **quality is the responsibility of the whole team**, not just testers.
 
@@ -216,9 +216,9 @@ In agile, **quality is the responsibility of the whole team**, not just testers.
 
 ---
 
-## 1.6 Definition of Done and Definition of Ready
+## ⭐ 1.6 Definition of Done and Definition of Ready
 
-### Definition of Done (DoD)
+### 🔷 Definition of Done (DoD)
 
 The DoD is a checklist that defines when a user story or feature is truly complete.
 
@@ -238,7 +238,7 @@ The DoD is a checklist that defines when a user story or feature is truly comple
 - Verify that testing criteria are met
 - Ensure DoD includes appropriate test coverage
 
-### Definition of Ready (DoR)
+### 🔷 Definition of Ready (DoR)
 
 The DoR defines when a user story is ready to be taken into a sprint.
 
@@ -259,7 +259,7 @@ The DoR defines when a user story is ready to be taken into a sprint.
 
 ---
 
-## 1.7 Agile Testing Challenges
+## 🏃 1.7 Agile Testing Challenges
 
 **1. Time Pressure:**
 - Sprints are short; testing must keep pace
@@ -283,9 +283,9 @@ The DoR defines when a user story is ready to be taken into a sprint.
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Scrum Testing Tasks
+### 💡 Worked Example 1: Scrum Testing Tasks
 
 **User Story:** "As a customer, I want to reset my password so that I can regain access to my account."
 
@@ -300,7 +300,7 @@ The DoR defines when a user story is ready to be taken into a sprint.
 | Verify security (password strength, token expiry) | 1h | Tester |
 | Review developer's unit tests | 0.5h | Tester |
 
-### Worked Example 2: Kanban WIP Limits
+### 💡 Worked Example 2: Kanban WIP Limits
 
 **Kanban Board Columns:**
 
@@ -315,7 +315,7 @@ The DoR defines when a user story is ready to be taken into a sprint.
 
 **Benefit:** Prevents testers from being overwhelmed; ensures items don't sit untested.
 
-### Worked Example 3: Definition of Done
+### 💡 Worked Example 3: Definition of Done
 
 **Team Discussion:** Should "performance testing" be in the DoD for every story?
 

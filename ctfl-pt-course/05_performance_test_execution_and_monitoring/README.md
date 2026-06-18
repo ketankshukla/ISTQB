@@ -1,6 +1,6 @@
-# Chapter 5 — Performance Test Execution and Monitoring
+# ⚡ Chapter 5 — Performance Test Execution and Monitoring
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~15% (~3 questions out of 20)
 - **K-levels:** K2, K3
@@ -8,7 +8,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -20,7 +20,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts
+## ⭐ Key Concepts
 
 - Execution phases
 - Monitoring tools

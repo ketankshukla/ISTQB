@@ -1,8 +1,8 @@
-# Chapter 6 — Performance Testing Tools and Automation: Practice Questions
+# ❓ Chapter 6 — Performance Testing Tools and Automation: Practice Questions
 
 ---
 
-### Q1 (PT-6.1, K2)
+### 🔷 Q1 (PT-6.1, K2)
 
 Apache JMeter is an example of:
 
@@ -13,7 +13,7 @@ D. A network monitoring tool
 
 ---
 
-### Q2 (PT-6.2, K2)
+### 🔷 Q2 (PT-6.2, K2)
 
 Correlation in performance testing scripts is used to:
 
@@ -24,7 +24,7 @@ D. Generate random data
 
 ---
 
-### Q3 (PT-6.2, K2)
+### 🔷 Q3 (PT-6.2, K2)
 
 Parameterization in a performance test script means:
 
@@ -35,7 +35,7 @@ D. Recording user actions
 
 ---
 
-### Q4 (PT-6.3, K2)
+### 🔷 Q4 (PT-6.3, K2)
 
 A performance gate in CI/CD is:
 
@@ -46,7 +46,7 @@ D. A network firewall
 
 ---
 
-### Q5 (PT-6.1, K2)
+### 🔷 Q5 (PT-6.1, K2)
 
 Which is a PRIMARY advantage of cloud-based performance testing?
 
@@ -57,7 +57,7 @@ D. It only works for small applications
 
 ---
 
-### Q6 (PT-6.2, K2)
+### 🔷 Q6 (PT-6.2, K2)
 
 A recorded performance test script typically requires:
 
@@ -68,7 +68,7 @@ D. Only more users
 
 ---
 
-### Q7 (PT-6.1, K3)
+### 🔷 Q7 (PT-6.1, K3)
 
 A team needs to test a REST API with JSON payloads and integrate with Jenkins. The BEST tool choice is likely:
 
@@ -79,7 +79,7 @@ D. A manual testing approach
 
 ---
 
-### Q8 (PT-6.4, K2)
+### 🔷 Q8 (PT-6.4, K2)
 
 A PRIMARY challenge of cloud-based performance testing is:
 
@@ -90,7 +90,7 @@ D. It only supports HTTP
 
 ---
 
-### Q9 (PT-6.2, K2)
+### 🔷 Q9 (PT-6.2, K2)
 
 Think time in a script should:
 
@@ -101,7 +101,7 @@ D. Only be used in stress tests
 
 ---
 
-### Q10 (PT-6.3, K2)
+### 🔷 Q10 (PT-6.3, K2)
 
 Performance regression detection in CI/CD requires:
 
@@ -112,7 +112,7 @@ D. No monitoring
 
 ---
 
-### Q11 (PT-6.1, K2)
+### 🔷 Q11 (PT-6.1, K2)
 
 Distributed testing means:
 
@@ -123,7 +123,7 @@ D. Running tests at random times
 
 ---
 
-### Q12 (PT-6.2, K2)
+### 🔷 Q12 (PT-6.2, K2)
 
 Which scripting approach gives the most control and maintainability?
 
@@ -134,7 +134,7 @@ D. Scripts that include all browser resources
 
 ---
 
-### Q13 (PT-6.4, K2)
+### 🔷 Q13 (PT-6.4, K2)
 
 Geographic distribution of load in cloud testing is useful for:
 
@@ -145,7 +145,7 @@ D. Avoiding CDN testing
 
 ---
 
-### Q14 (PT-6.1, K2)
+### 🔷 Q14 (PT-6.1, K2)
 
 LoadRunner is an example of:
 
@@ -156,7 +156,7 @@ D. A code coverage tool
 
 ---
 
-### Q15 (PT-6.3, K2)
+### 🔷 Q15 (PT-6.3, K2)
 
 Running a small smoke performance test on every commit is an example of:
 
@@ -167,7 +167,7 @@ D. Volume testing
 
 ---
 
-### Q16 (PT-6.2, K2)
+### 🔷 Q16 (PT-6.2, K2)
 
 A session ID returned in a login response and used in subsequent requests requires:
 
@@ -178,7 +178,7 @@ D. Removing the session ID from all requests
 
 ---
 
-### Q17 (PT-6.1, K2)
+### 🔷 Q17 (PT-6.1, K2)
 
 Gatling is known for:
 
@@ -189,7 +189,7 @@ D. Requiring no scripting
 
 ---
 
-### Q18 (PT-6.3, K2)
+### 🔷 Q18 (PT-6.3, K2)
 
 A performance test that fails the CI/CD pipeline because P95 response time increased by 30% is an example of:
 
@@ -200,7 +200,7 @@ D. A network issue
 
 ---
 
-### Q19 (PT-6.4, K2)
+### 🔷 Q19 (PT-6.4, K2)
 
 Cloud-based testing is LEAST suitable when:
 
@@ -211,7 +211,7 @@ D. Very large load is required
 
 ---
 
-### Q20 (PT-6.1, K3)
+### 🔷 Q20 (PT-6.1, K3)
 
 When selecting a performance testing tool, the PRIMARY factor should be:
 
@@ -222,104 +222,104 @@ D. Whether it is open-source
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** JMeter = open-source performance testing tool.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** Correlation = extract dynamic values for subsequent requests.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** Parameterization = variable data for different virtual users.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** Performance gate = automated check blocking deployment on degradation.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** Cloud = on-demand scaling without infrastructure maintenance.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** Recorded scripts need cleanup, parameterization, correlation.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** REST API + Jenkins = k6 or JMeter (API + CI/CD support).
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** Cloud challenge = security, whitelisting cloud IPs.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** Think time = simulate realistic pauses between actions.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** Regression detection = baseline comparison over time.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 
 **Rationale:** Distributed testing = multiple machines generating load.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** Hand-coded = most control and maintainability.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** Geographic distribution = test from user locations.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** LoadRunner = commercial enterprise tool.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** Smoke test per commit = continuous performance validation.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 
 **Rationale:** Session ID in response → subsequent requests = correlation.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 
 **Rationale:** Gatling = high performance, efficient, developer-friendly.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 
 **Rationale:** P95 +30% fails pipeline = performance gate working.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** Strict firewalls without exceptions = cloud least suitable.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 
 **Rationale:** Tool selection = protocols, load, integration, team skills.

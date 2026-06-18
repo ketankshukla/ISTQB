@@ -1,6 +1,6 @@
-# Chapter 2 — Game Development Lifecycle
+# 🔁 Chapter 2 — Game Development Lifecycle
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~20% (~8 questions out of 40)
 - **K-levels:** K2, K3
@@ -8,7 +8,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -21,7 +21,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts
+## ⭐ Key Concepts
 
 - Pre-production, production, post-production
 - Milestones (vertical slice, alpha, beta, gold)

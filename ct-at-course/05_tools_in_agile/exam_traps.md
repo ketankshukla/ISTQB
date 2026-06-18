@@ -1,6 +1,6 @@
-# Chapter 5 — Tools in Agile: Exam Traps
+# 🪤 Chapter 5 — Tools in Agile: Exam Traps
 
-## Trap 1: Thinking Agile Means No Tools
+## 🪤 Trap 1: Thinking Agile Means No Tools
 
 **Trap:** Agile prefers working software over documentation, but tools are still valuable when they support the team. The key is using the right tools, not avoiding tools entirely.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Selecting Tools Based Only on Popularity
+## 🪤 Trap 2: Selecting Tools Based Only on Popularity
 
 **Trap:** The most popular tool is not always the best fit. Selection should be based on team needs, integration, ease of use, and cost.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Information Radiators Requiring Manual Updates
+## 🪤 Trap 3: Information Radiators Requiring Manual Updates
 
 **Trap:** Information radiators should be self-updating. If someone must manually update them, they will become stale and ignored.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Confusing CI Tools with Test Tools
+## 🪤 Trap 4: Confusing CI Tools with Test Tools
 
 **Trap:** CI tools (Jenkins, GitHub Actions) orchestrate the pipeline. They are not test management tools. Test management tools (TestRail, Xray) organize and track tests.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Thinking Tool Selection Is Permanent
+## 🪤 Trap 5: Thinking Tool Selection Is Permanent
 
 **Trap:** Agile teams should be willing to change tools if they no longer fit. Tool selection is not a once-and-done decision.
 

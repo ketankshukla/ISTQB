@@ -1,6 +1,6 @@
-# Chapter 6 — Non-Functional Testing: Exam Traps
+# 🪤 Chapter 6 — Non-Functional Testing: Exam Traps
 
-## Trap 1: Confusing Load Testing with Stress Testing
+## 🪤 Trap 1: Confusing Load Testing with Stress Testing
 
 **Trap:** Load testing = expected load. Stress testing = beyond capacity to find breaking point.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Confusing SAST and DAST
+## 🪤 Trap 2: Confusing SAST and DAST
 
 **Trap:** SAST analyzes source code without execution. DAST tests running applications.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Thinking Performance Testing Is Only About Speed
+## 🪤 Trap 3: Thinking Performance Testing Is Only About Speed
 
 **Trap:** Performance testing includes throughput, resource utilization, scalability, and stability under load — not just response time.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Confusing Availability with Reliability
+## 🪤 Trap 4: Confusing Availability with Reliability
 
 **Trap:** Availability = percentage of time the system is operational. Reliability = ability to operate without failure.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Thinking Non-Functional Testing Can Be Skipped
+## 🪤 Trap 5: Thinking Non-Functional Testing Can Be Skipped
 
 **Trap:** Non-functional requirements are often vague but critical. Security breaches and performance failures can be catastrophic.
 

@@ -1,6 +1,6 @@
-# Chapter 6 — Finance Testing Tools and Automation: Exam Traps
+# 🪤 Chapter 6 — Finance Testing Tools and Automation: Exam Traps
 
-## Trap 1: Using Production Data Unmasked in Test
+## 🪤 Trap 1: Using Production Data Unmasked in Test
 
 **Trap:** Production financial data in test environments violates privacy regulations and security policies.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Thinking Automation Eliminates Manual Testing in Finance
+## 🪤 Trap 2: Thinking Automation Eliminates Manual Testing in Finance
 
 **Trap:** Automated tests cover calculations and workflows, but regulatory sign-off and exploratory testing still require human judgment.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Confusing Historical Replay with Synthetic Data
+## 🪤 Trap 3: Confusing Historical Replay with Synthetic Data
 
 **Trap:** Historical replay uses actual past events. Synthetic data generates artificial scenarios. Different purposes.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Ignoring Segregation of Duties in CI/CD
+## 🪤 Trap 4: Ignoring Segregation of Duties in CI/CD
 
 **Trap:** In regulated environments, developers cannot approve production deployments. CI/CD must enforce segregation.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Treating Tolerance Matches as Exact
+## 🪤 Trap 5: Treating Tolerance Matches as Exact
 
 **Trap:** Reconciliation tools use tolerances for matching. Testing must verify tolerance boundaries.
 

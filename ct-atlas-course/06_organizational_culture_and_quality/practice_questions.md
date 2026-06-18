@@ -1,8 +1,8 @@
-# Chapter 6 — Organizational Culture and Quality: Practice Questions
+# ❓ Chapter 6 — Organizational Culture and Quality: Practice Questions
 
 ---
 
-### Q1 (ATLaS-6.1, K2)
+### 🔷 Q1 (ATLaS-6.1, K2)
 
 Organizational culture affects quality by:
 
@@ -13,7 +13,7 @@ D. Only hiring testers
 
 ---
 
-### Q2 (ATLaS-6.2, K2)
+### 🔷 Q2 (ATLaS-6.2, K2)
 
 Psychological safety means:
 
@@ -24,7 +24,7 @@ D. Only data security
 
 ---
 
-### Q3 (ATLaS-6.3, K2)
+### 🔷 Q3 (ATLaS-6.3, K2)
 
 A quality mindset means:
 
@@ -35,7 +35,7 @@ D. Only developers write unit tests
 
 ---
 
-### Q4 (ATLaS-6.4, K2)
+### 🔷 Q4 (ATLaS-6.4, K2)
 
 Three Amigos (business, dev, tester) collaborate:
 
@@ -46,7 +46,7 @@ D. Only in retrospectives
 
 ---
 
-### Q5 (ATLaS-6.1, K2)
+### 🔷 Q5 (ATLaS-6.1, K2)
 
 Culture change is best achieved through:
 
@@ -57,7 +57,7 @@ D. Only penalties
 
 ---
 
-### Q6 (ATLaS-6.2, K2)
+### 🔷 Q6 (ATLaS-6.2, K2)
 
 Leaders build psychological safety by:
 
@@ -68,7 +68,7 @@ D. Only tracking metrics
 
 ---
 
-### Q7 (ATLaS-6.3, K2)
+### 🔷 Q7 (ATLaS-6.3, K2)
 
 Shift-left testing involves:
 
@@ -79,7 +79,7 @@ D. Only manual testing
 
 ---
 
-### Q8 (ATLaS-6.4, K2)
+### 🔷 Q8 (ATLaS-6.4, K2)
 
 Healthy dev-test collaboration includes:
 
@@ -90,7 +90,7 @@ D. Only handoffs
 
 ---
 
-### Q9 (ATLaS-6.1, K2)
+### 🔷 Q9 (ATLaS-6.1, K2)
 
 Continuous improvement at scale requires:
 
@@ -101,7 +101,7 @@ D. Only more testers
 
 ---
 
-### Q10 (ATLaS-6.2, K2)
+### 🔷 Q10 (ATLaS-6.2, K2)
 
 When mistakes are treated as learning opportunities:
 
@@ -112,7 +112,7 @@ D. Only customers benefit
 
 ---
 
-### Q11 (ATLaS-6.3, K2)
+### 🔷 Q11 (ATLaS-6.3, K2)
 
 The Definition of Ready ensures:
 
@@ -123,7 +123,7 @@ D. Only design is complete
 
 ---
 
-### Q12 (ATLaS-6.4, K2)
+### 🔷 Q12 (ATLaS-6.4, K2)
 
 Blameless post-mortems focus on:
 
@@ -134,7 +134,7 @@ D. Only assigning penalties
 
 ---
 
-### Q13 (ATLaS-6.1, K2)
+### 🔷 Q13 (ATLaS-6.1, K2)
 
 Kaizen emphasizes:
 
@@ -145,7 +145,7 @@ D. Only annual reviews
 
 ---
 
-### Q14 (ATLaS-6.2, K2)
+### 🔷 Q14 (ATLaS-6.2, K2)
 
 A team where no one speaks up in meetings likely lacks:
 
@@ -156,7 +156,7 @@ D. Only tools
 
 ---
 
-### Q15 (ATLaS-6.3, K2)
+### 🔷 Q15 (ATLaS-6.3, K2)
 
 Pair programming improves quality by:
 
@@ -167,7 +167,7 @@ D. Only for experts
 
 ---
 
-### Q16 (ATLaS-6.4, K2)
+### 🔷 Q16 (ATLaS-6.4, K2)
 
 Scaling a successful quality practice across teams should:
 
@@ -178,7 +178,7 @@ D. Only through documentation
 
 ---
 
-### Q17 (ATLaS-6.1, K2)
+### 🔷 Q17 (ATLaS-6.1, K2)
 
 Resistance to quality initiatives often indicates:
 
@@ -189,7 +189,7 @@ D. Only personality conflicts
 
 ---
 
-### Q18 (ATLaS-6.2, K2)
+### 🔷 Q18 (ATLaS-6.2, K2)
 
 A leader admitting their own mistake:
 
@@ -200,7 +200,7 @@ D. Only wastes time
 
 ---
 
-### Q19 (ATLaS-6.3, K2)
+### 🔷 Q19 (ATLaS-6.3, K2)
 
 Allocating time for improvement (e.g., 10% capacity):
 
@@ -211,7 +211,7 @@ D. Only for mature teams
 
 ---
 
-### Q20 (ATLaS-6.4, K2)
+### 🔷 Q20 (ATLaS-6.4, K2)
 
 Quality culture is strongest when:
 
@@ -222,84 +222,84 @@ D. Only customers report issues
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** Culture = shared values about quality.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** Psychological safety = safe to speak up.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** Quality mindset = prevent > find.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** Three Amigos = before dev, align requirements.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Culture = behavior + experiences, not memos.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Leaders model vulnerability + productive response.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Shift-left = early tester involvement.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Healthy = shared ownership.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** Improvement = retrospectives + sharing.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** Learning opportunities = process improvement.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** DoR = clear acceptance criteria.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Blameless = system improvements.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Kaizen = small continuous improvements.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** No speaking up = no psychological safety.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Pair = real-time review.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Scale = volunteers → measure → share.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Resistance = lack of understanding/barriers.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Admitting = models safety.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Time for improvement = continuous improvement.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** Quality culture = everyone engaged.

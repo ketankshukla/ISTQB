@@ -1,6 +1,6 @@
-# Chapter 3 — Static Analysis: Exam Traps
+# 🪤 Chapter 3 — Static Analysis: Exam Traps
 
-## Trap 1: Confusing Static and Dynamic Analysis
+## 🪤 Trap 1: Confusing Static and Dynamic Analysis
 
 **Trap:** Static analysis examines code without execution. Dynamic analysis requires execution.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Thinking Static Analysis Can Find All Defects
+## 🪤 Trap 2: Thinking Static Analysis Can Find All Defects
 
 **Trap:** Static analysis cannot find runtime issues like memory leaks, performance bottlenecks, or integration problems. It also has false negatives.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Confusing Physical and Logical LOC
+## 🪤 Trap 3: Confusing Physical and Logical LOC
 
 **Trap:** Physical LOC counts all lines. Logical LOC counts only executable statements. Metrics may use either.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Thinking High Complexity Always Means High Risk
+## 🪤 Trap 4: Thinking High Complexity Always Means High Risk
 
 **Trap:** Complexity should be interpreted in context. A switch statement with 20 cases has complexity 20 but may be very readable. Nested if-statements with complexity 15 may be much riskier.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Confusing False Positives with False Negatives
+## 🪤 Trap 5: Confusing False Positives with False Negatives
 
 **Trap:** False positive = tool reports a defect that is not real. False negative = tool misses a real defect.
 

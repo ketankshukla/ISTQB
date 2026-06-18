@@ -1,10 +1,10 @@
-# Chapter 2 — Mobile Platforms and Architecture: Lessons
+# 📘 Chapter 2 — Mobile Platforms and Architecture: Lessons
 
 ---
 
-## 2.1 iOS Architecture
+## ⭐ 2.1 iOS Architecture
 
-### Key Components
+### 🔷 Key Components
 
 | Component | Purpose |
 |-----------|---------|
@@ -15,7 +15,7 @@
 | **ViewController** | Manages a portion of the app's interface |
 | **Storyboard/XIB** | Visual UI layout files |
 
-### App Lifecycle (iOS)
+### 🔁 App Lifecycle (iOS)
 
 ```
 Not Running → Inactive → Active → Background → Suspended → Terminated
@@ -30,7 +30,7 @@ Not Running → Inactive → Active → Background → Suspended → Terminated
 | **Suspended** | App in memory but not executing | State preservation, memory pressure |
 | **Terminated** | App removed from memory | Graceful shutdown, data save |
 
-### Testing Implications
+### 🔷 Testing Implications
 
 - **State restoration:** Verify app returns to correct screen after backgrounding
 - **Memory warnings:** Test behavior when system requests memory release
@@ -38,9 +38,9 @@ Not Running → Inactive → Active → Background → Suspended → Terminated
 
 ---
 
-## 2.2 Android Architecture
+## ⭐ 2.2 Android Architecture
 
-### Key Components
+### 🔷 Key Components
 
 | Component | Purpose |
 |-----------|---------|
@@ -51,7 +51,7 @@ Not Running → Inactive → Active → Background → Suspended → Terminated
 | **ContentProvider** | Shares data between apps |
 | **Intent** | Messaging object for requesting actions |
 
-### App Lifecycle (Android)
+### 🔁 App Lifecycle (Android)
 
 ```
 onCreate → onStart → onResume → [Running] → onPause → onStop → onDestroy
@@ -66,7 +66,7 @@ onCreate → onStart → onResume → [Running] → onPause → onStop → onDes
 | **onStop()** | Activity no longer visible | Release resources |
 | **onDestroy()** | Activity being destroyed | Cleanup, cancel operations |
 
-### Testing Implications
+### 🔷 Testing Implications
 
 - **Configuration changes:** Screen rotation triggers destroy/create sequence
 - **Process death:** System may kill app; test state restoration with `onSaveInstanceState()`
@@ -74,9 +74,9 @@ onCreate → onStart → onResume → [Running] → onPause → onStop → onDes
 
 ---
 
-## 2.3 Permission Models
+## 📐 2.3 Permission Models
 
-### iOS Permissions
+### 🔷 iOS Permissions
 
 | Permission Type | Behavior |
 |-----------------|----------|
@@ -90,7 +90,7 @@ onCreate → onStart → onResume → [Running] → onPause → onStop → onDes
 - Verify graceful handling when permission is denied
 - Check app behavior when permission is revoked while app is running
 
-### Android Permissions
+### 🔷 Android Permissions
 
 | Protection Level | Examples | Behavior |
 |------------------|----------|----------|
@@ -105,23 +105,23 @@ onCreate → onStart → onResume → [Running] → onPause → onStop → onDes
 
 ---
 
-## 2.4 Platform-Specific UI Guidelines
+## ⭐ 2.4 Platform-Specific UI Guidelines
 
-### iOS Human Interface Guidelines
+### 🔷 iOS Human Interface Guidelines
 
 - **Navigation:** Back button in top-left, tab bar at bottom
 - **Controls:** Switches (not checkboxes), pickers (not dropdowns)
 - **Typography:** San Francisco font family
 - **Safe areas:** Respect notch, home indicator, rounded corners
 
-### Android Material Design
+### 🎨 Android Material Design
 
 - **Navigation:** Up button in app bar, bottom navigation optional
 - **Controls:** Checkboxes, radio buttons, dropdown menus
 - **Typography:** Roboto font family
 - **System bars:** Status bar, navigation bar handling
 
-### Testing Implications
+### 🔷 Testing Implications
 
 - **UI consistency:** iOS app should feel iOS-native; Android should feel Android-native
 - **Navigation patterns:** Different back navigation behavior
@@ -129,9 +129,9 @@ onCreate → onStart → onResume → [Running] → onPause → onStop → onDes
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Lifecycle Testing
+### 💡 Worked Example 1: Lifecycle Testing
 
 **Scenario:** A user fills a form, switches to another app, then returns.
 
@@ -146,7 +146,7 @@ onCreate → onStart → onResume → [Running] → onPause → onStop → onDes
 2. Trigger configuration change (rotate screen)
 3. **Verify:** Activity recreated but form data preserved via `onSaveInstanceState()`
 
-### Worked Example 2: Permission Denial
+### 💡 Worked Example 2: Permission Denial
 
 **Scenario:** Test camera permission denial in a document scanner app.
 
@@ -156,7 +156,7 @@ onCreate → onStart → onResume → [Running] → onPause → onStop → onDes
 | **Android** | User denies camera permission | App should show rationale; if denied twice, guide to Settings |
 | **Both** | Permission revoked while app running | App should detect change and prompt on next camera use |
 
-### Worked Example 3: Background State Testing
+### 💡 Worked Example 3: Background State Testing
 
 **Scenario:** A messaging app receives a push notification while in background.
 
@@ -168,7 +168,7 @@ onCreate → onStart → onResume → [Running] → onPause → onStop → onDes
 
 ---
 
-## Platform Comparison Summary
+## 📌 Platform Comparison Summary
 
 | Aspect | iOS | Android |
 |--------|-----|---------|

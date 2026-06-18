@@ -1,4 +1,4 @@
-# CTAL-TM Mock Exam 2
+# 📝 CTAL-TM Mock Exam 2
 
 **Instructions:**
 - 65 questions
@@ -8,7 +8,7 @@
 
 ---
 
-### Q1
+### 🔷 Q1
 
 Which of the following is a project risk?
 
@@ -19,7 +19,7 @@ D. Data is corrupted during transmission
 
 ---
 
-### Q2
+### 🔷 Q2
 
 A defect report should include all of the following EXCEPT:
 
@@ -30,7 +30,7 @@ D. Severity and priority
 
 ---
 
-### Q3
+### 🔷 Q3
 
 In a risk assessment, a risk with likelihood = 4 and impact = 3 has a risk priority of:
 
@@ -41,7 +41,7 @@ D. 4
 
 ---
 
-### Q4
+### 🔷 Q4
 
 A testing team found 180 defects during testing. After release, 20 more defects were reported by users. The Defect Detection Percentage (DDP) is approximately:
 
@@ -52,7 +52,7 @@ D. 180%
 
 ---
 
-### Q5
+### 🔷 Q5
 
 Which of the following is an example of test control?
 
@@ -63,7 +63,7 @@ D. Reviewing requirements for testability
 
 ---
 
-### Q6
+### 🔷 Q6
 
 A test tool costs $10,000 to purchase. Training costs $5,000. Implementation costs $15,000. Annual maintenance is $3,000. The 3-year total cost of ownership is:
 
@@ -74,7 +74,7 @@ D. $33,000
 
 ---
 
-### Q7
+### 🔷 Q7
 
 Which of the following is an example of test control?
 
@@ -85,7 +85,7 @@ D. Reviewing requirements for testability
 
 ---
 
-### Q8
+### 🔷 Q8
 
 SonarQube is an example of:
 
@@ -96,7 +96,7 @@ D. A test management tool
 
 ---
 
-### Q9
+### 🔷 Q9
 
 In a matrix organization, the GREATEST disadvantage is:
 
@@ -107,7 +107,7 @@ D. The team is too small to be effective
 
 ---
 
-### Q10
+### 🔷 Q10
 
 Which of the following is a test monitoring metric?
 
@@ -118,7 +118,7 @@ D. Number of developers on the project
 
 ---
 
-### Q11
+### 🔷 Q11
 
 Which of the following is a characteristic of a technical review?
 
@@ -129,7 +129,7 @@ D. Management attends to monitor progress
 
 ---
 
-### Q12
+### 🔷 Q12
 
 The PRIMARY reason for conducting a proof of concept (PoC) when selecting a test tool is to:
 
@@ -140,7 +140,7 @@ D. Document the tool selection process for auditors
 
 ---
 
-### Q13
+### 🔷 Q13
 
 Which of the following is a characteristic of an informal review?
 
@@ -151,7 +151,7 @@ D. Mandatory metrics collection
 
 ---
 
-### Q14
+### 🔷 Q14
 
 A test manager is planning a risk-based testing approach. The FIRST step should be to:
 
@@ -162,7 +162,7 @@ D. Report risks to stakeholders
 
 ---
 
-### Q15
+### 🔷 Q15
 
 Which of the following is a test completion activity?
 
@@ -173,7 +173,7 @@ D. Identifying test conditions
 
 ---
 
-### Q16
+### 🔷 Q16
 
 A team is behind schedule. The test manager decides to defer testing of low-priority features to meet the release date. This is:
 
@@ -184,7 +184,7 @@ D. Risk identification
 
 ---
 
-### Q17
+### 🔷 Q17
 
 Which of the following would be the BEST measure of test effectiveness?
 
@@ -195,7 +195,7 @@ D. Number of tools purchased
 
 ---
 
-### Q18
+### 🔷 Q18
 
 The PRIMARY purpose of a test strategy is to:
 
@@ -206,7 +206,7 @@ D. Document the results of testing
 
 ---
 
-### Q19
+### 🔷 Q19
 
 Which of the following is the BEST example of an entry criterion for system testing?
 
@@ -217,7 +217,7 @@ D. The product is ready for release
 
 ---
 
-### Q20
+### 🔷 Q20
 
 A testing team wants to verify that code follows secure coding standards. The best approach is:
 
@@ -228,7 +228,7 @@ D. Checking the design documents
 
 ---
 
-### Q21
+### 🔷 Q21
 
 Which of the following describes the relationship between a test strategy and a test plan?
 
@@ -239,7 +239,7 @@ D. The test plan is created first, then the test strategy
 
 ---
 
-### Q22
+### 🔷 Q22
 
 The Defect Detection Percentage (DDP) is calculated as:
 
@@ -250,7 +250,7 @@ D. Open defects / Closed defects
 
 ---
 
-### Q23
+### 🔷 Q23
 
 In test management, a "line" item in a Work Breakdown Structure (WBS) represents:
 
@@ -261,7 +261,7 @@ D. A type of test coverage
 
 ---
 
-### Q24
+### 🔷 Q24
 
 A test manager observes that the defect find rate is decreasing while test execution continues at the same pace. This MOST likely indicates:
 
@@ -272,7 +272,7 @@ D. The developers have stopped fixing defects
 
 ---
 
-### Q25
+### 🔷 Q25
 
 Which of the following is a key responsibility of the test manager during test planning?
 
@@ -283,7 +283,7 @@ D. Approving the final release without review
 
 ---
 
-### Q26
+### 🔷 Q26
 
 A testing team wants to improve the maintainability of their UI automation. They should adopt:
 
@@ -294,7 +294,7 @@ D. Fewer automated tests
 
 ---
 
-### Q27
+### 🔷 Q27
 
 Which of the following describes the PRIMARY benefit of independent testing?
 
@@ -305,7 +305,7 @@ D. Better domain knowledge of the system
 
 ---
 
-### Q28
+### 🔷 Q28
 
 A "don't care" entry in a decision table means:
 
@@ -316,7 +316,7 @@ D. The rule should be removed
 
 ---
 
-### Q29
+### 🔷 Q29
 
 In a risk-based testing approach, tests should be prioritized based on:
 
@@ -327,7 +327,7 @@ D. The preference of the development team
 
 ---
 
-### Q30
+### 🔷 Q30
 
 Which of the following is a MAJOR consideration when deciding whether to automate a test?
 
@@ -338,7 +338,7 @@ D. Whether the test is easy to write manually
 
 ---
 
-### Q31
+### 🔷 Q31
 
 The PRIMARY purpose of exit criteria is to:
 
@@ -349,7 +349,7 @@ D. Define the tools to be used
 
 ---
 
-### Q32
+### 🔷 Q32
 
 A test manager is evaluating whether to purchase a commercial test tool or use an open-source alternative. The PRIMARY factor should be:
 
@@ -360,7 +360,7 @@ D. Whether competitors use the same tool
 
 ---
 
-### Q33
+### 🔷 Q33
 
 Which of the following is a characteristic of a successful review?
 
@@ -371,7 +371,7 @@ D. Reviews are conducted without any preparation
 
 ---
 
-### Q34
+### 🔷 Q34
 
 A test team has 150 defects found in testing. After release, 10 more defects are found by users. The approximate Defect Detection Percentage (DDP) is:
 
@@ -382,7 +382,7 @@ D. 100%
 
 ---
 
-### Q35
+### 🔷 Q35
 
 Which of the following describes an integrated test organization?
 
@@ -393,7 +393,7 @@ D. Testers are external consultants hired for the project
 
 ---
 
-### Q36
+### 🔷 Q36
 
 The PRIMARY purpose of a test summary report is to:
 
@@ -404,7 +404,7 @@ D. Assign blame for defects found
 
 ---
 
-### Q37
+### 🔷 Q37
 
 In the context of estimation, contingency is added to:
 
@@ -415,7 +415,7 @@ D. Reduce the number of test cases
 
 ---
 
-### Q38
+### 🔷 Q38
 
 Which of the following would be the BEST indicator that a test automation initiative is successful?
 
@@ -426,7 +426,7 @@ D. The automation team has 10 engineers
 
 ---
 
-### Q39
+### 🔷 Q39
 
 A test manager notices that the test execution schedule is falling behind due to environment unavailability. The MOST appropriate control action is:
 
@@ -437,7 +437,7 @@ D. Skip the remaining tests and report success
 
 ---
 
-### Q40
+### 🔷 Q40
 
 Which of the following is a PRIMARY purpose of test monitoring?
 
@@ -448,7 +448,7 @@ D. To fix defects found during testing
 
 ---
 
-### Q41
+### 🔷 Q41
 
 Failure Mode and Effect Analysis (FMEA) is a technique used for:
 
@@ -459,7 +459,7 @@ D. Managing test team schedules
 
 ---
 
-### Q42
+### 🔷 Q42
 
 A test manager is considering whether to automate regression tests for a web application. The regression suite currently takes 3 weeks manually and is executed 6 times per year. The MOST compelling reason to automate is:
 
@@ -470,7 +470,7 @@ D. Because management requested it
 
 ---
 
-### Q43
+### 🔷 Q43
 
 Which of the following is the BEST description of a test manager's role in reviews?
 
@@ -481,7 +481,7 @@ D. The test manager writes all documents that are reviewed
 
 ---
 
-### Q44
+### 🔷 Q44
 
 A test manager is managing a team with low morale due to repetitive manual testing. The MOST effective action is to:
 
@@ -492,7 +492,7 @@ D. Reduce the quality standards to make testing easier
 
 ---
 
-### Q45
+### 🔷 Q45
 
 Which of the following is a PRIMARY purpose of a test approach?
 
@@ -503,7 +503,7 @@ D. To record test execution results
 
 ---
 
-### Q46
+### 🔷 Q46
 
 A test manager is reviewing a defect report that states: "The system sometimes crashes when saving large files." The manager should request:
 
@@ -514,7 +514,7 @@ D. A new test case for small files
 
 ---
 
-### Q47
+### 🔷 Q47
 
 Which of the following is a PRIMARY advantage of using a test management tool?
 
@@ -525,7 +525,7 @@ D. It replaces the need for a test manager
 
 ---
 
-### Q48
+### 🔷 Q48
 
 A test manager is planning a project where requirements are unclear and likely to change frequently. Which estimation technique is LEAST appropriate?
 
@@ -536,7 +536,7 @@ D. Experience-based estimation
 
 ---
 
-### Q49
+### 🔷 Q49
 
 Which of the following is a PRIMARY advantage of risk-based testing?
 
@@ -547,7 +547,7 @@ D. It reduces the number of testers required
 
 ---
 
-### Q50
+### 🔷 Q50
 
 A test manager is evaluating a tool that claims to automatically generate test cases from requirements. The manager should be MOST concerned about:
 
@@ -558,7 +558,7 @@ D. The tool's compatibility with the company's coffee machine
 
 ---
 
-### Q51
+### 🔷 Q51
 
 Which of the following is a PRIMARY difference between severity and priority?
 
@@ -569,7 +569,7 @@ D. Severity is only used in agile projects
 
 ---
 
-### Q52
+### 🔷 Q52
 
 A test manager is planning a project with tight deadlines and limited resources. Which test approach is MOST appropriate?
 
@@ -580,7 +580,7 @@ D. Skip testing and release immediately
 
 ---
 
-### Q53
+### 🔷 Q53
 
 Which of the following is a PRIMARY characteristic of a matrix test organization?
 
@@ -591,7 +591,7 @@ D. Testers are embedded in development teams with no test manager
 
 ---
 
-### Q54
+### 🔷 Q54
 
 A test manager is considering outsourcing testing to an external company. The PRIMARY advantage is:
 
@@ -602,7 +602,7 @@ D. Better domain knowledge of the application
 
 ---
 
-### Q55
+### 🔷 Q55
 
 Which of the following is a PRIMARY purpose of entry criteria?
 
@@ -613,7 +613,7 @@ D. To define the tools to be used
 
 ---
 
-### Q56
+### 🔷 Q56
 
 A test manager is calculating ROI for a test automation initiative. The initial investment is $50,000. Annual savings are estimated at $40,000. The payback period is approximately:
 
@@ -624,7 +624,7 @@ D. 4 years
 
 ---
 
-### Q57
+### 🔷 Q57
 
 Which of the following is a PRIMARY consideration when planning regression testing?
 
@@ -635,7 +635,7 @@ D. Focusing only on cosmetic issues
 
 ---
 
-### Q58
+### 🔷 Q58
 
 Which of the following is a PRIMARY purpose of a test policy?
 
@@ -646,7 +646,7 @@ D. To document the results of a specific test project
 
 ---
 
-### Q59
+### 🔷 Q59
 
 A test manager is using risk-based testing. A feature has high likelihood of defects but low impact if it fails. Another feature has low likelihood but high impact. Which should receive MORE testing effort?
 
@@ -657,7 +657,7 @@ D. Neither should be tested
 
 ---
 
-### Q60
+### 🔷 Q60
 
 Which of the following is a PRIMARY advantage of integrated testing over independent testing?
 
@@ -668,7 +668,7 @@ D. More formal processes
 
 ---
 
-### Q61
+### 🔷 Q61
 
 A test manager is planning a project with a novel technology that the organization has not used before. The MOST appropriate estimation technique is:
 
@@ -679,7 +679,7 @@ D. Expert judgment from a single estimator
 
 ---
 
-### Q62
+### 🔷 Q62
 
 A test manager notices that the test execution schedule is falling behind due to environment unavailability. The MOST appropriate control action is:
 
@@ -690,7 +690,7 @@ D. Skip the remaining tests and report success
 
 ---
 
-### Q63
+### 🔷 Q63
 
 Which of the following is a PRIMARY characteristic of a successful test automation framework?
 
@@ -701,7 +701,7 @@ D. It requires no documentation
 
 ---
 
-### Q64
+### 🔷 Q64
 
 A test manager is calculating the cost of quality. The cost of testing is $100,000. The cost of defects found in production is estimated at $300,000. Which conclusion is MOST appropriate?
 
@@ -712,7 +712,7 @@ D. Production defects are acceptable
 
 ---
 
-### Q65
+### 🔷 Q65
 
 A test team is conducting a technical review of a design document. Which role is responsible for facilitating the review meeting?
 
@@ -723,4 +723,4 @@ D. The project sponsor
 
 ---
 
-## End of Mock Exam 2
+## 📝 End of Mock Exam 2

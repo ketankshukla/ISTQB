@@ -1,8 +1,8 @@
-# Chapter 5 — Performance Test Analysis and Reporting: Practice Questions
+# ❓ Chapter 5 — Performance Test Analysis and Reporting: Practice Questions
 
 ---
 
-### Q1 (PT-5.1, K2)
+### 🔷 Q1 (PT-5.1, K2)
 
 A P95 response time of 3 seconds means:
 
@@ -13,7 +13,7 @@ D. 95 requests took 3 seconds
 
 ---
 
-### Q2 (PT-5.1, K2)
+### 🔷 Q2 (PT-5.1, K2)
 
 Which metric is MOST appropriate for a response time SLA?
 
@@ -24,7 +24,7 @@ D. Total number of requests
 
 ---
 
-### Q3 (PT-5.2, K2)
+### 🔷 Q3 (PT-5.2, K2)
 
 The 5 Whys technique is used for:
 
@@ -35,7 +35,7 @@ D. Calculating throughput
 
 ---
 
-### Q4 (PT-5.3, K2)
+### 🔷 Q4 (PT-5.3, K2)
 
 Adding an index to a slow database query is an example of:
 
@@ -46,7 +46,7 @@ D. Architecture tuning
 
 ---
 
-### Q5 (PT-5.3, K2)
+### 🔷 Q5 (PT-5.3, K2)
 
 Increasing the JVM heap size is an example of:
 
@@ -57,7 +57,7 @@ D. Architecture tuning
 
 ---
 
-### Q6 (PT-5.1, K2)
+### 🔷 Q6 (PT-5.1, K2)
 
 Throughput plateauing while response time increases indicates:
 
@@ -68,7 +68,7 @@ D. The load generator is broken
 
 ---
 
-### Q7 (PT-5.2, K3)
+### 🔷 Q7 (PT-5.2, K3)
 
 A code profiler shows that method `processOrder()` consumes 60% of total execution time. This suggests:
 
@@ -79,7 +79,7 @@ D. The test has too few users
 
 ---
 
-### Q8 (PT-5.4, K2)
+### 🔷 Q8 (PT-5.4, K2)
 
 A management performance report should PRIMARILY include:
 
@@ -90,7 +90,7 @@ D. Code-level method timings
 
 ---
 
-### Q9 (PT-5.1, K2)
+### 🔷 Q9 (PT-5.1, K2)
 
 A "connection timeout" error during a load test MOST likely indicates:
 
@@ -101,7 +101,7 @@ D. The load generator has extra capacity
 
 ---
 
-### Q10 (PT-5.3, K2)
+### 🔷 Q10 (PT-5.3, K2)
 
 Which tuning approach should typically be tried FIRST?
 
@@ -112,7 +112,7 @@ D. Replace the database vendor
 
 ---
 
-### Q11 (PT-5.1, K2)
+### 🔷 Q11 (PT-5.1, K2)
 
 A consistent upward trend in memory usage during endurance testing indicates:
 
@@ -123,7 +123,7 @@ D. Optimal performance
 
 ---
 
-### Q12 (PT-5.2, K2)
+### 🔷 Q12 (PT-5.2, K2)
 
 Component isolation in root cause analysis means:
 
@@ -134,7 +134,7 @@ D. Running tests in isolation from the network
 
 ---
 
-### Q13 (PT-5.4, K2)
+### 🔷 Q13 (PT-5.4, K2)
 
 A trend report comparing performance across releases is used to:
 
@@ -145,7 +145,7 @@ D. Calculate marketing ROI
 
 ---
 
-### Q14 (PT-5.1, K3)
+### 🔷 Q14 (PT-5.1, K3)
 
 Response times: [1s, 1s, 1s, 1s, 10s]. Which statement is TRUE?
 
@@ -156,7 +156,7 @@ D. Minimum = 10s
 
 ---
 
-### Q15 (PT-5.3, K3)
+### 🔷 Q15 (PT-5.3, K3)
 
 A team has a CPU bottleneck. They immediately order 2x the CPU cores. Without also optimizing the code, this approach:
 
@@ -167,7 +167,7 @@ D. Is free
 
 ---
 
-### Q16 (PT-5.4, K2)
+### 🔷 Q16 (PT-5.4, K2)
 
 A technical performance report for developers should include:
 
@@ -178,7 +178,7 @@ D. Employee satisfaction scores
 
 ---
 
-### Q17 (PT-5.2, K2)
+### 🔷 Q17 (PT-5.2, K2)
 
 Correlation analysis in performance testing involves:
 
@@ -189,7 +189,7 @@ D. Calculating the average response time
 
 ---
 
-### Q18 (PT-5.1, K2)
+### 🔷 Q18 (PT-5.1, K2)
 
 A throughput of 200 TPS at 1,000 users and 210 TPS at 2,000 users indicates:
 
@@ -200,7 +200,7 @@ D. The test is too short
 
 ---
 
-### Q19 (PT-5.4, K2)
+### 🔷 Q19 (PT-5.4, K2)
 
 When reporting performance results, recommendations should be:
 
@@ -211,7 +211,7 @@ D. Written only for technical audiences
 
 ---
 
-### Q20 (PT-5.3, K3)
+### 🔷 Q20 (PT-5.3, K3)
 
 Which is a software tuning approach?
 
@@ -222,104 +222,104 @@ D. Buying a faster CPU
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** P95 = 95% of requests are faster than this value.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** Percentiles (P90, P95) are best for SLAs. Average is skewed.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** 5 Whys = root cause analysis by repeatedly asking why.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** Adding index = software tuning (code/database optimization).
 
-### Q5
+### 🔷 Q5
 **Answer: C**
 
 **Rationale:** JVM heap size = configuration tuning (no code change).
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** Throughput plateau + response time increase = bottleneck reached.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** 60% execution time = primary optimization target.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** Management report = summary, business impact, go/no-go.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** Connection timeout = server not responding, likely overloaded.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** Configuration changes = first (no code, low risk, quick).
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 
 **Rationale:** Growing memory over time = probable memory leak.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** Component isolation = test components separately.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** Trend report = detect performance regressions across releases.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** Median = 1s (most users fast). Average skewed by outlier.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** Hardware first = expensive. Software optimization should be tried first.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 
 **Rationale:** Technical report = detailed metrics, bottlenecks, code-level fixes.
 
-### Q17
+### 🔷 Q17
 **Answer: A**
 
 **Rationale:** Correlation analysis = find relationships between metrics/events.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 
 **Rationale:** Throughput barely increases = bottleneck near 1,000 users.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** Recommendations = specific, prioritized, with expected impact.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 
 **Rationale:** Query optimization with index = software tuning.

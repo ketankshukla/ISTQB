@@ -1,6 +1,6 @@
-# Case Study 3 — Organizational GenAI Adoption Roadmap for a Healthcare Testing Group
+# 📂 Case Study 3 — Organizational GenAI Adoption Roadmap for a Healthcare Testing Group
 
-## Context
+## ⭐ Context
 
 You are the Test Director at "HealthTech Solutions," a healthcare software company with 120 testers across six product teams serving 200+ hospitals and 5,000+ clinics in North America and Europe. The organization develops:
 
@@ -22,9 +22,9 @@ The company wants to adopt GenAI to improve testing efficiency and coverage acro
 
 ---
 
-## Tasks
+## ⭐ Tasks
 
-### Task 1: Phased Roadmap Design (Chapter 5)
+### 🎨 Task 1: Phased Roadmap Design (Chapter 5)
 
 Design a four-phase adoption roadmap tailored to this organization's constraints, regulatory environment, and budget. For each phase, specify:
 - Timeline (in months)
@@ -34,7 +34,7 @@ Design a four-phase adoption roadmap tailored to this organization's constraints
 - Governance or compliance checkpoints
 - Budget allocation from the $50K annual budget
 
-### Task 2: Change Management Plan (Chapter 5)
+### 🗓️ Task 2: Change Management Plan (Chapter 5)
 
 Addressing the specific concerns of this organization, design a comprehensive change management strategy that includes:
 - How to handle the skill diversity across the 120 testers (clinical, analytical, technical)
@@ -43,22 +43,22 @@ Addressing the specific concerns of this organization, design a comprehensive ch
 - How to manage role anxiety among former clinical staff who may fear automation replacing their domain expertise
 - Communication and training approaches appropriate for a diverse, geographically distributed workforce
 
-### Task 3: Architecture and Risk Decisions (Chapters 3 and 4)
+### 🗂️ Task 3: Architecture and Risk Decisions (Chapters 3 and 4)
 
 For each product area (EHR, patient portal, medical device, billing, clinical decision support, lab integration), recommend:
 - An architectural approach (direct API, RAG, fine-tuned model, on-premise, hybrid, or NO GenAI)
 - The top two risks that must be actively managed
 - Justification for your recommendation based on the regulatory and operational context
 
-### Task 4: Regulatory Documentation (Chapter 3)
+### 🔷 Task 4: Regulatory Documentation (Chapter 3)
 
 The FDA inspector arrives and asks: "How do you ensure that AI-generated test artifacts for your infusion pump firmware meet the same validation standards as manually created artifacts?" Design a response that demonstrates compliance with FDA software validation guidance, including specific documentation, processes, and evidence you would show the inspector.
 
 ---
 
-## Model Answers
+## ✔️ Model Answers
 
-### Task 1 Model Answer
+### ✔️ Task 1 Model Answer
 
 **Phase 1: Assessment and Foundation (Months 1-3)**
 - **Target:** Billing and insurance team (lowest regulatory risk, well-documented requirements, rule-based logic)
@@ -109,7 +109,7 @@ The FDA inspector arrives and asks: "How do you ensure that AI-generated test ar
 
 ---
 
-### Task 2 Model Answer
+### ✔️ Task 2 Model Answer
 
 **Handling Skill Diversity (120 testers across clinical, analytical, technical):**
 
@@ -144,7 +144,7 @@ The FDA inspector arrives and asks: "How do you ensure that AI-generated test ar
 
 ---
 
-### Task 3 Model Answer
+### ✔️ Task 3 Model Answer
 
 | Product Area | Architecture | Top Risk 1 | Top Risk 2 | Justification |
 |--------------|-------------|------------|------------|---------------|
@@ -157,7 +157,7 @@ The FDA inspector arrives and asks: "How do you ensure that AI-generated test ar
 
 ---
 
-### Task 4 Model Answer
+### ✔️ Task 4 Model Answer
 
 **Response to FDA Inspector:**
 

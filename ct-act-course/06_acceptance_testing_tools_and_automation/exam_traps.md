@@ -1,6 +1,6 @@
-# Chapter 6 — Acceptance Testing Tools and Automation: Exam Traps
+# 🪤 Chapter 6 — Acceptance Testing Tools and Automation: Exam Traps
 
-## Trap 1: Confusing BDD Tools with Test Automation Frameworks
+## 🪤 Trap 1: Confusing BDD Tools with Test Automation Frameworks
 
 **Trap:** BDD tools (Cucumber, SpecFlow) are for acceptance-level executable specifications. Unit test frameworks (JUnit, NUnit) are for developer testing. They serve different purposes.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Thinking Tool Selection Is Only About Features
+## 🪤 Trap 2: Thinking Tool Selection Is Only About Features
 
 **Trap:** Tool selection must consider team skills, existing toolchain, budget, and regulatory requirements, not just feature lists.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Confusing Service Virtualization with Mocking
+## 🪤 Trap 3: Confusing Service Virtualization with Mocking
 
 **Trap:** Service virtualization simulates complete services for integration testing. Mocking replaces individual objects in unit tests. Different scopes.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Thinking Automated Acceptance Tests Replace UAT
+## 🪤 Trap 4: Thinking Automated Acceptance Tests Replace UAT
 
 **Trap:** Automated acceptance tests (e.g., Cucumber) complement but don't replace hands-on UAT by business users.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Ignoring Test Data as a Tool Concern
+## 🪤 Trap 5: Ignoring Test Data as a Tool Concern
 
 **Trap:** Test data management is critical for acceptance testing. Tools for data generation, masking, and virtualization are as important as test execution tools.
 

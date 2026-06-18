@@ -1,6 +1,6 @@
-# Chapter 4 — Functional Testing of Big Data Applications
+# 🗃️ Chapter 4 — Functional Testing of Big Data Applications
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~20% (~8 questions out of 40)
 - **K-levels:** K2 (understand), K3 (apply)
@@ -8,7 +8,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -20,7 +20,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts
+## ⭐ Key Concepts
 
 - ETL vs. ELT testing
 - Source-to-target mapping validation

@@ -1,17 +1,17 @@
-# CTFL-AT v4.0 Study Plan
+# 🗓️ CTFL-AT v4.0 Study Plan
 
-## Target
+## ⭐ Target
 
 Pass the CTFL-AT v4.0 exam with 85%+ in 2-3 weeks of focused study (8-12 hours per week).
 
-## Prerequisites
+## ⭐ Prerequisites
 
 - ISTQB CTFL v4.0 certification (mandatory)
 - Experience working in agile teams is helpful but not required
 
 ---
 
-## Week 1: Agile Testing Fundamentals and Methods
+## 🏗️ Week 1: Agile Testing Fundamentals and Methods
 
 | Day | Task | Time |
 |-----|------|------|
@@ -32,7 +32,7 @@ Pass the CTFL-AT v4.0 exam with 85%+ in 2-3 weeks of focused study (8-12 hours p
 
 ---
 
-## Week 2: Tools, Automation, and Integration
+## 🛠️ Week 2: Tools, Automation, and Integration
 
 | Day | Task | Time |
 |-----|------|------|
@@ -50,7 +50,7 @@ Pass the CTFL-AT v4.0 exam with 85%+ in 2-3 weeks of focused study (8-12 hours p
 
 ---
 
-## Week 3: Mock Exams and Final Review
+## 📝 Week 3: Mock Exams and Final Review
 
 | Day | Task | Time |
 |-----|------|------|
@@ -70,7 +70,7 @@ Pass the CTFL-AT v4.0 exam with 85%+ in 2-3 weeks of focused study (8-12 hours p
 
 ---
 
-## Recommended Pace for Busy Professionals
+## ⭐ Recommended Pace for Busy Professionals
 
 If you can only dedicate 5-6 hours per week, stretch the plan to 4 weeks:
 - Weeks 1-2: Chapter 1 + start Chapter 2
@@ -78,7 +78,7 @@ If you can only dedicate 5-6 hours per week, stretch the plan to 4 weeks:
 
 ---
 
-## Materials Needed
+## ⭐ Materials Needed
 
 - This self-study course (complete)
 - Notepad or flashcard app for agile terms and principles
@@ -87,7 +87,7 @@ If you can only dedicate 5-6 hours per week, stretch the plan to 4 weeks:
 
 ---
 
-## Study Techniques That Work
+## 📚 Study Techniques That Work
 
 **Active Recall:** After reading a section, close the book and explain it out loud.
 
@@ -103,7 +103,7 @@ If you can only dedicate 5-6 hours per week, stretch the plan to 4 weeks:
 
 ---
 
-## Final Motivation
+## ⭐ Final Motivation
 
 The CTFL-AT exam tests your understanding of how testing fits into agile teams and practices. The scenarios simulate real agile situations you will encounter. Every hour spent understanding WHY the correct answer is right is an investment in your agile testing career.
 

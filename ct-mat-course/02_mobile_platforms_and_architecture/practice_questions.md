@@ -1,8 +1,8 @@
-# Chapter 2 — Mobile Platforms and Architecture: Practice Questions
+# ❓ Chapter 2 — Mobile Platforms and Architecture: Practice Questions
 
 ---
 
-### Q1 (MAT-2.1, K1)
+### 🔷 Q1 (MAT-2.1, K1)
 
 The iOS component that manages app-level lifecycle events is:
 
@@ -13,7 +13,7 @@ D. Fragment
 
 ---
 
-### Q2 (MAT-2.2, K1)
+### 🔷 Q2 (MAT-2.2, K1)
 
 An Android Activity's `onPause()` is called when:
 
@@ -24,7 +24,7 @@ D. Only when the app crashes
 
 ---
 
-### Q3 (MAT-2.3, K2)
+### 🔷 Q3 (MAT-2.3, K2)
 
 On Android 6+, dangerous permissions are:
 
@@ -35,7 +35,7 @@ D. Only for system apps
 
 ---
 
-### Q4 (MAT-2.4, K2)
+### 🔷 Q4 (MAT-2.4, K2)
 
 Screen rotation on Android typically causes:
 
@@ -46,7 +46,7 @@ D. App termination
 
 ---
 
-### Q5 (MAT-2.1, K1)
+### 🔷 Q5 (MAT-2.1, K1)
 
 SwiftUI is:
 
@@ -57,7 +57,7 @@ D. A testing tool
 
 ---
 
-### Q6 (MAT-2.2, K2)
+### 🔷 Q6 (MAT-2.2, K2)
 
 Jetpack Compose is used for:
 
@@ -68,7 +68,7 @@ D. Database management
 
 ---
 
-### Q7 (MAT-2.3, K2)
+### 🔷 Q7 (MAT-2.3, K2)
 
 TestFlight is Apple's platform for:
 
@@ -79,7 +79,7 @@ D. Web app hosting
 
 ---
 
-### Q8 (MAT-2.4, K2)
+### 🔷 Q8 (MAT-2.4, K2)
 
 The Android component that runs background operations without a UI is:
 
@@ -90,7 +90,7 @@ D. Intent
 
 ---
 
-### Q9 (MAT-2.1, K1)
+### 🔷 Q9 (MAT-2.1, K1)
 
 An Intent in Android is used to:
 
@@ -101,7 +101,7 @@ D. Compress images
 
 ---
 
-### Q10 (MAT-2.2, K2)
+### 🔷 Q10 (MAT-2.2, K2)
 
 iOS location permission options include:
 
@@ -112,7 +112,7 @@ D. Only "Ask Every Time"
 
 ---
 
-### Q11 (MAT-2.3, K2)
+### 🔷 Q11 (MAT-2.3, K2)
 
 When an iOS app moves from Active to Background, it should:
 
@@ -123,7 +123,7 @@ D. Delete all data
 
 ---
 
-### Q12 (MAT-2.4, K2)
+### 🔷 Q12 (MAT-2.4, K2)
 
 Material Design is associated with:
 
@@ -134,7 +134,7 @@ D. macOS
 
 ---
 
-### Q13 (MAT-2.1, K1)
+### 🔷 Q13 (MAT-2.1, K1)
 
 A ViewController in iOS manages:
 
@@ -145,7 +145,7 @@ D. File system access
 
 ---
 
-### Q14 (MAT-2.2, K2)
+### 🔷 Q14 (MAT-2.2, K2)
 
 `onSaveInstanceState()` in Android is used to:
 
@@ -156,7 +156,7 @@ D. Only on app launch
 
 ---
 
-### Q15 (MAT-2.3, K2)
+### 🔷 Q15 (MAT-2.3, K2)
 
 If a user denies a permission on iOS and selects "Don't Allow," the app should:
 
@@ -167,7 +167,7 @@ D. Assume permission is granted
 
 ---
 
-### Q16 (MAT-2.4, K2)
+### 🔷 Q16 (MAT-2.4, K2)
 
 The Human Interface Guidelines apply to:
 
@@ -178,7 +178,7 @@ D. Linux
 
 ---
 
-### Q17 (MAT-2.1, K1)
+### 🔷 Q17 (MAT-2.1, K1)
 
 Jetpack Compose is to Android as ___ is to iOS:
 
@@ -189,7 +189,7 @@ D. Flutter
 
 ---
 
-### Q18 (MAT-2.2, K2)
+### 🔷 Q18 (MAT-2.2, K2)
 
 A BroadcastReceiver in Android responds to:
 
@@ -200,7 +200,7 @@ D. Only network changes
 
 ---
 
-### Q19 (MAT-2.3, K2)
+### 🔷 Q19 (MAT-2.3, K2)
 
 iOS SceneDelegate (iOS 13+) handles:
 
@@ -211,7 +211,7 @@ D. Only camera access
 
 ---
 
-### Q20 (MAT-2.4, K2)
+### 🔷 Q20 (MAT-2.4, K2)
 
 An Android Fragment is:
 
@@ -222,84 +222,84 @@ D. Only for background tasks
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** AppDelegate manages iOS app-level lifecycle.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** `onPause()` = activity loses focus.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** Android 6+ = runtime permission prompts.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** Rotation = Activity destroy/recreate.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** SwiftUI = iOS declarative UI framework.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Jetpack Compose = Android modern UI.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** TestFlight = iOS beta testing.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Service = background operations.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** Intent = request action from component.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** iOS location = While Using, Always, Never.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Background = save state, pause operations.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Material Design = Android.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** ViewController = UI management.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** `onSaveInstanceState()` = save UI state.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Handle gracefully, guide to Settings.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** HIG = iOS guidelines.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Jetpack Compose (Android) ≈ SwiftUI (iOS).
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** BroadcastReceiver = system-wide events.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** SceneDelegate = scene lifecycle, multi-window.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** Fragment = reusable UI portion in Activity.

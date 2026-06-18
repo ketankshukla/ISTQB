@@ -1,10 +1,10 @@
-# Case Study 1 — Slot Game Testing
+# 📂 Case Study 1 — Slot Game Testing
 
-## Context
+## ⭐ Context
 
 You are a Senior Test Analyst at SpinVerify, an independent testing laboratory. You have been assigned to test a new video slot game called "Dragon's Gold" before it can be certified for release in the UK market.
 
-## Game Specifications
+## 🎮 Game Specifications
 
 **Game Type:** 5-reel, 3-row video slot with 20 paylines
 **Cost per spin:** $0.20 to $100.00
@@ -37,7 +37,7 @@ You are a Senior Test Analyst at SpinVerify, an independent testing laboratory. 
 
 ---
 
-## Task 1: Functional Test Plan
+## 🗓️ Task 1: Functional Test Plan
 
 Design a functional test plan for Dragon's Gold covering game mechanics, payouts, and bonus features.
 
@@ -76,7 +76,7 @@ Design a functional test plan for Dragon's Gold covering game mechanics, payouts
 
 ---
 
-## Task 2: RTP Verification Plan
+## 🗓️ Task 2: RTP Verification Plan
 
 Design an RTP verification test.
 
@@ -104,7 +104,7 @@ Design an RTP verification test.
 
 ---
 
-## Task 3: Compliance Testing for UK Market
+## ⭐ Task 3: Compliance Testing for UK Market
 
 What UK-specific compliance tests are required?
 
@@ -122,7 +122,7 @@ What UK-specific compliance tests are required?
 
 ---
 
-## Task 4: Identify Risks and Mitigations
+## ⚠️ Task 4: Identify Risks and Mitigations
 
 | Risk | Impact | Likelihood | Mitigation |
 |------|--------|-----------|------------|

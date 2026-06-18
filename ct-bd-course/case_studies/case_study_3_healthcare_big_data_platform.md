@@ -1,6 +1,6 @@
-# Case Study 3 — Healthcare Big Data Platform
+# 📂 Case Study 3 — Healthcare Big Data Platform
 
-## Context
+## ⭐ Context
 
 You are the Test Architect for HealthData, building a Big Data platform to integrate electronic health records (EHR), medical imaging, and genomics data for research and clinical decision support.
 
@@ -24,7 +24,7 @@ You are the Test Architect for HealthData, building a Big Data platform to integ
 
 ---
 
-## Task 1: Architecture Testing Strategy
+## ♟️ Task 1: Architecture Testing Strategy
 
 **Question:** Design a test strategy for the healthcare Big Data platform.
 
@@ -69,7 +69,7 @@ Wearables → Kafka → Spark Streaming → HBase
 
 ---
 
-## Task 2: Real-Time Alert Testing
+## ⭐ Task 2: Real-Time Alert Testing
 
 **Question:** A clinical alert system must flag potential drug interactions within 2 seconds of medication order entry. Design tests.
 
@@ -121,7 +121,7 @@ Result: PASS
 
 ---
 
-## Task 3: Genomic Data Processing Test
+## 🗃️ Task 3: Genomic Data Processing Test
 
 **Question:** A variant calling pipeline processes whole-genome sequences. How do you test its accuracy?
 
@@ -175,7 +175,7 @@ Result: PASS
 
 ---
 
-## Task 4: Data Security and Access Control Testing
+## 🔒 Task 4: Data Security and Access Control Testing
 
 **Question:** How do you test HIPAA compliance for the platform?
 

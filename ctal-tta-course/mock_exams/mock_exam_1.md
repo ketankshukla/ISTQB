@@ -1,4 +1,4 @@
-# CTAL-TTA Mock Exam 1
+# 📝 CTAL-TTA Mock Exam 1
 
 **Instructions:**
 - 45 questions
@@ -8,7 +8,7 @@
 
 ---
 
-### Q1
+### 🔷 Q1
 
 Which of the following is a TECHNICAL risk that a technical test analyst would focus on?
 
@@ -19,7 +19,7 @@ D. The product manager is unavailable
 
 ---
 
-### Q2
+### 🔷 Q2
 
 What does statement coverage measure?
 
@@ -30,7 +30,7 @@ D. Whether every function has been called at least once
 
 ---
 
-### Q3
+### 🔷 Q3
 
 A test manager estimates effort by first estimating the total and then allocating percentages to each phase. This is:
 
@@ -41,7 +41,7 @@ D. Three-point estimation
 
 ---
 
-### Q4
+### 🔷 Q4
 
 A function contains:
 ```
@@ -61,7 +61,7 @@ D. 50% statement coverage and 100% branch coverage
 
 ---
 
-### Q5
+### 🔷 Q5
 
 Which of the following is a characteristic of static analysis?
 
@@ -72,7 +72,7 @@ D. It tests user interactions
 
 ---
 
-### Q6
+### 🔷 Q6
 
 What is the cyclomatic complexity of the following code?
 ```
@@ -94,7 +94,7 @@ D. 5
 
 ---
 
-### Q7
+### 🔷 Q7
 
 Which of the following requires code execution?
 
@@ -105,7 +105,7 @@ D. Linting
 
 ---
 
-### Q8
+### 🔷 Q8
 
 For the decision `(A OR B)`, which set of test cases achieves MC/DC?
 
@@ -116,7 +116,7 @@ D. A=F, B=F and A=T, B=T
 
 ---
 
-### Q9
+### 🔷 Q9
 
 An application's memory usage grows continuously over several hours without decreasing. This is MOST likely:
 
@@ -127,7 +127,7 @@ D. Efficient memory management
 
 ---
 
-### Q10
+### 🔷 Q10
 
 Which of the following CANNOT be found by dynamic analysis?
 
@@ -138,7 +138,7 @@ D. Thread deadlock
 
 ---
 
-### Q11
+### 🔷 Q11
 
 A team uses a capture/replay tool to record user interactions for 500 test cases. After a UI update, 80% of the tests fail. This demonstrates:
 
@@ -149,7 +149,7 @@ D. That manual testing should have been used
 
 ---
 
-### Q12
+### 🔷 Q12
 
 In a risk-based testing approach, tests should be prioritized based on:
 
@@ -160,7 +160,7 @@ D. The preference of the development team
 
 ---
 
-### Q13
+### 🔷 Q13
 
 A control flow graph has 8 nodes and 10 edges. The cyclomatic complexity is:
 
@@ -171,7 +171,7 @@ D. 5
 
 ---
 
-### Q14
+### 🔷 Q14
 
 Which tool category is JUnit?
 
@@ -182,7 +182,7 @@ D. Security scanner
 
 ---
 
-### Q15
+### 🔷 Q15
 
 Which type of performance testing evaluates system behavior under expected user load?
 
@@ -193,7 +193,7 @@ D. Soak testing
 
 ---
 
-### Q16
+### 🔷 Q16
 
 SAST (Static Application Security Testing) analyzes:
 
@@ -204,7 +204,7 @@ D. User behavior for security risks
 
 ---
 
-### Q17
+### 🔷 Q17
 
 In data flow testing, a "definition-use pair" (DU pair) is:
 
@@ -215,7 +215,7 @@ D. A pair of decisions that depend on each other
 
 ---
 
-### Q18
+### 🔷 Q18
 
 Which statement about code coverage is TRUE?
 
@@ -226,7 +226,7 @@ D. Coverage percentage is directly proportional to the number of defects found
 
 ---
 
-### Q19
+### 🔷 Q19
 
 A sampling profiler is preferred over an instrumentation profiler when:
 
@@ -237,7 +237,7 @@ D. Memory allocation tracking is needed
 
 ---
 
-### Q20
+### 🔷 Q20
 
 Testing a system at 2x expected capacity to find its breaking point is:
 
@@ -248,7 +248,7 @@ D. Scalability testing
 
 ---
 
-### Q21
+### 🔷 Q21
 
 Which of the following is a PRIMARY purpose of a test approach?
 
@@ -259,7 +259,7 @@ D. To record test execution results
 
 ---
 
-### Q22
+### 🔷 Q22
 
 Availability is calculated as:
 
@@ -270,7 +270,7 @@ D. MTBF - MTTR
 
 ---
 
-### Q23
+### 🔷 Q23
 
 Which security testing technique involves simulating real-world attacks on a running application?
 
@@ -281,7 +281,7 @@ D. Fuzz testing
 
 ---
 
-### Q24
+### 🔷 Q24
 
 A "don't care" entry in a decision table means:
 
@@ -292,7 +292,7 @@ D. The rule should be removed
 
 ---
 
-### Q25
+### 🔷 Q25
 
 In a keyword-driven framework, test cases are written using:
 
@@ -303,7 +303,7 @@ D. Binary test scripts
 
 ---
 
-### Q26
+### 🔷 Q26
 
 Soak testing is primarily used to detect:
 
@@ -314,7 +314,7 @@ D. Compatibility with different browsers
 
 ---
 
-### Q27
+### 🔷 Q27
 
 A tool that sends random malformed inputs to an application to find crashes is:
 
@@ -325,7 +325,7 @@ D. A performance profiler
 
 ---
 
-### Q28
+### 🔷 Q28
 
 Which of the following would be detected during static analysis?
 
@@ -336,7 +336,7 @@ D. The actual defect density after test execution
 
 ---
 
-### Q29
+### 🔷 Q29
 
 A system has MTBF = 500 hours and MTTR = 2 hours. The availability is approximately:
 
@@ -347,7 +347,7 @@ D. 99.996%
 
 ---
 
-### Q30
+### 🔷 Q30
 
 Continuous Integration (CI) is BEST described as:
 
@@ -358,7 +358,7 @@ D. Writing tests after the code is complete
 
 ---
 
-### Q31
+### 🔷 Q31
 
 Fault injection is used to:
 
@@ -369,7 +369,7 @@ D. Measure code complexity
 
 ---
 
-### Q32
+### 🔷 Q32
 
 Which of the following is a POOR candidate for test automation?
 
@@ -380,7 +380,7 @@ D. A data-driven test with 100 variations
 
 ---
 
-### Q33
+### 🔷 Q33
 
 The Page Object Model (POM) in UI automation is used to:
 
@@ -391,7 +391,7 @@ D. Execute tests in parallel
 
 ---
 
-### Q34
+### 🔷 Q34
 
 Which of the following describes the relationship between a test strategy and a test plan?
 
@@ -402,7 +402,7 @@ D. The test plan is created first, then the test strategy
 
 ---
 
-### Q35
+### 🔷 Q35
 
 A test manager's PRIMARY responsibility is to:
 
@@ -413,7 +413,7 @@ D. Develop the application code
 
 ---
 
-### Q36
+### 🔷 Q36
 
 A testing team wants to verify that code follows secure coding standards. The best approach is:
 
@@ -424,7 +424,7 @@ D. Checking the design documents
 
 ---
 
-### Q37
+### 🔷 Q37
 
 Which of the following is a characteristic of an informal review?
 
@@ -435,7 +435,7 @@ D. Mandatory metrics collection
 
 ---
 
-### Q38
+### 🔷 Q38
 
 A test manager observes that the defect find rate is decreasing while test execution continues at the same pace. This MOST likely indicates:
 
@@ -446,7 +446,7 @@ D. The developers have stopped fixing defects
 
 ---
 
-### Q39
+### 🔷 Q39
 
 Which of the following is a PRIMARY purpose of exit criteria?
 
@@ -457,7 +457,7 @@ D. To define the tools to be used
 
 ---
 
-### Q40
+### 🔷 Q40
 
 A test team has 150 defects found in testing. After release, 10 more defects are found by users. The approximate Defect Detection Percentage (DDP) is:
 
@@ -468,7 +468,7 @@ D. 100%
 
 ---
 
-### Q41
+### 🔷 Q41
 
 Which of the following is a PRIMARY advantage of risk-based testing?
 
@@ -479,7 +479,7 @@ D. It reduces the number of testers required
 
 ---
 
-### Q42
+### 🔷 Q42
 
 A testing team wants to improve the maintainability of their UI automation. They should adopt:
 
@@ -490,7 +490,7 @@ D. Fewer automated tests
 
 ---
 
-### Q43
+### 🔷 Q43
 
 Which of the following describes the PRIMARY benefit of independent testing?
 
@@ -501,7 +501,7 @@ D. Better domain knowledge of the system
 
 ---
 
-### Q44
+### 🔷 Q44
 
 A test manager is calculating ROI for a test automation initiative. The initial investment is $50,000. Annual savings are estimated at $40,000. The payback period is approximately:
 
@@ -512,7 +512,7 @@ D. 4 years
 
 ---
 
-### Q45
+### 🔷 Q45
 
 Which of the following is a PRIMARY characteristic of a successful test automation framework?
 
@@ -523,4 +523,4 @@ D. It requires no documentation
 
 ---
 
-## End of Mock Exam 1
+## 📝 End of Mock Exam 1

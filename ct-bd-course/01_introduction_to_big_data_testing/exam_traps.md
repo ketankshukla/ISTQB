@@ -1,6 +1,6 @@
-# Chapter 1 — Introduction to Big Data Testing: Exam Traps
+# 🪤 Chapter 1 — Introduction to Big Data Testing: Exam Traps
 
-## Trap 1: Thinking Big Data Is Only About Volume
+## 🪤 Trap 1: Thinking Big Data Is Only About Volume
 
 **Trap:** Big Data is defined by all 5 Vs, not just Volume. Exam questions may test understanding that Velocity, Variety, Veracity, and Value are equally important.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Confusing Schema-on-Read and Schema-on-Write
+## 🪤 Trap 2: Confusing Schema-on-Read and Schema-on-Write
 
 **Trap:** Schema-on-read (data lakes) applies structure when data is read, not when written. Schema-on-write (data warehouses) enforces structure before loading.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Assuming Traditional Testing Techniques Scale to Big Data
+## 🪤 Trap 3: Assuming Traditional Testing Techniques Scale to Big Data
 
 **Trap:** Row-by-row validation that works for traditional databases is impractical for petabyte-scale datasets.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Confusing Data Lake and Data Warehouse
+## 🪤 Trap 4: Confusing Data Lake and Data Warehouse
 
 **Trap:** Data lakes store raw, unprocessed data. Data warehouses store processed, structured data optimized for reporting.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Ignoring Data Quality in Big Data
+## 🪤 Trap 5: Ignoring Data Quality in Big Data
 
 **Trap:** Big Data often has lower inherent quality than traditional data. Testing must account for noise, incompleteness, and inconsistency.
 

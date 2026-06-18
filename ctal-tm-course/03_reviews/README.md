@@ -1,6 +1,6 @@
-# Chapter 3 — Reviews
+# 🔎 Chapter 3 — Reviews
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~10% (~6 questions out of 65)
 - **K-levels:** K2 (understand), K3 (apply)
@@ -8,7 +8,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -20,7 +20,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts
+## ⭐ Key Concepts
 
 - Review types: informal review, walkthrough, technical review, inspection
 - Review process: planning, preparation, review meeting, rework, follow-up

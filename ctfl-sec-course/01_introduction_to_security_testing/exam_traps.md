@@ -1,6 +1,6 @@
-# Chapter 1 — Introduction to Security Testing: Exam Traps
+# 🪤 Chapter 1 — Introduction to Security Testing: Exam Traps
 
-## Trap 1: Security Testing is Only Penetration Testing
+## 🪤 Trap 1: Security Testing is Only Penetration Testing
 
 **Trap:** Security testing includes code review, vulnerability scanning, risk analysis, and more.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Only Security Experts Can Do Security Testing
+## 🪤 Trap 2: Only Security Experts Can Do Security Testing
 
 **Trap:** All testers can perform basic security testing using tools and checklists.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Security Testing Happens at the End
+## 🪤 Trap 3: Security Testing Happens at the End
 
 **Trap:** Security must be integrated throughout the SDLC (SSDLC).
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Vulnerability Equals Risk
+## 🪤 Trap 4: Vulnerability Equals Risk
 
 **Trap:** Risk = likelihood x impact. A vulnerability only becomes a risk when a threat can exploit it.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Encryption Ensures All Three CIA Properties
+## 🪤 Trap 5: Encryption Ensures All Three CIA Properties
 
 **Trap:** Encryption provides confidentiality; integrity and availability need separate controls.
 

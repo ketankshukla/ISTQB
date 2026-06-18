@@ -1,8 +1,8 @@
-# Chapter 3 — Security Testing Techniques: Practice Questions
+# ❓ Chapter 3 — Security Testing Techniques: Practice Questions
 
 ---
 
-### Q1 (SEC-3.1, K2)
+### 🔷 Q1 (SEC-3.1, K2)
 
 SAST analyzes:
 
@@ -13,7 +13,7 @@ D. Only user behavior
 
 ---
 
-### Q2 (SEC-3.2, K2)
+### 🔷 Q2 (SEC-3.2, K2)
 
 DAST requires:
 
@@ -24,7 +24,7 @@ D. Only design specs
 
 ---
 
-### Q3 (SEC-3.3, K2)
+### 🔷 Q3 (SEC-3.3, K2)
 
 Black box penetration testing:
 
@@ -35,7 +35,7 @@ D. Only uses automated tools
 
 ---
 
-### Q4 (SEC-3.4, K2)
+### 🔷 Q4 (SEC-3.4, K2)
 
 Manual code review for security checks:
 
@@ -46,7 +46,7 @@ D. Only formatting
 
 ---
 
-### Q5 (SEC-3.5, K2)
+### 🔷 Q5 (SEC-3.5, K2)
 
 Fuzz testing sends:
 
@@ -57,7 +57,7 @@ D. Only login requests
 
 ---
 
-### Q6 (SEC-3.1, K2)
+### 🔷 Q6 (SEC-3.1, K2)
 
 Hardcoded credentials are found by:
 
@@ -68,7 +68,7 @@ D. Only penetration testing
 
 ---
 
-### Q7 (SEC-3.2, K2)
+### 🔷 Q7 (SEC-3.2, K2)
 
 Security misconfiguration is found by:
 
@@ -79,7 +79,7 @@ D. Only unit testing
 
 ---
 
-### Q8 (SEC-3.3, K2)
+### 🔷 Q8 (SEC-3.3, K2)
 
 White box penetration testing:
 
@@ -90,7 +90,7 @@ D. Only uses automated scanners
 
 ---
 
-### Q9 (SEC-3.4, K2)
+### 🔷 Q9 (SEC-3.4, K2)
 
 Dependency checkers identify:
 
@@ -101,7 +101,7 @@ D. Only comment quality
 
 ---
 
-### Q10 (SEC-3.5, K2)
+### 🔷 Q10 (SEC-3.5, K2)
 
 Buffer overflows are commonly found by:
 
@@ -112,7 +112,7 @@ D. Only CSRF tests
 
 ---
 
-### Q11 (SEC-3.1, K2)
+### 🔷 Q11 (SEC-3.1, K2)
 
 SAST is performed during:
 
@@ -123,7 +123,7 @@ D. Only maintenance
 
 ---
 
-### Q12 (SEC-3.2, K2)
+### 🔷 Q12 (SEC-3.2, K2)
 
 DAST is performed on:
 
@@ -134,7 +134,7 @@ D. Only design diagrams
 
 ---
 
-### Q13 (SEC-3.3, K2)
+### 🔷 Q13 (SEC-3.3, K2)
 
 Grey box penetration testing:
 
@@ -145,7 +145,7 @@ D. Only uses automated tools
 
 ---
 
-### Q14 (SEC-3.4, K2)
+### 🔷 Q14 (SEC-3.4, K2)
 
 Automated code review tools:
 
@@ -156,7 +156,7 @@ D. Only format code
 
 ---
 
-### Q15 (SEC-3.5, K2)
+### 🔷 Q15 (SEC-3.5, K2)
 
 Generation-based fuzzing:
 
@@ -167,7 +167,7 @@ D. Only tests web forms
 
 ---
 
-### Q16 (SEC-3.1, K3)
+### 🔷 Q16 (SEC-3.1, K3)
 
 Missing input validation in dead code:
 
@@ -178,7 +178,7 @@ D. Found by neither
 
 ---
 
-### Q17 (SEC-3.2, K2)
+### 🔷 Q17 (SEC-3.2, K2)
 
 OWASP ZAP is an example of:
 
@@ -189,7 +189,7 @@ D. Only a password manager
 
 ---
 
-### Q18 (SEC-3.3, K2)
+### 🔷 Q18 (SEC-3.3, K2)
 
 Penetration testing reporting should include:
 
@@ -200,7 +200,7 @@ D. Only screenshots
 
 ---
 
-### Q19 (SEC-3.4, K2)
+### 🔷 Q19 (SEC-3.4, K2)
 
 Secure password storage in code review means:
 
@@ -211,7 +211,7 @@ D. Only MD5 hashing
 
 ---
 
-### Q20 (SEC-3.5, K2)
+### 🔷 Q20 (SEC-3.5, K2)
 
 Integer overflow vulnerabilities are found by:
 
@@ -222,84 +222,84 @@ D. Only authentication tests
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** SAST = static analysis of source code.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** DAST = dynamic, needs running app.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** Black box = no internal knowledge.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** Manual review = input + auth + session + errors.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Fuzzing = random/malformed/unexpected.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Hardcoded credentials = SAST finds in source.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Misconfiguration = DAST on running app.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** White box = full knowledge.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** Dependency checkers = third-party vulnerabilities.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** Buffer overflow = fuzzing with large inputs.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** SAST = development phase.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** DAST = deployed running app.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Grey box = limited knowledge.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Automated = complement, not replace.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Generation = from protocol specs.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Dead code = SAST only (not executed).
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** OWASP ZAP = DAST tool.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Report = all findings + risk + remediation.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Secure = bcrypt/Argon2/PBKDF2 + salt.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** Integer overflow = fuzzing boundaries.

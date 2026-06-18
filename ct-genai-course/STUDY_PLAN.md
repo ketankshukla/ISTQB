@@ -1,10 +1,10 @@
-# CT-GenAI v1.1 Study Plan
+# 🗓️ CT-GenAI v1.1 Study Plan
 
-## Target
+## ⭐ Target
 
 Pass the CT-GenAI v1.1 exam with 90%+ in 2-3 weeks of focused study (8-12 hours per week).
 
-## Prerequisites
+## ⭐ Prerequisites
 
 - You must hold the ISTQB CTFL certification before attempting CT-GenAI.
 - Familiarity with basic software testing terminology (test levels, test types, test techniques).
@@ -12,7 +12,7 @@ Pass the CT-GenAI v1.1 exam with 90%+ in 2-3 weeks of focused study (8-12 hours 
 
 ---
 
-## Week 1: Foundations and Prompt Engineering
+## ⭐ Week 1: Foundations and Prompt Engineering
 
 | Day | Task | Time |
 |-----|------|------|
@@ -30,7 +30,7 @@ Pass the CT-GenAI v1.1 exam with 90%+ in 2-3 weeks of focused study (8-12 hours 
 
 ---
 
-## Week 2: Risk Management and LLM Solutions
+## ⚠️ Week 2: Risk Management and LLM Solutions
 
 | Day | Task | Time |
 |-----|------|------|
@@ -48,7 +48,7 @@ Pass the CT-GenAI v1.1 exam with 90%+ in 2-3 weeks of focused study (8-12 hours 
 
 ---
 
-## Week 3: Deployment, Integration, and Exam Prep
+## 🎓 Week 3: Deployment, Integration, and Exam Prep
 
 | Day | Task | Time |
 |-----|------|------|
@@ -69,7 +69,7 @@ Pass the CT-GenAI v1.1 exam with 90%+ in 2-3 weeks of focused study (8-12 hours 
 
 ---
 
-## Recommended Pace for Busy Professionals
+## ⭐ Recommended Pace for Busy Professionals
 
 If you can only dedicate 5-6 hours per week, stretch the plan to 4 weeks:
 - Week 1: Chapter 1
@@ -77,7 +77,7 @@ If you can only dedicate 5-6 hours per week, stretch the plan to 4 weeks:
 - Week 3: Chapters 3-4
 - Week 4: Chapter 5 + mock exams
 
-## Materials Needed
+## ⭐ Materials Needed
 
 - This self-study course (complete)
 - Access to at least one LLM (ChatGPT, Claude, Gemini, or Copilot) for hands-on practice
@@ -87,9 +87,9 @@ If you can only dedicate 5-6 hours per week, stretch the plan to 4 weeks:
 
 ---
 
-## Detailed Daily Study Guide with Learning Objectives
+## 📚 Detailed Daily Study Guide with Learning Objectives
 
-### Week 1, Day 1 — Chapter 1 Foundations
+### 🔷 Week 1, Day 1 — Chapter 1 Foundations
 **Learning objectives by end of day:**
 - Define AI, ML, deep learning, and explain their relationships
 - Distinguish discriminative from generative models with 3+ testing examples each
@@ -102,7 +102,7 @@ If you can only dedicate 5-6 hours per week, stretch the plan to 4 weeks:
 - "Temperature 0.1 vs. 0.8 — when to use each for testing"
 - "Six components of effective prompts" (preview for Week 1, Day 3)
 
-### Week 1, Day 2 — Chapter 1 Practice + Chapter 2 Start
+### ❓ Week 1, Day 2 — Chapter 1 Practice + Chapter 2 Start
 **Learning objectives by end of day:**
 - Score 80%+ on Chapter 1 practice questions
 - Explain why each wrong answer is wrong (don't just memorize correct answers)
@@ -114,7 +114,7 @@ If you can only dedicate 5-6 hours per week, stretch the plan to 4 weeks:
 - Evaluate the output against the six quality criteria.
 - Refine the prompt once based on what was missing.
 
-### Week 1, Day 3 — Chapter 2 Prompt Techniques
+### 🎯 Week 1, Day 3 — Chapter 2 Prompt Techniques
 **Learning objectives by end of day:**
 - Explain zero-shot, few-shot, CoT, system prompts, and prompt chaining with testing examples
 - Match each technique to appropriate testing tasks
@@ -126,7 +126,7 @@ If you can only dedicate 5-6 hours per week, stretch the plan to 4 weeks:
 - "System prompt vs. User prompt — analogy and difference"
 - "Prompt chaining — 3-step example for test generation"
 
-### Week 1, Day 4 — Chapter 2 Evaluation and Refinement
+### 🔷 Week 1, Day 4 — Chapter 2 Evaluation and Refinement
 **Learning objectives by end of day:**
 - List and define the six quality criteria for evaluating GenAI outputs
 - Match output problems to appropriate refinement strategies
@@ -137,7 +137,7 @@ If you can only dedicate 5-6 hours per week, stretch the plan to 4 weeks:
 - Write a refined prompt that addresses the top 2 problems.
 - Generate new output and compare quality.
 
-### Week 1, Day 5 — Chapter 2 Practice + Review
+### ❓ Week 1, Day 5 — Chapter 2 Practice + Review
 **Learning objectives by end of day:**
 - Score 80%+ on Chapter 2 practice questions
 - Identify the prompt technique used in scenario-based questions
@@ -147,7 +147,7 @@ If you can only dedicate 5-6 hours per week, stretch the plan to 4 weeks:
 - For every wrong answer, write a 1-sentence explanation of why it's wrong.
 - Focus on "Why is B correct and why are A, C, D incorrect?" not just "B is correct."
 
-### Week 1, Days 6-7 — Hands-On Practice + Case Study 1
+### 📂 Week 1, Days 6-7 — Hands-On Practice + Case Study 1
 **Learning objectives by end of weekend:**
 - Complete Case Study 1 (e-commerce checkout)
 - Write 3 prompts from scratch for different testing tasks
@@ -161,7 +161,7 @@ If you can only dedicate 5-6 hours per week, stretch the plan to 4 weeks:
 
 ---
 
-### Week 2, Day 8 — Chapter 3 Hallucinations, Reasoning Errors, and Bias
+### 🔷 Week 2, Day 8 — Chapter 3 Hallucinations, Reasoning Errors, and Bias
 **Learning objectives by end of day:**
 - Define and distinguish hallucination, reasoning error, and bias
 - Identify at least 3 types of hallucinations in testing contexts
@@ -173,7 +173,7 @@ If you can only dedicate 5-6 hours per week, stretch the plan to 4 weeks:
 - "4 types of bias in testing"
 - "Feedback loop of bias — how it gets worse over time"
 
-### Week 2, Day 9 — Chapter 3 Privacy, Security, and Mitigations
+### 🔒 Week 2, Day 9 — Chapter 3 Privacy, Security, and Mitigations
 **Learning objectives by end of day:**
 - Distinguish privacy risks from security risks
 - List 5 privacy risks and 5 security risks in GenAI testing
@@ -185,14 +185,14 @@ If you can only dedicate 5-6 hours per week, stretch the plan to 4 weeks:
 - Security = attacks and vulnerabilities (what bad actors can do)
 - Many exam questions test whether you can tell them apart
 
-### Week 2, Day 10 — Chapter 3 Practice + Regulations
+### ❓ Week 2, Day 10 — Chapter 3 Practice + Regulations
 **Learning objectives by end of day:**
 - Score 80%+ on Chapter 3 practice questions
 - Match regulations to scenarios (GDPR, HIPAA, PCI-DSS, EU AI Act)
 - Identify which mitigations address which risks in scenario questions
 - Understand environmental impact and reduction strategies
 
-### Week 2, Day 11 — Chapter 4 Architectures
+### 🔷 Week 2, Day 11 — Chapter 4 Architectures
 **Learning objectives by end of day:**
 - Describe 5 architectural approaches (direct API, RAG, fine-tuning, hybrid, on-premise)
 - Match each approach to appropriate testing scenarios
@@ -205,19 +205,19 @@ If you can only dedicate 5-6 hours per week, stretch the plan to 4 weeks:
 - "Hybrid architecture — example pipeline for testing"
 - "5-architecture decision framework"
 
-### Week 2, Day 12 — Chapter 4 LLMOps + Practice
+### ❓ Week 2, Day 12 — Chapter 4 LLMOps + Practice
 **Learning objectives by end of day:**
 - Define LLMOps and list 5+ key practices
 - Score 80%+ on Chapter 4 practice questions
 - Select appropriate architectures for scenario-based questions
 
-### Week 2, Day 13 — Review Chapters 3-4
+### 🔎 Week 2, Day 13 — Review Chapters 3-4
 **Learning objectives by end of day:**
 - Review all wrong answers from Chapters 3-4
 - Update flashcards for weak areas
 - Complete Case Study 2 (banking risk assessment)
 
-### Week 2, Day 14 — Case Study 1 Deep Dive + Architecture Practice
+### 📂 Week 2, Day 14 — Case Study 1 Deep Dive + Architecture Practice
 **Learning objectives by end of day:**
 - Re-read Case Study 1 with expanded content
 - Practice architecture decisions for 3 different organizational scenarios
@@ -225,7 +225,7 @@ If you can only dedicate 5-6 hours per week, stretch the plan to 4 weeks:
 
 ---
 
-### Week 3, Day 15 — Chapter 5 Adoption Roadmap
+### 🔷 Week 3, Day 15 — Chapter 5 Adoption Roadmap
 **Learning objectives by end of day:**
 - List the four adoption phases and 3+ activities in each
 - Explain why medical device/high-risk features should be LAST in the roadmap
@@ -238,32 +238,32 @@ If you can only dedicate 5-6 hours per week, stretch the plan to 4 weeks:
 - "5 governance policies needed for GenAI in testing"
 - "Change management strategies for role anxiety"
 
-### Week 3, Day 16 — Chapter 5 Practice
+### ❓ Week 3, Day 16 — Chapter 5 Practice
 **Learning objectives by end of day:**
 - Score 80%+ on Chapter 5 practice questions
 - Identify correct roadmap sequencing in scenario questions
 - Recognize change management strategies in answer choices
 
-### Week 3, Day 17 — Case Study 2 Deep Dive
+### 📂 Week 3, Day 17 — Case Study 2 Deep Dive
 **Learning objectives by end of day:**
 - Complete Case Study 2 with expanded regulatory content
 - Practice identifying primary and secondary risks for multiple use cases
 - Write architecture recommendations with justification
 
-### Week 3, Day 18 — Case Study 3 Deep Dive
+### 📂 Week 3, Day 18 — Case Study 3 Deep Dive
 **Learning objectives by end of day:**
 - Complete Case Study 3 with expanded healthcare/FDA content
 - Practice phased roadmap design with budget and compliance constraints
 - Write FDA inspector response points
 
-### Week 3, Day 19 — Exam Strategy Review
+### ♟️ Week 3, Day 19 — Exam Strategy Review
 **Learning objectives by end of day:**
 - Read EXAM_STRATEGY.md thoroughly
 - Memorize the 40-question pacing strategy
 - Practice the guessing strategy hierarchy
 - Know chapter-specific tactics cold
 
-### Week 3, Days 20-24 — Mock Exams
+### 📝 Week 3, Days 20-24 — Mock Exams
 **Critical instructions for mock exams:**
 - Take each mock exam under STRICT timed conditions (60 minutes, no breaks, no reference materials)
 - Use only a blank sheet of paper for scratch notes (simulates exam conditions)
@@ -276,7 +276,7 @@ If you can only dedicate 5-6 hours per week, stretch the plan to 4 weeks:
 - Mock 2: 78-82% (improving — focus on weak chapters)
 - Mock 3: 85%+ (exam-ready)
 
-### Week 3, Day 25 — Final Review
+### 🔎 Week 3, Day 25 — Final Review
 **Learning objectives by end of day:**
 - Review all exam traps one final time
 - Quiz yourself on glossary terms (100 terms in 30 minutes)
@@ -286,7 +286,7 @@ If you can only dedicate 5-6 hours per week, stretch the plan to 4 weeks:
 
 ---
 
-## Study Techniques That Work
+## 📚 Study Techniques That Work
 
 **Active Recall (not re-reading):**
 - After reading a section, close the book and explain it out loud
@@ -315,7 +315,7 @@ If you can only dedicate 5-6 hours per week, stretch the plan to 4 weeks:
 
 ---
 
-## Recommended Supplementary Resources
+## ⭐ Recommended Supplementary Resources
 
 - **ISTQB CT-GenAI v1.1 Syllabus:** The official syllabus is the exam's source of truth. Use this course as the study guide, but reference the syllabus for exact wording of learning objectives.
 - **Hands-on LLM Access:** Free tiers of ChatGPT, Claude, or Gemini are sufficient. Practice writing prompts and evaluating outputs.
@@ -324,7 +324,7 @@ If you can only dedicate 5-6 hours per week, stretch the plan to 4 weeks:
 
 ---
 
-## Final Motivation
+## ⭐ Final Motivation
 
 The CT-GenAI exam tests practical judgment, not rote memorization. The scenarios are designed to simulate real decisions you will make as a tester using GenAI. Every hour you spend understanding WHY the correct answer is correct — and WHY the distractors are wrong — is an hour well invested.
 

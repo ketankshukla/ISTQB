@@ -1,8 +1,8 @@
-# Chapter 1 — Introduction to Test Automation: Practice Questions
+# ❓ Chapter 1 — Introduction to Test Automation: Practice Questions
 
 ---
 
-### Q1 (TAE-1.1, K2)
+### 🔷 Q1 (TAE-1.1, K2)
 
 Test automation is BEST described as:
 
@@ -13,7 +13,7 @@ D. The replacement of all manual testing activities
 
 ---
 
-### Q2 (TAE-1.1, K2)
+### 🔷 Q2 (TAE-1.1, K2)
 
 The PRIMARY difference between "test automation" and "automated testing" is:
 
@@ -24,7 +24,7 @@ D. Automated testing requires more programming skills
 
 ---
 
-### Q3 (TAE-1.2, K2)
+### 🔷 Q3 (TAE-1.2, K2)
 
 Which of the following is a PRIMARY benefit of test automation?
 
@@ -35,7 +35,7 @@ D. Reducing the need for test planning
 
 ---
 
-### Q4 (TAE-1.3, K2)
+### 🔷 Q4 (TAE-1.3, K2)
 
 Which of the following is a PRIMARY risk of test automation?
 
@@ -46,7 +46,7 @@ D. Testers become more skilled
 
 ---
 
-### Q5 (TAE-1.4, K2)
+### 🔷 Q5 (TAE-1.4, K2)
 
 The test automation pyramid recommends:
 
@@ -57,7 +57,7 @@ D. Only UI tests for complete coverage
 
 ---
 
-### Q6 (TAE-1.3, K3)
+### 🔷 Q6 (TAE-1.3, K3)
 
 A team automates 500 UI tests but has only 50 unit tests. Their test suite takes 5 hours to run. The MOST significant problem is:
 
@@ -68,7 +68,7 @@ D. They need more UI tests
 
 ---
 
-### Q7 (TAE-1.5, K2)
+### 🔷 Q7 (TAE-1.5, K2)
 
 Which test is LEAST suitable for automation?
 
@@ -79,7 +79,7 @@ D. An API test for payment validation
 
 ---
 
-### Q8 (TAE-1.2, K3)
+### 🔷 Q8 (TAE-1.2, K3)
 
 A team claims they have achieved 100% code coverage. This means:
 
@@ -90,7 +90,7 @@ D. No further testing is needed
 
 ---
 
-### Q9 (TAE-1.5, K3)
+### 🔷 Q9 (TAE-1.5, K3)
 
 A test that verifies the look-and-feel of a mobile app should:
 
@@ -101,7 +101,7 @@ D. Be automated using only API tests
 
 ---
 
-### Q10 (TAE-1.2, K2)
+### 🔷 Q10 (TAE-1.2, K2)
 
 Which of the following is NOT a benefit of test automation?
 
@@ -112,7 +112,7 @@ D. Support for regression testing
 
 ---
 
-### Q11 (TAE-1.3, K2)
+### 🔷 Q11 (TAE-1.3, K2)
 
 "False confidence" in test automation refers to:
 
@@ -123,7 +123,7 @@ D. Having too many test environments
 
 ---
 
-### Q12 (TAE-1.4, K3)
+### 🔷 Q12 (TAE-1.4, K3)
 
 A TAE calculates ROI for automation considering only the initial framework development cost. This calculation will:
 
@@ -134,7 +134,7 @@ D. Be irrelevant to management decisions
 
 ---
 
-### Q13 (TAE-1.5, K2)
+### 🔷 Q13 (TAE-1.5, K2)
 
 A test that is executed once per year for a rarely used feature is:
 
@@ -145,7 +145,7 @@ D. Better tested through exploratory testing only
 
 ---
 
-### Q14 (TAE-1.2, K2)
+### 🔷 Q14 (TAE-1.2, K2)
 
 Test automation supports agile and DevOps primarily by:
 
@@ -156,7 +156,7 @@ D. Making manual testing illegal
 
 ---
 
-### Q15 (TAE-1.3, K3)
+### 🔷 Q15 (TAE-1.3, K3)
 
 A team invests heavily in UI automation for a mobile app. After 6 months, 40% of development time is spent fixing broken tests due to UI changes. The root cause is:
 
@@ -167,7 +167,7 @@ D. Automation is not suitable for mobile apps
 
 ---
 
-### Q16 (TAE-1.1, K2)
+### 🔷 Q16 (TAE-1.1, K2)
 
 Which activity is part of test automation but NOT part of automated testing?
 
@@ -178,7 +178,7 @@ D. Reporting test pass/fail status
 
 ---
 
-### Q17 (TAE-1.5, K3)
+### 🔷 Q17 (TAE-1.5, K3)
 
 Before deciding to automate a test, a TAE should consider all EXCEPT:
 
@@ -189,7 +189,7 @@ D. The complexity of automating the test
 
 ---
 
-### Q18 (TAE-1.2, K2)
+### 🔷 Q18 (TAE-1.2, K2)
 
 Data-driven testing is a benefit of automation because it allows:
 
@@ -200,7 +200,7 @@ D. The elimination of expected results
 
 ---
 
-### Q19 (TAE-1.3, K2)
+### 🔷 Q19 (TAE-1.3, K2)
 
 "Vendor lock-in" is a risk because:
 
@@ -211,7 +211,7 @@ D. Open-source tools are always better
 
 ---
 
-### Q20 (TAE-1.4, K3)
+### 🔷 Q20 (TAE-1.4, K3)
 
 A team has automated tests but no one updates them when the application changes. Over time, the tests become unreliable and are ignored. This is an example of:
 
@@ -222,104 +222,104 @@ D. A well-managed test suite
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** Test automation is the broader use of software to support test activities. A (automated testing) is a subset.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** Automated testing is execution by tool. Test automation includes design, framework, integration, and maintenance.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** Automation enables fast, repeatable regression testing. It does not eliminate manual testing (A) or guarantee zero defects (C).
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** Maintenance costs are a primary risk. Tests break when applications change and require ongoing effort to keep current.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** The pyramid recommends many unit tests (fast, reliable), some integration tests, and few UI tests (slow, brittle).
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** 500 UI tests with only 50 unit tests is an inverted pyramid (ice cream cone). This causes slow execution and high maintenance.
 
-### Q7
+### 🔷 Q7
 **Answer: C**
 
 **Rationale:** Usability evaluation requires subjective human judgment and cannot be reliably automated.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** 100% coverage means all code was executed, but it says nothing about whether the code behaves correctly.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** Look-and-feel requires human judgment about aesthetics, intuitiveness, and user experience.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** Automation does not eliminate all manual testing. Exploratory and usability testing still require humans.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 
 **Rationale:** False confidence is believing passing tests mean zero defects. Automation only checks what it is programmed to check.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** Ignoring maintenance costs makes ROI appear better than reality. TCO must include maintenance.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** Low-frequency tests have poor ROI for automation. The cost of creating and maintaining the automation exceeds the value.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** Fast feedback on code changes is essential for agile short iterations and CI/CD pipelines.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** Too many UI-level tests are brittle. Moving tests to API or unit level reduces maintenance burden.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 
 **Rationale:** Designing the architecture is part of test automation. Executing scripts, comparing results, and reporting are part of automated testing.
 
-### Q17
+### 🔷 Q17
 **Answer: C**
 
 **Rationale:** Test manager's favorite color is irrelevant. Frequency, stability, and complexity are key automation criteria.
 
-### Q18
+### 🔷 Q18
 **Answer: A**
 
 **Rationale:** Data-driven testing separates test logic from data, allowing the same test to run with multiple inputs.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** Vendor lock-in makes switching tools difficult and expensive, creating dependency and risk.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 
 **Rationale:** Neglected maintenance leads to unreliable tests being ignored. This is automation debt.

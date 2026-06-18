@@ -1,14 +1,14 @@
-# Chapter 6 — Security Testing in the SDLC: Lessons
+# 📘 Chapter 6 — Security Testing in the SDLC: Lessons
 
 ---
 
-## 6.1 Secure Development Lifecycle (SSDLC)
+## 🔁 6.1 Secure Development Lifecycle (SSDLC)
 
-### Definition
+### 🔷 Definition
 
 SSDLC integrates security activities into every phase of software development.
 
-### Phases
+### 🔷 Phases
 
 | Phase | Security Activity |
 |-------|-------------------|
@@ -19,7 +19,7 @@ SSDLC integrates security activities into every phase of software development.
 | **Release** | Security sign-off, final risk assessment |
 | **Operations** | Monitoring, incident response, patching |
 
-### SSDLC vs Traditional SDLC
+### 🔁 SSDLC vs Traditional SDLC
 
 | Aspect | Traditional | SSDLC |
 |--------|-------------|-------|
@@ -30,9 +30,9 @@ SSDLC integrates security activities into every phase of software development.
 
 ---
 
-## 6.2 Security in Agile
+## 🔒 6.2 Security in Agile
 
-### Agile Security Practices
+### ❓ Agile Security Practices
 
 | Practice | Implementation |
 |----------|----------------|
@@ -42,14 +42,14 @@ SSDLC integrates security activities into every phase of software development.
 | **Threat modeling per feature** | Lightweight modeling for new features |
 | **Security retrospectives** | Discuss security improvements |
 
-### Security in Scrum
+### 🔒 Security in Scrum
 
 - **Sprint planning:** Include security tasks and estimate effort
 - **Daily standup:** Report security blockers
 - **Sprint review:** Demo security features (auth, audit logs)
 - **Sprint retrospective:** What security practices worked/didn't
 
-### Security in Kanban
+### 🔒 Security in Kanban
 
 - **WIP limits:** Include security review column
 - **Continuous flow:** Security testing as part of every item
@@ -57,9 +57,9 @@ SSDLC integrates security activities into every phase of software development.
 
 ---
 
-## 6.3 Threat Modeling
+## 📐 6.3 Threat Modeling
 
-### STRIDE Threat Categories
+### 🔷 STRIDE Threat Categories
 
 | Category | Description | Example |
 |----------|-------------|---------|
@@ -70,7 +70,7 @@ SSDLC integrates security activities into every phase of software development.
 | **Denial of Service** | Making system unavailable | Resource exhaustion |
 | **Elevation of Privilege** | Gaining unauthorized access | Vertical privilege escalation |
 
-### DREAD Risk Rating
+### ⚠️ DREAD Risk Rating
 
 | Factor | Description | Score |
 |--------|-------------|-------|
@@ -82,7 +82,7 @@ SSDLC integrates security activities into every phase of software development.
 
 **Total / 5 = Risk score (0-10)**
 
-### Threat Modeling Process
+### 📐 Threat Modeling Process
 
 1. **Decompose application** — Data flow diagrams, entry points
 2. **Identify threats** — Apply STRIDE to each component
@@ -92,9 +92,9 @@ SSDLC integrates security activities into every phase of software development.
 
 ---
 
-## 6.4 Security Requirements
+## 📑 6.4 Security Requirements
 
-### Types
+### 🧪 Types
 
 | Type | Example |
 |------|---------|
@@ -103,7 +103,7 @@ SSDLC integrates security activities into every phase of software development.
 | **Compliance** | "PCI-DSS requirement 3.4: Render PAN unreadable" |
 | **Negative** | "System must reject SQL injection attempts" |
 
-### Writing Security Requirements
+### 📑 Writing Security Requirements
 
 - Specific and testable
 - Aligned to threats
@@ -112,9 +112,9 @@ SSDLC integrates security activities into every phase of software development.
 
 ---
 
-## 6.5 Security in DevOps (DevSecOps)
+## 🔒 6.5 Security in DevOps (DevSecOps)
 
-### Principles
+### 📜 Principles
 
 | Principle | Implementation |
 |-----------|----------------|
@@ -124,7 +124,7 @@ SSDLC integrates security activities into every phase of software development.
 | **Measure** | Security metrics alongside delivery metrics |
 | **Feedback loops** | Fast security feedback to developers |
 
-### DevSecOps Pipeline
+### 🔷 DevSecOps Pipeline
 
 ```
 Code → SAST → Secrets Scan → SCA → Build → Test → DAST → Deploy → Monitor
@@ -135,7 +135,7 @@ Code → SAST → Secrets Scan → SCA → Build → Test → DAST → Deploy �
                              found     security risk
 ```
 
-### Culture Changes
+### 🔷 Culture Changes
 
 - Developers run security tools
 - Security team enables, doesn't gatekeep
@@ -144,13 +144,13 @@ Code → SAST → Secrets Scan → SCA → Build → Test → DAST → Deploy �
 
 ---
 
-## 6.6 Security Technical Debt
+## 🔒 6.6 Security Technical Debt
 
-### Definition
+### 🔷 Definition
 
 Known security issues or shortcuts that increase risk over time.
 
-### Sources
+### 🔷 Sources
 
 | Source | Example |
 |--------|---------|
@@ -159,7 +159,7 @@ Known security issues or shortcuts that increase risk over time.
 | **Incomplete fixes** | Partial input validation |
 | **Deprecated algorithms** | MD5 for password hashing |
 
-### Managing Security Debt
+### 🔒 Managing Security Debt
 
 - **Inventory:** Track known issues
 - **Prioritize:** Risk-based ranking
@@ -168,9 +168,9 @@ Known security issues or shortcuts that increase risk over time.
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: SSDLC Mapping
+### 💡 Worked Example 1: SSDLC Mapping
 
 **Scenario:** Apply SSDLC to a new banking application.
 
@@ -183,7 +183,7 @@ Known security issues or shortcuts that increase risk over time.
 | Release | Security sign-off | Risk acceptance memo |
 | Operations | SIEM monitoring, incident response | Security operations runbook |
 
-### Worked Example 2: Threat Modeling
+### 💡 Worked Example 2: Threat Modeling
 
 **Scenario:** Online shopping cart.
 
@@ -194,7 +194,7 @@ Known security issues or shortcuts that increase risk over time.
 | Checkout | Information Disclosure | 7 | TLS, tokenization |
 | Payment | Elevation of Privilege | 8 | RBAC, audit logging |
 
-### Worked Example 3: Security Requirements
+### 💡 Worked Example 3: Security Requirements
 
 **Scenario:** Healthcare patient portal.
 

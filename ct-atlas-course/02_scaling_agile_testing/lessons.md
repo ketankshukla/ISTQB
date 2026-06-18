@@ -1,10 +1,10 @@
-# Chapter 2 — Scaling Agile Testing: Lessons
+# 📘 Chapter 2 — Scaling Agile Testing: Lessons
 
 ---
 
-## 2.1 Multi-Team Test Planning
+## 🗓️ 2.1 Multi-Team Test Planning
 
-### Planning Levels
+### 🪜 Planning Levels
 
 | Level | Horizon | Focus |
 |-------|---------|-------|
@@ -12,7 +12,7 @@
 | **Program (PI)** | 8-12 weeks | Feature delivery, team allocation |
 | **Team Sprint** | 1-4 weeks | Story delivery, team-level testing |
 
-### Test Planning in PI Planning
+### 🗓️ Test Planning in PI Planning
 
 **Inputs:**
 - Feature definitions with acceptance criteria
@@ -25,7 +25,7 @@
 - Environment needs
 - Regression test scope
 
-### Cross-Team Test Coordination
+### 🔷 Cross-Team Test Coordination
 
 | Mechanism | Purpose |
 |-----------|---------|
@@ -36,9 +36,9 @@
 
 ---
 
-## 2.2 Integration Testing at Scale
+## 🔗 2.2 Integration Testing at Scale
 
-### Levels of Integration
+### 🪜 Levels of Integration
 
 | Level | Scope | Owner |
 |-------|-------|-------|
@@ -47,7 +47,7 @@
 | **Solution** | Across ARTs | Solution Train or dedicated integration team |
 | **End-to-end** | Full user journey | QA lead or system team |
 
-### Integration Testing Strategy
+### ♟️ Integration Testing Strategy
 
 | Approach | When to Use |
 |----------|-------------|
@@ -56,7 +56,7 @@
 | **Branch-based** | Features developed on branches, merged when complete |
 | **Contract tests** | API consumers and providers verify independently |
 
-### Integration Environment
+### 🔗 Integration Environment
 
 - Mirror production as closely as possible
 - Automated deployment from main branch
@@ -64,9 +64,9 @@
 
 ---
 
-## 2.3 Environment Management
+## 🗂️ 2.3 Environment Management
 
-### Challenges at Scale
+### 🔷 Challenges at Scale
 
 | Challenge | Impact |
 |-----------|--------|
@@ -75,7 +75,7 @@
 | **Test data conflicts** | Team A deletes data Team B needs |
 | **Slow provisioning** | Days to get a new environment |
 
-### Solutions
+### 🔷 Solutions
 
 | Solution | Implementation |
 |----------|----------------|
@@ -86,9 +86,9 @@
 
 ---
 
-## 2.4 Definition of Done at Scale
+## ⭐ 2.4 Definition of Done at Scale
 
-### Team DoD vs System DoD
+### 🔷 Team DoD vs System DoD
 
 | Level | Includes |
 |-------|----------|
@@ -96,7 +96,7 @@
 | **System DoD** | Integration tests pass, system tests pass, performance acceptable |
 | **Release DoD** | Regression suite passes, security scan clean, documentation updated |
 
-### Maintaining DoD Consistency
+### 🤖 Maintaining DoD Consistency
 
 - Define baseline DoD centrally
 - Teams can add team-specific criteria
@@ -105,9 +105,9 @@
 
 ---
 
-## 2.5 Dependency Management
+## 🗂️ 2.5 Dependency Management
 
-### Types of Dependencies
+### 🧪 Types of Dependencies
 
 | Type | Example | Mitigation |
 |------|---------|------------|
@@ -116,7 +116,7 @@
 | **Resource** | Shared test environment | Booking system, ephemeral environments |
 | **Expertise** | Only one person knows a component | Knowledge sharing, pairing |
 
-### Visualizing Dependencies
+### 🔷 Visualizing Dependencies
 
 - Dependency boards in PI planning
 - Dependency matrices
@@ -124,9 +124,9 @@
 
 ---
 
-## 2.6 Regression Strategy at Scale
+## ♟️ 2.6 Regression Strategy at Scale
 
-### Regression Types
+### 🧪 Regression Types
 
 | Type | Scope | Frequency |
 |------|-------|-----------|
@@ -134,7 +134,7 @@
 | **ART regression** | All ART features | Every PI or release |
 | **Full regression** | All products | Major releases |
 
-### Automation Strategy
+### ♟️ Automation Strategy
 
 | Layer | Coverage | Ownership |
 |-------|----------|-----------|
@@ -144,9 +144,9 @@
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: PI Test Planning
+### 💡 Worked Example 1: PI Test Planning
 
 **Scenario:** Three teams building an e-commerce platform.
 
@@ -166,7 +166,7 @@
 - Team A needs Team B's product API (contract tests mitigate)
 - All teams need shared test environment (ephemeral instances)
 
-### Worked Example 2: Environment Strategy
+### 💡 Worked Example 2: Environment Strategy
 
 **Scenario:** 8 teams sharing 3 test environments.
 
@@ -180,7 +180,7 @@
 | **Staging** | Pre-release validation | Mirror production, weekly refresh |
 | **Ephemeral** | Feature-specific testing | Spin up per branch via Kubernetes |
 
-### Worked Example 3: DoD Evolution
+### 💡 Worked Example 3: DoD Evolution
 
 **Initial DoD:**
 - [ ] Code committed

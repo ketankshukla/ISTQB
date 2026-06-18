@@ -1,10 +1,10 @@
-# CT-GaMe Mock Exam 1
+# 📝 CT-GaMe Mock Exam 1
 
 **Instructions:** 40 questions, 60 minutes, single best answer.
 
 ---
 
-### Q1-Q10
+### 🔷 Q1-Q10
 
 1. AAA games: A) Small budgets B) High budgets + large teams C) Only mobile D) Only puzzle — **High budgets + large teams**
 2. Compliance QA: A) Only fun B) Platform requirements C) Only art D) Only story — **Platform requirements**
@@ -19,7 +19,7 @@
 
 ---
 
-### Q11-Q20
+### 🔷 Q11-Q20
 
 11. Pre-production: A) Only release B) Concept + prototype + design + planning C) Only bugs D) Only marketing — **Concept + prototype + design + planning**
 12. Vertical slice: A) Only marketing B) Polished demo + pipeline validation C) Only code D) Only design — **Polished demo + pipeline validation**
@@ -34,7 +34,7 @@
 
 ---
 
-### Q21-Q30
+### 🔷 Q21-Q30
 
 21. Core mechanics: A) Only art B) Movement + combat + interaction + inventory + abilities C) Only audio D) Only marketing — **Movement + combat + interaction + inventory + abilities**
 22. UI testing: A) Only colors B) Navigation + buttons + data + edge cases C) Only fonts D) Only resolution — **Navigation + buttons + data + edge cases**
@@ -49,7 +49,7 @@
 
 ---
 
-### Q31-Q40
+### 🔷 Q31-Q40
 
 31. SIL: A) Target ECU B) Host PC C) Only vehicle D) Only HIL — **Host PC**
 32. HIL: A) Only unit B) Real ECU + simulated env C) Only review D) Only static — **Real ECU + simulated env**
@@ -64,4 +64,4 @@
 
 ---
 
-## End of Mock Exam 1
+## 📝 End of Mock Exam 1

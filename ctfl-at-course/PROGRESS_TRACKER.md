@@ -1,8 +1,8 @@
-# CTFL-AT Progress Tracker
+# 📈 CTFL-AT Progress Tracker
 
 Use this checklist to track your progress through the course.
 
-## Chapter 1 — Agile Testing Fundamentals
+## 🏗️ Chapter 1 — Agile Testing Fundamentals
 
 - [ ] Read README.md
 - [ ] Read lessons.md (all sections)
@@ -11,7 +11,7 @@ Use this checklist to track your progress through the course.
 - [ ] Review wrong answers
 - [ ] Chapter 1 confidence (1-5): ___
 
-## Chapter 2 — Agile Testing Methods and Techniques
+## 🎯 Chapter 2 — Agile Testing Methods and Techniques
 
 - [ ] Read README.md
 - [ ] Read lessons.md (all sections)
@@ -20,7 +20,7 @@ Use this checklist to track your progress through the course.
 - [ ] Review wrong answers
 - [ ] Chapter 2 confidence (1-5): ___
 
-## Chapter 3 — Agile Testing Tools and Automation
+## 🛠️ Chapter 3 — Agile Testing Tools and Automation
 
 - [ ] Read README.md
 - [ ] Read lessons.md (all sections)
@@ -29,13 +29,13 @@ Use this checklist to track your progress through the course.
 - [ ] Review wrong answers
 - [ ] Chapter 3 confidence (1-5): ___
 
-## Case Studies
+## ⭐ Case Studies
 
 - [ ] Complete Case Study 1 (agile team transformation)
 - [ ] Complete Case Study 2 (sprint testing)
 - [ ] Complete Case Study 3 (BDD and CI/CD implementation)
 
-## Mock Exams
+## 📝 Mock Exams
 
 - [ ] Mock Exam 1 (score: ___/40, time: ___ min)
 - [ ] Review Mock Exam 1 weak areas
@@ -44,7 +44,7 @@ Use this checklist to track your progress through the course.
 - [ ] Mock Exam 3 (score: ___/40, time: ___ min)
 - [ ] Review Mock Exam 3 weak areas
 
-## Final Preparation
+## ⭐ Final Preparation
 
 - [ ] Read EXAM_STRATEGY.md
 - [ ] Review all exam_traps files

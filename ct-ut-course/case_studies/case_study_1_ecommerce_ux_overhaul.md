@@ -1,6 +1,6 @@
-# Case Study 1 — E-Commerce UX Overhaul
+# 📂 Case Study 1 — E-Commerce UX Overhaul
 
-## Context
+## ⭐ Context
 
 You are the UX Research Lead for ShopMax, an e-commerce platform experiencing declining conversion rates.
 
@@ -29,7 +29,7 @@ You are the UX Research Lead for ShopMax, an e-commerce platform experiencing de
 - Budget: $50,000 for UX research and testing
 - Timeline: 6 months
 
-## Task 1: Planning the Usability Test
+## 🗓️ Task 1: Planning the Usability Test
 
 **Question:** Design a comprehensive usability testing plan to address the identified problems.
 
@@ -66,7 +66,7 @@ You are the UX Research Lead for ShopMax, an e-commerce platform experiencing de
 
 ---
 
-## Task 2: Conducting Heuristic Evaluation
+## ⭐ Task 2: Conducting Heuristic Evaluation
 
 **Question:** Evaluate the checkout flow against Nielsen's heuristics.
 
@@ -94,7 +94,7 @@ You are the UX Research Lead for ShopMax, an e-commerce platform experiencing de
 
 ---
 
-## Task 3: Analyzing Test Results
+## ⭐ Task 3: Analyzing Test Results
 
 **Question:** Analyze the results from 8 moderated think-aloud sessions.
 
@@ -125,7 +125,7 @@ You are the UX Research Lead for ShopMax, an e-commerce platform experiencing de
 
 ---
 
-## Task 4: Accessibility Assessment
+## ⭐ Task 4: Accessibility Assessment
 
 **Question:** Evaluate the checkout flow for WCAG 2.1 Level AA compliance.
 
@@ -148,7 +148,7 @@ You are the UX Research Lead for ShopMax, an e-commerce platform experiencing de
 
 ---
 
-## Task 5: Recommendations and Business Case
+## ⭐ Task 5: Recommendations and Business Case
 
 **Question:** Develop prioritized recommendations with business justification.
 

@@ -1,12 +1,12 @@
-# CT-PT Study Plan
+# 🗓️ CT-PT Study Plan
 
 Two study schedules: a **standard 3-week plan** for thorough preparation, and an **accelerated 1.5-week plan** for those with strong performance testing experience.
 
 ---
 
-## Standard Plan — 3 Weeks
+## 🗓️ Standard Plan — 3 Weeks
 
-### Week 1: Fundamentals and Test Types
+### 🧪 Week 1: Fundamentals and Test Types
 
 | Day | Task | Time | Checkpoint |
 |-----|------|------|------------|
@@ -18,7 +18,7 @@ Two study schedules: a **standard 3-week plan** for thorough preparation, and an
 | Day 6 | Review Chapters 1 & 2 missed questions | 1.5 hours | Solidify weak areas |
 | Day 7 | Rest or light review of glossary terms | 30 min | — |
 
-### Week 2: Planning, Execution, and Monitoring
+### 🗓️ Week 2: Planning, Execution, and Monitoring
 
 | Day | Task | Time | Checkpoint |
 |-----|------|------|------------|
@@ -30,7 +30,7 @@ Two study schedules: a **standard 3-week plan** for thorough preparation, and an
 | Day 13 | Read Chapter 5: `lessons.md` | 2 hours | Analysis, reporting, tuning |
 | Day 14 | Chapter 5: `exam_traps.md` + all 20 practice questions | 2 hours | Analysis and reporting |
 
-### Week 3: Tools, Case Studies, and Mock Exams
+### 📝 Week 3: Tools, Case Studies, and Mock Exams
 
 | Day | Task | Time | Checkpoint |
 |-----|------|------|------------|
@@ -46,7 +46,7 @@ Two study schedules: a **standard 3-week plan** for thorough preparation, and an
 
 ---
 
-## Accelerated Plan — 1.5 Weeks
+## 🗓️ Accelerated Plan — 1.5 Weeks
 
 For experienced testers with performance testing background.
 
@@ -63,7 +63,7 @@ For experienced testers with performance testing background.
 
 ---
 
-## Study Techniques That Work
+## 📚 Study Techniques That Work
 
 **1. Active Recall**
 After reading a section, close the file and explain the concept aloud as if teaching a colleague.
@@ -82,7 +82,7 @@ Practice calculating response times, throughput, and resource utilization from s
 
 ---
 
-## Daily Time Commitments
+## 🤖 Daily Time Commitments
 
 | Plan | Daily Average | Total Hours |
 |------|--------------|-------------|
@@ -91,7 +91,7 @@ Practice calculating response times, throughput, and resource utilization from s
 
 ---
 
-## Exam Day Checklist
+## 🎓 Exam Day Checklist
 
 - [ ] 7+ hours of sleep the night before
 - [ ] Review `exam_traps.md` one final time
@@ -103,7 +103,7 @@ Practice calculating response times, throughput, and resource utilization from s
 
 ---
 
-## Recommended Score Targets
+## ⭐ Recommended Score Targets
 
 | Stage | Target |
 |-------|--------|

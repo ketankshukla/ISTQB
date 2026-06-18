@@ -1,6 +1,6 @@
-# Case Study 1 — Fraud Detection System
+# 📂 Case Study 1 — Fraud Detection System
 
-## Context
+## ⭐ Context
 
 You are the Test Lead for SecureBank, a financial institution deploying an AI-based fraud detection system.
 
@@ -22,7 +22,7 @@ You are the Test Lead for SecureBank, a financial institution deploying an AI-ba
 - Customer complaints about unexplained blocks
 - Auditors question fairness across customer demographics
 
-## Task 1: Metric Analysis and Test Oracle Design
+## 🔬 Task 1: Metric Analysis and Test Oracle Design
 
 **Question:** Analyze the current metrics and design appropriate test oracles.
 
@@ -59,7 +59,7 @@ The 98.5% accuracy is misleading. The real problem is precision: only 5.4% of bl
 
 ---
 
-## Task 2: Fairness Audit
+## 🤖 Task 2: Fairness Audit
 
 **Question:** Design a fairness testing approach for the fraud detection system.
 
@@ -105,7 +105,7 @@ For each demographic group:
 
 ---
 
-## Task 3: Robustness Testing
+## ⭐ Task 3: Robustness Testing
 
 **Question:** Design adversarial and robustness tests for the fraud detection model.
 
@@ -132,7 +132,7 @@ For each demographic group:
 
 ---
 
-## Task 4: Explainability Testing
+## 🤖 Task 4: Explainability Testing
 
 **Question:** The bank must explain blocked transactions to customers. Test the explainability system.
 
@@ -166,7 +166,7 @@ Top contributing factors:
 
 ---
 
-## Task 5: Production Monitoring and Retraining
+## 🤖 Task 5: Production Monitoring and Retraining
 
 **Question:** Design the production monitoring and retraining strategy.
 

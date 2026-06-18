@@ -1,8 +1,8 @@
-# Chapter 2 — CI/CD Pipeline Testing: Practice Questions
+# ❓ Chapter 2 — CI/CD Pipeline Testing: Practice Questions
 
 ---
 
-### Q1 (QDO-2.1, K2)
+### 🔷 Q1 (QDO-2.1, K2)
 
 In a CI/CD pipeline, unit tests should:
 
@@ -13,7 +13,7 @@ D. Skip if the build succeeds
 
 ---
 
-### Q2 (QDO-2.2, K2)
+### 🔷 Q2 (QDO-2.2, K2)
 
 A quality gate that blocks deployment if code coverage is below 80%:
 
@@ -24,7 +24,7 @@ D. Is optional in all cases
 
 ---
 
-### Q3 (QDO-2.3, K2)
+### 🔷 Q3 (QDO-2.3, K2)
 
 Blue-green deployment provides:
 
@@ -35,7 +35,7 @@ D. Automatic user segmentation
 
 ---
 
-### Q4 (QDO-2.4, K2)
+### 🔷 Q4 (QDO-2.4, K2)
 
 Canary deployment is characterized by:
 
@@ -46,7 +46,7 @@ D. Only rolling back after 24 hours
 
 ---
 
-### Q5 (QDO-2.1, K3)
+### 🔷 Q5 (QDO-2.1, K3)
 
 A pipeline fails at the integration test stage. The appropriate action is:
 
@@ -57,7 +57,7 @@ D. Disable integration tests
 
 ---
 
-### Q6 (QDO-2.2, K2)
+### 🔷 Q6 (QDO-2.2, K2)
 
 Which is an example of a quality gate criterion?
 
@@ -68,7 +68,7 @@ D. UI color scheme
 
 ---
 
-### Q7 (QDO-2.3, K2)
+### 🔷 Q7 (QDO-2.3, K2)
 
 Feature flags allow:
 
@@ -79,7 +79,7 @@ D. Automatic rollback without monitoring
 
 ---
 
-### Q8 (QDO-2.4, K2)
+### 🔷 Q8 (QDO-2.4, K2)
 
 Rollback testing should verify:
 
@@ -90,7 +90,7 @@ D. Only user interface changes
 
 ---
 
-### Q9 (QDO-2.1, K2)
+### 🔷 Q9 (QDO-2.1, K2)
 
 SAST (Static Application Security Testing) is typically performed:
 
@@ -101,7 +101,7 @@ D. Only manually by security teams
 
 ---
 
-### Q10 (QDO-2.2, K2)
+### 🔷 Q10 (QDO-2.2, K2)
 
 A pipeline that deploys automatically to production after all tests pass has:
 
@@ -112,7 +112,7 @@ D. Only manual testing
 
 ---
 
-### Q11 (QDO-2.3, K2)
+### 🔷 Q11 (QDO-2.3, K2)
 
 Smoke tests after production deployment verify:
 
@@ -123,7 +123,7 @@ D. Only security vulnerabilities
 
 ---
 
-### Q12 (QDO-2.4, K3)
+### 🔷 Q12 (QDO-2.4, K3)
 
 A database migration fails mid-deployment. The recovery test should verify:
 
@@ -134,7 +134,7 @@ D. Only network connectivity
 
 ---
 
-### Q13 (QDO-2.1, K2)
+### 🔷 Q13 (QDO-2.1, K2)
 
 Testing in staging should primarily verify:
 
@@ -145,7 +145,7 @@ D. Only documentation accuracy
 
 ---
 
-### Q14 (QDO-2.2, K2)
+### 🔷 Q14 (QDO-2.2, K2)
 
 An approval gate before production deployment enforces:
 
@@ -156,7 +156,7 @@ D. No testing requirements
 
 ---
 
-### Q15 (QDO-2.3, K2)
+### 🔷 Q15 (QDO-2.3, K2)
 
 Rolling deployment:
 
@@ -167,7 +167,7 @@ D. Requires downtime
 
 ---
 
-### Q16 (QDO-2.4, K2)
+### 🔷 Q16 (QDO-2.4, K2)
 
 Synthetic monitoring in production:
 
@@ -178,7 +178,7 @@ D. Only tests during business hours
 
 ---
 
-### Q17 (QDO-2.1, K2)
+### 🔷 Q17 (QDO-2.1, K2)
 
 The test pyramid in a CI/CD pipeline suggests:
 
@@ -189,7 +189,7 @@ D. Only acceptance tests matter
 
 ---
 
-### Q18 (QDO-2.2, K2)
+### 🔷 Q18 (QDO-2.2, K2)
 
 A security scan in the pipeline detects a critical vulnerability. The correct response is:
 
@@ -200,7 +200,7 @@ D. Only document it
 
 ---
 
-### Q19 (QDO-2.3, K2)
+### 🔷 Q19 (QDO-2.3, K2)
 
 Dark launch refers to:
 
@@ -211,7 +211,7 @@ D. Only deploying to internal users
 
 ---
 
-### Q20 (QDO-2.4, K3)
+### 🔷 Q20 (QDO-2.4, K3)
 
 A canary deployment should be aborted when:
 
@@ -222,84 +222,84 @@ D. When the development team leaves for the day
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** Unit tests run first for fast feedback.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** Quality gates enforce minimum standards.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** Blue-green = two environments, instant switch/rollback.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** Canary = gradual rollout with monitoring.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Fix the issue and re-run; don't bypass gates.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Security vulnerability thresholds are quality gate criteria.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Feature flags control visibility after deployment.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Rollback testing verifies safe restoration.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** SAST = static analysis, runs early in pipeline on source code.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** Auto-deploy to production after tests = Continuous Deployment.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Smoke tests verify critical functionality post-deploy.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Migration failure recovery requires rollback script verification.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Staging tests production-like environment behavior.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Approval gates enforce segregation of duties.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Rolling = gradual instance replacement.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Synthetic monitoring simulates transactions proactively.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Pyramid = many unit tests, fewer integration, fewer E2E.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Critical vulnerabilities must be fixed before deployment.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Dark launch = deployed but invisible to users.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** Abort canary when metrics exceed defined thresholds.

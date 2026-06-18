@@ -1,6 +1,6 @@
-# Chapter 3 — Selection Criteria: Exam Traps
+# 🪤 Chapter 3 — Selection Criteria: Exam Traps
 
-## Trap 1: Confusing 0-Switch and 1-Switch Coverage
+## 📊 Trap 1: Confusing 0-Switch and 1-Switch Coverage
 
 **Trap:** 0-switch = state coverage. 1-switch = transition coverage.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Thinking 100% Coverage Is Always Achievable
+## 📊 Trap 2: Thinking 100% Coverage Is Always Achievable
 
 **Trap:** Infeasible paths may make 100% coverage impossible.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Confusing Coverage Criteria Hierarchy
+## 📊 Trap 3: Confusing Coverage Criteria Hierarchy
 
 **Trap:** Higher switch numbers require more tests. 2-switch includes 1-switch, which includes 0-switch.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Forgetting Boundary Testing on Guard Variables
+## 🪤 Trap 4: Forgetting Boundary Testing on Guard Variables
 
 **Trap:** Guard conditions in state machines often have boundary values that need testing.
 

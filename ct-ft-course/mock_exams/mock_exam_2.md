@@ -1,10 +1,10 @@
-# CT-FT Mock Exam 2
+# 📝 CT-FT Mock Exam 2
 
 **Instructions:** 40 questions, 60 minutes, single best answer.
 
 ---
 
-### Q1-Q10
+### 🔷 Q1-Q10
 
 1. Which is a front-office function: A) Settlement B) Order execution C) Reconciliation D) Regulatory reporting — **Order execution**
 2. A certificate of deposit is: A) Checking account B) Time deposit with fixed term C) Money market D) Credit card — **Time deposit with fixed term**
@@ -19,7 +19,7 @@
 
 ---
 
-### Q11-Q20
+### 🔷 Q11-Q20
 
 11. FX forward: A) Settles immediately B) Obligates future exchange C) Equity investment D) No settlement — **Obligates future exchange**
 12. VaR in middle office: A) Front B) Middle C) Back D) Marketing — **Middle**
@@ -34,7 +34,7 @@
 
 ---
 
-### Q21-Q30
+### 🔷 Q21-Q30
 
 21. Best execution: A) SOX B) MiFID II C) Basel D) EMIR — **MiFID II**
 22. AML alert at $10K: A) No action B) Alert if aggregate >$10K in 24h C) Only second deposit D) Close account — **Alert if aggregate >$10K in 24h**
@@ -49,7 +49,7 @@
 
 ---
 
-### Q31-Q40
+### 🔷 Q31-Q40
 
 31. Float for currency: A) More memory B) Precision errors C) Slower D) Unsupported — **Precision errors**
 32. Theta measures: A) Underlying price B) Time decay C) Volatility D) Interest rates — **Time decay**
@@ -64,4 +64,4 @@
 
 ---
 
-## End of Mock Exam 2
+## 📝 End of Mock Exam 2

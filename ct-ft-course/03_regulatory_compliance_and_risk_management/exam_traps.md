@@ -1,6 +1,6 @@
-# Chapter 3 — Regulatory Compliance and Risk Management: Exam Traps
+# 🪤 Chapter 3 — Regulatory Compliance and Risk Management: Exam Traps
 
-## Trap 1: Confusing SOX with GDPR
+## 🪤 Trap 1: Confusing SOX with GDPR
 
 **Trap:** SOX = financial reporting controls. GDPR = personal data protection. Both affect finance but for different reasons.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Thinking MiFID II Only Applies to the UK
+## 🪤 Trap 2: Thinking MiFID II Only Applies to the UK
 
 **Trap:** MiFID II applies to EU investment firms and trading venues, not just the UK. Post-Brexit, the UK has its own MiFID-style rules.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Confusing KYC with AML
+## 🪤 Trap 3: Confusing KYC with AML
 
 **Trap:** KYC = verifying customer identity at onboarding. AML = ongoing monitoring for suspicious activity. Different but related processes.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Thinking Regulatory Testing Is a One-Time Activity
+## 🪤 Trap 4: Thinking Regulatory Testing Is a One-Time Activity
 
 **Trap:** Regulations change, systems change, and controls must be tested continuously. Annual SOX testing is required.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Confusing Market Risk with Credit Risk
+## 🪤 Trap 5: Confusing Market Risk with Credit Risk
 
 **Trap:** Market risk = loss from price movements. Credit risk = loss from borrower default. Different calculations and controls.
 

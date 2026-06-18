@@ -1,6 +1,6 @@
-# Chapter 2 — Security Testing Planning and Strategy: Exam Traps
+# ♟️ Chapter 2 — Security Testing Planning and Strategy: Exam Traps
 
-## Trap 1: Testing Everything Equally
+## 🪤 Trap 1: Testing Everything Equally
 
 **Trap:** Risk-based testing prioritizes high-impact areas. Not all features need the same security effort.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Black-Box Only Testing
+## 🪤 Trap 2: Black-Box Only Testing
 
 **Trap:** Black-box simulates attackers but misses issues visible in code. White-box and grey-box provide additional coverage.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Treating Compliance as Security
+## 🪤 Trap 3: Treating Compliance as Security
 
 **Trap:** Meeting compliance requirements doesn't mean the system is secure. Compliance is a minimum baseline.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: No Remediation Planning
+## 🪤 Trap 4: No Remediation Planning
 
 **Trap:** Finding vulnerabilities without fixing them is pointless. The strategy must include remediation and verification.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Ignoring Third-Party Components
+## 🪤 Trap 5: Ignoring Third-Party Components
 
 **Trap:** Vulnerable dependencies are a major attack vector. They must be in scope.
 

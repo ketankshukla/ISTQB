@@ -1,6 +1,6 @@
-# Chapter 3 — Compliance and Player Protection: Exam Traps
+# 🪤 Chapter 3 — Compliance and Player Protection: Exam Traps
 
-## Trap 1: Confusing Self-Exclusion with Time-Out
+## 🪤 Trap 1: Confusing Self-Exclusion with Time-Out
 
 **Trap:** Self-exclusion is long-term (months to years). Time-out is short-term (hours to weeks). They are different measures.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Confusing Player Protection with Fraud Prevention
+## 🪤 Trap 2: Confusing Player Protection with Fraud Prevention
 
 **Trap:** Player protection (self-exclusion, limits, reality checks) protects the PLAYER from harm. Fraud prevention (collusion, bonus abuse, money laundering) protects the OPERATOR. They are different objectives.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Thinking KYC Is Only About Age Verification
+## 🪤 Trap 3: Thinking KYC Is Only About Age Verification
 
 **Trap:** KYC includes identity verification, address verification, age verification, AND source of funds checks (for high-value players).
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Confusing Regulators with Testing Labs
+## 🪤 Trap 4: Confusing Regulators with Testing Labs
 
 **Trap:** Regulators (UKGC, MGA) issue licenses and enforce rules. Testing labs (GLI, eCOGRA, iTech) test and certify products. They are different organizations.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Thinking All Jurisdictions Have the Same Requirements
+## 🪤 Trap 5: Thinking All Jurisdictions Have the Same Requirements
 
 **Trap:** Gambling regulations vary significantly by jurisdiction. What is required in the UK may not be required in Curaçao.
 

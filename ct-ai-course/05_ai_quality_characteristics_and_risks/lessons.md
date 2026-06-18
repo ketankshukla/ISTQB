@@ -1,10 +1,10 @@
-# Chapter 5 — AI Quality Characteristics and Risks: Lessons
+# 📘 Chapter 5 — AI Quality Characteristics and Risks: Lessons
 
 ---
 
-## 5.1 Fairness in AI
+## 🤖 5.1 Fairness in AI
 
-### What Is Fairness?
+### 🤖 What Is Fairness?
 
 **Fairness** in AI means that a system does not discriminate against individuals or groups based on protected characteristics such as race, gender, age, religion, or disability.
 
@@ -14,7 +14,7 @@
 - Ethical obligations
 - Business impact (discrimination alienates customers)
 
-### Types of Fairness
+### 🧪 Types of Fairness
 
 **1. Demographic Parity (Statistical Parity):**
 - The model's positive prediction rate is the same across groups
@@ -34,7 +34,7 @@
 - Similar individuals should receive similar predictions
 - Requires defining what "similar" means
 
-### Measuring Fairness
+### 🤖 Measuring Fairness
 
 **Disparate Impact:**
 - Compare the rate of positive outcomes for different groups
@@ -48,13 +48,13 @@
 
 ---
 
-## 5.2 Robustness
+## ⭐ 5.2 Robustness
 
-### What Is Robustness?
+### 🔷 What Is Robustness?
 
 **Robustness** is the ability of an AI system to maintain performance under varying conditions, including unexpected or adversarial inputs.
 
-### Types of Robustness
+### 🧪 Types of Robustness
 
 **1. Input Robustness:**
 - System handles noisy, corrupted, or unusual inputs gracefully
@@ -75,7 +75,7 @@
 - System maintains performance as data distributions change
 - Example: Fraud detection model works as fraud patterns evolve
 
-### Testing for Robustness
+### 🔷 Testing for Robustness
 
 **1. Perturbation Testing:**
 - Add small amounts of noise to inputs
@@ -99,9 +99,9 @@
 
 ---
 
-## 5.3 Explainability and Interpretability
+## 🤖 5.3 Explainability and Interpretability
 
-### Why Explainability Matters
+### 🤖 Why Explainability Matters
 
 **Regulatory Requirements:**
 - GDPR "Right to Explanation" for automated decisions
@@ -117,7 +117,7 @@
 - Understanding why errors occur helps fix them
 - Identifying spurious correlations improves model quality
 
-### Types of Explainability
+### 🧪 Types of Explainability
 
 **1. Intrinsic Explainability (Interpretability):**
 - Models that are inherently understandable
@@ -128,7 +128,7 @@
 - Explaining complex models after they make predictions
 - Applied to "black box" models (neural networks, ensemble methods)
 
-### Post-Hoc Explanation Techniques
+### 🎯 Post-Hoc Explanation Techniques
 
 **Feature Importance:**
 - Shows which input features had the most influence on the prediction
@@ -149,7 +149,7 @@
 - Shows which parts of the input the model focused on
 - Example: Highlighting which words influenced sentiment classification
 
-### Testing Explainability
+### 🤖 Testing Explainability
 
 **1. Verify Explanations Are Correct:**
 - Does the explanation match the model's actual behavior?
@@ -165,9 +165,9 @@
 
 ---
 
-## 5.4 Ethics in AI
+## 🤖 5.4 Ethics in AI
 
-### Key Ethical Principles
+### 📜 Key Ethical Principles
 
 **1. Transparency:**
 - Clear documentation of what the system does and its limitations
@@ -194,7 +194,7 @@
 - Consider who benefits and who is harmed
 - Avoid applications that cause significant harm
 
-### Ethical Risks
+### ⚠️ Ethical Risks
 
 | Risk | Description | Example |
 |------|-------------|---------|
@@ -204,7 +204,7 @@
 | Autonomous weapons | AI making life-or-death decisions | Drones selecting targets without human approval |
 | Deepfakes | AI-generated misleading content | Fake videos of politicians |
 
-### Testing for Ethics
+### 🔷 Testing for Ethics
 
 **1. Stakeholder Analysis:**
 - Who is affected by the system?
@@ -223,9 +223,9 @@
 
 ---
 
-## 5.5 AI Risk Management
+## ⚠️ 5.5 AI Risk Management
 
-### AI-Specific Risks
+### ⚠️ AI-Specific Risks
 
 **1. Model Failure:**
 - Model makes incorrect predictions in production
@@ -250,7 +250,7 @@
 - Dependency on third-party AI services
 - Mitigation: Monitoring, redundancy, disaster recovery
 
-### Risk-Based Testing for AI
+### ⚠️ Risk-Based Testing for AI
 
 **High-Risk Systems (Thorough Testing):**
 - Safety-critical (autonomous vehicles, medical diagnosis)
@@ -268,9 +268,9 @@
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Fairness Analysis
+### 💡 Worked Example 1: Fairness Analysis
 
 **Scenario:** A hiring AI system recommends candidates for interview.
 
@@ -294,7 +294,7 @@
 3. Retrain with fairness constraints
 4. Retest for equal opportunity
 
-### Worked Example 2: Explainability Test
+### 💡 Worked Example 2: Explainability Test
 
 **Scenario:** A loan denial AI system must explain rejections to applicants.
 
@@ -313,7 +313,7 @@
 - Is it understandable? A loan officer can explain this to an applicant
 - Is it consistent? Similar applicants get similar explanations
 
-### Worked Example 3: Robustness Testing
+### 💡 Worked Example 3: Robustness Testing
 
 **Scenario:** Test robustness of an autonomous vehicle pedestrian detector.
 

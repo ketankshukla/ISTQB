@@ -1,10 +1,10 @@
-# Chapter 4 — API Test Automation: Lessons
+# 📘 Chapter 4 — API Test Automation: Lessons
 
 ---
 
-## 4.1 API Automation Frameworks
+## ⚙️ 4.1 API Automation Frameworks
 
-### Popular Frameworks by Language
+### 🔷 Popular Frameworks by Language
 
 | Language | Framework | Best For |
 |----------|-----------|----------|
@@ -16,7 +16,7 @@
 | Postman | Newman (CLI) | Teams already using Postman |
 | Karate | Java (DSL) | BDD-style API testing |
 
-### REST Assured (Java)
+### 🔷 REST Assured (Java)
 
 **Features:**
 - Fluent API for readable test code
@@ -42,7 +42,7 @@ public void testCreateOrder() {
 }
 ```
 
-### Supertest (JavaScript)
+### 🔷 Supertest (JavaScript)
 
 **Features:**
 - Works directly with Express/Node.js apps or HTTP endpoints
@@ -63,7 +63,7 @@ it('creates a new order', async () => {
 });
 ```
 
-### Requests + pytest (Python)
+### 🔷 Requests + pytest (Python)
 
 **Features:**
 - Simple, human-readable syntax
@@ -84,7 +84,7 @@ def test_create_order():
     assert data["status"] == "pending"
 ```
 
-### Karate
+### 🔷 Karate
 
 **Features:**
 - BDD-style syntax (no Java knowledge needed)
@@ -107,9 +107,9 @@ Feature: Order API
 
 ---
 
-## 4.2 Data-Driven API Testing
+## 🔌 4.2 Data-Driven API Testing
 
-### Concept
+### 🔷 Concept
 
 Separate test logic from test data. The same test script runs with multiple data sets.
 
@@ -118,7 +118,7 @@ Separate test logic from test data. The same test script runs with multiple data
 - Easy to add new test cases
 - Tests are easier to review and maintain
 
-### Implementation
+### 🔷 Implementation
 
 **Java (REST Assured + TestNG DataProvider):**
 ```java
@@ -171,7 +171,7 @@ def test_login(username, password, expected_status):
     assert response.status_code == expected_status
 ```
 
-### Data Sources
+### 🗃️ Data Sources
 
 **1. Inline (small datasets):**
 - Hard-coded in test file
@@ -192,9 +192,9 @@ def test_login(username, password, expected_status):
 
 ---
 
-## 4.3 CI/CD Integration for API Tests
+## 🔌 4.3 CI/CD Integration for API Tests
 
-### Pipeline Design
+### 🎨 Pipeline Design
 
 **Stage 1: Build**
 - Compile/build the application
@@ -216,7 +216,7 @@ def test_login(username, password, expected_status):
 - Generate test reports
 - Upload to dashboard
 
-### Example GitHub Actions Pipeline
+### 💡 Example GitHub Actions Pipeline
 
 ```yaml
 name: API Test Pipeline
@@ -260,7 +260,7 @@ jobs:
           path: test-results/
 ```
 
-### Quality Gates
+### 💎 Quality Gates
 
 | Gate | Criteria | If Failed |
 |------|----------|-----------|
@@ -271,9 +271,9 @@ jobs:
 
 ---
 
-## 4.4 Maintainability Patterns
+## 🤖 4.4 Maintainability Patterns
 
-### 1. Base Test Class / Helper
+### 🔷 1. Base Test Class / Helper
 
 Centralize common configuration:
 
@@ -299,7 +299,7 @@ class ApiHelper {
 module.exports = ApiHelper;
 ```
 
-### 2. Page Object Pattern (for APIs)
+### 🔌 2. Page Object Pattern (for APIs)
 
 Encapsulate endpoint details:
 
@@ -319,7 +319,7 @@ public class UserApi {
 }
 ```
 
-### 3. Configuration Externalization
+### ⚙️ 3. Configuration Externalization
 
 ```javascript
 // config.js
@@ -330,7 +330,7 @@ module.exports = {
 };
 ```
 
-### 4. Reusable Assertions
+### 🔷 4. Reusable Assertions
 
 ```javascript
 // assertions.js
@@ -346,9 +346,9 @@ module.exports = { expectValidUserResponse };
 
 ---
 
-## 4.5 When to Automate API Tests
+## ⚙️ 4.5 When to Automate API Tests
 
-### Automate These:
+### ⚙️ Automate These:
 
 - **Regression tests:** Run frequently to catch breaking changes
 - **Smoke tests:** Quick health check on every build
@@ -356,7 +356,7 @@ module.exports = { expectValidUserResponse };
 - **Integration tests:** Verify service interactions
 - **Contract tests:** Validate API contracts continuously
 
-### Consider Manual Testing For:
+### 🔷 Consider Manual Testing For:
 
 - **Exploratory API testing:** Discovering undocumented behavior
 - **One-time tests:** Low ROI for automation
@@ -365,9 +365,9 @@ module.exports = { expectValidUserResponse };
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Data-Driven Test Design
+### 💡 Worked Example 1: Data-Driven Test Design
 
 **Scenario:** Test a search API with query, category, and sort parameters.
 
@@ -408,7 +408,7 @@ def test_search(case):
             assert len(data["results"]) >= min_count
 ```
 
-### Worked Example 2: CI/CD Integration
+### 💡 Worked Example 2: CI/CD Integration
 
 **Scenario:** A microservice with a REST API needs automated testing on every commit.
 
@@ -429,7 +429,7 @@ def test_search(case):
 - Full regression before staging deployment
 - Automated reporting and trending
 
-### Worked Example 3: Maintainable Test Structure
+### 💡 Worked Example 3: Maintainable Test Structure
 
 **Poor Structure:**
 ```javascript

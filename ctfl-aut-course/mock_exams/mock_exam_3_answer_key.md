@@ -1,6 +1,6 @@
-# CTFL-AuT Mock Exam 3 — Answer Key
+# 📝 CTFL-AuT Mock Exam 3 — Answer Key
 
-## Answers
+## ✔️ Answers
 
 | Question | Answer | Topic |
 |----------|--------|-------|
@@ -25,7 +25,7 @@
 | Q19 | B | Watchdog |
 | Q20 | B | ASIL B coverage |
 
-## Score Interpretation
+## ⭐ Score Interpretation
 
 | Score | Status |
 |-------|--------|

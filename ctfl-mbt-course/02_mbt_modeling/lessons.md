@@ -1,10 +1,10 @@
-# Chapter 2 — MBT Modeling: Lessons
+# 📘 Chapter 2 — MBT Modeling: Lessons
 
 ---
 
-## 2.1 State Machines in MBT
+## 🔄 2.1 State Machines in MBT
 
-### What is a State Machine?
+### 🔄 What is a State Machine?
 
 A state machine (finite state machine or FSM) is a model that represents system behavior as a set of states, transitions between states, and events that trigger transitions.
 
@@ -32,7 +32,7 @@ A state machine (finite state machine or FSM) is a model that represents system 
    - Transition action: Performed when taking a transition
    - Example: "Dispense cash", "Print receipt", "Eject card"
 
-### Example: ATM State Machine
+### 💡 Example: ATM State Machine
 
 ```
                     [Idle]
@@ -70,7 +70,7 @@ A state machine (finite state machine or FSM) is a model that represents system 
 - Processing → Idle (Event: Cancel)
 - Complete → Idle (Event: Eject Card)
 
-### State Machine Diagrams vs. Tables
+### 🔄 State Machine Diagrams vs. Tables
 
 **State Transition Table:**
 
@@ -84,7 +84,7 @@ A state machine (finite state machine or FSM) is a model that represents system 
 | Processing | Complete | - | Complete | Process result |
 | Processing | Cancel | - | Idle | Cancel transaction |
 
-### Deriving State Machines from Requirements
+### 🔄 Deriving State Machines from Requirements
 
 **Step 1: Identify States**
 Look for nouns or conditions in requirements:
@@ -119,9 +119,9 @@ Add system behaviors:
 
 ---
 
-## 2.2 Decision Tables in MBT
+## 🗂️ 2.2 Decision Tables in MBT
 
-### What is a Decision Table?
+### 🗂️ What is a Decision Table?
 
 A decision table is a tabular model representing combinations of conditions and corresponding actions. It is especially useful for modeling complex business rules with multiple interacting conditions.
 
@@ -131,7 +131,7 @@ A decision table is a tabular model representing combinations of conditions and 
 2. **Actions:** System behaviors or outputs that result from the conditions
 3. **Rules:** Columns representing unique combinations of conditions
 
-### Example: Banking Transaction Approval
+### 💡 Example: Banking Transaction Approval
 
 **Conditions:**
 1. Account balance >= transaction amount (Y/N)
@@ -163,7 +163,7 @@ A decision table is a tabular model representing combinations of conditions and 
 
 **Note:** In this simplified example, additional rules would be needed for verification requests.
 
-### Decision Table Considerations
+### 🗂️ Decision Table Considerations
 
 **Impossible Rules:**
 Some combinations may be impossible in practice. For example, an inactive account may never have sufficient balance. These should be marked and removed from test generation.
@@ -176,9 +176,9 @@ When a condition does not affect the outcome, use "-" (don't care) to reduce the
 
 ---
 
-## 2.3 Other Model Types
+## 🧪 2.3 Other Model Types
 
-### Process Models
+### 📐 Process Models
 
 Process models (flowcharts, activity diagrams) represent workflows as sequences of activities with decision points. They are useful for:
 - Business process testing
@@ -191,14 +191,14 @@ Process models (flowcharts, activity diagrams) represent workflows as sequences 
 - Decision points (branches)
 - Parallel activities (forks/joins)
 
-### Use Case Models
+### 👤 Use Case Models
 
 Use cases describe interactions between actors and the system. In MBT:
 - Main flow → primary path tests
 - Alternative flows → alternative path tests
 - Exception flows → error handling tests
 
-### Choosing the Right Model
+### 📐 Choosing the Right Model
 
 | Specification Type | Recommended Model | Why |
 |-------------------|-------------------|-----|
@@ -210,16 +210,16 @@ Use cases describe interactions between actors and the system. In MBT:
 
 ---
 
-## 2.4 Model Validation
+## 📐 2.4 Model Validation
 
-### Why Validate the Model?
+### 📐 Why Validate the Model?
 
 A model that does not match the real system will generate incorrect tests. Model validation ensures:
 - The model reflects actual system behavior
 - All requirements are covered by the model
 - No incorrect behavior is modeled
 
-### Validation Techniques
+### 🎯 Validation Techniques
 
 1. **Model Review:**
    - Stakeholders review the model for accuracy
@@ -241,9 +241,9 @@ A model that does not match the real system will generate incorrect tests. Model
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Deriving a State Machine
+### 💡 Worked Example 1: Deriving a State Machine
 
 **Requirements:**
 - "A vending machine accepts coins and dispenses items."
@@ -269,7 +269,7 @@ A model that does not match the real system will generate incorrect tests. Model
 - Item Selected (sufficient) → Idle (Event: Dispense, Action: Return change)
 - Any state → Idle (Event: Cancel, Action: Return all coins)
 
-### Worked Example 2: Deriving a Decision Table
+### 💡 Worked Example 2: Deriving a Decision Table
 
 **Requirements:**
 - "A customer gets free shipping if they are a VIP member AND the order exceeds $100."

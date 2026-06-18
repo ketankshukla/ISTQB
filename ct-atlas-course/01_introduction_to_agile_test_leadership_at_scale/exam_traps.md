@@ -1,6 +1,6 @@
-# Chapter 1 — Introduction to Agile Test Leadership at Scale: Exam Traps
+# 🪤 Chapter 1 — Introduction to Agile Test Leadership at Scale: Exam Traps
 
-## Trap 1: Thinking Agile at Scale is Just Big Agile
+## 🪤 Trap 1: Thinking Agile at Scale is Just Big Agile
 
 **Trap:** Scaling requires new structures (ARTs, chapters, tribes) and coordination mechanisms, not just more teams doing Scrum.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Confusing SAFe, LeSS, and Spotify
+## 🪤 Trap 2: Confusing SAFe, LeSS, and Spotify
 
 **Trap:** SAFe = structured, hierarchical, PI planning. LeSS = lightweight, one PO, shared sprints. Spotify = autonomous squads, tribes, chapters.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Eliminating Test Managers in Scaling
+## 🪤 Trap 3: Eliminating Test Managers in Scaling
 
 **Trap:** Agile at scale still needs test leadership for coordination, standards, and cross-team quality.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Ignoring Integration Testing in Scaling
+## 🪤 Trap 4: Ignoring Integration Testing in Scaling
 
 **Trap:** When multiple teams integrate work, system-level testing is critical and often missed.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Using Velocity for Cross-Team Comparison
+## 🪤 Trap 5: Using Velocity for Cross-Team Comparison
 
 **Trap:** Velocity is team-specific and depends on story point calibration. Comparing velocities is meaningless and harmful.
 

@@ -1,8 +1,8 @@
-# Chapter 3 — Test Leadership and Management: Practice Questions
+# ❓ Chapter 3 — Test Leadership and Management: Practice Questions
 
 ---
 
-### Q1 (ATLaS-3.1, K2)
+### 🔷 Q1 (ATLaS-3.1, K2)
 
 Servant leadership in testing means:
 
@@ -13,7 +13,7 @@ D. Only managing budgets
 
 ---
 
-### Q2 (ATLaS-3.2, K2)
+### 🔷 Q2 (ATLaS-3.2, K2)
 
 Coaching primarily focuses on:
 
@@ -24,7 +24,7 @@ D. Only performance reviews
 
 ---
 
-### Q3 (ATLaS-3.3, K2)
+### 🔷 Q3 (ATLaS-3.3, K2)
 
 Psychological safety in a team means:
 
@@ -35,7 +35,7 @@ D. Only network security
 
 ---
 
-### Q4 (ATLaS-3.4, K2)
+### 🔷 Q4 (ATLaS-3.4, K2)
 
 An impediment that the team cannot resolve should be:
 
@@ -46,7 +46,7 @@ D. Only discussed in retrospectives
 
 ---
 
-### Q5 (ATLaS-3.1, K2)
+### 🔷 Q5 (ATLaS-3.1, K2)
 
 In the Tuckman model, a new team in the Forming stage needs:
 
@@ -57,7 +57,7 @@ D. Only independence
 
 ---
 
-### Q6 (ATLaS-3.2, K2)
+### 🔷 Q6 (ATLaS-3.2, K2)
 
 Mentoring differs from coaching because mentoring:
 
@@ -68,7 +68,7 @@ D. Only manages schedules
 
 ---
 
-### Q7 (ATLaS-3.3, K2)
+### 🔷 Q7 (ATLaS-3.3, K2)
 
 Whole-team quality ownership means:
 
@@ -79,7 +79,7 @@ D. Only managers review quality
 
 ---
 
-### Q8 (ATLaS-3.4, K2)
+### 🔷 Q8 (ATLaS-3.4, K2)
 
 A test lead discovering a blocker should:
 
@@ -90,7 +90,7 @@ D. Only assign it to someone else
 
 ---
 
-### Q9 (ATLaS-3.1, K2)
+### 🔷 Q9 (ATLaS-3.1, K2)
 
 The Performing stage of team development is characterized by:
 
@@ -101,7 +101,7 @@ D. Uncertainty about roles
 
 ---
 
-### Q10 (ATLaS-3.2, K2)
+### 🔷 Q10 (ATLaS-3.2, K2)
 
 A quality culture is built when:
 
@@ -112,7 +112,7 @@ D. Only developers do code review
 
 ---
 
-### Q11 (ATLaS-3.3, K2)
+### 🔷 Q11 (ATLaS-3.3, K2)
 
 Blameless post-mortems after quality issues:
 
@@ -123,7 +123,7 @@ D. Only document failures
 
 ---
 
-### Q12 (ATLaS-3.4, K2)
+### 🔷 Q12 (ATLaS-3.4, K2)
 
 Communities of Practice help develop test professionals by:
 
@@ -134,7 +134,7 @@ D. Only evaluating performance
 
 ---
 
-### Q13 (ATLaS-3.1, K2)
+### 🔷 Q13 (ATLaS-3.1, K2)
 
 A servant leader celebrates:
 
@@ -145,7 +145,7 @@ D. Only overtime hours
 
 ---
 
-### Q14 (ATLaS-3.2, K2)
+### 🔷 Q14 (ATLaS-3.2, K2)
 
 Test leads in scaled agile should facilitate rather than dictate because:
 
@@ -156,7 +156,7 @@ D. Only for remote teams
 
 ---
 
-### Q15 (ATLaS-3.3, K2)
+### 🔷 Q15 (ATLaS-3.3, K2)
 
 Continuous improvement in testing is demonstrated by:
 
@@ -167,7 +167,7 @@ D. Only buying new tools
 
 ---
 
-### Q16 (ATLaS-3.4, K2)
+### 🔷 Q16 (ATLaS-3.4, K2)
 
 Career development for testers at scale should include:
 
@@ -178,7 +178,7 @@ D. Only automation roles
 
 ---
 
-### Q17 (ATLaS-3.1, K2)
+### 🔷 Q17 (ATLaS-3.1, K2)
 
 During the Storming stage, a leader should:
 
@@ -189,7 +189,7 @@ D. Only replace team members
 
 ---
 
-### Q18 (ATLaS-3.2, K2)
+### 🔷 Q18 (ATLaS-3.2, K2)
 
 When a team member asks "What should I do?" a coaching response is:
 
@@ -200,7 +200,7 @@ D. "Ask someone else"
 
 ---
 
-### Q19 (ATLaS-3.3, K2)
+### 🔷 Q19 (ATLaS-3.3, K2)
 
 Quality metrics should be visible to:
 
@@ -211,7 +211,7 @@ D. Only customers
 
 ---
 
-### Q20 (ATLaS-3.4, K2)
+### 🔷 Q20 (ATLaS-3.4, K2)
 
 A test lead shields the team from organizational noise by:
 
@@ -222,84 +222,84 @@ D. Only allowing customer communication
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** Servant leader = remove obstacles, enable success.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** Coaching = draw solutions out.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** Psychological safety = safe to question/experiment.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** Impediment = escalate until resolved.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Forming = needs direction.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Mentoring = shares experience.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Whole-team = shared quality.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Lead = actively remove blockers.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** Performing = self-organizing, high performance.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** Quality culture = values quality.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Blameless = system improvements.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** CoP = share knowledge.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Celebrate = team successes.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Facilitate = teams know work best.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Improvement = retrospectives → changes.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Career = multiple paths.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Storming = facilitate conflict.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Coaching = ask about options.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Metrics = visible to all.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** Shield = filter distractions.

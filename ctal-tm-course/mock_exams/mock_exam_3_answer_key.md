@@ -1,4 +1,4 @@
-# Mock Exam 3 — Answer Key
+# 📝 Mock Exam 3 — Answer Key
 
 | Q | Answer | Rationale |
 |---|--------|-----------|
@@ -68,7 +68,7 @@
 | 64 | B | Test management tools provide centralized tracking of cases, execution, and defects. |
 | 65 | B | Top-down based on historical data is appropriate with stable requirements and extensive data. |
 
-## Score Interpretation
+## ⭐ Score Interpretation
 
 | Score | Interpretation |
 |-------|-------------|

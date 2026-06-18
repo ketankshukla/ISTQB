@@ -1,6 +1,6 @@
-# Case Study 2 — ISO 26262 Compliance Project
+# 📂 Case Study 2 — ISO 26262 Compliance Project
 
-## Context
+## ⭐ Context
 
 You are the Quality Manager for an ECU supplier implementing ISO 26262 for a power steering system.
 
@@ -10,7 +10,7 @@ You are the Quality Manager for an ECU supplier implementing ISO 26262 for a pow
 
 ---
 
-## Task 1: HARA
+## ⭐ Task 1: HARA
 
 **Question:** Perform Hazard Analysis and Risk Assessment.
 
@@ -24,7 +24,7 @@ You are the Quality Manager for an ECU supplier implementing ISO 26262 for a pow
 
 ---
 
-## Task 2: Test Planning
+## 🗓️ Task 2: Test Planning
 
 **Question:** Plan tests for ASIL D software.
 
@@ -42,7 +42,7 @@ You are the Quality Manager for an ECU supplier implementing ISO 26262 for a pow
 
 ---
 
-## Task 3: Traceability
+## 🔗 Task 3: Traceability
 
 **Question:** Establish and maintain traceability.
 
@@ -57,7 +57,7 @@ You are the Quality Manager for an ECU supplier implementing ISO 26262 for a pow
 
 ---
 
-## Task 4: Audit Preparation
+## ⭐ Task 4: Audit Preparation
 
 **Question:** Prepare evidence for OEM audit.
 

@@ -1,6 +1,6 @@
-# Case Study 3 — CI/CD Security Integration
+# 📂 Case Study 3 — CI/CD Security Integration
 
-## Context
+## ⭐ Context
 
 You are the DevSecOps Lead for CloudServices, deploying microservices to Kubernetes.
 
@@ -13,7 +13,7 @@ You are the DevSecOps Lead for CloudServices, deploying microservices to Kuberne
 
 ---
 
-## Task 1: Pipeline Design
+## 🎨 Task 1: Pipeline Design
 
 **Question:** Design a secure CI/CD pipeline.
 
@@ -35,7 +35,7 @@ Commit → Secret Scan → SAST → SCA → Build → Container Scan → Deploy 
 
 ---
 
-## Task 2: Tool Integration
+## 🛠️ Task 2: Tool Integration
 
 **Question:** Integrate security tools into the pipeline.
 
@@ -52,7 +52,7 @@ Commit → Secret Scan → SAST → SCA → Build → Container Scan → Deploy 
 
 ---
 
-## Task 3: Managing False Positives
+## ⭐ Task 3: Managing False Positives
 
 **Question:** Handle false positives at scale.
 
@@ -73,7 +73,7 @@ Commit → Secret Scan → SAST → SCA → Build → Container Scan → Deploy 
 
 ---
 
-## Task 4: Metrics and Improvement
+## 📊 Task 4: Metrics and Improvement
 
 **Question:** Track security pipeline effectiveness.
 

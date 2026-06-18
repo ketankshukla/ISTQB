@@ -1,10 +1,10 @@
-# CTAL-TA Glossary
+# 📖 CTAL-TA Glossary
 
 Key terms and definitions aligned with the ISTQB CTAL-TA syllabus and industry standard usage.
 
 ---
 
-## A
+## ⭐ A
 
 **Accuracy**
 The degree to which a product provides the correct results with the required precision. A sub-characteristic of Functional Suitability under ISO 25010.
@@ -20,7 +20,7 @@ The degree to which a system is operational and accessible when required. A sub-
 
 ---
 
-## B
+## ⭐ B
 
 **Boundary Value Analysis (BVA)**
 A black-box test design technique in which test cases are designed based on boundary values. 2-value BVA tests min-1, min, max, max+1. 3-value BVA tests min-1, min, min+1, max-1, max, max+1.
@@ -30,7 +30,7 @@ An automated test that breaks easily when the application under test changes, ty
 
 ---
 
-## C
+## ⭐ C
 
 **Capture/Replay**
 A test automation approach where user interactions are recorded and played back. Simple to create but produces brittle scripts that are hard to maintain.
@@ -52,7 +52,7 @@ The degree to which specified coverage items are exercised by a test suite, expr
 
 ---
 
-## D
+## ⭐ D
 
 **Data-Driven Framework**
 A test automation framework where test logic is separate from test data. Test data is stored in external files, and the same script runs with multiple data sets.
@@ -65,7 +65,7 @@ The number of defects identified in a work product divided by the size of the wo
 
 ---
 
-## E
+## ⭐ E
 
 **Efficiency (Performance Efficiency)**
 The degree to which a product performs its functions within given time and resource constraints. Includes time behavior, resource utilization, and capacity.
@@ -93,21 +93,21 @@ An approach to testing whereby the tester simultaneously designs and executes te
 
 ---
 
-## F
+## ⭐ F
 
 **Fault Tolerance**
 The degree to which a system operates as intended despite the presence of hardware or software faults. A sub-characteristic of Reliability.
 
 ---
 
-## G
+## ⭐ G
 
 **Guard Condition**
 A condition that must be true for a transition to occur in a state transition diagram.
 
 ---
 
-## I
+## ⭐ I
 
 **Informal Review**
 A review with no formal process, no entry/exit criteria, and minimal documentation. Typically used for quick feedback on early drafts.
@@ -123,21 +123,21 @@ The degree to which a product can exchange information with other products and u
 
 ---
 
-## K
+## ⭐ K
 
 **Keyword-Driven Framework**
 A test automation framework where test cases are written using keywords representing actions (e.g., "ClickButton", "EnterText"). Keywords are implemented in code by automation engineers.
 
 ---
 
-## L
+## ⭐ L
 
 **Load Testing**
 A type of performance testing conducted to evaluate the behavior of a system at and beyond the expected workload.
 
 ---
 
-## M
+## ⭐ M
 
 **Maintainability**
 The degree of effectiveness and efficiency with which a product can be modified. Includes modularity, reusability, analysability, modifiability, and testability.
@@ -156,7 +156,7 @@ The average time taken to repair a failed system and return it to operational st
 
 ---
 
-## P
+## ⭐ P
 
 **Pairwise Testing**
 A combinatorial testing technique that ensures every possible pair of input parameter values is tested at least once.
@@ -169,7 +169,7 @@ The degree to which a product can be transferred from one hardware, software, or
 
 ---
 
-## R
+## ⭐ R
 
 **Recoverability**
 The degree to which a system can recover data and restore the required state after an interruption or failure. A sub-characteristic of Reliability.
@@ -188,7 +188,7 @@ A column in a decision table representing a unique combination of conditions and
 
 ---
 
-## S
+## ⭐ S
 
 **Scribe**
 The person who records all issues, defects, and action items during a formal review meeting.
@@ -225,7 +225,7 @@ The conditions under which testing should be temporarily stopped.
 
 ---
 
-## T
+## ⭐ T
 
 **Technical Review**
  A form of review performed by technically qualified peers that identifies defects, evaluates technical quality, and ensures conformance to standards.
@@ -256,28 +256,28 @@ A change from one state to another, caused by an event.
 
 ---
 
-## U
+## ⭐ U
 
 **Use Case Testing**
 A black-box test design technique in which test cases are designed to execute user scenarios derived from use cases. Tests main flow, alternative flows, and exception flows.
 
 ---
 
-## V
+## ⭐ V
 
 **Volume Testing**
 A type of performance testing that evaluates system behavior with large volumes of data.
 
 ---
 
-## W
+## ⭐ W
 
 **Walkthrough**
 A review type where the author leads participants through a document, explaining and answering questions. Less formal than a technical review or inspection.
 
 ---
 
-## 0-1 Switch Coverage
+## 📊 0-1 Switch Coverage
 
 **0-switch coverage**
 A state transition coverage criterion where every state in the state transition diagram is visited at least once.

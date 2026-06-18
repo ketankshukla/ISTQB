@@ -1,8 +1,8 @@
-# Chapter 5 — Testing Trading and Banking Systems: Practice Questions
+# ❓ Chapter 5 — Testing Trading and Banking Systems: Practice Questions
 
 ---
 
-### Q1 (FT-5.1, K2)
+### 🔷 Q1 (FT-5.1, K2)
 
 A "Fill or Kill" (FOK) order:
 
@@ -13,7 +13,7 @@ D. Executes at the closing price
 
 ---
 
-### Q2 (FT-5.2, K2)
+### 🔷 Q2 (FT-5.2, K2)
 
 VWAP stands for:
 
@@ -24,7 +24,7 @@ D. Variable-Window Algorithmic Pricing
 
 ---
 
-### Q3 (FT-5.3, K2)
+### 🔷 Q3 (FT-5.3, K2)
 
 In payment processing, the phase where funds are actually transferred between banks is:
 
@@ -35,7 +35,7 @@ D. Reconciliation
 
 ---
 
-### Q4 (FT-5.4, K2)
+### 🔷 Q4 (FT-5.4, K2)
 
 A reconciliation "break" occurs when:
 
@@ -46,7 +46,7 @@ D. A new employee joins
 
 ---
 
-### Q5 (FT-5.1, K2)
+### 🔷 Q5 (FT-5.1, K2)
 
 An iceberg order:
 
@@ -57,7 +57,7 @@ D. Is only used for bonds
 
 ---
 
-### Q6 (FT-5.2, K2)
+### 🔷 Q6 (FT-5.2, K2)
 
 A kill switch in algorithmic trading:
 
@@ -68,7 +68,7 @@ D. Only works after market hours
 
 ---
 
-### Q7 (FT-5.3, K2)
+### 🔷 Q7 (FT-5.3, K2)
 
 3D Secure authentication in card payments:
 
@@ -79,7 +79,7 @@ D. Eliminates all fraud
 
 ---
 
-### Q8 (FT-5.4, K2)
+### 🔷 Q8 (FT-5.4, K2)
 
 T+1 settlement means:
 
@@ -90,7 +90,7 @@ D. Trade is canceled after one day
 
 ---
 
-### Q9 (FT-5.1, K3)
+### 🔷 Q9 (FT-5.1, K3)
 
 A trader submits a stop-loss order at $45 when the current price is $50. If the price drops to $44:
 
@@ -101,7 +101,7 @@ D. The order executes at exactly $45
 
 ---
 
-### Q10 (FT-5.2, K2)
+### 🔷 Q10 (FT-5.2, K2)
 
 Backtesting an algorithmic trading strategy means:
 
@@ -112,7 +112,7 @@ D. Testing only the user interface
 
 ---
 
-### Q11 (FT-5.3, K2)
+### 🔷 Q11 (FT-5.3, K2)
 
 A chargeback occurs when:
 
@@ -123,7 +123,7 @@ D. A bank merges with another
 
 ---
 
-### Q12 (FT-5.4, K2)
+### 🔷 Q12 (FT-5.4, K2)
 
 Nostro and vostro accounts are used for:
 
@@ -134,7 +134,7 @@ D. Insurance claims
 
 ---
 
-### Q13 (FT-5.1, K2)
+### 🔷 Q13 (FT-5.1, K2)
 
 A limit sell order at $60 when the market is at $55:
 
@@ -145,7 +145,7 @@ D. Executes at $55
 
 ---
 
-### Q14 (FT-5.2, K2)
+### 🔷 Q14 (FT-5.2, K2)
 
 Smart order routing selects execution venues based on:
 
@@ -156,7 +156,7 @@ D. Only the venue with the most employees
 
 ---
 
-### Q15 (FT-5.3, K2)
+### 🔷 Q15 (FT-5.3, K2)
 
 In the clearing phase of card processing:
 
@@ -167,7 +167,7 @@ D. The merchant ships the goods
 
 ---
 
-### Q16 (FT-5.4, K2)
+### 🔷 Q16 (FT-5.4, K2)
 
 A corporate action "ex-dividend date" is:
 
@@ -178,7 +178,7 @@ D. The date of the annual meeting
 
 ---
 
-### Q17 (FT-5.1, K2)
+### 🔷 Q17 (FT-5.1, K2)
 
 An IOC (Immediate or Cancel) order:
 
@@ -189,7 +189,7 @@ D. Requires manual confirmation
 
 ---
 
-### Q18 (FT-5.2, K2)
+### 🔷 Q18 (FT-5.2, K2)
 
 Testing algorithmic trading strategies in a live market with no real money is called:
 
@@ -200,7 +200,7 @@ D. Load testing
 
 ---
 
-### Q19 (FT-5.3, K2)
+### 🔷 Q19 (FT-5.3, K2)
 
 Interchange fees in card payments are paid by:
 
@@ -211,7 +211,7 @@ D. The card network to the merchant
 
 ---
 
-### Q20 (FT-5.4, K3)
+### 🔷 Q20 (FT-5.4, K3)
 
 After a merger where 1 share of Company A converts to 0.5 shares of Company B, a holder of 100 shares of A should receive:
 
@@ -222,84 +222,84 @@ D. No shares of B
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** FOK = all or nothing immediately.
 
-### Q2
+### 🔷 Q2
 **Answer: A**
 **Rationale:** VWAP = Volume-Weighted Average Price.
 
-### Q3
+### 🔷 Q3
 **Answer: C**
 **Rationale:** Settlement = actual transfer of funds/securities.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** A break = discrepancy between systems for the same transaction.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Iceberg = only portion visible to market.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Kill switch = emergency halt for runaway algorithms.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** 3D Secure redirects to bank for extra verification.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** T+1 = one business day after trade date.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** Stop-loss becomes market order when trigger is hit.
 
-### Q10
+### 🔷 Q10
 **Answer: A**
 **Rationale:** Backtesting = testing against historical data.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Chargeback = customer dispute, issuer reverses.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Nostro/vostro = correspondent banking accounts.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Limit sell at $60 executes at $60 or higher.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Smart routing considers price, liquidity, fees, regulations.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Clearing = matching and fee calculation.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Ex-dividend = first day without dividend entitlement.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** IOC = immediate partial fill, cancel remainder.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Paper trading = live market, no real money.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Interchange = acquirer pays issuer.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** 100 × 0.5 = 50 shares; fractional handling depends on terms.

@@ -1,6 +1,6 @@
-# Chapter 1 — Introduction to Test Automation: Exam Traps
+# 🪤 Chapter 1 — Introduction to Test Automation: Exam Traps
 
-## Trap 1: Thinking Test Automation Means Zero Manual Testing
+## 🪤 Trap 1: Thinking Test Automation Means Zero Manual Testing
 
 **Trap:** Test automation complements manual testing but does not replace it. Exploratory, usability, and one-time tests still require humans.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Confusing Test Automation with Automated Testing
+## 🪤 Trap 2: Confusing Test Automation with Automated Testing
 
 **Trap:** Automated testing = execution by tool. Test automation = the broader discipline including design, framework, CI/CD, and maintenance.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Thinking the Test Pyramid Should Be an Ice Cream Cone
+## 🪤 Trap 3: Thinking the Test Pyramid Should Be an Ice Cream Cone
 
 **Trap:** The pyramid should have many unit tests at the base and few E2E tests at the top. An inverted pyramid is an anti-pattern.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Believing Automation Guarantees Zero Defects
+## 🪤 Trap 4: Believing Automation Guarantees Zero Defects
 
 **Trap:** Automation only checks what it is programmed to check. It can give false confidence if not complemented with other testing.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Ignoring Maintenance Costs in ROI Calculations
+## 🪤 Trap 5: Ignoring Maintenance Costs in ROI Calculations
 
 **Trap:** ROI calculations must include ongoing maintenance, not just initial development costs.
 

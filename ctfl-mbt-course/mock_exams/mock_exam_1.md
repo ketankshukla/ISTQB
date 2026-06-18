@@ -1,4 +1,4 @@
-# CTFL-MBT Mock Exam 1
+# 📝 CTFL-MBT Mock Exam 1
 
 **Instructions:**
 - 40 questions
@@ -8,7 +8,7 @@
 
 ---
 
-### Q1
+### 🔷 Q1
 
 Which statement BEST describes Model-Based Testing?
 
@@ -19,7 +19,7 @@ D. Manual testing guided by test scripts
 
 ---
 
-### Q2
+### 🔷 Q2
 
 In the MBT process, which step comes AFTER test generation?
 
@@ -30,7 +30,7 @@ D. Requirements analysis
 
 ---
 
-### Q3
+### 🔷 Q3
 
 A test case generated from a model that lacks specific input values is called:
 
@@ -41,7 +41,7 @@ D. A selection criterion
 
 ---
 
-### Q4
+### 🔷 Q4
 
 Which of the following is a PRIMARY benefit of MBT?
 
@@ -52,7 +52,7 @@ D. Automatically fixes defects in the code
 
 ---
 
-### Q5
+### 🔷 Q5
 
 In a state machine, a transition is triggered by:
 
@@ -63,7 +63,7 @@ D. A guard condition
 
 ---
 
-### Q6
+### 🔷 Q6
 
 A state machine has 5 states and 7 transitions. What is the minimum number of test cases for 0-switch coverage?
 
@@ -74,7 +74,7 @@ D. 12
 
 ---
 
-### Q7
+### 🔷 Q7
 
 A guard condition in a state machine:
 
@@ -85,7 +85,7 @@ D. Is the starting state of the machine
 
 ---
 
-### Q8
+### 🔷 Q8
 
 A decision table has 4 binary conditions. How many rules are in the full table before removing impossible rules?
 
@@ -96,7 +96,7 @@ D. 20
 
 ---
 
-### Q9
+### 🔷 Q9
 
 0-switch coverage in a state machine means:
 
@@ -107,7 +107,7 @@ D. Every path from initial to final state is executed
 
 ---
 
-### Q10
+### 🔷 Q10
 
 1-switch coverage is also known as:
 
@@ -118,7 +118,7 @@ D. Path coverage
 
 ---
 
-### Q11
+### 🔷 Q11
 
 2-switch coverage requires:
 
@@ -129,7 +129,7 @@ D. Every variable is tested at its boundary
 
 ---
 
-### Q12
+### 🔷 Q12
 
 A state machine has 6 states and 8 transitions. What is the minimum number of test cases for 1-switch coverage?
 
@@ -140,7 +140,7 @@ D. 14
 
 ---
 
-### Q13
+### 🔷 Q13
 
 A guard condition "amount >= 50" in a state machine should be tested at boundary values:
 
@@ -151,7 +151,7 @@ D. 1, 50, 99
 
 ---
 
-### Q14
+### 🔷 Q14
 
 A test suite achieves 100% 2-switch coverage. Which of the following is guaranteed?
 
@@ -162,7 +162,7 @@ D. Full path coverage
 
 ---
 
-### Q15
+### 🔷 Q15
 
 A state machine has 10 transitions, but 2 are unreachable. The maximum achievable transition coverage is:
 
@@ -173,7 +173,7 @@ D. 0%
 
 ---
 
-### Q16
+### 🔷 Q16
 
 An abstract test case generated from a model:
 
@@ -184,7 +184,7 @@ D. Does not need expected results
 
 ---
 
-### Q17
+### 🔷 Q17
 
 Which type of coverage measures how much of the model is exercised?
 
@@ -195,7 +195,7 @@ D. User coverage
 
 ---
 
-### Q18
+### 🔷 Q18
 
 When an MBT test fails, the FIRST step should be:
 
@@ -206,7 +206,7 @@ D. Increase coverage target
 
 ---
 
-### Q19
+### 🔷 Q19
 
 An infeasible path in a state machine is:
 
@@ -217,7 +217,7 @@ D. A path that generates too many tests
 
 ---
 
-### Q20
+### 🔷 Q20
 
 Which MBT tool category is responsible for creating and editing models?
 
@@ -228,7 +228,7 @@ D. Execution framework
 
 ---
 
-### Q21
+### 🔷 Q21
 
 A test generator in MBT:
 
@@ -239,7 +239,7 @@ D. Tracks project schedules
 
 ---
 
-### Q22
+### 🔷 Q22
 
 Which is a PRIMARY criterion for selecting an MBT tool?
 
@@ -250,7 +250,7 @@ D. The tool's release date
 
 ---
 
-### Q23
+### 🔷 Q23
 
 A coverage analyzer in MBT measures:
 
@@ -261,7 +261,7 @@ D. The number of requirements documents
 
 ---
 
-### Q24
+### 🔷 Q24
 
 Integrating MBT tools with CI/CD provides the benefit of:
 
@@ -272,7 +272,7 @@ D. Removing the need for test coverage analysis
 
 ---
 
-### Q25
+### 🔷 Q25
 
 Before purchasing an MBT tool, the recommended step is:
 
@@ -283,7 +283,7 @@ D. Skip evaluation and purchase based on marketing materials
 
 ---
 
-### Q26
+### 🔷 Q26
 
 Which statement about MBT tools is TRUE?
 
@@ -294,7 +294,7 @@ D. They are only useful for large enterprises
 
 ---
 
-### Q27
+### 🔷 Q27
 
 Which system is MOST appropriate for MBT?
 
@@ -305,7 +305,7 @@ D. A system with completely random behavior
 
 ---
 
-### Q28
+### 🔷 Q28
 
 Creating a model often reveals ambiguities in requirements. This demonstrates which benefit of MBT?
 
@@ -316,7 +316,7 @@ D. Elimination of manual testing
 
 ---
 
-### Q29
+### 🔷 Q29
 
 In a decision table, "Customer is a VIP member" is:
 
@@ -327,7 +327,7 @@ D. An event
 
 ---
 
-### Q30
+### 🔷 Q30
 
 A decision table has conditions: A (2 values), B (3 values), C (2 values). After analysis, 2 rules are identified as impossible. How many valid test cases are needed?
 
@@ -338,7 +338,7 @@ D. 6
 
 ---
 
-### Q31
+### 🔷 Q31
 
 Which model type is MOST appropriate for testing a system with complex state-dependent behavior?
 
@@ -349,7 +349,7 @@ D. Entity-relationship diagram
 
 ---
 
-### Q32
+### 🔷 Q32
 
 For 1-switch coverage (transition coverage) in a state machine, the minimum number of test cases must cover:
 
@@ -360,7 +360,7 @@ D. Every possible path
 
 ---
 
-### Q33
+### 🔷 Q33
 
 Model validation is important because:
 
@@ -371,7 +371,7 @@ D. It makes the model more complex
 
 ---
 
-### Q34
+### 🔷 Q34
 
 A "don't care" condition in a decision table means:
 
@@ -382,7 +382,7 @@ D. The condition is impossible
 
 ---
 
-### Q35
+### 🔷 Q35
 
 When requirements change, the MOST efficient approach in MBT is to:
 
@@ -393,7 +393,7 @@ D. Stop using MBT
 
 ---
 
-### Q36
+### 🔷 Q36
 
 The PRIMARY purpose of Specification by Example is to:
 
@@ -404,7 +404,7 @@ D. Eliminate the need for a product owner
 
 ---
 
-### Q37
+### 🔷 Q37
 
 A team has 300 UI tests, 50 integration tests, and 20 unit tests. This distribution is:
 
@@ -415,7 +415,7 @@ D. Sufficient for all agile testing needs
 
 ---
 
-### Q38
+### 🔷 Q38
 
 In BDD, a scenario outline allows:
 
@@ -426,7 +426,7 @@ D. Testing without any Given-When-Then structure
 
 ---
 
-### Q39
+### 🔷 Q39
 
 A system must exchange data with both legacy mainframe systems and modern cloud APIs. Testing this validates:
 
@@ -437,7 +437,7 @@ D. Maintainability
 
 ---
 
-### Q40
+### 🔷 Q40
 
 ROI for test automation is typically:
 
@@ -448,4 +448,4 @@ D. Not measurable for software testing
 
 ---
 
-## End of Mock Exam 1
+## 📝 End of Mock Exam 1

@@ -1,10 +1,10 @@
-# Chapter 3 — Security Testing Techniques: Lessons
+# 📘 Chapter 3 — Security Testing Techniques: Lessons
 
 ---
 
-## 3.1 SAST, DAST, IAST, and SCA
+## ⭐ 3.1 SAST, DAST, IAST, and SCA
 
-### SAST — Static Application Security Testing
+### 🔍 SAST — Static Application Security Testing
 
 | Aspect | Description |
 |--------|-------------|
@@ -14,7 +14,7 @@
 | **Limitations** | False positives, can't detect runtime issues |
 | **Tools** | SonarQube, Checkmarx, Fortify, Semgrep |
 
-### DAST — Dynamic Application Security Testing
+### 🔒 DAST — Dynamic Application Security Testing
 
 | Aspect | Description |
 |--------|-------------|
@@ -24,7 +24,7 @@
 | **Limitations** | Needs running app, limited code coverage |
 | **Tools** | OWASP ZAP, Burp Suite, Acunetix |
 
-### IAST — Interactive Application Security Testing
+### 🔒 IAST — Interactive Application Security Testing
 
 | Aspect | Description |
 |--------|-------------|
@@ -34,7 +34,7 @@
 | **Limitations** | Requires instrumentation, language support |
 | **Tools** | Contrast Security, Seeker, Checkmarx IAST |
 
-### SCA — Software Composition Analysis
+### 🔬 SCA — Software Composition Analysis
 
 | Aspect | Description |
 |--------|-------------|
@@ -44,7 +44,7 @@
 | **Limitations** | Only finds known issues |
 | **Tools** | Snyk, OWASP Dependency-Check, Black Duck |
 
-### Comparison
+### 🔷 Comparison
 
 | Technique | Coverage | False Positives | SDLC Phase |
 |-----------|----------|----------------|------------|
@@ -55,9 +55,9 @@
 
 ---
 
-## 3.2 Code Review for Security
+## 🔎 3.2 Code Review for Security
 
-### What to Look For
+### 🔷 What to Look For
 
 | Category | Issues |
 |----------|--------|
@@ -68,7 +68,7 @@
 | **Error handling** | Information leakage in error messages |
 | **Access control** | Missing authorization checks |
 
-### Review Process
+### 🔎 Review Process
 
 1. **Automated scan** — SAST tools find obvious issues
 2. **Focused manual review** — High-risk areas (auth, payment, admin)
@@ -77,13 +77,13 @@
 
 ---
 
-## 3.3 Fuzzing
+## ⭐ 3.3 Fuzzing
 
-### Definition
+### 🔷 Definition
 
 Fuzzing is automated testing that provides invalid, unexpected, or random data as inputs to a program.
 
-### Types
+### 🧪 Types
 
 | Type | Description |
 |------|-------------|
@@ -91,7 +91,7 @@ Fuzzing is automated testing that provides invalid, unexpected, or random data a
 | **Generation-based** | Generate inputs based on protocol/format specification |
 | **Coverage-guided** | Use code coverage feedback to evolve inputs |
 
-### Application Areas
+### 🔷 Application Areas
 
 - File format parsers (PDF, images)
 - Network protocols
@@ -100,9 +100,9 @@ Fuzzing is automated testing that provides invalid, unexpected, or random data a
 
 ---
 
-## 3.4 Penetration Testing Techniques
+## 🎯 3.4 Penetration Testing Techniques
 
-### Reconnaissance
+### 🤖 Reconnaissance
 
 | Technique | Purpose |
 |-----------|---------|
@@ -110,7 +110,7 @@ Fuzzing is automated testing that provides invalid, unexpected, or random data a
 | **Port scanning** | Identify open services (Nmap) |
 | **Service enumeration** | Determine versions and configurations |
 
-### Vulnerability Exploitation
+### 🔷 Vulnerability Exploitation
 
 | Technique | Target |
 |-----------|--------|
@@ -120,7 +120,7 @@ Fuzzing is automated testing that provides invalid, unexpected, or random data a
 | **Authentication bypass** | Login mechanisms |
 | **Privilege escalation** | Access control systems |
 
-### Post-Exploitation
+### 🔷 Post-Exploitation
 
 - Data exfiltration simulation
 - Persistence mechanisms
@@ -128,9 +128,9 @@ Fuzzing is automated testing that provides invalid, unexpected, or random data a
 
 ---
 
-## 3.5 Input Validation and Output Encoding
+## ⭐ 3.5 Input Validation and Output Encoding
 
-### Input Validation Tests
+### 🔷 Input Validation Tests
 
 | Test | Input | Expected Behavior |
 |------|-------|-------------------|
@@ -140,7 +140,7 @@ Fuzzing is automated testing that provides invalid, unexpected, or random data a
 | **Command injection** | `; cat /etc/passwd` | Rejected |
 | **Buffer overflow** | Very long string | Truncated or rejected |
 
-### Output Encoding Tests
+### 🔷 Output Encoding Tests
 
 - Verify HTML encoding in page output
 - Verify URL encoding in redirects
@@ -148,9 +148,9 @@ Fuzzing is automated testing that provides invalid, unexpected, or random data a
 
 ---
 
-## 3.6 Authentication and Session Testing
+## ⭐ 3.6 Authentication and Session Testing
 
-### Authentication Tests
+### 🔷 Authentication Tests
 
 | Test | Approach |
 |------|----------|
@@ -159,7 +159,7 @@ Fuzzing is automated testing that provides invalid, unexpected, or random data a
 | **Credential storage** | Verify hashing (not encryption) of passwords |
 | **MFA bypass** | Attempt to skip second factor |
 
-### Session Management Tests
+### 🗂️ Session Management Tests
 
 | Test | Approach |
 |------|----------|
@@ -171,9 +171,9 @@ Fuzzing is automated testing that provides invalid, unexpected, or random data a
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: SAST vs DAST Selection
+### 💡 Worked Example 1: SAST vs DAST Selection
 
 **Scenario:** Choose technique for a new web application.
 
@@ -184,7 +184,7 @@ Fuzzing is automated testing that provides invalid, unexpected, or random data a
 | Staging | DAST | Find runtime issues in deployed app |
 | Pre-release | Penetration test | Comprehensive attacker simulation |
 
-### Worked Example 2: Input Validation Test Design
+### 💡 Worked Example 2: Input Validation Test Design
 
 **Scenario:** Test a search field.
 
@@ -196,7 +196,7 @@ Fuzzing is automated testing that provides invalid, unexpected, or random data a
 | Long: 10,000 characters | Truncated or rejected |
 | Null: empty string | Handled gracefully |
 
-### Worked Example 3: Session Test Cases
+### 💡 Worked Example 3: Session Test Cases
 
 **Scenario:** Test a banking session.
 

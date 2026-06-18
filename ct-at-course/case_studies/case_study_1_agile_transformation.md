@@ -1,6 +1,6 @@
-# Case Study 1 — Agile Transformation
+# 📂 Case Study 1 — Agile Transformation
 
-## Context
+## ⭐ Context
 
 You are the Test Lead for TechCorp, a 200-person software company transitioning from waterfall to agile.
 
@@ -19,7 +19,7 @@ You are the Test Lead for TechCorp, a 200-person software company transitioning 
 - Faster releases (2 weeks, not 6 months)
 - Better quality through early testing
 
-## Task 1: Team Structure Analysis
+## 🔬 Task 1: Team Structure Analysis
 
 **Question:** Analyze the current team structure and recommend how testers should be organized in the new agile structure.
 
@@ -53,7 +53,7 @@ You are the Test Lead for TechCorp, a 200-person software company transitioning 
 
 ---
 
-## Task 2: Testing Process Transformation
+## ⭐ Task 2: Testing Process Transformation
 
 **Question:** Design how testing activities change from the waterfall model to the agile model.
 
@@ -92,7 +92,7 @@ Release every 2 weeks
 
 ---
 
-## Task 3: Skill Development Plan
+## 🗓️ Task 3: Skill Development Plan
 
 **Question:** The current testers have strong manual testing skills but limited automation and agile experience. Design a training plan.
 
@@ -125,7 +125,7 @@ Release every 2 weeks
 
 ---
 
-## Task 4: Metrics for Transformation Success
+## 📊 Task 4: Metrics for Transformation Success
 
 **Question:** Define metrics to measure whether the agile transformation is succeeding.
 
@@ -149,7 +149,7 @@ Release every 2 weeks
 
 ---
 
-## Task 5: Risk Mitigation
+## ⚠️ Task 5: Risk Mitigation
 
 **Question:** Identify the highest risks in the transformation and mitigation strategies.
 

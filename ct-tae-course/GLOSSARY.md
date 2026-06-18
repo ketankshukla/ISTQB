@@ -1,10 +1,10 @@
-# CTAL-TAE Glossary
+# 📖 CTAL-TAE Glossary
 
 Key terms and definitions for the CTAL-TAE exam, organized by chapter relevance.
 
 ---
 
-## General Test Automation Terms
+## ⚙️ General Test Automation Terms
 
 **Test Automation (TA)**
 The use of software to perform or support test activities, including test design, test execution, test data generation, and test result comparison.
@@ -29,7 +29,7 @@ Artifacts produced during the test process required to plan, design, and execute
 
 ---
 
-## Chapter 1: Introduction
+## 🌟 Chapter 1: Introduction
 
 **Return on Investment (ROI)**
 A measure of the profitability of an investment, calculated as (Benefits - Costs) / Costs.
@@ -48,7 +48,7 @@ A test automation approach where user actions are recorded and can be played bac
 
 ---
 
-## Chapter 2: Preparation
+## ⭐ Chapter 2: Preparation
 
 **Proof of Concept (PoC)**
 A limited exercise to verify that a tool or approach is technically feasible in the target environment.
@@ -76,7 +76,7 @@ The ability of a test tool to exchange and use information with other tools in t
 
 ---
 
-## Chapter 3: Architecture
+## ⭐ Chapter 3: Architecture
 
 **Test Generation Layer**
 The TAA layer responsible for creating or selecting test cases, including manual, model-based, or data-driven generation.
@@ -113,7 +113,7 @@ A point of interaction between two layers or between the TAS and the SUT.
 
 ---
 
-## Chapter 4: Design and Development
+## 🎨 Chapter 4: Design and Development
 
 **Data-Driven Framework**
 A test automation framework where test logic is separated from test data, allowing the same test to run with multiple data sets.
@@ -147,7 +147,7 @@ The recording of test execution details for debugging and audit purposes.
 
 ---
 
-## Chapter 5: Deployment and Reporting
+## 📝 Chapter 5: Deployment and Reporting
 
 **Deployment (of TAS)**
 The process of installing, configuring, and making the test automation solution operational.
@@ -184,7 +184,7 @@ A measurable value that demonstrates how effectively objectives are being achiev
 
 ---
 
-## Chapter 6: Transition and Maintenance
+## 🤖 Chapter 6: Transition and Maintenance
 
 **Transition (to Test Automation)**
 The process of moving from manual testing to automated testing or from one TAS to another.
@@ -221,7 +221,7 @@ The process of moving tests or a TAS from one tool, framework, or technology to 
 
 ---
 
-## Abbreviations
+## ⭐ Abbreviations
 
 | Abbreviation | Meaning |
 |-------------|---------|

@@ -1,6 +1,6 @@
-# Chapter 2 — Agile Testing Methods and Techniques: Exam Traps
+# 🪤 Chapter 2 — Agile Testing Methods and Techniques: Exam Traps
 
-## Trap 1: Confusing ATDD, BDD, and TDD
+## 🪤 Trap 1: Confusing ATDD, BDD, and TDD
 
 **Trap:** ATDD and BDD are acceptance-level, collaborative practices. TDD is unit-level, developer-focused.
 
@@ -22,7 +22,7 @@
 
 ---
 
-## Trap 2: Inverting the Test Automation Pyramid
+## 🪤 Trap 2: Inverting the Test Automation Pyramid
 
 **Trap:** The pyramid shows many unit tests, fewer integration tests, few UI tests. The ice cream cone anti-pattern has the opposite.
 
@@ -44,7 +44,7 @@
 
 ---
 
-## Trap 3: Treating Exploratory Testing as Unstructured
+## 🪤 Trap 3: Treating Exploratory Testing as Unstructured
 
 **Trap:** Exploratory testing in agile is structured by charters and time-boxes, not random.
 
@@ -66,7 +66,7 @@
 
 ---
 
-## Trap 4: Thinking Specification by Example Is Only About Testing
+## 💡 Trap 4: Thinking Specification by Example Is Only About Testing
 
 **Trap:** SbE is about requirements clarification and shared understanding, not just producing tests.
 
@@ -88,7 +88,7 @@
 
 ---
 
-## Trap 5: Confusing Test Levels with Test Phases
+## 🪤 Trap 5: Confusing Test Levels with Test Phases
 
 **Trap:** In agile, test levels are continuous activities, not sequential phases.
 
@@ -110,7 +110,7 @@
 
 ---
 
-## Trap 6: Thinking the Three Amigos Is Only About Testing
+## 🪤 Trap 6: Thinking the Three Amigos Is Only About Testing
 
 **Trap:** Three Amigos is about shared understanding of requirements, not just test design.
 
@@ -132,7 +132,7 @@
 
 ---
 
-## Trap 7: Overlooking the Importance of Regression Testing in Agile
+## 🪤 Trap 7: Overlooking the Importance of Regression Testing in Agile
 
 **Trap:** With frequent changes, regression testing is critical in agile and must be automated.
 

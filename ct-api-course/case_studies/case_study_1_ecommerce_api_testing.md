@@ -1,6 +1,6 @@
-# Case Study 1 — E-commerce API Testing
+# 📂 Case Study 1 — E-commerce API Testing
 
-## Context
+## ⭐ Context
 
 You are the API Test Lead for ShopOnline, an e-commerce company. The company has:
 - 25-person engineering team, 4 testers, 1 API test lead (you)
@@ -15,7 +15,7 @@ You are the API Test Lead for ShopOnline, an e-commerce company. The company has
 - Release cycle: weekly
 - Technology stack: REST API, JSON, OAuth2 authentication
 
-## Task 1: Assessment and Test Strategy
+## ♟️ Task 1: Assessment and Test Strategy
 
 **Question:** Analyze the current API testing gaps and recommend a test strategy.
 
@@ -43,7 +43,7 @@ You are the API Test Lead for ShopOnline, an e-commerce company. The company has
 
 ---
 
-## Task 2: Test Design for Order API
+## 🎨 Task 2: Test Design for Order API
 
 **Question:** Design test cases for the POST `/orders` endpoint using appropriate test design techniques.
 
@@ -93,7 +93,7 @@ Body:
 
 ---
 
-## Task 3: Automation Framework Selection
+## ⚙️ Task 3: Automation Framework Selection
 
 **Question:** Select and justify an API automation framework for ShopOnline.
 
@@ -127,7 +127,7 @@ Body:
 
 ---
 
-## Task 4: Security Test Plan
+## 🗓️ Task 4: Security Test Plan
 
 **Question:** Design security tests for the ShopOnline API.
 
@@ -164,7 +164,7 @@ Body:
 
 ---
 
-## Task 5: CI/CD Integration
+## 🔗 Task 5: CI/CD Integration
 
 **Question:** Design a CI/CD pipeline for API testing at ShopOnline.
 
@@ -235,7 +235,7 @@ jobs:
 
 ---
 
-## Task 6: Metrics and Reporting
+## 📝 Task 6: Metrics and Reporting
 
 **Question:** Define KPIs to measure the success of the API testing initiative.
 

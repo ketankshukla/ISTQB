@@ -1,8 +1,8 @@
-# Chapter 3 — Usability Evaluation Methods: Practice Questions
+# ❓ Chapter 3 — Usability Evaluation Methods: Practice Questions
 
 ---
 
-### Q1 (UT-3.1, K2)
+### 🔷 Q1 (UT-3.1, K2)
 
 The think-aloud protocol is a user-based method where participants:
 
@@ -13,7 +13,7 @@ D. Review recordings after the session
 
 ---
 
-### Q2 (UT-3.2, K2)
+### 🔷 Q2 (UT-3.2, K2)
 
 Heuristic evaluation is conducted by:
 
@@ -24,7 +24,7 @@ D. Automated testing tools
 
 ---
 
-### Q3 (UT-3.2, K2)
+### 🔷 Q3 (UT-3.2, K2)
 
 A cognitive walkthrough evaluates:
 
@@ -35,7 +35,7 @@ D. Code quality
 
 ---
 
-### Q4 (UT-3.1, K2)
+### 🔷 Q4 (UT-3.1, K2)
 
 Co-discovery is a method where:
 
@@ -46,7 +46,7 @@ D. An expert reviews the interface alone
 
 ---
 
-### Q5 (UT-3.2, K2)
+### 🔷 Q5 (UT-3.2, K2)
 
 A guideline review checks a product against:
 
@@ -57,7 +57,7 @@ D. The developer's personal preferences
 
 ---
 
-### Q6 (UT-3.3, K3)
+### 🔷 Q6 (UT-3.3, K3)
 
 A team needs quick, inexpensive feedback on a wireframe before investing in development. The BEST method is:
 
@@ -68,7 +68,7 @@ D. A/B testing in production
 
 ---
 
-### Q7 (UT-3.1, K2)
+### 🔷 Q7 (UT-3.1, K2)
 
 Retrospective testing involves:
 
@@ -79,7 +79,7 @@ D. Testing without any users
 
 ---
 
-### Q8 (UT-3.2, K2)
+### 🔷 Q8 (UT-3.2, K2)
 
 In a cognitive walkthrough, the four key questions are asked at each step. Which is NOT one of them?
 
@@ -90,7 +90,7 @@ D. If the correct action is performed, will the user see progress?
 
 ---
 
-### Q9 (UT-3.1, K2)
+### 🔷 Q9 (UT-3.1, K2)
 
 Moderated usability testing differs from unmoderated testing because:
 
@@ -101,7 +101,7 @@ D. It requires fewer participants
 
 ---
 
-### Q10 (UT-3.2, K2)
+### 🔷 Q10 (UT-3.2, K2)
 
 A pluralistic walkthrough involves:
 
@@ -112,7 +112,7 @@ D. Automated tools only
 
 ---
 
-### Q11 (UT-3.3, K3)
+### 🔷 Q11 (UT-3.3, K3)
 
 A team needs to understand WHY users are confused during checkout. The BEST method is:
 
@@ -123,7 +123,7 @@ D. Guideline review
 
 ---
 
-### Q12 (UT-3.2, K2)
+### 🔷 Q12 (UT-3.2, K2)
 
 How many usability experts are typically recommended for a heuristic evaluation?
 
@@ -134,7 +134,7 @@ D. 20
 
 ---
 
-### Q13 (UT-3.1, K2)
+### 🔷 Q13 (UT-3.1, K2)
 
 Unmoderated remote usability testing is BEST for:
 
@@ -145,7 +145,7 @@ D. Building team empathy for users
 
 ---
 
-### Q14 (UT-3.2, K2)
+### 🔷 Q14 (UT-3.2, K2)
 
 A guideline review for WCAG compliance is an example of:
 
@@ -156,7 +156,7 @@ D. A think-aloud session
 
 ---
 
-### Q15 (UT-3.3, K3)
+### 🔷 Q15 (UT-3.3, K3)
 
 For a safety-critical medical device, the evaluation approach should:
 
@@ -167,7 +167,7 @@ D. Skip evaluation if experts approve the design
 
 ---
 
-### Q16 (UT-3.1, K2)
+### 🔷 Q16 (UT-3.1, K2)
 
 The PRIMARY weakness of the think-aloud protocol is:
 
@@ -178,7 +178,7 @@ D. It requires 50+ participants
 
 ---
 
-### Q17 (UT-3.2, K2)
+### 🔷 Q17 (UT-3.2, K2)
 
 Heuristic evaluation can be conducted:
 
@@ -189,7 +189,7 @@ D. Only after user testing
 
 ---
 
-### Q18 (UT-3.3, K3)
+### 🔷 Q18 (UT-3.3, K3)
 
 A team has limited time and budget but wants both expert and user perspectives. The BEST approach is:
 
@@ -200,7 +200,7 @@ D. Only ask the development team for opinions
 
 ---
 
-### Q19 (UT-3.2, K2)
+### 🔷 Q19 (UT-3.2, K2)
 
 The PRIMARY advantage of expert-based methods over user-based methods is:
 
@@ -211,7 +211,7 @@ D. They require no training
 
 ---
 
-### Q20 (UT-3.1, K2)
+### 🔷 Q20 (UT-3.1, K2)
 
 Retrospective testing is particularly useful when:
 
@@ -222,104 +222,104 @@ D. The facilitator is unavailable
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** Think-aloud = verbalizing thoughts while performing tasks.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** Heuristic evaluation = experts review against established principles.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** Cognitive walkthrough = simulates user's problem-solving at each step to evaluate learnability.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** Co-discovery = two participants working together and discussing.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** Guideline review = checking against documented standards or guidelines.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** Wireframe + quick + inexpensive = heuristic evaluation.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** Retrospective testing = reviewing recording afterward and commenting.
 
-### Q8
+### 🔷 Q8
 **Answer: C**
 
 **Rationale:** Time constraint is not part of the cognitive walkthrough questions.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** Moderated testing = facilitator can probe and adapt.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** Pluralistic walkthrough = users, developers, and specialists together.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 
 **Rationale:** Understanding WHY = think-aloud reveals reasoning.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** 3-5 experts recommended for heuristic evaluation.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** Unmoderated remote = best for large samples and quantitative data.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** WCAG guideline review = expert-based evaluation against documented standards.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** Safety-critical devices require extensive user-based testing.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 
 **Rationale:** Think-aloud weakness = slows performance and feels unnatural.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 
 **Rationale:** Heuristic evaluation works on prototypes, wireframes, and finished products.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 
 **Rationale:** Heuristic evaluation first (cheap), then small user test (validate).
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** Expert methods = faster and less expensive than user methods.
 
-### Q20
+### 🔷 Q20
 **Answer: A**
 
 **Rationale:** Retrospective testing = useful when think-aloud would change natural performance.

@@ -1,6 +1,6 @@
-# Chapter 1 — Gambling Industry Fundamentals: Exam Traps
+# 🪤 Chapter 1 — Gambling Industry Fundamentals: Exam Traps
 
-## Trap 1: Confusing RTP with Hit Frequency
+## 🪤 Trap 1: Confusing RTP with Hit Frequency
 
 **Trap:** RTP and hit frequency are completely different metrics.
 
@@ -21,7 +21,7 @@
 
 ---
 
-## Trap 2: Confusing House Edge and RTP
+## 🪤 Trap 2: Confusing House Edge and RTP
 
 **Trap:** House edge = 100% - RTP. They are inversely related but not the same concept.
 
@@ -37,7 +37,7 @@
 
 ---
 
-## Trap 3: Thinking All Casino Games Have the Same RTP
+## 🪤 Trap 3: Thinking All Casino Games Have the Same RTP
 
 **Trap:** Different games, variants, and even individual machines can have different RTPs.
 
@@ -53,7 +53,7 @@
 
 ---
 
-## Trap 4: Confusing Volatility with RTP
+## 🪤 Trap 4: Confusing Volatility with RTP
 
 **Trap:** Two games can have the same RTP but very different volatility.
 
@@ -69,7 +69,7 @@
 
 ---
 
-## Trap 5: Thinking the House Edge Guarantees Profit on Every Bet
+## 🪤 Trap 5: Thinking the House Edge Guarantees Profit on Every Bet
 
 **Trap:** House edge is a long-term statistical average, not a guarantee on individual bets or sessions.
 

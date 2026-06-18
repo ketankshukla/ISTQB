@@ -1,6 +1,6 @@
-# Chapter 4 — Quality Metrics and Reporting: Exam Traps
+# 🪤 Chapter 4 — Quality Metrics and Reporting: Exam Traps
 
-## Trap 1: Using Velocity as a Productivity Metric
+## 🪤 Trap 1: Using Velocity as a Productivity Metric
 
 **Trap:** Velocity is for planning, not comparing teams or measuring productivity. Story points are team-specific.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Optimizing Metrics Over Outcomes
+## 🪤 Trap 2: Optimizing Metrics Over Outcomes
 
 **Trap:** Surrogation = treating the metric as the goal. Coverage % can increase while real quality decreases.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Reporting Only Good News
+## 🪤 Trap 3: Reporting Only Good News
 
 **Trap:** Hiding problems prevents improvement. Transparent reporting builds trust and enables action.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Using Too Many Metrics
+## 🪤 Trap 4: Using Too Many Metrics
 
 **Trap:** Dashboards with 50 metrics overwhelm and obscure what matters. Focus on a few actionable metrics.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Confusing Output Metrics with Outcome Metrics
+## 🪤 Trap 5: Confusing Output Metrics with Outcome Metrics
 
 **Trap:** "Tests written" is output; "defects prevented" is outcome. Outcome metrics matter more.
 

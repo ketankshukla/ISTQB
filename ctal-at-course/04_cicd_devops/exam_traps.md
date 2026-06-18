@@ -1,6 +1,6 @@
-# Chapter 4 — CI/CD, DevOps: Exam Traps
+# 🪤 Chapter 4 — CI/CD, DevOps: Exam Traps
 
-## Trap 1: Confusing Continuous Delivery with Continuous Deployment
+## 🪤 Trap 1: Confusing Continuous Delivery with Continuous Deployment
 
 **Trap:** Continuous Delivery = code is always releasable, but deployment may require manual approval. Continuous Deployment = every passing commit goes to production automatically.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Thinking CI Is Just Automated Builds
+## 🪤 Trap 2: Thinking CI Is Just Automated Builds
 
 **Trap:** CI includes automated testing, not just compilation. A build that compiles but has failing tests is not "integrated."
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Confusing DevOps with a Tool or Role
+## 🪤 Trap 3: Confusing DevOps with a Tool or Role
 
 **Trap:** DevOps is a culture and set of practices, not a job title or a specific tool. Saying "we use Jenkins, so we do DevOps" is incorrect.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Thinking Production Deployment Means Testing Is Done
+## 🪤 Trap 4: Thinking Production Deployment Means Testing Is Done
 
 **Trap:** Testing continues in production through monitoring, synthetic tests, and feature flags. Production is not the end of testing.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Setting Quality Gates That Are Too Strict or Too Lenient
+## 🪤 Trap 5: Setting Quality Gates That Are Too Strict or Too Lenient
 
 **Trap:** Gates that block on every minor issue slow teams down. Gates that allow critical issues through defeat the purpose.
 

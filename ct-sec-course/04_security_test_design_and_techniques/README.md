@@ -1,6 +1,6 @@
-# Chapter 4 — Security Test Design and Techniques
+# 🎯 Chapter 4 — Security Test Design and Techniques
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~20% (~8 questions out of 40)
 - **K-levels:** K2 (understand), K3 (apply)
@@ -8,7 +8,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -21,7 +21,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts
+## ⭐ Key Concepts
 
 - Penetration testing (black box, gray box, white box)
 - Reconnaissance, scanning, exploitation, post-exploitation, reporting

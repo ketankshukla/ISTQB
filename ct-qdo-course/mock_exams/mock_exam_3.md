@@ -1,10 +1,10 @@
-# CT-QDO Mock Exam 3
+# 📝 CT-QDO Mock Exam 3
 
 **Instructions:** 40 questions, 60 minutes, single best answer.
 
 ---
 
-### Q1-Q10
+### 🔷 Q1-Q10
 
 1. DevOps includes: A) Only tools B) Culture, automation, measurement C) Only speed D) Only deployments — **Culture, automation, measurement**
 2. CI/CD pipeline unit tests: A) After acceptance B) First for fast feedback C) Manual only D) Skip — **First for fast feedback**
@@ -19,7 +19,7 @@
 
 ---
 
-### Q11-Q20
+### 🔷 Q11-Q20
 
 11. TDD: A) Code then test B) Test first, code, refactor C) After review D) Skip — **Test first, code, refactor**
 12. Contract tests: A) Monolith B) Microservice APIs C) Only UI D) Only DB — **Microservice APIs**
@@ -34,7 +34,7 @@
 
 ---
 
-### Q21-Q30
+### 🔷 Q21-Q30
 
 21. Monitoring vs observability: A) Same B) Monitoring predefined; observability explores unknowns C) Only CPU D) Only monolith — **Monitoring predefined; observability explores unknowns**
 22. RED: A) Resources, Events, Data B) Rate, Errors, Duration C) Requests, Exceptions, Deploy D) Replicas, Errors, Downtime — **Rate, Errors, Duration**
@@ -49,7 +49,7 @@
 
 ---
 
-### Q31-Q40
+### 🔷 Q31-Q40
 
 31. IaC testing: A) Not needed B) Prevents production misconfiguration C) Only manual D) Only style — **Prevents production misconfiguration**
 32. Container CVE: A) Deploy anyway B) Fix before deploy C) Only document D) Ignore — **Fix before deploy**
@@ -64,4 +64,4 @@
 
 ---
 
-## End of Mock Exam 3
+## 📝 End of Mock Exam 3

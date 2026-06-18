@@ -1,6 +1,6 @@
-# Chapter 3 — Security Testing Techniques: Exam Traps
+# 🪤 Chapter 3 — Security Testing Techniques: Exam Traps
 
-## Trap 1: SAST and DAST are Interchangeable
+## 🪤 Trap 1: SAST and DAST are Interchangeable
 
 **Trap:** SAST = static (source code); DAST = dynamic (running app). They find different issues.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Penetration Testing is Only Black Box
+## 🪤 Trap 2: Penetration Testing is Only Black Box
 
 **Trap:** Pen testing can be black, grey, or white box depending on objectives.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Automated Tools Replace Manual Review
+## 🪤 Trap 3: Automated Tools Replace Manual Review
 
 **Trap:** Automated tools catch many issues but miss business logic and complex vulnerabilities.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Fuzz Testing is Only Random
+## 🪤 Trap 4: Fuzz Testing is Only Random
 
 **Trap:** Fuzzing includes random, mutation, and generation-based approaches.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Security Testing Only Happens in Test Environments
+## 🪤 Trap 5: Security Testing Only Happens in Test Environments
 
 **Trap:** Some techniques (SAST) happen in dev; others (DAST) in test; monitoring happens in production.
 

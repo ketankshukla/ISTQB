@@ -1,10 +1,10 @@
-# CTAL-TA v4.0 Study Plan
+# 🗓️ CTAL-TA v4.0 Study Plan
 
-## Target
+## ⭐ Target
 
 Pass the CTAL-TA v4.0 exam with 85%+ in 4-6 weeks of focused study (10-15 hours per week).
 
-## Prerequisites
+## ⭐ Prerequisites
 
 - ISTQB CTFL v4.0 certification (mandatory)
 - 2+ years of hands-on testing experience
@@ -12,7 +12,7 @@ Pass the CTAL-TA v4.0 exam with 85%+ in 4-6 weeks of focused study (10-15 hours 
 
 ---
 
-## Week 1: Testing Process & Test Design Foundations
+## 🎨 Week 1: Testing Process & Test Design Foundations
 
 | Day | Task | Time |
 |-----|------|------|
@@ -33,7 +33,7 @@ Pass the CTAL-TA v4.0 exam with 85%+ in 4-6 weeks of focused study (10-15 hours 
 
 ---
 
-## Week 2: Quality Characteristics & Reviews
+## 🔎 Week 2: Quality Characteristics & Reviews
 
 | Day | Task | Time |
 |-----|------|------|
@@ -52,7 +52,7 @@ Pass the CTAL-TA v4.0 exam with 85%+ in 4-6 weeks of focused study (10-15 hours 
 
 ---
 
-## Week 3: Test Tools & Integration Week
+## 🛠️ Week 3: Test Tools & Integration Week
 
 | Day | Task | Time |
 |-----|------|------|
@@ -70,7 +70,7 @@ Pass the CTAL-TA v4.0 exam with 85%+ in 4-6 weeks of focused study (10-15 hours 
 
 ---
 
-## Week 4-5: Mock Exams & Final Review
+## 📝 Week 4-5: Mock Exams & Final Review
 
 | Day | Task | Time |
 |-----|------|------|
@@ -91,7 +91,7 @@ Pass the CTAL-TA v4.0 exam with 85%+ in 4-6 weeks of focused study (10-15 hours 
 
 ---
 
-## Recommended Pace for Busy Professionals
+## ⭐ Recommended Pace for Busy Professionals
 
 If you can only dedicate 6-8 hours per week, stretch the plan to 6-8 weeks:
 - Weeks 1-2: Chapter 1 + start Chapter 2
@@ -101,7 +101,7 @@ If you can only dedicate 6-8 hours per week, stretch the plan to 6-8 weeks:
 
 ---
 
-## Materials Needed
+## ⭐ Materials Needed
 
 - This self-study course (complete)
 - Access to a calculator for technique-based calculations
@@ -111,7 +111,7 @@ If you can only dedicate 6-8 hours per week, stretch the plan to 6-8 weeks:
 
 ---
 
-## Study Techniques That Work
+## 📚 Study Techniques That Work
 
 **Active Recall:** After reading a technique, close the book and apply it to a sample specification.
 
@@ -125,7 +125,7 @@ If you can only dedicate 6-8 hours per week, stretch the plan to 6-8 weeks:
 
 ---
 
-## Final Motivation
+## ⭐ Final Motivation
 
 The CTAL-TA exam tests your ability to apply test design techniques, select appropriate quality characteristics, and make informed decisions about reviews and tools. It is a practical certification that directly improves your testing career. Every hour of focused study is an investment in your professional credibility.
 

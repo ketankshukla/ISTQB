@@ -1,6 +1,6 @@
-# Chapter 3 — Performance Test Planning and Design: Exam Traps
+# 🪤 Chapter 3 — Performance Test Planning and Design: Exam Traps
 
-## Trap 1: Confusing Concurrent Users and Requests Per Second
+## 🪤 Trap 1: Confusing Concurrent Users and Requests Per Second
 
 **Trap:** 1,000 concurrent users with 10-second think time generate far fewer RPS than 1,000 simultaneous users with no think time.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Using Average Response Time for SLAs
+## 🪤 Trap 2: Using Average Response Time for SLAs
 
 **Trap:** Average can be skewed by outliers. Percentiles (P90, P95) are better for SLAs because they capture the experience of most users.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Forgetting Think Time in Workload Models
+## 🪤 Trap 3: Forgetting Think Time in Workload Models
 
 **Trap:** Zero think time creates unrealistic load. Real users pause between actions.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Using Production Data Without Anonymization
+## 🪤 Trap 4: Using Production Data Without Anonymization
 
 **Trap:** Production data contains sensitive information. Performance tests should use anonymized or synthetic data.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Expecting Linear Extrapolation from Scaled Environments
+## 🪤 Trap 5: Expecting Linear Extrapolation from Scaled Environments
 
 **Trap:** Results from scaled-down environments don't always extrapolate linearly to production. Coordination overhead, shared resources, and bottlenecks may behave differently.
 

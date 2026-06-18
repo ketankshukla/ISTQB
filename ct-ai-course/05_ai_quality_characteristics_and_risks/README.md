@@ -1,6 +1,6 @@
-# Chapter 5 — AI Quality Characteristics and Risks
+# ⚠️ Chapter 5 — AI Quality Characteristics and Risks
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~15% (~6 questions out of 40)
 - **K-levels:** K2 (understand), K3 (apply)
@@ -8,7 +8,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -20,7 +20,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts
+## ⭐ Key Concepts
 
 - Fairness: demographic parity, equal opportunity, disparate impact
 - Robustness: input perturbations, adversarial robustness

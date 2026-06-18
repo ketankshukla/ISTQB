@@ -1,6 +1,6 @@
-# Chapter 1 — Testing Process
+# 🚀 Chapter 1 — Testing Process
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~20% (~13 questions out of 65)
 - **K-levels:** K2 (understand), K3 (apply)
@@ -8,7 +8,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -20,7 +20,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts
+## ⭐ Key Concepts
 
 - Test planning: objectives, scope, approach, resources, schedule
 - Test monitoring: tracking progress, collecting metrics, reporting status

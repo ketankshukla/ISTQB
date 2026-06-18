@@ -1,10 +1,10 @@
-# Chapter 6 — Advanced Agile Topics: Lessons
+# 📘 Chapter 6 — Advanced Agile Topics: Lessons
 
 ---
 
-## 6.1 Scaling Agile
+## 🏃 6.1 Scaling Agile
 
-### Why Scale Agile?
+### 🏃 Why Scale Agile?
 
 Single-team agile works well for small to medium projects. When multiple teams work on the same product, coordination is needed:
 - Dependencies between teams
@@ -12,7 +12,7 @@ Single-team agile works well for small to medium projects. When multiple teams w
 - Aligned priorities across teams
 - Consistent practices and quality standards
 
-### Scaled Agile Framework (SAFe)
+### 🏃 Scaled Agile Framework (SAFe)
 
 **Structure:**
 ```
@@ -54,7 +54,7 @@ Team Level (Scrum/Kanban teams)
 - Coordinated regression testing before release
 - Test automation at all levels
 
-### Large-Scale Scrum (LeSS)
+### 🔷 Large-Scale Scrum (LeSS)
 
 **Principles:**
 - Single Product Backlog for all teams
@@ -75,7 +75,7 @@ Team Level (Scrum/Kanban teams)
 - Whole-product focus prevents "my component works" mentality
 - Exploratory testing at the whole-product level
 
-### Nexus (Scrum.org)
+### 🔷 Nexus (Scrum.org)
 
 **Structure:**
 - 3-9 Scrum teams working together
@@ -88,7 +88,7 @@ Team Level (Scrum/Kanban teams)
 - System-level testing is planned into each sprint
 - "Done" means integrated and tested across all teams
 
-### Comparison of Scaling Frameworks
+### 🔷 Comparison of Scaling Frameworks
 
 | Aspect | SAFe | LeSS | Nexus |
 |--------|------|------|-------|
@@ -100,9 +100,9 @@ Team Level (Scrum/Kanban teams)
 
 ---
 
-## 6.2 DevOps
+## 🔧 6.2 DevOps
 
-### What Is DevOps?
+### 🔧 What Is DevOps?
 
 DevOps is a **cultural and professional movement** that stresses communication, collaboration, and integration between software developers and IT operations professionals.
 
@@ -113,7 +113,7 @@ DevOps is a **cultural and professional movement** that stresses communication, 
 - **Measurement:** Monitor and measure everything
 - **Sharing:** Share feedback, knowledge, and responsibilities
 
-### The CALMS Framework
+### 🔷 The CALMS Framework
 
 **Culture:** Collaboration over silos, shared responsibility for outcomes
 **Automation:** CI/CD, infrastructure as code, automated testing
@@ -121,7 +121,7 @@ DevOps is a **cultural and professional movement** that stresses communication, 
 **Measurement:** Monitor application and infrastructure metrics
 **Sharing:** Open communication, shared tools, blameless post-mortems
 
-### DevOps and Testing
+### 🔧 DevOps and Testing
 
 **Testing Shifts Left AND Right:**
 - **Left:** Test earlier in the pipeline (unit, integration, contract tests)
@@ -147,9 +147,9 @@ DevOps is a **cultural and professional movement** that stresses communication, 
 
 ---
 
-## 6.3 Continuous Testing
+## ⭐ 6.3 Continuous Testing
 
-### Definition
+### 🔷 Definition
 
 Continuous testing is the practice of **executing automated tests throughout the software delivery pipeline** to obtain immediate feedback on business risks.
 
@@ -159,7 +159,7 @@ Continuous testing is the practice of **executing automated tests throughout the
 - Risk-based testing prioritizes critical areas
 - Quality is built in, not inspected in
 
-### Continuous Testing vs. Traditional Testing
+### 🔷 Continuous Testing vs. Traditional Testing
 
 | Aspect | Traditional | Continuous Testing |
 |--------|-----------|-------------------|
@@ -169,7 +169,7 @@ Continuous testing is the practice of **executing automated tests throughout the
 | Quality ownership | Test team only | Whole team |
 | Environment | Test environment only | All environments including production |
 
-### Implementing Continuous Testing
+### 🔷 Implementing Continuous Testing
 
 **1. Automate at All Levels:**
 - Unit tests on every commit
@@ -195,9 +195,9 @@ Continuous testing is the practice of **executing automated tests throughout the
 
 ---
 
-## 6.4 Agile Testing Metrics
+## 📊 6.4 Agile Testing Metrics
 
-### Metrics to Use
+### 📊 Metrics to Use
 
 **Velocity:**
 - Story points completed per sprint
@@ -228,7 +228,7 @@ Continuous testing is the practice of **executing automated tests throughout the
 - Team happiness / engagement
 - Retrospective action item completion
 
-### Metrics to Avoid
+### 📊 Metrics to Avoid
 
 **Individual Performance Metrics:**
 - Lines of code written
@@ -241,7 +241,7 @@ Continuous testing is the practice of **executing automated tests throughout the
 - Code coverage alone (100% coverage with weak assertions is meaningless)
 - Hours worked (focus on outcomes, not time)
 
-### Using Metrics Effectively
+### 📊 Using Metrics Effectively
 
 **1. Trend Over Time:**
 - Single data points are less valuable than trends
@@ -260,9 +260,9 @@ Continuous testing is the practice of **executing automated tests throughout the
 
 ---
 
-## 6.5 Distributed Agile Teams
+## 🏃 6.5 Distributed Agile Teams
 
-### Challenges
+### 🔷 Challenges
 
 **Communication:**
 - Time zone differences limit real-time collaboration
@@ -281,7 +281,7 @@ Continuous testing is the practice of **executing automated tests throughout the
 - Different holidays and working hours
 - Trust harder to build remotely
 
-### Strategies for Success
+### 🔷 Strategies for Success
 
 **1. Over-Communicate:**
 - Daily standups via video with cameras on
@@ -314,9 +314,9 @@ Continuous testing is the practice of **executing automated tests throughout the
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Scaling Framework Selection
+### 💡 Worked Example 1: Scaling Framework Selection
 
 **Scenario:** A company has 150 developers across 15 teams working on a single product.
 
@@ -333,7 +333,7 @@ Continuous testing is the practice of **executing automated tests throughout the
 - Formal regression testing before each Program Increment release
 - Dedicated integration test team or shared responsibility
 
-### Worked Example 2: DevOps Pipeline Testing
+### 💡 Worked Example 2: DevOps Pipeline Testing
 
 **Scenario:** A team implements a DevOps pipeline with testing at every stage.
 
@@ -353,7 +353,7 @@ Gradual Rollout (25% → 50% → 100%) → Monitor
 - Canary monitoring: Detect issues with 5% of users
 - Gradual rollout: Limit blast radius if issues found
 
-### Worked Example 3: Metrics Dashboard
+### 💡 Worked Example 3: Metrics Dashboard
 
 **Scenario:** A team wants to track their quality improvement over time.
 

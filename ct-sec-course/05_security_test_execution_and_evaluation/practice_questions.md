@@ -1,8 +1,8 @@
-# Chapter 5 — Security Test Execution and Evaluation: Practice Questions
+# ❓ Chapter 5 — Security Test Execution and Evaluation: Practice Questions
 
 ---
 
-### Q1 (SEC-5.1, K2)
+### 🔷 Q1 (SEC-5.1, K2)
 
 CVSS stands for:
 
@@ -13,7 +13,7 @@ D. Comprehensive Verification Scanning Service
 
 ---
 
-### Q2 (SEC-5.1, K2)
+### 🔷 Q2 (SEC-5.1, K2)
 
 In CVSS v3.1, the base score considers:
 
@@ -24,7 +24,7 @@ D. Only the environmental factors
 
 ---
 
-### Q3 (SEC-5.1, K2)
+### 🔷 Q3 (SEC-5.1, K2)
 
 A CVSS base score of 9.5 indicates:
 
@@ -35,7 +35,7 @@ D. Critical severity
 
 ---
 
-### Q4 (SEC-5.2, K2)
+### 🔷 Q4 (SEC-5.2, K2)
 
 When prioritizing vulnerabilities, the MOST important additional factor beyond CVSS is:
 
@@ -46,7 +46,7 @@ D. The tester's opinion
 
 ---
 
-### Q5 (SEC-5.3, K2)
+### 🔷 Q5 (SEC-5.3, K2)
 
 A security test report should include all EXCEPT:
 
@@ -57,7 +57,7 @@ D. Marketing materials for the testing company
 
 ---
 
-### Q6 (SEC-5.4, K2)
+### 🔷 Q6 (SEC-5.4, K2)
 
 After fixing a vulnerability, the next step should be:
 
@@ -68,7 +68,7 @@ D. Announce the vulnerability publicly
 
 ---
 
-### Q7 (SEC-5.5, K2)
+### 🔷 Q7 (SEC-5.5, K2)
 
 A false positive is:
 
@@ -79,7 +79,7 @@ D. A missed test case
 
 ---
 
-### Q8 (SEC-5.5, K2)
+### 🔷 Q8 (SEC-5.5, K2)
 
 A false negative is:
 
@@ -90,7 +90,7 @@ D. An intentional test failure
 
 ---
 
-### Q9 (SEC-5.1, K2)
+### 🔷 Q9 (SEC-5.1, K2)
 
 The CVSS metric "Privileges Required" measures:
 
@@ -101,7 +101,7 @@ D. The complexity of the attack
 
 ---
 
-### Q10 (SEC-5.2, K3)
+### 🔷 Q10 (SEC-5.2, K3)
 
 A vulnerability with CVSS 8.5 exists on an internal-only system with no sensitive data. Another vulnerability with CVSS 6.0 is on the public-facing login page. For remediation priority:
 
@@ -112,7 +112,7 @@ D. Neither needs fixing
 
 ---
 
-### Q11 (SEC-5.3, K2)
+### 🔷 Q11 (SEC-5.3, K2)
 
 A good security finding description should:
 
@@ -123,7 +123,7 @@ D. Never include reproduction steps
 
 ---
 
-### Q12 (SEC-5.4, K2)
+### 🔷 Q12 (SEC-5.4, K2)
 
 Regression testing after a security fix ensures:
 
@@ -134,7 +134,7 @@ D. Neither A nor B
 
 ---
 
-### Q13 (SEC-5.1, K2)
+### 🔷 Q13 (SEC-5.1, K2)
 
 CVSS temporal metrics account for:
 
@@ -145,7 +145,7 @@ D. Only the network location
 
 ---
 
-### Q14 (SEC-5.5, K2)
+### 🔷 Q14 (SEC-5.5, K2)
 
 Which is MORE dangerous to an organization's security posture?
 
@@ -156,7 +156,7 @@ D. Neither is dangerous
 
 ---
 
-### Q15 (SEC-5.2, K2)
+### 🔷 Q15 (SEC-5.2, K2)
 
 A vulnerability is being actively exploited in the wild. This factor should:
 
@@ -167,7 +167,7 @@ D. Only matter if CVSS is above 9
 
 ---
 
-### Q16 (SEC-5.3, K2)
+### 🔷 Q16 (SEC-5.3, K2)
 
 The executive summary of a security report should:
 
@@ -178,7 +178,7 @@ D. Be omitted to save time
 
 ---
 
-### Q17 (SEC-5.1, K2)
+### 🔷 Q17 (SEC-5.1, K2)
 
 A CVSS scope of "Changed" means:
 
@@ -189,7 +189,7 @@ D. The vulnerability is in a test environment
 
 ---
 
-### Q18 (SEC-5.4, K2)
+### 🔷 Q18 (SEC-5.4, K2)
 
 Verification testing after applying a WAF rule to block SQL injection should confirm:
 
@@ -200,7 +200,7 @@ D. That logs are being generated
 
 ---
 
-### Q19 (SEC-5.5, K2)
+### 🔷 Q19 (SEC-5.5, K2)
 
 To reduce false positives from SAST tools:
 
@@ -211,7 +211,7 @@ D. Only scan production code
 
 ---
 
-### Q20 (SEC-5.2, K2)
+### 🔷 Q20 (SEC-5.2, K2)
 
 A risk matrix combines:
 
@@ -222,104 +222,104 @@ D. Only test duration
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** CVSS = Common Vulnerability Scoring System.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** Base score = intrinsic exploitability and impact characteristics.
 
-### Q3
+### 🔷 Q3
 **Answer: D**
 
 **Rationale:** 9.0-10.0 = Critical severity.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** Environment context (internet-facing, sensitive data) is critical for prioritization.
 
-### Q5
+### 🔷 Q5
 **Answer: D**
 
 **Rationale:** Marketing materials = not a security report component.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** After fix = verification testing to confirm fix and check regressions.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** False positive = reported vulnerability that doesn't exist.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** False negative = missed detection of real vulnerability.
 
-### Q9
+### 🔷 Q9
 **Answer: A**
 
 **Rationale:** Privileges Required = attacker privileges needed before exploitation.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** Publicly accessible vulnerability is more exploitable regardless of lower CVSS.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 
 **Rationale:** Good finding = specific, with evidence, component, and impact.
 
-### Q12
+### 🔷 Q12
 **Answer: C**
 
 **Rationale:** Regression testing = fix works AND didn't break functionality.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** Temporal metrics = changing factors (exploit availability, patch status).
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** False negatives = silent misses = more dangerous than false positives.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** Active exploitation = higher priority regardless of CVSS.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 
 **Rationale:** Executive summary = high-level overview for leadership.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 
 **Rationale:** Scope Changed = affects resources beyond vulnerable component.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 
 **Rationale:** WAF verification = blocks attacks AND allows legitimate traffic.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** Reduce false positives = tune rules, manual verification, whitelist patterns.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 
 **Rationale:** Risk matrix = likelihood × impact for prioritization.

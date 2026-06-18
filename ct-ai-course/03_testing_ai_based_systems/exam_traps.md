@@ -1,6 +1,6 @@
-# Chapter 3 — Testing AI-Based Systems: Exam Traps
+# 🪤 Chapter 3 — Testing AI-Based Systems: Exam Traps
 
-## Trap 1: Thinking Exact Expected Outputs Are Always Needed
+## 🪤 Trap 1: Thinking Exact Expected Outputs Are Always Needed
 
 **Trap:** Metamorphic testing and statistical oracles do not require knowing the exact correct answer.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Confusing A/B Testing with Traditional Functional Testing
+## 🪤 Trap 2: Confusing A/B Testing with Traditional Functional Testing
 
 **Trap:** A/B testing compares two versions using real user metrics, not against a specification.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Thinking Adversarial Testing Is Only for Security
+## 🪤 Trap 3: Thinking Adversarial Testing Is Only for Security
 
 **Trap:** Adversarial testing is also important for safety and robustness, even in non-security contexts.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Using Only Accuracy as an Oracle
+## 🪤 Trap 4: Using Only Accuracy as an Oracle
 
 **Trap:** Accuracy alone is insufficient. Class imbalance can make accuracy misleading. Use precision, recall, F1, and fairness metrics.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Testing AI Systems Only in Isolation
+## 🪤 Trap 5: Testing AI Systems Only in Isolation
 
 **Trap:** AI systems must be tested as part of the full system, including integration, fallback mechanisms, and human handoff.
 

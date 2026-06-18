@@ -1,8 +1,8 @@
-# Chapter 4 — Security Test Automation: Practice Questions
+# ❓ Chapter 4 — Security Test Automation: Practice Questions
 
 ---
 
-### Q1 (STE-4.1, K2)
+### 🔷 Q1 (STE-4.1, K2)
 
 Shift-left security means:
 
@@ -13,7 +13,7 @@ D. Only manual testing
 
 ---
 
-### Q2 (STE-4.2, K2)
+### 🔷 Q2 (STE-4.2, K2)
 
 SCA should run:
 
@@ -24,7 +24,7 @@ D. Only manually
 
 ---
 
-### Q3 (STE-4.3, K2)
+### 🔷 Q3 (STE-4.3, K2)
 
 Security-as-code means:
 
@@ -35,7 +35,7 @@ D. Only training
 
 ---
 
-### Q4 (STE-4.4, K2)
+### 🔷 Q4 (STE-4.4, K2)
 
 False positives in security tools should be:
 
@@ -46,7 +46,7 @@ D. Only deleted
 
 ---
 
-### Q5 (STE-4.1, K2)
+### 🔷 Q5 (STE-4.1, K2)
 
 A CI pipeline should block on:
 
@@ -57,7 +57,7 @@ D. No findings ever
 
 ---
 
-### Q6 (STE-4.2, K2)
+### 🔷 Q6 (STE-4.2, K2)
 
 DAST in CI/CD is typically run:
 
@@ -68,7 +68,7 @@ D. Only manually
 
 ---
 
-### Q7 (STE-4.3, K2)
+### 🔷 Q7 (STE-4.3, K2)
 
 Policy as code is implemented with tools like:
 
@@ -79,7 +79,7 @@ D. Only whiteboards
 
 ---
 
-### Q8 (STE-4.4, K2)
+### 🔷 Q8 (STE-4.4, K2)
 
 Alert fatigue occurs when:
 
@@ -90,7 +90,7 @@ D. Only automated tools are used
 
 ---
 
-### Q9 (STE-4.1, K2)
+### 🔷 Q9 (STE-4.1, K2)
 
 Security regression tests verify:
 
@@ -101,7 +101,7 @@ D. Only usability
 
 ---
 
-### Q10 (STE-4.2, K2)
+### 🔷 Q10 (STE-4.2, K2)
 
 Incremental SAST scanning:
 
@@ -112,7 +112,7 @@ D. Only runs manually
 
 ---
 
-### Q11 (STE-4.3, K2)
+### 🔷 Q11 (STE-4.3, K2)
 
 Compliance as code tools include:
 
@@ -123,7 +123,7 @@ D. Only email
 
 ---
 
-### Q12 (STE-4.4, K2)
+### 🔷 Q12 (STE-4.4, K2)
 
 Baseline comparison in vulnerability scanning:
 
@@ -134,7 +134,7 @@ D. Only measures scan time
 
 ---
 
-### Q13 (STE-4.1, K2)
+### 🔷 Q13 (STE-4.1, K2)
 
 Quality gates for security in CI/CD should:
 
@@ -145,7 +145,7 @@ D. Only apply to manual testing
 
 ---
 
-### Q14 (STE-4.2, K2)
+### 🔷 Q14 (STE-4.2, K2)
 
 Container scanning should occur:
 
@@ -156,7 +156,7 @@ D. Only manually
 
 ---
 
-### Q15 (STE-4.3, K2)
+### 🔷 Q15 (STE-4.3, K2)
 
 Infrastructure as code scanning checks for:
 
@@ -167,7 +167,7 @@ D. Only database queries
 
 ---
 
-### Q16 (STE-4.4, K2)
+### 🔷 Q16 (STE-4.4, K2)
 
 Suppression of false positives should include:
 
@@ -178,7 +178,7 @@ D. Only the date
 
 ---
 
-### Q17 (STE-4.1, K2)
+### 🔷 Q17 (STE-4.1, K2)
 
 Security monitoring in production:
 
@@ -189,7 +189,7 @@ D. Only for compliance
 
 ---
 
-### Q18 (STE-4.2, K2)
+### 🔷 Q18 (STE-4.2, K2)
 
 Automated secret scanning checks for:
 
@@ -200,7 +200,7 @@ D. Only test files
 
 ---
 
-### Q19 (STE-4.3, K2)
+### 🔷 Q19 (STE-4.3, K2)
 
 Version control for security policies enables:
 
@@ -211,7 +211,7 @@ D. Only manual review
 
 ---
 
-### Q20 (STE-4.4, K2)
+### 🔷 Q20 (STE-4.4, K2)
 
 Severity-based gates balance:
 
@@ -222,84 +222,84 @@ D. Only tools and training
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** Shift-left = early integration.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** SCA = every commit/dependency change.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** Security-as-code = versioned policies/tests.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** False positives = triage + suppress + justify.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Block = critical/high only.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** DAST = staging/schedule.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Policy as code = OPA.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Fatigue = too many false positives → ignore real issues.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** Regression = fixed issues don't recur.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** Incremental = changed files only.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Compliance as code = InSpec, OpenSCAP.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Baseline = new vs accepted.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Gates = enforce standards without blocking all.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Container scan = at build time.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** IaC scan = misconfigurations.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Suppression = why + who approved.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Monitoring = detect missed issues.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Secret scan = keys, passwords, tokens.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Version control = audit + rollback + collab.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** Severity gates = security + velocity.

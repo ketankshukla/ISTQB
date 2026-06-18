@@ -1,6 +1,6 @@
-# Chapter 6 — Contract Testing and Advanced Topics
+# 🚀 Chapter 6 — Contract Testing and Advanced Topics
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~10% (~4 questions out of 40)
 - **K-levels:** K2 (understand), K3 (apply)
@@ -8,7 +8,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -20,7 +20,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts
+## ⭐ Key Concepts
 
 - Consumer-driven contract testing (Pact)
 - Schema validation: JSON Schema, XML Schema

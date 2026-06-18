@@ -1,10 +1,10 @@
-# CTFL-AT Glossary
+# 📖 CTFL-AT Glossary
 
 Key terms and definitions aligned with the ISTQB CTFL-AT v4.0 syllabus and industry standard usage.
 
 ---
 
-## A
+## ⭐ A
 
 **Acceptance Criteria**
 The conditions that a software product must satisfy to be accepted by a user, customer, or other stakeholder. In agile, often defined collaboratively and used to drive ATDD/BDD scenarios.
@@ -26,7 +26,7 @@ Automated tests that verify existing functionality still works after changes. Es
 
 ---
 
-## B
+## ⭐ B
 
 **Behavior-Driven Development (BDD)**
 A development approach that uses natural language constructs (Given-When-Then) to express behavior. Evolved from TDD and closely related to ATDD. Uses tools like Cucumber, SpecFlow.
@@ -39,7 +39,7 @@ A visual representation of work left to do versus time. Used in agile to track s
 
 ---
 
-## C
+## ⭐ C
 
 **Collaborative User Story Creation**
 The practice of involving testers, developers, and business representatives in writing user stories to ensure testability and shared understanding.
@@ -55,7 +55,7 @@ The practice of merging all developers' working copies to a shared mainline seve
 
 ---
 
-## D
+## ⭐ D
 
 **Definition of Done (DoD)**
 A shared understanding of what it means for work to be complete. In agile, typically includes tested, code reviewed, and potentially releasable.
@@ -68,7 +68,7 @@ Testing performed by developers, including unit testing, component testing, and 
 
 ---
 
-## E
+## ⭐ E
 
 **Exploratory Testing**
 An approach to testing where the tester simultaneously learns about the product, designs tests, and executes them. Essential in agile for rapid feedback and discovering unexpected issues.
@@ -78,21 +78,21 @@ An agile software development methodology that emphasizes practices like pair pr
 
 ---
 
-## F
+## ⭐ F
 
 **Facilitator**
 A person who helps a team work together effectively, often used in agile ceremonies like retrospectives and story mapping sessions.
 
 ---
 
-## G
+## ⭐ G
 
 **Given-When-Then**
 A structured format used in BDD for describing acceptance criteria: Given [context], When [action], Then [expected outcome].
 
 ---
 
-## I
+## ⭐ I
 
 **Independent Testing**
 Testing performed by an organizationally separate test group. In agile, this is often reduced in favor of whole-team testing, though still used for regulatory or high-risk contexts.
@@ -105,14 +105,14 @@ An approach where software is developed in repeated cycles (iterations), each pr
 
 ---
 
-## K
+## ⭐ K
 
 **Kanban**
 An agile method that visualizes work on a board, limits work in progress, and focuses on continuous flow rather than time-boxed sprints.
 
 ---
 
-## P
+## ⭐ P
 
 **Pair Programming**
 An agile practice where two developers work together at one workstation, with one writing code and the other reviewing in real time.
@@ -122,7 +122,7 @@ The role in Scrum responsible for maximizing value by managing the product backl
 
 ---
 
-## R
+## ⭐ R
 
 **Regression Testing**
 Testing of a previously tested program following modification to ensure that defects have not been introduced or uncovered in unchanged areas.
@@ -132,7 +132,7 @@ An agile ceremony where the team reflects on the past iteration/sprint and ident
 
 ---
 
-## S
+## ⭐ S
 
 **Scrum**
 An agile framework for managing work in iterations called sprints, with defined roles (Scrum Master, Product Owner, Development Team), ceremonies, and artifacts.
@@ -157,7 +157,7 @@ Testing an integrated system to verify that it meets specified requirements. In 
 
 ---
 
-## T
+## ⭐ T
 
 **Task Board**
 A visual tool used in agile to track the progress of work through stages (e.g., To Do, In Progress, Done).
@@ -179,7 +179,7 @@ A collaborative meeting involving a business representative, a developer, and a 
 
 ---
 
-## U
+## ⭐ U
 
 **Unit Testing**
 Testing of individual units or components of software. In agile, typically automated and written by developers using TDD.
@@ -189,7 +189,7 @@ A brief, simple description of a feature told from the perspective of the user. 
 
 ---
 
-## V
+## ⭐ V
 
 **Velocity**
 A measure of the amount of work a team completes during a sprint, typically measured in story points.

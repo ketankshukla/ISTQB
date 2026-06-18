@@ -1,10 +1,10 @@
-# Chapter 4 — Security Testing Process: Lessons
+# 📘 Chapter 4 — Security Testing Process: Lessons
 
 ---
 
-## 4.1 Security Test Planning
+## 🗓️ 4.1 Security Test Planning
 
-### Steps
+### 🔷 Steps
 
 | Step | Activity |
 |------|----------|
@@ -16,7 +16,7 @@
 | 6 | Identify constraints and assumptions |
 | 7 | Plan resources and schedule |
 
-### Scope Considerations
+### 🔷 Scope Considerations
 
 | Element | Decision |
 |---------|----------|
@@ -27,9 +27,9 @@
 
 ---
 
-## 4.2 Test Execution
+## ⭐ 4.2 Test Execution
 
-### Preparation
+### 🔷 Preparation
 
 | Activity | Purpose |
 |----------|---------|
@@ -38,7 +38,7 @@
 | **Baseline capture** | Document starting state |
 | **Backup** | Protect test environment |
 
-### Execution Steps
+### 🔷 Execution Steps
 
 1. **Reconnaissance** — Gather information about target
 2. **Vulnerability scanning** — Automated discovery
@@ -48,15 +48,15 @@
 
 ---
 
-## 4.3 Risk Assessment
+## ⚠️ 4.3 Risk Assessment
 
-### Risk Calculation
+### ⚠️ Risk Calculation
 
 ```
 Risk = Threat Likelihood x Impact x Vulnerability
 ```
 
-### Risk Levels
+### 🪜 Risk Levels
 
 | Level | Description | Action |
 |-------|-------------|--------|
@@ -67,9 +67,9 @@ Risk = Threat Likelihood x Impact x Vulnerability
 
 ---
 
-## 4.4 Security Test Reporting
+## 📝 4.4 Security Test Reporting
 
-### Report Contents
+### 📝 Report Contents
 
 | Section | Content |
 |---------|---------|
@@ -81,7 +81,7 @@ Risk = Threat Likelihood x Impact x Vulnerability
 | **Remediation** | Specific fix recommendations |
 | **Appendix** | Technical details |
 
-### CVSS Scoring
+### 🔷 CVSS Scoring
 
 | Metric | Values |
 |--------|--------|
@@ -91,7 +91,7 @@ Risk = Threat Likelihood x Impact x Vulnerability
 
 ---
 
-## 4.5 Integration with Test Lifecycle
+## 🔁 4.5 Integration with Test Lifecycle
 
 | Phase | Security Activity |
 |-------|-------------------|
@@ -104,9 +104,9 @@ Risk = Threat Likelihood x Impact x Vulnerability
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Test Plan
+### 💡 Worked Example 1: Test Plan
 
 | Element | Detail |
 |---------|--------|
@@ -116,7 +116,7 @@ Risk = Threat Likelihood x Impact x Vulnerability
 | Constraints | No production testing |
 | Schedule | 2 weeks |
 
-### Worked Example 2: Risk Assessment
+### 💡 Worked Example 2: Risk Assessment
 
 | Finding | Likelihood | Impact | Risk | Priority |
 |---------|------------|--------|------|----------|
@@ -124,7 +124,7 @@ Risk = Threat Likelihood x Impact x Vulnerability
 | Weak password policy | Medium | Medium | Medium | 3 |
 | Information disclosure | Low | Low | Low | 5 |
 
-### Worked Example 3: Report Finding
+### 💡 Worked Example 3: Report Finding
 
 ```
 Finding: SQL Injection in Login Form

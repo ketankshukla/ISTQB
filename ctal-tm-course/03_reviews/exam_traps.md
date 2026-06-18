@@ -1,6 +1,6 @@
-# Chapter 3 — Reviews: Exam Traps
+# 🪤 Chapter 3 — Reviews: Exam Traps
 
-## Trap 1: Confusing Walkthrough with Inspection
+## 🪤 Trap 1: Confusing Walkthrough with Inspection
 
 **Trap:** Walkthroughs are led by the author and relatively informal. Inspections are led by a trained moderator, use checklists, and are highly formal.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Solving Problems in the Review Meeting
+## 🪤 Trap 2: Solving Problems in the Review Meeting
 
 **Trap:** Reviews identify defects; solutions are developed after the meeting. Trying to solve problems during the review wastes time and reduces defect detection.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Management Attendance at Formal Reviews
+## 🪤 Trap 3: Management Attendance at Formal Reviews
 
 **Trap:** Management does not attend technical reviews or inspections to avoid creating pressure on reviewers.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Thinking All Documents Need the Same Review Formality
+## 🪤 Trap 4: Thinking All Documents Need the Same Review Formality
 
 **Trap:** Match review formality to document risk and importance. Low-risk documents don't need inspections.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Forgetting That Reviews Find Defects Early
+## 🪤 Trap 5: Forgetting That Reviews Find Defects Early
 
 **Trap:** Reviews (static testing) find defects before dynamic testing. Early defect detection is cheaper.
 

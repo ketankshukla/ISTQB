@@ -1,10 +1,10 @@
-# CTFL-PT Mock Exam 3
+# 📝 CTFL-PT Mock Exam 3
 
 **Instructions:** 20 questions, 40 minutes. Single best answer.
 
 ---
 
-### Q1
+### 🔷 Q1
 
 CPU utilization should typically stay below:
 
@@ -15,7 +15,7 @@ D. 100%
 
 ---
 
-### Q2
+### 🔷 Q2
 
 A data migration validation needs:
 
@@ -26,7 +26,7 @@ D. Only stress testing
 
 ---
 
-### Q3
+### 🔷 Q3
 
 Test execution includes:
 
@@ -37,7 +37,7 @@ D. Only error checking
 
 ---
 
-### Q4
+### 🔷 Q4
 
 Spike testing differs from stress testing because:
 
@@ -48,7 +48,7 @@ D. Only for networks
 
 ---
 
-### Q5
+### 🔷 Q5
 
 Recommendations in a report should be:
 
@@ -59,7 +59,7 @@ D. Only optional
 
 ---
 
-### Q6
+### 🔷 Q6
 
 Using production for performance testing:
 
@@ -70,7 +70,7 @@ D. Is only for internal tools
 
 ---
 
-### Q7
+### 🔷 Q7
 
 A critical path scenario tests:
 
@@ -81,7 +81,7 @@ D. Only registration
 
 ---
 
-### Q8
+### 🔷 Q8
 
 Real-time monitoring during execution:
 
@@ -92,7 +92,7 @@ D. Only applies to endurance tests
 
 ---
 
-### Q9
+### 🔷 Q9
 
 Vertical scaling means:
 
@@ -103,7 +103,7 @@ D. Only adding users
 
 ---
 
-### Q10
+### 🔷 Q10
 
 If CPU and disk are both at 95%:
 
@@ -114,7 +114,7 @@ D. Only memory is the bottleneck
 
 ---
 
-### Q11
+### 🔷 Q11
 
 Parameterized test data:
 
@@ -125,7 +125,7 @@ D. Only applies to unit tests
 
 ---
 
-### Q12
+### 🔷 Q12
 
 Endurance testing should run for:
 
@@ -136,7 +136,7 @@ D. Only 10 minutes
 
 ---
 
-### Q13
+### 🔷 Q13
 
 Performance testing is a type of:
 
@@ -147,7 +147,7 @@ D. Regression testing
 
 ---
 
-### Q14
+### 🔷 Q14
 
 A regression performance scenario tests:
 
@@ -158,7 +158,7 @@ D. Only logout
 
 ---
 
-### Q15
+### 🔷 Q15
 
 SLO stands for:
 
@@ -169,7 +169,7 @@ D. Software Limit Objective
 
 ---
 
-### Q16
+### 🔷 Q16
 
 Assertions in test scripts:
 
@@ -180,7 +180,7 @@ D. Only apply to security tests
 
 ---
 
-### Q17
+### 🔷 Q17
 
 Memory paging indicates:
 
@@ -191,7 +191,7 @@ D. Only idle system
 
 ---
 
-### Q18
+### 🔷 Q18
 
 For API testing, the most important latency metric is typically:
 
@@ -202,7 +202,7 @@ D. Only maximum
 
 ---
 
-### Q19
+### 🔷 Q19
 
 Documentation of test environment configuration:
 
@@ -213,7 +213,7 @@ D. Only for managers
 
 ---
 
-### Q20
+### 🔷 Q20
 
 A system meets response time target but has 95% CPU utilization. This is:
 
@@ -224,7 +224,7 @@ D. Only for clients
 
 ---
 
-## Answer Key
+## ✔️ Answer Key
 
 | Q | Answer | Q | Answer | Q | Answer | Q | Answer |
 |---|--------|---|--------|---|--------|---|--------|

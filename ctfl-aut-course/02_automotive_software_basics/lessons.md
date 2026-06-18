@@ -1,10 +1,10 @@
-# Chapter 2 — Automotive Software Basics: Lessons
+# 📘 Chapter 2 — Automotive Software Basics: Lessons
 
 ---
 
-## 2.1 ECU Architecture
+## ⭐ 2.1 ECU Architecture
 
-### Components
+### 🔷 Components
 
 | Component | Function |
 |-----------|----------|
@@ -14,7 +14,7 @@
 | **Outputs (Actuators)** | Control physical devices |
 | **Communication interface** | Connects to vehicle networks |
 
-### Software Layers
+### 🔷 Software Layers
 
 | Layer | Description |
 |-------|-------------|
@@ -26,9 +26,9 @@
 
 ---
 
-## 2.2 Vehicle Networks in Detail
+## 🤖 2.2 Vehicle Networks in Detail
 
-### CAN (Controller Area Network)
+### 🔷 CAN (Controller Area Network)
 
 | Attribute | Value |
 |-----------|-------|
@@ -37,7 +37,7 @@
 | **Reliability** | Error detection and retransmission |
 | **Use** | Engine, chassis, body control |
 
-### LIN (Local Interconnect Network)
+### 🔷 LIN (Local Interconnect Network)
 
 | Attribute | Value |
 |-----------|-------|
@@ -46,7 +46,7 @@
 | **Master** | Single master, multiple slaves |
 | **Use** | Doors, seats, lights |
 
-### FlexRay
+### 🔷 FlexRay
 
 | Attribute | Value |
 |-----------|-------|
@@ -55,7 +55,7 @@
 | **Redundancy** | Dual channel support |
 | **Use** | Brake-by-wire, steering |
 
-### Ethernet
+### 🔷 Ethernet
 
 | Attribute | Value |
 |-----------|-------|
@@ -66,13 +66,13 @@
 
 ---
 
-## 2.3 ASIL Levels
+## 🪜 2.3 ASIL Levels
 
-### Definition
+### 🔷 Definition
 
 Automotive Safety Integrity Level — risk classification for automotive hazards.
 
-### Levels
+### 🪜 Levels
 
 | Level | Risk | Example | Testing Rigor |
 |-------|------|---------|---------------|
@@ -82,7 +82,7 @@ Automotive Safety Integrity Level — risk classification for automotive hazards
 | **ASIL A** | Low | Wiper control | Moderate |
 | **QM** | No safety | Infotainment | Standard |
 
-### ASIL Determination
+### 🔷 ASIL Determination
 
 | Factor | Options | Impact |
 |--------|---------|--------|
@@ -92,7 +92,7 @@ Automotive Safety Integrity Level — risk classification for automotive hazards
 
 ---
 
-## 2.4 Safety-Critical vs QM
+## ⭐ 2.4 Safety-Critical vs QM
 
 | Characteristic | Safety-Critical (ASIL A-D) | QM |
 |----------------|---------------------------|-----|
@@ -104,9 +104,9 @@ Automotive Safety Integrity Level — risk classification for automotive hazards
 
 ---
 
-## 2.5 V-Model for Automotive
+## 📐 2.5 V-Model for Automotive
 
-### Levels
+### 🪜 Levels
 
 | Development | Testing |
 |-------------|---------|
@@ -117,9 +117,9 @@ Automotive Safety Integrity Level — risk classification for automotive hazards
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Network Selection
+### 💡 Worked Example 1: Network Selection
 
 | Function | Requirements | Network |
 |----------|-------------|---------|
@@ -128,7 +128,7 @@ Automotive Safety Integrity Level — risk classification for automotive hazards
 | Camera data | High bandwidth | Ethernet |
 | Brake control | Deterministic, fast | FlexRay |
 
-### Worked Example 2: ASIL Determination
+### 💡 Worked Example 2: ASIL Determination
 
 | Function | Severity | Exposure | Controllability | ASIL |
 |----------|----------|----------|-----------------|------|
@@ -136,7 +136,7 @@ Automotive Safety Integrity Level — risk classification for automotive hazards
 | Headlights | S1 | E2 | C2 | A |
 | Infotainment | S0 | E1 | C0 | QM |
 
-### Worked Example 3: ECU Classification
+### 💡 Worked Example 3: ECU Classification
 
 | ECU | Function | Criticality | ASIL |
 |-----|----------|-------------|------|

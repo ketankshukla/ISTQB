@@ -1,10 +1,10 @@
-# Chapter 4 — Non-Functional Game Testing: Lessons
+# 📘 Chapter 4 — Non-Functional Game Testing: Lessons
 
 ---
 
-## 4.1 Performance Testing
+## ⚡ 4.1 Performance Testing
 
-### Frame Rate (FPS)
+### 🔷 Frame Rate (FPS)
 
 | Target | Scenario | Test |
 |--------|----------|------|
@@ -12,13 +12,13 @@
 | **30 FPS** | RPG, story-driven, console | Verify consistent in all areas |
 | **90+ FPS** | VR | Critical for comfort; test min spec hardware |
 
-### Frame Time
+### 🔷 Frame Time
 
 - More stable than FPS as a metric
 - Target: consistent 16.6ms per frame (60 FPS)
 - Spikes > 50ms are noticeable to players
 
-### Loading Times
+### 🔷 Loading Times
 
 | Type | Target | Test |
 |------|--------|------|
@@ -28,7 +28,7 @@
 | **Checkpoint load** | < 3 sec | After death |
 | **Fast travel** | < 5 sec | World map teleport |
 
-### Stress Testing
+### 🔷 Stress Testing
 
 | Scenario | Method |
 |----------|--------|
@@ -39,9 +39,9 @@
 
 ---
 
-## 4.2 Stability Testing
+## ⭐ 4.2 Stability Testing
 
-### Crash Testing
+### 🔷 Crash Testing
 
 | Trigger | Test |
 |---------|------|
@@ -50,7 +50,7 @@
 | **Memory pressure** | Open/close levels rapidly |
 | **Edge case inputs** | Invalid save files, corrupted data |
 
-### Memory Leak Detection
+### 🔷 Memory Leak Detection
 
 | Method | Tool | Output |
 |--------|------|--------|
@@ -58,7 +58,7 @@
 | **Asset tracking** | Custom tools | Unloaded assets still in memory |
 | **Snapshot comparison** | Unity Profiler, Unreal Insights | Delta between snapshots |
 
-### Recovery
+### 🔷 Recovery
 
 | Scenario | Expected |
 |----------|----------|
@@ -68,9 +68,9 @@
 
 ---
 
-## 4.3 Compatibility Testing
+## ⭐ 4.3 Compatibility Testing
 
-### Hardware
+### 🔷 Hardware
 
 | Aspect | Variations |
 |--------|-----------|
@@ -80,7 +80,7 @@
 | **Storage** | HDD, SSD |
 | **Controllers** | Xbox, PlayStation, keyboard/mouse, third-party |
 
-### OS and Drivers
+### 🔷 OS and Drivers
 
 | Component | Versions |
 |-----------|----------|
@@ -89,7 +89,7 @@
 | **iOS/Android** | Min SDK, latest |
 | **GPU drivers** | Min recommended, latest |
 
-### Resolution and Display
+### 🔷 Resolution and Display
 
 | Test | Variations |
 |------|-----------|
@@ -100,9 +100,9 @@
 
 ---
 
-## 4.4 Accessibility Testing
+## ⭐ 4.4 Accessibility Testing
 
-### Visual
+### 🔷 Visual
 
 | Feature | Test |
 |---------|------|
@@ -111,7 +111,7 @@
 | **Contrast** | Sufficient for low vision |
 | **Subtitle options** | Size, background, speaker labels |
 
-### Motor
+### 🔷 Motor
 
 | Feature | Test |
 |---------|------|
@@ -120,7 +120,7 @@
 | **Adjustable difficulty** | Affects timing requirements |
 | **Single-hand play** | Feasible for all critical paths |
 
-### Cognitive
+### 🔷 Cognitive
 
 | Feature | Test |
 |---------|------|
@@ -131,9 +131,9 @@
 
 ---
 
-## 4.5 Localization Testing
+## ⭐ 4.5 Localization Testing
 
-### Text
+### 🔷 Text
 
 | Check | Method |
 |-------|--------|
@@ -142,7 +142,7 @@
 | **RTL (right-to-left)** | Arabic, Hebrew layout |
 | **Text expansion** | German can be 30% longer than English |
 
-### Audio
+### 🔷 Audio
 
 | Check | Method |
 |-------|--------|
@@ -150,7 +150,7 @@
 | **Subtitle sync** | Text matches spoken dialogue |
 | **Audio levels** | Consistent across languages |
 
-### Cultural
+### 🔷 Cultural
 
 | Check | Method |
 |-------|--------|
@@ -161,7 +161,7 @@
 
 ---
 
-## 4.6 Audio-Visual Synchronization
+## ⭐ 4.6 Audio-Visual Synchronization
 
 | Element | Sync Test |
 |---------|-----------|
@@ -173,9 +173,9 @@
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Performance Budget
+### 💡 Worked Example 1: Performance Budget
 
 **Scenario:** Action game targeting 60 FPS on console.
 
@@ -188,7 +188,7 @@
 | **Overhead** | 2.6ms | System, streaming |
 | **Total** | 16.6ms | = 60 FPS |
 
-### Worked Example 2: Compatibility Matrix
+### 💡 Worked Example 2: Compatibility Matrix
 
 **Scenario:** PC game minimum and recommended specs.
 
@@ -198,7 +198,7 @@
 | Recommended | RTX 3060 | i7-9700 | 16GB | 60 FPS, high settings |
 | High-end | RTX 4090 | i9-13900 | 32GB | 120 FPS, ultra + ray tracing |
 
-### Worked Example 3: Accessibility Checklist
+### 💡 Worked Example 3: Accessibility Checklist
 
 **Scenario:** Evaluate an action game for accessibility.
 

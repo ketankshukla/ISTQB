@@ -1,10 +1,10 @@
-# Chapter 4 — LLM-Powered Solutions: Lessons
+# 📘 Chapter 4 — LLM-Powered Solutions: Lessons
 
 ---
 
-## 4.1 Architectural Approaches for LLM-Powered Testing Solutions
+## ⭐ 4.1 Architectural Approaches for LLM-Powered Testing Solutions
 
-### Overview of Architectures (GenAI-4.1.1, K2)
+### 🌟 Overview of Architectures (GenAI-4.1.1, K2)
 
 When building testing solutions that leverage LLMs, organizations can choose from several architectural patterns. The choice depends on data sensitivity, domain specificity, budget, latency requirements, and maintenance capacity.
 
@@ -90,7 +90,7 @@ Running open-weight models (e.g., Llama 3, Mistral, Falcon, Gemma) entirely with
 - **Example:** A bank running Llama 3 70B on internal GPU clusters for all test case generation. Customer data never leaves the bank's data center. The bank controls all updates, patches, and access policies.
 - **Capability gap note:** As of 2024, open-weight models like Llama 3 70B and Mistral Large approach but do not consistently match GPT-4 or Claude 3 Opus on complex reasoning tasks. Organizations must evaluate whether the capability gap is acceptable for their use cases.
 
-### Comparing Approaches for Testing Scenarios (GenAI-4.1.2, K2)
+### 🤖 Comparing Approaches for Testing Scenarios (GenAI-4.1.2, K2)
 
 | Scenario | Recommended Approach | Rationale |
 |----------|---------------------|-----------|
@@ -110,9 +110,9 @@ Running open-weight models (e.g., Llama 3, Mistral, Falcon, Gemma) entirely with
 
 ---
 
-## 4.2 Fine-Tuning and LLMOps
+## ⭐ 4.2 Fine-Tuning and LLMOps
 
-### Fine-Tuning for Testing Applications (GenAI-4.2.1, K2)
+### 🤖 Fine-Tuning for Testing Applications (GenAI-4.2.1, K2)
 
 **What is fine-tuning?**
 Fine-tuning is the process of taking a pre-trained foundation model and continuing its training on a smaller, domain-specific dataset. This adapts the model's behavior without building it from scratch.
@@ -146,7 +146,7 @@ Fine-tuning is the process of taking a pre-trained foundation model and continui
 | Time to deploy | Weeks to months | Days to weeks |
 | Cost structure | High upfront, lower marginal | Low upfront, ongoing per-query |
 
-### Key Components of LLMOps (GenAI-4.2.2, K1)
+### 🤖 Key Components of LLMOps (GenAI-4.2.2, K1)
 
 **LLMOps** (Large Language Model Operations) is the set of practices and tools for operationalizing LLMs in production. It covers the full lifecycle from development to monitoring.
 
@@ -197,7 +197,7 @@ Fine-tuning is the process of taking a pre-trained foundation model and continui
    - Optimizing prompt length and model selection for cost efficiency
    - Budget alerts and chargeback mechanisms
 
-### How LLMOps Supports Testing with GenAI (GenAI-4.2.3, K2)
+### 🤖 How LLMOps Supports Testing with GenAI (GenAI-4.2.3, K2)
 
 **Ensuring consistent quality:**
 LLMOps provides the framework to version prompts, compare their effectiveness, and ensure that the test artifacts generated today match the quality of those generated last month. Without prompt versioning, a "improved" prompt might accidentally degrade test coverage.

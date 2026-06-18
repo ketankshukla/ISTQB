@@ -1,8 +1,8 @@
-# Chapter 6 — Acceptance Testing Tools and Automation: Practice Questions
+# ❓ Chapter 6 — Acceptance Testing Tools and Automation: Practice Questions
 
 ---
 
-### Q1 (AcT-6.1, K2)
+### 🔷 Q1 (AcT-6.1, K2)
 
 Cucumber is primarily a:
 
@@ -13,7 +13,7 @@ D. Database management tool
 
 ---
 
-### Q2 (AcT-6.1, K2)
+### 🔷 Q2 (AcT-6.1, K2)
 
 The Given-When-Then format is used by:
 
@@ -24,7 +24,7 @@ D. Only project managers
 
 ---
 
-### Q3 (AcT-6.2, K2)
+### 🔷 Q3 (AcT-6.2, K2)
 
 A test management tool is used to:
 
@@ -35,7 +35,7 @@ D. Manage user accounts
 
 ---
 
-### Q4 (AcT-6.3, K2)
+### 🔷 Q4 (AcT-6.3, K2)
 
 A traceability matrix maps:
 
@@ -46,7 +46,7 @@ D. Only deadlines to milestones
 
 ---
 
-### Q5 (AcT-6.4, K2)
+### 🔷 Q5 (AcT-6.4, K2)
 
 Service virtualization is used to:
 
@@ -57,7 +57,7 @@ D. Eliminate the need for testers
 
 ---
 
-### Q6 (AcT-6.4, K2)
+### 🔷 Q6 (AcT-6.4, K2)
 
 Test data masking is important for acceptance testing because:
 
@@ -68,7 +68,7 @@ D. It is required by all testing tools
 
 ---
 
-### Q7 (AcT-6.5, K2)
+### 🔷 Q7 (AcT-6.5, K2)
 
 Collaboration tools for acceptance testing include:
 
@@ -79,7 +79,7 @@ D. Only email
 
 ---
 
-### Q8 (AcT-6.6, K2)
+### 🔷 Q8 (AcT-6.6, K2)
 
 Integrating acceptance tests into CI/CD provides:
 
@@ -90,7 +90,7 @@ D. Only manual test execution
 
 ---
 
-### Q9 (AcT-6.1, K2)
+### 🔷 Q9 (AcT-6.1, K2)
 
 SpecFlow is the BDD tool for:
 
@@ -101,7 +101,7 @@ D. Ruby
 
 ---
 
-### Q10 (AcT-6.2, K2)
+### 🔷 Q10 (AcT-6.2, K2)
 
 Jira with Xray or Zephyr is commonly used for:
 
@@ -112,7 +112,7 @@ D. Code compilation
 
 ---
 
-### Q11 (AcT-6.3, K2)
+### 🔷 Q11 (AcT-6.3, K2)
 
 Requirement management tools like DOORS or Jama are important for:
 
@@ -123,7 +123,7 @@ D. Managing employee vacation
 
 ---
 
-### Q12 (AcT-6.4, K2)
+### 🔷 Q12 (AcT-6.4, K2)
 
 Docker containers are useful for acceptance testing because they:
 
@@ -134,7 +134,7 @@ D. Are only for production deployment
 
 ---
 
-### Q13 (AcT-6.5, K2)
+### 🔷 Q13 (AcT-6.5, K2)
 
 The "Three Amigos" sessions are facilitated by collaboration tools and:
 
@@ -145,7 +145,7 @@ D. Only happen once per project
 
 ---
 
-### Q14 (AcT-6.6, K2)
+### 🔷 Q14 (AcT-6.6, K2)
 
 A quality gate in CI/CD that runs automated acceptance tests before staging deployment:
 
@@ -156,7 +156,7 @@ D. Replaces UAT
 
 ---
 
-### Q15 (AcT-6.1, K2)
+### 🔷 Q15 (AcT-6.1, K2)
 
 BDD tools generate reports that are:
 
@@ -167,7 +167,7 @@ D. Only for auditors
 
 ---
 
-### Q16 (AcT-6.4, K2)
+### 🔷 Q16 (AcT-6.4, K2)
 
 Data anonymization means:
 
@@ -178,7 +178,7 @@ D. Encrypting only passwords
 
 ---
 
-### Q17 (AcT-6.2, K2)
+### 🔷 Q17 (AcT-6.2, K2)
 
 Test coverage reports from a test management tool show:
 
@@ -189,7 +189,7 @@ D. Only the budget spent
 
 ---
 
-### Q18 (AcT-6.5, K2)
+### 🔷 Q18 (AcT-6.5, K2)
 
 Shared dashboards for acceptance testing help:
 
@@ -200,7 +200,7 @@ D. Replace communication
 
 ---
 
-### Q19 (AcT-6.6, K2)
+### 🔷 Q19 (AcT-6.6, K2)
 
 Continuous acceptance testing means:
 
@@ -211,7 +211,7 @@ D. Only manual testing
 
 ---
 
-### Q20 (AcT-6.4, K2)
+### 🔷 Q20 (AcT-6.4, K2)
 
 A test data subset extracted from production should:
 
@@ -222,104 +222,104 @@ D. Be completely random
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** Cucumber = BDD tool for business-readable acceptance tests.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** Given-When-Then = BDD executable specifications format.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** Test management = plan, execute, track testing activities.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** Traceability matrix = requirements → tests → defects.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** Service virtualization = simulate dependencies for testing.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** Data masking = protect sensitive info while keeping realistic data.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** Collaboration tools = communication, documentation, dashboards.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** CI/CD integration = immediate feedback on acceptance criteria.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** SpecFlow = .NET (C#) BDD tool.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** Jira + Xray/Zephyr = test management with agile tracking.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 
 **Rationale:** Requirement tools = capture, trace, manage requirements.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** Docker = consistent, isolated, quickly provisioned environments.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** Three Amigos = business, developer, tester collaboration.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** Quality gate = prevent broken acceptance criteria from reaching staging.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** BDD reports = business-readable pass/fail scenarios.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 
 **Rationale:** Anonymization = replace sensitive data with fictional realistic data.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 
 **Rationale:** Coverage reports = which requirements tested and which not.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 
 **Rationale:** Dashboards = all stakeholders see test status and progress.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** Continuous acceptance = automated tests throughout lifecycle.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 
 **Rationale:** Production subset = representative, anonymized, referential integrity.

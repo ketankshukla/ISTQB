@@ -1,4 +1,4 @@
-# CTAL-AT Mock Exam 1
+# 📝 CTAL-AT Mock Exam 1
 
 **Instructions:**
 - 40 questions
@@ -8,7 +8,7 @@
 
 ---
 
-### Q1
+### 🔷 Q1
 
 Which value from the Agile Manifesto is stated correctly?
 
@@ -19,7 +19,7 @@ D. Following a plan over responding to change
 
 ---
 
-### Q2
+### 🔷 Q2
 
 In the TDD cycle, after writing a test that passes, the next step is:
 
@@ -30,7 +30,7 @@ D. Write another production feature
 
 ---
 
-### Q3
+### 🔷 Q3
 
 BDD scenarios are typically written in:
 
@@ -41,7 +41,7 @@ D. JSON configuration
 
 ---
 
-### Q4
+### 🔷 Q4
 
 Continuous Integration requires:
 
@@ -52,7 +52,7 @@ D. A dedicated testing team
 
 ---
 
-### Q5
+### 🔷 Q5
 
 The test pyramid recommends:
 
@@ -63,7 +63,7 @@ D. Only end-to-end tests
 
 ---
 
-### Q6
+### 🔷 Q6
 
 A team has 400 E2E tests, 50 integration tests, and 30 unit tests. Their suite takes 4 hours. This is:
 
@@ -74,7 +74,7 @@ D. Recommended for agile teams
 
 ---
 
-### Q7
+### 🔷 Q7
 
 The Page Object Model (POM) is used to:
 
@@ -85,7 +85,7 @@ D. Execute tests in parallel
 
 ---
 
-### Q8
+### 🔷 Q8
 
 In Scrum, the maximum duration of a daily stand-up is:
 
@@ -96,7 +96,7 @@ D. 2 hours
 
 ---
 
-### Q9
+### 🔷 Q9
 
 Which agile methodology uses work-in-progress (WIP) limits?
 
@@ -107,7 +107,7 @@ D. V-Model
 
 ---
 
-### Q10
+### 🔷 Q10
 
 ATDD (Acceptance Test-Driven Development) involves:
 
@@ -118,7 +118,7 @@ D. Automated deployment without tests
 
 ---
 
-### Q11
+### 🔷 Q11
 
 Exploratory testing is BEST described as:
 
@@ -129,7 +129,7 @@ D. A type of automated regression testing
 
 ---
 
-### Q12
+### 🔷 Q12
 
 Continuous Delivery means:
 
@@ -140,7 +140,7 @@ D. No human involvement in the release process
 
 ---
 
-### Q13
+### 🔷 Q13
 
 The Definition of Done (DoD) defines:
 
@@ -151,7 +151,7 @@ D. The product vision
 
 ---
 
-### Q14
+### 🔷 Q14
 
 In an agile team, the primary responsibility for quality lies with:
 
@@ -162,7 +162,7 @@ D. The Product Owner only
 
 ---
 
-### Q15
+### 🔷 Q15
 
 Which of the following is a PRIMARY purpose of a test approach?
 
@@ -173,7 +173,7 @@ D. To record test execution results
 
 ---
 
-### Q16
+### 🔷 Q16
 
 A test manager is planning a risk-based testing approach. The FIRST step should be to:
 
@@ -184,7 +184,7 @@ D. Report risks to stakeholders
 
 ---
 
-### Q17
+### 🔷 Q17
 
 A 50-page requirements document is reviewed in 5 hours and 20 defects are found. The review efficiency is:
 
@@ -195,7 +195,7 @@ D. 0.4 defects per hour
 
 ---
 
-### Q18
+### 🔷 Q18
 
 SonarQube is an example of:
 
@@ -206,7 +206,7 @@ D. A test management tool
 
 ---
 
-### Q19
+### 🔷 Q19
 
 In a risk assessment, a risk with likelihood = 4 and impact = 3 has a risk priority of:
 
@@ -217,7 +217,7 @@ D. 4
 
 ---
 
-### Q20
+### 🔷 Q20
 
 A testing team found 180 defects during testing. After release, 20 more defects were reported by users. The Defect Detection Percentage (DDP) is approximately:
 
@@ -228,7 +228,7 @@ D. 180%
 
 ---
 
-### Q21
+### 🔷 Q21
 
 DevOps is BEST described as:
 
@@ -239,7 +239,7 @@ D. A replacement for agile
 
 ---
 
-### Q22
+### 🔷 Q22
 
 The difference between Continuous Delivery and Continuous Deployment is:
 
@@ -250,7 +250,7 @@ D. Continuous Delivery is only for large organizations
 
 ---
 
-### Q23
+### 🔷 Q23
 
 A quality gate that fails the pipeline if any unit test fails is:
 
@@ -261,7 +261,7 @@ D. A deployment gate
 
 ---
 
-### Q24
+### 🔷 Q24
 
 Pairwise testing is used to:
 
@@ -272,7 +272,7 @@ D. Replace exploratory testing
 
 ---
 
-### Q25
+### 🔷 Q25
 
 Unit tests and component tests belong in which testing quadrant?
 
@@ -283,7 +283,7 @@ D. Q4
 
 ---
 
-### Q26
+### 🔷 Q26
 
 In Session-Based Test Management, a charter is:
 
@@ -294,7 +294,7 @@ D. An automated test case
 
 ---
 
-### Q27
+### 🔷 Q27
 
 Feature flags are used to:
 
@@ -305,7 +305,7 @@ D. Increase code complexity
 
 ---
 
-### Q28
+### 🔷 Q28
 
 A canary release deploys a new version to:
 
@@ -316,7 +316,7 @@ D. The development environment only
 
 ---
 
-### Q29
+### 🔷 Q29
 
 A team blocks production deployment if code coverage drops below 80%. This is:
 
@@ -327,7 +327,7 @@ D. Unrelated to CI/CD
 
 ---
 
-### Q30
+### 🔷 Q30
 
 In a CI pipeline, the "fail fast" principle means:
 
@@ -338,7 +338,7 @@ D. Stop the pipeline only after all tests complete
 
 ---
 
-### Q31
+### 🔷 Q31
 
 A "flaky" test is one that:
 
@@ -349,7 +349,7 @@ D. Tests an unimportant feature
 
 ---
 
-### Q32
+### 🔷 Q32
 
 Which framework type is MOST maintainable for a frequently changing web application?
 
@@ -360,7 +360,7 @@ D. Hard-coded XPath in every test
 
 ---
 
-### Q33
+### 🔷 Q33
 
 A team has a test suite with 100% pass rate, but 20% of tests are flaky. The team's confidence should be:
 
@@ -371,7 +371,7 @@ D. Based only on the most recent run
 
 ---
 
-### Q34
+### 🔷 Q34
 
 Performance testing in agile should:
 
@@ -382,7 +382,7 @@ D. Only be done by a separate performance team
 
 ---
 
-### Q35
+### 🔷 Q35
 
 Which of the following is the MOST formal type of review?
 
@@ -393,7 +393,7 @@ D. Inspection
 
 ---
 
-### Q36
+### 🔷 Q36
 
 A test manager observes that the defect find rate is decreasing while test execution continues at the same pace. This MOST likely indicates:
 
@@ -404,7 +404,7 @@ D. The developers have stopped fixing defects
 
 ---
 
-### Q37
+### 🔷 Q37
 
 Which of the following is a PRIMARY purpose of entry criteria?
 
@@ -415,7 +415,7 @@ D. To define the tools to be used
 
 ---
 
-### Q38
+### 🔷 Q38
 
 A test team has 150 defects found in testing. After release, 10 more defects are found by users. The approximate Defect Detection Percentage (DDP) is:
 
@@ -426,7 +426,7 @@ D. 100%
 
 ---
 
-### Q39
+### 🔷 Q39
 
 Which of the following is a PRIMARY advantage of risk-based testing?
 
@@ -437,7 +437,7 @@ D. It reduces the number of testers required
 
 ---
 
-### Q40
+### 🔷 Q40
 
 A testing team wants to improve the maintainability of their UI automation. They should adopt:
 
@@ -448,4 +448,4 @@ D. Fewer automated tests
 
 ---
 
-## End of Mock Exam 1
+## 📝 End of Mock Exam 1

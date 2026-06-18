@@ -1,6 +1,6 @@
-# Case Study 2 — Framework Selection and TAA Design
+# 📂 Case Study 2 — Framework Selection and TAA Design
 
-## Context
+## ⭐ Context
 
 You are the TAE for HealthTrack, a healthcare software company building a patient portal.
 
@@ -24,7 +24,7 @@ You are the TAE for HealthTrack, a healthcare software company building a patien
 - Testers need to review and understand automated tests
 - Must handle HIPAA-sensitive test data securely
 
-## Task 1: Tool Evaluation
+## 🛠️ Task 1: Tool Evaluation
 
 **Question:** Evaluate and select tools for web, mobile, and API testing.
 
@@ -53,7 +53,7 @@ You are the TAE for HealthTrack, a healthcare software company building a patien
 
 ---
 
-## Task 2: TAA Design
+## 🎨 Task 2: TAA Design
 
 **Question:** Design a Test Automation Architecture for HealthTrack.
 
@@ -119,7 +119,7 @@ tests/
 
 ---
 
-## Task 3: Test Data and HIPAA Compliance
+## 🗃️ Task 3: Test Data and HIPAA Compliance
 
 **Question:** Design test data management that complies with HIPAA.
 
@@ -161,7 +161,7 @@ After Each Test:
 
 ---
 
-## Task 4: CI/CD Integration
+## 🔗 Task 4: CI/CD Integration
 
 **Question:** Design a GitHub Actions pipeline for the automation suite.
 
@@ -230,7 +230,7 @@ jobs:
 
 ---
 
-## Task 5: Pilot and Rollout
+## ⭐ Task 5: Pilot and Rollout
 
 **Question:** Plan the pilot deployment and rollout strategy.
 

@@ -1,10 +1,10 @@
-# Chapter 2 — Prompt Engineering for Testing: Lessons
+# 📘 Chapter 2 — Prompt Engineering for Testing: Lessons
 
 ---
 
-## 2.1 Effective Prompt Development
+## ⭐ 2.1 Effective Prompt Development
 
-### Components of an Effective Prompt (GenAI-2.1.1, K2)
+### 🤖 Components of an Effective Prompt (GenAI-2.1.1, K2)
 
 An effective prompt for testing tasks typically contains six key components. The syllabus treats these as essential, and exam questions frequently test whether you can identify missing components or recognize well-structured prompts.
 
@@ -189,7 +189,7 @@ Generate test cases for a discount field.
 ```
 This would produce generic, low-value test cases without boundary values, negative cases, or the specific format needed.
 
-### Prompt Engineering Techniques for Testing (GenAI-2.1.2, K1)
+### 🎯 Prompt Engineering Techniques for Testing (GenAI-2.1.2, K1)
 
 You must be able to recall and recognize these techniques:
 
@@ -422,9 +422,9 @@ Running the same prompt multiple times and selecting the answer that appears mos
 
 ---
 
-## 2.2 Applying Prompt Engineering Techniques
+## 🎯 2.2 Applying Prompt Engineering Techniques
 
-### Applying Techniques for Test Activities (GenAI-2.2.1, K3)
+### 🎯 Applying Techniques for Test Activities (GenAI-2.2.1, K3)
 
 **Test Case Generation — Technique Selection Framework:**
 
@@ -465,7 +465,7 @@ Running the same prompt multiple times and selecting the answer that appears mos
 - **CoT for root cause analysis:** "Analyze this defect. Step-by-step: (1) Identify the symptom vs. the root cause, (2) Suggest 3 possible root cause categories, (3) Recommend which diagnostic steps to take next."
 - **Few-shot for defect report formatting:** If your organization uses a specific defect template, show 1-2 examples and ask the model to draft new reports in that format
 
-### Prompt Patterns for Specific Testing Tasks (GenAI-2.2.2, K3)
+### 🤖 Prompt Patterns for Specific Testing Tasks (GenAI-2.2.2, K3)
 
 **Pattern: Test Case Expansion**
 ```
@@ -512,9 +512,9 @@ Include at least one happy path, one alternative path, and one error path.
 
 ---
 
-## 2.3 Evaluate GenAI Results and Refine Prompts
+## 🤖 2.3 Evaluate GenAI Results and Refine Prompts
 
-### Evaluating GenAI Results (GenAI-2.3.1, K2)
+### 🤖 Evaluating GenAI Results (GenAI-2.3.1, K2)
 
 Not all GenAI output is usable. A tester must evaluate results against six quality criteria. The exam tests whether you can identify which criterion is violated in a given scenario.
 
@@ -567,7 +567,7 @@ Not all GenAI output is usable. A tester must evaluate results against six quali
 
 ---
 
-### Refining Prompts Based on Evaluation (GenAI-2.3.2, K2)
+### 🤖 Refining Prompts Based on Evaluation (GenAI-2.3.2, K2)
 
 The evaluation -> refinement cycle is the engine of effective prompt engineering. Every output is an opportunity to improve the prompt.
 
@@ -649,9 +649,9 @@ Evaluation: Meets quality threshold. Human review and approval.
 
 ---
 
-## Worked Examples — Applying Chapter 2 Concepts
+## 💡 Worked Examples — Applying Chapter 2 Concepts
 
-### Worked Example 1: Selecting the Right Prompt Technique
+### 💡 Worked Example 1: Selecting the Right Prompt Technique
 
 **Scenario:** For each of the following testing tasks, select the most appropriate prompt engineering technique and justify your choice.
 
@@ -669,7 +669,7 @@ Evaluation: Meets quality threshold. Human review and approval.
 
 ---
 
-### Worked Example 2: Evaluating and Refining a Prompt
+### 💡 Worked Example 2: Evaluating and Refining a Prompt
 
 **Scenario:** A tester receives the following output from an LLM after prompting for test cases:
 
@@ -720,7 +720,7 @@ Format: Return all test cases as a markdown table with the columns shown in the 
 
 ---
 
-### Worked Example 3: Prompt Chaining in Practice
+### 💡 Worked Example 3: Prompt Chaining in Practice
 
 **Scenario:** You need to generate a complete test package for a new e-commerce "apply discount coupon" feature. The package must include: test conditions, test cases, test data, and a Playwright automation script.
 

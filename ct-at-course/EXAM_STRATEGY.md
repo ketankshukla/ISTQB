@@ -1,10 +1,10 @@
-# CT-AT Exam Strategy
+# ♟️ CT-AT Exam Strategy
 
 This document contains tactics, time management advice, and trap-avoidance strategies for the CT-AT exam.
 
 ---
 
-## Exam Format Overview
+## 🎓 Exam Format Overview
 
 | Parameter | Value |
 |-----------|-------|
@@ -16,7 +16,7 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## Time Budget
+## ⭐ Time Budget
 
 | Strategy | Time |
 |----------|------|
@@ -29,7 +29,7 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## Chapter Weighting and Focus Areas
+## ⭐ Chapter Weighting and Focus Areas
 
 | Chapter | Weight | Approx. Questions | Key Focus |
 |---------|--------|-------------------|-----------|
@@ -44,7 +44,7 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## K-Level Patterns
+## 🪜 K-Level Patterns
 
 | K-Level | Definition | How It Appears | Strategy |
 |---------|-----------|----------------|----------|
@@ -56,45 +56,45 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## Chapter-Specific Tactics
+## 🎓 Chapter-Specific Tactics
 
-### Chapter 1: Agile Principles
+### 📜 Chapter 1: Agile Principles
 - Know the **Agile Manifesto values** — and that the left side is valued MORE than the right, not INSTEAD of
 - Understand Scrum roles, ceremonies, and artifacts
 - Know the difference between Scrum, Kanban, and XP
 - Remember: the tester role exists in agile (it is not eliminated)
 
-### Chapter 2: Agile Testing
+### 🏃 Chapter 2: Agile Testing
 - **Whole-team approach** does not mean testers do everything
 - **Acceptance criteria** drive test design in agile
 - **The tester role** includes coaching, collaboration, automation, and exploratory testing
 - **Definition of Done** must include testing
 
-### Chapter 3: Testing Techniques
+### 🎯 Chapter 3: Testing Techniques
 - **Exploratory testing** is NOT random — it is simultaneous learning, test design, and execution
 - **BDD** = Given/When/Then — for collaboration, not just automation
 - **ATDD** = Acceptance Test-Driven Development — tests written before implementation
 - **TDD** = Unit-level, developer-focused
 - **Test Pyramid** = many unit, some integration, few UI
 
-### Chapter 4: Test Automation
+### ⚙️ Chapter 4: Test Automation
 - Automation **supports** agile, it does not replace manual testing
 - **The test pyramid** is inverted when there are too many UI tests
 - **CI/CD** is essential for fast feedback in agile
 - **Automation ROI** must include maintenance costs
 
-### Chapter 5: Tools
+### 🛠️ Chapter 5: Tools
 - Tool selection criteria: fit for purpose, ease of use, integration, cost
 - **Information radiator** = visible display of project status
 
-### Chapter 6: Advanced Topics
+### 🔷 Chapter 6: Advanced Topics
 - **SAFe** = Scaled Agile Framework for large organizations
 - **DevOps** = culture of collaboration between dev and ops
 - **Continuous testing** = testing at every stage of the pipeline
 
 ---
 
-## Distractor Patterns
+## ⭐ Distractor Patterns
 
 | Pattern | Example | How to Spot It |
 |---------|---------|--------------|
@@ -106,7 +106,7 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## Before the Exam
+## 🎓 Before the Exam
 
 **1 Week Before:**
 - Re-read all `exam_traps.md` files
@@ -126,7 +126,7 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## During the Exam
+## 🎓 During the Exam
 
 **Question Reading:**
 1. Read the question stem completely
@@ -149,7 +149,7 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## Post-Exam
+## 🎓 Post-Exam
 
 Whether you pass or not:
 - Note which questions were difficult

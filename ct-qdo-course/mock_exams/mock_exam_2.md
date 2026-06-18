@@ -1,10 +1,10 @@
-# CT-QDO Mock Exam 2
+# 📝 CT-QDO Mock Exam 2
 
 **Instructions:** 40 questions, 60 minutes, single best answer.
 
 ---
 
-### Q1-Q10
+### 🔷 Q1-Q10
 
 1. TDD sequence: A) Code then test B) Failing test, pass, refactor C) Test after review D) Skip tests — **Failing test, pass, refactor**
 2. Contract testing: A) Monolithic B) Microservice interactions C) Only UI D) Only DB — **Microservice interactions**
@@ -19,7 +19,7 @@
 
 ---
 
-### Q11-Q20
+### 🔷 Q11-Q20
 
 11. SonarQube gates: A) Always pass B) Block on critical issues C) Only style D) Only after deploy — **Block on critical issues**
 12. Pre-commit hooks: A) After push B) Before commit C) Only production D) Only review — **Before commit**
@@ -34,7 +34,7 @@
 
 ---
 
-### Q21-Q30
+### 🔷 Q21-Q30
 
 21. Observability: A) Only CPU B) Unknown issues via logs/metrics/traces C) Fewer tools D) Only monolith — **Unknown issues via logs/metrics/traces**
 22. RED method: A) Resources, Events, Data B) Rate, Errors, Duration C) Requests, Exceptions, Deployments D) Replicas, Errors, Downtime — **Rate, Errors, Duration**
@@ -49,7 +49,7 @@
 
 ---
 
-### Q31-Q40
+### 🔷 Q31-Q40
 
 31. Page alert for: A) All issues B) Emergencies C) Minor improvements D) Weekly reports — **Emergencies**
 32. Chaos engineering: A) No planning B) Hypothesis, abort criteria, blast radius C) Only production D) Only DB — **Hypothesis, abort criteria, blast radius**
@@ -64,4 +64,4 @@
 
 ---
 
-## End of Mock Exam 2
+## 📝 End of Mock Exam 2

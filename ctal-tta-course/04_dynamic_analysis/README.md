@@ -1,6 +1,6 @@
-# Chapter 4 — Dynamic Analysis
+# 🔬 Chapter 4 — Dynamic Analysis
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~10% (~4-5 questions out of 45)
 - **K-levels:** K2 (understand), K3 (apply)
@@ -8,7 +8,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -20,7 +20,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts
+## ⭐ Key Concepts
 
 - Dynamic analysis: examining code behavior during execution
 - Memory profiling: heap usage, memory leaks, allocation patterns

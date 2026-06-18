@@ -1,6 +1,6 @@
-# Chapter 6 — Transitioning and Maintenance: Exam Traps
+# 🪤 Chapter 6 — Transitioning and Maintenance: Exam Traps
 
-## Trap 1: Thinking All Maintenance Is Corrective
+## 🪤 Trap 1: Thinking All Maintenance Is Corrective
 
 **Trap:** Most maintenance is adaptive (responding to SUT changes), not corrective (fixing bugs). Perfective maintenance improves the TAS.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Keeping Tests Forever
+## 🪤 Trap 2: Keeping Tests Forever
 
 **Trap:** Tests should be retired when they are obsolete, redundant, or more expensive than valuable. Keeping them wastes time and erodes trust.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Ignoring Legacy Automation Until It Fails Completely
+## 🪤 Trap 3: Ignoring Legacy Automation Until It Fails Completely
 
 **Trap:** Legacy automation should be proactively managed. Waiting until it is completely broken makes remediation much harder.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Thinking Manual Testers Can Immediately Maintain Automation
+## 🪤 Trap 4: Thinking Manual Testers Can Immediately Maintain Automation
 
 **Trap:** Maintaining automation requires programming skills, debugging skills, and tool expertise. Training is essential.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Not Planning for Maintenance in Sprint Capacity
+## 🪤 Trap 5: Not Planning for Maintenance in Sprint Capacity
 
 **Trap:** Maintenance should be planned as part of sprint capacity. Ignoring it leads to accumulating technical debt and flaky tests.
 

@@ -1,10 +1,10 @@
-# Chapter 5 — Testing Techniques in Agile: Lessons
+# 📘 Chapter 5 — Testing Techniques in Agile: Lessons
 
 ---
 
-## 5.1 Exploratory Testing
+## ⭐ 5.1 Exploratory Testing
 
-### What Is Exploratory Testing?
+### 🔷 What Is Exploratory Testing?
 
 Exploratory testing is a testing approach where the tester simultaneously designs and executes tests, using the information gained while testing to design new and better tests.
 
@@ -25,7 +25,7 @@ Exploratory testing is a testing approach where the tester simultaneously design
 | Documentation | Detailed test cases | Notes, charters, mind maps |
 | Best for | Stable, repeatable scenarios | New features, complex systems |
 
-### Why Exploratory Testing Is Essential in Agile
+### 🏃 Why Exploratory Testing Is Essential in Agile
 
 1. **Changing requirements:** Scripts become obsolete when requirements change; exploratory testing adapts
 2. **Short sprints:** There is no time to write detailed scripts for every new feature
@@ -33,7 +33,7 @@ Exploratory testing is a testing approach where the tester simultaneously design
 4. **Complements automation:** Automation checks what you expect; exploratory testing finds what you don't expect
 5. **Learning:** Testers learn the system deeply, which improves all testing
 
-### How to Perform Exploratory Testing
+### 🔷 How to Perform Exploratory Testing
 
 **1. Prepare:**
 - Understand the feature or area being tested
@@ -57,7 +57,7 @@ Exploratory testing is a testing approach where the tester simultaneously design
 - Record defects found
 - Summarize coverage and risks
 
-### Exploratory Testing Techniques
+### 🎯 Exploratory Testing Techniques
 
 **1. Tour-Based Testing:**
 - Treat the application like a city and take "tours"
@@ -81,9 +81,9 @@ Exploratory testing is a testing approach where the tester simultaneously design
 
 ---
 
-## 5.2 Session-Based Test Management (SBTM)
+## 🗂️ 5.2 Session-Based Test Management (SBTM)
 
-### What Is SBTM?
+### 🔷 What Is SBTM?
 
 SBTM is a structured approach to exploratory testing that organizes testing into managed "sessions."
 
@@ -109,7 +109,7 @@ SBTM is a structured approach to exploratory testing that organizes testing into
 - Coverage assessment
 - Time breakdown (setup, testing, reporting)
 
-### SBTM Process
+### 🔷 SBTM Process
 
 ```
 1. Plan: Define charters based on risk and coverage gaps
@@ -119,7 +119,7 @@ SBTM is a structured approach to exploratory testing that organizes testing into
 5. Adjust: Update charters and priorities based on findings
 ```
 
-### Debrief Questions
+### ❓ Debrief Questions
 
 After a session, the tester and lead discuss:
 - What did you test?
@@ -128,7 +128,7 @@ After a session, the tester and lead discuss:
 - Do we need follow-up sessions?
 - Are there new risks to investigate?
 
-### SBTM Metrics
+### 📊 SBTM Metrics
 
 | Metric | Description |
 |--------|-------------|
@@ -140,9 +140,9 @@ After a session, the tester and lead discuss:
 
 ---
 
-## 5.3 Pairwise and Combinatorial Testing
+## 🤖 5.3 Pairwise and Combinatorial Testing
 
-### The Problem: Too Many Combinations
+### 🔷 The Problem: Too Many Combinations
 
 Testing all combinations of multiple parameters leads to exponential growth:
 
@@ -153,7 +153,7 @@ Testing all combinations of multiple parameters leads to exponential growth:
 | 5 | 4 | 1,024 |
 | 10 | 3 | 59,049 |
 
-### Pairwise Testing
+### 🤖 Pairwise Testing
 
 Pairwise testing (all-pairs testing) reduces the number of test cases by testing every pair of parameter values at least once, rather than every combination.
 
@@ -189,14 +189,14 @@ Pairwise combinations: 9 (all pairs covered)
 - 4G + iOS: covered
 - Every pair of values appears at least once
 
-### Tools for Pairwise Testing
+### 🛠️ Tools for Pairwise Testing
 
 - **PICT (Microsoft):** Command-line pairwise test generator
 - **Hexawise:** Web-based pairwise testing tool
 - **AllPairs:** Python library
 - ** jenny:** Linux command-line tool
 
-### When to Use Pairwise in Agile
+### 🏃 When to Use Pairwise in Agile
 
 - Configuration testing (OS, browser, device)
 - API parameter combinations
@@ -209,9 +209,9 @@ Pairwise combinations: 9 (all pairs covered)
 
 ---
 
-## 5.4 Non-Functional Testing in Agile
+## 🏃 5.4 Non-Functional Testing in Agile
 
-### Performance Testing in Agile
+### ⚡ Performance Testing in Agile
 
 **Challenge:** Traditional performance testing is done late in the project. In agile, performance must be considered from the start.
 
@@ -239,7 +239,7 @@ Pairwise combinations: 9 (all pairs covered)
 - Real user monitoring (RUM)
 - Alert on performance degradation
 
-### Security Testing in Agile
+### 🔒 Security Testing in Agile
 
 **Challenge:** Security cannot be an afterthought. It must be built into every sprint.
 
@@ -265,7 +265,7 @@ Pairwise combinations: 9 (all pairs covered)
 - Before major releases
 - After significant architecture changes
 
-### Usability Testing in Agile
+### 🏃 Usability Testing in Agile
 
 **1. Sprint Reviews as Usability Tests:**
 - Stakeholders see working software
@@ -283,9 +283,9 @@ Pairwise combinations: 9 (all pairs covered)
 
 ---
 
-## 5.5 Agile Testing Quadrants
+## 🏃 5.5 Agile Testing Quadrants
 
-### The Quadrants Model
+### 📐 The Quadrants Model
 
 Developed by Brian Marick, popularized by Lisa Crispin and Janet Gregory, the Testing Quadrants organize tests by:
 - **Business-facing vs. Technology-facing**
@@ -315,7 +315,7 @@ Developed by Brian Marick, popularized by Lisa Crispin and Janet Gregory, the Te
                     Technology-Facing
 ```
 
-### Quadrant Descriptions
+### 🔷 Quadrant Descriptions
 
 **Q1 — Business-Facing, Supporting Programming:**
 - Help the team build the right thing
@@ -337,7 +337,7 @@ Developed by Brian Marick, popularized by Lisa Crispin and Janet Gregory, the Te
 - Examples: Security tests, infrastructure tests, CI/CD tests, monitoring tests, integration tests
 - Who: Developers, technical testers, DevOps engineers
 
-### Using the Quadrants in Agile
+### 🏃 Using the Quadrants in Agile
 
 **Per Sprint:**
 - Q1 tests are written during development
@@ -351,9 +351,9 @@ Developed by Brian Marick, popularized by Lisa Crispin and Janet Gregory, the Te
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Exploratory Testing Charter
+### 💡 Worked Example 1: Exploratory Testing Charter
 
 **Charter:** "Explore the shopping cart functionality, focusing on edge cases for quantity updates, removal of items, and behavior when items go out of stock."
 
@@ -371,7 +371,7 @@ Developed by Brian Marick, popularized by Lisa Crispin and Janet Gregory, the Te
 - Medium: Out-of-stock message is confusing to users
 - Low: Guest cart is lost on browser close
 
-### Worked Example 2: Pairwise Test Design
+### 💡 Worked Example 2: Pairwise Test Design
 
 **Scenario:** Test a mobile app on different devices, OS versions, and network conditions.
 
@@ -403,7 +403,7 @@ Developed by Brian Marick, popularized by Lisa Crispin and Janet Gregory, the Te
 
 **Note:** Some combinations are unrealistic (iPhone + Android OS). The pairwise tool should be configured with constraints.
 
-### Worked Example 3: Testing Quadrants Application
+### 💡 Worked Example 3: Testing Quadrants Application
 
 **Scenario:** A team is building a payment processing feature.
 

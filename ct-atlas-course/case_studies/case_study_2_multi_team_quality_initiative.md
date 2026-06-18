@@ -1,6 +1,6 @@
-# Case Study 2 — Multi-Team Quality Initiative
+# 📂 Case Study 2 — Multi-Team Quality Initiative
 
-## Context
+## ⭐ Context
 
 You are the Quality Lead for ProductX, with 12 teams building a SaaS platform.
 
@@ -14,7 +14,7 @@ You are the Quality Lead for ProductX, with 12 teams building a SaaS platform.
 
 ---
 
-## Task 1: Assessment
+## ⭐ Task 1: Assessment
 
 **Question:** Assess current state across teams.
 
@@ -36,7 +36,7 @@ You are the Quality Lead for ProductX, with 12 teams building a SaaS platform.
 
 ---
 
-## Task 2: Standard Definition of Done
+## ⭐ Task 2: Standard Definition of Done
 
 **Question:** Create a DoD that all teams can adopt.
 
@@ -62,7 +62,7 @@ You are the Quality Lead for ProductX, with 12 teams building a SaaS platform.
 
 ---
 
-## Task 3: Shared Regression Strategy
+## ♟️ Task 3: Shared Regression Strategy
 
 **Question:** Design a shared regression approach.
 
@@ -84,7 +84,7 @@ You are the Quality Lead for ProductX, with 12 teams building a SaaS platform.
 
 ---
 
-## Task 4: Training and Coaching
+## 🤖 Task 4: Training and Coaching
 
 **Question:** Plan capability building.
 

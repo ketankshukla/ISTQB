@@ -1,6 +1,6 @@
-# Chapter 5 — Testing Trading and Banking Systems: Exam Traps
+# 🪤 Chapter 5 — Testing Trading and Banking Systems: Exam Traps
 
-## Trap 1: Confusing Clearing with Settlement
+## 🪤 Trap 1: Confusing Clearing with Settlement
 
 **Trap:** Clearing = matching and confirming trades. Settlement = actual transfer of securities/cash. Different stages.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Thinking All Orders Execute Immediately
+## 🪤 Trap 2: Thinking All Orders Execute Immediately
 
 **Trap:** Limit orders only execute at the specified price or better. Market orders execute immediately but at uncertain prices.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Ignoring Corporate Actions in Testing
+## 🪤 Trap 3: Ignoring Corporate Actions in Testing
 
 **Trap:** Corporate actions change positions, prices, and option terms. They must be tested thoroughly.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Testing Only Successful Payment Paths
+## 🪤 Trap 4: Testing Only Successful Payment Paths
 
 **Trap:** Payment testing must cover declines, timeouts, fraud blocks, chargebacks, and refunds.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Confusing VWAP with TWAP
+## 🪤 Trap 5: Confusing VWAP with TWAP
 
 **Trap:** VWAP = volume-weighted average price (trades more when volume is high). TWAP = time-weighted average price (trades evenly over time).
 

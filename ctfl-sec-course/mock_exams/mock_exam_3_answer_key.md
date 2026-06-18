@@ -1,6 +1,6 @@
-# CTFL-SEC Mock Exam 3 — Answer Key
+# 📝 CTFL-SEC Mock Exam 3 — Answer Key
 
-## Answers
+## ✔️ Answers
 
 | Question | Answer | Topic |
 |----------|--------|-------|
@@ -25,7 +25,7 @@
 | Q19 | B | CSRF |
 | Q20 | B | Security testing purpose |
 
-## Score Interpretation
+## ⭐ Score Interpretation
 
 | Score | Status |
 |-------|--------|

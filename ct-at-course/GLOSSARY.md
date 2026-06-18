@@ -1,10 +1,10 @@
-# CT-AT Glossary
+# 📖 CT-AT Glossary
 
 Key terms and definitions for the CT-AT exam, organized by chapter relevance.
 
 ---
 
-## Agile Fundamentals
+## 🏗️ Agile Fundamentals
 
 **Agile**
 A set of values and principles for software development that emphasizes iterative delivery, customer collaboration, and responding to change.
@@ -78,7 +78,7 @@ A highly visible display of project information that passively informs anyone wh
 
 ---
 
-## Agile Testing
+## 🏃 Agile Testing
 
 **Agile Testing**
 Testing practices that follow the principles of agile software development, emphasizing continuous testing, collaboration, and adapting to change.
@@ -112,7 +112,7 @@ The practice of executing automated tests as part of the software delivery pipel
 
 ---
 
-## Testing Techniques
+## 🎯 Testing Techniques
 
 **Behavior-Driven Development (BDD)**
 A collaborative approach where behaviors of the system are specified in a ubiquitous language (Given/When/Then) shared by technical and non-technical stakeholders.
@@ -143,7 +143,7 @@ A model by Brian Marick categorizing tests by whether they support the team or c
 
 ---
 
-## Automation and Tools
+## 🛠️ Automation and Tools
 
 **Continuous Integration (CI)**
 The practice of merging all developers' working copies to a shared mainline several times a day, with automated builds and tests.
@@ -168,7 +168,7 @@ A visible display that shows project status, build health, or test results witho
 
 ---
 
-## Scaling and Advanced Topics
+## ⭐ Scaling and Advanced Topics
 
 **SAFe (Scaled Agile Framework)**
 A framework for scaling agile practices to large organizations with multiple teams.
@@ -193,7 +193,7 @@ A lean technique for visualizing the steps in a process to identify waste and op
 
 ---
 
-## Abbreviations
+## ⭐ Abbreviations
 
 | Abbreviation | Meaning |
 |-------------|---------|

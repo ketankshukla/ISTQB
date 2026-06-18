@@ -1,11 +1,11 @@
-# CT-SEC Mock Exam 1
+# 📝 CT-SEC Mock Exam 1
 
 **Instructions:**
 - 40 questions, 60 minutes, single best answer, no negative marking
 
 ---
 
-### Q1
+### 🔷 Q1
 
 Which of the following is part of the CIA triad?
 
@@ -16,7 +16,7 @@ D. Auditing
 
 ---
 
-### Q2
+### 🔷 Q2
 
 A system encrypts all stored data but does not verify that data hasn't been tampered with. The PRIMARY missing security property is:
 
@@ -27,7 +27,7 @@ D. Authentication
 
 ---
 
-### Q3
+### 🔷 Q3
 
 The process of verifying a user's identity is called:
 
@@ -38,7 +38,7 @@ D. Accounting
 
 ---
 
-### Q4
+### 🔷 Q4
 
 Defense in depth means:
 
@@ -49,7 +49,7 @@ D. Hiding the system design from attackers
 
 ---
 
-### Q5
+### 🔷 Q5
 
 A firewall that blocks unauthorized traffic is a:
 
@@ -60,7 +60,7 @@ D. Compensating control
 
 ---
 
-### Q6
+### 🔷 Q6
 
 In STRIDE, "Spoofing" violates:
 
@@ -71,7 +71,7 @@ D. Availability
 
 ---
 
-### Q7
+### 🔷 Q7
 
 An attacker modifies data in transit. This STRIDE threat is:
 
@@ -82,7 +82,7 @@ D. Information Disclosure
 
 ---
 
-### Q8
+### 🔷 Q8
 
 In DREAD, "Exploitability" measures:
 
@@ -93,7 +93,7 @@ D. How easy it is to discover
 
 ---
 
-### Q9
+### 🔷 Q9
 
 A penetration test with no knowledge of the target system is called:
 
@@ -104,7 +104,7 @@ D. Glass box
 
 ---
 
-### Q10
+### 🔷 Q10
 
 Testing that one user cannot access another user's resources at the same privilege level is:
 
@@ -115,7 +115,7 @@ D. Brute force testing
 
 ---
 
-### Q11
+### 🔷 Q11
 
 Inputting `<script>alert('xss')</script>` tests for:
 
@@ -126,7 +126,7 @@ D. Path traversal
 
 ---
 
-### Q12
+### 🔷 Q12
 
 A tool that analyzes source code without executing the program is:
 
@@ -137,7 +137,7 @@ D. WAF
 
 ---
 
-### Q13
+### 🔷 Q13
 
 Fuzzing is best described as:
 
@@ -148,7 +148,7 @@ D. Network scanning only
 
 ---
 
-### Q14
+### 🔷 Q14
 
 CVSS stands for:
 
@@ -159,7 +159,7 @@ D. Comprehensive Verification Scanning Service
 
 ---
 
-### Q15
+### 🔷 Q15
 
 In CVSS v3.1, a base score of 9.5 indicates:
 
@@ -170,7 +170,7 @@ D. Critical severity
 
 ---
 
-### Q16
+### 🔷 Q16
 
 A false positive is:
 
@@ -181,7 +181,7 @@ D. A missed test case
 
 ---
 
-### Q17
+### 🔷 Q17
 
 OWASP ZAP is primarily a:
 
@@ -192,7 +192,7 @@ D. IAST tool
 
 ---
 
-### Q18
+### 🔷 Q18
 
 SonarQube is primarily a:
 
@@ -203,7 +203,7 @@ D. Fuzzing tool
 
 ---
 
-### Q19
+### 🔷 Q19
 
 A tool that scans for known vulnerabilities in open-source dependencies is:
 
@@ -214,7 +214,7 @@ D. IAST
 
 ---
 
-### Q20
+### 🔷 Q20
 
 The principle of least privilege states that:
 
@@ -225,7 +225,7 @@ D. Security controls should be expensive
 
 ---
 
-### Q21
+### 🔷 Q21
 
 A user successfully logs in but cannot access an admin function. This is a failure of:
 
@@ -236,7 +236,7 @@ D. Integrity
 
 ---
 
-### Q22
+### 🔷 Q22
 
 An attacker gains admin privileges through a bug in the application. The STRIDE category is:
 
@@ -247,7 +247,7 @@ D. Elevation of Privilege
 
 ---
 
-### Q23
+### 🔷 Q23
 
 In an attack tree, an OR node means:
 
@@ -258,7 +258,7 @@ D. No child attacks are valid
 
 ---
 
-### Q24
+### 🔷 Q24
 
 Risk is calculated as:
 
@@ -269,7 +269,7 @@ D. Attack × Defense
 
 ---
 
-### Q25
+### 🔷 Q25
 
 To test for SQL injection, a tester might input:
 
@@ -280,7 +280,7 @@ D. A Unicode character
 
 ---
 
-### Q26
+### 🔷 Q26
 
 Which is a PRIMARY difference between SAST and DAST?
 
@@ -291,7 +291,7 @@ D. DAST requires source code access
 
 ---
 
-### Q27
+### 🔷 Q27
 
 IAST combines aspects of:
 
@@ -302,7 +302,7 @@ D. Encryption and hashing
 
 ---
 
-### Q28
+### 🔷 Q28
 
 A security gate in CI/CD should:
 
@@ -313,7 +313,7 @@ D. Only check code style
 
 ---
 
-### Q29
+### 🔷 Q29
 
 The PRIMARY benefit of integrating security tools into CI/CD is:
 
@@ -324,7 +324,7 @@ D. Eliminating the need for security teams
 
 ---
 
-### Q30
+### 🔷 Q30
 
 Separation of duties is important because:
 
@@ -335,7 +335,7 @@ D. It simplifies the codebase
 
 ---
 
-### Q31
+### 🔷 Q31
 
 A threat with low likelihood and low impact should typically be:
 
@@ -346,7 +346,7 @@ D. Avoided by shutting down
 
 ---
 
-### Q32
+### 🔷 Q32
 
 A CVSS temporal metric accounts for:
 
@@ -357,7 +357,7 @@ D. Only the network location
 
 ---
 
-### Q33
+### 🔷 Q33
 
 After fixing a vulnerability, the next step should be:
 
@@ -368,7 +368,7 @@ D. Announce the vulnerability publicly
 
 ---
 
-### Q34
+### 🔷 Q34
 
 A recorded performance test script typically requires:
 
@@ -379,7 +379,7 @@ D. Only more users
 
 ---
 
-### Q35
+### 🔷 Q35
 
 Which is a PRIMARY advantage of cloud-based performance testing?
 
@@ -390,7 +390,7 @@ D. It only works for small applications
 
 ---
 
-### Q36
+### 🔷 Q36
 
 Which scripting approach gives the most control and maintainability?
 
@@ -401,7 +401,7 @@ D. Scripts that include all browser resources
 
 ---
 
-### Q37
+### 🔷 Q37
 
 A performance gate in CI/CD is:
 
@@ -412,7 +412,7 @@ D. A network firewall
 
 ---
 
-### Q38
+### 🔷 Q38
 
 Correlation in performance testing scripts is used to:
 
@@ -423,7 +423,7 @@ D. Generate random data
 
 ---
 
-### Q39
+### 🔷 Q39
 
 A team has a CPU bottleneck. They immediately order 2x the CPU cores. Without also optimizing the code, this approach:
 
@@ -434,7 +434,7 @@ D. Is free
 
 ---
 
-### Q40
+### 🔷 Q40
 
 Which statement about security testing is TRUE?
 
@@ -445,4 +445,4 @@ D. Security testing requires production data at all times
 
 ---
 
-## End of Mock Exam 1
+## 📝 End of Mock Exam 1

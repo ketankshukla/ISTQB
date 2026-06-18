@@ -1,11 +1,11 @@
-# CT-SEC Mock Exam 2
+# 📝 CT-SEC Mock Exam 2
 
 **Instructions:**
 - 40 questions, 60 minutes, single best answer, no negative marking
 
 ---
 
-### Q1
+### 🔷 Q1
 
 Which OWASP category involves sending untrusted data to interpreters?
 
@@ -16,7 +16,7 @@ D. Security Misconfiguration
 
 ---
 
-### Q2
+### 🔷 Q2
 
 A data warehouse applies schema:
 
@@ -27,7 +27,7 @@ D. Only for unstructured data
 
 ---
 
-### Q3
+### 🔷 Q3
 
 An intrusion detection system (IDS) that alerts on suspicious activity is a:
 
@@ -38,7 +38,7 @@ D. Deterrent control
 
 ---
 
-### Q4
+### 🔷 Q4
 
 A backup system used to restore data after a ransomware attack is a:
 
@@ -49,7 +49,7 @@ D. Deterrent control
 
 ---
 
-### Q5
+### 🔷 Q5
 
 "All passwords must be hashed with bcrypt before storage" is:
 
@@ -60,7 +60,7 @@ D. A usability requirement
 
 ---
 
-### Q6
+### 🔷 Q6
 
 Shift-left security means:
 
@@ -71,7 +71,7 @@ D. Removing security from development
 
 ---
 
-### Q7
+### 🔷 Q7
 
 In Hadoop, YARN is responsible for:
 
@@ -82,7 +82,7 @@ D. Running SQL queries
 
 ---
 
-### Q8
+### 🔷 Q8
 
 A DataFrame in Spark is:
 
@@ -93,7 +93,7 @@ D. A type of NoSQL database
 
 ---
 
-### Q9
+### 🔷 Q9
 
 Which is an example of a row-level validation rule?
 
@@ -104,7 +104,7 @@ D. status must be in ('active', 'inactive')
 
 ---
 
-### Q10
+### 🔷 Q10
 
 Data cleansing should be tested by verifying:
 
@@ -115,7 +115,7 @@ D. The speed of the cleansing job
 
 ---
 
-### Q11
+### 🔷 Q11
 
 A P95 response time of 3 seconds means:
 
@@ -126,7 +126,7 @@ D. 95 requests took 3 seconds
 
 ---
 
-### Q12
+### 🔷 Q12
 
 For a critical field like transaction_id, the completeness threshold should typically be:
 
@@ -137,7 +137,7 @@ D. 99.9% or 100%
 
 ---
 
-### Q13
+### 🔷 Q13
 
 ELT is MOST appropriate when:
 
@@ -148,7 +148,7 @@ D. Only structured data is involved
 
 ---
 
-### Q14
+### 🔷 Q14
 
 Regression testing a Spark job means:
 
@@ -159,7 +159,7 @@ D. Deleting old test data
 
 ---
 
-### Q15
+### 🔷 Q15
 
 A team observes that response times improve after the first few minutes of a test, even though load is constant. The likely explanation is:
 
@@ -170,7 +170,7 @@ D. Users are leaving the system
 
 ---
 
-### Q16
+### 🔷 Q16
 
 Which is a software tuning approach?
 
@@ -181,7 +181,7 @@ D. Buying a faster CPU
 
 ---
 
-### Q17
+### 🔷 Q17
 
 A trend report comparing performance across releases is used to:
 
@@ -192,7 +192,7 @@ D. Calculate marketing ROI
 
 ---
 
-### Q18
+### 🔷 Q18
 
 A performance test that fails the CI/CD pipeline because P95 response time increased by 30% is an example of:
 
@@ -203,7 +203,7 @@ D. A network issue
 
 ---
 
-### Q19
+### 🔷 Q19
 
 Cloud-based testing is LEAST suitable when:
 
@@ -214,7 +214,7 @@ D. Very large load is required
 
 ---
 
-### Q20
+### 🔷 Q20
 
 A component isolation test involves:
 
@@ -225,7 +225,7 @@ D. Removing components from the system
 
 ---
 
-### Q21
+### 🔷 Q21
 
 A valid reason to stop a performance test early is:
 
@@ -236,7 +236,7 @@ D. The load generator is working well
 
 ---
 
-### Q22
+### 🔷 Q22
 
 A system shows slow response times, but the application server CPU is only 35%. The database server CPU is 90%. The bottleneck is likely:
 
@@ -247,7 +247,7 @@ D. The load generator
 
 ---
 
-### Q23
+### 🔷 Q23
 
 The steady state phase of a performance test is when:
 
@@ -258,7 +258,7 @@ D. Only one user is active
 
 ---
 
-### Q24
+### 🔷 Q24
 
 Database lock contention is indicated by:
 
@@ -269,7 +269,7 @@ D. Fast query execution times
 
 ---
 
-### Q25
+### 🔷 Q25
 
 A SQL injection vulnerability has CVSS 9.8, is publicly accessible, and no patch exists. The risk treatment should be:
 
@@ -280,7 +280,7 @@ D. Ignore until patch available
 
 ---
 
-### Q26
+### 🔷 Q26
 
 A SAST tool flags 500 "SQL injection" findings. The FIRST step should be:
 
@@ -291,7 +291,7 @@ D. Replace the SAST tool
 
 ---
 
-### Q27
+### 🔷 Q27
 
 Verification testing after applying a WAF rule should confirm:
 
@@ -302,7 +302,7 @@ D. That logs are being generated
 
 ---
 
-### Q28
+### 🔷 Q28
 
 Which is MORE dangerous to security posture?
 
@@ -313,7 +313,7 @@ D. Neither is dangerous
 
 ---
 
-### Q29
+### 🔷 Q29
 
 A CVSS scope of "Changed" means:
 
@@ -324,7 +324,7 @@ D. The vulnerability is in a test environment
 
 ---
 
-### Q30
+### 🔷 Q30
 
 The executive summary of a security report should:
 
@@ -335,7 +335,7 @@ D. Be omitted to save time
 
 ---
 
-### Q31
+### 🔷 Q31
 
 To reduce false positives from SAST tools:
 
@@ -346,7 +346,7 @@ D. Only scan production code
 
 ---
 
-### Q32
+### 🔷 Q32
 
 Nmap is primarily used for:
 
@@ -357,7 +357,7 @@ D. Web application fuzzing
 
 ---
 
-### Q33
+### 🔷 Q33
 
 IAST is characterized by:
 
@@ -368,7 +368,7 @@ D. Scanning only network ports
 
 ---
 
-### Q34
+### 🔷 Q34
 
 A security gate in CI/CD should:
 
@@ -379,7 +379,7 @@ D. Only check code style
 
 ---
 
-### Q35
+### 🔷 Q35
 
 GitLeaks is used to:
 
@@ -390,7 +390,7 @@ D. Analyze Java bytecode
 
 ---
 
-### Q36
+### 🔷 Q36
 
 Container image scanning in CI/CD is used to:
 
@@ -401,7 +401,7 @@ D. Add container labels
 
 ---
 
-### Q37
+### 🔷 Q37
 
 Passive scanning in DAST:
 
@@ -412,7 +412,7 @@ D. Requires source code access
 
 ---
 
-### Q38
+### 🔷 Q38
 
 Burp Suite is commonly used for:
 
@@ -423,7 +423,7 @@ D. Database optimization
 
 ---
 
-### Q39
+### 🔷 Q39
 
 The PRIMARY limitation of SAST is:
 
@@ -434,7 +434,7 @@ D. It is too fast
 
 ---
 
-### Q40
+### 🔷 Q40
 
 Which statement about security testing is TRUE?
 
@@ -445,4 +445,4 @@ D. Security testing requires production data at all times
 
 ---
 
-## End of Mock Exam 2
+## 📝 End of Mock Exam 2

@@ -1,23 +1,23 @@
-# Case Study 3 — Regulatory Compliance Audit
+# 📂 Case Study 3 — Regulatory Compliance Audit
 
-## Context
+## ⭐ Context
 
 You are a Compliance Test Manager at Global Gaming Test Labs (GGTL). An operator, MegaCasino, operates in the UK, Malta, and Sweden. They are undergoing a routine compliance audit for all three jurisdictions.
 
-## Operator Profile
+## ⭐ Operator Profile
 
 - **UK:** Licensed by UKGC, 500+ games, 200,000 active players
 - **Malta:** Licensed by MGA, shared platform with UK, additional 300 games
 - **Sweden:** Licensed by Spelinspektionen, 200 games, 50,000 active players
 - **Shared:** Single player account across all three markets
 
-## Audit Scope
+## ⭐ Audit Scope
 
 The audit must verify compliance in all three jurisdictions simultaneously.
 
 ---
 
-## Task 1: Jurisdictional Requirement Mapping
+## 📑 Task 1: Jurisdictional Requirement Mapping
 
 Map the key differences between the three jurisdictions.
 
@@ -36,7 +36,7 @@ Map the key differences between the three jurisdictions.
 
 ---
 
-## Task 2: Cross-Jurisdiction Test Scenarios
+## 🎬 Task 2: Cross-Jurisdiction Test Scenarios
 
 Design tests that verify correct behavior for players in each jurisdiction.
 
@@ -73,7 +73,7 @@ Design tests that verify correct behavior for players in each jurisdiction.
 
 ---
 
-## Task 3: Common Compliance Failures
+## 🤖 Task 3: Common Compliance Failures
 
 Identify the most common compliance failures in multi-jurisdiction operations.
 
@@ -90,7 +90,7 @@ Identify the most common compliance failures in multi-jurisdiction operations.
 
 ---
 
-## Task 4: Audit Test Plan
+## 🗓️ Task 4: Audit Test Plan
 
 Design the overall audit test plan.
 

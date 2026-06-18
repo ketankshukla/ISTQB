@@ -1,8 +1,8 @@
-# Chapter 6 — Transitioning and Maintenance: Practice Questions
+# ❓ Chapter 6 — Transitioning and Maintenance: Practice Questions
 
 ---
 
-### Q1 (TAE-6.1, K2)
+### 🔷 Q1 (TAE-6.1, K2)
 
 Transitioning from manual to automated testing on an existing project is called:
 
@@ -13,7 +13,7 @@ D. Retirement
 
 ---
 
-### Q2 (TAE-6.2, K2)
+### 🔷 Q2 (TAE-6.2, K2)
 
 Updating a test script to accommodate a renamed button on the SUT is:
 
@@ -24,7 +24,7 @@ D. No maintenance
 
 ---
 
-### Q3 (TAE-6.2, K2)
+### 🔷 Q3 (TAE-6.2, K2)
 
 Refactoring a test script to improve readability and reduce duplication is:
 
@@ -35,7 +35,7 @@ D. Retirement
 
 ---
 
-### Q4 (TAE-6.3, K2)
+### 🔷 Q4 (TAE-6.3, K2)
 
 A test should be retired when:
 
@@ -46,7 +46,7 @@ D. It was written by a former employee
 
 ---
 
-### Q5 (TAE-6.2, K3)
+### 🔷 Q5 (TAE-6.2, K3)
 
 A TAE spends most of their time updating tests because the SUT's UI changes frequently. This is primarily:
 
@@ -57,7 +57,7 @@ D. Not maintenance at all
 
 ---
 
-### Q6 (TAE-6.1, K3)
+### 🔷 Q6 (TAE-6.1, K3)
 
 A team automates a new project using TDD from day one. This is:
 
@@ -68,7 +68,7 @@ D. Big-bang deployment
 
 ---
 
-### Q7 (TAE-6.4, K2)
+### 🔷 Q7 (TAE-6.4, K2)
 
 Legacy automation is BEST described as:
 
@@ -79,7 +79,7 @@ D. Manual testing that has been documented
 
 ---
 
-### Q8 (TAE-6.3, K3)
+### 🔷 Q8 (TAE-6.3, K3)
 
 A team's TAS uses a commercial tool that the vendor is discontinuing. The BEST action is:
 
@@ -90,7 +90,7 @@ D. Buy 10 years of extra licenses
 
 ---
 
-### Q9 (TAE-6.2, K2)
+### 🔷 Q9 (TAE-6.2, K2)
 
 Fixing a bug in the test framework that causes intermittent false positives is:
 
@@ -101,7 +101,7 @@ D. Transition work
 
 ---
 
-### Q10 (TAE-6.1, K3)
+### 🔷 Q10 (TAE-6.1, K3)
 
 During a brownfield transition, the team should:
 
@@ -112,7 +112,7 @@ D. Only automate new features
 
 ---
 
-### Q11 (TAE-6.4, K2)
+### 🔷 Q11 (TAE-6.4, K2)
 
 Which strategy is BEST for a large legacy suite that is poorly structured but has good coverage?
 
@@ -123,7 +123,7 @@ D. Ignore the legacy and build new tests only
 
 ---
 
-### Q12 (TAE-6.3, K2)
+### 🔷 Q12 (TAE-6.3, K2)
 
 A test that verifies a feature no one uses and that breaks weekly is a candidate for:
 
@@ -134,7 +134,7 @@ D. Conversion to a manual test
 
 ---
 
-### Q13 (TAE-6.2, K3)
+### 🔷 Q13 (TAE-6.2, K3)
 
 A team should allocate approximately what percentage of automation capacity to maintenance?
 
@@ -145,7 +145,7 @@ D. 100%
 
 ---
 
-### Q14 (TAE-6.1, K2)
+### 🔷 Q14 (TAE-6.1, K2)
 
 Migration (replacing an existing TAS) is BEST characterized as:
 
@@ -156,7 +156,7 @@ D. Retiring all tests and starting over
 
 ---
 
-### Q15 (TAE-6.4, K3)
+### 🔷 Q15 (TAE-6.4, K3)
 
 A legacy automation suite uses record/replay, has no abstraction, and breaks daily. The team wants to keep the coverage. The BEST approach is:
 
@@ -167,7 +167,7 @@ D. Buy a more expensive tool that supports record/replay
 
 ---
 
-### Q16 (TAE-6.2, K2)
+### 🔷 Q16 (TAE-6.2, K2)
 
 Adding parallel execution to reduce test suite runtime is:
 
@@ -178,7 +178,7 @@ D. Retirement
 
 ---
 
-### Q17 (TAE-6.3, K2)
+### 🔷 Q17 (TAE-6.3, K2)
 
 When retiring a test, the team should FIRST:
 
@@ -189,7 +189,7 @@ D. Rewrite it in a different language
 
 ---
 
-### Q18 (TAE-6.1, K3)
+### 🔷 Q18 (TAE-6.1, K3)
 
 A company acquires another company and must integrate their test automation. This is BEST described as:
 
@@ -200,7 +200,7 @@ D. Maintenance
 
 ---
 
-### Q19 (TAE-6.4, K2)
+### 🔷 Q19 (TAE-6.4, K2)
 
 Which skill is MOST important for maintaining test automation?
 
@@ -211,7 +211,7 @@ D. Accounting
 
 ---
 
-### Q20 (TAE-6.2, K3)
+### 🔷 Q20 (TAE-6.2, K3)
 
 A TAE fixes a test that fails because the expected result was incorrectly coded. This is:
 
@@ -222,104 +222,104 @@ D. Test retirement
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** Brownfield = adding automation to an existing project. Greenfield = new project.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** Accommodating SUT changes is adaptive maintenance.
 
-### Q3
+### 🔷 Q3
 **Answer: C**
 
 **Rationale:** Improving readability is perfective maintenance.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** Tests for removed features are obsolete and should be retired.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** Frequent UI changes require adaptive maintenance.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** New project from day one = greenfield transition.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** Legacy automation = existing, difficult to maintain, often outdated.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** Plan migration before support ends to avoid being stranded.
 
-### Q9
+### 🔷 Q9
 **Answer: A**
 
 **Rationale:** Fixing a bug in the TAS is corrective maintenance.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** During transition, both manual and automated tests must be maintained.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 
 **Rationale:** Good coverage but poor structure = incremental refactoring is best.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** Low-value, high-maintenance tests should be retired.
 
-### Q13
+### 🔷 Q13
 **Answer: C**
 
 **Rationale:** 20-30% of capacity should be reserved for maintenance.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** Migration = replacing an existing TAS with a new one.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** Building a proper TAS and migrating key tests is the sustainable solution.
 
-### Q16
+### 🔷 Q16
 **Answer: C**
 
 **Rationale:** Adding parallel execution improves performance = perfective.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 
 **Rationale:** Assess coverage gaps before deleting. Immediate deletion risks losing protection.
 
-### Q18
+### 🔷 Q18
 **Answer: C**
 
 **Rationale:** Integrating existing automation from an acquisition is a migration.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** Debugging and root cause analysis is the most critical maintenance skill.
 
-### Q20
+### 🔷 Q20
 **Answer: A**
 
 **Rationale:** Fixing an incorrect expected result is correcting a defect in the TAS.

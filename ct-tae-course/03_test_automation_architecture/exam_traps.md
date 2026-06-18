@@ -1,6 +1,6 @@
-# Chapter 3 — Test Automation Architecture: Exam Traps
+# 🪤 Chapter 3 — Test Automation Architecture: Exam Traps
 
-## Trap 1: Confusing TAA Layers
+## 🪤 Trap 1: Confusing TAA Layers
 
 **Trap:** Each TAA layer has a distinct responsibility. Test Generation creates tests, Test Definition formats them, Test Execution runs them, and Test Adaptation interfaces with the SUT.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Thinking Tight Coupling Is Efficient
+## 🪤 Trap 2: Thinking Tight Coupling Is Efficient
 
 **Trap:** Tight coupling between layers makes maintenance expensive. A well-designed TAA uses abstraction so changes in one layer do not cascade.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Confusing Testware with Only Test Scripts
+## 🪤 Trap 3: Confusing Testware with Only Test Scripts
 
 **Trap:** Testware includes much more than scripts: test data, harnesses, libraries, configuration, documentation, and expected results.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Thinking Abstraction Adds Unnecessary Complexity
+## 🪤 Trap 4: Thinking Abstraction Adds Unnecessary Complexity
 
 **Trap:** Abstraction may seem like extra work initially, but it pays off massively in reduced maintenance. The exam tests understanding of WHY abstraction matters, not just HOW to do it.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Ignoring Interface Stability
+## 🪤 Trap 5: Ignoring Interface Stability
 
 **Trap:** Unstable interfaces between layers cause cascading changes. Interfaces should be well-defined and stable.
 

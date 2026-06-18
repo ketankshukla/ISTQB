@@ -1,8 +1,8 @@
-# Chapter 1 — Introduction to Agile Test Leadership at Scale: Practice Questions
+# ❓ Chapter 1 — Introduction to Agile Test Leadership at Scale: Practice Questions
 
 ---
 
-### Q1 (ATLaS-1.1, K1)
+### 🔷 Q1 (ATLaS-1.1, K1)
 
 Agile at scale addresses:
 
@@ -13,7 +13,7 @@ D. Only small companies
 
 ---
 
-### Q2 (ATLaS-1.2, K1)
+### 🔷 Q2 (ATLaS-1.2, K1)
 
 SAFe's Agile Release Train (ART) typically consists of:
 
@@ -24,7 +24,7 @@ D. Only management
 
 ---
 
-### Q3 (ATLaS-1.3, K2)
+### 🔷 Q3 (ATLaS-1.3, K2)
 
 The Spotify model uses:
 
@@ -35,7 +35,7 @@ D. Only product owners
 
 ---
 
-### Q4 (ATLaS-1.4, K2)
+### 🔷 Q4 (ATLaS-1.4, K2)
 
 In LeSS, how many Product Owners are there for the product?
 
@@ -46,7 +46,7 @@ D. One per sprint
 
 ---
 
-### Q5 (ATLaS-1.1, K1)
+### 🔷 Q5 (ATLaS-1.1, K1)
 
 A Release Train Engineer (RTE) in SAFe is:
 
@@ -57,7 +57,7 @@ D. Only a tester
 
 ---
 
-### Q6 (ATLaS-1.2, K2)
+### 🔷 Q6 (ATLaS-1.2, K2)
 
 Scaling agile requires coordination in:
 
@@ -68,7 +68,7 @@ D. Only sprint planning
 
 ---
 
-### Q7 (ATLaS-1.3, K2)
+### 🔷 Q7 (ATLaS-1.3, K2)
 
 A test coach at scale:
 
@@ -79,7 +79,7 @@ D. Only writes test scripts
 
 ---
 
-### Q8 (ATLaS-1.4, K2)
+### 🔷 Q8 (ATLaS-1.4, K2)
 
 System Demo in SAFe:
 
@@ -90,7 +90,7 @@ D. Only demos one team's work
 
 ---
 
-### Q9 (ATLaS-1.1, K1)
+### 🔷 Q9 (ATLaS-1.1, K1)
 
 The PRIMARY reason to use a scaling framework is:
 
@@ -101,7 +101,7 @@ D. To reduce team autonomy
 
 ---
 
-### Q10 (ATLaS-1.2, K2)
+### 🔷 Q10 (ATLaS-1.2, K2)
 
 Communities of Practice (CoP) help with:
 
@@ -112,7 +112,7 @@ D. Only performance reviews
 
 ---
 
-### Q11 (ATLaS-1.3, K2)
+### 🔷 Q11 (ATLaS-1.3, K2)
 
 A test chapter in the Spotify model:
 
@@ -123,7 +123,7 @@ D. Only hires testers
 
 ---
 
-### Q12 (ATLaS-1.4, K2)
+### 🔷 Q12 (ATLaS-1.4, K2)
 
 Velocity should be used for:
 
@@ -134,7 +134,7 @@ D. Only customer billing
 
 ---
 
-### Q13 (ATLaS-1.1, K1)
+### 🔷 Q13 (ATLaS-1.1, K1)
 
 Program Increment (PI) planning in SAFe occurs:
 
@@ -145,7 +145,7 @@ D. Only at project start
 
 ---
 
-### Q14 (ATLaS-1.2, K2)
+### 🔷 Q14 (ATLaS-1.2, K2)
 
 Integration testing at scale is important because:
 
@@ -156,7 +156,7 @@ D. Only for security
 
 ---
 
-### Q15 (ATLaS-1.3, K2)
+### 🔷 Q15 (ATLaS-1.3, K2)
 
 A System Team in SAFe is responsible for:
 
@@ -167,7 +167,7 @@ D. Only marketing
 
 ---
 
-### Q16 (ATLaS-1.4, K2)
+### 🔷 Q16 (ATLaS-1.4, K2)
 
 Guilds in the Spotify model are:
 
@@ -178,7 +178,7 @@ D. Only for product owners
 
 ---
 
-### Q17 (ATLaS-1.1, K1)
+### 🔷 Q17 (ATLaS-1.1, K1)
 
 The whole-team approach at scale means:
 
@@ -189,7 +189,7 @@ D. Only manual testers find bugs
 
 ---
 
-### Q18 (ATLaS-1.2, K2)
+### 🔷 Q18 (ATLaS-1.2, K2)
 
 Hardening sprints in some scaling approaches:
 
@@ -200,7 +200,7 @@ D. Only for waterfall
 
 ---
 
-### Q19 (ATLaS-1.3, K2)
+### 🔷 Q19 (ATLaS-1.3, K2)
 
 Test leadership at scale focuses on:
 
@@ -211,7 +211,7 @@ D. Only writing test plans
 
 ---
 
-### Q20 (ATLaS-1.4, K2)
+### 🔷 Q20 (ATLaS-1.4, K2)
 
 The main difference between SAFe and LeSS is:
 
@@ -222,84 +222,84 @@ D. Only the number of teams supported
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** Agile at scale = coordination across teams.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** ART = 5-12 teams.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** Spotify = squads, tribes, chapters, guilds.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** LeSS = one overall PO.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** RTE = servant leader for ART.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Coordination = integration, envs, standards, tools.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Test coach = guide without authority.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** System Demo = integrated work validation.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** Scaling = coordinate multiple teams.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** CoP = share knowledge across teams.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Chapter = share practices across squads.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Velocity = planning, not comparison.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** PI = 8-12 weeks.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Team quality ≠ system quality.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** System Team = integration + pipeline.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Guilds = voluntary communities.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Whole-team = shared quality.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Hardening = integration + bug fixing.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Leadership = strategy, coordination, standards.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** SAFe = prescriptive; LeSS = lightweight.

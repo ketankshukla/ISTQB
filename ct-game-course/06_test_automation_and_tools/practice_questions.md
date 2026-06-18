@@ -1,8 +1,8 @@
-# Chapter 6 — Test Automation and Tools: Practice Questions
+# ❓ Chapter 6 — Test Automation and Tools: Practice Questions
 
 ---
 
-### Q1 (GaMe-6.1, K2)
+### 🎮 Q1 (GaMe-6.1, K2)
 
 Automated testing is most suitable for:
 
@@ -13,7 +13,7 @@ D. Only UX assessment
 
 ---
 
-### Q2 (GaMe-6.2, K2)
+### 🎮 Q2 (GaMe-6.2, K2)
 
 Unity Test Framework supports:
 
@@ -24,7 +24,7 @@ D. Only asset import
 
 ---
 
-### Q3 (GaMe-6.3, K2)
+### 🎮 Q3 (GaMe-6.3, K2)
 
 Screenshot comparison is best for:
 
@@ -35,7 +35,7 @@ D. Only performance testing
 
 ---
 
-### Q4 (GaMe-6.4, K2)
+### 🎮 Q4 (GaMe-6.4, K2)
 
 CI/CD for games should include:
 
@@ -46,7 +46,7 @@ D. Only documentation
 
 ---
 
-### Q5 (GaMe-6.1, K2)
+### 🎮 Q5 (GaMe-6.1, K2)
 
 Manual testing remains necessary for:
 
@@ -57,7 +57,7 @@ D. Only performance benchmarks
 
 ---
 
-### Q6 (GaMe-6.2, K2)
+### 🎮 Q6 (GaMe-6.2, K2)
 
 Unreal Automation Tests include:
 
@@ -68,7 +68,7 @@ D. Only sound tests
 
 ---
 
-### Q7 (GaMe-6.3, K2)
+### 🎮 Q7 (GaMe-6.3, K2)
 
 Screenshot comparison tolerance should:
 
@@ -79,7 +79,7 @@ D. Only apply to gameplay
 
 ---
 
-### Q8 (GaMe-6.4, K2)
+### 🎮 Q8 (GaMe-6.4, K2)
 
 Smoke tests in CI should run:
 
@@ -90,7 +90,7 @@ D. Only manually
 
 ---
 
-### Q9 (GaMe-6.1, K2)
+### 🎮 Q9 (GaMe-6.1, K2)
 
 Headless testing means:
 
@@ -101,7 +101,7 @@ D. Only controller testing
 
 ---
 
-### Q10 (GaMe-6.2, K2)
+### 🎮 Q10 (GaMe-6.2, K2)
 
 Bot players for testing:
 
@@ -112,7 +112,7 @@ D. Only test networking
 
 ---
 
-### Q11 (GaMe-6.3, K2)
+### 🎮 Q11 (GaMe-6.3, K2)
 
 Masking dynamic regions in screenshot comparison:
 
@@ -123,7 +123,7 @@ D. Only slows testing
 
 ---
 
-### Q12 (GaMe-6.4, K2)
+### 🎮 Q12 (GaMe-6.4, K2)
 
 Nightly builds for QA should:
 
@@ -134,7 +134,7 @@ D. Only send emails
 
 ---
 
-### Q13 (GaMe-6.1, K2)
+### 🎮 Q13 (GaMe-6.1, K2)
 
 Performance benchmarks should be:
 
@@ -145,7 +145,7 @@ D. Only visual
 
 ---
 
-### Q14 (GaMe-6.2, K2)
+### 🎮 Q14 (GaMe-6.2, K2)
 
 Custom test frameworks are needed when:
 
@@ -156,7 +156,7 @@ D. Only for console
 
 ---
 
-### Q15 (GaMe-6.3, K2)
+### 🎮 Q15 (GaMe-6.3, K2)
 
 Reference screenshots should be captured from:
 
@@ -167,7 +167,7 @@ D. Only player builds
 
 ---
 
-### Q16 (GaMe-6.4, K2)
+### 🎮 Q16 (GaMe-6.4, K2)
 
 Asset validation in CI checks:
 
@@ -178,7 +178,7 @@ D. Only file dates
 
 ---
 
-### Q17 (GaMe-6.1, K2)
+### 🎮 Q17 (GaMe-6.1, K2)
 
 Exploratory testing:
 
@@ -189,7 +189,7 @@ D. Only checks performance
 
 ---
 
-### Q18 (GaMe-6.2, K2)
+### 🎮 Q18 (GaMe-6.2, K2)
 
 Unit tests for game logic verify:
 
@@ -200,7 +200,7 @@ D. Only sound effects
 
 ---
 
-### Q19 (GaMe-6.3, K2)
+### 🎮 Q19 (GaMe-6.3, K2)
 
 Visual regression with screenshot comparison catches:
 
@@ -211,7 +211,7 @@ D. Only input lag
 
 ---
 
-### Q20 (GaMe-6.4, K2)
+### 🎮 Q20 (GaMe-6.4, K2)
 
 Telemetry event testing verifies:
 
@@ -222,84 +222,84 @@ D. Only loading times
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** Automation = repetitive + deterministic.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** Unity = Edit + Play Mode tests.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** Screenshots = visual regression + tolerance.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** CI/CD = build + assets + tests + packaging.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Manual = feel + exploratory + UX.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Unreal = unit + feature + stress.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Tolerance = match content variance.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Smoke = every build/daily.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** Headless = no rendering, faster.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** Bots = simulate gameplay.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Masking = prevent false positives.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Nightly = content + code + smoke.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Benchmarks = automated + compared.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Custom = when existing insufficient.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Reference = known-good + standardized.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Asset validation = missing + broken + errors.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Exploratory = human creativity.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Unit = formulas + economy + state.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Visual regression = unintended UI/rendering changes.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** Telemetry = triggers + parameters + no duplicates/PII.

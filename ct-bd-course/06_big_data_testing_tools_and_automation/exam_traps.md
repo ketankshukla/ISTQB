@@ -1,6 +1,6 @@
-# Chapter 6 — Big Data Testing Tools and Automation: Exam Traps
+# 🪤 Chapter 6 — Big Data Testing Tools and Automation: Exam Traps
 
-## Trap 1: Confusing Testing Tools with Processing Tools
+## 🪤 Trap 1: Confusing Testing Tools with Processing Tools
 
 **Trap:** Hive, Pig, and Spark are processing/query tools, not testing frameworks. Deequ, Great Expectations, and QuerySurge are testing/validation tools.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Thinking Unit Testing Is Impossible for Big Data
+## 🪤 Trap 2: Thinking Unit Testing Is Impossible for Big Data
 
 **Trap:** Big Data jobs can and should be unit tested with small datasets in local mode before running on large clusters.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Confusing Data Quality Checks with Data Testing
+## 🪤 Trap 3: Confusing Data Quality Checks with Data Testing
 
 **Trap:** Automated quality checks (Deequ, Great Expectations) complement but don't replace functional and integration testing.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Ignoring Schema Compatibility in CI/CD
+## 🪤 Trap 4: Ignoring Schema Compatibility in CI/CD
 
 **Trap:** Schema changes can break downstream consumers. CI/CD must validate schema compatibility.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Comparing Production Data Without Sampling
+## 🪤 Trap 5: Comparing Production Data Without Sampling
 
 **Trap:** Row-by-row comparison of petabyte-scale datasets is impractical. Sampling or aggregation-based comparison is needed.
 

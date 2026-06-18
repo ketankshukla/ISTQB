@@ -1,6 +1,6 @@
-# Chapter 2 — Performance Test Types and Objectives: Exam Traps
+# 🪤 Chapter 2 — Performance Test Types and Objectives: Exam Traps
 
-## Trap 1: Load Testing Equals Performance Testing
+## 🪤 Trap 1: Load Testing Equals Performance Testing
 
 **Trap:** Load testing is one type; performance testing is the umbrella term.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Stress Testing is Only for Breaking the System
+## 🪤 Trap 2: Stress Testing is Only for Breaking the System
 
 **Trap:** Stress testing also tests recovery, error handling, and graceful degradation.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Spike and Stress Testing are the Same
+## 🪤 Trap 3: Spike and Stress Testing are the Same
 
 **Trap:** Spike = sudden increase; Stress = sustained overload. Different patterns, different purposes.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Endurance Testing is the Same as Load Testing
+## 🪤 Trap 4: Endurance Testing is the Same as Load Testing
 
 **Trap:** Endurance tests for long durations to detect memory leaks and gradual degradation.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Scalability Testing Only Tests Adding Servers
+## 🪤 Trap 5: Scalability Testing Only Tests Adding Servers
 
 **Trap:** Scalability includes both horizontal (more servers) and vertical (more power per server) scaling.
 

@@ -1,6 +1,6 @@
-# Chapter 1 — Agile Principles and Context: Exam Traps
+# 🪤 Chapter 1 — Agile Principles and Context: Exam Traps
 
-## Trap 1: Thinking Agile Means No Documentation
+## 🪤 Trap 1: Thinking Agile Means No Documentation
 
 **Trap:** Agile values working software over documentation, but some documentation (acceptance criteria, test cases, architectural decisions) is still necessary.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Confusing Scrum and Kanban
+## 🪤 Trap 2: Confusing Scrum and Kanban
 
 **Trap:** Scrum has fixed sprints and prescribed ceremonies. Kanban has continuous flow and no prescribed ceremonies.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Thinking Testers Are the Only Ones Responsible for Quality
+## 🪤 Trap 3: Thinking Testers Are the Only Ones Responsible for Quality
 
 **Trap:** In agile, quality is a whole-team responsibility. Developers write unit tests, the PO defines acceptance criteria, and everyone participates in quality.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Confusing the Definition of Done with the Definition of Ready
+## 🪤 Trap 4: Confusing the Definition of Done with the Definition of Ready
 
 **Trap:** DoD = criteria for work to be considered complete. DoR = criteria for work to be ready to start.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Thinking Agile Teams Don't Need Test Automation
+## 🪤 Trap 5: Thinking Agile Teams Don't Need Test Automation
 
 **Trap:** Agile teams absolutely need test automation to support frequent releases and continuous feedback.
 

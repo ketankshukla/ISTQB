@@ -1,6 +1,6 @@
-# Chapter 5 — Deployment and Reporting: Exam Traps
+# 🪤 Chapter 5 — Deployment and Reporting: Exam Traps
 
-## Trap 1: Thinking High Coverage Means High Quality
+## 📊 Trap 1: Thinking High Coverage Means High Quality
 
 **Trap:** Code coverage measures what code was executed, not whether it behaves correctly. 100% coverage with poor assertions is worthless.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Confusing Big-Bang with Pilot Deployment
+## 🪤 Trap 2: Confusing Big-Bang with Pilot Deployment
 
 **Trap:** Big-bang = everyone at once. Pilot = small group first. Incremental = gradual expansion.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Reporting the Same Dashboard to All Stakeholders
+## 🪤 Trap 3: Reporting the Same Dashboard to All Stakeholders
 
 **Trap:** Different stakeholders need different information. Management needs ROI and trends. Testers need failure details. Developers need build status.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Ignoring Flakiness as "Just Part of Automation"
+## 🪤 Trap 4: Ignoring Flakiness as "Just Part of Automation"
 
 **Trap:** Flaky tests are a serious problem. They erode trust, waste investigation time, and mask real defects. They should be fixed, not tolerated.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Calculating ROI Without Including All Costs
+## 🪤 Trap 5: Calculating ROI Without Including All Costs
 
 **Trap:** ROI must include TCO (license, training, infrastructure, maintenance). Ignoring maintenance makes ROI look better than it is.
 

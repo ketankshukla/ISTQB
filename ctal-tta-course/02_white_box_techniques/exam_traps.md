@@ -1,6 +1,6 @@
-# Chapter 2 — White-Box Test Techniques: Exam Traps
+# 🪤 Chapter 2 — White-Box Test Techniques: Exam Traps
 
-## Trap 1: Confusing Statement and Branch Coverage
+## 📊 Trap 1: Confusing Statement and Branch Coverage
 
 **Trap:** Statement coverage = every statement executed. Branch coverage = every decision outcome executed. 100% statement coverage does NOT imply 100% branch coverage.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Forgetting That Cyclomatic Complexity Measures Decision Points, Not Lines of Code
+## 🪤 Trap 2: Forgetting That Cyclomatic Complexity Measures Decision Points, Not Lines of Code
 
 **Trap:** Cyclomatic complexity is about the number of paths through decisions, not the number of lines of code.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Thinking 100% Coverage Means No Defects
+## 📊 Trap 3: Thinking 100% Coverage Means No Defects
 
 **Trap:** Coverage measures what was executed, not whether the code is correct. A test suite can have 100% coverage but still miss defects.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Confusing MC/DC with Branch Coverage
+## 📊 Trap 4: Confusing MC/DC with Branch Coverage
 
 **Trap:** MC/DC is more rigorous than branch coverage. Branch coverage requires each decision outcome. MC/DC additionally requires each condition to independently affect the outcome.
 
@@ -65,7 +65,7 @@
 
 ---
 
-## Trap 5: Thinking Path Coverage Is Always Achievable
+## 📊 Trap 5: Thinking Path Coverage Is Always Achievable
 
 **Trap:** Path coverage requires every path through the code to be executed. For code with loops, the number of paths is infinite or very large. Path coverage is often impractical.
 

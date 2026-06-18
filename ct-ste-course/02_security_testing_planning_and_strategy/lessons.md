@@ -1,10 +1,10 @@
-# Chapter 2 — Security Testing Planning and Strategy: Lessons
+# 📘 Chapter 2 — Security Testing Planning and Strategy: Lessons
 
 ---
 
-## 2.1 Risk Assessment for Security Testing
+## ⚠️ 2.1 Risk Assessment for Security Testing
 
-### Risk Formula
+### ⚠️ Risk Formula
 
 Risk = Threat × Vulnerability × Impact
 
@@ -14,7 +14,7 @@ Risk = Threat × Vulnerability × Impact
 | **Vulnerability** | Weakness that could be exploited |
 | **Impact** | Business consequence if exploited |
 
-### Risk Assessment Steps
+### ⚠️ Risk Assessment Steps
 
 1. **Identify assets** — What are we protecting?
 2. **Identify threats** — Who/what might attack?
@@ -24,7 +24,7 @@ Risk = Threat × Vulnerability × Impact
 6. **Calculate risk** — Combine likelihood and impact
 7. **Prioritize** — Address highest risks first
 
-### Risk Matrix
+### ⚠️ Risk Matrix
 
 | Likelihood \ Impact | Low | Medium | High |
 |---------------------|-----|--------|------|
@@ -34,9 +34,9 @@ Risk = Threat × Vulnerability × Impact
 
 ---
 
-## 2.2 Security Test Scope
+## 🔒 2.2 Security Test Scope
 
-### Scope Determinants
+### 🔷 Scope Determinants
 
 | Factor | Influence on Scope |
 |--------|-----------------|
@@ -46,7 +46,7 @@ Risk = Threat × Vulnerability × Impact
 | **Compliance requirements** | Regulations mandate specific tests |
 | **Budget and time** | Risk-based prioritization |
 
-### In-Scope vs Out-of-Scope
+### 🔷 In-Scope vs Out-of-Scope
 
 | Typically In-Scope | Typically Out-of-Scope |
 |-------------------|------------------------|
@@ -57,9 +57,9 @@ Risk = Threat × Vulnerability × Impact
 
 ---
 
-## 2.3 Security Test Strategy
+## ♟️ 2.3 Security Test Strategy
 
-### Strategy Components
+### ♟️ Strategy Components
 
 | Component | Description |
 |-----------|-------------|
@@ -71,7 +71,7 @@ Risk = Threat × Vulnerability × Impact
 | **Reporting** | Who receives what level of detail |
 | **Remediation** | How findings are tracked and verified |
 
-### Testing Approaches
+### 🔷 Testing Approaches
 
 | Approach | Knowledge | When to Use |
 |----------|-----------|-------------|
@@ -79,7 +79,7 @@ Risk = Threat × Vulnerability × Impact
 | **Black-box** | No internal knowledge | Simulate real attacker |
 | **Grey-box** | Limited knowledge (user access, docs) | Balance of realism and efficiency |
 
-### Test Levels
+### 🪜 Test Levels
 
 | Level | Focus | Examples |
 |-------|-------|----------|
@@ -90,9 +90,9 @@ Risk = Threat × Vulnerability × Impact
 
 ---
 
-## 2.4 Compliance-Driven Testing
+## ⭐ 2.4 Compliance-Driven Testing
 
-### Common Standards
+### 🔷 Common Standards
 
 | Standard | Domain | Key Testing Requirements |
 |----------|--------|-------------------------|
@@ -102,7 +102,7 @@ Risk = Threat × Vulnerability × Impact
 | **ISO 27001** | Information security | Risk management, controls testing |
 | **SOC 2** | Service organizations | Security, availability, confidentiality |
 
-### Mapping Tests to Requirements
+### 📑 Mapping Tests to Requirements
 
 | Requirement | Test |
 |-------------|------|
@@ -112,9 +112,9 @@ Risk = Threat × Vulnerability × Impact
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Risk Assessment
+### 💡 Worked Example 1: Risk Assessment
 
 **Scenario:** Online banking application.
 
@@ -127,7 +127,7 @@ Risk = Threat × Vulnerability × Impact
 
 **Priority:** Address account and transaction risks first.
 
-### Worked Example 2: Scope Definition
+### 💡 Worked Example 2: Scope Definition
 
 **Scenario:** Test a healthcare patient portal.
 
@@ -144,7 +144,7 @@ Risk = Threat × Vulnerability × Impact
 - Staff background checks
 - Mobile app (separate project)
 
-### Worked Example 3: Strategy Selection
+### 💡 Worked Example 3: Strategy Selection
 
 **Scenario:** Choose approach for a new fintech startup.
 

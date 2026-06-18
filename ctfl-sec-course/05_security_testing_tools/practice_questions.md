@@ -1,8 +1,8 @@
-# Chapter 5 — Security Testing Tools: Practice Questions
+# ❓ Chapter 5 — Security Testing Tools: Practice Questions
 
 ---
 
-### Q1 (SEC-5.1, K2)
+### 🔷 Q1 (SEC-5.1, K2)
 
 SAST tools analyze:
 
@@ -13,7 +13,7 @@ D. Only user behavior
 
 ---
 
-### Q2 (SEC-5.2, K2)
+### 🔷 Q2 (SEC-5.2, K2)
 
 DAST tools test:
 
@@ -24,7 +24,7 @@ D. Only design specs
 
 ---
 
-### Q3 (SEC-5.3, K2)
+### 🔷 Q3 (SEC-5.3, K2)
 
 Nmap is used for:
 
@@ -35,7 +35,7 @@ D. Only UI testing
 
 ---
 
-### Q4 (SEC-5.4, K2)
+### 🔷 Q4 (SEC-5.4, K2)
 
 Tool selection should consider:
 
@@ -46,7 +46,7 @@ D. Only color scheme
 
 ---
 
-### Q5 (SEC-5.5, K2)
+### 🔷 Q5 (SEC-5.5, K2)
 
 False positives are:
 
@@ -57,7 +57,7 @@ D. Only user mistakes
 
 ---
 
-### Q6 (SEC-5.1, K2)
+### 🔷 Q6 (SEC-5.1, K2)
 
 SonarQube is an example of:
 
@@ -68,7 +68,7 @@ D. Only a password cracker
 
 ---
 
-### Q7 (SEC-5.2, K2)
+### 🔷 Q7 (SEC-5.2, K2)
 
 OWASP ZAP is:
 
@@ -79,7 +79,7 @@ D. Only a unit test framework
 
 ---
 
-### Q8 (SEC-5.3, K2)
+### 🔷 Q8 (SEC-5.3, K2)
 
 SQLMap is used for:
 
@@ -90,7 +90,7 @@ D. Only authentication testing
 
 ---
 
-### Q9 (SEC-5.4, K2)
+### 🔷 Q9 (SEC-5.4, K2)
 
 CI/CD integration for security tools:
 
@@ -101,7 +101,7 @@ D. Only for manual testing
 
 ---
 
-### Q10 (SEC-5.5, K2)
+### 🔷 Q10 (SEC-5.5, K2)
 
 False negatives mean:
 
@@ -112,7 +112,7 @@ D. Only user errors
 
 ---
 
-### Q11 (SEC-5.1, K2)
+### 🔷 Q11 (SEC-5.1, K2)
 
 Bandit is a SAST tool for:
 
@@ -123,7 +123,7 @@ D. Only JavaScript
 
 ---
 
-### Q12 (SEC-5.2, K2)
+### 🔷 Q12 (SEC-5.2, K2)
 
 Burp Suite is primarily:
 
@@ -134,7 +134,7 @@ D. Only for desktop
 
 ---
 
-### Q13 (SEC-5.3, K2)
+### 🔷 Q13 (SEC-5.3, K2)
 
 Nessus is used for:
 
@@ -145,7 +145,7 @@ D. Only performance testing
 
 ---
 
-### Q14 (SEC-5.4, K2)
+### 🔷 Q14 (SEC-5.4, K2)
 
 Tool accuracy is affected by:
 
@@ -156,7 +156,7 @@ D. Only color
 
 ---
 
-### Q15 (SEC-5.5, K2)
+### 🔷 Q15 (SEC-5.5, K2)
 
 Business logic flaws:
 
@@ -167,7 +167,7 @@ D. Only exist in mobile apps
 
 ---
 
-### Q16 (SEC-5.1, K2)
+### 🔷 Q16 (SEC-5.1, K2)
 
 IDE integration for SAST tools:
 
@@ -178,7 +178,7 @@ D. Only for senior developers
 
 ---
 
-### Q17 (SEC-5.2, K2)
+### 🔷 Q17 (SEC-5.2, K2)
 
 DAST tools can test:
 
@@ -189,7 +189,7 @@ D. Only CSS files
 
 ---
 
-### Q18 (SEC-5.3, K2)
+### 🔷 Q18 (SEC-5.3, K2)
 
 John the Ripper tests:
 
@@ -200,7 +200,7 @@ D. Only CSRF
 
 ---
 
-### Q19 (SEC-5.4, K3)
+### 🔷 Q19 (SEC-5.4, K3)
 
 For a Java application, a suitable SAST tool is:
 
@@ -211,7 +211,7 @@ D. Only Nmap
 
 ---
 
-### Q20 (SEC-5.5, K2)
+### 🔷 Q20 (SEC-5.5, K2)
 
 Zero-day vulnerabilities:
 
@@ -222,84 +222,84 @@ D. Only affect new systems
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** SAST = source code analysis.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** DAST = running application testing.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** Nmap = network scanning.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** Selection = stack + integration + accuracy + coverage + cost.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** False positive = not real vulnerability.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** SonarQube = SAST.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** OWASP ZAP = DAST for web.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** SQLMap = SQL injection testing.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** CI/CD = early + continuous feedback.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** False negative = missed vulnerability.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Bandit = Python SAST.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Burp Suite = commercial web security.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Nessus = network vulnerability scanning.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Accuracy = configuration + rules.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Business logic = manual testing.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** IDE = immediate feedback.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** DAST = public + authenticated.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** John = password strength testing.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Java SAST = SonarQube/Checkmarx.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** Zero-day = may miss until signatures updated.

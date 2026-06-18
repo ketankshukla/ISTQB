@@ -1,4 +1,4 @@
-# CTAL-TM Mock Exam 1
+# 📝 CTAL-TM Mock Exam 1
 
 **Instructions:**
 - 65 questions
@@ -8,7 +8,7 @@
 
 ---
 
-### Q1
+### 🔷 Q1
 
 Which document defines the high-level principles and objectives for testing across an entire organization?
 
@@ -19,7 +19,7 @@ D. Test approach
 
 ---
 
-### Q2
+### 🔷 Q2
 
 A test manager estimates testing effort by breaking the work into individual tasks and summing their estimates. This is:
 
@@ -30,7 +30,7 @@ D. Expert judgment
 
 ---
 
-### Q3
+### 🔷 Q3
 
 The activity of tracking test progress against the test plan is called:
 
@@ -41,7 +41,7 @@ D. Test completion
 
 ---
 
-### Q4
+### 🔷 Q4
 
 Which review type is MOST appropriate for a safety-critical system's requirements document?
 
@@ -52,7 +52,7 @@ D. Inspection
 
 ---
 
-### Q5
+### 🔷 Q5
 
 A test manager reviews test execution reports and notices that 30% of test cases are failing. The manager schedules a meeting with the development team to discuss defect resolution. This is an example of:
 
@@ -63,7 +63,7 @@ D. Test design
 
 ---
 
-### Q6
+### 🔷 Q6
 
 In a walkthrough, who typically leads the review meeting?
 
@@ -74,7 +74,7 @@ D. An external consultant
 
 ---
 
-### Q7
+### 🔷 Q7
 
 Which test organization structure provides the GREATEST objectivity?
 
@@ -85,7 +85,7 @@ D. Agile cross-functional teams
 
 ---
 
-### Q8
+### 🔷 Q8
 
 A defect that causes a system crash is classified as:
 
@@ -96,7 +96,7 @@ D. Critical severity
 
 ---
 
-### Q9
+### 🔷 Q9
 
 Which metric would BEST indicate that additional test design work is needed?
 
@@ -107,7 +107,7 @@ D. 5 testers are assigned to the project
 
 ---
 
-### Q10
+### 🔷 Q10
 
 The PRIMARY purpose of risk-based testing is to:
 
@@ -118,7 +118,7 @@ D. Guarantee zero defects in production
 
 ---
 
-### Q11
+### 🔷 Q11
 
 A 50-page requirements document is reviewed in 5 hours and 20 defects are found. The review efficiency is:
 
@@ -129,7 +129,7 @@ D. 0.4 defects per hour
 
 ---
 
-### Q12
+### 🔷 Q12
 
 A test tool costs $20,000 to purchase. Training costs $8,000. Implementation costs $12,000. Annual maintenance is $4,000. The 2-year total cost of ownership is:
 
@@ -140,7 +140,7 @@ D. $44,000
 
 ---
 
-### Q13
+### 🔷 Q13
 
 Which statement about test automation is TRUE?
 
@@ -151,7 +151,7 @@ D. Automation requires no maintenance effort
 
 ---
 
-### Q14
+### 🔷 Q14
 
 A misspelled company name on the login page is embarrassing but does not affect functionality. It should be classified as:
 
@@ -162,7 +162,7 @@ D. Low severity, low priority
 
 ---
 
-### Q15
+### 🔷 Q15
 
 The relationship between test policy, test strategy, and test plan is:
 
@@ -173,7 +173,7 @@ D. Test strategy and test policy are the same thing
 
 ---
 
-### Q16
+### 🔷 Q16
 
 In the review process, who is responsible for ensuring all identified defects are addressed?
 
@@ -184,7 +184,7 @@ D. The scribe
 
 ---
 
-### Q17
+### 🔷 Q17
 
 Which test is the BEST candidate for automation?
 
@@ -195,7 +195,7 @@ D. A test for a feature with changing requirements
 
 ---
 
-### Q18
+### 🔷 Q18
 
 A team estimates testing effort by taking total development effort (200 person-days) and applying a historical percentage (40%). This is:
 
@@ -206,7 +206,7 @@ D. Parametric estimation
 
 ---
 
-### Q19
+### 🔷 Q19
 
 A project risk is:
 
@@ -217,7 +217,7 @@ D. A risk specific to test execution
 
 ---
 
-### Q20
+### 🔷 Q20
 
 Which of the following is a product risk?
 
@@ -228,7 +228,7 @@ D. Budget is cut by 20%
 
 ---
 
-### Q21
+### 🔷 Q21
 
 A test manager breaks testing into individual tasks, estimates each task, and sums them to get the total effort. This is:
 
@@ -239,7 +239,7 @@ D. Expert judgment
 
 ---
 
-### Q22
+### 🔷 Q22
 
 In a matrix organization, testers report to:
 
@@ -250,7 +250,7 @@ D. No one; they are self-directed
 
 ---
 
-### Q23
+### 🔷 Q23
 
 Wideband Delphi estimation is MOST useful when:
 
@@ -261,7 +261,7 @@ D. The schedule is already fixed
 
 ---
 
-### Q24
+### 🔷 Q24
 
 Which of the following is a characteristic of an inspection?
 
@@ -272,7 +272,7 @@ D. Management attends to monitor progress
 
 ---
 
-### Q25
+### 🔷 Q25
 
 A team uses a capture/replay tool to record user interactions for 500 test cases. After a UI update, 80% of the tests fail. This demonstrates:
 
@@ -283,7 +283,7 @@ D. That manual testing should have been used
 
 ---
 
-### Q26
+### 🔷 Q26
 
 A document stating that "all projects shall perform risk-based testing with at least 80% requirements coverage" is a:
 
@@ -294,7 +294,7 @@ D. Test procedure
 
 ---
 
-### Q27
+### 🔷 Q27
 
 ROI for test automation is calculated as:
 
@@ -305,7 +305,7 @@ D. Costs / Benefits
 
 ---
 
-### Q28
+### 🔷 Q28
 
 A test manager's PRIMARY responsibility is to:
 
@@ -316,7 +316,7 @@ D. Develop the application code
 
 ---
 
-### Q29
+### 🔷 Q29
 
 In a risk assessment, a risk with likelihood = 2 and impact = 5 has a risk priority of:
 
@@ -327,7 +327,7 @@ D. 10
 
 ---
 
-### Q30
+### 🔷 Q30
 
 Which of the following is a test completion activity?
 
@@ -338,7 +338,7 @@ D. Identifying test conditions
 
 ---
 
-### Q31
+### 🔷 Q31
 
 A proof of concept (PoC) for a test tool is conducted to:
 
@@ -349,7 +349,7 @@ D. Obtain a discount from the vendor
 
 ---
 
-### Q32
+### 🔷 Q32
 
 A Page Object Model (POM) in UI automation is used to:
 
@@ -360,7 +360,7 @@ D. Execute tests in parallel
 
 ---
 
-### Q33
+### 🔷 Q33
 
 A team tests a platform by simulating 50,000 concurrent users to verify response times remain under 1 second. This is:
 
@@ -371,7 +371,7 @@ D. Security testing
 
 ---
 
-### Q34
+### 🔷 Q34
 
 Which of the following would be detected during static analysis?
 
@@ -382,7 +382,7 @@ D. The actual defect density after test execution
 
 ---
 
-### Q35
+### 🔷 Q35
 
 The primary purpose of entry criteria is to:
 
@@ -393,7 +393,7 @@ D. Define the test budget
 
 ---
 
-### Q36
+### 🔷 Q36
 
 A test project has executed 80% of planned test cases but only achieved 60% requirements coverage. This suggests:
 
@@ -404,7 +404,7 @@ D. The project should stop testing
 
 ---
 
-### Q37
+### 🔷 Q37
 
 The PRIMARY reason to start with a pilot project before full tool rollout is to:
 
@@ -415,7 +415,7 @@ D. Reduce the need for training
 
 ---
 
-### Q38
+### 🔷 Q38
 
 Which factor is MOST likely to demotivate a test team?
 
@@ -426,7 +426,7 @@ D. Clear and achievable goals
 
 ---
 
-### Q39
+### 🔷 Q39
 
 In the context of test management, "suspension criteria" define:
 
@@ -437,7 +437,7 @@ D. When the test plan should be approved
 
 ---
 
-### Q40
+### 🔷 Q40
 
 A testing team wants to verify that code follows secure coding standards. The best approach is:
 
@@ -448,7 +448,7 @@ D. Checking the design documents
 
 ---
 
-### Q41
+### 🔷 Q41
 
 Which of the following describes the relationship between a test strategy and a test plan?
 
@@ -459,7 +459,7 @@ D. The test plan is created first, then the test strategy
 
 ---
 
-### Q42
+### 🔷 Q42
 
 The Defect Detection Percentage (DDP) is calculated as:
 
@@ -470,7 +470,7 @@ D. Open defects / Closed defects
 
 ---
 
-### Q43
+### 🔷 Q43
 
 In test management, a "line" item in a Work Breakdown Structure (WBS) represents:
 
@@ -481,7 +481,7 @@ D. A type of test coverage
 
 ---
 
-### Q44
+### 🔷 Q44
 
 Which of the following is a MAJOR consideration when selecting a test management tool?
 
@@ -492,7 +492,7 @@ D. Whether the tool has a mobile app
 
 ---
 
-### Q45
+### 🔷 Q45
 
 The difference between a test strategy and a test approach is:
 
@@ -503,7 +503,7 @@ D. A test approach is only used in agile projects
 
 ---
 
-### Q46
+### 🔷 Q46
 
 A test manager observes that the defect find rate is decreasing while test execution continues at the same pace. This MOST likely indicates:
 
@@ -514,7 +514,7 @@ D. The developers have stopped fixing defects
 
 ---
 
-### Q47
+### 🔷 Q47
 
 Which of the following is a key responsibility of the test manager during test planning?
 
@@ -525,7 +525,7 @@ D. Approving the final release without review
 
 ---
 
-### Q48
+### 🔷 Q48
 
 A testing team wants to improve the maintainability of their UI automation. They should adopt:
 
@@ -536,7 +536,7 @@ D. Fewer automated tests
 
 ---
 
-### Q49
+### 🔷 Q49
 
 Which of the following describes the PRIMARY benefit of independent testing?
 
@@ -547,7 +547,7 @@ D. Better domain knowledge of the system
 
 ---
 
-### Q50
+### 🔷 Q50
 
 A "don't care" entry in a decision table means:
 
@@ -558,7 +558,7 @@ D. The rule should be removed
 
 ---
 
-### Q51
+### 🔷 Q51
 
 In a risk-based testing approach, tests should be prioritized based on:
 
@@ -569,7 +569,7 @@ D. The preference of the development team
 
 ---
 
-### Q52
+### 🔷 Q52
 
 Which of the following is a MAJOR consideration when deciding whether to automate a test?
 
@@ -580,7 +580,7 @@ D. Whether the test is easy to write manually
 
 ---
 
-### Q53
+### 🔷 Q53
 
 The PRIMARY purpose of exit criteria is to:
 
@@ -591,7 +591,7 @@ D. Define the tools to be used
 
 ---
 
-### Q54
+### 🔷 Q54
 
 A test manager is evaluating whether to purchase a commercial test tool or use an open-source alternative. The PRIMARY factor should be:
 
@@ -602,7 +602,7 @@ D. Whether competitors use the same tool
 
 ---
 
-### Q55
+### 🔷 Q55
 
 Which of the following is a characteristic of a successful review?
 
@@ -613,7 +613,7 @@ D. Reviews are conducted without any preparation
 
 ---
 
-### Q56
+### 🔷 Q56
 
 A test team has 150 defects found in testing. After release, 10 more defects are found by users. The approximate Defect Detection Percentage (DDP) is:
 
@@ -624,7 +624,7 @@ D. 100%
 
 ---
 
-### Q57
+### 🔷 Q57
 
 Which of the following describes an integrated test organization?
 
@@ -635,7 +635,7 @@ D. Testers are external consultants hired for the project
 
 ---
 
-### Q58
+### 🔷 Q58
 
 The PRIMARY purpose of a test summary report is to:
 
@@ -646,7 +646,7 @@ D. Assign blame for defects found
 
 ---
 
-### Q59
+### 🔷 Q59
 
 In the context of estimation, contingency is added to:
 
@@ -657,7 +657,7 @@ D. Reduce the number of test cases
 
 ---
 
-### Q60
+### 🔷 Q60
 
 Which of the following would be the BEST indicator that a test automation initiative is successful?
 
@@ -668,7 +668,7 @@ D. The automation team has 10 engineers
 
 ---
 
-### Q61
+### 🔷 Q61
 
 A test manager notices that the test execution schedule is falling behind due to environment unavailability. The MOST appropriate control action is:
 
@@ -679,7 +679,7 @@ D. Skip the remaining tests and report success
 
 ---
 
-### Q62
+### 🔷 Q62
 
 Which of the following is a PRIMARY purpose of test monitoring?
 
@@ -690,7 +690,7 @@ D. To fix defects found during testing
 
 ---
 
-### Q63
+### 🔷 Q63
 
 Failure Mode and Effect Analysis (FMEA) is a technique used for:
 
@@ -701,7 +701,7 @@ D. Managing test team schedules
 
 ---
 
-### Q64
+### 🔷 Q64
 
 A test manager is considering whether to automate regression tests for a web application. The regression suite currently takes 3 weeks manually and is executed 6 times per year. The MOST compelling reason to automate is:
 
@@ -712,7 +712,7 @@ D. Because management requested it
 
 ---
 
-### Q65
+### 🔷 Q65
 
 Which of the following is the BEST description of a test manager's role in reviews?
 
@@ -723,4 +723,4 @@ D. The test manager writes all documents that are reviewed
 
 ---
 
-## End of Mock Exam 1
+## 📝 End of Mock Exam 1

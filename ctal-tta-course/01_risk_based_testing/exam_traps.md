@@ -1,6 +1,6 @@
-# Chapter 1 — Risk-Based Testing: Exam Traps
+# 🪤 Chapter 1 — Risk-Based Testing: Exam Traps
 
-## Trap 1: Confusing Technical Risks with Project/Business Risks
+## 🪤 Trap 1: Confusing Technical Risks with Project/Business Risks
 
 **Trap:** Technical test analysts focus on code, technology, security, and performance risks. Schedule and budget risks are project management concerns.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Thinking All Risks Require the Same Testing Approach
+## 🪤 Trap 2: Thinking All Risks Require the Same Testing Approach
 
 **Trap:** Different technical risks require different testing techniques. One-size-fits-all testing is inefficient.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Confusing FMEA with Fault Tree Analysis
+## 🪤 Trap 3: Confusing FMEA with Fault Tree Analysis
 
 **Trap:** FMEA is bottom-up (component-by-component failure analysis). Fault tree analysis is top-down (starting from a system failure and working backward).
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Thinking Risk Priority Number (RPN) Is the Only Factor
+## 🪤 Trap 4: Thinking Risk Priority Number (RPN) Is the Only Factor
 
 **Trap:** RPN = Severity x Likelihood x Detectability. However, some organizations may weight severity more heavily, or have mandatory actions for certain severity levels regardless of RPN.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Forgetting That Technical Test Analysts Contribute to Risk Identification
+## 🪤 Trap 5: Forgetting That Technical Test Analysts Contribute to Risk Identification
 
 **Trap:** Technical test analysts participate in risk identification by analyzing architecture, design, and code — not just executing tests after risks are identified.
 

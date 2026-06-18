@@ -1,8 +1,8 @@
-# Chapter 3 — Shift-Left Testing Practices: Practice Questions
+# ❓ Chapter 3 — Shift-Left Testing Practices: Practice Questions
 
 ---
 
-### Q1 (QDO-3.1, K2)
+### 🔷 Q1 (QDO-3.1, K2)
 
 Shift-left testing primarily aims to:
 
@@ -13,7 +13,7 @@ D. Eliminate all test automation
 
 ---
 
-### Q2 (QDO-3.2, K2)
+### 🔷 Q2 (QDO-3.2, K2)
 
 In TDD, the correct sequence is:
 
@@ -24,7 +24,7 @@ D. Write code and skip tests
 
 ---
 
-### Q3 (QDO-3.3, K2)
+### 🔷 Q3 (QDO-3.3, K2)
 
 Contract testing is most valuable when:
 
@@ -35,7 +35,7 @@ D. Only for database testing
 
 ---
 
-### Q4 (QDO-3.4, K2)
+### 🔷 Q4 (QDO-3.4, K2)
 
 SAST analyzes code:
 
@@ -46,7 +46,7 @@ D. Only manually
 
 ---
 
-### Q5 (QDO-3.1, K2)
+### 🔷 Q5 (QDO-3.1, K2)
 
 A code review checklist should include:
 
@@ -57,7 +57,7 @@ D. Only comments
 
 ---
 
-### Q6 (QDO-3.2, K2)
+### 🔷 Q6 (QDO-3.2, K2)
 
 BDD scenarios written in Given-When-Then format primarily serve:
 
@@ -68,7 +68,7 @@ D. Only database queries
 
 ---
 
-### Q7 (QDO-3.3, K2)
+### 🔷 Q7 (QDO-3.3, K2)
 
 Pact is a tool for:
 
@@ -79,7 +79,7 @@ D. Security scanning
 
 ---
 
-### Q8 (QDO-3.4, K2)
+### 🔷 Q8 (QDO-3.4, K2)
 
 A linter in a CI pipeline:
 
@@ -90,7 +90,7 @@ D. Only deploys applications
 
 ---
 
-### Q9 (QDO-3.1, K2)
+### 🔷 Q9 (QDO-3.1, K2)
 
 Pair programming provides:
 
@@ -101,7 +101,7 @@ D. No quality benefits
 
 ---
 
-### Q10 (QDO-3.2, K3)
+### 🔷 Q10 (QDO-3.2, K3)
 
 A team writes Given-When-Then scenarios with business analysts before development starts. This is:
 
@@ -112,7 +112,7 @@ D. Only exploratory testing
 
 ---
 
-### Q11 (QDO-3.3, K2)
+### 🔷 Q11 (QDO-3.3, K2)
 
 The PRIMARY difference between contract tests and integration tests:
 
@@ -123,7 +123,7 @@ D. Integration tests are only manual
 
 ---
 
-### Q12 (QDO-3.4, K2)
+### 🔷 Q12 (QDO-3.4, K2)
 
 SonarQube quality gates should:
 
@@ -134,7 +134,7 @@ D. Only run after production deployment
 
 ---
 
-### Q13 (QDO-3.1, K2)
+### 🔷 Q13 (QDO-3.1, K2)
 
 Pre-commit hooks typically run:
 
@@ -145,7 +145,7 @@ D. Only during code review
 
 ---
 
-### Q14 (QDO-3.2, K2)
+### 🔷 Q14 (QDO-3.2, K2)
 
 The Three Amigos in BDD refers to:
 
@@ -156,7 +156,7 @@ D. Three project phases
 
 ---
 
-### Q15 (QDO-3.3, K2)
+### 🔷 Q15 (QDO-3.3, K2)
 
 Consumer-driven contract testing means:
 
@@ -167,7 +167,7 @@ D. Only performance testing
 
 ---
 
-### Q16 (QDO-3.4, K2)
+### 🔷 Q16 (QDO-3.4, K2)
 
 Static analysis can detect:
 
@@ -178,7 +178,7 @@ D. Only network latency
 
 ---
 
-### Q17 (QDO-3.1, K2)
+### 🔷 Q17 (QDO-3.1, K2)
 
 Mob programming is:
 
@@ -189,7 +189,7 @@ D. Only for testing
 
 ---
 
-### Q18 (QDO-3.2, K3)
+### 🔷 Q18 (QDO-3.2, K3)
 
 A team finds 60% of defects in production. The best shift-left improvement is:
 
@@ -200,7 +200,7 @@ D. Increase release frequency without testing
 
 ---
 
-### Q19 (QDO-3.3, K2)
+### 🔷 Q19 (QDO-3.3, K2)
 
 Contract tests allow microservices to be tested:
 
@@ -211,7 +211,7 @@ D. Only manually
 
 ---
 
-### Q20 (QDO-3.4, K2)
+### 🔷 Q20 (QDO-3.4, K2)
 
 A pull request should be reviewed by:
 
@@ -222,84 +222,84 @@ D. Only the project manager
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** Shift-left = find defects early when cheaper to fix.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** TDD = red (failing test), green (pass), refactor.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** Contract testing = microservice interactions.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** SAST = static analysis without execution.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Code review covers security, performance, coverage, maintainability.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** BDD = shared understanding across roles.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Pact = consumer-driven contract testing.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Linter = style enforcement and error detection.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** Pair programming = real-time review and knowledge sharing.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** GWT with business before dev = BDD.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Contract = API structure; Integration = behavior and data flow.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Quality gates should block on critical issues.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Pre-commit hooks run before commit finalization.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Three Amigos = BA, dev, tester collaboration.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Consumer-driven = consumer defines expectations.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Static analysis finds vulnerabilities and bugs without execution.
 
-### Q17
+### 🔷 Q17
 **Answer: A**
 **Rationale:** Mob = one codes, team reviews together in real time.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** TDD, code review, static analysis = shift-left practices.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Contract tests enable independent testing.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** PRs require at least one reviewer before merge.

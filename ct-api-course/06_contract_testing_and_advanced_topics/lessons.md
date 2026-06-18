@@ -1,10 +1,10 @@
-# Chapter 6 — Contract Testing and Advanced Topics: Lessons
+# 📘 Chapter 6 — Contract Testing and Advanced Topics: Lessons
 
 ---
 
-## 6.1 Consumer-Driven Contract Testing
+## ⭐ 6.1 Consumer-Driven Contract Testing
 
-### The Problem
+### 🔷 The Problem
 
 In microservices architectures:
 - Service A (consumer) depends on Service B (provider)
@@ -12,7 +12,7 @@ In microservices architectures:
 - Integration tests are expensive and slow
 - Service A's tests may pass in isolation but fail when integrated
 
-### Contract Testing Solution
+### 🔷 Contract Testing Solution
 
 **Definition:** Contract testing verifies that the interactions between services meet the agreed contract, without requiring both services to be running together.
 
@@ -22,7 +22,7 @@ In microservices architectures:
 3. Provider verifies it satisfies the contract
 4. Both sides independently verify without integration tests
 
-### Pact
+### 🔷 Pact
 
 **Pact** is the most popular contract testing framework.
 
@@ -91,7 +91,7 @@ pact-verifier \
     --provider-app-version 1.2.3
 ```
 
-### Contract Testing vs. Integration Testing
+### 🔗 Contract Testing vs. Integration Testing
 
 | Aspect | Contract Testing | Integration Testing |
 |--------|-----------------|-------------------|
@@ -101,7 +101,7 @@ pact-verifier \
 | Coverage | Verifies contract only | Verifies actual integration |
 | CI/CD friendly | Yes | More complex |
 
-### When to Use Contract Testing
+### 🔷 When to Use Contract Testing
 
 - **Many microservices:** Integration testing becomes impractical
 - **Independent teams:** Consumer and provider teams need independent verification
@@ -110,9 +110,9 @@ pact-verifier \
 
 ---
 
-## 6.2 Schema Validation
+## ⭐ 6.2 Schema Validation
 
-### JSON Schema
+### 🔷 JSON Schema
 
 **Purpose:** Define the expected structure of JSON data.
 
@@ -141,7 +141,7 @@ const valid = validate(response.body);
 expect(valid).toBe(true);
 ```
 
-### XML Schema (XSD)
+### 🔷 XML Schema (XSD)
 
 **Purpose:** Define structure and data types for XML documents.
 
@@ -160,7 +160,7 @@ expect(valid).toBe(true);
 </xs:schema>
 ```
 
-### WSDL Validation (SOAP)
+### 🔷 WSDL Validation (SOAP)
 
 **WSDL** defines:
 - Operations (methods available)
@@ -170,7 +170,7 @@ expect(valid).toBe(true);
 
 **Testing:** Validate that SOAP requests/responses conform to WSDL definitions.
 
-### Schema Validation Benefits
+### 🔷 Schema Validation Benefits
 
 1. **Early error detection:** Catch format issues before processing
 2. **Documentation:** Schema serves as API documentation
@@ -179,15 +179,15 @@ expect(valid).toBe(true);
 
 ---
 
-## 6.3 API Versioning
+## 🔌 6.3 API Versioning
 
-### Why Version APIs?
+### 🔌 Why Version APIs?
 
 - APIs evolve over time
 - Consumers need time to migrate
 - Breaking changes must be managed
 
-### Versioning Strategies
+### 🔷 Versioning Strategies
 
 **1. URL Versioning:**
 ```
@@ -219,7 +219,7 @@ Accept: application/json; version=2
 - **Pros:** HTTP standard approach
 - **Cons:** Complex for some clients
 
-### Best Practices
+### ❓ Best Practices
 
 - **Use URL versioning** for most public APIs (clearest)
 - **Maintain at least one previous version** for deprecation period
@@ -229,13 +229,13 @@ Accept: application/json; version=2
 
 ---
 
-## 6.4 Backward Compatibility Testing
+## ⭐ 6.4 Backward Compatibility Testing
 
-### What Is Backward Compatibility?
+### 🔷 What Is Backward Compatibility?
 
 A new API version is backward compatible if existing clients continue to work without changes.
 
-### Breaking vs. Non-Breaking Changes
+### 🔷 Breaking vs. Non-Breaking Changes
 
 **Non-Breaking (Safe):**
 - Adding new endpoints
@@ -252,7 +252,7 @@ A new API version is backward compatible if existing clients continue to work wi
 - Changing URL structure
 - Changing authentication requirements
 
-### Testing Backward Compatibility
+### 🔷 Testing Backward Compatibility
 
 **1. Response Contract Tests:**
 - Verify old clients can still parse responses
@@ -270,9 +270,9 @@ A new API version is backward compatible if existing clients continue to work wi
 
 ---
 
-## 6.5 API Documentation and Discovery
+## 🔌 6.5 API Documentation and Discovery
 
-### OpenAPI (Swagger)
+### 🔌 OpenAPI (Swagger)
 
 **Benefits:**
 - Machine-readable API specification
@@ -287,7 +287,7 @@ A new API version is backward compatible if existing clients continue to work wi
 4. Generate client SDKs
 5. Validate tests against spec
 
-### API Discovery
+### 🔌 API Discovery
 
 **Service Registries:**
 - Consul, Eureka, etcd
@@ -298,7 +298,7 @@ A new API version is backward compatible if existing clients continue to work wi
 - Catalog of available APIs
 - Documentation, usage examples, pricing
 
-### Testing API Documentation
+### 🔌 Testing API Documentation
 
 **1. Documentation Accuracy:**
 - Verify documented endpoints exist
@@ -313,9 +313,9 @@ A new API version is backward compatible if existing clients continue to work wi
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Contract Testing with Pact
+### 💡 Worked Example 1: Contract Testing with Pact
 
 **Scenario:** A mobile app (consumer) uses a user service API (provider).
 
@@ -344,7 +344,7 @@ pact-verifier --provider UserAPI --pact-url ./pacts/mobileapp-userapi.json
 
 **Benefit:** If the User API team changes the response format (e.g., renames `name` to `fullName`), the provider verification fails, alerting the team before deployment.
 
-### Worked Example 2: Backward Compatibility Check
+### 💡 Worked Example 2: Backward Compatibility Check
 
 **Scenario:** An e-commerce API is moving from v1 to v2.
 
@@ -391,7 +391,7 @@ pact-verifier --provider UserAPI --pact-url ./pacts/mobileapp-userapi.json
 
 **Verdict:** Breaking change. Existing clients will break. Must be `/v2/products`.
 
-### Worked Example 3: Schema Validation
+### 💡 Worked Example 3: Schema Validation
 
 **Scenario:** An API must return user data matching a strict schema.
 

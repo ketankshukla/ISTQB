@@ -1,6 +1,6 @@
-# Chapter 6 — Security Testing Tools and Automation: Exam Traps
+# 🪤 Chapter 6 — Security Testing Tools and Automation: Exam Traps
 
-## Trap 1: Confusing SAST, DAST, IAST, and SCA
+## 🪤 Trap 1: Confusing SAST, DAST, IAST, and SCA
 
 **Trap:** These are distinct tool categories with different purposes. Exams test whether you know which to use when.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Thinking One Tool Is Sufficient
+## 🪤 Trap 2: Thinking One Tool Is Sufficient
 
 **Trap:** Comprehensive security requires multiple tools at different stages. No single tool finds everything.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Running DAST on Production
+## 🪤 Trap 3: Running DAST on Production
 
 **Trap:** DAST can be destructive (it sends attack payloads). It should run on staging/test environments, not production.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Confusing Network Scanners with Application Scanners
+## 🪤 Trap 4: Confusing Network Scanners with Application Scanners
 
 **Trap:** Nmap and Nessus scan networks and hosts. OWASP ZAP and Burp Suite scan web applications. They serve different purposes.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Ignoring CI/CD Security Integration
+## 🪤 Trap 5: Ignoring CI/CD Security Integration
 
 **Trap:** Security tools should be integrated into CI/CD, not run as one-off manual activities. Shift-left requires automation.
 

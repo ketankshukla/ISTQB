@@ -1,8 +1,8 @@
-# Chapter 4 — Performance Test Design: Practice Questions
+# ❓ Chapter 4 — Performance Test Design: Practice Questions
 
 ---
 
-### Q1 (PT-4.1, K2)
+### 🔷 Q1 (PT-4.1, K2)
 
 A critical path scenario tests:
 
@@ -13,7 +13,7 @@ D. Only registration
 
 ---
 
-### Q2 (PT-4.2, K2)
+### 🔷 Q2 (PT-4.2, K2)
 
 The 90th percentile response time:
 
@@ -24,7 +24,7 @@ D. Only applies to load tests
 
 ---
 
-### Q3 (PT-4.3, K2)
+### 🔷 Q3 (PT-4.3, K2)
 
 Think time in workload modeling:
 
@@ -35,7 +35,7 @@ D. Only applies to mobile
 
 ---
 
-### Q4 (PT-4.1, K2)
+### 🔷 Q4 (PT-4.1, K2)
 
 A transaction mix of 70% browse, 20% search, 10% buy represents:
 
@@ -46,7 +46,7 @@ D. Only admin functions
 
 ---
 
-### Q5 (PT-4.2, K2)
+### 🔷 Q5 (PT-4.2, K2)
 
 SLA thresholds are:
 
@@ -57,7 +57,7 @@ D. Only estimates
 
 ---
 
-### Q6 (PT-4.3, K2)
+### 🔷 Q6 (PT-4.3, K2)
 
 Linear ramp-up means:
 
@@ -68,7 +68,7 @@ D. Only decreasing load
 
 ---
 
-### Q7 (PT-4.4, K2)
+### 🔷 Q7 (PT-4.4, K2)
 
 Parameterized test data:
 
@@ -79,7 +79,7 @@ D. Only applies to unit tests
 
 ---
 
-### Q8 (PT-4.1, K2)
+### 🔷 Q8 (PT-4.1, K2)
 
 Pacing between iterations:
 
@@ -90,7 +90,7 @@ D. Only applies to stress tests
 
 ---
 
-### Q9 (PT-4.2, K2)
+### 🔷 Q9 (PT-4.2, K2)
 
 A baseline measurement:
 
@@ -101,7 +101,7 @@ D. Only measures peak load
 
 ---
 
-### Q10 (PT-4.3, K3)
+### 🔷 Q10 (PT-4.3, K3)
 
 A spike ramp-up pattern is used for:
 
@@ -112,7 +112,7 @@ D. Only volume tests
 
 ---
 
-### Q11 (PT-4.4, K2)
+### 🔷 Q11 (PT-4.4, K2)
 
 Assertions in test scripts:
 
@@ -123,7 +123,7 @@ D. Only apply to security tests
 
 ---
 
-### Q12 (PT-4.1, K2)
+### 🔷 Q12 (PT-4.1, K2)
 
 A regression performance scenario tests:
 
@@ -134,7 +134,7 @@ D. Only logout
 
 ---
 
-### Q13 (PT-4.2, K2)
+### 🔷 Q13 (PT-4.2, K2)
 
 SLO stands for:
 
@@ -145,7 +145,7 @@ D. Software Limit Objective
 
 ---
 
-### Q14 (PT-4.3, K2)
+### 🔷 Q14 (PT-4.3, K2)
 
 User profiles in workload modeling:
 
@@ -156,7 +156,7 @@ D. Only apply to banking
 
 ---
 
-### Q15 (PT-4.4, K2)
+### 🔷 Q15 (PT-4.4, K2)
 
 Correlation in test scripts handles:
 
@@ -167,7 +167,7 @@ D. Only passwords
 
 ---
 
-### Q16 (PT-4.1, K2)
+### 🔷 Q16 (PT-4.1, K2)
 
 A stress point scenario focuses on:
 
@@ -178,7 +178,7 @@ D. Only login
 
 ---
 
-### Q17 (PT-4.2, K2)
+### 🔷 Q17 (PT-4.2, K2)
 
 Error rate threshold of 0.1% means:
 
@@ -189,7 +189,7 @@ D. Only 0.1% of CPU is used
 
 ---
 
-### Q18 (PT-4.3, K2)
+### 🔷 Q18 (PT-4.3, K2)
 
 Step ramp-up pattern:
 
@@ -200,7 +200,7 @@ D. Only applies to spike tests
 
 ---
 
-### Q19 (PT-4.4, K2)
+### 🔷 Q19 (PT-4.4, K2)
 
 Cleanup in test scripts:
 
@@ -211,7 +211,7 @@ D. Only restarts servers
 
 ---
 
-### Q20 (PT-4.2, K3)
+### 🔷 Q20 (PT-4.2, K3)
 
 If 95th percentile response time is 3 seconds but average is 1 second:
 
@@ -222,84 +222,84 @@ D. Only the network is slow
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** Critical path = most important journey.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** 90th percentile = 90% of users experience this or better.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** Think time = realistic user pauses.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** Mix = realistic activity distribution.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** SLA = contractual commitment.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Linear = gradual increase.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Parameterized = realistic variation.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Pacing = controls repeat rate.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** Baseline = reference point.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** Spike = sudden traffic events.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Assertions = verify correctness.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Regression scenario = previous bottleneck.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** SLO = Service Level Objective.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Profiles = different user types.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Correlation = dynamic values.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Stress point = weak areas.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Error rate = % of failed requests.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Step = plateaus at intervals.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Cleanup = reset state.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** High percentile = average hides slow responses.

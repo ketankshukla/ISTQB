@@ -1,10 +1,10 @@
-# CT-GenAI Glossary
+# 📖 CT-GenAI Glossary
 
 Key terms and definitions aligned with the ISTQB CT-GenAI v1.1 syllabus and industry standard usage.
 
 ---
 
-## A
+## ⭐ A
 
 **Adversarial Testing**
 Testing that deliberately introduces perturbations, edge cases, or misleading inputs to evaluate the robustness and security of an AI model.
@@ -17,7 +17,7 @@ The process of removing or obfuscating personally identifiable information (PII)
 
 ---
 
-## B
+## ⭐ B
 
 **Bias (in AI)**
 Systematic and repeatable errors in a model that create unfair outcomes, such as privileging one group over another. Can arise from training data, algorithm design, or human decision-making.
@@ -27,7 +27,7 @@ Testing an AI system without knowledge of its internal structure, training data,
 
 ---
 
-## C
+## ⭐ C
 
 **Chain-of-Thought (CoT) Prompting**
 A prompt engineering technique that encourages the LLM to explain its reasoning step-by-step before delivering the final answer, improving accuracy on complex tasks.
@@ -37,14 +37,14 @@ The maximum amount of text (tokens) an LLM can process in a single prompt, inclu
 
 ---
 
-## D
+## ⭐ D
 
 **Discriminative Model**
 A type of ML model that learns the boundary between classes or predicts labels based on input features (e.g., logistic regression, SVMs, traditional classifiers). Contrast with **Generative Model**.
 
 ---
 
-## E
+## ⭐ E
 
 **Embedding**
 A numerical vector representation of text (or other data) in a high-dimensional space, where semantically similar items are closer together. Used in RAG and semantic search.
@@ -57,7 +57,7 @@ European Union regulation establishing a risk-based framework for AI systems, wi
 
 ---
 
-## F
+## ⭐ F
 
 **Few-Shot Prompting**
 Providing a small number of examples (typically 1-5) within the prompt to demonstrate the desired pattern, format, or reasoning style.
@@ -70,7 +70,7 @@ A large-scale, general-purpose AI model trained on broad data that can be adapte
 
 ---
 
-## G
+## ⭐ G
 
 **Generative AI (GenAI)**
 AI systems capable of generating new content — including text, images, code, audio, or video — based on patterns learned from training data.
@@ -83,7 +83,7 @@ Technical and policy controls that constrain model outputs to prevent harmful, b
 
 ---
 
-## H
+## ⭐ H
 
 **Hallucination**
 A phenomenon where an LLM generates plausible-sounding but factually incorrect, irrelevant, or nonsensical content. A critical risk in testing applications.
@@ -96,7 +96,7 @@ A configuration variable that governs the training process itself (e.g., learnin
 
 ---
 
-## I
+## ⭐ I
 
 **Inference**
 The process of using a trained model to make predictions or generate outputs from new input data.
@@ -106,7 +106,7 @@ The ability of LLMs to learn patterns from examples provided directly in the pro
 
 ---
 
-## L
+## ⭐ L
 
 **Large Language Model (LLM)**
 A foundation model trained on vast text corpora to understand and generate human language. Examples include GPT-4, Claude, Llama, and Gemini.
@@ -116,14 +116,14 @@ The set of practices and tools for operationalizing LLMs, including data managem
 
 ---
 
-## M
+## ⭐ M
 
 **Model Drift**
 The degradation of a model's performance over time due to changes in the underlying data distribution (data drift) or relationship between inputs and outputs (concept drift).
 
 ---
 
-## P
+## ⭐ P
 
 **Prompt**
 The input text provided to an LLM to elicit a desired response or behavior.
@@ -136,7 +136,7 @@ An attack where malicious input is crafted to override the intended prompt instr
 
 ---
 
-## R
+## ⭐ R
 
 **RAG (Retrieval-Augmented Generation)**
 An architecture that enhances LLM responses by retrieving relevant documents or data from an external knowledge base and incorporating them into the prompt.
@@ -149,7 +149,7 @@ Re-testing AI-powered functionality after model updates, prompt changes, or retr
 
 ---
 
-## S
+## ⭐ S
 
 **System Prompt**
 A hidden or meta-level instruction that sets the overall behavior, role, or constraints for an LLM session, separate from user queries.
@@ -159,7 +159,7 @@ Artificially generated data that mimics the statistical properties of real data,
 
 ---
 
-## T
+## ⭐ T
 
 **Temperature**
 A hyperparameter that controls the randomness of LLM outputs. Lower values (e.g., 0.1) produce more deterministic responses; higher values (e.g., 0.9) produce more creative or varied outputs.
@@ -172,21 +172,21 @@ A unit of text (word, subword, or character) used by LLMs to process language. P
 
 ---
 
-## V
+## ⭐ V
 
 **Vector Database**
 A database optimized for storing and querying high-dimensional embeddings, enabling efficient semantic similarity search in RAG systems.
 
 ---
 
-## Z
+## ⭐ Z
 
 **Zero-Shot Prompting**
 Asking an LLM to perform a task without providing any examples in the prompt, relying entirely on the model's pre-trained knowledge. Fast but unpredictable. Best for simple, well-represented tasks. For production testing artifacts, usually requires additional structure such as constraints or format specifications.
 
 ---
 
-## Additional Terms for CT-GenAI Exam Preparation
+## 🎓 Additional Terms for CT-GenAI Exam Preparation
 
 **Catastrophic Forgetting**
 A phenomenon where a fine-tuned model loses previously learned capabilities from its original training. Example: A model fine-tuned on automotive test cases might perform worse on general software testing tasks.

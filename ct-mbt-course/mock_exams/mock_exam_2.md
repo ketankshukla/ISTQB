@@ -1,11 +1,11 @@
-# CT-MBT Mock Exam 2
+# 📝 CT-MBT Mock Exam 2
 
 **Instructions:**
 - 40 questions, 60 minutes, single best answer, no negative marking
 
 ---
 
-### Q1
+### 🔷 Q1
 
 Summative usability testing is PRIMARILY used to:
 
@@ -16,7 +16,7 @@ D. Replace user research
 
 ---
 
-### Q2
+### 🔷 Q2
 
 The think-aloud protocol requires participants to:
 
@@ -27,7 +27,7 @@ D. Work in complete silence
 
 ---
 
-### Q3
+### 🔷 Q3
 
 Heuristic evaluation is conducted by:
 
@@ -38,7 +38,7 @@ D. Automated testing tools
 
 ---
 
-### Q4
+### 🔷 Q4
 
 A cognitive walkthrough is used to evaluate:
 
@@ -49,7 +49,7 @@ D. Code quality
 
 ---
 
-### Q5
+### 🔷 Q5
 
 A team needs quick, inexpensive feedback on a wireframe before investing in development. The BEST method is:
 
@@ -60,7 +60,7 @@ D. A/B testing in production
 
 ---
 
-### Q6
+### 🔷 Q6
 
 A team needs to understand WHY users are confused during checkout. The BEST method is:
 
@@ -71,7 +71,7 @@ D. Guideline review
 
 ---
 
-### Q7
+### 🔷 Q7
 
 Accessibility is BEST described as:
 
@@ -82,7 +82,7 @@ D. Only required for government websites
 
 ---
 
-### Q8
+### 🔷 Q8
 
 WCAG stands for:
 
@@ -93,7 +93,7 @@ D. World Content Accessibility Guidelines
 
 ---
 
-### Q9
+### 🔷 Q9
 
 For WCAG 2.1 Level AA, the minimum contrast ratio for normal text is:
 
@@ -104,7 +104,7 @@ D. 7:1
 
 ---
 
-### Q10
+### 🔷 Q10
 
 The PRIMARY business benefit of usability testing is:
 
@@ -115,7 +115,7 @@ D. It is required by law in all countries
 
 ---
 
-### Q11
+### 🔷 Q11
 
 A test creates an order, which reduces product inventory. Subsequent tests fail due to "out of stock." The BEST fix is:
 
@@ -126,7 +126,7 @@ D. Manually restock inventory before each test run
 
 ---
 
-### Q12
+### 🔷 Q12
 
 Which HTTP method should be used to partially update an existing resource?
 
@@ -137,7 +137,7 @@ D. DELETE
 
 ---
 
-### Q13
+### 🔷 Q13
 
 A "flaky" test is one that:
 
@@ -148,7 +148,7 @@ D. Tests an unimportant feature
 
 ---
 
-### Q14
+### 🔷 Q14
 
 Which framework type is MOST maintainable for a frequently changing web application?
 
@@ -159,7 +159,7 @@ D. Hard-coded XPath in every test
 
 ---
 
-### Q15
+### 🔷 Q15
 
 A TAE fixes a test that fails because the expected result was incorrectly coded. This is:
 
@@ -170,7 +170,7 @@ D. Test retirement
 
 ---
 
-### Q16
+### 🔷 Q16
 
 A team calculates ROI using only initial development costs. The calculated ROI will be:
 
@@ -181,7 +181,7 @@ D. Only valid for the first year
 
 ---
 
-### Q17
+### 🔷 Q17
 
 A dashboard showing ROI trends and automation coverage progress is MOST appropriate for:
 
@@ -192,7 +192,7 @@ D. Business analysts writing requirements
 
 ---
 
-### Q18
+### 🔷 Q18
 
 Big-bang deployment is MOST appropriate when:
 
@@ -203,7 +203,7 @@ D. Management wants minimal risk
 
 ---
 
-### Q19
+### 🔷 Q19
 
 A team has 90% code coverage but frequently ships defects in production. The MOST likely explanation is:
 
@@ -214,7 +214,7 @@ D. Code coverage is the wrong metric to track
 
 ---
 
-### Q20
+### 🔷 Q20
 
 Which metric would BEST indicate that automated tests are finding real defects?
 
@@ -225,7 +225,7 @@ D. Large number of test cases
 
 ---
 
-### Q21
+### 🔷 Q21
 
 A team's TAS uses a commercial tool that the vendor is discontinuing. The BEST action is:
 
@@ -236,7 +236,7 @@ D. Buy 10 years of extra licenses
 
 ---
 
-### Q22
+### 🔷 Q22
 
 A team should allocate approximately what percentage of automation capacity to maintenance?
 
@@ -247,7 +247,7 @@ D. 100%
 
 ---
 
-### Q23
+### 🔷 Q23
 
 In a CI pipeline, the "fail fast" principle means:
 
@@ -258,7 +258,7 @@ D. Stop the pipeline only after all tests complete
 
 ---
 
-### Q24
+### 🔷 Q24
 
 A team automates without clear scope definition. The MOST likely result is:
 
@@ -269,7 +269,7 @@ D. Zero maintenance costs
 
 ---
 
-### Q25
+### 🔷 Q25
 
 The PRIMARY skill a Test Automation Engineer must have is:
 
@@ -280,7 +280,7 @@ D. Graphic design skills
 
 ---
 
-### Q26
+### 🔷 Q26
 
 Which is a PRIMARY difference between severity and priority?
 
@@ -291,7 +291,7 @@ D. Severity is only used in agile projects
 
 ---
 
-### Q27
+### 🔷 Q27
 
 A test completion activity is:
 
@@ -302,7 +302,7 @@ D. Identifying test conditions
 
 ---
 
-### Q28
+### 🔷 Q28
 
 Which review type is led by the author of the document and may serve educational purposes?
 
@@ -313,7 +313,7 @@ D. Inspection
 
 ---
 
-### Q29
+### 🔷 Q29
 
 A test manager collects weekly metrics on test execution progress. This is an example of:
 
@@ -324,7 +324,7 @@ D. Test implementation
 
 ---
 
-### Q30
+### 🔷 Q30
 
 In an inspection, who is typically NOT present during the review meeting?
 
@@ -335,7 +335,7 @@ D. The scribe
 
 ---
 
-### Q31
+### 🔷 Q31
 
 Which test organization structure allows testers to maintain testing skills through a functional manager while meeting project needs?
 
@@ -346,7 +346,7 @@ D. Outsourced testing only
 
 ---
 
-### Q32
+### 🔷 Q32
 
 Which describes the PRIMARY benefit of independent testing?
 
@@ -357,7 +357,7 @@ D. Better domain knowledge of the system
 
 ---
 
-### Q33
+### 🔷 Q33
 
 A test manager is planning a project with well-understood requirements and a stable technology stack. Which estimation technique is MOST appropriate?
 
@@ -368,7 +368,7 @@ D. Random guessing
 
 ---
 
-### Q34
+### 🔷 Q34
 
 Which is a PRIMARY purpose of a test plan?
 
@@ -379,7 +379,7 @@ D. To document the results of all testing
 
 ---
 
-### Q35
+### 🔷 Q35
 
 A testing team is evaluating whether to purchase a commercial test tool or use an open-source alternative. The PRIMARY factor should be:
 
@@ -390,7 +390,7 @@ D. Whether competitors use the same tool
 
 ---
 
-### Q36
+### 🔷 Q36
 
 Which is a PRIMARY difference between severity and priority?
 
@@ -401,7 +401,7 @@ D. Severity is only used in agile projects
 
 ---
 
-### Q37
+### 🔷 Q37
 
 A testing team wants to verify that an RNG produces uniformly distributed numbers between 1 and 100. The best approach is:
 
@@ -412,7 +412,7 @@ D. Checking the source code comments
 
 ---
 
-### Q38
+### 🔷 Q38
 
 A team implements a keyword-driven automation framework. Business analysts can write tests using keywords while engineers maintain the implementation. This approach:
 
@@ -423,7 +423,7 @@ D. Is only suitable for unit testing
 
 ---
 
-### Q39
+### 🔷 Q39
 
 ROI for a test tool is calculated as:
 
@@ -434,7 +434,7 @@ D. Costs / Benefits
 
 ---
 
-### Q40
+### 🔷 Q40
 
 Which is a PRIMARY responsibility of a test manager?
 
@@ -445,4 +445,4 @@ D. Defining the user interface design
 
 ---
 
-## End of Mock Exam 2
+## 📝 End of Mock Exam 2

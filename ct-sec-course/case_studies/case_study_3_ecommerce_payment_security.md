@@ -1,6 +1,6 @@
-# Case Study 3 — E-Commerce Payment Security
+# 📂 Case Study 3 — E-Commerce Payment Security
 
-## Context
+## ⭐ Context
 
 You are the Security Test Manager for ShopMax, an e-commerce platform processing 100,000 transactions daily. The company is preparing for PCI-DSS compliance audit.
 
@@ -23,7 +23,7 @@ You are the Security Test Manager for ShopMax, an e-commerce platform processing
 
 ---
 
-## Task 1: PCI-DSS Scope and Testing
+## ⭐ Task 1: PCI-DSS Scope and Testing
 
 **Question:** Define the PCI-DSS scope and corresponding security tests.
 
@@ -63,7 +63,7 @@ ShopMax uses a hosted payment page (Stripe). Card data never touches ShopMax ser
 
 ---
 
-## Task 2: Payment Token Security Testing
+## 🔒 Task 2: Payment Token Security Testing
 
 **Question:** Test the security of the payment token flow.
 
@@ -92,7 +92,7 @@ ShopMax uses a hosted payment page (Stripe). Card data never touches ShopMax ser
 
 ---
 
-## Task 3: Web Application Security Testing
+## 🔒 Task 3: Web Application Security Testing
 
 **Question:** Design security tests for the e-commerce application (excluding payment page, which is hosted).
 
@@ -129,7 +129,7 @@ ShopMax uses a hosted payment page (Stripe). Card data never touches ShopMax ser
 
 ---
 
-## Task 4: Compliance Validation
+## ⭐ Task 4: Compliance Validation
 
 **Question:** Prepare for the PCI-DSS QSA (Qualified Security Assessor) audit.
 

@@ -1,6 +1,6 @@
-# Chapter 3 — Automotive Software Development and Testing: Exam Traps
+# 🪤 Chapter 3 — Automotive Software Development and Testing: Exam Traps
 
-## Trap 1: Skipping Unit Testing for Integration Testing
+## 🪤 Trap 1: Skipping Unit Testing for Integration Testing
 
 **Trap:** Unit testing catches issues early. Skipping it makes integration harder.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Testing Without Configuration Management
+## 🪤 Trap 2: Testing Without Configuration Management
 
 **Trap:** Without CM, tests may run against wrong code versions, producing invalid results.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Treating OTA Like Fresh Installation
+## 🪤 Trap 3: Treating OTA Like Fresh Installation
 
 **Trap:** OTA must handle partial states, rollback, and compatibility with unupdated ECUs.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: One-Way Traceability Only
+## 🪤 Trap 4: One-Way Traceability Only
 
 **Trap:** Bidirectional traceability is needed for both coverage and impact analysis.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Same Regression Suite for Every Change
+## 🪤 Trap 5: Same Regression Suite for Every Change
 
 **Trap:** Risk-based regression selects tests based on change impact, not runs everything every time.
 

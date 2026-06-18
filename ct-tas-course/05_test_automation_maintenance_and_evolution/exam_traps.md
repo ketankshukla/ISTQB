@@ -1,6 +1,6 @@
-# Chapter 5 — Test Automation Maintenance and Evolution: Exam Traps
+# 🪤 Chapter 5 — Test Automation Maintenance and Evolution: Exam Traps
 
-## Trap 1: Treating Maintenance as Optional
+## 🪤 Trap 1: Treating Maintenance as Optional
 
 **Trap:** Maintenance is 30-50% of automation effort. Not budgeting for it leads to unmaintainable suites.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Refactoring Without Tests
+## 🪤 Trap 2: Refactoring Without Tests
 
 **Trap:** Refactoring automation code without running tests risks introducing new failures.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Deleting Tests Instead of Archiving
+## 🪤 Trap 3: Deleting Tests Instead of Archiving
 
 **Trap:** Deleted tests lose history. Archive retains traceability while removing from active execution.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Ignoring Technical Debt in Automation
+## 🪤 Trap 4: Ignoring Technical Debt in Automation
 
 **Trap:** Automation code accumulates technical debt just like application code. Regular refactoring is needed.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Evolving Without a Plan
+## 🪤 Trap 5: Evolving Without a Plan
 
 **Trap:** Tool or architecture changes need structured migration. Ad-hoc evolution causes coverage gaps.
 

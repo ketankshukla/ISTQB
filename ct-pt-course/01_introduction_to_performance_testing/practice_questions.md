@@ -1,8 +1,8 @@
-# Chapter 1 — Introduction to Performance Testing: Practice Questions
+# ❓ Chapter 1 — Introduction to Performance Testing: Practice Questions
 
 ---
 
-### Q1 (PT-1.1, K2)
+### 🔷 Q1 (PT-1.1, K2)
 
 Performance testing is PRIMARILY concerned with:
 
@@ -13,7 +13,7 @@ D. Checking compliance with security standards
 
 ---
 
-### Q2 (PT-1.2, K2)
+### 🔷 Q2 (PT-1.2, K2)
 
 Response time is BEST defined as:
 
@@ -24,7 +24,7 @@ D. The duration of a performance test
 
 ---
 
-### Q3 (PT-1.2, K2)
+### 🔷 Q3 (PT-1.2, K2)
 
 Throughput is measured in:
 
@@ -35,7 +35,7 @@ D. Number of concurrent users
 
 ---
 
-### Q4 (PT-1.3, K2)
+### 🔷 Q4 (PT-1.3, K2)
 
 A business stakeholder evaluating a performance test is MOST likely concerned with:
 
@@ -46,7 +46,7 @@ D. Memory allocation patterns
 
 ---
 
-### Q5 (PT-1.1, K2)
+### 🔷 Q5 (PT-1.1, K2)
 
 Which statement is TRUE about performance testing?
 
@@ -57,7 +57,7 @@ D. It verifies that the software is bug-free
 
 ---
 
-### Q6 (PT-1.2, K2)
+### 🔷 Q6 (PT-1.2, K2)
 
 A bottleneck is:
 
@@ -68,7 +68,7 @@ D. A monitoring tool
 
 ---
 
-### Q7 (PT-1.3, K2)
+### 🔷 Q7 (PT-1.3, K2)
 
 An operations stakeholder is MOST concerned with:
 
@@ -79,7 +79,7 @@ D. Marketing campaign effectiveness
 
 ---
 
-### Q8 (PT-1.4, K2)
+### 🔷 Q8 (PT-1.4, K2)
 
 A non-functional requirement for performance might state:
 
@@ -90,7 +90,7 @@ D. "The system shall validate the password"
 
 ---
 
-### Q9 (PT-1.1, K2)
+### 🔷 Q9 (PT-1.1, K2)
 
 Performance testing is classified as:
 
@@ -101,7 +101,7 @@ D. Regression testing
 
 ---
 
-### Q10 (PT-1.2, K2)
+### 🔷 Q10 (PT-1.2, K2)
 
 Think time in a performance test represents:
 
@@ -112,7 +112,7 @@ D. The duration of the ramp-up phase
 
 ---
 
-### Q11 (PT-1.3, K2)
+### 🔷 Q11 (PT-1.3, K2)
 
 A developer analyzing performance test results is MOST likely to focus on:
 
@@ -123,7 +123,7 @@ D. Server rack temperature
 
 ---
 
-### Q12 (PT-1.2, K2)
+### 🔷 Q12 (PT-1.2, K2)
 
 Resource utilization includes monitoring of:
 
@@ -134,7 +134,7 @@ D. Only the application server
 
 ---
 
-### Q13 (PT-1.1, K2)
+### 🔷 Q13 (PT-1.1, K2)
 
 The PRIMARY purpose of performance testing is to:
 
@@ -145,7 +145,7 @@ D. Verify that the user interface is attractive
 
 ---
 
-### Q14 (PT-1.2, K2)
+### 🔷 Q14 (PT-1.2, K2)
 
 Network latency is:
 
@@ -156,7 +156,7 @@ D. The duration of a database query
 
 ---
 
-### Q15 (PT-1.3, K2)
+### 🔷 Q15 (PT-1.3, K2)
 
 An end user's PRIMARY performance concern is typically:
 
@@ -167,7 +167,7 @@ D. The network bandwidth of the data center
 
 ---
 
-### Q16 (PT-1.2, K3)
+### 🔷 Q16 (PT-1.2, K3)
 
 A system's server processing time is 300ms, but end-to-end response time is 1,500ms. The MOST likely cause of the difference is:
 
@@ -178,7 +178,7 @@ D. The database is offline
 
 ---
 
-### Q17 (PT-1.1, K2)
+### 🔷 Q17 (PT-1.1, K2)
 
 Scalability refers to:
 
@@ -189,7 +189,7 @@ D. The speed of the development team
 
 ---
 
-### Q18 (PT-1.4, K2)
+### 🔷 Q18 (PT-1.4, K2)
 
 A well-written performance requirement should be:
 
@@ -200,7 +200,7 @@ D. Written after the system is deployed
 
 ---
 
-### Q19 (PT-1.3, K2)
+### 🔷 Q19 (PT-1.3, K2)
 
 Which stakeholder is MOST concerned with capacity planning?
 
@@ -211,7 +211,7 @@ D. Marketing team
 
 ---
 
-### Q20 (PT-1.2, K2)
+### 🔷 Q20 (PT-1.2, K2)
 
 Stability in performance testing refers to:
 
@@ -222,104 +222,104 @@ D. The network bandwidth available
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** Performance testing = speed, scalability, stability under workload.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** Response time = elapsed time between request and response (end-to-end).
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** Throughput = transactions per unit of time.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** Business stakeholders care about revenue impact and user satisfaction.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** Performance testing validates non-functional characteristics.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** Bottleneck = resource/component that limits overall performance.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** Operations = CPU, memory, disk, network utilization.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** Performance NFR = specific, measurable target (response time under threshold).
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** Performance testing is a type of non-functional testing.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** Think time = simulated user's time between actions.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 
 **Rationale:** Developers focus on method-level execution and database queries.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** Resource utilization = CPU, memory, disk I/O, network.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** Purpose = determine if system meets speed, scalability, stability requirements.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** Network latency = time delay for data to travel across the network.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** End users care about page load speed and availability.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 
 **Rationale:** Server time ≠ end-to-end time. Network, client processing, and rendering add to total.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 
 **Rationale:** Scalability = ability to handle increasing load or resources.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 
 **Rationale:** Good requirements = specific, measurable, testable.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** Operations team = capacity planning (when to add resources).
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 
 **Rationale:** Stability = behavior under sustained load over time.

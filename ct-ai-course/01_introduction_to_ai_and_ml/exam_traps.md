@@ -1,6 +1,6 @@
-# Chapter 1 — Introduction to AI and ML: Exam Traps
+# 🪤 Chapter 1 — Introduction to AI and ML: Exam Traps
 
-## Trap 1: Confusing AI, ML, and Deep Learning
+## 🪤 Trap 1: Confusing AI, ML, and Deep Learning
 
 **Trap:** All ML is AI, but not all AI is ML. All DL is ML, but not all ML uses DL.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Thinking Current AI Is General AI
+## 🪤 Trap 2: Thinking Current AI Is General AI
 
 **Trap:** All practical AI today is Narrow AI. General AI and Super AI do not exist yet.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Confusing Supervised and Unsupervised Learning
+## 🪤 Trap 3: Confusing Supervised and Unsupervised Learning
 
 **Trap:** Supervised learning uses labeled data. Unsupervised learning uses unlabeled data.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Thinking RPA Is AI
+## 🪤 Trap 4: Thinking RPA Is AI
 
 **Trap:** RPA follows predefined rules. It is not AI unless combined with ML/NLP for decision-making.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Confusing Classification and Regression
+## 🪤 Trap 5: Confusing Classification and Regression
 
 **Trap:** Classification predicts discrete categories. Regression predicts continuous values.
 

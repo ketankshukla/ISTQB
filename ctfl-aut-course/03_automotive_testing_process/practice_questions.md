@@ -1,8 +1,8 @@
-# Chapter 3 — Automotive Testing Process: Practice Questions
+# ❓ Chapter 3 — Automotive Testing Process: Practice Questions
 
 ---
 
-### Q1 (AuT-3.1, K2)
+### 🔷 Q1 (AuT-3.1, K2)
 
 Test planning for automotive should include:
 
@@ -13,7 +13,7 @@ D. Only reporting
 
 ---
 
-### Q2 (AuT-3.2, K2)
+### 🔷 Q2 (AuT-3.2, K2)
 
 Requirements traceability enables:
 
@@ -24,7 +24,7 @@ D. Only scheduling
 
 ---
 
-### Q3 (AuT-3.3, K2)
+### 🔷 Q3 (AuT-3.3, K2)
 
 MIL testing is performed:
 
@@ -35,7 +35,7 @@ D. Only on production ECUs
 
 ---
 
-### Q4 (AuT-3.4, K2)
+### 🔷 Q4 (AuT-3.4, K2)
 
 Verification asks:
 
@@ -46,7 +46,7 @@ D. Only about cost
 
 ---
 
-### Q5 (AuT-3.5, K2)
+### 🔷 Q5 (AuT-3.5, K2)
 
 Static analysis in automotive:
 
@@ -57,7 +57,7 @@ D. Only for unit tests
 
 ---
 
-### Q6 (AuT-3.1, K2)
+### 🔷 Q6 (AuT-3.1, K2)
 
 Entry criteria for testing include:
 
@@ -68,7 +68,7 @@ D. Only tool installation
 
 ---
 
-### Q7 (AuT-3.2, K2)
+### 🔷 Q7 (AuT-3.2, K2)
 
 A traceability matrix links:
 
@@ -79,7 +79,7 @@ D. Only schedules to milestones
 
 ---
 
-### Q8 (AuT-3.3, K2)
+### 🔷 Q8 (AuT-3.3, K2)
 
 HIL testing uses:
 
@@ -90,7 +90,7 @@ D. Only production vehicles
 
 ---
 
-### Q9 (AuT-3.4, K2)
+### 🔷 Q9 (AuT-3.4, K2)
 
 Validation asks:
 
@@ -101,7 +101,7 @@ D. Only about documentation
 
 ---
 
-### Q10 (AuT-3.5, K2)
+### 🔷 Q10 (AuT-3.5, K2)
 
 Code reviews for ASIL D are:
 
@@ -112,7 +112,7 @@ D. Only automated
 
 ---
 
-### Q11 (AuT-3.1, K2)
+### 🔷 Q11 (AuT-3.1, K2)
 
 Exit criteria for testing include:
 
@@ -123,7 +123,7 @@ D. Only tools used
 
 ---
 
-### Q12 (AuT-3.2, K2)
+### 🔷 Q12 (AuT-3.2, K2)
 
 When requirements change, traceability helps:
 
@@ -134,7 +134,7 @@ D. Only update schedules
 
 ---
 
-### Q13 (AuT-3.3, K2)
+### 🔷 Q13 (AuT-3.3, K2)
 
 PIL testing verifies:
 
@@ -145,7 +145,7 @@ D. Only memory size
 
 ---
 
-### Q14 (AuT-3.4, K2)
+### 🔷 Q14 (AuT-3.4, K2)
 
 User testing in a real vehicle is:
 
@@ -156,7 +156,7 @@ D. Only unit testing
 
 ---
 
-### Q15 (AuT-3.5, K2)
+### 🔷 Q15 (AuT-3.5, K2)
 
 Model checking verifies:
 
@@ -167,7 +167,7 @@ D. Only memory usage
 
 ---
 
-### Q16 (AuT-3.1, K2)
+### 🔷 Q16 (AuT-3.1, K2)
 
 Test strategy defines:
 
@@ -178,7 +178,7 @@ D. Only budgets
 
 ---
 
-### Q17 (AuT-3.2, K2)
+### 🔷 Q17 (AuT-3.2, K2)
 
 Audit evidence from traceability:
 
@@ -189,7 +189,7 @@ D. Only for developers
 
 ---
 
-### Q18 (AuT-3.3, K2)
+### 🔷 Q18 (AuT-3.3, K2)
 
 Vehicle testing is:
 
@@ -200,7 +200,7 @@ D. Only for production
 
 ---
 
-### Q19 (AuT-3.4, K2)
+### 🔷 Q19 (AuT-3.4, K2)
 
 Reviews of requirements are:
 
@@ -211,7 +211,7 @@ D. Only dynamic
 
 ---
 
-### Q20 (AuT-3.3, K3)
+### 🔷 Q20 (AuT-3.3, K3)
 
 For algorithm development, the most appropriate level is:
 
@@ -222,84 +222,84 @@ D. PIL
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** Plan = scope + levels + ASIL + resources + schedule + risks.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** Traceability = coverage + impact + audit.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** MIL = simulation models only.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** Verification = built it right.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Static testing = all ASIL levels.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Entry criteria = prerequisites.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Matrix = requirements → design → code → tests.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** HIL = real ECU + simulated environment.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** Validation = built right thing.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** ASIL D = formal + mandatory reviews.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Exit criteria = coverage + defects + criteria.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Changes = identify affected tests/code.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** PIL = target processor behavior.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Vehicle user testing = validation.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Model checking = state machine correctness.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Strategy = how testing performed.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Audit evidence = compliance demonstration.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Vehicle = realistic but expensive.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Requirements reviews = verification.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** Algorithm = MIL level.

@@ -1,6 +1,6 @@
-# Case Study 1 — Trading Platform Testing
+# 📂 Case Study 1 — Trading Platform Testing
 
-## Context
+## ⭐ Context
 
 You are the Test Lead for TradeSys, a brokerage firm launching a new retail trading platform. The platform allows customers to trade equities, options, and ETFs.
 
@@ -20,7 +20,7 @@ You are the Test Lead for TradeSys, a brokerage firm launching a new retail trad
 
 ---
 
-## Task 1: Test Planning
+## 🗓️ Task 1: Test Planning
 
 **Question:** Create a test plan for the trading platform launch.
 
@@ -54,7 +54,7 @@ You are the Test Lead for TradeSys, a brokerage firm launching a new retail trad
 
 ---
 
-## Task 2: Order Type Testing
+## 🧪 Task 2: Order Type Testing
 
 **Question:** Design test cases for a stop-limit buy order.
 
@@ -73,7 +73,7 @@ You are the Test Lead for TradeSys, a brokerage firm launching a new retail trad
 
 ---
 
-## Task 3: Options Greeks Validation
+## ⭐ Task 3: Options Greeks Validation
 
 **Question:** A customer buys 10 call options on ABC stock. The system displays delta = 0.60 per contract. The stock price increases by $2.00. Verify the expected position change.
 
@@ -97,7 +97,7 @@ You are the Test Lead for TradeSys, a brokerage firm launching a new retail trad
 
 ---
 
-## Task 4: Go-Live Decision
+## 🗂️ Task 4: Go-Live Decision
 
 **Question:** Evaluate readiness based on the following data.
 

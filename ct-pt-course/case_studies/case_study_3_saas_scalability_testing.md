@@ -1,6 +1,6 @@
-# Case Study 3 — SaaS Scalability Testing
+# 📂 Case Study 3 — SaaS Scalability Testing
 
-## Context
+## ⭐ Context
 
 You are the Lead Performance Engineer for CloudCRM, a SaaS customer relationship management platform. The company is moving from a single-tenant to multi-tenant architecture and needs to validate scalability.
 
@@ -18,7 +18,7 @@ You are the Lead Performance Engineer for CloudCRM, a SaaS customer relationship
 
 ---
 
-## Task 1: Scalability Test Strategy
+## ♟️ Task 1: Scalability Test Strategy
 
 **Question:** Design a scalability testing strategy for the multi-tenant migration.
 
@@ -64,7 +64,7 @@ You are the Lead Performance Engineer for CloudCRM, a SaaS customer relationship
 
 ---
 
-## Task 2: Noisy Neighbor Testing
+## ⭐ Task 2: Noisy Neighbor Testing
 
 **Question:** How do you test and prevent the "noisy neighbor" problem?
 
@@ -110,7 +110,7 @@ You are the Lead Performance Engineer for CloudCRM, a SaaS customer relationship
 
 ---
 
-## Task 3: Scalability Test Results and Analysis
+## 🔬 Task 3: Scalability Test Results and Analysis
 
 **Question:** Analyze the following scalability test results and recommend the architecture.
 
@@ -165,7 +165,7 @@ Target: 200,000 total users ≈ 20,000 concurrent (assuming 10% active)
 
 ---
 
-## Task 4: Cost-Performance Reporting
+## 📝 Task 4: Cost-Performance Reporting
 
 **Question:** Create a management report on scalability test findings.
 

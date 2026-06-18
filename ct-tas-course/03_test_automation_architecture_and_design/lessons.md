@@ -1,14 +1,14 @@
-# Chapter 3 — Test Automation Architecture and Design: Lessons
+# 📘 Chapter 3 — Test Automation Architecture and Design: Lessons
 
 ---
 
-## 3.1 Test Automation Architecture (TAA)
+## ⚙️ 3.1 Test Automation Architecture (TAA)
 
-### Definition
+### 🔷 Definition
 
 TAA is the high-level structure of the automation solution. It defines how components interact, how tests are organized, and how the framework supports test creation, execution, and reporting.
 
-### Architecture Layers
+### 🔷 Architecture Layers
 
 ```
 Test Layer (Test Cases)
@@ -22,7 +22,7 @@ Tool Layer (Selenium, Appium, REST Assured)
 Application Under Test
 ```
 
-### Key Components
+### 🔷 Key Components
 
 | Component | Purpose |
 |-----------|---------|
@@ -34,23 +34,23 @@ Application Under Test
 
 ---
 
-## 3.2 Framework Types
+## 🧪 3.2 Framework Types
 
-### Linear Scripting
+### 🔷 Linear Scripting
 
 - Record and playback
 - **Pros:** Quick to create
 - **Cons:** No reuse, hard to maintain, no data separation
 - **Use case:** One-off demos, proof of concept
 
-### Modular Framework
+### 🔷 Modular Framework
 
 - Tests divided into reusable functions/modules
 - **Pros:** Code reuse, easier maintenance
 - **Cons:** No data separation, still tightly coupled to scripts
 - **Use case:** Small to medium projects
 
-### Data-Driven Framework
+### 🗃️ Data-Driven Framework
 
 - Test logic separated from test data
 - Data stored in Excel, CSV, JSON, or databases
@@ -58,21 +58,21 @@ Application Under Test
 - **Cons:** Complex data management
 - **Use case:** Forms, calculations, configuration testing
 
-### Keyword-Driven Framework
+### 🔷 Keyword-Driven Framework
 
 - Tests written as tables of keywords (actions) and data
 - **Pros:** Non-technical users can create tests
 - **Cons:** Framework complexity, slower execution
 - **Use case:** Business users involved in test creation
 
-### Hybrid Framework
+### 🔷 Hybrid Framework
 
 - Combines multiple approaches
 - **Pros:** Flexibility, can match team skills
 - **Cons:** More complex to design
 - **Use case:** Most real-world projects
 
-### Comparison
+### 🔷 Comparison
 
 | Type | Maintainability | Skill Required | Flexibility |
 |------|----------------|----------------|-------------|
@@ -84,9 +84,9 @@ Application Under Test
 
 ---
 
-## 3.3 Design Patterns
+## 🎨 3.3 Design Patterns
 
-### Page Object Model (POM)
+### 📐 Page Object Model (POM)
 
 - Encapsulates page UI and actions
 - Test scripts reference page objects, not raw locators
@@ -102,26 +102,26 @@ class LoginPage:
         self.driver.find_element(By.ID, "login").click()
 ```
 
-### Factory Pattern
+### 🔷 Factory Pattern
 
 - Creates objects without specifying exact class
 - Useful for creating browser instances or page objects
 
-### Singleton
+### 🔷 Singleton
 
 - Ensures only one instance of a class exists
 - Used for configuration managers, database connections
 
-### Facade
+### 🔷 Facade
 
 - Simplifies complex subsystem interfaces
 - Wraps complex framework calls in simple methods
 
 ---
 
-## 3.4 Test Data Management
+## 🗂️ 3.4 Test Data Management
 
-### Strategies
+### 🔷 Strategies
 
 | Strategy | Description | Best For |
 |----------|-------------|----------|
@@ -131,7 +131,7 @@ class LoginPage:
 | **API-generated** | Create data via APIs before test | Dynamic, realistic data |
 | **Faker libraries** | Random but realistic data | Load testing, demos |
 
-### Data Freshness
+### 🗃️ Data Freshness
 
 - **Static:** Same data every run (predictable but may become stale)
 - **Dynamic:** Generated per run (realistic but harder to debug)
@@ -139,9 +139,9 @@ class LoginPage:
 
 ---
 
-## 3.5 Environment and Configuration
+## ⚙️ 3.5 Environment and Configuration
 
-### Environment Types
+### 🧪 Environment Types
 
 | Environment | Purpose |
 |-------------|---------|
@@ -150,7 +150,7 @@ class LoginPage:
 | **Staging** | Pre-production validation |
 | **Production-like** | Performance and load testing |
 
-### Configuration Management
+### ⚙️ Configuration Management
 
 - Environment variables for environment-specific values
 - Configuration files per environment (dev.yml, staging.yml, prod.yml)
@@ -158,9 +158,9 @@ class LoginPage:
 
 ---
 
-## 3.6 Tool Selection
+## 🛠️ 3.6 Tool Selection
 
-### Selection Criteria
+### ✅ Selection Criteria
 
 | Criterion | Weight | Evaluation |
 |-----------|--------|------------|
@@ -171,7 +171,7 @@ class LoginPage:
 | **Cost** | Medium | License vs open-source vs build |
 | **Scalability** | Medium | Parallel execution, cloud support |
 
-### Integration Points
+### 🔗 Integration Points
 
 - **CI/CD:** Jenkins, GitLab CI, GitHub Actions, Azure DevOps
 - **Reporting:** Allure, ReportPortal, custom dashboards
@@ -180,9 +180,9 @@ class LoginPage:
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Architecture Design
+### 💡 Worked Example 1: Architecture Design
 
 **Scenario:** Design TAA for a web e-commerce platform.
 
@@ -214,7 +214,7 @@ config/
 - Factory for cross-browser driver creation
 - JSON for user credentials; CSV for product data
 
-### Worked Example 2: Framework Selection
+### 💡 Worked Example 2: Framework Selection
 
 **Scenario:** Select framework for a team with mixed skills.
 
@@ -230,7 +230,7 @@ config/
 - **Integration:** Shared page objects and step definitions
 - **Reporting:** Allure for both
 
-### Worked Example 3: Tool Evaluation Matrix
+### 💡 Worked Example 3: Tool Evaluation Matrix
 
 **Scenario:** Evaluate UI automation tools.
 

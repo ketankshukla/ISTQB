@@ -1,6 +1,6 @@
-# Chapter 6 — MBT Tool Support
+# 🛠️ Chapter 6 — MBT Tool Support
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~15% (~6 questions out of 40)
 - **K-levels:** K2 (understand), K3 (apply)
@@ -8,7 +8,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -20,7 +20,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts
+## ⭐ Key Concepts
 
 - Modeling tools, test generation tools, test execution tools
 - Tool selection criteria (fit for purpose, integration, vendor support)

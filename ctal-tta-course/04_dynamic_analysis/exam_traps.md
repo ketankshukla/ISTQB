@@ -1,6 +1,6 @@
-# Chapter 4 — Dynamic Analysis: Exam Traps
+# 🪤 Chapter 4 — Dynamic Analysis: Exam Traps
 
-## Trap 1: Confusing Memory Leak with Memory Corruption
+## 🪤 Trap 1: Confusing Memory Leak with Memory Corruption
 
 **Trap:** Memory leak = memory not freed (gradual growth). Memory corruption = writing to wrong memory (crashes, unpredictable behavior).
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Thinking Profiling Has No Overhead
+## 🪤 Trap 2: Thinking Profiling Has No Overhead
 
 **Trap:** Instrumentation-based profiling adds code to every method, significantly impacting performance. Sampling profilers have lower overhead but less accuracy.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Confusing Code Coverage with Code Correctness
+## 📊 Trap 3: Confusing Code Coverage with Code Correctness
 
 **Trap:** Coverage measures what was executed, not whether it was correct. A test can execute code with wrong expected results and still increase coverage.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Thinking Dynamic Analysis Can Find All Defects
+## 🪤 Trap 4: Thinking Dynamic Analysis Can Find All Defects
 
 **Trap:** Dynamic analysis only finds issues that occur during the test execution. If a code path is not triggered, the defect is not found.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Confusing Fault Injection with Defect Seeding
+## 🪤 Trap 5: Confusing Fault Injection with Defect Seeding
 
 **Trap:** Fault injection introduces runtime errors to test resilience. Defect seeding (used in defect estimation) intentionally introduces known defects to estimate total defect count.
 

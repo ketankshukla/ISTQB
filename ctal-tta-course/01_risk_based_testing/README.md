@@ -1,6 +1,6 @@
-# Chapter 1 — Risk-Based Testing (Technical Perspective)
+# ⚠️ Chapter 1 — Risk-Based Testing (Technical Perspective)
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~10% (~4-5 questions out of 45)
 - **K-levels:** K2 (understand), K3 (apply)
@@ -8,7 +8,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -19,7 +19,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts
+## ⭐ Key Concepts
 
 - Technical risks: code complexity, technology, security, performance
 - Risk identification techniques: FMEA, fault tree analysis, checklists

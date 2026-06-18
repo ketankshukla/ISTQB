@@ -1,6 +1,6 @@
-# Chapter 2 — Test Design Techniques: Exam Traps
+# 🪤 Chapter 2 — Test Design Techniques: Exam Traps
 
-## Trap 1: Confusing EP and BVA
+## 🪤 Trap 1: Confusing EP and BVA
 
 **Trap:** Candidates often cannot distinguish when to use EP versus BVA, or they apply BVA without first identifying partitions.
 
@@ -22,7 +22,7 @@
 
 ---
 
-## Trap 2: Counting Decision Table Rules Wrong
+## 🪤 Trap 2: Counting Decision Table Rules Wrong
 
 **Trap:** Forgetting that the number of rules is the product of condition values, not the sum.
 
@@ -44,7 +44,7 @@
 
 ---
 
-## Trap 3: Forgetting Invalid Transitions in State Testing
+## 🪤 Trap 3: Forgetting Invalid Transitions in State Testing
 
 **Trap:** Testing only valid state transitions and ignoring invalid transitions that should be rejected.
 
@@ -66,7 +66,7 @@
 
 ---
 
-## Trap 4: Applying BVA to Non-Ordered Partitions
+## 🪤 Trap 4: Applying BVA to Non-Ordered Partitions
 
 **Trap:** Trying to use BVA on categorical data that has no natural order or boundary.
 
@@ -88,7 +88,7 @@
 
 ---
 
-## Trap 5: Testing Multiple Invalid Conditions Simultaneously
+## 🪤 Trap 5: Testing Multiple Invalid Conditions Simultaneously
 
 **Trap:** When applying EP with multiple conditions, testing more than one invalid condition in a single test case.
 
@@ -110,7 +110,7 @@
 
 ---
 
-## Trap 6: Treating Exploratory Testing as Random Testing
+## 🪤 Trap 6: Treating Exploratory Testing as Random Testing
 
 **Trap:** Exploratory testing is structured by skill and charters, not random.
 
@@ -132,7 +132,7 @@
 
 ---
 
-## Trap 7: Forgetting Alternative and Exception Flows in Use Cases
+## 🪤 Trap 7: Forgetting Alternative and Exception Flows in Use Cases
 
 **Trap:** Only testing the main flow of a use case and missing alternative and exception paths.
 
@@ -154,7 +154,7 @@
 
 ---
 
-## Trap 8: Not Removing Impossible Rules from Decision Tables
+## 🪤 Trap 8: Not Removing Impossible Rules from Decision Tables
 
 **Trap:** Counting impossible rules as test cases, inflating the test count.
 
@@ -176,7 +176,7 @@
 
 ---
 
-## Trap 9: Using Error Guessing as the Primary Technique
+## 🪤 Trap 9: Using Error Guessing as the Primary Technique
 
 **Trap:** Error guessing is a supplement, not a primary technique. Questions test this.
 
@@ -198,7 +198,7 @@
 
 ---
 
-## Trap 10: Confusing 2-Value and 3-Value BVA
+## 🪤 Trap 10: Confusing 2-Value and 3-Value BVA
 
 **Trap:** Not knowing when to use 2-value vs. 3-value BVA.
 

@@ -1,10 +1,10 @@
-# Chapter 4 — Gambling Testing Types and Tools: Lessons
+# 📘 Chapter 4 — Gambling Testing Types and Tools: Lessons
 
 ---
 
-## 4.1 Functional Testing for Gambling Products
+## 🎰 4.1 Functional Testing for Gambling Products
 
-### Game Mechanics Testing
+### 🎮 Game Mechanics Testing
 
 **Definition:** Verifying that the game behaves according to its rules and design.
 
@@ -41,7 +41,7 @@
    - Poker: correct hand rankings, pot distribution, side pot calculations
    - Sports betting: correct settlement based on match outcomes
 
-### Payout Testing
+### 🔷 Payout Testing
 
 **Critical Testing Scenarios:**
 - Verify minimum bet pays correctly for each winning combination
@@ -52,7 +52,7 @@
 
 **Example:** A slot game pays 100x for 5 wild symbols. For a $0.20 bet, the win should be $20.00. For a $5.00 bet, the win should be $500.00. For a $10.00 bet, if the maximum win is $500.00, the game should cap the payout at $500.00, not award $1,000.00.
 
-### Multi-Player Game Testing
+### 🎮 Multi-Player Game Testing
 
 **Bingo:**
 - Multiple players receive different cards
@@ -78,9 +78,9 @@
 
 ---
 
-## 4.2 Non-Functional Testing in Gambling
+## 🎰 4.2 Non-Functional Testing in Gambling
 
-### Performance Testing
+### ⚡ Performance Testing
 
 **Why Performance Matters in Gambling:**
 - Players expect instant response times (especially in fast games like slots)
@@ -113,7 +113,7 @@
 - Page load: < 3 seconds
 - Live dealer action processing: < 2 seconds
 
-### Security Testing
+### 🔒 Security Testing
 
 **Critical Security Areas:**
 1. **Financial Transaction Security:**
@@ -140,7 +140,7 @@
    - Card counting prevention in blackjack (continuous shuffle)
    - Match-fixing monitoring in sports betting
 
-### Usability Testing
+### 🖱️ Usability Testing
 
 **Gambling-Specific Usability Concerns:**
 - Clear display of balance, bet amount, and win amount
@@ -156,7 +156,7 @@
 - Reality checks are noticeable, not easily dismissed
 - Players can view their gambling history
 
-### Compatibility Testing
+### 🔷 Compatibility Testing
 
 **Platforms:**
 - Desktop browsers (Chrome, Firefox, Safari, Edge)
@@ -172,9 +172,9 @@
 
 ---
 
-## 4.3 Game-Specific Testing
+## 🎮 4.3 Game-Specific Testing
 
-### RNG Testing
+### 🔷 RNG Testing
 
 **Already covered in Chapter 2, but in testing context:**
 - Verify RNG outputs are correctly consumed by game logic
@@ -182,7 +182,7 @@
 - Verify RNG cannot be reset or manipulated by players
 - Verify RNG state is not exposed to client-side code
 
-### Reel Strip Verification
+### 🔷 Reel Strip Verification
 
 **Process:**
 1. Extract reel strips from game code
@@ -197,7 +197,7 @@
 - Compare to PAR sheet specification
 - Flag discrepancies
 
-### RTP Verification
+### 🔷 RTP Verification
 
 **Live RTP Testing:**
 1. Play the game for a large number of rounds (e.g., 1,000,000 simulated spins)
@@ -214,7 +214,7 @@
 - Observed RTP is above 100% (operator losing money — possible defect or manipulation)
 - Deviation exceeds statistical tolerance for the sample size
 
-### Odds Verification in Sports Betting
+### 🔷 Odds Verification in Sports Betting
 
 **Testing Requirements:**
 - Verify odds calculations are mathematically correct
@@ -224,7 +224,7 @@
 - Verify cash-out values are calculated correctly
 - Verify void bet rules are applied correctly (e.g., abandoned matches)
 
-### Jackpot Testing
+### 🔷 Jackpot Testing
 
 **Types of Jackpots:**
 1. **Fixed Jackpots:** Predetermined amount, does not change
@@ -243,9 +243,9 @@
 
 ---
 
-## 4.4 Gambling Testing Tools
+## 🛠️ 4.4 Gambling Testing Tools
 
-### Game Mathematics Tools
+### 🛠️ Game Mathematics Tools
 
 **PAR Sheet Analyzers:**
 - Tools that parse PAR sheets and calculate theoretical RTP, hit frequency, and volatility
@@ -257,7 +257,7 @@
 - Calculate symbol frequencies and probabilities
 - Generate heat maps of symbol distributions
 
-### RNG Testing Tools
+### 🛠️ RNG Testing Tools
 
 **Statistical Test Suites:**
 - **Diehard tests:** Marsaglia's battery of randomness tests
@@ -270,7 +270,7 @@
 - Generate large sample sets for statistical analysis
 - Format outputs for test suite compatibility
 
-### Platform Testing Tools
+### 🛠️ Platform Testing Tools
 
 **Test Automation Frameworks:**
 - **Selenium / Playwright:** For web-based gambling platforms
@@ -289,7 +289,7 @@
 - Verify response times and throughput
 - Test jackpot scenarios with traffic spikes
 
-### Compliance Testing Tools
+### 🛠️ Compliance Testing Tools
 
 **KYC/AML Test Data:**
 - Synthetic identity generators for KYC testing
@@ -303,9 +303,9 @@
 
 ---
 
-## 4.5 Test Automation in Gambling
+## ⚙️ 4.5 Test Automation in Gambling
 
-### What to Automate
+### ⚙️ What to Automate
 
 **Highly Suitable for Automation:**
 1. **Regression Testing:**
@@ -329,7 +329,7 @@
    - Monitor system performance
    - Verify jackpot handling under load
 
-### What Is Hard to Automate
+### ⚙️ What Is Hard to Automate
 
 **Challenging Areas:**
 1. **Visual Game Elements:**
@@ -347,7 +347,7 @@
    - Complex poker hand evaluations
    - Edge cases in sports betting settlement
 
-### Automation Considerations
+### ⚙️ Automation Considerations
 
 **Test Data Management:**
 - Gambling games require specific symbol sequences, card combinations, or RNG seeds for reproducible testing
@@ -367,9 +367,9 @@
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Functional Test Case for a Slot Game
+### 💡 Worked Example 1: Functional Test Case for a Slot Game
 
 **Test Case: Verify 5-Wild Payout**
 
@@ -381,7 +381,7 @@
 | 4 | Observe balance update | Balance increases by $100.00 |
 | 5 | Check game history | History shows spin with $1.00 bet and $100.00 win |
 
-### Worked Example 2: Performance Test Scenario
+### 💡 Worked Example 2: Performance Test Scenario
 
 **Scenario: Jackpot Win Traffic Spike**
 
@@ -398,7 +398,7 @@
 - No duplicate payouts are awarded
 - Accurate win recorded in game history
 
-### Worked Example 3: Compliance Test Scenario
+### 💡 Worked Example 3: Compliance Test Scenario
 
 **Scenario: Self-Exclusion Enforcement**
 

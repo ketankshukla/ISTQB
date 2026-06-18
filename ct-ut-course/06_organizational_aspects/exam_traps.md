@@ -1,6 +1,6 @@
-# Chapter 6 — Organizational Aspects: Exam Traps
+# 🪤 Chapter 6 — Organizational Aspects: Exam Traps
 
-## Trap 1: Thinking Usability Testing Should Only Happen at the End
+## 🪤 Trap 1: Thinking Usability Testing Should Only Happen at the End
 
 **Trap:** Modern practice integrates usability throughout the SDLC (shift-left). Testing only at the end is too late and expensive.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Thinking ROI Cannot Be Measured for Usability
+## 🪤 Trap 2: Thinking ROI Cannot Be Measured for Usability
 
 **Trap:** Usability ROI can be measured: reduced support costs, increased conversion, reduced training, avoided rework.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Confusing UX Roles
+## 🪤 Trap 3: Confusing UX Roles
 
 **Trap:** UX researcher conducts tests; usability engineer applies principles; interaction designer creates interfaces; developer implements.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Thinking Low UX Maturity Is a Permanent State
+## 🪤 Trap 4: Thinking Low UX Maturity Is a Permanent State
 
 **Trap:** Organizations can progress through UX maturity levels with effort, sponsorship, and demonstrated value.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Thinking Developers Do Not Need Usability Knowledge
+## 🪤 Trap 5: Thinking Developers Do Not Need Usability Knowledge
 
 **Trap:** Developers implementing interfaces need usability knowledge to build accessible, usable products.
 

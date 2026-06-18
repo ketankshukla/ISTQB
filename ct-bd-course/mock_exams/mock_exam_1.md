@@ -1,11 +1,11 @@
-# CT-BD Mock Exam 1
+# 📝 CT-BD Mock Exam 1
 
 **Instructions:**
 - 40 questions, 60 minutes, single best answer, no negative marking
 
 ---
 
-### Q1
+### 🔷 Q1
 
 Big Data is PRIMARILY characterized by:
 
@@ -16,7 +16,7 @@ D. Only unstructured data
 
 ---
 
-### Q2
+### 🔷 Q2
 
 JSON log files are an example of:
 
@@ -27,7 +27,7 @@ D. Relational data
 
 ---
 
-### Q3
+### 🔷 Q3
 
 A data lake applies schema:
 
@@ -38,7 +38,7 @@ D. Only for structured data
 
 ---
 
-### Q4
+### 🔷 Q4
 
 In HDFS, the NameNode is responsible for:
 
@@ -49,7 +49,7 @@ D. Scheduling YARN containers
 
 ---
 
-### Q5
+### 🔷 Q5
 
 A PRIMARY advantage of Apache Spark over MapReduce is:
 
@@ -60,7 +60,7 @@ D. Spark only supports Scala
 
 ---
 
-### Q6
+### 🔷 Q6
 
 Kafka is PRIMARILY used for:
 
@@ -71,7 +71,7 @@ D. Relational database backups
 
 ---
 
-### Q7
+### 🔷 Q7
 
 MongoDB is an example of a:
 
@@ -82,7 +82,7 @@ D. Graph database
 
 ---
 
-### Q8
+### 🔷 Q8
 
 The 5 Vs of Big Data include all EXCEPT:
 
@@ -93,7 +93,7 @@ D. Variety
 
 ---
 
-### Q9
+### 🔷 Q9
 
 ETL stands for:
 
@@ -104,7 +104,7 @@ D. Extract, Translate, Link
 
 ---
 
-### Q10
+### 🔷 Q10
 
 In ELT, transformation occurs:
 
@@ -115,7 +115,7 @@ D. In a separate data mart
 
 ---
 
-### Q11
+### 🔷 Q11
 
 Data profiling is PRIMARILY used to:
 
@@ -126,7 +126,7 @@ D. Delete bad data
 
 ---
 
-### Q12
+### 🔷 Q12
 
 A dataset has 15% missing values in the "phone_number" field. This is a problem with:
 
@@ -137,7 +137,7 @@ D. Timeliness
 
 ---
 
-### Q13
+### 🔷 Q13
 
 The degree to which data conforms to defined formats, types, and ranges is:
 
@@ -148,7 +148,7 @@ D. Consistency
 
 ---
 
-### Q14
+### 🔷 Q14
 
 A cross-field validation rule states: "if status = 'shipped', then tracking_number must not be null." To test this:
 
@@ -159,7 +159,7 @@ D. Delete all records without tracking_number
 
 ---
 
-### Q15
+### 🔷 Q15
 
 Deduplication testing should verify:
 
@@ -170,7 +170,7 @@ D. Fuzzy matching is never used
 
 ---
 
-### Q16
+### 🔷 Q16
 
 Testing NULL handling in a transformation means:
 
@@ -181,7 +181,7 @@ D. Converting NULL to zero always
 
 ---
 
-### Q17
+### 🔷 Q17
 
 Throughput is defined as:
 
@@ -192,7 +192,7 @@ D. The size of the database
 
 ---
 
-### Q18
+### 🔷 Q18
 
 Latency is defined as:
 
@@ -203,7 +203,7 @@ D. The speed of the network
 
 ---
 
-### Q19
+### 🔷 Q19
 
 A Spark job shows one task taking 45 minutes while all others take under 2 minutes. The MOST likely cause is:
 
@@ -214,7 +214,7 @@ D. Too much CPU
 
 ---
 
-### Q20
+### 🔷 Q20
 
 Horizontal scaling means:
 
@@ -225,7 +225,7 @@ D. Reducing the dataset size
 
 ---
 
-### Q21
+### 🔷 Q21
 
 Deequ is a data quality library built on:
 
@@ -236,7 +236,7 @@ D. Python Pandas only
 
 ---
 
-### Q22
+### 🔷 Q22
 
 Great Expectations is a:
 
@@ -247,7 +247,7 @@ D. Network monitoring tool
 
 ---
 
-### Q23
+### 🔷 Q23
 
 Unit testing a Spark job should be done:
 
@@ -258,7 +258,7 @@ D. Only by data engineers
 
 ---
 
-### Q24
+### 🔷 Q24
 
 A data quality gate in CI/CD should:
 
@@ -269,7 +269,7 @@ D. Only check code syntax
 
 ---
 
-### Q25
+### 🔷 Q25
 
 For comparing two large datasets (billions of rows), the MOST practical approach is:
 
@@ -280,7 +280,7 @@ D. Comparing file sizes only
 
 ---
 
-### Q26
+### 🔷 Q26
 
 Schema-on-read introduces a testing challenge because:
 
@@ -291,7 +291,7 @@ D. It only works for structured data
 
 ---
 
-### Q27
+### 🔷 Q27
 
 A team tests at expected peak load and achieves acceptable results. They have completed:
 
@@ -302,7 +302,7 @@ D. All types of performance testing
 
 ---
 
-### Q28
+### 🔷 Q28
 
 Which is a PRIMARY difference between ETL and ELT?
 
@@ -313,7 +313,7 @@ D. ETL is faster than ELT
 
 ---
 
-### Q29
+### 🔷 Q29
 
 SCD Type 2 is characterized by:
 
@@ -324,7 +324,7 @@ D. Deleting old records
 
 ---
 
-### Q30
+### 🔷 Q30
 
 Data lineage is used to:
 
@@ -335,7 +335,7 @@ D. Compress data
 
 ---
 
-### Q31
+### 🔷 Q31
 
 A consistency rule validates that:
 
@@ -346,7 +346,7 @@ D. Data is unique
 
 ---
 
-### Q32
+### 🔷 Q32
 
 An incremental load test should verify all EXCEPT:
 
@@ -357,7 +357,7 @@ D. The source database password
 
 ---
 
-### Q33
+### 🔷 Q33
 
 Apache Atlas is PRIMARILY used for:
 
@@ -368,7 +368,7 @@ D. Report generation
 
 ---
 
-### Q34
+### 🔷 Q34
 
 A "hockey stick" curve on a performance graph indicates:
 
@@ -379,7 +379,7 @@ D. Optimal caching behavior
 
 ---
 
-### Q35
+### 🔷 Q35
 
 Broadcast joins in Spark are used to:
 
@@ -390,7 +390,7 @@ D. Delete duplicate records
 
 ---
 
-### Q36
+### 🔷 Q36
 
 A data warehouse is BEST described as:
 
@@ -401,7 +401,7 @@ D. A NoSQL database
 
 ---
 
-### Q37
+### 🔷 Q37
 
 Testing a MapReduce job with empty input should verify:
 
@@ -412,7 +412,7 @@ D. The job runs forever
 
 ---
 
-### Q38
+### 🔷 Q38
 
 A performance benchmark is used to:
 
@@ -423,7 +423,7 @@ D. Encrypt data
 
 ---
 
-### Q39
+### 🔷 Q39
 
 The PRIMARY benefit of automated data quality checks in CI/CD is:
 
@@ -434,7 +434,7 @@ D. Reducing storage costs
 
 ---
 
-### Q40
+### 🔷 Q40
 
 Which statement about Big Data testing is TRUE?
 
@@ -445,4 +445,4 @@ D. Big Data testing requires production data at all times
 
 ---
 
-## End of Mock Exam 1
+## 📝 End of Mock Exam 1

@@ -1,10 +1,10 @@
-# Chapter 5 — Platform and Compliance Testing: Lessons
+# 📘 Chapter 5 — Platform and Compliance Testing: Lessons
 
 ---
 
-## 5.1 Platform Holder Requirements
+## 📑 5.1 Platform Holder Requirements
 
-### Sony (PlayStation) — TRC
+### 🔷 Sony (PlayStation) — TRC
 
 | Category | Examples |
 |----------|----------|
@@ -15,7 +15,7 @@
 | **Error handling** | Graceful network disconnection |
 | **System UI** | Pause menu accessible, system events handled |
 
-### Microsoft (Xbox) — XR
+### 🔷 Microsoft (Xbox) — XR
 
 | Category | Examples |
 |----------|----------|
@@ -26,7 +26,7 @@
 | **Networking** | NAT traversal, party chat |
 | **Accessibility** | Narrator support where required |
 
-### Nintendo — Lotcheck
+### 🔷 Nintendo — Lotcheck
 
 | Category | Examples |
 |----------|----------|
@@ -38,15 +38,15 @@
 
 ---
 
-## 5.2 Certification Process
+## ⭐ 5.2 Certification Process
 
-### Steps
+### 🔷 Steps
 
 ```
 Internal Testing → Pre-Cert Testing → Submission → Platform Review → Pass/Fail → Release
 ```
 
-### Pre-Cert Checklist
+### 📋 Pre-Cert Checklist
 
 | Item | Verification |
 |------|-------------|
@@ -56,7 +56,7 @@ Internal Testing → Pre-Cert Testing → Submission → Platform Review → Pas
 | **Metadata correct** | Title, description, screenshots, trailers |
 | **Pricing set** | Regional pricing confirmed |
 
-### Submission
+### 🔷 Submission
 
 | Deliverable | Description |
 |-------------|-------------|
@@ -69,9 +69,9 @@ Internal Testing → Pre-Cert Testing → Submission → Platform Review → Pas
 
 ---
 
-## 5.3 Content Ratings
+## ⭐ 5.3 Content Ratings
 
-### ESRB (North America)
+### 🔷 ESRB (North America)
 
 | Rating | Description |
 |--------|-------------|
@@ -81,7 +81,7 @@ Internal Testing → Pre-Cert Testing → Submission → Platform Review → Pas
 | **M (Mature)** | Ages 17+ |
 | **AO (Adults Only)** | Adults 18+ |
 
-### PEGI (Europe)
+### 🔷 PEGI (Europe)
 
 | Rating | Description |
 |--------|-------------|
@@ -91,7 +91,7 @@ Internal Testing → Pre-Cert Testing → Submission → Platform Review → Pas
 | **16** | Realistic violence, drugs |
 | **18** | Graphic violence, adult themes |
 
-### CERO (Japan)
+### 🔷 CERO (Japan)
 
 | Rating | Description |
 |--------|-------------|
@@ -101,7 +101,7 @@ Internal Testing → Pre-Cert Testing → Submission → Platform Review → Pas
 | **D** | Ages 17+ |
 | **Z** | Adults only |
 
-### Rating Testing
+### 🔷 Rating Testing
 
 | Content | Check |
 |---------|-------|
@@ -113,9 +113,9 @@ Internal Testing → Pre-Cert Testing → Submission → Platform Review → Pas
 
 ---
 
-## 5.4 Online Services Testing
+## ⭐ 5.4 Online Services Testing
 
-### PlayStation Network
+### 🔷 PlayStation Network
 
 | Feature | Test |
 |---------|------|
@@ -124,7 +124,7 @@ Internal Testing → Pre-Cert Testing → Submission → Platform Review → Pas
 | **Leaderboards** | Scores upload and display |
 | **Multiplayer** | Matchmaking, invites |
 
-### Xbox Live
+### 🔷 Xbox Live
 
 | Feature | Test |
 |---------|------|
@@ -133,7 +133,7 @@ Internal Testing → Pre-Cert Testing → Submission → Platform Review → Pas
 | **Cloud saves** | Cross-device progress |
 | **Multiplayer** | Xbox Live sessions |
 
-### Nintendo Online
+### 🔷 Nintendo Online
 
 | Feature | Test |
 |---------|------|
@@ -143,9 +143,9 @@ Internal Testing → Pre-Cert Testing → Submission → Platform Review → Pas
 
 ---
 
-## 5.5 Store and Monetization
+## ⭐ 5.5 Store and Monetization
 
-### In-App Purchases
+### 🔷 In-App Purchases
 
 | Type | Test |
 |------|------|
@@ -154,7 +154,7 @@ Internal Testing → Pre-Cert Testing → Submission → Platform Review → Pas
 | **Subscription** | Recurring, cancellation handling |
 | **DLC** | Download, install, access |
 
-### Store Testing
+### 🔷 Store Testing
 
 | Check | Verification |
 |-------|-------------|
@@ -166,9 +166,9 @@ Internal Testing → Pre-Cert Testing → Submission → Platform Review → Pas
 
 ---
 
-## 5.6 Release Management
+## 🗂️ 5.6 Release Management
 
-### Day-One Patch
+### 🔷 Day-One Patch
 
 | Consideration | Test |
 |---------------|------|
@@ -177,7 +177,7 @@ Internal Testing → Pre-Cert Testing → Submission → Platform Review → Pas
 | **Old client handling** | Reject or force update |
 | **Rollback plan** | If patch causes issues |
 
-### Phased Release
+### 🔷 Phased Release
 
 | Strategy | Description |
 |----------|-------------|
@@ -187,9 +187,9 @@ Internal Testing → Pre-Cert Testing → Submission → Platform Review → Pas
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: TRC Checklist
+### 💡 Worked Example 1: TRC Checklist
 
 **Scenario:** Prepare PlayStation cert pass.
 
@@ -202,7 +202,7 @@ Internal Testing → Pre-Cert Testing → Submission → Platform Review → Pas
 | System menu accessible | Press PS button | Pass |
 | Error messages localized | Trigger network error | Pass |
 
-### Worked Example 2: Rating Compliance
+### 💡 Worked Example 2: Rating Compliance
 
 **Scenario:** Verify ESRB T rating.
 
@@ -213,7 +213,7 @@ Internal Testing → Pre-Cert Testing → Submission → Platform Review → Pas
 | Sexual content | Suggestive only | No nudity, mild innuendo |
 | Alcohol | Reference only | No consumption gameplay |
 
-### Worked Example 3: Purchase Flow
+### 💡 Worked Example 3: Purchase Flow
 
 **Scenario:** Test mobile game premium currency purchase.
 

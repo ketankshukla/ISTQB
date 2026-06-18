@@ -1,6 +1,6 @@
-# CT-AcT Study Plan
+# 🗓️ CT-AcT Study Plan
 
-## Exam Snapshot
+## 🎓 Exam Snapshot
 
 | Parameter | Value |
 |-----------|-------|
@@ -11,7 +11,7 @@
 
 ---
 
-## Standard 3-Week Plan
+## 🗓️ Standard 3-Week Plan
 
 | Week | Days | Activity | Target Score |
 |------|------|----------|-------------|
@@ -30,7 +30,7 @@
 
 ---
 
-## Accelerated 1.5-Week Plan
+## 🗓️ Accelerated 1.5-Week Plan
 
 | Day | Activity |
 |-----|----------|
@@ -48,7 +48,7 @@
 
 ---
 
-## Study Techniques
+## 📚 Study Techniques
 
 **Active Recall**
 - After each lesson, close the file and write down 3 key takeaways
@@ -68,7 +68,7 @@
 
 ---
 
-## Exam Day Checklist
+## 🎓 Exam Day Checklist
 
 - [ ] Review EXAM_STRATEGY.md (30 min)
 - [ ] Skim GLOSSARY.md for quick refresh

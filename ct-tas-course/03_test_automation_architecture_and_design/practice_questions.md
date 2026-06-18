@@ -1,8 +1,8 @@
-# Chapter 3 — Test Automation Architecture and Design: Practice Questions
+# ❓ Chapter 3 — Test Automation Architecture and Design: Practice Questions
 
 ---
 
-### Q1 (TAS-3.1, K2)
+### 🔷 Q1 (TAS-3.1, K2)
 
 TAA (Test Automation Architecture) defines:
 
@@ -13,7 +13,7 @@ D. Only the test data
 
 ---
 
-### Q2 (TAS-3.2, K2)
+### 🔷 Q2 (TAS-3.2, K2)
 
 A data-driven framework separates:
 
@@ -24,7 +24,7 @@ D. Only the configuration
 
 ---
 
-### Q3 (TAS-3.3, K2)
+### 🔷 Q3 (TAS-3.3, K2)
 
 The Page Object Model pattern:
 
@@ -35,7 +35,7 @@ D. Only works for APIs
 
 ---
 
-### Q4 (TAS-3.4, K2)
+### 🔷 Q4 (TAS-3.4, K2)
 
 Externalizing test data into JSON files improves:
 
@@ -46,7 +46,7 @@ D. Only memory usage
 
 ---
 
-### Q5 (TAS-3.1, K2)
+### 🔷 Q5 (TAS-3.1, K2)
 
 A keyword-driven framework allows:
 
@@ -57,7 +57,7 @@ D. Only performance testing
 
 ---
 
-### Q6 (TAS-3.2, K2)
+### 🔷 Q6 (TAS-3.2, K2)
 
 The Factory pattern in automation is useful for:
 
@@ -68,7 +68,7 @@ D. Only reporting
 
 ---
 
-### Q7 (TAS-3.3, K2)
+### 🔷 Q7 (TAS-3.3, K2)
 
 Hard-coding environment URLs in test scripts:
 
@@ -79,7 +79,7 @@ D. Only affects readability
 
 ---
 
-### Q8 (TAS-3.4, K2)
+### 🔷 Q8 (TAS-3.4, K2)
 
 A hybrid framework:
 
@@ -90,7 +90,7 @@ D. Only works for mobile
 
 ---
 
-### Q9 (TAS-3.1, K2)
+### 🔷 Q9 (TAS-3.1, K2)
 
 The Singleton pattern ensures:
 
@@ -101,7 +101,7 @@ D. Only network connections
 
 ---
 
-### Q10 (TAS-3.2, K2)
+### 🔷 Q10 (TAS-3.2, K2)
 
 Tool selection should primarily consider:
 
@@ -112,7 +112,7 @@ D. Only color scheme
 
 ---
 
-### Q11 (TAS-3.3, K2)
+### 🔷 Q11 (TAS-3.3, K2)
 
 A facade pattern:
 
@@ -123,7 +123,7 @@ D. Only for mobile
 
 ---
 
-### Q12 (TAS-3.4, K2)
+### 🔷 Q12 (TAS-3.4, K2)
 
 Configuration management in automation should:
 
@@ -134,7 +134,7 @@ D. Only store in databases
 
 ---
 
-### Q13 (TAS-3.1, K2)
+### 🔷 Q13 (TAS-3.1, K2)
 
 A modular framework divides tests into:
 
@@ -145,7 +145,7 @@ D. Only reports
 
 ---
 
-### Q14 (TAS-3.2, K2)
+### 🔷 Q14 (TAS-3.2, K2)
 
 Record-and-playback is best used for:
 
@@ -156,7 +156,7 @@ D. Only load testing
 
 ---
 
-### Q15 (TAS-3.3, K2)
+### 🔷 Q15 (TAS-3.3, K2)
 
 The test script layer should:
 
@@ -167,7 +167,7 @@ D. Only manage databases
 
 ---
 
-### Q16 (TAS-3.4, K2)
+### 🔷 Q16 (TAS-3.4, K2)
 
 API-generated test data is useful when:
 
@@ -178,7 +178,7 @@ D. Only for manual testing
 
 ---
 
-### Q17 (TAS-3.1, K2)
+### 🔷 Q17 (TAS-3.1, K2)
 
 The framework layer typically provides:
 
@@ -189,7 +189,7 @@ D. Only business logic
 
 ---
 
-### Q18 (TAS-3.2, K2)
+### 🔷 Q18 (TAS-3.2, K2)
 
 A keyword-driven test table might look like:
 
@@ -200,7 +200,7 @@ D. Only flowcharts
 
 ---
 
-### Q19 (TAS-3.3, K2)
+### 🔷 Q19 (TAS-3.3, K2)
 
 Environment-specific credentials should be:
 
@@ -211,7 +211,7 @@ D. Only in emails
 
 ---
 
-### Q20 (TAS-3.4, K2)
+### 🔷 Q20 (TAS-3.4, K2)
 
 When evaluating automation tools, integration with CI/CD is:
 
@@ -222,84 +222,84 @@ D. Only for open-source tools
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** TAA = high-level structure and component interactions.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** Data-driven = logic separated from data.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** POM = encapsulates UI and actions.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** External data = maintainability + data-driven.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Keyword = non-technical users create tests.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Factory = creates objects without exact classes.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Hard-coded URLs = breaks across environments.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Hybrid = combines multiple types.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** Singleton = only one instance.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** Tool selection = tech fit + skills.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Facade = simplifies complex interfaces.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Config = environment-specific settings.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Modular = reusable functions/modules.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Record-playback = prototyping only.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Script layer = test cases using APIs.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** API-generated = dynamic, realistic data.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Framework layer = logging, reporting, config.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Keyword = actions + arguments in tables.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Credentials = env vars or vaults.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** CI/CD integration = important criterion.

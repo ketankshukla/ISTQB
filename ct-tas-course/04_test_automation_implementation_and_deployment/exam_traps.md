@@ -1,6 +1,6 @@
-# Chapter 4 — Test Automation Implementation and Deployment: Exam Traps
+# 🪤 Chapter 4 — Test Automation Implementation and Deployment: Exam Traps
 
-## Trap 1: Running All Tests for Every Commit
+## 🪤 Trap 1: Running All Tests for Every Commit
 
 **Trap:** Full regression on every commit is slow. Run smoke tests on commit, full suite nightly.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Ignoring Flaky Tests
+## 🪤 Trap 2: Ignoring Flaky Tests
 
 **Trap:** Flaky tests erode trust in automation. They must be fixed or quarantined.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Thinking Parallel Execution is Always Better
+## 🪤 Trap 3: Thinking Parallel Execution is Always Better
 
 **Trap:** Parallel execution helps but requires infrastructure and may cause resource contention.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Using Thread.sleep() for Timing
+## 🪤 Trap 4: Using Thread.sleep() for Timing
 
 **Trap:** Fixed sleeps slow tests and still fail on slow systems. Use explicit waits.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Reporting Only Pass/Fail
+## 🪤 Trap 5: Reporting Only Pass/Fail
 
 **Trap:** Trend data, execution time, and flaky rate provide insights that pass/fail alone cannot.
 

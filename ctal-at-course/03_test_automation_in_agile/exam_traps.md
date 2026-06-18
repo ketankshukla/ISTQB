@@ -1,6 +1,6 @@
-# Chapter 3 — Test Automation in Agile: Exam Traps
+# 🪤 Chapter 3 — Test Automation in Agile: Exam Traps
 
-## Trap 1: Thinking 100% of All Tests Should Be Automated
+## 🪤 Trap 1: Thinking 100% of All Tests Should Be Automated
 
 **Trap:** Not all tests should be automated. Exploratory, usability, and one-time tests are typically manual. The goal is strategic automation, not 100%.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Confusing Record/Replay with Maintainable Automation
+## 🪤 Trap 2: Confusing Record/Replay with Maintainable Automation
 
 **Trap:** Record/replay creates brittle scripts that break with every UI change. Production automation needs structured frameworks like POM.
 
@@ -32,7 +32,7 @@ D. Only test on one browser
 
 ---
 
-## Trap 3: Ignoring Test Code Quality
+## 🪤 Trap 3: Ignoring Test Code Quality
 
 **Trap:** Test code is production code. Poor test code (duplication, hard-coded values, no cleanup) creates maintenance problems.
 
@@ -48,7 +48,7 @@ D. Only test on one browser
 
 ---
 
-## Trap 4: Automating Too Many E2E Tests
+## 🪤 Trap 4: Automating Too Many E2E Tests
 
 **Trap:** E2E tests are slow and brittle. The test pyramid recommends few E2E tests and many unit tests.
 
@@ -64,7 +64,7 @@ D. Only test on one browser
 
 ---
 
-## Trap 5: Thinking Automation Eliminates the Need for Testers
+## 🪤 Trap 5: Thinking Automation Eliminates the Need for Testers
 
 **Trap:** Automation handles repetitive checking, but testers still design tests, perform exploratory testing, analyze results, and improve the automation strategy.
 

@@ -1,10 +1,10 @@
-# Chapter 5 — Mobile Test Automation: Lessons
+# 📘 Chapter 5 — Mobile Test Automation: Lessons
 
 ---
 
-## 5.1 Mobile Automation Frameworks
+## ⚙️ 5.1 Mobile Automation Frameworks
 
-### Framework Comparison
+### 🔷 Framework Comparison
 
 | Framework | Platform | Language | Best For |
 |-----------|----------|----------|----------|
@@ -15,7 +15,7 @@
 | **Detox** | iOS, Android | JavaScript | React Native apps; gray-box testing |
 | **Flutter Driver** | iOS, Android (Flutter) | Dart | Flutter-specific apps |
 
-### Selection Criteria
+### ✅ Selection Criteria
 
 - **App type:** Native, hybrid, or cross-platform framework?
 - **Team skills:** What languages does the team know?
@@ -25,9 +25,9 @@
 
 ---
 
-## 5.2 Page Object Model for Mobile
+## 📱 5.2 Page Object Model for Mobile
 
-### Structure
+### 🔷 Structure
 
 ```
 pages/
@@ -39,7 +39,7 @@ tests/
   test_profile.py
 ```
 
-### Example
+### 💡 Example
 
 ```python
 class LoginPage:
@@ -55,7 +55,7 @@ class LoginPage:
         self.driver.find_element(*self.login_button).click()
 ```
 
-### Benefits
+### 🔷 Benefits
 
 - Separation of test logic from UI locators
 - Reusable page methods across tests
@@ -63,9 +63,9 @@ class LoginPage:
 
 ---
 
-## 5.3 Cross-Platform Automation
+## ⚙️ 5.3 Cross-Platform Automation
 
-### Strategies
+### 🔷 Strategies
 
 | Strategy | Approach | Trade-off |
 |----------|----------|-----------|
@@ -73,7 +73,7 @@ class LoginPage:
 | **Separate frameworks** | Espresso for Android, XCUITest for iOS | Best reliability but duplicated effort |
 | **Shared page objects** | Common interface, platform-specific implementations | Balance of reuse and platform coverage |
 
-### Cross-Platform Locators
+### 🔷 Cross-Platform Locators
 
 | Strategy | Example |
 |----------|---------|
@@ -85,7 +85,7 @@ class LoginPage:
 
 ---
 
-## 5.4 Emulator, Simulator, and Real Device
+## ⭐ 5.4 Emulator, Simulator, and Real Device
 
 | Type | Pros | Cons |
 |------|------|------|
@@ -93,7 +93,7 @@ class LoginPage:
 | **Simulator (iOS)** | Fast, good for UI layout testing | Cannot test push notifications, camera |
 | **Real Device** | True user experience, all hardware features | Slower setup, device management, cost |
 
-### Testing Strategy
+### ♟️ Testing Strategy
 
 | Test Type | Recommended Environment |
 |-----------|------------------------|
@@ -105,9 +105,9 @@ class LoginPage:
 
 ---
 
-## 5.5 CI/CD Integration
+## 🔗 5.5 CI/CD Integration
 
-### Pipeline Stages
+### 🔷 Pipeline Stages
 
 ```yaml
 stages:
@@ -119,7 +119,7 @@ stages:
   - deploy-beta
 ```
 
-### Cloud Device Services
+### 🔷 Cloud Device Services
 
 | Service | Provider | Notes |
 |---------|----------|-------|
@@ -128,7 +128,7 @@ stages:
 | **BrowserStack App Automate** | BrowserStack | Good CI integration |
 | **Sauce Labs** | Sauce Labs | Cross-browser + mobile |
 
-### Challenges
+### 🔷 Challenges
 
 - **Flakiness:** Mobile UI tests are inherently flaky due to animations, timing, and device variability
 - **Speed:** UI tests are slower than unit tests; parallelize where possible
@@ -136,9 +136,9 @@ stages:
 
 ---
 
-## 5.6 Managing Flaky Tests
+## ⭐ 5.6 Managing Flaky Tests
 
-### Causes of Flakiness
+### 🔷 Causes of Flakiness
 
 | Cause | Solution |
 |-------|----------|
@@ -148,7 +148,7 @@ stages:
 | **State** | Clean app state before each test |
 | **Resource contention** | Run tests sequentially or isolate resources |
 
-### Retry Strategy
+### ♟️ Retry Strategy
 
 ```python
 @pytest.mark.flaky(rerun=2)
@@ -160,9 +160,9 @@ def test_payment_flow():
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Framework Selection
+### 💡 Worked Example 1: Framework Selection
 
 **Scenario:** Select automation for a React Native app.
 
@@ -177,7 +177,7 @@ def test_payment_flow():
 - Gray-box access improves reliability
 - Team knows JavaScript
 
-### Worked Example 2: Page Object Implementation
+### 💡 Worked Example 2: Page Object Implementation
 
 **Scenario:** Implement POM for an e-commerce app checkout flow.
 
@@ -212,7 +212,7 @@ def test_checkout_flow(driver):
     assert confirmation.order_successful()
 ```
 
-### Worked Example 3: CI Pipeline Configuration
+### 💡 Worked Example 3: CI Pipeline Configuration
 
 **Scenario:** Run Android UI tests on every PR.
 

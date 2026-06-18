@@ -1,6 +1,6 @@
-# Chapter 6 — Security Testing in the SDLC: Exam Traps
+# 🪤 Chapter 6 — Security Testing in the SDLC: Exam Traps
 
-## Trap 1: Security Testing Only in the Testing Phase
+## 🪤 Trap 1: Security Testing Only in the Testing Phase
 
 **Trap:** SSDLC integrates security throughout all phases, not just at the end.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Threat Modeling is Only for Architects
+## 🪤 Trap 2: Threat Modeling is Only for Architects
 
 **Trap:** Threat modeling benefits from diverse perspectives — developers, testers, business analysts contribute.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: DevSecOps Means Security Team Disappears
+## 🪤 Trap 3: DevSecOps Means Security Team Disappears
 
 **Trap:** DevSecOps shifts security left but still needs security expertise for guidance, complex issues, and governance.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Ignoring Security Technical Debt
+## 🪤 Trap 4: Ignoring Security Technical Debt
 
 **Trap:** Unmanaged security debt accumulates and creates catastrophic risk.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Treating Security Requirements as Non-Testable
+## 🪤 Trap 5: Treating Security Requirements as Non-Testable
 
 **Trap:** Security requirements must be specific and testable, just like functional requirements.
 

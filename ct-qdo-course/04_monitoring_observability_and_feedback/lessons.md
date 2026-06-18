@@ -1,22 +1,22 @@
-# Chapter 4 — Monitoring, Observability, and Feedback: Lessons
+# 📘 Chapter 4 — Monitoring, Observability, and Feedback: Lessons
 
 ---
 
-## 4.1 Monitoring vs Observability
+## ⭐ 4.1 Monitoring vs Observability
 
-### Monitoring
+### 🔷 Monitoring
 
 - **Definition:** Collecting and analyzing predefined metrics to understand system health
 - **Use case:** "Is the CPU usage above 80%?"
 - **Limitation:** You must know what to monitor in advance
 
-### Observability
+### 🔷 Observability
 
 - **Definition:** Ability to understand internal system state from its external outputs
 - **Use case:** "Why is this request slow?" — follow the trace through all services
 - **Advantage:** Can answer unknown-unknowns without predefined dashboards
 
-### The Three Pillars
+### 🔷 The Three Pillars
 
 | Pillar | What It Captures | Example |
 |--------|------------------|---------|
@@ -24,16 +24,16 @@
 | **Logs** | Discrete events with context | "User 123 failed login at 10:05:30" |
 | **Traces** | End-to-end request flow through services | Request ID spanning API → Service A → DB → Service B |
 
-### Correlation
+### 🔷 Correlation
 
 The most powerful insights come from correlating all three:
 - High error rate (metric) + "connection timeout" (log) + slow DB call (trace) = database issue
 
 ---
 
-## 4.2 Metrics and Dashboards
+## 📊 4.2 Metrics and Dashboards
 
-### Key Metric Types
+### 🧪 Key Metric Types
 
 | Type | Description | Example |
 |------|-------------|---------|
@@ -42,21 +42,21 @@ The most powerful insights come from correlating all three:
 | **Histogram** | Distribution of values | Response time buckets |
 | **Summary** | Calculated percentiles | P50, P95, P99 latency |
 
-### The RED Method
+### 🔷 The RED Method
 
 For monitoring microservices:
 - **Rate:** Number of requests per second
 - **Errors:** Number of failed requests
 - **Duration:** How long requests take
 
-### The USE Method
+### 🔷 The USE Method
 
 For monitoring infrastructure:
 - **Utilization:** Percentage of resource used
 - **Saturation:** Amount of work queued
 - **Errors:** Count of error events
 
-### Dashboard Design
+### 🎨 Dashboard Design
 
 - **Overview dashboard:** System health at a glance (RED metrics)
 - **Detailed dashboard:** Drill-down by service, region, endpoint
@@ -64,9 +64,9 @@ For monitoring infrastructure:
 
 ---
 
-## 4.3 Alerting Best Practices
+## ❓ 4.3 Alerting Best Practices
 
-### Alert Types
+### 🧪 Alert Types
 
 | Type | Trigger | Response |
 |------|---------|----------|
@@ -74,14 +74,14 @@ For monitoring infrastructure:
 | **Ticket** | Degraded performance, non-critical issue | Work during business hours |
 | **Log/Metric** | Anomaly detected, trend change | Review in next standup |
 
-### Alert Design Principles
+### 📜 Alert Design Principles
 
 1. **Actionable:** Every alert must have a clear response procedure
 2. **Relevant:** Alert on symptoms affecting users, not just any threshold
 3. **Noisy alerts desensitize:** False positives cause teams to ignore alerts
 4. **Severity-appropriate:** Page only for real emergencies
 
-### Common Anti-Patterns
+### 🔷 Common Anti-Patterns
 
 - **Alert fatigue:** Too many low-priority alerts
 - **"Wake me up for nothing":** Pages for non-urgent issues
@@ -89,30 +89,30 @@ For monitoring infrastructure:
 
 ---
 
-## 4.4 SRE and Error Budgets
+## ⭐ 4.4 SRE and Error Budgets
 
-### Service Level Indicators (SLIs)
+### 🪜 Service Level Indicators (SLIs)
 
 - Quantitative measure of service quality
 - Example: "Proportion of HTTP requests served successfully"
 
-### Service Level Objectives (SLOs)
+### 🪜 Service Level Objectives (SLOs)
 
 - Target reliability level
 - Example: "99.9% of requests succeed within 200ms"
 
-### Service Level Agreements (SLAs)
+### 🪜 Service Level Agreements (SLAs)
 
 - Contract with customers; breach may have penalties
 - Example: "If availability drops below 99.5%, service credit applies"
 
-### Error Budget
+### 🔷 Error Budget
 
 - **Definition:** Allowed unreliability = 100% - SLO target
 - **Example:** 99.9% SLO = 0.1% error budget
 - **Usage:** If error budget is exhausted, halt feature releases and focus on reliability
 
-### Error Budget Policy
+### 🔷 Error Budget Policy
 
 ```
 Error budget consumed | Action
@@ -125,13 +125,13 @@ Error budget consumed | Action
 
 ---
 
-## 4.5 Chaos Engineering
+## ⭐ 4.5 Chaos Engineering
 
-### Definition
+### 🔷 Definition
 
 Chaos engineering is the discipline of experimenting on a system to build confidence in its capability to withstand turbulent conditions.
 
-### Principles
+### 📜 Principles
 
 1. **Build a hypothesis:** "If we lose a database node, the system remains available"
 2. **Run small experiments:** Start in dev/test, progress to production
@@ -139,7 +139,7 @@ Chaos engineering is the discipline of experimenting on a system to build confid
 4. **Have abort criteria:** Stop experiment if user impact exceeds threshold
 5. **Measure and learn:** Validate or invalidate the hypothesis
 
-### Common Experiments
+### 🔷 Common Experiments
 
 | Experiment | What It Tests |
 |------------|---------------|
@@ -149,7 +149,7 @@ Chaos engineering is the discipline of experimenting on a system to build confid
 | **Disk fill** | Log rotation, cleanup procedures |
 | **Time skew** | Certificate validation, token expiry |
 
-### Tools
+### 🛠️ Tools
 
 - Chaos Monkey (Netflix) — random instance termination
 - Gremlin — comprehensive chaos engineering platform
@@ -157,9 +157,9 @@ Chaos engineering is the discipline of experimenting on a system to build confid
 
 ---
 
-## 4.6 Production Feedback Loops
+## ⭐ 4.6 Production Feedback Loops
 
-### Feedback Sources
+### 🔷 Feedback Sources
 
 | Source | Information | Action |
 |--------|-------------|--------|
@@ -169,7 +169,7 @@ Chaos engineering is the discipline of experimenting on a system to build confid
 | **Support tickets** | User complaints, confusion | Fix usability issues |
 | **A/B test results** | Conversion differences | Roll out winning variant |
 
-### Closing the Loop
+### 🔷 Closing the Loop
 
 1. **Observe:** Monitor production metrics
 2. **Analyze:** Identify patterns and anomalies
@@ -180,9 +180,9 @@ Chaos engineering is the discipline of experimenting on a system to build confid
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Alert Design
+### 💡 Worked Example 1: Alert Design
 
 **Scenario:** Design an alert for a payment service.
 
@@ -195,7 +195,7 @@ Chaos engineering is the discipline of experimenting on a system to build confid
 - Context: Includes affected merchant IDs and error types
 - Runbook: Link to incident response procedure
 
-### Worked Example 2: Error Budget Calculation
+### 💡 Worked Example 2: Error Budget Calculation
 
 **Scenario:** An API has a 99.95% availability SLO.
 
@@ -213,7 +213,7 @@ Chaos engineering is the discipline of experimenting on a system to build confid
 
 **Decision:** With only 3.6 minutes remaining, halt non-critical releases.
 
-### Worked Example 3: Chaos Engineering Experiment
+### 💡 Worked Example 3: Chaos Engineering Experiment
 
 **Scenario:** Test ecommerce checkout resilience during database latency.
 

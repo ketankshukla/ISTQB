@@ -1,4 +1,4 @@
-# CTAL-TAE Mock Exam 1
+# 📝 CTAL-TAE Mock Exam 1
 
 **Instructions:**
 - 40 questions
@@ -8,7 +8,7 @@
 
 ---
 
-### Q1
+### 🔷 Q1
 
 Test automation is BEST described as:
 
@@ -19,7 +19,7 @@ D. The replacement of all manual testing activities
 
 ---
 
-### Q2
+### 🔷 Q2
 
 Which of the following is a PRIMARY risk of test automation?
 
@@ -30,7 +30,7 @@ D. Testers become more skilled
 
 ---
 
-### Q3
+### 🔷 Q3
 
 The test automation pyramid recommends:
 
@@ -41,7 +41,7 @@ D. Only UI tests for complete coverage
 
 ---
 
-### Q4
+### 🔷 Q4
 
 The PRIMARY purpose of a Proof of Concept (PoC) is to:
 
@@ -52,7 +52,7 @@ D. Train the entire team on the new tool
 
 ---
 
-### Q5
+### 🔷 Q5
 
 Total Cost of Ownership (TCO) for a test tool includes all EXCEPT:
 
@@ -63,7 +63,7 @@ D. Maintenance and support costs
 
 ---
 
-### Q6
+### 🔷 Q6
 
 Which TAA layer is responsible for creating or selecting test cases?
 
@@ -74,7 +74,7 @@ D. Test Adaptation Layer
 
 ---
 
-### Q7
+### 🔷 Q7
 
 Which TAA layer interfaces directly with the System Under Test (SUT)?
 
@@ -85,7 +85,7 @@ D. Test Adaptation Layer
 
 ---
 
-### Q8
+### 🔷 Q8
 
 Testware includes all EXCEPT:
 
@@ -96,7 +96,7 @@ D. Expected results
 
 ---
 
-### Q9
+### 🔷 Q9
 
 A framework where the same test logic runs with multiple data sets from external files is:
 
@@ -107,7 +107,7 @@ D. Linear
 
 ---
 
-### Q10
+### 🔷 Q10
 
 The Page Object Model (POM) is used to:
 
@@ -118,7 +118,7 @@ D. Execute tests in parallel
 
 ---
 
-### Q11
+### 🔷 Q11
 
 In a well-designed TAS, assertions should be placed in:
 
@@ -129,7 +129,7 @@ D. Configuration files
 
 ---
 
-### Q12
+### 🔷 Q12
 
 Explicit waits in test scripts are preferred over fixed sleeps because:
 
@@ -140,7 +140,7 @@ D. They eliminate the need for error handling
 
 ---
 
-### Q13
+### 🔷 Q13
 
 Deploying a TAS to one team first, gathering feedback, and then expanding is called:
 
@@ -151,7 +151,7 @@ D. Parallel deployment
 
 ---
 
-### Q14
+### 🔷 Q14
 
 Code coverage measures:
 
@@ -162,7 +162,7 @@ D. The percentage of tests that pass
 
 ---
 
-### Q15
+### 🔷 Q15
 
 ROI for test automation is calculated as:
 
@@ -173,7 +173,7 @@ D. (Benefits + Costs) / Benefits
 
 ---
 
-### Q16
+### 🔷 Q16
 
 Transitioning from manual to automated testing on an existing project is called:
 
@@ -184,7 +184,7 @@ D. Retirement
 
 ---
 
-### Q17
+### 🔷 Q17
 
 Updating a test script to accommodate a renamed button on the SUT is:
 
@@ -195,7 +195,7 @@ D. No maintenance
 
 ---
 
-### Q18
+### 🔷 Q18
 
 Refactoring a test script to improve readability and reduce duplication is:
 
@@ -206,7 +206,7 @@ D. Retirement
 
 ---
 
-### Q19
+### 🔷 Q19
 
 A test should be retired when:
 
@@ -217,7 +217,7 @@ D. It was written by a former employee
 
 ---
 
-### Q20
+### 🔷 Q20
 
 Legacy automation is BEST described as:
 
@@ -228,7 +228,7 @@ D. Manual testing that has been documented
 
 ---
 
-### Q21
+### 🔷 Q21
 
 A team has 500 UI tests but only 50 unit tests. Their suite takes 5 hours to run. The MOST significant problem is:
 
@@ -239,7 +239,7 @@ D. They need more UI tests
 
 ---
 
-### Q22
+### 🔷 Q22
 
 A Proof of Value (PoV) is conducted to:
 
@@ -250,7 +250,7 @@ D. Replace manual testers immediately
 
 ---
 
-### Q23
+### 🔷 Q23
 
 Separation of concerns in a TAA means:
 
@@ -261,7 +261,7 @@ D. Only one person can work on the TAA at a time
 
 ---
 
-### Q24
+### 🔷 Q24
 
 Which of the following is a PRIMARY advantage of a data-driven framework?
 
@@ -272,7 +272,7 @@ D. It eliminates the need for test logic
 
 ---
 
-### Q25
+### 🔷 Q25
 
 Flakiness rate is defined as:
 
@@ -283,7 +283,7 @@ D. The percentage of defects found by automation
 
 ---
 
-### Q26
+### 🔷 Q26
 
 A team blocks production deployment if code coverage drops below 80%. This is:
 
@@ -294,7 +294,7 @@ D. Unrelated to CI/CD
 
 ---
 
-### Q27
+### 🔷 Q27
 
 In a CI pipeline, the "fail fast" principle means:
 
@@ -305,7 +305,7 @@ D. Stop the pipeline only after all tests complete
 
 ---
 
-### Q28
+### 🔷 Q28
 
 A keyword-driven framework is MOST appropriate when:
 
@@ -316,7 +316,7 @@ D. The SUT has no user interface
 
 ---
 
-### Q29
+### 🔷 Q29
 
 A team calculates ROI using only initial development costs. The calculated ROI will be:
 
@@ -327,7 +327,7 @@ D. Only valid for the first year
 
 ---
 
-### Q30
+### 🔷 Q30
 
 A test creates a user account, modifies it, and should delete it afterward. Even if the test fails, the account should be deleted. The BEST approach is:
 
@@ -338,7 +338,7 @@ D. Reuse the same account for all tests
 
 ---
 
-### Q31
+### 🔷 Q31
 
 The Test Automation Architecture (TAA) is BEST described as:
 
@@ -349,7 +349,7 @@ D. The CI/CD pipeline configuration
 
 ---
 
-### Q32
+### 🔷 Q32
 
 Which metric would BEST indicate that automated tests are finding real defects?
 
@@ -360,7 +360,7 @@ D. Large number of test cases
 
 ---
 
-### Q33
+### 🔷 Q33
 
 A team's TAS uses a commercial tool that the vendor is discontinuing. The BEST action is:
 
@@ -371,7 +371,7 @@ D. Buy 10 years of extra licenses
 
 ---
 
-### Q34
+### 🔷 Q34
 
 A team should allocate approximately what percentage of automation capacity to maintenance?
 
@@ -382,7 +382,7 @@ D. 100%
 
 ---
 
-### Q35
+### 🔷 Q35
 
 A dashboard showing ROI trends and automation coverage progress is MOST appropriate for:
 
@@ -393,7 +393,7 @@ D. Business analysts writing requirements
 
 ---
 
-### Q36
+### 🔷 Q36
 
 A team has 90% code coverage but frequently ships defects in production. The MOST likely explanation is:
 
@@ -404,7 +404,7 @@ D. Code coverage is the wrong metric to track
 
 ---
 
-### Q37
+### 🔷 Q37
 
 Big-bang deployment is MOST appropriate when:
 
@@ -415,7 +415,7 @@ D. Management wants minimal risk
 
 ---
 
-### Q38
+### 🔷 Q38
 
 A "flaky" test is one that:
 
@@ -426,7 +426,7 @@ D. Tests an unimportant feature
 
 ---
 
-### Q39
+### 🔷 Q39
 
 Which framework type is MOST maintainable for a frequently changing web application?
 
@@ -437,7 +437,7 @@ D. Hard-coded XPath in every test
 
 ---
 
-### Q40
+### 🔷 Q40
 
 A TAE fixes a test that fails because the expected result was incorrectly coded. This is:
 
@@ -448,4 +448,4 @@ D. Test retirement
 
 ---
 
-## End of Mock Exam 1
+## 📝 End of Mock Exam 1

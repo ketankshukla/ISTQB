@@ -1,10 +1,10 @@
-# Chapter 5 — Security Testing Tools: Lessons
+# 📘 Chapter 5 — Security Testing Tools: Lessons
 
 ---
 
-## 5.1 SAST Tools
+## 🛠️ 5.1 SAST Tools
 
-### Characteristics
+### 🔷 Characteristics
 
 | Feature | Description |
 |---------|-------------|
@@ -14,7 +14,7 @@
 | **Speed** | Fast, can scan entire codebase |
 | **False positives** | Common, requires triage |
 
-### Examples
+### 💡 Examples
 
 | Tool | Language | Type |
 |------|----------|------|
@@ -26,9 +26,9 @@
 
 ---
 
-## 5.2 DAST Tools
+## 🛠️ 5.2 DAST Tools
 
-### Characteristics
+### 🔷 Characteristics
 
 | Feature | Description |
 |---------|-------------|
@@ -38,7 +38,7 @@
 | **Attack** | Sends malicious payloads |
 | **Authentication** | Can test authenticated areas |
 
-### Examples
+### 💡 Examples
 
 | Tool | Type |
 |------|------|
@@ -49,9 +49,9 @@
 
 ---
 
-## 5.3 Penetration Testing Tools
+## 🛠️ 5.3 Penetration Testing Tools
 
-### Categories
+### 🔷 Categories
 
 | Category | Tools | Purpose |
 |----------|-------|---------|
@@ -63,7 +63,7 @@
 
 ---
 
-## 5.4 Tool Selection Criteria
+## ✅ 5.4 Tool Selection Criteria
 
 | Criterion | Consideration |
 |-----------|-------------|
@@ -77,7 +77,7 @@
 
 ---
 
-## 5.5 Tool Limitations
+## 🛠️ 5.5 Tool Limitations
 
 | Limitation | Explanation |
 |------------|-------------|
@@ -89,9 +89,9 @@
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Tool Selection
+### 💡 Worked Example 1: Tool Selection
 
 | Scenario | Recommended Tool | Reason |
 |----------|---------------|--------|
@@ -100,7 +100,7 @@
 | Network vulnerability scan | Nessus | Comprehensive network coverage |
 | Password policy audit | John the Ripper | Password strength testing |
 
-### Worked Example 2: Output Interpretation
+### 💡 Worked Example 2: Output Interpretation
 
 | Tool Output | Analysis | Action |
 |-------------|----------|--------|
@@ -108,7 +108,7 @@
 | "High: Hardcoded password" | Confirmed vulnerability | Fix immediately |
 | "Medium: Information disclosure" | Review stack trace in error page | Fix error handling |
 
-### Worked Example 3: CI/CD Integration
+### 💡 Worked Example 3: CI/CD Integration
 
 | Stage | Tool | Action |
 |-------|------|--------|

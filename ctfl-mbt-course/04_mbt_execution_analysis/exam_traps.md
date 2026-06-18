@@ -1,6 +1,6 @@
-# Chapter 4 — Execution and Analysis: Exam Traps
+# 🪤 Chapter 4 — Execution and Analysis: Exam Traps
 
-## Trap 1: Confusing Abstract and Concrete Tests
+## 🪤 Trap 1: Confusing Abstract and Concrete Tests
 
 **Trap:** Abstract tests come from the model. Concrete tests are executable with specific values.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Thinking Model Coverage Equals Code Coverage
+## 📊 Trap 2: Thinking Model Coverage Equals Code Coverage
 
 **Trap:** They are different. Model coverage measures model elements. Code coverage measures code elements.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Assuming All Model Defects Are System Defects
+## 🪤 Trap 3: Assuming All Model Defects Are System Defects
 
 **Trap:** When a test fails, the model itself may be wrong.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Ignoring Infeasible Paths in Coverage Reports
+## 📋 Trap 4: Ignoring Infeasible Paths in Coverage Reports
 
 **Trap:** Infeasible paths should be documented and excluded from coverage targets.
 

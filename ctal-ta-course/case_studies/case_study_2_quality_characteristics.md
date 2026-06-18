@@ -1,10 +1,10 @@
-# Case Study 2 — Quality Characteristics in a Healthcare Application
+# 📂 Case Study 2 — Quality Characteristics in a Healthcare Application
 
-## Context
+## ⭐ Context
 
 You are a Senior Test Analyst for MediCare Plus, a healthcare technology company developing a new patient management system. The system must comply with HIPAA regulations and support a large hospital network.
 
-## System Requirements
+## 📑 System Requirements
 
 **R1: Patient Registration**
 - Capture patient demographics, insurance information, and emergency contacts
@@ -44,7 +44,7 @@ You are a Senior Test Analyst for MediCare Plus, a healthcare technology company
 
 ---
 
-## Task 1: Quality Characteristic Mapping
+## 💎 Task 1: Quality Characteristic Mapping
 
 For each requirement R1-R7, identify the primary ISO 25010 quality characteristic being tested and the appropriate test types.
 
@@ -62,7 +62,7 @@ For each requirement R1-R7, identify the primary ISO 25010 quality characteristi
 
 ---
 
-## Task 2: Security Testing Design
+## 🎨 Task 2: Security Testing Design
 
 Design specific security tests for R7 (Security and Compliance).
 
@@ -114,7 +114,7 @@ Design specific security tests for R7 (Security and Compliance).
 
 ---
 
-## Task 3: Reliability and Efficiency Testing
+## ⭐ Task 3: Reliability and Efficiency Testing
 
 Design tests for the appointment scheduling system (R2) under peak load.
 
@@ -162,7 +162,7 @@ Design tests for the appointment scheduling system (R2) under peak load.
 
 ---
 
-## Task 4: Interoperability Testing
+## ⭐ Task 4: Interoperability Testing
 
 Design tests for R1 (insurance eligibility verification) and R5 (claims submission) integrations.
 
@@ -197,7 +197,7 @@ Design tests for R1 (insurance eligibility verification) and R5 (claims submissi
 
 ---
 
-## Task 5: Risk-Based Testing Strategy
+## ♟️ Task 5: Risk-Based Testing Strategy
 
 The go-live date is fixed and cannot be moved. You have time to execute only 70% of planned tests. Prioritize your testing.
 

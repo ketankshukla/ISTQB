@@ -1,8 +1,8 @@
-# Chapter 1 — Agile Principles and Context: Practice Questions
+# ❓ Chapter 1 — Agile Principles and Context: Practice Questions
 
 ---
 
-### Q1 (AT-1.1, K2)
+### 🔷 Q1 (AT-1.1, K2)
 
 The Agile Manifesto values "responding to change over following a plan." This means:
 
@@ -13,7 +13,7 @@ D. Plans are more important than customer needs
 
 ---
 
-### Q2 (AT-1.2, K2)
+### 🔷 Q2 (AT-1.2, K2)
 
 In Scrum, the maximum duration of a daily stand-up is typically:
 
@@ -24,7 +24,7 @@ D. 2 hours
 
 ---
 
-### Q3 (AT-1.3, K2)
+### 🔷 Q3 (AT-1.3, K2)
 
 Which agile methodology uses work-in-progress (WIP) limits to manage flow?
 
@@ -35,7 +35,7 @@ D. V-Model
 
 ---
 
-### Q4 (AT-1.4, K2)
+### 🔷 Q4 (AT-1.4, K2)
 
 The Definition of Done (DoD) defines:
 
@@ -46,7 +46,7 @@ D. The product vision
 
 ---
 
-### Q5 (AT-1.5, K2)
+### 🔷 Q5 (AT-1.5, K2)
 
 In an agile team, the primary responsibility for quality lies with:
 
@@ -57,7 +57,7 @@ D. The Product Owner only
 
 ---
 
-### Q6 (AT-1.2, K3)
+### 🔷 Q6 (AT-1.2, K3)
 
 A tester joins a daily stand-up and reports that automated tests are failing due to a recent code change. The MOST appropriate next step is:
 
@@ -68,7 +68,7 @@ D. Escalate to management
 
 ---
 
-### Q7 (AT-1.4, K2)
+### 🔷 Q7 (AT-1.4, K2)
 
 Which of the following is part of the Definition of Ready (DoR) for a user story?
 
@@ -79,7 +79,7 @@ D. The story is deployed to production
 
 ---
 
-### Q8 (AT-1.1, K2)
+### 🔷 Q8 (AT-1.1, K2)
 
 Which agile principle is MOST relevant for test automation?
 
@@ -90,7 +90,7 @@ D. Working software as primary measure
 
 ---
 
-### Q9 (AT-1.3, K2)
+### 🔷 Q9 (AT-1.3, K2)
 
 The main difference between Scrum and Kanban is:
 
@@ -101,7 +101,7 @@ D. Scrum has a Product Owner; Kanban does not
 
 ---
 
-### Q10 (AT-1.5, K3)
+### 🔷 Q10 (AT-1.5, K3)
 
 A technical tester in an agile team should NOT typically:
 
@@ -112,7 +112,7 @@ D. Perform exploratory testing
 
 ---
 
-### Q11 (AT-1.2, K2)
+### 🔷 Q11 (AT-1.2, K2)
 
 During sprint planning, a tester should:
 
@@ -123,7 +123,7 @@ D. Skip the meeting because testers are not needed
 
 ---
 
-### Q12 (AT-1.4, K3)
+### 🔷 Q12 (AT-1.4, K3)
 
 A team argues whether performance testing should be in the Definition of Done for every user story. The BEST decision is:
 
@@ -134,7 +134,7 @@ D. Only do performance testing after all features are complete
 
 ---
 
-### Q13 (AT-1.1, K2)
+### 🔷 Q13 (AT-1.1, K2)
 
 The Agile Manifesto values:
 
@@ -145,7 +145,7 @@ D. Individuals and interactions over processes and tools
 
 ---
 
-### Q14 (AT-1.3, K2)
+### 🔷 Q14 (AT-1.3, K2)
 
 In Kanban, when a column reaches its WIP limit:
 
@@ -156,7 +156,7 @@ D. The team should work overtime
 
 ---
 
-### Q15 (AT-1.5, K2)
+### 🔷 Q15 (AT-1.5, K2)
 
 Collective code ownership in XP means:
 
@@ -167,7 +167,7 @@ D. Managers own all code decisions
 
 ---
 
-### Q16 (AT-1.2, K2)
+### 🔷 Q16 (AT-1.2, K2)
 
 The purpose of a sprint retrospective is to:
 
@@ -178,7 +178,7 @@ D. Review the product backlog
 
 ---
 
-### Q17 (AT-1.4, K2)
+### 🔷 Q17 (AT-1.4, K2)
 
 "The story is small enough to fit in a sprint" is part of:
 
@@ -189,7 +189,7 @@ D. Product Vision
 
 ---
 
-### Q18 (AT-1.1, K2)
+### 🔷 Q18 (AT-1.1, K2)
 
 Which of the following is NOT an agile principle?
 
@@ -200,7 +200,7 @@ D. Deliver working software frequently
 
 ---
 
-### Q19 (AT-1.3, K3)
+### 🔷 Q19 (AT-1.3, K3)
 
 A team using Kanban measures average cycle time. This metric represents:
 
@@ -211,7 +211,7 @@ D. The team's velocity
 
 ---
 
-### Q20 (AT-1.5, K3)
+### 🔷 Q20 (AT-1.5, K3)
 
 A technical tester pairs with a developer to write unit tests. This practice is called:
 
@@ -222,104 +222,104 @@ D. Outsourcing
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** Agile values responding to change, but teams still create and follow plans. The value is about flexibility, not eliminating plans.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** Daily stand-ups in Scrum are time-boxed to 15 minutes.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** Kanban uses WIP limits to control flow. Scrum uses sprint capacity, not WIP limits.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** DoD defines when work is complete. DoR defines when work is ready to start.
 
-### Q5
+### 🔷 Q5
 **Answer: C**
 
 **Rationale:** Quality is a whole-team responsibility in agile, not just testers.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** Agile teams collaborate to fix issues immediately, not wait for ceremonies or escalate.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** Clear acceptance criteria are needed before work starts (DoR). Code review, passing tests, and deployment are DoD items.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** Principle 9 (continuous attention to technical excellence) directly supports test automation as a technical practice.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** Scrum = fixed sprints. Kanban = continuous flow. Both can have roles and documentation.
 
-### Q10
+### 🔷 Q10
 **Answer: C**
 
 **Rationale:** Technical testers collaborate closely with developers. Working in isolation contradicts agile principles.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 
 **Rationale:** Testers actively participate in sprint planning to define acceptance criteria and estimate testing.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** Performance testing per story is often impractical. Better to include it at release level.
 
-### Q13
+### 🔷 Q13
 **Answer: D**
 
 **Rationale:** The Agile Manifesto explicitly values individuals and interactions over processes and tools.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** WIP limits prevent overloading a column. New items must wait until capacity frees.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** Collective code ownership means any team member can modify any code.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 
 **Rationale:** Retrospectives are for reflecting and improving. Reviews demonstrate work. Planning plans work.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 
 **Rationale:** Story size readiness is a DoR criterion (ready to start). DoD criteria apply after work is done.
 
-### Q18
+### 🔷 Q18
 **Answer: C**
 
 **Rationale:** "Follow the plan strictly" contradicts agile principles. Agile welcomes change.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** Cycle time = time from start to completion. Velocity is a Scrum metric.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 
 **Rationale:** Pair programming = two people working together at one workstation.

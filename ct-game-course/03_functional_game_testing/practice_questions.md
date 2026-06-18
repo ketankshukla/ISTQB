@@ -1,8 +1,8 @@
-# Chapter 3 — Functional Game Testing: Practice Questions
+# ❓ Chapter 3 — Functional Game Testing: Practice Questions
 
 ---
 
-### Q1 (GaMe-3.1, K2)
+### 🎮 Q1 (GaMe-3.1, K2)
 
 Core mechanics testing includes:
 
@@ -13,7 +13,7 @@ D. Only marketing
 
 ---
 
-### Q2 (GaMe-3.2, K2)
+### 🎮 Q2 (GaMe-3.2, K2)
 
 UI testing must verify:
 
@@ -24,7 +24,7 @@ D. Only screen resolution
 
 ---
 
-### Q3 (GaMe-3.3, K2)
+### 🎮 Q3 (GaMe-3.3, K2)
 
 AI difficulty levels should be tested:
 
@@ -35,7 +35,7 @@ D. Only on hard
 
 ---
 
-### Q4 (GaMe-3.4, K2)
+### 🎮 Q4 (GaMe-3.4, K2)
 
 Multiplayer synchronization testing should include:
 
@@ -46,7 +46,7 @@ D. Only menu screens
 
 ---
 
-### Q5 (GaMe-3.1, K2)
+### 🎮 Q5 (GaMe-3.1, K2)
 
 Boundary testing for inventory means:
 
@@ -57,7 +57,7 @@ D. Only sorting items
 
 ---
 
-### Q6 (GaMe-3.2, K2)
+### 🎮 Q6 (GaMe-3.2, K2)
 
 Empty inventory state should:
 
@@ -68,7 +68,7 @@ D. Delete the save file
 
 ---
 
-### Q7 (GaMe-3.3, K2)
+### 🎮 Q7 (GaMe-3.3, K2)
 
 AI behavior when player hides should:
 
@@ -79,7 +79,7 @@ D. Only attack allies
 
 ---
 
-### Q8 (GaMe-3.4, K2)
+### 🎮 Q8 (GaMe-3.4, K2)
 
 Host migration in multiplayer means:
 
@@ -90,7 +90,7 @@ D. Only the server restarts
 
 ---
 
-### Q9 (GaMe-3.1, K2)
+### 🎮 Q9 (GaMe-3.1, K2)
 
 Rapid input testing verifies:
 
@@ -101,7 +101,7 @@ D. Only audio effects
 
 ---
 
-### Q10 (GaMe-3.2, K2)
+### 🎮 Q10 (GaMe-3.2, K2)
 
 Maximum score display should:
 
@@ -112,7 +112,7 @@ D. Only hide the score
 
 ---
 
-### Q11 (GaMe-3.3, K2)
+### 🎮 Q11 (GaMe-3.3, K2)
 
 Friendly fire testing for AI ensures:
 
@@ -123,7 +123,7 @@ D. AI ignores all combat
 
 ---
 
-### Q12 (GaMe-3.4, K2)
+### 🎮 Q12 (GaMe-3.4, K2)
 
 Server-side validation prevents:
 
@@ -134,7 +134,7 @@ D. Only sound issues
 
 ---
 
-### Q13 (GaMe-3.1, K2)
+### 🎮 Q13 (GaMe-3.1, K2)
 
 Death state testing should verify:
 
@@ -145,7 +145,7 @@ D. Only the main menu
 
 ---
 
-### Q14 (GaMe-3.2, K2)
+### 🎮 Q14 (GaMe-3.2, K2)
 
 Long player names in UI should:
 
@@ -156,7 +156,7 @@ D. Only be hidden
 
 ---
 
-### Q15 (GaMe-3.3, K2)
+### 🎮 Q15 (GaMe-3.3, K2)
 
 AI pathfinding with obstructed route should:
 
@@ -167,7 +167,7 @@ D. Only teleport
 
 ---
 
-### Q16 (GaMe-3.4, K2)
+### 🎮 Q16 (GaMe-3.4, K2)
 
 Disconnect handling in multiplayer should:
 
@@ -178,7 +178,7 @@ D. Only delete player data
 
 ---
 
-### Q17 (GaMe-3.1, K2)
+### 🎮 Q17 (GaMe-3.1, K2)
 
 Elemental weakness in combat should:
 
@@ -189,7 +189,7 @@ D. Only miss
 
 ---
 
-### Q18 (GaMe-3.2, K2)
+### 🎮 Q18 (GaMe-3.2, K2)
 
 Settings save and load should:
 
@@ -200,7 +200,7 @@ D. Only reset to defaults
 
 ---
 
-### Q19 (GaMe-3.3, K2)
+### 🎮 Q19 (GaMe-3.3, K2)
 
 AI difficulty on hard should include:
 
@@ -211,7 +211,7 @@ D. Only more health
 
 ---
 
-### Q20 (GaMe-3.4, K2)
+### 🎮 Q20 (GaMe-3.4, K2)
 
 Loot drop RNG should:
 
@@ -222,84 +222,84 @@ D. Only give common items
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** Core = movement + combat + interaction + inventory + abilities.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** UI = navigation + buttons + data + edge cases.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** AI = all difficulty levels.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** MP = latency + loss + jitter + disconnect.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Inventory boundaries = min + max + overflow.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Empty = show empty state safely.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** AI search → return to patrol.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Host migration = continue with new host.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 **Rationale:** Rapid = no crash/desync.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 **Rationale:** Max score = no overflow.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Friendly fire = avoid allies.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** Server validation = prevent cheats.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** Death = animation + game-over + respawn + cleanup.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Long names = truncate/scroll.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Obstructed = alternate route.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Disconnect = graceful handling.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Weakness = increased damage.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** Settings = graphics + audio + controls.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 **Rationale:** Hard = faster + flanking.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** RNG = defined ranges.

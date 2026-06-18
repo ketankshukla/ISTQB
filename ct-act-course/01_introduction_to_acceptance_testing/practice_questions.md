@@ -1,8 +1,8 @@
-# Chapter 1 — Introduction to Acceptance Testing: Practice Questions
+# ❓ Chapter 1 — Introduction to Acceptance Testing: Practice Questions
 
 ---
 
-### Q1 (AcT-1.1, K1)
+### 🔷 Q1 (AcT-1.1, K1)
 
 Acceptance testing is PRIMARILY focused on:
 
@@ -13,7 +13,7 @@ D. Optimizing database queries
 
 ---
 
-### Q2 (AcT-1.1, K2)
+### 🔷 Q2 (AcT-1.1, K2)
 
 Which is a PRIMARY objective of acceptance testing?
 
@@ -24,7 +24,7 @@ D. Design the database schema
 
 ---
 
-### Q3 (AcT-1.2, K1)
+### 🔷 Q3 (AcT-1.2, K1)
 
 User Acceptance Testing (UAT) is performed by:
 
@@ -35,7 +35,7 @@ D. External auditors
 
 ---
 
-### Q4 (AcT-1.2, K2)
+### 🔷 Q4 (AcT-1.2, K2)
 
 Operational Acceptance Testing (OAT) focuses on:
 
@@ -46,7 +46,7 @@ D. Unit test execution
 
 ---
 
-### Q5 (AcT-1.2, K2)
+### 🔷 Q5 (AcT-1.2, K2)
 
 Beta testing is characterized by:
 
@@ -57,7 +57,7 @@ D. Testing without any user involvement
 
 ---
 
-### Q6 (AcT-1.3, K2)
+### 🔷 Q6 (AcT-1.3, K2)
 
 Good acceptance criteria should be:
 
@@ -68,7 +68,7 @@ D. Written only by developers
 
 ---
 
-### Q7 (AcT-1.3, K2)
+### 🔷 Q7 (AcT-1.3, K2)
 
 The Given-When-Then format is used for:
 
@@ -79,7 +79,7 @@ D. Creating network diagrams
 
 ---
 
-### Q8 (AcT-1.3, K2)
+### 🔷 Q8 (AcT-1.3, K2)
 
 "As a customer, I want to receive an email confirmation within 5 minutes of placing an order" is:
 
@@ -90,7 +90,7 @@ D. A code specification
 
 ---
 
-### Q9 (AcT-1.4, K2)
+### 🔷 Q9 (AcT-1.4, K2)
 
 Who is PRIMARILY responsible for making the acceptance decision?
 
@@ -101,7 +101,7 @@ D. The operations team
 
 ---
 
-### Q10 (AcT-1.2, K2)
+### 🔷 Q10 (AcT-1.2, K2)
 
 Alpha testing is performed:
 
@@ -112,7 +112,7 @@ D. By external auditors
 
 ---
 
-### Q11 (AcT-1.1, K2)
+### 🔷 Q11 (AcT-1.1, K2)
 
 The PRIMARY difference between system testing and acceptance testing is:
 
@@ -123,7 +123,7 @@ D. System testing doesn't need documentation
 
 ---
 
-### Q12 (AcT-1.3, K2)
+### 🔷 Q12 (AcT-1.3, K2)
 
 Which is NOT a characteristic of good acceptance criteria?
 
@@ -134,7 +134,7 @@ D. Realistic
 
 ---
 
-### Q13 (AcT-1.2, K2)
+### 🔷 Q13 (AcT-1.2, K2)
 
 Contract Acceptance Testing (CAT) is performed to:
 
@@ -145,7 +145,7 @@ D. Find cosmetic defects
 
 ---
 
-### Q14 (AcT-1.4, K2)
+### 🔷 Q14 (AcT-1.4, K2)
 
 A Product Owner's PRIMARY responsibility in acceptance testing is:
 
@@ -156,7 +156,7 @@ D. Monitoring server performance
 
 ---
 
-### Q15 (AcT-1.2, K2)
+### 🔷 Q15 (AcT-1.2, K2)
 
 Regulation Acceptance Testing (RAT) focuses on:
 
@@ -167,7 +167,7 @@ D. Code quality metrics
 
 ---
 
-### Q16 (AcT-1.3, K3)
+### 🔷 Q16 (AcT-1.3, K3)
 
 Given the user story: "As a shopper, I want to apply a discount code so that I get a reduced price." The BEST acceptance criterion is:
 
@@ -178,7 +178,7 @@ D. "The checkout page should look nice"
 
 ---
 
-### Q17 (AcT-1.2, K1)
+### 🔷 Q17 (AcT-1.2, K1)
 
 Which type of acceptance testing validates backup and recovery procedures?
 
@@ -189,7 +189,7 @@ D. Alpha testing
 
 ---
 
-### Q18 (AcT-1.4, K2)
+### 🔷 Q18 (AcT-1.4, K2)
 
 End users participating in acceptance testing are PRIMARILY responsible for:
 
@@ -200,7 +200,7 @@ D. Managing the project budget
 
 ---
 
-### Q19 (AcT-1.3, K2)
+### 🔷 Q19 (AcT-1.3, K2)
 
 Acceptance criteria should be defined by:
 
@@ -211,7 +211,7 @@ D. External regulators
 
 ---
 
-### Q20 (AcT-1.1, K2)
+### 🔷 Q20 (AcT-1.1, K2)
 
 Acceptance testing is typically performed:
 
@@ -222,104 +222,104 @@ D. Before requirements gathering
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** Acceptance testing = validating user needs and business requirements.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** Acceptance testing objective = determine if system satisfies acceptance criteria.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** UAT = performed by users or business representatives.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** OAT = operational aspects (backup, recovery, maintenance).
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** Beta = users at their own locations.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** Good acceptance criteria = testable, clear, business-focused, specific, realistic.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** Given-When-Then = BDD format for acceptance criteria.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** User-focused, testable statement = acceptance criterion.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** Acceptance decisions = business representatives or authorized stakeholders.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** Alpha = internal team at developer's site.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 
 **Rationale:** System = technical specs; Acceptance = business needs.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** Vague and ambiguous = NOT a characteristic of good criteria.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** CAT = verify contractual requirements.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** Product Owner = define acceptance criteria and approve acceptance.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 
 **Rationale:** RAT = compliance with laws, regulations, standards.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 
 **Rationale:** Specific, testable, business-focused = best acceptance criterion.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 
 **Rationale:** Backup/recovery = operational aspects = OAT.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 
 **Rationale:** End users validate their daily work processes.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** Business stakeholders define criteria, collaborating with the team.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 
 **Rationale:** Acceptance testing = after system testing, before release.

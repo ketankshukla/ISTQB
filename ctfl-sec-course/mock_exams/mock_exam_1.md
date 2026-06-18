@@ -1,10 +1,10 @@
-# CTFL-SEC Mock Exam 1
+# 📝 CTFL-SEC Mock Exam 1
 
 **Instructions:** 20 questions, 40 minutes. Single best answer.
 
 ---
 
-### Q1
+### 🔷 Q1
 
 Security testing determines if a system:
 
@@ -15,7 +15,7 @@ D. Only loads quickly
 
 ---
 
-### Q2
+### 🔷 Q2
 
 Confidentiality means:
 
@@ -26,7 +26,7 @@ D. Only encryption
 
 ---
 
-### Q3
+### 🔷 Q3
 
 Risk is calculated as:
 
@@ -37,7 +37,7 @@ D. Only threat count
 
 ---
 
-### Q4
+### 🔷 Q4
 
 SAST analyzes:
 
@@ -48,7 +48,7 @@ D. Only user behavior
 
 ---
 
-### Q5
+### 🔷 Q5
 
 A firewall is a:
 
@@ -59,7 +59,7 @@ D. Only a monitor
 
 ---
 
-### Q6
+### 🔷 Q6
 
 SQL injection targets:
 
@@ -70,7 +70,7 @@ D. Only audio
 
 ---
 
-### Q7
+### 🔷 Q7
 
 STRIDE stands for:
 
@@ -81,7 +81,7 @@ D. Only a password policy
 
 ---
 
-### Q8
+### 🔷 Q8
 
 Penetration testing with full system knowledge is:
 
@@ -92,7 +92,7 @@ D. Only automated
 
 ---
 
-### Q9
+### 🔷 Q9
 
 Security testing should begin:
 
@@ -103,7 +103,7 @@ D. Only for bug fixes
 
 ---
 
-### Q10
+### 🔷 Q10
 
 Defense in depth means:
 
@@ -114,7 +114,7 @@ D. Only firewalls
 
 ---
 
-### Q11
+### 🔷 Q11
 
 OWASP ZAP is:
 
@@ -125,7 +125,7 @@ D. Only a unit test framework
 
 ---
 
-### Q12
+### 🔷 Q12
 
 Backup and restore are:
 
@@ -136,7 +136,7 @@ D. Only encryption
 
 ---
 
-### Q13
+### 🔷 Q13
 
 Security requirements must be:
 
@@ -147,7 +147,7 @@ D. Only informal
 
 ---
 
-### Q14
+### 🔷 Q14
 
 SSDLC means:
 
@@ -158,7 +158,7 @@ D. Only code review
 
 ---
 
-### Q15
+### 🔷 Q15
 
 DevSecOps means:
 
@@ -169,7 +169,7 @@ D. Only operations manages security
 
 ---
 
-### Q16
+### 🔷 Q16
 
 Fuzz testing sends:
 
@@ -180,7 +180,7 @@ D. Only login requests
 
 ---
 
-### Q17
+### 🔷 Q17
 
 Threat modeling should occur:
 
@@ -191,7 +191,7 @@ D. Only during maintenance
 
 ---
 
-### Q18
+### 🔷 Q18
 
 Encryption solves:
 
@@ -202,7 +202,7 @@ D. Only authentication
 
 ---
 
-### Q19
+### 🔷 Q19
 
 A high-likelihood, high-impact risk is:
 
@@ -213,7 +213,7 @@ D. Medium risk
 
 ---
 
-### Q20
+### 🔷 Q20
 
 Continuous security monitoring in production:
 
@@ -224,7 +224,7 @@ D. Only for development
 
 ---
 
-## Answer Key
+## ✔️ Answer Key
 
 | Q | Answer | Q | Answer | Q | Answer | Q | Answer |
 |---|--------|---|--------|---|--------|---|--------|

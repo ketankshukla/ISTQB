@@ -1,4 +1,4 @@
-# CTFL-AT Mock Exam 2
+# 📝 CTFL-AT Mock Exam 2
 
 **Instructions:**
 - 40 questions
@@ -8,7 +8,7 @@
 
 ---
 
-### Q1
+### 🔷 Q1
 
 Test design is the activity that:
 
@@ -19,7 +19,7 @@ D. Executes tests and records results
 
 ---
 
-### Q2
+### 🔷 Q2
 
 In agile, the tester's role during a retrospective is to:
 
@@ -30,7 +30,7 @@ D. Report defects found during the sprint
 
 ---
 
-### Q3
+### 🔷 Q3
 
 Which statement about the whole-team approach is TRUE?
 
@@ -41,7 +41,7 @@ D. Testers should work in a separate building to maintain independence
 
 ---
 
-### Q4
+### 🔷 Q4
 
 ATDD workflow starts with:
 
@@ -52,7 +52,7 @@ D. Deploying to production
 
 ---
 
-### Q5
+### 🔷 Q5
 
 Which layer of the test automation pyramid provides the FASTEST feedback?
 
@@ -63,7 +63,7 @@ D. Manual tests
 
 ---
 
-### Q6
+### 🔷 Q6
 
 A team wants to test whether a new API endpoint correctly processes requests. Which test level is MOST appropriate?
 
@@ -74,7 +74,7 @@ D. Performance load test
 
 ---
 
-### Q7
+### 🔷 Q7
 
 In BDD, a scenario outline allows:
 
@@ -85,7 +85,7 @@ D. Testing without any Given-When-Then structure
 
 ---
 
-### Q8
+### 🔷 Q8
 
 A test charter defines:
 
@@ -96,7 +96,7 @@ D. The entry criteria for test execution
 
 ---
 
-### Q9
+### 🔷 Q9
 
 Continuous Delivery extends CI by:
 
@@ -107,7 +107,7 @@ D. Eliminating the need for testing
 
 ---
 
-### Q10
+### 🔷 Q10
 
 Which of the following is a concrete example supporting Specification by Example?
 
@@ -118,7 +118,7 @@ D. "Performance should be acceptable"
 
 ---
 
-### Q11
+### 🔷 Q11
 
 A team has 50 unit tests, 30 integration tests, and 300 UI tests. What is the PRIMARY problem?
 
@@ -129,7 +129,7 @@ D. They should eliminate integration tests
 
 ---
 
-### Q12
+### 🔷 Q12
 
 In agile, non-functional testing should be:
 
@@ -140,7 +140,7 @@ D. Replaced with functional testing
 
 ---
 
-### Q13
+### 🔷 Q13
 
 A developer writes a unit test before writing the corresponding production code. This is:
 
@@ -151,7 +151,7 @@ D. Specification by Example
 
 ---
 
-### Q14
+### 🔷 Q14
 
 A system must exchange data with both legacy mainframe systems and modern cloud APIs. Testing this validates:
 
@@ -162,7 +162,7 @@ D. Maintainability
 
 ---
 
-### Q15
+### 🔷 Q15
 
 Which metric is MOST appropriate for measuring the efficiency of a transaction processing system?
 
@@ -173,7 +173,7 @@ D. Percentage of code coverage
 
 ---
 
-### Q16
+### 🔷 Q16
 
 In a walkthrough, the session is typically led by:
 
@@ -184,7 +184,7 @@ D. The scribe
 
 ---
 
-### Q17
+### 🔷 Q17
 
 For a range [100, 999], 3-value BVA tests which values?
 
@@ -195,7 +195,7 @@ D. 99, 101, 997, 1001
 
 ---
 
-### Q18
+### 🔷 Q18
 
 Which is a PRIMARY benefit of the page object model in test automation?
 
@@ -206,7 +206,7 @@ D. Automatically generates test cases from requirements
 
 ---
 
-### Q19
+### 🔷 Q19
 
 A web application is tested on Chrome, Firefox, Edge, and Safari. This tests:
 
@@ -217,7 +217,7 @@ D. Suitability
 
 ---
 
-### Q20
+### 🔷 Q20
 
 Which statement about exploratory testing is TRUE?
 
@@ -228,7 +228,7 @@ D. It cannot find defects that scripted tests miss
 
 ---
 
-### Q21
+### 🔷 Q21
 
 A system correctly rejects a transaction when the account balance is insufficient. This validates:
 
@@ -239,7 +239,7 @@ D. Efficiency
 
 ---
 
-### Q22
+### 🔷 Q22
 
 Which formula calculates availability?
 
@@ -250,7 +250,7 @@ D. Test cases passed / Total test cases
 
 ---
 
-### Q23
+### 🔷 Q23
 
 Before rolling out a test tool to all teams, the recommended step is:
 
@@ -261,7 +261,7 @@ D. Build custom integrations first
 
 ---
 
-### Q24
+### 🔷 Q24
 
 The PRIMARY advantage of a data-driven framework is:
 
@@ -272,7 +272,7 @@ D. Automatically fixes application defects
 
 ---
 
-### Q25
+### 🔷 Q25
 
 A tool that monitors application performance in production is a:
 
@@ -283,7 +283,7 @@ D. Defect tracking tool
 
 ---
 
-### Q26
+### 🔷 Q26
 
 A review where the author asks a colleague to quickly look over a draft is:
 
@@ -294,7 +294,7 @@ D. Technical Review
 
 ---
 
-### Q27
+### 🔷 Q27
 
 A system must handle 10,000 concurrent users during a product launch. The test should validate:
 
@@ -305,7 +305,7 @@ D. Cross-browser compatibility
 
 ---
 
-### Q28
+### 🔷 Q28
 
 For a "Shipping Method" field with values: Ground, Express, Overnight, Pickup, how many valid EP test cases?
 
@@ -316,7 +316,7 @@ D. 8
 
 ---
 
-### Q29
+### 🔷 Q29
 
 Which technique is BEST for testing a business rule with three interacting conditions?
 
@@ -327,7 +327,7 @@ D. State Transition Testing
 
 ---
 
-### Q30
+### 🔷 Q30
 
 A decision table has conditions: A (3 values), B (2 values), C (2 values), D (2 values). How many rules?
 
@@ -338,7 +338,7 @@ D. 24
 
 ---
 
-### Q31
+### 🔷 Q31
 
 A test plan states: "Testing stops when 95% of test cases pass." This describes:
 
@@ -349,7 +349,7 @@ D. Resumption criteria
 
 ---
 
-### Q32
+### 🔷 Q32
 
 Which is NOT a recommended practice for successful reviews?
 
@@ -360,7 +360,7 @@ D. Use checklists for formal reviews
 
 ---
 
-### Q33
+### 🔷 Q33
 
 After a database corruption event, the system restores data from backup. This demonstrates:
 
@@ -371,7 +371,7 @@ D. Availability
 
 ---
 
-### Q34
+### 🔷 Q34
 
 Which statement about test automation is FALSE?
 
@@ -382,7 +382,7 @@ D. ROI may be negative in the first year
 
 ---
 
-### Q35
+### 🔷 Q35
 
 The test environment becomes unavailable for 6 hours. According to standard test control practices:
 
@@ -393,7 +393,7 @@ D. Declare testing complete
 
 ---
 
-### Q36
+### 🔷 Q36
 
 For a range [5, 15], 3-value BVA tests:
 
@@ -404,7 +404,7 @@ D. 4, 6, 14, 16
 
 ---
 
-### Q37
+### 🔷 Q37
 
 A system must exchange data with both legacy and modern systems. Testing this validates:
 
@@ -415,7 +415,7 @@ D. Maintainability
 
 ---
 
-### Q38
+### 🔷 Q38
 
 In the review process, the stage where reviewers examine the document independently is:
 
@@ -426,7 +426,7 @@ D. Follow-up
 
 ---
 
-### Q39
+### 🔷 Q39
 
 A field accepts a date in format MM/DD/YYYY (year 1900-2024). Which is a valid 2-value BVA test for the year?
 
@@ -437,7 +437,7 @@ D. 1800, 1900, 2024, 2100
 
 ---
 
-### Q40
+### 🔷 Q40
 
 A team automates 500 hours of manual regression testing. Development takes 300 hours with 40 hours annual maintenance. Annual time saved is approximately:
 
@@ -448,4 +448,4 @@ D. 260 hours
 
 ---
 
-## End of Mock Exam 2
+## 📝 End of Mock Exam 2

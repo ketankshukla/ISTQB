@@ -1,10 +1,10 @@
-# CT-MBT Exam Strategy
+# ♟️ CT-MBT Exam Strategy
 
 This document contains tactics, time management advice, and trap-avoidance strategies for the CT-MBT exam.
 
 ---
 
-## Exam Format Overview
+## 🎓 Exam Format Overview
 
 | Parameter | Value |
 |-----------|-------|
@@ -16,7 +16,7 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## Time Budget
+## ⭐ Time Budget
 
 | Strategy | Time |
 |----------|------|
@@ -29,7 +29,7 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## Chapter Weighting and Focus Areas
+## ⭐ Chapter Weighting and Focus Areas
 
 | Chapter | Weight | Approx. Questions | Key Focus |
 |---------|--------|-------------------|-----------|
@@ -44,7 +44,7 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## K-Level Patterns
+## 🪜 K-Level Patterns
 
 | K-Level | Definition | How It Appears | Strategy |
 |---------|-----------|----------------|----------|
@@ -56,44 +56,44 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## Chapter-Specific Tactics
+## 🎓 Chapter-Specific Tactics
 
-### Chapter 1: Introduction to MBT
+### 🌟 Chapter 1: Introduction to MBT
 - Know the definition: MBT uses models for test generation
 - Understand benefits: automation, early defect detection, coverage, maintainability
 - Know limitations: model creation effort, expertise required, not suitable for all systems
 - Understand where MBT fits in the test process (test analysis and design)
 - Know the difference between online and offline MBT
 
-### Chapter 2: MBT Modeling
+### 📐 Chapter 2: MBT Modeling
 - Know model types: state transition, decision table, process model, feature model
 - Understand model notations: UML state machines, activity diagrams, BPMN
 - Know model quality attributes: correctness, representativeness, interpretability, maintainability
 - Understand the difference between control flow and data flow models
 - Know what makes a good test model (appropriate abstraction, test-relevant aspects)
 
-### Chapter 3: Test Selection Criteria
+### ✅ Chapter 3: Test Selection Criteria
 - Know coverage criteria: state coverage, transition coverage, path coverage
 - Understand boundary value testing on models
 - Know data-driven selection (partitioning, equivalence classes)
 - Understand the trade-off between coverage and number of test cases
 - Know random vs. systematic selection
 
-### Chapter 4: Test Implementation and Execution
+### 🔷 Chapter 4: Test Implementation and Execution
 - Know abstract vs. concrete test cases
 - Understand concretization (adding data, mapping to SUT)
 - Know test execution approaches: manual, automated, simulators
 - Understand oracle problem in MBT (expected outputs from the model)
 - Know how to analyze test failures (SUT bug, model bug, concretization bug)
 
-### Chapter 5: Evaluating and Deploying MBT
+### 🔷 Chapter 5: Evaluating and Deploying MBT
 - Know ROI factors: effort to create models vs. effort saved in test design
 - Understand pilot project approach
 - Know organizational factors: skills, culture, process maturity
 - Understand incremental deployment vs. big-bang
 - Know metrics for MBT success: defect detection, coverage, effort reduction
 
-### Chapter 6: MBT Tool Support
+### 🛠️ Chapter 6: MBT Tool Support
 - Know tool categories: modeling tools, test generation tools, execution tools
 - Understand tool selection criteria
 - Know integration with CI/CD pipelines
@@ -102,7 +102,7 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## Distractor Patterns
+## ⭐ Distractor Patterns
 
 | Pattern | Example | How to Spot It |
 |---------|---------|--------------|
@@ -114,7 +114,7 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## Before the Exam
+## 🎓 Before the Exam
 
 **1 Week Before:**
 - Re-read all `exam_traps.md` files
@@ -134,7 +134,7 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## During the Exam
+## 🎓 During the Exam
 
 **Question Reading:**
 1. Read the question stem completely
@@ -157,7 +157,7 @@ This document contains tactics, time management advice, and trap-avoidance strat
 
 ---
 
-## Post-Exam
+## 🎓 Post-Exam
 
 Whether you pass or not:
 - Note which questions were difficult

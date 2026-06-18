@@ -1,6 +1,6 @@
-# Chapter 2 — White-Box Test Techniques
+# 🎯 Chapter 2 — White-Box Test Techniques
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~25% (~11-12 questions out of 45)
 - **K-levels:** K2 (understand), K3 (apply), K4 (analyze)
@@ -8,7 +8,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -21,7 +21,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts
+## ⭐ Key Concepts
 
 - Control flow graphs (CFG): nodes, edges, decision nodes, junction nodes
 - Statement coverage: every statement executed at least once

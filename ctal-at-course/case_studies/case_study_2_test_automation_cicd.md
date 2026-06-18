@@ -1,6 +1,6 @@
-# Case Study 2 — Test Automation and CI/CD
+# 📂 Case Study 2 — Test Automation and CI/CD
 
-## Context
+## ⭐ Context
 
 You are the Technical Test Analyst for ShopFast, an e-commerce company. The team:
 - 6 developers, 2 testers, 1 DevOps engineer
@@ -12,7 +12,7 @@ You are the Technical Test Analyst for ShopFast, an e-commerce company. The team
   - Production bugs in checkout and payment flow
   - No automated deployment process
 
-## Task 1: Test Automation Strategy
+## ♟️ Task 1: Test Automation Strategy
 
 **Question:** Design a test automation strategy for ShopFast.
 
@@ -50,7 +50,7 @@ You are the Technical Test Analyst for ShopFast, an e-commerce company. The team
 
 ---
 
-## Task 2: CI/CD Pipeline
+## ⭐ Task 2: CI/CD Pipeline
 
 **Question:** Design a CI/CD pipeline for ShopFast.
 
@@ -128,7 +128,7 @@ jobs:
 
 ---
 
-## Task 3: Test Data Management
+## 🗂️ Task 3: Test Data Management
 
 **Question:** Design a test data strategy for the e-commerce platform.
 
@@ -178,7 +178,7 @@ afterEach(async () => {
 
 ---
 
-## Task 4: Handling the Test Pyramid
+## ⭐ Task 4: Handling the Test Pyramid
 
 **Question:** ShopFast currently has 300 E2E tests and 50 unit tests. The E2E suite is flaky and slow. How do you fix this?
 
@@ -214,7 +214,7 @@ afterEach(async () => {
 
 ---
 
-## Task 5: Production Monitoring
+## ⭐ Task 5: Production Monitoring
 
 **Question:** Design production monitoring for ShopFast.
 

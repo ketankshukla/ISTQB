@@ -1,6 +1,6 @@
-# Case Study 2 — Healthcare API Security Assessment
+# 📂 Case Study 2 — Healthcare API Security Assessment
 
-## Context
+## ⭐ Context
 
 You are the Security Test Consultant for HealthConnect, a healthcare provider implementing a new REST API for patient data exchange between hospitals, clinics, and mobile apps.
 
@@ -22,7 +22,7 @@ You are the Security Test Consultant for HealthConnect, a healthcare provider im
 
 ---
 
-## Task 1: API Security Test Design
+## 🎨 Task 1: API Security Test Design
 
 **Question:** Design security tests for the patient API.
 
@@ -71,7 +71,7 @@ You are the Security Test Consultant for HealthConnect, a healthcare provider im
 
 ---
 
-## Task 2: HIPAA Compliance Testing
+## ⭐ Task 2: HIPAA Compliance Testing
 
 **Question:** How do you test HIPAA compliance for the API?
 
@@ -113,7 +113,7 @@ Expected audit log entry:
 
 ---
 
-## Task 3: JWT Security Testing
+## 🔒 Task 3: JWT Security Testing
 
 **Question:** The API uses JWT tokens. Design specific JWT security tests.
 
@@ -141,7 +141,7 @@ Expected: Signature verification fails → 401
 
 ---
 
-## Task 4: Third-Party Integration Security
+## 🔒 Task 4: Third-Party Integration Security
 
 **Question:** The API integrates with an external pharmacy system. How do you test this integration's security?
 

@@ -1,8 +1,8 @@
-# Chapter 3 — Test Selection Criteria: Practice Questions
+# ❓ Chapter 3 — Test Selection Criteria: Practice Questions
 
 ---
 
-### Q1 (MBT-3.1, K2)
+### 🔷 Q1 (MBT-3.1, K2)
 
 State coverage requires that:
 
@@ -13,7 +13,7 @@ D. Every guard condition is false
 
 ---
 
-### Q2 (MBT-3.1, K2)
+### 🔷 Q2 (MBT-3.1, K2)
 
 Transition coverage is stronger than state coverage because it:
 
@@ -24,7 +24,7 @@ D. Is easier to achieve
 
 ---
 
-### Q3 (MBT-3.1, K2)
+### 🔷 Q3 (MBT-3.1, K2)
 
 Transition pair coverage (2-switch) tests:
 
@@ -35,7 +35,7 @@ D. Only the shortest paths
 
 ---
 
-### Q4 (MBT-3.2, K2)
+### 🔷 Q4 (MBT-3.2, K2)
 
 Boundary value testing on a model guard condition (age >= 18) would include:
 
@@ -46,7 +46,7 @@ D. Only ages within the valid partition
 
 ---
 
-### Q5 (MBT-3.2, K2)
+### 🔷 Q5 (MBT-3.2, K2)
 
 Equivalence partitioning for a guard condition divides input data into:
 
@@ -57,7 +57,7 @@ D. Groups based on the modeler's preference
 
 ---
 
-### Q6 (MBT-3.3, K2)
+### 🔷 Q6 (MBT-3.3, K2)
 
 Systematic test selection differs from random selection because systematic selection:
 
@@ -68,7 +68,7 @@ D. Requires no model
 
 ---
 
-### Q7 (MBT-3.1, K3)
+### 🔷 Q7 (MBT-3.1, K3)
 
 A model has a state that transitions back to itself (a loop). Achieving full path coverage is:
 
@@ -79,7 +79,7 @@ D. Only possible with manual testing
 
 ---
 
-### Q8 (MBT-3.1, K2)
+### 🔷 Q8 (MBT-3.1, K2)
 
 All-transitions coverage ensures:
 
@@ -90,7 +90,7 @@ D. Every guard condition is true
 
 ---
 
-### Q9 (MBT-3.2, K3)
+### 🔷 Q9 (MBT-3.2, K3)
 
 A decision table has a condition "Order Amount > $100". Boundary value tests would include:
 
@@ -101,7 +101,7 @@ D. Only $100
 
 ---
 
-### Q10 (MBT-3.3, K2)
+### 🔷 Q10 (MBT-3.3, K2)
 
 Random testing is MOST useful when:
 
@@ -112,7 +112,7 @@ D. The model is very small
 
 ---
 
-### Q11 (MBT-3.1, K2)
+### 🔷 Q11 (MBT-3.1, K2)
 
 A test case that covers the path: State A → State B → State C → State D achieves:
 
@@ -123,7 +123,7 @@ D. No coverage
 
 ---
 
-### Q12 (MBT-3.2, K2)
+### 🔷 Q12 (MBT-3.2, K2)
 
 Data flow coverage focuses on:
 
@@ -134,7 +134,7 @@ D. The programming language used
 
 ---
 
-### Q13 (MBT-3.4, K2)
+### 🔷 Q13 (MBT-3.4, K2)
 
 Longer test cases are MORE likely to:
 
@@ -145,7 +145,7 @@ D. Require fewer resources
 
 ---
 
-### Q14 (MBT-3.5, K3)
+### 🔷 Q14 (MBT-3.5, K3)
 
 A team has limited time and must choose coverage criteria for a critical payment system. The BEST approach is:
 
@@ -156,7 +156,7 @@ D. Full path coverage regardless of time constraints
 
 ---
 
-### Q15 (MBT-3.1, K2)
+### 🔷 Q15 (MBT-3.1, K2)
 
 The weakest coverage criterion among the following is:
 
@@ -167,7 +167,7 @@ D. Path coverage
 
 ---
 
-### Q16 (MBT-3.2, K2)
+### 🔷 Q16 (MBT-3.2, K2)
 
 Def-use pair coverage in data flow testing ensures:
 
@@ -178,7 +178,7 @@ D. Every transition is traversed
 
 ---
 
-### Q17 (MBT-3.3, K2)
+### 🔷 Q17 (MBT-3.3, K2)
 
 Which statement about random testing is TRUE?
 
@@ -189,7 +189,7 @@ D. It requires no model
 
 ---
 
-### Q18 (MBT-3.5, K2)
+### 🔷 Q18 (MBT-3.5, K2)
 
 Higher coverage criteria generally produce:
 
@@ -200,7 +200,7 @@ D. No additional tests
 
 ---
 
-### Q19 (MBT-3.1, K3)
+### 🔷 Q19 (MBT-3.1, K3)
 
 A model has 5 states and 8 transitions. The minimum number of test cases needed for transition coverage:
 
@@ -211,7 +211,7 @@ D. Cannot be determined
 
 ---
 
-### Q20 (MBT-3.2, K2)
+### 🔷 Q20 (MBT-3.2, K2)
 
 Applying equivalence partitioning to a model with guard condition "x > 0 && x <= 100" produces partitions:
 
@@ -222,104 +222,104 @@ D. Only one partition: valid values
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 
 **Rationale:** State coverage = every state visited at least once.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 
 **Rationale:** Transition coverage > state coverage because it tests transitions, not just state visits.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 
 **Rationale:** Transition pair = pairs of consecutive transitions.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 
 **Rationale:** Boundary values = at the edges: 17 (below), 18 (boundary), 19 (above).
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 
 **Rationale:** Equivalence partitioning = groups where behavior is equivalent.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 
 **Rationale:** Systematic = follows defined coverage criteria.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 
 **Rationale:** Loops = infinite paths = full path coverage usually infeasible.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 
 **Rationale:** All-transitions = every transition traversed at least once.
 
-### Q9
+### 🔷 Q9
 **Answer: B**
 
 **Rationale:** Boundary values at the threshold: just below, at, just above.
 
-### Q10
+### 🔷 Q10
 **Answer: B**
 
 **Rationale:** Random testing = explores unexpected behavior beyond defined criteria.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 
 **Rationale:** A→B→C→D covers transitions along that path.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 
 **Rationale:** Data flow = how variables are defined and used.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 
 **Rationale:** Longer tests = more likely to find sequence-related defects.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 
 **Rationale:** Critical system = stronger coverage (transition + boundaries) for high-risk areas.
 
-### Q15
+### 🔷 Q15
 **Answer: A**
 
 **Rationale:** State coverage is the weakest; path coverage is the strongest (when feasible).
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 
 **Rationale:** Def-use pairs = every definition connected to its uses.
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 
 **Rationale:** Random testing can find defects systematic approaches miss.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 
 **Rationale:** Higher coverage = more tests, but with diminishing returns.
 
-### Q19
+### 🔷 Q19
 **Answer: B**
 
 **Rationale:** Minimum tests for transition coverage depends on model structure; one test can cover multiple transitions.
 
-### Q20
+### 🔷 Q20
 **Answer: A**
 
 **Rationale:** Three partitions: x <= 0 (invalid), 0 < x <= 100 (valid), x > 100 (invalid).

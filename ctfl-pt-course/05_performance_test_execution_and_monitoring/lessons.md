@@ -1,10 +1,10 @@
-# Chapter 5 — Performance Test Execution and Monitoring: Lessons
+# 📘 Chapter 5 — Performance Test Execution and Monitoring: Lessons
 
 ---
 
-## 5.1 Execution Phases
+## ⭐ 5.1 Execution Phases
 
-### Pre-Test
+### 🔷 Pre-Test
 
 | Activity | Verification |
 |----------|-------------|
@@ -14,7 +14,7 @@
 | **Baseline capture** | Measure without load |
 | **Monitoring setup** | All tools collecting data |
 
-### During Test
+### 🔷 During Test
 
 | Activity | Verification |
 |----------|-------------|
@@ -23,7 +23,7 @@
 | **Data collection** | Metrics captured continuously |
 | **Anomaly detection** | Identify outliers or errors |
 
-### Post-Test
+### 🔷 Post-Test
 
 | Activity | Verification |
 |----------|-------------|
@@ -34,7 +34,7 @@
 
 ---
 
-## 5.2 Monitoring Tools
+## 🛠️ 5.2 Monitoring Tools
 
 | Tool Type | Purpose | Examples |
 |-----------|---------|----------|
@@ -46,9 +46,9 @@
 
 ---
 
-## 5.3 Resource Metrics
+## 📊 5.3 Resource Metrics
 
-### CPU Metrics
+### 📊 CPU Metrics
 
 | Metric | Description | Healthy |
 |--------|-------------|---------|
@@ -56,7 +56,7 @@
 | **Queue length** | Processes waiting | < 2x cores |
 | **Context switches** | CPU switching tasks | Stable |
 
-### Memory Metrics
+### 📊 Memory Metrics
 
 | Metric | Description | Healthy |
 |--------|-------------|---------|
@@ -64,7 +64,7 @@
 | **Paging** | Disk swapping | Minimal |
 | **Growth trend** | Over time | Flat |
 
-### Disk Metrics
+### 📊 Disk Metrics
 
 | Metric | Description | Healthy |
 |--------|-------------|---------|
@@ -72,7 +72,7 @@
 | **Queue depth** | Pending operations | < 2 |
 | **Latency** | Response time | < 10 ms |
 
-### Network Metrics
+### 📊 Network Metrics
 
 | Metric | Description | Healthy |
 |--------|-------------|---------|
@@ -82,7 +82,7 @@
 
 ---
 
-## 5.4 Anomaly Detection
+## ⭐ 5.4 Anomaly Detection
 
 | Anomaly | Possible Cause | Action |
 |---------|-------------|--------|
@@ -93,7 +93,7 @@
 
 ---
 
-## 5.5 Environment Management
+## 🗂️ 5.5 Environment Management
 
 | Consideration | Best Practice |
 |---------------|-------------|
@@ -104,9 +104,9 @@
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Execution Checklist
+### 💡 Worked Example 1: Execution Checklist
 
 | Phase | Check | Status |
 |-------|-------|--------|
@@ -117,7 +117,7 @@
 | Post-test | Data saved | Pass |
 | Post-test | Environment reset | Pass |
 
-### Worked Example 2: Metric Interpretation
+### 💡 Worked Example 2: Metric Interpretation
 
 | Metric | Value | Assessment |
 |--------|-------|------------|
@@ -126,7 +126,7 @@
 | Memory | 60%, flat | Good |
 | Disk queue | 5 | Bottleneck |
 
-### Worked Example 3: Anomaly Response
+### 💡 Worked Example 3: Anomaly Response
 
 | Time | Observation | Action |
 |------|-------------|--------|

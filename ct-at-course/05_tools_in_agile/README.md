@@ -1,6 +1,6 @@
-# Chapter 5 — Tools in Agile
+# 🛠️ Chapter 5 — Tools in Agile
 
-## Exam Weighting
+## 🎓 Exam Weighting
 
 - **Estimated weight:** ~10% (~4 questions out of 40)
 - **K-levels:** K2 (understand)
@@ -8,7 +8,7 @@
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this chapter, you should be able to:
 
@@ -19,7 +19,7 @@ By the end of this chapter, you should be able to:
 
 ---
 
-## Key Concepts
+## ⭐ Key Concepts
 
 - Test management tools in agile context
 - CI/CD tools: Jenkins, GitHub Actions, GitLab CI

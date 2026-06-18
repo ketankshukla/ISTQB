@@ -1,6 +1,6 @@
-# Chapter 6 — Using AI for Testing: Exam Traps
+# 🪤 Chapter 6 — Using AI for Testing: Exam Traps
 
-## Trap 1: Thinking AI Can Fully Replace Human Testers
+## 🪤 Trap 1: Thinking AI Can Fully Replace Human Testers
 
 **Trap:** AI testing tools are assistants, not replacements. Humans are needed for strategy, complex scenarios, and ethical judgment.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Trusting AI-Generated Tests Without Validation
+## 🪤 Trap 2: Trusting AI-Generated Tests Without Validation
 
 **Trap:** AI-generated tests may be incorrect, irrelevant, or miss important scenarios. Human review is essential.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Thinking All AI Testing Tools Are the Same
+## 🪤 Trap 3: Thinking All AI Testing Tools Are the Same
 
 **Trap:** AI testing tools vary in capability, accuracy, and suitability. Selection must match the specific testing need.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Ignoring Data Privacy with AI Testing Tools
+## 🪤 Trap 4: Ignoring Data Privacy with AI Testing Tools
 
 **Trap:** AI testing tools may send code, test data, or screenshots to cloud services for analysis.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Thinking Autonomous Testing Is Fully Autonomous Today
+## 🪤 Trap 5: Thinking Autonomous Testing Is Fully Autonomous Today
 
 **Trap:** True Level 5 autonomous testing does not exist. Current tools require human setup, scope definition, and result validation.
 

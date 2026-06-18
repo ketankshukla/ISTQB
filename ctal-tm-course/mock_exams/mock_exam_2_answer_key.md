@@ -1,4 +1,4 @@
-# Mock Exam 2 — Answer Key
+# 📝 Mock Exam 2 — Answer Key
 
 | Q | Answer | Rationale |
 |---|--------|-----------|
@@ -68,7 +68,7 @@
 | 64 | B | The cost of production defects ($300K) exceeds testing cost ($100K) — more testing may help. |
 | 65 | B | The trained moderator facilitates technical review meetings. |
 
-## Score Interpretation
+## ⭐ Score Interpretation
 
 | Score | Interpretation |
 |-------|-------------|

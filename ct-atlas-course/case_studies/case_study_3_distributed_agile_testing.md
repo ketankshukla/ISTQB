@@ -1,6 +1,6 @@
-# Case Study 3 — Distributed Agile Testing
+# 📂 Case Study 3 — Distributed Agile Testing
 
-## Context
+## ⭐ Context
 
 You are the Test Lead for GlobalBank, with teams in London, Mumbai, and New York building a trading platform.
 
@@ -14,7 +14,7 @@ You are the Test Lead for GlobalBank, with teams in London, Mumbai, and New York
 
 ---
 
-## Task 1: Communication Architecture
+## ⭐ Task 1: Communication Architecture
 
 **Question:** Design communication for distributed quality.
 
@@ -39,7 +39,7 @@ You are the Test Lead for GlobalBank, with teams in London, Mumbai, and New York
 
 ---
 
-## Task 2: Test Ownership Model
+## 📐 Task 2: Test Ownership Model
 
 **Question:** Define test ownership across locations.
 
@@ -58,7 +58,7 @@ You are the Test Lead for GlobalBank, with teams in London, Mumbai, and New York
 
 ---
 
-## Task 3: Cultural Adaptation
+## ⭐ Task 3: Cultural Adaptation
 
 **Question:** Address cultural differences in quality practices.
 
@@ -73,7 +73,7 @@ You are the Test Lead for GlobalBank, with teams in London, Mumbai, and New York
 
 ---
 
-## Task 4: Quality Metrics at Scale
+## 📊 Task 4: Quality Metrics at Scale
 
 **Question:** Track quality across distributed teams.
 

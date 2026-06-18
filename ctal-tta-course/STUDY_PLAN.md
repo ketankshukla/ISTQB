@@ -1,14 +1,14 @@
-# CTAL-TTA Study Plan
+# 🗓️ CTAL-TTA Study Plan
 
-## Overview
+## 🌟 Overview
 
 The CTAL-TTA exam covers risk-based testing (technical perspective), white-box techniques, static analysis, dynamic analysis, tools/automation, and non-functional testing. This plan covers all chapters, practice questions, case studies, and mock exams.
 
 ---
 
-## 4-Week Study Plan
+## 🗓️ 4-Week Study Plan
 
-### Week 1 — Chapters 1-2
+### 🔷 Week 1 — Chapters 1-2
 
 | Day | Task | Time |
 |-----|------|------|
@@ -20,7 +20,7 @@ The CTAL-TTA exam covers risk-based testing (technical perspective), white-box t
 | Day 6 | Attempt Chapter 2 `practice_questions.md` | 60 min |
 | Day 7 | Review Chapter 2 wrong answers | 45 min |
 
-### Week 2 — Chapters 3-4
+### 🔷 Week 2 — Chapters 3-4
 
 | Day | Task | Time |
 |-----|------|------|
@@ -32,7 +32,7 @@ The CTAL-TTA exam covers risk-based testing (technical perspective), white-box t
 | Day 13 | Review Chapter 4 wrong answers | 45 min |
 | Day 14 | **Checkpoint** — Review all chapter notes | 45 min |
 
-### Week 3 — Chapters 5-6 + Case Studies
+### 🔷 Week 3 — Chapters 5-6 + Case Studies
 
 | Day | Task | Time |
 |-----|------|------|
@@ -44,7 +44,7 @@ The CTAL-TTA exam covers risk-based testing (technical perspective), white-box t
 | Day 20 | Read all 3 case studies | 90 min |
 | Day 21 | **Checkpoint** — Re-read all `exam_traps.md` | 60 min |
 
-### Week 4 — Mock Exams and Final Review
+### 📝 Week 4 — Mock Exams and Final Review
 
 | Day | Task | Time |
 |-----|------|------|
@@ -58,7 +58,7 @@ The CTAL-TTA exam covers risk-based testing (technical perspective), white-box t
 
 ---
 
-## 3-Week Accelerated Plan
+## 🗓️ 3-Week Accelerated Plan
 
 | Week | Task |
 |------|------|
@@ -68,7 +68,7 @@ The CTAL-TTA exam covers risk-based testing (technical perspective), white-box t
 
 ---
 
-## Study Techniques
+## 📚 Study Techniques
 
 - **Active reading** — Draw control flow graphs, calculate coverage metrics by hand
 - **Worked examples** — Redo all worked examples until you can do them independently

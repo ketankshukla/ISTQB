@@ -1,6 +1,6 @@
-# Case Study 1 — ADAS Feature Testing
+# 📂 Case Study 1 — ADAS Feature Testing
 
-## Context
+## ⭐ Context
 
 You are the Test Lead for an Adaptive Cruise Control (ACC) system in a new vehicle platform.
 
@@ -14,7 +14,7 @@ You are the Test Lead for an Adaptive Cruise Control (ACC) system in a new vehic
 
 ---
 
-## Task 1: Test Strategy
+## ♟️ Task 1: Test Strategy
 
 **Question:** Design a test strategy for the ACC system.
 
@@ -35,7 +35,7 @@ You are the Test Lead for an Adaptive Cruise Control (ACC) system in a new vehic
 
 ---
 
-## Task 2: Test Case Design
+## 🎨 Task 2: Test Case Design
 
 **Question:** Design test cases using appropriate techniques.
 
@@ -69,7 +69,7 @@ You are the Test Lead for an Adaptive Cruise Control (ACC) system in a new vehic
 
 ---
 
-## Task 3: Fault Injection
+## ⭐ Task 3: Fault Injection
 
 **Question:** Design fault injection tests for safety.
 
@@ -84,7 +84,7 @@ You are the Test Lead for an Adaptive Cruise Control (ACC) system in a new vehic
 
 ---
 
-## Task 4: Coverage and Reporting
+## 📊 Task 4: Coverage and Reporting
 
 **Question:** Define coverage requirements and reporting.
 

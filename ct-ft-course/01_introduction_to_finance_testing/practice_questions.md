@@ -1,8 +1,8 @@
-# Chapter 1 — Introduction to Finance Testing: Practice Questions
+# ❓ Chapter 1 — Introduction to Finance Testing: Practice Questions
 
 ---
 
-### Q1 (FT-1.1, K1)
+### 🔷 Q1 (FT-1.1, K1)
 
 The PRIMARY objective of finance testing is to:
 
@@ -13,7 +13,7 @@ D. Eliminate all software defects
 
 ---
 
-### Q2 (FT-1.2, K1)
+### 🔷 Q2 (FT-1.2, K1)
 
 Which of the following is a type of financial system?
 
@@ -24,7 +24,7 @@ D. Weather application
 
 ---
 
-### Q3 (FT-1.3, K2)
+### 🔷 Q3 (FT-1.3, K2)
 
 A key difference between finance testing and general software testing is:
 
@@ -35,7 +35,7 @@ D. Finance testing has no stakeholders
 
 ---
 
-### Q4 (FT-1.4, K2)
+### 🔷 Q4 (FT-1.4, K2)
 
 Who is primarily concerned with verifying that a system captures complete audit trails?
 
@@ -46,7 +46,7 @@ D. Social Media Manager
 
 ---
 
-### Q5 (FT-1.1, K1)
+### 🔷 Q5 (FT-1.1, K1)
 
 Which characteristic is MOST critical for financial calculations?
 
@@ -57,7 +57,7 @@ D. Sound effects
 
 ---
 
-### Q6 (FT-1.2, K1)
+### 🔷 Q6 (FT-1.2, K1)
 
 A system that processes deposits, withdrawals, and account updates is a:
 
@@ -68,7 +68,7 @@ D. Payment gateway
 
 ---
 
-### Q7 (FT-1.3, K2)
+### 🔷 Q7 (FT-1.3, K2)
 
 Financial transaction data must be:
 
@@ -79,7 +79,7 @@ D. Stored in plain text
 
 ---
 
-### Q8 (FT-1.4, K2)
+### 🔷 Q8 (FT-1.4, K2)
 
 The stakeholder MOST concerned with order execution speed is the:
 
@@ -90,7 +90,7 @@ D. Customer Service Representative
 
 ---
 
-### Q9 (FT-1.1, K1)
+### 🔷 Q9 (FT-1.1, K1)
 
 Finance testing includes all of the following EXCEPT:
 
@@ -101,7 +101,7 @@ D. Graphic design evaluation
 
 ---
 
-### Q10 (FT-1.2, K2)
+### 🔷 Q10 (FT-1.2, K2)
 
 Which system type is responsible for settlement and clearing after a trade?
 
@@ -112,7 +112,7 @@ D. Customer portal
 
 ---
 
-### Q11 (FT-1.3, K2)
+### 🔷 Q11 (FT-1.3, K2)
 
 Using floating-point arithmetic for currency calculations is risky because:
 
@@ -123,7 +123,7 @@ D. It is not supported in modern languages
 
 ---
 
-### Q12 (FT-1.4, K2)
+### 🔷 Q12 (FT-1.4, K2)
 
 Which regulation requires internal controls over financial reporting?
 
@@ -134,7 +134,7 @@ D. HIPAA
 
 ---
 
-### Q13 (FT-1.1, K1)
+### 🔷 Q13 (FT-1.1, K1)
 
 A payment system that handles card transactions must comply with:
 
@@ -145,7 +145,7 @@ D. MiFID II
 
 ---
 
-### Q14 (FT-1.2, K2)
+### 🔷 Q14 (FT-1.2, K2)
 
 Which is NOT typically a front-office trading system function?
 
@@ -156,7 +156,7 @@ D. Algorithmic trading
 
 ---
 
-### Q15 (FT-1.3, K2)
+### 🔷 Q15 (FT-1.3, K2)
 
 The primary reason financial systems require immutable audit trails is:
 
@@ -167,7 +167,7 @@ D. To simplify code
 
 ---
 
-### Q16 (FT-1.4, K2)
+### 🔷 Q16 (FT-1.4, K2)
 
 A risk manager is MOST likely to be concerned with:
 
@@ -178,7 +178,7 @@ D. Font selection
 
 ---
 
-### Q17 (FT-1.1, K1)
+### 🔷 Q17 (FT-1.1, K1)
 
 Finance testing failure can result in:
 
@@ -189,7 +189,7 @@ D. Only customer complaints
 
 ---
 
-### Q18 (FT-1.2, K1)
+### 🔷 Q18 (FT-1.2, K1)
 
 SWIFT is primarily used for:
 
@@ -200,7 +200,7 @@ D. Email communication
 
 ---
 
-### Q19 (FT-1.3, K2)
+### 🔷 Q19 (FT-1.3, K2)
 
 High-frequency trading systems measure latency in:
 
@@ -211,7 +211,7 @@ D. Days
 
 ---
 
-### Q20 (FT-1.4, K2)
+### 🔷 Q20 (FT-1.4, K2)
 
 Who is responsible for ensuring a bank's software adheres to GDPR when handling customer financial data?
 
@@ -222,84 +222,84 @@ D. Only the customers
 
 ---
 
-## Answers and Rationales
+## ✔️ Answers and Rationales
 
-### Q1
+### 🔷 Q1
 **Answer: B**
 **Rationale:** Finance testing ensures accuracy, compliance, security, and performance of financial systems.
 
-### Q2
+### 🔷 Q2
 **Answer: B**
 **Rationale:** Core banking systems process deposits, withdrawals, and account updates.
 
-### Q3
+### 🔷 Q3
 **Answer: B**
 **Rationale:** Finance testing requires exact precision and mandatory regulatory compliance.
 
-### Q4
+### 🔷 Q4
 **Answer: B**
 **Rationale:** Compliance officers ensure audit trails meet regulatory requirements.
 
-### Q5
+### 🔷 Q5
 **Answer: B**
 **Rationale:** Precision in financial calculations is critical to avoid monetary discrepancies.
 
-### Q6
+### 🔷 Q6
 **Answer: B**
 **Rationale:** Core banking systems handle daily banking transactions and account updates.
 
-### Q7
+### 🔷 Q7
 **Answer: B**
 **Rationale:** Financial transactions must be immutable and timestamped for auditability.
 
-### Q8
+### 🔷 Q8
 **Answer: B**
 **Rationale:** Traders prioritize fast order execution to capitalize on market opportunities.
 
-### Q9
+### 🔷 Q9
 **Answer: D**
 **Rationale:** Graphic design is not a focus of finance testing.
 
-### Q10
+### 🔷 Q10
 **Answer: C**
 **Rationale:** Back office handles post-trade settlement, clearing, and reconciliation.
 
-### Q11
+### 🔷 Q11
 **Answer: B**
 **Rationale:** Floating-point arithmetic introduces rounding errors that compound at scale.
 
-### Q12
+### 🔷 Q12
 **Answer: B**
 **Rationale:** SOX (Sarbanes-Oxley) mandates internal controls over financial reporting.
 
-### Q13
+### 🔷 Q13
 **Answer: B**
 **Rationale:** PCI-DSS governs payment card data security.
 
-### Q14
+### 🔷 Q14
 **Answer: B**
 **Rationale:** Portfolio risk management is a middle-office function, not front office.
 
-### Q15
+### 🔷 Q15
 **Answer: B**
 **Rationale:** Immutable audit trails are required by regulators and law.
 
-### Q16
+### 🔷 Q16
 **Answer: B**
 **Rationale:** Risk managers focus on risk metrics like Value-at-Risk (VaR).
 
-### Q17
+### 🔷 Q17
 **Answer: B**
 **Rationale:** Finance testing failures can cause regulatory fines, financial loss, and legal liability.
 
-### Q18
+### 🔷 Q18
 **Answer: B**
 **Rationale:** SWIFT is the secure messaging network for international payments.
 
-### Q19
+### 🔷 Q19
 **Answer: C**
 **Rationale:** HFT systems require microsecond-level latency.
 
-### Q20
+### 🔷 Q20
 **Answer: B**
 **Rationale:** Compliance and Data Protection Officers ensure GDPR adherence.

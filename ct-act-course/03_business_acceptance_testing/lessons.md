@@ -1,14 +1,14 @@
-# Chapter 3 — Business Acceptance Testing (BAT): Lessons
+# 📘 Chapter 3 — Business Acceptance Testing (BAT): Lessons
 
 ---
 
-## 3.1 Planning Business Acceptance Testing
+## 🗓️ 3.1 Planning Business Acceptance Testing
 
-### What is Business Acceptance Testing (BAT)?
+### 🤝 What is Business Acceptance Testing (BAT)?
 
 BAT is acceptance testing performed to verify that a system meets business needs and requirements. It encompasses activities that validate the system from a business perspective, including UAT, pilot testing, and business process validation.
 
-### UAT Planning Steps
+### 🗓️ UAT Planning Steps
 
 **1. Define Scope:**
 - Which business processes will be tested?
@@ -54,9 +54,9 @@ Out of scope:
 
 ---
 
-## 3.2 Writing Acceptance Criteria
+## ✅ 3.2 Writing Acceptance Criteria
 
-### Acceptance Criteria for User Stories
+### ✅ Acceptance Criteria for User Stories
 
 **Format 1: Scenario-based (Given-When-Then)**
 
@@ -106,7 +106,7 @@ Acceptance Criteria:
 - [ ] Old password no longer works
 ```
 
-### Common Mistakes in Acceptance Criteria
+### ✅ Common Mistakes in Acceptance Criteria
 
 **Too vague:**
 ```
@@ -134,9 +134,9 @@ Good: Separate criteria for each feature
 
 ---
 
-## 3.3 UAT Execution
+## ⭐ 3.3 UAT Execution
 
-### UAT Process
+### 🔷 UAT Process
 
 ```
 1. Kickoff meeting (explain scope, schedule, procedures)
@@ -150,7 +150,7 @@ Good: Separate criteria for each feature
 9. Sign-off (formal acceptance or rejection)
 ```
 
-### Defect Management in UAT
+### 🐞 Defect Management in UAT
 
 | Severity | Definition | Example | Response Time |
 |----------|------------|---------|---------------|
@@ -159,7 +159,7 @@ Good: Separate criteria for each feature
 | **Medium** | Minor issue affecting usability | Button misaligned | Fix in next release |
 | **Low** | Cosmetic or enhancement request | Color doesn't match brand | Defer to backlog |
 
-### UAT Defect Report Template
+### 🐞 UAT Defect Report Template
 
 ```
 ID: UAT-045
@@ -179,9 +179,9 @@ Workaround: Remove apostrophe from address
 
 ---
 
-## 3.4 ATDD and BDD
+## ⭐ 3.4 ATDD and BDD
 
-### Acceptance Test-Driven Development (ATDD)
+### 🤝 Acceptance Test-Driven Development (ATDD)
 
 **Process:**
 ```
@@ -197,7 +197,7 @@ Workaround: Remove apostrophe from address
 - Tests serve as executable documentation
 - Reduces rework from misunderstood requirements
 
-### Behavior-Driven Development (BDD)
+### 🔷 Behavior-Driven Development (BDD)
 
 **Process:**
 ```
@@ -240,9 +240,9 @@ Then a "Minimum $50 required" error is shown
 
 ---
 
-## 3.5 Sign-off and Pilot
+## ⭐ 3.5 Sign-off and Pilot
 
-### The Sign-off Process
+### 🔷 The Sign-off Process
 
 **Prerequisites for sign-off:**
 - All critical and high defects resolved
@@ -263,7 +263,7 @@ Then a "Minimum $50 required" error is shown
 - Signatures and dates
 ```
 
-### Pilot Deployment
+### 🔷 Pilot Deployment
 
 **Purpose:** Deploy to a limited group before full rollout to validate in production.
 
@@ -285,9 +285,9 @@ Then a "Minimum $50 required" error is shown
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: UAT Test Case Design
+### 💡 Worked Example 1: UAT Test Case Design
 
 **Business Process:** Employee expense reimbursement
 
@@ -300,7 +300,7 @@ Then a "Minimum $50 required" error is shown
 | UAT-005 | Policy limit exceeded | Enter $500 meal expense | Error: "Exceeds $100 meal limit" | Medium |
 | UAT-006 | Monthly report | Finance generates report for March | Report shows all approved March expenses, totals correct | Medium |
 
-### Worked Example 2: ATDD Workshop
+### 💡 Worked Example 2: ATDD Workshop
 
 **Story:** "As a warehouse worker, I want to scan barcodes so that I can update inventory quickly."
 
@@ -331,7 +331,7 @@ When the worker reconnects it
 Then no scanned data is lost
 ```
 
-### Worked Example 3: Sign-off Decision Matrix
+### 💡 Worked Example 3: Sign-off Decision Matrix
 
 | Criterion | Threshold | Actual | Status |
 |-----------|-----------|--------|--------|

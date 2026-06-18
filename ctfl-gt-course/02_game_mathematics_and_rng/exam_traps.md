@@ -1,6 +1,6 @@
-# Chapter 2 — Game Mathematics and RNG Testing: Exam Traps
+# 🪤 Chapter 2 — Game Mathematics and RNG Testing: Exam Traps
 
-## Trap 1: Confusing Theoretical RTP with Actual RTP
+## 🪤 Trap 1: Confusing Theoretical RTP with Actual RTP
 
 **Trap:** Theoretical RTP is a mathematical calculation. Actual RTP fluctuates over time and approaches theoretical only over millions of plays.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Thinking Previous Outcomes Affect Future Outcomes
+## 🪤 Trap 2: Thinking Previous Outcomes Affect Future Outcomes
 
 **Trap:** In games with independent events (most gambling), previous outcomes do not influence future outcomes. This is the Gambler's Fallacy.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Confusing Uniformity with Randomness
+## 🪤 Trap 3: Confusing Uniformity with Randomness
 
 **Trap:** An RNG must be both random AND uniform. A sequence can be non-uniform but still random, or uniform but predictable.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Calculating RTP Without Accounting for All Combinations
+## 🪤 Trap 4: Calculating RTP Without Accounting for All Combinations
 
 **Trap:** To calculate RTP, you must account for ALL winning combinations and their probabilities, not just the highest-paying ones.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Thinking PRNGs Are Not Suitable for Gambling
+## 🪤 Trap 5: Thinking PRNGs Are Not Suitable for Gambling
 
 **Trap:** Properly implemented PRNGs are widely used and suitable for gambling if they are cryptographically secure and properly seeded.
 

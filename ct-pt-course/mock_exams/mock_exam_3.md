@@ -1,11 +1,11 @@
-# CT-PT Mock Exam 3
+# 📝 CT-PT Mock Exam 3
 
 **Instructions:**
 - 40 questions, 60 minutes, single best answer, no negative marking
 
 ---
 
-### Q1
+### 🔷 Q1
 
 The PRIMARY objective of performance testing is to:
 
@@ -16,7 +16,7 @@ D. Ensure the code compiles without errors
 
 ---
 
-### Q2
+### 🔷 Q2
 
 Latency is BEST described as:
 
@@ -27,7 +27,7 @@ D. The time to render a page in the browser
 
 ---
 
-### Q3
+### 🔷 Q3
 
 Resource utilization metrics include all EXCEPT:
 
@@ -38,7 +38,7 @@ D. Disk I/O queue length
 
 ---
 
-### Q4
+### 🔷 Q4
 
 During load testing, if response times increase proportionally with user count, this is:
 
@@ -49,7 +49,7 @@ D. A memory leak
 
 ---
 
-### Q5
+### 🔷 Q5
 
 A spike test is MOST appropriate when validating:
 
@@ -60,7 +60,7 @@ D. Memory stability over time
 
 ---
 
-### Q6
+### 🔷 Q6
 
 A system running at 100% CPU shows response times of 10 seconds. A likely tuning action is:
 
@@ -71,7 +71,7 @@ D. Reduce the test duration
 
 ---
 
-### Q7
+### 🔷 Q7
 
 Which is NOT a typical phase of a performance test execution?
 
@@ -82,7 +82,7 @@ D. Ramp-down
 
 ---
 
-### Q8
+### 🔷 Q8
 
 Application-level monitoring includes tracking:
 
@@ -93,7 +93,7 @@ D. Network cable lengths
 
 ---
 
-### Q9
+### 🔷 Q9
 
 A "hockey stick" curve on a response time graph (flat then sharply rising) indicates:
 
@@ -104,7 +104,7 @@ D. Optimal caching behavior
 
 ---
 
-### Q10
+### 🔷 Q10
 
 If the network utilization between the application and database servers is 80%, a likely issue is:
 
@@ -115,7 +115,7 @@ D. The database is underutilized
 
 ---
 
-### Q11
+### 🔷 Q11
 
 A code profiler shows method `calculateTax()` uses 45% of CPU time. The BEST action is:
 
@@ -126,7 +126,7 @@ D. Increase the database connection pool
 
 ---
 
-### Q12
+### 🔷 Q12
 
 The PRIMARY purpose of a baseline performance test is to:
 
@@ -137,7 +137,7 @@ D. Generate stress on the system
 
 ---
 
-### Q13
+### 🔷 Q13
 
 In a CI/CD pipeline, a performance smoke test should:
 
@@ -148,7 +148,7 @@ D. Only run before major releases
 
 ---
 
-### Q14
+### 🔷 Q14
 
 Cloud-based performance testing is LEAST suitable when:
 
@@ -159,7 +159,7 @@ D. Realistic network conditions are desired
 
 ---
 
-### Q15
+### 🔷 Q15
 
 A hand-coded performance test script is generally preferred over a recorded script when:
 
@@ -170,7 +170,7 @@ D. The test needs to be created in 5 minutes
 
 ---
 
-### Q16
+### 🔷 Q16
 
 Correlation is required in a script when:
 
@@ -181,7 +181,7 @@ D. The tester wants to use static data
 
 ---
 
-### Q17
+### 🔷 Q17
 
 A performance regression detected in CI/CD means:
 
@@ -192,7 +192,7 @@ D. The tool needs updating
 
 ---
 
-### Q18
+### 🔷 Q18
 
 Which is a benefit of using cloud-based load generators?
 
@@ -203,7 +203,7 @@ D. They never require security considerations
 
 ---
 
-### Q19
+### 🔷 Q19
 
 If all virtual users in a test use the exact same login credentials, the test is:
 
@@ -214,7 +214,7 @@ D. More efficient
 
 ---
 
-### Q20
+### 🔷 Q20
 
 A performance testing tool selection should consider all EXCEPT:
 
@@ -225,7 +225,7 @@ D. Integration with existing CI/CD and monitoring tools
 
 ---
 
-### Q21
+### 🔷 Q21
 
 The difference between speed testing and load testing is:
 
@@ -236,7 +236,7 @@ D. Load testing is only for databases
 
 ---
 
-### Q22
+### 🔷 Q22
 
 A system shows throughput of 500 TPS with 1,000 users and 1,000 TPS with 4,000 users. This is:
 
@@ -247,7 +247,7 @@ D. No scalability
 
 ---
 
-### Q23
+### 🔷 Q23
 
 During endurance testing, if memory grows from 4GB to 8GB over 48 hours and does not recover, this indicates:
 
@@ -258,7 +258,7 @@ D. Optimal performance
 
 ---
 
-### Q24
+### 🔷 Q24
 
 A report for executives should focus on:
 
@@ -269,7 +269,7 @@ D. Network packet captures
 
 ---
 
-### Q25
+### 🔷 Q25
 
 Which is an example of an environmental constraint during performance testing?
 
@@ -280,7 +280,7 @@ D. The test scripts are too long
 
 ---
 
-### Q26
+### 🔷 Q26
 
 A warm-up period in a performance test should:
 
@@ -291,7 +291,7 @@ D. Be the longest phase of the test
 
 ---
 
-### Q27
+### 🔷 Q27
 
 Load testing a login page with 5,000 users where each user logs in once and then logs out is:
 
@@ -302,7 +302,7 @@ D. A volume test
 
 ---
 
-### Q28
+### 🔷 Q28
 
 If a test run shows errors starting exactly when the database connection pool reaches its maximum, the conclusion is:
 
@@ -313,7 +313,7 @@ D. The network is too slow
 
 ---
 
-### Q29
+### 🔷 Q29
 
 Monitoring thread pool usage in the application server helps identify:
 
@@ -324,7 +324,7 @@ D. User interface rendering issues
 
 ---
 
-### Q30
+### 🔷 Q30
 
 A performance test result showing consistent P90 response times over 4 hours but steadily increasing P99 times suggests:
 
@@ -335,7 +335,7 @@ D. The system is perfectly stable
 
 ---
 
-### Q31
+### 🔷 Q31
 
 Which is a valid reason to use a read replica database during load testing?
 
@@ -346,7 +346,7 @@ D. To reduce the number of load generators needed
 
 ---
 
-### Q32
+### 🔷 Q32
 
 If disk I/O is at 100% and response time is high, but CPU and memory are low, the bottleneck is:
 
@@ -357,7 +357,7 @@ D. Memory
 
 ---
 
-### Q33
+### 🔷 Q33
 
 A performance test tool that generates load by simulating real browser behavior is called:
 
@@ -368,7 +368,7 @@ D. A code coverage tool
 
 ---
 
-### Q34
+### 🔷 Q34
 
 The PRIMARY risk of running performance tests directly against production is:
 
@@ -379,7 +379,7 @@ D. It produces less accurate results
 
 ---
 
-### Q35
+### 🔷 Q35
 
 A test shows 100% CPU on the application server and 30% CPU on the database. The tuning priority should be:
 
@@ -390,7 +390,7 @@ D. Add more RAM to the database
 
 ---
 
-### Q36
+### 🔷 Q36
 
 A bell-shaped arrival pattern is typical for:
 
@@ -401,7 +401,7 @@ D. Systems with only one user
 
 ---
 
-### Q37
+### 🔷 Q37
 
 During a performance test, monitoring the database for slow queries is BEST done using:
 
@@ -412,7 +412,7 @@ D. Manual code review during the test
 
 ---
 
-### Q38
+### 🔷 Q38
 
 A team observes that response times improve after the first few minutes of a test, even though load is constant. The likely explanation is:
 
@@ -423,7 +423,7 @@ D. Users are leaving the system
 
 ---
 
-### Q39
+### 🔷 Q39
 
 If a load test shows errors but the server CPU is only 40%, a likely cause is:
 
@@ -434,7 +434,7 @@ D. The response times are excellent
 
 ---
 
-### Q40
+### 🔷 Q40
 
 Performance testing should begin:
 
@@ -445,4 +445,4 @@ D. Only when the full production environment is available
 
 ---
 
-## End of Mock Exam 3
+## 📝 End of Mock Exam 3

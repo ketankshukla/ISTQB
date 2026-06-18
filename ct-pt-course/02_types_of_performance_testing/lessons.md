@@ -1,14 +1,14 @@
-# Chapter 2 — Types of Performance Testing: Lessons
+# 📘 Chapter 2 — Types of Performance Testing: Lessons
 
 ---
 
-## 2.1 Load Testing
+## ⭐ 2.1 Load Testing
 
-### Definition
+### 🔷 Definition
 
 **Load Testing** evaluates system behavior under expected normal and peak load conditions. The goal is to validate that the system meets performance requirements under anticipated workload.
 
-### Objectives
+### 🎯 Objectives
 
 - Validate response time under normal load
 - Verify throughput targets are met
@@ -16,14 +16,14 @@
 - Validate system capacity for expected users
 - Establish baseline for regression testing
 
-### Test Conditions
+### 🔷 Test Conditions
 
 - **Normal load:** Expected average daily usage
 - **Peak load:** Maximum expected usage (e.g., Black Friday, tax deadline)
 - **Duration:** Typically short to medium (minutes to hours)
 - **Ramp-up:** Gradual increase to target load
 
-### Example Scenarios
+### 💡 Example Scenarios
 
 **Scenario 1 — E-Commerce Normal Load:**
 - 1,000 concurrent users browsing
@@ -37,7 +37,7 @@
 - 500 users checking out simultaneously
 - Expected response time: < 3 seconds
 
-### Key Metrics
+### 📊 Key Metrics
 
 - Response time at different load levels
 - Throughput (orders per minute)
@@ -46,13 +46,13 @@
 
 ---
 
-## 2.2 Stress Testing
+## ⭐ 2.2 Stress Testing
 
-### Definition
+### 🔷 Definition
 
 **Stress Testing** evaluates system behavior beyond normal operational capacity, often to the point of failure. The goal is to find the breaking point and observe recovery.
 
-### Objectives
+### 🎯 Objectives
 
 - Determine the maximum capacity before failure
 - Identify how the system fails (graceful degradation vs. crash)
@@ -60,13 +60,13 @@
 - Find resource limits (memory, connections, threads)
 - Validate error handling under extreme load
 
-### Test Conditions
+### 🔷 Test Conditions
 
 - **Load:** Beyond expected maximum (150%, 200%, 300% of peak)
 - **Duration:** Until failure or significant degradation
 - **Ramp-up:** Rapid increase beyond normal capacity
 
-### Types of Stress Testing
+### 🧪 Types of Stress Testing
 
 **Gradual Stress:**
 - Slowly increase load beyond normal until failure
@@ -78,7 +78,7 @@
 - Tests immediate reaction to overload
 - Example: Suddenly send 100,000 requests in 1 minute
 
-### Example Scenario
+### 💡 Example Scenario
 
 **Banking Application:**
 - Normal peak: 5,000 concurrent users
@@ -89,7 +89,7 @@
   - At 15,000: Application server crashes
 - **Recovery test:** After crash, restart and verify data integrity
 
-### Key Metrics
+### 📊 Key Metrics
 
 - Breaking point (users/requests at failure)
 - Behavior at failure (error messages, data loss, recovery time)
@@ -97,13 +97,13 @@
 
 ---
 
-## 2.3 Endurance Testing (Soak Testing)
+## ⭐ 2.3 Endurance Testing (Soak Testing)
 
-### Definition
+### 🔷 Definition
 
 **Endurance Testing** (also called Soak Testing) evaluates system behavior under a typical workload sustained over an extended period. The goal is to identify issues that develop over time.
 
-### Objectives
+### 🎯 Objectives
 
 - Detect memory leaks
 - Identify resource exhaustion over time
@@ -111,13 +111,13 @@
 - Discover log file growth causing disk issues
 - Validate stability for systems that run continuously
 
-### Test Conditions
+### 🔷 Test Conditions
 
 - **Load:** Normal expected load (not peak, not minimal)
 - **Duration:** Extended — hours, days, or even weeks
 - **Monitoring:** Continuous resource monitoring
 
-### Issues Typically Found
+### 🔷 Issues Typically Found
 
 **Memory Leaks:**
 - Memory usage grows steadily over time
@@ -137,7 +137,7 @@
 - Cache grows without bounds
 - Performance degrades as cache lookup slows
 
-### Example Scenario
+### 💡 Example Scenario
 
 **SaaS Application:**
 - 500 concurrent users for 72 hours
@@ -150,7 +150,7 @@
 
 **Analysis:** Memory growing at ~160MB/hour = memory leak. Developers investigate and find unclosed session objects.
 
-### Key Metrics
+### 📊 Key Metrics
 
 - Memory usage trend over time
 - Resource utilization trends
@@ -159,13 +159,13 @@
 
 ---
 
-## 2.4 Spike Testing
+## ⭐ 2.4 Spike Testing
 
-### Definition
+### 🔷 Definition
 
 **Spike Testing** evaluates system behavior when subjected to sudden, extreme increases in load. The goal is to determine how the system handles unexpected surges.
 
-### Objectives
+### 🎯 Objectives
 
 - Test reaction to sudden traffic surges
 - Validate auto-scaling mechanisms
@@ -173,13 +173,13 @@
 - Identify circuit breakers and throttling behavior
 - Ensure the system doesn't crash on sudden demand
 
-### Test Conditions
+### 🔷 Test Conditions
 
 - **Load pattern:** Sudden jump from low/normal to very high
 - **Duration:** Short spike, then return to normal
 - **Frequency:** May repeat to test recovery between spikes
 
-### Example Scenarios
+### 💡 Example Scenarios
 
 **News Website (Breaking News):**
 - Normal: 1,000 users/minute
@@ -196,7 +196,7 @@
 - Spike: 20,000 API calls/minute when content goes viral
 - Observe: Does rate limiting kick in? Is the database overwhelmed?
 
-### Key Metrics
+### 📊 Key Metrics
 
 - Response time during spike
 - Error rate during spike
@@ -205,13 +205,13 @@
 
 ---
 
-## 2.5 Volume Testing
+## ⭐ 2.5 Volume Testing
 
-### Definition
+### 🔷 Definition
 
 **Volume Testing** evaluates system performance with large volumes of data. The goal is to test how the system behaves when databases and files are very large.
 
-### Objectives
+### 🎯 Objectives
 
 - Test database performance with millions of records
 - Evaluate query execution time with large datasets
@@ -219,13 +219,13 @@
 - Identify indexing and partitioning needs
 - Validate storage and retrieval of large objects
 
-### Test Conditions
+### 🔷 Test Conditions
 
 - **Data volume:** Production-scale or larger datasets
 - **Transactions:** Normal transaction mix but on large data
 - **Duration:** Long enough to process significant data volumes
 
-### Example Scenarios
+### 💡 Example Scenarios
 
 **E-Commerce Search:**
 - Database: 10 million products
@@ -241,7 +241,7 @@
 - Test: Upload 10,000 files of varying sizes
 - Measure: Upload speed, storage efficiency, retrieval speed
 
-### Key Metrics
+### 📊 Key Metrics
 
 - Query execution time vs. data size
 - Index efficiency (full table scans vs. index scans)
@@ -250,13 +250,13 @@
 
 ---
 
-## 2.6 Scalability Testing
+## ⭐ 2.6 Scalability Testing
 
-### Definition
+### 🔷 Definition
 
 **Scalability Testing** evaluates the system's ability to scale by adding resources or users. The goal is to determine whether the system scales linearly, sub-linearly, or not at all.
 
-### Objectives
+### 🎯 Objectives
 
 - Determine if adding resources improves performance proportionally
 - Identify scaling bottlenecks (database, network, architecture)
@@ -264,7 +264,7 @@
 - Validate vertical scaling (adding CPU/memory)
 - Evaluate cost-effectiveness of scaling
 
-### Types of Scalability
+### 🧪 Types of Scalability
 
 **Vertical Scaling (Scale Up):**
 - Adding more CPU, memory, or disk to a single server
@@ -276,7 +276,7 @@
 - Requires architecture support (load balancing, statelessness)
 - Example: Add 5 more application servers
 
-### Scalability Patterns
+### 🔷 Scalability Patterns
 
 **Linear Scaling:**
 - Double resources → Double capacity
@@ -290,7 +290,7 @@
 - Adding resources doesn't help
 - Indicates a bottleneck that isn't resource-related (e.g., single-threaded code)
 
-### Example Scenario
+### 💡 Example Scenario
 
 **Web Application Scaling Test:**
 
@@ -306,7 +306,7 @@
 - 4→8 servers: Sub-linear (only 1.5x users despite doubling servers)
 - Bottleneck likely at database or shared cache layer
 
-### Key Metrics
+### 📊 Key Metrics
 
 - Throughput per resource unit
 - Response time vs. resources added
@@ -314,13 +314,13 @@
 
 ---
 
-## 2.7 Configuration Testing
+## ⚙️ 2.7 Configuration Testing
 
-### Definition
+### 🔷 Definition
 
 **Configuration Testing** evaluates system performance under different hardware, software, or network configurations. The goal is to find the optimal setup for performance.
 
-### Objectives
+### 🎯 Objectives
 
 - Compare different hardware configurations
 - Evaluate different software versions or settings
@@ -328,7 +328,7 @@
 - Determine optimal JVM/database settings
 - Validate performance on different platforms
 
-### Example Scenarios
+### 💡 Example Scenarios
 
 **Database Configuration:**
 - Test with different connection pool sizes (20, 50, 100, 200)
@@ -344,7 +344,7 @@
 - Test with different load balancer algorithms (round-robin, least-connections)
 - Measure: Which gives best response time?
 
-### Key Metrics
+### 📊 Key Metrics
 
 - Performance comparison across configurations
 - Resource efficiency per configuration
@@ -352,20 +352,20 @@
 
 ---
 
-## 2.8 Isolation Testing
+## ⭐ 2.8 Isolation Testing
 
-### Definition
+### 🔷 Definition
 
 **Isolation Testing** evaluates individual components in isolation to identify which component contributes to performance issues. The goal is to pinpoint the problematic component.
 
-### Objectives
+### 🎯 Objectives
 
 - Determine if a bottleneck is in the application, database, or network
 - Test components with controlled inputs
 - Eliminate variables to isolate the cause
 - Validate third-party component performance
 
-### Example Scenario
+### 💡 Example Scenario
 
 **Slow Login:**
 - Test database query alone: 50ms
@@ -373,7 +373,7 @@
 - Test full login flow: 2,000ms
 - **Analysis:** Neither database nor service alone is slow. The issue is likely in integration (network between them, serialization, or session management).
 
-### Key Metrics
+### 📊 Key Metrics
 
 - Component response time in isolation
 - Component resource usage in isolation
@@ -381,9 +381,9 @@
 
 ---
 
-## 2.9 Test Type Selection
+## 🧪 2.9 Test Type Selection
 
-### When to Use Each Test Type
+### 🧪 When to Use Each Test Type
 
 | Test Type | Use When | Don't Use When |
 |-----------|----------|----------------|
@@ -396,7 +396,7 @@
 | Configuration | Optimizing setup | The configuration is fixed |
 | Isolation | Pinpointing a bottleneck | System-level validation |
 
-### Combining Test Types
+### 🧪 Combining Test Types
 
 A comprehensive performance test strategy often combines multiple types:
 
@@ -410,9 +410,9 @@ A comprehensive performance test strategy often combines multiple types:
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Selecting the Right Test Type
+### 💡 Worked Example 1: Selecting the Right Test Type
 
 **Scenario:** A hospital's patient records system must handle 500 concurrent users during the day. The system runs 24/7 and must not lose data.
 
@@ -424,7 +424,7 @@ A comprehensive performance test strategy often combines multiple types:
 
 **NOT recommended:** Spike testing (unless emergencies cause sudden surges)
 
-### Worked Example 2: Stress vs. Endurance
+### 💡 Worked Example 2: Stress vs. Endurance
 
 **Scenario:** A team wants to test a new payment gateway.
 
@@ -444,7 +444,7 @@ A comprehensive performance test strategy often combines multiple types:
 - Stress = how much can it handle before breaking?
 - Endurance = does it stay healthy over time at normal load?
 
-### Worked Example 3: Scalability Analysis
+### 💡 Worked Example 3: Scalability Analysis
 
 **Scenario:** A messaging app wants to scale from 10,000 to 100,000 concurrent users.
 

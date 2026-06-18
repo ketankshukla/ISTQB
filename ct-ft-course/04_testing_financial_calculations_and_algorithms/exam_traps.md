@@ -1,6 +1,6 @@
-# Chapter 4 — Testing Financial Calculations and Algorithms: Exam Traps
+# 🪤 Chapter 4 — Testing Financial Calculations and Algorithms: Exam Traps
 
-## Trap 1: Using Float for Currency
+## 🪤 Trap 1: Using Float for Currency
 
 **Trap:** Floating-point types introduce rounding errors. Currency must use integer (cents) or decimal types.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Confusing Clean and Dirty Bond Prices
+## 🪤 Trap 2: Confusing Clean and Dirty Bond Prices
 
 **Trap:** Clean price = without accrued interest. Dirty price = with accrued interest. Trades settle at dirty price.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Thinking VaR is the Maximum Loss
+## 🪤 Trap 3: Thinking VaR is the Maximum Loss
 
 **Trap:** VaR is a percentile (e.g., 95%), not the maximum possible loss. Losses can exceed VaR.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Ignoring Day Count Conventions
+## 🪤 Trap 4: Ignoring Day Count Conventions
 
 **Trap:** Different bonds use different day count conventions (30/360, Actual/Actual). Using the wrong convention gives wrong accrued interest.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Testing Only Happy Paths for Calculations
+## 🪤 Trap 5: Testing Only Happy Paths for Calculations
 
 **Trap:** Financial calculation testing must include zero, negative, maximum, and boundary values.
 

@@ -1,14 +1,14 @@
-# Chapter 1 — Testing Process: Lessons
+# 📘 Chapter 1 — Testing Process: Lessons
 
 ---
 
-## 1.1 Test Planning
+## 🗓️ 1.1 Test Planning
 
-### What Is Test Planning?
+### 🗓️ What Is Test Planning?
 
 Test planning is the activity of defining the test objectives and specifying the test activities required to meet those objectives. It involves deciding what to test, how to test it, who will do the testing, and when it will be done.
 
-### Test Planning Activities
+### 🗓️ Test Planning Activities
 
 **1. Determine the Scope of Testing:**
 - Identify what will be tested and what will not be tested
@@ -50,7 +50,7 @@ Test planning is the activity of defining the test objectives and specifying the
 - Entry criteria: conditions that must be met before testing can begin
 - Exit criteria: conditions that must be met before testing can be considered complete
 
-### Test Plan Template Contents
+### 🗓️ Test Plan Template Contents
 
 A typical test plan includes:
 
@@ -71,7 +71,7 @@ A typical test plan includes:
 15. **Risks and Contingencies**
 16. **Approvals** — who must approve the plan
 
-### Test Policy vs. Test Strategy vs. Test Plan vs. Test Approach
+### ♟️ Test Policy vs. Test Strategy vs. Test Plan vs. Test Approach
 
 | Document | Level | Purpose | Audience |
 |----------|-------|---------|----------|
@@ -87,9 +87,9 @@ A typical test plan includes:
 
 ---
 
-## 1.2 Test Monitoring and Control
+## ⭐ 1.2 Test Monitoring and Control
 
-### Test Monitoring
+### 🔷 Test Monitoring
 
 **Definition:** The activity that tracks test progress against the test plan.
 
@@ -138,7 +138,7 @@ A typical test plan includes:
 | Critical defects open | 0 | 2 | Red |
 | Requirements coverage | 100% | 88% | Yellow |
 
-### Test Control
+### 🔷 Test Control
 
 **Definition:** The activity that compares actual progress against the plan and takes corrective action when necessary.
 
@@ -177,7 +177,7 @@ A typical test plan includes:
 - **Monitoring** = observing and measuring (information gathering)
 - **Control** = acting on the information (decision-making and action)
 
-### Example: Test Monitoring and Control in Practice
+### 💡 Example: Test Monitoring and Control in Practice
 
 **Week 3 of System Testing:**
 
@@ -204,9 +204,9 @@ A typical test plan includes:
 
 ---
 
-## 1.3 Test Analysis and Design
+## 🔬 1.3 Test Analysis and Design
 
-### Test Analysis
+### 🔬 Test Analysis
 
 **Definition:** The activity that identifies test conditions by analyzing the test basis.
 
@@ -231,7 +231,7 @@ A typical test plan includes:
   - Expired reset link → appropriate error message
   - Successful password reset → user can log in with new password
 
-### Test Design
+### 🎨 Test Design
 
 **Definition:** The activity that transforms test conditions into test cases and test procedures.
 
@@ -262,7 +262,7 @@ A typical test plan includes:
 - Test environment requirements
 - Traceability between test cases and requirements
 
-### Test Implementation
+### 🔷 Test Implementation
 
 **Definition:** The activity that creates test procedures, assembles test suites, and prepares test data and environment.
 
@@ -294,9 +294,9 @@ A typical test plan includes:
 
 ---
 
-## 1.4 Test Execution and Completion
+## ⭐ 1.4 Test Execution and Completion
 
-### Test Execution
+### 🔷 Test Execution
 
 **Definition:** The activity that runs test cases and records results.
 
@@ -320,7 +320,7 @@ A typical test plan includes:
    - Report progress to stakeholders
    - Escalate issues as needed
 
-### Test Completion
+### 🔷 Test Completion
 
 **Definition:** The activity that summarizes test results, evaluates test objectives, and documents lessons learned.
 
@@ -346,7 +346,7 @@ A typical test plan includes:
    - What should be done differently next time?
    - Update organizational test process accordingly
 
-### Entry and Exit Criteria
+### ✅ Entry and Exit Criteria
 
 **Entry Criteria (Examples):**
 - Requirements are approved and baselined
@@ -367,9 +367,9 @@ A typical test plan includes:
 
 ---
 
-## Worked Examples
+## 💡 Worked Examples
 
-### Worked Example 1: Risk-Based Test Prioritization
+### 💡 Worked Example 1: Risk-Based Test Prioritization
 
 **Scenario:** A banking system has three modules being tested:
 - Module A: Funds transfer (high risk — financial transactions)
@@ -389,7 +389,7 @@ A typical test plan includes:
 2. Allocate 30% of testing effort to Module B
 3. Allocate 10% of testing effort to Module C
 
-### Worked Example 2: Estimation Using Wideband Delphi
+### 💡 Worked Example 2: Estimation Using Wideband Delphi
 
 **Scenario:** Estimate effort for testing a new e-commerce system.
 

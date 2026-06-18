@@ -1,6 +1,6 @@
-# Chapter 1 — Introduction to Security Testing: Exam Traps
+# 🪤 Chapter 1 — Introduction to Security Testing: Exam Traps
 
-## Trap 1: Confusing Confidentiality and Integrity
+## 🪤 Trap 1: Confusing Confidentiality and Integrity
 
 **Trap:** Confidentiality = keeping data secret. Integrity = keeping data accurate and unmodified. They are distinct properties.
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Trap 2: Thinking Functional Testing Covers Security
+## 🪤 Trap 2: Thinking Functional Testing Covers Security
 
 **Trap:** Functional testing verifies that features work correctly; it does not verify they resist attacks.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Trap 3: Confusing Authentication and Authorization
+## 🪤 Trap 3: Confusing Authentication and Authorization
 
 **Trap:** Authentication verifies identity. Authorization determines what the identified user can do.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Trap 4: Thinking Security Is Only About Confidentiality
+## 🪤 Trap 4: Thinking Security Is Only About Confidentiality
 
 **Trap:** Security encompasses confidentiality, integrity, AND availability. Focusing only on one misses the bigger picture.
 
@@ -64,7 +64,7 @@
 
 ---
 
-## Trap 5: Confusing Threats and Vulnerabilities
+## 🪤 Trap 5: Confusing Threats and Vulnerabilities
 
 **Trap:** A threat is a potential attacker or event. A vulnerability is a weakness that can be exploited. They are not the same.
 

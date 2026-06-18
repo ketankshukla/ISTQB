@@ -1,10 +1,10 @@
-# CT-API — Certified Tester in API Testing
+# 🔌 CT-API — Certified Tester in API Testing
 
 Complete self-study course for the ISTQB CT-API certification exam.
 
 ---
 
-## Exam Facts
+## 🎓 Exam Facts
 
 | Parameter | Value |
 |-----------|-------|
@@ -19,7 +19,7 @@ Complete self-study course for the ISTQB CT-API certification exam.
 
 ---
 
-## Course Structure
+## ⭐ Course Structure
 
 ```
 ct-api-course/
@@ -81,7 +81,7 @@ ct-api-course/
 
 ---
 
-## How to Use This Course
+## ⭐ How to Use This Course
 
 1. **Start with `STUDY_PLAN.md`** — Pick the 4-week or accelerated schedule
 2. **Read chapters in order** — Each chapter builds on the previous
@@ -94,7 +94,7 @@ ct-api-course/
 
 ---
 
-## Target Audience
+## ⭐ Target Audience
 
 - Testers who work with APIs (REST, SOAP, GraphQL)
 - API test automation engineers
@@ -104,7 +104,7 @@ ct-api-course/
 
 ---
 
-## Key Topics Covered
+## ⭐ Key Topics Covered
 
 - **API fundamentals** — REST, SOAP, GraphQL, HTTP methods, status codes
 - **API test design** — Equivalence partitioning, boundary value, state transition for APIs
@@ -116,7 +116,7 @@ ct-api-course/
 
 ---
 
-## Question Bank Summary
+## ❓ Question Bank Summary
 
 | Source | Questions |
 |--------|-----------|
@@ -126,7 +126,7 @@ ct-api-course/
 
 ---
 
-## Syllabus Coverage
+## 📊 Syllabus Coverage
 
 This course covers all learning objectives from the ISTQB CT-API v1.0 syllabus:
 
@@ -139,7 +139,7 @@ This course covers all learning objectives from the ISTQB CT-API v1.0 syllabus:
 
 ---
 
-## Prerequisites
+## ⭐ Prerequisites
 
 - **CTFL (Foundation Level)** — Required for exam registration
 - **HTTP/REST basics** — Understanding of requests, responses, headers
@@ -148,7 +148,7 @@ This course covers all learning objectives from the ISTQB CT-API v1.0 syllabus:
 
 ---
 
-## Recommended Hands-On Practice
+## ❓ Recommended Hands-On Practice
 
 - **Postman** — For manual API testing practice
 - **REST Assured / Supertest** — For automation practice
@@ -156,6 +156,6 @@ This course covers all learning objectives from the ISTQB CT-API v1.0 syllabus:
 
 ---
 
-## Tip for Maximum Exam Success
+## 🎓 Tip for Maximum Exam Success
 
 > **Do not just read. Practice.** After each chapter, answer the practice questions without looking at the answers. Then read the rationales to understand WHY the correct answer is right and WHY the distractors are wrong. This active recall is the single most effective study technique for multiple-choice exams.
