@@ -1,1 +1,11 @@
 *.pdf
+
+# Next.js / Node
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+.vercel
+
+# Generated at build time
+public/search/
