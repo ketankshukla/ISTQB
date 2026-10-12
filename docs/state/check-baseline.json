@@ -1,0 +1,119 @@
+{
+  "absent": [
+    "formatter configuration (tool defaults used)"
+  ],
+  "commit": "b4dff168dc4fcfe5f535170e28c04b28284caa20",
+  "lint": {
+    "app/[course]/[...slug]/page.tsx": 1,
+    "archive/_site_template/assets/app.js": 9,
+    "archive/assets/app.js": 11,
+    "archive/ct-act-course/assets/app.js": 9,
+    "archive/ct-ai-course/assets/app.js": 9,
+    "archive/ct-api-course/assets/app.js": 9,
+    "archive/ct-at-course/assets/app.js": 9,
+    "archive/ct-atlas-course/assets/app.js": 9,
+    "archive/ct-aut-course/assets/app.js": 9,
+    "archive/ct-bd-course/assets/app.js": 9,
+    "archive/ct-ft-course/assets/app.js": 9,
+    "archive/ct-game-course/assets/app.js": 9,
+    "archive/ct-genai-course/assets/app.js": 9,
+    "archive/ct-mat-course/assets/app.js": 9,
+    "archive/ct-mbt-course/assets/app.js": 9,
+    "archive/ct-pt-course/assets/app.js": 9,
+    "archive/ct-qdo-course/assets/app.js": 9,
+    "archive/ct-sec-course/assets/app.js": 9,
+    "archive/ct-ste-course/assets/app.js": 9,
+    "archive/ct-tae-course/assets/app.js": 9,
+    "archive/ct-tas-course/assets/app.js": 9,
+    "archive/ct-ut-course/assets/app.js": 9,
+    "archive/ctal-at-course/assets/app.js": 9,
+    "archive/ctal-ta-course/assets/app.js": 9,
+    "archive/ctal-tm-course/assets/app.js": 9,
+    "archive/ctal-tta-course/assets/app.js": 9,
+    "archive/ctfl-at-course/assets/app.js": 9,
+    "archive/ctfl-aut-course/assets/app.js": 9,
+    "archive/ctfl-course/assets/app.js": 9,
+    "archive/ctfl-gt-course/assets/app.js": 9,
+    "archive/ctfl-mbt-course/assets/app.js": 9,
+    "archive/ctfl-pt-course/assets/app.js": 9,
+    "archive/ctfl-sec-course/assets/app.js": 9,
+    "lib/content.ts": 1
+  },
+  "recorded": "2026-10-12T07:17:20Z",
+  "roots": {
+    ".": {
+      "install": "pass",
+      "lockfile": "pass",
+      "malware": "pass",
+      "shape": "npm",
+      "tests": "no tests",
+      "vuln": "fail"
+    }
+  },
+  "run": {
+    "env": {
+      "CI": "true"
+    },
+    "step_limit_seconds": 1800
+  },
+  "schema": 1,
+  "steps": {
+    "format": "fail",
+    "lint": "fail",
+    "secrets": "pass"
+  },
+  "tools": {
+    "format": {
+      "node": {
+        "<standard>": "prettier 3.9.8 (standard)"
+      },
+      "python": "ruff 0.16.8 (standard)"
+    },
+    "lint": {
+      "node": {
+        "<standard>": "minimal configuration, standard 2.0.0-rc.2"
+      },
+      "python": "ruff 0.16.8 (standard)"
+    }
+  },
+  "unformatted": [
+    "app/[course]/[...slug]/page.tsx",
+    "archive/_site_template/assets/app.js",
+    "archive/assets/app.js",
+    "archive/ct-act-course/assets/app.js",
+    "archive/ct-ai-course/assets/app.js",
+    "archive/ct-api-course/assets/app.js",
+    "archive/ct-at-course/assets/app.js",
+    "archive/ct-atlas-course/assets/app.js",
+    "archive/ct-aut-course/assets/app.js",
+    "archive/ct-bd-course/assets/app.js",
+    "archive/ct-ft-course/assets/app.js",
+    "archive/ct-game-course/assets/app.js",
+    "archive/ct-genai-course/assets/app.js",
+    "archive/ct-mat-course/assets/app.js",
+    "archive/ct-mbt-course/assets/app.js",
+    "archive/ct-pt-course/assets/app.js",
+    "archive/ct-qdo-course/assets/app.js",
+    "archive/ct-sec-course/assets/app.js",
+    "archive/ct-ste-course/assets/app.js",
+    "archive/ct-tae-course/assets/app.js",
+    "archive/ct-tas-course/assets/app.js",
+    "archive/ct-ut-course/assets/app.js",
+    "archive/ctal-at-course/assets/app.js",
+    "archive/ctal-ta-course/assets/app.js",
+    "archive/ctal-tm-course/assets/app.js",
+    "archive/ctal-tta-course/assets/app.js",
+    "archive/ctfl-at-course/assets/app.js",
+    "archive/ctfl-aut-course/assets/app.js",
+    "archive/ctfl-course/assets/app.js",
+    "archive/ctfl-gt-course/assets/app.js",
+    "archive/ctfl-mbt-course/assets/app.js",
+    "archive/ctfl-pt-course/assets/app.js",
+    "archive/ctfl-sec-course/assets/app.js",
+    "components/CourseShell.tsx",
+    "components/MasterShell.tsx",
+    "components/Pager.tsx",
+    "lib/content.ts",
+    "scripts/build-search.mjs"
+  ]
+}
